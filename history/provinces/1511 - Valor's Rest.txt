@@ -10,7 +10,7 @@ controller = H03
 add_core = H03
 
 culture = culture_cenarion
-religion = religion_elune
+religion = religion_druidic
 
 hre = no
 trade_goods = army_supplies

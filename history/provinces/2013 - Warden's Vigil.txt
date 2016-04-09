@@ -28,20 +28,12 @@ religion = religion_fel
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = A14
-controller = A14
-add_core = A14
+owner = F04
+controller = F04
+add_core = F04
 remove_core = A41
 remove_core = A16
 culture = culture_kul_tiran
 religion = religion_arcane 
 }
-
-# Cataclysm
-631.1.1 = { 
-remove_core = A14
-owner = F04
-controller = F04
-}
-
 

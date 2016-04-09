@@ -27,22 +27,37 @@ religion = religion_fel
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
-owner = A14
-controller = A14
-add_core = A14
+600.1.1 = {
+owner = F04
+controller = F04
+add_core = F04
 remove_core = A41
 remove_core = A16
 culture = culture_arathi
-religion = religion_church_of_the_light
- }
+religion = religion_church_of_the_light 
+}
+
+# Stromic population of this village leave to help mainland Stromgarde
+622.1.1 = {
+owner = xxx
+controller = xxx
+base_tax = 3
+manpower = 2
+base_production = 3
+}
+
+630.11.11 = {
+owner = xxx
+controller = xxx
+culture = culture_arathi
+}
 
 # Cataclysm
 631.1.1 = { 
 owner = A15
 controller = A15
 add_core = A15
-remove_core = A14
 culture = culture_kul_tiran
+manpower = 3
 }
 

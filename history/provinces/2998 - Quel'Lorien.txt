@@ -21,7 +21,7 @@ trade_goods = fur
 add_core = E49
 owner = E49  
 controller = E49 
-capital = "Quel'danil Lodge"
+capital = "Quel'Danil Lodge"
 religion = religion_church_of_the_light
 culture = culture_high_elf
 }

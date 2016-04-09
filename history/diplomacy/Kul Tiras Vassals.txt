@@ -10,9 +10,9 @@ march = {
 }
 
 # Kul Tiras - Theramore   # Jaina in Dalaran so...
-union = {
-	first = A14
-	second = A23
-	start_date = 632.1.1
-	end_date = 640.1.1
-}
+#union = {
+#	first = A14
+#	second = A23
+#	start_date = 632.1.1
+#	end_date = 640.1.1
+#}
