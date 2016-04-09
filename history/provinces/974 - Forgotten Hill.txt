@@ -29,13 +29,18 @@ religion = religion_fel
 
 # Beyond the Dark Portal
 600.1.1 = {
-owner = A14
-controller = A14
-add_core = A14
+owner = F04
+controller = F04
+add_core = F04
 remove_core = A41
 remove_core = A16
 culture = culture_arathi
 religion = religion_church_of_the_light 
+}
+
+# Much of the Stromic population on this island leave to help mainland Stromgarde
+622.1.1 = {
+base_manpower = 1
 }
 
 # Cataclysm
@@ -43,7 +48,6 @@ religion = religion_church_of_the_light
 owner = F37
 controller = F37
 add_core = F37
-remove_core = A14
 culture = culture_forsaken
 religion = religion_shadow
 }

@@ -32,6 +32,7 @@ religion = religion_loa
 owner = A14
 controller = A14
 add_core = A14
+add_core = F04
 remove_core = A63
 remove_core = A16
 culture = culture_kul_tiran

@@ -10,7 +10,7 @@ base_manpower = 6
 base_production = 5
 
 culture = culture_cenarion
-religion = religion_elune
+religion = religion_druidic
 
 hre = no
 trade_goods = army_supplies
