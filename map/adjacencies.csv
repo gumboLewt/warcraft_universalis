@@ -61,36 +61,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2150;913;;;-1;-1;-1;-1;Dusky Bank to Brackwell Pumpkin Patch
 903;661;;;-1;-1;-1;-1;The Darkened Bank to Ridgepoint Tower
 2178;661;;;-1;-1;-1;-1;The Darkened Retreat to Ridgepoint Tower
-2160;2159;;;-1;-1;-1;-1;Jin'jii Ruins to Crackling Ruins
-2160;2183;;;-1;-1;-1;-1;Jin'jii Ruins to Jin'jii Shore
-879;2183;;;-1;-1;-1;-1;Misty Reed Post to Jin'jii Shore
-879;2184;;;-1;-1;-1;-1;Misty Reed Post to Stagalbog Island
-879;2185;sea;301;-1;-1;-1;-1;Misty Reed Post to Mistreed Island
-949;594;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Stagalbog
-949;2159;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Crackling Ruins
-949;2186;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Crackling Banks
-949;547;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Marshtide Watch
-949;2188;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Murky Banks
-2155;2186;;;-1;-1;-1;-1;Murky Pools to Crackling Banks
-2155;2159;;;-1;-1;-1;-1;Murky Pools to Crackling Ruins
-2155;547;;;-1;-1;-1;-1;Murky Pools to Marshtide Watch
-2155;2156;;;-1;-1;-1;-1;Murky Pools to The Quagmire
-2155;2180;;;-1;-1;-1;-1;Murky Pools to Stonard Bog
-2155;707;;;-1;-1;-1;-1;Murky Pools to Stonard
-2156;547;;;-1;-1;-1;-1;The Quagmire to Marshtide Watch
-2156;2180;;;-1;-1;-1;-1;The Quagmire to Stonard Bog
-2156;994;;;-1;-1;-1;-1;The Quagmire to The Bloodmire
-2156;2187;;;-1;-1;-1;-1;The Quagmire to Hills of the Quagmire
-994;2179;;;-1;-1;-1;-1;The Bloodmire to Hills of the Bloodmire
-994;725;;;-1;-1;-1;-1;The Bloodmire to Misty Valley
-994;864;;;-1;-1;-1;-1;The Bloodmire to Splinterspear Junction
-994;2181;;;-1;-1;-1;-1;The Bloodmire to Splinterspear Bog
-994;707;;;-1;-1;-1;-1;The Bloodmire to Stonard
-994;2180;;;-1;-1;-1;-1;The Bloodmire to Stonard Bog
-638;547;;;-1;-1;-1;-1;Sorrowmurk to Marshtide Watch
-638;2188;;;-1;-1;-1;-1;Sorrowmurk to Murky Banks
-638;2158;;;-1;-1;-1;-1;Sorrowmurk to The Murky Shore
-638;885;;;-1;-1;-1;-1;Sorrowmurk to Bodpaddle
+879;2185;sea;301;-1;-1;-1;-1;Misty Reed Post to Mistreed Island (Swamp of Sorrows)
+949;594;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Stagalbog  (Swamp of Sorrows)
+949;2159;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Crackling Ruins  (Swamp of Sorrows)
+949;2186;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Crackling Banks (Swamp of Sorrows)
+949;547;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Marshtide Watch (Swamp of Sorrows)
+949;2188;;;-1;-1;-1;-1;Temple of Atal'Hakkar to Murky Banks (Swamp of Sorrows)
 2158;2189;sea;304;-1;-1;-1;-1;The Murky Shore to Murky Islands
 885;1995;sea;304;-1;-1;-1;-1;Bogpaddle to Bogpaddle Islands
 2139;587;;;-1;-1;-1;-1;Goldshire Farms to Crystal Lake
