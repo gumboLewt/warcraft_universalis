@@ -18,7 +18,7 @@ capital 			= 1
 	heir = { 
 		name = "Garrosh" 
 		dynasty = "Hellscream" 
-		adm = 3
+		adm = 4
 		dip = 3
 		mil = 4
 	}
@@ -27,7 +27,19 @@ capital 			= 1
 
 617.1.1 = { 
 	religion = religion_ancestral
-historical_friend = A48
+	historical_friend = A48
+	capital = 1420
+}
+
+618.1.1 = {
+	monarch = { 
+		name = ""  
+		dynasty = "Gargok" 
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+	capital = 1351
 }
 
 627.1.1 = {
@@ -42,12 +54,10 @@ historical_friend = A48
 
 633.1.1 = {
 	monarch = { 
-		name = "Warsong Council"  
-		adm = 4
-		dip = 3
-		mil = 4
-		regent = yes
+		name = ""  
+		dynasty = "Gargok" 
+		adm = 2
+		dip = 1
+		mil = 3
 	}
 }
-
-
