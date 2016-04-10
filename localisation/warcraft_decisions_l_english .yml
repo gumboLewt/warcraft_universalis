@@ -74,3 +74,7 @@ l_english:
  pandaria_horde_desc: "As members of the Horde we are obligated to join our allies in the defense of Horde territory in Pandaria."
  kalimdor_horde_title: "Defend Kalimdor"
  kalimdor_horde_desc: "As members of the Horde we are obligated to join our neighbouring allies in the defense of Horde territory in Kalimdor."
+ 
+ # Theramore decisions
+ theramore_nation_title: "Form Theramore"
+ theramore_nation_desc: "Build a great human-elven-dwarven country on eastern shores of Kalimdor"
