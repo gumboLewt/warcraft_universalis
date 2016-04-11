@@ -69,6 +69,7 @@ l_english:
  culture_bloodmaul: "Bloodmaul"
  culture_gronn: "Gronn"
  culture_warmaul: "Warmaul"
+ culture_spirestone: "Spirestone"
  
  culture_group_draenei: "Draenei"
  culture_shattrathi: "Shattrathi"
@@ -237,6 +238,8 @@ l_english:
  culture_foulweald: "Foulweald"
  culture_bloodtooth: "Bloodtooth"
  culture_barkskin: "Barkskin"
+ culture_blackmaw: "Blackmaw"
+ culture_bristlelimb: "Bristlelimb"
  
  culture_group_wolfvar: "Wolvar"
  culture_bloodpaw: "Bloodpaw"

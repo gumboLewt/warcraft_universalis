@@ -27,7 +27,7 @@ religion = religion_fel
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+603.1.1 = { 
 owner = B03
 controller = B03
 culture = culture_red

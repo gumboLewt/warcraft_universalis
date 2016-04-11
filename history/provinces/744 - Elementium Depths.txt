@@ -1,9 +1,9 @@
 # 744
 is_city = yes
 
-base_tax = 4
-base_manpower = 3
-base_production = 4
+base_tax = 3
+base_manpower = 2
+base_production = 3
 
 
 culture = culture_n_zoth
@@ -21,11 +21,17 @@ owner = A43
 controller = A43
 add_core = A43
 culture = culture_dark_iron
+base_tax = 4
+base_manpower = 3
+base_production = 4
 }
 
 632.1.1 = { 
 owner = XXX
 controller = XXX
 culture = culture_n_zoth
+base_tax = 3
+base_manpower = 2
+base_production = 3
 }
 

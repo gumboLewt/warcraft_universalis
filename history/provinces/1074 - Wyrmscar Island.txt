@@ -10,8 +10,10 @@ culture = culture_ghost
 religion = religion_sect_of_dragons
 
 hre = no
-trade_goods = grain
+trade_goods = artifacts
 
-
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 

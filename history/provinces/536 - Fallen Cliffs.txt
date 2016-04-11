@@ -38,9 +38,9 @@ religion = religion_ancestral
 
 # Cataclysm
 631.1.1 = { 
-owner = A30 
-controller = A30
-add_core = A30
+owner = A43
+controller = A43
+add_core = A43
 culture = culture_dark_iron
-religion = religion_arcane 
+religion = religion_old_gods
 }

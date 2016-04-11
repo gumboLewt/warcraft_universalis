@@ -1,9 +1,9 @@
 # 1388
 is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 2
+base_manpower = 2
+base_production = 2
 
 owner = B99
 controller = B99
@@ -13,8 +13,7 @@ culture = culture_hatefury
 religion = religion_fel
 
 hre = no
-trade_goods = grain
-
+trade_goods = artifacts
 
 
 

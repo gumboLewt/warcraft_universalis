@@ -12,7 +12,7 @@ culture = culture_sentinel
 religion = religion_elune
 
 hre = no
-trade_goods = grain
+trade_goods = ashenvale_lumber
 
 
 

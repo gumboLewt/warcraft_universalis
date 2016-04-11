@@ -1,4 +1,4 @@
-# 1941 Winterax Stronghold
+# 1941 Winterax Stronghold (Troll Ruins Found in area, so Winterax tribe will be here till second war)
 
 is_city = yes
 
@@ -18,21 +18,8 @@ hre = no
 trade_goods = army_supplies
 
 
-
-
-# Fall of Stormwind
-597.1.1 = { 
-owner = XXX
-controller = XXX
-remove_core = A76 
-}
-
-597.11.11 = { 
-owner = XXX
-controller = XXX 
-}
-
-598.1.1 = { 
+598.1.1 = {
+remove_core = A76  
 owner = A40
 controller = A40
 add_core = A40

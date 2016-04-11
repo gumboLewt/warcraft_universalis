@@ -6,11 +6,11 @@ base_manpower = 1
 base_production = 1
 
 
-culture = culture_nazja
+culture = culture_zoram
 religion = religion_old_gods
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 
@@ -23,4 +23,6 @@ trade_goods = grain
 	add_core = A56 
 	culture = culture_karaborian
 	religion = religion_light_of_the_naaru
+        trade_goods = gemstones
+        base_manpower = 2
 }

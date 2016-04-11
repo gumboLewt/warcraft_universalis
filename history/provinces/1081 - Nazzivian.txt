@@ -14,7 +14,7 @@ culture = culture_nazzivian
 religion = religion_fel
 
 hre = no
-trade_goods = grain
+trade_goods = fel
 
 
 

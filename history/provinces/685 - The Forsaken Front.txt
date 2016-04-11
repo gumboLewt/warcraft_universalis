@@ -33,10 +33,11 @@ trade_goods = grain
 
 # Rise of the Qiraji
 622.1.1 = { 
-	owner = F52
-	controller = F52
+	owner = F55
+	controller = F55
 	add_core = F52
-	add_core = E14
+	add_core = F55
+culture = culture_lordaeron
 }
 
 # Cataclysm

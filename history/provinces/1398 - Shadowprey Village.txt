@@ -14,7 +14,18 @@ controller = B23
 add_core = B23
 
 hre = no
-trade_goods = grain
+trade_goods = fish
+
+622.1.1 = { 
+owner = A70
+controller = A70
+add_core = A70 
+culture = culture_darkspear
+religion = religion_loa
+base_tax = 3
+base_manpower = 3
+base_production = 13
+}
 
 
 

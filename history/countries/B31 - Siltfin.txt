@@ -1,7 +1,7 @@
-# Siltfin
+# Siltfin/Blacksilt
 government 			= war_tribe
 mercantilism 		= 0.1
 technology_group 	= tech_depths
 religion			= religion_old_gods
 primary_culture 	= culture_nerglish
-capital 			= 1
+capital 			= 1082

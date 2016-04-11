@@ -1,9 +1,9 @@
 # 1397
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 2
+base_manpower = 2
+base_production = 2
 
 owner = B21
 controller = B21
@@ -13,7 +13,16 @@ culture = culture_gelkis
 religion = religion_ancestral
 
 hre = no
-trade_goods = grain
+trade_goods = fossils
+
+622.1.1 = { 
+owner = B90
+controller = B90
+add_core = B90 
+culture = culture_moarg
+religion = religion_fel
+base_manpower = 3
+}
 
 
 

@@ -27,6 +27,6 @@ trade_goods = army_supplies
 # Beyond the Dark Portal
 600.1.1 = {
 	add_core = A65
-	add_core = F01
+	add_core = G20
 	remove_core = E98
 }

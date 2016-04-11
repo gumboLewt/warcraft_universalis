@@ -27,17 +27,12 @@ religion = religion_fel
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
-owner = XXX
-controller = XXX
-remove_core = A45
-religion = religion_old_gods
-culture = culture_n_zoth 
-}
-
-630.11.11 = {
-owner = XXX
-controller = XXX
+603.1.1 = { 
+owner = F08
+controller = F08
+add_core = F08
+religion = religion_geomancy
+culture = culture_bloodeye
 }
 
 # Cataclysm
@@ -46,6 +41,7 @@ owner = A43
 controller = A43
 add_core = A43
 culture = culture_twilight
+religion = religion_old_gods
 }
 
 632.1.1 = { 
