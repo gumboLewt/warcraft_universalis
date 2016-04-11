@@ -1,10 +1,9 @@
-# 727 Deathkneel
+# 3059 Northern Vandermar
 is_city = yes
 
 add_core = A08
 owner = A08
 controller = A08
-capital = "Vandermar Village"
 
 base_tax = 3
 base_manpower = 3
@@ -30,4 +29,10 @@ trade_goods = grain
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 	remove_core = A08
+}
+
+# Rise of the Qiraji
+622.1.1 = {
+	owner = XXX
+	controller = XXX
 }
