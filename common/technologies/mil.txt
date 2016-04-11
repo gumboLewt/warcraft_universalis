@@ -33,11 +33,10 @@ technology = {
 	enable = troll_slayer_cav                    #lvl1 cavalry b,
 	
 	# tech_orc
-	enable = orc_grunt
-	enable = orc_worg_cav
-	enable = orc_axebite
-	enable = orc_frostwolflancer_cav
-	enable = orc_invader
+	enable = orc_grunt                           #lvl1 infantry a,
+	enable = orc_invader                         #lvl1 infantry b,
+	enable = orc_worg_cav                        #lvl1 cavalry a,
+	enable = orc_frostwolflancer_cav             #lvl1 cavalry b,
 	
 	# tech_tauren
 	enable = tauren_plainhunter
@@ -46,8 +45,10 @@ technology = {
 	enable = tauren_warshaman
 	
 	# tech_undead
-	enable = forsaken_recruit
-	enable = forsaken_lancers_cav
+	enable = forsaken_recruit                    #lvl1 infantry a,
+	enable = forsaken_dreadguard                 #lvl1 infantry b,
+	enable = forsaken_lancers_cav                #lvl1 cavalry a,
+	enable = forsaken_deathguard_cav             #lvl1 cavalry b,
 	
 	# tech_goblin
 	enable = goblin_grunt
@@ -319,10 +320,10 @@ technology = {
 	enable = troll_warraptor_cav                 #lvl2 cavalry b,
 	
 	# tech_orc
-	enable = orc_skullsplitter
-	enable = orc_armorworg_cav
-	enable = orc_warrreaver
-	enable = orc_reaper
+	enable = orc_skullsplitter                   #lvl2 infantry a,
+	enable = orc_warreaver                       #lvl2 infantry b,
+	enable = orc_armorworg_cav                   #lvl2 cavalry a,
+	enable = orc_axebite_cav                     #lvl2 cavalry b,
 	
 	# tech_tauren
 	enable = tauren_cenarion
@@ -331,11 +332,10 @@ technology = {
 	enable = tauren_stonetotem
 	
 	# tech_undead
-	enable = forsaken_footman
-	enable = forsaken_ranger
-	enable = forsaken_dreadchargers_cav
-	enable = forsaken_dreadguard
-	enable = forsaken_mountedranger_cav
+	enable = forsaken_footman                    #lvl2 infantry a,
+	enable = forsaken_ranger                     #lvl2 infantry b,
+	enable = forsaken_dreadchargers_cav          #lvl2 cavalry a,
+	enable = forsaken_mountedranger_cav          #lvl2 cavalry b,
 	
 	# tech_goblin
 	enable = goblin_bruisers
@@ -585,12 +585,10 @@ technology = {
 	enable = troll_armraptor_cav                 #lvl3 cavalry b,
 	
 	# tech_orc
-	enable = orc_marauders
-	enable = orc_conquerers
-	enable = orc_spikedworg_cav
-	enable = orc_legionnaire
-	enable = orc_honorguard
-	enable = orc_frenzyworg_cav
+	enable = orc_conquerers                      #lvl3 infantry a,
+	enable = orc_honorguard                      #lvl3 infantry b,
+	enable = orc_spikedworg_cav                  #lvl3 cavalry a,
+	enable = orc_frenzyworg_cav                  #lvl3 cavalry b,
 	
 	# tech_tauren
 	enable = tauren_brave
@@ -599,11 +597,10 @@ technology = {
 	enable = tauren_ironspear_cav
 	
 	# tech_undead
-	enable = forsaken_marine
-	enable = forsaken_plaguespreader
-	enable = forsaken_deathstalker
-	enable = forsaken_deathguard
-	enable = forsaken_dreadknight_cav
+	enable = forsaken_marine                     #lvl3 infantry a,
+	enable = forsaken_plaguespreader             #lvl3 infantry b,
+	enable = forsaken_deathstalker_cav           #lvl3 cavalry a,
+	enable = forsaken_dreadknight_cav            #lvl3 cavalry b,
 	
 	# tech_goblin
 	enable = goblin_mariners

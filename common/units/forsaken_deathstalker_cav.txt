@@ -1,6 +1,6 @@
-# orc_spikedworg_cav 3a
+# forsaken_deathstalker_cav 3a
 type = cavalry
-unit_type = tech_orc
+unit_type = tech_undead
 
 maneuver = 2
 offensive_morale = 3

@@ -1,11 +1,11 @@
-# ranger
+# forsaken_ranger 2b
 type = infantry
 unit_type = tech_undead
 
 maneuver = 1
-offensive_morale = 3
+offensive_morale = 1
 defensive_morale = 3
-offensive_fire = 3
-defensive_fire = 2
+offensive_fire = 0
+defensive_fire = 1
 offensive_shock = 2
-defensive_shock = 1
+defensive_shock = 3
