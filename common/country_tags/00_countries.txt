@@ -78,6 +78,8 @@ G06 = "countries/Northwatch.txt"
 G07 = "countries/Marshal Expedition.txt"
 G11 = "countries/Adventurers.txt"
 G12 = "countries/Schnottz.txt"
+H08 = "countries/Strahnbrad.txt"
+H09 = "countries/Ambermill.txt"
 
 # Dwarven
 A28 = "countries/Wildhammer.txt"
