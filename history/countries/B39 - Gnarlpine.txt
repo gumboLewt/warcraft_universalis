@@ -3,5 +3,29 @@ government 			= war_tribe
 mercantilism 		= 0.1
 technology_group 	= tech_furbolg
 religion			= religion_ancestral
-primary_culture 	= culture_winterfall
+primary_culture 	= culture_gnarlpine
 capital 			= 1
+
+546.1.1 = { 
+monarch = { 
+     name = "Fericotias" 
+     dynasty = "Gnarlpine" 
+		adm = 3
+		dip = 3
+		mil = 2
+ 	} 
+ } 
+
+600.1.1 = { 
+monarch = { 
+     name = "Ursal" 
+      dynasty = "Gnarlpine" 
+		adm = 3
+		dip = 3
+		mil = 3 
+ 	}
+}
+
+622.1.1 = {
+religion = religion_fel
+}

@@ -29,6 +29,9 @@ trade_goods = army_supplies
 # Beyond the Dark Portal
 600.1.1 = {
 	add_core = A65
-	add_core = A41
-	add_core = F01
+        owner = G20
+	controller = G20
+        add_core = G20
+        culture = culture_spirestone
+	religion = religion_geomancy
 }

@@ -12,7 +12,7 @@ culture = culture_sentinel
 religion = religion_elune
 
 hre = no
-trade_goods = grain
+trade_goods = moonwell
 
 
 
@@ -23,4 +23,7 @@ trade_goods = grain
 	controller = A94
 	add_core = A94
 	is_city = yes
+base_tax = 3
+base_manpower = 3
+base_production = 3
 }

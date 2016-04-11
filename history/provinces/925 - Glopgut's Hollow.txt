@@ -27,7 +27,7 @@ culture = culture_bloodeye
 religion = religion_geomancy }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+603.1.1 = { 
 owner = F08
 controller = F08
 remove_core = A45 

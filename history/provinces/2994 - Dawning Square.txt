@@ -45,9 +45,9 @@ religion = religion_fel
 
 # Wrath of the Lich King
 626.1.1 = { 
-owner = A54
-controller = A54
-add_core = A54
+owner = G19
+controller = G19
+add_core = G19
 remove_core = B92
 culture = culture_blood_elf
 religion = religion_light_of_the_naaru
@@ -58,6 +58,6 @@ religion = religion_light_of_the_naaru
 owner = A91
 controller = A91
 add_core = A91
-remove_core = A54
+remove_core = G19
 religion = religion_arcane
 }

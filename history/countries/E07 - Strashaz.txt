@@ -4,7 +4,7 @@ mercantilism 		= 0.1
 technology_group 	= tech_naga
 religion			= religion_old_gods
 primary_culture 	= culture_nazja
-capital 			= 1
+capital 			= 1438
 government_rank = 1
 
 617.1.1 = {

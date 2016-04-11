@@ -27,6 +27,11 @@ religion = religion_old_gods
 trade_goods = flying_mounts
 }
 
+632.1.1 = {
+owner = xxx
+controller = xxx
+}
+
 
 
 

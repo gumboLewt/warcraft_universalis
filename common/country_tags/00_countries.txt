@@ -34,9 +34,9 @@ A05 = "countries/Northshire.txt"
 A06 = "countries/Menethil.txt"
 A07 = "countries/Defias Brotherhood.txt"
 A08 = "countries/Lordaeron.txt"
-A09 = "countries/Andorhal.txt"
+A09 = "countries/Andorhal.txt" #Hearthglen
 A10 = "countries/Stratholme.txt"
-A11 = "countries/Southshore.txt"
+A11 = "countries/Southshore.txt" #Hillsbrad
 A12 = "countries/Gilneas.txt"
 A13 = "countries/Shadowfang.txt"
 A14 = "countries/Kul Tiras.txt"
@@ -142,6 +142,7 @@ F69 = "countries/Ango'rosh.txt"
 F76 = "countries/Ogrila.txt"
 F77 = "countries/Gronn.txt"
 F83 = "countries/Warmaul.txt"
+G20 = "countries/Spirestone.txt"
 
 # Draenei
 A54 = "countries/Shattrath.txt"
@@ -159,6 +160,7 @@ F74 = "countries/Dreghood.txt"
 F75 = "countries/Wrekt.txt"
 F84 = "countries/Murkblood.txt"
 F86 = "countries/Windyreed.txt"
+G19 = "countries/Shattered Sun.txt"
 
 # Forest Troll
 A58 = "countries/Amani.txt"
@@ -225,17 +227,20 @@ F20 = "countries/Quellithian.txt"
 F54 = "countries/QuelThalas Remnants.txt"
 F56 = "countries/Southvale.txt"
 B94 = "countries/Wretched.txt"
+G16 = "countries/Silver Covenant.txt"
 
 # Blood Elf
 A91 = "countries/Silvermoon.txt"
 A92 = "countries/Sunreaver.txt" # tech_thalassian
 A93 = "countries/Sunfury.txt"
+G17 = "countries/Sunhawk.txt"
+G18 = "countries/Dawnblade.txt"
 
 # Night Elf
 A94 = "countries/Darnassus.txt"
-A95 = "countries/Cenarion Circle.txt" # tech_darnassian
-H01 = "countries/Nordrassil.txt"
-H02 = "countries/Moonglade.txt"
+A95 = "countries/Cenarion Circle.txt" # tech_darnassian Keepers of the Grove
+H01 = "countries/Nordrassil.txt" #Sentinels
+H02 = "countries/Moonglade.txt" #Cenarion Circle
 H03 = "countries/Cenarion Hold.txt"
 F64 = "countries/Cenarion Expedition.txt"
 E20 = "countries/Druids of the Fang.txt"
@@ -294,7 +299,7 @@ B27 = "countries/Grimscale.txt"
 B28 = "countries/Saltscale.txt"
 B29 = "countries/Marshfin.txt"
 B30 = "countries/Greymist.txt" # tech_depths
-B31 = "countries/Siltfin.txt" # tech_depths
+B31 = "countries/Siltfin.txt" # tech_depths Blacksilt
 B32 = "countries/Mirefin.txt" # tech_depths
 B33 = "countries/Winterfin.txt" # tech_depths
 B34 = "countries/Chillmere.txt"
@@ -321,6 +326,8 @@ F94 = "countries/Thistlefur.txt"
 F95 = "countries/Foulweald.txt"
 F96 = "countries/Bloodtooth.txt"
 G01 = "countries/Barkskin.txt"
+G21 = "countries/Blackmaw.txt"
+G22 = "countries/Bristlelimb.txt"
 
 # Wolvar
 B47 = "countries/Bloodpaw.txt"
@@ -363,7 +370,7 @@ B70 = "countries/Razorfen.txt" # tech_quillboar
 B71 = "countries/Death's Head.txt" # tech_quillboar
 
 # Titan
-B72 = "countries/Tolvir.txt" # tech_titan
+B72 = "countries/Tolvir.txt" # Neferset 
 B73 = "countries/Ulduar.txt" 
 B74 = "countries/Uldaman.txt"
 B75 = "countries/Maraudon.txt" # tech_titan
@@ -430,6 +437,7 @@ E10 = "countries/Blackfathom.txt"
 F23 = "countries/Darkspine.txt"
 F32 = "countries/Naga Explorers.txt"
 F36 = "countries/Bloodwash.txt"
+G23 = "countries/Slitherblade.txt"
 
 # Scourge
 E11 = "countries/The Scourge.txt"

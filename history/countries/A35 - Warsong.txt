@@ -6,7 +6,6 @@ religion			= religion_ancestral
 primary_culture 	= culture_warsong
 capital 			= 1
 
-
 592.1.1 = {
 	monarch = { 
 		name = "Grom" 
@@ -23,12 +22,26 @@ capital 			= 1
 		mil = 4
 	}
 	religion = religion_fel
+add_country_modifier = {
+    name = horde_member
+    duration = -1
+}
 } 
+
+602.1.1 = {
+remove_country_modifier = {
+name = horde_member
+}
+}
 
 617.1.1 = { 
 	religion = religion_ancestral
 	historical_friend = A48
 	capital = 1420
+add_country_modifier = {
+    name = horde_member
+    duration = -1
+}
 }
 
 618.1.1 = {

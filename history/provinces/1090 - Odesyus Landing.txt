@@ -6,11 +6,11 @@ base_manpower = 2
 base_production = 2
 
 
-culture = culture_stillpine
+culture = culture_bristlelimb
 religion = religion_ancestral
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 
 

@@ -5,15 +5,15 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-add_core = A08
-owner = A08
-controller = A08
+owner = B14
+controller = B14
+add_core = B14
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+culture = culture_mudsnout
+religion = religion_ancestral
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 
 
@@ -30,7 +30,6 @@ religion = religion_the_damned
 # The Frozen Throne
 618.1.1 = { 
 controller = F15
-remove_core = A08
 }
 
 # War of Lordaeron (TFT)

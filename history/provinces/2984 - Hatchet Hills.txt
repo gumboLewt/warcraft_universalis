@@ -17,9 +17,36 @@ trade_goods = artifacts
 
 # The Burning Crusade
 625.1.1 = {
-owner = F55
-controller = F55
-add_core = F55
+owner = F39
+controller = F39
+add_core = F39
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 }
+
+626.1.1 = {
+owner = xxx
+controller = xxx
+remove_core = F39
+culture = culture_amani
+religion = religion_loa
+}
+
+630.11.11 = {
+owner = xxx
+controller = xxx
+culture = culture_amani
+religion = religion_loa
+}
+
+631.1.1 = {
+owner = G16
+controller = G16
+add_core = G16
+add_core = A91
+add_core = A70
+culture = culture_high_elf
+religion = religion_church_of_the_light
+}
+
+

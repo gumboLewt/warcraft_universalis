@@ -16,6 +16,12 @@ capital 			= 935
 		mil = 5
 		female = yes
 		birth_date = 599.12.11
- 	} 
+ 	}
+capital 			= 539 
 } 
+
+626.1.1 = {
+capital = 935
+secondary_religion = religion_shadow
+}
 

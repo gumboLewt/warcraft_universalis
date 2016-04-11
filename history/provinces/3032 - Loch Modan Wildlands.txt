@@ -1,16 +1,16 @@
-# 3032 Loch Modan Wildlands
+# 3032 Loch Modan Wildlands (Troll Ruins Found in area, so Winterax tribe will be here till second war)
 is_city = yes
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
-add_core = A29
-owner = A29
-controller = A29
+owner = A76
+controller = A76
+add_core = A76
 
-culture = culture_ironforge
-religion = religion_church_of_the_light
+culture = culture_winterax
+religion = religion_loa
 
 hre = no
 trade_goods = fur
@@ -20,6 +20,7 @@ trade_goods = fur
 
 # The Second War
 598.1.1 = { 
+remove_core = A76
 owner = A40
 controller = A40
 add_core = A40
@@ -28,10 +29,19 @@ religion = religion_fel
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
-owner = A29
-controller = A29
+600.1.1 = { 
+owner = F05
+controller = F05
+add_core = F05
 remove_core = A40
-culture = culture_ironforge 
-religion = religion_church_of_the_light
+culture = culture_mogrosh 
+religion = religion_geomancy  
+}
+
+# Cataclysm
+631.1.1 = { 
+owner = A43
+controller = A43
+add_core = A43
+religion = religion_old_gods 
 }

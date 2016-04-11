@@ -10,7 +10,15 @@ culture = culture_mauraudine
 religion = religion_earth
 
 hre = no
-trade_goods = grain
+trade_goods = fossils
+
+631.1.1 = { 
+	owner = F59
+	controller = F59
+	add_core = F59
+	culture = culture_ironforge
+	religion = religion_mystery_of_the_makers
+}
 
 
 

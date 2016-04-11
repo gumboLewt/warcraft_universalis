@@ -12,7 +12,7 @@ religion = religion_ancestral
 
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 
 
