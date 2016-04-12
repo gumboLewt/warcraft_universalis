@@ -9,6 +9,8 @@ war_goal = {
 	add_attacker = E14
 	add_attacker = E29
 	add_attacker = A48
+	add_attacker = A43
+	
 	add_defender = A12
 	add_defender = F53
 	add_defender = A94
@@ -16,12 +18,15 @@ war_goal = {
 	add_defender = A11
 	add_defender = A29
 	add_defender = H09
+	add_defender = H11
 }
 
 632.1.1 = {
 	rem_attacker = E14
 	rem_attacker = E29
 	rem_attacker = A48
+	rem_attacker = A43
+	
 	rem_defender = A12
 	rem_defender = F53
 	rem_defender = A94
@@ -29,4 +34,5 @@ war_goal = {
 	rem_defender = A11
 	rem_defender = A29
 	rem_defender = H09
+	rem_defender = H11
 }
