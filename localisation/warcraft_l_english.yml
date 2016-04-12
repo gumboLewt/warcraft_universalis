@@ -1171,9 +1171,6 @@
  G23: "Slitherblade"
  G23_ADJ: "Slitherblade"
  
- 
- 
- 
  H01: "Sentinels"
  H01_ADJ: "Sentinel"
  H02: "Cenarion Circle"
@@ -1188,6 +1185,10 @@
  H06_ADJ: "Alliance Vanguard"
  H07: "Horde Expedition"
  H07_ADJ: "Horde Expedition"
+ H08: "Strahnbrad"
+ H08_ADJ: "Strahnbrad"
+ H09: "Ambermill"
+ H09_ADJ: "Ambermill"
  
  X01: "The Risen"
  X01_ADJ: "Risen"

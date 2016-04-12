@@ -14,9 +14,6 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = fur
 
-
-
-
 # The Frozen Throne
 618.1.1 = {
 add_core = F16

@@ -1,0 +1,34 @@
+#############################
+### Alliance of Ambermill ###
+#############################
+# Ambermill - Dalaran
+alliance = {
+	first = H09
+	second = A18
+	start_date = 622.1.1
+	end_date = 631.1.1
+}
+
+# Ambermill - Pyrewood
+alliance = {
+	first = H09
+	second = F52
+	start_date = 622.1.1
+	end_date = 631.1.1
+}
+
+# Ambermill - Lordaeron Survivors
+alliance = {
+	first = H09
+	second = F55
+	start_date = 622.1.1
+	end_date = 631.1.1
+}
+
+# Ambermill - Gilneas
+alliance = {
+	first = H09
+	second = A12
+	start_date = 631.1.1
+	end_date = 632.1.1
+}
