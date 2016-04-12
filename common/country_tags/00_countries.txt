@@ -91,6 +91,7 @@ F25 = "countries/Iron Summit.txt"
 F29 = "countries/Nesingwary.txt"
 F59 = "countries/Bael Modan.txt"
 E22 = "countries/Aerie Peak.txt"
+H11 = "countries/Stormpike.txt"
 
 # Gnomish
 A32 = "countries/Gnomeregan.txt"

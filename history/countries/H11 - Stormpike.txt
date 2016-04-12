@@ -1,0 +1,24 @@
+# Stormpike
+government 			= administrative_kingdom
+mercantilism 		= 0.1
+technology_group 	= tech_dwarven
+religion			= religion_mystery_of_the_makers
+primary_culture 	= culture_ironforge
+capital 			= 3060
+
+546.1.1 = { 
+monarch = { 
+     name = "Vanndar" 
+     dynasty = "Stormpike" 
+		adm = 3
+		dip = 1
+		mil = 5
+ 	} 
+ } 
+
+600.1.1 = {
+	add_country_modifier = {
+		name = alliance_member
+		duration = -1
+	}
+} 

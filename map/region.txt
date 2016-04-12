@@ -63,6 +63,7 @@ lordaeron_region = {
 		area_western_plaguelands
 		area_tirisfal_glades
 		area_silverpine_forest
+		area_alterac_mountains
 		area_hillsbrad_foothills
 		area_gilneas
 		area_tol_barad

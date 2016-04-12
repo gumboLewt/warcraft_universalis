@@ -25,6 +25,14 @@ alliance = {
 	end_date = 631.1.1
 }
 
+# Ambermill - Stormpike
+alliance = {
+	first = H09
+	second = H11
+	start_date = 622.1.1
+	end_date = 632.1.1
+}
+
 # Ambermill - Hillsbrad
 alliance = {
 	first = H09
@@ -39,4 +47,21 @@ alliance = {
 	second = A12
 	start_date = 631.1.1
 	end_date = 632.1.1
+}
+
+### Stormpike ###
+# Stormpike - Hillsbrad
+alliance = {
+	first = H11
+	second = A11
+	start_date = 622.1.1
+	end_date = 650.1.1
+}
+
+# Stormpike - Ironforge
+alliance = {
+	first = H11
+	second = A29
+	start_date = 600.1.1
+	end_date = 650.1.1
 }

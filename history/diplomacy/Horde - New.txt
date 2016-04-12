@@ -22,6 +22,14 @@ alliance = {
 	end_date = 618.1.1
 }
 
+# Orgrimmar - Frostwolf
+alliance = {
+	first = A48
+	second = A46
+	start_date = 622.1.1
+	end_date = 650.5.1
+}
+
 march = {
 	first = A48
 	second = A35
