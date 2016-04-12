@@ -1,5 +1,6 @@
 # 2954 Deathkneel Road
 is_city = yes
+
 add_core = A08
 owner = A08
 controller = A08
@@ -12,18 +13,17 @@ culture = culture_lordaeron
 religion = religion_church_of_the_light
  
 hre = no 
-trade_goods = grain
+trade_goods = smugglers
 
-
-
+add_building = fort_15th
 
 # The Frozen Throne
 618.1.1 = { 
-add_core = E14
-add_core = E52
-owner = E14
-controller = E14
-culture = culture_forsaken
-religion = religion_forgotten_shadow
-remove_core = A08
+	add_core = E14
+	add_core = E52
+	remove_core = A08
+	owner = E14
+	controller = E14
+	culture = culture_forsaken
+	religion = religion_forgotten_shadow
 }
