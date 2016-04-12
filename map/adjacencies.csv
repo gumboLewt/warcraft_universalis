@@ -133,4 +133,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 558;978;sea;225;-1;-1;-1;-1;Sunstrider Isle to Falthrien Academy (Eversong)
 1456;1461;;;-1;-1;-1;-1;Theramore to Northern Swamp (Dustwallow Marsh)
 1456;1462;;;-1;-1;-1;-1;Theramore to Bridge to Theramore (Dustwallow Marsh)
+3060;3067;;;-1;-1;-1;-1;Dun Baldar to Western Cave (Alterac)
+3061;3066;;;-1;-1;-1;-1;Frostwolf Keep to Eastern Cave (Alterac)
 -1;-1;;-1;-1;-1;-1;-1;-1
