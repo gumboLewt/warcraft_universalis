@@ -42,6 +42,10 @@ trade_goods = grain
 
 # Cataclysm
 631.1.1 = {
-	owner = XXX # PH
-	controller = XXX
+	owner = H10
+	controller = H10
+	add_core = H10
+	culture = culture_forsaken
+	religion = religion_forgotten_shadow
+	base_manpower = 3
 }
