@@ -13,4 +13,32 @@ culture = culture_alterac
 religion = religion_church_of_the_light
  
 hre = no 
-trade_goods = grain
+trade_goods = stone
+
+# Beyond the Dark Portal
+600.1.1 = { 
+	owner = A46
+	controller = A46
+	add_core = A46
+	add_core = A26
+	culture = culture_frostwolf
+	religion = religion_ancestral
+}
+
+# The Frozen Throne
+618.1.1 = { 
+	owner = E52 
+	controller = E52
+	add_core = E52
+	religion = religion_the_damned
+	culture = culture_scourge 
+}
+
+# Rise of the Qiraji
+622.1.1 = { 
+	owner = A46
+	controller = A46
+	remove_core = E52
+	culture = culture_frostwolf
+	religion = religion_ancestral
+}

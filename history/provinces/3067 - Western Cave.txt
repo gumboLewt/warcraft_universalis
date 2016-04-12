@@ -13,4 +13,44 @@ culture = culture_alterac
 religion = religion_church_of_the_light
  
 hre = no 
-trade_goods = grain
+trade_goods = stone
+
+# Beyond the Dark Portal
+600.1.1 = { 
+	owner = A41
+	controller = A41
+	add_core = A41
+	add_core = A26
+	culture = culture_blackrock
+	religion = religion_fel
+}
+
+# The Frozen Throne
+618.1.1 = { 
+	owner = E52 
+	controller = E52
+	add_core = E52
+	remove_core = A41
+	religion = religion_the_damned
+	culture = culture_scourge 
+}
+
+# Reconquest of Lordaeron (TFT)
+618.2.1 = { 
+	controller = A25
+}
+
+# War of Lordaeron (TFT)
+620.9.1 = { 
+	controller = E14
+}
+
+# Rise of the Qiraji
+622.1.1 = { 
+	owner = H11
+	controller = H11
+	add_core = H11
+	remove_core = E52
+	culture = culture_ironforge
+	religion = religion_mystery_of_the_makers 
+}
