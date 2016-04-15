@@ -11,7 +11,8 @@ religion = religion_fel
 hre = no
 trade_goods = artifacts
 
-617.1.1 = {
+#Outland
+601.1.1 = {
 owner = A37
 controller = A37
 add_core = A37

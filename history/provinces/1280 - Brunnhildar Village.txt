@@ -10,7 +10,7 @@ base_manpower = 4
 base_production = 4
 
 
-culture = culture_brunnhilde
+culture = culture_hyldnir
 religion = religion_titan
 
 hre = no

@@ -1,16 +1,16 @@
 # 711 The Skittering Dark
 is_city = yes
 
-add_core = B19
-owner = B19
-controller = B19
+add_core = B25
+owner = B25
+controller = B25
 
 base_tax = 2
 base_manpower = 2
 base_production = 2
 
-culture = culture_rothide
-religion = religion_ancestral
+culture = culture_nerglish
+religion = religion_water
 
 hre = no 
 trade_goods = warbeasts

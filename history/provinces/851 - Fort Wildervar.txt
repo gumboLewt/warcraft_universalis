@@ -10,14 +10,16 @@ culture = culture_redfang
 religion = religion_old_gods
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 
 
 626.1.1 = { 
-owner = H06
-add_core = H06
-culture = culture_azerothian
+owner = F38
+controller = F38
+add_core = F38
+culture = culture_lordaeron
 religion = religion_church_of_the_light 
+base_manpower = 3
 }

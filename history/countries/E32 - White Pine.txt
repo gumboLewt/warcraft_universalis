@@ -1,7 +1,61 @@
-# White Pine
-government 			= cult_gov
+# Amberpine Trappers
+government 			= mercantile_republic
 mercantilism 		= 0.1
-technology_group 	= tech_worgen
-religion			= religion_shadow
-primary_culture 	= culture_wolfcult
+technology_group 	= tech_human
+religion			= religion_church_of_the_light
+primary_culture 	= culture_lordaeron
 capital 			= 1
+government_rank = 1
+
+546.1.1 = { 
+monarch = { 
+     name = "John" 
+     dynasty = "Amberpine" 
+		adm = 3
+		dip = 4
+		mil = 3
+ 	} 
+ } 
+
+
+592.1.1 = { 
+monarch = { 
+     name = "Blanchard" 
+     dynasty = "Pike" 
+		adm = 2
+		dip = 3
+		mil = 4
+ 	}
+government = dictatorship_gov
+ }
+
+622.1.1 = { 
+monarch = { 
+     name = "Mark" 
+     dynasty = "Anderhol" 
+		adm = 3
+		dip = 3
+		mil = 3
+ 	} 
+ }
+
+626.1.1 = { 
+monarch = { 
+     name = "" 
+     dynasty = "Dumont" 
+		adm = 3
+		dip = 3
+		mil = 3
+ 	} 
+heir = { 
+     name = "Mark" 
+     dynasty = "Anderhol" 
+		adm = 3
+		dip = 3
+		mil = 3
+ 	}
+add_country_modifier = {
+    name = alliance_member
+    duration = -1
+} 
+}

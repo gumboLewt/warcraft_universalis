@@ -36,7 +36,7 @@ trade_goods = fur
 	owner = F52
 	controller = F52
 	add_core = F52
-	add_core = E14
+culture = culture_gilnean_worgen
 }
 
 # Cataclysm
@@ -44,6 +44,7 @@ trade_goods = fur
 	owner = A29
 	controller = A29
 	add_core = A29
+        add_claim = E14
 	culture = culture_ironforge
 	religion = religion_church_of_the_light
 	

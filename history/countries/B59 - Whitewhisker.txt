@@ -5,3 +5,23 @@ technology_group 	= tech_kobold
 religion			= religion_geomancy
 primary_culture 	= culture_whitewhisker
 capital 			= 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Kekkles" 
+		dynasty = "Whitewhisker" 
+		adm = 2
+		dip = 1
+		mil = 3
+	} 
+} 
+
+617.1.1 = { 
+	monarch = { 
+		name = "Snivvle" 
+		dynasty = "Whitewhisker" 
+		adm = 2
+		dip = 1
+		mil = 3
+	} 
+} 

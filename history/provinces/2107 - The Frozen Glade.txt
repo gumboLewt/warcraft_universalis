@@ -1,6 +1,10 @@
 # 2107
 is_city = no
 
+owner = E79
+controller = E79
+add_core = E79
+
 base_tax = 2
 base_manpower = 2
 base_production = 2
@@ -10,7 +14,7 @@ culture = culture_frost_nymph
 religion = religion_druidic
 
 hre = no
-trade_goods = grain
+trade_goods = lumber
 
 
 

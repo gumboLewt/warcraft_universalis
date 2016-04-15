@@ -16,7 +16,13 @@ hre = no
 trade_goods = grain
 
 
-
+600.1.1 = { 
+owner = B14
+controller = B14
+add_core = B14
+culture = culture_mudsnout
+religion = religion_ancestral
+}
 
 # The Frozen Throne
 618.1.1 = { 

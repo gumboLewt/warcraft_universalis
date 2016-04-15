@@ -14,7 +14,8 @@ monarch = {
 		adm = 4
 		dip = 2
 		mil = 5 
- 	} 
+ 	}
+primary_culture = culture_gilnean_worgen
  } 
 
 625.1.1 = {

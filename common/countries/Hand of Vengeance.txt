@@ -1,4 +1,4 @@
-# AhnKahet
+# Hand of Vengeance Forsaken
 
 graphical_culture = westerngfx
 

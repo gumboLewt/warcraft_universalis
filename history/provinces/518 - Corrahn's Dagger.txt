@@ -16,15 +16,13 @@ hre = no
 trade_goods = fur
 
 600.1.1 = { 
-	owner = B14
-	controller = B14
-	add_core = B14
-	culture = culture_mudsnout
-	religion = religion_ancestral
-	base_manpower = 3
-	capital = "Mudsnout Den"
+	owner = A41
+	controller = A41
+	add_core = A41
+	add_core = A26
+	culture = culture_blackrock
+	religion = religion_fel
 }
-
 
 # The Frozen Throne
 618.1.1 = { 

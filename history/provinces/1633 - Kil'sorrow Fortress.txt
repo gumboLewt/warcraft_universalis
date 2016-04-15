@@ -12,7 +12,8 @@ religion = religion_fel
 hre = no
 trade_goods = army_supplies
 
-617.1.1 = { 
+#Outland
+601.1.1 = { 
 owner = B88
 controller = B88
 add_core = B88

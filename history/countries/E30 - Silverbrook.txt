@@ -1,5 +1,5 @@
 # Silverbrook
-government 			= administrative_kingdom
+government 			= mercantile_republic
 government_rank = 1
 mercantilism 		= 0.1
 technology_group 	= tech_human
@@ -10,7 +10,7 @@ capital 			= 967
 617.1.1 = { 
 monarch = { 
      name = "Sergei" 
-     dynasty = "Silverbrook" 
+     dynasty = "of Silverbrook" 
 		adm = 3
 		dip = 3
 		mil = 3
@@ -29,5 +29,5 @@ monarch = {
         government_rank = 2
 	primary_culture = culture_lordaeron_worgen
 	religion = religion_shadow
-	technology_group 	= tech_worgen
+	technology_group = tech_worgen
 }

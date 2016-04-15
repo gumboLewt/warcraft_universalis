@@ -1,4 +1,4 @@
-# 3066 Eastern Cave
+# 3066 Eastern Cave (Northern/Frostwolf Alterac Valley Entrance)
 is_city = yes
 
 add_core = A17
@@ -17,12 +17,28 @@ trade_goods = stone
 
 # Beyond the Dark Portal
 600.1.1 = { 
-	owner = A46
-	controller = A46
-	add_core = A46
+	owner = A41
+	controller = A41
+	add_core = A41
 	add_core = A26
-	culture = culture_frostwolf
+	culture = culture_blackrock
+	religion = religion_fel
+}
+#Destruction of Draenor
+601.1.1 = { 
+	owner = A35
+	controller = A35
+	add_core = A35
+	culture = culture_warsong
 	religion = religion_ancestral
+}
+
+617.1.1 = {
+owner = A41
+controller = A41
+culture = culture_blackrock
+religion = religion_fel
+remove_core = A35
 }
 
 # The Frozen Throne

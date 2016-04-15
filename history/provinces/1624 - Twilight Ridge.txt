@@ -11,7 +11,8 @@ religion = religion_fel
 hre = no
 trade_goods = fel
 
-617.1.1 = {
+#Outland
+601.1.1 = {
 owner = B89
 controller = B89
 add_core =  B89

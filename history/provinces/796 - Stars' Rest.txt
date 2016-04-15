@@ -16,5 +16,12 @@ religion = religion_druidic
 hre = no
 trade_goods = moonwell
 
+626.1.1 = {
+owner = H06
+controller = H06
+add_core = H06
+remove_core = E79
+}
+
 
 

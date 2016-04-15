@@ -24,11 +24,11 @@ trade_goods = mounts
 
 # The Third War
 617.1.1 = { 
-	owner = A41
-	controller = A41
-	add_core = A41
-	culture = culture_blackrock
-	religion = religion_fel
+	owner = B14
+	controller = B14
+	add_core = B14
+	culture = culture_mudsnout
+	religion = religion_ancestral
 }
 
 # The Frozen Throne
@@ -36,7 +36,7 @@ trade_goods = mounts
 	owner = E52 
 	controller = E52
 	add_core = E52
-	remove_core = A41
+	remove_core = B14
 	religion = religion_the_damned
 	culture = culture_scourge 
 	remove_core = H08

@@ -1,4 +1,4 @@
-# 1606
+# 2049
 is_city = no
 
 base_tax = 3
@@ -12,7 +12,8 @@ religion = religion_shadow
 hre = no
 trade_goods = fish
 
-617.1.1 = {
+#Outland
+601.1.1 = {
 owner = F65
 controller = F65
 add_core =  F65

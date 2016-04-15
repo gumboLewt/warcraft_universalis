@@ -13,9 +13,9 @@ hre = no
 trade_goods = silk
 
 622.1.1 = {
-owner = A88
-controller = A88
-add_core = A88
+owner = F88
+controller = F88
+add_core = F88
 base_tax = 1
 base_manpower = 1
 base_production = 1
