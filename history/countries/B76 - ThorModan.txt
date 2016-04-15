@@ -4,8 +4,8 @@ mercantilism 		= 0.1
 technology_group 	= tech_titan
 religion			= religion_old_gods
 primary_culture 	= culture_iron
-capital 			= 1
-government_rank = 732
+capital 			= 732
+government_rank = 1
 
 546.1.1 = {  
 monarch = {  
@@ -15,4 +15,4 @@ monarch = {
 		dip = 3
 		mil = 4
   	}  
-  }  
+}  

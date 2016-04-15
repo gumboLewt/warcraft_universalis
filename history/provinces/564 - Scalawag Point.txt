@@ -1,19 +1,30 @@
 # 564
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = B34
+controller = B34
+add_core = B34
+
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
 
-culture = culture_kalu_ak
-religion = religion_ancestral
+culture = culture_nerglish
+religion = religion_water
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
+618.1.1 = { owner = xxx
+controller = xxx
+}
 
-
+624.11.11 = { owner = xxx
+controller = xxx
+culture = culture_nerglish
+religion = religion_water
+}
 
 # The Burning Crusade
 625.1.1 = { 
@@ -21,4 +32,6 @@ owner = A20
 controller = A20
 add_core = A20
 religion = religion_church_of_the_light
-culture = culture_kul_tiran}
+culture = culture_kul_tiran
+trade_goods = pirates
+}

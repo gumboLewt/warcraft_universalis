@@ -15,8 +15,8 @@ trade_goods = crypts
 
 
 
-# The Third War
-617.1.1 = {
+#Outland
+601.1.1 = {
 owner = E21
 controller = E21
 add_core =  E21

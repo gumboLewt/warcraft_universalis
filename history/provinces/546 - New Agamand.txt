@@ -1,27 +1,32 @@
 # 546
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
-owner = B35
-controller = B35
-add_core = B35
+base_tax = 2
+base_manpower = 2
+base_production = 2
 
 culture = culture_nerglish
 religion = religion_old_gods
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
-
+625.11.11 = {
+owner = xxx
+controller = xxx
+culture = culture_nerglish
+religion = religion_water
+}
 
 
 626.1.1 = { 
-add_core = H07
-controller = H07
-owner = H07
+add_core = A96
+controller = A96
+owner = A96
 culture = culture_forsaken
-religion = religion_forgotten_shadow 
+religion = religion_forgotten_shadow
+trade_goods = army_supplies
+base_tax = 3
+base_manpower = 3
+base_production = 3
 }

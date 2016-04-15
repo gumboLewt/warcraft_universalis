@@ -12,7 +12,8 @@ religion = religion_geomancy
 hre = no
 trade_goods = apexis
 
-617.1.1 = {
+#Outland
+601.1.1 = {
 owner = F76
 controller = F76
 add_core = F76

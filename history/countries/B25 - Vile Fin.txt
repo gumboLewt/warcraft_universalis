@@ -2,10 +2,31 @@
  government 		= war_tribe
 mercantilism		= 0.1 
 technology_group 	= tech_depths
-religion			= religion_old_gods
+religion			= religion_water
 primary_culture 	= culture_nerglish
 capital = 1
 
+646.1.1 = { 
+	monarch =
+	{ 
+		name = "Chum"  
+		dynasty = "Vile Fin" 	
+		adm = 2	
+		dip = 1	
+		mil = 3 	
+	}
+} 
+
+618.1.1 = { 
+	monarch =
+	{ 
+		name = "Puddlelord"  
+		dynasty = "Vile Fin" 	
+		adm = 2	
+		dip = 1	
+		mil = 3 	
+	}
+} 
 
 
 622.1.1 = { 

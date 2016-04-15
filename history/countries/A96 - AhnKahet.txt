@@ -1,7 +1,0 @@
-# AhnKahet
-government 			= militaristic_kingdom
-mercantilism 		= 0.1
-technology_group 	= tech_aqir
-religion			= religion_old_gods
-primary_culture 	= culture_nerubian
-capital 			= 1

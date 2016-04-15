@@ -13,7 +13,8 @@ hre = no
 trade_goods = fish
 
 
-617.1.1 = {
+#Outland
+601.1.1 = {
 owner = F68
 controller = F68
 add_core =  F68

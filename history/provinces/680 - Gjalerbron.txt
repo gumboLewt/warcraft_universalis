@@ -1,23 +1,25 @@
 # 680
-is_city = no
+is_city = yes
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
+owner = B62
+controller = B62
+add_core = B62
+
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
 
-culture = culture_dragonflayer
-religion = religion_titan
+culture = culture_shalerhorn
+religion = religion_geomancy
 
 hre = no
-trade_goods = grain
-
-
-
+trade_goods = crypts
 
 626.1.1 = { 
 owner = B08
 controller = B08
 add_core = B08
 culture = culture_dragonflayer
-religion = religion_the_damned }
+religion = religion_the_damned 
+}

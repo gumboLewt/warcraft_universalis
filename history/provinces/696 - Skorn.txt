@@ -23,4 +23,5 @@ owner = B09
 controller = B09
 add_core = B09
 culture = culture_winterskorn
-religion = religion_the_damned }
+religion = religion_the_damned 
+}

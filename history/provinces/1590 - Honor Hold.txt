@@ -12,7 +12,8 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = khorium
 
-617.1.1 = { 
+#Outland
+601.1.1 = {
 owner = F14
 controller = F14
 add_core = F14

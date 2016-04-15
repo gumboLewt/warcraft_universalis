@@ -26,7 +26,7 @@ l_english:
  culture_group_vrykul: "Vrykul"
  culture_kvaldir: "Kvaldir"
  culture_skadir: "Skadir"
- culture_brunnhilde: "Brunnhide"
+ culture_hyldnir: "Hyldnir"
  culture_ymirheim: "Ymirheim"
  culture_dragonflayer: "Dragonflayer"
  culture_winterskorn: "Winterskorn"
@@ -190,6 +190,7 @@ l_english:
  culture_scourge: "Scourge"
  culture_death_knight: "Death Knight"
  culture_cultist: "Necromantic Cultist"
+ culture_xrypt_fiend: "Crypt Fiend"
  
  culture_group_dragonkin: "Dragon"
  culture_black: "Black Dragonflight"
@@ -205,6 +206,7 @@ l_english:
  culture_undead_troll: "Undead Troll"
  culture_revenant: "Revenant"
  culture_ghost: "Ghost"
+ culture_murghoul: "Mur'ghoul"
  
  culture_group_gnoll: "Gnoll"
  culture_blackpaw: "Blackpaw"
@@ -217,6 +219,7 @@ l_english:
  culture_rothide: "Rothide"
  culture_woodpaw: "Woodpaw"
  culture_savage_hill: "Savage Hill"
+ culture_wildpaw: "Wildpaw"
   
  culture_group_centaur: "Centaur"
  culture_galak: "Galak"
@@ -261,8 +264,9 @@ l_english:
  culture_whitewhisker: "Whitewhisker"
  culture_bloodspore: "Bloodspore"
  culture_magmoth: "Magmoth"
- culture_shalerhorn: "Shalerhorn"
+ culture_shalerhorn: "Gjalerhorn"
  culture_tunnel_rat: "Tunnel Rat"
+ culture_boulderslide: "Boulderslide"
  
  culture_group_harpy: "Harpy"
  culture_bloodfury: "Bloodfury"
@@ -274,6 +278,7 @@ l_english:
  culture_witchwing: "Witchwing"
  culture_wormwing: "Wormwing"
  culture_windfury: "Windfury"
+ culture_snowblind: "Snowblind"
  
  culture_group_quillboar: "Quillboar"
  culture_bristleback: "Bristleback"

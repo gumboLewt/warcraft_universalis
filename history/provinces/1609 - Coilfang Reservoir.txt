@@ -1,10 +1,6 @@
 # 1609
 is_city = yes
 
-owner = B38
-controller = B38
-add_core = B38
-
 base_tax = 4
 base_manpower = 3
 base_production = 4
@@ -14,6 +10,14 @@ religion = religion_water
 
 hre = no
 trade_goods = warbeasts
+
+#Outland
+601.1.1 = {
+owner = B38
+controller = B38
+add_core = B38
+}
+
 
 622.1.1 = {
 base_tax = 6

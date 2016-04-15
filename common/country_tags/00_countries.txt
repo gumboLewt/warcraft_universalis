@@ -80,6 +80,7 @@ G11 = "countries/Adventurers.txt"
 G12 = "countries/Schnottz.txt"
 H08 = "countries/Strahnbrad.txt"
 H09 = "countries/Ambermill.txt"
+E32 = "countries/White Pine.txt" #Trappers/Amberpine
 
 # Dwarven
 A28 = "countries/Wildhammer.txt"
@@ -227,7 +228,7 @@ F93 = "countries/Cliffwalker.txt"
 A90 = "countries/QuelThalas.txt"
 E49 = "countries/Highvale.txt"
 F20 = "countries/Quellithian.txt"
-F54 = "countries/QuelThalas Remnants.txt"
+F54 = "countries/QuelThalas Remnants.txt" #Farstriders
 F56 = "countries/Southvale.txt"
 B94 = "countries/Wretched.txt"
 G16 = "countries/Silver Covenant.txt"
@@ -250,20 +251,19 @@ E20 = "countries/Druids of the Fang.txt"
 
 
 # Aqir
-A96 = "countries/AhnKahet.txt" # tech_aqir
 A97 = "countries/AhnQiraj.txt" # tech_aqir
 A98 = "countries/Silithid.txt" # tech_aqir
 E74 = "countries/AzjolNerub.txt"
 
 # Dragonkin
-A99 = "countries/Black Dragonflight.txt"
+A99 = "countries/Black Dragonflight.txt" # tech_dragonkin
 B01 = "countries/Blue Dragonflight.txt"
 B02 = "countries/Bronze Dragonflight.txt"
 B03 = "countries/Red Dragonflight.txt"
 B04 = "countries/Green Dragonflight.txt"
 B05 = "countries/Netherwing Dragonflight.txt"
 B06 = "countries/Twilight Dragonflight.txt"
-B07 = "countries/Infinite Dragonflight.txt" # tech_dragonkin
+B07 = "countries/Infinite Dragonflight.txt" # not used, but potential formable?
 F78 = "countries/Wyrmcult.txt"
 
 # Vrykul
@@ -273,7 +273,7 @@ B10 = "countries/Skadir.txt"
 B11 = "countries/Kvaldir.txt"
 E15 = "countries/Ymirjar.txt"
 E16 = "countries/Hyldnir.txt"
-E17 = "countries/Jotunheim.txt"
+E17 = "countries/Jotunheim.txt" # same faction as Ymirjar, should be merged with it
 
 # Gnoll
 B12 = "countries/Blackpaw.txt"
@@ -286,6 +286,7 @@ B18 = "countries/Palemane.txt"
 B19 = "countries/Rothide.txt"
 F10 = "countries/Woodpaw.txt"
 F41 = "countries/Savage Hill.txt"
+G25 = "countries/Wildpaw.txt"
 
 # Centaur
 B20 = "countries/Galak.txt" # tech_centaur
@@ -293,7 +294,7 @@ B21 = "countries/Gelkis.txt" # tech_centaur
 B22 = "countries/Magram.txt" # tech_centaur 
 B23 = "countries/Mauraudine.txt" # tech_centaur
 B24 = "countries/Kolkar.txt" # tech_centaur
-H04 = "countries/Western Galak.txt" # tech_centaur # AKA: Warcraft's 3 Centaur Marauders
+H04 = "countries/Western Galak.txt" # Kolkar Marauders AKA: Warcraft's 3 Centaur Marauders
 
 # Depths
 B25 = "countries/Vile Fin.txt"
@@ -302,7 +303,7 @@ B27 = "countries/Grimscale.txt"
 B28 = "countries/Saltscale.txt"
 B29 = "countries/Marshfin.txt"
 B30 = "countries/Greymist.txt" # tech_depths
-B31 = "countries/Siltfin.txt" # tech_depths Blacksilt
+B31 = "countries/Siltfin.txt" # Blacksilt
 B32 = "countries/Mirefin.txt" # tech_depths
 B33 = "countries/Winterfin.txt" # tech_depths
 B34 = "countries/Chillmere.txt"
@@ -333,15 +334,15 @@ G21 = "countries/Blackmaw.txt"
 G22 = "countries/Bristlelimb.txt"
 
 # Wolvar
-B47 = "countries/Bloodpaw.txt"
+B47 = "countries/Bloodpaw.txt" # tech_wolfvar
 B48 = "countries/Frenzyheart.txt"
 B49 = "countries/Howling.txt"
 B50 = "countries/Rageclaw.txt"
-B51 = "countries/Snowfall.txt" # tech_wolfvar
+B51 = "countries/Snowfall.txt" # not used, not enough space, should be just north of moa'ki harbor
 
 # Gorloc
-B52 = "countries/Mistwhisper.txt"
-B53 = "countries/Rainspeaker.txt"
+B52 = "countries/Mistwhisper.txt" # tech gorloc
+B53 = "countries/Rainspeaker.txt" # Leading tribe of the Oracles
 B54 = "countries/Mosswalker.txt"
 B55 = "countries/Sparktouched.txt"
 
@@ -351,9 +352,13 @@ B57 = "countries/Gravelsnout.txt" # tech_kobold
 B58 = "countries/Goldtooth.txt"
 B59 = "countries/Whitewhisker.txt" # tech_kobold
 B60 = "countries/Bloodspore.txt"
-B61 = "countries/Magmoth.txt" # tech_kobold
 B62 = "countries/Shalerhorn.txt" # tech_kobold
 E53 = "countries/Tunnel Rat.txt" # tech_kobold
+G27 = "countries/Boulderslide.txt" # tech_kobold
+G28 = "countries/Windshear.txt" # tech_kobold
+
+# Magnataur
+B61 = "countries/Magmoth.txt" # tech_magnataur
 
 # Harpy
 B63 = "countries/Bloodfury.txt" # tech_harpy
@@ -365,6 +370,7 @@ F87 = "countries/Northspring.txt"
 F92 = "countries/Witchwing.txt"
 F99 = "countries/Wormwing.txt"
 G05 = "countries/Windfury.txt"
+G24 = "countries/Snowblind.txt"
 
 # Quillboar
 B68 = "countries/Bristleback.txt" # tech_quillboar
@@ -385,21 +391,22 @@ G14 = "countries/Uldum.txt"
 
 # Arrakoa
 B77 = "countries/Skettis.txt" # tech_arrakoa
-B78 = "countries/Sethikk.txt" # tech_arrakoa
-B79 = "countries/Exiles.txt" # tech_arrakoa
-B80 = "countries/Apexis.txt" # tech_arrakoa
+B78 = "countries/Sethikk.txt" # not used, Draenor group
+B79 = "countries/Exiles.txt" # not used, Draenor group
+B80 = "countries/Apexis.txt" # not used, Draenor group
 F73 = "countries/Haal'esh.txt"
 F79 = "countries/Grishna.txt"
+B85 = "countries/Dark Conclave.txt" #Ghost Arrokoa Old God Cultists
 
 # Tuskarr
 B81 = "countries/Kaluak.txt"
-B82 = "countries/Moaki.txt"
+B82 = "countries/Moaki.txt" # Could be merged with Kaluak, but should at least be vassal.
 
 # Old God
-B83 = "countries/Faceless.txt"
-B84 = "countries/The Sha.txt"
-B85 = "countries/Dark Conclave.txt"
-B86 = "countries/Kingdom of a Thousand Maws.txt" # tech_old_god
+B83 = "countries/Faceless.txt" # tech_old_god Nzoth's Forces
+B84 = "countries/The Sha.txt"  # Y'Sharrj's Forces
+B86 = "countries/Kingdom of a Thousand Maws.txt" # Yogg Saron, potential formable/emergant of Uludaar?
+G29 = "countries/Twisted Keepers.txt" # tech_elemental
 
 # Demonic
 B87 = "countries/Illidari.txt"
@@ -408,13 +415,13 @@ B89 = "countries/Fel Horde.txt"
 B90 = "countries/Burning Blade.txt"
 B91 = "countries/Searing Blade.txt"
 B92 = "countries/The Burning Legion.txt"
-B93 = "countries/Cult of the Dark Strand.txt"
+B93 = "countries/Cult of the Dark Strand.txt" #Expanded to represent shadow council in northern Kalimdor
 B95 = "countries/Felsworn.txt"
 F15 = "countries/Dreadlord.txt"
 F13 = "countries/Shadowsworn.txt"
 F37 = "countries/Disciples of Hate.txt"
 F82 = "countries/Hounds of Culuthas.txt"
-F98 = "countries/Mannoroc Conclave.txt"
+F98 = "countries/Mannoroc Conclave.txt" #Underblade Lashers
 G02 = "countries/Darkwhisper.txt"
 
 # Satyr
@@ -428,7 +435,7 @@ F90 = "countries/Wildspawn.txt"
 F97 = "countries/Xavian.txt"
 
 # Naga
-E02 = "countries/Coilskar.txt"
+E02 = "countries/Coilskar.txt" #Colifang/Illidan's Naga
 E03 = "countries/Wrathscale.txt"
 E04 = "countries/Stormscale.txt"
 E05 = "countries/Spitelash.txt"
@@ -447,13 +454,14 @@ E11 = "countries/The Scourge.txt"
 E12 = "countries/Cult of the Damned.txt"
 E13 = "countries/Knights of the Ebon Blade.txt"
 E52 = "countries/The Scourge of Lordaeron.txt"
-F21 = "countries/Deatholme.txt"
+F21 = "countries/Deatholme.txt" 
 
 # Undead
 E14 = "countries/The Forsaken.txt"
 F12 = "countries/Raven Hill.txt"
 H10 = "countries/Rotbrain.txt"
 X01 = "countries/The Risen.txt"
+A96 = "countries/Hand of Vengeance.txt"
 
 # Ethereal
 E18 = "countries/The Consortium.txt"
@@ -470,9 +478,8 @@ G04 = "countries/Bloodvenom.txt"
 
 # Worgen
 E29 = "countries/Wolfcult.txt"
-E30 = "countries/Silverbrook.txt"
+E30 = "countries/Silverbrook.txt" #Wolfcut Trappers
 E31 = "countries/Nightbane.txt"
-E32 = "countries/White Pine.txt"
 F53 = "countries/Bloodfang.txt"
 
 # Mantid
@@ -519,6 +526,7 @@ E90 = "countries/Yongqi.txt"
 E54 = "countries/Stonesplinter.txt"
 E57 = "countries/Stonevault.txt"
 F24 = "countries/Rockjaw.txt"
+G26 = "countries/Irondeep.txt"
 
 # Hozen
 E68 = "countries/Grookin.txt"
@@ -543,11 +551,11 @@ F03 = "countries/Skumblade.txt"
 E73 = "countries/Icemist.txt"
 
 # Virmen
-E75 = "countries/Twitcheel.txt"
+E75 = "countries/Twitcheel.txt" # United Virmen Broods
 
 # Dyrad
-E77 = "countries/The Unbound.txt"
-E79 = "countries/Sisterhood of Winter.txt"
+E77 = "countries/The Unbound.txt" #Crystal Dyrads
+E79 = "countries/Sisterhood of Winter.txt" #Frost Nymphs
 
 # Giant
 E78 = "countries/Crystalvice.txt"

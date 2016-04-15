@@ -10,10 +10,22 @@ controller = B35
 add_core = B35
 
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 
 hre = no
-trade_goods = grain
+trade_goods = fish
+
+617.1.1 = { 
+owner = F38
+controller = F38
+add_core = F38
+culture = culture_lordaeron
+religion = religion_church_of_the_light
+}
+
+626.1.1 = {
+culture = culture_ironforge
+}
 
 
 

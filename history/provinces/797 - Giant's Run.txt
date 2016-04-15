@@ -1,16 +1,16 @@
 # 797
 is_city = no
 
-base_tax = 1
+base_tax = 2
 base_manpower = 1
-base_production = 1
+base_production = 2
 
 
 culture = culture_frost_nymph
 religion = religion_druidic
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 

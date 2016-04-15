@@ -11,7 +11,8 @@ religion = religion_earth
 hre = no
 trade_goods = fur
 
-617.1.1 = {
+#Outland
+601.1.1 = {
 owner = F83
 controller = F83
 add_core = F83

@@ -1,4 +1,4 @@
-# 3062 Western Cave
+# 3062 Western Cave (Northern/Frostwolf Alterac Valley Entrance)
 is_city = yes
 
 add_core = A17
