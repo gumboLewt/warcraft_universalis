@@ -24,7 +24,7 @@ trade_goods = artifacts
 owner = F30
 controller = F30
 add_core = F30
-religion = religion_old_gods
+religion = religion_water
 culture = culture_nerglish
 }
 

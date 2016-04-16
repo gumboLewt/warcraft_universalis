@@ -410,6 +410,18 @@ groups = {
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
+        
+	#######################
+	# Has Units: no, only infantry
+	# Need tech icon
+        # Snobold Infantry & Magnataur Cavalry
+	#######################
+	tech_magnataur = {
+		modifier = 0
+		start_level = 1
+		cav_to_inf_ratio = 0.5
+		trade_company = yes
+	}
 }
 
 tables = {

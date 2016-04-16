@@ -24,5 +24,5 @@ owner = E51
 controller = E51
 add_core = E51
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 }

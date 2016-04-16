@@ -37,7 +37,7 @@ trade_goods = fish
 	add_core = F11
 	remove_core = E98
 	culture = culture_nerglish
-	religion = religion_old_gods
+	religion = religion_water
 }
 
 # Cataclysm

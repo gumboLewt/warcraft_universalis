@@ -1,7 +1,28 @@
 # Magmoth
 government 			= war_tribe
 mercantilism 		= 0.1
-technology_group 	= tech_kobold
+technology_group 	= tech_magnataur
 religion			= religion_geomancy
 primary_culture 	= culture_magmoth
 capital 			= 1
+
+546.1.1 = { 
+monarch = { 
+     name = "" 
+     dynasty = "Magmothgart" 
+		adm = 2
+		dip = 2
+		mil = 4
+ 	} 
+ }
+
+600.1.1 = { 
+monarch = { 
+     name = "" 
+     dynasty = "Magmothregart" 
+		adm = 2
+		dip = 2
+		mil = 4
+ 	} 
+ }
+

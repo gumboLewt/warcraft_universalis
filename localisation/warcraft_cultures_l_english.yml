@@ -263,10 +263,15 @@ l_english:
  culture_goldtooth: "Goldtooth"
  culture_whitewhisker: "Whitewhisker"
  culture_bloodspore: "Bloodspore"
- culture_magmoth: "Magmoth"
  culture_shalerhorn: "Gjalerhorn"
  culture_tunnel_rat: "Tunnel Rat"
  culture_boulderslide: "Boulderslide"
+ culture_snowplain: "Snowplain"
+ 
+ culture_group_magnataur: "Magnataur"
+ culture_magmoth: "Magmoth"
+ culture_garm: "Garm"
+ culture_gammoth: "Gammoth"
  
  culture_group_harpy: "Harpy"
  culture_bloodfury: "Bloodfury"

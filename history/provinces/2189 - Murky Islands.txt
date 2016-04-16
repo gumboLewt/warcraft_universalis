@@ -10,7 +10,7 @@ base_production = 1
 
 
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 
 hre = no
 trade_goods = fish
@@ -24,6 +24,5 @@ trade_goods = fish
 	controller = A82
 	add_core = A82
 	culture = culture_gilblin
-	religion = religion_divine
 }
 

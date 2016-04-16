@@ -92,8 +92,8 @@
 # religion_group_dragonflight
 #	religion_sect_of_dragons
 
-# Titanic
-religion_group_titanic = {
+# Chaos
+religion_group_disorder = {
 	defender_of_faith = no
 	can_form_personal_unions = no
 	
@@ -102,80 +102,28 @@ religion_group_titanic = {
 	
 	crusade_name = CRUSADE
 	
-	religion_titan = {
-		color = { 253 204 09 }
-		icon = 9
+	religion_fel = {
+		color = { 181 230 29 }
+		icon = 16
 		
 		country = {
-			defensiveness = 0.15
+			land_morale = 0.1
 		}
 		country_as_secondary = {
-			defensiveness = 0.15
+			land_morale = 0.1
 		}
 		province = {
-		
-		}
-		
-		on_convert = {
-			change_religion = religion_titan
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}				
-		}
-		
-		heretic = { }
-	}
-	
-	religion_mystery_of_the_makers = {
-		color = { 0.33 0.33 0.33 }
-		icon = 23
-		
-		country = {
-			build_cost = -0.1
-		}
-		country_as_secondary = {
-			build_cost = -0.1
-		}
-		
-		on_convert = {
-			change_religion = religion_mystery_of_the_makers
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
+			local_missionary_strength = -0.02
 		}
 
-		heretic = { }
-	}
-}
-# Old God
-religion_group_old_god = {
-	defender_of_faith = no
-	can_form_personal_unions = no
-	
-	flags_with_emblem_percentage = 33 # default == 0
-	flag_emblem_index_range = { 1 57 }
-	
-	crusade_name = CRUSADE
-	
-	religion_old_gods = {
-		color = { 106 54 112 }
-		icon = 15
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+		}
 		
-		country = {
-			enemy_core_creation = 1.0
-		}
-		country_as_secondary = {
-			enemy_core_creation = 1.0
-		}
+		hre_religion = yes
 		
 		on_convert = {
-			change_religion = religion_old_gods
+			change_religion = religion_fel
 			add_prestige = -100
 
 			add_country_modifier = {
@@ -184,77 +132,6 @@ religion_group_old_god = {
 			}			
 		}
 		
-		heretic = { }
-	}
-}
-# Loa
-religion_group_loa = {
-	defender_of_faith = yes
-	can_form_personal_unions = no
-	
-	flags_with_emblem_percentage = 33 # default == 0
-	flag_emblem_index_range = { 1 57 }
-	
-	crusade_name = CRUSADE
-	
-	religion_loa = {
-		color = { 101 177 109 }
-		icon = 21
-		
-		country = {
-			land_maintenance_modifier = -0.05
-		}
-		country_as_secondary = {
-			land_maintenance_modifier = -0.05
-		}
-		
-		personal_deity = yes
-		can_have_secondary_religion = yes
-		
-		province = {
-			local_missionary_strength = -0.01
-		}
-		
-		on_convert = {
-			change_religion = religion_loa
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-
-		heretic = { }
-	}
-	
-	religion_voodoo = {
-		color = { 0.25 0.15 0.25 }
-		icon = 6
-		
-		country = {
-			global_unrest = -1
-			land_maintenance_modifier = -0.05
-		}
-		country_as_secondary = {
-			global_unrest = -1
-			land_maintenance_modifier = -0.05
-		}
-		
-		province = {
-			local_missionary_strength = -0.01
-		}
-		
-		on_convert = {
-			change_religion = religion_voodoo
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-
 		heretic = { }
 	}
 	
@@ -287,36 +164,29 @@ religion_group_loa = {
 		
 		heretic = { }
 	}
-	
-	religion_forgotten_shadow = {
-		color = { 15 96 113 }
-		icon = 7
-		
-		country = {
-			stability_cost_modifier = -0.05
-		}
-		country_as_secondary = {
-			stability_cost_modifier = -0.05
-		}
-		province = {
-			local_missionary_strength = -0.01
-		}
-		
-		on_convert = {
-			change_religion = religion_forgotten_shadow
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-		
-		piety = yes
-		
-		heretic = { }
-	}
 }
+# Old God
+#religion_group_old_god = {
+#	defender_of_faith = no
+#	can_form_personal_unions = no
+#	
+#	flags_with_emblem_percentage = 33 # default == 0
+#	flag_emblem_index_range = { 1 57 }
+#	
+#	crusade_name = CRUSADE
+#	
+#
+#}
+# Loa
+#religion_group_loa = {
+#	defender_of_faith = yes
+#	can_form_personal_unions = no
+#	
+#	flags_with_emblem_percentage = 33 # default == 0
+#	flag_emblem_index_range = { 1 57 }
+#	
+#	crusade_name = CRUSADE
+#}
 # The Light
 religion_group_the_light = {
 	defender_of_faith = yes
@@ -326,35 +196,6 @@ religion_group_the_light = {
 	flag_emblem_index_range = { 1 57 }
 	
 	crusade_name = CRUSADE
-	
-	religion_divine = {
-		color = { 136 228 163 }
-		icon = 12
-		
-		country = {
-			tolerance_own = 1
-			war_exhaustion_cost = -0.1
-		}
-		country_as_secondary = {
-			tolerance_own = 1
-			war_exhaustion_cost = -0.1
-		}
-		
-		uses_piety = yes
-		misguided_heretic = yes
-		
-		on_convert = {
-			change_religion = religion_divine
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-		
-		heretic = { }
-	}
 	
 	religion_scarlet_light = {
 		color = { 127 0 0 }
@@ -488,6 +329,7 @@ religion_group_the_light = {
 		}
 		
 		uses_karma = yes
+		misguided_heretic = yes
 		
 		on_convert = {
 			change_religion = religion_light_of_the_sunwell
@@ -543,28 +385,19 @@ religion_group_the_void = {
 		heretic = { }
 	}
 	
-	religion_fel = {
-		color = { 181 230 29 }
-		icon = 16
+	religion_old_gods = {
+		color = { 106 54 112 }
+		icon = 15
 		
 		country = {
-			land_morale = 0.1
+			enemy_core_creation = 1.0
 		}
 		country_as_secondary = {
-			land_morale = 0.1
+			enemy_core_creation = 1.0
 		}
-		province = {
-			local_missionary_strength = -0.02
-		}
-
-		uses_church_power = yes				# Uses church power/aspect mechanics
-		aspects = {
-		}
-		
-		hre_religion = yes
 		
 		on_convert = {
-			change_religion = religion_fel
+			change_religion = religion_old_gods
 			add_prestige = -100
 
 			add_country_modifier = {
@@ -607,34 +440,6 @@ religion_group_the_void = {
 		heretic = { }
 	}
 	
-	religion_arkkorok = {
-		color = { 58 173 174 }
-		icon = 18
-		
-		country = {
-			land_forcelimit_modifier = 0.1
-		}
-		country_as_secondary = {
-			land_forcelimit_modifier = 0.1
-		}
-
-		uses_church_power = yes				# Uses church power/aspect mechanics
-		aspects = {
-		}
-		
-		on_convert = {
-			change_religion = religion_arkkorok
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-
-		heretic = { }
-	}
-	
 	religion_void = {
 		color = { 12 0 49 }
 		icon = 22
@@ -665,6 +470,65 @@ religion_group_the_void = {
 
 		heretic = { }
 	}
+	
+	religion_voodoo = {
+		color = { 0.25 0.15 0.25 }
+		icon = 6
+		
+		country = {
+			global_unrest = -1
+			land_maintenance_modifier = -0.05
+		}
+		country_as_secondary = {
+			global_unrest = -1
+			land_maintenance_modifier = -0.05
+		}
+		
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		on_convert = {
+			change_religion = religion_voodoo
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+		heretic = { }
+	}
+	
+	religion_forgotten_shadow = {
+		color = { 15 96 113 }
+		icon = 7
+		
+		country = {
+			stability_cost_modifier = -0.05
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.05
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		on_convert = {
+			change_religion = religion_forgotten_shadow
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+		
+		piety = yes
+		
+		heretic = { }
+	}
 }
 # Elemental
 religion_group_elemental = {
@@ -675,6 +539,59 @@ religion_group_elemental = {
 	flag_emblem_index_range = { 1 57 }
 	
 	crusade_name = CRUSADE
+	
+	religion_ancestral = {
+		color = { 150 74 41 }
+		icon = 20
+		
+		country = {
+			stability_cost_modifier = -0.1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+		}
+		
+		on_convert = {
+			change_religion = religion_ancestral
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+		heretic = { }
+	}
+	
+	religion_geomancy = {
+		color = { 77 27 76 }
+		icon = 29
+		
+		country = {
+			development_cost = -0.1
+		}
+		country_as_secondary = {
+			development_cost = -0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		has_patriarchs = yes
+		
+		on_convert = {
+			change_religion = religion_geomancy
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+		heretic = { }
+	}
 	
 	religion_fire = {
 		color = { 241 124 42 }
@@ -793,35 +710,6 @@ religion_group_elemental = {
 
 		heretic = { }
 	}
-	
-	religion_geomancy = {
-		color = { 77 27 76 }
-		icon = 29
-		
-		country = {
-			development_cost = -0.1
-		}
-		country_as_secondary = {
-			development_cost = -0.1
-		}
-		province = {
-			local_missionary_strength = -0.01
-		}
-		
-		has_patriarchs = yes
-		
-		on_convert = {
-			change_religion = religion_geomancy
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-
-		heretic = { }
-	}
 }
 
 # Tech
@@ -863,8 +751,8 @@ religion_group_technology = {
 	}
 }
 
-# Arcane
-religion_group_arcane = {
+# Order
+religion_group_order = {
 	defender_of_faith = no
 	can_form_personal_unions = no
 	
@@ -900,6 +788,134 @@ religion_group_arcane = {
 		heretic = { }
 	}
 	
+	religion_titan = {
+		color = { 253 204 09 }
+		icon = 9
+		
+		country = {
+			defensiveness = 0.15
+		}
+		country_as_secondary = {
+			defensiveness = 0.15
+		}
+		province = {
+		
+		}
+		
+		on_convert = {
+			change_religion = religion_titan
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}				
+		}
+		
+		heretic = { }
+	}
+	
+	religion_mystery_of_the_makers = {
+		color = { 0.33 0.33 0.33 }
+		icon = 23
+		
+		country = {
+			build_cost = -0.1
+		}
+		country_as_secondary = {
+			build_cost = -0.1
+		}
+		
+		on_convert = {
+			change_religion = religion_mystery_of_the_makers
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+		heretic = { }
+	}
+	
+	religion_elune = {
+		color = { 178 255 255 }
+		icon = 4
+		
+		country = {
+			ae_impact = -0.05
+		}
+		country_as_secondary = {
+			ae_impact = -0.05
+		}
+
+		personal_deity = yes
+		
+		on_convert = {
+			change_religion = religion_elune
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+		
+		heretic = { }
+	}
+	
+	religion_sect_of_dragons = {
+		color = { 213 114 96 }
+		icon = 10
+		
+		country = {
+			discipline = 0.025
+		}
+		country_as_secondary = {
+			discipline = 0.025
+		}
+		
+		on_convert = {
+			change_religion = religion_sect_of_dragons
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+		
+		heretic = { }
+	}
+	
+	religion_arkkorok = {
+		color = { 58 173 174 }
+		icon = 18
+		
+		country = {
+			land_forcelimit_modifier = 0.1
+		}
+		country_as_secondary = {
+			land_forcelimit_modifier = 0.1
+		}
+
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+		}
+		
+		on_convert = {
+			change_religion = religion_arkkorok
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+		heretic = { }
+	}
 }
 
 # Nature
@@ -938,21 +954,25 @@ religion_group_nature = {
 		heretic = { }
 	}
 	
-	religion_elune = {
-		color = { 178 255 255 }
-		icon = 4
+	religion_loa = {
+		color = { 101 177 109 }
+		icon = 21
 		
 		country = {
-			ae_impact = -0.05
+			land_maintenance_modifier = -0.05
 		}
 		country_as_secondary = {
-			ae_impact = -0.05
+			land_maintenance_modifier = -0.05
 		}
-
+		
 		personal_deity = yes
 		
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
 		on_convert = {
-			change_religion = religion_elune
+			change_religion = religion_loa
 			add_prestige = -100
 
 			add_country_modifier = {
@@ -960,7 +980,7 @@ religion_group_nature = {
 				duration = 3650
 			}			
 		}
-		
+
 		heretic = { }
 	}
 	
@@ -977,30 +997,6 @@ religion_group_nature = {
 
 		on_convert = {
 			change_religion = religion_terokk
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		}
-
-		heretic = { }
-	}
-	
-	religion_ancestral = {
-		color = { 150 74 41 }
-		icon = 20
-		
-		country = {
-			stability_cost_modifier = -0.1
-		}
-		country_as_secondary = {
-			stability_cost_modifier = -0.1
-		}
-		
-		on_convert = {
-			change_religion = religion_ancestral
 			add_prestige = -100
 
 			add_country_modifier = {
@@ -1063,30 +1059,25 @@ religion_group_nature = {
 
 		heretic = { }
 	}
-}
-# Dragonflight
-religion_group_dragonflight = {
-	defender_of_faith = no
-	can_form_personal_unions = no
-	
-	flags_with_emblem_percentage = 33 # default == 0
-	flag_emblem_index_range = { 1 57 }
-	
-	crusade_name = CRUSADE
-	
-	religion_sect_of_dragons = {
-		color = { 213 114 96 }
-		icon = 10
+	# Used for wolvar, tuskarr and other primitive pantheons
+	religion_primitive = {
+		color = { 136 228 163 }
+		icon = 12
 		
 		country = {
-			discipline = 0.025
+			tolerance_own = 1
+			war_exhaustion_cost = -0.1
 		}
 		country_as_secondary = {
-			discipline = 0.025
+			tolerance_own = 1
+			war_exhaustion_cost = -0.1
 		}
 		
+		uses_piety = yes
+		misguided_heretic = yes
+		
 		on_convert = {
-			change_religion = religion_sect_of_dragons
+			change_religion = religion_primitive
 			add_prestige = -100
 
 			add_country_modifier = {
@@ -1098,5 +1089,17 @@ religion_group_dragonflight = {
 		heretic = { }
 	}
 }
+# Dragonflight
+#religion_group_dragonflight = {
+#	defender_of_faith = no
+#	can_form_personal_unions = no
+#	
+#	flags_with_emblem_percentage = 33 # default == 0
+#	flag_emblem_index_range = { 1 57 }
+#	
+#	crusade_name = CRUSADE
+#	
+#
+#}
 
 

@@ -7,7 +7,7 @@ religion			= religion_the_damned
 primary_culture = culture_scourge
 capital = 1268
 
-610.1.1 = { 
+605.1.1 = { 
 	monarch =
 	{ 
 		name = "Ner'zhul"

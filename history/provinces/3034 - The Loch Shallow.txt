@@ -42,5 +42,5 @@ owner = B26
 controller = B26
 add_core = B26
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 }

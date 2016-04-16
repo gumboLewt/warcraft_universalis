@@ -1,0 +1,27 @@
+# Snowplain snobolds
+government 			= war_tribe
+mercantilism 		= 0.1
+technology_group 	= tech_kobold
+religion			= religion_geomancy
+primary_culture 	= culture_snowplain
+capital 			= 1
+
+546.1.1 = { 
+monarch = { 
+     name = "" 
+     dynasty = "Snowplain" 
+		adm = 2
+		dip = 2
+		mil = 3
+ 	} 
+ } 
+
+600.1.1 = { 
+monarch = { 
+     name = "" 
+     dynasty = "Snowplain" 
+		adm = 2
+		dip = 2
+		mil = 3
+ 	} 
+ } 

@@ -16,6 +16,14 @@ religion = religion_ancestral
 hre = no
 trade_goods = fish
 
+626.1.1 = {
+owner = E11
+controller = E11
+add_core = E11
+culture = culture_crypt_fiend
+religion = religion_the_damned
+}
+
 
 
 

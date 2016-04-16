@@ -10,7 +10,7 @@ base_manpower = 2
 base_production = 1
 
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 
 hre = no
 trade_goods = naval_supplies

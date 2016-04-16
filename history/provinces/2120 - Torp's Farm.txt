@@ -7,10 +7,10 @@ base_production = 1
 
 
 culture = culture_nerubian
-religion = religion_old_gods
+religion = religion_arcane
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 
@@ -19,4 +19,6 @@ trade_goods = grain
 add_core = E11
 owner = E11
 culture = culture_scourge
-religion = religion_the_damned }
+religion = religion_the_damned 
+trade_goods = grain
+}

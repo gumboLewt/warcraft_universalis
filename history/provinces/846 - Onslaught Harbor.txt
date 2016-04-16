@@ -7,10 +7,10 @@ base_production = 2
 
 
 culture = culture_kalu_ak
-religion = religion_ancestral
+religion = religion_primitive
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 
 
@@ -24,4 +24,5 @@ religion = religion_shadow
 base_tax = 3
 base_manpower = 4
 base_production = 3
+trade_goods = naval_supplies
 }

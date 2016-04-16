@@ -3,11 +3,11 @@
 #####################################################
 # This file is for alliances different than Horde   #
 #####################################################
-# Forsaken rescued Grand Marshal Garithos from		#
-# Dreadlord Insurgents and created some sort of		#
-# alliance with him to get back Lordaeron City.		#
+# Forsaken rescued Grand Marshal Garithos from	    #
+# Dreadlord Insurgents and created some sort of	    #
+# alliance with him to get back Lordaeron City.	    #
 # After battle of Lordaeron Forsaken killed Garithos#
-# and destroyed Lordaeron Remnants					#	
+# and destroyed Lordaeron Remnants	            #	
 #####################################################
 # Forsaken - New Alliance
 alliance = {
@@ -22,6 +22,14 @@ alliance = {
 	first = E14
 	second = A46
 	start_date = 622.1.1
+	end_date = 650.5.1
+}
+
+# Forsaken - Hand of Vengeance
+union = {
+	first = E14
+	second = A96
+	start_date = 626.1.1
 	end_date = 650.5.1
 }
 

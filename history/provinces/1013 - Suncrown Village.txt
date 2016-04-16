@@ -23,7 +23,7 @@ trade_goods = grain
 owner = F21
 controller = F21
 add_core = F21
-culture = culture_nerubian
+culture = culture_crypt_fiend
 religion = religion_the_damned
 remove_core = A90 
 }

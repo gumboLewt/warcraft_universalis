@@ -22,7 +22,7 @@ trade_goods = fish
 owner = B27
 controller = B27
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 add_core = B27
 remove_core = A90
 }

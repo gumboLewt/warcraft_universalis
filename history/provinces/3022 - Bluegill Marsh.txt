@@ -10,7 +10,7 @@ owner = B26
 controller = B26
 
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 
 hre = no
 trade_goods = fish
@@ -47,5 +47,5 @@ add_core = B26
 remove_core = A08
 remove_core = A06
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 }

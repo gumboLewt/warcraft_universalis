@@ -11,10 +11,10 @@ base_production = 4
 
 
 culture = culture_rageclaw
-religion = religion_ancestral
+religion = religion_primitive
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 

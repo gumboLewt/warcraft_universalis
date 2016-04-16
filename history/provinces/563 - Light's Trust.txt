@@ -1,4 +1,4 @@
-# 563
+# 563 Jintha'kalar
 is_city = yes
 
 owner = A74
@@ -19,8 +19,8 @@ trade_goods = army_supplies
 
 
 
-# The Third War
-617.1.1 = { 
+# The War of the Spider
+605.1.1 = { 
 add_core = E11
 owner = E11
 controller = E11

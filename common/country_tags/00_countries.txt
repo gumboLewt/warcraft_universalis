@@ -147,6 +147,7 @@ F76 = "countries/Ogrila.txt"
 F77 = "countries/Gronn.txt"
 F83 = "countries/Warmaul.txt"
 G20 = "countries/Spirestone.txt"
+G30 = "countries/Icemaul.txt"
 
 # Draenei
 A54 = "countries/Shattrath.txt"
@@ -338,7 +339,7 @@ B47 = "countries/Bloodpaw.txt" # tech_wolfvar
 B48 = "countries/Frenzyheart.txt"
 B49 = "countries/Howling.txt"
 B50 = "countries/Rageclaw.txt"
-B51 = "countries/Snowfall.txt" # not used, not enough space, should be just north of moa'ki harbor
+B51 = "countries/Snowfall.txt" #
 
 # Gorloc
 B52 = "countries/Mistwhisper.txt" # tech gorloc
@@ -356,6 +357,7 @@ B62 = "countries/Shalerhorn.txt" # tech_kobold
 E53 = "countries/Tunnel Rat.txt" # tech_kobold
 G27 = "countries/Boulderslide.txt" # tech_kobold
 G28 = "countries/Windshear.txt" # tech_kobold
+G31 = "countries/Snowplain.txt" # tech_kobold
 
 # Magnataur
 B61 = "countries/Magmoth.txt" # tech_magnataur
@@ -376,7 +378,7 @@ G24 = "countries/Snowblind.txt"
 B68 = "countries/Bristleback.txt" # tech_quillboar
 B69 = "countries/Razormane.txt" 
 B70 = "countries/Razorfen.txt" # tech_quillboar
-B71 = "countries/Death's Head.txt" # tech_quillboar
+B71 = "countries/Death's Head.txt" # tech_quillboar (Scourge Quillboar)
 
 # Titan
 B72 = "countries/Tolvir.txt" # Neferset 
@@ -391,12 +393,12 @@ G14 = "countries/Uldum.txt"
 
 # Arrakoa
 B77 = "countries/Skettis.txt" # tech_arrakoa
-B78 = "countries/Sethikk.txt" # not used, Draenor group
-B79 = "countries/Exiles.txt" # not used, Draenor group
-B80 = "countries/Apexis.txt" # not used, Draenor group
+B78 = "countries/Sethikk.txt" # not used yet, Draenor group
+B79 = "countries/Exiles.txt" # not used yet, Draenor group
+B80 = "countries/Apexis.txt" # not used yet, Draenor group
 F73 = "countries/Haal'esh.txt"
 F79 = "countries/Grishna.txt"
-B85 = "countries/Dark Conclave.txt" #Ghost Arrokoa Old God Cultists
+B85 = "countries/Dark Conclave.txt" #culture_ghost tech_arrakoa (Draenor Old God Cultist Ghosts)
 
 # Tuskarr
 B81 = "countries/Kaluak.txt"

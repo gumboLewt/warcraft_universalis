@@ -38,4 +38,6 @@ capital = 1
 		dip = 1	
 		mil = 3 	
 	}
+primary_culture = culture_murghoul
+add_secondary_culture = culture_nerglish
 } 

@@ -7,10 +7,10 @@ base_production = 1
 
 
 culture = culture_nerubian
-religion = religion_old_gods
+religion = religion_arcane
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 
 
@@ -18,4 +18,5 @@ trade_goods = grain
 626.1.1 = { add_core = F19
 owner = F19
 culture = culture_lordaeron
-religion = religion_argent_light }
+religion = religion_argent_light
+trade_goods = mounts }

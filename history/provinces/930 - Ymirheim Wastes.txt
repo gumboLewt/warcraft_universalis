@@ -12,14 +12,14 @@ base_production = 1
 
 
 culture = culture_nerubian
-religion = religion_old_gods
+religion = religion_arcane
 hre = no
-trade_goods = grain
+trade_goods = silk
 
 
 
 
-610.1.1 = { 
+615.1.1 = { 
 add_core = E11
 controller = E11
 owner = E11

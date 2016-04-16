@@ -1,0 +1,231 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+
+#######
+#WATER#
+#######
+
+#Unique Modifiers not addded yet
+diety_neptulon = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+	allow = { religion = religion_water}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_water
+		}	
+		modifier = {
+			factor = 2
+			OR = {
+			culture = culture_kvaldir
+			culture = culture_skadir
+			}
+		}		
+	}	
+}
+#Unique Modifiers not addded yet
+# The watery counterpart of geomancy
+diety_hydromancy = 
+{ 
+	#(Trade - Deffensive) 
+	defensiveness = 0.15
+	trade_efficiency = 0.15
+	
+	allow = { religion = religion_water }
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+			culture_group = culture_group_lobstrok
+			culture = culture_gilblin
+			}
+		}			
+	}	
+}
+#Unique Modifiers not addded yet
+# Murloc
+diety_deepmother = 
+{ 
+	#(Trade - Deffensive) 
+	defensiveness = 0.15
+	trade_efficiency = 0.15
+	
+	allow = { 
+          religion = religion_water
+		  culture_group = culture_group_depths
+    }
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_nerglish
+		}	
+	}	
+}
+
+######
+#FIRE#
+######
+
+#Unique Modifiers not addded yet
+diety_ragnaros = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+	allow = { religion = religion_fire }
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_fire
+		}	
+		modifier = {
+			factor = 2
+			culture = culture_dark_iron
+		}		
+	}	
+}
+
+#Unique Modifiers not addded yet
+#Yaungol
+diety_ordos = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+	allow = { 
+          religion = religion_fire
+		  culture_group = culture_group_yaungol
+    }
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture_group = culture_group_yaungol
+		}	
+	}	
+}
+
+#######
+#Earth#
+#######
+
+#Unique Modifiers not addded yet
+diety_therazane = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+	allow = { religion = religion_earth }
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_earth
+		}	
+		modifier = {
+			factor = 2
+			culture_group = culture_group_centaur
+		}		
+	}	
+}
+
+#Unique Modifiers not addded yet
+#Nagrand elemental
+diety_gurok = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+	allow = { 
+	      religion = religion_earth 
+	      capital_scope = outland_region
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			capital_scope = outland_region
+		}	
+		modifier = {
+			factor = 2
+			culture_group = culture_group_ogre
+		}		
+	}	
+}
+
+#####
+#Air#
+#####
+
+#Unique Modifiers not addded yet
+diety_al_akir = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+	allow = { religion = religion_air }
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_air
+		}	
+		modifier = {
+			factor = 2
+			culture_group = culture_group_tol_vir
+		}		
+	}	
+}
+
+#Unique Modifiers not addded yet
+#Air/Lighting Elemental Magic
+diety_storm_magic = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+	allow = { 
+	      religion = religion_air 
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture_group = culture_group_harpy
+		}			
+	}	
+}
+
+

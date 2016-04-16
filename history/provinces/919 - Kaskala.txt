@@ -11,10 +11,10 @@ base_production = 3
 
 
 culture = culture_kalu_ak
-religion = religion_ancestral
+religion = religion_primitive
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 
 
@@ -24,4 +24,4 @@ owner = B11
 controller = B11
 add_core = B11
 culture = culture_kvaldir
-religion = religion_ancestral }
+religion = religion_water }

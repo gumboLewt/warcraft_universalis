@@ -7,7 +7,7 @@ base_production = 3
 
 
 culture = culture_kalu_ak
-religion = religion_ancestral
+religion = religion_primitive
 
 hre = no
 trade_goods = grain
@@ -20,4 +20,7 @@ owner = H06
 add_core = H06
 culture = culture_azerothian
 religion = religion_church_of_the_light 
+base_tax = 5
+base_manpower = 5
+base_production = 5
 }
