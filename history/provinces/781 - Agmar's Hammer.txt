@@ -1,27 +1,27 @@
 # 781
 is_city = yes
 
-owner = E74
-controller = E74
-add_core = E74
+owner = B51
+controller = B51
+add_core = B51
 
-base_tax = 4
-base_manpower = 4
-base_production = 4
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
 
-culture = culture_nerubian
-religion = religion_old_gods
+culture = culture_snowfall
+religion = religion_primitive
 
 hre = no
-trade_goods = silk
-
-
+trade_goods = fur
 
 
 626.1.1 = { 
 owner = H07
 controller = H07
 add_core = H07
+remove_core = B51
 culture = culture_horde
-religion = religion_ancestral }
+religion = religion_ancestral
+}

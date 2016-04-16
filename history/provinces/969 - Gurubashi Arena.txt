@@ -9,7 +9,7 @@ base_manpower = 3
 base_production = 3
 
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 
 hre = no
 trade_goods = artifacts

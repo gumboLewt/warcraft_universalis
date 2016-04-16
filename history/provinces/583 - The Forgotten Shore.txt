@@ -4,7 +4,7 @@ is_city = yes
 owner = E72
 controller = E72
 add_core = E72
-capital = "Wintergarde Village"
+capital = "Wintergarde Port"
 
 base_tax = 4
 base_manpower = 4
@@ -17,8 +17,14 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = naval_supplies
 
-
-
+605.1.1 = { 
+owner = E11
+controller = E11
+add_core = E11
+remove_core = E72
+culture = culture_scourge
+religion = religion_the_damned 
+}
 
 # The Third War
 617.1.1 = { 
@@ -27,7 +33,9 @@ controller = F38
 add_core = F38
 remove_core = E72
 culture = culture_lordaeron
-religion = religion_church_of_the_light }
+religion = religion_church_of_the_light
+capital = "Expedition Landing" 
+}
 
 
 # The Frozen Throne
@@ -36,5 +44,11 @@ owner = B47
 controller = B47
 add_core = B47
 remove_core = F38
+remove_core = E11
 culture = culture_bloodpaw
-religion = religion_ancestral }
+religion = religion_primitive
+capital = "Bloodpaw Village" }
+
+626.1.1 = {
+add_core =  F18
+}

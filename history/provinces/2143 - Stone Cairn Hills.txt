@@ -36,5 +36,5 @@ controller = F11
 add_core = F11
 remove_core = B15
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 }

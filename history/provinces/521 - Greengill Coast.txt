@@ -24,6 +24,6 @@ owner = F22
 controller = F22
 add_core = F22
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 remove_core = A90
 }

@@ -19,7 +19,7 @@ trade_goods = crypts
 
 
 
-610.1.1 = { 
+605.1.1 = { 
 owner = E11
 controller = E11
 add_core = E11

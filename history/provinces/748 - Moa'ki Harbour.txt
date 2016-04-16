@@ -10,7 +10,7 @@ base_production = 4
 
 
 culture = culture_moa_ki
-religion = religion_ancestral
+religion = religion_primitive
 
 hre = no
 trade_goods = fish

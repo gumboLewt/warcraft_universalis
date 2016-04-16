@@ -1,0 +1,232 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+
+########
+#Wolvar#
+########
+
+#Unique Modifiers not addded yet
+# That Yeti in Sholazzar
+diety_kartak = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+	allow = { 
+	      religion = religion_primitive
+          culture_group = culture_group_wolfvar
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_frenzyheart
+		}			
+	}	
+}
+#Unique Modifiers not addded yet
+# Just a bunch of robot shrines
+diety_robot = 
+{ 
+	#(Trade - Deffensive) 
+	defensiveness = 0.15
+	trade_efficiency = 0.15
+	
+	allow = { 
+	      religion = religion_primitive
+          culture_group = culture_group_wolfvar
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+      		   capital_scope = area_borean_tundra
+			   capital_scope = area_sholazzar_basin
+		    }
+		}	
+	}
+}
+#Unique Modifiers not addded yet
+# Just a bunch of shovaltusk shrines
+diety_shoveltusk = 
+{ 
+	#(Trade - Deffensive) 
+	defensiveness = 0.15
+	trade_efficiency = 0.15
+	
+	allow = { 
+	      religion = religion_primitive
+          culture_group = culture_group_wolfvar
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+      		   capital_scope = area_borean_tundra
+			   capital_scope = area_dragonblight
+	           capital_scope = area_grizzly_hills
+			   capital_scope = area_zul_drak
+		    }
+		}	
+	}	
+}
+
+#Unique Modifiers not addded yet
+# Just a bunch of proto-drake shrines
+diety_proto_drake = 
+{ 
+	#(Trade - Deffensive) 
+	defensiveness = 0.15
+	trade_efficiency = 0.15
+	
+	allow = { 
+	      religion = religion_primitive
+          culture_group = culture_group_wolfvar
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+      		   capital_scope = area_howling_fjord
+		    }
+		}	
+	}	
+}
+
+#########
+#Tuskarr#
+#########
+
+#Unique Modifiers not addded yet
+#Female spirit of food and shelter
+diety_tayutka = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+		allow = { 
+	      religion = religion_primitive
+          culture_group = culture_group_tuskarr
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_kalu_ak
+		}			
+	}	
+}
+
+#Unique Modifiers not addded yet
+#Female spirit of food and shelter
+diety_tayutka = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+		allow = { 
+	      religion = religion_primitive
+          culture_group = culture_group_tuskarr
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_kalu_ak
+		}			
+	}	
+}
+
+#Unique Modifiers not addded yet
+#Eagle spirit of war
+diety_issliruk = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+		allow = { 
+	      religion = religion_primitive
+          culture_group = culture_group_tuskarr
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_kalu_ak
+		}			
+	}	
+}
+
+#Unique Modifiers not addded yet
+#Watcher of the dead, the Lich King is somtimes considered to be his manifestation
+diety_karkut = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+		allow = { 
+	      religion = religion_primitive
+          culture_group = culture_group_tuskarr
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_kalu_ak
+		}			
+	}	
+}
+
+#Unique Modifiers not addded yet
+#Oacha'noa the sea goddess, a kraken which bears similarity to a loa
+diety_oacha_noa = 
+{ 
+	#(Economic - Offensive) 
+	siege_ability = 0.15
+	production_efficiency = 0.15
+	
+		allow = { 
+	      religion = religion_primitive
+          culture_group = culture_group_tuskarr
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			culture = culture_moa_ki
+		}			
+	}	
+}
+
+##################
+#Druidic/Ancients#
+##################
+
+
+

@@ -16,7 +16,18 @@ religion = religion_loa
 hre = no
 trade_goods = fur
 
+618.1.1 = { owner = xxx
+controller = xxx
+culture = culture_undead_troll
+religion = religion_the_damned
+remove_core = A77
+}
 
+625.11.11 = { owner = xxx
+controller = xxx
+culture = culture_undead_troll
+religion = religion_the_damned
+}
 
 
 626.1.1 = { 

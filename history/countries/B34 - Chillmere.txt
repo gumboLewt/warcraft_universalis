@@ -2,7 +2,7 @@
 government 			= war_tribe
 mercantilism 		= 0.1 
 technology_group 	= tech_depths
-religion			= religion_old_gods
+religion			= religion_water
 primary_culture 	= culture_nerglish
 capital 			= 651
 
@@ -16,3 +16,14 @@ capital 			= 651
 	} 
 } 
 
+626.1.1 = {
+primary_culture = culture_murghoul
+religion = religion_the_damned
+	monarch = { 
+		name = "Young Icefin" 
+		dynasty = "Chillmere" 
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+} 

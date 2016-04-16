@@ -32,4 +32,4 @@ add_core = F11
 remove_core = A42
 remove_core = A02
 culture = culture_nerglish
-religion = religion_old_gods}
+religion = religion_water}

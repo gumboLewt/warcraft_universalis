@@ -40,7 +40,7 @@ trade_goods = army_supplies
 	add_core = F11
 	remove_core = E98
 	culture = culture_nerglish
-	religion = religion_old_gods
+	religion = religion_water
 }
 
 # Rise of the Qiraji

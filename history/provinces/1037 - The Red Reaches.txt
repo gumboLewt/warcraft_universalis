@@ -26,7 +26,4 @@ trade_goods = fish
 owner = F36
 controller = F36
 add_core = F36
-remove_core = E60
-culture = culture_nazja
-religion = religion_old_gods
 }

@@ -7,7 +7,7 @@ add_core = B47
 
 
 culture = culture_bloodpaw
-religion = religion_ancestral
+religion = religion_primitive
 
 base_tax = 3
 base_manpower = 3

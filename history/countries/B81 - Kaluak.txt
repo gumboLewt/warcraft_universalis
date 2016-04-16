@@ -2,7 +2,7 @@
 government 			= mercantile_tribe
 mercantilism 		= 0.1
 technology_group 	= tech_tuskarr
-religion			= religion_ancestral
+religion			= religion_primitive
 primary_culture 	= culture_kalu_ak
 capital 			= 1
 

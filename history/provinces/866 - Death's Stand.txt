@@ -11,15 +11,16 @@ base_production = 3
 
 
 culture = culture_kalu_ak
-religion = religion_ancestral
+religion = religion_primitive
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 
 
 
-626.1.1 = { 
+615.1.1 = { 
 owner = XXX
 controller = XXX
-remove_core = B81}
+remove_core = B81
+}

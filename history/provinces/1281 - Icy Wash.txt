@@ -1,17 +1,25 @@
 # 1281
 is_city = yes
 
+owner = E74
+controller = E74
+add_core = E74
+
 base_tax = 2
 base_manpower = 2
 base_production = 2
 
 
-culture = culture_icemist
-religion = religion_ancestral
+culture = culture_nerubian
+religion = religion_arcane
 
 hre = no
 trade_goods = fish
 
-
-
-
+615.1.1 = {
+owner = xxx
+controller = xxx
+remove_core = E74
+culture = culture_icemist
+religion = religion_ancestral
+}

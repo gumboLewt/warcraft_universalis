@@ -25,7 +25,7 @@ add_core = B25
 owner = B25
 controller = B25
 culture = culture_nerglish
-religion = religion_old_gods
+religion = religion_water
 remove_core = A08
 }
 

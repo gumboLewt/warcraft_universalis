@@ -1,5 +1,5 @@
 # Stormwind - Alliance Vanguard
-vassal = {
+march = {
 	first = A01
 	second = H06
 	start_date = 626.1.1
@@ -7,7 +7,7 @@ vassal = {
 }
 
 # Orgrimmar - Horde Expedition
-vassal = {
+march = {
 	first = A48
 	second = H07
 	start_date = 626.1.1
