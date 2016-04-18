@@ -18,41 +18,41 @@ trade_goods = gold
  
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = A41
-controller = A41
-add_core = A41
-add_core = A26
-culture = culture_blackrock
-religion = religion_fel
-capital = "Alterac Ruins" 
+	owner = A41
+	controller = A41
+	add_core = A41
+	add_core = A26
+	culture = culture_blackrock
+	religion = religion_fel
+	capital = "Alterac Ruins" 
 }
 
 # The Frozen Throne
 618.1.1 = { 
-owner = E12
-controller = E12
-add_core = E12
-remove_core = A41
-religion = religion_the_damned
-culture = culture_cultist
+	owner = E12
+	controller = E12
+	add_core = E12
+	remove_core = A41
+	religion = religion_the_damned
+	culture = culture_cultist
 }
 
 # Reconquest of Lordaeron (TFT)
 618.2.1 = { 
-controller = A25
+	controller = A25
 }
 
 # War of Lordaeron (TFT)
 620.10.1 = { 
-controller = E14
+	controller = E14
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = E50
-controller = E50
-add_core = E50
-remove_core = E12
-culture = culture_crushridge
-religion = religion_geomancy 
+	owner = E50
+	controller = E50
+	add_core = E50
+	remove_core = E12
+	culture = culture_crushridge
+	religion = religion_geomancy 
 }

@@ -1,5 +1,6 @@
 #1044 Scarlet Outpost
 is_city = yes
+
 add_core = A08
 owner = A08
 controller = A08
@@ -16,35 +17,30 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = army_supplies
 
-
-
+# The Third War
+617.1.1 = { 
+	add_core = E52
+	owner = E52
+	controller = E52
+	culture = culture_scourge
+	religion = religion_the_damned 
+}
 
 # The Frozen Throne
 618.1.1 = { 
-add_core = B25
-owner = B25
-controller = B25
-culture = culture_nerglish
-religion = religion_water
-remove_core = A08
-}
-
-# War of Lordaeron (TFT)
-620.1.1 = { 
-controller = F15
-}
-
-# War of Lordaeron (TFT)
-620.5.1 = {
-controller = E52
+	add_core = F15
+	owner = F15
+	controller = F15
+	religion = religion_fel
+	remove_core = A08
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-religion = religion_scarlet_light
-culture = culture_lordaeron
-remove_core = B25
-owner = A22
-controller = A22
-add_core = A22 
+	religion = religion_scarlet_light
+	culture = culture_lordaeron
+	remove_core = B25
+	owner = A22
+	controller = A22
+	add_core = A22 
 }

@@ -1,9 +1,9 @@
 # 2972 Darrowshire
 is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 5
+base_manpower = 6
+base_production = 5
 
 add_core = A08
 owner = A08
@@ -15,19 +15,16 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = grain
 
-
-
-
 # The Third War
 617.1.1 = { 
-add_core = E52
+	add_core = E52
 }
 
 # The Frozen Throne
 618.1.1 = { 
-owner = E52
-controller = E52
-culture = culture_scourge
-religion = religion_the_damned
-remove_core = A08
+	owner = E52
+	controller = E52
+	culture = culture_scourge
+	religion = religion_the_damned
+	remove_core = A08
 }
