@@ -273,28 +273,28 @@ country_event = {
 
 	option = {
 		name = first_war.4.option.a
-            
+        
         random_owned_province = {
             add_base_tax = -1
             add_base_production = -1
             add_base_manpower = -1
             
-            # Chance to be destroyed
-            random = {
-                chance = 25
-                
-                cede_province = XXX
-                remove_core = ROOT
-            }
+            ## Chance to be destroyed
+            #random = {
+            #    chance = 25
+            #    
+            #    cede_province = XXX
+            #    remove_core = ROOT
+            #}
             
-            # Chance it becomes the Orc's
-            random = {
-                chance = 10
-                
-                cede_province = FROM
-                remove_core = ROOT
-                add_core = FROM
-            }
+            ## Chance it becomes the Orc's
+            #random = {
+            #    chance = 10
+            #    
+            #   cede_province = FROM
+            #    remove_core = ROOT
+            #    add_core = FROM
+            #}
         }
         
         add_opinion = {
@@ -302,6 +302,31 @@ country_event = {
             modifier = raided_by_orcs
         }
     }
+	
+	option = {
+		name = first_war.4.option.b
+        
+		add_adm_power = -20
+		add_mil_power = -20
+		add_dip_power = -20
+		
+        add_opinion = {
+            who = FROM
+            modifier = raided_by_orcs
+        }
+    }
+	
+	option = {
+		name = first_war.4.option.c
+        
+		add_treasury = -75
+		add_yearly_manpower = -0.01
+        
+        add_opinion = {
+            who = FROM
+            modifier = raided_by_orcs
+        }
+	}
 }
     
 # Support from the Dark Portal

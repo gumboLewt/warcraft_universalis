@@ -55,6 +55,8 @@ l_english:
  first_war.4.title: "Raid by [From.GetName]"
  first_war.4.desc: "The damned orcs led by [From.Monarch.GetName] have attacked one of our settlements, damaging it in the process."
  first_war.4.option.a: "We must weather this storm..."
+ first_war.4.option.b: "Send a diplomat to this settlements..."
+ first_war.4.option.c: "We will cover the loses!"
  
  first_war.5.title: "Support from the Dark Portal"
  first_war.5.desc: "More of our clansmen have left Draenor to travel through the Dark Portal and fight here on Azeroth. Zug Zug!"
