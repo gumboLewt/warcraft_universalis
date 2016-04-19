@@ -35,7 +35,6 @@ area_ek_wastelands = {
     1192 # Greymane Lake
     1191 # Decrepit Lake
     1174 # Zeb'Nowa Lakes
-    1175 # Deatholme Flow
     1176 # Lakes of the Sun and Moon
     1177 # Stratholme Lake
     1224 # Writhing Waters
