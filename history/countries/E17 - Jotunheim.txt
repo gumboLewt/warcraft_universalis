@@ -2,7 +2,7 @@
 government 			= militaristic_kingdom
 mercantilism 		= 0.1
 technology_group 	= tech_vrykul
-religion			= religion_titanic
+religion			= religion_titan
 primary_culture 	= culture_mjordin
 capital 			= 734
 
