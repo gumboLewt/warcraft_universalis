@@ -195,49 +195,49 @@ country_event = {
         add_mil_power = -100
 	}
 }
-
+# NOTICE: Orc Raid event and its trigged events below are not limited to the First war timeframe, or Stormwind and its vassals. It # does not work as intended, so it will be disabled for now until it is fixed
 # Orc Raid
 # Fire on non-orc nation
-country_event = {
-	id = first_war.2
-	title = first_war.2.title
-	desc = first_war.2.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
-    
-	trigger = {
-		NOT = { religion = religion_fel }
-        NOT = { culture_group = culture_group_orc }
-        any_neighbor_country = {  
-            culture_group = culture_group_orc
-        }
-	}
-	
-    hidden = yes
-    
-	mean_time_to_happen = {
-		months = 120
-        
-        modifier = {
-            factor = 0.1
-            
-            any_neighbor_country = {  
-                culture_group = culture_group_orc
-                has_ruler_modifier = warlust
-            }
-        }
-	}
-	
-	option = {
-		name = first_war.2.option.a
-        
-        random_neighbor_country = {
-            limit = {
-                culture_group = culture_group_orc
-            }
-            country_event = { id = first_war.3 }
-        }
-    }
-}
+#country_event = {
+#	id = first_war.2
+#	title = first_war.2.title
+#	desc = first_war.2.desc
+#	picture = ANGRY_MOB_eventPicture # Placeholder
+#    
+#	trigger = {
+#		NOT = { religion = religion_fel }
+#        NOT = { culture_group = culture_group_orc }
+#        any_neighbor_country = {  
+#            culture_group = culture_group_orc
+#        }
+#	}
+#	
+#    hidden = yes
+#    
+#	mean_time_to_happen = {
+#		months = 120
+#        
+#        modifier = {
+#            factor = 0.1
+#            
+#            any_neighbor_country = {  
+#                culture_group = culture_group_orc
+#                has_ruler_modifier = warlust
+#            }
+#        }
+#	}
+#	
+#	option = {
+#		name = first_war.2.option.a
+#        
+#        random_neighbor_country = {
+#            limit = {
+#                culture_group = culture_group_orc
+#            }
+#            country_event = { id = first_war.3 }
+#        }
+#    }
+#}
 
 # Attack on [From.GetName]!
 # Our clansmen ache with bloodlust, and will attempt to raid [From.GetName] if we do not stop them.
@@ -273,28 +273,28 @@ country_event = {
 
 	option = {
 		name = first_war.4.option.a
-        
+            
         random_owned_province = {
             add_base_tax = -1
             add_base_production = -1
             add_base_manpower = -1
             
-            ## Chance to be destroyed
-            #random = {
-            #    chance = 25
-            #    
-            #    cede_province = XXX
-            #    remove_core = ROOT
-            #}
+            # Chance to be destroyed
+            random = {
+                chance = 25
+                
+                cede_province = XXX
+                remove_core = ROOT
+            }
             
-            ## Chance it becomes the Orc's
-            #random = {
-            #    chance = 10
-            #    
-            #   cede_province = FROM
-            #    remove_core = ROOT
-            #    add_core = FROM
-            #}
+            # Chance it becomes the Orc's
+            random = {
+                chance = 10
+                
+                cede_province = FROM
+                remove_core = ROOT
+                add_core = FROM
+            }
         }
         
         add_opinion = {
@@ -302,31 +302,6 @@ country_event = {
             modifier = raided_by_orcs
         }
     }
-	
-	option = {
-		name = first_war.4.option.b
-        
-		add_adm_power = -20
-		add_mil_power = -20
-		add_dip_power = -20
-		
-        add_opinion = {
-            who = FROM
-            modifier = raided_by_orcs
-        }
-    }
-	
-	option = {
-		name = first_war.4.option.c
-        
-		add_treasury = -75
-		add_yearly_manpower = -0.01
-        
-        add_opinion = {
-            who = FROM
-            modifier = raided_by_orcs
-        }
-	}
 }
     
 # Support from the Dark Portal
@@ -342,6 +317,8 @@ country_event = {
         1035 = {
             religion = religion_fel # If the Portal is controlled by a Fel-aligned nation, they'd let through reinforcements
         }
+        NOT = { is_year = 601 } #Draenor Explodes and Outland is Created
+        capital_scope = { superregion = azeroth_superregion } #Close proximity to portal
 	}
 	
 	mean_time_to_happen = {

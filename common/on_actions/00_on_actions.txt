@@ -3,6 +3,13 @@ on_startup = {
     events = {
         meta.1
     }
+    if = {
+        limit = {
+		year = 591
+		NOT = { has_global_flag = the_dark_portal_has_started }
+		}
+		set_global_flag = the_dark_portal_has_started
+    }
 }
 
 # country
