@@ -44,5 +44,5 @@ owner = A91
 controller = A91
 remove_core = G18
 culture = culture_blood_elf
-religion = religion_arcane 
+religion = religion_light_of_the_sunwell
 }

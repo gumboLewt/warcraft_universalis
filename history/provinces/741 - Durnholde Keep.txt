@@ -25,8 +25,18 @@ religion = religion_fel
 }
 
 # The Third War
-617.1.1 = { 
-religion = religion_ancestral 
+617.1.1 = {
+owner = XXX
+controller = XXX
+culture = culture_lordaeron
+religion = religion_church_of_the_light 
+}
+
+617.11.11 = {
+owner = XXX
+controller = XXX
+culture = culture_lordaeron
+religion = religion_church_of_the_light 
 }
 
 # The Frozen Throne

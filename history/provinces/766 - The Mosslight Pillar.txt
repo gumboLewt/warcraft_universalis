@@ -5,16 +5,23 @@ owner = B55
 controller = B55
 add_core = B55
 
-base_tax = 5
-base_manpower = 5
-base_production = 5
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
 
 culture = culture_sparktouched
 religion = religion_titan
 
 hre = no
-trade_goods = grain
+trade_goods = gemstones
+
+615.1.1 = {
+owner = G36
+controller = G36
+add_core = G36
+}
+
 
 
 

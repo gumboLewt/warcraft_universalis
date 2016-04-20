@@ -10,17 +10,17 @@ culture = culture_mjordin
 religion = religion_titan
 
 hre = no
-trade_goods = army_supplies
+trade_goods = saronite
 
 
 
 
-626.1.1 = { 
+615.1.1 = { 
 religion = religion_the_damned 
 culture = culture_ymirjar
-base_tax = 3
+base_tax = 5
 base_manpower = 4
-base_production = 3
+base_production = 5
 owner = E15
 controller = E15
 add_core = E15

@@ -1,5 +1,5 @@
 # 1549 Land's Edn Beach
-is_city = yes
+is_city = no
 
 base_tax = 1
 base_manpower = 1
@@ -16,7 +16,25 @@ hre = no
 trade_goods = fish
 
 # Rise of the Qiraji
-622.1.1 = {
-owner = XXX
-controller = XXX
+600.1.1 = {
+owner = xxx
+controller = xxx
+culture = culture_dunemaul
+religion = religion_geomancy
+}
+
+630.11.11 = {
+owner = xxx
+controller = xxx
+culture = culture_dunemaul
+religion = religion_geomancy
+}
+
+631.1.1 = {
+add_core = A32
+owner = A32
+controller = A32
+culture = culture_gnome
+religion = religion_tech
+capital = "Steelspark station"
 }

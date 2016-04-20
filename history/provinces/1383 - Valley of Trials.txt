@@ -6,11 +6,11 @@ base_manpower = 2
 base_production = 2
 
 
-culture = culture_silithid
-religion = religion_old_gods
+culture = culture_kolkar
+religion = religion_ancestral
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 
@@ -22,4 +22,16 @@ trade_goods = grain
 	add_core = A48 
 	culture = culture_horde
 	religion = religion_ancestral
+}
+
+632.6.1 = { 
+	owner = A70
+	controller = A70
+	add_core = A70 
+}
+
+633.1.1 = { 
+	owner = A48
+	controller = A48
+	remove_core = A70 
 }

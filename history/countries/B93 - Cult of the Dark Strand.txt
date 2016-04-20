@@ -2,6 +2,7 @@
 government 			= cult_gov
 mercantilism 		= 0.1
 technology_group 	= tech_demonic
-religion			= religion_shadow
+religion			= religion_fel
+secondary_religion = religion_shadow
 primary_culture 	= culture_dark_strand
 capital 			= 1

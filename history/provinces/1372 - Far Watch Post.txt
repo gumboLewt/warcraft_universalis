@@ -10,16 +10,21 @@ culture = culture_razormane
 religion = religion_geomancy
 
 hre = no
-trade_goods = grain
-
-
+trade_goods = fur
 
 
 # The Frozen Throne
 618.1.1 = { 
+	owner = B69
+	controller = B69
+	add_core = B69
+}
+
+622.1.1 = { 
 	owner = A48
 	controller = A48
 	add_core = A48 
 	culture = culture_horde
 	religion = religion_ancestral
+        trade_goods = grain
 }

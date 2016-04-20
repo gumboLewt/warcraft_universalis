@@ -1,6 +1,6 @@
 # 1937 Circle of Outer Binding
 
-is_city = yes
+is_city = no
 add_core = A16
 owner = A16
 controller = A16
@@ -16,13 +16,17 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = artifacts
 
-
- 
-
 # The Third War
 617.1.1 = {
 owner = XXX
 controller = XXX
+}
+
+617.11.11 = {
+owner = XXX
+controller = XXX
+culture = culture_arathi
+religion = religion_church_of_the_light 
 }
 
 # The Frozen Throne

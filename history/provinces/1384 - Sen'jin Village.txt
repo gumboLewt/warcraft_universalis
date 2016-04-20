@@ -11,7 +11,7 @@ culture = culture_kolkar
 religion = religion_ancestral
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 
 
@@ -21,7 +21,9 @@ trade_goods = grain
 owner = A70
 controller = A70
 add_core = A70
-remove_core = B24
 culture = culture_darkspear
 religion = religion_loa 
+base_tax = 3
+base_manpower = 3
+base_production = 3
 }

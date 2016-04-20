@@ -5,17 +5,22 @@ owner = B53
 controller = B53
 add_core = B53
 
-base_tax = 5
-base_manpower = 5
-base_production = 5
+base_tax = 4
+base_manpower = 4
+base_production = 4
 
 
 culture = culture_rainspeaker
 religion = religion_titan
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
+615.1.1 = {
+owner = G36
+controller = G36
+add_core = G36
+}
 
 
 
