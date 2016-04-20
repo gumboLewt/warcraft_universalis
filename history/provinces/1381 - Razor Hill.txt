@@ -1,10 +1,13 @@
 # 1381
 is_city = yes
 
+owner = B69
+controller = B69
+add_core = B69
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
 
 culture = culture_razormane
@@ -23,4 +26,16 @@ trade_goods = grain
 	add_core = A48 
 	culture = culture_horde
 	religion = religion_ancestral
+}
+
+632.6.1 = { 
+	owner = A70
+	controller = A70
+	add_core = A70 
+}
+
+633.1.1 = { 
+	owner = A48
+	controller = A48
+	remove_core = A70 
 }

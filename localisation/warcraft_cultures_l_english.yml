@@ -130,7 +130,7 @@ l_english:
  culture_dawnstrider: "Dawnstrider"
  culture_winterhoof: "Winterhoof"
  culture_thunderhorn: "Thunderhorn"
- culture_wildemane: "Wildmane"
+ culture_wildmane: "Wildmane"
  culture_cliffwalker: "Cliffwalker"
  culture_skychaser: "Skychaser"
  culture_stonespire: "Stonespire"
@@ -257,6 +257,7 @@ l_english:
  culture_rainspeaker: "Rainspeaker"
  culture_mosswalker: "Mosswalker"
  culture_sparktouched: "Sparktouched"
+ culture_gorloc: "Borean Gorloc"
 
  culture_group_kobold: "Kobold"
  culture_drywhisker: "Drywhisker"
@@ -268,6 +269,7 @@ l_english:
  culture_tunnel_rat: "Tunnel Rat"
  culture_boulderslide: "Boulderslide"
  culture_snowplain: "Snowplain"
+ culture_windshear: "Windshear"
  
  culture_group_magnataur: "Magnataur"
  culture_magmoth: "Magmoth"
@@ -312,6 +314,7 @@ l_english:
  culture_treant: "Treant"
  culture_construct: "Construct"
  culture_ascendant: "Elemental Ascendant"
+ culture_sha: "Sha"
  
  culture_group_worgen: "Worgen"
  culture_wolfcult: "Wolfcult"

@@ -1,13 +1,13 @@
-# 900
+# 900 
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 2
+base_manpower = 2
+base_production = 2
 
 
-culture = culture_magmoth
-religion = religion_geomancy
+culture = culture_gorloc # Burblegobble
+religion = religion_primitive
 
 hre = no
 trade_goods = fur

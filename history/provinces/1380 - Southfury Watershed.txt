@@ -12,11 +12,8 @@ religion = religion_geomancy
 hre = no
 trade_goods = grain
 
-
-
-
 618.1.1 = { 
-	owner = A48
-	controller = A48
-	add_core = A48 
+	owner = B69
+	controller = B69
+	add_core = B69
 }

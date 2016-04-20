@@ -1,15 +1,19 @@
 # 1385 Echo Isles
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = G37
+controller = G37
+add_core = G37
 
-culture = culture_nerglish
-religion = religion_water
+base_tax = 3
+base_manpower = 2
+base_production = 3
+
+culture = culture_sea_giant
+religion = religion_titan
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 # The Frozen Throne
 618.1.1 = { 
@@ -24,4 +28,19 @@ trade_goods = grain
 	base_tax = 6
 	base_manpower = 6
 	base_production = 6
+        trade_goods = mounts
 }
+
+622.1.1 = {
+owner = G37
+controller = G37
+add_core = G37
+religion = religion_voodoo
+}
+
+631.1.1 = {
+owner = A70
+controller = A70
+remove_core = G37
+}
+

@@ -5,11 +5,11 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-culture = culture_sparktouched
+culture = culture_construct
 religion = religion_titan
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 

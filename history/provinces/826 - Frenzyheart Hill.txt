@@ -1,6 +1,18 @@
 # 826
 is_city = no
 
+base_tax = 3
+base_manpower = 1
+base_production = 3
+
+
+culture = culture_construct
+religion = religion_titan
+
+hre = no
+trade_goods = fur
+
+615.1.1 = {
 owner = B48
 controller = B48
 add_core = B48
@@ -12,9 +24,8 @@ base_production = 4
 
 culture = culture_frenzyheart
 religion = religion_primitive
+}
 
-hre = no
-trade_goods = fur
 
 
 
