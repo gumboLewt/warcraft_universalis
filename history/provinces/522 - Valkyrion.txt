@@ -1,9 +1,9 @@
 # 522
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
 owner = E16
 controller = E16
@@ -13,7 +13,7 @@ culture = culture_hyldnir
 religion = religion_titan
 
 hre = no
-trade_goods = grain
+trade_goods = army_supplies
 
 
 
@@ -22,4 +22,5 @@ trade_goods = grain
 add_core = E11
 controller = E11
 owner = E11
-religion = religion_the_damned }
+religion = religion_the_damned 
+}

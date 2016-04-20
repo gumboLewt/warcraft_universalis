@@ -23,5 +23,5 @@ trade_goods = fish
 owner = B10
 controller = B10
 add_core = B10
-culture = culture_kvaldir
-religion = religion_ancestral }
+culture = culture_skadir
+religion = religion_water }

@@ -1,4 +1,4 @@
-# 1226
+# 1226 Shadowed Shore
 is_city = no
 
 
@@ -15,10 +15,21 @@ hre = no
 trade_goods = fish
 
 
-
-
-626.1.1 = { 
+615.1.1 = { 
 add_core = E11
 owner = E11
 culture = culture_scourge
-religion = religion_the_damned }
+religion = religion_the_damned
+}
+
+626.1.1 = { 
+owner = E13
+controller = E13
+add_core = E13
+religion = religion_shadow
+culture = culture_death_knight 
+}
+
+631.1.1 = {
+remove_core = E11
+}

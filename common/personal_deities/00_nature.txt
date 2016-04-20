@@ -6,7 +6,7 @@
 ########
 
 #Unique Modifiers not addded yet
-# That Yeti in Sholazzar
+# That Yeti in Sholazar
 diety_kartak = 
 { 
 	#(Economic - Offensive) 
@@ -47,7 +47,7 @@ diety_robot =
 			factor = 2
 			OR = {
       		   capital_scope = area_borean_tundra
-			   capital_scope = area_sholazzar_basin
+			   capital_scope = area_sholazar_basin
 		    }
 		}	
 	}

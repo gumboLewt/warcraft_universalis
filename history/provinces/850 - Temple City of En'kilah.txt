@@ -24,5 +24,5 @@ trade_goods = artifacts
 add_core = E11
 controller = E11
 owner = E11
-culture = culture_scourge
+culture = culture_crypt_fiend
 religion = religion_the_damned }

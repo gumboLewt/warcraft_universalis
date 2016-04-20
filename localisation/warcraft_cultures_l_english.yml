@@ -27,7 +27,7 @@ l_english:
  culture_kvaldir: "Kvaldir"
  culture_skadir: "Skadir"
  culture_hyldnir: "Hyldnir"
- culture_ymirheim: "Ymirheim"
+ culture_mjordin: "Mjordin"
  culture_dragonflayer: "Dragonflayer"
  culture_winterskorn: "Winterskorn"
  
@@ -190,7 +190,8 @@ l_english:
  culture_scourge: "Scourge"
  culture_death_knight: "Death Knight"
  culture_cultist: "Necromantic Cultist"
- culture_xrypt_fiend: "Crypt Fiend"
+ culture_crypt_fiend: "Crypt Fiend"
+ culture_ymirjar: "Ymirjar"
  
  culture_group_dragonkin: "Dragon"
  culture_black: "Black Dragonflight"
@@ -216,7 +217,7 @@ l_english:
  culture_shadowhide: "Shadowhide"
  culture_redridge: "Redridge"
  culture_palemane: "Palemane"
- culture_rothide: "Rothide"
+ culture_rothide: "Rot Hide" #undead gnolls
  culture_woodpaw: "Woodpaw"
  culture_savage_hill: "Savage Hill"
  culture_wildpaw: "Wildpaw"

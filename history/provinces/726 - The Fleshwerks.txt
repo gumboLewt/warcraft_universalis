@@ -27,4 +27,5 @@ owner = E11
 culture = culture_scourge
 religion = religion_the_damned
 trade_goods = crypts
+base_manpower = 3
 }

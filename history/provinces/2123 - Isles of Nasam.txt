@@ -14,7 +14,7 @@ culture = culture_nazja
 religion = religion_old_gods
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
 
 
@@ -24,4 +24,4 @@ owner = B10
 controller = B10
 add_core = B10
 culture = culture_kvaldir
-religion = religion_ancestral }
+religion = religion_water }

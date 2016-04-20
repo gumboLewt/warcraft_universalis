@@ -1,19 +1,20 @@
 # 951
 is_city = no
 
+owner = B61
+controller = B61
+add_core = B61
+
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
 
-culture = culture_icemist
-religion = religion_ancestral
+culture = culture_magmoth
+religion = religion_geomancy
 
 hre = no
-trade_goods = grain
-
-
-
+trade_goods = fur
 
 626.1.1 = { 
 	owner = H07

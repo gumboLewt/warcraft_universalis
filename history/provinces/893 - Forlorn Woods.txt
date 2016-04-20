@@ -16,6 +16,20 @@ religion = religion_arcane
 hre = no
 trade_goods = arcane
 
+626.1.1 = {
+owner = B01
+controller = B01
+add_core = B01
+culture = culture_blue
+religion = religion_sect_of_dragons
+}
 
+631.1.1 = {
+owner = E77
+controller = E77
+culture = culture_crystal_satyr
+religion = religion_arcane
+remove_core = B01
+}
 
 

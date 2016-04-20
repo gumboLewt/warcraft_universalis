@@ -1,15 +1,25 @@
-# Bloodspore
+# Bloodspore/Gammoth
 government 			= war_tribe
 mercantilism 		= 0.1 
-technology_group 	= tech_kobold
+technology_group 	= tech_magnataur
 religion			= religion_geomancy
-primary_culture 	= culture_bloodspore
+primary_culture 	= culture_gammoth
 capital 			= 2122
 
 546.1.1 = { 
 	monarch = { 
-		name = "Gammothra the Tormentor" 
-		dynasty = "Bloodspore" 
+		name = "Gammoth" 
+		dynasty = "the Tormentor" 
+		adm = 1
+		dip = 1
+		mil = 5
+	} 
+} 
+
+600.1.1 = { 
+	monarch = { 
+		name = "Gammothra" 
+		dynasty = "the Tormentor" 
 		adm = 1
 		dip = 1
 		mil = 5

@@ -1,0 +1,18 @@
+# Uldaar Earthen
+government 			= administrative_kingdom
+mercantilism 		= 0.1
+technology_group 	= tech_titan
+religion			= religion_titan
+primary_culture 	= culture_earthen
+capital 			= 1291
+government_rank = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Bouldercrag" 
+		dynasty = "the Rockshaper" 
+		adm = 4
+		dip = 3
+		mil = 2          
+	} 
+}

@@ -189,6 +189,7 @@ A72 = "countries/Hakkari.txt"
 E58 = "countries/Zanzil.txt"
 F09 = "countries/Jellyneck.txt"
 F63 = "countries/Zabra'jin.txt"
+G37 = "countries/Echo Isles.txt"
 
 # Sand Troll
 A73 = "countries/Sandfury.txt"	# tech_troll
@@ -212,6 +213,7 @@ A81 = "countries/Venture Company.txt"
 A82 = "countries/Gilblin.txt"
 A83 = "countries/Blackwater.txt"
 F81 = "countries/BOOM.txt"
+G34 = "countries/Tinkers Union.txt"
 
 # Tauren
 A84 = "countries/Bloodhoof.txt" # tech_tauren
@@ -272,9 +274,9 @@ B08 = "countries/Dragonflayer.txt"
 B09 = "countries/Winterskorn.txt"
 B10 = "countries/Skadir.txt"
 B11 = "countries/Kvaldir.txt"
-E15 = "countries/Ymirjar.txt"
+E15 = "countries/Ymirjar.txt" #Undead Vrykul
 E16 = "countries/Hyldnir.txt"
-E17 = "countries/Jotunheim.txt" # same faction as Ymirjar, should be merged with it
+E17 = "countries/Jotunheim.txt" 
 
 # Gnoll
 B12 = "countries/Blackpaw.txt"
@@ -346,6 +348,7 @@ B52 = "countries/Mistwhisper.txt" # tech gorloc
 B53 = "countries/Rainspeaker.txt" # Leading tribe of the Oracles
 B54 = "countries/Mosswalker.txt"
 B55 = "countries/Sparktouched.txt"
+G36 = "countries/Oracles.txt"
 
 # Kobold
 B56 = "countries/Drywhisker.txt" # tech_kobold
@@ -361,6 +364,7 @@ G31 = "countries/Snowplain.txt" # tech_kobold
 
 # Magnataur
 B61 = "countries/Magmoth.txt" # tech_magnataur
+G33 = "countries/Garm.txt"
 
 # Harpy
 B63 = "countries/Bloodfury.txt" # tech_harpy
@@ -390,6 +394,9 @@ G08 = "countries/Shapers.txt"
 G09 = "countries/Ramkahen.txt"
 G10 = "countries/Orsis.txt"
 G14 = "countries/Uldum.txt"
+G32 = "countries/Earthen.txt"
+G35 = "countries/Mechagnomes.txt"
+G38 = "countries/Lifewarders.txt"
 
 # Arrakoa
 B77 = "countries/Skettis.txt" # tech_arrakoa

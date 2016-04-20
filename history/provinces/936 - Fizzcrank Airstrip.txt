@@ -9,7 +9,7 @@ culture = culture_icemist
 religion = religion_ancestral
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 # Wrath of the Lich King
 626.1.1 = {
@@ -20,7 +20,7 @@ trade_goods = grain
 	
 	base_tax = 3
 	base_manpower = 3
-	base_production = 4
+	base_production = 3
 	
 	culture = culture_gnome
 	religion = religion_tech

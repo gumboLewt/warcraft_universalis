@@ -31,10 +31,9 @@ religion = religion_the_damned
 
 
 626.1.1 = { 
-add_core = H07
-owner = H07
-controller = H07
-remove_core = A77
+add_core = A96
+owner = A96
+controller = A96
 culture = culture_forsaken
 religion = religion_forgotten_shadow 
 }

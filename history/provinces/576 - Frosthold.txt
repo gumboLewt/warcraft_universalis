@@ -14,7 +14,7 @@ culture = culture_frostborn
 religion = religion_titan
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 

@@ -1,4 +1,4 @@
-# 633
+# 633 Rageclaw Den
 is_city = no
 
 owner = B50
@@ -14,7 +14,7 @@ culture = culture_rageclaw
 religion = religion_primitive
 
 hre = no
-trade_goods = fur
+trade_goods = fish
 
 
 

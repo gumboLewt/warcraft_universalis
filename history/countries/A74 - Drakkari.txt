@@ -26,3 +26,7 @@ monarch = {
 		mil = 5
  	} 
  } 
+
+626.1.1 = {
+religion = religion_voodoo
+}

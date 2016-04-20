@@ -6,11 +6,11 @@ base_manpower = 2
 base_production = 3
 
 
-culture = culture_blue
-religion = religion_sect_of_dragons
+culture = culture_construct
+religion = religion_old_gods
 
 hre = no
-trade_goods = grain
+trade_goods = workshops
 
 
 

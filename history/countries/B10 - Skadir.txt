@@ -2,8 +2,8 @@
 government 			= war_tribe
 mercantilism 		= 0.1
 technology_group 	= tech_vrykul
-religion			= religion_ancestral
-primary_culture 	= culture_kvaldir
+religion			= religion_water
+primary_culture 	= culture_skadir
 capital 			= 1
 
 626.1.1 = { 

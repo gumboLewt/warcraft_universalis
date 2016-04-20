@@ -1,12 +1,16 @@
 # 761
-is_city = no
+is_city = yes
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
+owner = E17
+controller = E17
+add_core = E17
+
+base_tax = 4
+base_manpower = 4
+base_production = 4
 
 
-culture = culture_ymirheim
+culture = culture_mjordin
 religion = religion_titan
 
 hre = no
@@ -15,8 +19,6 @@ trade_goods = grain
 
 
 
-626.1.1 = { 
-owner = E17
-controller = E17
-add_core = E17
-religion = religion_the_damned }
+615.1.1 = { 
+religion = religion_the_damned 
+}

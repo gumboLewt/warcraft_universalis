@@ -25,18 +25,10 @@ add_core = H06
 631.1.1 = {
 culture = culture_yogg_saron
 religion = religion_old_gods
-owner = A43
-controlleer = A43
-add_core = A43
-capital = "The Maw of Destruction"
-}
-
-632.1.1 = {
 owner = B86
 controlleer = B86
 add_core = B86
-remove_core = A43
+capital = "The Maw of Destruction"
 }
-
 
 

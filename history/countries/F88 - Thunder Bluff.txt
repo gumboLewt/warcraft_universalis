@@ -4,6 +4,7 @@ government_rank = 3
 mercantilism 		= 0.1
 technology_group 	= tech_tauren
 religion			= religion_ancestral
+secondary_religion = religion_druidic
 primary_culture 	= culture_bloodhoof
 capital 			= 1373
 

@@ -31,24 +31,32 @@ religion = religion_the_damned
 owner = F38
 controller = F38
 add_core = F38
-remove_core = E72
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 capital = "Expedition Landing" 
 }
 
+618.1.1 = { owner = xxx
+controller = xxx
+culture = culture_scourge
+religion = religion_the_damned
+remove_core = F38
+remove_core = E11
+}
+
+625.11.11 = { owner = xxx
+controller = xxx
+culture = culture_scourge
+religion = religion_the_damned
+}
 
 # The Frozen Throne
-618.1.1 = { 
+626.1.1 = { 
 owner = B47
 controller = B47
 add_core = B47
-remove_core = F38
-remove_core = E11
+add_core =  F18
 culture = culture_bloodpaw
 religion = religion_primitive
-capital = "Bloodpaw Village" }
-
-626.1.1 = {
-add_core =  F18
+capital = "Bloodpaw Village" 
 }
