@@ -54,8 +54,8 @@ add_country_modifier = {
  
  631.1.1 = { 
 monarch = { 
-     name = "Amaren" 
-     dynasty = "of Stromgarde" 
+     name = "" 
+     dynasty = "Amaren" 
 		adm = 2
 		dip = 3
 		mil = 3 

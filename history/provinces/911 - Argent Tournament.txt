@@ -6,8 +6,8 @@ base_manpower = 1
 base_production = 1
 
 
-culture = culture_nerubian
-religion = religion_arcane
+culture = culture_kalu_ak
+religion = religion_primitive
 
 hre = no
 trade_goods = fish
@@ -15,8 +15,13 @@ trade_goods = fish
 
 
 
-626.1.1 = { add_core = F19
+626.1.1 = { 
+add_core = F19
 owner = F19
 culture = culture_lordaeron
 religion = religion_argent_light
-trade_goods = mounts }
+trade_goods = mounts
+base_tax = 3
+base_manpower = 3
+base_production = 3 
+}

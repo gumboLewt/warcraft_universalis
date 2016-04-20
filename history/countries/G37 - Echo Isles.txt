@@ -1,0 +1,41 @@
+# Echo Isles
+government 			= militaristic_kingdom
+mercantilism 		= 0.1
+technology_group 	= tech_troll
+religion			= religion_titan
+primary_culture 	= culture_sea_giant
+capital 			= 1384
+
+
+546.1.1 = {  
+monarch = {  
+      name = ""  
+     dynasty = "Sea King"  
+ 		adm = 3 
+		dip = 3 
+		mil = 3 
+  	}  
+  }  
+
+592.1.1 = {  
+monarch = {  
+      name = ""  
+     dynasty = "Sea King"  
+ 		adm = 3 
+		dip = 3 
+		mil = 3 
+  	}  
+  }  
+
+622.1.1 = {
+monarch = {  
+      name = "Zalazane"  
+     dynasty = "Darkspear"  
+ 		adm = 4 
+		dip = 4 
+		mil = 3  
+  	} 
+government = militaristic_theocracy
+primary_culture = culture_darkspear
+religion = religion_voodoo
+}  

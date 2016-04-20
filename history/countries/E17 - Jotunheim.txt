@@ -2,11 +2,22 @@
 government 			= militaristic_kingdom
 mercantilism 		= 0.1
 technology_group 	= tech_vrykul
-religion			= religion_the_damned
-primary_culture 	= culture_ymirheim
+religion			= religion_titanic
+primary_culture 	= culture_mjordin
 capital 			= 734
 
-626.1.1 = { 
+546.1.1 = { 
+monarch = { 
+     name = "Jotgarde" 
+	dynasty = "Jotunheim"
+		adm = 2
+		dip = 2
+		mil = 4 
+
+ 	} 
+ }
+
+615.1.1 = { 
 monarch = { 
      name = "Balargarde" 
 	dynasty = "Jotunheim"
@@ -15,4 +26,5 @@ monarch = {
 		mil = 4 
 
  	} 
+religion = religion_the_damned
  } 

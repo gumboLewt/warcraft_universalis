@@ -1,4 +1,4 @@
-# 779
+# 779 Heb'Valok
 is_city = no
 
 owner = A74
@@ -18,9 +18,9 @@ trade_goods = grain
 
 
 
-
 626.1.1 = { add_core = F19
 controller = F19
 owner = F19
 culture = culture_lordaeron
-religion = religion_argent_light }
+religion = religion_argent_light
+trade_good = army_supplies }

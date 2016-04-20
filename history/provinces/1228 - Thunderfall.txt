@@ -14,7 +14,7 @@ culture = culture_ice_giant
 religion = religion_titan
 
 hre = no
-trade_goods = grain
+trade_goods = fossils
 
 
 

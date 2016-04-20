@@ -6,7 +6,7 @@ controller = B73
 add_core = B73
 
 base_tax = 2
-base_manpower = 2
+base_manpower = 3
 base_production = 2
 
 
@@ -14,7 +14,13 @@ culture = culture_iron
 religion = religion_old_gods
 
 hre = no
-trade_goods = grain
+trade_goods = workshops
+
+631.1.1 = {
+owner = B86
+controlleer = B86
+add_core = B86
+}
 
 
 

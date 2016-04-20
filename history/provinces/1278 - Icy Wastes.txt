@@ -1,20 +1,27 @@
 # 1278
 is_city = yes
 
-owner = F41
-controller = F41
-add_core = F41
+owner = B65
+controller = B65
+add_core = B65
 
 base_tax = 2
-base_manpower = 2
+base_manpower = 3
 base_production = 2
 
 
-culture = culture_savage_hill
-religion = religion_ancestral
+culture = culture_frostfeather
+religion = religion_air
+
+capital = "Bor's Breath"
 
 hre = no
-trade_goods = grain
+trade_goods = fur
+
+
+
+
+
 
 
 

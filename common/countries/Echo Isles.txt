@@ -1,0 +1,25 @@
+# Sea Giants, then Zalazane's Trolls
+graphical_culture = westerngfx
+
+color = { 22 150 245 }
+
+monarch_names = {
+
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

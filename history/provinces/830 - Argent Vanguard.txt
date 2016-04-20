@@ -1,4 +1,4 @@
-# 830
+# 830 Nerubian Vanguard
 is_city = no
 
 owner = E74

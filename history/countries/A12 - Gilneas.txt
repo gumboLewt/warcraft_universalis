@@ -42,5 +42,6 @@ technology_group = tech_worgen
 add_country_modifier = {
     name = alliance_member
     duration = -1
-} 
+}
+secondary_religion = religion_druidic 
 }

@@ -1,20 +1,16 @@
-# 968
+# 968 (also may be taunka burial grounds)
 is_city = no
 
-owner = B03
-controller = B03
-add_core = B03
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
+base_tax = 2
+base_manpower = 1
+base_production = 2
 
 
-culture = culture_red
-religion = religion_sect_of_dragons
+culture = culture_icemist
+religion = religion_ancestral
 
 hre = no
-trade_goods = grain
+trade_goods = crypts
 
 
 
@@ -26,4 +22,8 @@ trade_goods = grain
 	remove_core = B03
 	culture = culture_dalaran
 	religion = religion_arcane
+        trade_goods = arcane
+        base_tax = 3
+        base_manpower = 3
+        base_production = 3
 }

@@ -1,21 +1,28 @@
 # 896
 is_city = yes
 
-owner = B65
-controller = B65
-add_core = B65
+owner = B73
+controller = B73
+add_core = B73
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
 
-culture = culture_frostfeather
-religion = religion_air
+culture = culture_iron
+religion = religion_old_gods
 
 hre = no
-trade_goods = grain
+trade_goods = workshops
 
+capital = "Narvir's Cradle"
+
+631.1.1 = {
+owner = B86
+controlleer = B86
+add_core = B86
+}
 
 
 

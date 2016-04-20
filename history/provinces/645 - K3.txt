@@ -1,27 +1,28 @@
-# 645
+# 645 Garm
 is_city = yes
 
-owner = F41
-controller = F41
-add_core = F41
+owner = G33
+controller = G33
+add_core = G33
 
 base_tax = 2
-base_manpower = 2
+base_manpower = 3
 base_production = 2
 
 
-culture = culture_savage_hill
-religion = religion_ancestral
+culture = culture_garm
+religion = religion_geomancy
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 
 
-626.1.1 = { culture = culture_steamwheedle
+626.1.1 = { culture = culture_kezani
 religion = religion_tech
-owner = A80
-controller = A80
-add_core = A80
-remove_core = A80 }
+owner = G34
+controller = G34
+add_core = G34
+base_manpower = 2
+}

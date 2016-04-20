@@ -23,6 +23,10 @@ add_country_modifier = {
 }
 } 
 
+610.1.1 = {
+secondary_religion = religion_mystery_of_the_makers
+}
+
 631.1.1 = { 
 monarch = { 
      name = "Council of Three Hammers"  

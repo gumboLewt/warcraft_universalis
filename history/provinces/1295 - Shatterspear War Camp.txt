@@ -14,6 +14,15 @@ religion = religion_arcane
 hre = no
 trade_goods = artifacts
 
+618.1.1 = {
+owner = B30
+controller = B30
+add_core = B30
+
+culture = culture_nerglish
+religion = religion_water
+}
+
 # Rise of the Qiraji
 622.1.1 = {
 owner = B93
@@ -22,6 +31,7 @@ add_core = B93
 religion = religion_fel
 culture = culture_legion_cultist
 trade_goods = fel
+remove_core = B30
 }
 
 # Cataclysm

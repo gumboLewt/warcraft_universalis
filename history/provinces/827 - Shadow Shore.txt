@@ -1,16 +1,25 @@
-# 827
+# 827 The Savage Ledge
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = E17
+controller = E17
+add_core = E17
+
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
 
-culture = culture_kalu_ak
-religion = religion_primitive
+culture = culture_mjordin
+religion = religion_titan
 
 hre = no
-trade_goods = fish
+trade_goods = flying_mounts
+
+
+615.1.1 = { 
+religion = religion_the_damned 
+}
 
 
 
