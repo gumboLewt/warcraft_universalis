@@ -1,0 +1,44 @@
+l_french:
+
+ #####################
+ # STATIC MODIFIERS #
+ #####################
+
+ # Alliance/Horde
+ alliance_member: "Alliance"
+ horde_member: "Horde"
+ alliance_head: "Commandant Suprême de l'Alliance"
+ horde_head: "Chef de Guerre"
+ # Neutral
+ neutral_member: "Organisation neutre"
+ 
+ #####################
+ # OPINION MODIFIERS #
+ #####################
+ 
+ #Alliance
+ alliance_alliance: "Membre de l'Alliance"
+ alliance_horde: "Membre de l'Alliance"
+ alliance_neutral: "Membre de l'Alliance"
+ alliance_creep: "Membre de l'Alliance"
+ #Horde
+ horde_alliance: "Membre de la Horde"
+ horde_horde: "Membre de la Horde"
+ horde_neutral: "Membre de la Horde"
+ horde_creep: "Membre de la Horde"
+ #Neutral
+ neutral_alliance: "Organisation neutre"
+ neutral_horde: "Organisation neutre"
+ neutral_neutral: "Organisation neutre"
+ neutral_creep: "Organisation neutre"
+ 
+
+ #######################
+ # TRIGGERED MODIFIERS #
+ #######################
+
+ alliance_enemy: "Ennemi de l'Alliance"
+ horde_enemy: "Ennemi de la Horde"
+
+
+
