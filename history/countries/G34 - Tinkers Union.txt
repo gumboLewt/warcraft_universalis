@@ -9,16 +9,6 @@ capital 			= 654
 622.1.1 = { 
 monarch = { 
      name = "" 
-     dynasty = "Copperplug" 
-		adm = 3
-		dip = 3
-		mil = 3
- 	} 
-}
-
-622.1.1 = { 
-monarch = { 
-     name = "" 
      dynasty = "Riddlevox" 
 		adm = 3
 		dip = 3
@@ -38,12 +28,5 @@ monarch = {
 		dip = 3
 		mil = 3
 female = yes
-}
-heir = { 
-     name = "Deev" 
-     dynasty = "Fizzlespark" 
-		adm = 2
-		dip = 2
-		mil = 2
- 	} 
+} 
 }

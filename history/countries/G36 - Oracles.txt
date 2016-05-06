@@ -4,9 +4,9 @@ mercantilism 		= 0.1
 technology_group 	= tech_gorloc
 religion			= religion_titan
 primary_culture 	= culture_rainspeaker
-add_secondary_culture = culture_mistwhisper
-add_secondary_culture = culture_mosswalker
-add_secondary_culture = culture_sparktouched
+add_accepted_culture = culture_mistwhisper
+add_accepted_culture = culture_mosswalker
+add_accepted_culture = culture_sparktouched
 capital 			= 1
 
 546.1.1 = { 

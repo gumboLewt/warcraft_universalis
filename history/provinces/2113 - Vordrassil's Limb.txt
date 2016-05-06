@@ -14,7 +14,7 @@ trade_goods = saronite
 
 631.1.1 = {
 owner = B86
-controlleer = B86
+controller = B86
 add_core = B86
 }
 

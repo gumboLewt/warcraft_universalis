@@ -18,7 +18,7 @@ trade_goods = workshops
 
 631.1.1 = {
 owner = B86
-controlleer = B86
+controller = B86
 add_core = B86
 culture = culture_yogg_saron
 }

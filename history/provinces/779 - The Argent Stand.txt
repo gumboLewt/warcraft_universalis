@@ -23,4 +23,4 @@ controller = F19
 owner = F19
 culture = culture_lordaeron
 religion = religion_argent_light
-trade_good = army_supplies }
+trade_goods = army_supplies }

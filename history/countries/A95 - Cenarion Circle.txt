@@ -4,8 +4,19 @@ mercantilism 		= 0.1
 technology_group 	= tech_darnassian
 religion			= religion_druidic
 primary_culture 	= culture_forest_nymph
-secondary_culture = culture_cenarion
-capital 			= 1
+add_accepted_culture = culture_cenarion
+capital 			= 1340
+
+546.1.1 = {
+	monarch = {
+		name = "Cenarius" 
+		dynasty = "of the Forest" 
+		adm = 6
+		dip = 6
+		mil = 6
+ 	}
+}
+
 
 622.1.1 = {
 add_country_modifier = {

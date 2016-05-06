@@ -8,17 +8,6 @@ capital 			= 1
 
 546.1.1 = { 
 	monarch = { 
-		name = "Haito" 
-		dynasty = "Zhu" 
-		adm = 3
-		dip = 3
-		mil = 2
-	} 
-} 
-
-
-546.1.1 = { 
-	monarch = { 
 		name = "Ju Lien" 
 		dynasty = "Marzai" 
 		adm = 3

@@ -1,5 +1,5 @@
 # Dalaran
-government 			= administrative_kingdom
+government 			= administrative_theocracy
 mercantilism 		= 0.1
 technology_group 	= tech_human
 religion			= religion_arcane
@@ -42,7 +42,7 @@ monarch = {
 		dip = 4
 		mil = 3
  	} 
-capital = 1
+capital = 1271
 remove_country_modifier = alliance_member
 add_country_modifier = {
     name = neutral_member
@@ -63,6 +63,6 @@ add_country_modifier = {
     name = alliance_member
     duration = -1 
 }
-remove_country_modifier = neutral_organization
+remove_country_modifier = neutral_member
 }
  

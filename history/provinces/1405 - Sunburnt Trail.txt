@@ -24,6 +24,6 @@ culture = culture_bilgewater
 religion = religion_tech
 trade_goods = oil
 base_tax = 3
-base_producion = 3
+base_production = 3
 capital = "The Sludgewerks
 }

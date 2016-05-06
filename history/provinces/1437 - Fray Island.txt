@@ -40,7 +40,7 @@ add_core = G06
 base_tax = 1
 base_manpower = 2
 base_production = 1
-culture_lordaeron
+culture = culture_lordaeron
 trade_goods = naval_supplies
 }
 

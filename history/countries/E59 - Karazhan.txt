@@ -1,5 +1,5 @@
 # Karazhan
-government 			= militaristic_kingdom
+government 			= militaristic_theocracy
 mercantilism 		= 0.1 
 technology_group 	= tech_human
 religion			= religion_arcane
@@ -30,5 +30,6 @@ religion = religion_fel
 	} 
 primary_culture = culture_legion_cultist
 add_accepted_culture = culture_forsaken
+government 	= warband_gov
 technology_group = tech_demonic
 } 
