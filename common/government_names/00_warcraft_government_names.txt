@@ -29,7 +29,10 @@ gov_kingdom_magic = {
 			government = mercantile_kingdom
 			government = militaristic_kingdom
 		}
-		primary_culture = culture_dalaran
+		OR = {
+			primary_culture = culture_dalaran
+			religion = religion_arcane
+		}
 		# Add others
 	}
 }
@@ -348,6 +351,69 @@ gov_theocracy_naaru = {
 	}
 }
 
+gov_theocracy_magic = {
+	rank = {
+		1 = PETTY_MAGOCRACY
+		2 = MAGOCRACY
+		3 = GRAND_MAGOCRACY
+	}
+	
+	ruler_male = {
+		1 = MAGE
+		2 = ARCHMAGE
+		3 = GRAND_MAGUS
+	}
+	
+	ruler_female = {
+		1 = MAGE
+		2 = ARCHMAGE
+		3 = GRAND_MAGUS
+	}
+	
+	trigger = {
+		OR = {
+			government = administrative_theocracy
+			government = mercantile_theocracy
+			government = militaristic_theocracy
+		}
+		religion = religion_arcane
+		# Add others
+	}
+}
+
+gov_theocracy_shadow = {
+	rank = {
+		1 = PETTY_MAGOCRACY
+		2 = MAGOCRACY
+		3 = GRAND_MAGOCRACY
+	}
+	
+	ruler_male = {
+		1 = MASTER
+		2 = DARKMASTER
+		3 = SHADOWLORD
+	}
+	
+	ruler_female = {
+		1 = MISTRESS
+		2 = DARKMISTRESS
+		3 = SHADOWLADY
+	}
+	
+	trigger = {
+		OR = {
+			government = administrative_theocracy
+			government = mercantile_theocracy
+			government = militaristic_theocracy
+		}
+		OR = {
+			religion = religion_shadow
+			religion = religion_fel
+		}
+		# Add others
+	}
+}
+
 gov_theocracy = {
 	rank = {
 		1 = PETTY_THEOCRACY
@@ -531,13 +597,13 @@ gov_cult = {
 	
 	ruler_male = {
 		1 = CULTIST
-		2 = CULTIST
+		2 = HIGH_CULTIST
 		3 = GRAND_CULTIST
 	}
 	
 	ruler_female = {
 		1 = CULTIST
-		2 = CULTIST
+		2 = HIGH_CULTIST
 		3 = GRAND_CULTIST
 	}
 	

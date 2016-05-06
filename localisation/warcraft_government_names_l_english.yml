@@ -167,7 +167,16 @@ l_english:
  HIGH_PRIESTESS: "High Priestess"
  
  CULTIST: "Cultist"
+ HIGH_CULTIST: "High Cultist"
  GRAND_CULTIST: "Grand Cultist"
+ 
+ MASTER: "Master"
+ DARKMASTER: "Darkmaster"
+ SHADOWLORD: "Shadowlord"
+ 
+ MISTRESS: "Mistress"
+ DARKMISTRESS: "Darkmistress"
+ SHADOWLADY: "Shadowlady"
  
  CRUSADER: "Crusader"
  GRAND_CRUSADER: "Grand Crusader"

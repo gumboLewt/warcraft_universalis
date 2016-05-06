@@ -342,6 +342,7 @@ administrative_theocracy = {
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
+	has_devotion = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -372,6 +373,7 @@ mercantile_theocracy = {
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
+	has_devotion = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -402,6 +404,7 @@ militaristic_theocracy = {
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
+	has_devotion = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -434,6 +437,7 @@ administrative_order = {
 	#allow_convert = no
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
+	has_devotion = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -465,6 +469,7 @@ mercantile_order = {
 	#allow_convert = no
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
+	has_devotion = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -496,6 +501,7 @@ militaristic_order = {
 	#allow_convert = no
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
+	has_devotion = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -526,6 +532,7 @@ cult_gov = {
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
+	has_devotion = yes
 	
 	ai_will_do = {
 		factor = 0
