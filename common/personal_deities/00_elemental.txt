@@ -13,7 +13,7 @@ diety_neptulon =
 	production_efficiency = 0.15
 	
 	allow = { religion = religion_water}
-	sprite = 13
+	sprite = 4
 	
 	ai_will_do = {
 		factor = 1
@@ -39,7 +39,7 @@ diety_hydromancy =
 	trade_efficiency = 0.15
 	
 	allow = { religion = religion_water }
-	sprite = 13
+	sprite = 8
 	
 	ai_will_do = {
 		factor = 1
@@ -64,7 +64,7 @@ diety_deepmother =
           religion = religion_water
 		  culture_group = culture_group_depths
     }
-	sprite = 13
+	sprite = 9
 	
 	ai_will_do = {
 		factor = 1
@@ -87,7 +87,7 @@ diety_ragnaros =
 	production_efficiency = 0.15
 	
 	allow = { religion = religion_fire }
-	sprite = 13
+	sprite = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -114,7 +114,7 @@ diety_ordos =
           religion = religion_fire
 		  culture_group = culture_group_yaungol
     }
-	sprite = 13
+	sprite = 5
 	
 	ai_will_do = {
 		factor = 1
@@ -137,7 +137,7 @@ diety_therazane =
 	production_efficiency = 0.15
 	
 	allow = { religion = religion_earth }
-	sprite = 13
+	sprite = 2
 	
 	ai_will_do = {
 		factor = 1
@@ -164,7 +164,7 @@ diety_gurok =
 	      religion = religion_earth 
 	      capital_scope = outland_region
 	}
-	sprite = 13
+	sprite = 6
 	
 	ai_will_do = {
 		factor = 1
@@ -191,7 +191,7 @@ diety_al_akir =
 	production_efficiency = 0.15
 	
 	allow = { religion = religion_air }
-	sprite = 13
+	sprite = 3
 	
 	ai_will_do = {
 		factor = 1
@@ -217,7 +217,7 @@ diety_storm_magic =
 	allow = { 
 	      religion = religion_air 
 	}
-	sprite = 13
+	sprite = 7
 	
 	ai_will_do = {
 		factor = 1
