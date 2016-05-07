@@ -8,7 +8,7 @@ diety_shadra =
 	###discovered_relations_impact = -0.1 # Until we find a way to resize this religion window (looks bad)
 	
 	allow = { religion = religion_loa }
-	sprite = 13
+	sprite = 17
 	
 	ai_will_do = {
 		factor = 1
@@ -31,7 +31,7 @@ diety_gahzrilla =
 	###core_creation = -0.1
 	
 	allow = { religion = religion_loa }
-	sprite = 13
+	sprite = 18
 	
 	ai_will_do = {
 		factor = 1

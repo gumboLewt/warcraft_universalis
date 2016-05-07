@@ -17,7 +17,7 @@ diety_kartak =
 	      religion = religion_primitive
           culture_group = culture_group_wolfvar
 	}
-	sprite = 13
+	sprite = 19
 	
 	ai_will_do = {
 		factor = 1
@@ -39,7 +39,7 @@ diety_robot =
 	      religion = religion_primitive
           culture_group = culture_group_wolfvar
 	}
-	sprite = 13
+	sprite = 20
 	
 	ai_will_do = {
 		factor = 1
@@ -64,7 +64,7 @@ diety_shoveltusk =
 	      religion = religion_primitive
           culture_group = culture_group_wolfvar
 	}
-	sprite = 13
+	sprite = 21
 	
 	ai_will_do = {
 		factor = 1
@@ -92,7 +92,7 @@ diety_proto_drake =
 	      religion = religion_primitive
           culture_group = culture_group_wolfvar
 	}
-	sprite = 13
+	sprite = 22
 	
 	ai_will_do = {
 		factor = 1
