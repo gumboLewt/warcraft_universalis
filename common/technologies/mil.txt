@@ -222,6 +222,7 @@ technology = {
 	year = 575
 	
 	# Buildings
+	barracks = yes
 }
 
 # 7
@@ -240,6 +241,7 @@ technology = {
 	infantry_shock 		= 0.1
 	cavalry_shock  		= 0.1
 	artillery_shock 	= 0.05
+	regimental_camp = yes
 }
 
 # 9
@@ -266,6 +268,7 @@ technology = {
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
+	
 }
 
 # 12
@@ -273,6 +276,7 @@ technology = {
 	year = 605
 	
 	# Buildings
+	weapons = yes
 }
 
 # 13
@@ -478,6 +482,7 @@ technology = {
 	year = 635
 	
 	# Buildings
+	training_fields = yes
 }
 
 # 19
@@ -511,6 +516,7 @@ technology = {
 	year = 655
 	
 	# Buildings
+	conscription_center = yes
 }
 
 # 23

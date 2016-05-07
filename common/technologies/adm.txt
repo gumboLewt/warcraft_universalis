@@ -45,7 +45,8 @@ technology = {
 technology = {
 	year = 555
 	
-	# building
+	# Temple
+	temple = yes
 }
 
 # 3
@@ -66,7 +67,8 @@ technology = {
 technology = {
 	year = 570
 	
-	# building
+	#Workshop
+	workshop = yes
 }
 
 # 6
@@ -96,6 +98,7 @@ technology = {
 	
     max_states = 2
 	# building
+	courthouse = yes
 }
 
 # 10
@@ -131,6 +134,7 @@ technology = {
 	year = 615
 	
 	# building
+	plantations = yes
 }
 
 # 15
@@ -152,6 +156,7 @@ technology = {
 	year = 630
 	
 	administrative_efficiency = 0.1
+	university = yes	
 }
 
 # 18
@@ -166,6 +171,8 @@ technology = {
 	year = 640
 	
 	allowed_idea_groups = 5
+	#Cathedral
+	cathedral = yes
 }
 
 # 20
@@ -188,6 +195,8 @@ technology = {
 	year = 655
 	
 	development_efficiency = 0.1
+	
+	town_hall = yes
 }
 
 # 23
@@ -195,6 +204,7 @@ technology = {
 	year = 660
 	
 	allowed_idea_groups = 6
+
 }
 
 # 24
@@ -202,6 +212,7 @@ technology = {
 	year = 665
 	
 	production_efficiency 	=	0.05
+	counting_house = yes  
 }
 
 # 25
