@@ -1,10 +1,14 @@
-# 2163
+# 2163 The Crumbling Cliff
 is_city = yes
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
+owner = B16
+controller = B16
+add_core = B16
+add_core = A04
 
 culture = culture_shadowhide
 religion = religion_ancestral
@@ -12,6 +16,7 @@ religion = religion_ancestral
 hre = no
 trade_goods = copper
 
-
-
-
+# Beyond the Dark Portal
+600.1.1 = { 
+	add_core = A04
+}

@@ -18,19 +18,24 @@ trade_goods = arcane
 
 # The First War
 592.1.1 = {
-owner = A90
-controller = A90
-culture = culture_high_elf
-religion = religion_arcane 
+	owner = A90
+	controller = A90
+	culture = culture_high_elf
+	religion = religion_arcane 
 }
 
 # The Frozen Throne
 618.1.1 = {
-owner = XXX
-controller = XXX
-culture = culture_construct
-native_hostileness = 8
-native_size = 2
-native_ferocity = 8
-remove_core = A90
+	owner = XXX
+	controller = XXX
+	remove_core = A90
+	culture = culture_construct
+	
+	native_hostileness = 6
+	native_size = 2
+	native_ferocity = 6
+	
+	base_tax = 2
+	base_manpower = 1
+	base_production = 1
 }

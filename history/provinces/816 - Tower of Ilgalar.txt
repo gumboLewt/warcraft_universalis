@@ -15,43 +15,36 @@ religion = religion_arcane
 hre = no
 trade_goods = arcane
 
-
-
-
 # Fall of Stormwind
 597.1.1 = { 
-owner = E98
-controller = E98
-add_core = E98
-culture = culture_blackrock
-religion = religion_fel 
+	owner = E98
+	controller = E98
+	add_core = E98
+	culture = culture_blackrock
+	religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 600.1.1 = {
-owner = XXX
-controller = XXX
-}
-
-616.11.11 = {
-owner = XXX
-controller = XXX 
+	owner = XXX
+	controller = XXX
+	add_core = A04
 }
 
 # The Third War
 617.1.1 = {
-owner = A04
-controller = A04
-remove_core = E98
-culture = culture_azerothian
-religion = religion_arcane
+	owner = A04
+	controller = A04
+	remove_core = E98
+	culture = culture_azerothian
+	religion = religion_arcane
 }
 
 # Rise of the Qiraji
 622.1.1 = {
-owner = B16
-controller = B16
-add_core = B16
-culture = culture_shadowhide
-religion = religion_ancestral
+	owner = B16
+	controller = B16
+	add_core = B16
+	culture = culture_shadowhide
+	religion = religion_ancestral
 }

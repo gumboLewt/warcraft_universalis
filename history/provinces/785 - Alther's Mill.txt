@@ -1,14 +1,13 @@
-# 785
+# 785 Althers Mill
 is_city = yes
+
 add_core = A04
 owner = A04
 controller = A04
 
-
 base_tax = 3
 base_manpower = 2
 base_production = 3
-
 
 culture = culture_azerothian
 religion = religion_church_of_the_light
@@ -16,48 +15,47 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = lumber
 
-
-
-
 # Fall of Stormwind
 597.1.1 = { 
-owner = E98
-controller = E98
-add_core = E98
-culture = culture_blackrock
-religion = religion_fel 
+	owner = E98
+	controller = E98
+	add_core = E98
+	culture = culture_blackrock
+	religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 600.1.1 = {
-owner = XXX
-controller = XXX
- }
-
-616.11.11 = {
-owner = XXX
-controller = XXX 
+	owner = XXX
+	controller = XXX
 }
 
 # The Third War
 617.1.1 = { 
-owner = A04
-controller = A04
-remove_core = E98
-culture = culture_azerothian
-religion = religion_church_of_the_light
+	owner = A04
+	controller = A04
+	remove_core = E98
+	culture = culture_azerothian
+	religion = religion_church_of_the_light
  }
 
-621.11.11 = {
-owner = XXX
-controller = XXX
+621.1.1 = {
+	owner = XXX
+	controller = XXX
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = A41
-controller = A41
-add_core = A41
-culture = culture_blackrock
-religion = religion_fel 
+	owner = A41
+	controller = A41
+	add_core = A41
+	culture = culture_blackrock
+	religion = religion_fel 
+	base_manpower = 3
+}
+
+# Cataclysm
+631.1.1 = {
+	base_manpower = 4
+	base_production = 4
 }

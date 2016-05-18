@@ -1,6 +1,8 @@
-# 838
+# 838 Shalewind Canyon
 is_city = yes
+
 add_core = B16
+add_core = A04
 owner = B16
 controller = B16
 
@@ -8,22 +10,21 @@ base_tax = 2
 base_manpower = 3
 base_production = 2
 
-
 culture = culture_shadowhide
 religion = religion_ancestral
 
 hre = no
 trade_goods = copper
 
-
-
+# Beyond the Dark Portal
+600.1.1 = { 
+	add_core = A04
+}
 
 # Cataclysm
 631.1.1 = { 
-owner = A04
-controller = A04
-add_core = A04
-culture = culture_azerothian
-religion = religion_church_of_the_light 
+	owner = A04
+	controller = A04
+	culture = culture_azerothian
+	religion = religion_church_of_the_light 
 }
-

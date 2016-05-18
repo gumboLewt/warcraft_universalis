@@ -9,6 +9,7 @@ owner = E26
 controller = E26
 add_core = E26
 add_core = A30
+add_core = F61
 
 culture = culture_fire
 religion = religion_fire
@@ -31,6 +32,7 @@ trade_goods = army_supplies
 	base_tax = 2
 	base_manpower = 3
 	base_production = 2
+	add_core = F61
 }
 
 # Rise of the Qiraji

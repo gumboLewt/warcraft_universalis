@@ -24,13 +24,15 @@ trade_goods = army_supplies
 	add_core = E98
 	culture = culture_blackrock
 	religion = religion_fel
+	base_tax = 2
+	base_manpower = 2
+	base_production = 2
 }
 
 # Beyond the Dark Portal
 600.1.1 = {
 	owner = F61
 	controller = F61
-	
 	culture = culture_azerothian
 	religion = religion_church_of_the_light
 }
@@ -38,4 +40,7 @@ trade_goods = army_supplies
 # Rise of the Qiraji
 622.1.1 = { 
 	add_core = A41
+	base_tax = 3
+	base_manpower = 3
+	base_production = 3
 }

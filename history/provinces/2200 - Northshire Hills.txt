@@ -15,9 +15,6 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = stone
 
-
-
-
 # Fall of Stormwind
 597.1.1 = { 
 	owner = A44
@@ -31,6 +28,7 @@ trade_goods = stone
 600.1.1 = {
 	owner = A01
 	controller = A01
+	add_core = A01
 	remove_core = A44
 	culture = culture_azerothian
 	religion = religion_church_of_the_light 

@@ -9,6 +9,7 @@ owner = E26
 controller = E26
 add_core = E26
 add_core = A30
+add_core = F61
 
 culture = culture_fire
 religion = religion_fire
@@ -31,4 +32,5 @@ trade_goods = dark_iron
 	owner = E99
 	controller = E99
 	remove_core = E98
+	add_core = F61
 }

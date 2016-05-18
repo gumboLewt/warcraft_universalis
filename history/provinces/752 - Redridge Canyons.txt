@@ -1,6 +1,8 @@
-# 752
+# 752 Redridge Canyons
 is_city = yes
+
 add_core = B17
+add_core = A04
 owner = B17
 controller = B17
 
@@ -8,13 +10,13 @@ base_tax = 2
 base_manpower = 3
 base_production = 2
 
-
 culture = culture_redridge
 religion = religion_ancestral
 
 hre = no
 trade_goods = copper
 
-
-
-
+# Beyond the Dark Portal
+600.1.1 = {
+	add_core = A01
+}

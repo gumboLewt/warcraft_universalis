@@ -1,14 +1,14 @@
-# 1999
+# 1999 The Deadmines
 is_city = yes
-add_core = B18
-owner = B18
 
+add_core = B18
+add_core = A02
+owner = B18
 controller = B18
 
 base_tax = 4
 base_manpower = 4
 base_production = 4
-
 
 culture = culture_palemane
 religion = religion_ancestral
@@ -16,52 +16,45 @@ religion = religion_ancestral
 hre = no
 trade_goods = smugglers
 
-
-
-
 # First War
 592.1.1 = { 
-owner = F07
-controller = F07
-add_core = F07
-culture = culture_deadwind
-religion = religion_geomancy 
+	owner = F07
+	controller = F07
+	add_core = F07
+	culture = culture_deadwind
+	religion = religion_geomancy 
 }
 
 # Fall of Stormwind
 597.1.1 = { 
-owner = XXX
-controller = XXX
-remove_core = F07 
-}
-
-616.11.11 = { 
-owner = XXX
-controller = XXX 
+	owner = XXX
+	controller = XXX
+	remove_core = F07 
 }
 
 # The Third War
 617.1.1 = { 
-owner = A07
-controller = A07 
-add_core = A07
-culture = culture_azerothian
-religion = religion_church_of_the_light 
+	owner = A07
+	controller = A07 
+	add_core = A07
+	culture = culture_azerothian
+	religion = religion_church_of_the_light
+	base_tax = 5
+	base_manpower = 5
+	base_production = 5
 }
 
 # The Burning Crusade
 625.1.1 = { 
-owner = XXX
-controller = XXX
-}
-
-630.11.11 = { 
-owner = XXX
-controller = XXX
+	owner = XXX
+	controller = XXX
 }
 
 # Cataclysm
 631.1.1 = { 
-owner = A07
-controller = A07
+	owner = A07
+	controller = A07
+	base_tax = 6
+	base_manpower = 6
+	base_production = 6
 }

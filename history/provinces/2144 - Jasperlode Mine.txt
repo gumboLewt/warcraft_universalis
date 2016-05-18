@@ -1,6 +1,8 @@
-# 2144
+# 2144 Jasperlode Mine
 is_city = yes
+
 add_core = B15
+add_core = A01
 owner = B15
 controller = B15
 
@@ -14,31 +16,28 @@ religion = religion_ancestral
 hre = no
 trade_goods = copper
 
-
-
-
 # Fall of Stormwind
 597.1.1 = { 
-owner = B58
-controller = B58
-add_core = B58
-culture = culture_goldtooth
-religion = religion_geomancy 
+	owner = B58
+	controller = B58
+	add_core = B58
+	culture = culture_goldtooth
+	religion = religion_geomancy 
 }
 
 # The Third War
 617.1.1 = { 
-owner = A01
-controller = A01
-culture = culture_azerothian
-religion = religion_church_of_the_light 
+	owner = A01
+	controller = A01
+	culture = culture_azerothian
+	religion = religion_church_of_the_light 
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = B58
-controller = B58
-add_core = B58
-culture = culture_goldtooth
-religion = religion_geomancy 
+	owner = B58
+	controller = B58
+	add_core = B58
+	culture = culture_goldtooth
+	religion = religion_geomancy 
 }

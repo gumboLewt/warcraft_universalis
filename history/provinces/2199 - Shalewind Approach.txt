@@ -1,6 +1,8 @@
-# 2199
+# 2199 Shalewind Approach
 is_city = yes
+
 add_core = B16
+add_core = A04
 owner = B16
 controller = B16
 
@@ -8,15 +10,11 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
 culture = culture_shadowhide
 religion = religion_ancestral
 
 hre = no
 trade_goods = army_supplies
-
-
-
 
 # Fall of Stormwind
 597.1.1 = { 

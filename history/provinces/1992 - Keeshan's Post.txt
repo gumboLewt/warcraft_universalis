@@ -35,6 +35,7 @@ trade_goods = army_supplies
 622.1.1 = { 
 	owner = A41
 	controller = A41 
+	add_core = A41 
 	base_manpower = 2
 }
 

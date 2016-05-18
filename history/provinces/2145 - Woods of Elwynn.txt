@@ -1,5 +1,6 @@
-# 2145
+# 2145 Woods of Elwynn
 is_city = yes
+
 add_core = A01
 owner = A01
 controller = A01
@@ -14,24 +15,21 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = lumber
 
-
-
-
 # Fall of Stormwind
 597.1.1 = { 
-owner = A44
-controller = A44
-add_core = A44
-culture = culture_burning_blade
-religion = religion_fel 
+	owner = A44
+	controller = A44
+	add_core = A44
+	culture = culture_burning_blade
+	religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = B15
-controller = B15
-remove_core = A44
-religion = religion_ancestral
-culture = culture_riverpaw 
+	owner = B15
+	controller = B15
+	add_core = B15
+	remove_core = A44
+	religion = religion_ancestral
+	culture = culture_riverpaw 
 }
-

@@ -30,6 +30,7 @@ trade_goods = warbeasts
 600.1.1 = {
 	owner = XXX
 	controller = XXX
+	add_core = F61
 }
 
 # The Third War

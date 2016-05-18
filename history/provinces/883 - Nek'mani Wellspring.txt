@@ -1,4 +1,4 @@
-# 883
+# 883 Nekmani Wellspring
 is_city = yes
 
 owner = A68
@@ -9,23 +9,17 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
 culture = culture_shatterspear
 religion = religion_loa
 
 hre = no
 trade_goods = artifacts
 
-
-
-
 # The Frozen Throne
 618.1.1 = { 
-owner = F32
-controller = F32
-add_core = F32
-remove_core = F32
-culture = culture_nazja
-religion = religion_old_gods
+	owner = F32
+	controller = F32
+	add_core = F32
+	culture = culture_nazja
+	religion = religion_old_gods
 }
-

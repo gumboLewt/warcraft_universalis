@@ -17,7 +17,8 @@ trade_goods = grain
 
 # The Third War
 617.1.1 = { 
-	religion = religion_the_damned 
+	religion = religion_the_damned
+	add_core = F61
 }
 
 # The Frozen Throne
