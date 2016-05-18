@@ -1,6 +1,6 @@
-# 966 Thoradin
-
+# 966 Galens Fall
 is_city = yes
+
 add_core = A16
 owner = A16
 controller = A16
@@ -8,7 +8,6 @@ controller = A16
 base_tax = 2
 base_manpower = 2
 base_production = 2
-
 
 capital = "Thoradin's Gates"
 
@@ -18,28 +17,18 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = army_supplies
 
-
-
-  
-
-
 # Rise of the Qiraji
 622.1.1 = { 
-owner = XXX
-controller = XXX 
-}
-
-630.11.11 = { 
-owner = XXX
-controller = XXX 
+	owner = XXX
+	controller = XXX 
 }
 
 # Cataclysm
 631.1.1 = { 
-add_core = E14
-owner = E14
-controller = E14
-culture = culture_forsaken
-religion = religion_forgotten_shadow
-capital = "Galen's Fall" 
+	owner = H12
+	controller = H12
+	add_core = H12
+	culture = culture_forsaken
+	religion = religion_forgotten_shadow
+	capital = "Galen's Fall" 
 }

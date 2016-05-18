@@ -17,9 +17,6 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = silk
 
-
- 
-
 # Rise of the Qiraji
 622.1.1 = { 
 	owner = A64
@@ -27,5 +24,14 @@ trade_goods = silk
 	add_claim = A26
 	add_core = A64
 	culture = culture_witherbark
-        religion = religion_loa
+    religion = religion_loa
+}
+
+# Warlords of Draenor
+633.1.1 = { 
+	owner = H12
+	controller = H12
+	add_core = H12
+	culture = culture_forsaken
+	religion = religion_forgotten_shadow
 }

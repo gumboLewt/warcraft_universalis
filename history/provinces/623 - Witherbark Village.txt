@@ -1,7 +1,8 @@
-# 623 Zeb'Tazz
-
+# 623 Witherbark Village (Zeb'Tazz)
 is_city = yes
+
 add_core = A65
+add_core = A16
 owner = A65
 controller = A65
 capital = "Smolderthorn Village"
@@ -10,22 +11,18 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-
 culture = culture_smolderthorn
 religion = religion_loa
  
 hre = no 
 trade_goods = fish
 
-
-
-  
-
-
 # Beyond the Dark Portal
-600.1.1 = { add_core = A64
-remove_core = A65
-owner = A64
-controller = A64
-culture = culture_witherbark
-capital = "Witherbark Village" }
+600.1.1 = {
+	add_core = A64
+	remove_core = A65
+	owner = A64
+	controller = A64
+	culture = culture_witherbark
+	capital = "Witherbark Village"
+}

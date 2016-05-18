@@ -252,7 +252,6 @@ H03 = "countries/Cenarion Hold.txt"
 F64 = "countries/Cenarion Expedition.txt"
 E20 = "countries/Druids of the Fang.txt"
 
-
 # Aqir
 A97 = "countries/AhnQiraj.txt" # tech_aqir
 A98 = "countries/Silithid.txt" # tech_aqir
@@ -466,11 +465,12 @@ E52 = "countries/The Scourge of Lordaeron.txt"
 F21 = "countries/Deatholme.txt" 
 
 # Undead
+A96 = "countries/Hand of Vengeance.txt"
 E14 = "countries/The Forsaken.txt"
 F12 = "countries/Raven Hill.txt"
 H10 = "countries/Rotbrain.txt"
+H12 = "countries/New Stromgarde.txt"
 X01 = "countries/The Risen.txt"
-A96 = "countries/Hand of Vengeance.txt"
 
 # Ethereal
 E18 = "countries/The Consortium.txt"

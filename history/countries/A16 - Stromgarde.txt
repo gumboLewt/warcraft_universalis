@@ -7,60 +7,64 @@ primary_culture 	= culture_arathi
 capital 			= 3002
 
 546.1.1 = { 
-monarch = { 
-     name = "Liam" 
-     dynasty = "Trollbane" 
+	monarch = { 
+		name = "Liam" 
+		dynasty = "Trollbane" 
 		adm = 2
 		dip = 2
 		mil = 4 
- 	} 
- } 
+	} 
+} 
 
 592.1.1 = { 
-monarch = { 
-     name = "Thoras" 
-     dynasty = "Trollbane" 
+	monarch = { 
+		name = "Thoras" 
+		dynasty = "Trollbane" 
 		adm = 3
 		dip = 2
 		mil = 5 
- 	} 
- }
+	} 
+}
  
 597.1.1 = {
-add_country_modifier = {
-    name = alliance_member
-    duration = -1
-} 
+	add_country_modifier = {
+		name = alliance_member
+		duration = -1
+	} 
 }
 
 605.1.1 = {
-remove_country_modifier = alliance_member
+	remove_country_modifier = alliance_member
 }
 
 622.1.1 = { 
 	monarch = { 
 		name = "Galen" 
 		dynasty = "Trollbane" 
-		adm = 2
-		dip = 3
-		mil = 2 
+		adm = 1
+		dip = 1
+		mil = 3
  	} 
-	capital = 673
-add_country_modifier = {
-    name = alliance_member
-    duration = -1
-} 
+	capital = 3001
+	
+	add_country_modifier = {
+		name = alliance_member
+		duration = -1
+	} 
 }
  
- 631.1.1 = { 
-monarch = { 
-     name = "" 
-     dynasty = "Amaren" 
-		adm = 2
-		dip = 3
+631.1.1 = { 
+	monarch = { 
+		name = "" 
+		dynasty = "Amaren" 
+		adm = 3
+		dip = 2
 		mil = 3 
-		female = yes
-		
- 	} 
- 	government = regency_gov
- }
+		female = yes		
+	} 
+	government = regency_gov
+}
+
+632.6.1 = {
+	capital = 673
+}

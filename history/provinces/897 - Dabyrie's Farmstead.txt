@@ -1,6 +1,6 @@
-# 897
-
+# 897 Dabyries Farmstead
 is_city = yes
+
 add_core = A16
 owner = A16
 controller = A16
@@ -9,20 +9,26 @@ base_tax = 3
 base_manpower = 2
 base_production = 3
 
-
 capital = "Dabyrie's Farmstead"
 
-
- 
 culture = culture_arathi
 religion = religion_church_of_the_light
  
 hre = no 
 trade_goods = grain
 
+# Rise of the Qiraji
+622.1.1 = { 
+	base_manpower = 3
+}
 
+# Wrath of the Lich King
+626.1.1 = { 
+	base_production = 4
+}
 
-
-
-
-
+# Mists of Pandaria
+632.1.1 = { 
+	base_tax = 4
+	base_manpower = 5     #Refuges from fallen Stromgarde city
+}
