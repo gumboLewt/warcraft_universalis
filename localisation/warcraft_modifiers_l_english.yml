@@ -11,6 +11,8 @@ l_english:
  horde_head: "Warchief"
  # Neutral
  neutral_member: "Neutral Organization"
+ #Other Modifiers
+ recently_conjured: "Power Recently Conjured"
  
  #####################
  # OPINION MODIFIERS #
@@ -39,6 +41,4 @@ l_english:
 
  alliance_enemy: "Enemy of the Alliance"
  horde_enemy: "Enemy of the Horde"
-
-
-
+ 

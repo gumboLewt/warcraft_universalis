@@ -78,3 +78,12 @@ l_english:
  # Theramore decisions
  theramore_nation_title: "Form Theramore"
  theramore_nation_desc: "Build a great human-elven-dwarven country on eastern shores of Kalimdor"
+ 
+ # Arcane Decisions
+ conjure_administrative_title: "Conjure: Administrative"
+ conjure_administrative_desc: "We choose a mainly neutral way, isn't it glorious?"
+ conjure_military_title: "Conjure: Military"
+ conjure_military_desc: "We choose a military way of problem-solving. It is truly glorious, but better be sure if you still can contain your arcane might in check"
+ conjure_diplomatic_title: "Conjure: Diplomatic"
+ conjure_diplomatic_desc: "We choose a diplomatic way of problem-solving. It is truly glorious, but better be sure if you still can contain your arcane might in check"
+ 
