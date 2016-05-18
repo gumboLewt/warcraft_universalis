@@ -1,5 +1,5 @@
-# human_levy 1b
-type = infantry
+# human_drilled_cav 1b
+type = cavalry
 unit_type = tech_human
 
 maneuver = 1
@@ -8,4 +8,4 @@ defensive_morale = 2
 offensive_fire = 0
 defensive_fire = 0
 offensive_shock = 1
-defensive_shock = 2
+defensive_shock = 3

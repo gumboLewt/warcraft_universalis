@@ -64,11 +64,10 @@ technology = {
 	enable = bloodelf_charger_cav
 	
 	# tech_human
-	enable = human_levy
-	enable = human_drilled
-	enable = human_earlyfoot
-	enable = human_mountedmil_cav
-	enable = human_guardsmen
+	enable = human_earlyfoot                     #lvl1 infantry a,
+	enable = human_levy                          #lvl1 infantry b,
+	enable = human_mountedmil_cav                #lvl1 cavalry a,
+	enable = human_drilled_cav                   #lvl1 cavalry b,
 	
 	# tech_gnome
 	enable = gnomish_swords
@@ -342,12 +341,12 @@ technology = {
 	enable = goblin_twinblade_cav
 	
 	# tech_human
-	enable = human_mailedfoot
-	enable = human_firestrikebrig
-	enable = human_platedguards
-	enable = human_brotherhood_cav
-	enable = human_arathicharg_cav
-	enable = human_mailedlancer_cav
+	enable = human_mailedfoot     	             #lvl2 infantry a,
+	enable = human_guardsmen                     #lvl2 infantry b,
+	enable = human_brotherhood_cav               #lvl2 cavalry a,
+	enable = human_arathicharg_cav               #lvl2 cavalry b,
+
+	
 	
 	# tech_gnome
 	enable = gnomish_sharpshooter
@@ -623,13 +622,10 @@ technology = {
 	enable = bloodelf_sunstriker
 	
 	# tech_human
-	enable = human_dismountedknights
-	enable = human_shieldwall
-	enable = human_marines
-	enable = human_stromguard_cav
-	enable = human_imperial_cav
-	enable = human_orderknights_cav
-	enable = human_vanguard
+	enable = human_marines                       #lvl3 infantry a,
+	enable = human_shieldwall                    #lvl3 infantry b,
+	enable = human_stromguard_cav                #lvl3 cavalry a,
+	enable = human_imperial_cav                  #lvl3 cavalry b,
 	
 	# tech_gnome
 	enable = gnomish_holdout
