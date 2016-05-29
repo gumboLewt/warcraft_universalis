@@ -415,7 +415,7 @@ economic_ideas = {
  	}
 
 	ai_will_do = {
-		factor = 0.85
+		factor = 1
 		modifier = {
 			factor = 1.5
 			inflation = 5
@@ -459,7 +459,7 @@ exploration_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.75
+		factor = 1
 		modifier = {
 			factor = 0
 			is_colonial_nation = yes
@@ -535,7 +535,7 @@ maritime_ideas = {
 		navy_tradition = 1
 	}
 	merchant_marine = {
-		global_sailors_modifier = 0.5
+		light_ship_power = 0.1
 	}
 	sheltered_ports = {
 		global_ship_repair = 0.2
@@ -554,7 +554,7 @@ maritime_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.41
+		factor = 1
 		modifier = {
 			factor = 0
 			is_tribal = yes
@@ -569,12 +569,8 @@ maritime_ideas = {
 			NOT = { is_colonial_nation = yes }
 		}
 		modifier = {
-			factor = 0.41
+			factor = 0.1
 			NOT = { num_of_ports = 10 }
-		}
-		modifier = {
-			factor = 0.41
-			num_of_cities = 50
 		}
 	}
 }
@@ -610,7 +606,7 @@ quality_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.49
+		factor = 1
 	}
 }
 
@@ -644,7 +640,7 @@ quantity_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1.0
+		factor = 1
 	}
 }
 
@@ -655,7 +651,6 @@ expansion_ideas = {
 
 	bonus = {
  		cb_on_overseas = yes
- 		state_maintenance_modifier = -0.25
 	}
 
 	additional_colonists = {
@@ -681,7 +676,7 @@ expansion_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.48
+		factor = 1
 		modifier = {
 			factor = 10
 			OR = {
@@ -702,7 +697,7 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		max_states = 5
+		global_trade_goods_size_modifier = 0.1
 	}
 
 	organised_mercenary_payment = {
@@ -712,7 +707,7 @@ administrative_ideas = {
 		core_creation = -0.25
 	}
 	benefits_for_mercenaries = {
-		merc_maintenance_modifier = -0.25
+		merc_maintenance_modifier = -0.33
 	}
 	bookkeeping = {
 		interest = -1
@@ -762,7 +757,7 @@ humanist_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.79
+		factor = 1
 		modifier = {
 			factor = 0
 			has_idea_group = religious_ideas
@@ -780,13 +775,9 @@ influence_ideas = {
 	tribute_system = {
 		vassal_income = 0.25
 	}
-	
-	establish_cadet_branches = {
-		heir_chance = 0.25
-		prestige = 0.5
+	claim_fabrication = {
+		fabricate_claims_cost = -0.33
 	}
-	
-	
 	integrated_elites = {
 		diplomatic_annexation_cost = -0.25
 	}
@@ -805,7 +796,7 @@ influence_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.93
+		factor = 1
 		modifier = {
 			factor = 1.5
 			is_emperor = yes
@@ -841,7 +832,7 @@ naval_ideas = {
 		prestige_from_naval = 1.0
 	}
 	press_gangs = {
-		sailors_recovery_speed = 0.2
+		naval_maintenance_modifier = -0.1
 	}
 	oak_forests_for_ships = {
 		heavy_ship_power = 0.20
@@ -851,7 +842,7 @@ naval_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.31
+		factor = 1
 		modifier = {
 			factor = 0
 			is_tribal = yes
@@ -866,12 +857,8 @@ naval_ideas = {
 			NOT = { is_colonial_nation = yes }
 		}
 		modifier = {
-			factor = 0.31
+			factor = 0.1
 			NOT = { num_of_ports = 10 }
-		}
-		modifier = {
-			factor = 0.31
-			num_of_cities = 50
 		}
 	}
 }

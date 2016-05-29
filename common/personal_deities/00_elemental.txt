@@ -12,7 +12,7 @@ diety_neptulon =
 	siege_ability = 0.15
 	production_efficiency = 0.15
 	
-	allow = { religion = religion_water}
+	allow = { religion = religion_water }
 	sprite = 4
 	
 	ai_will_do = {
@@ -161,8 +161,10 @@ diety_gurok =
 	production_efficiency = 0.15
 	
 	allow = { 
-	      religion = religion_earth 
-	      capital_scope = outland_region
+        religion = religion_earth 
+        capital_scope = {
+            region = outland_region 
+        }
 	}
 	sprite = 6
 	
@@ -170,7 +172,9 @@ diety_gurok =
 		factor = 1
 		modifier = {
 			factor = 2
-			capital_scope = outland_region
+			capital_scope = {
+                region = outland_region 
+            }
 		}	
 		modifier = {
 			factor = 2

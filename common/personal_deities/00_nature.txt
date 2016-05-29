@@ -45,9 +45,12 @@ diety_robot =
 		factor = 1
 		modifier = {
 			factor = 2
-			OR = {
-      		   capital_scope = area_borean_tundra
-			   capital_scope = area_sholazar_basin
+            
+            capital_scope = {
+                OR = {
+                    area = area_borean_tundra
+                    area = area_sholazar_basin
+                }
 		    }
 		}	
 	}
@@ -67,14 +70,16 @@ diety_shoveltusk =
 	sprite = 21
 	
 	ai_will_do = {
-		factor = 1
-		modifier = {
+        factor = 1
+        modifier = {
 			factor = 2
-			OR = {
-      		   capital_scope = area_borean_tundra
-			   capital_scope = area_dragonblight
-	           capital_scope = area_grizzly_hills
-			   capital_scope = area_zul_drak
+            capital_scope = {
+                OR = {
+                    area = area_borean_tundra
+                    area = area_dragonblight
+                    area = area_grizzly_hills
+                    area = area_zul_drak
+                }
 		    }
 		}	
 	}	
@@ -98,8 +103,8 @@ diety_proto_drake =
 		factor = 1
 		modifier = {
 			factor = 2
-			OR = {
-      		   capital_scope = area_howling_fjord
+			capital_scope = {
+                area = area_howling_fjord
 		    }
 		}	
 	}	
