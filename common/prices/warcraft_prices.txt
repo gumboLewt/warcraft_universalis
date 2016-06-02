@@ -2,7 +2,7 @@
 # goldtype = yes/no			This resource works like 'gold' if yes, using prices from mine-value in province instead of supply/demand and baseprice. Also creates gold-inflation
 
 ashenvale_lumber = {
-	base_price = 1
+	base_price = 1.5
 }
 
 lumber = {
@@ -10,11 +10,11 @@ lumber = {
 }
 
 kypari = {
-	base_price = 1
+	base_price = 2
 }
 
 oil = {
-	base_price = 1
+	base_price = 1.5
 }
 
 stone = {
@@ -22,51 +22,47 @@ stone = {
 }
 
 dark_iron = {
-	base_price = 1
+	base_price = 2
 }
 
 saronite = {
-	base_price = 1
+	base_price = 2.1
 }
 
 mithril = {
-	base_price = 1
+	base_price = 2
 }
 
 thorium = {
-	base_price = 1
+	base_price = 2
 }
 
 fel_iron = {
-	base_price = 1
+	base_price = 2
 }
 
 khorium = {
-	base_price = 1
+	base_price = 2
 }
 
 adamantite = {
-	base_price = 1
+	base_price = 2
 }
 
 titanium = {
-	base_price = 1
+	base_price = 2
 }
 
 elementium = {
-	base_price = 1
+	base_price = 2.5
 }
 
 ghost_iron = {
-	base_price = 1
+	base_price = 2
 }
 
 gemstones = {
-	base_price = 1
-}
-
-gemstones = {
-	base_price = 1
+	base_price = 2
 }
 
 ale = {
@@ -74,19 +70,19 @@ ale = {
 }
 
 runecloth = {
-	base_price = 1
+	base_price = 1.5
 }
 
 netherweave = {
-	base_price = 1
+	base_price = 1.7
 }
 
 fossils = {
-	base_price = 1
+	base_price = 1.3
 }
 
 artifacts = {
-	base_price = 1
+	base_price = 2
 }
 
 crypts = {
@@ -102,15 +98,15 @@ pirates = {
 }
 
 workshops = {
-	base_price = 1
+	base_price = 2
 }
 
 arcane = {
-	base_price = 1
+	base_price = 2
 }
 
 fel = {
-	base_price = 1
+	base_price = 2
 }
 
 army_supplies = {
@@ -118,13 +114,13 @@ army_supplies = {
 }
 
 mounts = {
-	base_price = 1
+	base_price = 1.5
 }
 
 flying_mounts = {
-	base_price = 1
+	base_price = 1.5
 }
 
 warbeasts = {
-	base_price = 1
+	base_price = 1.5
 }
