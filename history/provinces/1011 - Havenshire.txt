@@ -4,7 +4,6 @@ is_city = yes
 add_core = A08
 owner = A08
 controller = A08
-capital = "Havenshire"
 
 base_tax = 3
 base_manpower = 3
@@ -16,41 +15,36 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = grain
 
-
-
-
 # The Third War
 618.1.1 = { 
-add_claim = E52
+	add_claim = E52
 }
 
 # The Frozen Throne
 618.1.1 = { 
-add_core = E62
-owner = E62
-controller = E62
-remove_core = A08
+	add_core = E62
+	owner = E62
+	controller = E62
+	remove_core = A08
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-add_core = A22
-add_core = F18
-owner = A22
-controller = A22
-religion = religion_scarlet_light 
-}
-
-# Fall of the Scarlet Enclave
-625.1.1 = { 
-owner = F18
-controller = F18
-add_core = F18
-remove_core = A22 
+	add_core = A22
+	add_core = F18
+	owner = A22
+	controller = A22
+	religion = religion_scarlet_light 
 }
 
 # Wrath of the Lich King
-626.1.1 = { 
-owner = XXX
-controller = XXX
+626.1.1 = {
+	owner = E13
+	controller = E13
+	add_core = E13
+	culture = culture_death_knight
+	religion = religion_shadow
+	base_tax = 1
+	base_manpower = 1
+	base_production = 1
 }
