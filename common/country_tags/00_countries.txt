@@ -1,10 +1,16 @@
-# Bookmark Setups
+#### Bookmark Setups ####
 # Rise of the Horde
 #	546 King's Calender
 # First War
 #	592 KC
+# Fall of Stormwind
+#	597 KC
 # Second War
 #	598 KC
+# Beyond the Dark Portal
+#	600 KC
+# The Alliance Splinters
+#	605 KC
 # Third War
 #	617 KC
 # Rise of the Qiraji
@@ -19,6 +25,8 @@
 #	632 KC
 # Warlords of Draenor
 #	633 KC
+# Legion
+#	635 KS
 
 # Special countries..
 REB = "countries/Rebels.txt"

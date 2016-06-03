@@ -333,7 +333,8 @@
  BEYOND_THE_DARK_PORTAL_DESC: "The orcs of Draenor have reopened the Dark Portal! Catching the rebuilding Aliiance by surprise, they undertook a large raid, stealing several magical artifacts. The Alliance Expedition,dubbing itself the Sons of Lothar, has followed the retreating orcs through the portal, determined to put an end to the Horde for good."
  THE_FROZEN_THRONE_NAME: "The Frozen Throne"
  THE_FROZEN_THRONE_DESC: "Illidan Stormrage attempts to destroy the Frozen throne."
-
+ LEGION_NAME: "Legion"
+ LEGION_DESC: "The Burning Legion once again invade Azeroth".
  
  # Countries
  A01: "Stormwind"
