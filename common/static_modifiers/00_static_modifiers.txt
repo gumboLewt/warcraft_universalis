@@ -100,9 +100,12 @@ port = {
 }
 
 in_state = {
+	local_unrest = -5
+	local_autonomy = -0.1
 }
 
 in_territory = {
+	local_development_cost = 0.5
 }
 
 coastal = {
@@ -310,12 +313,13 @@ occupied = {
 	province_trade_power_modifier = -0.5
 	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.5
-
+	local_autonomy = 0.5
 }
 
 under_siege = {
 	trade_goods_size_modifier = -0.25
 	province_trade_power_modifier = -0.25
+	local_autonomy = 0.1
 }
 
 looted = {
@@ -348,7 +352,7 @@ tolerance = {
 
 # Multiplied with negative religious tolerance
 intolerance = {
-	local_unrest = -1.25
+	local_unrest = -2
 	local_tax_modifier = 0.1
 	trade_goods_size_modifier = 0.10
 }
@@ -377,6 +381,8 @@ local_autonomy_multiplicative = {
 }
 
 local_autonomy = {
+	local_unrest = 5
+	local_development_cost = 0.5
 }
 
 
@@ -391,7 +397,7 @@ friendly_regiments = {
 }
 
 active_missionary = {
-	local_unrest = 6					# 6% revolt risk!
+	local_unrest = 10					# 6% revolt risk!
 }
 
 # Core province of the owner's culture group, while fighting a defensive war
@@ -422,19 +428,19 @@ in_trade_company = {
 
 base_values = {
 	merc_maintenance_modifier = 1.5
-	merchants = 2							#Start with 2 merchants
-	diplomats = 2							#Start with 2 diplomats..
+	merchants = 1							#Start with 2 merchants
+	diplomats = 1							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
 	army_tradition_decay = 0.05				#lose 5% yearly
 	navy_tradition_decay = 0.05				#lose 5% yearly
 	prestige_decay = 0.05					#lose 5% prestige each year
-	tolerance_own = 3
-	diplomatic_upkeep = 4
-	tolerance_heathen = -3
+	tolerance_own = 2
+	diplomatic_upkeep = 3
+	tolerance_heathen = -5
 	tolerance_heretic = -2
 	mercenary_cost = 0.5
-	global_missionary_strength = 0.02
-	global_manpower = 10.0
+	global_missionary_strength = 0.01
+	global_manpower = 5.0
 	advisor_pool = 3
 	colonist_placement_chance = 0.05
 	free_leader_pool = 1
@@ -443,7 +449,7 @@ base_values = {
 	vassal_income = 0.10
 	horde_unity = -2
 	devotion = -0.5
-	max_states = 5
+	max_states = 1
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -471,16 +477,17 @@ positive_stability = {
 	monthly_fervor_increase = 1
 	devotion = 0.5
 	yearly_corruption = -0.02
+	global_autonomy = -0.2
 }
 
 negative_stability = {
-	global_unrest = -2					#-1% EXTRA revolt risk each step
+	global_unrest = -1					#-1% EXTRA revolt risk each step
 	legitimacy = 1
 	interest = -1	
 	migration_cooldown = 0.1
 	devotion = 1
 	caravan_power = 0.05
-				
+	global_autonomy = 0.1			
 }
 
 cancelled_loan = {
@@ -535,14 +542,15 @@ call_for_peace = {
 }
 
 war_exhaustion = {
-	global_unrest = 1
-	global_regiment_recruit_speed = 0.02
-	global_ship_recruit_speed = 0.02
-	core_creation = 0.03
-	manpower_recovery_speed = -0.01
-	sailors_recovery_speed = -0.01
-	siege_ability = -0.01
-	global_trade_goods_size_modifier = -0.02
+	global_unrest = 0.5
+	global_autonomy = 0.05
+	global_regiment_recruit_speed = 0.01
+	global_ship_recruit_speed = 0.01
+	core_creation = 0.01
+	manpower_recovery_speed = -0.005
+	sailors_recovery_speed = -0.0105
+	siege_ability = -0.005
+	global_trade_goods_size_modifier = -0.01
 }
 
 doom = {
@@ -580,6 +588,7 @@ army_tradition = {
 	land_morale = 0.25
 	manpower_recovery_speed = 0.1
 	siege_ability = 0.05
+	mil_tech_cost_modifier = -0.1
 }
 
 navy_tradition = {
@@ -589,6 +598,7 @@ navy_tradition = {
 	privateer_efficiency = 0.25
 	blockade_efficiency = 1
 	sailors_recovery_speed = 0.1
+	dip_tech_cost_modifier = -0.1
 }
 
 positive_piety = {
@@ -730,14 +740,10 @@ luck = {
 }
 
 over_extension = {
-	global_foreign_trade_power = -1.0
-	stability_cost_modifier = 0.5			
-	mercenary_cost = 0.5
-	diplomatic_reputation = -2
-	relations_decay_of_me = -0.25
-	global_unrest = 5
-	
-	yearly_corruption = 0.5
+	diplomatic_reputation = -3
+	global_manpower = -10
+	global_tax_income = -5
+	land_forcelimit	= -10
 }
 
 prestige = {
@@ -887,15 +893,15 @@ union_subject = {
 }
 
 indep_nation = {
-	global_tax_income = 12
-	land_forcelimit	= 6
-	naval_forcelimit = 12
+	global_tax_income = 10
+	land_forcelimit	= 5
+	naval_forcelimit = 5
 }
 
 subject_nation = {
-	global_tax_income = 6
-	land_forcelimit	= 3
-	naval_forcelimit = 6
+	global_tax_income = 5
+	land_forcelimit	= 2
+	naval_forcelimit = 2
 }
 
 vassal_nation = {
