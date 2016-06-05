@@ -1,3 +1,0 @@
-# Cult of the Damned
-
-3075 = "Naxxramas"
