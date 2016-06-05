@@ -15,15 +15,12 @@ religion = religion_arcane
 hre = no
 trade_goods = gold
 
-
-
-
 # The Frozen Throne
 618.1.1 = {
-owner = B12
-controller = B12
-add_core = B12
-culture = culture_blackpaw
-religion = religion_ancestral
-remove_core = A90
+	owner = B12
+	controller = B12
+	add_core = B12
+	culture = culture_blackpaw
+	religion = religion_ancestral
+	remove_core = A90
 }

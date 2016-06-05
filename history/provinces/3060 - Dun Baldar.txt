@@ -16,32 +16,29 @@ hre = no
 trade_goods = army_supplies
 
 # Beyond the Dark Portal
-622.1.1 = { 
+600.1.1 = { 
 	owner = H11
 	controller = H11
 	add_core = H11
 	add_core = A26
 	culture = culture_ironforge
 	religion = religion_mystery_of_the_makers 
-        base_tax = 4
-	base_manpower = 4
-	base_production = 4
-        add_core = G24
+    add_core = G24
 }
 
 # The Frozen Throne
-#618.1.1 = { 
-#	base_tax = 3
-#	base_manpower = 3
-#	base_production = 3
-#}
+618.1.1 = { 
+	base_tax = 3
+	base_manpower = 3
+	base_production = 3
+}
 
 # Rise of the Qiraji
-#622.1.1 = { 
-#	base_tax = 4
-#	base_manpower = 4
-#	base_production = 4
-#}
+622.1.1 = { 
+	base_tax = 4
+	base_manpower = 4
+	base_production = 4
+}
 
 # Cataclysm
 631.1.1 = {
