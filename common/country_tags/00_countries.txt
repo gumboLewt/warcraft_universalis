@@ -26,7 +26,7 @@
 # Warlords of Draenor
 #	633 KC
 # Legion
-#	635 KS
+#	635 KC
 
 # Special countries..
 REB = "countries/Rebels.txt"

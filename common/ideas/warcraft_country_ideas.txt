@@ -689,9 +689,9 @@ forest_troll_ideas = {
 	forest_troll_lumber_mills = { production_efficiency = 0.1
 	}
 	
-	forest_troll_land = { culture_conversion_cost = -0.2
-	global_missionary_strength = 0.01
-	
+	forest_troll_land = {
+		culture_conversion_cost = -0.2
+		global_missionary_strength = 0.01
 	}
 
 	forest_troll_destroyers = { navy_tradition = 1
@@ -1165,7 +1165,7 @@ naga_ideas = {
 
 scourge_ideas = {
 	start = {
-		reduced_liberty_desire = -200	#This is simply not possible to break true Lich King's grasp, all through events
+		culture_conversion_cost = -0.2
 	}
 
 	bonus = {
