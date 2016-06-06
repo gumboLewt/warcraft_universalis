@@ -100,12 +100,9 @@ port = {
 }
 
 in_state = {
-	local_unrest = -5
-	local_autonomy = -0.1
 }
 
 in_territory = {
-	local_development_cost = 0.5
 }
 
 coastal = {
@@ -313,13 +310,13 @@ occupied = {
 	province_trade_power_modifier = -0.5
 	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.5
-	local_autonomy = 0.5
+	local_autonomy = 1.0
 }
 
 under_siege = {
 	trade_goods_size_modifier = -0.25
 	province_trade_power_modifier = -0.25
-	local_autonomy = 0.1
+	local_autonomy = 0.5
 }
 
 looted = {
@@ -329,6 +326,7 @@ looted = {
 	ship_recruit_speed = 0.3
 	supply_limit_modifier = -0.1
 	local_sailors_modifier = -0.5
+	local_autonomy = 0.5
 }
 
 scorched_earth = {
@@ -402,7 +400,7 @@ active_missionary = {
 
 # Core province of the owner's culture group, while fighting a defensive war
 national_defense = {
-	local_unrest = -5
+	local_unrest = -10
 }
 
 
@@ -477,7 +475,7 @@ positive_stability = {
 	monthly_fervor_increase = 1
 	devotion = 0.5
 	yearly_corruption = -0.02
-	global_autonomy = -0.2
+	global_autonomy = -0.05
 }
 
 negative_stability = {
@@ -543,7 +541,7 @@ call_for_peace = {
 
 war_exhaustion = {
 	global_unrest = 0.5
-	global_autonomy = 0.05
+	global_autonomy = 0.1
 	global_regiment_recruit_speed = 0.01
 	global_ship_recruit_speed = 0.01
 	core_creation = 0.01
@@ -588,7 +586,7 @@ army_tradition = {
 	land_morale = 0.25
 	manpower_recovery_speed = 0.1
 	siege_ability = 0.05
-	mil_tech_cost_modifier = -0.1
+	mil_tech_cost_modifier = -0.2
 }
 
 navy_tradition = {
@@ -598,7 +596,7 @@ navy_tradition = {
 	privateer_efficiency = 0.25
 	blockade_efficiency = 1
 	sailors_recovery_speed = 0.1
-	dip_tech_cost_modifier = -0.1
+	dip_tech_cost_modifier = -0.2
 }
 
 positive_piety = {
@@ -740,10 +738,10 @@ luck = {
 }
 
 over_extension = {
-	diplomatic_reputation = -3
-	global_manpower = -10
-	global_tax_income = -5
-	land_forcelimit	= -10
+	diplomatic_reputation = -30
+	global_manpower = -100
+	global_tax_income = -50
+	land_forcelimit	= -100
 }
 
 prestige = {
