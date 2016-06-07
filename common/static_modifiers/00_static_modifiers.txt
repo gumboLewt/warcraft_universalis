@@ -190,6 +190,7 @@ blockaded = {
 	ship_recruit_speed = 0.2				
 	trade_goods_size_modifier = -0.5
 	province_trade_power_modifier = -0.75
+	local_autonomy = 0.25
 }
 
 no_adjacent_controlled = {
@@ -292,7 +293,7 @@ non_accepted_culture = {
 	local_missionary_strength = -0.02
 	local_manpower_modifier = -0.33
 	local_sailors_modifier = -0.2
-	local_unrest = 2					#1% revolt risk!
+	local_unrest = 5					#1% revolt risk!
 	
 }
 
@@ -301,7 +302,7 @@ non_accepted_culture_republic = {
 	local_tax_modifier = 0.1
 	local_manpower_modifier = 0.1
 	local_sailors_modifier = 0.05
-	local_unrest = -0.5
+	local_unrest = -1.25
 }
 
 occupied = {
@@ -316,7 +317,7 @@ occupied = {
 under_siege = {
 	trade_goods_size_modifier = -0.25
 	province_trade_power_modifier = -0.25
-	local_autonomy = 0.5
+	local_autonomy = 0.25
 }
 
 looted = {
@@ -326,7 +327,7 @@ looted = {
 	ship_recruit_speed = 0.3
 	supply_limit_modifier = -0.1
 	local_sailors_modifier = -0.5
-	local_autonomy = 0.5
+	local_autonomy = 0.25
 }
 
 scorched_earth = {
@@ -334,7 +335,7 @@ scorched_earth = {
 	local_tax_modifier = -0.5				# 50% less tax income.
 	local_defensiveness = 0.25
 	supply_limit_modifier = -0.5			# 50% lower supply limits.
-	local_autonomy = 0.01
+	local_autonomy = 0.25
 }
 
 
@@ -361,7 +362,7 @@ unrest = {
 }
 
 nationalism = {
-	local_unrest = 0.5					#for each year revolt risk!
+	local_unrest = 0.1					#for each year revolt risk!
 }
 
 harsh_treatment = {
@@ -395,12 +396,14 @@ friendly_regiments = {
 }
 
 active_missionary = {
-	local_unrest = 10					# 6% revolt risk!
+	local_unrest = 20					# 6% revolt risk!
 }
 
 # Core province of the owner's culture group, while fighting a defensive war
 national_defense = {
 	local_unrest = -10
+	war_exhaustion = -0.1
+	hostile_attrition = 1
 }
 
 
@@ -475,7 +478,7 @@ positive_stability = {
 	monthly_fervor_increase = 1
 	devotion = 0.5
 	yearly_corruption = -0.02
-	global_autonomy = -0.05
+	global_autonomy = -0.25
 }
 
 negative_stability = {
@@ -485,7 +488,7 @@ negative_stability = {
 	migration_cooldown = 0.1
 	devotion = 1
 	caravan_power = 0.05
-	global_autonomy = 0.1			
+	global_autonomy = 0.5			
 }
 
 cancelled_loan = {
@@ -532,7 +535,7 @@ peace = {
 	war_exhaustion = -0.1
 	improve_relation_modifier = 0.10
 	monthly_fervor_increase = 1
-	global_autonomy = -0.1
+	global_autonomy = -0.5
 }
 
 call_for_peace = {
@@ -540,6 +543,7 @@ call_for_peace = {
 }
 
 war_exhaustion = {
+	war_exhaustion = -0.1
 	global_unrest = 0.5
 	global_autonomy = 0.1
 	global_regiment_recruit_speed = 0.01
@@ -708,11 +712,13 @@ recovery_motivation = {
 	global_tax_modifier = 0.5
 	defensiveness = 0.25
 	manpower_recovery_speed = 0.5
-	army_tradition = 1
-	navy_tradition = 1
+	army_tradition = 2.5
+	navy_tradition = 2.5
 	global_unrest = -5
 	interest = -2
 	horde_unity = 10
+	stability_cost_modifier = -0.10
+	war_exhaustion = -0.1
 }
 
 
@@ -740,7 +746,7 @@ luck = {
 over_extension = {
 	diplomatic_reputation = -30
 	global_manpower = -100
-	global_tax_income = -50
+	global_tax_income = -120
 	land_forcelimit	= -100
 }
 
