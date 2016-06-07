@@ -402,8 +402,9 @@ active_missionary = {
 # Core province of the owner's culture group, while fighting a defensive war
 national_defense = {
 	local_unrest = -10
+	local_hostile_attrition = 1
 	war_exhaustion = -0.01
-	hostile_attrition = 1
+	hostile_attrition = 0.01
 }
 
 
@@ -897,19 +898,22 @@ union_subject = {
 }
 
 indep_nation = {
-	global_tax_income = 10
-	land_forcelimit	= 5
-	naval_forcelimit = 5
+	global_tax_income = 12
+	land_forcelimit	= 6
+	naval_forcelimit = 3
 }
 
 subject_nation = {
-	global_tax_income = 5
+	global_unrest = -5
+	global_tax_income = 6
 	land_forcelimit	= 2
-	naval_forcelimit = 2
+	naval_forcelimit = 1
+	liberty_desire = -25
 }
 
 vassal_nation = {
 	development_cost = 0.5
+	liberty_desire = -50
 }
 
 primitive_nation = {
@@ -926,13 +930,16 @@ gov_rank_1 = {
 
 gov_rank_2 = {
 	diplomats = 1
-	max_states = 5
+	free_leader_pool = 1
+	advisor_pool = 1
 }
 
 gov_rank_3 = {
 	diplomats = 1
-	free_leader_pool = 1
-	max_states = 10
+	free_leader_pool = 2
+	advisor_pool = 2
+	prestige = 0.01
+	max_states = 1
 }
 
 # for mod support...
