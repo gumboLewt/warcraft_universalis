@@ -10,7 +10,7 @@ country_event = {
     hidden = yes
     
 	trigger = {
-		always = yes
+		always = yess
         NOT = { has_country_flag = revealed_map }
 	}
 	
@@ -25,54 +25,77 @@ country_event = {
             limit = {
 			    OR = {
                    capital_scope = {
-                    continent = continent_eastern_kingdoms
+                        continent = continent_draenor
+                   }
+                }
+            }    
+            draenor_region = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+            
+            draenor_wasteland_region = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+        }
+        
+        if = {
+            limit = {
+			    OR = {
+                   capital_scope = {
+                        continent = continent_eastern_kingdoms
                    }
 				   AND = {
 				        capital_scope = {
-                        continent = continent_kalimdor
+                            continent = continent_kalimdor
                         }
 				        OR = {
-				        culture_group = culture_group_human
-				        culture_group = culture_group_jungle_troll
-				        culture_group = culture_group_orc
-				        culture_group = culture_group_ogre
-				        culture_group = culture_group_gnoll
-						culture_group = culture_group_dragonkin
-						primary_culture = culture_ironforge
-				        is_year = 622
+                            culture_group = culture_group_human
+                            culture_group = culture_group_jungle_troll
+                            culture_group = culture_group_orc
+                            culture_group = culture_group_ogre
+                            culture_group = culture_group_gnoll
+                            culture_group = culture_group_dragonkin
+                            primary_culture = culture_ironforge
+                            is_year = 622
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_outland
+                            continent = continent_outland
                         }
 				        OR = {
-						culture_group = culture_group_naga
-						primary_culture = culture_blood_elf
-						is_year = 625
+                            culture_group = culture_group_naga
+                            primary_culture = culture_blood_elf
+                            is_year = 625
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_northrend
+                            continent = continent_northrend
                         }
 				        OR = {
-				        culture_group = culture_group_human
-			            culture_group = culture_group_worgen
-				        culture_group = culture_group_dragonkin
-						culture_group = culture_group_naga
-						primary_culture = culture_ironforge
-				        primary_culture = culture_scourge
-						primary_culture = culture_blood_elf
-				        is_year = 626
+                            culture_group = culture_group_human
+                            culture_group = culture_group_worgen
+                            culture_group = culture_group_dragonkin
+                            culture_group = culture_group_naga
+                            primary_culture = culture_ironforge
+                            primary_culture = culture_scourge
+                            primary_culture = culture_blood_elf
+                            is_year = 626
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_pandaria
+                            continent = continent_pandaria
                         }
 				        OR = {
-				        is_year = 632
+                            is_year = 632
 					    }
 				    }
 			    }

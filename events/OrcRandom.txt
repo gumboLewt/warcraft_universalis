@@ -1,0 +1,22 @@
+namespace = orc_random
+
+# Human
+country_event = {
+	id = orc_random.1
+	title = orc_random.1.title
+	desc = orc_random.1.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    is_triggered_only = yes
+
+	trigger = {
+
+	}
+
+	option = {
+		name = orc_random.1.option.a
+
+
+	}
+}
+

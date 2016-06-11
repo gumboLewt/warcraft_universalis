@@ -1,5 +1,7 @@
 monarch_power = DIP
 
+# Needs reassignment
+
 ahead_of_time = {
 	trade_efficiency 		= 0.2
 }
@@ -35,7 +37,7 @@ technology = {
 
 # 1
 technology = {
-	year = 550
+	year = 558
 	
 	naval_morale			= 0.5
 	naval_maintenance		= 0.1
@@ -43,7 +45,7 @@ technology = {
 
 # 2
 technology = {
-	year = 555
+	year = 571
 	
 	trade_range				= 50
 	range					= 50
@@ -52,22 +54,20 @@ technology = {
 
 # 3
 technology = {
-	year = 560
+	year = 584
 	
 	trade_efficiency 		= 0.05
 }
 
 # 4
 technology = {
-	year = 565
+	year = 597
 	
-	# building
-	marketplace = yes 
 }
 
 # 5
 technology = {
-	year = 570
+	year = 610
 	
 	naval_morale			= 0.5
 	naval_maintenance		= 0.1
@@ -75,32 +75,29 @@ technology = {
 
 # 6
 technology = {
-	year = 575
+	year = 623
 	
 	trade_range				= 100
 	range					= 100
 	global_colonial_growth	= 15
-	shipyard = yes
 }
 
 # 7
 technology = {
-	year = 580
+	year = 636
 	
 	trade_efficiency 		= 0.05
 }
 
 # 8
 technology = {
-	year = 585
+	year = 649
 	
-	# building
-	dock = yes	
 }
 
 # 9
 technology = {
-	year = 590
+	year = 662
 	
 	naval_morale			= 0.5
 	naval_maintenance		= 0.1
@@ -108,7 +105,7 @@ technology = {
 
 # 10
 technology = {
-	year = 595
+	year = 675
 	
 	trade_range				= 100
 	range					= 100
@@ -117,22 +114,21 @@ technology = {
 
 # 11
 technology = {
-	year = 600
+	year = 688
 	
 	trade_efficiency 		= 0.05
-	wharf = yes
 }
 
 # 12
 technology = {
-	year = 605
+	year = 701
 	
 	# building
 }
 
 # 13
 technology = {
-	year = 610
+	year = 714
 	
 	naval_morale			= 0.5
 	naval_maintenance		= 0.05
@@ -140,40 +136,38 @@ technology = {
 
 # 14
 technology = {
-	year = 615
+	year = 727
 	
 	trade_range				= 100
 	range					= 100
 	global_colonial_growth	= 15
-	tradecompany = yes
 }
 
 # 15
 technology = {
-	year = 620
+	year = 740
 
 	trade_efficiency 		= 0.05
 }
 
 # 16
 technology = {
-	year = 625
+	year = 753
 	
 	# building
 }
 
 # 17
 technology = {
-	year = 630
+	year = 766
 	
 	naval_morale			= 0.5
 	naval_maintenance		= 0.05
-	trade_depot = yes 
 }
 
 # 18
 technology = {
-	year = 635
+	year = 779
 	
 	trade_range				= 100
 	range					= 100
@@ -182,22 +176,20 @@ technology = {
 
 # 19
 technology = {
-	year = 640
+	year = 792
 
 	trade_efficiency 		= 0.05
-	grand_shipyard = yes 
 }
 
 # 20
 technology = {
-	year = 645
+	year = 805
 	
-	# building
 }
 
 # 21
 technology = {
-	year = 650
+	year = 818
 	
 	naval_morale			= 0.5
 	naval_maintenance		= 0.05
@@ -205,33 +197,31 @@ technology = {
 
 # 22
 technology = {
-	year = 655
+	year = 831
 	
 	trade_range				= 100
 	range					= 100
 	global_colonial_growth	= 20
-	stock_exchange = yes
 }
 
 # 23
 technology = {
-	year = 660
+	year = 844
 	
 	trade_efficiency 		= 0.05
 }
 
 # 24
 technology = {
-	year = 665
+	year = 857
 	
 	naval_morale			= 0.25
 	naval_maintenance		= 0.05
-	drydock = yes 
 }
 
 # 25
 technology = {
-	year = 670
+	year = 870
 	
 	trade_range				= 200
 	range					= 200
@@ -240,7 +230,7 @@ technology = {
 
 # 26
 technology = {
-	year = 675
+	year = 883
 	
 	trade_efficiency 		= 0.05
 	
@@ -249,7 +239,7 @@ technology = {
 
 # 27
 technology = {
-	year = 680
+	year = 896
 	
 	naval_morale			= 0.25
 	naval_maintenance		= 0.05
@@ -257,7 +247,7 @@ technology = {
 
 # 28
 technology = {
-	year = 685
+	year = 909
 	
 	trade_range				= 200
 	range					= 200
@@ -266,7 +256,7 @@ technology = {
 
 # 29
 technology = {
-	year = 690
+	year = 922
 	
 	trade_efficiency 		= 0.05
 	
@@ -275,7 +265,7 @@ technology = {
 
 # 30
 technology = {
-	year = 695
+	year = 935
 	
 	naval_morale			= 0.25
 	naval_maintenance		= 0.05
@@ -283,7 +273,7 @@ technology = {
 
 # 31
 technology = {
-	year = 700
+	year = 948
 	
 	trade_range				= 200
 	range					= 200
@@ -292,14 +282,14 @@ technology = {
 
 # 32
 technology = {
-	year = 705
+	year = 961
 	
 	trade_efficiency 		= 0.1
 }
 
 # 33
 technology = {
-	year = 710
+	year = 974
 	
 	naval_morale			= 0.25
 	naval_maintenance		= 0.05
@@ -307,7 +297,7 @@ technology = {
 
 # 34
 technology = {
-	year = 715
+	year = 987
 	
 	trade_range				= 200
 	range					= 200
@@ -316,14 +306,14 @@ technology = {
 
 # 35
 technology = {
-	year = 720
+	year = 1000
 	
 	trade_efficiency 		= 0.1
 }
 
 # 36
 technology = {
-	year = 725
+	year = 1013
 	
 	naval_morale			= 0.5
 	naval_maintenance		= 0.05
@@ -331,7 +321,7 @@ technology = {
 
 # 37
 technology = {
-	year = 730
+	year = 1026
 	
 	trade_range				= 200
 	range					= 200
@@ -340,14 +330,14 @@ technology = {
 
 # 38
 technology = {
-	year = 735
+	year = 1039
 	
 	trade_efficiency 		= 0.1
 }
 
 # 39
 technology = {
-	year = 740
+	year = 1052
 	
 	naval_morale			= 0.5
 	naval_maintenance		= 0.05
@@ -355,7 +345,7 @@ technology = {
 
 # 40
 technology = {
-	year = 745
+	year = 1065
 	
 	trade_range				= 200
 	range					= 200
@@ -364,14 +354,14 @@ technology = {
 
 # 41
 technology = {
-	year = 750
+	year = 1078
 	
 	trade_efficiency 		= 0.1
 }
 
 # 42
 technology = {
-	year = 755
+	year = 1091
 	
 	naval_morale			= 1.0
 	naval_maintenance		= 0.05
@@ -379,7 +369,7 @@ technology = {
 
 # 43
 technology = {
-	year = 760
+	year = 1104
 	
 	trade_range				= 200
 	range					= 200
@@ -388,14 +378,14 @@ technology = {
 
 # 44
 technology = {
-	year = 765
+	year = 1117
 	
 	trade_efficiency 		= 0.1
 }
 
 # 45
 technology = {
-	year = 770
+	year = 1130
 	
 	naval_morale			= 1.0
 	naval_maintenance		= 0.05
@@ -403,7 +393,7 @@ technology = {
 
 # 46
 technology = {
-	year = 775
+	year = 1143
 	
 	trade_range				= 300
 	range					= 300
@@ -412,14 +402,14 @@ technology = {
 
 # 47
 technology = {
-	year = 780
+	year = 1156
 	
 	trade_efficiency 		= 0.1
 }
 
 # 48
 technology = {
-	year = 785
+	year = 1169
 	
 	naval_morale			= 1.0
 	naval_maintenance		= 0.05
@@ -427,7 +417,7 @@ technology = {
 
 # 49
 technology = {
-	year = 790
+	year = 1182
 	
 	trade_range				= 300
 	range					= 300
@@ -436,7 +426,306 @@ technology = {
 
 # 50
 technology = {
-	year = 795
+	year = 1195
 	
 	
+}
+
+
+technology = {
+	year = 1208
+
+    
+}
+
+technology = {
+	year = 1221
+
+    
+}
+
+technology = {
+	year = 1234
+
+    
+}
+
+technology = {
+	year = 1247
+
+    
+}
+
+technology = {
+	year = 1260
+
+    
+    
+}
+
+technology = {
+	year = 1273
+
+    
+}
+
+technology = {
+	year = 1286
+
+    
+}
+
+technology = {
+	year = 1299
+
+    
+}
+
+technology = {
+	year = 1312
+
+    
+}
+
+technology = {
+	year = 1325
+
+    
+    
+}
+
+technology = {
+	year = 1338
+
+    
+}
+
+technology = {
+	year = 1351
+
+    
+}
+
+technology = {
+	year = 1364
+
+    
+}
+
+technology = {
+	year = 1377
+
+    
+}
+
+technology = {
+	year = 1390
+
+    
+    
+}
+
+technology = {
+	year = 1403
+
+    
+}
+
+technology = {
+	year = 1416
+
+    
+}
+
+technology = {
+	year = 1429
+
+    
+}
+
+technology = {
+	year = 1442
+
+    
+}
+
+technology = {
+	year = 1455
+
+    
+    
+}
+
+technology = {
+	year = 1468
+
+    
+}
+
+technology = {
+	year = 1481
+
+    
+}
+
+technology = {
+	year = 1494
+
+    
+}
+
+technology = {
+	year = 1507
+
+    
+}
+
+technology = {
+	year = 1520
+
+    
+    
+}
+
+technology = {
+	year = 1533
+
+    
+}
+
+technology = {
+	year = 1546
+
+    
+}
+
+technology = {
+	year = 1559
+
+    
+}
+
+technology = {
+	year = 1572
+
+    
+}
+
+technology = {
+	year = 1585
+
+    
+    
+}
+
+technology = {
+	year = 1598
+
+    
+}
+
+technology = {
+	year = 1611
+
+    
+}
+
+technology = {
+	year = 1624
+
+    
+}
+
+technology = {
+	year = 1637
+
+    
+}
+
+technology = {
+	year = 1650
+
+    
+    
+}
+
+technology = {
+	year = 1663
+
+    
+}
+
+technology = {
+	year = 1676
+
+    
+}
+
+technology = {
+	year = 1689
+
+    
+}
+
+technology = {
+	year = 1702
+
+    
+}
+
+technology = {
+	year = 1715
+
+    
+}
+
+technology = {
+	year = 1728
+
+}
+
+technology = {
+	year = 1741
+
+    
+}
+
+technology = {
+	year = 1754
+
+    
+}
+
+technology = {
+	year = 1767
+
+    
+}
+
+technology = {
+	year = 1780
+
+}
+
+technology = {
+	year = 1793
+
+}
+
+technology = {
+	year = 1806
+
+    
+}
+
+technology = {
+	year = 1819
+    
+    
+}
+
+technology = {
+	year = 1832
+
+    
 }

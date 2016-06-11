@@ -1,0 +1,20 @@
+namespace = human_random
+
+country_event = {
+	id = human_random.1
+	title = human_random.1.title
+	desc = human_random.1.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    is_triggered_only = yes
+
+	trigger = {
+
+	}
+
+	option = {
+		name = human_random.1.option.a
+
+
+	}
+}

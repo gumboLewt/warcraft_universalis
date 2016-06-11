@@ -124,4 +124,5 @@ impassable = {
 	3008 # Amani Wildlands
 	3046 # Anvil Mountains
 	3071 # Violet Mountain
+    3072 # Draenor Mountains
 }

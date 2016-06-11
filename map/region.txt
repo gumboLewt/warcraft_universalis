@@ -32,6 +32,12 @@ northrend_wasteland_region = {
 	}
 }
 
+draenor_wasteland_region = {
+	areas = {
+		area_draenor_wastelands
+	}
+}
+
 outland_wasteland_region = {
 	areas = {
 		area_outland_wastelands
@@ -203,6 +209,24 @@ darnassus_region = {
 	#}
 	areas = {
 		area_teldrassil
+	}
+}
+
+draenor_region = {
+	#discover_if = {
+	#	capital_scope = {
+	#		continent = continent_outland
+	#	}
+	#}
+	areas = {
+		area_tanaan_jungle
+		area_talador
+		area_old_nagrand
+		area_old_shadowmoon_valley
+		area_spires_of_arak
+		area_gorgrond
+		area_frostfire_ridge
+        area_ashran
 	}
 }
 

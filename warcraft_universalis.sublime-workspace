@@ -1,0 +1,500 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "events/HumanRandom.txt",
+			"settings":
+			{
+				"buffer_size": 271,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "events/OrcRandom.txt",
+			"settings":
+			{
+				"buffer_size": 270,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Xylozi/AppData/Roaming/Sublime Text 3/Packages/User/ParadoxCode.sublime-syntax",
+			"settings":
+			{
+				"buffer_size": 1391,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/_reference/effects.txt",
+			"settings":
+			{
+				"buffer_size": 21899,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/_reference/scopes.txt",
+			"settings":
+			{
+				"buffer_size": 7823,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/_reference/triggers.txt",
+			"settings":
+			{
+				"buffer_size": 26070,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/_reference/modifiers.txt",
+			"settings":
+			{
+				"buffer_size": 7968,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"last_filter": "packagedev",
+		"selected_items":
+		[
+			[
+				"packagedev",
+				"PackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"package",
+				"PackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontrol",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 480.0
+	},
+	"console":
+	{
+		"height": 269.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft_universalis",
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft_universalis/events",
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/_reference",
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/logs"
+	],
+	"file_history":
+	[
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft_universalis/common/technologies/mil.txt",
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft_universalis/warcraft_universalis.sublime-project",
+		"/C/Users/Xylozi/AppData/Roaming/Sublime Text 3/Packages/User/ColorPicker.sublime-settings",
+		"/C/Users/Xylozi/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft_universalis/common/technologies/adm.txt",
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft_universalis/common/technologies/dip.txt",
+		"/C/Users/Xylozi/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Xylozi/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Xylozi/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft_universalis/events/WarcraftRandom.txt",
+		"/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft_universalis/events/Dark_Portal.txt",
+		"/C/Users/Xylozi/AppData/Roaming/Sublime Text 3/Packages/User/ParadoxCode.yaml",
+		"/C/Users/Xylozi/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Xylozi\\Documents\\Paradox Interactive\\Europa Universalis IV\\mod\\warcraft_universalis\\events"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"development_efficiency = 0.1",
+			"production_efficiency 	=	0.05",
+			"administrative_efficiency = 0.1",
+			"max_states = 1",
+			"console",
+			"human_random",
+			"find",
+			"save",
+			"warcraft_random",
+			"find",
+			"story"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"orc_random",
+			"human_random"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "events/HumanRandom.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "events/OrcRandom.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Xylozi/AppData/Roaming/Sublime Text 3/Packages/User/ParadoxCode.sublime-syntax",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								957,
+								957
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/_reference/effects.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/_reference/scopes.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/_reference/triggers.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1269,
+								1269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/_reference/modifiers.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								772,
+								772
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "warcraft_universalis.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 347.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

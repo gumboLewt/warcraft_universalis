@@ -1,8 +1,6 @@
 monarch_power = MIL
 
-ahead_of_time = {
-	land_morale = 0.1
-}
+# Needs reassignment
 
 # 0
 technology = {
@@ -19,12 +17,11 @@ technology = {
 	land_morale 		= 2.0
 
 	enable = trebuchet
-	fort_15th = yes
 }
 
 # 1
 technology = {
-	year = 550
+	year = 558
 	
 	# tech_troll
 	enable = troll_tribal                        #lvl1 infantry a,
@@ -184,7 +181,7 @@ technology = {
 
 # 2
 technology = {
-	year = 555
+	year = 571
 	
 	land_morale 		= 0.5
 	military_tactics 	= 0.5
@@ -192,7 +189,7 @@ technology = {
 
 # 3
 technology = {
-	year = 560
+	year = 584
 	
 	infantry_fire		= 0.05
 	cavalry_fire  		= 0.05	
@@ -201,7 +198,7 @@ technology = {
 
 # 4
 technology = {
-	year = 565
+	year = 597
 	
 	infantry_shock 		= 0.05	
 	cavalry_shock  		= 0.1
@@ -210,7 +207,7 @@ technology = {
 
 # 5
 technology = {
-	year = 570
+	year = 610
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -218,15 +215,13 @@ technology = {
 
 # 6
 technology = {
-	year = 575
+	year = 623
 	
-	# Buildings
-	barracks = yes
 }
 
 # 7
 technology = {
-	year = 580
+	year = 636
 	
 	infantry_fire		= 0.1
 	cavalry_fire  		= 0.05	
@@ -235,17 +230,16 @@ technology = {
 
 # 8
 technology = {
-	year = 585
+	year = 649
 	
 	infantry_shock 		= 0.1
 	cavalry_shock  		= 0.1
 	artillery_shock 	= 0.05
-	regimental_camp = yes
 }
 
 # 9
 technology = {
-	year = 590
+	year = 662
 	
 	land_morale 		= 0.5
 	military_tactics 	= 1
@@ -253,17 +247,15 @@ technology = {
 
 # 10
 technology = {
-	year = 595
+	year = 675
 	
 	enable = ballista
 	
-	# Buildings
-	fort_16th = yes
 }
 
 # 11
 technology = {
-	year = 600
+	year = 688
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -272,15 +264,13 @@ technology = {
 
 # 12
 technology = {
-	year = 605
+	year = 701
 	
-	# Buildings
-	weapons = yes
 }
 
 # 13
 technology = {
-	year = 610
+	year = 714
 	
 	infantry_fire		= 0.1
 	cavalry_fire  		= 0.05	
@@ -289,7 +279,7 @@ technology = {
 
 # 14
 technology = {
-	year = 615
+	year = 727
 	
 	infantry_shock 		= 0.1
 	cavalry_shock  		= 0.1
@@ -298,7 +288,7 @@ technology = {
 
 # 15
 technology = {
-	year = 620
+	year = 740
 	
 	# tech_thalassian
 	enable = bloodelf_ranger_cav
@@ -457,12 +447,11 @@ technology = {
 	enable = ogre_mounted_slasher_cav            #lvl2 cavalry a,
 	enable = ogre_mounted_axeman_cav             #lvl2 cavalry b,
 	
-	fort_17th = yes
 }
 
 # 16
 technology = {
-	year = 625
+	year = 753
 	
 	land_morale 		= 0.5
 	military_tactics 	= 0.5
@@ -470,7 +459,7 @@ technology = {
 
 # 17
 technology = {
-	year = 630
+	year = 766
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -478,15 +467,13 @@ technology = {
 
 # 18
 technology = {
-	year = 635
+	year = 779
 	
-	# Buildings
-	training_fields = yes
 }
 
 # 19
 technology = {
-	year = 640
+	year = 792
 	
 	infantry_fire		= 0.1
 	cavalry_fire  		= 0.05	
@@ -495,7 +482,7 @@ technology = {
 
 # 20
 technology = {
-	year = 645
+	year = 805
 	
 	infantry_shock 		= 0.1
 	cavalry_shock  		= 0.1
@@ -504,7 +491,7 @@ technology = {
 
 # 21
 technology = {
-	year = 650
+	year = 818
 	
 	land_morale 		= 0.5
 	military_tactics 	= 1
@@ -512,15 +499,13 @@ technology = {
 
 # 22
 technology = {
-	year = 655
+	year = 831
 	
-	# Buildings
-	conscription_center = yes
 }
 
 # 23
 technology = {
-	year = 660
+	year = 844
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -528,7 +513,7 @@ technology = {
 
 # 24
 technology = {
-	year = 665
+	year = 857
 	
 	infantry_fire		= 0.1
 	cavalry_fire  		= 0.1
@@ -537,7 +522,7 @@ technology = {
 
 # 25
 technology = {
-	year = 670
+	year = 870
 	
 	infantry_shock 		= 0.1
 	cavalry_shock  		= 0.1
@@ -548,7 +533,7 @@ technology = {
 
 # 26
 technology = {
-	year = 675
+	year = 883
 	
 	land_morale 		= 0.5
 	military_tactics 	= 0.5
@@ -556,7 +541,7 @@ technology = {
 
 # 27
 technology = {
-	year = 680
+	year = 896
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -564,7 +549,7 @@ technology = {
 
 # 28
 technology = {
-	year = 685
+	year = 909
 	
 	infantry_fire		= 0.1
 	cavalry_fire  		= 0.1
@@ -573,7 +558,7 @@ technology = {
 
 # 29
 technology = {
-	year = 690
+	year = 922
 	
 	infantry_shock 		= 0.1
 	cavalry_shock  		= 0.2
@@ -582,7 +567,7 @@ technology = {
 
 # 30
 technology = {
-	year = 695
+	year = 935
 	
 	# tech_troll
 	enable = troll_berserker                     #lvl3 infantry a,
@@ -739,12 +724,11 @@ technology = {
 	enable = ogre_mounted_berserker_cav          #lvl3 cavalry a,
 	enable = ogre_mounted_brute_cav              #lvl3 cavalry b,
 	
-	fort_18th = yes
 }
 
 # 31
 technology = {
-	year = 700
+	year = 948
 	
 	land_morale 		= 0.5
 	military_tactics 	= 1
@@ -752,7 +736,7 @@ technology = {
 
 # 32
 technology = {
-	year = 705
+	year = 961
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -760,7 +744,7 @@ technology = {
 
 # 33
 technology = {
-	year = 710
+	year = 974
 	
 	infantry_fire		= 0.2
 	cavalry_fire  		= 0.1
@@ -769,7 +753,7 @@ technology = {
 
 # 34
 technology = {
-	year = 715
+	year = 987
 	
 	infantry_shock 		= 0.2
 	cavalry_shock  		= 0.4
@@ -778,7 +762,7 @@ technology = {
 
 # 35
 technology = {
-	year = 720
+	year = 1000
 	
 	land_morale 		= 0.5
 	military_tactics 	= 1
@@ -786,7 +770,7 @@ technology = {
 
 # 36
 technology = {
-	year = 725
+	year = 1013
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -794,7 +778,7 @@ technology = {
 
 # 37
 technology = {
-	year = 730
+	year = 1026
 	
 	infantry_fire		= 0.2
 	cavalry_fire  		= 0.1
@@ -803,7 +787,7 @@ technology = {
 
 # 38
 technology = {
-	year = 735
+	year = 1039
 	
 	infantry_shock 		= 0.2
 	cavalry_shock  		= 0.4
@@ -812,7 +796,7 @@ technology = {
 
 # 39
 technology = {
-	year = 740
+	year = 1052
 	
 	land_morale 		= 0.5
 	military_tactics 	= 1
@@ -820,7 +804,7 @@ technology = {
 
 # 40
 technology = {
-	year = 745
+	year = 1065
 
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -828,7 +812,7 @@ technology = {
 
 # 41
 technology = {
-	year = 750
+	year = 1078
 	
 	infantry_fire		= 0.4
 	cavalry_fire  		= 0.1
@@ -837,7 +821,7 @@ technology = {
 
 # 42
 technology = {
-	year = 755
+	year = 1091
 	
 	infantry_shock 		= 0.4
 	cavalry_shock  		= 0.5
@@ -846,7 +830,7 @@ technology = {
 
 # 43
 technology = {
-	year = 760
+	year = 1104
 	
 	land_morale 		= 0.5
 	military_tactics 	= 1
@@ -854,7 +838,7 @@ technology = {
 
 # 44
 technology = {
-	year = 765
+	year = 1117
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -862,7 +846,7 @@ technology = {
 
 # 45
 technology = {
-	year = 770
+	year = 1130
 	
 	infantry_fire		= 0.4
 	cavalry_fire  		= 0.2
@@ -871,7 +855,7 @@ technology = {
 
 # 46
 technology = {
-	year = 775
+	year = 1143
 	
 	infantry_shock 		= 0.4
 	cavalry_shock  		= 0.5
@@ -880,7 +864,7 @@ technology = {
 
 # 47
 technology = {
-	year = 780
+	year = 1156
 	
 	land_morale 		= 0.5
 	military_tactics 	= 1
@@ -888,7 +872,7 @@ technology = {
 
 # 48
 technology = {
-	year = 785
+	year = 1169
 	
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
@@ -896,15 +880,315 @@ technology = {
 
 # 49
 technology = {
-	year = 790
+	year = 1182
 
 	land_morale 		= 1
 	military_tactics 	= 1	
 }
 
+
 # 50
 technology = {
-	year = 795
+	year = 1195
 	
 	
+}
+
+
+technology = {
+	year = 1208
+
+    
+}
+
+technology = {
+	year = 1221
+
+    
+}
+
+technology = {
+	year = 1234
+
+    
+}
+
+technology = {
+	year = 1247
+
+    
+}
+
+technology = {
+	year = 1260
+
+    
+    
+}
+
+technology = {
+	year = 1273
+
+    
+}
+
+technology = {
+	year = 1286
+
+    
+}
+
+technology = {
+	year = 1299
+
+    
+}
+
+technology = {
+	year = 1312
+
+    
+}
+
+technology = {
+	year = 1325
+
+    
+    
+}
+
+technology = {
+	year = 1338
+
+    
+}
+
+technology = {
+	year = 1351
+
+    
+}
+
+technology = {
+	year = 1364
+
+    
+}
+
+technology = {
+	year = 1377
+
+    
+}
+
+technology = {
+	year = 1390
+
+    
+    
+}
+
+technology = {
+	year = 1403
+
+    
+}
+
+technology = {
+	year = 1416
+
+    
+}
+
+technology = {
+	year = 1429
+
+    
+}
+
+technology = {
+	year = 1442
+
+    
+}
+
+technology = {
+	year = 1455
+
+    
+    
+}
+
+technology = {
+	year = 1468
+
+    
+}
+
+technology = {
+	year = 1481
+
+    
+}
+
+technology = {
+	year = 1494
+
+    
+}
+
+technology = {
+	year = 1507
+
+    
+}
+
+technology = {
+	year = 1520
+
+    
+    
+}
+
+technology = {
+	year = 1533
+
+    
+}
+
+technology = {
+	year = 1546
+
+    
+}
+
+technology = {
+	year = 1559
+
+    
+}
+
+technology = {
+	year = 1572
+
+    
+}
+
+technology = {
+	year = 1585
+
+    
+    
+}
+
+technology = {
+	year = 1598
+
+    
+}
+
+technology = {
+	year = 1611
+
+    
+}
+
+technology = {
+	year = 1624
+
+    
+}
+
+technology = {
+	year = 1637
+
+    
+}
+
+technology = {
+	year = 1650
+
+    
+    
+}
+
+technology = {
+	year = 1663
+
+    
+}
+
+technology = {
+	year = 1676
+
+    
+}
+
+technology = {
+	year = 1689
+
+    
+}
+
+technology = {
+	year = 1702
+
+    
+}
+
+technology = {
+	year = 1715
+
+    
+}
+
+technology = {
+	year = 1728
+
+}
+
+technology = {
+	year = 1741
+
+    
+}
+
+technology = {
+	year = 1754
+
+    
+}
+
+technology = {
+	year = 1767
+
+    
+}
+
+technology = {
+	year = 1780
+
+}
+
+technology = {
+	year = 1793
+
+}
+
+technology = {
+	year = 1806
+
+    
+}
+
+technology = {
+	year = 1819
+    
+    
+}
+
+technology = {
+	year = 1832
+
+    
 }
