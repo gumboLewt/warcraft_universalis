@@ -1,7 +1,7 @@
 ﻿l_english:
 
  #####################
- # STATIC MODIFIERS #
+ # STATIC MODIFIERS  #
  #####################
 
  # Alliance/Horde
@@ -34,11 +34,18 @@
  neutral_neutral: "Neutral Organization"
  neutral_creep: "Neutral Organization"
  
-
  #######################
  # TRIGGERED MODIFIERS #
  #######################
 
  alliance_enemy: "Enemy of the Alliance"
  horde_enemy: "Enemy of the Horde"
+ 
+ #######################
+ # OTHER MODIFIERS     #
+ #######################
+ 
+ scourge_mindlessness: "Scourge Mindlessness"
+ kings_grasp: "King's Grasp"
+ 
  

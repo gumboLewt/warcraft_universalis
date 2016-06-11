@@ -1,0 +1,49 @@
+# 3073 - Light's Point
+is_city = yes
+
+add_core = A08
+owner = A08
+controller = A08
+
+base_tax = 2
+base_manpower = 2
+base_production = 3
+
+culture = culture_lordaeron
+religion = religion_church_of_the_light
+ 
+hre = no 
+trade_goods = gold
+
+# The Third War
+618.1.1 = { 
+	add_core = E52
+}
+
+# The Frozen Throne
+618.1.1 = { 
+	add_core = E62
+	owner = E62
+	controller = E62
+	remove_core = A08
+}
+
+# Rise of the Qiraji
+622.1.1 = { 
+	add_core = A22
+	owner = A22
+	controller = A22
+	religion = religion_scarlet_light 
+}
+
+# Wrath of the Lich King
+626.1.1 = {
+	owner = E13
+	controller = E13
+	add_core = E13
+	culture = culture_death_knight
+	religion = religion_shadow
+	base_tax = 1
+	base_manpower = 1
+	base_production = 1
+}

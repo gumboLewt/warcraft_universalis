@@ -13,38 +13,34 @@ trade_goods = crypts
 
 # Beyond the Dark Portal
 598.1.1 = {
-owner = A76
-controller = A76
-add_core = A76
-culture = culture_winterax
-religion = religion_loa
-base_tax = 2
-base_manpower = 2
-base_production = 2
+	owner = A76
+	controller = A76
+	add_core = A76
+	culture = culture_winterax
+	religion = religion_loa
+	base_tax = 2
+	base_manpower = 2
 }
 
 # The Frozen Throne
 618.1.1 = { 
-	base_tax = 3
-	base_manpower = 3
 	base_production = 3
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-	base_tax = 4
-	base_manpower = 4
-	base_production = 4
+	base_tax = 3
+	base_manpower = 3
 }
 
-#Wrath
+# Wrath of the Lich King
 626.1.1 = {
-owner = xxx
-controller = xxx
-remove_core = A76
-culture = culture_revenant
-religion = religion_air
-base_tax = 1
-base_manpower = 1
-base_production = 2
+	owner = xxx
+	controller = xxx
+	remove_core = A76
+	culture = culture_revenant
+	religion = religion_air
+	base_tax = 1
+	base_manpower = 1
+	base_production = 2
 }

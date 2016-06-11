@@ -1,5 +1,5 @@
-# 1267
-is_city = no
+# 1267 Corp'rethar
+is_city = yes
 
 owner = E74
 controller = E74
@@ -9,20 +9,31 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-
 culture = culture_nerubian
 religion = religion_arcane
 
 hre = no
 trade_goods = saronite
 
-
-
-
+# The Alliance Splinters
 605.1.1 = { 
-add_core = E11
-controller = E11
-owner = E11
-culture = culture_scourge
-religion = religion_the_damned 
+	add_core = E11
+	controller = E11
+	owner = E11
+	culture = culture_scourge
+	religion = religion_the_damned 
+}
+
+# Rise of the Qiraji
+622.1.1 = { 
+	base_tax = 3
+	base_manpower = 4
+	base_production = 3
+}
+
+# Wrath of the Lich King
+626.1.1 = { 
+	base_tax = 4
+	base_manpower = 5
+	base_production = 4
 }

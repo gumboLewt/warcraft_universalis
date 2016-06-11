@@ -1,8 +1,8 @@
 estate_nobility =
 {
-	icon = 1
+	icon = 2
 	
-	color = { 200 150 0 }
+	color = { 200 0 50 }
 	
 	# Is estate kept in control of province on conquest?
 	keep_on_conquest = no
@@ -16,7 +16,10 @@ estate_nobility =
 	
 	# If true, country will get estate
 	trigger = {
-		always = yes
+		OR = {
+			technology_group = tech_human
+			technology_group = tech_dwarven
+		}
 	}
 	
 	# If true, province can be granted to estate
@@ -33,24 +36,27 @@ estate_nobility =
 	
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		
+		manpower_recovery_speed = 0.2 
+		land_maintenance_modifier = -0.1
 	}
 	country_modifier_neutral = {
-		
+		manpower_recovery_speed = 0.2 
 	}	
 	country_modifier_angry = {
-		
+		manpower_recovery_speed = -0.1
+		land_maintenance_modifier = 0.1
 	}	
 	
 	# These do not scale, but only applied in provinces owned by the estate
 	province_modifier_happy = {
-		
+		local_defensiveness = 0.15
+		local_manpower_modifier = 0.2
 	}
 	province_modifier_neutral = {
-		
+		local_manpower_modifier = 0.2
 	}	
 	province_modifier_angry = {
-		
+		local_unrest = 5
 	}	
 	
 	#################################

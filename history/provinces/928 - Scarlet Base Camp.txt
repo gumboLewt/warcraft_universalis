@@ -1,5 +1,6 @@
 # 928 Scarlet Base Camp
 is_city = yes
+
 add_core = A08
 owner = A08
 controller = A08
@@ -14,50 +15,33 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = fish
 
-
-
-
 # The Third War
 618.1.1 = { 
-add_claim = E52
+	add_claim = E52
 }
 
 # The Frozen Throne
 618.1.1 = { 
-owner = E62
-controller = E62
-add_core = E62
-remove_core = A08
+	owner = E62
+	controller = E62
+	add_core = E62
+	remove_core = A08
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-add_core = A22
-owner = A22
-controller = A22
-religion = religion_scarlet_light
-}
-
-# Fall of the Scarlet Enclave
-625.1.1 = { 
-owner = F18
-controller = F18
-add_core = F18
-remove_core = A22 
-}
-
-# Wrath of the Lich King
-626.1.1 = { 
-owner = A22
-controller = A22
-add_core = A22
+	add_core = A22
+	owner = A22
+	controller = A22
+	religion = religion_scarlet_light
+	base_manpower = 2
 }
 
 # Cataclysm
 631.1.1 = { 
-add_core = E12
-owner = E12
-controller = E12
-culture = culture_cultist
-religion = religion_the_damned
+	add_core = E12
+	owner = E12
+	controller = E12
+	culture = culture_cultist
+	religion = religion_the_damned
 }

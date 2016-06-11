@@ -5,6 +5,7 @@ technology_group 	= tech_human
 religion			= religion_church_of_the_light
 primary_culture 	= culture_azerothian
 capital 			= 1022
+
 historical_friend = A02
 historical_friend = A03
 historical_friend = A04
@@ -13,7 +14,7 @@ historical_friend = A05
 546.1.1 = { 
 	monarch = { 
 		name = "Adamant" 
-		dynasty = "Wyrnn" 
+		dynasty = "Wrynn" 
 		adm = 4
 		dip = 3
 		mil = 3 
@@ -23,7 +24,7 @@ historical_friend = A05
 592.1.1 = { 
 	monarch = { 
 		name = "Llane" 
-		dynasty = "Wyrnn" 
+		dynasty = "Wrynn" 
 		adm = 3
 		dip = 3
 		mil = 4 
@@ -31,13 +32,13 @@ historical_friend = A05
 } 
 
 597.1.1 = {
-add_country_modifier = {
-    name = alliance_member
-    duration = -1
-}
+	add_country_modifier = {
+		name = alliance_member
+		duration = -1
+	}
     monarch = { 
 		name = "Varian" 
-		dynasty = "Wyrnn" 
+		dynasty = "Wrynn" 
 		adm = 3
 		dip = 3
 		mil = 4 
@@ -50,21 +51,21 @@ add_country_modifier = {
 622.1.1 = { 
 	monarch = { 
 		name = "Anduin" 
-		dynasty = "Wyrnn" 
+		dynasty = "Wrynn" 
 		adm = 2
 		dip = 3
 		mil = 1 
  	} 
-add_country_modifier = {
-name = alliance_head
-duration = -1
+	add_country_modifier = {
+		name = alliance_head
+		duration = -1
+	}
 }
-} 
  
 626.1.1 = { 
 	monarch = { 
 		name = "Varian" 
-		dynasty = "Wyrnn" 
+		dynasty = "Wrynn" 
 		adm = 3
 		dip = 3
 		mil = 4 

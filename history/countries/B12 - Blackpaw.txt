@@ -6,12 +6,12 @@ religion			= religion_ancestral
 primary_culture 	= culture_blackpaw
 capital 			= 2979
 
-546.1.1 = { 
-monarch = { 
-     name = "Banzai" 
-     dynasty = "Blackpaw" 
+618.1.1 = { 
+	monarch = { 
+		name = "Banzai" 
+		dynasty = "Blackpaw" 
 		adm = 1
 		dip = 0
 		mil = 3
  	} 
- } 
+} 

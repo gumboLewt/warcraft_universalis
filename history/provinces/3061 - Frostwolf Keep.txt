@@ -36,7 +36,7 @@ trade_goods = fur
 	base_tax = 4
 	base_manpower = 4
 	base_production = 4
-        add_core = G25
+    add_core = G25
 }
 
 # Cataclysm

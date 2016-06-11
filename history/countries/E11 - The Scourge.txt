@@ -16,6 +16,11 @@ capital = 1268
 		dip = 5	
 		mil = 1	
 	}  
+	add_country_modifier = {
+		name = kings_grasp
+		duration = -1
+	}
+	
 }
 
 622.1.1 = { 

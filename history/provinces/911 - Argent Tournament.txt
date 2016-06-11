@@ -1,10 +1,13 @@
-# 911
+# 911 Argent Tournament
 is_city = yes
+
+add_core = B81
+owner = B81
+controller = B81
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
-
 
 culture = culture_kalu_ak
 religion = religion_primitive
@@ -12,16 +15,25 @@ religion = religion_primitive
 hre = no
 trade_goods = fish
 
+# Rise of the Qiraji
+622.1.1 = { 
+	add_core = E11
+	owner = E11
+	controller = E11
+	culture = culture_scourge
+	religion = religion_the_damned 
+	base_manpower = 2
+}
 
-
-
+# Wrath of the Lich King
 626.1.1 = { 
-add_core = F19
-owner = F19
-culture = culture_lordaeron
-religion = religion_argent_light
-trade_goods = mounts
-base_tax = 3
-base_manpower = 3
-base_production = 3 
+	add_core = F19
+	owner = F19
+	controller = F19
+	culture = culture_lordaeron
+	religion = religion_argent_light
+	trade_goods = mounts
+	base_tax = 4
+	base_manpower = 3
+	base_production = 3 
 }

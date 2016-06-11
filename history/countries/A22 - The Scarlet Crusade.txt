@@ -5,41 +5,40 @@ mercantilism 		= 0.1
 technology_group 	= tech_human
 religion			= religion_church_of_the_light
 primary_culture 	= culture_lordaeron
-capital 			= 539
+capital 			= 979
 
 622.1.1 = { 
-religion = religion_scarlet_light # Fall of Alexandros Mograine
+	religion = religion_scarlet_light   # Fall of Alexandros Mograine
 
-monarch = { 
-     name = "Saiden" 
-     dynasty = "Dathrohan" 
+	monarch = { 
+		name = "Saiden" 
+		dynasty = "Dathrohan" 
 		adm = 3
 		dip = 3
 		mil = 4
  	} 
-
-heir = { 
-     name = "Brigitte" 
-     dynasty = "Abbendis" 
+	heir = { 
+		name = "Brigitte" 
+		dynasty = "Abbendis" 
 		adm = 4
 		dip = 3
 		mil = 5
-           female = yes
-           birth_date = 599.12.11
+		female = yes
+		birth_date = 599.12.11
  	} 
 } 
 
 625.1.1 = {
 
-heir = { 
-     name = "Sally" 
-     dynasty = "Whitemane" 
+	heir = { 
+		name = "Sally" 
+		dynasty = "Whitemane" 
 		adm = 4
 		dip = 3
 		mil = 3
-           female = yes
-           birth_date = 604.8.11
-       }
+		female = yes
+		birth_date = 604.8.11
+    }
 }
 
 626.1.1 = {
@@ -54,5 +53,3 @@ heir = {
         birth_date = 604.8.11
  	} 
 }
-
-

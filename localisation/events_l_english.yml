@@ -95,3 +95,9 @@
  gilneas.2.title: "Peasants Moving Behind the Wall"
  gilneas.2.desc: "Peasants from the lands outside the wall are asking to come in."
  gilneas.2.option.a: "Let them come."
+ 
+ #Eastern Plaguelands
+ WARCRAFT_EASTERNPLAGUELANDS.1.title: "Landing of Naxxramas"
+ WARCRAFT_EASTERNPLAGUELANDS.1.desc: "Great Citadel of Naxxramas has come to our land from Master's domain."
+ WARCRAFT_EASTERNPLAGUELANDS.1.option.a: "All Hail to the Lich King!"
+ 

@@ -316,10 +316,16 @@
  culture_ascendant: "Elemental Ascendant"
  culture_sha: "Sha"
  
+ # Why not simply Gilnean? Becouse we will know way faster which we want in game
  culture_group_worgen: "Worgen"
  culture_wolfcult: "Wolfcult"
- culture_gilnean_worgen: "Gilnean"
- culture_lordaeron_worgen: "Lordaeron"
+ culture_gilnean_worgen: "Gilnean Worgen"
+ culture_lordaeron_worgen: "Lordaeron Worgen"
+ culture_alterac_worgen: "Alteraci Worgen"
+ culture_dalaran_worgen: "Dalaran Worgen"
+ culture_kul_tiran_worgen: "Tirasian Worgen"
+ culture_azerothian_worgen: "Azerothian Worgen"
+ culture_stormic_worgen: "Stormic Worgen"
  
  culture_group_arrakoa: "Arrakoa"
  culture_sethekk: "Sethekk"
