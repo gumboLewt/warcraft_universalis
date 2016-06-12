@@ -1,0 +1,902 @@
+#SHIFTING OWNERSHIP OF PROVINCES
+
+
+province_event = {
+	id = shifting_ownership.0
+
+	title = shifting_ownership.0
+	desc = shifting_ownership.0
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+	hidden = yes
+
+	trigger = {
+		NOT = { controlled_by = owner }
+		NOT = { owned_by = controller }
+		NOT = { controlled_by = REB }
+		OR = {
+			owner = { is_subject = yes }
+			AND = {
+				owner = { num_of_cities = 2 }
+				is_capital = no
+				owner = { is_subject = no }
+			}
+		}
+		
+		#Conditions for the controller to take ownership
+		#of the province outside of a peace deal
+		#OR = {
+		#	controller = { is_core = ROOT }
+		#	AND = {
+		#		controller = { is_claim = ROOT }
+		#		controller = { NOT = { has_opinion = { who = owner value = 50 } } }
+		#	}
+		#	controller = { NOT = { has_opinion = { who = owner value = -50 } } }
+		#}
+	}
+
+	mean_time_to_happen = {
+
+		months = 8
+
+		modifier = { #Border provinces
+			controller = { owns_or_vassal_of = { any_neighbor_province = ROOT } }
+			factor = 0.5
+		}
+		modifier = { #Isolated provinces
+			NOT = { owner = { owns_or_vassal_of = { any_neighbor_province = ROOT } } }
+			factor = 0.5
+			}
+		modifier = { #Legitimate claims
+			is_core = controller
+			factor = 0.5
+		}
+		modifier = { #Popular resistance
+			is_core = owner
+			factor = 1.5
+		}
+		modifier = {
+			has_owner_culture = yes
+			factor = 1.5
+			}
+
+		modifier = {
+			has_owner_religion = yes
+			factor = 1.5
+			}
+
+	}
+
+	immediate = {
+		controller = { country_event = { id = shifting_ownership.1 } }
+	}
+
+
+	option = {
+		name = shifting_ownership.0.a
+	}
+
+}
+
+
+country_event = {
+	id = shifting_ownership.1
+
+	title = shifting_ownership.1.title
+	desc = shifting_ownership.1.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+	is_triggered_only = yes
+
+	#ROOT - controller of the province
+	#FROM - province that fired the event
+
+
+	option = {#This province is irrelevant for the moment...
+		name = shifting_ownership.1.option.a
+
+
+		ai_chance = {
+        	factor = 1
+			#Isolated provinces
+			modifier = { 
+				NOT = { ROOT = { owns_or_vassal_of = { any_neighbor_province = FROM } } }
+				factor = 2
+			}
+			modifier = {
+				NOT = { ROOT = { owns_core_province = { any_neighbor_province = FROM } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { has_port = no }
+				factor = 2
+			}
+			#Likes the enemy
+			modifier = {
+				FROM = { owner = { { reverse_has_opinion = { who = ROOT value = 0 } } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { { reverse_has_opinion = { who = ROOT value = 50 } } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { { reverse_has_opinion = { who = ROOT value = 100 } } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { { reverse_has_opinion = { who = ROOT value = 150 } } } }
+				factor = 2
+			}
+    	}
+
+		#FROM = { province_event = { id = shifting_ownership.2 } }
+	}
+
+	option = {#[From.GetName] will be a fine addition to our land.
+		name = shifting_ownership.1.option.b
+
+		trigger = {
+			#Controller isn't a lawful ruler of the province and doesn't have similarities with the local population
+			FROM = { 
+				NOT = { 
+					AND = { culture = controller
+							religion = controller
+					}
+					is_core = controller 
+				}
+			} 
+			
+			OR = {
+				AND = {
+					NOT = { fort_level = 1 }
+					mil_power = 20
+					dip_power = 30
+				}
+				AND = {
+					NOT = { fort_level = 3 }
+					mil_power = 120
+					dip_power = 30
+					manpower = 0.2
+				}
+				AND = {
+					NOT = { fort_level = 7 }
+					mil_power = 270
+					dip_power = 30
+					manpower = 0.6
+				}
+				AND = {
+					NOT = { fort_level = 11 }
+					mil_power = 340
+					dip_power = 30
+					manpower = 1
+				}
+			}
+		}
+
+		ai_chance = {
+        	factor = 1
+			#Has a claim on the province
+			modifier = { 
+				ROOT = { is_claim = FROM }
+				factor = 2
+			}
+			#Wants to weaken the enemy
+			modifier = { 
+				FROM = { owner = { is_threat = ROOT } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { is_rival = ROOT } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { is_enemy = ROOT } }
+				factor = 2
+			}
+			#Hates the enemy
+			modifier = {
+				FROM = { owner = { NOT = { reverse_has_opinion = { who = ROOT value = -100 } } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { NOT = { reverse_has_opinion = { who = ROOT value = -125 } } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { NOT = { reverse_has_opinion = { who = ROOT value = -150 } } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { NOT = { reverse_has_opinion = { who = ROOT value = -175 } } } }
+				factor = 2
+			}
+    	}
+
+		#Controller takes over the local fortifications
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 1
+					NOT = { fort_level = 2 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.1 }
+			ROOT = { add_mil_power = -50 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 2
+					NOT = { fort_level = 3 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.2 }
+			ROOT = { add_mil_power = -100 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 3
+					NOT = { fort_level = 4 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.3 }
+			ROOT = { add_mil_power = -145 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 4
+					NOT = { fort_level = 5 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.4 }
+			ROOT = { add_mil_power = -185 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 5
+					NOT = { fort_level = 6 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.5 }
+			ROOT = { add_mil_power = -220 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 6
+					NOT = { fort_level = 7 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.6 }
+			ROOT = { add_mil_power = -250 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 7
+					NOT = { fort_level = 8 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.7 }
+			ROOT = { add_mil_power = -275 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 8
+					NOT = { fort_level = 9 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.8 }
+			ROOT = { add_mil_power = -295 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 9
+					NOT = { fort_level = 10 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.9 }
+			ROOT = { add_mil_power = -310 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 10
+					NOT = { fort_level = 11 } 
+				}
+			}
+			#ROOT = { add_manpower = -1 }
+			ROOT = { add_mil_power = -320 }
+		}
+		
+		#Controller unlawfully usurps the province from its owner
+		if = { 
+			limit = { 
+				FROM = {
+					development = 1
+					NOT = { development = 10 } 
+				}
+			}
+			ROOT = { add_dip_power = -10 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 10
+					NOT = { development = 20 } 
+				}
+			}
+			ROOT = { add_dip_power = -18 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 20
+					NOT = { development = 30 } 
+				}
+			}
+			ROOT = { add_dip_power = -24 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 30
+					NOT = { development = 40 } 
+				}
+			}
+			ROOT = { add_dip_power = -28 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 40
+				}
+			}
+			ROOT = { add_dip_power = -30 }
+		}
+
+		#Controller forcefully subjugates the local population
+		
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 1
+					NOT = { development = 10 } 
+				}
+			}
+			ROOT = { add_mil_power = -4 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 10
+					NOT = { development = 20 } 
+				}
+			}
+			ROOT = { add_mil_power = -8 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 20
+					NOT = { development = 30 } 
+				}
+			}
+			ROOT = { add_mil_power = -12 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 30
+					NOT = { development = 40 } 
+				}
+			}
+			ROOT = { add_mil_power = -16 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 40
+				}
+			}
+			ROOT = { add_mil_power = -20 }
+		}
+
+		
+		if = { 
+			limit = { 
+				NOT = { ROOT = { is_claim = FROM } }
+			}
+			FROM = { add_claim = ROOT }
+		}
+		FROM = { cede_province = ROOT }
+
+		#Controller has hostile people under his control
+		ROOT = { add_prestige = -1 }
+		ROOT = { add_war_exhaustion = 0.5 }
+
+
+	}
+
+	option = {#Our people in [From.GetName] need protection!
+		name = shifting_ownership.1.option.c
+
+		trigger = {
+			FROM = {#Controller has similarities with the local population but isn't a lawful ruler of the province
+				AND = { culture = controller
+					religion = controller
+				}
+				NOT = { is_core = controller }
+			}
+
+			OR = {
+				AND = {
+					NOT = { fort_level = 1 }
+					mil_power = 20
+					dip_power = 30
+					adm_power = 50
+				}
+				AND = {
+					NOT = { fort_level = 3 }
+					mil_power = 120
+					dip_power = 30
+					adm_power = 50
+					manpower = 0.2
+				}
+				AND = {
+					NOT = { fort_level = 7 }
+					mil_power = 270
+					dip_power = 30
+					adm_power = 50
+					manpower = 0.6
+				}
+				AND = {
+					NOT = { fort_level = 11 }
+					mil_power = 340
+					dip_power = 30
+					adm_power = 50
+					manpower = 1
+				}
+			}
+		}
+
+
+		ai_chance = {
+        	factor = 4
+			#Has a claim on the province
+			modifier = { 
+				ROOT = { is_claim = FROM }
+				factor = 2
+			}
+			#Wants to weaken the enemy
+			modifier = { 
+				FROM = { owner = { is_threat = ROOT } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { is_rival = ROOT } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { is_enemy = ROOT } }
+				factor = 2
+			}
+			#Hates the enemy
+			modifier = {
+				FROM = { owner = { NOT = { reverse_has_opinion = { who = ROOT value = -100 } } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { NOT = { reverse_has_opinion = { who = ROOT value = -125 } } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { NOT = { reverse_has_opinion = { who = ROOT value = -150 } } } }
+				factor = 2
+			}
+			modifier = {
+				FROM = { owner = { NOT = { reverse_has_opinion = { who = ROOT value = -175 } } } }
+				factor = 2
+			}
+    	}
+
+		#Controller takes over the local fortifications
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 1
+					NOT = { fort_level = 2 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.1 }
+			ROOT = { add_mil_power = -50 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 2
+					NOT = { fort_level = 3 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.2 }
+			ROOT = { add_mil_power = -100 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 3
+					NOT = { fort_level = 4 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.3 }
+			ROOT = { add_mil_power = -145 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 4
+					NOT = { fort_level = 5 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.4 }
+			ROOT = { add_mil_power = -185 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 5
+					NOT = { fort_level = 6 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.5 }
+			ROOT = { add_mil_power = -220 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 6
+					NOT = { fort_level = 7 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.6 }
+			ROOT = { add_mil_power = -250 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 7
+					NOT = { fort_level = 8 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.7 }
+			ROOT = { add_mil_power = -275 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 8
+					NOT = { fort_level = 9 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.8 }
+			ROOT = { add_mil_power = -295 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 9
+					NOT = { fort_level = 10 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.9 }
+			ROOT = { add_mil_power = -310 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 10
+					NOT = { fort_level = 11 } 
+				}
+			}
+			#ROOT = { add_manpower = -1 }
+			ROOT = { add_mil_power = -320 }
+		}
+		
+		#Controller unlawfully usurps the province from its owner
+		if = { 
+			limit = { 
+				FROM = {
+					development = 1
+					NOT = { development = 10 } 
+				}
+			}
+			ROOT = { add_dip_power = -10 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 10
+					NOT = { development = 20 } 
+				}
+			}
+			ROOT = { add_dip_power = -18 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 20
+					NOT = { development = 30 } 
+				}
+			}
+			ROOT = { add_dip_power = -24 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 30
+					NOT = { development = 40 } 
+				}
+			}
+			ROOT = { add_dip_power = -28 }
+		}
+
+		if = { 
+			limit = { 
+				FROM = {
+					development = 40
+				}
+			}
+			ROOT = { add_dip_power = -30 }
+		}
+
+		#Controller establishes a new provincial administration
+		if = { 
+			limit = { 
+				FROM = {
+					development = 1
+					NOT = { development = 5 } 
+				}
+			}
+			ROOT = { add_adm_power = -10 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					development = 5
+					NOT = { development = 10 } 
+				}
+			}
+			ROOT = { add_adm_power = -15 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					development = 10
+					NOT = { development = 15 } 
+				}
+			}
+			ROOT = { add_adm_power = -20 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					development = 15
+					NOT = { development = 20 } 
+				}
+			}
+			ROOT = { add_adm_power = -25 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					development = 20
+					NOT = { development = 25 } 
+				}
+			}
+			ROOT = { add_adm_power = -30 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					development = 25
+					NOT = { development = 30 } 
+				}
+			}
+			ROOT = { add_adm_power = -35 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					development = 30
+					NOT = { development = 35 } 
+				}
+			}
+			ROOT = { add_adm_power = -40 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					development = 35
+					NOT = { development = 40 } 
+				}
+			}
+			ROOT = { add_adm_power = -45 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					development = 40
+				}
+			}
+			ROOT = { add_adm_power = -50 }
+		}
+
+		FROM = { add_core = ROOT }
+		FROM = { cede_province = ROOT }
+
+		#Controller is winning the war
+		ROOT = { add_prestige = 1 }
+		ROOT = { add_war_exhaustion = -0.5 }
+
+	}
+
+	option = {#[From.GetName] is rightfully ours!
+		name = shifting_ownership.1.option.d
+
+		trigger = {
+			#Controller is a lawful ruler of the province
+			FROM = { is_core = ROOT } 
+				
+			OR = {		
+				AND = {
+					NOT = { fort_level = 3 }
+					mil_power = 100
+					manpower = 0.2
+				}
+				AND = {
+					NOT = { fort_level = 7 }
+					mil_power = 250
+					manpower = 0.6
+				}
+				AND = {
+					NOT = { fort_level = 11 }
+					mil_power = 320
+					manpower = 1
+				}
+			}
+		}
+		ai_chance = {
+        		factor = 100
+    	}
+
+		#Controller takes over the local fortifications
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 1
+					NOT = { fort_level = 2 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.1 }
+			ROOT = { add_mil_power = -50 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 2
+					NOT = { fort_level = 3 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.2 }
+			ROOT = { add_mil_power = -100 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 3
+					NOT = { fort_level = 4 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.3 }
+			ROOT = { add_mil_power = -145 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 4
+					NOT = { fort_level = 5 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.4 }
+			ROOT = { add_mil_power = -185 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 5
+					NOT = { fort_level = 6 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.5 }
+			ROOT = { add_mil_power = -220 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 6
+					NOT = { fort_level = 7 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.6 }
+			ROOT = { add_mil_power = -250 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 7
+					NOT = { fort_level = 8 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.7 }
+			ROOT = { add_mil_power = -275 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 8
+					NOT = { fort_level = 9 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.8 }
+			ROOT = { add_mil_power = -295 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 9
+					NOT = { fort_level = 10 } 
+				}
+			}
+			#ROOT = { add_manpower = -0.9 }
+			ROOT = { add_mil_power = -310 }
+		}
+		if = { 
+			limit = { 
+				FROM = {
+					fort_level = 10
+					NOT = { fort_level = 11 } 
+				}
+			}
+			#ROOT = { add_manpower = -1 }
+			ROOT = { add_mil_power = -320 }
+		}
+		
+		FROM = { cede_province = ROOT }
+
+		#Controller is winning the war
+		ROOT = { add_prestige = 2 }
+		ROOT = { add_war_exhaustion = -1 }
+
+	}
+
+
+}
+
