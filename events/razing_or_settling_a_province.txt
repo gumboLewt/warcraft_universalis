@@ -1,0 +1,226 @@
+province_event = {
+    id = razing_settling.1
+    title = razing_settling.1.title
+    desc = razing_settling.1.desc
+    picture = ANGRY_MOB_eventPicture # Placeholder
+
+	hidden = yes
+	
+    trigger = {
+ 
+        NOT = { culture_group = controller }
+        NOT = { religion_group = controller }
+        OR = {
+            AND = {
+                controller = { religion_group = religion_group_disorder }
+                controller = { government = warband_gov }
+            }
+            controller = { religion_group = religion_the_damned }
+        }
+ 
+        NOT = { base_tax = 2 }
+        NOT = { base_production = 2 }
+        NOT = { base_manpower = 2 }
+ 
+        NOT = { controlled_by = REB }
+    }
+ 
+    mean_time_to_happen = {
+ 
+        months = 8
+ 
+        modifier = {
+            owned_by = controller
+            factor = 0.5
+        }
+        modifier = {
+            controller = { religion_group = religion_the_damned }
+            factor = 0.5
+        }
+ 
+    }
+
+	immediate = { 
+		controller = { country_event = { id = razing_settling.2 } } 
+	}
+
+	option = {
+        name = razing_settling.1.a
+    }
+	
+}
+
+
+country_event = {
+	id = razing_settling.2
+
+	title = razing_settling.2.title
+	desc = razing_settling.2.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+	is_triggered_only = yes
+
+	#ROOT - controller of the province
+	#FROM - province that fired the event
+	
+	option = { #Do nothing for the moment.
+        name = razing_settling.2.option.a
+	
+        ai_chance = { factor = 0.5 }
+    }
+ 
+	
+    option = { #Raze it to the ground...
+        name = razing_settling.2.option.b
+	
+       ai_chance = { factor = 0 }
+	
+		FROM = { cede_province = XXX }
+    }
+ 
+ 
+    option = { #Settle it!
+        name = razing_settling.2.option.c
+ 
+        trigger = {
+            treasury = 30
+            OR = {
+                AND = {
+                    FROM = { NOT = { fort_level = 1 } }
+                    dip_power = 10
+                    adm_power = 10
+                    manpower = 0.3
+                }
+                AND = {
+                    FROM = { NOT = { fort_level = 3 } }
+                    mil_power = 100
+                    dip_power = 10
+                    adm_power = 10
+                    manpower = 0.5
+                }
+                AND = {
+                    FROM = { NOT = { fort_level = 7 } }
+                    mil_power = 250
+                    dip_power = 10
+                    adm_power = 10
+                    manpower = 0.9
+                }
+                AND = {
+                    FROM = { NOT = { fort_level = 11 } }
+                    mil_power = 320
+                    dip_power = 10
+                    adm_power = 10
+                    manpower = 1.3
+                }
+            }
+        }
+ 
+        ai_chance = { factor = 1 }
+ 
+        #Controller takes over the local fortifications
+        if = {
+            limit = {
+                FROM = { fort_level = 1 }
+                FROM = { NOT = { fort_level = 2 } }
+            }
+            #add_manpower = -0.1
+            add_mil_power = -50
+        }
+        if = {
+            limit = {
+                FROM = { fort_level = 2 }
+                FROM = { NOT = { fort_level = 3 } }
+            }
+            #add_manpower = -0.2
+            add_mil_power = -100
+        }
+        if = {
+            limit = {
+                FROM = { fort_level = 3 }
+                FROM = { NOT = { fort_level = 4 } }
+            }
+            #add_manpower = -0.3
+            add_mil_power = -145
+        }
+        if = {
+            limit = {
+                FROM = { fort_level = 4 }
+                FROM = { NOT = { fort_level = 5 } }
+            }
+            #add_manpower = -0.4
+            add_mil_power = -185
+        }
+        if = {
+            limit = {
+                FROM = { fort_level = 5 }
+				FROM = { NOT = { fort_level = 6 } }
+            }
+            #add_manpower = -0.5
+            add_mil_power = -220
+        }
+        if = {
+            limit = {
+                FROM = { fort_level = 6 }
+                FROM = { NOT = { fort_level = 7 } }
+            }
+            #add_manpower = -0.6
+            add_mil_power = -250
+        }
+        if = {
+            limit = {
+                FROM = { fort_level = 7 }
+                FROM = { NOT = { fort_level = 8 } }
+            }
+            #add_manpower = -0.7
+            add_mil_power = -275
+        }
+        if = {
+            limit = {
+				FROM = { fort_level = 8 }
+				FROM = { NOT = { fort_level = 9 } }
+            }
+            #add_manpower = -0.8
+            add_mil_power = -295
+        }
+        if = {
+            limit = {
+                FROM = { fort_level = 9 }
+                FROM = { NOT = { fort_level = 10 } }
+            }
+            #add_manpower = -0.9
+            add_mil_power = -310
+        }
+        if = {
+            limit = {
+                FROM = { fort_level = 10 }
+                FROM = { NOT = { fort_level = 11 } }
+            }
+            #add_manpower = -1
+            add_mil_power = -320
+        }
+       
+ 
+        add_treasury = -30
+        #add_manpower = -0.3
+       
+        if = {
+            limit = { FROM = { NOT = { owned_by = ROOT } } }
+            add_dip_power = -10
+            FROM = { cede_province = ROOT }
+        }
+       
+        if = {
+            limit = { FROM = { NOT = { is_core = ROOT } } }
+            add_adm_power = -10
+            FROM = { add_core = ROOT }
+        }
+        FROM = { change_culture = ROOT }
+        FROM = { change_religion = ROOT }
+ 
+        #Controller is winning the war
+        add_prestige = 1
+        add_war_exhaustion = -0.5
+    }
+ 
+ 
+}
