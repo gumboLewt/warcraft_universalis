@@ -62,6 +62,22 @@
  first_war.5.desc: "More of our clansmen have left Draenor to travel through the Dark Portal and fight here on Azeroth. Zug Zug!"
  first_war.5.option.a: "The humans have no chance..."
  
+ #RAZING AND SETTLING PROVINCES
+ razing_settling.2.title: "To settle? Or to raze...?"
+ razing_settling.2.desc: "Ravaged and depopulated, [From.GetName] presents us with an opportunity: settling it with our people will make us stronger, but is this province really suited to live in...?"
+ razing_settling.2.option.a: "Do nothing, for the moment..."
+ razing_settling.2.option.b: "Raze it to the ground!"
+ razing_settling.2.option.c: "Settle [From.GetName] with our people!"
+ 
+ #SHIFTING OWNERSHIP OF PROVINCES
+ 
+ shifting_ownership.1.title: "The issue of [From.GetName]"
+ shifting_ownership.1.desc: "[From.GetName] has been successfully taken from our enemies. Should we consider it ours from now on...?"
+ shifting_ownership.1.option.a: "This province is irrelevant, for the moment..."
+ shifting_ownership.1.option.b: "[From.GetName] will be a fine addition to our land."
+ shifting_ownership.1.option.c: "Our people in [From.GetName] need protection!"
+ shifting_ownership.1.option.d: "[From.GetName] is rightfully ours!"
+ 
  # Blood of Mannaroth events
  first_war.1.title: "The Blood of Mannaroth"
  first_war.1.desc: "Borne from the blood of the Destructor, there are powers beyond comprehension contained within. All it takes to gain such power is a sip. What do you say, [Root.Monarch.GetTitle] [Root.Monarch.GetName]?"
