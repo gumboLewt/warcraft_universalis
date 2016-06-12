@@ -10,7 +10,6 @@ country_event = {
     hidden = yes
     
 	trigger = {
-		always = yess
         NOT = { has_country_flag = revealed_map }
 	}
 	
