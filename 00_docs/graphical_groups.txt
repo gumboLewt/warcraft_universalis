@@ -1,0 +1,99 @@
+
+There groups determine which graphical cultures share which graphical categories:
+
+Night Elf
+    darnassiangfx
+    
+High Elf
+    thalassiangfx
+    
+Northrend
+    vrykulgfx
+    scourgegfx
+    
+Horde
+    orcgfx
+    ogregfx
+    trollgfx
+    goblingfx
+    
+Draenei
+    draeneigfx
+    
+Tauren
+    taurengfx
+  
+Human
+    humangfx
+    worgengfx
+    
+Dwarven
+    titangfx
+    
+Gnomish
+    gnomishgfx
+    
+Undead
+    undeadgfx
+    
+Arrakoa
+    arrakoagfx
+    
+Pandaren
+    pandarengfx
+    
+Mantid
+    mantidgfx
+    
+Mogu
+    mogugfx
+    
+Hozen
+    hozengfx
+    
+Yaungol
+    yaungolgfx
+
+Saurok
+    saurokgfx
+    
+Ethereal
+    etherealgfx
+    
+Zangar
+    zangargfx
+ 
+Demonic
+    demonicgfx
+    voidgfx
+    
+Naga
+    nagagfx
+    depthsgfx
+
+Creature
+    aqirgfx
+    satyrgfx
+    gnollgfx
+    centaurgfx
+    furbolggfx
+    wolfvargfx
+    gorlocgfx
+    koboldgfx
+    harpygfx
+    quillboargfx
+    tuskarrgfx
+    taunkagfx
+    dryadgfx
+    virmengfx
+    wildkingfx
+    flayergfx
+    yetigfx
+    pygmygfx
+
+Generic # These don't really have buildings and aren't small creatures, perhaps limitation?
+    giantgfx
+    oldgodsgfx
+    elementalgfx
+    dragonkingfx
+    

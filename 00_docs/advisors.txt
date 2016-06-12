@@ -1,0 +1,10 @@
+#---------------------------
+#   Warcraft Universalis
+#---------------------------
+
+#   Administrative
+
+#   Diplomatic
+
+#   Military
+

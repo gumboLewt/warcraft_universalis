@@ -1,0 +1,63 @@
+#---------------------------
+#   Warcraft Universalis
+#---------------------------
+
+# Humans
+Town Hall -> Keep
+Castle
+Arcane Sanctum
+Arcane Vault
+Barracks
+Farm
+Altar of Kings
+Blacksmith -> Workshop
+Scout Tower -> Arcane Tower -> Guard Tower -> Cannon Tower
+Lumbermill -> Gryphon Aviary
+
+# Orcs
+Great Hall
+Stronghold
+Fortress
+Spirit Lodge
+Beasiary
+Tauren Totem
+Orc Burrow
+Watch Tower
+War Mill
+Barracks
+Voodoo Lounge
+Altar of Storms
+
+# Night Elves
+Tree of Life
+Tree of Ages
+Tree of Eternity
+Chimeaera Roost
+Ancient of Wind
+Ancient of Lore
+Hunter's Hall
+Ancient Protector
+Moon Well
+Ancient of Wonders
+Ancient of War
+Ancient of Elders
+
+# Undead
+Necropolis
+Halls of the Dead
+Black Citadel
+Slaughterhouse
+Graveyard
+Ziggurat
+Nerubian Tower
+Spirit Tower
+Temple of the Damned
+Altar of Darkness
+Crypt
+Haunted Goldmine
+Tomb of Relics
+Sacrificial Pit
+Boneyard
+
+
+

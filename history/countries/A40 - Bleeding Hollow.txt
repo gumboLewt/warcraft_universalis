@@ -16,7 +16,7 @@ capital 			= 1588
 		mil = 5
                 
 	} 
-religion = religion_fel
+    religion = religion_fel
 }
 
 592.1.1 = {
