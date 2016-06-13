@@ -14,7 +14,269 @@
 
 # AI will consider buildings it does not have the tech for at 20% of scripted AI weight (in case it wants to save slots)
 
+#----------------------------------
+# Administration
+#----------------------------------
 
+# Town Hall
+town_hall_1 = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_development_cost = -0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+town_hall_2 = {
+    make_obsolete = town_hall_1
+	cost = 200
+	time = 12
+	
+	modifier = {
+		local_development_cost = -0.2
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+town_hall_3 = {
+    make_obsolete = town_hall_3
+	cost = 300
+	time = 12
+	
+	modifier = {
+		local_development_cost = -0.3
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+town_hall_4 = {
+    make_obsolete = town_hall_4
+	cost = 400
+	time = 12
+	
+	modifier = {
+		local_development_cost = -0.4
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+town_hall_5 = {
+    make_obsolete = town_hall_5
+	cost = 500
+	time = 12
+	
+	modifier = {
+		local_development_cost = -0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+# Outpost
+outpost_1 = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_hostile_attrition = 0.5
+        supply_limit_modifier = 0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 2
+			development = 5
+		}
+	}
+}
+
+outpost_2 = {
+    make_obsolete = outpost_1
+	cost = 200
+	time = 12
+	
+	modifier = {
+		local_hostile_attrition = 1
+        supply_limit_modifier = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 2
+			development = 5
+		}
+	}
+}
+
+outpost_3 = {
+    make_obsolete = outpost_2
+	cost = 300
+	time = 12
+	
+	modifier = {
+		local_hostile_attrition = 1.5
+        supply_limit_modifier = 0.3
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 2
+			development = 5
+		}
+	}
+}
+
+outpost_4 = {
+    make_obsolete = outpost_3
+	cost = 400
+	time = 12
+	
+	modifier = {
+		local_hostile_attrition = 2
+        supply_limit_modifier = 0.4
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 2
+			development = 5
+		}
+	}
+}
+
+outpost_5 = {
+    make_obsolete = outpost_4
+	cost = 500
+	time = 12
+	
+	modifier = {
+		local_hostile_attrition = 2.5
+        supply_limit_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 2
+			development = 5
+		}
+	}
+}
+
+# Temple
+temple_1 = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_hostile_attrition = 0.5
+        supply_limit_modifier = 0.1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 2
+			development = 5
+		}
+	}
+}
+
+#----------------------------------
+# Army
+#----------------------------------
+
+#----------------------------------
+# Economy
+#----------------------------------
+
+#----------------------------------
+# Trade
+#----------------------------------
+
+#----------------------------------
+# Fortification
+#----------------------------------
 
 marketplace = {
 	cost = 100
