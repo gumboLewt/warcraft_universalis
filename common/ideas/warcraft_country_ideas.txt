@@ -12,7 +12,10 @@ azerothian_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = culture_azerothian
+		OR = {
+			primary_culture = culture_azerothian
+			primary_culture = culture_azerothian_worgen
+		}
 	}
 	free = yes		#wibe added at load.
 	
@@ -90,7 +93,10 @@ gilnean_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = culture_gilnean
+		OR = {
+			primary_culture = culture_gilnean
+			primary_culture = culture_gilnean_worgen
+		}
 	}
 	free = yes		#wibe added at load.
 	
@@ -129,7 +135,10 @@ arathi_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = culture_arathi
+		OR = {
+			primary_culture = culture_arathi
+			primary_culture = culture_arathi_worgen
+		}
 	}
 	free = yes		#wibe added at load.
 	
@@ -158,8 +167,8 @@ arathi_ideas = {
 
 lordaeron_ideas = {
 	start = {
-	diplomatic_upkeep = 1
-    legitimacy = 1	
+		diplomatic_upkeep = 1
+		legitimacy = 1	
 	}
 
 	bonus = {
@@ -167,149 +176,164 @@ lordaeron_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = culture_lordaeron
+		OR = {
+			primary_culture = culture_lordaeron
+			primary_culture = culture_lordaeron_worgen
+		}
 	}
 	free = yes		#wibe added at load.
 	
 	#Alliance of Lordaeron
 	lordaeron_ideas_1 = {
-	diplomatic_reputation = 1
+		diplomatic_reputation = 1
 	}
 	#Feudal Farms
 	lordaeron_ideas_2 = {
-	land_maintenance_modifier = -0.10
+		land_maintenance_modifier = -0.10
 	}
 	#Devout Soldiers
 	lordaeron_ideas_3 = {
-	land_morale = 0.10
+		land_morale = 0.10
 	}
 	# Holy Light
 	lordaeron_ideas_4 = {
-	tolerance_own = 1
+		tolerance_own = 1
 	}
 	# Paladins
 	lordaeron_ideas_5 = {
-	discipline = 0.05
-	cavalry_power = 0.05
+		discipline = 0.05
+		cavalry_power = 0.05
 	}
 	#Lordaeron Colonists
 	lordaeron_ideas_6 = {
-	colonists = 1
+		colonists = 1
 	}
 	# Lordaeron Patriotism
 	lordaeron_ideas_7 = {
-	war_exhaustion_cost = -0.2
+		war_exhaustion_cost = -0.2
 	}
 }
 
 alterac_ideas = {
 	start = {
-		
+		global_trade_power = 0.2
+		merchants = 1
 	}
 
 	bonus = {
-		
+		global_unrest = -2
 	}
 	
 	trigger = {
-		primary_culture = culture_alterac
+		OR = {
+			primary_culture = culture_alterac
+			primary_culture = culture_alterac_worgen
+		}
 	}
 	free = yes		#wibe added at load.
 	
 	alterac_ideas_1 = {
-	
+		trade_efficiency = 0.1
 	}
 	alterac_ideas_2 = {
-	
+		caravan_power = 0.25
 	}
 	alterac_ideas_3 = {
-	
+		global_tax_modifier = 0.10
 	}
 	alterac_ideas_4 = {
-	
+		trade_range_modifier = 0.25
 	}
 	alterac_ideas_5 = {
-	
+		leader_land_shock = 1
 	}
 	alterac_ideas_6 = {
-	
+		global_regiment_recruit_speed = -0.1
 	}
 	alterac_ideas_7 = {
-	
+		discipline = 0.05
 	}
 }
 
 dalaran_ideas = {
 	start = {
-		
+		diplomats = 1
+		diplomatic_upkeep = 1
 	}
 
 	bonus = {
-		
+		war_exhaustion_cost = -0.33
 	}
 	
 	trigger = {
-		primary_culture = culture_dalaran
+		OR = {
+			primary_culture = culture_dalaran
+			primary_culture = culture_dalaran_worgen
+		}
 	}
 	free = yes		#wibe added at load.
 	
 	dalaran_ideas_1 = {
-	
+		rebel_support_efficiency = 0.50
 	}
 	dalaran_ideas_2 = {
-	
+		army_tradition_decay = -0.01
 	}
 	dalaran_ideas_3 = {
-	
+		yearly_corruption = -0.1
 	}
 	dalaran_ideas_4 = {
-	
+		missionaries = 1
 	}
 	dalaran_ideas_5 = {
-	
+		land_morale = 0.10
 	}
 	dalaran_ideas_6 = {
-	
+		leader_land_fire = 1
 	}
 	dalaran_ideas_7 = {
-	
+		spy_offence = 0.5
 	}
 }
 
 kul_tiran_ideas = {
 	start = {
-		
+		naval_forcelimit_modifier = 0.33
+		global_sailors_modifier = 0.33
 	}
 
 	bonus = {
-		
+		navy_tradition = 2
 	}
 	
 	trigger = {
-		primary_culture = culture_kul_tiran
+		OR = {
+			primary_culture = culture_kul_tiran
+			primary_culture = culture_kul_tiran_worgen
+		}
 	}
 	free = yes		#wibe added at load.
 	
 	kul_tiran_ideas_1 = {
-	
+		naval_morale = 0.10
 	}
 	kul_tiran_ideas_2 = {
-	
+		merchants = 1
 	}
 	kul_tiran_ideas_3 = {
-	
+		land_morale = 0.10
 	}
 	kul_tiran_ideas_4 = {
-	
+		global_ship_recruit_speed = -0.1
 	}
 	kul_tiran_ideas_5 = {
-	
+		colonists = 1
 	}
 	kul_tiran_ideas_6 = {
-	
+		sailors_recovery_speed = 0.2
 	}
 	kul_tiran_ideas_7 = {
-	
+		leader_naval_shock = 1
 	}
 }
 
@@ -666,13 +690,13 @@ draenei_ideas = {
 
 forest_troll_ideas = {
 	start = { 
-          manpower_recovery_speed = 0.10
-		  naval_forcelimit_modifier = 0.25
-		  }
+		manpower_recovery_speed = 0.10
+		naval_forcelimit_modifier = 0.25
+	}
 
 	bonus = { 
-            leader_land_shock = 1
-			}
+        leader_land_shock = 1
+	}
 	
 	trigger = {
 		culture_group = culture_group_forest_troll
@@ -686,7 +710,8 @@ forest_troll_ideas = {
 		core_creation = -0.15
 	}
 	
-	forest_troll_lumber_mills = { production_efficiency = 0.1
+	forest_troll_lumber_mills = {
+		production_efficiency = 0.1
 	}
 	
 	forest_troll_land = {
@@ -694,26 +719,26 @@ forest_troll_ideas = {
 		global_missionary_strength = 0.01
 	}
 
-	forest_troll_destroyers = { navy_tradition = 1
+	forest_troll_destroyers = {
+		navy_tradition = 1
 		light_ship_power = 0.15
-	
 	}
-	forest_troll_war_bears = { cavalry_power = 0.1
-	
+	forest_troll_war_bears = {
+		cavalry_power = 0.1
 	}
-	forest_troll_hexxers = { land_morale = 0.1
-	
+	forest_troll_hexxers = {
+		land_morale = 0.1
 	}
 }
 
 jungle_troll_ideas = {
 	start = {
-	manpower_recovery_speed = 0.10
-    infantry_cost = -0.10	
+		manpower_recovery_speed = 0.10
+		infantry_cost = -0.10	
 	}
 
 	bonus = {
-	global_unrest = -1	
+		global_unrest = -1	
 	}
 	
 	trigger = {
@@ -723,37 +748,37 @@ jungle_troll_ideas = {
 	
 	#Jungle Warfare
 	jungle_troll_ideas_1 = {
-	hostile_attrition = 1
+		hostile_attrition = 1
 	}
 	#Tribal Conflicts
 	jungle_troll_ideas_2 = {
-	army_tradition_decay = -0.01
+		army_tradition_decay = -0.01
 	}
 	#Headhunting
 	jungle_troll_ideas_3 = {
-	recover_army_morale_speed = 0.05
+		recover_army_morale_speed = 0.05
 	}
 	#Voodoo
 	jungle_troll_ideas_4 = {
-	stability_cost_modifier = -0.1
+		stability_cost_modifier = -0.1
 	}
 	#Primitive Armaments
 	jungle_troll_ideas_5 = {
-	land_maintenance_modifier = -0.1
+		land_maintenance_modifier = -0.1
 	}
 	#Shadow Hunters
 	jungle_troll_ideas_6 = {
-	land_morale = 0.1
+		land_morale = 0.1
 	}
 	#Witch Doctors
 	jungle_troll_ideas_7 = {
-	advisor_cost = -0.1
+		advisor_cost = -0.1
 	}
 }
 
 sand_troll_ideas = {
 	start = {
-	manpower_recovery_speed = 0.10
+		manpower_recovery_speed = 0.10
 	}
 
 	bonus = {
@@ -790,12 +815,12 @@ sand_troll_ideas = {
 
 ice_troll_ideas = {
 	start = {
-	          manpower_recovery_speed = 0.10
-		      defensiveness = 0.10
+		manpower_recovery_speed = 0.10
+		defensiveness = 0.10
 	}
 
 	bonus = {
-		
+		production_efficiency = 0.1
 	}
 	
 	trigger = {
@@ -1277,12 +1302,12 @@ undead_ideas = {
 
 gnoll_ideas = {
 	start = {
-	fabricate_claims_cost = -0.25
-	infantry_cost = -0.2
+		fabricate_claims_cost = -0.25
+		infantry_cost = -0.2
 	}
 
 	bonus = {
-	land_forcelimit_modifier = 0.10
+		land_forcelimit_modifier = 0.10
 	}
 	
 	trigger = {
@@ -1292,33 +1317,33 @@ gnoll_ideas = {
 	
 	#Brawlers
 	gnoll_ideas_1 = {
-	army_tradition_decay = -0.01
+		army_tradition_decay = -0.01
 	}
 	#Scavengers
 	gnoll_ideas_2 = {
-	land_attrition = -0.25
+		land_attrition = -0.25
 	}
 	#Skins and Tents
 	gnoll_ideas_3 = {
-	build_cost = -0.1
-	production_efficiency = 0.05
+		build_cost = -0.1
+		production_efficiency = 0.05
 	}
 	#Gnoll Mercenaries
 	gnoll_ideas_4 = {
-	possible_mercenaries = 0.5
+		possible_mercenaries = 0.5
 	}
 	#Ambush tactics
 	gnoll_ideas_5 = {
-	hostile_attrition = 1.0
+		hostile_attrition = 1.0
 	}
 	#Only the Strong Lead
 	gnoll_ideas_6 = {
-	heir_chance = 0.5
-	leader_land_shock = 1
+		heir_chance = 0.5
+		leader_land_shock = 1
 	}
 	#The Weak are Food
 	gnoll_ideas_7 = {
-	defensiveness = 0.15
+		defensiveness = 0.15
 	}
 }
 
@@ -1523,31 +1548,31 @@ harpy_ideas = {
 	
 	#Egg Clutches
 	harpy_ideas_1 = {
-	manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.15
 	}
 	#Nest Builders
 	harpy_ideas_2 = {
-	build_cost = -0.1
+		build_cost = -0.1
 	}
 	#Matriarchs
 	harpy_ideas_3 = {
-	leader_land_fire = 1
+		leader_land_fire = 1
 	}
 	#Harpy Raiders
 	harpy_ideas_4 = {
-	production_efficiency = 0.05
+		production_efficiency = 0.05
 	}
 	#Tool Traders
 	harpy_ideas_5 = {
-	merchants = 1
+		merchants = 1
 	}
 	#Screechers
 	harpy_ideas_6 = {
-	infantry_power = 0.10
+		infantry_power = 0.10
 	}
 	#Winged Fury
 	harpy_ideas_7 = {
-	cavalry_power = 0.15
+		cavalry_power = 0.15
 	}
 }
 
@@ -1679,7 +1704,7 @@ dwarven_ideas = {
 	}
 
 	bonus = {
-		
+		prestige_from_land = 1.0
 	}
 	
 	trigger = {
@@ -1910,11 +1935,11 @@ magical_creatures_ideas = {
 
 worgen_ideas = {
 	start = {
-		
+		siege_ability = 0.20
 	}
 
 	bonus = {
-		
+		land_forcelimit_modifier = 0.2
 	}
 	
 	trigger = {
@@ -1923,25 +1948,25 @@ worgen_ideas = {
 	free = yes		#wibe added at load.
 	
 	worgen_ideas_1 = {
-	
+		recover_army_morale_speed = 0.05
 	}
 	worgen_ideas_2 = {
-	
+		leader_land_fire = 1
 	}
 	worgen_ideas_3 = {
-	
+		discipline = 0.05
 	}
 	worgen_ideas_4 = {
-	
+		fabricate_claims_cost = -0.25
 	}
 	worgen_ideas_5 = {
-	
+		global_missionary_strength = 0.03
 	}
 	worgen_ideas_6 = {
-	
+		advisor_cost = -0.25
 	}
 	worgen_ideas_7 = {
-	
+		global_unrest = -2
 	}
 }
 
