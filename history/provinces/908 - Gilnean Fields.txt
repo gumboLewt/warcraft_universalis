@@ -15,26 +15,29 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = grain
 
-
-
-
 # The Frozen Throne
 618.1.1 = {
-controller = REB 
+	revolt = {
+		type = pretender_rebels
+		size = 0
+	}
+	unrest = 1
+	base_manpower = 3
 }
 
 # Rise of the Qiraji
 622.1.1 = {
-controller = A12
+	unrest = 0
 }
 
 # Cataclysm
 631.1.1 = { 
-culture = culture_gilnean_worgen
-controller = E14
+	culture = culture_gilnean_worgen
+	controller = E14
 }
 
 # Mists of Pandaria
 632.1.1 = { 
-controller = A12
+	controller = A12
+	base_production = 4
 }

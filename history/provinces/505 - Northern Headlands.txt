@@ -15,26 +15,32 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = fur
 
-
-
-
 # The Frozen Throne
 618.1.1 = {
-controller = REB 
+	revolt = {
+		name = "Northgate Rebellion"
+		type = pretender_rebels
+		size = 2
+		leader = "Darius Crowley"
+	}
+	unrest = 5
+	controller = REB 
+	base_manpower = 3
 }
 
 # Rise of the Qiraji
 622.1.1 = {
-controller = A12
+	controller = A12
+	unrest = 0
 }
 
 # Cataclysm
 631.1.1 = { 
-culture = culture_gilnean_worgen
-controller = E14
+	culture = culture_gilnean_worgen
+	controller = E14
 }
 
 # Mists of Pandaria
 632.1.1 = { 
-controller = A12
+	controller = A12
 }
