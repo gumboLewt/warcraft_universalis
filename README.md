@@ -16,3 +16,10 @@ Allowing for a unique EU4 experience where the player does not simply play at al
 # Optional Downloads
 
 - Custom Models: https://github.com/vawser/zz_warcraft_models
+
+# Polish language
+If You want to play EU4 in Polish:
+1. Go to **\Documents\Paradox Interactive\Europa Universalis IV\**
+2. Open settings.txt
+3. Find   language="l_english"   on the top of the file
+4. Change this line to   language="l_polish"  
