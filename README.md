@@ -15,11 +15,17 @@ Allowing for a unique EU4 experience where the player does not simply play at al
 
 # Optional Downloads
 
-- Custom Models: https://github.com/vawser/zz_warcraft_models
+### Custom Models
+If You want to see additional, warcraftish models on your screen:
+
+1. Download and install mod from https://github.com/vawser/zz_warcraft_models
+2. Launch Europa Universalis 4 and tick **Warcraft Models** under the Mod tab.
 
 ### Polish language
 If You want to play EU4 in Polish
 
-1. Go to **\Documents\Paradox Interactive\Europa Universalis IV\** and open settings.txt
-2. Find " language="l_english" " on the top of the file
-3. Change this line to " language="l_polish" "
+1. Download basic files from https://github.com/Xanaa/Warcraft-Universalis-Polska
+2. Follow instruction in this files and return here
+3. Go to **\Documents\Paradox Interactive\Europa Universalis IV\** and open settings.txt
+4. Find " language="l_english" " on the top of the file
+5. Change this line to " language="l_polish" "
