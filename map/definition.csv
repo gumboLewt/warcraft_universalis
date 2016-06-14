@@ -3074,55 +3074,55 @@ province;red;green;blue;type;name;
 3073;35;19;108;x;Light's Point;
 3074;42;139;126;x;Dead Forest;
 3075;75;22;78;x;Reanimatory;
-3076;215;65;112;wasteland;Draenor Mountains ##### Nagrand below
-3077;35;19;108;Highmaul 
-3078;42;139;126;Broken Precipice
-3079;75;22;78;Mok'gol Watchpost
-3080;20;196;59;Ancestral Grounds
-3081;5;151;92;Ironfist Harbor
-3082;83;252;7;Oshu'gun
-3083;105;22;223;Lok'rath
-3084;0;91;48;Stonecrag Gorge
-3085;239;217;215;Throne of the Elements
-3086;218;100;155;Elemental Plateau
-3087;194;70;248;Telaar
-3088;6;97;180;Grommashar
-3089;125;241;134;The Ring of Trials
-3090;114;152;26;Hallvalor
-3091;22;197;219;Margok's Overwatch
-3092;17;162;48;The Ring of BLood
-3093;101;52;225;Anguish Point       
-3094;30;36;16;Gates of Grommashar
-3095;179;119;33;Windroc Bay
-3096;204;42;73;Spirit Woods
-3097;138;38;206;Kag'ah
-3098;248;201;76;Shadowfall Canyon
-3099;164;96;220;Riverside Post
-3100;170;245;133;The Coliseum
-3101;184;173;192;The Underbelly
-3102;101;119;18;The Path of Victors
-3103;145;1;162;Market District
-3104;95;6;129;Gorian Strand
-3105;210;93;96;Highmaul Harbor
-3106;83;13;37;Earthshaker Gorge
-3107;229;171;143;Lernaean Shore
-3108;102;2;93;Zanger Shore
-3109;128;191;108;Spiteleaf Thicket
-3110;175;62;106;Time-lost Glade
-3111;194;147;169;Hunting Grounds
-3112;102;30;170;Wor'var
-3113;120;154;98;Snarlpaw Ledge
-3114;7;72;244;Southern Nagrand Plains
-3115;91;41;139;Northern Nagrand Plains
-3116;236;13;238;Ruined Bluff
-3117;251;202;114;Highmaul Approach
-3118;206;148;200;Sabermaw
-3119;43;78;50;Swampy Woods
-3120;20;79;216;Tyrs Foreground  # Re-add
-3121;168;123;224;Lights Point   # Re-add
-3122;117;156;229;Dead Forest    # Re-add
-3123;240;2;104;Reanimatory      # Re-add
-3124;232;245;181;EMPTY          ##### Talador below
+3076;215;65;118;wasteland;Draenor Mountains ##### Nagrand below;
+3077;35;19;118;Highmaul ;### name not here? ###;
+3078;42;139;136;Broken Precipice;;
+3079;75;22;88;Mok'gol Watchpost;;
+3080;20;196;59;Ancestral Grounds;;
+3081;5;151;92;Ironfist Harbor;;
+3082;83;252;7;Oshu'gun;;
+3083;105;22;223;Lok'rath;;
+3084;0;91;48;Stonecrag Gorge;;
+3085;239;217;215;Throne of the Elements;;
+3086;218;100;155;Elemental Plateau;;
+3087;194;70;248;Telaar;;
+3088;6;97;180;Grommashar;;
+3089;125;241;134;The Ring of Trials;;
+3090;114;152;26;Hallvalor;;
+3091;22;197;219;Margok's Overwatch;;
+3092;17;162;48;The Ring of BLood;;
+3093;101;52;225;Anguish Point       ;;
+3094;30;36;16;Gates of Grommashar;;
+3095;179;119;33;Windroc Bay;;
+3096;204;42;73;Spirit Woods;;
+3097;138;38;206;Kag'ah;;
+3098;248;201;76;Shadowfall Canyon;;
+3099;164;96;220;Riverside Post;;
+3100;170;245;133;The Coliseum;;
+3101;184;173;192;The Underbelly;;
+3102;101;119;18;The Path of Victors;;
+3103;145;1;162;Market District;;
+3104;95;6;129;Gorian Strand;;
+3105;210;93;96;Highmaul Harbor;;
+3106;83;13;37;Earthshaker Gorge;;
+3107;229;171;143;Lernaean Shore;;
+3108;102;2;93;Zanger Shore;;
+3109;128;191;108;Spiteleaf Thicket;;
+3110;175;62;106;Time-lost Glade;;
+3111;194;147;169;Hunting Grounds;;
+3112;102;30;170;Wor'var;;
+3113;120;154;98;Snarlpaw Ledge;;
+3114;7;72;244;Southern Nagrand Plains;;
+3115;91;41;139;Northern Nagrand Plains;;
+3116;236;13;238;Ruined Bluff;;
+3117;251;202;114;Highmaul Approach;;
+3118;206;148;200;Sabermaw;;
+3119;43;78;50;Swampy Woods;;
+3120;20;79;216;x;;
+3121;168;123;224;x;;
+3122;117;156;229;x;;
+3123;240;2;104;x;;
+3124;232;245;181;EMPTY          ##### Talador below;;
 3125;5;145;130;x;x;
 3126;149;71;27;x;x;
 3127;97;17;221;x;x;
