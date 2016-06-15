@@ -10,6 +10,7 @@ country_event = {
 	
 	trigger = {
 		is_year = 546	# Rise of the Horde
+		NOT = { is_year = 592 }  # The First War
 		tag = A08		# Lordaeron
 		owns = 964		# Venomweb Vale
 	}
@@ -19,7 +20,7 @@ country_event = {
 	}
 	
 	option = {
-		name = WARCRAFT_TIRISFAL.1.option.a	# Enter
+		name = WARCRAFT_TIRISFAL.1.option.a      # Enter
 		ai_chance = { factor = 100 }
 		add_dip_power = 50
 		964 = { # Venomweb Vale
@@ -31,9 +32,10 @@ country_event = {
 		
 	}
 	option = {
-		name = WARCRAFT_TIRISFAL.1.option.b		# Get Out
+		name = WARCRAFT_TIRISFAL.1.option.b		 # Get Out
 		ai_chance = { factor = 0 }
 		add_mil_power = 50
+		add_adm_power = 50
 		add_prestige = 10
 	}
 }
