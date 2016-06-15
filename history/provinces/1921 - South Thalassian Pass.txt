@@ -15,22 +15,25 @@ religion = religion_arcane
 hre = no 
 trade_goods = runecloth
 
-
-
-
 # The Frozen Throne (Ghostlands entrance blocked by High elves)
 618.1.1 = { 
-owner = F54
-controller = F54
-add_core = F54
-religion = religion_church_of_the_light
-remove_core = A90 
+	owner = F54
+	controller = F54
+	add_core = F54
+	religion = religion_church_of_the_light
+	remove_core = A90 
 }
 
 # The Burning Crusade (Blood Elves dont like High Elves and removed blocade)
 625.1.1 = { 
-owner = XXX
-controller = XXX
-add_core = F20 
-remove_core = F54
+	owner = XXX
+	controller = XXX
+	add_core = F20 
+	remove_core = F54
+}
+
+# Cataclysm
+631.1.1 = {
+	culture = culture_wretched
+	religion = religion_arcane
 }

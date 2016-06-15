@@ -30,10 +30,16 @@ trade_goods = flying_mounts
 		leader = "Pyrricion"
 	}
 	controller = REB
-	unrest = 3
+	unrest = 5
 }
 
+# Mists of Pandaria
 632.1.1 = { 
-owner = xxx
-controller = xxx
+	owner = xxx
+	controller = xxx
+	revolt = {
+		type = nationalist_rebels
+		size = 0
+	}
+	base_manpower = 2
 }
