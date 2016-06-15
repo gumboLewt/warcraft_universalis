@@ -15,17 +15,26 @@ capital 			= 931
 		dip = 4
 		mil = 5
         female = yes
-                
-	} 
+
+		leader = {
+			name = "Sylvannas Windrunner"
+			type = general
+			rank = 0
+			fire = 6
+			shock = 6
+			manuever = 6
+			siege = 4
+		}
+	}
 }
 
 620.6.1 = {
-capital = 543
+	capital = 543
 }
 
 622.1.1 = {
-add_country_modifier = {
-    name = horde_member
-    duration = -1
-}
+	add_country_modifier = {
+		name = horde_member
+		duration = -1
+	}
 }

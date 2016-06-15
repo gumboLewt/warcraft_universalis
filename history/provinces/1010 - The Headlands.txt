@@ -76,9 +76,6 @@ trade_goods = fur
 
 # Mists of Pandaria
 632.1.1 = { 
-	owner = E14
-	controller = E14
-	religion = religion_forgotten_shadow
-	culture = culture_forsaken
-	capital = "Gavin's Naze" 
+	base_tax = 1            # Forsaken Bomb attack
+	base_production = 1
 }

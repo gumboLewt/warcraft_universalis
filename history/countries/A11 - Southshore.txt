@@ -49,25 +49,36 @@ monarch = {
 }
 
 617.1.1 = { 
-monarch = { 
-     name = "Henry" 
-     dynasty = "Maleb" 
+	monarch = { 
+		name = "Henry" 
+		dynasty = "Maleb" 
 		adm = 3
 		dip = 3
 		mil = 3 
+		
+		leader = {
+			name = "Henry Maleb"
+			type = general
+			rank = 0
+			fire = 2
+			shock = 2
+			manuever = 3
+			siege = 1
+		}
  	} 
  	government = administrative_republic
 } 
 
 618.1.1 = {
-add_country_modifier = {
-    name = alliance_member
-    duration = -1
-} 
+	add_country_modifier = {
+		name = alliance_member
+		duration = -1
+	} 
 }
 
 631.1.1 = {
 	primary_culture = culture_lordaeron_worgen
 	technology_group = tech_worgen 
+	government = dictatorship_gov
 	capital = 731
 }

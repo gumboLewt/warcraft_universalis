@@ -15,15 +15,25 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = arcane
 
-
-
-
 # Rise of the Qiraji
 622.1.1 = { 
 	owner = A51
 	controller = A51
 	add_claim = A26
 	add_core = A51 
-        culture = culture_boulderfist
-        religion = religion_geomancy
+    culture = culture_boulderfist
+    religion = religion_geomancy
+}
+
+# Legion
+635.1.1 = { 
+	owner = H12
+	controller = H12
+	add_core = H12
+	remove_core = A51 
+	culture = culture_forsaken
+	religion = religion_forgotten_shadow
+	base_tax = 1
+	base_manpower = 1
+	base_production = 1
 }
