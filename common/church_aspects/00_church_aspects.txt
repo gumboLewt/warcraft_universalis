@@ -1,0 +1,79 @@
+#############
+
+bloodlust = {
+	effect = {
+		discipline = 0.05
+		infantry_power = 0.1
+		army_tradition = 1
+	}
+	ai_will_do = {
+		factor = 12
+	}
+}
+
+fel_magic = {
+	effect = {
+		siege_ability = 0.1
+		artillery_power = 0.2
+	}
+	ai_will_do = {
+		factor = 12
+	}
+}
+
+demonic_influences = {
+	effect = {
+		province_warscore_cost = -0.2
+		unjustified_demands = -0.5
+		ae_impact = -0.2
+		diplomatic_annexation_cost = -0.25
+	}
+	ai_will_do = {
+		factor = 12
+	}
+}
+
+
+#############
+## UNDEATH ##
+#############
+
+plague_of_undeath = {
+	effect = {
+		colonists = 1
+		global_colonial_growth = 100
+		global_missionary_strength = 0.03
+		global_manpower_modifier = 1.00
+		global_regiment_recruit_speed = -0.5
+	}
+	ai_will_do = {
+		factor = 12
+	}
+}
+
+blight = {
+	effect = {
+		hostile_attrition = 2
+		land_forcelimit_modifier  = 1.0
+		global_regiment_cost = -0.5
+		garrison_size = 1.0
+		land_attrition = -0.75
+	}
+	ai_will_do = {
+		factor = 12
+	}
+}
+
+acolytes_of_the_damned = {
+	effect = {
+		diplomats = 1
+		land_maintenance_modifier = -0.5
+		advisor_cost = -0.50
+ 		state_maintenance_modifier = -0.5
+		spy_offence = 0.5
+		rebel_support_efficiency = 0.50
+	}
+	ai_will_do = {
+		factor = 12
+	}
+}
