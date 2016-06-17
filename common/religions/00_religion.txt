@@ -118,6 +118,9 @@ religion_group_disorder = {
 
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
+			bloodlust
+			fel_magic
+			demonic_influences
 		}
 		
 		hre_religion = yes
@@ -425,6 +428,9 @@ religion_group_the_void = {
 		
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
+			plague_of_undeath
+			blight
+			acolytes_of_the_damned
 		}
 		
 		on_convert = {
