@@ -59,128 +59,76 @@ Tomb of Relics
 Sacrificial Pit
 Boneyard
 
-# Names by religion group
-
-# 1 - 100
-# 2 - 150
-# 3 - 250
-# 4 - 500
-# 5 - 1000
-
 # Administration
     # Town Hall
-        # 1
-        local_development_cost = -0.1
-        # 2
-        local_development_cost = -0.2
-        # 3
-        local_development_cost = -0.3
-        # 4
-        local_development_cost = -0.4
-        # 5
-        local_development_cost = -0.5
-    # Outpost
-        # 1
-        local_hostile_attrition = 0.5
-        supply_limit_modifier = 0.1
-        # 2
-        local_hostile_attrition = 1
-        supply_limit_modifier = 0.2
-        # 3
-        local_hostile_attrition = 1.5
-        supply_limit_modifier = 0.3
-        # 4
-        local_hostile_attrition = 2
-        supply_limit_modifier = 0.4
-        # 5
-        local_hostile_attrition = 2.5
-        supply_limit_modifier = 0.5
-
+        local_development_cost
+    # Court
+        local_unrest
+    # Encampment
+        supply_limit_modifier
     # Temple
-        # 1
-        local_missionary_strength = 0.01
-        local_unrest = -1
-        # 2
-        local_missionary_strength = 0.02
-        local_unrest = -1.5
-        # 3
-        local_missionary_strength = 0.03
-        local_unrest = -2
-        # 4
-        local_missionary_strength = 0.04
-        local_unrest = -2.5
-        # 5
-        local_missionary_strength = 0.05
-        local_unrest = -3
+        local_missionary_strength
+    
+# Economic
+    # Mine
+        local_production_efficiency
+    # Lumbermill
+        local_build_cost
+    # Tavern
+        local_tax_modifier
+         
 # Army
     # Barracks
-        # 1
-        local_manpower_modifier = 0.1
-        garrison_growth = 0.1
-        # 2
-        local_manpower_modifier = 0.2
-        garrison_growth = 0.2
-        # 3
-        local_manpower_modifier = 0.3
-        garrison_growth = 0.3
-        # 4
-        local_manpower_modifier = 0.4
-        garrison_growth = 0.4
-        # 5
-        local_manpower_modifier = 0.5
-        garrison_growth = 0.5
-        
+        local_manpower_modifier
     # Training Grounds
-        # 1
-        local_regiment_cost = -0.1
-        regiment_recruit_speed = 0.1
-        # 2
-        local_regiment_cost = -0.2
-        regiment_recruit_speed = 0.2
-        # 3
-        local_regiment_cost = -0.3
-        regiment_recruit_speed = 0.3
-        # 4
-        local_regiment_cost = -0.4
-        regiment_recruit_speed = 0.4
-        # 5
-        local_regiment_cost = -0.5
-        regiment_recruit_speed = 0.5
-        
-
-# Economy
-    # Mine
-    local_build_cost
-    
-    # Farm
-    local_production_efficiency
-    
-    # Shops
-    local_tax_modifier
-    
+        local_regiment_cost
+        regiment_recruit_speed
 # Navy
+    # Shipyard
+        local_ship_repair
+        local_ship_cost
+        
     # Dock
-    local_ship_repair
-    local_ship_cost
-
-    # Tavern
-    local_sailors_modifier
-    ship_recruit_speed
-    
+        local_sailors_modifier
+        ship_recruit_speed
+       
 # Trade
     # Market
-    province_trade_power_modifier
-    
+        province_trade_power_modifier
     # Warehouse
-    trade_goods_size_modifier
-    trade_value_modifier
-    
-# Forts
-    # fort
+        trade_value_modifier
+    # Farm
+        trade_goods_size_modifier
+        
+# Fortification
+    # Wooden Fort
     fort_level = 2
+    local_defensiveness = 0.1
+    
+    # Stone Fort
+    fort_level = 4
+    local_defensiveness = 0.1
+    
+    # Reinforced Stone Fort
+    fort_level = 6
+    local_defensiveness = 0.1
+    
+    # Infused Stone Fort
+    fort_level = 8
     local_defensiveness = 0.1
 
 
+# Uniques
+    # General
+        # Grand Harbor
+        
+        # Grand Temple
+        
+        # Grand Market
+        
+        # Grand Fortress
+        
+    # Restricted
 
 
 
