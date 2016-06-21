@@ -66,6 +66,17 @@
  building_wow_fort_3: "Reinforced Stone Walls"
  building_wow_fort_4: "Infused Stone Walls"
  
+ building_wow_unique_palace: "Palace"
+ building_wow_unique_fortress: "Fortress"
+ 
+ building_wow_unique_magic_tower: "Arcane Tower"
+ building_wow_unique_magic_tower_religion_group_disorder: "Fel Conduit"
+ building_wow_unique_magic_tower_religion_group_the_void: "Void Conduit"
+ building_wow_unique_magic_tower_religion_group_elemental: "Elemental Beacon"
+ building_wow_unique_magic_tower_religion_group_technology: "Invention Studio"
+ 
+ building_wow_unique_grand_forge: "Grand Forge"
+ 
  # Graphical Cultures
  humangfx: "Human"
  darnassiangfx: "Darnassian"

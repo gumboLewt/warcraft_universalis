@@ -16,12 +16,12 @@ spriteTypes = {
 	}
     spriteType = {
 		name = "GFX_wow_court"
-		texturefile = "gfx//interface//buildings//human_temple.tga"
+		texturefile = "gfx//interface//buildings//human_court.tga"
 		loadType = "INGAME"
 	}
     spriteType = {
 		name = "GFX_wow_regional_court"
-		texturefile = "gfx//interface//buildings//human_temple.tga"
+		texturefile = "gfx//interface//buildings//human_court.tga"
 		loadType = "INGAME"
 	}
     spriteType = {
@@ -96,22 +96,22 @@ spriteTypes = {
 	}
     spriteType = {
 		name = "GFX_wow_shipyard"
-		texturefile = "gfx//interface//buildings//human_temple.tga"
+		texturefile = "gfx//interface//buildings//human_shipyard.tga"
 		loadType = "INGAME"
 	}
     spriteType = {
 		name = "GFX_wow_grand_shipyard"
-		texturefile = "gfx//interface//buildings//human_temple.tga"
+		texturefile = "gfx//interface//buildings//human_shipyard.tga"
 		loadType = "INGAME"
 	}
     spriteType = {
 		name = "GFX_wow_dock"
-		texturefile = "gfx//interface//buildings//human_temple.tga"
+		texturefile = "gfx//interface//buildings//human_dock.tga"
 		loadType = "INGAME"
 	}
     spriteType = {
 		name = "GFX_wow_drydock"
-		texturefile = "gfx//interface//buildings//human_temple.tga"
+		texturefile = "gfx//interface//buildings//human_dock.tga"
 		loadType = "INGAME"
 	}
     spriteType = {
@@ -162,6 +162,28 @@ spriteTypes = {
     spriteType = {
 		name = "GFX_wow_fort_4"
 		texturefile = "gfx//interface//buildings//human_castle.tga"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_wow_unique_palace"
+		texturefile = "gfx//interface//buildings//human_palace.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_wow_unique_fortress"
+		texturefile = "gfx//interface//buildings//human_fortress.tga"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_wow_unique_magic_tower"
+		texturefile = "gfx//interface//buildings//human_arcane_tower.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_wow_unique_grand_forge"
+		texturefile = "gfx//interface//buildings//dwarven_forge.tga"
 		loadType = "INGAME"
 	}
 }
