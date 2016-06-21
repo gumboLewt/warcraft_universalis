@@ -19,7 +19,7 @@
 #----------------------------------
 
 # Town Hall
-town_hall_1 = {
+wow_town_hall = {
 	cost = 100
 	time = 12
 	
@@ -44,13 +44,13 @@ town_hall_1 = {
 	}
 }
 
-town_hall_2 = {
-    make_obsolete = town_hall_1
-	cost = 200
+wow_grand_town_hall = {
+	cost = 500
 	time = 12
-	
+	make_obsolete = wow_town_hall
+    
 	modifier = {
-		local_development_cost = -0.2
+		local_development_cost = -0.25
 	}
 	
 	ai_will_do = {
@@ -70,3 +70,901 @@ town_hall_2 = {
 	}
 }
 
+# Court
+wow_court = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_unrest = -2.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_regional_court = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_court
+    
+	modifier = {
+		local_unrest = -5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+# Temple
+wow_temple = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_missionary_strength = 0.025
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_grand_temple = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_temple
+    
+	modifier = {
+		local_missionary_strength = 0.05
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+#----------------------------------
+# Economic
+#----------------------------------
+# Mine
+wow_mine = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_production_efficiency = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_large_mine = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_mine
+    
+	modifier = {
+		local_production_efficiency = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+# Lumbermill
+wow_lumbermill = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_build_cost = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_large_lumbermill = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_lumbermill
+    
+	modifier = {
+		local_build_cost = -0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+# Farm
+wow_farm = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_tax_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_large_farm = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_farm
+    
+	modifier = {
+		local_tax_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+#----------------------------------
+# Army
+#----------------------------------
+# Barracks
+wow_barracks = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_manpower_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_grand_barracks = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_barracks
+    
+	modifier = {
+		local_manpower_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+# Training Grounds
+wow_training_grounds = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_regiment_cost = -0.25
+        regiment_recruit_speed = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_grand_training_grounds = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_training_grounds
+    
+	modifier = {
+		local_regiment_cost = -0.5
+        regiment_recruit_speed = -0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+# Supply Depot
+wow_supply_depot = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		supply_limit_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_well_stocked_supply_depot = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_supply_depot
+    
+	modifier = {
+		supply_limit_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+
+#----------------------------------
+# Navy
+#----------------------------------
+# Shipyard
+wow_shipyard = {
+	cost = 100
+	time = 12
+	
+    trigger = {
+        has_port = yes
+    }
+    
+	modifier = {
+		local_ship_repair = 0.25
+        local_ship_cost = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_grand_shipyard = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_shipyard
+    
+    trigger = {
+        has_port = yes
+    }
+    
+	modifier = {
+		local_ship_repair = 0.5
+        local_ship_cost = -0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+# Dock
+wow_dock = {
+	cost = 100
+	time = 12
+	
+    trigger = {
+        has_port = yes
+    }
+    
+	modifier = {
+		local_sailors_modifier = 0.25
+        ship_recruit_speed = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_drydock = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_dock
+    
+    trigger = {
+        has_port = yes
+    }
+    
+	modifier = {
+		local_sailors_modifier = 0.5
+        ship_recruit_speed = -0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+#----------------------------------
+# Trade
+#----------------------------------
+wow_market = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		province_trade_power_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_grand_market = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_market
+    
+	modifier = {
+		province_trade_power_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_tavern = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		trade_value_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_well_kept_tavern = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_tavern
+    
+	modifier = {
+		trade_value_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_workshop = {
+	cost = 100
+	time = 12
+
+	modifier = {
+		trade_goods_size_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+wow_grand_workshop = {
+	cost = 500
+	time = 12
+	make_obsolete = wow_workshop
+    
+	modifier = {
+		trade_goods_size_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 10 }
+		}		
+		modifier = {
+			factor = 0.1
+			development = 10
+		}
+	}
+}
+
+#----------------------------------
+# Fortification
+#----------------------------------
+wow_fort_1 = {
+	cost = 100
+	time = 30
+	modifier = {
+		fort_level = 2
+	}
+	
+	onmap = yes
+	
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}	
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = wow_fort_1
+					has_building = wow_fort_2
+					has_building = wow_fort_3
+					has_building = wow_fort_4
+				}
+			}
+		}		
+	}
+}
+
+wow_fort_2 = {
+	cost = 250
+	time = 30
+	modifier = {
+		fort_level = 4
+	}
+	
+	onmap = yes
+	
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}	
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = wow_fort_1
+					has_building = wow_fort_2
+					has_building = wow_fort_3
+					has_building = wow_fort_4
+				}
+			}
+		}		
+	}
+}
+    
+wow_fort_3 = {
+	cost = 500
+	time = 30
+	modifier = {
+		fort_level = 6
+	}
+	
+	onmap = yes
+	
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}	
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = wow_fort_1
+					has_building = wow_fort_2
+					has_building = wow_fort_3
+					has_building = wow_fort_4
+				}
+			}
+		}		
+	}
+}
+
+wow_fort_4 = {
+	cost = 1000
+	time = 30
+	modifier = {
+		fort_level = 8
+	}
+	
+	onmap = yes
+	
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}			
+		modifier = {
+			factor = 2.0
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+		}	
+		modifier = {
+			factor = 0
+			any_neighbor_province = {
+				owned_by = ROOT
+				OR = {
+					has_building = wow_fort_1
+					has_building = wow_fort_2
+					has_building = wow_fort_3
+					has_building = wow_fort_4
+				}
+			}
+		}		
+	}
+}
+
+#----------------------------------
+# Unique
+#----------------------------------

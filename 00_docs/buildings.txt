@@ -1,6 +1,72 @@
 #---------------------------
 #   Warcraft Universalis
 #---------------------------
+# Icons:
+    # 1 - Trade
+    # 2 - Government
+    # 3 - Navy
+    # 4 - Production
+    # 5 - Army
+    # 6 - Tax
+    # 7 - Fort
+    # 8 - Anvil
+    
+    # X: [9] [61] [113] [165] [217] [269] [321] [373] [425] [477] [529] [581] [633]
+    # Banner +4
+    # Title +44
+    # Icon +15
+    # Arrow +42
+    
+    # Y (banner): [0] [97] [194] [291] [388]
+    # Trade +9
+    # Icon +3
+    # Build +32
+    # Cost +82
+    
+    build +6
+    cost +2
+    arrow +6
+    
+
+# Uniques
+    # Arcane Sanctum
+        Follows Arcane
+        
+    # Arcane Vault
+        Follows Arcane
+        
+    # Altar of Kings
+        Is Human
+        
+    # Altar of Storms
+        Is Orc
+        
+    # Ancient of War
+        Is Night Elf
+        
+    # Ancient of Wonders
+        Is Night Elf
+        
+    # Ancient of Elders
+        Is Night Elf
+        
+    # Altar of Darkness
+        Is Undead
+       
+    # Tomb of Relics
+        Is Undead
+        
+    # Sacrificial Pit
+        Is Undead
+        
+    # Tribal Effigy
+        Is Primitive
+        
+    # Grand Forge
+        Is Dwarven
+        
+
+
 
 # Humans
 Town Hall -> Keep
@@ -58,81 +124,6 @@ Haunted Goldmine
 Tomb of Relics
 Sacrificial Pit
 Boneyard
-
-# Administration
-    # Town Hall
-        local_development_cost
-    # Court
-        local_unrest
-    # Encampment
-        supply_limit_modifier
-    # Temple
-        local_missionary_strength
-    
-# Economic
-    # Mine
-        local_production_efficiency
-    # Lumbermill
-        local_build_cost
-    # Tavern
-        local_tax_modifier
-         
-# Army
-    # Barracks
-        local_manpower_modifier
-    # Training Grounds
-        local_regiment_cost
-        regiment_recruit_speed
-# Navy
-    # Shipyard
-        local_ship_repair
-        local_ship_cost
-        
-    # Dock
-        local_sailors_modifier
-        ship_recruit_speed
-       
-# Trade
-    # Market
-        province_trade_power_modifier
-    # Warehouse
-        trade_value_modifier
-    # Farm
-        trade_goods_size_modifier
-        
-# Fortification
-    # Wooden Fort
-    fort_level = 2
-    local_defensiveness = 0.1
-    
-    # Stone Fort
-    fort_level = 4
-    local_defensiveness = 0.1
-    
-    # Reinforced Stone Fort
-    fort_level = 6
-    local_defensiveness = 0.1
-    
-    # Infused Stone Fort
-    fort_level = 8
-    local_defensiveness = 0.1
-
-
-# Uniques
-    # General
-        # Grand Harbor
-        
-        # Grand Temple
-        
-        # Grand Market
-        
-        # Grand Fortress
-        
-    # Restricted
-
-
-
-
 
 
 
