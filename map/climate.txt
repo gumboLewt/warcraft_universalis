@@ -84,13 +84,11 @@ impassable = {
 	1412 # Bloodvemon Hills
 	1413 # Moonglade Mountains
 	1414 # Frostsaber Mountains
-	1415 # Winterspring Mountains
 	1416 # Northern Hyjal
 	1417 # Western Hyjal
 	1418 # Southern Hyjal
 	1419 # Eastern Hyjal
 	1424 # Northern Cliffs
-	1425 # Southern Cliffs
 	1427 # Orgrimmar Cliffs
 	1466 # Sorrowful Mountains
 	1478 # Northern Thunder Bluff Mountains
@@ -103,7 +101,6 @@ impassable = {
 	1503 # The Writhing Mountains
 	1504 # Kalimdor Mountains
 	1523 # Ahn'qiraj Mountains
-	1524 # Ungoro Mountains
 	1525 # Tanaris Mountains
 	1600 # Northern Hellfire Mountains
 	1601 # Southern Hellfire Mountains
@@ -125,4 +122,12 @@ impassable = {
 	3046 # Anvil Mountains
 	3071 # Violet Mountain
     3076 # Draenor Mountains
+    
+    # Remove other Kalimdor wastelands, these are the three main ones
+    1415 # North Kalimdor
+    1425 # Central Kalimdor
+    1524 # South Kalimdor
+    
+    2276 # Teldrassil
+    2257 # Azuremyst Isle/Bloodmyst Isle
 }

@@ -136,4 +136,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1456;1462;;;-1;-1;-1;-1;Theramore to Bridge to Theramore (Dustwallow Marsh)
 3060;3067;;;-1;-1;-1;-1;Dun Baldar to Western Cave (Alterac)
 3061;3066;;;-1;-1;-1;-1;Frostwolf Keep to Eastern Cave (Alterac)
+1065;1067;sea;;-1;-1;-1;-1;Rutheran Village to Dolanaar
+2260;1089;sea;;-1;-1;-1;-1;Ammen Ford to Azure Watch
+2271;2264;sea;;-1;-1;-1;-1;Beryl Coast to Fairbridge Strand
 -1;-1;;-1;-1;-1;-1;-1;-1
