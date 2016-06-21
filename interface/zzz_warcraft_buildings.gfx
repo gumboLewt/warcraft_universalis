@@ -186,4 +186,30 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//dwarven_forge.tga"
 		loadType = "INGAME"
 	}
+    
+    spriteType = {
+		name = "GFX_wow_unique_altar_of_power"
+		texturefile = "gfx//interface//buildings//human_altar_of_power.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_wow_tomb_of_riches"
+		texturefile = "gfx//interface//buildings//human_tomb_of_riches.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_wow_grand_monument"
+		texturefile = "gfx//interface//buildings//human_grand_monument.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_wow_naval_academy"
+		texturefile = "gfx//interface//buildings//human_naval_academy.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_wow_military_academy"
+		texturefile = "gfx//interface//buildings//human_military_academy.tga"
+		loadType = "INGAME"
+	}
 }

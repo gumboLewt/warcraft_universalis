@@ -77,6 +77,17 @@
  
  building_wow_unique_grand_forge: "Grand Forge"
  
+ building_wow_unique_altar_of_power: "Altar of Kings"
+ building_wow_unique_magic_tower_religion_group_disorder: "Altar of Storms"
+ building_wow_unique_magic_tower_religion_group_the_void: "Atlar of Darkness"
+ building_wow_unique_magic_tower_religion_group_elemental: "Atlar of Elements"
+ 
+ building_wow_tomb_of_riches: "Tomb of Riches"
+ building_wow_grand_monument: "Grand Monument"
+ 
+ building_wow_naval_academy: "Naval Academy"
+ building_wow_military_academy: "Military Academy"
+ 
  # Graphical Cultures
  humangfx: "Human"
  darnassiangfx: "Darnassian"

@@ -33,6 +33,12 @@ technology = {
     may_corrupt_officials = yes
     may_agitate_for_liberty = yes
     may_infiltrate_administration = yes
+    
+    wow_shipyard = yes
+    wow_dock = yes
+    wow_market = yes
+    wow_tavern = yes
+    wow_workshop = yes
 }
 
 # 1
@@ -63,6 +69,7 @@ technology = {
 technology = {
 	year = 597
 	
+    wow_grand_shipyard = yes
 }
 
 # 5
@@ -93,6 +100,7 @@ technology = {
 technology = {
 	year = 649
 	
+    wow_drydock = yes
 }
 
 # 9
@@ -123,7 +131,7 @@ technology = {
 technology = {
 	year = 701
 	
-	# building
+	wow_grand_market = yes
 }
 
 # 13
@@ -154,7 +162,7 @@ technology = {
 technology = {
 	year = 753
 	
-	# building
+	wow_well_kept_tavern = yes
 }
 
 # 17
@@ -185,6 +193,7 @@ technology = {
 technology = {
 	year = 805
 	
+    wow_grand_workshop = yes
 }
 
 # 21
@@ -209,6 +218,8 @@ technology = {
 	year = 844
 	
 	trade_efficiency 		= 0.05
+    
+    wow_tomb_of_riches = yes
 }
 
 # 24
@@ -235,6 +246,8 @@ technology = {
 	trade_efficiency 		= 0.05
 	
 	reduced_naval_attrition = yes
+    
+    wow_naval_academy = yes
 }
 
 # 27
@@ -267,6 +280,8 @@ technology = {
 technology = {
 	year = 935
 	
+    wow_grand_monument = yes
+    
 	naval_morale			= 0.25
 	naval_maintenance		= 0.05
 }

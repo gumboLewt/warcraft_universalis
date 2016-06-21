@@ -1030,3 +1030,80 @@ wow_unique_grand_forge = {
 		factor = 1000	
 	}
 }
+
+wow_unique_altar_of_power = {
+	cost = 2000
+	time = 120
+    
+	modifier = {
+		discipline = 0.05
+	}
+	
+	one_per_country = yes
+	
+	ai_will_do = {
+		factor = 1000	
+	}
+}
+
+wow_tomb_of_riches = {
+	cost = 2000
+	time = 120
+    
+	modifier = {
+		inflation_reduction = 0.1
+	}
+	
+	one_per_country = yes
+	
+	ai_will_do = {
+		factor = 1000	
+	}
+}
+
+wow_grand_monument = {
+	cost = 2000
+	time = 120
+    
+	modifier = {
+		prestige = 1
+	}
+	
+	one_per_country = yes
+	
+	ai_will_do = {
+		factor = 1000	
+	}
+}
+
+wow_naval_academy = {
+	cost = 2000
+	time = 120
+    
+	modifier = {
+		free_leader_pool = 1
+        naval_morale = 0.1
+	}
+	
+	one_per_country = yes
+	
+	ai_will_do = {
+		factor = 1000	
+	}
+}
+
+wow_military_academy = {
+	cost = 2000
+	time = 120
+    
+	modifier = {
+		free_leader_pool = 1
+        land_morale = 0.1
+	}
+	
+	one_per_country = yes
+	
+	ai_will_do = {
+		factor = 1000	
+	}
+}

@@ -17,6 +17,11 @@ technology = {
 	land_morale 		= 2.0
 
 	enable = trebuchet
+    
+    wow_barracks = yes
+    wow_training_grounds = yes
+    wow_supply_depot = yes
+    wow_fort_1 = yes
 }
 
 # 1
@@ -217,6 +222,7 @@ technology = {
 technology = {
 	year = 623
 	
+    wow_grand_barracks = yes
 }
 
 # 7
@@ -250,7 +256,7 @@ technology = {
 	year = 675
 	
 	enable = ballista
-	
+	wow_fort_2 = yes
 }
 
 # 11
@@ -266,6 +272,7 @@ technology = {
 technology = {
 	year = 701
 	
+    wow_grand_training_grounds = yes
 }
 
 # 13
@@ -469,6 +476,7 @@ technology = {
 technology = {
 	year = 779
 	
+    wow_fort_3 = yes
 }
 
 # 19
@@ -501,6 +509,7 @@ technology = {
 technology = {
 	year = 831
 	
+    wow_well_stocked_supply_depot = yes
 }
 
 # 23
@@ -515,6 +524,8 @@ technology = {
 technology = {
 	year = 857
 	
+    wow_military_academy = yes
+    
 	infantry_fire		= 0.1
 	cavalry_fire  		= 0.1
 	artillery_fire 		= 0.2
@@ -535,6 +546,8 @@ technology = {
 technology = {
 	year = 883
 	
+    wow_fort_4 = yes
+    
 	land_morale 		= 0.5
 	military_tactics 	= 0.5
 }
@@ -738,6 +751,8 @@ technology = {
 technology = {
 	year = 961
 	
+    wow_unique_fortress = yes
+    
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
 }
@@ -772,6 +787,8 @@ technology = {
 technology = {
 	year = 1013
 	
+    wow_unique_altar_of_power = yes
+    
 	supply_limit 		= 0.2
 	maneuver_value 		= 0.1
 }
