@@ -139,4 +139,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1065;1067;sea;;-1;-1;-1;-1;Rutheran Village to Dolanaar
 2260;1089;sea;;-1;-1;-1;-1;Ammen Ford to Azure Watch
 2271;2264;sea;;-1;-1;-1;-1;Beryl Coast to Fairbridge Strand
+1340;1341;;;-1;-1;-1;-1;Sanctuary of Malorne to Sethria's Roost
+1402;1397;;;-1;-1;-1;-1;Mannoroc Wastes to Mannoroc Coven
 -1;-1;;-1;-1;-1;-1;-1;-1

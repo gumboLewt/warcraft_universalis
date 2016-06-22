@@ -1685,6 +1685,45 @@
  scarlet_crusade_weakness: "Scarlet Crusade Weakness"
  desc_scarlet_crusade_weakness: "The citizens of our realm are far and few between. We will struggle to fill our manpower pool and will most likely have to resort to mercenaries."
  
- # Eastates
+ #-----------------------------------
+ # Estates
+ #-----------------------------------
+ 
  estate_nobility: "Nobility"
  estate_nobility_desc: "This estate represents the families of landed aristocrats in your country. Their privileges are guaranteed by old traditions and most have originally been won through performing great services to the state. Their traditional responsibility is to fight and protect the realm against outside dangers as well as help the ruler keep the peace."
+ 
+ estate_commoners: "Commoners"
+ estate_commoners_desc: ""
+ 
+ estate_merchants: "Merchants"
+ estate_merchants_desc: ""
+ 
+ estate_tribes: "Tribes"
+ estate_tribes_desc: ""
+ 
+ estate_the_legion: "Legion Ambassadors"
+ estate_the_legion_desc: ""
+ 
+ estate_old_gods: "Old God Ambassadors"
+ estate_old_gods_desc: ""
+ 
+ estate_dragonflight: "Dragonflight Ambassadors"
+ estate_dragonflight_desc: ""
+ 
+ estate_magisters: "Magisters"
+ estate_magisters_desc: ""
+ 
+ #-----------------------------------
+ # Estate Influences
+ #-----------------------------------
+ 
+ #-----------------------------------
+ # Estate Loyalty 
+ #-----------------------------------
+ 
+ 
+ #-----------------------------------
+ # Estate Interactions
+ #-----------------------------------
+ 
+ 
