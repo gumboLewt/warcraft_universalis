@@ -141,4 +141,42 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2271;2264;sea;;-1;-1;-1;-1;Beryl Coast to Fairbridge Strand
 1340;1341;;;-1;-1;-1;-1;Sanctuary of Malorne to Sethria's Roost
 1402;1397;;;-1;-1;-1;-1;Mannoroc Wastes to Mannoroc Coven
+1893;1892;;;-1;-1;-1;-1;Winter's Blossom to Shado-Pan Monastery
+1903;1892;;;-1;-1;-1;-1;Peak of Serenity to Shado-Pan Monastery
+1903;1902;;;-1;-1;-1;-1;Peak of Serenity to Mogu'shan Terrace
+1903;1904;;;-1;-1;-1;-1;Peak of Serenity to Zouchin Village
+1870;1867;sea;;-1;-1;-1;-1;Shado-Pan Garrison to Niuzao Temple
+1871;1867;sea;;-1;-1;-1;-1;Forward Assault Base Camp to Niuzao Temple
+1871;1866;sea;;-1;-1;-1;-1;Forward Assault Base Camp to Sik'vess
+1847;1837;;;-1;-1;-1;-1;The Stinging Trail to The Briny Muck
+1838;1837;;;-1;-1;-1;-1;Zan'vess to The Briny Muck
+1782;1779;;;-1;-1;-1;-1;Dawnchaser Retreat to Temple of the Red Crane
+1781;1779;;;-1;-1;-1;-1;Cradle of Chi-ji to Temple of the Red Crane
+1781;1780;;;-1;-1;-1;-1;Cradle of Chi-ji to Nayeli Lagoon
+1779;1780;;;-1;-1;-1;-1;Temple of the Red Crane to Nayeli Lagoon
+1784;1775;;;-1;-1;-1;-1;Shores of Dojan to Angler's Wharf
+1774;1784;;;-1;-1;-1;-1;The Incursion to Shores of Dojan
+1799;1785;;;-1;-1;-1;-1;Thunderfoot Field to Thunderfoor Overlook
+1805;1785;;;-1;-1;-1;-1;Uncovered Burrows to Thunderfoor Overlook
+1797;1785;;;-1;-1;-1;-1;Silken Fields to Thunderfoor Overlook
+1721;1785;;;-1;-1;-1;-1;Nectarbreeze Orchard to Thunderfoor Overlook
+2079;1785;;;-1;-1;-1;-1;Grookin Groves to Thunderfoor Overlook
+1796;1797;;;-1;-1;-1;-1;Halfhill to Silken Fields
+1796;1798;;;-1;-1;-1;-1;Halfhill to Pools of Purity
+1803;1798;;;-1;-1;-1;-1;Halfhill Farms to Pools of Purity
+1738;1735;sea;;-1;-1;-1;-1;Moonwater Crossing to Paw'dan Islands
+1718;1734;sea;;-1;-1;-1;-1;Moonwater Retreat to Moonwater Islands
+1722;1736;sea;;-1;-1;-1;-1;Temple of the Jade Serpent to Jade Islands
+1738;1719;;;-1;-1;-1;-1;Moonwater Crossing to Pearlfin Village
+2067;1719;;;-1;-1;-1;-1;Slingtail Pits to Pearlfin Village
+1739;1719;;;-1;-1;-1;-1;Jade Crossing to Pearlfin Village
+1740;1720;;;-1;-1;-1;-1;Serpent's Approach to Paw'don Village
+1740;1721;;;-1;-1;-1;-1;Serpent's Approach to Necterbreeze Orchard
+1740;2072;;;-1;-1;-1;-1;Serpent's Approach to Serpent's Overlook
+1723;2079;;;-1;-1;-1;-1;Serpent's Heart to Grookin Groves
+2076;2073;;;-1;-1;-1;-1;Forest Heart to Dookin' Grounds
+2077;1724;;;-1;-1;-1;-1;Camp Nooka Nooka to Grookin Hill
+2077;1086;;;-1;-1;-1;-1;Camp Nooka Nooka to The Secret Aerie
+1726;1727;sea;;-1;-1;-1;-1;The Arborteum to Windward Isle
+1730;1737;sea;;-1;-1;-1;-1;Terrace of Ten Thunders to Thunder Islands
 -1;-1;;-1;-1;-1;-1;-1;-1

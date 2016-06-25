@@ -1,0 +1,451 @@
+namespace = monarch_death
+
+# Immortals
+#   culture_group_dragonkin
+#   culture_group_elemental
+# These are given random stat movements to simulate the changing of monarch
+
+# [Root.Monarch.GetTitle] [Root.Monarch.GetName] has died!
+# The illustrious rule of [Root.Monarch.GetTitle] [Root.Monarch.GetName] has come to an end.
+# The cycle continues...
+country_event = {
+	id = monarch_death.1
+	title = monarch_death.1.title
+	desc = monarch_death.1.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	trigger = {
+        has_regency = no
+        NOT = {
+            OR = {
+                culture_group = culture_group_dragonkin
+                culture_group = culture_group_elemental
+                culture_group = culture_group_void
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 1020 # 85
+	
+        # Culture-specific
+        modifier = {
+            factor = 14 # 1200
+            
+            OR = {
+                culture_group = culture_group_wildkin
+                culture_group = culture_group_darnassian
+            }
+        }
+        
+        modifier = {
+            factor = 1.2
+            
+            culture_group = culture_group_ogre
+        }
+        
+        modifier = {
+            factor = 24
+            
+            culture_group = culture_group_draenei
+        }
+        
+        modifier = {
+            factor = 0.95
+            
+            OR = {
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll
+            }
+        }
+        
+        modifier = {
+            factor = 1.4 # 120
+            
+            culture_group = culture_group_tauren
+        }
+        
+        modifier = {
+            factor = 4 # 350
+            
+            culture_group = culture_group_thalassian
+        }
+        
+        modifier = {
+            factor = 0.25 # 30
+            
+            culture_group = culture_group_aqir
+        }
+        
+        modifier = {
+            factor = 2
+            
+            OR = {
+                culture_group = culture_group_old_god
+                culture_group = culture_group_demonic
+            }
+        }
+        
+        modifier = {
+            factor = 3.5 # 300
+            
+            culture_group = culture_group_satyr
+        }
+        
+        modifier = {
+            factor = 11.7 # 100
+            
+            culture_group = culture_group_naga
+        }
+        
+        modifier = {
+            factor = 0.7 # 60
+            
+            OR = {
+                culture_group = culture_group_depths
+                culture_group = culture_group_lobstrok
+                culture_group = culture_group_gorloc
+            }
+        }
+        
+        modifier = {
+            factor = 0.5
+            
+            OR = {
+                culture_group = culture_group_gnoll
+                culture_group = culture_group_centaur
+                culture_group = culture_group_wolfvar
+                culture_group = culture_group_kobold
+                culture_group = culture_group_magnataur
+                culture_group = culture_group_harpy
+                culture_group = culture_group_flayer
+                culture_group = culture_group_pygmy
+            }
+        }
+        
+        modifier = {
+            factor = 1.5
+            
+            culture_group = culture_group_furbolg
+        }
+        
+        modifier = {
+            factor = 0.75
+            
+            culture_group = culture_group_quillboar
+        }
+        
+        modifier = {
+            factor = 3
+            
+            OR = {
+                culture_group = culture_group_titan
+                culture_group = culture_group_tol_vir
+            }
+        }
+        
+        modifier = {
+            factor = 2 
+            
+            culture_group = culture_group_undead
+        }
+        
+        modifier = {
+            factor = 1.5
+            
+            culture_group = culture_group_tuskarr
+        }
+        
+        modifier = {
+            factor = 3
+            
+            culture_group = culture_group_pandaren
+        }
+        
+        modifier = {
+            factor = 2
+            
+            culture_group = culture_group_mantid
+        }
+        
+        modifier = {
+            factor = 5
+            
+            culture_group = culture_group_mogu
+        }
+        
+        modifier = {
+            factor = 2
+            
+            culture_group = culture_group_yaungol
+        }
+        
+        modifier = {
+            factor = 10
+            
+            culture_group = culture_group_ethereal
+        }
+        
+        modifier = {
+            factor = 0.2
+            
+            OR = {
+                culture_group = culture_group_hozen
+                culture_group = culture_group_virmen
+            }
+        }
+        
+        modifier = {
+            factor = 0.5
+            
+            culture_group = culture_group_saurok
+        }
+        
+        modifier = {
+            factor = 10
+            
+            OR = {
+                culture_group = culture_group_yeti
+                culture_group = culture_group_giant
+            }
+        }
+        
+        modifier = {
+            factor = 2
+            
+            culture_group = culture_group_dryad
+        }
+        
+        modifier = {
+            factor = 5
+            
+            culture_group = culture_group_mogu
+        }
+        
+        modifier = {
+            factor = 5
+            
+            culture_group = culture_group_mogu
+        }
+        
+        # General
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 50
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 55
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 60
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 65
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 70
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 75
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 80
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 85
+            
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 90
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 95
+        }
+        
+        modifier = {
+            factor = 0.9
+            
+            ruler_age = 100
+        }
+    }
+    
+	option = {
+		name = monarch_death.1.option.a
+		
+        kill_ruler = yes
+	}
+}
+
+# [Root.Monarch.GetTitle] [Root.Monarch.GetName] reflects...
+# The eternal rule of [Root.Monarch.GetTitle] [Root.Monarch.GetName] leaves much time for reflection. After a bout of deep reflection, [Root.Monarch.GetName] has changed their outlook towards the world.
+# The cycle continues...
+country_event = {
+	id = monarch_death.2
+	title = monarch_death.2.title
+	desc = monarch_death.2.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	trigger = {
+        has_regency = no
+        OR = {
+            culture_group = culture_group_dragonkin
+            culture_group = culture_group_elemental
+            culture_group = culture_group_void
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 1020 # 85
+    }
+    
+	option = {
+		name = monarch_death.2.option.a
+		
+        random_list = {
+            15 = {
+                change_adm = 1
+            }
+            15 = {
+                change_adm = -1
+            }
+            15 = {
+                change_dip = 1
+            }
+            15 = {
+                change_dip = -1
+            }
+            15 = {
+                change_mil = 1
+            }
+            15 = {
+                change_mil = -1
+            }
+        }
+	}
+}
+
+# Diseased and Dying
+# [Root.Monarch.GetTitle] [Root.Monarch.GetName] has been diseased for many years now, and is beginning to succumb.
+# Let [Root.Monarch.GetHimHer] go
+# Do everything possible to prolong [Root.Monarch.GetHisHer] life
+country_event = {
+	id = monarch_death.3
+	title = monarch_death.3.title
+	desc = monarch_death.3.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+    is_triggered_only = yes
+    
+	trigger = {
+        has_regency = no
+        NOT = {
+            OR = {
+                culture_group = culture_group_dragonkin
+                culture_group = culture_group_elemental
+                culture_group = culture_group_void
+            }
+        }
+    }
+
+	option = {
+		name = monarch_death.3.option.a
+		
+        set_ruler_flag = diseased_and_dying
+        
+        kill_ruler = yes
+	}
+    
+    option = {
+		name = monarch_death.3.option.b
+		
+        trigger = { 
+            NOT = { has_ruler_flag = diseased_and_dying }
+        }
+     
+        set_ruler_flag = diseased_and_dying
+        
+        add_adm_power = -100
+        add_dip_power = -100
+        add_mil_power = -100
+        
+        custom_tooltip = DISEASED_AND_DYING_HINT
+	}
+}
+
+# Pretenders arise!
+# The regency of [Root.GetName] has caused much unrest in the people whom inhabit it's lands. They have found a new [Root.Monarch.GetTitle] who has promised them representation in an otherwise unjust society.
+# Resist these pretenders!
+# Accept the people's mandate
+country_event = {
+	id = monarch_death.4
+	title = monarch_death.4.title
+	desc = monarch_death.4.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+    is_triggered_only = yes
+    
+	trigger = {
+        has_regency = yes
+        NOT = {
+            OR = {
+                culture_group = culture_group_dragonkin
+                culture_group = culture_group_elemental
+                culture_group = culture_group_void
+            }
+        }
+    }
+
+	option = {
+		name = monarch_death.4.option.a
+		
+        capital_scope = {
+            spawn_rebels = {
+                type = pretender
+                size = 3
+            }
+        }
+	}
+    
+    option = {
+		name = monarch_death.4.option.b
+		
+        define_ruler = {
+            adm = 0
+            dip = 0
+            mil = 0
+            claim = 25
+        }
+	}
+}

@@ -247,6 +247,7 @@ outland_region = {
 	}
 }
 
+# South Seas
 maelstrom_region = {
 	#discover_if = {
 	#	capital_scope = {
@@ -255,6 +256,8 @@ maelstrom_region = {
 	#}
 	areas = {
 		area_the_lost_isles
+        area_zandalar
+        area_plunder_isle
 	}
 }
 

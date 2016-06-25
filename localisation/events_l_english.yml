@@ -5,6 +5,27 @@
  WARCRAFT_TIRISFAL.1.option.a: "I think it is a good idea!"
  WARCRAFT_TIRISFAL.1.option.b: "I don't trust mages! Let the world know that we can do it ourselves..."
  
+ # Monarch Death
+ monarch_death.1.title: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has died!"
+ monarch_death.1.desc: "The illustrious rule of [Root.Monarch.GetTitle] [Root.Monarch.GetName] has come to an end."
+ monarch_death.1.option.a: "The cycle continues..."
+ 
+ monarch_death.2.title: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] reflects..."
+ monarch_death.2.desc: "The eternal rule of [Root.Monarch.GetTitle] [Root.Monarch.GetName] leaves much time for reflection. After a bout of deep reflection, [Root.Monarch.GetName] has changed their outlook towards the world."
+ monarch_death.2.option.a: "The cycle continues..."
+ 
+ monarch_death.3.title: "Diseased and Dying"
+ monarch_death.3.desc: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has been diseased for many years now, and is beginning to succumb."
+ monarch_death.3.option.a: "Let [Root.Monarch.GetHerHim] go"
+ monarch_death.3.option.b: "Do everything possible to prolong [Root.Monarch.GetHerHis] life"
+ 
+ DISEASED_AND_DYING_HINT: "Although clinging to life, another attack will almost certainly kill [Root.Monarch.GetTitle] [Root.Monarch.GetName]."
+ 
+ monarch_death.4.title: "Pretenders arise!"
+ monarch_death.4.desc: "The regency of [Root.GetName] has caused much unrest in the people whom inhabit it's lands. They have found a new [Root.Monarch.GetTitle] who has promised them representation in an otherwise unjust society."
+ monarch_death.4.option.a: "Resist these pretenders!"
+ monarch_death.4.option.b: "Accept the people's mandate"
+ 
  # Story
  story.1.title: "Balnazzar's Reveal"
  story.1.desc: "The Scarlet Crusade has been betrayed from within. Grand Crusader Saiden Dathrohan has been revealed to have been the Dreadlord Balnazzar! The Scarlet Crusade attempted to resist the demon, only to be defeated, and raised from the earth as the Risen."

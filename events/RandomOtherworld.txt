@@ -1,0 +1,22 @@
+namespace = random_otherworld
+
+# is_otherworld
+
+country_event = {
+	id = random_otherworld.1
+	title = random_otherworld.1.title
+	desc = random_otherworld.1.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    is_triggered_only = yes
+
+	trigger = {
+
+	}
+
+	option = {
+		name = random_otherworld.1.option.a
+
+
+	}
+}
