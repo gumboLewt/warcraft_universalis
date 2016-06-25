@@ -1,32 +1,30 @@
+
+# Hidden
 province_event = {
-    id = razing_settling.1
-    title = razing_settling.1.title
-    desc = razing_settling.1.desc
+    id = warband_events.1
+    title = warband_events.1.title
+    desc = warband_events.1.desc
     picture = ANGRY_MOB_eventPicture # Placeholder
 
 	hidden = yes
 	
     trigger = {
- 
+        NOT = { base_tax = 2 }
+        NOT = { base_production = 2 }
+        NOT = { base_manpower = 2 }
         NOT = { culture_group = controller }
         NOT = { religion_group = controller }
+        NOT = { controlled_by = REB }
         OR = {
             AND = {
                 controller = { religion_group = religion_group_disorder }
                 controller = { government = warband_gov }
             }
             controller = { religion_group = religion_the_damned }
-        }
- 
-        NOT = { base_tax = 2 }
-        NOT = { base_production = 2 }
-        NOT = { base_manpower = 2 }
- 
-        NOT = { controlled_by = REB }
+        } 
     }
  
     mean_time_to_happen = {
- 
         months = 8
  
         modifier = {
@@ -41,21 +39,25 @@ province_event = {
     }
 
 	immediate = { 
-		controller = { country_event = { id = razing_settling.2 } } 
+		controller = { country_event = { id = warband_events.2 } } 
 	}
 
 	option = {
-        name = razing_settling.1.a
+        name = warband_events.1.a
     }
 	
 }
 
-
+# Occupation of [Root.GetName]
+# Ravaged and depopulated, [From.GetName] presents us with an opportunity: settling it with our people will make us stronger, but is this province really suited to live in...?
+# Do nothing, for the moment...
+# Raze it to the ground!
+# Settle [From.GetName] with our people!
 country_event = {
-	id = razing_settling.2
+	id = warband_events.2
 
-	title = razing_settling.2.title
-	desc = razing_settling.2.desc
+	title = warband_events.2.title
+	desc = warband_events.2.desc
 	picture = ANGRY_MOB_eventPicture # Placeholder
 
 	is_triggered_only = yes
@@ -64,14 +66,14 @@ country_event = {
 	#FROM - province that fired the event
 	
 	option = { #Do nothing for the moment.
-        name = razing_settling.2.option.a
+        name = warband_events.2.option.a
 	
         ai_chance = { factor = 0.5 }
     }
  
 	
     option = { #Raze it to the ground...
-        name = razing_settling.2.option.b
+        name = warband_events.2.option.b
 	
        ai_chance = { factor = 0 }
 	
@@ -80,7 +82,7 @@ country_event = {
  
  
     option = { #Settle it!
-        name = razing_settling.2.option.c
+        name = warband_events.2.option.c
  
         trigger = {
             treasury = 30

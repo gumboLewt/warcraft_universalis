@@ -19,3 +19,15 @@ warlust = {
     adm_tech_cost_modifier = 0.2
     dip_tech_cost_modifier = 0.2
 }
+
+incensed_people = {
+    local_unrest = 10
+}
+
+denied_autonomy = {
+    local_unrest = 2
+}
+
+sexually_frustrated = {
+    local_unrest = 2
+}

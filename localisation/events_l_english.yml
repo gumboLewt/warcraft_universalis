@@ -5,6 +5,110 @@
  WARCRAFT_TIRISFAL.1.option.a: "I think it is a good idea!"
  WARCRAFT_TIRISFAL.1.option.b: "I don't trust mages! Let the world know that we can do it ourselves..."
  
+ # Buildings
+ building_events.1.title: "Prosperous Locals in [Root.GetName]"
+ building_events.1.desc: "The local people of [Root.GetName] have pooled together their wealth towards a town hall for their settlement. They have contacted [Root.Monarch.GetTitle] [Root.Monarch.GetName] to ensure their wealth is spent in accordance to [Root.Monarch.GetHerHis] wishes."
+ building_events.1.option.a: "Build the town hall"
+ building_events.1.option.b: "Invest in other projects"
+ 
+ building_events.2.title: "Prosperous Locals in [Root.GetName]"
+ building_events.2.desc: "The local people of [Root.GetName] have pooled together their wealth towards a court for their settlement. They have contacted [Root.Monarch.GetTitle] [Root.Monarch.GetName] to ensure their wealth is spent in accordance to [Root.Monarch.GetHerHis] wishes."
+ building_events.2.option.a: "Build the court"
+ building_events.2.option.b: "Invest in other projects"
+ 
+ building_events.3.title: "Prosperous Locals in [Root.GetName]"
+ building_events.3.desc: "The local people of [Root.GetName] have pooled together their wealth towards a temple for their settlement. They have contacted [Root.Monarch.GetTitle] [Root.Monarch.GetName] to ensure their wealth is spent in accordance to [Root.Monarch.GetHerHis] wishes."
+ building_events.3.option.a: "Build the temple"
+ building_events.3.option.b: "Invest in other projects"
+ 
+ building_events.4.title: "Rich Veins found in [Root.GetName]"
+ building_events.4.desc: "Miners in [Root.GetName] are reporting the discovery of rich veins of ore in their province. It would be wise to take advantage of this, before others do so."
+ building_events.4.option.a: "Build a mine"
+ building_events.4.option.b: "Encourage productivity in other areas"
+ 
+ building_events.5.title: "Excellent trees in [Root.GetName]"
+ building_events.5.desc: "The peasants of [Root.GetName] have fully explored their local forests, and have found that many parts of the forest are home to excellent quality lumber. It would be wise to take advantage of this, before others do so."
+ building_events.5.option.a: "Build a lumbermill"
+ building_events.5.option.b: "Encourage productivity in other areas"
+ 
+ building_events.6.title: "Verdant farmland in [Root.GetName]"
+ building_events.6.desc: "Farmers in [Root.GetName] report that the soil quality in [Root.GetName] is unmatched elsewhere in the realm. It would be wise to invest in proper infrastructure for a farm to fully exploit the land."
+ building_events.6.option.a: "Build a farm"
+ building_events.6.option.b: "Encourage productivity in other areas"
+ 
+ building_events.7.title: "Strategic Report for [Root.GetName]"
+ building_events.7.desc: "Our military advisors report that [Root.GetName] would be a wise place for a military encampment. Failure to capitalise on this may harm our success in future military engagements."
+ building_events.7.option.a: "Build a barracks"
+ building_events.7.option.b: "Draft more locals instead"
+ 
+ building_events.8.title: "Strategic Report for [Root.GetName]"
+ building_events.8.desc: "Our military advisors report that [Root.GetName] would be a wise place for a military encampment. Failure to capitalise on this may harm our success in future military engagements."
+ building_events.8.option.a: "Build training grounds"
+ building_events.8.option.b: "Draft more locals instead"
+ 
+ building_events.9.title: "Strategic Report for [Root.GetName]"
+ building_events.9.desc: "Our military advisors report that [Root.GetName] would be a wise place for a supply depot. Failure to capitalise on this may harm our success in future military engagements."
+ building_events.9.option.a: "Build a supply depot"
+ building_events.9.option.b: "Draft more locals instead"
+ 
+ building_events.10.title: "Strategic Report for [Root.GetName]"
+ building_events.10.desc: "Our naval advisors report that [Root.GetName] would be a excellent place for a shipyard. Failure to capitalise on this may harm our success in future naval engagements."
+ building_events.10.option.a: "Build a shipyard"
+ building_events.10.option.b: "Draft more locals instead"
+ 
+ building_events.11.title: "Strategic Report for [Root.GetName]"
+ building_events.11.desc: "Our naval advisors report that [Root.GetName] would be a excellent place for a dock. Failure to capitalise on this may harm our success in future naval engagements."
+ building_events.11.option.a: "Build a dock"
+ building_events.11.option.b: "Draft more locals instead"
+ 
+ building_events.12.title: "Strategic Report for [Root.GetName]"
+ building_events.12.desc: "Our trade advisors report that [Root.GetName] would be a excellent place for a market. Failure to capitalise on this may harm our future prospects."
+ building_events.12.option.a: "Build a market"
+ building_events.12.option.b: "Encourage manufacturing instead"
+ 
+ building_events.13.title: "[Root.GetName]'s Watering Hole"
+ building_events.13.desc: "Many peasants in [Root.GetName] have requested that their local tavern be refurbished, as it has reached a state of disrepair over the years."
+ building_events.13.option.a: "Restore the tavern"
+ building_events.13.option.b: "Provide other avenues for respite instead"
+ 
+ building_events.14.title: "Strategic Report for [Root.GetName]"
+ building_events.14.desc: "Our trade advisors report that [Root.GetName] would be a excellent place for a workshop. Failure to capitalise on this may harm our future prospects."
+ building_events.14.option.a: "Build a workshop"
+ building_events.14.option.b: "Encourage other forms of manufacturing instead"
+ 
+ building_events.15.title: "Defences for [Root.GetName]"
+ building_events.15.desc: "A strategic review of [Root.GetName] has revealed that they lack any measurable form of defence, and could become an vunerability if we were to engage in an war."
+ building_events.15.option.a: "Construct fortifications"
+ building_events.15.option.b: "Save the gold instead"
+ 
+ # Province - Random
+ random_province.1.title: "Upset in [Root.GetName]"
+ random_province.1.desc: "The people of [Root.GetName] have become discontent with their [Root.Monarch.GetName], and demand more autonomy over the land they reside on."
+ random_province.1.option.a: "Permit them more autonomy"
+ random_province.1.option.b: "Deny their request"
+ random_province.1.option.c: "Deny them, and punish them for their insolence"
+ 
+ incensed_people: "Incensed People"
+ desc_incensed_people: "We have used force on these people, and they resent us for that."
+ 
+ denied_autonomy: "Denied Autonomy"
+ desc_denied_autonomy: "We have denied the people of their autonomy, and they resent us for that."
+ 
+ random_province.2.title: "A Steamy Inn"
+ random_province.2.desc: "A local inn in [Root.Name] has become known for it's elicit nature, and rumours are it provides sexual services for those who seek such carnal desires. Reports by our enforcers have finally confirmed these rumours, and action should be taken before this business gets out of hand."
+ random_province.2.option.a: "Permit it, as long as we get a cut"
+ random_province.2.option.b: "Shut it down"
+ random_province.2.option.c: "Shut it down and punish the owners"
+ 
+ sexually_frustrated: "Sexually Frustrated"
+ desc_sexually_frustrated: "We have denied the people of this settlement an outlet for their carnal desires."
+ 
+ random_province.3.title: "Brawling Pit"
+ random_province.3.desc: "A brawling pit in [Root.GetName] has become well-known for intense brawls, and many have travelled there to participate. However, many of our soldiers have become deserting their posts to do so, threatening the stability of our lands."
+ random_province.3.option.a: "Look the other way"
+ random_province.3.option.b: "Punish the soldiers"
+ random_province.3.option.c: "Punish the owners of the pit"
+ 
  # Monarch Death
  monarch_death.1.title: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has died!"
  monarch_death.1.desc: "The illustrious rule of [Root.Monarch.GetTitle] [Root.Monarch.GetName] has come to an end."
@@ -35,30 +139,6 @@
  story.2.desc: "The undead have begun taking control of our holdings, driving our people away. If we do not stem the tide of these foul beasts, who knows what could happen to us."
  story.2.option.a: "They will be purged!"
  
- story.3.title: ""
- story.3.desc: ""
- story.3.option.a: ""
- 
- story.4.title: ""
- story.4.desc: ""
- story.4.option.a: ""
- 
- story.5.title: ""
- story.5.desc: ""
- story.5.option.a: ""
- 
- story.6.title: ""
- story.6.desc: ""
- story.6.option.a: ""
- 
- story.7.title: ""
- story.7.desc: ""
- story.7.option.a: ""
- 
- story.8.title: ""
- story.8.desc: ""
- story.8.option.a: ""
- 
  # Dark Portal
  dark_portal.1.title: "The Orcish Horde"
  dark_portal.1.desc: "Hideous creatures have been sighted in the Blasted Lands, and have begun to form encampments there. Without resistance, they will soon sweep through our lands."
@@ -83,12 +163,16 @@
  first_war.5.desc: "More of our clansmen have left Draenor to travel through the Dark Portal and fight here on Azeroth. Zug Zug!"
  first_war.5.option.a: "The humans have no chance..."
  
- #RAZING AND SETTLING PROVINCES
- razing_settling.2.title: "To settle? Or to raze...?"
- razing_settling.2.desc: "Ravaged and depopulated, [From.GetName] presents us with an opportunity: settling it with our people will make us stronger, but is this province really suited to live in...?"
- razing_settling.2.option.a: "Do nothing, for the moment..."
- razing_settling.2.option.b: "Raze it to the ground!"
- razing_settling.2.option.c: "Settle [From.GetName] with our people!"
+ # Warband
+ warband_events.1.title: ""
+ warband_events.1.desc: ""
+ warband_events.1.option.a: ""
+ 
+ warband_events.2.title: "Occupation of [Root.GetName]"
+ warband_events.2.desc: "Ravaged and depopulated, [From.GetName] presents us with an opportunity: settling it with our people will make us stronger, but is this province really suited to live in...?"
+ warband_events.2.option.a: "Do nothing, for the moment..."
+ warband_events.2.option.b: "Raze it to the ground!"
+ warband_events.2.option.c: "Settle [From.GetName] with our people!"
  
  #SHIFTING OWNERSHIP OF PROVINCES
  
