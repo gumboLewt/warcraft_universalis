@@ -15,6 +15,9 @@
  shattrath: "Shattrath"
  icecrown_citadel: "Icecrown"
  
+ # Diplomatic Actions
+ WOW_IS_COMPATIBLE: "We are not diplomatically compatible."
+
  # Opinion Modifiers
  raided_by_orcs: "Raided by Orcs"
  

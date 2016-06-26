@@ -560,7 +560,7 @@ terrain
 	# Unique
 	burnt_earth 		= { type = burnt_earth		color = { 	25	 } }	
 	frozen_wastes		= { type = frozen_wastes	color = { 	26	 } }
-	capital		 	= { type = capital		color = { 	27	 } }
+	capital		 	    = { type = capital		color = { 	27	 } }
     floating		 	= { type = floating		color = { 	28	 } }
 }
 
