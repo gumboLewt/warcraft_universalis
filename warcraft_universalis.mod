@@ -48,5 +48,5 @@ tags=
 {
 	"Alternative History"
 }
-picture="image.png"
+picture="picture.jpg"
 supported_version = "1.17.*"
