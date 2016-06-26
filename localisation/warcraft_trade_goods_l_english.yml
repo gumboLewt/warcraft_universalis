@@ -1,10 +1,15 @@
 ﻿l_english:
  # WOOD & ORGANIC
  ashenvale_lumber: "Ashenvale Lumber"
+ ashenvale_lumberDESC: "Lumber from the forests of Ashenvale."
  lumber: "Lumber"
+ lumberDESC: "Suitable lumber for construction purposes."
  kypari: "Kypari Amber"
+ kypariDESC: "Sap from a great Kypari tree."
  oil: "Oil"
+ oilDESC: "Oil, a crude form of energy for our war machines, and useful for fire-based weaponry."
  glowcap: "Glowcap Mushrooms"
+ glowcapDESC: "Mushrooms native to the marsh of Zangar. Emit a light glow."
  # Mines, METALS & ORES
  stone: "Stone"
  dark_iron: "Dark Iron"
