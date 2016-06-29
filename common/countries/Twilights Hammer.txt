@@ -4,7 +4,6 @@ graphical_culture = orcgfx
 
 color = { 9 144 122 }
 
-
 monarch_names = {
     "Den'him" = -20
 	"Kilthe" = 20

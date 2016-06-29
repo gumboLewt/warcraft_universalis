@@ -2,6 +2,16 @@
  # Place lines from vanilla localisations files that you want to override in here
  WORLD_YEAR: "$YEAR$ K.C."
  
+ # Advisors
+ philosopher: "Thinker"
+ natural_scientist: "Inventor"
+ theologian: "Devout"
+ inquisitor: "Zealot"
+ statesman: "Mediator"
+ colonial_governor: "Expeditionary Officer"
+ grand_captain: "Admiral"
+ fortification_expert: "Sapper"
+ 
  # Church Power (Augmentations)
  ASPECTS: "Augmentations"
  SHOW_ASPECTS: "Show Augmentations"

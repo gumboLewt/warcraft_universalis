@@ -23,7 +23,7 @@ spriteTypes = {
     
     spriteType = {
 		name = "GFX_advisor_artist"
-		texturefile = "gfx//interface//advisors//human_male_artist.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_artist.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -32,7 +32,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_philosopher"
-		texturefile = "gfx//interface//advisors//human_male_philosopher.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_philosopher.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -41,7 +41,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_natural_scientist"
-		texturefile = "gfx//interface//advisors//human_male_natural_scientist.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_natural_scientist.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -50,7 +50,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_theologian"
-		texturefile = "gfx//interface//advisors//human_male_theologian.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_theologian.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -59,7 +59,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_inquisitor"
-		texturefile = "gfx//interface//advisors//human_male_inquisitor.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_inquisitor.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -68,7 +68,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_master_of_mint"
-		texturefile = "gfx//interface//advisors//human_male_master_of_mint.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_master_of_mint.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -77,7 +77,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_treasurer"
-		texturefile = "gfx//interface//advisors//human_male_treasurer.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_treasurer.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -86,7 +86,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_statesman"
-		texturefile = "gfx//interface//advisors//human_male_statesman.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_statesman.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -95,7 +95,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_colonial_governor"
-		texturefile = "gfx//interface//advisors//human_male_colonial_governor.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_colonial_governor.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -104,7 +104,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_diplomat"
-		texturefile = "gfx//interface//advisors//human_male_diplomat.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_diplomat.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -113,7 +113,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_naval_reformer"
-		texturefile = "gfx//interface//advisors//human_male_naval_reformer.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_naval_reformer.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -122,7 +122,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_navigator"
-		texturefile = "gfx//interface//advisors//human_male_navigator.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_navigator.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -131,7 +131,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_trader"
-		texturefile = "gfx//interface//advisors//human_male_trader.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_trader.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -140,7 +140,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_spymaster"
-		texturefile = "gfx//interface//advisors//human_male_spymaster.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_spymaster.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -149,7 +149,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_grand_captain"
-		texturefile = "gfx//interface//advisors//human_male_grand_captain.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_grand_captain.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -158,7 +158,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_commandant"
-		texturefile = "gfx//interface//advisors//human_male_commandant.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_commandant.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -167,7 +167,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_army_organiser"
-		texturefile = "gfx//interface//advisors//human_male_army_organiser.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_army_organiser.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -176,7 +176,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_army_reformer"
-		texturefile = "gfx//interface//advisors//human_male_army_reformer.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_army_reformer.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -185,7 +185,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_recruitmaster"
-		texturefile = "gfx//interface//advisors//human_male_recruitmaster.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_recruitmaster.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -194,7 +194,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_fortification_expert"
-		texturefile = "gfx//interface//advisors//human_male_fortification_expert.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_fortification_expert.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -203,7 +203,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_quartermaster"
-		texturefile = "gfx//interface//advisors//human_male_quartermaster.tga"
+		texturefile = "gfx//interface//advisors//human//human_male_quartermaster.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -215,7 +215,7 @@ spriteTypes = {
     #-----------------
     spriteType = {
 		name = "GFX_advisor_artist_female"
-		texturefile = "gfx//interface//advisors//human_female_artist.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_artist.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -224,7 +224,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_philosopher_female"
-		texturefile = "gfx//interface//advisors//human_female_philosopher.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_philosopher.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -233,7 +233,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_natural_scientist_female"
-		texturefile = "gfx//interface//advisors//human_female_natural_scientist.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_natural_scientist.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -242,7 +242,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_theologian_female"
-		texturefile = "gfx//interface//advisors//human_female_theologian.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_theologian.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -251,7 +251,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_inquisitor_female"
-		texturefile = "gfx//interface//advisors//human_female_inquisitor.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_inquisitor.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -260,7 +260,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_master_of_mint_female"
-		texturefile = "gfx//interface//advisors//human_female_master_of_mint.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_master_of_mint.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -269,7 +269,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_treasurer_female"
-		texturefile = "gfx//interface//advisors//human_female_treasurer.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_treasurer.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -278,7 +278,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_statesman_female"
-		texturefile = "gfx//interface//advisors//human_female_statesman.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_statesman.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -287,7 +287,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_colonial_governor_female"
-		texturefile = "gfx//interface//advisors//human_female_colonial_governor.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_colonial_governor.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -296,7 +296,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_diplomat_female"
-		texturefile = "gfx//interface//advisors//human_female_diplomat.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_diplomat.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -305,7 +305,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_naval_reformer_female"
-		texturefile = "gfx//interface//advisors//human_female_naval_reformer.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_naval_reformer.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -314,7 +314,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_navigator_female"
-		texturefile = "gfx//interface//advisors//human_female_navigator.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_navigator.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -323,7 +323,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_trader_female"
-		texturefile = "gfx//interface//advisors//human_female_trader.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_trader.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -332,7 +332,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_spymaster_female"
-		texturefile = "gfx//interface//advisors//human_female_spymaster.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_spymaster.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -341,7 +341,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_grand_captain_female"
-		texturefile = "gfx//interface//advisors//human_female_grand_captain.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_grand_captain.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -350,7 +350,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_commandant_female"
-		texturefile = "gfx//interface//advisors//human_female_commandant.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_commandant.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -359,7 +359,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_army_organiser_female"
-		texturefile = "gfx//interface//advisors//human_female_army_organiser.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_army_organiser.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -368,7 +368,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_army_reformer_female"
-		texturefile = "gfx//interface//advisors//human_female_army_reformer.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_army_reformer.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -377,7 +377,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_recruitmaster_female"
-		texturefile = "gfx//interface//advisors//human_female_recruitmaster.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_recruitmaster.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -386,7 +386,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_fortification_expert_female"
-		texturefile = "gfx//interface//advisors//human_female_fortification_expert.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_fortification_expert.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -395,7 +395,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_advisor_quartermaster_female"
-		texturefile = "gfx//interface//advisors//human_female_quartermaster.tga"
+		texturefile = "gfx//interface//advisors//human//human_female_quartermaster.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
