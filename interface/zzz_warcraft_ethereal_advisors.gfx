@@ -1,0 +1,386 @@
+spriteTypes = {
+    #-----------------
+    # Male
+    #-----------------
+    
+    spriteType = {
+		name = "GFX_advisor_etherealgfx_artist"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_philosopher"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_theologian"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_inquisitor"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_treasurer"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_statesman"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_diplomat"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_navigator"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_trader"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_spymaster"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_grand_captain"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_commandant"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_army_organiser"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_army_reformer"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_quartermaster"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Female
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_etherealgfx_artist_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_philosopher_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_natural_scientist_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_theologian_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_inquisitor_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_master_of_mint_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_treasurer_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_statesman_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_colonial_governor_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_diplomat_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_naval_reformer_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_navigator_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_trader_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_spymaster_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_grand_captain_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_commandant_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_army_organiser_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_army_reformer_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_recruitmaster_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_fortification_expert_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_etherealgfx_quartermaster_female"
+		texturefile = "gfx//interface//advisors//mr_nibbles.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+}

@@ -1,19 +1,21 @@
 ﻿l_english:
  # Terrain
  burnt_earth: "Burnt Earth"
+ burnt_earth_desc: "This land is burnt by the turmoil of war. It will be a long time until anything grows naturally here again."
  frozen_wastes: "Frozen Wastes"
- 
- darnassus: "Darnassus"
- exodar: "Exodar"
- ironforge: "Ironforge"
- orgrimmar: "Orgrimmar"
- silvermoon: "Silvermoon"
- stormwind: "Stormwind"
- thunder_bluff: "Thunder Bluff"
- undercity: "Undercity"
- dalaran: "Dalaran"
- shattrath: "Shattrath"
- icecrown_citadel: "Icecrown"
+ frozen_wastes_desc: "Chilling winds blow across the frozen tundra of this land. This is not a place mere mortals should be inhabiting."
+ corrupted_earth: "Hallowed"
+ corrupted_earth_desc: "The earth itself is hallowed, forever tainted by the dead."
+ fel_touched_earth: "Fel-touched"
+ fel_touched_earth_desc: "The earth itself is fel-touched, tainted forever by the Legion and it's beasts."
+ capital: "City"
+ capital_desc: "This land is home to a city, a monument to a race's achievement."
+ floating: "Sky"
+ floating_desc: "This land is suspended in the sky through some means, be it arcane or elemental."
+ nether_touched_earth: "Nether-touched"
+ nether_touched_earth_desc: "This land has been exposed to the Nether."
+ arcane_touched_earth: "Arcane-touched"
+ arcane_touched_earth_desc: "This ladn has been altered by exposure to the Arcane."
  
  # Colonial Nations
  colonial_outland: "Outland"

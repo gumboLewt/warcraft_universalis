@@ -91,33 +91,83 @@ spriteTypes = {
 	# 332 x 84
 	spriteType = {
 		name = "GFX_colony_terrain_burnt_earth"
-		texturefile = "gfx/interface/colony_terrain_burnt_earth.dds"
+		texturefile = "gfx//interface//terrain//colony_terrain_burnt_earth.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_colony_terrain_silvermoon"
-		texturefile = "gfx/interface/colony_terrain_silvermoon.dds"
+		name = "GFX_colony_terrain_capital"
+		texturefile = "gfx//interface//terrain//colony_terrain_capital.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_colony_terrain_frozen_wastes"
-		texturefile = "gfx/interface/colony_terrain_frozen_wastes.dds"
+		texturefile = "gfx//interface//terrain//colony_terrain_frozen_wastes.dds"
 	}
 	
+    spriteType = {
+		name = "GFX_colony_terrain_corrupted_earth"
+		texturefile = "gfx//interface//terrain//colony_terrain_corrupted_earth.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_colony_terrain_fel_touched_earth"
+		texturefile = "gfx//interface//terrain//colony_terrain_fel_touched_earth.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_colony_terrain_floating"
+		texturefile = "gfx//interface//terrain//colony_terrain_floating.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_colony_terrain_nether_touched_earth"
+		texturefile = "gfx//interface//terrain//colony_terrain_nether_touched_earth.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_colony_terrain_arcane_touched_earth"
+		texturefile = "gfx//interface//terrain//colony_terrain_arcane_touched_earth.dds"
+	}
+    
 	# Combat
 	# 388 x 80
 	spriteType = {
 		name = "GFX_combat_terrain_burnt_earth"	
-		texturefile = "gfx//interface//combat_terrain_burnt_earth.dds"
+		texturefile = "gfx//interface//terrain//combat_terrain_burnt_earth.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_combat_terrain_silvermoon"	
-		texturefile = "gfx//interface//combat_terrain_silvermoon.dds"
+		name = "GFX_combat_terrain_capital"	
+		texturefile = "gfx//interface//terrain//combat_terrain_capital.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_combat_terrain_frozen_wastes"	
-		texturefile = "gfx//interface//combat_terrain_frozen_wastes.dds"
+		texturefile = "gfx//interface//terrain//combat_terrain_frozen_wastes.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_terrain_corrupted_earth"
+		texturefile = "gfx//interface//terrain//combat_terrain_corrupted_earth.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_terrain_fel_touched_earth"
+		texturefile = "gfx//interface//terrain//combat_terrain_fel_touched_earth.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_terrain_floating"
+		texturefile = "gfx//interface//terrain//combat_terrain_floating.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_terrain_nether_touched_earth"
+		texturefile = "gfx//interface//terrain//combat_terrain_nether_touched_earth.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_terrain_arcane_touched_earth"
+		texturefile = "gfx//interface//terrain//combat_terrain_arcane_touched_earth.dds"
 	}
 }
