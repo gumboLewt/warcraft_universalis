@@ -15,6 +15,9 @@
  shattrath: "Shattrath"
  icecrown_citadel: "Icecrown"
  
+ # Colonial Nations
+ colonial_outland: "Outland"
+ 
  # Diplomatic Actions
  WOW_IS_COMPATIBLE: "We are not diplomatically compatible."
 

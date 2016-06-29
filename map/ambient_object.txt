@@ -150,7 +150,7 @@ type={
 type={
 	type="outland_dark_portal"
 	use_animation=no
-	scale=0.250000
+	scale=0.500000
 	time_duration=300.000000
 	always_visible=yes
 	visible_in_all_map_modes=yes
@@ -164,24 +164,24 @@ type={
 			0.000 10.000 0.000 
 		}
 	}
-}
-type={
-	type="outland_dark_portal"
-	use_animation=no
-	scale=0.5
-	time_duration=300.000000
-	always_visible=yes
-	visible_in_all_map_modes=yes
 	object={
 		name="outland_dark_portal_outland"
 		hidden_on_start=no
 		position={
-			5472.000 0.000 346.000 
+			5478.000 0.000 349.000 
 		}
 		rotation={
 			0.000 90.000 0.000 
 		}
 	}
+}
+type={
+	type="outland_dark_portal"
+	use_animation=no
+	scale=0.500000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
 }
 type={
 	type="dalaran_dome_barrier"

@@ -179,4 +179,27 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2077;1086;;;-1;-1;-1;-1;Camp Nooka Nooka to The Secret Aerie
 1726;1727;sea;;-1;-1;-1;-1;The Arborteum to Windward Isle
 1730;1737;sea;;-1;-1;-1;-1;Terrace of Ten Thunders to Thunder Islands
+1673;2036;sea;;-1;-1;-1;-1;Netherwing Ledge to Netherwing Fields
+2040;1651;sea;;-1;-1;-1;-1;Skettis to Terokk's Rest
+1636;1627;;;-1;-1;-1;-1;Southwind Celft to Halaa
+1627;1629;;;-1;-1;-1;-1;Halaa to Laughing Skull Ruins
+1627;1626;;;-1;-1;-1;-1;Halaa to Sunspring Post
+1627;1628;;;-1;-1;-1;-1;Halaa to Garadar
+1628;1629;;;-1;-1;-1;-1;Garadar to Laughing Skull Ruins
+1628;1631;;;-1;-1;-1;-1;Garadar to Ring of Trials
+1617;1680;;;-1;-1;-1;-1;Orebor Harborage to Forge Camp Terror
+1619;1687;;;-1;-1;-1;-1;Blade's Edge Foothills to Thunderlord Stronghold
+1685;2053;;;-1;-1;-1;-1;Bladespire Hold to Raven's Pass
+2053;1683;;;-1;-1;-1;-1;Raven's Pass to Raven's Wood
+1680;1689;;;-1;-1;-1;-1;Forge Camp Terror to Sylvanaar
+1689;1688;;;-1;-1;-1;-1;Sylvanaar to Bloodmaul Outpost
+1690;2055;;;-1;-1;-1;-1;Death's Door to Singing Ridge
+1690;1692;;;-1;-1;-1;-1;Death's Door to Mok'nathai
+1690;2054;;;-1;-1;-1;-1;Death's Door to Razor Ridge
+2101;1696;;;-1;-1;-1;-1;Crystal Passage to Bash'ir Landing
+1593;2031;;;-1;-1;-1;-1;Throne of Kil'jaden to Forge Camp Rage
+1593;2030;;;-1;-1;-1;-1;Throne of Kil'jaden to Forge Camp Mageddon
+1593;2032;;;-1;-1;-1;-1;Throne of Kil'jaden to Invasion Point Annihilator
+1673;2036;;;-1;-1;-1;-1;
+
 -1;-1;;-1;-1;-1;-1;-1;-1
