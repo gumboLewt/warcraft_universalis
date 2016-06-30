@@ -1,3 +1,5 @@
+namespace = war_depopulation
+
 province_event = {
 	id = war_depopulation.1
 	title = war_depopulation.1.title

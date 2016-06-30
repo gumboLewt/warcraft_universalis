@@ -11,6 +11,62 @@
  warlust: "Warlust"
  desc_warlust: "We ache for war, and thus our neighbours pay the price."
  
+ # Civilized
+ ruler_education_adm_1_civilized: "Architecture"
+ desc_ruler_education_adm_1_civilized: "Our ruler favoured the administrative lessons about architecture."
+ 
+ ruler_education_adm_2_civilized: "Production"
+ desc_ruler_education_adm_2_civilized: "Our ruler favoured the administrative lessons about production."
+ 
+ ruler_education_adm_3_civilized: "Delegation"
+ desc_ruler_education_adm_3_civilized: "Our ruler favoured the administrative lessons about delegation."
+ 
+ ruler_education_dip_1_civilized: "Appearance"
+ desc_ruler_education_dip_1_civilized: "Our ruler favoured the diplomatic lessons about proper appearance."
+ 
+ ruler_education_dip_2_civilized: "Reputation"
+ desc_ruler_education_dip_2_civilized: "Our ruler favoured the diplomatic lessons concerning reputation."
+ 
+ ruler_education_dip_3_civilized: "Negotiation"
+ desc_ruler_education_dip_3_civilized: "Our ruler favoured the diplomatic lessons about negotiation."
+ 
+ ruler_education_mil_1_civilized: "Traditions"
+ desc_ruler_education_mil_1_civilized: "Our ruler favoured the military lessons about military traditions."
+ 
+ ruler_education_mil_2_civilized: "Provisions"
+ desc_ruler_education_mil_2_civilized: "Our ruler favoured the military lessons concerning military provisions."
+ 
+ ruler_education_mil_3_civilized: "Naval Warfare"
+ desc_ruler_education_mil_3_civilized: "Our ruler favoured the military lessons about naval warfare."
+ 
+ # Savage
+ ruler_education_adm_1_savage: "Construction"
+ desc_ruler_education_adm_1_savage: "Our ruler favoured the administrative lessons about construction."
+ 
+ ruler_education_adm_2_savage: "Production"
+ desc_ruler_education_adm_2_savage: "Our ruler favoured the administrative lessons about production."
+ 
+ ruler_education_adm_3_savage: "Delegation"
+ desc_ruler_education_adm_3_savage: "Our ruler favoured the administrative lessons about delegation."
+ 
+ ruler_education_dip_1_savage: "Appearance"
+ desc_ruler_education_dip_1_savage: "Our ruler favoured the diplomatic lessons about fearsome appearance."
+ 
+ ruler_education_dip_2_savage: "Reputation"
+ desc_ruler_education_dip_2_savage: "Our ruler favoured the diplomatic lessons concerning reputation."
+ 
+ ruler_education_dip_3_savage: "Negotiation"
+ desc_ruler_education_dip_3_savage: "Our ruler favoured the diplomatic lessons about negotiation."
+ 
+ ruler_education_mil_1_savage: "Traditions"
+ desc_ruler_education_mil_1_savage: "Our ruler favoured the military lessons about our war traditions."
+ 
+ ruler_education_mil_2_savage: "Provisions"
+ desc_ruler_education_mil_2_savage: "Our ruler favoured the military lessons concerning war provisions."
+ 
+ ruler_education_mil_3_savage: "Naval Warfare"
+ desc_ruler_education_mil_3_savage: "Our ruler favoured the military lessons about naval warfare."
+ 
  #-----------------------------------------------
  # Opinion Modifiers
  #-----------------------------------------------

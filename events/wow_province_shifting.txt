@@ -1,5 +1,4 @@
-#SHIFTING OWNERSHIP OF PROVINCES
-
+namespace = shifting_ownership
 
 province_event = {
 	id = shifting_ownership.0
