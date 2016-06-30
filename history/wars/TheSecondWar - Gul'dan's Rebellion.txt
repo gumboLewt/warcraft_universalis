@@ -1,6 +1,6 @@
 name = "Desertion of Gul'dan"
 war_goal = {
-	war_goal = take_capital_disloyal
+	type = take_capital_disloyal
 	casus_belli = cb_disloyal_vassal
 	tag = A42
 }

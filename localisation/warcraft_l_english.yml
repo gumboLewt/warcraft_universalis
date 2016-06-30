@@ -1759,6 +1759,8 @@
  horde_kingdom_ruler: "King"
  horde_kingdom_ruler_female: "Queen"
  
+ CHEIFESS: "Chiefess"
+ 
  #-----------------------------------------------
  # Religions
  #-----------------------------------------------

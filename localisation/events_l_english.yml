@@ -193,12 +193,12 @@
  #-----------------------------------------------
  # Shifting Ownership
  #-----------------------------------------------
- shifting_ownership.1.title: "The issue of [From.GetName]"
- shifting_ownership.1.desc: "[From.GetName] has been successfully taken from our enemies. Should we consider it ours from now on...?"
- shifting_ownership.1.option.a: "This province is irrelevant, for the moment..."
- shifting_ownership.1.option.b: "[From.GetName] will be a fine addition to our land."
- shifting_ownership.1.option.c: "Our people in [From.GetName] need protection!"
- shifting_ownership.1.option.d: "[From.GetName] is rightfully ours!"
+ shifting_ownership.2.title: "The issue of [From.GetName]"
+ shifting_ownership.2.desc: "[From.GetName] has been successfully taken from our enemies. Should we consider it ours from now on...?"
+ shifting_ownership.2.option.a: "This province is irrelevant, for the moment..."
+ shifting_ownership.2.option.b: "[From.GetName] will be a fine addition to our land."
+ shifting_ownership.2.option.c: "Our people in [From.GetName] need protection!"
+ shifting_ownership.2.option.d: "[From.GetName] is rightfully ours!"
  
  #-----------------------------------------------
  # Blood of Mannaroth

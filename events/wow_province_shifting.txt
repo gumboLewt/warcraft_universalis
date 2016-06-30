@@ -1,10 +1,9 @@
 namespace = shifting_ownership
 
 province_event = {
-	id = shifting_ownership.0
-
-	title = shifting_ownership.0
-	desc = shifting_ownership.0
+	id = shifting_ownership.1
+	title = shifting_ownership.1.title
+	desc = shifting_ownership.1.desc
 	picture = ANGRY_MOB_eventPicture # Placeholder
 
 	hidden = yes
@@ -21,68 +20,71 @@ province_event = {
 				owner = { is_subject = no }
 			}
 		}
-		
-		#Conditions for the controller to take ownership
-		#of the province outside of a peace deal
-		#OR = {
-		#	controller = { is_core = ROOT }
-		#	AND = {
-		#		controller = { is_claim = ROOT }
-		#		controller = { NOT = { has_opinion = { who = owner value = 50 } } }
-		#	}
-		#	controller = { NOT = { has_opinion = { who = owner value = -50 } } }
-		#}
 	}
 
 	mean_time_to_happen = {
-
 		months = 8
 
-		modifier = { #Border provinces
-			controller = { owns_or_vassal_of = { any_neighbor_province = ROOT } }
+        # Border provinces
+		modifier = { 
+			controller = { 
+                owns_or_vassal_of = { 
+                    any_neighbor_province = ROOT 
+                }
+            }
 			factor = 0.5
 		}
-		modifier = { #Isolated provinces
-			NOT = { owner = { owns_or_vassal_of = { any_neighbor_province = ROOT } } }
+        
+        # Isolated provinces
+		modifier = {
+			NOT = { 
+                owner = { 
+                    owns_or_vassal_of = { 
+                        any_neighbor_province = ROOT 
+                    } 
+                } 
+            }
 			factor = 0.5
-			}
+        }
+            
 		modifier = { #Legitimate claims
 			is_core = controller
 			factor = 0.5
 		}
+        
 		modifier = { #Popular resistance
 			is_core = owner
 			factor = 1.5
 		}
+        
 		modifier = {
-			has_owner_culture = yes
+            has_owner_culture = yes
 			factor = 1.5
-			}
+        }
 
 		modifier = {
 			has_owner_religion = yes
 			factor = 1.5
-			}
-
+        }
 	}
 
 	immediate = {
-		controller = { country_event = { id = shifting_ownership.1 } }
+		controller = { 
+            country_event = { id = shifting_ownership.2 } 
+        }
 	}
 
 
 	option = {
-		name = shifting_ownership.0.a
+		name = shifting_ownership.1.option.a
 	}
-
 }
 
 
 country_event = {
-	id = shifting_ownership.1
-
-	title = shifting_ownership.1.title
-	desc = shifting_ownership.1.desc
+	id = shifting_ownership.2
+	title = shifting_ownership.2.title
+	desc = shifting_ownership.2.desc
 	picture = ANGRY_MOB_eventPicture # Placeholder
 
 	is_triggered_only = yes
@@ -90,11 +92,10 @@ country_event = {
 	#ROOT - controller of the province
 	#FROM - province that fired the event
 
-
-	option = {#This province is irrelevant for the moment...
-		name = shifting_ownership.1.option.a
-
-
+    #This province is irrelevant for the moment...
+	option = {
+		name = shifting_ownership.2.option.a
+        
 		ai_chance = {
         	factor = 1
 			#Isolated provinces
@@ -110,30 +111,30 @@ country_event = {
 				FROM = { has_port = no }
 				factor = 2
 			}
-			#Likes the enemy
-			modifier = {
-				FROM = { owner = { { reverse_has_opinion = { who = ROOT value = 0 } } } }
-				factor = 2
-			}
-			modifier = {
-				FROM = { owner = { { reverse_has_opinion = { who = ROOT value = 50 } } } }
-				factor = 2
-			}
-			modifier = {
-				FROM = { owner = { { reverse_has_opinion = { who = ROOT value = 100 } } } }
-				factor = 2
-			}
-			modifier = {
-				FROM = { owner = { { reverse_has_opinion = { who = ROOT value = 150 } } } }
-				factor = 2
-			}
-    	}
+            
+            modifier = {
+                FROM = { owner = { reverse_has_opinion = { who = ROOT value = 0 } } }
+                factor = 2
+            }
+            modifier = {
+                FROM = { owner = { reverse_has_opinion = { who = ROOT value = 50 } } }
+            factor = 2
+            }
+            modifier = {
+                FROM = { owner = { reverse_has_opinion = { who = ROOT value = 100 } } }
+                factor = 2
+            }
+            modifier = {
+                FROM = { owner = { reverse_has_opinion = { who = ROOT value = 150 } } }
+                factor = 2
+            }
+        }
 
 		#FROM = { province_event = { id = shifting_ownership.2 } }
 	}
 
 	option = {#[From.GetName] will be a fine addition to our land.
-		name = shifting_ownership.1.option.b
+		name = shifting_ownership.2.option.b
 
 		trigger = {
 			#Controller isn't a lawful ruler of the province and doesn't have similarities with the local population
@@ -433,7 +434,7 @@ country_event = {
 	}
 
 	option = {#Our people in [From.GetName] need protection!
-		name = shifting_ownership.1.option.c
+		name = shifting_ownership.2.option.c
 
 		trigger = {
 			FROM = {#Controller has similarities with the local population but isn't a lawful ruler of the province
@@ -758,7 +759,7 @@ country_event = {
 	}
 
 	option = {#[From.GetName] is rightfully ours!
-		name = shifting_ownership.1.option.d
+		name = shifting_ownership.2.option.d
 
 		trigger = {
 			#Controller is a lawful ruler of the province
@@ -895,7 +896,4 @@ country_event = {
 		ROOT = { add_war_exhaustion = -1 }
 
 	}
-
-
 }
-

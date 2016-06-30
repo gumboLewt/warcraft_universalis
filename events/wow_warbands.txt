@@ -1,3 +1,4 @@
+namespace = warband_events
 
 # Hidden
 province_event = {

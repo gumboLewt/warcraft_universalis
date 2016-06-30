@@ -4,7 +4,6 @@ mercantilism 		= 0.1
 technology_group 	= tech_elemental
 religion			= religion_earth
 primary_culture 	= culture_earth
-add_accepted_culture = bog_beast
 capital 			= 1
 
 546.1.1 = { 
