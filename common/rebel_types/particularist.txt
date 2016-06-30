@@ -4,6 +4,8 @@
 ######################################################################
 particularist_rebels = {
 	
+	color = { 120 195 120 }
+	
 	area = nation 					# Stays within the nation
 	government = any				# Don't care about gov type				
 	defection = none				# Will not defect
@@ -58,7 +60,6 @@ particularist_rebels = {
 			religion = owner
 		}
 
-
 		modifier = {
 			factor = 1.25
 			owner = { 
@@ -94,6 +95,20 @@ particularist_rebels = {
 			owner = { 
 				num_of_cities = 50
 			}
+		}
+		modifier = {
+			factor = 2
+            
+			owner = { 
+                OR = {
+                    government = warband_gov
+                    government = expeditionary_force
+                    government = cult_gov
+                    government = religious_tribe
+                    government = mercantile_tribe
+                    government = war_tribe
+                }
+            }
 		}
 	}
  

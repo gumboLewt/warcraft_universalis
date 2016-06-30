@@ -54,22 +54,22 @@ NDefines.NFrontend.CAMERA_START_X = 4000.0
 NDefines.NFrontend.CAMERA_END_X = 4000.0
 NDefines.NFrontend.CAMERA_LOOKAT_X = 4000.0
 
-NDefines.NCountry.PS_BUY_IDEA = 200
-NDefines.NCountry.PS_ADVANCE_TECH = 400
-NDefines.NCountry.MAX_CROWN_COLONIES = 0
+NDefines.NCountry.PS_BUY_IDEA = 400
+NDefines.NCountry.PS_ADVANCE_TECH = 600
+NDefines.NCountry.MAX_CROWN_COLONIES = 999
 
-NDefines.NDiplomacy.TRUCE_YEARS = 1 								-- _DDEF_TRUCE_YEARS_; Years of Truce
-NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 3
+NDefines.NDiplomacy.TRUCE_YEARS = 2     -- Flat 2 years
+NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 0
 
-NDefines.NCountry.OVEREXTENSION_FACTOR = 0.1
+-- NDefines.NCountry.OVEREXTENSION_FACTOR = 0.1 -- 
 
-NDefines.NCountry.PS_MAKE_PROVINCE_CORE = 2
-NDefines.NCountry.PS_CHANGE_CULTURE = 2
+NDefines.NCountry.PS_MAKE_PROVINCE_CORE = 8     -- 80% of normal
+NDefines.NCountry.PS_CHANGE_CULTURE = 8
 NDefines.NCountry.MONTHS_TO_CORE = 12							-- How many months it will take to core a province.
 NDefines.NCountry.MONTHS_TO_CHANGE_CULTURE = 12					-- How many months it will take to change culture in a province, per development.
 
-NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.1		-- Multiplied with the province's development
-NDefines.NCountry.REVOLT_SIZE_BASE = 1
+NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.15		-- Multiplied with the province's development
+NDefines.NCountry.REVOLT_SIZE_BASE = 4
 
 NDefines.NMilitary.INFANTRY_SPEED = 2.0 
 NDefines.NMilitary.CAVALRY_SPEED = 2.0 

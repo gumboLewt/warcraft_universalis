@@ -3,6 +3,8 @@
 ######################################################################
 anti_tax_rebels = {
 	
+	color = { 40 140 210 }
+	
 	area = nation 					# Stays within the nation
 	government = any
 	defection = none					# Will defect to the "best" alternative.
@@ -49,7 +51,6 @@ anti_tax_rebels = {
 				war_exhaustion = 4
 			}
 		}
-
 		modifier = {
 			factor = 0.5
 			owner = {
@@ -109,6 +110,7 @@ anti_tax_rebels = {
 		every_owned_province = {
 			limit = {
 				has_rebel_faction = REB
+				is_overseas = no
 			}
 			add_local_autonomy = 20
 		}

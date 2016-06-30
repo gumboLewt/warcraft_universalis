@@ -1833,17 +1833,17 @@
  #-----------------------------------
  # Estates
  #-----------------------------------
- estate_nobles:0 "Nobility"
- estate_nobles_desc:0 "The wealthy and powerful of our realm form our nobility. Fickle creatures as they are, nobles will only follow orders once they've been sufficiently motivated."
+ estate_nobles: "Nobility"
+ estate_nobles_desc: "The wealthy and powerful of our realm form our nobility. Fickle creatures as they are, nobles will only follow orders once they've been sufficiently motivated."
  
- estate_clergy:0 "Clergy"
- estate_clergy_desc:0 "The devout and the downtrodden comprise our clergy. Charitable folks, they will help those who need it most. However, if we attempt to discourage worship of their favoured god, they will not go down without a fight."
+ estate_clergy: "Clergy"
+ estate_clergy_desc: "The devout and the downtrodden comprise our clergy. Charitable folks, they will help those who need it most. However, if we attempt to discourage worship of their favoured god, they will not go down without a fight."
  
- estate_merchants:0 "Merchants"
- estate_merchants_desc:0 "The buyers and sellers of our realm. Merchants care for one thing only, money and will persue its accumlation without undue vigor. Attempting to seperate a merchant and his wealth is not advised."
+ estate_merchants: "Merchants"
+ estate_merchants_desc: "The buyers and sellers of our realm. Merchants care for one thing only, money and will persue its accumlation without undue vigor. Attempting to seperate a merchant and his wealth is not advised."
  
- estate_commoners:0 "Commoners"
- estate_commoners_desc:0 "The common folk. A wide and unorganised group, commoners will rare want for much and are often satisfied if the status quo is not distrubed. However, if times get particularly tough, they will resent their overlords and plot rebellion."
+ estate_commoners: "Commoners"
+ estate_commoners_desc: "The common folk. A wide and unorganised group, commoners will rare want for much and are often satisfied if the status quo is not distrubed. However, if times get particularly tough, they will resent their overlords and plot rebellion."
  
  estate_tribes: "Tribes"
  estate_tribes_desc: ""
@@ -1860,150 +1860,150 @@
  estate_magisters: "Magisters"
  estate_magisters_desc: ""
  
- COUNCIL_GOAL_NOTICE:0 "\nYour ruler will have to agree to an action petitioned by the nobility of [Root.GetName]. If [Root.Monarch.GetSheHe] succeeds, the loyalty of the Nobles will go up §G30%§!, if [Root.Monarch.GetSheHe] fails, the loyalty of the Nobles will do down by §R-10%§!."
+ COUNCIL_GOAL_NOTICE: "\nYour ruler will have to agree to an action petitioned by the nobility of [Root.GetName]. If [Root.Monarch.GetSheHe] succeeds, the loyalty of the Nobles will go up §G30%§!, if [Root.Monarch.GetSheHe] fails, the loyalty of the Nobles will do down by §R-10%§!."
  
  #-----------------------------------
  # Estate Influences
  #-----------------------------------
 # Shared
- EST_VAL_ENTREATED_INFLUENCE:0 "Entreated:0 §Y$VAL$%§!"
- EST_VAL_OUSTED_INFLUENCE:0 "Ousted:0 §Y$VAL$%§!"
- EST_VAL_PREDICAMENT_INFLUENCE:0 "Ignored the Predicament:0 §Y$VAL$%§!"
+ EST_VAL_ENTREATED_INFLUENCE: "Entreated: §Y$VAL$%§!"
+ EST_VAL_OUSTED_INFLUENCE: "Ousted: §Y$VAL$%§!"
+ EST_VAL_PREDICAMENT_INFLUENCE: "Ignored the Predicament: §Y$VAL$%§!"
  
  # Nobles - Passive
- EST_VAL_ARISTOCRATIC_IG:0 "Aristocratic Ideas:0 §Y$VAL$%§!"
- EST_VAL_PLUTOCRATIC_IG:0 "Plutocratic Ideas:0 §Y$VAL$%§!"
- EST_VAL_CITIES:0 "Number of Cities:0 §Y$VAL$%§!"
- EST_VAL_REPUBLIC:0 "Republic:0 §Y$VAL$%§!"
+ EST_VAL_ARISTOCRATIC_IG: "Aristocratic Ideas: §Y$VAL$%§!"
+ EST_VAL_PLUTOCRATIC_IG: "Plutocratic Ideas: §Y$VAL$%§!"
+ EST_VAL_CITIES: "Number of Cities: §Y$VAL$%§!"
+ EST_VAL_REPUBLIC: "Republic: §Y$VAL$%§!"
  
  # Nobles - Interactions
- EST_VAL_GRANTED_KNIGHTHOOD:0 "Granted Knighthood:0 §Y$VAL$%§!"
- EST_VAL_GRANTED_ADMIRALITY:0 "Granted Admiralship:0 §Y$VAL$%§!"
- EST_VAL_APPOINTED_HEIR_INFLUENCE:0 "Appointed Heir:0 §Y$VAL$%§!"
- EST_VAL_ABDICATED_THRONE_INFLUENCE:0 "Abdicated Throne:0 §Y$VAL$%§!"
+ EST_VAL_GRANTED_KNIGHTHOOD: "Granted Knighthood: §Y$VAL$%§!"
+ EST_VAL_GRANTED_ADMIRALITY: "Granted Admiralship: §Y$VAL$%§!"
+ EST_VAL_APPOINTED_HEIR_INFLUENCE: "Appointed Heir: §Y$VAL$%§!"
+ EST_VAL_ABDICATED_THRONE_INFLUENCE: "Abdicated Throne: §Y$VAL$%§!"
  
  # Clergy - Passive
- EST_VAL_RELIGIOUS_IG:0 "Religious Ideas:0 §Y$VAL$%§!"
- EST_VAL_INNOVATIVENESS_IG:0 "Innovativeness Ideas:0 §Y$VAL$%§!"
- EST_VAL_RELIGIOUS_UNITY:0 "Religious Unity:0 §Y$VAL$%§!"
+ EST_VAL_RELIGIOUS_IG: "Religious Ideas: §Y$VAL$%§!"
+ EST_VAL_INNOVATIVENESS_IG: "Innovativeness Ideas: §Y$VAL$%§!"
+ EST_VAL_RELIGIOUS_UNITY: "Religious Unity: §Y$VAL$%§!"
  
  # Clergy - Interactions
- EST_VAL_GRANTED_PRIESTHOOD:0 "Granted Priesthood:0 §Y$VAL$%§!"
- EST_VAL_FORCED_CONVERSION:0 "Forced Conversion:0 §Y$VAL$%§!"
- EST_VAL_SUPPORTED_HEIR:0 "Supported Heir:0 §Y$VAL$%§!"
+ EST_VAL_GRANTED_PRIESTHOOD: "Granted Priesthood: §Y$VAL$%§!"
+ EST_VAL_FORCED_CONVERSION: "Forced Conversion: §Y$VAL$%§!"
+ EST_VAL_SUPPORTED_HEIR: "Supported Heir: §Y$VAL$%§!"
  
  # Merchants - Passive
- EST_VAL_TRADE_IG:0 "Trade Ideas:0 §Y$VAL$%§!"
- EST_VAL_DIPLOMATIC_IG:0 "Diplomatic Ideas:0 §Y$VAL$%§!"
- EST_VAL_TRADE_INCOME:0 "Trade Income Percentage:0 §Y$VAL$%§!"
+ EST_VAL_TRADE_IG: "Trade Ideas: §Y$VAL$%§!"
+ EST_VAL_DIPLOMATIC_IG: "Diplomatic Ideas: §Y$VAL$%§!"
+ EST_VAL_TRADE_INCOME: "Trade Income Percentage: §Y$VAL$%§!"
  
  # Merchants - Interactions
- EST_VAL_GRANTED_TRADE_LICENSES:0 "Granted Trade Licenses:0 §Y$VAL$%§!"
- EST_VAL_APPOINTED_NAVAL_EXPLORER:0 "Appointed Explorer:0 §Y$VAL$%§!"
- EST_VAL_APPOINTED_LAND_EXPLORER:0 "Appointed Adventurer:0 §Y$VAL$%§!"
- EST_VAL_RESTRUCTURED_LOANS_INFLUENCE:0 "Restructured Loans:0 §Y$VAL$%§!"
+ EST_VAL_GRANTED_TRADE_LICENSES: "Granted Trade Licenses: §Y$VAL$%§!"
+ EST_VAL_APPOINTED_NAVAL_EXPLORER: "Appointed Explorer: §Y$VAL$%§!"
+ EST_VAL_APPOINTED_LAND_EXPLORER: "Appointed Adventurer: §Y$VAL$%§!"
+ EST_VAL_RESTRUCTURED_LOANS_INFLUENCE: "Restructured Loans: §Y$VAL$%§!"
  
  # Commoners - Passive
- EST_VAL_HUMANIST_IG:0 "Humanist Ideas:0 §Y$VAL$%§!"
- EST_VAL_QUANTITY_IG:0 "Quantity Ideas:0 §Y$VAL$%§!"
- EST_VAL_BASE_TAX:0 "Total Base Tax:0 §Y$VAL$%§!"
+ EST_VAL_HUMANIST_IG: "Humanist Ideas: §Y$VAL$%§!"
+ EST_VAL_QUANTITY_IG: "Quantity Ideas: §Y$VAL$%§!"
+ EST_VAL_BASE_TAX: "Total Base Tax: §Y$VAL$%§!"
  
  # Commoners - Interactions
- EST_VAL_GRANTED_LORDSHIP:0 "Granted Lordship:0 §Y$VAL$%§!"
- EST_VAL_HOSTED_TOURNAMENT_INFLUENCE:0 "Hosted Tournament:0 §Y$VAL$%§!"
- EST_VAL_ROYAL_SPEECH_INFLUENCE:0 "Royal Speech:0 §Y$VAL$%§!"
+ EST_VAL_GRANTED_LORDSHIP: "Granted Lordship: §Y$VAL$%§!"
+ EST_VAL_HOSTED_TOURNAMENT_INFLUENCE: "Hosted Tournament: §Y$VAL$%§!"
+ EST_VAL_ROYAL_SPEECH_INFLUENCE: "Royal Speech: §Y$VAL$%§!"
  
  #-----------------------------------
  # Estate Loyalty 
  #-----------------------------------
 # Shared
- EST_VAL_SOLICITED_INVESTMENT:0 "Solicited Investment:0 §Y$VAL$§!"
- EST_VAL_ENTREATED:0 "Entreated:0 §Y$VAL$§!"
- EST_VAL_OUSTED:0 "Ousted:0 §Y$VAL$§!"
- EST_VAL_GROVELED:0 "Groveled for funds:0 §Y$VAL$§!"
- EST_VAL_PREDICAMENT:0 "Solved the Predicament:0 §Y$VAL$§!"
+ EST_VAL_SOLICITED_INVESTMENT: "Solicited Investment: §Y$VAL$§!"
+ EST_VAL_ENTREATED: "Entreated: §Y$VAL$§!"
+ EST_VAL_OUSTED: "Ousted: §Y$VAL$§!"
+ EST_VAL_GROVELED: "Groveled for funds: §Y$VAL$§!"
+ EST_VAL_PREDICAMENT: "Solved the Predicament: §Y$VAL$§!"
  
  # Nobles - Passive
- EST_VAL_LEGITIMACY:0 "Legitimacy:0 §Y$VAL$§!"
- EST_VAL_REPUBLICAN_TRADITION:0 "Republican Tradition:0 §Y$VAL$§!"
- EST_VAL_DEVOTION:0 "Devotion:0 §Y$VAL$§!"
- EST_VAL_RULER_AGE:0 "Ruler Age:0 §Y$VAL$§!"
+ EST_VAL_LEGITIMACY: "Legitimacy: §Y$VAL$§!"
+ EST_VAL_REPUBLICAN_TRADITION: "Republican Tradition: §Y$VAL$§!"
+ EST_VAL_DEVOTION: "Devotion: §Y$VAL$§!"
+ EST_VAL_RULER_AGE: "Ruler Age: §Y$VAL$§!"
  
  # Nobles - Interactions
- EST_VAL_COUNCIL_REQUEST_SUCCESSFUL:0 "Acted on the council's request:0 §Y$VAL$§!"
- EST_VAL_COUNCIL_REQUEST_FAILURE:0 "Failed to uphold the council's request:0 §Y$VAL$§!"
- EST_VAL_APPOINTED_HEIR:0 "Appointed Heir:0 §Y$VAL$§!"
- EST_VAL_ABDICATED_THRONE:0 "Abdicated Throne:0 §Y$VAL$§!"
+ EST_VAL_COUNCIL_REQUEST_SUCCESSFUL: "Acted on the council's request: §Y$VAL$§!"
+ EST_VAL_COUNCIL_REQUEST_FAILURE: "Failed to uphold the council's request: §Y$VAL$§!"
+ EST_VAL_APPOINTED_HEIR: "Appointed Heir: §Y$VAL$§!"
+ EST_VAL_ABDICATED_THRONE: "Abdicated Throne: §Y$VAL$§!"
   
  # Clergy - Passive
- EST_VAL_CHURCHPOWER:0 "Church Power:0 §Y$VAL$§!"
- EST_VAL_FERVOR:0 "Fervor:0 §Y$VAL$§!"
- EST_VAL_PATRIARCH_AUTHORITY:0 "Devotion:0 §Y$VAL$§!"
- EST_VAL_PIETY:0 "Piety:0 §Y$VAL$§!"
- EST_VAL_INVESTED_PAPAL_INFLUENCE:0 "Invested Papal Influence:0 §Y$VAL$§!"
- EST_VAL_KARMA:0 "Karma:0 §Y$VAL$§!"
- EST_VAL_RELIGIOUS_UNITY_LOY:0 "Religious Unity:0 §Y$VAL$§!"
+ EST_VAL_CHURCHPOWER: "Church Power: §Y$VAL$§!"
+ EST_VAL_FERVOR: "Fervor: §Y$VAL$§!"
+ EST_VAL_PATRIARCH_AUTHORITY: "Devotion: §Y$VAL$§!"
+ EST_VAL_PIETY: "Piety: §Y$VAL$§!"
+ EST_VAL_INVESTED_PAPAL_INFLUENCE: "Invested Papal Influence: §Y$VAL$§!"
+ EST_VAL_KARMA: "Karma: §Y$VAL$§!"
+ EST_VAL_RELIGIOUS_UNITY_LOY: "Religious Unity: §Y$VAL$§!"
  
  # Clergy - Interactions
- EST_VAL_CULTIVATED_FAVOUR:0 "Cultivated Favour:0 §Y$VAL$§!"
+ EST_VAL_CULTIVATED_FAVOUR: "Cultivated Favour: §Y$VAL$§!"
  
  # Merchants - Passive
- EST_VAL_MERCHANTS:0 "Merchant Count:0 §Y$VAL$§!"
- EST_VAL_TRADING_BONUSES:0 "Number of Trading Bonuses:0 §Y$VAL$§!"
- EST_VAL_EMBARGOS:0 "Embargos:0 §Y$VAL$§!"
+ EST_VAL_MERCHANTS: "Merchant Count: §Y$VAL$§!"
+ EST_VAL_TRADING_BONUSES: "Number of Trading Bonuses: §Y$VAL$§!"
+ EST_VAL_EMBARGOS: "Embargos: §Y$VAL$§!"
  
  # Merchants - Interactions
- EST_VAL_RESTRUCTURED_LOANS:0 "Restructured Loans:0 §Y$VAL$§!"
- EST_VAL_DIVERTED_STOCK:0 "Diverted Stock:0 §Y$VAL$§!"
+ EST_VAL_RESTRUCTURED_LOANS: "Restructured Loans: §Y$VAL$§!"
+ EST_VAL_DIVERTED_STOCK: "Diverted Stock: §Y$VAL$§!"
  
  # Commoners - Passive
- EST_VAL_AUTONOMY:0 "Average Autonomy:0 §Y$VAL$§!"
- EST_VAL_PRESTIGE:0 "Prestige:0 §Y$VAL$§!"
- EST_VAL_STABILITY:0 "Stability:0 §Y$VAL$§!"
+ EST_VAL_AUTONOMY: "Average Autonomy: §Y$VAL$§!"
+ EST_VAL_PRESTIGE: "Prestige: §Y$VAL$§!"
+ EST_VAL_STABILITY: "Stability: §Y$VAL$§!"
  
  #-----------------------------------
  # Estate Territory
  #-----------------------------------
- EST_VAL_LARGE_REALM:0 "Large Realm:0 §Y$VAL$%§!"	
- EST_VAL_MEDIUM_REALM:0 "Medium Realm:0 §Y$VAL$%§!"	
- EST_VAL_UNIFIED_RELIGION:0 "Full Religious Unity:0 §Y$VAL$%§!"
+ EST_VAL_LARGE_REALM: "Large Realm: §Y$VAL$%§!"	
+ EST_VAL_MEDIUM_REALM: "Medium Realm: §Y$VAL$%§!"	
+ EST_VAL_UNIFIED_RELIGION: "Full Religious Unity: §Y$VAL$%§!"
 
  #-----------------------------------
  # Estate Interactions
  #-----------------------------------
- SOLICIT_INVESTMENT:0 "Solicit Investment"
- OUST_UNFAVOURABLES:0 "Oust Unfavourables"
- GROVEL_FOR_FUNDS:0 "Grovel for Funds"
+ SOLICIT_INVESTMENT: "Solicit Investment"
+ OUST_UNFAVOURABLES: "Oust Unfavourables"
+ GROVEL_FOR_FUNDS: "Grovel for Funds"
  
  # Nobles
- ASSEMBLE_COUNCIL:0 "Assemble Council"
- GRANT_KNIGHTHOOD:0 "Grant Knighthood"
- GRANT_ADMIRALITY:0 "Grant Admiralship"
- ENTREAT_NOBLES:0 "Entreat Nobles"
- APPOINT_HEIR:0 "Appoint Heir"
- ABDICATE_THRONE:0 "Abdicate Throne"
- APPOINT_COMMANDER:0 "Appoint Commander"
- CALL_BANNERS:0 "Rally Men"
+ ASSEMBLE_COUNCIL: "Assemble Council"
+ GRANT_KNIGHTHOOD: "Grant Knighthood"
+ GRANT_ADMIRALITY: "Grant Admiralship"
+ ENTREAT_NOBLES: "Entreat Nobles"
+ APPOINT_HEIR: "Appoint Heir"
+ ABDICATE_THRONE: "Abdicate Throne"
+ APPOINT_COMMANDER: "Appoint Commander"
+ CALL_BANNERS: "Rally Men"
 
  # Clergy
- GRANT_PRIESTHOOD:0 "Grant Priesthood"
- FORCE_CONVERSION:0 "Force Conversion"
- ENTREAT_CLERGY:0 "Entreat Clergy"
- CULTIVATE_FAVOUR:0 "Cultivate Favour"
- SUPPORT_HEIR:0 "Support Heir"
+ GRANT_PRIESTHOOD: "Grant Priesthood"
+ FORCE_CONVERSION: "Force Conversion"
+ ENTREAT_CLERGY: "Entreat Clergy"
+ CULTIVATE_FAVOUR: "Cultivate Favour"
+ SUPPORT_HEIR: "Support Heir"
  
  # Merchants
- GRANT_TRADE_LICENSES:0 "Grant Trade Licenses"
- APPOINT_NAVAL_EXPLORER:0 "Appoint Explorer"
- APPOINT_LAND_EXPLORER:0 "Appoint Adventurer"
- ENTREAT_MERCHANTS:0 "Entreat Merchants"
- RESTRUCTURE_LOANS:0 "Rebase Currency"
- DIVERT_STOCK:0 "Divert Stock"
+ GRANT_TRADE_LICENSES: "Grant Trade Licenses"
+ APPOINT_NAVAL_EXPLORER: "Appoint Explorer"
+ APPOINT_LAND_EXPLORER: "Appoint Adventurer"
+ ENTREAT_MERCHANTS: "Entreat Merchants"
+ RESTRUCTURE_LOANS: "Rebase Currency"
+ DIVERT_STOCK: "Divert Stock"
  
  # Commoners
- GRANT_LORDSHIP:0 "Grant Lordship"
- ENTREAT_COMMONERS:0 "Entreat Commoners"
- THROW_FESTIVAL:0 "Throw Festival"
- PUBLIC_SPEECH:0 "Public Speech"
- PROMISE_RELIEF:0 "Promise Relief"
+ GRANT_LORDSHIP: "Grant Lordship"
+ ENTREAT_COMMONERS: "Entreat Commoners"
+ THROW_FESTIVAL: "Throw Festival"
+ PUBLIC_SPEECH: "Public Speech"
+ PROMISE_RELIEF: "Promise Relief"
  

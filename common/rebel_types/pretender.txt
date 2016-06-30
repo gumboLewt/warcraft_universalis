@@ -3,6 +3,8 @@
 ######################################################################
 pretender_rebels = {
 	
+	color = { 179 51 51 }
+	
 	area = nation
 	government = monarchy
 	defection = none
@@ -57,7 +59,7 @@ pretender_rebels = {
 				aristocracy_ideas = 1
 			}
 		}
-		
+
 		modifier = {
 			factor = 5.0
 			owner = {
@@ -65,7 +67,7 @@ pretender_rebels = {
 				NOT = { republican_tradition = 0.40 }
 			}
 		}	
-		
+
 		modifier = {
 			factor = 30
 			owner = {
@@ -155,7 +157,28 @@ pretender_rebels = {
 				legitimacy = 75
 			}
 		}
-		
+
+        # Ruled with an iron fist
+        modifier = {
+			factor = 0.0
+			owner = { government = scourge_gov }
+		}
+        
+        # More likely to be overthrown
+        modifier = {
+			factor = 2
+            
+			owner = { 
+                OR = {
+                    government = warband_gov
+                    government = expeditionary_force
+                    government = cult_gov
+                    government = religious_tribe
+                    government = mercantile_tribe
+                    government = war_tribe
+                }
+            }
+		}
 	}
  
  	# This is checked for EACH province in the Area of Operations
@@ -210,9 +233,13 @@ pretender_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				OR = {
-					government = monarchy
-					government = republic
+				NOT = {
+					OR = {
+						government = scourge_gov
+						government = expeditionary_force
+						government = warband_gov
+                        government = cult_gov
+					}
 				}
 			}
 			change_government = REB
@@ -220,5 +247,6 @@ pretender_rebels = {
 		define_ruler = {
 			rebel = yes
 		}
+		kill_heir = yes
 	}
 }

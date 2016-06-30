@@ -3,6 +3,8 @@
 ######################################################################
 noble_rebels = {
 
+	color = { 179 75 75 }
+
 	area = nation 					# Stays within the nation
 	government = monarchy			# Likes monarchy
 	defection = none				# Does not defect
@@ -35,6 +37,7 @@ noble_rebels = {
 			factor = 0.01
 			is_overseas = yes
 		}
+		
 		modifier = {
 			factor = 0.0
 			owner = {
@@ -47,6 +50,11 @@ noble_rebels = {
 				government = republic
 				republican_tradition = 0.8
 			}
+		}
+        
+		modifier = {
+			factor = 10
+			has_estate = estate_nobles
 		}
 		
 		modifier = {
@@ -62,6 +70,14 @@ noble_rebels = {
 				government = republic
 				NOT = { republican_tradition = 0.66 }
 			}
+		}
+        
+        # Only allow for those with Nobles estate
+        modifier = {
+			factor = 0
+			owner = { 
+                has_estate = estate_nobles
+            }
 		}
 	}
  
@@ -113,6 +129,24 @@ noble_rebels = {
 	
 	# Country Scope	
 	demands_enforced_effect = {
+		if = {
+			limit = {
+				has_dlc = "The Cossacks"
+				has_estate = estate_nobles
+				NOT = {
+					has_estate_influence_modifier = {
+						estate = estate_nobles
+						modifier = EST_VAL_NOBLES_EXTORTED_RIGHTS
+					}
+				}
+			}
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = EST_VAL_NOBLES_EXTORTED_RIGHTS
+				influence = 15
+				duration = 5475
+			}
+		}
 		every_owned_province = {
 			limit = {
 				has_rebel_faction = REB

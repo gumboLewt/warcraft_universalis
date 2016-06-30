@@ -247,15 +247,15 @@
  #-----------------------------------------------
  wow_government.1.title: "The Education of [Root.Monarch.GetName]"
  wow_government.1.desc: "The previous [Root.Monarch.GetTitle] has passed away, it is time for [Root.GetName] to pick a new [Root.Monarch.GetTitle]. However, if the people think ill of the chosen [Root.Monarch.GetTitle], there is likely to be pretenders to the position."
- wow_government.1.option.a: "Focus on bureaucracy"
- wow_government.1.option.b: "Extol the virtues of diplomacy"
- wow_government.1.option.c: "Encourage shows of force"
+ wow_government.1.option.a: "An administrative [Root.Monarch.GetTitle]"
+ wow_government.1.option.b: "An diplomatic [Root.Monarch.GetTitle]"
+ wow_government.1.option.c: "An militaristic [Root.Monarch.GetTitle]"
  
  wow_government.2.title: "Ascension of [Root.Monarch.GetName]"
  wow_government.2.desc: "As the cycle of life continues, [Root.Monarch.GetName] has arisen to the position of [Root.Monarch.GetTitle] in [Root.GetName]. "
- wow_government.2.option.a: "Focus on the people"
- wow_government.2.option.b: "Extol the virtues of diplomacy"
- wow_government.2.option.c: "Stir bloodlust"
+ wow_government.2.option.a: "An administrative [Root.Monarch.GetTitle]"
+ wow_government.2.option.b: "An diplomatic [Root.Monarch.GetTitle]"
+ wow_government.2.option.c: "An militaristic [Root.Monarch.GetTitle]"
  
  #-----------------------------------------------
  # Overextension
