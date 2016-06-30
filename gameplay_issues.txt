@@ -1,3 +1,0 @@
-# This list is for gameplay flow issues
-
-- Released nations not released using release =, change cede_province to release = so technology levels are set correctly

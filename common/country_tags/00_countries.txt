@@ -322,8 +322,8 @@ B36 = "countries/Tidewalker.txt" # tech_depths
 B37 = "countries/Makraru.txt" # tech_depths
 B38 = "countries/Bogstrok.txt" # tech_depths
 E51 = "countries/Torn Fin.txt"
-E60 = "Countries/Rockpool.txt"
-F11 = "Countries/Redgill.txt"
+E60 = "countries/Rockpool.txt"
+F11 = "countries/Redgill.txt"
 F22 = "countries/Greengill.txt"
 F30 = "countries/Murkgill.txt"
 
