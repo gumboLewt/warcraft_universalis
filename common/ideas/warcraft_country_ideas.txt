@@ -964,11 +964,11 @@ goblin_ideas = {
 
 tauren_ideas = {
 	start = {
-		
+        stability_cost_modifier = -0.1
 	}
 
 	bonus = {
-		
+        tolerance_own = 1
 	}
 	
 	trigger = {
@@ -977,25 +977,26 @@ tauren_ideas = {
 	free = yes		#wibe added at load.
 	
 	tauren_ideas_1 = {
-	
+        production_efficiency = 0.1
 	}
 	tauren_ideas_2 = {
-	
+        diplomatic_reputation = 1
+
 	}
 	tauren_ideas_3 = {
-	
+        prestige = 1
 	}
 	tauren_ideas_4 = {
-	
+        development_cost = -0.1
 	}
 	tauren_ideas_5 = {
-	
+        global_colonial_growth = 25
 	}
 	tauren_ideas_6 = {
-	
+        land_morale = 0.15
 	}
 	tauren_ideas_7 = {
-	
+        religious_unity = 0.35
 	}
 }
 
