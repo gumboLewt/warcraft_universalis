@@ -56,6 +56,17 @@ ai_capitalist = {
 			factor = 1.25 
 			NOT = { num_of_cities = 3 }
 		}
+        modifier = {
+			factor = 2
+            culture_group = culture_group_goblin
+		}
+        modifier = {
+			factor = 1.1
+            OR = {
+                culture_group = culture_group_human
+                culture_group = culture_group_thalassian
+            }
+		}
 	}
 	icon = 2
 }
@@ -116,6 +127,14 @@ ai_diplomat = {
 			factor = 1.5
 			is_emperor = yes
 			num_of_cities = 10
+		}
+        modifier = {
+			factor = 1.1
+            OR = {
+                culture_group = culture_group_darnassian
+                culture_group = culture_group_draenei
+                culture_group = culture_group_tauren
+            }
 		}
 	}
 	icon = 3
@@ -185,6 +204,26 @@ ai_militarist = {
 		modifier = {
 			factor = 2
 			is_march = yes
+		}
+        modifier = {
+			factor = 1.1
+            OR = {
+                culture_group = culture_group_vrykul
+                culture_group = culture_group_orc
+                culture_group = culture_group_ogre
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll
+                culture_group = culture_group_aqir
+                culture_group = culture_group_demonic
+                culture_group = culture_group_satyr
+                culture_group = culture_group_naga
+                culture_group = culture_group_depths
+                culture_group = culture_group_undead
+            }
 		}
 	}
 	icon = 4

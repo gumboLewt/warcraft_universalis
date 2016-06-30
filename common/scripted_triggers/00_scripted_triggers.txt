@@ -80,3 +80,4 @@ is_otherworld = {
         technology_group = tech_elemental  
     }
 }
+

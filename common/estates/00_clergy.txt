@@ -1,0 +1,1100 @@
+estate_clergy =
+{
+	icon = 1
+	
+	color = { 235 235 113 }
+	
+	keep_on_conquest = no 							# Is estate kept in control of province on conquest?
+	always_remove_on_religious_conquest = yes 		# Estate will always be removed when conquered by a different religion than previous owner	
+	min_territory = 15 								# They want to control at least this % of the country's non-overseas development, if # of home provinces is above set amount
+	min_provinces_to_want_territory = 10			
+	min_autonomy = 25								# Min autonomy in estate provinces
+
+	trigger = {
+		always = yes
+	}
+	
+	# If true, province can be granted to estate
+	province_trigger = {
+		religion = ROOT
+	}
+	
+	autonomy_does_not_affect = local_tax_modifier
+
+	#############################
+	# Territory Modifiers
+	#############################
+	
+	#wanted_territory_modifier = {
+	#	desc = EST_VAL_POWERFUL_HOUSE	# Powerful House
+	#	trigger = {
+	#		OR = {
+	#			government = royal_house
+	#			government = great_house
+	#		}
+	#	}	
+	#	value = 10
+	#}
+	
+	#############################
+	# Country Modifiers
+	#############################
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		missionaries = 1
+		global_missionary_strength = 0.03
+		global_tax_modifier = 0.25
+	}
+	country_modifier_neutral = {
+		global_tax_modifier = 0.1
+	}	
+	country_modifier_angry = {
+		global_missionary_strength = -0.03
+		global_tax_modifier = -0.25
+	}	
+	
+	#############################
+	# Province Modifiers
+	#############################
+	# These do not scale, but only applied in provinces owned by the estate
+	province_modifier_happy = {
+		local_tax_modifier = 0.5
+		local_unrest = -5
+	}
+	province_modifier_neutral = {
+		local_tax_modifier = 0.25
+		local_unrest = -1
+	}	
+	province_modifier_angry = {
+		local_tax_modifier = -0.5
+		local_unrest = 5
+	}	
+	
+	#############################
+	# Influence modifiers
+	#############################
+	base_influence = 20
+	
+	# Disaster
+	#influence_modifier = {
+	#	desc = EST_VAL_OTHER_ESTATE_IN_POWER
+	#	trigger = {
+	#		OR = {
+	#			has_country_modifier = nobles_control_the_realm
+	#			has_country_modifier = merchants_control_the_realm
+	#			has_country_modifier = commoners_control_the_realm
+	#		}
+	#	}
+	#	influence = -20
+	#}
+	
+	# Religious
+	influence_modifier = {
+		desc = EST_VAL_RELIGIOUS_IG
+		trigger = {
+			has_idea_group = religious_ideas
+		}
+		influence = 5
+	}
+	
+	# Innovativeness
+	influence_modifier = {
+		desc = EST_VAL_INNOVATIVENESS_IG
+		trigger = {
+			has_idea_group = innovativeness_ideas
+		}
+		influence = -5
+	}
+	
+	# Religious Unity
+	influence_modifier = {
+		desc = EST_VAL_RELIGIOUS_UNITY
+		trigger = {
+			religious_unity = 0.9
+		}
+		influence = 10
+	}
+	
+	#############################
+	# Loyalty modifiers
+	#############################
+	# Disaster
+	#loyalty_modifier = {
+	#	desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+	#	trigger = {
+	#		OR = {
+	#			has_country_modifier = nobles_control_the_realm
+	#			has_country_modifier = merchants_control_the_realm
+	#			has_country_modifier = commoners_control_the_realm
+	#		}
+	#	}
+	#	loyalty = -20
+	#}
+	
+	# Church Power
+	loyalty_modifier = {
+		desc = EST_VAL_CHURCHPOWER
+		trigger = {
+			church_power = 100
+			NOT = { church_power = 125 }
+		}
+		loyalty = 2.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_CHURCHPOWER
+		trigger = {
+			church_power = 125
+			NOT = { church_power = 150 }
+		}
+		loyalty = 5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_CHURCHPOWER
+		trigger = {
+			church_power = 150
+			NOT = { church_power = 175 }
+		}
+		loyalty = 7.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_CHURCHPOWER
+		trigger = {
+			church_power = 175
+		}
+		loyalty = 10
+	}
+	
+	# Fervor
+	loyalty_modifier = {
+		desc = EST_VAL_FERVOR
+		trigger = {
+			fervor = 25
+			NOT = { fervor = 50 }
+		}
+		loyalty = 2.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_FERVOR
+		trigger = {
+			fervor = 50
+			NOT = { fervor = 75 }
+		}
+		loyalty = 5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_FERVOR
+		trigger = {
+			fervor = 75
+			NOT = { fervor = 90 }
+		}
+		loyalty = 7.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_FERVOR
+		trigger = {
+			fervor = 90
+		}
+		loyalty = 10
+	}
+	
+	# Patriarch Authority
+	loyalty_modifier = {
+		desc = EST_VAL_PATRIARCH_AUTHORITY
+		trigger = {
+			patriarch_authority = 0.25
+			NOT = { patriarch_authority = 0.5 }
+		}
+		loyalty = 2.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_PATRIARCH_AUTHORITY
+		trigger = {
+			patriarch_authority = 0.5
+			NOT = { patriarch_authority = 0.75 }
+		}
+		loyalty = 5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_PATRIARCH_AUTHORITY
+		trigger = {
+			patriarch_authority = 0.75
+			NOT = { patriarch_authority = 0.9 }
+		}
+		loyalty = 7.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_PATRIARCH_AUTHORITY
+		trigger = {
+			patriarch_authority = 0.9
+		}
+		loyalty = 10
+	}
+	
+	# Piety
+	loyalty_modifier = {
+		desc = EST_VAL_PIETY
+		trigger = {
+			piety = 0.25
+			NOT = { piety = 0.5 }
+		}
+		loyalty = 2.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_PIETY
+		trigger = {
+			piety = 0.5
+			NOT = { piety = 0.75 }
+		}
+		loyalty = 5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_PIETY
+		trigger = {
+			piety = 0.75
+			NOT = { piety = 0.9 }
+		}
+		loyalty = 7.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_PIETY
+		trigger = {
+			piety = 0.9
+		}
+		loyalty = 10
+	}
+	
+	# Invested Papal Influence
+	#	asoiaf_faith_of_the_seven
+	loyalty_modifier = {
+		desc = EST_VAL_INVESTED_PAPAL_INFLUENCE
+		trigger = {
+			invested_papal_influence = 25
+			NOT = { invested_papal_influence = 50 }
+		}
+		loyalty = 2.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_INVESTED_PAPAL_INFLUENCE
+		trigger = {
+			invested_papal_influence = 50
+			NOT = { invested_papal_influence = 75 }
+		}
+		loyalty = 5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_INVESTED_PAPAL_INFLUENCE
+		trigger = {
+			invested_papal_influence = 75
+			NOT = { invested_papal_influence = 100 }
+		}
+		loyalty = 7.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_INVESTED_PAPAL_INFLUENCE
+		trigger = {
+			invested_papal_influence = 100
+		}
+		loyalty = 10
+	}
+	
+	# Karma
+	#	asoiaf_lion_of_the_night
+	#	asoiaf_stone_cow_of_faros
+	loyalty_modifier = {
+		desc = EST_VAL_KARMA
+		trigger = {
+			karma = 25
+			NOT = { karma = 50 }
+		}
+		loyalty = 2.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_KARMA
+		trigger = {
+			karma = 50
+			NOT = { karma = 75 }
+		}
+		loyalty = 5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_KARMA
+		trigger = {
+			karma = 75
+			NOT = { karma = 90 }
+		}
+		loyalty = 7.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_KARMA
+		trigger = {
+			karma = 90
+		}
+		loyalty = 10
+	}
+	
+	# Religious Unity
+	loyalty_modifier = {
+		desc = EST_VAL_RELIGIOUS_UNITY_LOY
+		trigger = {
+			NOT = { religious_unity = 0.5 }
+			religious_unity = 0.3
+		}
+		loyalty = -5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_RELIGIOUS_UNITY_LOY
+		trigger = {
+			NOT = { religious_unity = 0.3 }
+			religious_unity = 0.15
+		}
+		loyalty = -10
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_RELIGIOUS_UNITY_LOY
+		trigger = {
+			NOT = { religious_unity = 0.15 }
+		}
+		loyalty = -15
+	}
+	
+	#############################
+	# Custom Names
+	#############################
+	
+	#############################
+	# AI Picking
+	#############################
+	# For province assignment
+	ai_grant_province = {
+		factor = 1
+		modifier = {
+			factor = 5
+			base_tax = 10
+		}
+		
+		modifier = {
+			factor = 10
+			base_tax = 20
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = { base_tax = 2 }
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = { has_owner_culture = yes }
+		}
+
+		modifier = {
+			factor = 0
+			NOT = { religion = ROOT }
+		}		
+	}
+	
+	#############################
+	# Interactions
+	#############################
+	
+	# Grant Priesthood
+	# 20 influence
+	#	Adds 25 legitimacy/republican tradition
+	interaction = {
+		name = "GRANT_PRIESTHOOD"
+		icon = 50
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_clergy
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_estate_influence_modifier = {
+				estate = estate_clergy
+				desc = EST_VAL_GRANTED_PRIESTHOOD
+				influence = 20
+				duration = 3650
+			}
+			
+			add_estate_loyalty = {
+				estate = estate_clergy
+				loyalty = 5
+			}
+			
+			if = { 
+				limit = { 
+					estate_influence = {
+						estate = estate_clergy
+						influence = 20
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_clergy
+							influence = 40
+						}
+					}
+				}
+				
+				add_legitimacy = 10
+				add_republican_tradition = 0.10
+				add_devotion = 10
+			}
+			
+			if = { 
+				limit = { 
+					estate_influence = {
+						estate = estate_clergy
+						influence = 40
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_clergy
+							influence = 60
+						}
+					}
+				}
+				
+				add_legitimacy = 5
+				add_republican_tradition = 0.15
+				add_devotion = 15
+			}
+			
+			if = { 
+				limit = { 
+					estate_influence = {
+						estate = estate_clergy
+						influence = 60
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_clergy
+							influence = 80
+						}
+					}
+				}
+				
+				add_legitimacy = 25
+				add_republican_tradition = 0.25
+				add_devotion = 25
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				
+				estate_influence = {
+					estate = estate_clergy
+					influence = 60
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				
+				government = monarchy
+				NOT = { legitimacy = 50 }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				government = republic
+				NOT = { republican_tradition = 0.5 }
+			}
+			
+			modifier = {
+				factor = 0
+				
+				government = religion
+				NOT = { devotion = 50 }
+			}
+		}
+	}
+
+	# Force Conversion
+	# 10 influence
+	#	Random non-owner religion is converted to owner religion
+	interaction = {
+		name = "FORCE_CONVERSION"
+		icon = 79
+		
+		years_between_use = 5
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_clergy
+				influence = 20
+			}
+			any_owned_province = {
+				NOT = { religion = owner }
+			}
+		}
+		
+		effect = {
+			random_owned_province = {
+				limit = {
+					NOT = { religion = owner }
+				}
+				change_religion = ROOT
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_clergy
+				desc = EST_VAL_FORCED_CONVERSION
+				influence = 10
+				duration = 1825
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				
+				estate_influence = {
+					estate = estate_clergy
+					influence = 70
+				}
+			}
+			
+			modifier = {
+				factor = 0
+			
+				religious_unity = 0.9
+			}
+		}
+	}
+	
+	# Solicit Investment
+	# -10 to 20 loyalty
+	#	Grants 50 to 200 adm power
+	interaction = {
+		name = "SOLICIT_INVESTMENT"
+		icon = 2
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_clergy
+				influence = 20
+			}
+		}
+		
+		effect = {
+			# Below 40
+			if = {
+				limit = {
+					NOT = {
+						estate_loyalty = {
+							estate = estate_clergy
+							loyalty = 40
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_clergy
+					loyalty = -10
+				}
+				
+				add_adm_power = 50
+			}
+			# Between 40 - 60
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_clergy
+						loyalty = 40
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_clergy
+							loyalty = 60
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_clergy
+					loyalty = -15
+				}
+				
+				add_adm_power = 100
+			}
+			# Between 60 - 80
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_clergy
+						loyalty = 60
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_clergy
+							loyalty = 80
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_clergy
+					loyalty = -20
+				}
+				
+				add_adm_power = 150
+			}
+			# Above 80
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_clergy
+						loyalty = 80
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_clergy
+					loyalty = -25
+				}
+				
+				add_adm_power = 200
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				NOT = { 
+					estate_loyalty = {
+						estate = estate_clergy
+						loyalty = 60
+					}
+				}	
+			}
+			
+			modifier = {
+				factor = 0
+				
+				adm_power = 500
+			}
+		}
+	}
+	
+	# Entreat Clergy
+	# 15 loyalty, 10 influence
+	interaction = {
+		name = "ENTREAT_CLERGY"
+		icon = 14
+		
+		years_between_use = 5
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_clergy
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_clergy
+				loyalty = 15
+			}
+				
+			add_estate_influence_modifier = {
+				estate = estate_clergy
+				desc = EST_VAL_ENTREATED_INFLUENCE
+				influence = 10
+				duration = 1825
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				estate_influence = {
+					estate = estate_clergy
+					influence = 60
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				
+				estate_loyalty = {
+					estate = estate_clergy
+					loyalty = 100
+				}
+			}
+		}
+	}
+	
+	# Oust Unfavourables
+	# -20 loyalty, -20 influence
+	interaction = {
+		name = "OUST_UNFAVOURABLES"
+		icon = 11
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_clergy
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_clergy
+				loyalty = -15
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_clergy
+				desc = EST_VAL_OUSTED_INFLUENCE
+				influence = -15
+				duration = 3650
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				NOT = {
+					estate_influence = {
+						estate = estate_clergy
+						influence = 80
+					}
+				}
+			}
+		}
+	}
+	
+	# Grovel for Funds
+	# -10 to -20 loyalty
+	#	Grants 1 years income to 4 years income
+	interaction = {
+		name = "GROVEL_FOR_FUNDS"
+		icon = 6
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_clergy
+				influence = 20
+			}
+		}
+		
+		effect = {
+			# Below 40
+			if = {
+				limit = {
+					NOT = {
+						estate_loyalty = {
+							estate = estate_clergy
+							loyalty = 40
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_clergy
+					loyalty = -5
+				}
+				
+				add_years_of_income = 0.25
+			}
+			
+			# Between 40 - 60
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_clergy
+						loyalty = 40
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_clergy
+							loyalty = 60
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_clergy
+					loyalty = -10
+				}
+				
+				add_years_of_income = 0.5
+			}
+			
+			# Between 60 - 80
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_clergy
+						loyalty = 60
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_clergy
+							loyalty = 80
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_clergy
+					loyalty = -15
+				}
+				
+				add_years_of_income = 0.75
+			}
+			
+			# Above 80
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_clergy
+						loyalty = 80
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_clergy
+					loyalty = -20
+				}
+				
+				add_years_of_income = 1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				
+				NOT = {
+					estate_loyalty = {
+						estate = estate_clergy
+						loyalty = 40
+					}
+				}
+			}
+		}
+	}
+	
+	# Cultivate Favour
+	# -15 loyalty
+	#	+10 Church Power/Fervor/Papal Influence/Patriarch Authority/Karma
+	interaction = {
+		name = "CULTIVATE_FAVOUR"
+		icon = 104
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_clergy
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_clergy
+				loyalty = -10
+			}
+			
+			if = {
+				limit = {
+                    OR = {
+                        religion = religion_fel 
+                        religion = religion_shadow
+                        religion = religion_the_damned
+                        religion = religion_void
+                        religion = religion_arkkorok
+                    }
+				}
+				add_church_power = 25
+			}
+			
+			if = {
+				limit = {
+					OR = {
+						religion = religion_tech
+					}
+				}
+				
+				add_fervor = 10
+			}
+			
+			if = {
+				limit = {
+					OR = {
+						religion = religion_light_of_the_sunwell
+						religion = religion_arcane
+					}
+				}
+				add_karma = 10
+			}
+			
+			if = {
+				limit = {
+					always = no
+				}
+				
+				add_papal_influence = 10
+			}
+			
+			if = {
+				limit = {
+					OR = {
+						religion = religion_geomancy
+						religion = religion_fire
+						religion = religion_earth
+						religion = religion_air
+						religion = religion_water
+					}
+				}
+				add_patriarch_authority = 0.1
+			}
+
+			if = {
+				limit = {
+                    OR = {
+                        religion = religion_hakkari
+                        religion = religion_scarlet_light
+                        religion = religion_church_of_the_light
+                        religion = religion_argent_light
+                        religion = religion_light_of_the_naaru
+                        religion = religion_forgotten_shadow
+                        religion = religion_primitive
+                    }
+				}
+				add_piety = 0.1
+			}
+            
+            # No mechanics
+            if = {
+                limit = {
+                    OR = {
+                        religion = religion_old_gods
+                        religion = religion_voodoo
+                        religion = religion_ancestral
+                        religion = religion_titan
+                        religion = religion_mystery_of_the_makers
+                        religion = religion_elune
+                        religion = religion_sect_of_dragons
+                        religion = religion_druidic
+                        religion = religion_loa
+                        religion = religion_terokk
+                        religion = religion_celestial
+                        religion = religion_zangar
+                    }
+                }
+                add_prestige = 10
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				NOT = {
+					estate_loyalty = {
+						estate = estate_clergy
+						loyalty = 80
+					}
+				}
+			}
+		}
+	}
+	
+	# Support Heir
+	# 20 influence
+	#	+25 Heir Claim
+	interaction = {
+		name = "SUPPORT_HEIR"
+		icon = 120
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_clergy
+				influence = 20
+			}
+			has_heir = yes
+			NOT = { heir_claim = 100 }
+		}
+		
+		effect = {
+			add_estate_influence_modifier = {
+				estate = estate_clergy
+				desc = EST_VAL_SUPPORTED_HEIR
+				influence = 10
+				duration = 3650
+			}
+			
+			add_heir_claim = 20
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				estate_influence = {
+					estate = estate_clergy
+					influence = 60
+				}
+			}
+		}
+	}
+}

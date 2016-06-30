@@ -1051,7 +1051,7 @@ religion_group_nature = {
 			global_missionary_strength = 0.01
 		}
 
-		personal_deity = no
+		personal_deity = yes
 		
 		on_convert = {
 			change_religion = religion_zangar

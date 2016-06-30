@@ -19,3 +19,4 @@ cede_province_fully = {
     change_religion = PREV
     change_culture = PREV
 }
+
