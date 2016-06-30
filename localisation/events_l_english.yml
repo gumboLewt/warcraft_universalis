@@ -222,3 +222,60 @@
  WARCRAFT_EASTERNPLAGUELANDS.1.desc: "Great Citadel of Naxxramas has come to our land from Master's domain."
  WARCRAFT_EASTERNPLAGUELANDS.1.option.a: "All Hail to the Lich King!"
  
+ #-----------------------------------------------
+ # Estates
+ #-----------------------------------------------
+ WOW_ESTATES.1.title:0 "A Noble Heir"
+ WOW_ESTATES.1.desc:0 "Our succession has been secured, a worthy heir has been appointed."
+ WOW_ESTATES.1.option.a:0 "Let me see my heir..."
+ 
+ WOW_ESTATES.2.title:0 "A Throne Abdicated"
+ WOW_ESTATES.2.desc:0 ""
+ WOW_ESTATES.2.option.a:0 ""
+ 
+ #-----------------------------------------------
+ # Council
+ #-----------------------------------------------
+ WOW_COUNCIL.1.title:0 "Council of [Root.GetName]"
+ WOW_COUNCIL.1.desc:0 "The [Root.Monarch.GetTitle] of [Root.GetName], [Root.Monarch.GetName] has met with a group of important nobles from our realm. They have petitioned for various different actions, and it is up to [Root.Monarch.GetName] to choose which to satisfy."
+ WOW_COUNCIL.1.option.a:0 "I will go to war with a neighbour"
+ WOW_COUNCIL.1.option.b:0 "I will ensure our realm's prosperity"
+ WOW_COUNCIL.1.option.c:0 "I will protect a neighbouring realm"
+ WOW_COUNCIL.1.option.d:0 "I will forge an alliance with a neighbouring realm"
+ WOW_COUNCIL.1.option.e:0 "I will support an royal marriage with a neighbouring realm"
+ WOW_COUNCIL.1.option.g:0 "I will ignore their requests"
+ 
+ WOW_COUNCIL.2.title:0 "Failure!"
+ WOW_COUNCIL.2.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has failed [Root.Monarch.GetHerHis] nobles, and failed to uphold the promises [Root.Monarch.GetSheHe] made ten years ago."
+ WOW_COUNCIL.2.option.a:0 "Oh well..."
+ 
+ WOW_COUNCIL.3.title:0 "Success!"
+ WOW_COUNCIL.3.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to war againsts a neighbour, and has been justly rewarded."
+ WOW_COUNCIL.3.option.a:0 "Great!"
+ 
+ WOW_COUNCIL.4.title:0 "Success!"
+ WOW_COUNCIL.4.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to guarantee a neighbour, and has been justly rewarded."
+ WOW_COUNCIL.4.option.a:0 "Great!"
+ 
+ WOW_COUNCIL.5.title:0 "Success!"
+ WOW_COUNCIL.5.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to ally a neighbour, and has been justly rewarded."
+ WOW_COUNCIL.5.option.a:0 "Great!"
+
+ WOW_COUNCIL.6.title:0 "Success!"
+ WOW_COUNCIL.6.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to marry a neighbour, and has been justly rewarded."
+ WOW_COUNCIL.6.option.a:0 "Great!"
+  
+ WOW_COUNCIL.7.title:0 "Success!"
+ WOW_COUNCIL.7.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to stabilise the realm, and has been justly rewarded."
+ WOW_COUNCIL.7.option.a:0 "Great!"
+ 
+ council_request_timer_001:0 "Request to war neighbour"
+ desc_council_request_timer_001:0 "This is how long you have left to complete the council's request of going to war with a neighbour."
+ council_request_timer_002:0 "Request to stabilise realm"
+ desc_council_request_timer_002:0 "This is how long you have left to complete the council's request of getting Stability to 3."
+ council_request_timer_003:0 "Request to guarantee neighbour"
+ desc_council_request_timer_003:0 "This is how long you have left to complete the council's request of guaranteeing a neighbour."
+ council_request_timer_004:0 "Request to ally neighbour"
+ desc_council_request_timer_004:0 "This is how long you have left to complete the council's request of allying with a neighbour."
+ council_request_timer_005:0 "Request to marry neighbour"
+ desc_council_request_timer_005:0 "This is how long you have left to complete the council's request of marrying a neighbour."

@@ -31,3 +31,34 @@ denied_autonomy = {
 sexually_frustrated = {
     local_unrest = 2
 }
+
+# Council
+council_request_timer_001 = {
+	legitimacy = 0.1
+	republican_tradition = 0.01
+}
+
+council_request_timer_002 = {
+	legitimacy = 0.1
+	republican_tradition = 0.01
+}
+
+council_request_timer_003 = {
+	legitimacy = 0.1
+	republican_tradition = 0.01
+}
+
+council_request_timer_004 = {
+	legitimacy = 0.1
+	republican_tradition = 0.01
+}
+
+council_request_timer_005 = {
+	legitimacy = 0.1
+	republican_tradition = 0.01
+}
+
+council_request_timer_006 = {
+	legitimacy = 0.1
+	republican_tradition = 0.01
+}
