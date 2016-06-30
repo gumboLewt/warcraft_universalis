@@ -2243,3 +2243,55 @@
  PUBLIC_SPEECH: "Public Speech"
  PROMISE_RELIEF: "Promise Relief"
  
+ #-----------------------------------
+ # Missions
+ #-----------------------------------
+ amass_wealth_title: "Amass Wealth"
+ amass_wealth_desc: "Our coffers are looking empty. Let us hoard some wealth so we are protected from any unanticipated spending."
+ 
+ triple_alliance_title: "Make Friends"
+ triple_alliance_desc: "The list of our allies grows short. Without probing some of our potential allies, we may find ourselves with no what so ever."
+ 
+ win_the_affections_of_the_people_title: "Win over the People"
+ win_the_affections_of_the_people_desc: "Our people are cautious folk, and many have distanced themselves from the [Root.Monarch.GetTitle] over the years. Let us bring these folk back into the fold, and win their favour."
+ 
+ remove_unrest_title: "Reduce Unrest"
+ remove_unrest_desc: "Our people are restless, and they ache for conflict. Let us persuade them otherwise, and reap the stability that enshews."
+ 
+ unified_religion_title: "Unify Worship"
+ unified_religion_desc: "Many of our provinces worship heretical or heathen pantheons, many directly opposing the teachings of our own. Let us 'assimilate' these worshippers, unifying worship across [Root.GetName]."
+ 
+ # Mission modifiers
+ friend_to_all: "Friend to All"
+ desc_friend_to_all: "Our keen tact when it comes to negotiating alliances has won us the benefit of the doubt from many."
+ 
+ secure_investment: "Secure Investment"
+ desc_secure_investment: "Thanks to our grand amount of wealth, potential allies are more likely to lend to us, secure in the knowledge we will pay them back on time."
+ 
+ the_peoples_favour: "The People's Favour"
+ desc_the_peoples_favour: "We have won over our people, and they serve us without question."
+ 
+ peaceful_folk: "Peaceful Folk"
+ desc_peaceful_folk: "Our people are restful, and scarce think of rebellion in such a peaceful state."
+ 
+ the_right_worship: "Worshipping our Way"
+ desc_the_right_worship: "The inhabitants of this province have been convinced of the validity of $COUNTRY_RELIGION$."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
