@@ -1,5 +1,24 @@
 ﻿l_english:
+ #-----------------------------------------------
+ # Event Modifiers
+ #-----------------------------------------------
+ blood_of_mannaroth_event: ""
+ desc_blood_of_mannaroth_event: ""
+ 
+ blood_of_mannaroth: "Blood of Mannaroth"
+ desc_blood_of_mannaroth: "The power of the Destructor is bestowed by those who have drunk his blood."
+ 
+ warlust: "Warlust"
+ desc_warlust: "We ache for war, and thus our neighbours pay the price."
+ 
+ #-----------------------------------------------
+ # Opinion Modifiers
+ #-----------------------------------------------
+ raided_by_orcs: "Raided by Orcs"
+ 
+ #-----------------------------------------------
  # Terrain
+ #-----------------------------------------------
  burnt_earth: "Burnt Earth"
  burnt_earth_desc: "This land is burnt by the turmoil of war. It will be a long time until anything grows naturally here again."
  frozen_wastes: "Frozen Wastes"
@@ -17,30 +36,19 @@
  arcane_touched_earth: "Arcane-touched"
  arcane_touched_earth_desc: "This ladn has been altered by exposure to the Arcane."
  
+ #-----------------------------------------------
  # Colonial Nations
+ #-----------------------------------------------
  colonial_outland: "Outland"
  
+ #-----------------------------------------------
  # Diplomatic Actions
+ #-----------------------------------------------
  WOW_IS_COMPATIBLE: "We are not diplomatically compatible."
-
- # Opinion Modifiers
- raided_by_orcs: "Raided by Orcs"
  
- # Event Modifiers
- blood_of_mannaroth_event: ""
- desc_blood_of_mannaroth_event: ""
- 
- blood_of_mannaroth: "Blood of Mannaroth"
- desc_blood_of_mannaroth: "The power of the Destructor is bestowed by those who have drunk his blood."
- 
- warlust: "Warlust"
- desc_warlust: "We ache for war, and thus our neighbours pay the price."
- 
- # Decisions
- encourage_bloodlust_title: "Encourage Bloodlust"
- encourage_bloodlust_desc: "We ache for war, let us raid our non-orc neighbours more often to sate the bloodlust."
- 
+ #-----------------------------------------------
  # Buildings
+ #-----------------------------------------------
  building_wow_town_hall: "Town Hall"
  building_wow_grand_town_hall: "Grand Town Hall"
  building_wow_court: "Court"
@@ -96,7 +104,9 @@
  building_wow_naval_academy: "Naval Academy"
  building_wow_military_academy: "Military Academy"
  
+ #-----------------------------------------------
  # Graphical Cultures
+ #-----------------------------------------------
  humangfx: "Human"
  darnassiangfx: "Darnassian"
  vrykulgfx: "Vrykul"
@@ -148,8 +158,9 @@
  yetigfx: "Yeti"
  pygmygfx: "Pygmy"
  
- 
+ #-----------------------------------------------
  # Tradenodes
+ #-----------------------------------------------
  isle_of_quel_danas_node: "Isle of Quel'danas"
  eversong_woods_node: "Eversong Woods"
  ghostlands_node: "Ghostlands"
@@ -232,8 +243,9 @@
  kun_lai_summit_node: "Kun-lai Summit"
  vale_of_eternal_blossoms_node: "Vale of Eternal Blossoms"
  
- 
+ #-----------------------------------------------
  # Continents
+ #-----------------------------------------------
  continent_eastern_kingdoms: "Eastern Kingdoms"
  continent_kalimdor: "Kalimdor"
  continent_northrend: "Northrend"
@@ -243,7 +255,9 @@
  continent_maelstrom: "Maelstrom"
  continent_pandaria: "Pandaria"
   
+ #-----------------------------------------------
  # Superregions
+ #-----------------------------------------------
  eastern_kingdoms_superregion: "Eastern Kingdoms"
  lordaeron_superregion: "Lordaeron"
  azeroth_superregion: "Azeroth"
@@ -257,7 +271,9 @@
  maelstrom_superregion: "Maelstrom"
  pandaria_superregion: "Pandaria"
  
+ #-----------------------------------------------
  # Regions
+ #-----------------------------------------------
  eastern_kingdoms_region: "Eastern Kingdoms"
  lordaeron_region: "Lordaeron"
  azeroth_region: "Azeroth"
@@ -279,7 +295,10 @@
  southern_seas: "Southern Seas"
  eastern_ocean: "Eastern Ocean"
  western_ocean: "Western Ocean"
+ 
+ #-----------------------------------------------
  # Areas
+ #-----------------------------------------------
  area_hidden_valley: "Hidden Valley"
  area_stormwind: "Stormwind"
  area_isle_of_quel_danas: "Isle of Quel'Danas"
@@ -366,7 +385,9 @@
  area_kun_lai_summit: "Kun-lai Summit"
  area_zul_aman: "Zul'Aman"
  
+ #-----------------------------------------------
  # Bookmarks
+ #-----------------------------------------------
  RISE_OF_THE_HORDE_NAME: "Rise of the Horde"
  RISE_OF_THE_HORDE_DESC: "Long ago, on the idyllic world of Draenor, the noble orc clans lived in relative peace with their enigmatic neighbors, the draenei. But the nefarious agents of the Burning Legion had other plans for both of the unsuspecting races. The demon-lord Kil'jaeden set in motion a dark chain of events that would succeed not only in eradicating the draenei, but forging the orc clans into a single, unstoppable juggernaut of hatred and destruction. "
  
@@ -411,7 +432,9 @@
  LEGION_NAME: "Legion"
  LEGION_DESC: "The Burning Legion once again invade Azeroth".
  
+ #-----------------------------------------------
  # Countries
+ #-----------------------------------------------
  A01: "Stormwind"
  A01_ADJ: "Stormwind"
  A02: "Westfall"
@@ -1309,7 +1332,9 @@
  X01: "The Risen"
  X01_ADJ: "Risen"
  
+ #-----------------------------------------------
  # Governments
+ #-----------------------------------------------
  magocracy_republic: "Magocracy Republic"
  magocracy_republic_desc: ""
  magocracy_republic_ruler: "Grand Magus"
@@ -1450,7 +1475,9 @@
  horde_kingdom_ruler: "King"
  horde_kingdom_ruler_female: "Queen"
  
+ #-----------------------------------------------
  # Religions
+ #-----------------------------------------------
  religion_group_titanic: "Titanic"
  religion_group_titanic_desc: ""
  religion_group_old_god: "Old Gods"
@@ -1478,70 +1505,103 @@
  
  religion_titan: "Titanic"
  religion_titan_religion_desc: "The Titans are colossal, metallic space-faring beings whose purpose is bringing order to the stars by seeding planets with life. Many of their titan-forged creations still guard their ancient ruins in Azeroth and look up to them as if they were gods."
+ 
  religion_sect_of_dragons: "Sect of Dragons"
  religion_sect_of_dragons_religion_desc: "Dragons are majestic winged creatures, given power long ago by the Titans to safeguard Azeroth. They are divided into many Dragonflights, whose leaders are the Aspects. Mainly worshipped by other Dragons and the Dragonspawn, many mortals also venerate these ancient creatures."
+ 
  religion_druidic: "Druidic"
  religion_druidic_religion_desc: "Druidic teachings involve achieving balance, harmony and oneness with the wilds. Introduced by the demigod Cenarius to the Night Elves and the Tauren long ago, this teaching has spread to many races, who now seek to live in balance with nature."
+ 
  religion_primitive: "Totemic"
  religion_primitive_religion_desc: "Many things are worshipped as totems by primitive races. Some are actually primal manifestations of life and nature, dating back from the Ordering of Azeroth by the Titans."
+ 
  religion_arcane: "Arcane"
  religion_arcane_religion_desc: "Arcane power is the primal source of order, from which all Arcane magic derives. Though it is not 'worshipped' itself, many races and nations are wholly devoted to the study of this cosmic energy."
+ 
  religion_scarlet_light: "Scarlet Light"
  religion_scarlet_light_religion_desc: "The Scarlet Crusade and other organizations like them follow a radicalized version of the teachings of the Church of the Holy Light, which justify that if evil has no restraints in its tactics, good mustn't as well if it expects victory."
+ 
  religion_old_gods: "Old Gods"
  religion_old_gods_religion_desc: "Eldritch creatures from beyond reality, the Old Gods' purpose is to corrupt worlds for their insidious masters' plan of ending reality. Their maddening influence often drives lesser beings to worship them."
+ 
  religion_shadow: "Shadow"
  religion_shadow_religion_desc: "Many study the dark arts of Void and Necromantic magic. Reviled by all, those who delve into these evil powers often live as outcasts of society, where their keep practising their foul spells and even found organizations to further expand their expertise."
+ 
  religion_church_of_the_light: "Church of the Holy Light"
  religion_church_of_the_light_religion_desc: "The Church of the Holy Light teaches a philosophy based around the Light, a mysterious and benevolent universal force. They follow the Three Virtues; respect, tenacity, and compassion. Its teachings are fairly widespread, followed by many races, cultures and nations."
+ 
  religion_argent_light: "Argent Light"
  religion_argent_light_religion_desc: "The Argent Dawn and its successors adhere to a different doctrine than the Church of the Holy Light. Convinced that the Church is too slow in its methods to fight injustice, they believe that if evil changes constantly, so must good."
+ 
  religion_light_of_the_naaru: "Light of the Naaru"
  religion_light_of_the_naaru_religion_desc: "Unlike other races, the Draenei have a deeper understanding of the Light thanks to their direct link with the Naaru, crystalline, star-faring beings with a deep affinity to the Holy Light, thanks to them, the Draenei have an innate skill for channeling this universal force."
+ 
  religion_elune: "Elune"
  religion_elune_religion_desc: "Elune, the Moon Goddess, is the main deity of the Night Elf pantheon, also known as Mu'sha to the Tauren. The Kaldorei also believe her to be the mother of Cenarius. She emphasizes tranquillity to allow for the greatest nurturing of Azeroth's creatures, however, Elune does not advocate pacifism in the face of threats to her harmony. Her priesthood is the Sisterhood of Elune."
+ 
  religion_hakkari: "Hakkari"
  religion_hakkari_religion_desc: "Hakkar the Soulflayer is the Blood God of the Gurubashi tribe. A vile, bloodthirsty Loa, he heard the trolls' call after the Great Sundering and decided to aid them. Hakkar gave his secrets of blood to the Gurubashi and helped them extend their civilization across most of Stranglethorn Vale, in exchange, the bloodthirsty god demands souls be sacrificed to him daily."
+ 
  religion_forgotten_shadow: "Forgotten Shadow"
  religion_forgotten_shadow_religion_desc: "The Cult of the Forgotten Shadow is a group of priests who believe that there must be a balance between dark and light. The Cult spread quickly among the Forsaken after their liberation from the Scourge. Shadow magic is dangerously close to the Void and the Old Gods' corrupting influence, and as such, a Shadow Priest must tread carefully not to be completely lost in the darkness."
+ 
  religion_fel: "Fel"
  religion_fel_religion_desc: "Fel energy is the primal source of disorder. It originates in the Twisting Nether, an ethereal dimension between worlds. It is a destructing energy and its use frequently results in corruption that manifests in a physical transformation. Widely used by the demons of the Burning Legion for all purposes, all of them carry the taint of fel magic within their very blood."
+ 
  religion_the_damned: "The Damned"
  religion_the_damned_religion_desc: "The Scourge and other groups under the thrall of the Lich King directly worship him as the God of Death. Many mortals also willingly worship him, hoping to achieve undeath as the ultimate reward, most of these are members of the Cult of the Damned, the insidious organization responsible for the fall of Lordaeron during the Third War."
+ 
  religion_terokk: "Arrakoa"
  religion_terokk_religion_desc: "The Arrakoa pantheon includes Anzu, the dread raven, Sethekk, the cold windserpent, and Rukhmar, the firehawk."
+ 
  religion_ancestral: "Ancestral Shamanism"
  religion_ancestral_religion_desc: "Shamans honor the spirits of their ancestors and the elemental forces. Many carve totems to represent the spirits and animals from which they draw power, and it is within these totems that the true potency of a shaman lies. Some shamans live in balance with the elements and call upon them for aid, while others bind and twist them to their will."
+ 
  religion_loa: "Loa"
  religion_loa_religion_desc: "Loa is the name the Trolls give to the primal manifestations of life and nature, spirits existing even before the arrival of the Titans. Countless Loa exist, with each Troll tribe worshipping their own unique pantheon of Loa. Akil'zon of the Amani, Bethekk of the Gurubashi, Bwonsamdi of the Darkspear and Mam'toth of the Drakkari are some of the most powerful."
+ 
  religion_celestial: "Celestials"
  religion_celestial_religion_desc: "The August Celesials are primal manifestations of life and nature, not unlike the Ancients or the Troll Loa. They are four powerful beings that watch over and protect Pandaria. These 4 creatures are: Niuzao the Black Ox, Chi-Ji the Red Crane, Xuen the White Tiger and Yu'lon the Jade Serpent."
+ 
  religion_arkkorok: "Arkkorok"
  religion_arkkorok_religion_desc: "Known also as Arkkoran, Arkkorok is the supposed God the Sea Giants. Many Makrura and Murlocs in the vicinity of his temple also consider him a god."
+ 
  religion_void: "Void"
  religion_void_religion_desc: "The Void is the counterpoint to the Light, a dark and vampiric force that seeks to devour all energy and to twist creation into feeding upon itself. Although the two forces are contradictory by nature, one cannot exist without the other. The Void is lorded by the insidious Void Lords, beings who covet the destruction of the physical universe. Amongst their many servants are the twisted Old Gods."
+ 
  religion_mystery_of_the_makers: "Mystery of the Makers"
  religion_mystery_of_the_makers_religion_desc: "The Mystery of the Makers is a rising philosophy amongst Dwarves and other close races ( Gnomes, specially ), sparked by the discovery of Titan ruins and facilities all across Azeroth that points toward the true origin of their kin, the ancient Titans. Rather than taking the measure of their creators on faith, the Dwarves have embarked on a mammoth investigation of their past."
+ 
  religion_fire: "Fire"
  religion_fire_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Rangnaros, the Fierlord, is the master of all fire elementals, and rules over the elemental plane of the Firelands. Few mortals serve him willingly, and indeed, his foremost mortal servants, the Dark Iron Dwarves, are his unwilling slaves."
+ 
  religion_earth: "Earth"
  religion_earth_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Therazane, the Stonemother is the ruler of the element of earth, and rules over the elemental plane of Deepholm. Her foremost mortal servants are the Centaurs, the children of Therazane's daughter, Princess Theradras."
+ 
  religion_air: "Air"
  religion_air_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Al'Akir, the Windlord is the lord of the air elementals, and rules over the elemental plane of Skywall. He has few known mortal servants, though some Tol'vir and Harpies do worship him."
+ 
  religion_water: "Water"
  religion_water_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Neptulon, the Tidehunter, is the sovereign of the element of water, and rules over the elemental plane of the Abyssal Maw. Many of the creatures of the sea, like the Murlocs or the marauding Kvaldir worship him as a god."
+ 
  religion_geomancy: "Geomancy"
  religion_geomancy_religion_desc: "Many of the simpler races, like the Kobolds, Troggs and Quilboar practise a crude form of Shamanism known as Geomancy. Instead of striving for oneness with the elements and calling upon them for aid, Geomancy uses odd rites like devotion dances or runemaking in order to impress the elements."
+ 
  religion_tech: "Technicism"
  religion_tech_religion_desc: "Races like the Gnomes or the Goblins usually don't place much value in spirituality or the concept of deity. They society and philosophies are instead driven by an urge to invent new and ingenious technological wonders, each greater than the last. "
+ 
  religion_voodoo: "Voodoo"
  religion_voodoo_religion_desc: "Voodoo is a dark and powerful form of magic practiced by the shadow hunters, hexxers, and witch doctors. It is a twisted bent on Shamanism, focusing on the same spirits with much darker rituals of sentient sacrifice and cannibalism, rituals which Voodoo practitioners believe appease these spirits."
+ 
  religion_light_of_the_sunwell: "Light of the Sunwell"
  religion_light_of_the_sunwell_religion_desc: "With the rebirth of the Sunwell, many Sin'dorei have decided to take it as a symbol of renewed pride for their race, and since the Sunwell now uses the energies of the Light as well as the Arcane, the Blood Elves have gone back to worshipping the Holy Light with a new bent on it."
+ 
  religion_zangar: "Zangar"
  religion_zangar_religion_desc: "The fungal inhabitants of the Zangarmarsh believe that the growth of the Zangar should spread. Prolonged exposure to Zangar spores can convince other humanoids of this as well."
  
+ #-----------------------------------------------
  # Factions
+ #-----------------------------------------------
  faction_lower_spire: "The Lower Spire"
  faction_crimson_halls: "The Crimson Halls"
  faction_plagueworks: "The Plagueworks"
@@ -1549,19 +1609,23 @@
  faction_lower_spire_FACTION_DESC: "The Lower Spire of Icecrown Citadel holds the headquarters of the Cult of the Damned. Lady Deathwhisper rules over the cultists as Supreme Overseer and coordinates attacks on targets throughout Azeroth."
  faction_crimson_halls_FACTION_DESC: "The Crimson Halls is the name given to the headquarters of the elite San'layn darkfallen. They are the Lich Kings most trusted ambassadors, overseers, and tacticians. These undead vampiric blood elves are led by the Blood Queen Lana'thel."
  faction_plagueworks_FACTION_DESC: "The Plagueworks are overseen by Putricide. He has proven himself to be extremely useful in concocting the most volatile forms of plague and creating monstrosities that only a twisted madman could think of."
- ###########
- # Dieties #
- ###########
+ 
+ #-----------------------------------------------
+ # Personal Dieties
+ #-----------------------------------------------
+ 
  # Old Gods
  diety_c_thun: "C'Thun"
  diety_y_shaarj: "Y'Shaarj"
  diety_c_thun_desc: "C'Thun is the Old God responsible for the creation of the Qiraji by using the primitive Silithid and shaping them in the gods own image. Long ago C'Thun's armies were defeated and citadel shattered by the combined forces of the Titans, however this Old God was able to defeat a Titan in battle before being imprisoned. Deep beneath the fortress city of Ahn'Qiraj he awaits his return to full strength. C'Thun's notable trait is its great lidless eye and being surrounded by a sea of tenticles."
  diety_y_shaarj_desc: "Y'Shaarj is known be the only Old God to have been physically killed by the Titans. With Y'Shaarj's last breadth it cursed the land of Pandaria and gave life to the foul shadow creations known as the Sha. After Y'Shaarj was slain in battle, its heart was cut from its body, locked away, and hidden. While this Old God's influence is primarily contained to Pandaria, soon the world will know the feeling of true despair."
+ 
  # Loa
  diety_shadra: "Shadra"
  diety_shadra_desc: "The loa of Spiders, also known as the Silk Dancer or the Venom Queen. Although a part of the jungle troll pantheon, Shadra is revered by the Witherbark tribe of forest trolls. Shadra's influence may have spread to Blackrock Spire, where the Smolderthorn tribe respect and fear her spawn, the Mother Smolderweb." 
  diety_gahzrilla: "Gahz'rilla"
  diety_gahzrilla_desc: "Legend has it that Gahz'rilla was an adored pet of the Old Gods, or even a demigod in her own right. Whatever the truth is, the Sandfury trolls have worshiped this monstrous hydra for thousands of years. Ever wary of the beast's icy wrath, the trolls will only rouse Gahz'rilla when they have plentiful sacrifices to sate the ravenous creature's appetite."
+ 
  # Primitive
  diety_kartak: "Kartak"
  diety_kartak_desc: "The great Kartak, lord of the basin, will lead the wolvar to victory!"
@@ -1579,7 +1643,8 @@
  diety_karkut_desc: "The watcher of the dead who walks the land collecting the spirits of the deceased."
  diety_oacha_noa: "Oacha'noa"
  diety_oacha_noa_desc: "The mistress of the seas, the great kraken Oacha'noa. She will ensure Tuskarr boats are safe when placated with offerings of pearls."
-# Elemental
+
+ # Elemental
  diety_neptulon: "Neptulon"
  diety_neptulon_desc: "Neptulon the Tidehunter is the Elemental Lord of Water on Azeroth, who rules the Abyssal Maw."
  diety_ragnaros: "Ragnaros"
@@ -1599,8 +1664,9 @@
  diety_storm: "Storm Magic"
  diety_storm_desc: "Elemental lighting magic is favored by races like the harpies, who use it to rule the skies."
  
- 
+ #-----------------------------------------------
  # Technology
+ #-----------------------------------------------
  tech_dwarven: "Dwarven"
  tech_dwarven_desc: "With the Dwarven technology group, technology levels are standard cost (100%)."
  tech_human: "Human"
@@ -1684,7 +1750,9 @@
  tech_magnataur: "Magnataur"
  tech_magnataur_desc: "With the Magnataur technology group, technology levels are standard cost (100%)."
  
+ #-----------------------------------------------
  # Triggered Modifiers
+ #-----------------------------------------------
  draconic_weakness: "Draconic Weakness"
  desc_draconic_weakness: "The citizens of our realm are far and few between. We will struggle to fill our manpower pool and will most likely have to resort to mercenaries."
 
@@ -1852,7 +1920,7 @@
  GROVEL_FOR_FUNDS:0 "Grovel for Funds"
  
  # Nobles
- ASSEMBLE_COUNCIL:0 "Assemble War Council"
+ ASSEMBLE_COUNCIL:0 "Assemble Council"
  GRANT_KNIGHTHOOD:0 "Grant Knighthood"
  GRANT_ADMIRALITY:0 "Grant Admiralship"
  ENTREAT_NOBLES:0 "Entreat Nobles"

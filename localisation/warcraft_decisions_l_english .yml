@@ -1,5 +1,13 @@
 ﻿l_english:
- # Faction Decisions
+ #-----------------------------------------------
+ # Orc
+ #-----------------------------------------------
+ encourage_bloodlust_title: "Encourage Bloodlust"
+ encourage_bloodlust_desc: "We ache for war, let us raid our non-orc neighbours more often to sate the bloodlust."
+
+ #-----------------------------------------------
+ # Alliance/Horde
+ #-----------------------------------------------
  join_the_alliance_title: "Join the Alliance"
  join_the_alliance_desc: "Since we are on good terms with the Alliance, we been offered the opportunity to join."
  leave_the_alliance_title: "Leave the Alliance"
@@ -75,11 +83,15 @@
  kalimdor_horde_title: "Defend Kalimdor"
  kalimdor_horde_desc: "As members of the Horde we are obligated to join our neighbouring allies in the defense of Horde territory in Kalimdor."
  
- # Theramore decisions
+ #-----------------------------------------------
+ # Theramore
+ #-----------------------------------------------
  theramore_nation_title: "Form Theramore"
  theramore_nation_desc: "Build a great human-elven-dwarven country on eastern shores of Kalimdor"
  
- # Arcane Decisions
+ #-----------------------------------------------
+ # Arcane 
+ #-----------------------------------------------
  conjure_administrative_title: "Conjure: Administrative"
  conjure_administrative_desc: "We choose a mainly neutral way, isn't it glorious?"
  conjure_military_title: "Conjure: Military"

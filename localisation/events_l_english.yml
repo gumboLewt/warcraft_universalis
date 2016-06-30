@@ -1,11 +1,15 @@
 ﻿l_english:
+ #-----------------------------------------------
  # Tirisfal
+ #-----------------------------------------------
  WARCRAFT_TIRISFAL.1.title: "Council of Tirisfal"
  WARCRAFT_TIRISFAL.1.desc: "Magna Aegwynn of the Tirisfal Council says, that She can help us prepare Our great kingdom for the coming war. Can we trust her, my king?"
  WARCRAFT_TIRISFAL.1.option.a: "I think it is a good idea!"
  WARCRAFT_TIRISFAL.1.option.b: "I don't trust mages! Let the world know that we can do it ourselves..."
  
+ #-----------------------------------------------
  # Buildings
+ #-----------------------------------------------
  building_events.1.title: "Prosperous Locals in [Root.GetName]"
  building_events.1.desc: "The local people of [Root.GetName] have pooled together their wealth towards a town hall for their settlement. They have contacted [Root.Monarch.GetTitle] [Root.Monarch.GetName] to ensure their wealth is spent in accordance to [Root.Monarch.GetHerHis] wishes."
  building_events.1.option.a: "Build the town hall"
@@ -81,7 +85,9 @@
  building_events.15.option.a: "Construct fortifications"
  building_events.15.option.b: "Save the gold instead"
  
+ #-----------------------------------------------
  # Province - Random
+ #-----------------------------------------------
  random_province.1.title: "Upset in [Root.GetName]"
  random_province.1.desc: "The people of [Root.GetName] have become discontent with their [Root.Monarch.GetName], and demand more autonomy over the land they reside on."
  random_province.1.option.a: "Permit them more autonomy"
@@ -109,7 +115,9 @@
  random_province.3.option.b: "Punish the soldiers"
  random_province.3.option.c: "Punish the owners of the pit"
  
+ #-----------------------------------------------
  # Monarch Death
+ #-----------------------------------------------
  monarch_death.1.title: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has died!"
  monarch_death.1.desc: "The illustrious rule of [Root.Monarch.GetTitle] [Root.Monarch.GetName] has come to an end."
  monarch_death.1.option.a: "The cycle continues..."
@@ -130,7 +138,9 @@
  monarch_death.4.option.a: "Resist these pretenders!"
  monarch_death.4.option.b: "Accept the people's mandate"
  
+ #-----------------------------------------------
  # Story
+ #-----------------------------------------------
  story.1.title: "Balnazzar's Reveal"
  story.1.desc: "The Scarlet Crusade has been betrayed from within. Grand Crusader Saiden Dathrohan has been revealed to have been the Dreadlord Balnazzar! The Scarlet Crusade attempted to resist the demon, only to be defeated, and raised from the earth as the Risen."
  story.1.option.a: "Damnation!"
@@ -139,12 +149,16 @@
  story.2.desc: "The undead have begun taking control of our holdings, driving our people away. If we do not stem the tide of these foul beasts, who knows what could happen to us."
  story.2.option.a: "They will be purged!"
  
+ #-----------------------------------------------
  # Dark Portal
+ #-----------------------------------------------
  dark_portal.1.title: "The Orcish Horde"
  dark_portal.1.desc: "Hideous creatures have been sighted in the Blasted Lands, and have begun to form encampments there. Without resistance, they will soon sweep through our lands."
  dark_portal.1.option.a: "Fight back!"
  
+ #-----------------------------------------------
  # First War
+ #-----------------------------------------------
  first_war.2.title: "Orc Raid"
  first_war.2.desc: ""
  first_war.2.option.a: ""
@@ -163,7 +177,9 @@
  first_war.5.desc: "More of our clansmen have left Draenor to travel through the Dark Portal and fight here on Azeroth. Zug Zug!"
  first_war.5.option.a: "The humans have no chance..."
  
+ #-----------------------------------------------
  # Warband
+ #-----------------------------------------------
  warband_events.1.title: ""
  warband_events.1.desc: ""
  warband_events.1.option.a: ""
@@ -174,8 +190,9 @@
  warband_events.2.option.b: "Raze it to the ground!"
  warband_events.2.option.c: "Settle [From.GetName] with our people!"
  
- #SHIFTING OWNERSHIP OF PROVINCES
- 
+ #-----------------------------------------------
+ # Shifting Ownership
+ #-----------------------------------------------
  shifting_ownership.1.title: "The issue of [From.GetName]"
  shifting_ownership.1.desc: "[From.GetName] has been successfully taken from our enemies. Should we consider it ours from now on...?"
  shifting_ownership.1.option.a: "This province is irrelevant, for the moment..."
@@ -183,7 +200,9 @@
  shifting_ownership.1.option.c: "Our people in [From.GetName] need protection!"
  shifting_ownership.1.option.d: "[From.GetName] is rightfully ours!"
  
- # Blood of Mannaroth events
+ #-----------------------------------------------
+ # Blood of Mannaroth
+ #-----------------------------------------------
  first_war.1.title: "The Blood of Mannaroth"
  first_war.1.desc: "Borne from the blood of the Destructor, there are powers beyond comprehension contained within. All it takes to gain such power is a sip. What do you say, [Root.Monarch.GetTitle] [Root.Monarch.GetName]?"
  first_war.1.option.a: "Drink!"
@@ -207,8 +226,9 @@
  first_war.10.option.a: "Rouse them!"
  first_war.10.option.b: "Let the sleep..."
 
- 
- #Gilneas
+ #-----------------------------------------------
+ # Gilneas
+ #-----------------------------------------------
  gilneas.1.title: "Build the Wall!"
  gilneas.1.desc: "We should build a wall to forever remove our nation from other people's troubles."
  gilneas.1.option.a: "We care for ourselves and only ourselves."
