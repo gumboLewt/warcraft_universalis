@@ -2,7 +2,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "mesh_orc_male"
 		file = "gfx/models/wow/units/orc_male_static.mesh"	
-		scale = 2.0
+		scale = 20.0
 	}
 	
 	pdxmesh = {

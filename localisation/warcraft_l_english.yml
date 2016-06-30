@@ -73,6 +73,19 @@
  raided_by_orcs: "Raided by Orcs"
  
  #-----------------------------------------------
+ # Rebels
+ #-----------------------------------------------
+ fel_rebels_title: "Fel Adherents"
+ fel_rebels_name: "Fel Adherents"
+ fel_rebels_desc: "They demand we adhere to religion of Fel"
+ fel_rebels_army: "Fel Adherents"
+ fel_rebels_demand: "Convert to Fel"
+ fel_rebels_demand_desc: "They demand we adhere to religion of Fel"
+ 
+ dummy_fel: "Fel Adherents"
+ dummy_fel_desc: ""
+ 
+ #-----------------------------------------------
  # Terrain
  #-----------------------------------------------
  burnt_earth: "Burnt Earth"

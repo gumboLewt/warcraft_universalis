@@ -12,7 +12,6 @@ technology = {
 	
 	merchants = yes
 		
-	naval_maintenance		=	0.1
 	naval_morale			=	2.0
 	range					=	450
 	trade_range				=	450
