@@ -1,10 +1,54 @@
-# Do not change tags in here without changing every other reference to them.
-# If adding new technology, make sure they are uniquely named.
-
-# Armies get a insufficient support penalty when the ratio cav / (inf+cav) is _higher_ than "cav_to_inf_ratio". This applies for the "unit_type" of a country.
-
-# Groups must be defined BEFORE tables.
-
+#-------------------------------------------------------------
+# Quick Reference
+#-------------------------------------------------------------
+# Alliance
+    # Human                 - tech_human
+    # Gnome                 - tech_gnome
+    # Night Elf             - tech_darnassian
+    # Draenei               - tech_draenei
+    # Dwarf                 - tech_dwarven
+    # Worgen                - tech_worgen
+    
+# Horde
+    # Blood Elf             - tech_thalassian
+    # Orc                   - tech_orc
+    # Troll                 - tech_troll
+    # Goblin                - tech_goblin
+    # Tauren                - tech_tauren
+    # Undead                - tech_undead
+    # Pandaren              - tech_pandaren
+   
+# The Rest
+    # Ogre                  - tech_ogre
+    # Aqir                  - tech_aqir
+    # Demonic               - tech_demonic
+    # Satyr                 - tech_satyr
+    # Naga                  - tech_naga
+    # Depths                - tech_depths
+    # Old Gods              - tech_old_god
+    # Scourge               - tech_scourge
+    # Dragonkin             - tech_dragonkin
+    # Gnoll                 - tech_gnoll
+    # Centaur               - tech_centaur
+    # Furbolg               - tech_furbolg
+    # Wolfvar               - tech_wolfvar
+    # Gorloc                - tech_gorloc
+    # Kobold                - tech_kobold
+    # Harpy                 - tech_harpy
+    # Quillboar             - tech_quillboar
+    # Titan                 - tech_titan
+    # Elemental             - tech_elemental
+    # Arrakoa               - tech_arrakoa
+    # Tuskarr               - tech_tuskarr
+    # Mantid                - tech_mantid
+    # Mogu                  - tech_mogu
+    # Yaungol               - tech_yaungol
+    # Ethereal              - tech_ethereal
+    # Primitive             - tech_primitive
+    # Vrykul                - tech_vrykul
+    # Magnataur             - tech_magnataur
+    
+#-------------------------------------------------------------
 
 groups = {
 	# Warcraft

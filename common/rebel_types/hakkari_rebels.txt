@@ -1,17 +1,17 @@
 #------------------------------------
-# Fel Rebels
+# hakkari Rebels
 #------------------------------------
-# religion_fel
+# religion_hakkari
 # religion_group_disorder
-# fel
+# hakkari
 
-fel_rebels = {
+hakkari_rebels = {
 
-	color = { 230 175 175 }
+	color = { 153 86 236  }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = religion_fel
+	religion = religion_hakkari
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -54,7 +54,7 @@ fel_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = religion_fel }
+			NOT = { religion = religion_hakkari }
 		}
 		modifier = {
 			factor = 0.001
@@ -131,21 +131,21 @@ fel_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = religion_fel
-			owner = { religion = religion_fel }
+			religion = religion_hakkari
+			owner = { religion = religion_hakkari }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = religion_fel }
+			NOT = { religion = religion_hakkari }
 			any_neighbor_province = {
-	 			religion = religion_fel
+	 			religion = religion_hakkari
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
 		modifier = {
 			factor = 1.5
 			has_missionary = yes
-			religion = religion_fel
+			religion = religion_hakkari
 		}
 		modifier = {
 			factor = 1.5
@@ -173,9 +173,9 @@ fel_rebels = {
 			if = {
 				limit = {
 					OR = {
-						religion = religion_fel
+						religion = religion_hakkari
 						is_reformation_center = yes
-						owner = { religion = religion_fel }
+						owner = { religion = religion_hakkari }
 					}
 				}
 				add_province_modifier = {
@@ -185,11 +185,11 @@ fel_rebels = {
 			}
 			if = {
 				limit = {
-					NOT = { religion = religion_fel }
+					NOT = { religion = religion_hakkari }
 					is_reformation_center = no
-					NOT = { owner = { religion = religion_fel } }
+					NOT = { owner = { religion = religion_hakkari } }
 				}
-				change_religion = religion_fel
+				change_religion = religion_hakkari
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -209,7 +209,7 @@ fel_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "fel_rebels_demand"
+	demands_description = "hakkari_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {
@@ -227,7 +227,7 @@ fel_rebels = {
 		}
 		if = {
 			limit = {
-				religion = religion_fel
+				religion = religion_hakkari
 			}
 			add_country_modifier = {
 				name = "religious_intolerance_enforced"
@@ -236,7 +236,7 @@ fel_rebels = {
 		}
 		if = {
 			limit = {
-				religion = religion_fel
+				religion = religion_hakkari
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {
@@ -256,11 +256,11 @@ fel_rebels = {
 			limit = {
 				OR = {
 					religion_group = religion_group_disorder
-					dominant_religion = religion_fel
+					dominant_religion = religion_hakkari
 				}
-				NOT = { religion = religion_fel }
+				NOT = { religion = religion_hakkari }
 			}
-			change_religion = religion_fel
+			change_religion = religion_hakkari
 			force_converted = yes
 		}
 	}

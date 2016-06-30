@@ -1,6 +1,52 @@
-# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+#-------------------------------------------------------------
+# Quick Reference
+#-------------------------------------------------------------
+# Chaos                     - religion_group_disorder
+#   Fel                     - religion_fel
+#   Hakkari                 - religion_hakkari
 
-# Uses all 'modifiers' possible thats exported as a Modifier.
+# Light                     - religion_group_the_light
+#   Scarlet Light           - religion_scarlet_light
+#   Church of the Light     - religion_church_of_the_light
+#   Argent Light            - religion_argent_light
+#   Light of the Naaru      - religion_light_of_the_naaru
+#   Light of the Sunwell    - religion_light_of_the_sunwell
+
+# Void
+#   Shadow                  - religion_group_the_void
+#   Old Gods                - religion_old_gods
+#   The Damned              - religion_the_damned
+#   Void                    - religion_void
+#   Voodoo                  - religion_voodoo
+#   Forgotten Shadow        - religion_forgotten_shadow
+
+# Elemental                 - religion_group_elemental
+#   Ancestral               - religion_ancestral
+#   Geomancy                - religion_geomancy
+#   Fire                    - religion_fire
+#   Earth                   - religion_earth
+#   Air                     - religion_air
+#   Water                   - religion_water
+
+# Technology                - religion_group_technology
+#   Tech                    - religion_tech
+
+# Order                     - religion_group_order
+#   Arcane                  - religion_arcane
+#   Titan                   - religion_titan
+#   Mystery of the Makers   - religion_mystery_of_the_makers
+#   Elune                   - religion_elune
+#   Sect of Dragons         - religion_sect_of_dragons
+#   Arkkorok                - religion_arkkorok
+
+# Nature                    - religion_group_nature
+#   Druidic                 - religion_druidic
+#   Loa                     - religion_loa
+#   Terokk                  - religion_terokk
+#   Celestial               - religion_celestial
+#   Zangar                  - religion_zangar
+#   Primitive               - religion_primitive
+#-------------------------------------------------------------
 
 # Chaos
 religion_group_disorder = {
@@ -78,28 +124,7 @@ religion_group_disorder = {
 		heretic = { }
 	}
 }
-# Old God
-#religion_group_old_god = {
-#	defender_of_faith = no
-#	can_form_personal_unions = no
-#	
-#	flags_with_emblem_percentage = 33 # default == 0
-#	flag_emblem_index_range = { 1 57 }
-#	
-#	crusade_name = CRUSADE
-#	
-#
-#}
-# Loa
-#religion_group_loa = {
-#	defender_of_faith = yes
-#	can_form_personal_unions = no
-#	
-#	flags_with_emblem_percentage = 33 # default == 0
-#	flag_emblem_index_range = { 1 57 }
-#	
-#	crusade_name = CRUSADE
-#}
+
 # The Light
 religion_group_the_light = {
 	defender_of_faith = yes
@@ -1005,17 +1030,3 @@ religion_group_nature = {
 		heretic = { }
 	}
 }
-# Dragonflight
-#religion_group_dragonflight = {
-#	defender_of_faith = no
-#	can_form_personal_unions = no
-#	
-#	flags_with_emblem_percentage = 33 # default == 0
-#	flag_emblem_index_range = { 1 57 }
-#	
-#	crusade_name = CRUSADE
-#	
-#
-#}
-
-

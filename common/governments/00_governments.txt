@@ -1,19 +1,49 @@
-#Do not change tags in here without changing every other reference to them.
-#If adding new forms of governemnts, make sure they are uniquely named.
-
-#Uses all 'modifiers' possible that's exported as a Modifier.
-
-# valid_for_new_country determines which governments can be converted to normally
-# allow_convert determines which governments can be force-converted to and from via CBs
-
-#ai_will_do will only check if it's valid,and won't break unions or switch to republic from monarchy, nor check to convert to something earlier in the file.
-#ai_importance determines overall 'quality' of government when government is auto-picked.
+#-------------------------------------------------------------
+# Quick Reference
+#-------------------------------------------------------------
+# Locked means they cannot convert using the government button
 
 # Monarchy
-#	Administrative Kingdom	: Holding, Kingdom, Empire
-#	administrative_kingdom
-#							: Petty Magocracy, Magocracy, Grand Magocracy
-#							: Petty Admirality, Admirality, Grand Admirality
+#   Administrative Kingdom              - administrative_kingdom
+#   Mercantile Kingdom                  - mercantile_kingdom
+#   Militaristic Kingdom                - militaristic_kingdom
+
+# Republic
+#   Administrative Republic             - administrative_republic
+#   Mercantile Republic                 - mercantile_republic
+#   Militaristic Republic               - militaristic_republic
+
+# Theocracy
+#   Administrative Theocracy            - administrative_theocracy
+#   Mercantile Theocracy                - mercantile_theocracy
+#   Militaristic Theocracy              - militaristic_theocracy
+
+# Monastic Order
+#   Administrative Order                - administrative_order
+#   Mercantile Order                    - mercantile_order
+#   Militaristic Order                  - militaristic_order
+
+# Tribal
+#   Religious Tribe                     - religious_tribe
+#   Mercantile Tribe                    - mercantile_tribe
+#   War Tribe                           - war_tribe
+
+# Locked Nomad
+#   Warband                             - warband_gov
+#   Scourge                             - scourge_gov
+#   Expeditionary Force                 - expeditionary_force
+
+# Locked Monarchy
+#   Dragonflight                        - dragonflight_gov
+#   Criminal Organisation               - criminal_organisation
+#   Regency                             - regency_gov
+
+# Locked Republic
+#   Dictatorship                        - dictatorship_gov
+
+# Locked Religion
+#   Cult                                - cult_gov
+
 administrative_kingdom = {
 	monarchy = yes
 

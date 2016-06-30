@@ -39,11 +39,6 @@ fel_rebels = {
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 1
-        # Decrease so nationalists have priority when lots of conquering has occured
-        modifier = {
-			factor = 0.25
-			overextension_percentage = 0.25
-		}
 		modifier = {
 			factor = 0.5
 			is_overseas = yes

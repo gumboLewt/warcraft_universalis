@@ -1,17 +1,17 @@
 #------------------------------------
-# Fel Rebels
+# sect_of_dragons Rebels
 #------------------------------------
-# religion_fel
-# religion_group_disorder
-# fel
+# religion_sect_of_dragons
+# religion_group_order
+# sect_of_dragons
 
-fel_rebels = {
+sect_of_dragons_rebels = {
 
-	color = { 230 175 175 }
+	color = { 141 168 132  }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = religion_fel
+	religion = religion_sect_of_dragons
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -39,11 +39,13 @@ fel_rebels = {
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 1
+        
         # Decrease so nationalists have priority when lots of conquering has occured
         modifier = {
 			factor = 0.25
 			overextension_percentage = 0.25
 		}
+        
 		modifier = {
 			factor = 0.5
 			is_overseas = yes
@@ -54,7 +56,7 @@ fel_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = religion_fel }
+			NOT = { religion = religion_sect_of_dragons }
 		}
 		modifier = {
 			factor = 0.001
@@ -131,21 +133,21 @@ fel_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = religion_fel
-			owner = { religion = religion_fel }
+			religion = religion_sect_of_dragons
+			owner = { religion = religion_sect_of_dragons }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = religion_fel }
+			NOT = { religion = religion_sect_of_dragons }
 			any_neighbor_province = {
-	 			religion = religion_fel
+	 			religion = religion_sect_of_dragons
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
 		modifier = {
 			factor = 1.5
 			has_missionary = yes
-			religion = religion_fel
+			religion = religion_sect_of_dragons
 		}
 		modifier = {
 			factor = 1.5
@@ -173,9 +175,9 @@ fel_rebels = {
 			if = {
 				limit = {
 					OR = {
-						religion = religion_fel
+						religion = religion_sect_of_dragons
 						is_reformation_center = yes
-						owner = { religion = religion_fel }
+						owner = { religion = religion_sect_of_dragons }
 					}
 				}
 				add_province_modifier = {
@@ -185,11 +187,11 @@ fel_rebels = {
 			}
 			if = {
 				limit = {
-					NOT = { religion = religion_fel }
+					NOT = { religion = religion_sect_of_dragons }
 					is_reformation_center = no
-					NOT = { owner = { religion = religion_fel } }
+					NOT = { owner = { religion = religion_sect_of_dragons } }
 				}
-				change_religion = religion_fel
+				change_religion = religion_sect_of_dragons
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -200,7 +202,7 @@ fel_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = religion_group_disorder
+		religion_group = religion_group_order
 	}
 	
 	# Country scope
@@ -209,13 +211,13 @@ fel_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "fel_rebels_demand"
+	demands_description = "sect_of_dragons_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = religion_group_disorder }
+				NOT = { religion_group = religion_group_order }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -227,7 +229,7 @@ fel_rebels = {
 		}
 		if = {
 			limit = {
-				religion = religion_fel
+				religion = religion_sect_of_dragons
 			}
 			add_country_modifier = {
 				name = "religious_intolerance_enforced"
@@ -236,7 +238,7 @@ fel_rebels = {
 		}
 		if = {
 			limit = {
-				religion = religion_fel
+				religion = religion_sect_of_dragons
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {
@@ -255,12 +257,12 @@ fel_rebels = {
 		if = {
 			limit = {
 				OR = {
-					religion_group = religion_group_disorder
-					dominant_religion = religion_fel
+					religion_group = religion_group_order
+					dominant_religion = religion_sect_of_dragons
 				}
-				NOT = { religion = religion_fel }
+				NOT = { religion = religion_sect_of_dragons }
 			}
-			change_religion = religion_fel
+			change_religion = religion_sect_of_dragons
 			force_converted = yes
 		}
 	}
