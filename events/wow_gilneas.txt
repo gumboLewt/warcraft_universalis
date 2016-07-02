@@ -4,7 +4,8 @@ country_event = {
 	id = gilneas.1
 	title = gilneas.1.title #Build the Wall!
 	desc = gilneas.1.desc #We should build a wall to forever remove our nation from other people's troubles.
-	
+	picture = DIPLOMACY_eventPicture
+    
 	fire_only_once = yes
 	
 	trigger = {
@@ -16,10 +17,10 @@ country_event = {
 		NOT = {
 			914 = {
 				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
+					has_building = wow_fort_1
+					has_building = wow_fort_2
+					has_building = wow_fort_3
+					has_building = wow_fort_4
 				}
 			}
 		}

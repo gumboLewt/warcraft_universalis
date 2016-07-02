@@ -131,6 +131,7 @@ country_event = {
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
+    
 	trigger = {
 		tag = A48
 		area_durotar = {
@@ -158,10 +159,6 @@ country_event = {
 			}
 		}
 		# Add Thunderbluff
-	}
-	
-	mean_time_to_happen = {
-		months = 120
 	}
 	
 	option = {

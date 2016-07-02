@@ -55,7 +55,7 @@ depths_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = culture_group_depths
+		culture_group = culture_group_depths
 	}
 	free = yes		#wibe added at load.
 	
@@ -337,43 +337,6 @@ kul_tiran_ideas = {
 	}
 }
 
-dark_strand_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-		
-	}
-	
-	trigger = {
-		primary_culture = culture_dark_strand
-	}
-	free = yes		#wibe added at load.
-	
-	dark_strand_ideas_1 = {
-	
-	}
-	dark_strand_ideas_2 = {
-	
-	}
-	dark_strand_ideas_3 = {
-	
-	}
-	dark_strand_ideas_4 = {
-	
-	}
-	dark_strand_ideas_5 = {
-	
-	}
-	dark_strand_ideas_6 = {
-	
-	}
-	dark_strand_ideas_7 = {
-	
-	}
-}
-
 darnassian_ideas = {
 	start = {
 		
@@ -548,7 +511,7 @@ outland_orc_ideas = {
 			primary_culture = culture_stormreaver
 			primary_culture = culture_burning_blade
 			primary_culture = culture_thunderlord
-			primary_culture = culture_searing_blade
+			#primary_culture = culture_searing_blade
 			primary_culture = culture_blackrock
 		}
 	}

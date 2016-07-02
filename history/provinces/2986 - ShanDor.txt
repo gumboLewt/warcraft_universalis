@@ -38,5 +38,5 @@ religion = religion_arcane
 }
 
 626.1.1 = {
-	add_building = fort_16th
+	add_building = wow_fort_2
 }

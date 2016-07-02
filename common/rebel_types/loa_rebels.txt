@@ -68,7 +68,7 @@ loa_rebels = {
 		}
 		modifier = {
 			factor = 5.0
-			owner = { has_disaster = religious_turmoil }
+			owner = { NOT = { religious_unity = 0.5 } }
 		}		
 		modifier = {
 			factor = 2000

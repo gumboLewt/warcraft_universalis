@@ -583,6 +583,23 @@
  #-----------------------------------------------
  # Areas
  #-----------------------------------------------
+ area_ek_south_west: ""
+ area_ek_south_coast: ""
+ area_ek_east: ""
+ area_ek_central_coast: ""
+ area_ek_north_coast: ""
+ area_ek_north_west: ""
+ area_pandaria_coast: ""
+ area_kalimdor_south_east: ""
+ area_maelstrom_seas: ""
+ area_northrend_coast: ""
+ area_kalimdor_north_coast: ""
+ area_kalimdor_west: ""
+ area_kalimdor_south_coast: ""
+ area_kalimdor_north_east: ""
+ area_kalimdor_wasteland: ""
+ area_outland_wastelands: ""
+ 
  area_hidden_valley: "Hidden Valley"
  area_stormwind: "Stormwind"
  area_isle_of_quel_danas: "Isle of Quel'Danas"
