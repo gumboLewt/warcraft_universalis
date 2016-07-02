@@ -303,22 +303,20 @@
  #-----------------------------------------------
  # Terrain
  #-----------------------------------------------
- burnt_earth: "Burnt Earth"
- burnt_earth_desc: "This land is burnt by the turmoil of war. It will be a long time until anything grows naturally here again."
- frozen_wastes: "Frozen Wastes"
- frozen_wastes_desc: "Chilling winds blow across the frozen tundra of this land. This is not a place mere mortals should be inhabiting."
- corrupted_earth: "Hallowed"
- corrupted_earth_desc: "The earth itself is hallowed, forever tainted by the dead."
- fel_touched_earth: "Fel-touched"
- fel_touched_earth_desc: "The earth itself is fel-touched, tainted forever by the Legion and it's beasts."
- capital: "City"
- capital_desc: "This land is home to a city, a monument to a race's achievement."
- floating: "Sky"
- floating_desc: "This land is suspended in the sky through some means, be it arcane or elemental."
- nether_touched_earth: "Nether-touched"
- nether_touched_earth_desc: "This land has been exposed to the Nether."
- arcane_touched_earth: "Arcane-touched"
- arcane_touched_earth_desc: "This ladn has been altered by exposure to the Arcane."
+ desolate_waste: "Desolate"
+ desolate_waste_desc: "Desolate Waste represents land that has undergone catastrophic damage, often due to war, leaving it lifeless."
+
+ urban: "Urban"
+ urban_desc: "Urban represents land dominated by dwellings occupied by citizens of the nation whom owns the land."
+ suspended: "Suspended"
+ suspended_desc: "Suspended represents land that is suspended in the air by some fashion."
+ 
+ nethertouched: "Nether-touched"
+ nethertouched_desc: "Nether-touched represents land that is or has been exposed to the Twisting Nether in some form."
+ arcanetouched: "Arcane-touched"
+ arcanetouched_desc: "Arcane-touched represents land that is or has been exposed to Arcane energies in some form."
+ feltouched: "Fel-touched"
+ feltouched_desc: "Fel-touched represents land that is or has been exposed to Fel energies in some form."
  
  #-----------------------------------------------
  # Colonial Nations
@@ -2294,9 +2292,20 @@
  the_right_worship: "Worshipping our Way"
  desc_the_right_worship: "The inhabitants of this province have been convinced of the validity of $COUNTRY_RELIGION$."
  
+ #-----------------------------------
+ # Casus Belli
+ #-----------------------------------
+ cb_scourge: "Scourge"
+ cb_scourge_desc: "The Scourge must spread across all of Azeroth!"
  
+ cb_for_the_alliance: "For the Alliance!"
+ cb_for_the_alliance_desc: "The Horde must be wiped out, and it's members slain!"
  
+ cb_for_the_horde: "For the Horde!"
+ cb_for_the_horde_desc: "The Alliance must be wiped out, and it's members slain!"
  
+ cb_petty_squabbles: "Petty Squabbles"
+ cb_petty_squabbles_desc: "Our neighbours have encroached upon our land. Let's teach them a lesson they'll never forget!"
  
  
  

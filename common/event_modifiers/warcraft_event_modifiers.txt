@@ -1,5 +1,34 @@
+# Alliance/Horde
+horde_member = {
+    diplomatic_upkeep = 2
+}
+
+alliance_member = {
+    diplomatic_upkeep = 2	
+}
+
+alliance_head = {
+    diplomatic_upkeep = 2
+}
+
+horde_head = {
+    diplomatic_upkeep = 2
+}
+
+neutral_member = {
+
+}
+
 faction_member = {
 	diplomatic_upkeep = 4
+}
+
+recently_conjured = {
+    prestige = 0.5						#0,5% extra prestige yearly
+}
+
+kings_grasp = {
+    reduced_liberty_desire = -200		#This is simply not possible to break true Lich King's grasp
 }
 
 blood_of_mannaroth = {

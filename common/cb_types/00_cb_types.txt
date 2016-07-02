@@ -359,38 +359,6 @@ cb_claim_throne = {
 	war_goal = take_capital_throne
 }
 
-# Horde vs Civilized
-cb_horde_vs_civ = {
-	valid_for_subject = no
-
-	prerequisites = {
-		is_neighbor_of = FROM
-		FROM = {
-			is_nomad = no
-		}
-		is_nomad = yes
-		is_revolution_target = no
-	}
-	
-	war_goal = superiority_horde
-}
-
-# Tribal vs Tribal Feud
-cb_tribal_feud = {
-	valid_for_subject = no
-
-	prerequisites = {
-		is_nomad = yes
-		FROM = {
-			is_nomad = yes
-		}
-		is_neighbor_of = FROM
-		is_revolution_target = no
-	}
-	
-	war_goal = take_province_tribal_feud
-}
-
 # When someone is privateering in a node that you trade and have some power in.
 cb_privateers = {
 	

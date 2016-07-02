@@ -29,8 +29,14 @@ categories =  {
         
         # Modifiers
 		movement_cost = 1.0
+        
+        # Override
+        terrain_override = {
+            
+        }
 	}	
 
+    # The Glacial terrain represents areas with very harsh and cold conditions often with permanent snow coverage and glaciers. Areas with Glacial terrain are very inhospitable for human settlement or military maneuvers.
 	glacier = {
         color = { 235 235 235 }
         
@@ -48,11 +54,12 @@ categories =  {
 
         # Override
         terrain_override = {
-            
+            1267 726 523 930 777 628 998 901 1233 1258 1261 1260 1259 530 2128 2129 708 834 862 2127 2368 2370 2369 2367 2374 761 2361 2362 2360 1225 1266 2381 846 2363 2364 2365 827 2366 2373 2371 1270 2375 2376 2377 2379 830 645 1278 2382 2383 2386 946 2385 522 2389 896 894 2390 1279 1227 764 2392 1228 828 753 541 2395 1280 2380
+            2126
         }
 	}
 
-	#farmlands
+	# Farmlands terrain represents highly cultivated areas where the landscape is dominated by agriculture and towns or villages.
 	farmlands = {
         color = { 103 167 214  }	
         
@@ -71,10 +78,11 @@ categories =  {
         # Override
         terrain_override = {
             1426 2288 1421 2265 
-            2142 3025
+            2142 3025 2336 2120 
         }
 	}
 	
+    # Forest terrain represents areas of conifer forest with high density of trees and underbrush.
 	forest = {
         color = { 91 123 45 }
         
@@ -99,10 +107,11 @@ categories =  {
             1069 1068 1067 1072 1071 1070
             2461 2107 2108 600 2463 
             698
+            1283 2397 2398 2399 2131 796 995 812 781 2402
         }
 	}
 	
-	#hills
+	# Hills terrain represents areas dominated by a rolling landscape of shifting elevation that are lower and less steep than mountains. Unlike the highland terrain hills represent areas with a higher density of trees and underbrush.
 	hills = {
         color = { 113 176 151 }
         
@@ -137,11 +146,16 @@ categories =  {
             1994 650 772 752 717 683 785 800 1992 816 838 669 1993 2190 2199 2197 2198 2196 2195 2163 2193
             2954 552 1137 1046 3033 1945 
             855 3039
-            605 1032 656 554 536 1025 803 841 1940 622 
+            605 1032 656 554 536 1025 803 841 1940 622
+            850 2117 2118 951 
+            529 545 2132 2406 2133 2407 2408 2410 2134 1051 2418 679
+            2444 732      
+            749 1290 882
+            1047 3032 1941 792 1048 655 303 3030 
         }
 	}
 
-	#woods
+	# Woods terrain represents areas of broadleaf forest with high density of trees and underbrush.
 	woods = {
         color = { 165 205 108 }
         
@@ -169,10 +183,12 @@ categories =  {
             1021 1004 903 1057 985 970 586 653 682 637 618 602 2153 2152 2151 2150 2178 2177 2170
             661 954 1005 986 913 587 619 603 550 567 1058 533  2145 2146 2147 2148 2144 2143  2140 2139 2138
             956 3044 839 801
+            1018 509
+            967 
 		}
 	}
 	
-	#mountain
+	# Mountain terrain represents areas mainly occupied by rugged mountain ranges and narrow passes, often on high altitude and in cold climate.
 	mountain = {
         color = { 117 108 119 }
         
@@ -197,9 +213,11 @@ categories =  {
             1269 1226 911 895 829 1275
             1624 1630 2052 1593
             817 3045 
+            595 2099
         }
 	}
 	
+    # Impassable Mountains terrain represents areas of mountains too inhospitable or too difficult for an army to maneuver in.
 	impassable_mountains = {
         color = { 128 128 128 }
         
@@ -218,7 +236,7 @@ categories =  {
         }
 	}
 
-	#grasslands
+	# Grasslands terrain represents areas of farmland where the vegetation is dominated by grass.
 	grasslands = {
         color = { 211 201 184 }
         
@@ -242,8 +260,7 @@ categories =  {
         }
 	}
 	
-
-	#jungle
+	# Jungle terrain represents areas overgrown with dense tropical vegetation, difficult for an army to maneuver in.
 	jungle = {
         color = { 40 180 149 }
         
@@ -262,11 +279,13 @@ categories =  {
 		
 		# Override
         terrain_override = {
-            1528 1527 1534 1535 1540 1536 1637 1532 1539 1531 1530 1529 1537
+            1528 1527 1534 1535 1540 1536 1532 1539 1531 1530 1529 1537
             1996 1997 601 585 636 652 681 697 715 750 735 783 565 1056 548 531 511 1020 1003 984 969 920 937 902 852 868 883 996 2165 2167 
+            2115 2350 2351 2349 766 826 2357 2356 2355 939 1264 2354 2100 971 762 2358 2353 2352 1263 2359 692 916 
         }
 	}	
 	
+    # Marsh terrain represents tracts of wetland dominated by grasses or low-growing shrubs.
 	marsh = {
         color = { 76 112 105 }
         
@@ -290,10 +309,11 @@ categories =  {
             2049 1606 1605 1604 1608 1607 1609 1610 2062 2063 1611 1617 2064 1612 1620 1614 1613 1615 1616 2065  
             885 638 547 949 707 994 725 864 594 879 1995 2185 2160 2184 2183 2159 2157 2186 2155 2180 2156 2187 2191 2179 2181 2188 2158 2189 
             3034 1942
+            2342 2343 900
         }
 	}
 	
-	#desert
+	# Desert terrain represents desolate and arid areas with little or no vegetation, often in a very warm climate.
 	desert = {
         color = { 220 210 0 }
         
@@ -316,7 +336,7 @@ categories =  {
         }
 	}
 	
-	#coastal_desert
+	# Coastal Desert terrain represents areas where the desert meets the ocean, resulting in a milder and less inhospitable climate.
 	coastal_desert = {
         color = { 200 128 0 }
         
@@ -337,6 +357,7 @@ categories =  {
         }
 	}
 	
+    # Coastline terrain represents the narrow areas where land and sea meet, compromised of cliffs or sand dunes.
 	coastline = {
         color = { 200 128 0 }
         
@@ -359,10 +380,15 @@ categories =  {
             714 867 2468 2110 564 2462 584
             997 2166 1998 693
             2141
+            1002 2335 1019 2334 2331 2332 2123 983 2337 919 2338 2116 
+            2119 2125 
+            748 2403 935 583 
+            2412 2415 
+            2449
         }
 	}	
 	
-	#drylands
+	# Drylands represents large areas of dry, flat or rolling treeless land.
 	drylands = {
         color = { 208 158 108  }
         
@@ -385,10 +411,16 @@ categories =  {
             1603
             622 904 627 837 870 751 736 716 771 596 815 612 799 1999 784 2000 922 2168 2169 2154 
             1967 1979 1974 1978 1969 1971 1972 1973 1976 1975 1970 1968 1977
+            
+            615 664 649 2420 1284 2422 2421 633 2425 1274 2423 2424 598 2427 2430 2432 2429 2428 544 1285 562 582 2433 779 2435 2437 2436 917 2438 1287 933 1017 898 832 2441 2440 810 794 1286
+            2044 1655 1648 2047 1656 1649 1657 
+            938 953 921 2182 2162 2161 
+            563 2414
+            2431 
         }	
 	}
 
-	#highlands
+	# Highlands terrain represents areas dominated by a rolling landscape of shifting elevation that are lower and less steep than mountains. Unlike the hills terrain highlands represent areas with a low density of trees and underbrush.
 	highlands = {
         color = { 135 70 0 }
         
@@ -409,9 +441,11 @@ categories =  {
         # Override
         terrain_override = {
             2307 2281 1408 2280 1366 1407 2278 1363 1364 1361 1367 1406 1362 1405 1357 1345 1347 1346 1344 1343 1342
+            510 2333 2122 2340 2346 2345 936 881 
         }
 	}
 
+    # Savanna terrain represents large grass-covered areas with a high degree of trees mixed in.
 	savannah = {
         color = { 201 214 148  }	
         
@@ -432,7 +466,7 @@ categories =  {
         }		
 	}
 	
-	#steppe
+	# Steppes terrain represents large and continuous open areas covered in grass that are suitable for grazing yet unsuitable for agriculture.
 	steppe = {
         color = { 185 106 210  }
         
@@ -454,7 +488,9 @@ categories =  {
 	}	
 	
 	# Warcraft
-	burnt_earth = {
+    
+    # Desolate Waste represents land that has undergone catastrophic damage, often due to war, leaving it lifeless.
+	desolate_waste = {
         color = { 100 0 50 }
         
         # Map
@@ -477,31 +513,9 @@ categories =  {
             884 630 1050 807 1045 1033 1034 1043 1042 553 1035 1037 869 814 836 853 2176 2175 2172 2174 2173 2171 
 		}
 	}	
-    
-    corrupted_earth = {
-        color = { 33 77 66 }
-        
-        # Map
-        sound_type = plains
-        
-        # Modifiers
-		movement_cost = 1.0
-		supply_limit = 1
-        
-		local_development_cost = 0.25
-        
-		nation_designer_cost_multiplier = 0.95
-
-        # Override
-		terrain_override = {
-			615 664 649 2420 1284 2422 2421 633 2425 1274 2423 2424 598 2427 2430 2432 2429 2428 544 1285 562 582 2433 779 2435 2437 2436 917 2438 1287 933 1017 898 832 2441 2440 810 794 1286
-            2044 1655 1648 2047 1656 1649 1657 
-            938 953 921 2182 2162 2161 
-            
-		}
-	}	
-    
-    nether_touched_earth = {
+   	
+    # Nether-touched represents land that is or has been exposed to the Twisting Nether in some form
+    nethertouched = {
         color = { 60 75 20 }
         
         # Map
@@ -521,7 +535,8 @@ categories =  {
 		}
 	}
     
-    arcane_touched_earth = {
+    # Arcane-touched represents land that is or has been exposed to Arcane energies in some form
+    arcanetouched = {
         color = { 20 85 50 }
         
         # Map
@@ -541,7 +556,8 @@ categories =  {
 		}
 	}
     
-    fel_touched_earth = {
+    # Fel-touched represents land that is or has been exposed to Fel energies in some form
+    feltouched = {
         color = { 77 55 44 }
         
         # Map
@@ -560,28 +576,9 @@ categories =  {
             1671 1673 1672 2036 1677 2037 1670 1669 166 1678 1665 1664 1676 1667 1679 1668 1675 1661 1674 1662 1663 1666
 		}
 	}	
-	
-	frozen_wastes = {
-        color = { 100 0 10 }
-        
-        # Map
-        sound_type = plains
-        
-        # Modifiers
-		movement_cost = 1.5
-		supply_limit = 1
-        
-		local_development_cost = 0.25
-
-        nation_designer_cost_multiplier = 0.95
-
-        # Override
-		terrain_override = {
-			1267 726 523 930 777 628 998 901 1233 1258 1261 1260 1259 530 2128 2129 708 834 862 2127 2368 2370 2369 2367 2374 761 2361 2362 2360 1225 1266 2381 846 2363 2364 2365 827 2366 2373 2371 1270 2375 2376 2377 2379 830 645 1278 2382 2383 2386 946 2385 522 2389 896 894 2390 1279 1227 764 2392 1228 828 753 541 2395 1280 2380 
-		}
-	}
-	
-	capital = {
+    
+    # Urban represents land dominated by dwellings occupied by citizens of the nation whom owns the land.
+	urban = {
         color = { 0 0 20 }
         
         # Map
@@ -604,8 +601,8 @@ categories =  {
 		}
     }
     
-    # Used for floating entities, such as Dalaran, Vortex Pinnacle, etc
-    floating = {
+    # Suspended represents land that is suspended in the air by some fashion.
+    suspended = {
         color = { 0 25 20 }
         
         # Map
@@ -671,14 +668,12 @@ terrain
 	terrain_21			= { type = farmlands		color = { 	21	 } }	
 	
 	# Unique
-	burnt_earth 		= { type = burnt_earth		    color = { 	25	 } }	
-	frozen_wastes		= { type = frozen_wastes	    color = { 	26	 } }
-	capital		 	    = { type = capital		        color = { 	27	 } }
-    floating		 	= { type = floating		        color = { 	28	 } }
-    corrupted_earth	    = { type = corrupted_earth		color = { 	29	 } }
-    fel_touched_earth   = { type = fel_touched_earth    color = { 	30	 } }
-    nether_touched_earth   = { type = nether_touched_earth    color = { 	31	 } }
-    arcane_touched_earth   = { type = arcane_touched_earth    color = { 	32	 } }
+	desolate_waste 		= { type = desolate_waste		    color = { 	25	 } }	
+	urban		 	    = { type = urban		        color = { 	27	 } }
+    suspended		 	= { type = suspended		        color = { 	28	 } }
+    feltouched   = { type = feltouched    color = { 	30	 } }
+    nethertouched   = { type = nethertouched    color = { 	31	 } }
+    arcanetouched   = { type = arcanetouched    color = { 	32	 } }
 }
 
 ##################################################################
