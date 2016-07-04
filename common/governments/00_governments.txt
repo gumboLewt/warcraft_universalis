@@ -57,6 +57,8 @@ administrative_kingdom = {
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			global_tax_modifier = 0.05
@@ -88,6 +90,12 @@ mercantile_kingdom = {
 	}
 	ai_importance = 1
 	
+    boost_income = yes
+	can_use_trade_post = yes
+	can_form_trade_league = yes
+    
+    max_states = 5
+    
 	rank = {
 		1 = {
 			global_trade_power = 0.05
@@ -119,6 +127,8 @@ militaristic_kingdom = {
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			global_manpower_modifier = 0.05
@@ -151,6 +161,8 @@ dragonflight_gov = {
 	}
 	ai_importance = 1
 	
+    max_states = 1
+    
 	rank = {
 		1 = {
 			technology_cost = -0.05
@@ -182,6 +194,8 @@ criminal_organisation = {
 	}
 	ai_importance = 1
 	
+    max_states = 3
+    
 	rank = {
 		1 = {
 			global_spy_defence = 0.25
@@ -217,6 +231,13 @@ regency_gov = {
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
+    # Regency Council system
+    #has_parliament = yes
+    
+    rulers_can_be_generals = no
+    
 	rank = {
 		1 = {
 			global_tax_modifier = 0.05
@@ -251,6 +272,8 @@ administrative_republic = {
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			global_tax_modifier = 0.05
@@ -278,11 +301,17 @@ mercantile_republic = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	
+    boost_income = yes
+	can_use_trade_post = yes
+	can_form_trade_league = yes
+    
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			global_trade_power = 0.05
@@ -315,6 +344,8 @@ militaristic_republic = {
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			global_manpower_modifier = 0.05
@@ -346,6 +377,8 @@ dictatorship_gov = {
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			core_creation = -0.05
@@ -374,12 +407,15 @@ administrative_theocracy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	has_devotion = yes
-	
+	rulers_can_be_generals = no
+    
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			tolerance_own = 1
@@ -405,12 +441,19 @@ mercantile_theocracy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	has_devotion = yes
-	
+	rulers_can_be_generals = no
+    
+    boost_income = yes
+	can_use_trade_post = yes
+	can_form_trade_league = yes
+    
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			tolerance_own = 1
@@ -436,12 +479,15 @@ militaristic_theocracy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	has_devotion = yes
-	
+	rulers_can_be_generals = no
+    
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			tolerance_own = 1
@@ -475,6 +521,8 @@ administrative_order = {
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			global_missionary_strength = 0.01
@@ -502,11 +550,17 @@ mercantile_order = {
 	nation_designer_cost = 0
 	has_devotion = yes
 	
+    boost_income = yes
+	can_use_trade_post = yes
+	can_form_trade_league = yes
+    
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			global_missionary_strength = 0.01
@@ -539,6 +593,8 @@ militaristic_order = {
 	}
 	ai_importance = 1
 	
+    max_states = 5
+    
 	rank = {
 		1 = {
 			global_missionary_strength = 0.01
@@ -570,6 +626,11 @@ cult_gov = {
 	}
 	ai_importance = 1
 	
+    max_states = 3
+    
+    # Insanity system
+    #dutch_mechanics = yes
+    
 	rank = {
 		1 = {
 			enemy_core_creation = 1.0
@@ -603,6 +664,8 @@ warband_gov = {
 	}
 	ai_importance = 1
 	
+    max_states = 2
+    
 	rank = {
 		1 = {
 			land_forcelimit_modifier = 0.15
@@ -635,6 +698,8 @@ scourge_gov = {
 	}
 	ai_importance = 1
 	
+    max_states = 2
+    
 	rank = {
 		1 = {
 			global_regiment_cost = -0.33
@@ -671,6 +736,8 @@ expeditionary_force = {
 	}
 	ai_importance = 1
 	
+    max_states = 2
+    
 	rank = {
 		1 = {
 			global_manpower_modifier = 0.1
@@ -709,6 +776,8 @@ religious_tribe = {
 	}
 	ai_importance = 1
 	
+    max_states = 2
+    
 	rank = {
 		1 = {
 			tolerance_own = 1
@@ -740,11 +809,16 @@ mercantile_tribe = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	
+	can_use_trade_post = yes
+	can_form_trade_league = yes
+    
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
 	
+    max_states = 2
+    
 	rank = {
 		1 = {
 			global_trade_power = 0.05
@@ -781,6 +855,8 @@ war_tribe = {
 	}
 	ai_importance = 1
 	
+    max_states = 2
+    
 	rank = {
 		1 = {
 			global_manpower_modifier = 0.1

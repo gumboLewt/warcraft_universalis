@@ -714,61 +714,104 @@ region_howling_fjord = {
 #-------------------
 region_hidden_valley = {
     areas = {
-    
+        area_hidden_valley
     }
 }
 
 region_isle_of_thunder = {
     areas = {
-    
+        area_isle_of_thunder
+        area_throne_of_thunder
     }
 }
 
 region_isle_of_giants = {
     areas = {
-    
+        area_isle_of_giants
     }
 }
 
 region_jade_forest = {
     areas = {
-    
+        area_pawdon_islands
+        area_moonwater_islands
+        area_jade_islands
+        area_windward_isle
+        area_thunder_islands
+        area_pawdon_settlement
+        area_moonwater
+        area_temple_of_the_jade_serpent
+        area_dookin_grounds
+        area_dawns_blossom
+        area_tian_monastery
+        area_honeydew_village
     }
 }
 
 region_valley_of_the_four_winds = {
     areas = {
-    
+        area_thunderfoot_fields
+        area_stormstout_fields
+        area_halfhill
+        area_stoneplow
+        area_thunderfoot_overlook
     }
 }
 
 region_krasarang_wilds = {
     areas = {
-    
+        area_lions_landing
+        area_anglers_wharf
+        area_ruins_of_dojan
+        area_temple_of_the_red_crane
+        area_domination_point
     }
 }
 
 region_dread_wastes = {
     areas = {
-    
+        area_zan_vess
+        area_kypari_zar
+        area_heart_of_fear
+        area_horrid_march
+        area_klaxxi_vess
+        area_kor_vess
     }
 }
 
 region_vale_of_eternal_blossoms = {
     areas = {
-    
+        area_mogu_shan_palace
+        area_whitepetal_lake
+        area_golden_plain
+        area_guo_lai_halls
+        area_setting_sun_gate
     }
 }
 
 region_townlong_steppes = {
     areas = {
-    
+        area_dusklight_hollow
+        area_sumprushes
+        area_kri_vess
+        area_sik_vess
+        area_osul_basecamp
+        area_niuzao_temple
+        area_sra_vess
+        area_shan_ze_dao
     }
 }
 
 region_kun_lai_summit = {
     areas = {
-    
+        area_kun_lai
+        area_zouchin_village
+        area_temple_of_the_white_tiger
+        area_kota_basecamp
+        area_mogujia
+        area_shado_pan_garrison
+        area_binan_village
+        area_yaungol_advance
     }
 }
 
@@ -792,43 +835,85 @@ region_plunder_isle = {
 #-------------------
 region_hellfire_peninsula = {
     areas = {
-    
+        area_the_dark_portal
+        area_throne_of_kil_jaeden
+        area_contested_lands
+        area_warp_fields
+        area_hellfire_citadel
+        area_maghar_post
+        area_falcon_watch
     }
 }
 
 region_zangarmarsh = {
     areas = {
-    
+        area_telredor
+        area_umbrafen
+        area_coilfang
+        area_sporeggar
+        area_zabra_jin
+        area_marshlight
+        area_ango_rosh_grounds
     }
 }
 
 region_terokkar_forest = {
     areas = {
-    
+        area_shattrath
+        area_tuurem
+        area_contested_glade
+        area_skettis
+        area_upper_bone_wastes
+        area_lower_bone_wastes
+        area_auchindoun
+        area_bleeding_hollow_ruins
     }
 }
 
 region_nagrand = {
     areas = {
-    
+        area_burning_blade_ruins
+        area_telaar
+        area_halaa
+        area_sunspring_post
     }
 }
 
 region_shadowmoon_valley = {
     areas = {
-    
+        area_shadowmoon_wastes
+        area_coilskar_point
+        area_the_black_temple
+        area_the_hand_of_guldan
+        area_wildhammer_stronghold
+        area_sanctum_of_the_stars
+        area_netherwind_ledge
     }
 }
 
 region_blades_edge_mountains = {
     areas = {
-    
+        area_ogrila
+        area_ravens_wood
+        area_bladespire
+        area_sylvanaar
+        area_thunderlord_stronghold
+        area_ruuan_weald
+        area_crystal_spine
+        area_gruuls_lair
+        area_deaths_door
+        area_razor_ridge
     }
 }
 
 region_netherstorm = {
     areas = {
-    
+        area_area_52
+        area_sunfury_hold
+        area_ecodome_midrealm
+        area_stormspire
+        area_celestial_ridge
+        area_tempest_keep
     }
 }
 
