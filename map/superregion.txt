@@ -70,6 +70,7 @@ northrend_superregion = {
     region_grizzly_hills
     region_crystalsong
     region_howling_fjord
+    region_dragonblight
 }
 
 pandaria_superregion = {
