@@ -318,7 +318,7 @@ country_event = {
             religion = religion_fel # If the Portal is controlled by a Fel-aligned nation, they'd let through reinforcements
         }
         NOT = { is_year = 601 } #Draenor Explodes and Outland is Created
-        capital_scope = { superregion = azeroth_superregion } #Close proximity to portal
+        capital_scope = { region = region_blasted_lands } #Close proximity to portal
 	}
 	
 	mean_time_to_happen = {

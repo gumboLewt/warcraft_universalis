@@ -28,7 +28,7 @@ country_event = {
                    }
                 }
             }    
-            draenor_region = {
+            draenor_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
@@ -106,21 +106,21 @@ country_event = {
                 }
             }
             
-            lordaeron_region = {
+            lordaeron_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
                 }
             }
             
-            khaz_modan_region = {
+            khaz_modan_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
                 }
             }
             
-            azeroth_region = {
+            azeroth_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
@@ -143,39 +143,39 @@ country_event = {
                    }
 				   AND = {
 				        capital_scope = {
-                        continent = continent_eastern_kingdoms
+                            continent = continent_eastern_kingdoms
                         }
 				        OR = {
-				        culture_group = culture_group_dragonkin
-				        is_year = 622
+                            culture_group = culture_group_dragonkin
+                            is_year = 622
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_outland
+                            continent = continent_outland
                         }
 				        OR = {
-						culture_group = culture_group_naga
-						is_year = 625
+                            culture_group = culture_group_naga
+                            is_year = 625
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_northrend
+                            continent = continent_northrend
                         }
 				        OR = {
-				        culture_group = culture_group_dragonkin
-						culture_group = culture_group_naga
-				        primary_culture = culture_scourge
-				        is_year = 626
+                            culture_group = culture_group_dragonkin
+                            culture_group = culture_group_naga
+                            primary_culture = culture_scourge
+                            is_year = 626
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_pandaria
+                            continent = continent_pandaria
                         }
 				        OR = {
-				        is_year = 632
+                            is_year = 632
 					    }
 				    }
 			    }
@@ -188,35 +188,21 @@ country_event = {
                 }
             }
             
-            north_kalimdor_region = {
+            north_kalimdor_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
                 }
             }
             
-            central_kalimdor_region = {
+            central_kalimdor_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
                 }
             }
             
-            south_kalimdor_region = {
-                
-                ROOT = {
-                    discover_province = PREV
-                }
-            }
-            
-            exodar_region = {
-                
-                ROOT = {
-                    discover_province = PREV
-                }
-            }
-            
-            darnassus_region = {
+            south_kalimdor_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
@@ -239,34 +225,34 @@ country_event = {
                    }
 				   AND = {
 				        capital_scope = {
-                        continent = continent_eastern_kingdoms
+                            continent = continent_eastern_kingdoms
                         }
 				        OR = {
-				        is_year = 625
+                            is_year = 625
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_kalimdor
+                            continent = continent_kalimdor
                         }
 				        OR = {
-						is_year = 625
+                            is_year = 625
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_northrend
+                            continent = continent_northrend
                         }
 				        OR = {
-				        is_year = 626
+                            is_year = 626
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_pandaria
+                            continent = continent_pandaria
                         }
 				        OR = {
-				        is_year = 632
+                            is_year = 632
 					    }
 				    }
 			    }
@@ -279,7 +265,7 @@ country_event = {
                 }
             }
             
-            outland_region = {
+            outland_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
@@ -295,47 +281,47 @@ country_event = {
                    }
 				   AND = {
 				        capital_scope = {
-                        continent = continent_eastern_kingdoms
+                            continent = continent_eastern_kingdoms
                         }
 				        OR = {
-						culture_group = culture_group_naga
-				        is_year = 622
+                            culture_group = culture_group_naga
+                            is_year = 622
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_kalimdor
+                            continent = continent_kalimdor
                         }
 				        OR = {
-						culture_group = culture_group_naga
-						is_year = 622
+                            culture_group = culture_group_naga
+                            is_year = 622
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_outland
+                            continent = continent_outland
                         }
 				        OR = {
-						culture_group = culture_group_naga
-				        is_year = 625
+                            culture_group = culture_group_naga
+                            is_year = 625
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_northrend
+                            continent = continent_northrend
                         }
 				        OR = {
-						culture_group = culture_group_naga
-				        is_year = 626
+                            culture_group = culture_group_naga
+                            is_year = 626
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_pandaria
+                            continent = continent_pandaria
                         }
 				        OR = {
-						culture_group = culture_group_naga
-				        is_year = 632
+                            culture_group = culture_group_naga
+                            is_year = 632
 					    }
 				    }
 			    }
@@ -348,7 +334,14 @@ country_event = {
                 }
             }
             
-            maelstrom_region = {
+            the_lost_isles_provincegroup = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+            
+            south_seas_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
@@ -371,34 +364,34 @@ country_event = {
                    }
 				   AND = {
 				        capital_scope = {
-                        continent = continent_eastern_kingdoms
+                            continent = continent_eastern_kingdoms
                         }
 				        OR = {
-				        is_year = 632
+                            is_year = 632
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_kalimdor
+                            continent = continent_kalimdor
                         }
 				        OR = {
-						is_year = 632
+                            is_year = 632
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_northrend
+                            continent = continent_northrend
                         }
 				        OR = {
-				        is_year = 632
+                            is_year = 632
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_outland
+                            continent = continent_outland
                         }
 				        OR = {
-				        is_year = 632
+                            is_year = 632
 					    }
 				    }
 			    }
@@ -411,7 +404,7 @@ country_event = {
                 }
             }
             
-            pandaria_region = {
+            pandaria_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV
@@ -434,34 +427,34 @@ country_event = {
                    }
 				   AND = {
 				        capital_scope = {
-                        continent = continent_eastern_kingdoms
+                            continent = continent_eastern_kingdoms
                         }
 				        OR = {
-				        is_year = 617
+                            is_year = 617
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_kalimdor
+                            continent = continent_kalimdor
                         }
 				        OR = {
-						is_year = 622
+                            is_year = 622
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_pandaria
+                            continent = continent_pandaria
                         }
 				        OR = {
-				        is_year = 632
+                            is_year = 632
 					    }
 				    }
 					AND = {
 				        capital_scope = {
-                        continent = continent_outland
+                            continent = continent_outland
                         }
 				        OR = {
-				        is_year = 625
+                            is_year = 625
 					    }
 				    }
 			    }
@@ -474,7 +467,7 @@ country_event = {
                 }
             }
             
-            northrend_region = {
+            northrend_provincegroup = {
                 
                 ROOT = {
                     discover_province = PREV

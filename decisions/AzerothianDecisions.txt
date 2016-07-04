@@ -11,7 +11,7 @@ country_decisions = {
 			}
 			
 			any_owned_province = {
-				area = area_westfall
+				region = region_westfall
 			}
 		}
 		
@@ -22,7 +22,7 @@ country_decisions = {
 		}
 		
 		effect = {
-			area_westfall = {
+			region_westfall = {
 				add_core = A02
 			}
 			

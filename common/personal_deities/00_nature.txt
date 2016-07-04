@@ -48,8 +48,8 @@ diety_robot =
             
             capital_scope = {
                 OR = {
-                    area = area_borean_tundra
-                    area = area_sholazar_basin
+                    region = region_borean_tundra
+                    region = region_sholazar_basin
                 }
 		    }
 		}	
@@ -75,10 +75,10 @@ diety_shoveltusk =
 			factor = 2
             capital_scope = {
                 OR = {
-                    area = area_borean_tundra
-                    area = area_dragonblight
-                    area = area_grizzly_hills
-                    area = area_zul_drak
+                    region = region_borean_tundra
+                    region = region_dragonblight
+                    region = region_grizzly_hills
+                    region = region_zul_drak
                 }
 		    }
 		}	
@@ -104,7 +104,7 @@ diety_proto_drake =
 		modifier = {
 			factor = 2
 			capital_scope = {
-                area = area_howling_fjord
+                region = region_howling_fjord
 		    }
 		}	
 	}	

@@ -20,8 +20,8 @@ horde_enemy = {
 	
 	trigger = {
 		any_country = {
-	     NOT = { has_opinion = { who = ROOT value = -100 } }
-	     has_country_modifier = horde_member
+            NOT = { has_opinion = { who = ROOT value = -100 } }
+            has_country_modifier = horde_member
          }
 	}
 	
@@ -37,9 +37,9 @@ alliance_enemy = {
 	
 	trigger = {
 		any_country = {
-	     NOT = { has_opinion = { who = ROOT value = -100 } }
-	     has_country_modifier = alliance_member
-         }
+            NOT = { has_opinion = { who = ROOT value = -100 } }
+            has_country_modifier = alliance_member
+        }
 	}
 	
 	prestige = 1
@@ -52,7 +52,7 @@ horde_on_the_move = {
             religion = religion_fel # If the Portal is controlled by a Fel-aligned nation, they'd let through reinforcements
         }
 		NOT = { is_year = 601 } #Draenor Explodes and Outland is Created
-		capital_scope = { superregion = azeroth_superregion } #Close proximity to portal
+		capital_scope = { region = region_blasted_lands } #Close proximity to portal
     }
 	trigger = {
         culture_group = culture_group_orc
@@ -60,7 +60,7 @@ horde_on_the_move = {
             religion = religion_fel # If the Portal is controlled by a Fel-aligned nation, they'd let through reinforcements
         }
 		NOT = { is_year = 601 } #Draenor Explodes and Outland is Created
-		capital_scope = { superregion = azeroth_superregion } #Close proximity to portal
+		capital_scope = { region = region_blasted_lands } #Close proximity to portal
 	}
 	global_manpower = 30
 	manpower_recovery_speed = 0.5

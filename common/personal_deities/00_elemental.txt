@@ -24,8 +24,8 @@ diety_neptulon =
 		modifier = {
 			factor = 2
 			OR = {
-			culture = culture_kvaldir
-			culture = culture_skadir
+                culture = culture_kvaldir
+                culture = culture_skadir
 			}
 		}		
 	}	
@@ -46,8 +46,8 @@ diety_hydromancy =
 		modifier = {
 			factor = 2
 			OR = {
-			culture_group = culture_group_lobstrok
-			culture = culture_gilblin
+                culture_group = culture_group_lobstrok
+                culture = culture_gilblin
 			}
 		}			
 	}	
@@ -163,7 +163,7 @@ diety_gurok =
 	allow = { 
         religion = religion_earth 
         capital_scope = {
-            region = outland_region 
+            superregion = outland_superregion 
         }
 	}
 	sprite = 6
@@ -173,7 +173,7 @@ diety_gurok =
 		modifier = {
 			factor = 2
 			capital_scope = {
-                region = outland_region 
+                superregion = outland_superregion
             }
 		}	
 		modifier = {

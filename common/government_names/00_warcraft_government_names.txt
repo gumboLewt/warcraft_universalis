@@ -638,7 +638,7 @@ gov_warband_gov_true_horde = {
 		government = warband_gov
 		has_country_flag = true_horde
 		capital_scope = {
-			area = area_durotar
+			region = region_durotar
 		}
 	}
 }
@@ -665,7 +665,7 @@ gov_warband_gov_horde = {
 	trigger = {
 		government = warband_gov
 		capital_scope = {
-			area = area_durotar
+			region = region_durotar
 		}
 	}
 }

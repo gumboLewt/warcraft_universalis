@@ -1,14 +1,11 @@
-
-
 country_decisions = {
-
-theramore_nation = {
+    theramore_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = A23} # Theramore
+			NOT = { exists = A23 } # Theramore
 			culture_group = culture_group_human
 			is_colonial_nation = no
-			capital_scope = { superregion = central_kalimdor_superregion }
+			capital_scope = { region = region_dustwallow_marsh }
 		}
 		allow = {
 		    owns_core_province = 1456 #Theramore Isle

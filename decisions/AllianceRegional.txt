@@ -13,12 +13,12 @@ country_decisions = {
         potential = {
             has_country_modifier = alliance_member
             
-            capital_scope = { superregion = lordaeron_superregion }
+            capital_scope = { provincegroup = lordaeron_provincegroup }
             
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = lordaeron_superregion }
+                capital_scope = { provincegroup = lordaeron_provincegroup }
                 ai = yes
             }
         }
@@ -27,7 +27,7 @@ country_decisions = {
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = lordaeron_superregion }
+                capital_scope = { provincegroup = lordaeron_provincegroup }
             }
 		}
         
@@ -36,7 +36,7 @@ country_decisions = {
                 limit = {
                     has_country_modifier = alliance_member
                     NOT = { alliance_with = ROOT }
-                    capital_scope = { superregion = lordaeron_superregion }
+                    capital_scope = { provincegroup = lordaeron_provincegroup }
                     ai = yes
                 }
                 
@@ -53,12 +53,12 @@ country_decisions = {
 	    major = yes
 		potential = {
             has_country_modifier = alliance_member
-            capital_scope = { superregion = khaz_modan_superregion }
+            capital_scope = { provincegroup = khaz_modan_provincegroup }
             
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = khaz_modan_superregion }
+                capital_scope = { provincegroup = khaz_modan_provincegroup }
                 ai = yes
             }
 		}
@@ -67,7 +67,7 @@ country_decisions = {
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = khaz_modan_superregion }
+                capital_scope = { provincegroup = khaz_modan_provincegroup }
             }
 		}
         
@@ -76,7 +76,7 @@ country_decisions = {
                 limit = {
                     has_country_modifier = alliance_member
                     NOT = { alliance_with = ROOT }
-                    capital_scope = { superregion = khaz_modan_superregion }
+                    capital_scope = { provincegroup = khaz_modan_provincegroup }
                     ai = yes
                 }
                 create_alliance = ROOT
@@ -92,11 +92,11 @@ country_decisions = {
 	    major = yes
 		potential = {
             has_country_modifier = alliance_member
-            capital_scope = { superregion = azeroth_superregion }
+            capital_scope = { provincegroup = azeroth_provincegroup }
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = azeroth_superregion }
+                capital_scope = { provincegroup = azeroth_provincegroup }
                 ai = yes
             }
 		}
@@ -105,7 +105,7 @@ country_decisions = {
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = azeroth_superregion }
+                capital_scope = { provincegroup = azeroth_provincegroup }
             }
 		}
         
@@ -114,7 +114,7 @@ country_decisions = {
                 limit = {
                     has_country_modifier = alliance_member
                     NOT = { alliance_with = ROOT }
-                    capital_scope = { superregion = azeroth_superregion }
+                    capital_scope = { provincegroup = azeroth_provincegroup }
                     ai = yes
                 }
                 
@@ -131,11 +131,11 @@ country_decisions = {
 	    major = yes
 		potential = {
             has_country_modifier = alliance_member
-            capital_scope = { superregion = north_kalimdor_superregion }
+            capital_scope = { provincegroup = north_kalimdor_provincegroup }
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = north_kalimdor_superregion }
+                capital_scope = { provincegroup = north_kalimdor_provincegroup }
                 ai = yes
             }
 		}
@@ -143,7 +143,7 @@ country_decisions = {
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = north_kalimdor_superregion }
+                capital_scope = { provincegroup = north_kalimdor_provincegroup }
             }
 		}
 		effect = {
@@ -151,7 +151,7 @@ country_decisions = {
                 limit = {
                     has_country_modifier = alliance_member
                     NOT = { alliance_with = ROOT }
-                    capital_scope = { superregion = north_kalimdor_superregion }
+                    capital_scope = { provincegroup = north_kalimdor_provincegroup }
                     ai = yes
                 }
                 create_alliance = ROOT
@@ -166,11 +166,11 @@ country_decisions = {
 	    major = yes
 		potential = {
             has_country_modifier = alliance_member
-            capital_scope = { superregion = central_kalimdor_superregion }
+            capital_scope = { provincegroup = central_kalimdor_provincegroup }
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = central_kalimdor_superregion }
+                capital_scope = { provincegroup = central_kalimdor_provincegroup }
                 ai = yes
             }
 		}
@@ -178,7 +178,7 @@ country_decisions = {
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = central_kalimdor_superregion }
+                capital_scope = { provincegroup = central_kalimdor_provincegroup }
             }
 		}
 		effect = {
@@ -186,7 +186,7 @@ country_decisions = {
                 limit = {
                     has_country_modifier = alliance_member
                     NOT = { alliance_with = ROOT }
-                    capital_scope = { superregion = central_kalimdor_superregion }
+                    capital_scope = { provincegroup = central_kalimdor_provincegroup }
                     ai = yes
                 }
                 create_alliance = ROOT
@@ -201,11 +201,11 @@ country_decisions = {
 	    major = yes
 		potential = {
             has_country_modifier = alliance_member
-            capital_scope = { superregion = south_kalimdor_superregion }
+            capital_scope = { provincegroup = south_kalimdor_provincegroup }
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = south_kalimdor_superregion }
+                capital_scope = { provincegroup = south_kalimdor_provincegroup }
                 ai = yes
             }
 		}
@@ -213,7 +213,7 @@ country_decisions = {
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = south_kalimdor_superregion }
+                capital_scope = { provincegroup = south_kalimdor_provincegroup }
             }
 		}
 		effect = {
@@ -221,7 +221,7 @@ country_decisions = {
                 limit = {
                     has_country_modifier = alliance_member
                     NOT = { alliance_with = ROOT }
-                    capital_scope = { superregion = south_kalimdor_superregion }
+                    capital_scope = { provincegroup = south_kalimdor_provincegroup }
                     ai = yes
                 }
                 create_alliance = ROOT
@@ -236,11 +236,11 @@ country_decisions = {
 	    major = yes
 		potential = {
             has_country_modifier = alliance_member
-            capital_scope = { superregion = northrend_superregion }
+            capital_scope = { provincegroup = northrend_provincegroup }
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = northrend_superregion }
+                capital_scope = { provincegroup = northrend_provincegroup }
                 ai = yes
             }
 		}
@@ -248,7 +248,7 @@ country_decisions = {
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = northrend_superregion }
+                capital_scope = { provincegroup = northrend_provincegroup }
             }
 		}
 		effect = {
@@ -256,7 +256,7 @@ country_decisions = {
                 limit = {
                     has_country_modifier = alliance_member
                     NOT = { alliance_with = ROOT }
-                    capital_scope = { superregion = northrend_superregion }
+                    capital_scope = { provincegroup = northrend_provincegroup }
                     ai = yes
                 }
                 create_alliance = ROOT
@@ -271,11 +271,11 @@ country_decisions = {
 	    major = yes
 		potential = {
             has_country_modifier = alliance_member
-            capital_scope = { superregion = outland_superregion }
+            capital_scope = { provincegroup = outland_provincegroup }
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = outland_superregion }
+                capital_scope = { provincegroup = outland_provincegroup }
                 ai = yes
             }
 		}
@@ -283,7 +283,7 @@ country_decisions = {
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = outland_superregion }
+                capital_scope = { provincegroup = outland_provincegroup }
             }
 		}
 		effect = {
@@ -291,7 +291,7 @@ country_decisions = {
                 limit = {
                     has_country_modifier = alliance_member
                     NOT = { alliance_with = ROOT }
-                    capital_scope = { superregion = outland_superregion }
+                    capital_scope = { provincegroup = outland_provincegroup }
                     ai = yes
                 }
                 create_alliance = ROOT
@@ -306,11 +306,11 @@ country_decisions = {
 	    major = yes
 		potential = {
             has_country_modifier = alliance_member
-            capital_scope = { superregion = pandaria_superregion }
+            capital_scope = { provincegroup = pandaria_provincegroup }
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = pandaria_superregion }
+                capital_scope = { provincegroup = pandaria_provincegroup }
                 ai = yes
             }
 		}
@@ -318,7 +318,7 @@ country_decisions = {
             any_known_country = {
                 has_country_modifier = alliance_member
                 NOT = { alliance_with = ROOT }
-                capital_scope = { superregion = pandaria_superregion }
+                capital_scope = { provincegroup = pandaria_provincegroup }
             }
 		}
         effect = {
@@ -326,7 +326,7 @@ country_decisions = {
                 limit = {
                     has_country_modifier = alliance_member
                     NOT = { alliance_with = ROOT }
-                    capital_scope = { superregion = pandaria_superregion }
+                    capital_scope = { provincegroup = pandaria_provincegroup }
                     ai = yes
                 }
                 create_alliance = ROOT

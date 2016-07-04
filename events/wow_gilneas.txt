@@ -36,7 +36,7 @@ country_event = {
 		add_prestige = 10
 		every_owned_province = {
 			limit = {
-				NOT = { area = area_gilneas }
+				NOT = { region = region_gilneas }
 			}
 			cede_province = A08
 			add_core = A08
