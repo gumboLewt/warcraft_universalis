@@ -1,16 +1,20 @@
-# 1229
-is_city = no
+# 1291 Bouldercrag Refuge
+is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = G32
+controller = G32
+add_core = G32
+
+base_tax = 2
+base_manpower = 2
+base_production = 2
 
 
-culture = noculture
-religion = noreligion
+culture = culture_earthen
+religion = religion_titan
 
 hre = no
-trade_goods = grain
+trade_goods = saronite
 
 
 

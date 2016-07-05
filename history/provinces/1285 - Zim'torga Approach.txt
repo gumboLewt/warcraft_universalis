@@ -17,7 +17,7 @@ hre = no
 trade_goods = army_supplies
 
 626.1.1 = {
-religion = religion_voodoo
+    religion = religion_voodoo
 }
 
 

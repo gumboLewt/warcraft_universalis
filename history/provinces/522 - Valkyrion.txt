@@ -1,5 +1,4 @@
-# 522
-is_city = no
+is_city = yes
 
 base_tax = 3
 base_manpower = 3
@@ -15,12 +14,9 @@ religion = religion_titan
 hre = no
 trade_goods = army_supplies
 
-
-
-
 626.1.1 = { 
-add_core = E11
-controller = E11
-owner = E11
-religion = religion_the_damned 
+    add_core = E11
+    controller = E11
+    owner = E11
+    religion = religion_the_damned 
 }

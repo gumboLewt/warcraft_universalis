@@ -1,21 +1,26 @@
-# 
 is_city = yes
 
-base_tax = 3
-base_manpower = 2
-base_production = 3
+owner = B45
+controller = B45
+add_core = B45
 
-
-culture = culture_ooze
+culture = culture_frostpaw
 religion = religion_old_gods
+
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
 hre = no
 trade_goods = saronite
 
 631.1.1 = {
-owner = B86
-controller = B86
-add_core = B86
+    owner = B86
+    controller = B86
+    add_core = B86
+    
+    culture = culture_ooze
+    religion = religion_old_gods
 }
 
 

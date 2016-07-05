@@ -1,5 +1,5 @@
 # 2108
-is_city = no
+is_city = yes
 
 owner = E79
 controller = E79
@@ -18,9 +18,9 @@ trade_goods = grain
 
 
 626.1.1 = { 
-owner = G29
-controller = G29
-add_core = G29
-culture = culture_bog_beast
-religion = religion_old_gods
+    owner = G29
+    controller = G29
+    add_core = G29
+    culture = culture_bog_beast
+    religion = religion_old_gods
 }

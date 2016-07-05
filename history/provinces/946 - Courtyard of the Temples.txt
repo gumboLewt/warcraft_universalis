@@ -1,16 +1,18 @@
-# 946
 is_city = yes
 
-base_tax = 3
-base_manpower = 2
-base_production = 3
+base_tax = 4
+base_manpower = 4
+base_production = 4
 
+owner = E16
+controller = E16
+add_core = E16
 
-culture = culture_construct
-religion = religion_old_gods
+culture = culture_hyldnir
+religion = religion_titan
 
 hre = no
-trade_goods = workshops
+trade_goods = artifacts
 
 
 

@@ -1,5 +1,5 @@
 # 1274
-is_city = no
+is_city = yes
 
 owner = A74
 controller = A74
@@ -17,8 +17,9 @@ hre = no
 trade_goods = army_supplies
 
 626.1.1 = { 
-add_core = E11
-controller = E11
-owner = E11
-culture = culture_undead_troll
-religion = religion_the_damned }
+    add_core = E11
+    controller = E11
+    owner = E11
+    culture = culture_undead_troll
+    religion = religion_the_damned 
+}

@@ -1,10 +1,13 @@
 # 734
-is_city = no
+is_city = yes
 
+owner = B08
+controller = B08
+add_core = B08
+    
 base_tax = 2
 base_manpower = 2
 base_production = 2
-
 
 culture = culture_dragonflayer
 religion = religion_titan
@@ -17,12 +20,6 @@ trade_goods = artifacts
     base_tax = 5
     base_manpower = 5
     base_production = 5
-    
-    is_city = yes
-    
-    owner = B08
-    controller = B08
-    add_core = B08
     
     religion = religion_the_damned 
 }

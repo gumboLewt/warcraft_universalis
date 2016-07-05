@@ -1,13 +1,13 @@
 # 794
-is_city = no
+is_city = yes
 
 owner = A74
 controller = A74
 add_core = A74
 
-base_tax = 5
-base_manpower = 5
-base_production = 5
+base_tax = 12
+base_manpower = 12
+base_production = 12
 
 
 culture = culture_drakkari
@@ -18,7 +18,7 @@ hre = no
 trade_goods = army_supplies
 
 626.1.1 = {
-religion = religion_voodoo
+    religion = religion_voodoo
 }
 
 

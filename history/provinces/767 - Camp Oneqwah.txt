@@ -1,5 +1,3 @@
-# 
-
 is_city = yes
 owner = E73
 controller = E73

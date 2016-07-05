@@ -1,17 +1,16 @@
-# 
 is_city = yes
 
-owner = B46
-controller = B46
-add_core = B46
+owner = E73
+controller = E73
+add_core = E73
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
 
-culture = culture_redfang
-religion = religion_old_gods
+culture = culture_icemist
+religion = religion_ancestral
 
 hre = no
 trade_goods = fur

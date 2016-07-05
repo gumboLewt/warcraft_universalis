@@ -1,5 +1,4 @@
-# 832
-is_city = no
+is_city = yes
 
 owner = A74
 controller = A74
@@ -16,7 +15,7 @@ hre = no
 trade_goods = artifacts
 
 626.1.1 = {
-religion = religion_voodoo
+    religion = religion_voodoo
 }
 
 

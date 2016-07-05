@@ -1,26 +1,19 @@
-# 1225
 is_city = yes
 
 owner = E17
 controller = E17
 add_core = E17
 
-base_tax = 4
-base_manpower = 4
-base_production = 4
-
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
 culture = culture_mjordin
 religion = religion_titan
 
 hre = no
-trade_goods = army_supplies
-
+trade_goods = grain
 
 615.1.1 = { 
-religion = religion_the_damned 
+    religion = religion_the_damned 
 }
-
-
-
-

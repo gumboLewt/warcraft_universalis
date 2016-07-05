@@ -1,5 +1,4 @@
-# 827 The Savage Ledge
-is_city = no
+is_city = yes
 
 owner = E17
 controller = E17
@@ -18,7 +17,7 @@ trade_goods = flying_mounts
 
 
 615.1.1 = { 
-religion = religion_the_damned 
+    religion = religion_the_damned 
 }
 
 

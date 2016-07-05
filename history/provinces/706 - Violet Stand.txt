@@ -1,10 +1,13 @@
 # 706
 is_city = yes
 
+owner = E77
+controller = E77
+add_core = E77
+
 base_tax = 2
-base_manpower = 3
+base_manpower = 2
 base_production = 2
-capital = "Western Shandaral Ruins"
 
 
 culture = culture_ghost
@@ -12,9 +15,6 @@ religion = religion_arcane
 
 hre = no
 trade_goods = artifacts
-
-
-
 
 626.1.1 = {
 	capital = "Violet Stand" 

@@ -1,17 +1,16 @@
 # 635
-is_city = no
+is_city = yes
 
 owner = E32
 controller = E32
 add_core = E32
 
+culture = culture_lordaeron
+religion = religion_church_of_the_light
+
 base_tax = 3
 base_manpower = 3
 base_production = 3
-
-
-culture = culture_lordaeron
-religion = religion_church_of_the_light
 
 hre = no
 trade_goods = fur

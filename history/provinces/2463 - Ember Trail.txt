@@ -1,20 +1,38 @@
-is_city = no
+is_city = yes
+
+owner = E32
+controller = E32
+add_core = E32
+
+culture = culture_lordaeron
+religion = religion_church_of_the_light
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
-culture = culture_red
-religion = religion_sect_of_dragons
-
 hre = no
-trade_goods = flying_mounts
+trade_goods = naval_supplies
 
-626.6.1 = { 
-    is_city = yes
-    owner = B08
-    controller = B08
-    add_core = B08
-    culture = culture_dragonflayer
-    religion = religion_the_damned 
+605.1.1 = {
+    remove_core = E32
+    owner = E11
+    controller = E11
+    add_core = E11
+    culture = culture_scourge
+    religion = religion_the_damned
+}
+
+
+# The Third War
+617.1.1 = { 
+    owner = F38
+    controller = F38
+    add_core = F38
+    culture = culture_lordaeron
+    religion = religion_church_of_the_light
+}
+
+618.1.1 = {
+    remove_core = E11
 }
