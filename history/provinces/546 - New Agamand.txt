@@ -12,12 +12,13 @@ hre = no
 trade_goods = fish
 
 626.1.1 = { 
-add_core = A96
-owner = A96
-culture = culture_forsaken
-religion = religion_forgotten_shadow
-trade_goods = army_supplies
-base_tax = 3
-base_manpower = 3
-base_production = 3
+    add_core = A96
+    owner = A96
+    culture = culture_forsaken
+    religion = religion_forgotten_shadow
+    trade_goods = army_supplies
+    base_tax = 3
+    base_manpower = 3
+    base_production = 3
 }
+

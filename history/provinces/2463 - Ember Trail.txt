@@ -4,13 +4,17 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
-culture = noculture
-religion = noreligion
+culture = culture_red
+religion = religion_sect_of_dragons
 
 hre = no
-trade_goods = grain
+trade_goods = flying_mounts
 
-
-
-
+626.6.1 = { 
+    is_city = yes
+    owner = B08
+    controller = B08
+    add_core = B08
+    culture = culture_dragonflayer
+    religion = religion_the_damned 
+}

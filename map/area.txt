@@ -1406,7 +1406,7 @@ area_stars_rest = {
 }
 
 area_moonrest_gardens = {
-    812 2130 1283 2397 1281
+    812 2130 1283 2397 1281 2492
 }
 
 area_moakai_harbor = {
@@ -1414,11 +1414,11 @@ area_moakai_harbor = {
 }
 
 area_wyrmrest_temple = {
-    982 529 1018 509 2402 2405
+    982 529 509 2402 2405 2493
 }
 
 area_hearthglen = {
-    935 679 2404 
+    935 679 2404 2491 1018
 }
 
 area_galakronds_rest = {
@@ -1438,7 +1438,7 @@ area_wintergarde_keep = {
 }
 
 area_naxxramas = {
-    599 2416 2414 
+    599 2416 2414 2490
 }
 
 area_dawns_reach = {
@@ -1516,7 +1516,7 @@ area_accursed_cove = {
 }
 
 area_argent_tournament = {
-    2378 895 911 1226
+    2378 895 911 1226 2494
 }
 
 area_valley_of_lost_hope = {
@@ -1560,7 +1560,7 @@ area_inventors_library = {
 }
 
 area_ulduar = {
-    728 
+    728 2495 2497 2498 2499 2500 2496 2502 2501 2503
 }
 
 area_terrace_of_the_makers = {
@@ -1630,11 +1630,11 @@ area_jintha_kalar = {
 # Grizzly Hills
 #-------------------
 area_zeb_halak = {
-    950 2458 967 849
+    950 2458 967 849 2483 2484
 }
 
 area_venture_bay = {
-    1289 2455 918
+    1289 2455 918 2481 2480 2479
 }
 
 area_granite_springs = {
@@ -1642,7 +1642,7 @@ area_granite_springs = {
 }
 
 area_voldrune = {
-    899 2109 865 
+    899 2109 865 2478
 }
 
 area_amberpine_lodge = {
@@ -1650,19 +1650,19 @@ area_amberpine_lodge = {
 }
 
 area_grizzlemaw = {
-    833 2112 2113 2451
+    833 2112 2113 2451 2482
 }
 
 area_heartwood = {
-    2452 2444 811
+    2452 2444 811 2485
 }
 
 area_thor_modan = {
-    2443 732 795
+    2443 732 795 2487 2486
 }
 
 area_redwood = {
-    2447 712 2445 2449
+    2447 712 2445 2449 2488
 }
 
 area_camp_oneqwah = {
@@ -1670,7 +1670,7 @@ area_camp_oneqwah = {
 }
 
 area_dun_argol = {
-    780 2448 747
+    780 2448 747 2489
 }
 
 area_bloodmoon_isle = {

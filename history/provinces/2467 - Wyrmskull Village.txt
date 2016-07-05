@@ -5,12 +5,23 @@ base_manpower = 1
 base_production = 1
 
 
-culture = noculture
-religion = noreligion
+culture = culture_dragonflayer
+religion = religion_titan
 
 hre = no
-trade_goods = grain
+trade_goods = artifacts
 
 
-
-
+626.1.1 = { 
+    base_tax = 3
+    base_manpower = 3
+    base_production = 3
+    
+    is_city = yes
+    
+    owner = B08
+    controller = B08
+    add_core = B08
+    
+    religion = religion_the_damned 
+}

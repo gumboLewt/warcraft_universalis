@@ -1,0 +1,27 @@
+is_city = yes
+
+owner = B34
+controller = B34
+add_core = B34
+
+base_tax = 2
+base_manpower = 2
+base_production = 2
+
+culture = culture_nerglish
+religion = religion_water
+
+hre = no
+trade_goods = fish
+
+618.1.1 = { 
+    owner = xxx
+    controller = xxx
+}
+
+624.11.11 = { 
+    owner = xxx
+    controller = xxx
+    culture = culture_nerglish
+    religion = religion_water
+}

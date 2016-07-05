@@ -51,3 +51,14 @@ cb_petty_squabbles = {
 	
 	war_goal = superiority_horde
 }
+
+cb_warband_raid = {
+	valid_for_subject = no
+
+	prerequisites = {
+        is_neighbor_of = FROM
+		government = warband_gov
+	}
+	
+	war_goal = superiority_horde
+}

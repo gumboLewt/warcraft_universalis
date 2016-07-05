@@ -14,13 +14,15 @@ trade_goods = artifacts
 
 
 626.1.1 = { 
-base_tax = 5
-base_manpower = 5
-base_production = 5
-owner = B08
-controller = B08
-add_core = B08
-culture = culture_dragonflayer
-religion = religion_the_damned 
-trade_goods = artifacts
+    base_tax = 5
+    base_manpower = 5
+    base_production = 5
+    
+    is_city = yes
+    
+    owner = B08
+    controller = B08
+    add_core = B08
+    
+    religion = religion_the_damned 
 }

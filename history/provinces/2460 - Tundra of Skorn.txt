@@ -5,12 +5,17 @@ base_manpower = 1
 base_production = 1
 
 
-culture = noculture
-religion = noreligion
+culture = culture_winterskorn
+religion = religion_titan
 
 hre = no
 trade_goods = grain
 
-
-
-
+626.1.1 = { 
+    is_city = yes
+    
+    owner = B09
+    controller = B09
+    add_core = B09
+    religion = religion_the_damned 
+}

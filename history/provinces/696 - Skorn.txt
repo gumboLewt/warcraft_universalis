@@ -1,4 +1,3 @@
-# 696
 is_city = no
 
 base_tax = 2
@@ -12,15 +11,15 @@ religion = religion_titan
 hre = no
 trade_goods = grain
 
-
-
-
 626.1.1 = { 
-base_tax = 4
-base_manpower = 4
-base_production = 4
-owner = B09
-controller = B09
-add_core = B09
-religion = religion_the_damned 
+    base_tax = 4
+    base_manpower = 4
+    base_production = 4
+    
+    is_city = yes
+    
+    owner = B09
+    controller = B09
+    add_core = B09
+    religion = religion_the_damned 
 }

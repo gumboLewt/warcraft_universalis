@@ -1,5 +1,4 @@
-# 564
-is_city = no
+is_city = yes
 
 owner = B34
 controller = B34
@@ -9,29 +8,30 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
 culture = culture_nerglish
 religion = religion_water
 
 hre = no
 trade_goods = fish
 
-618.1.1 = { owner = xxx
-controller = xxx
+618.1.1 = { 
+    owner = xxx
+    controller = xxx
 }
 
-624.11.11 = { owner = xxx
-controller = xxx
-culture = culture_nerglish
-religion = religion_water
+624.11.11 = { 
+    owner = xxx
+    controller = xxx
+    culture = culture_nerglish
+    religion = religion_water
 }
 
 # The Burning Crusade
 625.1.1 = { 
-owner = A20
-controller = A20
-add_core = A20
-religion = religion_church_of_the_light
-culture = culture_kul_tiran
-trade_goods = pirates
+    owner = A20
+    controller = A20
+    add_core = A20
+    religion = religion_church_of_the_light
+    culture = culture_kul_tiran
+    trade_goods = pirates
 }
