@@ -1,16 +1,17 @@
-is_city = no
+# 1430
+is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = G39
+controller = G39
+add_core = G39
 
 
-culture = noculture
-religion = noreligion
+base_tax = 3
+base_manpower = 3
+base_production = 3
+
+culture = culture_legashi
+religion = religion_fel
 
 hre = no
-trade_goods = grain
-
-
-
-
+trade_goods = army_supplies

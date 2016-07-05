@@ -1,3 +1,4 @@
+# 1094
 is_city = no
 
 base_tax = 1
@@ -5,12 +6,16 @@ base_manpower = 1
 base_production = 1
 
 
-culture = noculture
-religion = noreligion
+culture = culture_treant
+religion = religion_druidic
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
-
-
+625.1.1 = {
+religion = religion_arcane
+}

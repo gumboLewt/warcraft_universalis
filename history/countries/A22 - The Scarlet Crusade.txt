@@ -28,19 +28,6 @@ capital 			= 979
  	} 
 } 
 
-625.1.1 = {
-
-	heir = { 
-		name = "Sally" 
-		dynasty = "Whitemane" 
-		adm = 4
-		dip = 3
-		mil = 3
-		female = yes
-		birth_date = 604.8.11
-    }
-}
-
 626.1.1 = {
 	government_rank = 1
 	monarch = { 
@@ -51,5 +38,19 @@ capital 			= 979
 		mil = 3
         female = yes
         birth_date = 604.8.11
+ 	} 
+}
+
+#Legion
+635.1.1 = {
+	government_rank = 1
+	monarch = { 
+		name = "Michael" 
+		dynasty = "Goodchilde" 
+		adm = 2
+		dip = 1
+		mil = 4
+        female = yes
+        birth_date = 596.8.11
  	} 
 }

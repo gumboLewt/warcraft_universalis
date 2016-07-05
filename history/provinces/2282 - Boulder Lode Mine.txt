@@ -1,16 +1,23 @@
+# 1371
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 2
+base_manpower = 2
+base_production = 3
 
 
-culture = noculture
-religion = noreligion
+culture = culture_razormane
+religion = religion_geomancy
 
 hre = no
-trade_goods = grain
+trade_goods = oil
 
-
-
+622.1.1 = {
+owner = A81
+controller = A81
+add_core = A81
+culture = culture_venture
+religion = religion_tech
+base_production = 4
+}
 

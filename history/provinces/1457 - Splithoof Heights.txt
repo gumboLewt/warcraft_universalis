@@ -11,7 +11,7 @@ religion = religion_ancestral
 hre = no
 trade_goods = oil
 
-618.1.1 = {
+631.1.1 = {
 owner = B20
 controller = B20
 add_core = B20

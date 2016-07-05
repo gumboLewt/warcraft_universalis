@@ -1,16 +1,19 @@
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 2
+base_manpower = 2
+base_production = 3
 
 
-culture = noculture
-religion = noreligion
+culture = culture_treant
+religion = religion_druidic
 
 hre = no
-trade_goods = grain
+trade_goods = lumber
 
 
 
+618.1.1 = {
+religion = religion_fel
+}
 

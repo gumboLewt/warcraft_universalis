@@ -16,6 +16,11 @@ owner = B20
 controller = B20
 add_core = B20
 culture = culture_galak
-capital = "Camp E'thok"
 }
 
+631.1.1 = { 
+	owner = XXX
+	controller = XXX
+	culture = culture_water
+	religion = religion_water
+}

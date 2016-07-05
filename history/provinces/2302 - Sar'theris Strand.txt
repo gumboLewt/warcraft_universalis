@@ -5,12 +5,23 @@ base_manpower = 1
 base_production = 1
 
 
-culture = noculture
-religion = noreligion
+culture = culture_mauraudine
+religion = religion_earth
+
+owner = B23
+controller = B23
+add_core = B23
 
 hre = no
-trade_goods = grain
+trade_goods = fish
 
-
-
-
+622.1.1 = { 
+owner = G23
+controller = G23
+add_core = G23 
+culture = culture_zoram
+religion = religion_old_gods
+base_tax = 2
+base_manpower = 2
+base_production = 2
+}

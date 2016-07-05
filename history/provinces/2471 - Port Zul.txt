@@ -1,16 +1,27 @@
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = A78
+controller = A78
+add_core = A78
 
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
-culture = noculture
-religion = noreligion
+religion = religion_loa
+culture = culture_zandalari
 
 hre = no
 trade_goods = grain
 
 
-
+631.1.1 = { 
+	owner = XXX
+	controller = XXX
+	culture = culture_water
+	religion = religion_water
+	base_tax = 1
+	base_manpower = 1
+	base_production = 1
+}
 

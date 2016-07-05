@@ -1,15 +1,19 @@
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = A85
+controller = A85
+add_core = A85
+
+base_tax = 2
+base_manpower = 2
+base_production = 2
 
 
-culture = noculture
-religion = noreligion
+culture = culture_grimtotem
+religion = religion_ancestral
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
 
 

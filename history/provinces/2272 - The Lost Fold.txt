@@ -1,16 +1,18 @@
-is_city = no
+# 1085
+is_city = yes
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
 
-culture = noculture
-religion = noreligion
-
+culture = culture_nazja
+religion = religion_old_gods
 hre = no
-trade_goods = grain
+trade_goods = fish
 
-
-
-
+# The Burning Crusade
+625.1.1 = { 
+culture = culture_rockflayer
+religion = religion_arcane
+}

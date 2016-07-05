@@ -2,15 +2,23 @@ is_city = no
 
 base_tax = 1
 base_manpower = 1
-base_production = 1
+base_production = 2
 
-
-culture = noculture
-religion = noreligion
+culture = culture_razormane
+religion = religion_geomancy
 
 hre = no
 trade_goods = grain
 
 
-
-
+618.1.1 = {
+owner = G06
+controller = G06
+add_core = G06
+culture = culture_lordaeron
+religion = religion_church_of_the_light
+capital = "Northwatch Ramparts"
+base_tax = 2
+base_manpower = 2
+base_production = 2
+}

@@ -21,13 +21,7 @@ culture = culture_bloodhoof
 }
 
 622.1.1 = { 
-owner = B18
-controller = B18
-add_core = B18
-remove_core = A84
-culture = culture_palemane
-capital = "Palemane Rock"
-base_tax = 3
-base_manpower = 3
-base_production = 3
+owner = F88
+controller = F88
+add_core = F88
 }

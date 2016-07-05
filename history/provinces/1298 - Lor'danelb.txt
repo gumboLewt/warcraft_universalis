@@ -1,7 +1,4 @@
 is_city = no
-owner = B30
-controller = B30
-add_core = B30
 
 base_tax = 1
 base_manpower = 1

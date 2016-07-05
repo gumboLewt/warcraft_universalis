@@ -29,10 +29,4 @@ base_production = 3
 capital = "Woodpaw Camps"
 }
 
-622.1.1 = {
-add_core = A98
-owner = A98
-controller = A98
-capital = "The Writhing Deep
-}
 

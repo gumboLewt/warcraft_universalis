@@ -2,15 +2,30 @@ is_city = no
 
 base_tax = 1
 base_manpower = 1
-base_production = 1
+base_production = 4
 
 
-culture = noculture
-religion = noreligion
+culture = culture_bog_beast
+religion = religion_druidic
 
 hre = no
-trade_goods = grain
+trade_goods = iron
 
 
 
+618.1.1 = {
+religion = religion_fel
+}
 
+
+# Cataclysm
+631.1.1 = { 
+owner = A79
+add_core = A79
+controller = A79
+religion = religion_tech
+culture = culture_bilgewater
+base_tax = 3
+base_manpower = 3
+base_production = 6
+}

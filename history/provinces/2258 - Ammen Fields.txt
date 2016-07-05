@@ -1,3 +1,4 @@
+# 1094
 is_city = no
 
 base_tax = 1
@@ -5,12 +6,24 @@ base_manpower = 1
 base_production = 1
 
 
-culture = noculture
-religion = noreligion
+culture = culture_treant
+religion = religion_druidic
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
-
-
+# The Burning Crusade
+625.1.1 = { 
+owner = A56
+controller = A56
+add_core = A56 
+culture = culture_karaborian
+religion = religion_light_of_the_naaru
+base_tax = 3
+base_manpower = 3
+base_production = 3
+}

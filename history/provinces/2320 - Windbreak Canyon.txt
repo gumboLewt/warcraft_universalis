@@ -4,13 +4,24 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
+owner = B67
+controller = B67
+add_core = B67
 
-culture = noculture
-religion = noreligion
+culture = culture_screeching
+religion = religion_air
 
 hre = no
 trade_goods = grain
 
-
+631.1.1 = { 
+	owner = XXX
+	controller = XXX
+	culture = culture_water
+	religion = religion_water
+	native_size = 1
+	native_ferocity = 10
+	native_hostileness = 10
+}
 
 

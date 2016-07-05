@@ -326,6 +326,7 @@ E60 = "countries/Rockpool.txt"
 F11 = "countries/Redgill.txt"
 F22 = "countries/Greengill.txt"
 F30 = "countries/Murkgill.txt"
+G41 = "countries/Saltspittle.txt"
 
 # Furbolg
 B39 = "countries/Gnarlpine.txt" # tech_furbolg
@@ -449,6 +450,7 @@ E01 = "countries/Legashi.txt"
 F43 = "countries/Nazzivus.txt"
 F90 = "countries/Wildspawn.txt"
 F97 = "countries/Xavian.txt"
+G39 = "countries/Haldarr.txt"
 
 # Naga
 E02 = "countries/Coilskar.txt" #Colifang/Illidan's Naga
@@ -498,6 +500,7 @@ E29 = "countries/Wolfcult.txt"
 E30 = "countries/Silverbrook.txt" #Wolfcut Trappers
 E31 = "countries/Nightbane.txt"
 F53 = "countries/Bloodfang.txt"
+G40 = "countries/Terrorwulf.txt"
 
 # Mantid
 E33 = "countries/Klaxxivess.txt"
@@ -544,6 +547,7 @@ E54 = "countries/Stonesplinter.txt"
 E57 = "countries/Stonevault.txt"
 F24 = "countries/Rockjaw.txt"
 G26 = "countries/Irondeep.txt"
+G42 = "countries/Gravelflint.txt"
 
 # Hozen
 E68 = "countries/Grookin.txt"

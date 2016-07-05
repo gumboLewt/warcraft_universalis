@@ -1,16 +1,37 @@
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 2
+base_manpower = 2
+base_production = 3
 
+owner = A73
+controller = A73
+add_core = A73
 
-culture = noculture
-religion = noreligion
+culture = culture_sandfury
+religion = religion_loa
+
 
 hre = no
 trade_goods = grain
 
+# Beyond Dark Portal
+600.1.1 = { 
+owner = H05
+controller = H05
+add_core = H05
+religion = religion_geomancy
+culture = culture_dunemaul
+base_tax = 1
+base_manpower = 2
+base_production = 2
+}
 
-
-
+# Cata
+631.1.1 = {
+owner = A29
+controller = A29
+remove_core = H05
+culture = culture_ironforge 
+religion = religion_church_of_the_light
+}

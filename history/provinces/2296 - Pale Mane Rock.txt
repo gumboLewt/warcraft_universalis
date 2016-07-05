@@ -1,16 +1,17 @@
 is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 2
+base_manpower = 2
+base_production = 3
 
+owner = B18
+controller = B18
+add_core = B18
 
-culture = noculture
-religion = noreligion
+culture = culture_palemane
+religion = religion_ancestral
 
 hre = no
-trade_goods = grain
-
-
+trade_goods = fur
 
 

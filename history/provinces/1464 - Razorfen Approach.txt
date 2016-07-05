@@ -17,5 +17,4 @@ trade_goods = fur
 owner = B70
 controller = B70
 add_core = B70
-capital = "Blackthorn Ridge"
 }

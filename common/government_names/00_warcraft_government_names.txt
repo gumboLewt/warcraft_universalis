@@ -451,13 +451,13 @@ gov_order_scarlet_crusade = {
 	
 	ruler_male = {
 		1 = CRUSADER
-		2 = CRUSADER
+		2 = GRAND_CRUSADER
 		3 = GRAND_CRUSADER
 	}
 	
 	ruler_female = {
 		1 = CRUSADER
-		2 = CRUSADER
+		2 = GRAND_CRUSADER
 		3 = GRAND_CRUSADER
 	}
 	

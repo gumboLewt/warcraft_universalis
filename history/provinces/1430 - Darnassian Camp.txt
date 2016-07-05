@@ -1,20 +1,23 @@
-# 1430
-is_city = yes
+is_city = no
 
-owner = E01
-controller = E01
-add_core = E01
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-culture = culture_legashi
-religion = religion_fel
+culture = culture_makrura
+religion = religion_water
 
 hre = no
-trade_goods = army_supplies
+trade_goods = fish
+
+625.1.1 = { 
+owner = A93
+controller = A93
+add_core = A93
+culture = culture_blood_elf
+religion = religion_fel
+}
 
 # Cataclysm
 631.1.1 = { 
