@@ -1903,6 +1903,12 @@
  a_strange_new_world: "A Strange New World"
  desc_a_strange_new_world: "Having travelled from Draenor, the orcish clans are driven crazy by bloodlust as they see before them the prizes of Azeroth."
  
+ power_of_the_sunwell: "Power of the Sunwell"
+ desc_power_of_the_sunwell: "A source of unimaginable arcane energies, the Sunwell bestows our people with unfathomable power, as well as sating their arcane desires."
+ 
+ loss_of_the_sunwell: "Loss of the Sunwell"
+ desc_loss_of_the_sunwell: "A source of unimaginable arcane energies, the Sunwell granted our people with unfathomable power and satifised their arcane desires. Without it, we are weakened, and our people lethargic."
+ 
  #-----------------------------------
  # Estates
  #-----------------------------------
