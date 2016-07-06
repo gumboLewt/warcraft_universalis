@@ -1,5 +1,1 @@
 # Argent Crusade
-830 = "Argent Vangaurd"
-911 = "Argent Tournament"
-779 = "The Argent Stand"
-663 = "Light's Reach"
