@@ -1,15 +1,18 @@
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = B64
+controller = B64
+add_core = B64
 
+base_tax = 4
+base_manpower = 4
+base_production = 4
 
-culture = noculture
-religion = noreligion
+culture = culture_coldwind
+religion = religion_air
 
 hre = no
-trade_goods = grain
+trade_goods = lumber
 
 
 

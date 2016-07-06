@@ -1,38 +1,31 @@
-#1283
 is_city = yes
 
-owner = E74
-controller = E74
-add_core = E74
+owner = E79
+controller = E79
+add_core = E79
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
-
-culture = culture_nerubian
-religion = religion_arcane
+culture = culture_frost_nymph
+religion = religion_druidic
 
 hre = no
-trade_goods = fish
+trade_goods = fur
 
 615.1.1 = {
-owner = xxx
-controller = xxx
-remove_core = E74
-culture = culture_icemist
-religion = religion_ancestral
-}
-
-625.11.11 = {
-owner = xxx
-controller = xxx
+    owner = xxx
+    controller = xxx
+    remove_core = E74
+    culture = culture_icemist
+    religion = religion_ancestral
 }
 
 626.1.1 = {
-owner = E73
-controller = E73
-add_core = E73
+    owner = E73
+    controller = E73
+    add_core = E73
 }
 
 

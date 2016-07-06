@@ -1,17 +1,24 @@
-# 692
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = B53
+controller = B53
+add_core = B53
 
+base_tax = 2
+base_manpower = 2
+base_production = 2
 
 culture = culture_rainspeaker
 religion = religion_titan
 
 hre = no
-trade_goods = fur
+trade_goods = fish
 
+615.1.1 = {
+    owner = G36
+    controller = G36
+    add_core = G36
+}
 
 
 

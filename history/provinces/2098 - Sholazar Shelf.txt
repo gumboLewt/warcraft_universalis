@@ -1,5 +1,8 @@
-# 2098
-is_city = no
+is_city = yes
+
+owner = G38
+controller = G38
+add_core = G38
 
 base_tax = 1
 base_manpower = 1
@@ -9,7 +12,7 @@ culture = culture_construct
 religion = religion_titan
 
 hre = no
-trade_goods = fish
+trade_goods = workshops
 
 
 

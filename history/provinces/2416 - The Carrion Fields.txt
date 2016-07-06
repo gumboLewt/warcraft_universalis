@@ -1,16 +1,34 @@
-is_city = no
+is_city = yes
+
+owner = E72
+controller = E72
+add_core = E72
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
-culture = noculture
-religion = noreligion
+culture = culture_lordaeron
+religion = religion_church_of_the_light
 
 hre = no
 trade_goods = grain
 
+# The Third War
+605.1.1 = { 
+    add_core = E11
+    controller = E11
+    owner = E11
+    culture = culture_scourge
+    religion = religion_the_damned 
+}
 
+622.1.1 = { 
+    capital = "Wintergarde Ruins"
+}
 
-
+626.1.1 = {
+    capital = "Naxxramas"
+    add_core = F18
+    add_core = F19
+}

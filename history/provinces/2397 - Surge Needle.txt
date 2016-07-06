@@ -1,16 +1,25 @@
-is_city = no
+is_city = yes
+
+owner = E79
+controller = E79
+add_core = E79
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
-culture = noculture
-religion = noreligion
+culture = culture_frost_nymph
+religion = religion_druidic
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
+626.1.1 = {
+    owner = H06
+    controller = H06
+    add_core = H06
+    remove_core = E79
+}
 
 
 

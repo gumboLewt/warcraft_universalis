@@ -1,16 +1,15 @@
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = B54
+controller = B54
+add_core = B54
 
+base_tax = 4
+base_manpower = 4
+base_production = 4
 
-culture = noculture
-religion = noreligion
+culture = culture_mosswalker
+religion = religion_titan
 
 hre = no
-trade_goods = grain
-
-
-
-
+trade_goods = fur

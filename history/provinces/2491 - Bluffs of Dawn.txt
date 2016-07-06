@@ -1,16 +1,32 @@
-is_city = no
+is_city = yes
+
+owner = A77
+controller = A77
+add_core = A77
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
 
-culture = noculture
-religion = noreligion
+culture = culture_winterfang
+religion = religion_loa
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
+618.1.1 = { 
+    culture = culture_undead_troll
+    religion = religion_the_damned
+    remove_core = A77
+}
 
+626.1.1 = { 
+    add_core = A96
+    owner = A96
+    controller = A96
+    culture = culture_forsaken
+    religion = religion_forgotten_shadow 
+}
 
 

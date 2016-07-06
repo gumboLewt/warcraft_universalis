@@ -1,16 +1,24 @@
-is_city = no
+is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+owner = B51
+controller = B51
+add_core = B51
 
+base_tax = 4
+base_manpower = 4
+base_production = 4
 
-culture = noculture
-religion = noreligion
+culture = culture_snowfall
+religion = religion_primitive
 
 hre = no
-trade_goods = grain
+trade_goods = fur
 
-
-
-
+626.1.1 = { 
+    owner = H07
+    controller = H07
+    add_core = H07
+    remove_core = B51
+    culture = culture_horde
+    religion = religion_ancestral
+}
