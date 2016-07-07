@@ -309,7 +309,7 @@ country_event = {
 	id = first_war.5
 	title = first_war.5.title
 	desc = first_war.5.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = ORCISH_INVASION_eventPicture
     
 	trigger = {
         religion = religion_fel
