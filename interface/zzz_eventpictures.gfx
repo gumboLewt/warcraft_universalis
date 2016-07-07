@@ -1,6 +1,41 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "BLOODLUST_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/BLOODLUST_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "ELF_TROLL_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/ELF_TROLL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GNOME_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/GNOME_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GOBLIN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/GOBLIN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GULDAN_CLOSE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/GULDAN_CLOSE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "KING_LLANE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/KING_LLANE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "LOTHAR_FIRE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/LOTHAR_FIRE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "ORCISH_INVASION_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/ORCISH_INVASION_eventPicture.dds"
 		allwaystransparent = yes
