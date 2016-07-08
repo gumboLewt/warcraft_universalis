@@ -2,71 +2,62 @@
 # Quick Reference
 #-------------------------------------------------------------
 # Alliance
-    # Human                 - tech_human
-    # Gnome                 - tech_gnome
-    # Night Elf             - tech_darnassian
-    # Draenei               - tech_draenei
-    # Dwarf                 - tech_dwarven
-    # Worgen                - tech_worgen
+    # Human                 - tech_human        - YES
+    # Gnome                 - tech_gnome        - YES
+    # Night Elf             - tech_darnassian   - YES
+    # Draenei               - tech_draenei      - YES
+    # Dwarf                 - tech_dwarven      - YES
+    # Worgen                - tech_worgen       - YES
     
 # Horde
-    # Blood Elf             - tech_thalassian
-    # Orc                   - tech_orc
-    # Troll                 - tech_troll
-    # Goblin                - tech_goblin
-    # Tauren                - tech_tauren
-    # Undead                - tech_undead
-    # Pandaren              - tech_pandaren
+    # Blood Elf             - tech_thalassian   - YES
+    # Orc                   - tech_orc          - YES
+    # Troll                 - tech_troll        - YES
+    # Goblin                - tech_goblin       - YES
+    # Tauren                - tech_tauren       - YES
+    # Undead                - tech_undead       - YES
+    # Pandaren              - tech_pandaren     - YES
    
 # The Rest
-    # Ogre                  - tech_ogre
-    # Aqir                  - tech_aqir
-    # Demonic               - tech_demonic
-    # Satyr                 - tech_satyr
-    # Naga                  - tech_naga
-    # Depths                - tech_depths
-    # Old Gods              - tech_old_god
-    # Scourge               - tech_scourge
-    # Dragonkin             - tech_dragonkin
-    # Gnoll                 - tech_gnoll
-    # Centaur               - tech_centaur
-    # Furbolg               - tech_furbolg
-    # Wolfvar               - tech_wolfvar
-    # Gorloc                - tech_gorloc
-    # Kobold                - tech_kobold
-    # Harpy                 - tech_harpy
-    # Quillboar             - tech_quillboar
-    # Titan                 - tech_titan
-    # Elemental             - tech_elemental
-    # Arrakoa               - tech_arrakoa
-    # Tuskarr               - tech_tuskarr
-    # Mantid                - tech_mantid
-    # Mogu                  - tech_mogu
-    # Yaungol               - tech_yaungol
-    # Ethereal              - tech_ethereal
-    # Primitive             - tech_primitive
-    # Vrykul                - tech_vrykul
-    # Magnataur             - tech_magnataur
+    # Ogre                  - tech_ogre         - YES
+    # Aqir                  - tech_aqir         - YES
+    # Demonic               - tech_demonic      - YES
+    # Satyr                 - tech_satyr        - YES 
+    # Naga                  - tech_naga         - YES
+    # Depths                - tech_depths       - YES
+    # Old Gods              - tech_old_god      - YES
+    # Scourge               - tech_scourge      - YES
+    # Dragonkin             - tech_dragonkin    - YES
+    # Gnoll                 - tech_gnoll        - YES
+    # Centaur               - tech_centaur      - YES
+    # Furbolg               - tech_furbolg      - YES
+    # Wolfvar               - tech_wolfvar      - YES
+    # Gorloc                - tech_gorloc       - YES
+    # Kobold                - tech_kobold       - YES
+    # Harpy                 - tech_harpy        - YES
+    # Quillboar             - tech_quillboar    - YES
+    # Titan                 - tech_titan        - YES
+    # Elemental             - tech_elemental    - YES
+    # Arrakoa               - tech_arrakoa      - YES
+    # Tuskarr               - tech_tuskarr      - YES
+    # Mantid                - tech_mantid       - YES
+    # Mogu                  - tech_mogu         - YES
+    # Yaungol               - tech_yaungol      - YES
+    # Ethereal              - tech_ethereal     - YES
+    # Primitive             - tech_primitive    - YES
+    # Vrykul                - tech_vrykul       - YES
+    # Magnataur             - tech_magnataur    - NO
     
 #-------------------------------------------------------------
 
 groups = {
-	# Warcraft
-	# Standard
-	
-	#######################
-	# Has Units: Yes
-	#######################
 	tech_human = {
 		modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
-	
-	#######################
-	# Has Units: Yes
-	#######################
+
 	tech_gnome = {
 		modifier = 0
 		start_level = 1
@@ -74,9 +65,6 @@ groups = {
 		trade_company = yes
 	}
 
-	#######################
-	# Has Units: Yes
-	#######################
 	tech_darnassian = {
 		modifier = 0
 		start_level = 1
@@ -84,9 +72,6 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
 	tech_thalassian = {
 		modifier = 0
 		start_level = 1
@@ -94,9 +79,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_dwarven = {
 		modifier = 0
 		start_level = 1
@@ -104,9 +87,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_orc = {
 		modifier = 0
 		start_level = 1
@@ -114,9 +95,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	########################
-	# Has Units: No
-	#######################
+	
 	tech_ogre = {
 		modifier = 0
 		start_level = 1
@@ -124,9 +103,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_draenei = {
 		modifier = 0
 		start_level = 1
@@ -134,9 +111,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_troll = {
 		modifier = 0
 		start_level = 1
@@ -144,9 +119,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_goblin = {
 		modifier = 0
 		start_level = 1
@@ -154,9 +127,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_tauren = {
 		modifier = 0
 		start_level = 1
@@ -164,9 +135,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_aqir = {
 		modifier = 0
 		start_level = 1
@@ -174,9 +143,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_demonic = {
 		modifier = 0
 		start_level = 1
@@ -184,19 +151,15 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_satyr = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_naga = {
 		modifier = 0
 		start_level = 1
@@ -204,19 +167,15 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_depths = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_old_god = {
 		modifier = 0
 		start_level = 1
@@ -224,9 +183,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_scourge = {
 		modifier = 0
 		start_level = 1
@@ -234,9 +191,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_dragonkin = {
 		modifier = 0
 		start_level = 1
@@ -244,9 +199,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_undead = {
 		modifier = 0
 		start_level = 1
@@ -254,59 +207,47 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_gnoll = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_centaur = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_furbolg = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_wolfvar = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_gorloc = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_kobold = {
 		modifier = 0
 		start_level = 1
@@ -314,29 +255,23 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_harpy = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_quillboar = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_titan = {
 		modifier = 0
 		start_level = 1
@@ -344,9 +279,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_elemental = {
 		modifier = 0
 		start_level = 1
@@ -354,9 +287,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_worgen = {
 		modifier = 0
 		start_level = 1
@@ -364,9 +295,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_arrakoa = {
 		modifier = 0
 		start_level = 1
@@ -374,19 +303,15 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_tuskarr = {
 		modifier = 0
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_pandaren = {
 		modifier = 0
 		start_level = 1
@@ -394,9 +319,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_mantid = {
 		modifier = 0
 		start_level = 1
@@ -404,9 +327,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_mogu = {
 		modifier = 0
 		start_level = 1
@@ -414,9 +335,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_yaungol = {
 		modifier = 0
 		start_level = 1
@@ -424,9 +343,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: No
-	#######################
+	
 	tech_ethereal = {
 		modifier = 0
 		start_level = 1
@@ -434,9 +351,7 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	#######################
+	
 	tech_primitive = {
 		modifier = 0
 		start_level = 1
@@ -444,10 +359,6 @@ groups = {
 		trade_company = yes
 	}
 	
-	#######################
-	# Has Units: Yes
-	# Need tech icon
-	#######################
 	tech_vrykul = {
 		modifier = 0
 		start_level = 1
@@ -455,11 +366,6 @@ groups = {
 		trade_company = yes
 	}
         
-	#######################
-	# Has Units: no, only infantry
-	# Need tech icon
-        # Snobold Infantry & Magnataur Cavalry
-	#######################
 	tech_magnataur = {
 		modifier = 0
 		start_level = 1

@@ -71,11 +71,6 @@ technology = {
 	enable = human_mountedmil_cav                #lvl1 cavalry a,
 	enable = human_drilled_cav                   #lvl1 cavalry b,
 	
-	# tech_gnome
-	enable = gnomish_swords
-	enable = gnomish_battlefieldtink
-	enable = gnomish_mechanostrider_cav
-	
 	# tech_darnassian
 	enable = nightelf_huntsmen
 	enable = nightelf_recurvehunters
@@ -167,21 +162,70 @@ technology = {
 	enable = ogre_mounted_clobber_cav            #lvl1 cavalry a,
 	enable = ogre_mounted_mauler_cav             #lvl1 cavalry b,
 	
-	# tech_satyr
-	# tech_depths
-	# tech_gnoll
-	# tech_centaur
-	# tech_furbolg
-	# tech_wolfvar
-	# tech_gorloc
-	# tech_harpy
-	# tech_quillboar
-	# tech_titan
-	# tech_arrakoa
-	# tech_tuskarr
-	# tech_mantid
-	# tech_yaungol
-	# tech_ethereal
+    # 
+    
+	enable = gnome_gnomish_infantry
+    enable = gnome_gnomish_tinkerers
+    enable = gnome_lesser_mechanostrider
+    enable = gnome_lesser_bomb_copter
+
+    enable = satyr_warrior
+    enable = satyr_shadowdancer
+
+    enable = depths_spearmen
+    enable = depths_earthcallers
+
+    enable = gnoll_stampers
+    enable = gnoll_poachers
+
+    enable = centaur_marauders
+    enable = centaur_outrunners
+
+    enable = furbolg_pathfinders
+    enable = furbolg_den_watchers
+
+    enable = wolvar_hunters
+    enable = wolvar_scavengers
+
+    enable = gorloc_scouts
+    enable = gorloc_lightningspeakers
+
+    enable = harpy_furies
+    enable = harpy_rogues
+
+    enable = quillboar_scarblades
+    enable = quillboar_thornbolts
+
+    enable = arrakoa_bladewings
+    enable = arrakoa_gale_spinners
+    enable = arrakoa_lesser_dread_ravens
+    enable = arrakoa_lesser_battle_constructs
+
+    enable = tuskarr_ice_chuckers
+    enable = tuskarr_netters
+    enable = tuskarr_lesser_shock_mammoths
+    enable = tuskarr_lesser_armored_mammoths
+
+    enable = mantid_boneslicers
+    enable = mantid_hivelings
+    enable = mantid_lesser_kunchong
+    enable = mantid_lesser_bombardiers
+
+    enable = yaungol_cauterizers
+    enable = yaungol_boltshooters
+    enable = yaungol_lesser_war_yaks
+    enable = yaungol_lesser_armored_yaks
+
+    enable = ethereal_shocktroopers
+    enable = ethereal_vanguards
+    enable = ethereal_lesser_war_netherwings
+    enable = ethereal_lesser_armored_netherwings
+    
+    enable = titan_custodians
+    enable = titan_rune_shapers
+    
+    enable = titan_lesser_war_golem
+    enable = titan_lesser_armored_golem
 }
 
 # 2
@@ -343,13 +387,6 @@ technology = {
 	enable = human_brotherhood_cav               #lvl2 cavalry a,
 	enable = human_arathicharg_cav               #lvl2 cavalry b,
 
-	
-	
-	# tech_gnome
-	enable = gnomish_sharpshooter
-	enable = gnomish_magisters
-	enable = gnomish_mountedrifle_cav
-	
 	# tech_darnassian
 	enable = nightelf_wardens
 	enable = nightelf_cenariondruids
@@ -454,6 +491,69 @@ technology = {
 	enable = ogre_mounted_slasher_cav            #lvl2 cavalry a,
 	enable = ogre_mounted_axeman_cav             #lvl2 cavalry b,
 	
+    # 
+    enable = gnome_gnomeregan_grenadiers
+    enable = gnome_gnomish_mekgineers
+    enable = gnome_mechanostrider
+    enable = gnome_bomb_copter
+
+    enable = satyr_soulstealer
+    enable = satyr_hellcaller
+
+    enable = depths_net_throwers
+    enable = depths_water_shamans
+
+    enable = gnoll_brutes
+    enable = gnoll_assassins
+
+    enable = centaur_stampers
+    enable = centaur_earthcallers
+
+    enable = furbolg_warriors
+    enable = furbolg_wind_shamans
+
+    enable = wolvar_ravagers
+    enable = wolvar_trackers
+
+    enable = gorloc_hunters
+    enable = gorloc_lightningcallers
+
+    enable = harpy_screechers
+    enable = harpy_sorceresses
+
+    enable = quillboar_kraulshapers
+    enable = quillboar_stonechanters
+
+    enable = arrakoa_skystrikers
+    enable = arrakoa_sol_shapers
+    enable = arrakoa_dread_ravens
+    enable = arrakoa_battle_constructs
+
+    enable = tuskarr_spearmen
+    enable = tuskarr_runners
+    enable = tuskarr_shock_mammoths
+    enable = tuskarr_armored_mammoths
+
+    enable = mantid_screechers
+    enable = mantid_scentlayers
+    enable = mantid_kunchong
+    enable = mantid_bombardiers
+
+    enable = yaungol_pitchthrowers
+    enable = yaungol_earthtalkers
+    enable = yaungol_war_yaks
+    enable = yaungol_armored_yaks
+
+    enable = ethereal_assassins
+    enable = ethereal_defenders
+    enable = ethereal_war_netherwings
+    enable = ethereal_armored_netherwings
+    
+    enable = titan_guardians
+    enable = titan_rune_weavers
+    
+    enable = titan_war_golem
+    enable = titan_armored_golem
 }
 
 # 16
@@ -625,12 +725,6 @@ technology = {
 	enable = human_stromguard_cav                #lvl3 cavalry a,
 	enable = human_imperial_cav                  #lvl3 cavalry b,
 	
-	# tech_gnome
-	enable = gnomish_holdout
-	enable = gnomish_stormtroopers
-	enable = gnomish_flamebreakers_cav
-	enable = gnomish_mechgroup_cav
-	
 	# tech_darnassian
 	enable = nightelf_kaldvaliant
 	enable = nightelf_silverswords
@@ -737,6 +831,70 @@ technology = {
 	enable = ogre_mounted_berserker_cav          #lvl3 cavalry a,
 	enable = ogre_mounted_brute_cav              #lvl3 cavalry b,
 	
+    # 
+    
+    enable = gnome_mi7_covert_ops
+    enable = gnome_gnomish_constructs
+    enable = gnome_greater_mechanostrider
+    enable = gnome_greater_bomb_copter
+
+    enable = satyr_warlock
+    enable = satyr_necromancer
+
+    enable = depths_tridentmen
+    enable = depths_storm_shamans
+
+    enable = gnoll_wardens
+    enable = gnoll_overseers
+
+    enable = centaur_bloodchargers
+    enable = centaur_windcallers
+
+    enable = furbolg_avengers
+    enable = furbolg_storm_shamans
+
+    enable = wolvar_berserkers
+    enable = wolvar_spearbearers
+
+    enable = gorloc_warriors
+    enable = gorloc_oracles
+
+    enable = harpy_matriarches
+    enable = harpy_wind_witches
+
+    enable = quillboar_huntmasters
+    enable = quillboar_geomagi
+
+    enable = arrakoa_stormblades
+    enable = arrakoa_sun_priests
+    enable = arrakoa_greater_dread_ravens
+    enable = arrakoa_greater_battle_constructs
+
+    enable = tuskarr_champions
+    enable = tuskarr_trappers
+    enable = tuskarr_greater_shock_mammoths
+    enable = tuskarr_greater_armored_mammoths
+
+    enable = mantid_locust_guards
+    enable = mantid_swarmers
+    enable = mantid_greater_kunchong
+    enable = mantid_greater_bombardiers
+
+    enable = yaungol_champions
+    enable = yaungol_fireweavers
+    enable = yaungol_greater_war_yaks
+    enable = yaungol_greater_armored_yaks
+
+    enable = ethereal_gladiators
+    enable = ethereal_regenerators
+    enable = ethereal_greater_war_netherwings
+    enable = ethereal_greater_armored_netherwings
+    
+    enable = titan_stonebreakers
+    enable = titan_rune_overseers
+    
+    enable = titan_greater_war_golem
+    enable = titan_greater_armored_golem
 }
 
 # 31
