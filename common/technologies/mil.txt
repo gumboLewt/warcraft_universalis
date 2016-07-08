@@ -226,6 +226,9 @@ technology = {
     
     enable = titan_lesser_war_golem
     enable = titan_lesser_armored_golem
+    
+    enable = magnataur_stampers
+    enable = magnataur_ironbellies
 }
 
 # 2
@@ -554,6 +557,9 @@ technology = {
     
     enable = titan_war_golem
     enable = titan_armored_golem
+    
+    enable = magnataur_chargers
+    enable = magnataur_steelbellies
 }
 
 # 16
@@ -895,6 +901,9 @@ technology = {
     
     enable = titan_greater_war_golem
     enable = titan_greater_armored_golem
+    
+    enable = magnataur_champions
+    enable = magnataur_rune_wielders
 }
 
 # 31
