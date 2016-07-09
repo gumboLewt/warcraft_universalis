@@ -2199,7 +2199,7 @@ province;red;green;blue;type;name;continent;region;
 2198;69;50;90;land;Ilgalar Fields;;;
 2199;86;202;121;land;Shalewind Approach;;;
 2200;136;92;48;land;Northshire Hills;;;
-2201;60;149;170;land;Stormwind Hills;;;
+2201;60;149;170;land;### Reuse Ð Stormwind Hills;;;
 2202;85;71;236;land;Trade District;;;
 2203;58;3;88;land;Dwarven District;;;
 2204;62;130;19;land;Cathedral Square;;;
@@ -2468,7 +2468,7 @@ province;red;green;blue;type;name;continent;region;
 2467;147;159;68;land;Wyrmskull Village;Northrend;Howling Fjord;
 2468;170;175;108;land;Derelict Strand;Northrend;Howling Fjord;
 2469;89;131;113;land;Zuldazar;South Seas;Zandalar;
-2470;135;131;62;1;land;Mount Mugamba;South Seas;Zandalar;
+2470;135;131;62;1;land;Mount Mugamba;South Seas;Zandalar
 2471;90;131;148;land;Port Zul;South Seas;Zandalar;
 2472;74;131;111;land;Plunder Isle;South Seas;Plunder Isle;
 2473;168;131;72;wasteland;Unnamed;South Seas;Zandalar;
