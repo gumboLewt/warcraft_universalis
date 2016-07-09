@@ -46,7 +46,7 @@
     # Ethereal              - tech_ethereal     - YES
     # Primitive             - tech_primitive    - YES
     # Vrykul                - tech_vrykul       - YES
-    # Magnataur             - tech_magnataur    - NO
+    # Magnataur             - tech_magnataur    - YES
     
 #-------------------------------------------------------------
 
