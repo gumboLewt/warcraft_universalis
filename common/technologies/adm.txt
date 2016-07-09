@@ -560,8 +560,8 @@ technology = {
 technology = {
 	year = 1650
 
-    administrative_efficiency = 0.1
-    development_efficiency = 0.1
+    administrative_efficiency = 0.05
+    development_efficiency = 0.05
 }
 
 technology = {
@@ -591,8 +591,8 @@ technology = {
 technology = {
 	year = 1715
 
-    administrative_efficiency = 0.1
-    development_efficiency = 0.1
+    administrative_efficiency = 0.05
+    development_efficiency = 0.05
 }
 
 technology = {
@@ -622,8 +622,8 @@ technology = {
 technology = {
 	year = 1780
 
-    administrative_efficiency = 0.1
-    development_efficiency = 0.1
+    administrative_efficiency = 0.05
+    development_efficiency = 0.05
 }
 
 technology = {
