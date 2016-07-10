@@ -5,7 +5,7 @@ country_event = {
     id = wow_battles.1
 	title = wow_battles.1.title
 	desc = wow_battles.1.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = ORCISH_INVASION_eventPicture # Placeholder
     
     is_triggered_only = yes
 
@@ -119,10 +119,6 @@ country_event = {
 
             raise_the_dead_manpower = yes
         }
-        
-        ai_chance = {
-            factor = 33
-        }
 	}
     
     # Slash and Burn
@@ -141,17 +137,6 @@ country_event = {
             change_culture = ROOT
             change_religion = ROOT
             set_local_autonomy = 75
-        }
-        
-        ai_chance = {
-            factor = 33
-            
-            modifier = {
-                factor = 0
-                NOT = { 
-                    adm = 250
-                }
-            }
         }
 	}
     
@@ -172,10 +157,6 @@ country_event = {
             add_core = ROOT
             set_local_autonomy = 100
         }
-        
-        ai_chance = {
-            factor = 33
-        }
 	}
     
     # Leave alone
@@ -193,7 +174,7 @@ country_event = {
     id = wow_battles.4
 	title = wow_battles.4.title
 	desc = wow_battles.4.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = ORCISH_INVASION_eventPicture # Placeholder
     
     is_triggered_only = yes
 
@@ -226,7 +207,7 @@ province_event = {
                 government = scourge_gov
             }
         }
-        NOT = { owner = FROM }
+        NOT = { owned_by = FROM }
     }
     
     option = {
@@ -279,7 +260,7 @@ country_event = {
     id = wow_battles.100
 	title = wow_battles.100.title
 	desc = wow_battles.100.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = ORCISH_INVASION_eventPicture # Placeholder
     
     is_triggered_only = yes
 
