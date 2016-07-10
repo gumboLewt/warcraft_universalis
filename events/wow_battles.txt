@@ -32,7 +32,21 @@ country_event = {
         }
         
         ai_chance = {
-            factor = 33
+            factor = 50
+            
+            # Don't bother with this option if at full manpower
+            modifier = {
+                factor = 0
+                
+                manpower_percentage = 1.0
+            }
+            
+            # Make this option very likely whilst on low manpower
+            modifier = {
+                factor = 2
+                
+                NOT = { manpower_percentage = 0.25 }
+            }
         }
 	}
     
@@ -51,13 +65,13 @@ country_event = {
         }
         
         ai_chance = {
-            factor = 33
+            factor = 25
             
+            # High country unrest means the AI will shy away from taking land this way
             modifier = {
-                factor = 0
-                NOT = { 
-                    adm = 250
-                }
+                factor = 0.5
+                
+                average_unrest = 5
             }
         }
 	}
@@ -72,12 +86,43 @@ country_event = {
                 duration = 720
             }
             cede_province = ROOT
-            add_core = ROOT
+            
+            # Only give player the core.
+            if = {
+                limit = { 
+                    ROOT = { is_ai = no }
+                }
+                add_core = ROOT 
+            }
             set_local_autonomy = 100
         }
         
         ai_chance = {
-            factor = 33
+            factor = 5
+            
+            # AI will only take over their own cultur/religion
+            modifier = {
+                factor = 0
+                
+                FROM = {
+                    NOT = { culture = ROOT }
+                }    
+            }
+            
+            modifier = {
+                factor = 0
+                
+                FROM = {
+                    NOT = { religion = ROOT }
+                }    
+            }
+            
+            # High country unrest means the AI will shy away from taking land this way
+            modifier = {
+                factor = 0.1
+                
+                average_unrest = 5
+            }
         }
 	}
     
@@ -85,6 +130,16 @@ country_event = {
     option = {
 		name = wow_battles.1.option.d
 
+        ai_chance = {
+            factor = 25
+            
+            # Any unrest in the province means the AI will leave it alone most of the time
+            modifier = {
+                factor = 4
+                
+                FROM = { unrest = 1 }
+            }
+        }
 	}
 }
 
@@ -97,6 +152,10 @@ country_event = {
     
     is_triggered_only = yes
     hidden = yes
+    
+    trigger = {
+        ai = no
+    }
     
     immediate = {
         add_war_exhaustion = -2
@@ -185,8 +244,7 @@ country_event = {
     option = {
 		name = wow_battles.4.option.a
 
-        add_horde_unity = 25
-        
+        add_horde_unity = 25 
 	}
 }
 
