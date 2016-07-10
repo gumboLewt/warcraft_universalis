@@ -195,7 +195,9 @@ the_right_worship = {
     local_tax_modifier = 1
 }
 
-# Conquest modifiers markers
+#------------------------------
+# Conquest Event
+#------------------------------
 battles_raise_the_dead = { yearly_corruption = 0.01 }
 battles_slash_and_burn = { yearly_corruption = 0.01 }
 battles_direct_control = { yearly_corruption = 0.01 }
@@ -215,4 +217,11 @@ battles_slash_and_burn_unrest = {
 
 battles_raise_the_dead_unrest = {
     local_unrest = 5
+}
+
+#------------------------------
+# Religion
+#------------------------------
+fel_conduits = {
+    global_missionary_strength = 0.02
 }

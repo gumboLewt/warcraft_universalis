@@ -1,0 +1,30 @@
+country_decisions = {
+
+    construct_fel_conduits = {
+        major = yes
+        potential = {
+            religion = religion_fel
+            NOT = { has_country_modifier = fel_conduits }
+        }
+        allow = {
+            religion = religion_fel
+            stability = 1
+        }
+        effect = {
+            add_stability = -1
+            add_country_modifier = {
+                name = fel_conduits
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+}

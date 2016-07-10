@@ -12,6 +12,16 @@
  setup_conquest_choices_desc: "Set which conquest choice to automatically take, or resume manual control."
  
  #-----------------------------------------------
+ # Religion
+ #-----------------------------------------------
+ construct_fel_conduits_title: "Construct Fel Conduits"
+ construct_fel_conduits_desc: "Fel energies are weak here, we will need to empower them by constructing conduits to harvest such energies."
+ 
+ fel_conduits: "Fel Conduits"
+ desc_fel_conduits: "We have constructed fel conduits, allowing us to more easily remove those that do not submit to the power of Fel."
+ 
+ 
+ #-----------------------------------------------
  # Alliance/Horde
  #-----------------------------------------------
  join_the_alliance_title: "Join the Alliance"
