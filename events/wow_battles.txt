@@ -204,10 +204,8 @@ country_event = {
     option = {
 		name = wow_battles.4.option.a
 
-        add_country_modifier = {
-            name = battles_capital_control
-            duratio = 365
-        }
+        add_horde_unity = 25
+        
 	}
 }
 
@@ -228,6 +226,7 @@ province_event = {
                 government = scourge_gov
             }
         }
+        NOT = { owner = FROM }
     }
     
     option = {
