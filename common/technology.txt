@@ -79,15 +79,13 @@ groups = {
 		trade_company = yes
 	}
 	
-	
 	tech_dwarven = {
 		modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
-	
-	
+
 	tech_orc = {
 		modifier = 0
 		start_level = 1
@@ -95,14 +93,12 @@ groups = {
 		trade_company = yes
 	}
 	
-	
 	tech_ogre = {
-		modifier = 0
+		modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
-	
 	
 	tech_draenei = {
 		modifier = 0
@@ -111,14 +107,12 @@ groups = {
 		trade_company = yes
 	}
 	
-	
 	tech_troll = {
 		modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
-	
 	
 	tech_goblin = {
 		modifier = 0
@@ -127,14 +121,12 @@ groups = {
 		trade_company = yes
 	}
 	
-	
 	tech_tauren = {
 		modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
-	
 	
 	tech_aqir = {
 		modifier = 0
@@ -143,7 +135,6 @@ groups = {
 		trade_company = yes
 	}
 	
-	
 	tech_demonic = {
 		modifier = 0
 		start_level = 1
@@ -151,14 +142,12 @@ groups = {
 		trade_company = yes
 	}
 	
-	
 	tech_satyr = {
-		modifier = 0
+		modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
-	
 	
 	tech_naga = {
 		modifier = 0
@@ -169,7 +158,7 @@ groups = {
 	
 	
 	tech_depths = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
 		trade_company = yes
@@ -185,7 +174,7 @@ groups = {
 	
 	
 	tech_scourge = {
-		modifier = 0
+		modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
@@ -209,7 +198,7 @@ groups = {
 	
 	
 	tech_gnoll = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
 		trade_company = yes
@@ -217,7 +206,7 @@ groups = {
 	
 	
 	tech_centaur = {
-		modifier = 0
+		modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0
 		trade_company = yes
@@ -225,7 +214,7 @@ groups = {
 	
 	
 	tech_furbolg = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
 		trade_company = yes
@@ -233,7 +222,7 @@ groups = {
 	
 	
 	tech_wolfvar = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
 		trade_company = yes
@@ -241,7 +230,7 @@ groups = {
 	
 	
 	tech_gorloc = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
 		trade_company = yes
@@ -249,7 +238,7 @@ groups = {
 	
 	
 	tech_kobold = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
@@ -257,7 +246,7 @@ groups = {
 	
 	
 	tech_harpy = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
 		trade_company = yes
@@ -265,7 +254,7 @@ groups = {
 	
 	
 	tech_quillboar = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
 		trade_company = yes
@@ -281,7 +270,7 @@ groups = {
 	
 	
 	tech_elemental = {
-		modifier = 0
+		modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
@@ -353,7 +342,7 @@ groups = {
 	
 	
 	tech_primitive = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
@@ -367,9 +356,9 @@ groups = {
 	}
         
 	tech_magnataur = {
-		modifier = 0
+		modifier = 1
 		start_level = 1
-		cav_to_inf_ratio = 0.5
+		cav_to_inf_ratio = 0
 		trade_company = yes
 	}
 }

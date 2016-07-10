@@ -134,7 +134,7 @@ country_event = {
     
 	trigger = {
 		tag = A48
-		area_durotar = {
+		region_durotar = {
 			owned_by = ROOT
 		}
 		1456 = {

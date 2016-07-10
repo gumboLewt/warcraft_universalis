@@ -11,11 +11,11 @@ lordaeron_horde = {
 	major = yes
 	potential = {
         has_country_modifier = horde_member
-		capital_scope = { provincegroup = lordaeron_provincegroup }
+		capital_scope = { province_group = lordaeron_province_group }
 		any_known_country = {
 			has_country_modifier = horde_member
 			NOT = { alliance_with = ROOT }
-			capital_scope = { provincegroup = lordaeron_provincegroup }
+			capital_scope = { province_group = lordaeron_province_group }
 			ai = yes
 		}
 	}
@@ -23,7 +23,7 @@ lordaeron_horde = {
 		any_known_country = {
 			has_country_modifier = horde_member
 			NOT = { alliance_with = ROOT }
-			capital_scope = { provincegroup = lordaeron_provincegroup }
+			capital_scope = { province_group = lordaeron_province_group }
 		}
 	}
 	effect = {
@@ -31,7 +31,7 @@ lordaeron_horde = {
 			limit = {
 				has_country_modifier = horde_member
 				NOT = { alliance_with = ROOT }
-				capital_scope = { provincegroup = lordaeron_provincegroup }
+				capital_scope = { province_group = lordaeron_province_group }
 			ai = yes
 			}
 			create_alliance = ROOT
@@ -46,11 +46,11 @@ khaz_modan_horde = {
 	major = yes
 	potential = {
         has_country_modifier = horde_member
-		capital_scope = { provincegroup = khaz_modan_provincegroup }
+		capital_scope = { province_group = khaz_modan_province_group }
 		any_known_country = {
 			has_country_modifier = horde_member
 			NOT = { alliance_with = ROOT }
-			capital_scope = { provincegroup = khaz_modan_provincegroup }
+			capital_scope = { province_group = khaz_modan_province_group }
 			ai = yes
 		}
 	}
@@ -58,7 +58,7 @@ khaz_modan_horde = {
 		any_known_country = {
 			has_country_modifier = horde_member
 			NOT = { alliance_with = ROOT }
-			capital_scope = { provincegroup = khaz_modan_provincegroup }
+			capital_scope = { province_group = khaz_modan_province_group }
 		}
 	}
 	effect = {
@@ -66,7 +66,7 @@ khaz_modan_horde = {
 			limit = {
 				has_country_modifier = horde_member
 				NOT = { alliance_with = ROOT }
-				capital_scope = { provincegroup = khaz_modan_provincegroup }
+				capital_scope = { province_group = khaz_modan_province_group }
 				ai = yes
 			}
 			create_alliance = ROOT
@@ -81,11 +81,11 @@ azeroth_horde = {
 	    major = yes
 		potential = {
         has_country_modifier = horde_member
-		capital_scope = { provincegroup = azeroth_provincegroup }
+		capital_scope = { province_group = azeroth_province_group }
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = azeroth_provincegroup }
+		capital_scope = { province_group = azeroth_province_group }
 		ai = yes
 		}
 		}
@@ -93,7 +93,7 @@ azeroth_horde = {
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = azeroth_provincegroup }
+		capital_scope = { province_group = azeroth_province_group }
 		}
 		}
 		effect = {
@@ -101,7 +101,7 @@ azeroth_horde = {
 		limit = {
 		has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = azeroth_provincegroup }
+		capital_scope = { province_group = azeroth_province_group }
 		ai = yes
 		}
 		create_alliance = ROOT
@@ -116,11 +116,11 @@ north_kalimdor_horde = {
 	    major = yes
 		potential = {
         has_country_modifier = horde_member
-		capital_scope = { provincegroup = north_kalimdor_provincegroup }
+		capital_scope = { province_group = north_kalimdor_province_group }
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = north_kalimdor_provincegroup }
+		capital_scope = { province_group = north_kalimdor_province_group }
 		ai = yes
 		}
 		}
@@ -128,7 +128,7 @@ north_kalimdor_horde = {
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = north_kalimdor_provincegroup }
+		capital_scope = { province_group = north_kalimdor_province_group }
 		}
 		}
 		effect = {
@@ -136,7 +136,7 @@ north_kalimdor_horde = {
 		limit = {
 		has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = north_kalimdor_provincegroup }
+		capital_scope = { province_group = north_kalimdor_province_group }
 		ai = yes
 		}
 		create_alliance = ROOT
@@ -151,11 +151,11 @@ central_kalimdor_horde = {
 	major = yes
 	potential = {
         has_country_modifier = horde_member
-		capital_scope = { provincegroup = central_kalimdor_provincegroup }
+		capital_scope = { province_group = central_kalimdor_province_group }
 		any_known_country = {
 			has_country_modifier = horde_member
 			NOT = { alliance_with = ROOT }
-			capital_scope = { provincegroup = central_kalimdor_provincegroup }
+			capital_scope = { province_group = central_kalimdor_province_group }
 			ai = yes
 		}
 	}
@@ -163,7 +163,7 @@ central_kalimdor_horde = {
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = central_kalimdor_provincegroup }
+		capital_scope = { province_group = central_kalimdor_province_group }
 		}
 		}
 		effect = {
@@ -171,7 +171,7 @@ central_kalimdor_horde = {
 		limit = {
 		has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = central_kalimdor_provincegroup }
+		capital_scope = { province_group = central_kalimdor_province_group }
 		ai = yes
 		}
 		create_alliance = ROOT
@@ -186,11 +186,11 @@ south_kalimdor_horde = {
 	major = yes
 	potential = {
         has_country_modifier = horde_member
-		capital_scope = { provincegroup = south_kalimdor_provincegroup }
+		capital_scope = { province_group = south_kalimdor_province_group }
 		any_known_country = {
 			has_country_modifier = horde_member
 			NOT = { alliance_with = ROOT }
-			capital_scope = { provincegroup = south_kalimdor_provincegroup }
+			capital_scope = { province_group = south_kalimdor_province_group }
 			ai = yes
 		}
 	}
@@ -198,7 +198,7 @@ south_kalimdor_horde = {
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = south_kalimdor_provincegroup }
+		capital_scope = { province_group = south_kalimdor_province_group }
 		}
 		}
 		effect = {
@@ -206,7 +206,7 @@ south_kalimdor_horde = {
 		limit = {
 		has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = south_kalimdor_provincegroup }
+		capital_scope = { province_group = south_kalimdor_province_group }
 		ai = yes
 		}
 		create_alliance = ROOT
@@ -221,11 +221,11 @@ northrend_horde = {
 	major = yes
 		potential = {
         has_country_modifier = horde_member
-		capital_scope = { provincegroup = northrend_provincegroup }
+		capital_scope = { province_group = northrend_province_group }
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = northrend_provincegroup }
+		capital_scope = { province_group = northrend_province_group }
 		ai = yes
 		}
 		}
@@ -233,7 +233,7 @@ northrend_horde = {
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = northrend_provincegroup }
+		capital_scope = { province_group = northrend_province_group }
 		}
 		}
 		effect = {
@@ -241,7 +241,7 @@ northrend_horde = {
 		limit = {
 		has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = northrend_provincegroup }
+		capital_scope = { province_group = northrend_province_group }
 		ai = yes
 		}
 		create_alliance = ROOT
@@ -256,11 +256,11 @@ outland_horde = {
 	major = yes
 		potential = {
         has_country_modifier = horde_member
-		capital_scope = { provincegroup = outland_provincegroup }
+		capital_scope = { province_group = outland_province_group }
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = outland_provincegroup }
+		capital_scope = { province_group = outland_province_group }
 		ai = yes
 		}
 		}
@@ -268,7 +268,7 @@ outland_horde = {
 		any_known_country = {
 		has_country_modifier = horde_member
 		NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = outland_provincegroup }
+		capital_scope = { province_group = outland_province_group }
 		}
 		}
 		effect = {
@@ -276,7 +276,7 @@ outland_horde = {
 		limit = {
 		has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-		capital_scope = { provincegroup = outland_provincegroup }
+		capital_scope = { province_group = outland_province_group }
 		ai = yes
 		}
 		create_alliance = ROOT
@@ -291,11 +291,11 @@ pandaria_horde = {
 	major = yes
 	potential = {
         has_country_modifier = horde_member
-		capital_scope = { provincegroup = pandaria_provincegroup }
+		capital_scope = { province_group = pandaria_province_group }
 		any_known_country = {
 			has_country_modifier = horde_member
 			NOT = { alliance_with = ROOT }
-			capital_scope = { provincegroup = pandaria_provincegroup }
+			capital_scope = { province_group = pandaria_province_group }
 			ai = yes
 		}
 	}
@@ -303,7 +303,7 @@ pandaria_horde = {
 		any_known_country = {
 			has_country_modifier = horde_member
 			NOT = { alliance_with = ROOT }
-			capital_scope = { provincegroup = pandaria_provincegroup }
+			capital_scope = { province_group = pandaria_province_group }
 		}
 	}
 	effect = {
@@ -311,7 +311,7 @@ pandaria_horde = {
 			limit = {
 				has_country_modifier = horde_member
 				NOT = { alliance_with = ROOT }
-				capital_scope = { provincegroup = pandaria_provincegroup }
+				capital_scope = { province_group = pandaria_province_group }
 				ai = yes
 			}
 		create_alliance = ROOT

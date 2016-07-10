@@ -1,0 +1,24 @@
+country_decisions = {
+    setup_conquest_choices = {
+        major = yes
+        potential = {
+            OR = {
+                government = warband_gov
+                government = scourge_gov
+            }
+            ai = no
+        }
+        allow = {
+            OR = {
+                government = warband_gov
+                government = scourge_gov
+            }
+        }
+        effect = {
+            country_event = { id = wow_battles.100 }
+        }		
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

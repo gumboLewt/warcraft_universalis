@@ -6,6 +6,12 @@
  encourage_bloodlust_desc: "We ache for war, let us raid our non-orc neighbours more often to sate the bloodlust."
 
  #-----------------------------------------------
+ # Conquest
+ #-----------------------------------------------
+ setup_conquest_choices_title: "Setup Conquest Choices"
+ setup_conquest_choices_desc: "Set which conquest choice to automatically take, or resume manual control."
+ 
+ #-----------------------------------------------
  # Alliance/Horde
  #-----------------------------------------------
  join_the_alliance_title: "Join the Alliance"

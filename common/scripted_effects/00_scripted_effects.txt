@@ -20,3 +20,1403 @@ cede_province_fully = {
     change_culture = PREV
 }
 
+raise_the_dead_manpower = { 
+    if = {
+		limit = {
+			NOT = { development = 2 }
+		}
+		ROOT = { add_manpower = 0.5 }
+	}
+	if = {
+		limit = {
+			development = 2
+			NOT = { development = 3 }
+		}
+		ROOT = { add_manpower = 1.0 }
+	}
+	if = {
+		limit = {
+			development = 3
+			NOT = { development = 4 }
+		}
+		ROOT = { add_manpower = 1.5 }
+	}
+	if = {
+		limit = {
+			development = 4
+			NOT = { development = 5 }
+		}
+		ROOT = { add_manpower = 2.0 }
+	}
+	if = {
+		limit = {
+			development = 5
+			NOT = { development = 6 }
+		}
+		ROOT = { add_manpower = 2.5 }
+	}
+	if = {
+		limit = {
+			development = 6
+			NOT = { development = 7 }
+		}
+		ROOT = { add_manpower = 3.0 }
+	}
+	if = {
+		limit = {
+			development = 7
+			NOT = { development = 8 }
+		}
+		ROOT = { add_manpower = 3.5 }
+	}
+	if = {
+		limit = {
+			development = 8
+			NOT = { development = 9 }
+		}
+		ROOT = { add_manpower = 4.0 }
+	}
+	if = {
+		limit = {
+			development = 9
+			NOT = { development = 10 }
+		}
+		ROOT = { add_manpower = 4.5 }
+	}
+	if = {
+		limit = {
+			development = 10
+			NOT = { development = 11 }
+		}
+		ROOT = { add_manpower = 5.0 }
+	}
+	if = {
+		limit = {
+			development = 11
+			NOT = { development = 12 }
+		}
+		ROOT = { add_manpower = 5.5 }
+	}
+	if = {
+		limit = {
+			development = 12
+			NOT = { development = 13 }
+		}
+		ROOT = { add_manpower = 6.0 }
+	}
+	if = {
+		limit = {
+			development = 13
+			NOT = { development = 14 }
+		}
+		ROOT = { add_manpower = 6.5 }
+	}
+	if = {
+		limit = {
+			development = 14
+			NOT = { development = 15 }
+		}
+		ROOT = { add_manpower = 7.0 }
+	}
+	if = {
+		limit = {
+			development = 15
+			NOT = { development = 16 }
+		}
+		ROOT = { add_manpower = 7.5 }
+	}
+	if = {
+		limit = {
+			development = 16
+			NOT = { development = 17 }
+		}
+		ROOT = { add_manpower = 8.0 }
+	}
+	if = {
+		limit = {
+			development = 17
+			NOT = { development = 18 }
+		}
+		ROOT = { add_manpower = 8.5 }
+	}
+	if = {
+		limit = {
+			development = 18
+			NOT = { development = 19 }
+		}
+		ROOT = { add_manpower = 9.0 }
+	}
+	if = {
+		limit = {
+			development = 19
+			NOT = { development = 20 }
+		}
+		ROOT = { add_manpower = 9.5 }
+	}
+	if = {
+		limit = {
+			development = 20
+			NOT = { development = 21 }
+		}
+		ROOT = { add_manpower = 10.0 }
+	}
+	if = {
+		limit = {
+			development = 21
+			NOT = { development = 22 }
+		}
+		ROOT = { add_manpower = 10.5 }
+	}
+	if = {
+		limit = {
+			development = 22
+			NOT = { development = 23 }
+		}
+		ROOT = { add_manpower = 11.0 }
+	}
+	if = {
+		limit = {
+			development = 23
+			NOT = { development = 24 }
+		}
+		ROOT = { add_manpower = 11.5 }
+	}
+	if = {
+		limit = {
+			development = 24
+			NOT = { development = 25 }
+		}
+		ROOT = { add_manpower = 12.0 }
+	}
+	if = {
+		limit = {
+			development = 25
+			NOT = { development = 26 }
+		}
+		ROOT = { add_manpower = 12.5 }
+	}
+	if = {
+		limit = {
+			development = 26
+			NOT = { development = 27 }
+		}
+		ROOT = { add_manpower = 13.0 }
+	}
+	if = {
+		limit = {
+			development = 27
+			NOT = { development = 28 }
+		}
+		ROOT = { add_manpower = 13.5 }
+	}
+	if = {
+		limit = {
+			development = 28
+			NOT = { development = 29 }
+		}
+		ROOT = { add_manpower = 14.0 }
+	}
+	if = {
+		limit = {
+			development = 29
+			NOT = { development = 30 }
+		}
+		ROOT = { add_manpower = 14.5 }
+	}
+	if = {
+		limit = {
+			development = 30
+			NOT = { development = 31 }
+		}
+		ROOT = { add_manpower = 15.0 }
+	}
+	if = {
+		limit = {
+			development = 31
+			NOT = { development = 32 }
+		}
+		ROOT = { add_manpower = 15.5 }
+	}
+	if = {
+		limit = {
+			development = 32
+			NOT = { development = 33 }
+		}
+		ROOT = { add_manpower = 16.0 }
+	}
+	if = {
+		limit = {
+			development = 33
+			NOT = { development = 34 }
+		}
+		ROOT = { add_manpower = 16.5 }
+	}
+	if = {
+		limit = {
+			development = 34
+			NOT = { development = 35 }
+		}
+		ROOT = { add_manpower = 17.0 }
+	}
+	if = {
+		limit = {
+			development = 35
+			NOT = { development = 36 }
+		}
+		ROOT = { add_manpower = 17.5 }
+	}
+	if = {
+		limit = {
+			development = 36
+			NOT = { development = 37 }
+		}
+		ROOT = { add_manpower = 18.0 }
+	}
+	if = {
+		limit = {
+			development = 37
+			NOT = { development = 38 }
+		}
+		ROOT = { add_manpower = 18.5 }
+	}
+	if = {
+		limit = {
+			development = 38
+			NOT = { development = 39 }
+		}
+		ROOT = { add_manpower = 19.0 }
+	}
+	if = {
+		limit = {
+			development = 39
+			NOT = { development = 40 }
+		}
+		ROOT = { add_manpower = 19.5 }
+	}
+	if = {
+		limit = {
+			development = 40
+			NOT = { development = 41 }
+		}
+		ROOT = { add_manpower = 20.0 }
+	}
+	if = {
+		limit = {
+			development = 41
+			NOT = { development = 42 }
+		}
+		ROOT = { add_manpower = 20.5 }
+	}
+	if = {
+		limit = {
+			development = 42
+			NOT = { development = 43 }
+		}
+		ROOT = { add_manpower = 21.0 }
+	}
+	if = {
+		limit = {
+			development = 43
+			NOT = { development = 44 }
+		}
+		ROOT = { add_manpower = 21.5 }
+	}
+	if = {
+		limit = {
+			development = 44
+			NOT = { development = 45 }
+		}
+		ROOT = { add_manpower = 22.0 }
+	}
+	if = {
+		limit = {
+			development = 45
+			NOT = { development = 46 }
+		}
+		ROOT = { add_manpower = 22.5 }
+	}
+	if = {
+		limit = {
+			development = 46
+			NOT = { development = 47 }
+		}
+		ROOT = { add_manpower = 23.0 }
+	}
+	if = {
+		limit = {
+			development = 47
+			NOT = { development = 48 }
+		}
+		ROOT = { add_manpower = 23.5 }
+	}
+	if = {
+		limit = {
+			development = 48
+			NOT = { development = 49 }
+		}
+		ROOT = { add_manpower = 24.0 }
+	}
+	if = {
+		limit = {
+			development = 49
+			NOT = { development = 50 }
+		}
+		ROOT = { add_manpower = 24.5 }
+	}
+	if = {
+		limit = {
+			development = 50
+			NOT = { development = 51 }
+		}
+		ROOT = { add_manpower = 25.0 }
+	}
+	if = {
+		limit = {
+			development = 51
+			NOT = { development = 52 }
+		}
+		ROOT = { add_manpower = 25.5 }
+	}
+	if = {
+		limit = {
+			development = 52
+			NOT = { development = 53 }
+		}
+		ROOT = { add_manpower = 26.0 }
+	}
+	if = {
+		limit = {
+			development = 53
+			NOT = { development = 54 }
+		}
+		ROOT = { add_manpower = 26.5 }
+	}
+	if = {
+		limit = {
+			development = 54
+			NOT = { development = 55 }
+		}
+		ROOT = { add_manpower = 27.0 }
+	}
+	if = {
+		limit = {
+			development = 55
+			NOT = { development = 56 }
+		}
+		ROOT = { add_manpower = 27.5 }
+	}
+	if = {
+		limit = {
+			development = 56
+			NOT = { development = 57 }
+		}
+		ROOT = { add_manpower = 28.0 }
+	}
+	if = {
+		limit = {
+			development = 57
+			NOT = { development = 58 }
+		}
+		ROOT = { add_manpower = 28.5 }
+	}
+	if = {
+		limit = {
+			development = 58
+			NOT = { development = 59 }
+		}
+		ROOT = { add_manpower = 29.0 }
+	}
+	if = {
+		limit = {
+			development = 59
+			NOT = { development = 60 }
+		}
+		ROOT = { add_manpower = 29.5 }
+	}
+	if = {
+		limit = {
+			development = 60
+			NOT = { development = 61 }
+		}
+		ROOT = { add_manpower = 30.0 }
+	}
+	if = {
+		limit = {
+			development = 61
+			NOT = { development = 62 }
+		}
+		ROOT = { add_manpower = 30.5 }
+	}
+	if = {
+		limit = {
+			development = 62
+			NOT = { development = 63 }
+		}
+		ROOT = { add_manpower = 31.0 }
+	}
+	if = {
+		limit = {
+			development = 63
+			NOT = { development = 64 }
+		}
+		ROOT = { add_manpower = 31.5 }
+	}
+	if = {
+		limit = {
+			development = 64
+			NOT = { development = 65 }
+		}
+		ROOT = { add_manpower = 32.0 }
+	}
+	if = {
+		limit = {
+			development = 65
+			NOT = { development = 66 }
+		}
+		ROOT = { add_manpower = 32.5 }
+	}
+	if = {
+		limit = {
+			development = 66
+			NOT = { development = 67 }
+		}
+		ROOT = { add_manpower = 33.0 }
+	}
+	if = {
+		limit = {
+			development = 67
+			NOT = { development = 68 }
+		}
+		ROOT = { add_manpower = 33.5 }
+	}
+	if = {
+		limit = {
+			development = 68
+			NOT = { development = 69 }
+		}
+		ROOT = { add_manpower = 34.0 }
+	}
+	if = {
+		limit = {
+			development = 69
+			NOT = { development = 70 }
+		}
+		ROOT = { add_manpower = 34.5 }
+	}
+	if = {
+		limit = {
+			development = 70
+			NOT = { development = 71 }
+		}
+		ROOT = { add_manpower = 35.0 }
+	}
+	if = {
+		limit = {
+			development = 71
+			NOT = { development = 72 }
+		}
+		ROOT = { add_manpower = 35.5 }
+	}
+	if = {
+		limit = {
+			development = 72
+			NOT = { development = 73 }
+		}
+		ROOT = { add_manpower = 36.0 }
+	}
+	if = {
+		limit = {
+			development = 73
+			NOT = { development = 74 }
+		}
+		ROOT = { add_manpower = 36.5 }
+	}
+	if = {
+		limit = {
+			development = 74
+			NOT = { development = 75 }
+		}
+		ROOT = { add_manpower = 37.0 }
+	}
+	if = {
+		limit = {
+			development = 75
+			NOT = { development = 76 }
+		}
+		ROOT = { add_manpower = 37.5 }
+	}
+	if = {
+		limit = {
+			development = 76
+			NOT = { development = 77 }
+		}
+		ROOT = { add_manpower = 38.0 }
+	}
+	if = {
+		limit = {
+			development = 77
+			NOT = { development = 78 }
+		}
+		ROOT = { add_manpower = 38.5 }
+	}
+	if = {
+		limit = {
+			development = 78
+			NOT = { development = 79 }
+		}
+		ROOT = { add_manpower = 39.0 }
+	}
+	if = {
+		limit = {
+			development = 79
+			NOT = { development = 80 }
+		}
+		ROOT = { add_manpower = 39.5 }
+	}
+	if = {
+		limit = {
+			development = 80
+			NOT = { development = 81 }
+		}
+		ROOT = { add_manpower = 40.0 }
+	}
+	if = {
+		limit = {
+			development = 81
+			NOT = { development = 82 }
+		}
+		ROOT = { add_manpower = 40.5 }
+	}
+	if = {
+		limit = {
+			development = 82
+			NOT = { development = 83 }
+		}
+		ROOT = { add_manpower = 41.0 }
+	}
+	if = {
+		limit = {
+			development = 83
+			NOT = { development = 84 }
+		}
+		ROOT = { add_manpower = 41.5 }
+	}
+	if = {
+		limit = {
+			development = 84
+			NOT = { development = 85 }
+		}
+		ROOT = { add_manpower = 42.0 }
+	}
+	if = {
+		limit = {
+			development = 85
+			NOT = { development = 86 }
+		}
+		ROOT = { add_manpower = 42.5 }
+	}
+	if = {
+		limit = {
+			development = 86
+			NOT = { development = 87 }
+		}
+		ROOT = { add_manpower = 43.0 }
+	}
+	if = {
+		limit = {
+			development = 87
+			NOT = { development = 88 }
+		}
+		ROOT = { add_manpower = 43.5 }
+	}
+	if = {
+		limit = {
+			development = 88
+			NOT = { development = 89 }
+		}
+		ROOT = { add_manpower = 44.0 }
+	}
+	if = {
+		limit = {
+			development = 89
+			NOT = { development = 90 }
+		}
+		ROOT = { add_manpower = 44.5 }
+	}
+	if = {
+		limit = {
+			development = 90
+			NOT = { development = 91 }
+		}
+		ROOT = { add_manpower = 45.0 }
+	}
+	if = {
+		limit = {
+			development = 91
+			NOT = { development = 92 }
+		}
+		ROOT = { add_manpower = 45.5 }
+	}
+	if = {
+		limit = {
+			development = 92
+			NOT = { development = 93 }
+		}
+		ROOT = { add_manpower = 46.0 }
+	}
+	if = {
+		limit = {
+			development = 93
+			NOT = { development = 94 }
+		}
+		ROOT = { add_manpower = 46.5 }
+	}
+	if = {
+		limit = {
+			development = 94
+			NOT = { development = 95 }
+		}
+		ROOT = { add_manpower = 47.0 }
+	}
+	if = {
+		limit = {
+			development = 95
+			NOT = { development = 96 }
+		}
+		ROOT = { add_manpower = 47.5 }
+	}
+	if = {
+		limit = {
+			development = 96
+			NOT = { development = 97 }
+		}
+		ROOT = { add_manpower = 48.0 }
+	}
+	if = {
+		limit = {
+			development = 97
+			NOT = { development = 98 }
+		}
+		ROOT = { add_manpower = 48.5 }
+	}
+	if = {
+		limit = {
+			development = 98
+			NOT = { development = 99 }
+		}
+		ROOT = { add_manpower = 49.0 }
+	}
+	if = {
+		limit = {
+			development = 99
+			NOT = { development = 100 }
+		}
+		ROOT = { add_manpower = 49.5 }
+	}
+	if = {
+		limit = {
+			development = 100
+			NOT = { development = 101 }
+		}
+		ROOT = { add_manpower = 50.0 }
+	}
+	if = {
+		limit = {
+			development = 101
+			NOT = { development = 102 }
+		}
+		ROOT = { add_manpower = 50.5 }
+	}
+	if = {
+		limit = {
+			development = 102
+			NOT = { development = 103 }
+		}
+		ROOT = { add_manpower = 51.0 }
+	}
+	if = {
+		limit = {
+			development = 103
+			NOT = { development = 104 }
+		}
+		ROOT = { add_manpower = 51.5 }
+	}
+	if = {
+		limit = {
+			development = 104
+			NOT = { development = 105 }
+		}
+		ROOT = { add_manpower = 52.0 }
+	}
+	if = {
+		limit = {
+			development = 105
+			NOT = { development = 106 }
+		}
+		ROOT = { add_manpower = 52.5 }
+	}
+	if = {
+		limit = {
+			development = 106
+			NOT = { development = 107 }
+		}
+		ROOT = { add_manpower = 53.0 }
+	}
+	if = {
+		limit = {
+			development = 107
+			NOT = { development = 108 }
+		}
+		ROOT = { add_manpower = 53.5 }
+	}
+	if = {
+		limit = {
+			development = 108
+			NOT = { development = 109 }
+		}
+		ROOT = { add_manpower = 54.0 }
+	}
+	if = {
+		limit = {
+			development = 109
+			NOT = { development = 110 }
+		}
+		ROOT = { add_manpower = 54.5 }
+	}
+	if = {
+		limit = {
+			development = 110
+			NOT = { development = 111 }
+		}
+		ROOT = { add_manpower = 55.0 }
+	}
+	if = {
+		limit = {
+			development = 111
+			NOT = { development = 112 }
+		}
+		ROOT = { add_manpower = 55.5 }
+	}
+	if = {
+		limit = {
+			development = 112
+			NOT = { development = 113 }
+		}
+		ROOT = { add_manpower = 56.0 }
+	}
+	if = {
+		limit = {
+			development = 113
+			NOT = { development = 114 }
+		}
+		ROOT = { add_manpower = 56.5 }
+	}
+	if = {
+		limit = {
+			development = 114
+			NOT = { development = 115 }
+		}
+		ROOT = { add_manpower = 57.0 }
+	}
+	if = {
+		limit = {
+			development = 115
+			NOT = { development = 116 }
+		}
+		ROOT = { add_manpower = 57.5 }
+	}
+	if = {
+		limit = {
+			development = 116
+			NOT = { development = 117 }
+		}
+		ROOT = { add_manpower = 58.0 }
+	}
+	if = {
+		limit = {
+			development = 117
+			NOT = { development = 118 }
+		}
+		ROOT = { add_manpower = 58.5 }
+	}
+	if = {
+		limit = {
+			development = 118
+			NOT = { development = 119 }
+		}
+		ROOT = { add_manpower = 59.0 }
+	}
+	if = {
+		limit = {
+			development = 119
+			NOT = { development = 120 }
+		}
+		ROOT = { add_manpower = 59.5 }
+	}
+	if = {
+		limit = {
+			development = 120
+			NOT = { development = 121 }
+		}
+		ROOT = { add_manpower = 60.0 }
+	}
+	if = {
+		limit = {
+			development = 121
+			NOT = { development = 122 }
+		}
+		ROOT = { add_manpower = 60.5 }
+	}
+	if = {
+		limit = {
+			development = 122
+			NOT = { development = 123 }
+		}
+		ROOT = { add_manpower = 61.0 }
+	}
+	if = {
+		limit = {
+			development = 123
+			NOT = { development = 124 }
+		}
+		ROOT = { add_manpower = 61.5 }
+	}
+	if = {
+		limit = {
+			development = 124
+			NOT = { development = 125 }
+		}
+		ROOT = { add_manpower = 62.0 }
+	}
+	if = {
+		limit = {
+			development = 125
+			NOT = { development = 126 }
+		}
+		ROOT = { add_manpower = 62.5 }
+	}
+	if = {
+		limit = {
+			development = 126
+			NOT = { development = 127 }
+		}
+		ROOT = { add_manpower = 63.0 }
+	}
+	if = {
+		limit = {
+			development = 127
+			NOT = { development = 128 }
+		}
+		ROOT = { add_manpower = 63.5 }
+	}
+	if = {
+		limit = {
+			development = 128
+			NOT = { development = 129 }
+		}
+		ROOT = { add_manpower = 64.0 }
+	}
+	if = {
+		limit = {
+			development = 129
+			NOT = { development = 130 }
+		}
+		ROOT = { add_manpower = 64.5 }
+	}
+	if = {
+		limit = {
+			development = 130
+			NOT = { development = 131 }
+		}
+		ROOT = { add_manpower = 65.0 }
+	}
+	if = {
+		limit = {
+			development = 131
+			NOT = { development = 132 }
+		}
+		ROOT = { add_manpower = 65.5 }
+	}
+	if = {
+		limit = {
+			development = 132
+			NOT = { development = 133 }
+		}
+		ROOT = { add_manpower = 66.0 }
+	}
+	if = {
+		limit = {
+			development = 133
+			NOT = { development = 134 }
+		}
+		ROOT = { add_manpower = 66.5 }
+	}
+	if = {
+		limit = {
+			development = 134
+			NOT = { development = 135 }
+		}
+		ROOT = { add_manpower = 67.0 }
+	}
+	if = {
+		limit = {
+			development = 135
+			NOT = { development = 136 }
+		}
+		ROOT = { add_manpower = 67.5 }
+	}
+	if = {
+		limit = {
+			development = 136
+			NOT = { development = 137 }
+		}
+		ROOT = { add_manpower = 68.0 }
+	}
+	if = {
+		limit = {
+			development = 137
+			NOT = { development = 138 }
+		}
+		ROOT = { add_manpower = 68.5 }
+	}
+	if = {
+		limit = {
+			development = 138
+			NOT = { development = 139 }
+		}
+		ROOT = { add_manpower = 69.0 }
+	}
+	if = {
+		limit = {
+			development = 139
+			NOT = { development = 140 }
+		}
+		ROOT = { add_manpower = 69.5 }
+	}
+	if = {
+		limit = {
+			development = 140
+			NOT = { development = 141 }
+		}
+		ROOT = { add_manpower = 70.0 }
+	}
+	if = {
+		limit = {
+			development = 141
+			NOT = { development = 142 }
+		}
+		ROOT = { add_manpower = 70.5 }
+	}
+	if = {
+		limit = {
+			development = 142
+			NOT = { development = 143 }
+		}
+		ROOT = { add_manpower = 71.0 }
+	}
+	if = {
+		limit = {
+			development = 143
+			NOT = { development = 144 }
+		}
+		ROOT = { add_manpower = 71.5 }
+	}
+	if = {
+		limit = {
+			development = 144
+			NOT = { development = 145 }
+		}
+		ROOT = { add_manpower = 72.0 }
+	}
+	if = {
+		limit = {
+			development = 145
+			NOT = { development = 146 }
+		}
+		ROOT = { add_manpower = 72.5 }
+	}
+	if = {
+		limit = {
+			development = 146
+			NOT = { development = 147 }
+		}
+		ROOT = { add_manpower = 73.0 }
+	}
+	if = {
+		limit = {
+			development = 147
+			NOT = { development = 148 }
+		}
+		ROOT = { add_manpower = 73.5 }
+	}
+	if = {
+		limit = {
+			development = 148
+			NOT = { development = 149 }
+		}
+		ROOT = { add_manpower = 74.0 }
+	}
+	if = {
+		limit = {
+			development = 149
+			NOT = { development = 150 }
+		}
+		ROOT = { add_manpower = 74.5 }
+	}
+	if = {
+		limit = {
+			development = 150
+			NOT = { development = 151 }
+		}
+		ROOT = { add_manpower = 75.0 }
+	}
+	if = {
+		limit = {
+			development = 151
+			NOT = { development = 152 }
+		}
+		ROOT = { add_manpower = 75.5 }
+	}
+	if = {
+		limit = {
+			development = 152
+			NOT = { development = 153 }
+		}
+		ROOT = { add_manpower = 76.0 }
+	}
+	if = {
+		limit = {
+			development = 153
+			NOT = { development = 154 }
+		}
+		ROOT = { add_manpower = 76.5 }
+	}
+	if = {
+		limit = {
+			development = 154
+			NOT = { development = 155 }
+		}
+		ROOT = { add_manpower = 77.0 }
+	}
+	if = {
+		limit = {
+			development = 155
+			NOT = { development = 156 }
+		}
+		ROOT = { add_manpower = 77.5 }
+	}
+	if = {
+		limit = {
+			development = 156
+			NOT = { development = 157 }
+		}
+		ROOT = { add_manpower = 78.0 }
+	}
+	if = {
+		limit = {
+			development = 157
+			NOT = { development = 158 }
+		}
+		ROOT = { add_manpower = 78.5 }
+	}
+	if = {
+		limit = {
+			development = 158
+			NOT = { development = 159 }
+		}
+		ROOT = { add_manpower = 79.0 }
+	}
+	if = {
+		limit = {
+			development = 159
+			NOT = { development = 160 }
+		}
+		ROOT = { add_manpower = 79.5 }
+	}
+	if = {
+		limit = {
+			development = 160
+			NOT = { development = 161 }
+		}
+		ROOT = { add_manpower = 80.0 }
+	}
+	if = {
+		limit = {
+			development = 161
+			NOT = { development = 162 }
+		}
+		ROOT = { add_manpower = 80.5 }
+	}
+	if = {
+		limit = {
+			development = 162
+			NOT = { development = 163 }
+		}
+		ROOT = { add_manpower = 81.0 }
+	}
+	if = {
+		limit = {
+			development = 163
+			NOT = { development = 164 }
+		}
+		ROOT = { add_manpower = 81.5 }
+	}
+	if = {
+		limit = {
+			development = 164
+			NOT = { development = 165 }
+		}
+		ROOT = { add_manpower = 82.0 }
+	}
+	if = {
+		limit = {
+			development = 165
+			NOT = { development = 166 }
+		}
+		ROOT = { add_manpower = 82.5 }
+	}
+	if = {
+		limit = {
+			development = 166
+			NOT = { development = 167 }
+		}
+		ROOT = { add_manpower = 83.0 }
+	}
+	if = {
+		limit = {
+			development = 167
+			NOT = { development = 168 }
+		}
+		ROOT = { add_manpower = 83.5 }
+	}
+	if = {
+		limit = {
+			development = 168
+			NOT = { development = 169 }
+		}
+		ROOT = { add_manpower = 84.0 }
+	}
+	if = {
+		limit = {
+			development = 169
+			NOT = { development = 170 }
+		}
+		ROOT = { add_manpower = 84.5 }
+	}
+	if = {
+		limit = {
+			development = 170
+			NOT = { development = 171 }
+		}
+		ROOT = { add_manpower = 85.0 }
+	}
+	if = {
+		limit = {
+			development = 171
+			NOT = { development = 172 }
+		}
+		ROOT = { add_manpower = 85.5 }
+	}
+	if = {
+		limit = {
+			development = 172
+			NOT = { development = 173 }
+		}
+		ROOT = { add_manpower = 86.0 }
+	}
+	if = {
+		limit = {
+			development = 173
+			NOT = { development = 174 }
+		}
+		ROOT = { add_manpower = 86.5 }
+	}
+	if = {
+		limit = {
+			development = 174
+			NOT = { development = 175 }
+		}
+		ROOT = { add_manpower = 87.0 }
+	}
+	if = {
+		limit = {
+			development = 175
+			NOT = { development = 176 }
+		}
+		ROOT = { add_manpower = 87.5 }
+	}
+	if = {
+		limit = {
+			development = 176
+			NOT = { development = 177 }
+		}
+		ROOT = { add_manpower = 88.0 }
+	}
+	if = {
+		limit = {
+			development = 177
+			NOT = { development = 178 }
+		}
+		ROOT = { add_manpower = 88.5 }
+	}
+	if = {
+		limit = {
+			development = 178
+			NOT = { development = 179 }
+		}
+		ROOT = { add_manpower = 89.0 }
+	}
+	if = {
+		limit = {
+			development = 179
+			NOT = { development = 180 }
+		}
+		ROOT = { add_manpower = 89.5 }
+	}
+	if = {
+		limit = {
+			development = 180
+			NOT = { development = 181 }
+		}
+		ROOT = { add_manpower = 90.0 }
+	}
+	if = {
+		limit = {
+			development = 181
+			NOT = { development = 182 }
+		}
+		ROOT = { add_manpower = 90.5 }
+	}
+	if = {
+		limit = {
+			development = 182
+			NOT = { development = 183 }
+		}
+		ROOT = { add_manpower = 91.0 }
+	}
+	if = {
+		limit = {
+			development = 183
+			NOT = { development = 184 }
+		}
+		ROOT = { add_manpower = 91.5 }
+	}
+	if = {
+		limit = {
+			development = 184
+			NOT = { development = 185 }
+		}
+		ROOT = { add_manpower = 92.0 }
+	}
+	if = {
+		limit = {
+			development = 185
+			NOT = { development = 186 }
+		}
+		ROOT = { add_manpower = 92.5 }
+	}
+	if = {
+		limit = {
+			development = 186
+			NOT = { development = 187 }
+		}
+		ROOT = { add_manpower = 93.0 }
+	}
+	if = {
+		limit = {
+			development = 187
+			NOT = { development = 188 }
+		}
+		ROOT = { add_manpower = 93.5 }
+	}
+	if = {
+		limit = {
+			development = 188
+			NOT = { development = 189 }
+		}
+		ROOT = { add_manpower = 94.0 }
+	}
+	if = {
+		limit = {
+			development = 189
+			NOT = { development = 190 }
+		}
+		ROOT = { add_manpower = 94.5 }
+	}
+	if = {
+		limit = {
+			development = 190
+			NOT = { development = 191 }
+		}
+		ROOT = { add_manpower = 95.0 }
+	}
+	if = {
+		limit = {
+			development = 191
+			NOT = { development = 192 }
+		}
+		ROOT = { add_manpower = 95.5 }
+	}
+	if = {
+		limit = {
+			development = 192
+			NOT = { development = 193 }
+		}
+		ROOT = { add_manpower = 96.0 }
+	}
+	if = {
+		limit = {
+			development = 193
+			NOT = { development = 194 }
+		}
+		ROOT = { add_manpower = 96.5 }
+	}
+	if = {
+		limit = {
+			development = 194
+			NOT = { development = 195 }
+		}
+		ROOT = { add_manpower = 97.0 }
+	}
+	if = {
+		limit = {
+			development = 195
+			NOT = { development = 196 }
+		}
+		ROOT = { add_manpower = 97.5 }
+	}
+	if = {
+		limit = {
+			development = 196
+			NOT = { development = 197 }
+		}
+		ROOT = { add_manpower = 98.0 }
+	}
+	if = {
+		limit = {
+			development = 197
+			NOT = { development = 198 }
+		}
+		ROOT = { add_manpower = 98.5 }
+	}
+	if = {
+		limit = {
+			development = 198
+			NOT = { development = 199 }
+		}
+		ROOT = { add_manpower = 99.0 }
+	}
+	if = {
+		limit = {
+			development = 199
+			NOT = { development = 200 }
+		}
+		ROOT = { add_manpower = 99.5 }
+	}
+	if = {
+		limit = {
+			development = 200
+		}
+		ROOT = { add_manpower = 100.0 }
+	}
+}

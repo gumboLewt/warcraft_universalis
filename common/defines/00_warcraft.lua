@@ -6,6 +6,8 @@ NDefines.NGame.START_DATE = "546.1.1"
 NDefines.NGame.END_DATE = "100000.1.1"
 NDefines.NGame.MAX_RANDOM_NEW_WORLD = "100000.1.1"
 
+
+
 NDefines.NReligion.ASPECT_ADD_COST = 100
 NDefines.NReligion.ASPECT_REMOVE_COST = 0
 NDefines.NReligion.MAX_UNLOCKED_ASPECTS = 3
@@ -60,7 +62,7 @@ NDefines.NCountry.MAX_CROWN_COLONIES = 999
 
 NDefines.NDiplomacy.TRUCE_YEARS = 2     -- Flat 2 years
 NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 0
-
+NDefines.NDiplomacy.DAYS_TO_DECLARE_WAR = 0
 -- NDefines.NCountry.OVEREXTENSION_FACTOR = 0.1 -- 
 
 NDefines.NCountry.PS_MAKE_PROVINCE_CORE = 8     -- 80% of normal
