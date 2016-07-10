@@ -253,7 +253,7 @@ religion_group_the_light = {
 		heretic = { }
 	}
 	
-		religion_light_of_the_sunwell = {
+    religion_light_of_the_sunwell = {
 		color = { 255 255 61 }
 		icon = 32
 		

@@ -27,4 +27,123 @@ country_decisions = {
         }
     }
     
+    enact_blood_sacrifice = {
+        major = yes
+        potential = {
+            religion = religion_hakkari
+            NOT = { has_country_modifier = blood_sacrifice_hakkari }
+        }
+        allow = {
+            religion = religion_hakkari
+            stability = 1
+        }
+        effect = {
+            add_stability = -1
+            add_country_modifier = {
+                name = blood_sacrifice_hakkari
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    encourage_fervor = {
+        major = yes
+        potential = {
+            OR = {
+                religion = religion_scarlet_light
+                religion = religion_argent_light
+            }
+            NOT = { has_country_modifier = the_light_fervor }
+        }
+        allow = {
+            OR = {
+                religion = religion_scarlet_light
+                religion = religion_argent_light
+            }
+            stability = 1
+        }
+        effect = {
+            add_stability = -1
+            add_country_modifier = {
+                name = the_light_fervor
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    enforce_daily_contemplation = {
+        major = yes
+        potential = {
+            OR = {
+                religion = religion_church_of_the_light
+                religion = religion_light_of_the_naaru
+            }
+            NOT = { has_country_modifier = the_light_contemplation }
+        }
+        allow = {
+            OR = {
+                religion = religion_church_of_the_light
+                religion = religion_light_of_the_naaru
+            }
+            stability = 1
+        }
+        effect = {
+            add_stability = -1
+            add_country_modifier = {
+                name = the_light_contemplation
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    display_the_power_of_the_sunwell = {
+        major = yes
+        potential = {
+            religion = religion_light_of_the_sunwell
+            NOT = { has_country_modifier = the_light_sunwell }
+        }
+        allow = {
+            religion = religion_light_of_the_sunwell
+            stability = 1
+        }
+        effect = {
+            add_stability = -1
+            add_country_modifier = {
+                name = the_light_sunwell
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
 }
