@@ -18,7 +18,7 @@ darkshire_ideas = {
 	trigger = {
 		tag = A03
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
     # The Night Watch
 	darkshire_ideas_1 = {
@@ -56,3 +56,45 @@ darkshire_ideas = {
 		ae_impact = -0.1
 	}
 }
+
+forsaken_ideas = {
+	start = {
+		culture_conversion_cost = -0.2
+		artillery_power = 0.1
+	}
+
+	bonus = {
+		global_tax_modifier = 0.1
+	}
+	
+	trigger = {
+		OR = {
+			tag = E14 # Forsaken
+			tag = A96 # Hand of Vengence
+		}
+	}
+	free = yes		
+	
+	no_need_to_eat = {
+		land_maintenance_modifier = -0.20
+	}
+	azerothian_ideas_2 = {
+		global_manpower_modifier = 0.1
+	}
+	compromise_to_survive = {
+		diplomats = 1
+	}
+	thirst_for_vengence = {
+		land_morale = 0.05
+	}
+	raise_ships_from_the_sea = {
+		global_ship_recruit_speed = -0.1
+	}
+	the_plague = {
+		siege_ability = 0.05
+	}
+	inhospitable_land = {
+		hostile_attrition = 0.5
+	}
+}
+
