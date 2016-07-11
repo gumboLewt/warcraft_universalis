@@ -337,7 +337,7 @@ kul_tiran_ideas = {
 	}
 }
 
-Darnassian_ideas = {
+darnassian_ideas = {
 	start = {
 		army_tradition = 0.5
         global_manpower_modifier = -0.15
