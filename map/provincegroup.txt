@@ -3,6 +3,22 @@
 #	1 2 3
 #}
 
+blackrock_spawn = {
+    1050 630 884 707 2180 994 2156 2187 2179 2155 2191
+}
+
+bleeding_hollow_spawn = {
+    2171 814 869 836 853 2181 864 725 2176 938 2182 2161 921 2162
+}
+
+twilights_hammer_spawn = {
+    1033 807 1043 553 1042 2174
+}
+
+shadow_council_spawn = {
+    1035 1045 1034
+}
+
 north_kalimdor_provincegroup = {
     1325 1326 1324 2135 2136 # Moonglade
     1296 1295 1297 1298 1299 1300 1301 1302 1303 1304 2251 2252 2253 2254 2255 2256 # Darkshore

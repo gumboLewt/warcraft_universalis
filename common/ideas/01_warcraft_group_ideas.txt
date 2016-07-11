@@ -17,7 +17,7 @@ azerothian_ideas = {
 			primary_culture = culture_azerothian_worgen
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	azerothian_ideas_1 = {
 		global_tax_modifier = 0.1
@@ -57,7 +57,7 @@ depths_ideas = {
 	trigger = {
 		culture_group = culture_group_depths
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	depths_ideas_1 = {
 		global_tax_modifier = 0.05
@@ -98,7 +98,7 @@ gilnean_ideas = {
 			primary_culture = culture_gilnean_worgen
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	gilnean_ideas_1 = {
 		prestige = 1
@@ -140,7 +140,7 @@ arathi_ideas = {
 			primary_culture = culture_arathi_worgen
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	arathi_ideas_1 = {
 		discipline = 0.05
@@ -181,7 +181,7 @@ lordaeron_ideas = {
 			primary_culture = culture_lordaeron_worgen
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	#Alliance of Lordaeron
 	lordaeron_ideas_1 = {
@@ -230,7 +230,7 @@ alterac_ideas = {
 			primary_culture = culture_alterac_worgen
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	alterac_ideas_1 = {
 		trade_efficiency = 0.1
@@ -271,7 +271,7 @@ dalaran_ideas = {
 			primary_culture = culture_dalaran_worgen
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	dalaran_ideas_1 = {
 		rebel_support_efficiency = 0.50
@@ -312,7 +312,7 @@ kul_tiran_ideas = {
 			primary_culture = culture_kul_tiran_worgen
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	kul_tiran_ideas_1 = {
 		naval_morale = 0.10
@@ -339,11 +339,13 @@ kul_tiran_ideas = {
 
 darnassian_ideas = {
 	start = {
-		
+		army_tradition = 0.5
+        global_manpower_modifier = -0.15
+        global_sailors_modifier = -0.15
 	}
 
 	bonus = {
-		
+		tolerance_heretic = 2
 	}
 	
 	trigger = {
@@ -352,28 +354,36 @@ darnassian_ideas = {
 			primary_culture = culture_cenarion
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	 
+    # Nature's Blessing
 	darnassian_ideas_1 = {
-	
+        infantry_power = 0.10
 	}
+    # Ashenvale Lumber
 	darnassian_ideas_2 = {
-	
+        global_ship_cost = -0.1
+        heavy_ship_power = 0.10
 	}
+    # Verdant Growth
 	darnassian_ideas_3 = {
-	
+        global_trade_goods_size_modifier = 0.10
 	}
+    # Patient Hunters
 	darnassian_ideas_4 = {
-	
+        leader_land_fire = 1
 	}
+    # Might of Darnassus
 	darnassian_ideas_5 = {
-	
+        discipline = 0.075
 	}
+    # Venerable Commanders
 	darnassian_ideas_6 = {
-	
+        land_morale = 0.10
 	}
+    # Power of the Ancients
 	darnassian_ideas_7 = {
-	
+        cavalry_power = 0.10
 	}
 }
 
@@ -389,7 +399,7 @@ highbourne_ideas = {
 	trigger = {
 		primary_culture = culture_highbourne
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	highbourne_ideas_1 = {
 	
@@ -426,7 +436,7 @@ vrykul_ideas = {
 	trigger = {
 		culture_group = culture_group_vrykul
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	vrykul_ideas_1 = {
 	
@@ -463,7 +473,7 @@ redeemed_orc_ideas = {
 	trigger = {
 		has_country_flag = free_from_legion_influence
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	redeemed_orc_ideas_1 = {
 	
@@ -515,7 +525,7 @@ outland_orc_ideas = {
 			primary_culture = culture_blackrock
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	outland_orc_ideas_1 = {
 		global_manpower_modifier = 0.2
@@ -552,7 +562,7 @@ the_horde_ideas = {
 	trigger = {
 		primary_culture = culture_horde
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	the_horde_ideas_1 = {
 	
@@ -589,7 +599,7 @@ ogre_ideas = {
 	trigger = {
 		culture_group = culture_group_ogre
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	ogre_ideas_1 = {
 	
@@ -626,7 +636,7 @@ draenei_ideas = {
 	trigger = {
 		culture_group = culture_group_draenei
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	draenei_ideas_1 = {
 	
@@ -664,7 +674,7 @@ forest_troll_ideas = {
 	trigger = {
 		culture_group = culture_group_forest_troll
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	forest_troll_berserkers = { 
 		infantry_power = 0.1
@@ -707,7 +717,7 @@ jungle_troll_ideas = {
 	trigger = {
 		culture_group = culture_group_jungle_troll
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	#Jungle Warfare
 	jungle_troll_ideas_1 = {
@@ -751,7 +761,7 @@ sand_troll_ideas = {
 	trigger = {
 		culture_group = culture_group_sand_troll
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	sand_troll_ideas_1 = {
 	
@@ -789,7 +799,7 @@ ice_troll_ideas = {
 	trigger = {
 		culture_group = culture_group_ice_troll
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	ice_troll_ideas_1 = {
 	
@@ -826,7 +836,7 @@ zandalar_troll_ideas = {
 	trigger = {
 		culture_group = culture_group_zandalar_troll
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	zandalar_troll_ideas_1 = {
 	
@@ -863,7 +873,7 @@ dark_troll_ideas = {
 	trigger = {
 		culture_group = culture_group_dark_troll
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	dark_troll_ideas_1 = {
 	
@@ -900,7 +910,7 @@ goblin_ideas = {
 	trigger = {
 		culture_group = culture_group_goblin
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	goblin_ideas_1 = {
 	
@@ -937,7 +947,7 @@ tauren_ideas = {
 	trigger = {
 		culture_group = culture_group_tauren
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	tauren_ideas_1 = {
         production_efficiency = 0.1
@@ -975,7 +985,7 @@ thalassian_ideas = {
 	trigger = {
 		culture_group = culture_group_thalassian
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	thalassian_ideas_1 = {
 		development_cost = -0.1
@@ -1013,7 +1023,7 @@ aqir_ideas = {
 	trigger = {
 		culture_group = culture_group_aqir
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	aqir_ideas_1 = {
 	
@@ -1050,7 +1060,7 @@ demonic_ideas = {
 	trigger = {
 		culture_group = culture_group_demonic
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	demonic_ideas_1 = {
 	
@@ -1088,7 +1098,7 @@ satyr_ideas = {
 	trigger = {
 		culture_group = culture_group_satyr
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	satyr_ideas_1 = {
 		culture_conversion_cost = -0.25
@@ -1127,7 +1137,7 @@ naga_ideas = {
 	trigger = {
 		culture_group = culture_group_naga
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	naga_ideas_1 = {
 	
@@ -1165,7 +1175,7 @@ scourge_ideas = {
 		primary_culture = culture_scourge
 		#culture_group = culture_group_scourge   #umm...not culture_group_undead ?
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	scourge_ideas_1 = {
 		diplomats = 1
@@ -1204,7 +1214,7 @@ dragonkin_ideas = {
 	trigger = {
 		culture_group = culture_group_dragonkin
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
     # Ancient Wisdom
 	dragonkin_ideas_1 = {
@@ -1244,38 +1254,50 @@ dragonkin_ideas = {
 
 undead_ideas = {
 	start = {
-		
+		land_maintenance_modifier = -0.25
+        infantry_power = -0.25
 	}
 
 	bonus = {
-		
+		years_of_nationalism = -10
 	}
 	
 	trigger = {
 		culture_group = culture_group_undead
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
+    # The Quick and the Dead
 	undead_ideas_1 = {
-	
+        global_missionary_strength = 0.03
 	}
+    # Carrion Foodstuff
 	undead_ideas_2 = {
-	
+        land_forcelimit_modifier = 0.25
 	}
+    # Unthinking Force
 	undead_ideas_3 = {
-	
+        land_morale = 0.2
 	}
+    # Mechanisations of a Lich
 	undead_ideas_4 = {
-	
+        reinforce_speed =0.25
+        recover_army_morale_speed =0.1
 	}
+    # Plague of Undeath
 	undead_ideas_5 = {
-	
+        global_manpower_modifier = 0.15
+        manpower_recovery_speed = 0.2
 	}
+    # Undead Cavalry
 	undead_ideas_6 = {
-	
+        cavalry_power = 0.2
+        cavalry_cost = 0.25
 	}
+    # All's Fair in Death and War
 	undead_ideas_7 = {
-	
+        culture_conversion_cost = -0.5
+        accepted_culture_threshold = 0.5
 	}
 }
 
@@ -1292,7 +1314,7 @@ gnoll_ideas = {
 	trigger = {
 		culture_group = culture_group_gnoll
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	#Brawlers
 	gnoll_ideas_1 = {
@@ -1338,7 +1360,7 @@ centaur_ideas = {
 	trigger = {
 		culture_group = culture_group_centaur
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	centaur_ideas_1 = {
 		infantry_cost = -0.2
@@ -1375,7 +1397,7 @@ furbolg_ideas = {
 	trigger = {
 		culture_group = culture_group_furbolg
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	furbolg_ideas_1 = {
 	
@@ -1412,7 +1434,7 @@ wolfvar_ideas = {
 	trigger = {
 		culture_group = culture_group_wolfvar
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	wolfvar_ideas_1 = {
 	
@@ -1449,7 +1471,7 @@ gorloc_ideas = {
 	trigger = {
 		culture_group = culture_group_gorloc
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	gorloc_ideas_1 = {
 	
@@ -1486,7 +1508,7 @@ kobold_ideas = {
 	trigger = {
 		culture_group = culture_group_kobold
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	kobold_ideas_1 = {
 	
@@ -1523,7 +1545,7 @@ harpy_ideas = {
 	trigger = {
 		culture_group = culture_group_harpy
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	#Egg Clutches
 	harpy_ideas_1 = {
@@ -1567,7 +1589,7 @@ quillboar_ideas = {
 	trigger = {
 		culture_group = culture_group_quillboar
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	quillboar_ideas_1 = {
 	
@@ -1609,7 +1631,7 @@ titan_ideas = {
 			primary_culture = culture_grummle
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	titan_ideas_1 = {
 	
@@ -1694,7 +1716,7 @@ dwarven_ideas = {
 			primary_culture = culture_frostborn
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	dwarven_ideas_1 = {
 		discipline = 0.05
@@ -1732,7 +1754,7 @@ fire_ideas = {
 	trigger = {
 		primary_culture = culture_fire
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	fire_ideas_1 = {
 	
@@ -1769,7 +1791,7 @@ earth_ideas = {
 	trigger = {
 		primary_culture = culture_earth
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	earth_ideas_1 = {
 	
@@ -1806,7 +1828,7 @@ air_ideas = {
 	trigger = {
 		primary_culture = culture_air
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	air_ideas_1 = {
 	
@@ -1843,7 +1865,7 @@ water_ideas = {
 	trigger = {
 		primary_culture = culture_water
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	water_ideas_1 = {
 	
@@ -1887,7 +1909,7 @@ magical_creatures_ideas = {
 			primary_culture = culture_construct
 		}
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	magical_creatures_ideas_1 = {
 	
@@ -1924,7 +1946,7 @@ worgen_ideas = {
 	trigger = {
 		culture_group = culture_group_worgen
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	worgen_ideas_1 = {
 		recover_army_morale_speed = 0.05
@@ -1961,7 +1983,7 @@ arrakoa_ideas = {
 	trigger = {
 		culture_group = culture_group_arrakoa
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	arrakoa_ideas_1 = {
 	
@@ -1998,7 +2020,7 @@ tuskarr_ideas = {
 	trigger = {
 		culture_group = culture_group_tuskarr
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	tuskarr_ideas_1 = {
 	
@@ -2035,7 +2057,7 @@ pandaren_ideas = {
 	trigger = {
 		culture_group = culture_group_pandaren
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	pandaren_ideas_1 = {
 	
@@ -2072,7 +2094,7 @@ mantid_ideas = {
 	trigger = {
 		culture_group = culture_group_mantid
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	mantid_ideas_1 = {
 	
@@ -2109,7 +2131,7 @@ mogu_ideas = {
 	trigger = {
 		culture_group = culture_group_mogu
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	mogu_ideas_1 = {
 	
@@ -2146,7 +2168,7 @@ yaungol_ideas = {
 	trigger = {
 		culture_group = culture_group_yaungol
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	yaungol_ideas_1 = {
 	
@@ -2183,7 +2205,7 @@ ethereal_ideas = {
 	trigger = {
 		culture_group = culture_group_ethereal
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	ethereal_ideas_1 = {
 	
@@ -2210,38 +2232,48 @@ ethereal_ideas = {
 
 gnomish_ideas = {
 	start = {
-		
+		technology_cost = -0.10
+        idea_cost = -0.10
+        leader_land_shock = -1
 	}
 
 	bonus = {
-		
+		production_efficiency = 0.25
 	}
 	
 	trigger = {
 		culture_group = culture_group_gnomish
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
+    # Inventive Minds
 	gnomish_ideas_1 = {
-	
+        development_cost = -0.1
 	}
+    # A Gnome's Welcome
 	gnomish_ideas_2 = {
-	
+        tolerance_heretic = 2
 	}
+    # War Machines
 	gnomish_ideas_3 = {
-	
+        siege_ability = 0.1
 	}
+    # Fizz and Bang
 	gnomish_ideas_4 = {
-	
+        artillery_cost = -0.2
+        artillery_power =0.1
 	}
+    # Explosive Experiences
 	gnomish_ideas_5 = {
-	
+        leader_land_fire = 2
 	}
+    # Technological Secrets
 	gnomish_ideas_6 = {
-	
+        global_trade_goods_size_modifier = 0.10
 	}
+    # The Power of Tech
 	gnomish_ideas_7 = {
-	
+        hostile_attrition = 1
 	}
 }
 
@@ -2257,7 +2289,7 @@ hozen_ideas = {
 	trigger = {
 		culture_group = culture_group_hozen
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	hozen_ideas_1 = {
 	
@@ -2294,7 +2326,7 @@ saurok_ideas = {
 	trigger = {
 		culture_group = culture_group_saurok
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	saurok_ideas_1 = {
 	
@@ -2331,7 +2363,7 @@ giant_ideas = {
 	trigger = {
 		culture_group = culture_group_giant
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	giant_ideas_1 = {
 	
@@ -2368,7 +2400,7 @@ taunka_ideas = {
 	trigger = {
 		culture_group = culture_group_taunka
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	taunka_ideas_1 = {
 	
@@ -2405,7 +2437,7 @@ dryad_ideas = {
 	trigger = {
 		culture_group = culture_group_dryad
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	dryad_ideas_1 = {
 	
@@ -2442,7 +2474,7 @@ virmen_ideas = {
 	trigger = {
 		culture_group = culture_group_virmen
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	virmen_ideas_1 = {
 	
@@ -2479,7 +2511,7 @@ wildkin_ideas = {
 	trigger = {
 		culture_group = culture_group_wildkin
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	wildkin_ideas_1 = {
 	
@@ -2516,7 +2548,7 @@ void_ideas = {
 	trigger = {
 		culture_group = culture_group_void
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	void_ideas_1 = {
 	
@@ -2553,7 +2585,7 @@ flayer_ideas = {
 	trigger = {
 		culture_group = culture_group_flayer
 	}
-	free = yes		#wibe added at load.
+	free = yes		
 	
 	flayer_ideas_1 = {
 	

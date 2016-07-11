@@ -1,0 +1,470 @@
+#-----------------------------------
+# AI Direction
+#-----------------------------------
+conquer_duskwood = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        # Only allow warmonger races to use these
+        is_savage = yes
+		region_duskwood = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_duskwood = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 1000
+        
+        modifier = {
+			factor = 10
+			OR = {
+                tag = A41
+                tag = A40
+                tag = A43
+            }
+		}
+        
+        # Disallow if they own no provinces on the continent
+		modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    superregion = eastern_kingdom_superregion
+                }
+            }
+		}
+        
+        modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    province_group = azeroth_provincegroup
+                }
+            }
+		}
+
+	}
+	immediate = {
+		region_duskwood = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_duskwood = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_deadwind_pass = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        # Only allow warmonger races to use these
+        is_savage = yes
+		region_deadwind_pass = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_deadwind_pass = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 1000
+        
+        modifier = {
+			factor = 10
+			OR = {
+                tag = A41
+                tag = A40
+                tag = A43
+            }
+		}
+        
+        # Disallow if they own no provinces on the continent
+		modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    superregion = eastern_kingdom_superregion
+                }
+            }
+		}
+        
+        modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    province_group = azeroth_provincegroup
+                }
+            }
+		}
+
+	}
+	immediate = {
+		region_deadwind_pass = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_deadwind_pass = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_westfall = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        # Only allow warmonger races to use these
+        is_savage = yes
+		region_westfall = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_westfall = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 1000
+        
+        modifier = {
+			factor = 10
+			OR = {
+                tag = A41
+                tag = A40
+                tag = A43
+            }
+		}
+        
+        # Disallow if they own no provinces on the continent
+		modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    superregion = eastern_kingdom_superregion
+                }
+            }
+		}
+        
+        modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    province_group = azeroth_provincegroup
+                }
+            }
+		}
+
+	}
+	immediate = {
+		region_westfall = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_westfall = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_elwynn_forest = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        # Only allow warmonger races to use these
+        is_savage = yes
+		region_elwynn_forest = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_elwynn_forest = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 1000
+        
+        modifier = {
+			factor = 10
+			OR = {
+                tag = A41
+                tag = A40
+                tag = A43
+            }
+		}
+        
+        # Disallow if they own no provinces on the continent
+		modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    superregion = eastern_kingdom_superregion
+                }
+            }
+		}
+        
+        modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    province_group = azeroth_provincegroup
+                }
+            }
+		}
+
+	}
+	immediate = {
+		region_elwynn_forest = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_elwynn_forest = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_redridge_mountains = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        # Only allow warmonger races to use these
+        is_savage = yes
+		region_redridge_mountains = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_redridge_mountains = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 1000
+        
+        modifier = {
+			factor = 10
+			OR = {
+                tag = A41
+                tag = A40
+                tag = A43
+            }
+		}
+        
+        # Disallow if they own no provinces on the continent
+		modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    superregion = eastern_kingdom_superregion
+                }
+            }
+		}
+        
+        modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    province_group = azeroth_provincegroup
+                }
+            }
+		}
+
+	}
+	immediate = {
+		region_redridge_mountains = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_redridge_mountains = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_burning_steppes = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        # Only allow warmonger races to use these
+        is_savage = yes
+		region_burning_steppes = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_burning_steppes = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 1000
+        
+        modifier = {
+			factor = 10
+			OR = {
+                tag = A41
+                tag = A40
+                tag = A43
+            }
+		}
+        
+        # Disallow if they own no provinces on the continent
+		modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    superregion = eastern_kingdom_superregion
+                }
+            }
+		}
+        
+        modifier = {
+			factor = 0
+            
+            NOT = {
+                any_owned_province = {
+                    province_group = azeroth_provincegroup
+                }
+            }
+		}
+
+	}
+	immediate = {
+		region_burning_steppes = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_burning_steppes = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}

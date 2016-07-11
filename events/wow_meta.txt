@@ -265,6 +265,42 @@ country_event = {
                 }
             }
             
+            # Permit them access to the rest of the world
+            ek_wasteland_region = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+            
+            lordaeron_provincegroup = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+            
+            khaz_modan_provincegroup = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+            
+            azeroth_provincegroup = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+            
+            eastern_seas = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+            
             outland_provincegroup = {
                 
                 ROOT = {

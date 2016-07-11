@@ -15,7 +15,7 @@ country_decisions = {
             }
         }
         effect = {
-            country_event = { id = wow_battles.100 }
+            country_event = { id = wow_conquest.100 }
         }		
         ai_will_do = {
             factor = 0

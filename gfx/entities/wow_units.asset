@@ -1,9 +1,4 @@
 entity = {
-	name = "westerngfx_INFANTRY_1"
-	pdxmesh = "mesh_human_farmer"
-}
-
-entity = {
 	name = "orcgfx_INFANTRY_1"
 	pdxmesh = "mesh_orc_grunt"
 }

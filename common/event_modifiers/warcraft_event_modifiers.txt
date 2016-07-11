@@ -39,6 +39,8 @@ blood_of_mannaroth = {
 	dip_tech_cost_modifier = 0.25
 	mil_tech_cost_modifier = -0.1
 	land_forcelimit_modifier = 0.25
+    global_tax_income = 120
+    
 }
 
 blood_of_mannaroth_event = { }
@@ -208,7 +210,7 @@ battles_capital_control = {
 }
 
 battles_direct_control_unrest = {
-    local_unrest = 10
+    local_unrest = 20
 }
 
 battles_slash_and_burn_unrest = {
@@ -217,6 +219,10 @@ battles_slash_and_burn_unrest = {
 
 battles_raise_the_dead_unrest = {
     local_unrest = 5
+}
+
+battles_reclaimed = {
+    local_unrest = -5
 }
 
 #------------------------------
