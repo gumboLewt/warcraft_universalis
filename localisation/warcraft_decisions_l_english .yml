@@ -44,6 +44,12 @@
  the_light_sunwell: "Light of the Sunwell"
  desc_the_light_sunwell: "Our people have laid witness to the power of the Sunwell, and there faith within it is unshakeable."
  
+ construct_void_portals_title: "Construct Void Portals"
+ construct_void_portals_desc: "The power of the Void is weak here. Let us channel void energies into portals to encourage the spread of void entities."
+ 
+ void_portals: "Void Portals"
+ desc_void_portals: "We have constructed void portals, allowing us to more easily remove those that do not submit to the power of the Void."
+ 
  #-----------------------------------------------
  # Alliance/Horde
  #-----------------------------------------------

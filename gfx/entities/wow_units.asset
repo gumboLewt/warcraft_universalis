@@ -1,29 +1,20 @@
 entity = {
-	name = "orc_unit"
-	pdxmesh = "mesh_orc_male"
+	name = "westerngfx_INFANTRY_1"
+	pdxmesh = "mesh_human_farmer"
 }
 
 entity = {
-	name = "fel_orc"
-	pdxmesh = "mesh_fel_orc"
+	name = "orcgfx_INFANTRY_1"
+	pdxmesh = "mesh_orc_grunt"
 }
 
-entity = {
-	name = "belf_mage"
-	pdxmesh = "mesh_belf_mage"
-}
 
 entity = {
-	name = "draenei_zweihander"
-	pdxmesh = "mesh_draenei_zweihander"
+	name = "orcgfx_CAVALRY_1"
+	pdxmesh = "mesh_orc_wolf"
 }
 
-entity = {
-	name = "2h_dwarf"
-	pdxmesh = "mesh_2h_dwarf"
-}
-
-entity = {
-	name = "brown_orc"
-	pdxmesh = "mesh_brown_orc"
-}
+# mesh_orc_grunt
+# mesh_orc_wolf
+# mesh_human_blacksmith
+# mesh_human_farmer

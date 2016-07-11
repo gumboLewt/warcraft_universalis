@@ -241,3 +241,7 @@ the_light_contemplation = {
 the_light_sunwell = {
     global_missionary_strength = 0.03
 }
+
+void_portals = {
+    global_missionary_strength = 0.03
+}

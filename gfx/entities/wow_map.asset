@@ -28,3 +28,8 @@ entity = {
 	name = "floating_tree"
 	pdxmesh = "mesh_floating_tree"
 }
+
+entity = {
+	name = "fel_crystal"
+	pdxmesh = "mesh_green_crystal"
+}

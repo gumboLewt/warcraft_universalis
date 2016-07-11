@@ -1,37 +1,27 @@
 objectTypes = {
+    # Human
 	pdxmesh = {
-		name = "mesh_orc_male"
-		file = "gfx/models/wow/units/orc_male_static.mesh"	
-		scale = 20.0
+		name = "mesh_human_farmer"
+		file = "gfx/models/wow/units/human/farmer/human_farmer.mesh"	
+		scale = 1
 	}
-	
-	pdxmesh = {
-		name = "mesh_fel_orc"
-		file = "gfx/models/wow/units/fel_orc.mesh"	
-		scale = 20.0
+    
+    pdxmesh = {
+		name = "mesh_human_blacksmith"
+		file = "gfx/models/wow/units/human/blacksmith/human_blacksmith.mesh"	
+		scale = 1
 	}
-	
-	pdxmesh = {
-		name = "mesh_belf_mage"
-		file = "gfx/models/wow/units/blood_elf_mage.mesh"	
-		scale = 5.0
+    
+    # Orc
+    pdxmesh = {
+		name = "mesh_orc_grunt"
+		file = "gfx/models/wow/units/orc/regular/orc_blackrock.mesh"	
+		scale = 1
 	}
-	
-	pdxmesh = {
-		name = "mesh_draenei_zweihander"
-		file = "gfx/models/wow/units/draenei_zweihander.mesh"	
-		scale = 5.0
-	}
-	
-	pdxmesh = {
-		name = "mesh_2h_dwarf"
-		file = "gfx/models/wow/units/2h_dwarf.mesh"	
-		scale = 5.0
-	}
-	
-	pdxmesh = {
-		name = "mesh_brown_orc"
-		file = "gfx/models/wow/units/orc_brown.mesh"	
-		scale = 2.0
+
+    pdxmesh = {
+		name = "mesh_orc_wolf"
+		file = "gfx/models/wow/units/orc/wolf/orc_wolf.mesh"	
+		scale = 0.5
 	}
 }

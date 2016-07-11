@@ -8,10 +8,10 @@ country_decisions = {
         }
         allow = {
             religion = religion_fel
-            stability = 1
+            adm_power = 100
         }
         effect = {
-            add_stability = -1
+            add_adm_power = -100
             add_country_modifier = {
                 name = fel_conduits
                 duration = 3650
@@ -35,10 +35,10 @@ country_decisions = {
         }
         allow = {
             religion = religion_hakkari
-            stability = 1
+            adm_power = 100
         }
         effect = {
-            add_stability = -1
+            add_adm_power = -100
             add_country_modifier = {
                 name = blood_sacrifice_hakkari
                 duration = 3650
@@ -68,10 +68,10 @@ country_decisions = {
                 religion = religion_scarlet_light
                 religion = religion_argent_light
             }
-            stability = 1
+            adm_power = 100
         }
         effect = {
-            add_stability = -1
+            add_adm_power = -100
             add_country_modifier = {
                 name = the_light_fervor
                 duration = 3650
@@ -101,10 +101,10 @@ country_decisions = {
                 religion = religion_church_of_the_light
                 religion = religion_light_of_the_naaru
             }
-            stability = 1
+            adm_power = 100
         }
         effect = {
-            add_stability = -1
+            add_adm_power = -100
             add_country_modifier = {
                 name = the_light_contemplation
                 duration = 3650
@@ -128,12 +128,45 @@ country_decisions = {
         }
         allow = {
             religion = religion_light_of_the_sunwell
-            stability = 1
+            adm_power = 100
         }
         effect = {
-            add_stability = -1
+            add_adm_power = -100
             add_country_modifier = {
                 name = the_light_sunwell
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    construct_void_portals = {
+        major = yes
+        potential = {
+            OR = {
+                religion = religion_shadow
+                religion = religion_void
+            }
+            NOT = { has_country_modifier = void_portals }
+        }
+        allow = {
+            OR = {
+                religion = religion_shadow
+                religion = religion_void
+            }
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = void_portals
                 duration = 3650
             }
         }		
