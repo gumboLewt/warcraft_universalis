@@ -1,15 +1,17 @@
 # 567
 is_city = yes
-add_core = A01
-owner = A01
-controller = A01
+
+owner = B15
+controller = B15
+add_core = B15
+religion = religion_ancestral
+culture = culture_riverpaw
 
 base_tax = 3
 base_manpower = 2
 base_production = 3
 
-culture = culture_azerothian
-religion = religion_church_of_the_light
+
 
 hre = no
 trade_goods = wine

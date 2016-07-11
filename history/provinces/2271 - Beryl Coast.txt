@@ -1,14 +1,19 @@
-# 1085
-is_city = yes
+is_city = no
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
 
-culture = culture_nazja
-religion = religion_old_gods
+owner = B31
+controller = B31
+add_core = B31
+culture = culture_nerglish
+religion = religion_water
+
 hre = no
-trade_goods = fish
+trade_goods = grain
+
+
 
 

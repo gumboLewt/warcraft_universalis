@@ -1,12 +1,13 @@
-is_city = yes
+# 830 Nerubian Vanguard
+is_city = no
 
 owner = E74
 controller = E74
 add_core = E74
 
-base_tax = 5
-base_manpower = 5
-base_production = 5
+base_tax = 1
+base_manpower = 2
+base_production = 1
 
 
 culture = culture_nerubian
@@ -15,19 +16,19 @@ religion = religion_arcane
 hre = no
 trade_goods = army_supplies
 
+
+
+
 615.1.1 = { 
-    add_core = E11
-    controller = E11
-    owner = E11
-    culture = culture_crypt_fiend
-    religion = religion_the_damned 
-}
+add_core = E11
+controller = E11
+owner = E11
+culture = culture_crypt_fiend
+religion = religion_the_damned }
 
 
-626.1.1 = { 
-    add_core = F19
-    controller = F19
-    owner = F19
-    culture = culture_lordaeron
-    religion = religion_argent_light 
-}
+626.1.1 = { add_core = F19
+controller = F19
+owner = F19
+culture = culture_lordaeron
+religion = religion_argent_light }

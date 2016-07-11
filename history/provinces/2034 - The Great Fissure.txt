@@ -5,9 +5,11 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-
-culture = culture_rockflayer
-religion = religion_geomancy
+owner = A36
+controller = A36
+add_core = A36
+culture	= culture_shattered_hand
+religion = religion_ancestral
 
 hre = no
 trade_goods = fel_iron

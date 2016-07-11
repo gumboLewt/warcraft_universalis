@@ -5,12 +5,12 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-add_core = A29
-owner = A29
-controller = A29
+owner = E54
+add_core = E54
+controller = E54
 
-culture = culture_ironforge
-religion = religion_church_of_the_light
+culture = culture_trogg
+religion = religion_geomancy
 
 hre = no
 trade_goods = grain

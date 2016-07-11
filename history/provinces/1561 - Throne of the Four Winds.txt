@@ -1,9 +1,8 @@
 # 1561
-is_city = no
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 10
+base_manpower = 10
+base_production = 10
 
 
 culture = culture_air
@@ -12,15 +11,10 @@ religion = religion_air
 hre = no
 trade_goods = artifacts
 
-631.1.1 = {
 owner = E28
 controller = E28
 add_core = E28
-base_tax = 6
-base_manpower = 6
-base_production = 6
 is_city = yes
-}
 
 
 

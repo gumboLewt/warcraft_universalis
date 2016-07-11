@@ -5,16 +5,14 @@ base_tax = 7
 base_manpower = 7
 base_production = 7
 
-
-culture = culture_tol_vir
+owner = G09
+controller = G09
+add_core = G09
+culture = culture_ramkahen
 religion = religion_titan
 
 hre = no
 trade_goods = artifacts
-
-owner = G14
-controller = G14
-add_core = G14
 
 
 

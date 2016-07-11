@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-culture = culture_ghost
-religion = religion_old_gods
+owner = A45
+controller = A45
+add_core = A45
+culture = culture_dragonmaw
+religion = religion_ancestral
 
 hre = no
 trade_goods = artifacts

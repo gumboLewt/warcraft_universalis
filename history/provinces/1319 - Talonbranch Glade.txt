@@ -1,23 +1,29 @@
-owner = H01
-controller = H01
-add_core = H01
+owner = B40
+controller = B40
+add_core = B40
 is_city = yes
 
 base_tax = 2
 base_manpower = 2
 base_production = 2
 
-culture = culture_sentinel
-religion = religion_elune
+culture = culture_deadwood
+religion = religion_ancestral
 
 hre = no
 trade_goods = lumber
+
+
+618.1.1 = {
+religion = religion_fel
+trade_goods = fel
+}
 
 622.1.1 = {
 owner = A94
 controller = A94
 add_core = A94
-remove_core = H01
+remove_core = B40
 culture = culture_sentinel
 religion = religion_elune
 }

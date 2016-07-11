@@ -5,9 +5,11 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-
-culture = culture_broken
+culture = culture_warsong
 religion = religion_ancestral
+owner = A35
+controller = A35
+add_core = A35
 
 hre = no
 trade_goods = fish

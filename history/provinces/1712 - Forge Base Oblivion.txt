@@ -5,9 +5,12 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
+owner = A38
+controller = A38
+add_core =  A38
+culture = culture_laughing_skull
+religion = religion_ancestral
 
-culture = culture_ghost
-religion = religion_fel
 hre = no
 trade_goods = workshops
 

@@ -4,21 +4,12 @@ is_city = yes
 base_tax = 6
 base_manpower = 6
 base_production = 6
-
-
+owner = B77
+controller = B77
+add_core =  B77
 culture = culture_sethekk
 religion = religion_terokk
 
 hre = no
 trade_goods = artifacts
-
-
-
-
-#Outland
-601.1.1 = {
-owner = B77
-controller = B77
-add_core =  B77
-}
 

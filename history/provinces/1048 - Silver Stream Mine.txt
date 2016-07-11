@@ -1,16 +1,17 @@
 # 1048 Silver Stream Mine
 is_city = yes
 
-add_core = A29
-owner = A29
-controller = A29
+owner = E53
+controller = E53
+add_core = E53
+
+culture = culture_tunnel_rat
+religion = religion_geomancy
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
-culture = culture_ironforge
-religion = religion_church_of_the_light
 
 hre = no
 trade_goods = copper

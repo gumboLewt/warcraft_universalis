@@ -5,9 +5,11 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-
-culture = culture_red_crane
+culture = culture_jinyu
 religion = religion_celestial
+owner = E82
+controller = E82
+add_core = E82
 
 hre = no
 trade_goods = fur

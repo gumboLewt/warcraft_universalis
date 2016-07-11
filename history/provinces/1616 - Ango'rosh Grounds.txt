@@ -5,19 +5,14 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
+owner = F69
+controller = F69
+add_core =  F69
 culture = culture_ango_rosh
 religion = religion_geomancy
 
 hre = no
 trade_goods = glowcap
-
-#Outland
-601.1.1 = {
-owner = F69
-controller = F69
-add_core =  F69
-}
 
 
 

@@ -1,15 +1,18 @@
 # 592 Terrordale/Eastdale(Cinderholme?)
 is_city = yes
-add_core = A08
-owner = A08
-controller = A08
+
+	add_core = A62
+	owner = A62
+	controller = A62
+	religion = religion_loa
+	culture = culture_mossflayer 
+	add_core = A08
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+
  
 hre = no 
 trade_goods = grain

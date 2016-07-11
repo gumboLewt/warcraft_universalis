@@ -1,15 +1,15 @@
 # 1998 Janeiro's Point
 is_city = yes
 
-owner = F33
-controller= F33
-add_core = F33
+owner = A83
+controller= A83
+add_core = A83
 
 base_tax = 3
 base_manpower = 2
 base_production = 1
 
-culture = culture_sea_giant
+culture = culture_blackwater
 religion = religion_titan
 
 hre = no

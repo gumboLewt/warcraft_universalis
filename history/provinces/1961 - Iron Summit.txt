@@ -1,17 +1,18 @@
 # 1961
 is_city = yes
 
-owner = A30
-controller = A30
-add_core = A30
+owner = E56
+controller = E56
+add_core = E56
+
+culture = culture_dark_iron
+religion = religion_arcane
 
 base_tax = 4
 base_manpower = 4
 base_production = 4
 
 
-culture = culture_dark_iron
-religion = religion_fire
 
 hre = no
 trade_goods = thorium

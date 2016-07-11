@@ -2,16 +2,15 @@
 
 is_city = no
 
-owner = F89
-controller = F89
-add_core = F89
-
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
-culture = culture_sea_giant
-religion = religion_titan
+owner = A86
+controller = A86
+add_core = A86
+culture = culture_runetotem
+religion = religion_ancestral
 
 hre = no
 trade_goods = fish

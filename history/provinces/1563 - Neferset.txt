@@ -5,26 +5,16 @@ base_tax = 6
 base_manpower = 6
 base_production = 6
 
-
+owner = B72
+controller = B72
+add_core = B72
 culture = culture_neferset
 religion = religion_titan
 
 hre = no
 trade_goods = artifacts
 
-owner = B72
-controller = B72
-add_core = B72
 
-632.1.1 = {
-owner = G09
-controller = G09
-add_core = G09
-culture = culture_neferset
-base_tax = 3
-base_manpower = 3
-base_production = 3
-}
 
 
 

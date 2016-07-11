@@ -1,17 +1,17 @@
 # 1969
 is_city = yes
 
-owner = A30
-controller = A30
-add_core = A30
+owner = B74
+controller = B74
+add_core = B74
 
 base_tax = 4
 base_manpower = 4
 base_production = 4
 
 
-culture = culture_dark_iron
-religion = religion_fire
+culture = culture_earthen
+religion = religion_titan
 
 hre = no
 trade_goods = army_supplies

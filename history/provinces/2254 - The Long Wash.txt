@@ -1,14 +1,18 @@
 is_city = no
-owner = B30
-controller = B30
-add_core = B30
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
+owner = B30
+controller = B30
+add_core = B30
 culture = culture_nerglish
 religion = religion_water
 
 hre = no
-trade_goods = fish
+trade_goods = grain
+
+
+
+

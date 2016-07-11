@@ -1,14 +1,18 @@
-owner = B42
-controller = B42
-add_core = B42
-is_city = yes
+is_city = no
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
-culture = culture_timbermaw
+owner = G21
+add_core = G21
+controller = G21
+culture = culture_blackmaw
 religion = religion_ancestral
 
 hre = no
-trade_goods = lumber
+trade_goods = grain
+
+
+
+

@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-culture = culture_rockflayer
-religion = religion_geomancy
+owner = B77
+controller = B77
+add_core =  B77
+culture = culture_sethekk
+religion = religion_terokk
 
 hre = no
 trade_goods = warbeasts

@@ -1,22 +1,19 @@
-is_city = yes
+is_city = no
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
-culture = culture_blackwood
-religion = religion_ancestral
+
+owner = H01
+controller = H01
+add_core = H01
+culture = culture_sentinel
+religion = religion_elune
 
 hre = no
-trade_goods = stone
+trade_goods = grain
 
-618.1.1 = {
-religion = religion_fel
-owner = B41
-controller = B41
-add_core = B41
-}
 
-631.1.1 = {
-religion = religion_ancestral
-}
+
+

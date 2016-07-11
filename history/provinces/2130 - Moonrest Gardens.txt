@@ -1,24 +1,29 @@
 # 2130 Moonrest Gardens
 is_city = yes
 
-owner = E79
-controller = E79
-add_core = E79
-
 base_tax = 2
-base_manpower = 2
+base_manpower = 1
 base_production = 2
 
-culture = culture_ghost
-religion = religion_arcane
+owner = E73
+controller = E73
+add_core = E73
+culture = culture_icemist
+religion = religion_ancestral
 
 hre = no
 trade_goods = arcane
 
 626.1.1 = {
-    owner = B01
-    controller = B01
-    add_core = B01
-    culture = culture_dalaran
-    religion = religion_arcane
+owner = B01
+controller = B01
+add_core = B01
+culture = culture_dalaran
+religion = religion_arcane
+base_manpower = 2
 }
+
+
+
+
+

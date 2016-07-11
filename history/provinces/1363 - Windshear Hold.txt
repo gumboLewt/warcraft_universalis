@@ -3,15 +3,16 @@ base_tax = 2
 base_manpower = 1
 base_production = 2
 
-culture = culture_bloodfury
-religion = religion_air
+owner = G28
+controller = G28
+add_core = G28
+culture = culture_windshear
+religion = religion_geomancy
 
 hre = no
 trade_goods = lumber
 
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
+
 
 622.1.1 = {
 owner = A81
@@ -23,15 +24,4 @@ base_tax = 3
 base_manpower = 2
 base_production = 3
 capital = "Venture Co. Headquarters"
-}
-
-631.1.1 = {
-owner = A94
-controller = A94
-add_core = A94
-culture = culture_highbourne
-religion = religion_arcane
-trade_goods = army_supplies
-base_manpower = 3
-capital = "Windshear Hold"
 }

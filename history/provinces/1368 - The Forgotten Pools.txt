@@ -1,18 +1,17 @@
 # 1368
 
-owner = H04
-controller = H04
-add_core = H04
+owner = B21
+controller = B21
+add_core = B21
+
+culture = culture_gelkis
+religion = religion_ancestral
 
 is_city = no
 
 base_tax = 3
 base_manpower = 2
 base_production = 3
-
-
-culture = culture_kolkar
-religion = religion_ancestral
 
 hre = no
 trade_goods = fish

@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-culture = culture_doomguard
-religion = religion_fel
+owner = F68
+controller = F68
+add_core =  F68
+culture = culture_broken
+religion = religion_ancestral
 
 hre = no
 trade_goods = fel

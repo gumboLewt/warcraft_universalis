@@ -1,17 +1,18 @@
-is_city = yes
+is_city = no
+
+base_tax = 1
+base_manpower = 1
+base_production = 1
+
+
 owner = B82
 controller = B82
 add_core = B82
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
 culture = culture_moa_ki
 religion = religion_primitive
 
 hre = no
-trade_goods = fish
+trade_goods = grain
 
 
 

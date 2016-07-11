@@ -5,9 +5,11 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-
-culture = culture_blue
-religion = religion_sect_of_dragons
+owner = E74
+controller = E74
+add_core = E74
+culture = culture_nerubian
+religion = religion_arcane
 
 hre = no
 trade_goods = fossils

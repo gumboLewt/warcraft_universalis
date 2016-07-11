@@ -5,17 +5,16 @@ base_manpower = 1
 base_production = 1
 
 
-culture = culture_forest_nymph
-religion = religion_druidic
+owner = B70
+controller = B70
+add_core = B70
+
+culture = culture_razorfen
+religion = religion_geomancy
 
 hre = no
 trade_goods = grain
 
 
-618.1.1 = { 
-	owner = XXX
-	controller = XXX
-	culture = culture_ironforge
-	religion = religion_church_of_the_light
-}
+
 

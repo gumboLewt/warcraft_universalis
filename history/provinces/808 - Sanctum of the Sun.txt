@@ -1,16 +1,16 @@
 #808 Sanctum of the Sun
 is_city = yes 
 
-add_core = A90
-owner = A90
-controller = A90
+add_core = A59
+owner = A59
+controller = A59
+culture = culture_shadowpine
+religion = religion_loa
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
-culture = culture_high_elf
-religion = religion_arcane
  
 hre = no 
 trade_goods = arcane

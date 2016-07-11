@@ -5,15 +5,15 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-culture = culture_galak
-religion = religion_ancestral
+owner = A87
+controller = A87
+add_core = A87
+culture = culture_mistrunner
+religion = religion_druidic
 
 hre = no
 trade_goods = fur
 
-native_size = 5
-native_ferocity = 5
-native_hostileness = 5
 
 618.1.1 = { 
 culture = culture_winterhoof

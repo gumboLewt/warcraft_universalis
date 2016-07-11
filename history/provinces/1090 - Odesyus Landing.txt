@@ -5,7 +5,9 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-
+owner = G22
+controller = G22
+add_core = G22
 culture = culture_bristlelimb
 religion = religion_ancestral
 

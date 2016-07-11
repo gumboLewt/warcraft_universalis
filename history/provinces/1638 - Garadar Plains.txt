@@ -5,8 +5,11 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-culture = culture_mag_har
-religion = religion_ancestral
+owner = A51
+controller = A51
+add_core =  A51
+culture = culture_boulderfist
+religion = religion_geomancy
 
 hre = no
 trade_goods = fur

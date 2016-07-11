@@ -1,25 +1,18 @@
-# 1079
-is_city = yes
+is_city = no
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
+owner = B97
+controller = B97
+add_core = B97
 culture = culture_axxarian
 religion = religion_fel
 
 hre = no
-trade_goods = silk
+trade_goods = grain
 
 
 
 
-# The Burning Crusade
-625.1.1 = { 
-owner = G17
-controller = G17
-add_core = G17
-culture = culture_blood_elf
-religion = religion_fel
-}

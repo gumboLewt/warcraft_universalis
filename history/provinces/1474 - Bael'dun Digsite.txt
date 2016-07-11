@@ -5,18 +5,15 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-culture = culture_earthen
-religion = religion_titan
+owner = G05
+controller = G05
+add_core = G05
+culture = culture_windfury
+religion = religion_air
 
 hre = no
 trade_goods = fossils
 
-621.11.11 = { 
-	controller = xxx
-	owner = xxx
-	culture = culture_earthen
-	religion = religion_titan
-}
 
 # The Frozen Throne
 622.1.1 = { 
@@ -33,11 +30,3 @@ trade_goods = fossils
 	is_city = yes
 }
 
-# Cataclysm
-631.1.1 = { 
-	controller = E27
-	owner = E27
-	add_core = E27
-	culture = culture_earth
-	religion = religion_earth
-}

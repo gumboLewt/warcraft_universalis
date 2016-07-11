@@ -1,16 +1,17 @@
 # 896
 is_city = yes
 
-owner = G32
-controller = G32
-add_core = G32
+owner = B73
+controller = B73
+add_core = B73
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
+base_tax = 3
+base_manpower = 3
+base_production = 3
 
-culture = culture_earthen
-religion = religion_titan
+
+culture = culture_iron
+religion = religion_old_gods
 
 hre = no
 trade_goods = workshops
@@ -18,9 +19,9 @@ trade_goods = workshops
 capital = "Narvir's Cradle"
 
 631.1.1 = {
-    owner = B86
-    controller = B86
-    add_core = B86
+owner = B86
+controller = B86
+add_core = B86
 }
 
 

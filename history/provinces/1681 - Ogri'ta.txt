@@ -5,8 +5,10 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-
-culture = culture_ogri_la
+owner = A49
+controller = A49
+add_core = A49
+culture = culture_bladespire
 religion = religion_geomancy
 
 hre = no

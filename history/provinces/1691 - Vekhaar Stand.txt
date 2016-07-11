@@ -5,8 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-culture = culture_sethekk
-religion = religion_terokk
+owner = A47
+controller = A47
+add_core = A47
+culture = culture_mok_nathal
+religion = religion_ancestral
 
 hre = no
 trade_goods = apexis

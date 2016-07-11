@@ -6,8 +6,11 @@ base_manpower = 2
 base_production = 2
 
 
-culture = culture_makrura
-religion = religion_water
+owner = A89
+controller = A89
+add_core = A89
+culture = culture_winterhoof
+religion_ancestral
 
 hre = no
 trade_goods = fish

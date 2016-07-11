@@ -4,9 +4,11 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
-culture = noculture
-religion = noreligion
+owner = B81
+controller = B81
+add_core = B81
+culture = culture_kalu_ak
+religion = religion_primitive
 
 hre = no
 trade_goods = grain

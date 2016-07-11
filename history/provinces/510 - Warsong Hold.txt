@@ -5,7 +5,9 @@ base_tax = 2
 base_manpower = 1
 base_production = 2
 
-
+owner = B60
+controller = B60
+add_core = B60
 culture = culture_gammoth
 religion = religion_geomancy
 

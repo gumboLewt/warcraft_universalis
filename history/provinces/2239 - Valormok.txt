@@ -4,18 +4,15 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-culture = culture_ghost
-religion = religion_arcane
+owner = G21
+add_core = G21
+controller = G21
+culture = culture_blackmaw
+religion = religion_ancestral
 
 hre = no
 trade_goods = grain
 
 
-622.1.1 = { 
-	owner = A48
-	controller = A48
-	add_core = A48 
-	culture = culture_horde
-	religion = religion_ancestral
-}
+
 

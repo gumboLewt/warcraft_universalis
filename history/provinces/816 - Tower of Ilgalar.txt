@@ -1,16 +1,16 @@
 # 816 Tower of Ilgalar
 is_city = yes
 
-add_core = A04
-owner = A04
-controller = A04
+add_core = B16
+owner = B16
+controller = B16
 
 base_tax = 3
 base_manpower = 2
 base_production = 3
 
-culture = culture_azerothian
-religion = religion_arcane
+culture = culture_shadowhide
+religion = religion_ancestral
 
 hre = no
 trade_goods = arcane

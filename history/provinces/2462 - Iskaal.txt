@@ -1,18 +1,15 @@
-is_city = yes
+is_city = no
 
-owner = B81
-controller = B81
-add_core = B81
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
 
-culture = culture_kalu_ak
-religion = religion_primitive
+culture = noculture
+religion = noreligion
+
 hre = no
-trade_goods = fish
+trade_goods = grain
 
 
 

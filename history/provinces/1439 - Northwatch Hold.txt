@@ -5,8 +5,10 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-
-culture = culture_razormane
+owner = B68
+controller = B68
+add_core = B68
+culture = culture_bristleback
 religion = religion_geomancy
 
 hre = no

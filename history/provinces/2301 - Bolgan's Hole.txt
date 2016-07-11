@@ -1,8 +1,8 @@
 is_city = no
 
-base_tax = 4
-base_manpower = 4
-base_production = 4
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
 owner = B21
 controller = B21
@@ -12,6 +12,8 @@ culture = culture_gelkis
 religion = religion_ancestral
 
 hre = no
-trade_goods = fur
+trade_goods = grain
+
+
 
 

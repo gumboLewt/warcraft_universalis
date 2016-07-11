@@ -1,19 +1,18 @@
-# 732
-is_city = yes
+is_city = no
+
+base_tax = 1
+base_manpower = 1
+base_production = 1
+
+
 owner = B76
 controller = B76
 add_core = B76
-
-base_tax = 3
-base_manpower = 3
-base_production = 6
-
-
 culture = culture_iron
 religion = religion_old_gods
 
 hre = no
-trade_goods = saronite
+trade_goods = grain
 
 
 

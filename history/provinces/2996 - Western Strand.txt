@@ -5,12 +5,11 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-add_core = A08
-owner = A08
-controller = A08
-
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+owner = E51
+controller = E51
+add_core = E51
+culture = culture_nerglish
+religion = religion_water
 
 hre = no
 trade_goods = fish

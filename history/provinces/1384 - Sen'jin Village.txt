@@ -6,9 +6,11 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-
-culture = culture_kolkar
-religion = religion_ancestral
+add_core = B69
+owner = B69
+controller = B69
+culture = culture_razormane
+religion = religion_geomancy
 
 hre = no
 trade_goods = fish

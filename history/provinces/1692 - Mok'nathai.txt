@@ -5,6 +5,9 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
+owner = A47
+controller = A47
+add_core = A47
 culture = culture_mok_nathal
 religion = religion_ancestral
 

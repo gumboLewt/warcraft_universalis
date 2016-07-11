@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 2
 base_production = 3
 
-
 culture = culture_riverblade
 religion = religion_voodoo
+owner = E83
+controller = E83
+add_core = E83
 
 
 hre = no

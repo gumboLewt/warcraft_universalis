@@ -1,7 +1,7 @@
-is_city = yes
+is_city = no
 
-base_tax = 2
-base_manpower = 2
+base_tax = 1
+base_manpower = 1
 base_production = 1
 
 owner = A73
@@ -12,13 +12,8 @@ culture = culture_sandfury
 religion = religion_loa
 
 hre = no
-trade_goods = naval_supplies
+trade_goods = grain
 
-# The Frozen Throne
-618.1.1 = {
-owner = A19
-controller = A19
-add_core = A19
-religion = religion_church_of_the_light
-culture = culture_kul_tiran
-}
+
+
+

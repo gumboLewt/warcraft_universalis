@@ -1,17 +1,16 @@
 # 771
 is_city = yes
-add_core = A02
-owner = A02
-controller = A02
 
+owner = B58
+controller = B58 
+add_core = B58
+culture = culture_goldtooth
+religion = religion_geomancy
 
 base_tax = 3
 base_manpower = 2
 base_production = 3
 
-
-culture = culture_azerothian
-religion = religion_church_of_the_light
 
 hre = no
 trade_goods = grain

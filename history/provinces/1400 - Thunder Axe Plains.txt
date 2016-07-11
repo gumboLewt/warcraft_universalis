@@ -15,13 +15,3 @@ religion = religion_ancestral
 hre = no
 trade_goods = fossils
 
-
-
-
-622.1.1 = { 
-	owner = B90
-	controller = B90
-	add_core = B90 
-	culture = culture_burning_blade
-	religion = religion_fel
-}

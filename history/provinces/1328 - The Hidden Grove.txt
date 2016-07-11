@@ -1,16 +1,20 @@
-is_city = no
+# Winterfall Village
+owner = B44
+controller = B44
+add_core = B44
+is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 3
+base_manpower = 4
+base_production = 3
 
-
-culture = culture_owlkin
-religion = religion_druidic
+culture = culture_winterfall
+religion = religion_ancestral
 
 hre = no
-trade_goods = lumber
+trade_goods = fur
 
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
+618.1.1 = {
+religion = religion_fel
+}
+

@@ -5,6 +5,7 @@ owner = B47
 controller = B47
 add_core = B47
 
+
 culture = culture_bloodpaw
 religion = religion_primitive
 
@@ -15,12 +16,12 @@ base_production = 3
 hre = no
 trade_goods = naval_supplies
 
-626.1.1 = { 
-    culture = culture_venture
-    religion = religion_tech
-    
-    owner = A81
-    controller = A81
-    add_core = A81
-    remove_core = B47 
-}
+
+
+
+626.1.1 = { culture = culture_venture
+religion = religion_tech
+owner = A81
+controller = A81
+add_core = A81
+remove_core = B47 }

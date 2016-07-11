@@ -1,13 +1,17 @@
 # 920
 is_city = yes
 
+owner = A68
+controller = A68
+add_core = A68 
+religion = religion_voodoo
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
 
-culture = culture_gurubashi
+culture = culture_shatterspear
 religion = religion_loa
 
 hre = no

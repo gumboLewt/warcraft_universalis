@@ -5,11 +5,15 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-culture = culture_wildmane
-religion = religion_ancestral
+owner = B57
+controller = B57
+add_core = B57
+culture = culture_gravelsnout
+religion = religion_geomancy
 
 hre = no
 trade_goods = gold
+
 
 # Cataclysm
 631.1.1 = { owner = A19

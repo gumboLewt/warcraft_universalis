@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-culture = culture_mag_har
-religion = religion_ancestral
+owner = A51
+controller = A51
+add_core =  A51
+culture = culture_boulderfist
+religion = religion_geomancy
 
 hre = no
 trade_goods = warbeasts

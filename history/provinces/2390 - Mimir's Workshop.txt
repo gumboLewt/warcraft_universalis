@@ -1,18 +1,17 @@
-is_city = yes
+is_city = no
 
-owner = G32
-controller = G32
-add_core = G32
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
-base_tax = 5
-base_manpower = 5
-base_production = 5
-
-culture = culture_earthen
-religion = religion_titan
+owner = B73
+controller = B73
+add_core = B73
+culture = culture_iron
+religion = religion_old_gods
 
 hre = no
-trade_goods = workshops
+trade_goods = grain
 
 
 

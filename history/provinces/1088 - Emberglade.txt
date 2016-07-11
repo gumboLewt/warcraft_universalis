@@ -1,17 +1,20 @@
-# 1095
+# 1088
 is_city = no
 
 base_tax = 1
-base_manpower = 2
+base_manpower = 1
 base_production = 1
 
-culture = culture_fire
-religion = religion_fire
+owner = B43
+controller = B43
+add_core = B43
+culture = culture_stillpine
+religion = religion_ancestral
+
 
 hre = no
-trade_goods = fish
+trade_goods = lumber
 
 
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
+
+

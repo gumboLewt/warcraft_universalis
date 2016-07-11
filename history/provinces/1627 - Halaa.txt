@@ -5,8 +5,10 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-
-culture = culture_broken
+owner = A46
+controller = A46
+add_core = A46
+culture = culture_frostwolf
 religion = religion_ancestral
 
 hre = no

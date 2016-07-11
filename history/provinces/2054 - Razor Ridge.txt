@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-culture = culture_rockflayer
-religion = religion_geomancy
+owner = A37
+controller = A37
+add_core = A37
+culture = culture_thunderlord
+religion = religion_ancestral
 
 hre = no
 trade_goods = warbeasts

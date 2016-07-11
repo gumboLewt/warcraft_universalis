@@ -5,9 +5,11 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-
-culture = culture_fungal_giant
+culture = culture_sporeling
 religion = religion_zangar
+owner = F62
+controller = F62
+add_core =  F62
 
 hre = no
 trade_goods = fish

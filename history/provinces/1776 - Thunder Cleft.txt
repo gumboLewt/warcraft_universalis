@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
 culture = culture_dojani
 religion = religion_titan
+owner = E81
+controller = E81
+add_core = E81
 
 hre = no
 trade_goods = fish

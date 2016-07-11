@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 2
 base_production = 3
 
-
-culture = culture_kareshi
-religion = religion_arcane
+owner = A38
+controller = A38
+add_core =  A38
+culture = culture_laughing_skull
+religion = religion_ancestral
 
 hre = no
 trade_goods = adamantium

@@ -1,17 +1,20 @@
-# 1497 Dream Bough
 is_city = no
 
-owner = B04
-controller = B04
-add_core = B04
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
-base_tax = 4
-base_manpower = 4
-base_production = 4
 
-culture = culture_green
-religion = religion_sect_of_dragons
+owner = F97
+controller = F97
+add_core = F97
+culture = culture_xavian
+religion = religion_fel
+
 
 hre = no
-trade_goods = lumber
+trade_goods = grain
+
+
+
 

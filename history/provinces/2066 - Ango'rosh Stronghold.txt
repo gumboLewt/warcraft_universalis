@@ -5,7 +5,9 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-
+owner = F69
+controller = F69
+add_core =  F69
 culture = culture_ango_rosh
 religion = religion_geomancy
 

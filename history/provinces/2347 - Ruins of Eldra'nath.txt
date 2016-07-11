@@ -4,9 +4,11 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
-culture = noculture
-religion = noreligion
+owner = B33
+controller = B33
+add_core = B33
+culture = culture_nerglish
+religion = religion_water
 
 hre = no
 trade_goods = grain

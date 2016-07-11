@@ -5,12 +5,11 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-add_core = A08
-owner = A08
-controller = A08
-
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+add_core = E55
+owner = E55
+controller = E55
+culture = culture_shadowglen
+religion = religion_loa
 
 hre = no
 trade_goods = crypts

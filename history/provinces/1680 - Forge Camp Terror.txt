@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-culture = culture_doomguard
-religion = religion_fel
+owner = A41
+controller = A41
+add_core = A41
+culture = culture_blackrock
+religion = religion_ancestral
 
 hre = no
 trade_goods = apexis

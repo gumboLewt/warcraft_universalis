@@ -5,8 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-culture = culture_sethekk
-religion = religion_terokk
+owner = A49
+controller = A49
+add_core = A49
+culture = culture_bladespire
+religion = religion_geomancy
 
 hre = no
 trade_goods = flying_mounts

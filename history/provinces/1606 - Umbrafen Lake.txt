@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-culture = culture_sporeling
-religion = religion_zangar
+owner = F84
+controller = F84
+add_core = F84
+culture = culture_broken
+religion = religion_ancestral
 
 hre = no
 trade_goods = glowcap

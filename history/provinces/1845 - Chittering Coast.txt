@@ -5,7 +5,9 @@ base_tax = 3
 base_manpower = 2
 base_production = 3
 
-
+owner = E86
+controller = E86
+add_core = E86
 culture = culture_mistblade
 religion = religion_voodoo
 

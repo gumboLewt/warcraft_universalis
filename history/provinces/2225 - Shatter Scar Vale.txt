@@ -1,18 +1,18 @@
-is_city = yes
+is_city = no
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
-culture = culture_deadwood
-religion = religion_ancestral
+owner = B96
+controller = B96
+add_core = B96
+culture = culture_jadefire
+religion = religion_fel
 
 hre = no
-trade_goods = lumber
+trade_goods = grain
 
 
-618.1.1 = {
-culture = culture_doomguard
-religion = religion_fel
-trade_goods = fel
-}
+
+

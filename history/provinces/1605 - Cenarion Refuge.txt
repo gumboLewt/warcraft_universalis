@@ -6,8 +6,11 @@ base_manpower = 3
 base_production = 3
 
 
-culture = culture_fungal_giant
-religion = religion_zangar
+owner = A56
+controller = A56
+add_core =  A56
+culture = culture_shattrathi
+religion = religion_light_of_the_naaru
 
 hre = no
 trade_goods = glowcap

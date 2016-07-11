@@ -6,8 +6,12 @@ base_manpower = 1
 base_production = 1
 
 
-culture = culture_hakkari
-religion = religion_hakkari
+add_core = B04
+owner = B04
+controller = B04
+
+culture = culture_green
+religion = religion_sect_of_dragons
 
 hre = no
 trade_goods = fur

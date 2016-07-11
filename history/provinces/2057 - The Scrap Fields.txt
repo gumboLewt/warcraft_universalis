@@ -4,10 +4,11 @@ is_city = no
 base_tax = 3
 base_manpower = 2
 base_production = 3
-
-
-culture = culture_kareshi
-religion = religion_arcane
+owner = A54
+controller = A54
+add_core =  A54
+culture = culture_shattrathi
+religion = religion_light_of_the_naaru
 
 hre = no
 trade_goods = adamantium

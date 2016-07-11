@@ -5,35 +5,16 @@ base_manpower = 1
 base_production = 1
 
 
-culture = culture_silithid
-religion = religion_old_gods
+owner = B67
+controller = B67
+add_core = B67
+
+culture = culture_screeching
+religion = religion_air
 
 hre = no
 trade_goods = grain
 
-618.1.1 = {
-owner = A29
-controller = A29
-remove_core = H05
-culture = culture_ironforge 
-religion = religion_church_of_the_light
-}
 
-# Rise of the Qiraji
-622.1.1 = { 
-	owner = A98
-	controller = A98
-	add_core = A98
-	culture = culture_silithid
-	religion = religion_old_gods
-}
 
-631.1.1 = { 
-	owner = XXX
-	controller = XXX
-	culture = culture_water
-	religion = religion_water
-	native_size = 1
-	native_ferocity = 10
-	native_hostileness = 10
-}
+

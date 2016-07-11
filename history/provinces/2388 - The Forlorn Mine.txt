@@ -1,18 +1,18 @@
-is_city = yes
+is_city = no
+
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
 owner = E16
 controller = E16
 add_core = E16
 
-base_tax = 2
-base_manpower = 2
-base_production = 3
-
 culture = culture_hyldnir
 religion = religion_titan
 
 hre = no
-trade_goods = warbeasts
+trade_goods = grain
 
 
 

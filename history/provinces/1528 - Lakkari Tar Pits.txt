@@ -6,15 +6,16 @@ base_manpower = 1
 base_production = 3
 
 
-culture = culture_bog_beast
-religion = religion_earth
+owner = A98
+controller = A98
+add_core = A98
+
+culture = culture_silithid
+religion = religion_old_gods
 
 hre = no
 trade_goods = oil
 
-owner = E27
-controller = E27
-add_core = E27
 
 
 

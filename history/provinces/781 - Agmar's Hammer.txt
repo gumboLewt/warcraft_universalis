@@ -1,3 +1,4 @@
+# 781
 is_city = yes
 
 owner = B51
@@ -15,11 +16,12 @@ religion = religion_primitive
 hre = no
 trade_goods = fur
 
+
 626.1.1 = { 
-    owner = H07
-    controller = H07
-    add_core = H07
-    remove_core = B51
-    culture = culture_horde
-    religion = religion_ancestral
+owner = H07
+controller = H07
+add_core = H07
+remove_core = B51
+culture = culture_horde
+religion = religion_ancestral
 }

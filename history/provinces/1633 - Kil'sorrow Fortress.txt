@@ -5,9 +5,11 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-
-culture = culture_horde
-religion = religion_fel
+owner = A51
+controller = A51
+add_core =  A51
+culture = culture_boulderfist
+religion = religion_geomancy
 
 hre = no
 trade_goods = army_supplies

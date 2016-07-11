@@ -5,12 +5,11 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-owner = A98
-controller = A98
-add_core = A98
-
-culture = culture_silithid
-religion = religion_old_gods
+owner = H03
+controller = H03
+add_core = H03
+culture = culture_cenarion
+religion = religion_druidic
 
 hre = no
 trade_goods = grain

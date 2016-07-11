@@ -5,6 +5,9 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
+owner = A53
+controller = A53
+add_core = A53
 culture = culture_bloodmaul
 religion = religion_geomancy
 

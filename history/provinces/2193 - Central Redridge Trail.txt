@@ -1,6 +1,10 @@
 # 2193 Central Redridge Trail
 is_city = yes
 
+add_core = B16
+owner = B16
+controller = B16
+
 base_tax = 1
 base_manpower = 1
 base_production = 1

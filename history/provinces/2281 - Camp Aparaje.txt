@@ -1,24 +1,18 @@
 is_city = no
 
-owner = A85
-controller = A85
-add_core = A85
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
-
-culture = culture_grimtotem
-religion = religion_ancestral
+owner = G28
+controller = G28
+add_core = G28
+culture = culture_windshear
+religion = religion_geomancy
 
 hre = no
-trade_goods = fur
+trade_goods = grain
 
 
-631.1.1 = {
-owner = A48
-controller = A48
-add_core = A48
-culture = culture_horde
-}
+
+

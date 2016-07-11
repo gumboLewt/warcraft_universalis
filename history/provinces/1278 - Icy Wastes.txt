@@ -1,0 +1,29 @@
+# 1278
+is_city = yes
+
+owner = E16
+controller = E16
+add_core = E16
+
+culture = culture_hyldnir
+religion = religion_titan
+
+base_tax = 2
+base_manpower = 3
+base_production = 2
+
+
+
+capital = "Bor's Breath"
+
+hre = no
+trade_goods = fur
+
+
+
+
+
+
+
+
+

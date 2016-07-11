@@ -1,17 +1,17 @@
 # 904
 is_city = yes
-add_core = A02
-owner = A02
-controller = A02
 
+owner = F11
+controller = F11
+add_core = F11
+culture = culture_nerglish
+religion = religion_water
 
 base_tax = 3
 base_manpower = 2
 base_production = 3
 
 
-culture = culture_azerothian
-religion = religion_church_of_the_light
 
 hre = no
 trade_goods = grain

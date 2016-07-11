@@ -18,13 +18,13 @@ trade_goods = fish
 
 # The Third War
 617.1.1 = { 
-    owner = F38
-    controller = F38
-    add_core = F38
-    culture = culture_lordaeron
-    religion = religion_church_of_the_light
-    base_tax = 5
-    base_manpower = 5
-    base_production = 5
-    trade_goods = naval_supplies
+owner = F38
+controller = F38
+add_core = F38
+culture = culture_lordaeron
+religion = religion_church_of_the_light
+base_tax = 5
+base_manpower = 5
+base_production = 5
+trade_goods = naval_supplies
 }

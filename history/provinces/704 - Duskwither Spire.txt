@@ -1,16 +1,17 @@
 # 704 Duskwither Spire
 is_city = yes
 
+add_core = A58
 add_core = A90
-owner = A90
-controller = A90
+owner = A58
+controller = A58
+culture = culture_amani
+religion = religion_loa
 
 base_tax = 4
 base_manpower = 3
 base_production = 3
 
-culture = culture_high_elf
-religion = religion_arcane
 
 hre = no
 trade_goods = arcane

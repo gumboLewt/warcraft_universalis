@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-culture = culture_mountain_giant
-religion = religion_earth
+	owner = A56
+	controller = A56
+	add_core = A56 
+	culture = culture_karaborian
+	religion = religion_light_of_the_naaru
 
 hre = no
 trade_goods = gemstones

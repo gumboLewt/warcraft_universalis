@@ -4,14 +4,14 @@ is_city = no
 owner = A87
 controller = A87
 add_core = A87
-
+culture = culture_mistrunner
+religion = religion_druidic
 base_tax = 2
 base_manpower = 2
 base_production = 2
 
 
-culture = culture_mistrunner
-religion = religion_druidic
+
 
 hre = no
 trade_goods = fur

@@ -1,17 +1,17 @@
 # 1894
 is_city = yes
 
-owner = E93
-controller = E93
-add_core = E93
+
+owner = E41
+controller = E41
+add_core = E41
+culture = culture_korune
+religion = religion_titan
 
 base_tax = 3
 base_manpower = 2
 base_production = 3
 
-
-culture = culture_grummle
-religion = religion_celestial
 
 hre = no
 trade_goods = smugglers

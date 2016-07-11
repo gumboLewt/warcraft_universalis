@@ -8,15 +8,16 @@ base_production = 4
 
 culture = culture_sporeling
 religion = religion_zangar
+owner = F62
+controller = F62
+add_core =  F62
 
 hre = no
 trade_goods = glowcap
 
 #Outland
 601.1.1 = {
-owner = F62
-controller = F62
-add_core =  F62
+
 }
 
 

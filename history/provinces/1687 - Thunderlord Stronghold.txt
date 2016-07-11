@@ -5,8 +5,11 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
+owner = A37
+controller = A37
+add_core = A37
 culture = culture_thunderlord
-religion = religion_fel
+religion = religion_ancestral
 
 hre = no
 trade_goods = artifacts

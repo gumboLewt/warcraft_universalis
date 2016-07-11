@@ -5,8 +5,11 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-culture = culture_sethekk
-religion = religion_terokk
+owner = A41
+controller = A41
+add_core = A41
+culture = culture_blackrock
+religion = religion_ancestral
 
 hre = no
 trade_goods = arcane

@@ -5,14 +5,12 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-owner = E26
-controller = E26
-add_core = E26
-add_core = A30
-add_core = F61
+owner = E56
+controller = E56
+add_core = E56
 
-culture = culture_fire
-religion = religion_fire
+culture = culture_dark_iron
+religion = religion_arcane
 
 hre = no
 trade_goods = army_supplies

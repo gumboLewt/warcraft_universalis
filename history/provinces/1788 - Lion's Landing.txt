@@ -5,9 +5,11 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-
-culture = culture_red_crane
-religion = religion_celestial
+culture = culture_dojani
+religion = religion_titan
+owner = E81
+controller = E81
+add_core = E81
 
 hre = no
 trade_goods = army_supplies

@@ -1,5 +1,5 @@
 # 769
-is_city = yes
+is_city = no
 
 base_tax = 2
 base_manpower = 2
@@ -16,15 +16,15 @@ hre = no
 trade_goods = fish
 
 617.1.1 = { 
-    owner = F38
-    controller = F38
-    add_core = F38
-    culture = culture_lordaeron
-    religion = religion_church_of_the_light
+owner = F38
+controller = F38
+add_core = F38
+culture = culture_lordaeron
+religion = religion_church_of_the_light
 }
 
 626.1.1 = {
-    culture = culture_ironforge
+culture = culture_ironforge
 }
 
 

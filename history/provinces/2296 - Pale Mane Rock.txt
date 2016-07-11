@@ -1,17 +1,19 @@
 is_city = no
 
-base_tax = 2
-base_manpower = 2
-base_production = 3
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
-owner = B18
-controller = B18
-add_core = B18
 
-culture = culture_palemane
-religion = religion_ancestral
+owner = G05
+controller = G05
+add_core = G05
+culture = culture_windfury
+religion = religion_air
 
 hre = no
-trade_goods = fur
+trade_goods = grain
+
+
 
 

@@ -1,45 +1,21 @@
-is_city = yes
-
-owner = B45
-controller = B45
-add_core = B45
-
-
-culture = culture_frostpaw
-religion = religion_old_gods
+is_city = no
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
+
+owner = B47
+controller = B47
+add_core = B47
+
+
+culture = culture_bloodpaw
+religion = religion_primitive
+
 hre = no
-trade_goods = fur
+trade_goods = grain
 
-# Rise of the Qiraji
-622.1.1 = { 
-    owner = E30
-    controller = E30
-    add_core = E30
-    culture = culture_lordaeron
-    religion = religion_church_of_the_light 
-}
 
-# The Burning Crusade
-625.1.1 = { 
-    culture = culture_lordaeron_worgen
-    religion = religion_shadow
-}
 
-626.1.1 = {
-    culture = culture_lordaeron
-    religion = religion_church_of_the_light
-    owner = F39
-    controller = F39
-    add_core = F39
-}
 
-631.1.1 = {
-    owner = xxx
-    controller = xxx
-    remove_core = F39
-}

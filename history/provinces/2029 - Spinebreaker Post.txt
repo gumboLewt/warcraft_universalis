@@ -3,11 +3,13 @@ is_city = no
 
 base_tax = 2
 base_manpower = 2
-base_production = 2
+base_production = 23
 
-
-culture = culture_fel_orc
-religion = religion_fel
+owner = A40
+controller = A40
+add_core = A40
+culture = culture_bleeding_hollow 
+religion = religion_ancestral
 
 hre = no
 trade_goods = army_supplies

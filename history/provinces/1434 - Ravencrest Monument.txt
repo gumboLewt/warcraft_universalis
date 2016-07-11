@@ -5,8 +5,11 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-culture = culture_ghost
-religion = religion_arcane
+owner = G21
+add_core = G21
+controller = G21
+culture = culture_blackmaw
+religion = religion_ancestral
 
 hre = no
 trade_goods = artifacts

@@ -6,31 +6,17 @@ base_manpower = 2
 base_production = 3
 
 
-culture = culture_construct
-religion = religion_titan
-
 hre = no
 trade_goods = workshops
 
-owner = G08
-controller = G08
-add_core = G08
+owner = A98
+controller = A98
+add_core = A98
 
-626.1.1 = {
-owner = E12
-controller = E12
-add_core = E12
-culture = culture_cultist
-religion = religion_the_damned
-}
+culture = culture_silithid
+religion = religion_old_gods
 
-627.1.1 = {
-owner = G08
-controller = G08
-remove_core = E12
-culture = culture_construct
-religion = religion_titan
-}
+
 
 
 

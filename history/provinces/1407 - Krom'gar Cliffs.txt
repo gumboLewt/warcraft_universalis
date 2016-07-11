@@ -5,8 +5,12 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
+owner = G28
+controller = G28
+add_core = G28
+culture = culture_windshear
+religion = religion_geomancy
 
-culture = culture_witchwing
-religion = religion_air
+hre = no
+trade_goods = silk
 
-trade_goods = fur

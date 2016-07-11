@@ -1,5 +1,5 @@
 # 633 Rageclaw Den
-is_city = yes
+is_city = no
 
 owner = B50
 controller = B50

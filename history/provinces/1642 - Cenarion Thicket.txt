@@ -5,9 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-culture = culture_broken
-religion = religion_ancestral
+owner = A54
+controller = A54
+add_core =  A54
+culture = culture_shattrathi
+religion = religion_light_of_the_naaru
 
 hre = no
 trade_goods = fur

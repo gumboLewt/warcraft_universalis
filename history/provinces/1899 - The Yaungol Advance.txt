@@ -6,8 +6,11 @@ base_manpower = 2
 base_production = 3
 
 
-culture = culture_grummle
-religion = religion_celestial
+owner = E41
+controller = E41
+add_core = E41
+culture = culture_korune
+religion = religion_titan
 
 hre = no
 trade_goods = mounts

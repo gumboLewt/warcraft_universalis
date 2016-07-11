@@ -7,7 +7,10 @@ base_manpower = 4
 base_production = 4
 
 
-culture = culture_lost_one
+owner = F84
+controller = F84
+add_core = F84
+culture = culture_broken
 religion = religion_ancestral
 
 hre = no

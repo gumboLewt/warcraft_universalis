@@ -1,17 +1,17 @@
 # 663 Forsaken Read Guard
 is_city = yes 
 
-add_core = A08
-owner = A08
-controller = A08
-capital = "Tiderun Field"
+add_core = B25
+owner = B25
+controller = B25
+culture = culture_nerglish
+religion = religion_water
+
 
 base_tax = 2
 base_manpower = 2
 base_production = 3
- 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+
  
 hre = no 
 trade_goods = grain

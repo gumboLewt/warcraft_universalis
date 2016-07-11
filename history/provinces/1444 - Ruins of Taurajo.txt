@@ -5,12 +5,11 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-owner = F85
-controller = F85
-add_core = F85
-
-culture = culture_skychaser
-religion = religion_ancestral
+owner = B68
+controller = B68
+add_core = B68
+culture = culture_bristleback
+religion = religion_geomancy
 
 capital = "Camp Taurajo"
 

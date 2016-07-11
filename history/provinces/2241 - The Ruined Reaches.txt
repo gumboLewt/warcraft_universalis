@@ -4,12 +4,16 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
+owner = G21
+add_core = G21
+controller = G21
+culture = culture_blackmaw
+religion = religion_ancestral
 
-culture = culture_makrura
-religion = religion_water
 
 hre = no
-trade_goods = fish
+trade_goods = grain
+
 
 
 

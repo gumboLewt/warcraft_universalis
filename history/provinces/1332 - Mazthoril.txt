@@ -1,26 +1,15 @@
-owner = B01
-controller = B01
-add_core = B01
+owner = B44
+controller = B44
+add_core = B44
+culture = culture_winterfall
+religion = religion_fel
 is_city = yes
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
-culture = culture_blue
-religion = religion_sect_of_dragons
 
 hre = no
 trade_goods = flying_mounts
 
-631.1.1 = {
-	remove_core = B01
-	owner = XXX
-	controller = XXX
-	is_city = no
-	native_size = 10
-	native_ferocity = 10
-	native_hostileness = 10
-culture = culture_eredar
-religion = religion_fel
-}

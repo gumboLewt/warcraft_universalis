@@ -1,9 +1,14 @@
 # 2145 Woods of Elwynn
 is_city = yes
 
+owner = B15
+controller = B15
+add_core = B15
+
+religion = religion_ancestral
+culture = culture_riverpaw
+
 add_core = A01
-owner = A01
-controller = A01
 
 base_tax = 1
 base_manpower = 1

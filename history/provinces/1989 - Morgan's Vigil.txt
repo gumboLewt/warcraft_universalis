@@ -5,14 +5,12 @@ base_tax = 4
 base_manpower = 5
 base_production = 4
 
-owner = F61
-controller = F61
-add_core = E26
-add_core = A30
-add_core = F61
+owner = E56
+controller = E56
+add_core = E56
 
-culture = culture_azerothian
-religion = religion_church_of_the_light
+culture = culture_dark_iron
+religion = religion_arcane
 
 hre = no
 trade_goods = army_supplies

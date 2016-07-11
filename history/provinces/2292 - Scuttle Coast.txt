@@ -4,18 +4,15 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
-culture = culture_makrura
-religion = religion_water
+owner = B66
+controller = B66
+add_core = B66
+culture = culture_dustwind
+religion = religion_air
 
 hre = no
-trade_goods = fish
+trade_goods = grain
 
 
-631.1.1 = { 
-	culture = culture_water
-	native_size = 1
-	native_ferocity = 10
-	native_hostileness = 10
-}
+
 

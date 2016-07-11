@@ -1,17 +1,18 @@
-# 1353 - Should be split into three provinces, Xavian, Forest Song & Dream Bough
+is_city = no
+
+base_tax = 1
+base_manpower = 1
+base_production = 1
 owner = F97
 controller = F97
 add_core = F97
-add_core = B04
-is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
 culture = culture_xavian
 religion = religion_fel
 
+
 hre = no
-trade_goods = ashenvale_lumber
-capital = "Xavian"
+trade_goods = grain
+
+
+
+

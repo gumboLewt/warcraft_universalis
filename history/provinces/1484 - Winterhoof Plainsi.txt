@@ -5,28 +5,22 @@ base_tax = 1
 base_manpower = 1
 base_production = 2
 
+owner = B20
+controller = B20
+add_core = B20
+
 culture = culture_galak
 religion = religion_ancestral
 
 hre = no
 trade_goods = fur
 
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
 
 618.1.1 = { 
 	owner = A89
 	controller = A89
 	add_core = A89
 	culture = culture_winterhoof
-}
-
-622.1.1 = {
-owner = H04
-controller = H04
-add_core = H04
-culture = culture_kolkar
 }
 
 631.1.1 = {

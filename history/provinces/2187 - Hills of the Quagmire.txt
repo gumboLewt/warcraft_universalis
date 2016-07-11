@@ -5,9 +5,12 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
+owner = B29
+controller = B29
+add_core = B29
 
-culture = culture_hakkari
-religion = religion_hakkari
+culture = culture_nerglish
+religion = religion_water
 
 hre = no
 trade_goods = fish

@@ -6,14 +6,15 @@ base_manpower = 1
 base_production = 1
 
 
-culture = culture_ghost
-religion = religion_sect_of_dragons
+owner = B97
+controller = B97
+add_core = B97
+culture = culture_axxarian
+religion = religion_fel
 
 hre = no
 trade_goods = artifacts
 
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
+
 
 

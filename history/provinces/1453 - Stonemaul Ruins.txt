@@ -5,8 +5,12 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-culture = culture_makrura
-religion = religion_water
+owner = A99
+controller = A99
+add_core = A99
+
+culture = culture_black
+religion = religion_old_gods
 
 hre = no
 trade_goods = fish
@@ -34,9 +38,4 @@ religion = religion_old_gods
 capital = "Den of Flames"
 }
 
-632.1.1 = {
-owner = xxx
-controller = xxx
-base_manpower = 2
-}
 

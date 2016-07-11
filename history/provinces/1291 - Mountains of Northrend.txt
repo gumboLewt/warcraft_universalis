@@ -1,17 +1,18 @@
 # 1291 Bouldercrag Refuge
 is_city = yes
 
-owner = G32
-controller = G32
-add_core = G32
+
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
 
-culture = culture_earthen
-religion = religion_titan
+owner = B73
+controller = B73
+add_core = B73
+culture = culture_iron
+religion = religion_old_gods
 
 hre = no
 trade_goods = workshops

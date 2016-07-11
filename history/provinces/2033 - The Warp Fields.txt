@@ -5,9 +5,11 @@ base_tax = 2
 base_manpower = 2
 base_production = 3
 
-
-culture = culture_voidwalker
-religion = religion_void
+owner = B77
+controller = B77
+add_core =  B77
+culture = culture_sethekk
+religion = religion_terokk
 
 hre = no
 trade_goods = arcane

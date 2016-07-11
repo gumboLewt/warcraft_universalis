@@ -5,16 +5,15 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
-culture = culture_fire
-religion = religion_fire
-
 hre = no
 trade_goods = warbeasts
 
-owner = E26
-controller = E26
-add_core = E26
+owner = A98
+controller = A98
+add_core = A98
+
+culture = culture_silithid
+religion = religion_old_gods
 
 
 

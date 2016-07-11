@@ -5,6 +5,9 @@ base_tax = 5
 base_manpower = 5
 base_production = 5
 
+owner = A49
+controller = A49
+add_core = A49
 culture = culture_bladespire
 religion = religion_geomancy
 

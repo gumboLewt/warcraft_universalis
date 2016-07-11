@@ -1,14 +1,14 @@
-owner = E10
-controller = E10
-add_core = E10
 is_city = yes
 
 base_tax = 4
 base_manpower = 4
 base_production = 4
 
-culture = culture_zoram
-religion = religion_old_gods
+owner = B30
+controller = B30
+add_core = B30
+culture = culture_nerglish
+religion = religion_water
 
 hre = no
 trade_goods = artifacts
