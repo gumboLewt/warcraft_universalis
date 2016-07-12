@@ -307,7 +307,7 @@
  #-----------------------------------------------
  # Diplomatic Actions
  #-----------------------------------------------
- WOW_IS_COMPATIBLE: "We are not diplomatically compatible."
+ WOW_DIPLOMATICALLY_INCOMPATIBLE: "We are not diplomatically compatible."
  
  #-----------------------------------------------
  # Buildings

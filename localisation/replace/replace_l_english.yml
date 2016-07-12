@@ -2,6 +2,10 @@
  # Place lines from vanilla localisations files that you want to override in here
  WORLD_YEAR: "$YEAR$ K.C."
  
+ # Trade Goods
+ grain: "Farms"
+ fur: "Hides"
+ 
  # Advisors
  philosopher: "Thinker"
  natural_scientist: "Inventor"

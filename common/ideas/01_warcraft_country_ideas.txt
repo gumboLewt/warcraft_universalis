@@ -75,26 +75,84 @@ forsaken_ideas = {
 	}
 	free = yes		
 	
-	no_need_to_eat = {
+    # Absence of Hunger
+	forsaken_ideas_1 = {
 		land_maintenance_modifier = -0.20
 	}
-	azerothian_ideas_2 = {
+    # Undeath
+	forsaken_ideas_2 = {
 		global_manpower_modifier = 0.1
 	}
-	compromise_to_survive = {
+    # Horde Connections
+	forsaken_ideas_3 = {
 		diplomats = 1
 	}
-	thirst_for_vengence = {
+    # Unwavering Loyalty
+	forsaken_ideas_4 = {
 		land_morale = 0.05
 	}
-	raise_ships_from_the_sea = {
-		global_ship_recruit_speed = -0.1
+    # Distant Allies
+	forsaken_ideas_5 = {
+		global_ship_recruit_speed = -0.2
 	}
-	the_plague = {
+    # Plague Bombs
+	forsaken_ideas_6 = {
 		siege_ability = 0.05
 	}
-	inhospitable_land = {
-		hostile_attrition = 0.5
+    # Horrific Visages
+	forsaken_ideas_7 = {
+		hostile_attrition = 1
+	}
+}
+
+thunderbluff_ideas = {
+	start = {
+		tolerance_heretic = 2
+        infantry_power = 0.2
+	}
+
+	bonus = {
+		ae_impact = -0.1
+	}
+	
+	trigger = {
+		tag = F88
+	}
+	free = yes		
+	
+    # Calm Nature
+	thunderbluff_ideas_1 = {
+		diplomatic_reputation = 2
+	}
+    
+    # Coexistance
+	thunderbluff_ideas_2 = {
+		accepted_culture_threshold = -0.25
+	}
+    
+    # Braves & Hunters
+	thunderbluff_ideas_3 = {
+		global_manpower_modifier = 0.15
+	}
+    
+    # Worldkeepers
+	thunderbluff_ideas_4 = {
+		diplomatic_upkeep = 2
+	}
+    
+    # Druidic and Shamanistic Connections
+	thunderbluff_ideas_5 = {
+		religious_unity = 0.15
+	}
+    
+    # Final Homeland
+	thunderbluff_ideas_6 = {
+		enemy_core_creation = 0.25
+	}
+    
+    # Warrior Chieftains
+	thunderbluff_ideas_7 = {
+		leader_land_shock = 1
 	}
 }
 

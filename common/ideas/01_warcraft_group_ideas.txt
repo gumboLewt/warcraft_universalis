@@ -1468,12 +1468,13 @@ centaur_ideas = {
 }
 
 furbolg_ideas = {
-	start = {
-		
+	start = {   
+		hostile_attrition = 2
+        global_colonial_growth = 25
 	}
 
 	bonus = {
-		
+		leader_land_shock = 1
 	}
 	
 	trigger = {
@@ -1481,26 +1482,34 @@ furbolg_ideas = {
 	}
 	free = yes		
 	
+    # Fury of the Furbolgs
 	furbolg_ideas_1 = {
-	
+        infantry_power = 0.1
 	}
+    # Strength through Unity
 	furbolg_ideas_2 = {
-	
+        global_unrest = -1
 	}
+    # Furbolg Nature
 	furbolg_ideas_3 = {
-	
+        heir_chance = 0.5
 	}
+    # Love of Our Land
 	furbolg_ideas_4 = {
-	
+        core_creation = -0.1
 	}
+    # Strong Chieftains
 	furbolg_ideas_5 = {
-	
+        legitimacy = 1
+        republican_tradition = 0.01
 	}
+    # Shamanistic Rituals
 	furbolg_ideas_6 = {
-	
+        missionaries = 1
 	}
+    # Masters of the Land
 	furbolg_ideas_7 = {
-	
+        leader_land_manuever = 1
 	}
 }
 
@@ -2092,11 +2101,12 @@ arrakoa_ideas = {
 
 tuskarr_ideas = {
 	start = {
-		
+		diplomatic_reputation = 2
+        global_colonial_growth = 20
 	}
 
 	bonus = {
-		
+		cavalry_power = 0.2
 	}
 	
 	trigger = {
@@ -2104,26 +2114,33 @@ tuskarr_ideas = {
 	}
 	free = yes		
 	
-	tuskarr_ideas_1 = {
-	
+    # Great Whale Hunts
+	tuskarr_ideas_1 = { 
+        production_efficiency = 0.2
 	}
+    # Social Laws
 	tuskarr_ideas_2 = {
-	
+        global_unrest = -2
 	}
+    # Shamanistic Rights
 	tuskarr_ideas_3 = {
-	
+        stability_cost_modifier = -0.2
 	}
+    # Ancestral Villages
 	tuskarr_ideas_4 = {
-	
+        enemy_core_creation = 1
 	}
+    # Heart and Home
 	tuskarr_ideas_5 = {
-	
+        land_morale = 0.15
 	}
+    # Whale Bone Architecture
 	tuskarr_ideas_6 = {
-	
+        development_cost = -0.1
 	}
+    # Fishing Extraordinaires
 	tuskarr_ideas_7 = {
-	
+        core_creation = -0.1
 	}
 }
 
@@ -2651,43 +2668,6 @@ void_ideas = {
 	
 	}
 	void_ideas_7 = {
-	
-	}
-}
-
-flayer_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-		
-	}
-	
-	trigger = {
-		culture_group = culture_group_flayer
-	}
-	free = yes		
-	
-	flayer_ideas_1 = {
-	
-	}
-	flayer_ideas_2 = {
-	
-	}
-	flayer_ideas_3 = {
-	
-	}
-	flayer_ideas_4 = {
-	
-	}
-	flayer_ideas_5 = {
-	
-	}
-	flayer_ideas_6 = {
-	
-	}
-	flayer_ideas_7 = {
 	
 	}
 }

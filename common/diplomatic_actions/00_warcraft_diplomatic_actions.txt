@@ -63,107 +63,11 @@
 # support_heir
 
 offer_condottieri = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
+    
 }
 
 sell_ships_action = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
+    
 }
 
 designate_march = {
@@ -183,7 +87,7 @@ designate_march = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -212,7 +116,7 @@ designate_march = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -236,7 +140,7 @@ ask_for_march = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -265,7 +169,7 @@ ask_for_march = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -288,7 +192,7 @@ support_heir = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -317,7 +221,7 @@ support_heir = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -341,7 +245,7 @@ ask_for_protection_action = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -370,7 +274,7 @@ ask_for_protection_action = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -393,7 +297,7 @@ protectorateaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -422,7 +326,7 @@ protectorateaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -445,7 +349,7 @@ invite_to_federation = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -474,7 +378,7 @@ invite_to_federation = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -497,7 +401,7 @@ request_to_join_federation = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -526,62 +430,14 @@ request_to_join_federation = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
 }
 
 transfer_trade_power = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
+    
 }
 
 enforce_peace = {
@@ -601,7 +457,7 @@ enforce_peace = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -630,7 +486,7 @@ enforce_peace = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -653,7 +509,7 @@ sellprov = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -682,7 +538,7 @@ sellprov = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -705,7 +561,7 @@ warsubsidy = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -734,7 +590,7 @@ warsubsidy = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -757,7 +613,7 @@ callaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -786,270 +642,30 @@ callaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
 }
 
 offermilaccess = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
+    
 }
 
 offer_fleet_access = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
+    
 }
 
 milaccess = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
+    
 }
 
 fleet_access = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
+    
 }
 
 support_independence_action = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
-            }
-		}
-	}
+    
 }
 
 vassalaction = {
@@ -1069,7 +685,7 @@ vassalaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -1098,7 +714,7 @@ vassalaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -1121,7 +737,7 @@ royal_marriage = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -1150,7 +766,7 @@ royal_marriage = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -1173,7 +789,7 @@ improve_relation = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -1202,7 +818,7 @@ improve_relation = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -1225,7 +841,7 @@ guaranteeaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -1254,7 +870,7 @@ guaranteeaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -1277,7 +893,7 @@ allianceaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
@@ -1306,7 +922,7 @@ allianceaction = {
                 }
             }
             custom_trigger_tooltip = {
-                tooltip = WOW_IS_COMPATIBLE
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
             }
 		}
 	}
