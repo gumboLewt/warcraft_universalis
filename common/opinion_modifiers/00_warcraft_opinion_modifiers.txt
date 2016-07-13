@@ -55,3 +55,7 @@ raided_by_orcs = {
     yearly_decay = 2
     max_opinion = -200
 }
+
+dubious_dealings = {
+    opinion = 50
+}

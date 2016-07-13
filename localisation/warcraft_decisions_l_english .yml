@@ -5,6 +5,7 @@
  encourage_bloodlust_title: "Encourage Bloodlust"
  encourage_bloodlust_desc: "We ache for war, let us raid our non-orc neighbours more often to sate the bloodlust."
 
+
  #-----------------------------------------------
  # Conquest
  #-----------------------------------------------
@@ -135,6 +136,12 @@
  theramore_nation_desc: "Build a great human-elven-dwarven country on eastern shores of Kalimdor"
  
  #-----------------------------------------------
+ # Dragonflights
+ #-----------------------------------------------
+ unleash_the_power_of_the_dragonflight_title: "Unleash the Power of the Dragonflight"
+ unleash_the_power_of_the_dragonflight_desc: "Our lands are under threat from an outside force. Let us rouse the guardians and eliminate the invaders quickly."
+ 
+ #-----------------------------------------------
  # Arcane 
  #-----------------------------------------------
  conjure_administrative_title: "Conjure: Administrative"
@@ -143,4 +150,11 @@
  conjure_military_desc: "We choose a military way of problem-solving. It is truly glorious, but better be sure if you still can contain your arcane might in check"
  conjure_diplomatic_title: "Conjure: Diplomatic"
  conjure_diplomatic_desc: "We choose a diplomatic way of problem-solving. It is truly glorious, but better be sure if you still can contain your arcane might in check"
+ 
+ #-----------------------------------------------
+ # Fate
+ #-----------------------------------------------
+ remove_wrath_of_fate_title: "Divert Destiny"
+ remove_wrath_of_fate_desc: "As a player, we can change the fated destiny of our nation."
+
  

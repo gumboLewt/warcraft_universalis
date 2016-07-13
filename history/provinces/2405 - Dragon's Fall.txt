@@ -1,4 +1,4 @@
-is_city = no
+is_city = yes
 
 base_tax = 1
 base_manpower = 1
@@ -13,6 +13,10 @@ religion = religion_old_gods
 hre = no
 trade_goods = grain
 
-
+632.1.1 = {
+    owner = XXX
+    controller = XXX
+    remove_core = A99
+}
 
 

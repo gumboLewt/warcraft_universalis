@@ -15,14 +15,15 @@ religion = religion_old_gods
 hre = no
 trade_goods = mounts
 
-
-
-
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = XXX
-controller = XXX
-remove_core = A43
-culture = culture_bog_beast 
-religion = religion_druidic
+    owner = XXX
+    controller = XXX
+    remove_core = A43
+    culture = culture_bog_beast 
+    religion = religion_druidic
+}
+
+632.1.1 = {
+    remove_core = A99
 }

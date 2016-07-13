@@ -26,6 +26,10 @@ capital 			= 931
 			siege = 4
 		}
 	}
+    add_country_modifier = {
+        name = gift_of_fate
+        duration = 3650
+    }
 }
 
 620.6.1 = {

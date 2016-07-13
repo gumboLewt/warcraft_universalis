@@ -15,28 +15,25 @@ religion = religion_fire
 hre = no
 trade_goods = flying_mounts
 
-
-
-
 # Fall of Stormwind
 597.1.1 = {
-owner = A41
-controller = A41
-add_core = A41
-culture = culture_blackrock
-religion = religion_fel
+    owner = A41
+    controller = A41
+    add_core = A41
+    culture = culture_blackrock
+    religion = religion_fel
 }
 
 # The Third War
 617.1.1 = {
-add_core = A99
-culture = culture_black
-religion = religion_old_gods
+    add_core = A99
+    culture = culture_black
+    religion = religion_old_gods
 }
 
 632.1.1 = {
-add_core = B06
-remove_core = A99
-culture = culture_twilight_dragon
-religion = religion_fel
+    add_core = B06
+    remove_core = A99
+    culture = culture_twilight_dragon
+    religion = religion_fel
 }

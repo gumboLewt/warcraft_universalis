@@ -15,12 +15,9 @@ religion = religion_old_gods
 hre = no
 trade_goods = fossils
 
-
-
-
-
 626.1.1 = { 
-add_core = E11
-owner = E11
-culture = culture_scourge
-religion = religion_the_damned }
+    add_core = E11
+    owner = E11
+    culture = culture_scourge
+    religion = religion_the_damned 
+}

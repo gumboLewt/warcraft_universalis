@@ -1,0 +1,41 @@
+country_decisions = {
+    unleash_the_power_of_the_dragonflight = {
+        major = yes
+        potential = {
+            technology_group = tech_dragonkin
+        }
+        allow = {
+            technology_group = tech_dragonkin
+            any_owned_province = {
+                has_siege = yes
+            }
+            mil_power = 100
+            NOT = { has_country_modifier = unleashed_the_power_of_the_dragonflight }
+        }
+        effect = {
+            add_mil_power = -100
+            add_country_modifier = {
+                name = unleashed_the_power_of_the_dragonflight
+                duration = 365
+            }
+            every_owned_province = {
+                limit = { has_siege = yes }
+                kill_units = {
+                    who = enemy
+                }
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            # If the player is at war with this country, then don't use this (looks unfair to the player :P)
+            modifier = {
+                any_country = {  
+                    war_with = PREV
+                    ai = no
+                }
+                factor = 0
+            }
+        }
+    }
+}

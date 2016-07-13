@@ -17,15 +17,17 @@ trade_goods = fish
 
 
 631.1.1 = { 
-controller = A80
-owner = A80
-add_core = A80
-culture = culture_steamwheedle
-religion = religion_tech
-base_tax = 3
-base_manpower = 3
-base_production = 3
-is_city = yes
+    controller = A80
+    owner = A80
+    add_core = A80
+    culture = culture_steamwheedle
+    religion = religion_tech
+    base_tax = 3
+    base_manpower = 3
+    base_production = 3
+    is_city = yes
 }
 
-
+632.1.1 = {
+    remove_core = A99
+}

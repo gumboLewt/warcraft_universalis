@@ -8,11 +8,31 @@ primary_culture 	= culture_blue
 capital 			= 1
 
 546.1.1 = { 
-monarch = { 
-     name = "Malygos" 
-     dynasty = "the Spellweaver" 
+    monarch = { 
+        name = "Malygos" 
+        dynasty = "the Spellweaver" 
+        adm = 5
+        dip = 5
+		mil = 4
+ 	} 
+} 
+ 
+# Cataclysm
+631.1.1 = { 
+    monarch = { 
+        name = "Arygos" 
+		adm = 4
+		dip = 4
+		mil = 4
+ 	} 
+ } 
+ 
+# Mists of Panadaria
+632.1.1 = { 
+    monarch = { 
+        name = "Kalecgos" 
 		adm = 5
 		dip = 5
-		mil = 4
+		mil = 3
  	} 
  } 

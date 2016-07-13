@@ -39,7 +39,7 @@ trade_goods = flying_mounts
 	controller = xxx
 	revolt = {
 		type = nationalist_rebels
-		size = 0
+		size = 1
 	}
 	base_manpower = 2
 }

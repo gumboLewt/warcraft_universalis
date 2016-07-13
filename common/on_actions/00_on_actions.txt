@@ -312,7 +312,12 @@ on_colonial_pulse = {
 
 # country random events
 on_bi_yearly_pulse = {
-	
+	random_events = {
+        100 = wow_outland.1
+        100 = wow_outland.2
+        100 = wow_outland.3
+        1000 = 0
+    }
 }
 
 on_bi_yearly_pulse_2 = {
@@ -386,7 +391,8 @@ on_five_year_pulse = {
 # random_otherworld
 on_five_year_pulse_2 = {
     random_events = {
-
+        100 = random_savage.1
+        
         1000 = 0
     }
 }

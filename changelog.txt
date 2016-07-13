@@ -1,0 +1,18 @@
+# Added union of the Black Dragonflight over the Twilight Dragonflight from the Cataclysm onwards
+# Added Bloodsail control of the proper Plunder Isle
+# Removed Bloodsail control of Farson Hold at Cataclysm and onwards
+# Added Blue Dragonflight leadership changes (Arygos and Kalecgos)
+# Removed all instances of the Black Dragonflight after the Mist of Pandaria start date
+# Added the Anglers to Angler's Wharf during the Mist of Pandaria start date
+# Added the Argent Crusade to Scourgeholme after the Cataclysm start date
+# Added war between Red Dragonflight and Scourge during Wrath of the Lich King
+# Added modifier buff to nations that should stay alive, called "Gift of Fate"
+# Added modifier nerf to nations that should decline, called "Wrath of Fate"
+# Added alliance events for Sunfury, Coilscar and Illidari, allowing them to ally with each easily.
+# Added "Gift of Fate" to Silvermoon and the Forsaken
+# Added adjacencies to Ango'Rosh Stronghold (to Ango'rosh Grounds) and Socrethar's Seat (to Forge Base Oblivion)
+# Added the "Warlust" event for savages, meaning they must randomly go to war or suffer negative effects (mainly used for the AI). Only fires whilst not at war.
+# Added movement speed boost for the Dark Portal provinces
+# Added the "Power of the Dragons" triggered modifier, giving the Dragonflights bonuses whilst above negative stability.
+# Added the "Unleash the Power of the Dragonflight" decision for Dragonflights. Allows them to instantly kill enemies whom are sieging their provinces. Has a cooldown of a year. 
+# Added monarchs for several Titan nations

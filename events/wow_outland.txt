@@ -1,0 +1,233 @@
+namespace = wow_outland
+
+# Dubious Dealings with Naga
+# Our foes gather there strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause, if only for their own gain, to better ourselves and our situation.
+# Make a pact
+# Remain alone
+
+# A93 - Sunfury
+# E02 - Coilscar
+# B87 - Illidari
+country_event = {
+	id = wow_outland.1
+	title = wow_outland.1.title
+	desc = wow_outland.1.desc
+	picture = KAELTHAS_CLOSE_eventPicture
+
+    is_triggered_only = yes
+
+	trigger = {
+        OR = {
+            tag = A93
+            tag = B87
+        }
+        NOT = { alliance_with = E02 }
+        NOT = { is_rival = E02 }
+        exits = E02
+	}
+
+	option = {
+		name = wow_outland.1.option.a
+
+        create_alliance = E02
+        
+        add_opinion = {
+            who = E02
+            modifier = dubious_dealings
+        }
+        
+        E02 = {
+            add_opinion = {
+                who = ROOT
+                modifier = dubious_dealings
+            }
+        }
+        
+        # Increase chance they keep alliance
+        if = {
+            limit = {
+                ai = yes
+            }
+            add_country_modifier = {
+                name = outland_evil_allies
+                duration = 3650
+            }
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+    
+    option = {
+		name = wow_outland.1.option.b
+
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Dubious Dealings with Sunfury
+country_event = {
+	id = wow_outland.2
+	title = wow_outland.2.title
+	desc = wow_outland.2.desc
+	picture = KAELTHAS_CLOSE_eventPicture
+
+    is_triggered_only = yes
+
+	trigger = {
+        OR = {
+            tag = E02
+            tag = B87
+        }
+        NOT = { alliance_with = A93 }
+        NOT = { is_rival = A93 }
+        exists = A93
+	}
+
+	option = {
+		name = wow_outland.2.option.a
+
+        create_alliance = A93
+        
+        add_opinion = {
+            who = A93
+            modifier = dubious_dealings
+        }
+        
+        A93 = {
+            add_opinion = {
+                who = ROOT
+                modifier = dubious_dealings
+            }
+        }
+        
+        # Increase chance they keep alliance
+        if = {
+            limit = {
+                ai = yes
+            }
+            add_country_modifier = {
+                name = outland_evil_allies
+                duration = 3650
+            }
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+    
+    option = {
+		name = wow_outland.2.option.b
+
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Dubious Dealings with Illidari
+country_event = {
+	id = wow_outland.3
+	title = wow_outland.3.title
+	desc = wow_outland.3.desc
+	picture = KAELTHAS_CLOSE_eventPicture
+
+    is_triggered_only = yes
+
+	trigger = {
+        OR = {
+            tag = E02
+            tag = A93
+        }
+        NOT = { alliance_with = B87 }
+        exists = B87
+        NOT = { is_rival = B87 }
+	}
+
+	option = {
+		name = wow_outland.3.option.a
+
+        create_alliance = B87
+        
+        add_opinion = {
+            who = B87
+            modifier = dubious_dealings
+        }
+        
+        B87 = {
+            add_opinion = {
+                who = ROOT
+                modifier = dubious_dealings
+            }
+        }
+        
+        # Increase chance they keep alliance
+        if = {
+            limit = {
+                ai = yes
+            }
+            add_country_modifier = {
+                name = outland_evil_allies
+                duration = 3650
+            }
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+    
+    option = {
+		name = wow_outland.3.option.b
+
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Legion Reinforcements
+# Our reserves are unending, and our will is unbreakable. Let us summon more demons to help us with this war.
+# Summon them!
+# Hold off
+country_event = {
+	id = wow_outland.4
+	title = wow_outland.4.title
+	desc = wow_outland.4.desc
+	picture = DARK_PORTAL_CLOSEUP_eventPicture
+
+    is_triggered_only = yes
+
+	trigger = {
+        tag = B92
+	}
+
+	option = {
+		name = wow_outland.3.option.a
+
+        capital_scope = {
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT
+            infantry = ROOT 
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+    
+    option = {
+		name = wow_outland.3.option.b
+
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+

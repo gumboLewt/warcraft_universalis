@@ -20,8 +20,10 @@ trade_goods = pirates
 
 
 # The Frozen Throne
-618.1.1 = { owner = A15
-controller = A15
-add_core = A15
-religion = religion_church_of_the_light
-culture = culture_kul_tiran}
+618.1.1 = { 
+    owner = A15
+    controller = A15
+    add_core = A15
+    religion = religion_church_of_the_light
+    culture = culture_kul_tiran
+}

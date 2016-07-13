@@ -15,32 +15,29 @@ religion = religion_old_gods
 hre = no
 trade_goods = lumber
 
-
-
-
 # The Second War
 598.1.1 = { 
-owner = A43
-controller = A43
-add_core = A43
-culture = culture_twilights_hammer
-religion = religion_fel 
+    owner = A43
+    controller = A43
+    add_core = A43
+    culture = culture_twilights_hammer
+    religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = XXX
-controller = XXX
-remove_core = A43
-culture = culture_bog_beast 
-religion = religion_druidic
+    owner = XXX
+    controller = XXX
+    remove_core = A43
+    culture = culture_bog_beast 
+    religion = religion_druidic
 }
 
 # Cataclysm
 631.1.1 = { 
-owner = A94
-controller = A94
-add_core = A94
-culture = culture_cenarion
-religion = religion_druidic 
+    owner = A94
+    controller = A94
+    add_core = A94
+    culture = culture_cenarion
+    religion = religion_druidic 
 }

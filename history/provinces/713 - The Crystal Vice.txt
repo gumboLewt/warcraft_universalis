@@ -15,5 +15,9 @@ religion = religion_old_gods
 hre = no
 trade_goods = titanium
 
-
+632.1.1 = {
+    owner = XXX
+    controller = XXX
+    removE_core = A99
+}
 

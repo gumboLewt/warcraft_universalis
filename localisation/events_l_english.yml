@@ -8,6 +8,29 @@
  WARCRAFT_TIRISFAL.1.option.b: "I don't trust mages! Let the world know that we can do it ourselves..."
  
  #-----------------------------------------------
+ # Outland
+ #-----------------------------------------------
+ wow_outland.1.title: "Dubious Dealings with Coilscar"
+ wow_outland.1.desc: "Our foes gather there strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause, if only for their own gain, to better ourselves and our situation."
+ wow_outland.1.option.a: "Make a pact"
+ wow_outland.1.option.b: "Remain alone"
+ 
+ wow_outland.2.title: "Dubious Dealings with Sunfury"
+ wow_outland.2.desc: "Our foes gather there strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause, if only for their own gain, to better ourselves and our situation."
+ wow_outland.2.option.a: "Make a pact"
+ wow_outland.2.option.b: "Remain alone"
+ 
+ wow_outland.3.title: "Dubious Dealings with Illidari"
+ wow_outland.3.desc: "Our foes gather there strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause, if only for their own gain, to better ourselves and our situation."
+ wow_outland.3.option.a: "Make a pact"
+ wow_outland.3.option.b: "Remain alone"
+ 
+ wow_outland.4.title: "Legion Reinforcements"
+ wow_outland.4.desc: "Our reserves are unending, and our will is unbreakable. Let us summon more demons to help us with this war."
+ wow_outland.4.option.a: "Summon them!"
+ wow_outland.4.option.b: "Hold off"
+
+ #-----------------------------------------------
  # Buildings
  #-----------------------------------------------
  building_events.1.title: "Prosperous Locals in [Root.GetName]"
@@ -388,6 +411,14 @@
  
  battles_capital_control: "Capital Control"
  desc_battles_capital_control: "We control our enemies capital. They will capitulate to almost any demand."
+ 
+ #-----------------------------------------------
+ # Savage
+ #-----------------------------------------------
+ random_savage.1.title: "Warlust"
+ random_savage.1.desc: "Our citizens ache for war, and we must deliver it to them, lest they turn on their leaders. Denying them this right will result in massive unrest."
+ random_savage.1.option.a: "Attack!"
+ random_savage.1.option.b: "We must wait!"
  
  
  

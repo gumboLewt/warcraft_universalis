@@ -10,6 +10,27 @@ scourge_mindlessness = {
 	tolerance_own = 100
 }
 
+power_of_the_dragons = {
+	potential = {
+		technology_group = tech_dragonkin
+	}
+	
+	trigger = {
+		technology_group = tech_dragonkin
+        stability = 0
+	}
+	
+	discipline = 0.1
+    land_morale = 0.1
+    infantry_power = 0.1
+    artillery_power = 0.1
+    cavalry_power = 0.1
+    
+    siege_ability = 0.25
+    
+    global_tax_income = 64
+}
+
 # Faction Relations
 horde_enemy = {
 	potential = {
