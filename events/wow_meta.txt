@@ -313,7 +313,7 @@ country_event = {
             limit = {
 			    OR = {
                    capital_scope = {
-                    continent = continent_maelstrom
+                        continent = continent_maelstrom
                    }
 				   AND = {
 				        capital_scope = {
@@ -441,6 +441,20 @@ country_event = {
             }
             
             pandaria_provincegroup = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+            
+            south_seas_provincegroup = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
+            
+            central_seas = {
                 
                 ROOT = {
                     discover_province = PREV
