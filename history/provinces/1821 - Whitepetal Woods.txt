@@ -12,15 +12,13 @@ base_production = 3
 culture = culture_golden_lotus
 religion = religion_celestial
 
-hre = no
+hre = yes
 trade_goods = lumber
 
-
-
-
 # Warlords of Draenor
-633.1.1 = { owner = XXX
-controller = XXx
-religion = religion_old_gods
+633.1.1 = { 
+    owner = XXX
+    controller = XXX
+    religion = religion_old_gods
 }
 

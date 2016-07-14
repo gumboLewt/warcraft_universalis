@@ -12,7 +12,7 @@ base_production = 4
 culture = culture_shao_tien
 religion = religion_titan
 
-hre = no
+hre = yes
 trade_goods = artifacts
 
 

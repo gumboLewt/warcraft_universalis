@@ -13,24 +13,20 @@ base_production = 3
 culture = culture_jinyu
 religion = religion_celestial
 
-hre = no
+hre = yes
 trade_goods = fish
 
-
-
-
-
 632.1.1 = {
-owner = E68
-controller = E68
-add_core = E68
-culture = culture_forest_hozen
+    owner = E68
+    controller = E68
+    add_core = E68
+    culture = culture_forest_hozen
 }
 
 # Warlords of Draenor
 633.1.1 = { 
-owner = E70
-controller = E70
-remove_core = E68
-culture = culture_jinyu
+    owner = E70
+    controller = E70
+    remove_core = E68
+    culture = culture_jinyu
 }

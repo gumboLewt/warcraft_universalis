@@ -12,19 +12,16 @@ add_core = E41
 culture = culture_korune
 religion = religion_titan
 
-hre = no
+hre = yes
 trade_goods = fur
 
-
-
-
 632.1.1 = {
-owner = E89
-controller = E89
-add_core = E89
-culture = culture_ruqin
-religion = religion_fire
-trade_goods = oil
+    owner = E89
+    controller = E89
+    add_core = E89
+    culture = culture_ruqin
+    religion = religion_fire
+    trade_goods = oil
 }
 
 

@@ -14,17 +14,14 @@ base_production = 3
 culture = culture_red_crane
 religion = religion_celestial
 
-hre = no
+hre = yes
 trade_goods = fish
 
-
-
-
 632.1.1 = {
-owner = E69
-controller = E69
-add_core = E69
-culture = culture_forest_hozen
-trade_goods = pirates
+    owner = E69
+    controller = E69
+    add_core = E69
+    culture = culture_forest_hozen
+    trade_goods = pirates
 }
 

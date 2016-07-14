@@ -178,14 +178,14 @@ on_weak_heir_claim = {
 # Emperor from same dynasty
 on_successive_emperor = {
 	events = {
-		
+		pandaren_empire.5
 	}
 }
 
 # HRE Prince released by the emperor
 on_released_hre_member = {
 	events = {
-		
+		pandaren_empire.6
 	}
 }
 
@@ -213,35 +213,35 @@ on_hre_wins_defensive_war = {
 # HRE member annexed by non-HRE country
 on_hre_member_annexed = {
 	events = {
-		
+		pandaren_empire.10
 	}
 }
 
 # HRE member released from non-HRE vassalage
 on_hre_released_vassal = {
 	events = {
-		
+		pandaren_empire.11
 	}
 }
 
 # Emperor coming to the defense of a HRE member
 on_hre_defense = {
 	events = {
-		
+		pandaren_empire.12
 	}
 }
 
 # Emperor NOT coming to the defense of a HRE member
 on_hre_non_defense = {
 	events = {
-		
+		pandaren_empire.13
 	}
 }
 
 # HRE Member takes a HRE province from an outs100e country in a peace (province scope)
 on_hre_province_reconquest = {
 	events = {
-		
+		pandaren_empire.14
 	}
 }
 

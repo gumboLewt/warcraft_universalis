@@ -12,16 +12,14 @@ base_production = 6
 culture = culture_shao_tien
 religion = religion_titan
 
-hre = no
+hre = yes
 trade_goods = artifacts
 
-
-
-
 # Warlords of Draenor
-633.1.1 = { owner = XXX
-controller = XXX
-religion = religion_old_gods
+633.1.1 = {     owner = XXX
+    controller = XXX
+    religion = religion_old_gods
+
 }
 
 

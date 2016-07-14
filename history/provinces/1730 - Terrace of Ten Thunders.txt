@@ -13,7 +13,7 @@ base_production = 3
 culture = culture_gormali
 religion = religion_titan
 
-hre = no
+hre = yes
 trade_goods = artifacts
 
 

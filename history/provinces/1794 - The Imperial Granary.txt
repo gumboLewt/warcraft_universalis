@@ -13,7 +13,7 @@ base_production = 3
 culture = culture_red_crane
 religion = religion_celestial
 
-hre = no
+hre = yes
 trade_goods = grain_silo
 
 

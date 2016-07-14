@@ -13,7 +13,7 @@ base_production = 3
 culture = culture_jade_serpent
 religion = religion_celestial
 
-hre = no
+hre = yes
 trade_goods = stone
 
 

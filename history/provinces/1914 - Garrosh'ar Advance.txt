@@ -12,23 +12,20 @@ add_core = E41
 culture = culture_korune
 religion = religion_titan
 
-hre = no
+hre = yes
 trade_goods = fur
 
-
-
-
 632.1.1 = {
-owner = A48
-controller = A48
-add_core = A48
-religion = religion_ancestral
-culture = culture_horde
+    owner = A48
+    controller = A48
+    add_core = A48
+    religion = religion_ancestral
+    culture = culture_horde
 }
 
 # Warlords of Draenor
 633.1.1 = {
-owner = XXX
-controller = XXX
-remove_core = A48
+    owner = XXX
+    controller = XXX
+    remove_core = A48
 }

@@ -13,24 +13,21 @@ base_production = 3
 culture = culture_riverblade
 religion = religion_voodoo
 
-hre = no
+hre = yes
 trade_goods = fish
 
-
-
-
 632.1.1 = { 
-owner = A88
-controller = A88
-add_core = A88
-culture = culture_dawnstrider
-religion = religion_ancestral
+    owner = A88
+    controller = A88
+    add_core = A88
+    culture = culture_dawnstrider
+    religion = religion_ancestral
 }
 
 632.1.1 = { 
-owner = E83
-controller = E83
-add_core = E83
-culture = culture_riverblade
-religion = religion_voodoo
+    owner = E83
+    controller = E83
+    add_core = E83
+    culture = culture_riverblade
+    religion = religion_voodoo
 }

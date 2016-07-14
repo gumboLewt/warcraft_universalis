@@ -16,3 +16,4 @@
 # Added the "Power of the Dragons" triggered modifier, giving the Dragonflights bonuses whilst above negative stability.
 # Added the "Unleash the Power of the Dragonflight" decision for Dragonflights. Allows them to instantly kill enemies whom are sieging their provinces. Has a cooldown of a year. 
 # Added monarchs for several Titan nations
+# Added the HRE mechanic for Pandaria.

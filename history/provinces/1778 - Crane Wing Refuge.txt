@@ -13,7 +13,7 @@ base_production = 3
 culture = culture_riverblade
 religion = religion_voodoo
 
-hre = no
+hre = yes
 trade_goods = fish
 
 

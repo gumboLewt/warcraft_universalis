@@ -13,16 +13,13 @@ base_production = 3
 culture = culture_white_tiger
 religion = religion_celestial
 
-hre = no
+hre = yes
 trade_goods = grain
 
-
-
-
 632.1.1 = {
-owner = E35
-controller = E35
-add_core = E35
-remove_core = E66
+    owner = E35
+    controller = E35
+    add_core = E35
+    remove_core = E66
 }
 

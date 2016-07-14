@@ -13,27 +13,23 @@ base_production = 4
 culture = culture_gormali
 religion = religion_titan
 
-hre = no
+hre = yes
 trade_goods = army_supplies
 
-
-
-
-
 632.1.1 = { 
-owner = A48
-controller = A48
-add_core = A48
-add_core = E14
-culture = culture_horde
-religion = religion_ancestral
+    owner = A48
+    controller = A48
+    add_core = A48
+    add_core = E14
+    culture = culture_horde
+    religion = religion_ancestral
 }
 
 # Warlords of Draenor
 633.1.1 = { 
-owner = XXX
-controller = XXX
-remove_core = A48
-remove_core = E14
+    owner = XXX
+    controller = XXX
+    remove_core = A48
+    remove_core = E14
 }
 

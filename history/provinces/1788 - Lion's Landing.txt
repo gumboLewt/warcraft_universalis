@@ -11,19 +11,16 @@ owner = E81
 controller = E81
 add_core = E81
 
-hre = no
+hre = yes
 trade_goods = army_supplies
 
-
-
-
 632.1.1 = { 
-owner = A01
-controller = A01
-add_core = A01
-add_core = A79
-culture = culture_azerothian
-religion = religion_church_of_the_light
+    owner = A01
+    controller = A01
+    add_core = A01
+    add_core = A79
+    culture = culture_azerothian
+    religion = religion_church_of_the_light
 }
 
 

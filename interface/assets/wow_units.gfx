@@ -4,9 +4,9 @@ objectTypes = {
     
     # Human
 	pdxmesh = {
-		name = "mesh_human_farmer"
-		file = "gfx/models/wow/units/human_farmer.mesh"	
-		scale = 1
+		name = "mesh_human_warrior"
+		file = "gfx/models/wow/units/worgen_male.mesh"	
+		scale = 10
 	}
     
     pdxmesh = {

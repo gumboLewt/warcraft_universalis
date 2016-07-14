@@ -14,7 +14,7 @@ culture = culture_jade_serpent
 religion = religion_celestial
 
 
-hre = no
+hre = yes
 trade_goods = artifacts
 
 

@@ -12,19 +12,16 @@ controller = E83
 add_core = E83
 
 
-hre = no
+hre = yes
 trade_goods = tropical_wood
 
-
-
-
 632.1.1 = { 
-owner = A94
-controller = A94
-add_core = A94
-culture = culture_sentinel
-religion = religion_elune
-capital = "Sentinel Basecamp"
+    owner = A94
+    controller = A94
+    add_core = A94
+    culture = culture_sentinel
+    religion = religion_elune
+    capital = "Sentinel Basecamp"
 }
 
 

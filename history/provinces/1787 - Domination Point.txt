@@ -11,17 +11,14 @@ owner = E83
 controller = E83
 add_core = E83
 
-hre = no
+hre = yes
 trade_goods = army_supplies
 
-
-
-
 632.1.1 = { 
-owner = A48
-controller = A48
-add_core = A48
-culture = culture_horde
-religion = religion_ancestral
+    owner = A48
+    controller = A48
+    add_core = A48
+    culture = culture_horde
+    religion = religion_ancestral
 }
 

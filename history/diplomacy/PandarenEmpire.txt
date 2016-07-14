@@ -1,0 +1,2 @@
+546.1.1 = { emperor = E37 } # Shado-pan
+
