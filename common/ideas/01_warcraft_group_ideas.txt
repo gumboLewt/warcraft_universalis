@@ -387,13 +387,14 @@ darnassian_ideas = {
     }
 }
 
+#realized halfway through that there are no highbourne in Eldre'Thalas/Dire Maul so I don’t really know where to go with on these and left their names blank
 highbourne_ideas = {
 	start = {
-		
+		legitimacy = 1
 	}
 
 	bonus = {
-		
+		prestige_decay = -0.01
 	}
 	
 	trigger = {
@@ -401,36 +402,44 @@ highbourne_ideas = {
 	}
 	free = yes		
 	
+	
 	highbourne_ideas_1 = {
-	
+		idea_cost = -0.05
 	}
+	
 	highbourne_ideas_2 = {
-	
+		hostile_attrition = 0.5
 	}
+	
 	highbourne_ideas_3 = {
-	
+		development_cost = -0.2
 	}
+	
 	highbourne_ideas_4 = {
-	
+		stability_cost_modifier = -0.1
 	}
+	
 	highbourne_ideas_5 = {
-	
+		defensiveness = 0.05
 	}
+	
 	highbourne_ideas_6 = {
-	
+		technology_cost = -0.05
 	}
-	highbourne_ideas_7 = {
 	
+	highbourne_ideas_7 = {
+		diplomats = 1
 	}
 }
 
 vrykul_ideas = {
 	start = {
-		
+		production_efficiency = 0.05
+		war_exhaustion_cost = -0.075
 	}
 
 	bonus = {
-		
+		religious_unity = 0.1
 	}
 	
 	trigger = {
@@ -438,26 +447,39 @@ vrykul_ideas = {
 	}
 	free = yes		
 	
+	#feared warriors
 	vrykul_ideas_1 = {
-	
+		infantry_power = 0.05
 	}
+	#people of many faiths
 	vrykul_ideas_2 = {
-	
+		tolerance_heretic = 1
+		tolerance_heathen = 1
 	}
+
+	#born to battle
 	vrykul_ideas_3 = {
-	
+		prestige_from_land = 0.5
 	}
+
+	#thirst for battle
 	vrykul_ideas_4 = {
-	
+		war_exhaustion = -0.05
 	}
+
+	#we have been awakened
 	vrykul_ideas_5 = {
-	
+		land_forcelimit_modifier = 0.1
 	}
+
+	#proto-dragon riders
 	vrykul_ideas_6 = {
-	
+		cavalry_power = 0.05
 	}
+
+	#halls of valor
 	vrykul_ideas_7 = {
-	
+		land_morale = 0.05
 	}
 }
 
@@ -589,11 +611,12 @@ the_horde_ideas = {
 
 ogre_ideas = {
 	start = {
-		
+		manpower_recovery_speed = 0.05
+		global_autonomy = -0.05
 	}
 
 	bonus = {
-		
+		core_creation = -0.05	
 	}
 	
 	trigger = {
@@ -601,36 +624,44 @@ ogre_ideas = {
 	}
 	free = yes		
 	
+	#two heads are better than one
 	ogre_ideas_1 = {
-	
+		idea_cost = -0.05
 	}
+	#brutal warriors
 	ogre_ideas_2 = {
-	
+		army_tradition = 0.5
 	}
+	#suited for any environment
 	ogre_ideas_3 = {
-	
+		hostile_attrition = 0.5
 	}
+	#fearless warriors
 	ogre_ideas_4 = {
-	
+		land_morale = 0.15
 	}
+	#descendents of the gronn
 	ogre_ideas_5 = {
-	
+		prestige = 0.5
 	}
+	#hunting parties
 	ogre_ideas_6 = {
-	
+		land_maintenance_modifier = -0.05
 	}
+	#our ogre magi
 	ogre_ideas_7 = {
-	
+		leader_land_fire = 1
 	}
 }
 
 draenei_ideas = {
 	start = {
+		enemy_core_creation = 0.25
 		
 	}
 
 	bonus = {
-		
+		colonists = 1
 	}
 	
 	trigger = {
@@ -638,26 +669,33 @@ draenei_ideas = {
 	}
 	free = yes		
 	
+	#eyes of the rangari
 	draenei_ideas_1 = {
-	
+		spy_offence = 0.1
 	}
+	#fists of the vindicators
 	draenei_ideas_2 = {
-	
+		leader_land_shock = 1
 	}
+	#faith in the light
 	draenei_ideas_3 = {
-	
+		tolerance_own = 1
 	}
+	#acceptance of our fallen brothers and sisters
 	draenei_ideas_4 = {
-	
+		accepted_culture_threshold = -0.1
 	}
+	#a new homeland
 	draenei_ideas_5 = {
-	
+		development_cost = -0.1
 	}
+	#purified by the light
 	draenei_ideas_6 = {
-	
+		global_missionary_strength = 0.02
 	}
+	#the light guides us
 	draenei_ideas_7 = {
-	
+		legitimacy = 0.5
 	}
 }
 
