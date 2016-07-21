@@ -244,6 +244,8 @@ F56 = "countries/Southvale.txt"
 B94 = "countries/Wretched.txt"
 G16 = "countries/Silver Covenant.txt"
 
+G43 = "countries/Shen'dralar.txt"
+
 # Blood Elf
 A91 = "countries/Silvermoon.txt"
 A92 = "countries/Sunreaver.txt" # tech_thalassian

@@ -612,6 +612,31 @@ gov_cult = {
 	}
 }
 
+gov_cult_shendralar = {
+	rank = {
+		1 = PETTY_CULT
+		2 = CULT
+		3 = GRAND_CULT
+	}
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+	
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+	
+	trigger = {
+		government = cult_gov
+        tag = G43
+	}
+}
+
 ########################
 # Nomad
 ########################

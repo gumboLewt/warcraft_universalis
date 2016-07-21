@@ -1173,7 +1173,7 @@ area_isildien = {
 }
 
 area_diremaul = {
-    1490 1491 1499  
+    1490 1491 1499 2504  
 }
 
 area_forgotten_coast = {

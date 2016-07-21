@@ -1,0 +1,17 @@
+government 			= cult_gov
+government_rank     = 1
+mercantilism 		= 0.1
+technology_group 	= tech_thalassian
+religion			= religion_arcane
+primary_culture 	= culture_highbourne
+capital 			 = 1
+
+400.1.1 = {
+    monarch = {
+        name = "Tortheldrin" 
+        dynasty = "" 
+        adm = 4
+        dip = 4
+        mil = 3
+    }
+}
