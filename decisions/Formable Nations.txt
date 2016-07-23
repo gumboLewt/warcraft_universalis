@@ -38,3 +38,49 @@ country_decisions = {
 		}
 	}
 }
+
+Frostmane_empire = {
+		major = yes
+		potential = {
+			NOT = { exists = H1 } # Frostmane Empire
+			primary_culture = culture_frostmane
+			is_colonial_nation = no
+			capital_scope = { region_dun_morogh }
+		}
+		allow = {
+		    owns_core_province = 3041 #Frostmane village
+		    owns_core_province = 947 #Ironforge
+		    owns_core_province = 887 #upper city
+		    owns_core_province = 1949 #anvilmar
+		    owns_core_province = 1951 #Frostmane Hold
+		    owns_core_province = 956 #Kharnos
+			NOT = { exists = H1}
+			is_at_war = no		
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = H1
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			region_dun_morogh = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = H1
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+
+			set_capital = 1951
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

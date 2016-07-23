@@ -606,6 +606,7 @@ G15 = "countries/Oogah.txt"
 
 
 # Formables
+H1 = "countries/Frostmane Empire.txt"
 #Arak
 #Orgrimmar
 #Thunderbluff
@@ -620,6 +621,7 @@ G15 = "countries/Oogah.txt"
 #Zandalari Empire
 #Trade Coalition
 #Thunder Kingdom
+
 
 # Cultural Formables
 #Amani Empire (FOREST TROLL)
