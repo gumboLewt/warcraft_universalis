@@ -176,5 +176,41 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/UNDEAD_eventPicture.dds"
 		allwaystransparent = yes
 	}
+
+	spriteType = {
+		name = "DRUIDCAT_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/DRUIDCAT_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "DRUIDCLAW_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/DRUIDCLAW_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "DWARVENARMY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/DWARVENARMY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "FORSAKEN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/FORSAKEN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "NATHREZIM_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/NATHREZIM_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "ORC_HUMAN_BATTLE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/ORC_HUMAN_BATTLE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "ORC_WARLOCK_KILJAEDEN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/ORC_WARLOCK_KILJAEDEN_eventPicture.dds"
+		allwaystransparent = yes
+	}
 	
 }
