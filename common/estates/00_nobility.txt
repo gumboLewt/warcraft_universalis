@@ -14,6 +14,7 @@ estate_nobles =
 		OR = {
 			technology_group = tech_human
 			technology_group = tech_dwarven
+			technology_group = tech_thalassian
 		}
 	}
 	

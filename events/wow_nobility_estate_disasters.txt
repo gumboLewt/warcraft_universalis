@@ -1,0 +1,58 @@
+namespace = nobility_estate_disasters
+
+# Soverign Aristocracy
+country_event = {
+  id = nobility_estate_disasters.1
+  title = nobility_estate_disasters.1.t
+  desc = nobility_estate_disasters.1.d
+  picture = BURNING_CASTLE_eventPicture
+
+  major = yes
+  is_triggered_only = yes
+
+  immediate = {
+    add_stability = -5
+  }
+
+  option = {
+    name = nobility_estate_disasters.1.a
+    define_ruler = {
+      claim = 40
+    }
+    change_government = administrative_kingdom
+  }
+}
+
+# Independent Nobility
+country_event = {
+  id = nobility_estate_disasters.2
+  title = nobility_estate_disasters.2.t
+  desc = nobility_estate_disasters.2.d
+  picture = DIET_eventPicture
+
+  major = yes
+  is_triggered_only = yes
+
+  immediate = {
+    add_stability = -3
+  }
+
+  option = {
+    name = nobility_estate_disasters.2.a
+  }
+}
+
+# The nobles are brought to heel
+country_event = {
+  id = nobility_estate_disasters.3
+  title = nobility_estate_disasters.3.t
+  desc = nobility_estate_disasters.3.d
+  picture = DIET_eventPicture
+
+  major = yes
+  is_triggered_only = yes
+
+  option = {
+    name = nobility_estate_disasters.3.a
+  }
+}

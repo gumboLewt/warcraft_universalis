@@ -1,0 +1,58 @@
+namespace = clergy_estate_disasters
+
+# The Church is soverign
+country_event = {
+  id = clergy_estate_disasters.1
+  title = clergy_estate_disasters.1.t
+  desc = clergy_estate_disasters.1.d
+  picture = BURNING_CASTLE_eventPicture
+
+  major = yes
+  is_triggered_only = yes
+
+  immediate = {
+    add_stability = -5
+  }
+
+  option = {
+    name = clergy_estate_disasters.1.a
+    define_ruler = {
+      claim = 40
+    }
+    change_government = administrative_theocracy
+  }
+}
+
+# The Church is independent
+country_event = {
+  id = clergy_estate_disasters.2
+  title = clergy_estate_disasters.2.t
+  desc = clergy_estate_disasters.2.d
+  picture = ORC_WARLOCK_KILJAEDEN_eventPicture
+
+  major = yes
+  is_triggered_only = yes
+
+  immediate = {
+    add_stability = -3
+  }
+
+  option = {
+    name = clergy_estate_disasters.2.a
+  }
+}
+
+# Church brought to heel
+country_event = {
+  id = clergy_estate_disasters.3
+  title = clergy_estate_disasters.3.t
+  desc = clergy_estate_disasters.3.d
+  picture = BIG_BOOK_eventPicture
+
+  major = yes
+  is_triggered_only = yes
+
+  option = {
+    name = clergy_estate_disasters.3.a
+  }
+}

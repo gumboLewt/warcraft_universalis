@@ -1969,19 +1969,13 @@
  estate_commoners_desc: "The common folk. A wide and unorganised group, commoners will rare want for much and are often satisfied if the status quo is not distrubed. However, if times get particularly tough, they will resent their overlords and plot rebellion."
  
  estate_tribes: "Tribes"
- estate_tribes_desc: ""
+ estate_tribes_desc: "Tribal elders and subtribes.  Independent minded and socially powerful, they can be powerful allies but give them an inch and they'll take a mile."
  
  estate_the_legion: "Legion Ambassadors"
- estate_the_legion_desc: ""
+ estate_the_legion_desc: "Demonic emissaries and warlocks empowered by the Burning Legion.  Their gifts are many but we may not want them all."
  
  estate_old_gods: "Old God Ambassadors"
- estate_old_gods_desc: ""
- 
- estate_dragonflight: "Dragonflight Ambassadors"
- estate_dragonflight_desc: ""
- 
- estate_magisters: "Magisters"
- estate_magisters_desc: ""
+ estate_old_gods_desc: "More direct representatives of our gods.  Nightmares that cast such beautiful shadows in our society, let them seize too much power and they'll drag us into maddness."
  
  COUNCIL_GOAL_NOTICE: "\nYour ruler will have to agree to an action petitioned by the nobility of [Root.GetName]. If [Root.Monarch.GetSheHe] succeeds, the loyalty of the Nobles will go up §G30%§!, if [Root.Monarch.GetSheHe] fails, the loyalty of the Nobles will do down by §R-10%§!."
  
@@ -1992,6 +1986,8 @@
  EST_VAL_ENTREATED_INFLUENCE: "Entreated: §Y$VAL$%§!"
  EST_VAL_OUSTED_INFLUENCE: "Ousted: §Y$VAL$%§!"
  EST_VAL_PREDICAMENT_INFLUENCE: "Ignored the Predicament: §Y$VAL$%§!"
+ EST_VAL_RECRUIT_THEOLOGIAN: "Recruited Theologian: §Y$VAL$%§!"
+ EST_VAL_RECRUIT_INQUISITOR: "Recruited Inquisitor: §Y$VAL$%§!"
  
  # Nobles - Passive
  EST_VAL_ARISTOCRATIC_IG: "Aristocratic Ideas: §Y$VAL$%§!"
@@ -2035,6 +2031,9 @@
  EST_VAL_GRANTED_LORDSHIP: "Granted Lordship: §Y$VAL$%§!"
  EST_VAL_HOSTED_TOURNAMENT_INFLUENCE: "Hosted Tournament: §Y$VAL$%§!"
  EST_VAL_ROYAL_SPEECH_INFLUENCE: "Royal Speech: §Y$VAL$%§!"
+ 
+ # Tribes - Passive
+ EST_TOTAL_DEVELOPMENT: "Total Development: §Y$VAL$%§!"
  
  #-----------------------------------
  # Estate Loyalty 
@@ -2097,6 +2096,8 @@
  SOLICIT_INVESTMENT: "Solicit Investment"
  OUST_UNFAVOURABLES: "Oust Unfavourables"
  GROVEL_FOR_FUNDS: "Grovel for Funds"
+ RECRUIT_THEOLOGIAN: "Recruit Theologian"
+ RECRUIT_INQUISITOR: "Recruit Inquisitor"
  
  # Nobles
  ASSEMBLE_COUNCIL: "Assemble Council"
@@ -2129,6 +2130,14 @@
  THROW_FESTIVAL: "Throw Festival"
  PUBLIC_SPEECH: "Public Speech"
  PROMISE_RELIEF: "Promise Relief"
+ 
+ # Tribes
+ ENTREAT_TRIBES: "Entreat Tribal Leaders"
+ WARRIOR_CONTRIBUTIONS: "Request More Warriors"
+ RAISE_HOST: "Raise Tribal Host"
+ 
+ # The Legion
+ SWEAR_FEALTY_TO_THE_LEGION: "Swear Fealty to the Legion"
  
  #-----------------------------------
  # Missions
@@ -2200,14 +2209,44 @@
  cb_warband_raid: "Warband Raid"
  cb_warband_raid_desc: "As a warband, we must prove ourselves conquerors and subdue our neighbours, otherwise our people may think us weak."
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ #-----------------------------------
+ # Disasters
+ #-----------------------------------
+ estate_major_merchants_disaster: "Clergy Coup"
+ estate_major_merchants_disaster_desc: "The clergy of our nation have grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to institue destabilizing, theocratic reforms."
+
+ estate_minor_merchants_disaster: "Independent Clergy"
+ estate_minor_merchants_disaster_desc: "The clergy of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
+
+ estate_major_merchants_disaster: "Populist Coup"
+ estate_major_merchants_disaster_desc: "Populists and demagogues have grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to force our nation back to its traditional governing structure."
+
+ estate_minor_merchants_disaster: "Breakdown in Social Hierarchy "
+ estate_minor_merchants_disaster_desc: "The common classes of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
+
+ estate_major_merchants_disaster: "Merchant Coup"
+ estate_major_merchants_disaster_desc: "The merchants of our nation have grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to institue destabilizing, republican reforms."
+
+ estate_minor_merchants_disaster: "Independent Merchants"
+ estate_minor_merchants_disaster_desc: "The merchants of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
+
+ estate_major_merchants_disaster: "Noble Coup"
+ estate_major_merchants_disaster_desc: "The nobility of our nation have grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to institue destabilizing, monarchical reforms."
+
+ estate_minor_merchants_disaster: "Independent Nobility"
+ estate_minor_merchants_disaster_desc: "The nobility of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
+
+ estate_major_merchants_disaster: "Tribal Desertment"
+ estate_major_merchants_disaster_desc: "Various tribal elements of our nation have grown so powerful as to ignore our government's rule.  Rumor spreads they plan on leaving our country entirely."
+
+ estate_major_merchants_disaster: "Demonic Corruption"
+ estate_major_merchants_disaster_desc: "Agents of the Burning Legion have infiltrated all levels of our nation's government. Soon they will offer us true Fel power and there is no reason to believe they will be denied."
+
+ estate_minor_merchants_disaster: "Independent Warlocks"
+ estate_minor_merchants_disaster_desc: "The warlocks of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
+
+ estate_major_merchants_disaster: "Old God Corruption"
+ estate_major_merchants_disaster_desc: "Agents of the Old Gods have infiltrated all levels of our nation's government. Soon they will offer us true master of the Shadow and there is no reason to believe they will be denied."
+
+ estate_minor_merchants_disaster: "Independent Cultists"
+ estate_minor_merchants_disaster_desc: "The cultists of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
