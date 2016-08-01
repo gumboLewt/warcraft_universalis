@@ -129,7 +129,7 @@ province_event = {
 	id = random_province.3
 	title = random_province.3.title
 	desc = random_province.3.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = BRAWL_eventPicture
 
     is_mtth_scaled_to_size = 1
     
