@@ -7,7 +7,7 @@ country_event = {
 	id = story.1
 	title = story.1.title
 	desc = story.1.desc
-	picture = ASSASSINATION_eventPicture
+	picture = NATHREZIM_eventPicture
 	
 	major = yes
 	
@@ -97,7 +97,7 @@ country_event = {
 	id = story.2
 	title = story.2.title
 	desc = story.2.desc
-	picture = ANGRY_MOB_eventPicture
+	picture = FORSAKEN_eventPicture
 	
 	trigger = {
 		tag = A22 # Scarlet Crusade

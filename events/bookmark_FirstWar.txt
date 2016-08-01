@@ -8,7 +8,7 @@ country_event = {
 	id = first_war.1
 	title = first_war.1.title
 	desc = first_war.1.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
         NOT = { tag = A46 }
@@ -68,7 +68,7 @@ country_event = {
 	id = first_war.7
 	title = first_war.7.title
 	desc = first_war.7.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
 		has_country_modifier = blood_of_mannaroth
@@ -96,7 +96,7 @@ country_event = {
 	id = first_war.8
 	title = first_war.8.title
 	desc = first_war.8.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
 		has_country_modifier = blood_of_mannaroth
@@ -125,7 +125,7 @@ country_event = {
 	id = first_war.9
 	title = first_war.9.title
 	desc = first_war.9.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
 		has_country_modifier = blood_of_mannaroth
@@ -179,7 +179,7 @@ country_event = {
 	id = first_war.10
 	title = first_war.10.title
 	desc = first_war.10.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
 		has_country_modifier = blood_of_mannaroth
