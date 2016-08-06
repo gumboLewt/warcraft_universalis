@@ -4,7 +4,7 @@ country_event = {
 	id = WARCRAFT_EASTERNPLAGUELANDS.1			# Landing of Naxxramas
 	title = WARCRAFT_EASTERNPLAGUELANDS.1.title
 	desc = WARCRAFT_EASTERNPLAGUELANDS.1.desc
-	picture = DEBATE_REPUBLICAN_eventPicture
+	picture = NAXXRAMAS_eventPicture
 	
 	fire_only_once = yes
 	

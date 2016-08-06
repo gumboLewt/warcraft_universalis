@@ -12,7 +12,7 @@ province_event = {
 	id = building_events.1
 	title = building_events.1.title
 	desc = building_events.1.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -81,7 +81,7 @@ province_event = {
 	id = building_events.2
 	title = building_events.2.title
 	desc = building_events.2.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -150,7 +150,7 @@ province_event = {
 	id = building_events.3
 	title = building_events.3.title
 	desc = building_events.3.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -222,7 +222,7 @@ province_event = {
 	id = building_events.4
 	title = building_events.4.title
 	desc = building_events.4.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = CITY_DEVELOPMENT_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -310,7 +310,7 @@ province_event = {
 	id = building_events.5
 	title = building_events.5.title
 	desc = building_events.5.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = CITY_DEVELOPMENT_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -393,7 +393,7 @@ province_event = {
 	id = building_events.6
 	title = building_events.6.title
 	desc = building_events.6.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = FARMING_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -479,7 +479,7 @@ province_event = {
 	id = building_events.7
 	title = building_events.7.title
 	desc = building_events.7.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -548,7 +548,7 @@ province_event = {
 	id = building_events.8
 	title = building_events.8.title
 	desc = building_events.8.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -617,7 +617,7 @@ province_event = {
 	id = building_events.9
 	title = building_events.9.title
 	desc = building_events.9.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = TRADEGOODS_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -689,7 +689,7 @@ province_event = {
 	id = building_events.10
 	title = building_events.10.title
 	desc = building_events.10.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = NAVAL_MILITARY_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -759,7 +759,7 @@ province_event = {
 	id = building_events.11
 	title = building_events.11.title
 	desc = building_events.11.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = HARBOUR_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -832,7 +832,7 @@ province_event = {
 	id = building_events.12
 	title = building_events.12.title
 	desc = building_events.12.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = CORRUPTION_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -901,7 +901,7 @@ province_event = {
 	id = building_events.13
 	title = building_events.13.title
 	desc = building_events.13.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = TAVERN_eventPicture
 
     is_mtth_scaled_to_size = 1
     
@@ -970,7 +970,7 @@ province_event = {
 	id = building_events.14
 	title = building_events.14.title
 	desc = building_events.14.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = CITY_DEVELOPMENT_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     
@@ -1042,7 +1042,7 @@ province_event = {
 	id = building_events.15
 	title = building_events.15.title
 	desc = building_events.15.desc
-	picture = ANGRY_MOB_eventPicture # Placeholder
+	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
     

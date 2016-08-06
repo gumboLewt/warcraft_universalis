@@ -212,5 +212,17 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/ORC_WARLOCK_KILJAEDEN_eventPicture.dds"
 		allwaystransparent = yes
 	}
-	
+
+	spriteType = {
+		name = "NAXXRAMAS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/NAXXRAMAS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "BRAWL_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/BRAWL_eventPicture.dds"
+		allwaystransparent = yes
+	}	
+
+
 }
