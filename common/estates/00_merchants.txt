@@ -78,17 +78,26 @@ estate_merchants =
 	#############################
 	base_influence = 20
 	
-	#influence_modifier = {
-	#	desc = EST_VAL_OTHER_ESTATE_IN_POWER
-	#	trigger = {
-	#		OR = {
-	#			has_country_modifier = clergy_control_the_realm
-	#			has_country_modifier = nobles_control_the_realm
-	#			has_country_modifier = commoners_control_the_realm
-	#		}
-	#	}
-	#	influence = -20
-	#}
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				estate_influence = {
+                    estate = estate_clergy
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_commoners
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_nobles
+                    influence = 80
+                }
+			}
+		}
+		influence = -20
+	}
 	
 	# Trade
 	influence_modifier = {
@@ -147,18 +156,26 @@ estate_merchants =
 	#############################
 	# Loyalty modifiers
 	#############################
-	# Disaster
-	#loyalty_modifier = {
-	#	desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
-	#	trigger = {
-	#		OR = {
-	#			has_country_modifier = clergy_control_the_realm
-	#			has_country_modifier = nobles_control_the_realm
-	#			has_country_modifier = commoners_control_the_realm
-	#		}
-	#	}
-	#	loyalty = -20
-	#}
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				estate_influence = {
+                    estate = estate_clergy
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_commoners
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_nobles
+                    influence = 80
+                }
+			}
+		}
+		loyalty = -20
+	}
 	
 	# Merchants
 	loyalty_modifier = {

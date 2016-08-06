@@ -1,5 +1,59 @@
 ﻿l_english:
  #-----------------------------------------------
+ # Human
+ #-----------------------------------------------
+ inspire_righteousness_title: "Inspire Righteousness"
+ inspire_righteousness_desc: "Let us inspire the righteousness of the Light within our people."
+ 
+ inspire_righteousness_modifier: "Inspired Righteousness"
+ desc_inspire_righteousness_modifier: "We have inspired righteousness within our people."
+ 
+ enact_civil_code_title: "Enact Civil Code"
+ enact_civil_code_desc: "Humans desire an ordered and just society, and take comfort in such things. Let us solidify these ideals into a civil code so those that disrupt such order are justly punished."
+ 
+ civil_code: "Civil Code"
+ desc_civil_code: "We have enacted a civil code for our citizens to follow, bringing a strong sense of order to our society."
+ 
+ mobilise_workforces_title: "Mobilise Workforces"
+ mobilise_workforces_desc: "Our people need land to live on, and without clearing the land it's trees and scrubs, they'll have nowhere to go. Let us mobilise our labourers and clear the land in an effecient manner."
+ 
+ mobilised_workforces: "Mobilised Workforces"
+ desc_mobilised_workforces: "Our people need land to live on, and without clearing the land it's trees and scrubs, they'll have nowhere to go. Let us mobilise our labourers and clear the land in an effecient manner."
+ 
+ encourage_research_title: "Encourage Research"
+ desc_encourage_research: "Humans affinity with the arcane and the divine means our research are often discovering new and amusing spells to help our nation. Let us fund a period of research and see what our mages discover."
+ 
+ illusion_of_grandeur: "Illusion of Grandeur"
+ desc_illusion_of_grandeur: "By casting an illusion on our [Root.Monarch.GetTitle] when [Root.Monarch.GetHeShe] visits other realms, we can grant [Root.Monarch.GetHimHer] a more imposing stature, increasing the likelihood of success during diplomatic dealings."
+ 
+ enchanted_spyglass: "Enchanted Spyglasses"
+ desc_enchanted_spyglass: "Our sailors are often lacking vision, but with a enchanted spyglass they will be able to see further, and with more clarity than before."
+ 
+ scrying_orb: "Scrying Orb"
+ desc_scrying_orb: "A scrying orb offers much to our generals, whom can use it to monitor fronts from afar, without enemy acknowledgement."
+ 
+ arcane_familiars: "Arcane Familiars"
+ desc_arcane_familiars: "Beings wrought from arcane energies, these familiars can be used for construction, organisation, and many other actions."
+ 
+ conjured_feasts: "Conjured Feasts"
+ desc_conjured_feasts: "With numerous guests being entertained, it is often courteous to provide them with a dish from their own region. By conjuring it up, we can provide these dishes with minimal impact to our coffers."
+ 
+ enchanted_broom: "Enchanted Brooms"
+ desc_enchanted_broom: "By enchanting common household objects, we can eliminate the need for servants within many of our nobility's estates, pleasing the heads of the households."
+ 
+ embued_tome: "Embued Tomes"
+ desc_embued_tome: "Through the use of scrying, our researchers found an ancient tome with untold knowledge within. They have recovered it and have offered it to the [Root.Monarch.GetTitle]."
+ 
+ mana_shields: "Mana Shields"
+ desc_mana_shields: "By providing mana shields to people of importance, we can better protect people of a prestigous position, in turn granting us a more prestigous position in the world."
+ 
+ invisibility_cloaks: "Invisibility Cloaks"
+ desc_invisibility_cloaks: "Through powerful arcane magic, our mages have managed to embue the cloaks of our shock troops with invisibility, allowing them to operate at a much higher level of effectiveness."
+
+ arcane_crystal: "Arcane Crystals"
+ desc_arcane_crystal: "Our mages have managed to create a 'energy' crystal out of arcane magic, allowing us to power our technological inventions more easily."
+ 
+ #-----------------------------------------------
  # Orc
  #-----------------------------------------------
  encourage_bloodlust_title: "Encourage Bloodlust"

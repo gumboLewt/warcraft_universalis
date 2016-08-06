@@ -122,9 +122,12 @@ on_siege_won_province = {
 # province
 # root = location, from = winning country
 on_siege_lost_province =  {
-	events = {
-        wow_conquest.2   # Conquest of [ROOT.GetName] - Reflect to FROM
+    events = {
         wow_conquest.5
+    }
+	random_events = {
+        5 = wow_conquest.2   # Conquest of [ROOT.GetName] - Reflect to FROM
+        95 = 0
     }
 }
 

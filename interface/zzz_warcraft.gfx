@@ -119,6 +119,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//terrain//colony_terrain_arcanetouched.dds"
 	}
     
+    spriteType = {
+		name = "GFX_colony_terrain_impassable_mountains"
+		texturefile = "gfx//interface//terrain//colony_terrain_impassable_mountains.dds"
+	}
+    
 	# Combat
 	# 388 x 80
 	spriteType = {
@@ -149,5 +154,10 @@ spriteTypes = {
     spriteType = {
 		name = "GFX_combat_terrain_arcanetouched"
 		texturefile = "gfx//interface//terrain//combat_terrain_arcanetouched.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_terrain_impassable_mountains"
+		texturefile = "gfx//interface//terrain//combat_terrain_impassable_mountains.dds"
 	}
 }

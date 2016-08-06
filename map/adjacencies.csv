@@ -91,7 +91,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1933;3027;;;-1;-1;-1;-1;Thandol Span to Garmason's Camp (Arathi Highlands to Wetlands)
 787;610;;;-1;-1;-1;-1;Thundermar to Bloodgulch
 1016;610;;;-1;-1;-1;-1;The Black Breach to Bloodgulch
-802;739;sea;314;-1;-1;-1;-1;Kirkhaven to The Krazzworks
+2568;739;sea;314;-1;-1;-1;-1;Kirkhaven Crag to The Krazzworks
 3009;570;sea;253;-1;-1;-1;-1;Copperstock to Crestfall
 3009;691;sea;250;-1;-1;-1;-1;Copperstock to Zul'dare
 570;2013;sea;253;-1;-1;-1;-1;Crestfall to Warden's Vigil
@@ -203,4 +203,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1673;2036;;;-1;-1;-1;-1;Netherwing Ledge to Netherwing Fields
 2066;1616;;;-1;-1;-1;-1;Ango'Rosh Stronghold to Ango'rosh Grounds
 2061;1712;;;-1;-1;-1;-1;Socrethar's Seat to Forge Base Oblivion
+2527;3049;;;-1;-1;-1;-1;Deeprun Tram
 -1;-1;;-1;-1;-1;-1;-1;-1

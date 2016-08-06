@@ -77,17 +77,26 @@ estate_commoners =
 	base_influence = 30
 
     # Implement disaster checks here, i.e. lower influence of this when another has a disaster in action
-	#influence_modifier = {
-	#	desc = EST_VAL_OTHER_ESTATE_IN_POWER
-	#	trigger = {
-	#		OR = {
-	#			has_country_modifier = clergy_control_the_realm
-	#			has_country_modifier = nobles_control_the_realm
-	#			has_country_modifier = merchants_control_the_realm
-	#		}
-	#	}
-	#	influence = -20
-	#}
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				estate_influence = {
+                    estate = estate_clergy
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_merchants
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_nobles
+                    influence = 80
+                }
+			}
+		}
+		influence = -20
+	}
 	
 	# Humanist
 	influence_modifier = {
@@ -129,17 +138,26 @@ estate_commoners =
 	# Loyalty modifiers
 	#############################
     # Implement disaster checks here, i.e. lower influence of this when another has a disaster in action
-	#loyalty_modifier = {
-	#	desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
-	#	trigger = {
-	#		OR = {
-	#			has_country_modifier = clergy_control_the_realm
-	#			has_country_modifier = merchants_control_the_realm
-	#			has_country_modifier = nobles_control_the_realm
-	#		}
-	#	}
-	#	loyalty = -20
-	#}
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				estate_influence = {
+                    estate = estate_clergy
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_merchants
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_nobles
+                    influence = 80
+                }
+			}
+		}
+		loyalty = -20
+	}
 	
 	# Prestige
 	loyalty_modifier = {
