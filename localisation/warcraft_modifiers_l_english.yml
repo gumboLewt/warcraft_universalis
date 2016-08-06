@@ -1,51 +1,46 @@
 ﻿l_english:
-
- #####################
- # STATIC MODIFIERS  #
- #####################
-
- # Alliance/Horde
+ #------------------------------------------------
+ # STATIC MODIFIERS
+ #------------------------------------------------
  alliance_member: "Alliance"
  horde_member: "Horde"
  alliance_head: "Supreme Allied Commander"
  horde_head: "Warchief"
- # Neutral
  neutral_member: "Neutral Organization"
- #Other Modifiers
  recently_conjured: "Power Recently Conjured"
  
- #####################
- # OPINION MODIFIERS #
- #####################
- 
- #Alliance
+ #------------------------------------------------
+ # Opinion Modifiers
+ #------------------------------------------------
  alliance_alliance: "Alliance Member"
  alliance_horde: "Alliance Member"
  alliance_neutral: "Alliance Member"
  alliance_creep: "Alliance Member"
- #Horde
+ 
  horde_alliance: "Horde Member"
  horde_horde: "Horde Member"
  horde_neutral: "Horde Member"
  horde_creep: "Horde Member"
- #Neutral
+ 
  neutral_alliance: "Neutral Organization"
  neutral_horde: "Neutral Organization"
  neutral_neutral: "Neutral Organization"
  neutral_creep: "Neutral Organization"
  
- #######################
- # TRIGGERED MODIFIERS #
- #######################
-
+ #------------------------------------------------
+ # Triggered Modifiers
+ #------------------------------------------------
  alliance_enemy: "Enemy of the Alliance"
  horde_enemy: "Enemy of the Horde"
  
- #######################
- # OTHER MODIFIERS     #
- #######################
- 
+ #------------------------------------------------
+ #  Other
+ #------------------------------------------------
  scourge_mindlessness: "Scourge Mindlessness"
  kings_grasp: "King's Grasp"
  
- 
+ #------------------------------------------------
+ # Province
+ #------------------------------------------------
+ city_of_innovation: "City of Innovation"
+ desc_city_of_innovation: "Known for the inventiveness, the occupants of this province provide a bonus to technological research."

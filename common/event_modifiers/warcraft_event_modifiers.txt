@@ -280,6 +280,10 @@ wrath_of_fate = {
     recover_army_morale_speed = -0.1
 }
 
+city_of_innovation = {
+    technology_cost = -0.05
+}
+
 #------------------------------
 # Dubious Dealings
 #------------------------------
