@@ -7,7 +7,7 @@ estate_major_the_legion_disaster = {
 			influence = 60
 		}
     NOT = {
-      technology_group = demonic
+      technology_group = tech_demonic
     }
 	}
 

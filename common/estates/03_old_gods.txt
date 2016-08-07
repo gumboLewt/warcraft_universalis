@@ -1,7 +1,7 @@
 # Given to the old god touched nations
 estate_old_gods =
 {
-	icon = 34
+	icon = 33
 
 	color = { 106 54 112 }
 

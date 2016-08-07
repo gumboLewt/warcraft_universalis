@@ -1,7 +1,7 @@
 # Given to the fel-corrupted nations
 estate_the_legion =
 {
-	icon = 35
+	icon = 34
 
 	color = { 181 230 29 }
 
@@ -291,7 +291,7 @@ estate_the_legion =
 		trigger = {
 			estate_influence = {
 				estate = estate_the_legion
-				influence = 40
+				influence = 20
 			}
 		}
 
@@ -339,7 +339,7 @@ estate_the_legion =
 		trigger = {
 			estate_influence = {
 				estate = estate_the_legion
-				influence = 40
+				influence = 20
 			}
 		}
 

@@ -6,7 +6,7 @@ estate_minor_the_legion_disaster = {
 			estate = estate_the_legion
 			influence = 60
 		}
-    technology_group = demonic
+    technology_group = tech_demonic
 	}
 
 

@@ -6,7 +6,7 @@ estate_minor_old_gods_disaster = {
 			estate = estate_old_gods
 			influence = 60
 		}
-    technology_group = old_gods
+    technology_group = tech_old_god
 	}
 
 

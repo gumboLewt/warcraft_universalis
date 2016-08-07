@@ -7,7 +7,7 @@ estate_major_old_gods_disaster = {
 			influence = 60
 		}
     NOT = {
-      technology_group = old_gods
+      technology_group = tech_old_god
     }
 	}
 
