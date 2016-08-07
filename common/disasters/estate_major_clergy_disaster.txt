@@ -7,7 +7,15 @@ estate_major_clergy_disaster = {
 			influence = 60
 		}
     NOT = {
-      government = religion
+      OR = {
+        government = administrative_theocracy
+        government = mercantile_theocracy
+        government = militaristic_theocracy
+        government = administrative_order
+        government = mercantile_order
+        government = militaristic_order
+        government = cult_gov
+      }
     }
 	}
 

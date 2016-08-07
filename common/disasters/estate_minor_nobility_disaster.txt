@@ -6,6 +6,7 @@ estate_minor_nobility_disaster = {
 			estate = estate_nobles
 			influence = 60
 		}
+    government = monarchy
 	}
 
 

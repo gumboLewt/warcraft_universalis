@@ -6,6 +6,9 @@ estate_major_nobility_disaster = {
 			estate = estate_nobles
 			influence = 60
 		}
+    NOT = {
+      government = monarchy
+    }
 	}
 
 

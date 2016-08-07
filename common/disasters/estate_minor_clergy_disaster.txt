@@ -6,7 +6,15 @@ estate_minor_clergy_disaster = {
 			estate = estate_clergy
 			influence = 60
 		}
-    government = religion
+    OR = {
+      government = administrative_theocracy
+      government = mercantile_theocracy
+      government = militaristic_theocracy
+      government = administrative_order
+      government = mercantile_order
+      government = militaristic_order
+      government = cult_gov
+    }
 	}
 
 
