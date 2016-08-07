@@ -7,7 +7,7 @@ estate_major_clergy_disaster = {
 			influence = 60
 		}
     NOT = {
-      governemtn = religion
+      government = religion
     }
 	}
 

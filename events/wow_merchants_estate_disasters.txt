@@ -12,6 +12,7 @@ country_event = {
 
   immediate = {
     add_stability = -5
+    change_government = mercantile_republic
   }
 
   option = {
@@ -19,7 +20,6 @@ country_event = {
     define_ruler = {
       claim = 40
     }
-    change_government = mercantile_republic
   }
 }
 

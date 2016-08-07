@@ -12,10 +12,6 @@ country_event = {
 
   immediate = {
     add_stability = -5
-  }
-
-  option = {
-    name = commoners_estate_disasters.1.a
     IF = {
       limit = {
         OR = {
@@ -98,6 +94,10 @@ country_event = {
       limit = { technology_group = tech_dragonkin }
       government = dragonflight_gov
     }
+  }
+
+  option = {
+    name = commoners_estate_disasters.1.a
     define_ruler = {
       claim = 40
     }
