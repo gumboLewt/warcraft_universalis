@@ -1,0 +1,134 @@
+estate_minor_clergy_disaster = {
+	potential = {
+		has_dlc = "The Cossacks"
+		has_estate = estate_clergy
+		estate_influence = {
+			estate = estate_clergy
+			influence = 60
+		}
+    OR = {
+      government = administrative_theocracy
+      government = mercantile_theocracy
+      government = militaristic_theocracy
+      government = administrative_order
+      government = mercantile_order
+      government = militaristic_order
+      government = cult_gov
+    }
+	}
+
+
+	can_start = {
+		has_any_disaster = no
+		estate_influence = {
+			estate = estate_clergy
+			influence = 80
+		}
+	}
+	
+	can_stop = {
+		NOT = {
+			estate_influence = {
+				estate = estate_clergy
+				influence = 80
+			}		
+		}
+	}
+	
+	progress = {
+		modifier = {
+			factor = 1
+			estate_influence = {
+				estate = estate_clergy
+				influence = 80
+			}
+			hidden_trigger = {
+				NOT = {
+					estate_influence = {
+						estate = estate_clergy
+						influence = 85
+					}			
+				}			
+			}
+		}
+		modifier = {
+			factor = 2
+			estate_influence = {
+				estate = estate_clergy
+				influence = 85
+			}
+			hidden_trigger = {
+				NOT = {
+					estate_influence = {
+						estate = estate_clergy
+						influence = 90
+					}			
+				}			
+			}
+		}
+		modifier = {
+			factor = 3
+			estate_influence = {
+				estate = estate_clergy
+				influence = 90
+			}
+			hidden_trigger = {
+				NOT = {
+					estate_influence = {
+						estate = estate_clergy
+						influence = 95
+					}			
+				}			
+			}
+		}	
+		modifier = {
+			factor = 4
+			estate_influence = {
+				estate = estate_clergy
+				influence = 95
+			}
+			hidden_trigger = {
+				NOT = {
+					estate_influence = {
+						estate = estate_clergy
+						influence = 100
+					}			
+				}			
+			}
+		}	
+		modifier = {
+			factor = 5
+			estate_influence = {
+				estate = estate_clergy
+				influence = 100
+			}
+		}		
+	}
+	
+	can_end = {
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		stability = 1
+		NOT = {
+			estate_influence = {
+				estate = estate_clergy
+				influence = 80
+			}		
+		}
+	}
+	
+	modifier = {	
+    technology_cost = 0.2
+    idea_cost = 0.2
+    tolerance_heretic = -2
+    tolerance_heathen = -2
+		global_unrest = 4
+		stability_cost_modifier = 0.50
+	}
+
+	on_start = clergy_estate_disasters.2
+	on_end = clergy_estate_disasters.3
+	
+	on_monthly = {
+	}
+}
+

@@ -3,7 +3,7 @@
  # Tirisfal
  #-----------------------------------------------
  WARCRAFT_TIRISFAL.1.title: "Council of Tirisfal"
- WARCRAFT_TIRISFAL.1.desc: "Magna Aegwynn of the Tirisfal Council says, that She can help us prepare Our great kingdom for the coming war. Can we trust her, my king?"
+ WARCRAFT_TIRISFAL.1.desc: "Magna Aegwynn of the Tirisfal Council says, that She can help us prepare Our great kingdom for the coming war. Can we trust her, my liege?"
  WARCRAFT_TIRISFAL.1.option.a: "I think it is a good idea!"
  WARCRAFT_TIRISFAL.1.option.b: "I don't trust mages! Let the world know that we can do it ourselves..."
  
@@ -311,6 +311,85 @@
  WOW_ESTATES.2.title:0 "A Throne Abdicated"
  WOW_ESTATES.2.desc:0 ""
  WOW_ESTATES.2.option.a:0 ""
+ 
+ #-----------------------------------------------
+ # Disasters
+ #-----------------------------------------------
+ clergy_estate_disasters.1.t:0 "A Soverign Clergy"
+ clergy_estate_disasters.1.d:0 "After a long period of increasing power in [Root.GetName] the clergy has completely seized control of the government.  The state has been fundamentally altered; now it must reign in a nation plunging into chaos."
+ clergy_estate_disasters.1.a:0 "Our faith will preserve us"
+ 
+ clergy_estate_disasters.2.t:0 "An Independent Clergy"
+ clergy_estate_disasters.2.d:0 "Local clerics throughout [Root.GetName] have begun to ignore the state's religious edicts, threatening national unity."
+ clergy_estate_disasters.2.a:0 "We will show them their error"
+ 
+ clergy_estate_disasters.3.t:0 "A United Clergy"
+ clergy_estate_disasters.3.d:0 "The crisis of faith in [Root.GetName] is over; our nation is united once again."
+ clergy_estate_disasters.3.a:0 "May our theocracy never fall!"
+ 
+ commoners_estate_disasters.1.t:0 "Populist Revolution"
+ commoners_estate_disasters.1.d:0 "Populists and demagogues have finally succeed in turning [Root.GetName] towards a more traditional form of government.  This was not accomplished easily, however, and now strife and unrest spread throughout our country."
+ commoners_estate_disasters.1.a:0 "They will serve the state ... or be crushed beneath it!"
+ 
+ commoners_estate_disasters.2.t:0 "Sedition and Strife"
+ commoners_estate_disasters.2.d:0 "The common classes in [Root.GetName] have ceased to respect governmental authority; riots, unrest and sedition have spread throughout the country."
+ commoners_estate_disasters.2.a:0 "We must return order to our streets"
+ 
+ commoners_estate_disasters.3.t:0 "An End to Unrest"
+ commoners_estate_disasters.3.d:0 "The chaos that has long gripped [Root.GetName] is over; our population has settled and harmony has returned to society."
+ commoners_estate_disasters.3.a:0 "Wonderful!  Perhaps it's time for a foreign venture?"
+ 
+ merchants_estate_disasters.1.t:0 "Traders and Traitors"
+ merchants_estate_disasters.1.d:0 "Money is power in [Root.GetName] and our merchants have taken advantage of this.  Having already assumed almost ever position of governance the merchant classes have institued a republic.  Not everyone in our country approves"
+ merchants_estate_disasters.1.a:0 "Perhaps we can buy the dissenters off?"
+ 
+ merchants_estate_disasters.2.t:0 "Merchant Mutiny"
+ merchants_estate_disasters.2.d:0 "Money is power in [Root.GetName] and many merchants are using their power to take the our money.  If our nation is to survive we'll need to regain control of the national purse."
+ merchants_estate_disasters.2.a:0 "A fine Undermine drama"
+ 
+ merchants_estate_disasters.3.t:0 "Profitable Peace"
+ merchants_estate_disasters.3.d:0 "The markets are open, coin is flowing and peace has returned to [Root.GetName]"
+ merchants_estate_disasters.3.a:0 "Let's celebrate and buy something nice"
+ 
+ nobility_estate_disasters.1.t:0 "The Nobility Seize Power"
+ nobility_estate_disasters.1.d:0 "It is no secret that the nobility of [Root.GetName] prefer a monarchy, and after some time they have succeed in creating one. The opposition is up in arms"
+ nobility_estate_disasters.1.a:0 "Long live the $MONARCHTITLE$!"
+ 
+ nobility_estate_disasters.2.t:0 "The Nobility Disrespect Power"
+ nobility_estate_disasters.2.d:0 "My liege, we have lost control of the nobility; they no longer respect our royal authority and the nation has begun to fragment"
+ nobility_estate_disasters.2.a:0 "They'll be back in line soon enough"
+ 
+ nobility_estate_disasters.3.t:0 "Peace and the $MONARCHTITLE$ Reign"
+ nobility_estate_disasters.3.d:0 "The troubles of [Root.GetName] are over; you have proven the legitimacy of your rule and the unrest in your realm has ended"
+ nobility_estate_disasters.3.a:0 "May the $MONARCHTITLE$ live long and the realm prosper"
+ 
+ old_gods_estate_disasters.1.t:0 "Black Empire Reborn"
+ old_gods_estate_disasters.1.d:0 "Machinations within machinations, plots within plots, all bear a dark fruit. We have pledged our bodies to the Old Gods as we have pledged our minds and souls; now remains only the clearing of dissent."
+ old_gods_estate_disasters.1.a:0 "We will become more than we ever were"
+ 
+ old_gods_estate_disasters.2.t:0 "Insanity Overflows"
+ old_gods_estate_disasters.2.d:0 "The gifts of our gods overflow and we have fractured; violence reigns in the streets.  Maddness spreads, the nation splinters"
+ old_gods_estate_disasters.2.a:0 "They want our secrets, our power"
+ 
+ old_gods_estate_disasters.3.t:0 "Old Gods Triumphant"
+ old_gods_estate_disasters.3.d:0 "As in all things, the Old Gods are triumphant.  The citizens of [Root.GetName] are again unified under their banner"
+ old_gods_estate_disasters.3.a:0 "They do not die; they do not live. They are outside the cycle."
+ 
+ the_legion_estate_disasters.1.t:0 "Fel Corruption"
+ the_legion_estate_disasters.1.d:0 "The Legion offered power and [Root.GetName] has responded; our leaders have embraced the Fel.  Some weaker elements of our nation still resist; they must be eliminated."
+ the_legion_estate_disasters.1.a:0 "Let the echoes of doom resound"
+ 
+ the_legion_estate_disasters.2.t:0 "Fel Chaos"
+ the_legion_estate_disasters.2.d:0 "Our warlocks no longer respect your authority, $MONARCHTITLE$, and openly ignore your rule.  A storm of rebellion clouds the horizon."
+ the_legion_estate_disasters.2.a:0 "They are strong, but not strong enough"
+ 
+ the_legion_estate_disasters.3.t:0 "Fel Unity"
+ the_legion_estate_disasters.3.d:0 "It is over; [Root.GetName] now pays you total allegiance. The traitors are dead, all loyalty is yours"
+ the_legion_estate_disasters.3.a:0 "Let the unraveling of this world commence!"
+ 
+ tribes_estate_disasters.1.t:0 "Tribal Independence"
+ tribes_estate_disasters.1.d:0 "Catastrophe!  Members of our tribe have lost faith in your leadership, and taking advantage of their political power have declared their independence."
+ tribes_estate_disasters.1.a:0 "We'll see how they like being responsible for their own country."
  
  #-----------------------------------------------
  # Council

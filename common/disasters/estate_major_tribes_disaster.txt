@@ -1,0 +1,108 @@
+estate_major_tribes_disaster = {
+	potential = {
+		has_dlc = "The Cossacks"
+		has_estate = estate_tribes
+		estate_influence = {
+			estate = estate_tribes
+			influence = 60
+		}
+	}
+
+
+	can_start = {
+		has_any_disaster = no
+		estate_influence = {
+			estate = estate_tribes
+			influence = 80
+		}
+	}
+	
+	can_stop = {
+		NOT = {
+			estate_influence = {
+				estate = estate_tribes
+				influence = 80
+			}		
+		}
+	}
+	
+	progress = {
+		modifier = {
+			factor = 1
+			estate_influence = {
+				estate = estate_tribes
+				influence = 80
+			}
+			hidden_trigger = {
+				NOT = {
+					estate_influence = {
+						estate = estate_tribes
+						influence = 85
+					}			
+				}			
+			}
+		}
+		modifier = {
+			factor = 2
+			estate_influence = {
+				estate = estate_tribes
+				influence = 85
+			}
+			hidden_trigger = {
+				NOT = {
+					estate_influence = {
+						estate = estate_tribes
+						influence = 90
+					}			
+				}			
+			}
+		}
+		modifier = {
+			factor = 3
+			estate_influence = {
+				estate = estate_tribes
+				influence = 90
+			}
+			hidden_trigger = {
+				NOT = {
+					estate_influence = {
+						estate = estate_tribes
+						influence = 95
+					}			
+				}			
+			}
+		}	
+		modifier = {
+			factor = 4
+			estate_influence = {
+				estate = estate_tribes
+				influence = 95
+			}
+			hidden_trigger = {
+				NOT = {
+					estate_influence = {
+						estate = estate_tribes
+						influence = 100
+					}			
+				}			
+			}
+		}	
+		modifier = {
+			factor = 5
+			estate_influence = {
+				estate = estate_tribes
+				influence = 100
+			}
+		}		
+	}
+	
+	can_end = {
+    always = yes
+	}
+	
+	on_start = tribes_estate_disasters.1
+	
+	on_monthly = {
+	}
+}
+
