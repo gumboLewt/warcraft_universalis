@@ -1,9 +1,9 @@
 # Given to the fel-corrupted nations
 estate_the_legion =
 {
-	icon = 1
+	icon = 35
 
-	color = { 200 150 0 }
+	color = { 181 230 29 }
 
 	# Is estate kept in control of province on conquest?
 	keep_on_conquest = no

@@ -16,8 +16,8 @@ country_event = {
 
   option = {
     name = old_gods_estate_disasters.1.a
-    change_technology_group = old_gods
-    change_unit_type = old_gods
+    change_technology_group = tech_old_god
+    change_unit_type = tech_old_god
   }
 }
 

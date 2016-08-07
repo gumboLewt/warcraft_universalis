@@ -1,7 +1,7 @@
 # Given to the tribal nations
 estate_tribes =
 {
-	icon = 1
+	icon = 5
 
 	color = { 200 150 0 }
 

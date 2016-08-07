@@ -16,8 +16,8 @@ country_event = {
 
   option = {
     name = the_legion_estate_disasters.1.a
-    change_technology_group = demonic
-    change_unit_type = demonic
+    change_technology_group = tech_demonic
+    change_unit_type = tech_demonic
   }
 }
 

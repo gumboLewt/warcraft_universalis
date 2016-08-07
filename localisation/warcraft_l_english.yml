@@ -2139,6 +2139,9 @@
  # The Legion
  SWEAR_FEALTY_TO_THE_LEGION: "Swear Fealty to the Legion"
  
+ # Old Gods
+ SWEAR_FEALTY_TO_OLD_GODS: "Swear Fealty to the Old Gods"
+ 
  #-----------------------------------
  # Missions
  #-----------------------------------

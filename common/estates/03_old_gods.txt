@@ -1,9 +1,9 @@
 # Given to the old god touched nations
 estate_old_gods =
 {
-	icon = 1
+	icon = 34
 
-	color = { 200 150 0 }
+	color = { 106 54 112 }
 
 	# Is estate kept in control of province on conquest?
 	keep_on_conquest = no

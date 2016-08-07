@@ -89,7 +89,7 @@ estate_minor_old_gods_disaster = {
 			}
 		}	
 		modifier = {
-			factor = 50
+			factor = 5
 			estate_influence = {
 				estate = estate_old_gods
 				influence = 100
