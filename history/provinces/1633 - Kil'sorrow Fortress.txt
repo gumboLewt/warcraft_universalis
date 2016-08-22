@@ -1,13 +1,14 @@
-# 1633
-is_city = no
+# 1633 - Kil'sorrow Fortress
+is_city = yes
+
+owner = A51
+controller = A51
+add_core =  A51
 
 base_tax = 4
 base_manpower = 4
 base_production = 4
 
-owner = A51
-controller = A51
-add_core =  A51
 culture = culture_boulderfist
 religion = religion_geomancy
 
@@ -16,10 +17,9 @@ trade_goods = army_supplies
 
 #Outland
 601.1.1 = { 
-owner = B88
-controller = B88
-add_core = B88
+	owner = B88
+	controller = B88
+	add_core = B88
+	culture = culture_horde
+	religion = religion_fel
 }
-
-
-

@@ -1,34 +1,39 @@
-# 1624
-is_city = no
+# 1624 - Twilight Ridge
+is_city = yes
+
+owner = F83
+controller = F83
+add_core = F83
+
+culture = culture_warmaul
+religion = religion_earth
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
-owner = F83
-controller = F83
-add_core = F83
-culture = culture_warmaul
-religion = religion_earth
 hre = no
 trade_goods = fel
 
 #Outland
 601.1.1 = {
-owner = B89
-controller = B89
-add_core =  B89
+	owner = B89
+	controller = B89
+	add_core =  B89
 }
 
+# The Frozen Throne
 618.1.1 = {
-owner = xxx
-controller = xxx
-remove_core =  B89
+	owner = xxx
+	controller = xxx
+	remove_core =  B89
+	religion = religion_fel
 }
 
+# Rise of the Qiraji
 622.1.1 = {
-owner = B88
-controller = B88
-add_core =  B88
-culture = culture_horde
+	owner = B88
+	controller = B88
+	add_core =  B88
+	culture = culture_horde
 }

@@ -13,21 +13,21 @@ base_tax = 2
 base_manpower = 2
 base_production = 3
 
-
 hre = no
 trade_goods = army_supplies
 
 # Rise of the Qiraji
 622.1.1 = {
-owner = A33
-controller = A33
-add_core = A33
-culture = culture_leper_gnome
+	owner = A33
+	controller = A33
+	add_core = A33
+	culture = culture_leper_gnome
+	religion = religion_tech
 }
 
 # Cataclysm
 631.1.1 = {
-owner = A32
-controller = A32
-culture = culture_gnome
+	owner = A32
+	controller = A32
+	culture = culture_gnome
 }

@@ -4,14 +4,13 @@ is_city = yes
 owner = E51
 controller = E51
 add_core = E51
+
 culture = culture_nerglish
 religion = religion_water
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
-
-
  
 hre = no 
 trade_goods = gold
@@ -21,7 +20,8 @@ trade_goods = gold
 	owner = A01
 	controller = A01
 	add_core = A01
-	culture = culture_azerothian 
+	culture = culture_azerothian
+	religion = religion_church_of_the_light
 }
 
 # Beyond the Dark Portal

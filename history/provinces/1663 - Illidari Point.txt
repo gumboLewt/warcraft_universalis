@@ -1,4 +1,4 @@
-# 1663
+# 1663 - Illidari Point
 is_city = yes
 
 base_tax = 3
@@ -8,28 +8,26 @@ base_production = 3
 owner = A34
 controller = A34
 add_core =  A34
+
 culture = culture_shadowmoon
 religion = religion_ancestral
 
 hre = no
 trade_goods = artifacts
 
-
-
-
 #Outland
 601.1.1 = {
-owner = B89
-controller = B89
-add_core =  B89
+	owner = B89
+	controller = B89
+	add_core =  B89
+	religion = religion_fel
 }
 
 # Rise of the Qiraji
 622.1.1 = {
-owner = B87
-controller = B87
-add_core =  B87
-culture = culture_illidari
-remove_core = B89
+	owner = B87
+	controller = B87
+	add_core =  B87
+	culture = culture_illidari
+	remove_core = B89
 }
-

@@ -4,7 +4,7 @@ mercantilism 		= 0.1
 technology_group 	= tech_demonic
 religion			= religion_fel
 primary_culture 	= culture_illidari
-capital 			= 1663
+capital 			= 1671
 
 617.1.1 = { 
 	monarch = { 
@@ -17,7 +17,7 @@ capital 			= 1663
 }
 
 622.1.1 = {
-add_accepted_culture = culture_blood_elf
+	add_accepted_culture = culture_blood_elf
 }
 
 626.1.1 = { 
@@ -28,7 +28,8 @@ add_accepted_culture = culture_blood_elf
 		dip = 3
 		mil = 4
 	} 
-primary_culture = culture_blood_elf
-add_accepted_culture = culture_illidari
-technology_group 	= tech_thalassian
+	primary_culture = culture_blood_elf
+	add_accepted_culture = culture_illidari
+	technology_group = tech_thalassian
+	capital = 1663
 }

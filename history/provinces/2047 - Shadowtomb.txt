@@ -1,26 +1,24 @@
-# 2047
-is_city = no
+# 2047 - Shadowtomb
+is_city = yes
+
+owner = F49
+controller = F49
+add_core = F49
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
-owner = F49
-controller = F49
-add_core = F49
 culture = culture_shattrathi
 religion = religion_light_of_the_naaru
 
 hre = no
 trade_goods = crypts
 
-
-
-
 #Outland
 601.1.1 = {
-owner = B88
-controller = B88
-add_core =  B88
+	owner = B88
+	controller = B88
+	add_core =  B88
+	religion = religion_fel
 }
-

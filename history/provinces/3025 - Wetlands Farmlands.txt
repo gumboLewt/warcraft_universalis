@@ -17,10 +17,10 @@ trade_goods = grain
 
 # Rise of the Qiraji
 622.1.1 = {
-owner = A06
-controller = A06
-add_core = A06
-remove_core = A29
+	owner = A06
+	controller = A06
+	add_core = A06
+	remove_core = A29
+	culture = culture_ironforge
+	religion = religion_church_of_the_light
 }
-
-

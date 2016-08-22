@@ -17,5 +17,6 @@ trade_goods = army_supplies
 #Outland
 601.1.1 = {
 	add_core = F14
+	culture = culture_ghost
 	religion = religion_fel
 }
