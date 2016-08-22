@@ -1,9 +1,5 @@
-# 1589
+# 1589 Expedition Armory
 is_city = no
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A40
 controller = A40
@@ -11,14 +7,15 @@ add_core = A40
 culture = culture_bleeding_hollow 
 religion = religion_ancestral
 
+base_tax = 2
+base_manpower = 2
+base_production = 2
+
 hre = no
 trade_goods = army_supplies
 
 #Outland
 601.1.1 = {
-add_core = F14
+	add_core = F14
+	religion = religion_fel
 }
-
-
-
-

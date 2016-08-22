@@ -32,15 +32,12 @@ capital 			= 1590
 
 631.1.1 = { 
 	monarch = { 
-		name = "Daneth" 
+		name = "Danath" 
 		dynasty = "Trollbane" 
 		adm = 4
 		dip = 3
 		mil = 5
  	}
-	primary_culture = culture_arathi
-	add_accepted_culture = culture_dalaran
-	religion = religion_church_of_the_light
 }
 
 

@@ -1,29 +1,32 @@
-# 1591
+# 1591 Hellfire Citadel
 is_city = no
-
-base_tax = 7
-base_manpower = 7
-base_production = 7
 
 owner = A36
 controller = A36
 add_core = A36
+
 culture	= culture_shattered_hand
 religion = religion_ancestral
+
+base_tax = 7
+base_manpower = 7
+base_production = 7
 
 hre = no
 trade_goods = army_supplies
 
 #Outland
 601.1.1 = {
-owner = A36
-controller = A36
-add_core = A36
+	owner = A36
+	controller = A36
+	add_core = A36
+	
+	religion = religion_fel
 }
 
 622.1.1 = { 
-owner = B89
-controller = B89
-add_core = B89
-trade_goods = fel
+	owner = B89
+	controller = B89
+	add_core = B89
+	trade_goods = fel
 }

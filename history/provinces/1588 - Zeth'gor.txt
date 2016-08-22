@@ -1,9 +1,5 @@
-# 1588
+# 1588 Zeth'gor
 is_city = no
-
-base_tax = 3
-base_manpower = 4
-base_production = 3
 
 owner = A40
 controller = A40
@@ -11,14 +7,16 @@ add_core = A40
 culture = culture_bleeding_hollow 
 religion = religion_ancestral
 
+base_tax = 3
+base_manpower = 4
+base_production = 3
+
 hre = no
 trade_goods = artifacts
 
 #Outland
-601.1.1 = {
-owner = A40
-controller = A40
-add_core = A40
+601.1.1 = {	
+	religion = religion_fel
 }
 
 
