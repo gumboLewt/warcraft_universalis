@@ -8,26 +8,25 @@ base_production = 3
 owner = A34
 controller = A34
 add_core =  A34
+
 culture = culture_shadowmoon
 religion = religion_ancestral
 
 hre = no
 trade_goods = fel
 
-
-
-
 #Outland
 601.1.1 = {
-owner = B89
-controller = B89
-add_core =  B89
+	owner = B89
+	controller = B89
+	add_core =  B89
+	religion = religion_fel
 }
 
 # Rise of the Qiraji
 622.1.1 = {
-owner = B92
-controller = B92
-add_core =  B92
-remove_core = B89
+	owner = B92
+	controller = B92
+	add_core =  B92
+	remove_core = B89
 }

@@ -20,5 +20,5 @@ trade_goods = crypts
 	owner = B88
 	controller = B88
 	add_core =  B88
-	religion = religion_fel
+	religion = religion_shadow
 }

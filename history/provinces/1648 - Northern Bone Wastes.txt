@@ -1,4 +1,4 @@
-# 1648
+# 1648 - Northern Bone Wastes
 is_city = yes
 
 base_tax = 2
@@ -14,13 +14,11 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = netherweave
 
-
-
-
 # The Burning Crusade
 625.1.1 = {
-owner = A54
-controller = A54
-add_core =  A54
+	owner = A54
+	controller = A54
+	add_core =  A54
+	religion = religion_void 
 }
 

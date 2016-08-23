@@ -1,5 +1,5 @@
-# 1597
-is_city = no
+# 1597 - Falcon Watch
+is_city = yes
 
 base_tax = 3
 base_manpower = 3
@@ -8,26 +8,31 @@ base_production = 3
 owner = A36
 controller = A36
 add_core = A36
+
 culture	= culture_shattered_hand
 religion = religion_ancestral
 
 hre = no
-trade_goods = arcane
+trade_goods = stone
 
+#Outland
+601.1.1 = {
+	religion = religion_fel
+}
+
+# The Frozen Throne
 618.1.1 = { 
-owner = A93
-controller = A93
-add_core = A93
-culture = culture_blood_elf
-religion = religion_arcane
+	owner = A93
+	controller = A93
+	add_core = A93
+	culture = culture_blood_elf # Maybe they was part of High Elven Expedition in 601 ?
+	religion = religion_arcane
+	trade_goods = arcane
 }
 
+# The Burning Crusade	
 625.1.1 = {
-owner = A91
-controller = A91
-add_core = A91
+	owner = A91
+	controller = A91
+	add_core = A91
 }
-
-
-
-

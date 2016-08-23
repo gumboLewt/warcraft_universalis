@@ -1,5 +1,5 @@
 # 1599
-is_city = no
+is_city = yes
 
 base_tax = 3
 base_manpower = 3
@@ -8,7 +8,8 @@ base_production = 3
 owner = A36
 controller = A36
 add_core = A36
-culture	= culture_shattered_hand
+
+culture	= culture_shattrathi
 religion = religion_ancestral
 
 hre = no
@@ -16,13 +17,15 @@ trade_goods = artifacts
 
 #Outland
 601.1.1 = {
-owner = F74
-controller = F74
-add_core = F74
+	owner = F74
+	controller = F74
+	add_core = F74
+	culture	= culture_broken
+	# religion = religion_fel # Resist Fel
 }
 
 622.1.1 = {
-owner = B87
-controller = B87
-add_core = B87
+	owner = B87
+	controller = B87
+	add_core = B87
 }

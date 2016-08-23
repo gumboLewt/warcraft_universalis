@@ -14,8 +14,8 @@
 # Warlords of Draenor - 633
 # Legion - 635
 
-632.1.1 = {
-    owner = XXX
-    controller = XXX
-    remove_core = A99
-}
+#632.1.1 = {
+#    owner = XXX
+#    controller = XXX
+#    remove_core = A99
+#}

@@ -1,4 +1,4 @@
-# 1647
+# 1647 - Stonebreaker Hold
 is_city = yes
 
 base_tax = 4
@@ -8,17 +8,21 @@ base_production = 4
 owner = A39
 controller = A39
 add_core =  A39
+
 culture = culture_bonechewer
 religion = religion_ancestral
 
 hre = no
 trade_goods = artifacts
 
+#Outland
+#601.1.1 = {
+#	religion = religion_fel  # Resisted the Fel
+#}
+
 625.1.1 = {
-owner = A50
-controller = A50
-add_core = A50
-culture = culture_horde
+	owner = A50
+	controller = A50
+	add_core = A50
+	culture = culture_horde
 }
-
-

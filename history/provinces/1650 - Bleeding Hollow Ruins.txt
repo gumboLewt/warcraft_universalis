@@ -1,4 +1,4 @@
-# 1650
+# 1650 - Bleeding Hollow Ruins
 is_city = yes
 
 base_tax = 3
@@ -8,18 +8,18 @@ base_production = 3
 owner = B78
 controller = B78
 add_core =  B78
+
 culture = culture_sethekk
 religion = religion_terokk
 
 hre = no
 trade_goods = artifacts
 
-
-
-
 #Outland
 601.1.1 = {
-owner = F50
-controller = F50
-add_core =  F50
+	owner = F50
+	controller = F50
+	add_core =  F50
+	culture = culture_boulderfist
+	religion = religion_geomancy
 }

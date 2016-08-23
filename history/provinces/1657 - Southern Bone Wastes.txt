@@ -1,5 +1,5 @@
-# 1657
-is_city = no
+# 1657 - Southern Bone Wastes
+is_city = yes
 
 base_tax = 3
 base_manpower = 3
@@ -8,24 +8,23 @@ base_production = 3
 owner = B78
 controller = B78
 add_core =  B78
+
 culture = culture_sethekk
 religion = religion_terokk
 
 hre = no
 trade_goods = crypts
 
-
-
-
 #Outland
 601.1.1 = {
-owner = F49
-controller = F49
-add_core = F49
+	owner = F49
+	controller = F49
+	add_core = F49
+	culture = culture_shattrathi
+	religion = religion_light_of_the_naaru
 }
 
 # The Burning Crusade
 625.1.1 = {
-religion = religion_void
+	religion = religion_void
 }
-
