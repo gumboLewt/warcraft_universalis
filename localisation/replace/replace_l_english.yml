@@ -222,7 +222,7 @@
  
  ## 
  
- Lord Protector_DIPACTIONS_DESC: "The Lord Protector may take the following diplomatic actions: \n$LIST|Y$"
+ Lord_Protector_DIPACTIONS_DESC: "The Lord Protector may take the following diplomatic actions: \n$LIST|Y$"
  HRE_VOTE_SCORE_DESC: "Once a month §Y$ELECTOR$§W will change who they are backing to the realm with the highest vote score."
  HRE_OTHER_VOTE_SELF: "The Prince of §Y$ELECTOR$§W is backing themselves for the Iron Throne."
  HRE_RELATION_SELF: "We give ourselves §Y$POINTS$§W when ranking of who we want to vote for as the next Lord Protector."
