@@ -227,7 +227,7 @@
  HRE_OTHER_VOTE_SELF: "The Prince of §Y$ELECTOR$§W is backing themselves for the Iron Throne."
  HRE_RELATION_SELF: "We give ourselves §Y$POINTS$§W when ranking of who we want to vote for as the next Lord Protector."
  HRE_CAST_VOTE_DESC: "You can select who you want to vote for the Lord Protector!"
- BENEFIT_FOR_Lord Protector: "Lord Protector gets"
+ BENEFIT_FOR_Lord_Protector: "Lord Protector gets"
  NO_WAR_ON_EMPIRE: "You can not declare war on a member of the Pandaren Empire, if you are allied with the Lord Protector in a war."
  NO_WAR_ON_EMPIRE_FIRST_MONTHS: "You can not declare war on a member of the Pandaren Empire, if you are allied with the Lord Protector and the Lord Protector has recently gone to war."
  ALREADY_WAR_EMPIRE: "You can not declare war on a member of the Pandaren Empire, if you are already at war with the Lord Protector."

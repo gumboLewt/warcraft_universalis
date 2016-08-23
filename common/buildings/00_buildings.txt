@@ -878,7 +878,7 @@ wow_fort_2 = {
 wow_fort_3 = {
 	cost = 500
 	time = 30
-    make_obsolete = wow_fort_3
+    make_obsolete = wow_fort_2
 	modifier = {
 		fort_level = 6
 	}
@@ -925,7 +925,7 @@ wow_fort_3 = {
 wow_fort_4 = {
 	cost = 1000
 	time = 30
-    make_obsolete = wow_fort_4
+    make_obsolete = wow_fort_3
 	modifier = {
 		fort_level = 8
 	}
