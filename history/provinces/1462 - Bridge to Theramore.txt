@@ -1,5 +1,5 @@
 # 1462 Tidefury cove
-is_city = no
+is_city = yes
 
 base_tax = 1
 base_manpower = 1
@@ -15,14 +15,14 @@ religion = religion_old_gods
 hre = no
 trade_goods = fish
 
-
 # The Frozen Throne
 618.1.1 = { 
     controller = A23
     owner = A23
     add_core = A23
-    culture = culture_lordaeron
+    culture = culture_dalaran
     religion = religion_church_of_the_light
+	
     base_tax = 2
     base_manpower = 2
     base_production = 3

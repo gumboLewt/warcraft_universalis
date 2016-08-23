@@ -1,7 +1,7 @@
 # Theramore
 government 			= expeditionary_force
 government_rank = 1
-mercantilism 		= 0.1
+mercantilism 		= 0.15 # Trader of Humanity on the West
 technology_group 	= tech_human
 religion			= religion_church_of_the_light
 primary_culture 	= culture_lordaeron
@@ -16,17 +16,17 @@ monarch = {
 		adm = 4
 		dip = 5
 		mil = 1
-	female = yes
+		female = yes
  	}
-add_country_modifier = {
-name = alliance_member
-duration = -1
-}
+	add_country_modifier = {
+		name = alliance_member
+		duration = -1
+	}
 }
 
 #The Frozen Throne
 618.1.1 = {
-government = administrative_kingdom
+	government = administrative_kingdom
 }
 
 632.1.1 = {

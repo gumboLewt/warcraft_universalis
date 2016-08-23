@@ -1,5 +1,5 @@
-# 1439
-is_city = no
+# 1439 - Northwatch Hold
+is_city = yes
 
 base_tax = 4
 base_manpower = 4
@@ -8,6 +8,7 @@ base_production = 4
 owner = B68
 controller = B68
 add_core = B68
+
 culture = culture_bristleback
 religion = religion_geomancy
 
@@ -17,24 +18,24 @@ trade_goods = fish
 # Horde Landing
 617.1.1 = {
 owner = A48
-controller = A48
-add_core = A48
-culture = culture_horde
-religion = religion_ancestral
-capital = "Horde Landing Site"
+	controller = A48
+	add_core = A48
+	culture = culture_horde
+	religion = religion_ancestral
+	capital = "Horde Landing Site"
 }
 
 618.1.1 = {
-owner = G06
-controller = G06
-add_core = G06
-remove_core = A48
-culture = culture_lordaeron
-religion = religion_church_of_the_light
-capital = "Northwatch Hold"
-base_tax = 4
-base_manpower = 5
-base_production = 4
+	owner = G06
+	controller = G06
+	add_core = G06
+	remove_core = A48
+	culture = culture_lordaeron
+	religion = religion_church_of_the_light
+	capital = "Northwatch Hold"
+	base_tax = 4
+	base_manpower = 5
+	base_production = 4
 }
 
 # Damaged after being razed and rebuilt
@@ -43,8 +44,3 @@ base_production = 4
 	base_manpower = 4
 	base_production = 4
 }
-
-
-
-
-

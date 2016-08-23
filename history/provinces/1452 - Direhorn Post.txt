@@ -15,9 +15,8 @@ religion = religion_ancestral
 hre = no
 trade_goods = cloth
 
-632.1.1 = { 
-religion = religion_water
-culture = culture_makrura
-owner = xxx
-controller = xxx 
+631.1.1 = { 
+	base_tax = 2 # Burned by the Theramore Forces
+	base_manpower = 1
+	base_production = 1
 }

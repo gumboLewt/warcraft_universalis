@@ -1,0 +1,28 @@
+# 2201 Dusky Shore
+is_city = yes
+
+owner = A85
+controller = A85
+add_core = A85
+
+base_tax = 2
+base_manpower = 1
+base_production = 1
+
+culture = culture_grimtotem
+religion = religion_ancestral
+
+hre = no
+trade_goods = iron
+
+618.1.1 = { 
+	culture = culture_high_elf
+	religion = religion_church_of_the_light
+	base_tax = 3
+	base_manpower = 4
+	base_production = 3
+	controller = A23
+	owner = A23
+	add_core = A23
+	trade_goods = army_supplies
+}

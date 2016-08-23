@@ -999,7 +999,7 @@ area_the_wailing_caverns = {
 }
 
 area_northwatch_hold = {
-    1439 2286 1423
+    1439 2286 1423 2949
 }
 
 area_taurajo = {
@@ -1115,7 +1115,7 @@ area_the_wrymbog = {
 }
 
 area_tidefury_cove = {
-    1462 1452 1463
+    1462 1452 1463 2950
 }
 
 area_theramore_isle = {
@@ -1123,7 +1123,7 @@ area_theramore_isle = {
 }
 
 area_dreadmurk_coast = {
-    1461 1451 1450
+    1461 1451 1450 2201 2951 2952 2953
 }
 
 area_alcaz_isle = {
