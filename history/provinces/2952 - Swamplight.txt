@@ -21,4 +21,5 @@ trade_goods = fur
 	controller = A23
 	owner = A23
 	add_core = A23
+	capital = "Swamplight Manor"
 }

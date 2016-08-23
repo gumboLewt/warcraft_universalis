@@ -1,4 +1,4 @@
-# 2950 -Direhorn Grounds.txt
+# 2950 - Direhorn Grounds
 is_city = yes
 
 owner = A85
