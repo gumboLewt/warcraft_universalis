@@ -1,5 +1,4 @@
 # 2998 Quel'Lorien (This is actually where Quel'Danil Lodge should be)
-
 is_city = yes
 
 add_core = A60

@@ -6,6 +6,7 @@ base_manpower = 3
 base_production = 2
 
 add_core = A08
+add_core = A10
 owner = A08
 controller = A08
 
@@ -15,35 +16,34 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = army_supplies
 
-
-
-
 # The Third War
 617.1.1 = { 
-add_core = E52
+	add_core = E52
 }
 
 # The Frozen Throne
 618.1.1 = { 
-add_core = F17
-owner = F17
-controller = F17
-remove_core = A08
+	add_core = F17
+	owner = F17
+	controller = F17
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-add_core = A22
-owner = A22
-controller = A22
-religion = religion_scarlet_light
+	add_core = A22
+	owner = A22
+	controller = A22
+	religion = religion_scarlet_light
 }
 
 # Cataclysm
 631.1.1 = { 
-owner = X01
-controller = X01
-add_core = X01
-religion = religion_fel
-culture = culture_forsaken 
+	owner = X01
+	controller = X01
+	add_core = X01
+	remove_core = A08
+	remove_core = F17
+	remove_core = A10
+	religion = religion_fel
+	culture = culture_forsaken 
 }

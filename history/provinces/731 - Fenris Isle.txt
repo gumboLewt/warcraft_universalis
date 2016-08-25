@@ -2,8 +2,13 @@
 is_city = yes 
 
 add_core = B25
+add_core = A08
+add_core = A12
+add_core = A17
+add_core = A18
 owner = B25
 controller = B25
+
 culture = culture_nerglish
 religion = religion_water
 
@@ -11,42 +16,38 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
- 
 hre = no 
 trade_goods = army_supplies
 
-
-
-
 # The Frozen Throne
 618.1.1 = { 
-owner = A25
-controller = A25
-add_core = A25
-remove_core = A08
+	owner = A25
+	controller = A25
+	add_core = A25
+	remove_core = A08
 }
 
 # Reconquest of Lordaeron (TFT)
 620.8.1 = { 
-controller = E52
+	controller = E52
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = B19
-controller = B19
-add_core = B19
-add_core = E52
-culture = culture_rothide
-religion = religion_the_damned 
+	owner = B19
+	controller = B19
+	add_core = B19
+	add_core = E52
+	culture = culture_rothide
+	religion = religion_the_damned 
 }
 
 # Cataclysm
 631.1.1 = { 
-owner = A11
-controller = A11
-add_core = A11
-remove_core = B19
-culture = culture_lordaeron_worgen
-religion = religion_church_of_the_light 
+	owner = A11
+	controller = A11
+	add_core = A11
+	remove_core = B19
+	culture = culture_lordaeron_worgen
+	religion = religion_church_of_the_light 
 }

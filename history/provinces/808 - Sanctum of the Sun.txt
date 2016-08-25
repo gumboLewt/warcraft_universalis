@@ -2,8 +2,10 @@
 is_city = yes 
 
 add_core = A59
+add_claim = A90
 owner = A59
 controller = A59
+
 culture = culture_shadowpine
 religion = religion_loa
 
@@ -11,28 +13,24 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
- 
 hre = no 
 trade_goods = arcane
 
-
-
-
 # The Frozen Throne
 618.1.1 = {
-owner = F21
-controller = F21
-add_core = F21
-culture = culture_ghost
-religion = religion_the_damned
-remove_core = A90 
+	owner = F21
+	controller = F21
+	add_core = F21
+	culture = culture_ghost
+	religion = religion_the_damned
+	remove_core = A90 
 }
 
 # The Burning Crusade
 625.1.1 = { 
-owner = A91
-controller = A91
-add_core = A91
-culture = culture_blood_elf
-religion = religion_arcane
+	owner = A91
+	controller = A91
+	add_core = A91
+	culture = culture_blood_elf
+	religion = religion_arcane
 }

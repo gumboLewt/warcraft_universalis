@@ -2,6 +2,7 @@
 is_city = yes
 
 add_core = A08
+add_core = E62
 owner = A08
 controller = A08
 
@@ -25,7 +26,6 @@ trade_goods = gold
 	add_core = E62
 	owner = E62
 	controller = E62
-	remove_core = A08
 }
 
 # Rise of the Qiraji
@@ -41,6 +41,8 @@ trade_goods = gold
 	owner = E13
 	controller = E13
 	add_core = E13
+	remove_core = A08
+	remove_core = E62
 	culture = culture_death_knight
 	religion = religion_shadow
 	base_tax = 1

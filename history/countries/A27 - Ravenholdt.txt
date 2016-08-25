@@ -1,10 +1,20 @@
 # Ravenholdt
-government 			= cult_gov
+government 			= dictatorship_gov
 mercantilism 		= 0.1 
 technology_group 	= tech_human
-religion 			= religion_sect_of_dragons
+religion 			= religion_church_of_the_light
 primary_culture 	= culture_lordaeron
 capital = 624 
+
+546.1.1 = { 
+	monarch = { 
+		name = "Joahim" #temp
+		dynasty = "Ravenholdt" 	
+		adm = 3		
+		dip = 5	
+		mil = 3
+	}
+} 
 
 618.1.1 = { 
 	monarch = { 
@@ -14,6 +24,8 @@ capital = 624
 		dip = 5	
 		mil = 3
 	}
+	religion = religion_sect_of_dragons
+	government = cult_gov
 } 
 
 631.1.1 = { 

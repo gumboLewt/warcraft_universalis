@@ -1,6 +1,8 @@
 # 688 Andorhal
 is_city = yes
+
 add_core = A08
+add_core = A09
 owner = A08
 controller = A08
 
@@ -14,51 +16,49 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = grain_silo
 
-
-
-
 # The Third War
 617.1.1 = { 
-controller = E12 
+	controller = E12 
 }
 
 # The Frozen Throne
 618.1.1 = { 
-add_core = F15
-owner = F15
-controller = F15
-religion = religion_fel
-culture = culture_scourge 
-remove_core = A08
+	add_core = F15
+	owner = F15
+	controller = F15
+	religion = religion_fel
+	culture = culture_scourge 
+	remove_core = A08
+	remove_core = A09
 }
 
 # War of Lordaeron (TFT)
 620.9.1 = { 
-controller = E52
+	controller = E52
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-add_core = E52
-remove_core = F15
-owner = E52
-religion = religion_the_damned
+	add_core = E52
+	remove_core = F15
+	owner = E52
+	religion = religion_the_damned
 }
 
 # Cataclysm
 631.1.1 = { 
-add_core = E12
-remove_core = E52
-owner = E12
-controller = E12 
+	add_core = E12
+	remove_core = E52
+	owner = E12
+	controller = E12 
 }
 
+# Mists of Pandaria
 632.1.1 = { 
-add_core = E14
-remove_core = E12
-owner = E14
-controller = E14
-religion = religion_forgotten_shadow 
-culture = culture_forsaken
+	add_core = E14
+	remove_core = E12
+	owner = E14
+	controller = E14
+	religion = religion_forgotten_shadow 
+	culture = culture_forsaken
 }
-

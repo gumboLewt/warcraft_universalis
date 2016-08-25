@@ -1,5 +1,4 @@
-# 763 Quel'Danil Lodge (This is incorrectly placed, location is actually Agol'Watha and belongs to the Vilebranch)
-
+# 763 Quel'Danil Lodge
 is_city = yes
 
 add_core = A60
@@ -15,29 +14,24 @@ religion = religion_loa
  
 hre = no 
 trade_goods = fish
- 
-
-
-
 
 # Beyond the Dark Portal
 600.1.1 = { 
-remove_core = A60 
-owner = XXX
-controller = XXX
-culture = culture_ooze 
+	remove_core = A60 
+	owner = XXX
+	controller = XXX
+	culture = culture_ooze 
 }
 
-
 630.11.11 = { 
-owner = XXX
-controller = XXX
+	owner = XXX
+	controller = XXX
 }
 
 # Cataclysm
 631.1.1 = {
-add_core = A60
-owner = A60
-controller = A60
-culture = culture_vilebranch 
+	add_core = A60
+	owner = A60
+	controller = A60
+	culture = culture_vilebranch 
 }

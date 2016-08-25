@@ -2,18 +2,18 @@
 is_city = yes
 
 add_core = B12
+add_core = A08
+add_core = A10
 owner = B12
 controller = B12
+
 culture = culture_blackpaw
 religion = religion_ancestral
-add_core = A08
-
 
 base_tax = 1
 base_manpower = 2
 base_production = 1
 
- 
 hre = no 
 trade_goods = army_supplies
 
@@ -34,6 +34,7 @@ trade_goods = army_supplies
 	religion = religion_loa
 	culture = culture_mossflayer 
 	remove_core = A08
+	remove_core = A10
 }
 
 # Rise of the Qiraji

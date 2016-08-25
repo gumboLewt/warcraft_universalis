@@ -2,9 +2,12 @@
 is_city = yes
 
 add_core = A08
+add_core = A09
+add_core = A17
 add_core = A63
 owner = A63
 controller = A63
+
 culture = culture_firetree
 religion = religion_loa
 
@@ -12,7 +15,6 @@ base_tax = 2
 base_manpower = 2
 base_production = 1
 
- 
 hre = no 
 trade_goods = army_supplies
 

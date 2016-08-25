@@ -2,6 +2,8 @@
 is_city = yes 
 
 add_core = B25
+add_core = A08
+add_core = A12
 owner = B25
 controller = B25
 culture = culture_nerglish
@@ -15,48 +17,46 @@ base_production = 3
 hre = no 
 trade_goods = grain
 
-
-
-
 # The Frozen Throne
 618.1.1 = { 
-owner = A25
-controller = A25
-add_core = A25
-add_core = E52
-remove_core = A08
+	owner = A25
+	controller = A25
+	add_core = A25
+	add_core = E52
+	remove_core = A08
 }
 
 # Reconquest of Lordaeron (TFT)
 620.8.1 = { 
-controller = E52
+	controller = E52
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = B19
-controller = B19
-add_core = B19
-culture = culture_rothide
-religion = religion_the_damned
-capital = "The Decrepit Fields" 
+	owner = B19
+	controller = B19
+	add_core = B19
+	culture = culture_rothide
+	religion = religion_the_damned
+	capital = "The Decrepit Fields" 
 }
 
 # Cataclysm
 631.1.1 = { 
-owner = A11
-controller = A11
-add_core = A11
-remove_core = B19
-culture = culture_lordaeron_worgen
-religion = religion_church_of_the_light 
+	owner = A11
+	controller = A11
+	add_core = A11
+	remove_core = B19
+	culture = culture_lordaeron_worgen
+	religion = religion_church_of_the_light 
 }
 
+# Mists of Pandaria
 632.1.1 = { 
-owner = E14
-controller = E14
-add_core = E14
-remove_core = A11
-culture = culture_forsaken
-religion = religion_forgotten_shadow 
+	owner = E14
+	controller = E14
+	add_core = E14
+	remove_core = A11
+	culture = culture_forsaken
+	religion = religion_forgotten_shadow 
 }

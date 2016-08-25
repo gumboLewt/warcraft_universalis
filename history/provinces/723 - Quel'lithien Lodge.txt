@@ -2,6 +2,8 @@
 is_city = yes 
 
 add_core = A90
+add_core = A10
+add_core = A62
 owner = A90
 controller = A90
 
@@ -14,6 +16,12 @@ religion = religion_arcane
  
 hre = no 
 trade_goods = fur
+
+# The First War
+592.1.1 = { 
+	remove_core = A10
+	remove_core = A62
+}
 
 # The Frozen Throne
 618.1.1 = { 

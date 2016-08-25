@@ -1,18 +1,19 @@
 # 3075 - Reanimatory
 is_city = yes
 
-	add_core = A62
-	owner = A62
-	controller = A62
-	religion = religion_loa
-	culture = culture_mossflayer 
-	add_core = A08
+add_core = A62
+add_core = A10
+add_core = A08
+owner = A62
+controller = A62
+
+religion = religion_loa
+culture = culture_mossflayer 
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
- 
 hre = no 
 trade_goods = grain
 
@@ -26,12 +27,13 @@ trade_goods = grain
 	add_core = A10
 	owner = A10
 	controller = A10
-	remove_core = A08
 }
 
 # Rise of the Qiraji
 622.1.1 = {
 	add_core = E12
+	remove_core = A08
+	remove_core = A10
 	owner = E12
 	controller = E12
 	culture = culture_scourge

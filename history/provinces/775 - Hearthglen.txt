@@ -2,6 +2,7 @@
 is_city = yes
 
 add_core = A08
+add_core = A09
 owner = A08
 controller = A08
 
@@ -19,8 +20,6 @@ trade_goods = grain
 618.1.1 = { 
 	owner = A09
 	controller = A09
-	add_core = A09
-    remove_core = A08
 }
 
 # Rise of the Qiraji

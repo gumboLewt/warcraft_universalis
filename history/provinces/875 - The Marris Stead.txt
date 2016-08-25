@@ -2,18 +2,17 @@
 is_city = yes
 
 add_core = E55
+add_core = E62
+add_core = A08
 owner = E55
 controller = E55
+
 culture = culture_shadowglen
 religion = religion_loa
-
-add_core = A08
 
 base_tax = 3
 base_manpower = 2
 base_production = 1
-
-
  
 hre = no 
 trade_goods = fur
@@ -31,6 +30,7 @@ trade_goods = fur
 618.1.1 = { 
 	controller = F15
 	remove_core = A08
+	remove_core = E62
 }
 
 # War of Lordaeron (TFT)

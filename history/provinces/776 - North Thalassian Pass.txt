@@ -1,6 +1,7 @@
 #776 North Thalassian Pass
 is_city = yes 
 
+add_core = A58
 add_core = A90
 owner = A90
 controller = A90
@@ -15,15 +16,17 @@ religion = religion_arcane
 hre = no 
 trade_goods = runecloth
 
-
-
+# The First War
+592.1.1 = { 
+	remove_core = A58
+}
 
 # The Frozen Throne
 618.1.1 = {
-owner = F21
-controller = F21
-add_core = F21
-culture = culture_scourge
-religion = religion_the_damned
-remove_core = A90 
+	owner = F21
+	controller = F21
+	add_core = F21
+	culture = culture_scourge
+	religion = religion_the_damned
+	remove_core = A90 
 }

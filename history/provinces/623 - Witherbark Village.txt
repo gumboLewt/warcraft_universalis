@@ -2,7 +2,6 @@
 is_city = yes
 
 add_core = A65
-add_core = A16
 owner = A65
 controller = A65
 capital = "Smolderthorn Village"

@@ -6,8 +6,9 @@ base_manpower = 4
 base_production = 3
 
 add_core = A08
-owner = A08
-controller = A08
+add_core = A27
+owner = A27
+controller = A27
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
@@ -15,14 +16,18 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = army_supplies
 
-
-
+# Fall of Stormwind
+597.1.1 = { 
+	owner = A08
+	controller = A08
+}
 
 # The Frozen Throne
 618.1.1 = { 
-owner = A27
-controller = A27
-add_core = A27
-remove_core = A08
-religion = religion_sect_of_dragons
+	owner = A27
+	controller = A27
+	add_core = A27
+	remove_core = A08
+	
+	religion = religion_sect_of_dragons
 }

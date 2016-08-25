@@ -1,10 +1,11 @@
 # 1937 Circle of Outer Binding
-
-is_city = no
+is_city = yes
 
 add_core = A65
+add_claim = A16
 owner = A65
 controller = A65
+
 culture = culture_smolderthorn
 religion = religion_loa
 
@@ -12,28 +13,27 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
- 
 hre = no 
 trade_goods = artifacts
 
 # The Third War
 617.1.1 = {
-owner = XXX
-controller = XXX
+	owner = XXX
+	controller = XXX
 }
 
 617.11.11 = {
-owner = XXX
-controller = XXX
-culture = culture_arathi
-religion = religion_church_of_the_light 
+	owner = XXX
+	controller = XXX
+	culture = culture_arathi
+	religion = religion_church_of_the_light 
 }
 
 # The Frozen Throne
 618.1.1 = { 
-add_core = E28
-controller = E28
-owner = E28
-culture = culture_air
-religion = religion_air
+	add_core = E28
+	controller = E28
+	owner = E28
+	culture = culture_air
+	religion = religion_air
 }

@@ -8,3 +8,11 @@ union = {
 	start_date = 546.1.1
 	end_date = 650.1.1
 }
+
+# Aerie Peak - Ravenhold
+alliance = {
+	first = E22
+	second = A27
+	start_date = 546.1.1
+	end_date = 597.1.1
+}

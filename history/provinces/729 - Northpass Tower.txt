@@ -1,12 +1,14 @@
 # 729 Northpass Tower
 is_city = yes
 
-	add_core = A62
-	owner = A62
-	controller = A62
-	religion = religion_loa
-	culture = culture_mossflayer 
-	add_core = A08
+add_core = A62
+add_core = A10
+add_core = A08
+owner = A62
+controller = A62
+
+religion = religion_loa
+culture = culture_mossflayer 
 
 base_tax = 1
 base_manpower = 2
@@ -33,6 +35,7 @@ trade_goods = army_supplies
 	religion = religion_loa
 	culture = culture_mossflayer
 	remove_core = A08 
+	remove_core = A10
 }
 
 # Rise of the Qiraji
