@@ -15,6 +15,12 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = fish
 
+# Fall of Stormwind
+597.1.1 = { 
+	base_manpower = 3
+	base_production = 4
+}
+
 # Beyond the Dark Portal
 600.1.1 = { 
 	owner = A26

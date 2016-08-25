@@ -8,45 +8,45 @@ base_production = 1
 owner = E51
 controller = E51
 add_core = E51
+
 culture = culture_nerglish
 religion = religion_water
 
 hre = no
 trade_goods = fish
 
-
-
-
 # Fall of Stormwind
 597.1.1 = { 
-owner = A01
-controller = A01
-add_core = A01
-culture = culture_azerothian 
+	owner = A01
+	controller = A01
+	add_core = A01
+	add_core = A08
+	culture = culture_azerothian
+	religion = religion_church_of_the_light
 }
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = A08
-controller = A08
-remove_core = A01
-culture = culture_lordaeron 
+	owner = A08
+	controller = A08
+	remove_core = A01
+	culture = culture_lordaeron 
 }
 
 # The Frozen Throne
 618.1.1 = { 
-owner = A11
-controller = A11
-add_core = A11
-remove_core = A08
+	owner = A11
+	controller = A11
+	add_core = A11
+	remove_core = A08
 }
 
 # Rise of the Qiraj
 622.1.1 = { 
-owner = E51
-controller = E51
-add_core = E51
-culture = culture_nerglish
-religion = religion_water
-base_manpower = 2
+	owner = E51
+	controller = E51
+	add_core = E51
+	culture = culture_nerglish
+	religion = religion_water
+	base_manpower = 2
 }

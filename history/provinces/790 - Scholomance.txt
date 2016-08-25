@@ -16,6 +16,12 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = arcane
 
+# The Second War
+598.1.1 = {
+	base_tax = 4
+	base_production = 3
+}
+
 # The Third War
 617.1.1 = {
 	add_core = E12
@@ -23,7 +29,6 @@ trade_goods = arcane
 	controller = E12
 	religion = religion_the_damned
 	culture = culture_cultist
-	base_tax = 4
 	base_manpower = 4
 	base_production = 4
 }

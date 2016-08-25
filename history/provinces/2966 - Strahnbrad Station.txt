@@ -15,6 +15,11 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = mounts
 
+# The First War
+592.1.1 = { 
+	base_manpower = 2
+}
+
 # Beyond the Dark Portal
 600.1.1 = { 
 	owner = H08

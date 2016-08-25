@@ -18,6 +18,21 @@ base_production = 1
 hre = no 
 trade_goods = army_supplies
 
+# Fall of Stormwind
+597.1.1 = { 
+	owner = A17
+	controller = A17
+	add_core = A08
+	add_core = A09
+	add_core = A17
+	remove_core = A63
+	religion = religion_church_of_the_light
+	culture = culture_alterac 
+	base_tax = 3
+	base_manpower = 3
+	base_production = 2
+}
+
 # The Third War
 617.1.1 = { 
 	owner = B14
@@ -35,7 +50,7 @@ trade_goods = army_supplies
 	remove_core = A08
 	culture = culture_lordaeron
 	religion = religion_church_of_the_light
-	base_production = 2
+	base_production = 3
 }
 
 # Rise of the Qiraji
@@ -52,9 +67,7 @@ trade_goods = army_supplies
 	owner = F19
 	controller = F19
 	add_core = F19 
-	base_tax = 3
-	base_manpower = 3
-	base_production = 3
+	base_manpower = 4
 }
 
 # Cataclysm

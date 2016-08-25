@@ -17,6 +17,17 @@ base_production = 3
 hre = no 
 trade_goods = grain
 
+# Fall of Stormwind
+597.1.1 = { 
+	owner = A08
+	controller = A08
+	add_core = A08
+	add_core = A10
+	remove_core = A62
+	religion = religion_church_of_the_light
+	culture = culture_lordaeron 
+}
+
 # The Third War
 617.1.1 = { 
 	add_core = E52

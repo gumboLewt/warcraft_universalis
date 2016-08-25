@@ -15,21 +15,32 @@ religion = religion_arcane
 hre = no
 trade_goods = grain
 
-
+# Fall of Stormwind
+597.1.1 = { 
+	base_tax = 2
+	base_manpower = 2
+	base_production = 3
+}
 
 
 # The Frozen Throne
 618.1.1 = { 
-base_manpower = 2
-owner = A25
-controller = A25
-add_core = A25
-religion = religion_church_of_the_light 
+	base_manpower = 3
+	owner = A25
+	controller = A25
+	add_core = A25
+	religion = religion_church_of_the_light 
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = A18
-controller = A18
-religion = religion_arcane
+	owner = A18
+	controller = A18
+	religion = religion_arcane
+	base_tax = 3
+}
+
+# Cataclysm
+631.1.1 = { 
+	base_production = 4
 }

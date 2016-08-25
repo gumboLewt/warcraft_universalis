@@ -15,20 +15,17 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = cloth
 
-# Fall of Stormwind
-597.1.1 = { 
-	owner = A01
-	controller = A01
-	add_core = A01
-	culture = culture_azerothian 
+# The First War
+592.1.1 = { 
+	base_tax = 2
+	base_production = 3
 }
 
 # Beyond the Dark Portal
 600.1.1 = { 
+	add_core = A08
 	owner = A08
 	controller = A08
-	remove_core = A01
-	culture = culture_lordaeron 
 }
 
 # The Frozen Throne

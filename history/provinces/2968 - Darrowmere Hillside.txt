@@ -15,28 +15,34 @@ religion = religion_ancestral
 hre = no
 trade_goods = fish
 
-
-
+# Fall of Stormwind
+597.1.1 = { 
+	owner = A17
+	controller = A17
+	add_core = A17
+	religion = religion_church_of_the_light
+	culture = culture_alterac 
+}
 
 # The Frozen Throne
 618.1.1 = { 
-owner = F15
-controller = F15
-add_core = F15
-remove_core = B14
-religion = religion_fel
-culture = culture_scourge
+	owner = F15
+	controller = F15
+	add_core = F15
+	remove_core = B14
+	religion = religion_fel
+	culture = culture_scourge
 }
 
 # War of Lordaeron (TFT)
 620.6.1 = { 
-controller = E12
+	controller = E12
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = E12
-add_core = E12
-remove_core = F15
-religion = religion_the_damned
+	owner = E12
+	add_core = E12
+	remove_core = F15
+	religion = religion_the_damned
 }

@@ -3,7 +3,7 @@ is_city = yes
 
 base_tax = 1
 base_manpower = 1
-base_production = 0
+base_production = 1
 
 owner = B14
 controller = B14
@@ -15,24 +15,37 @@ religion = religion_ancestral
 hre = no
 trade_goods = fish
 
+# The First War
+592.1.1 = { 
+	base_manpower = 2
+}
 
-
+# Fall of Stormwind
+597.1.1 = { 
+	owner = A17
+	controller = A17
+	add_core = A17
+	religion = religion_church_of_the_light
+	culture = culture_alterac 
+	base_tax = 2
+	base_production = 2
+}
 
 # Third War
 617.1.1 = { 
-owner = E12
-controller = E12
-add_core = E12
-religion = religion_the_damned
-culture = culture_scourge
+	owner = E12
+	controller = E12
+	add_core = E12
+	religion = religion_the_damned
+	culture = culture_scourge
 }
 
 # War of Lordaeron (TFT)
 618.1.1 = { 
-controller = F15
+	controller = F15
 }
 
 # War of Lordaeron (TFT)
 620.5.1 = { 
-controller = E12
+	controller = E12
 }

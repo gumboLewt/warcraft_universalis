@@ -16,6 +16,15 @@ religion = religion_loa
 hre = no
 trade_goods = crypts
 
+# The First War
+592.1.1 = { 
+	remove_core = E55
+	owner = A08
+	controller = A08
+	culture = culture_lordaeron
+	religion = religion_church_of_the_light 
+}
+
 # The Frozen Throne
 618.1.1 = { 
 	add_core = A62

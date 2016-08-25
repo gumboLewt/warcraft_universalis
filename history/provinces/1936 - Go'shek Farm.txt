@@ -16,6 +16,15 @@ base_production = 3
 hre = no 
 trade_goods = grain
 
+# The First War
+592.1.1 = { 
+	add_core = A16
+	owner = A16
+	controller = A16
+	culture = culture_arathi
+	religion = religion_church_of_the_light 
+}
+
 # The Third War
 617.1.1 = {
 	owner = XXX

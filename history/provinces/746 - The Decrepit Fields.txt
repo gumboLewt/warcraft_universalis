@@ -17,6 +17,15 @@ base_production = 3
 hre = no 
 trade_goods = grain
 
+# The First War
+592.1.1 = { 
+	remove_core = B25
+	owner = A12
+	controller = A12
+	culture = culture_gilnean
+	religion = religion_church_of_the_light 
+}
+
 # The Frozen Throne
 618.1.1 = { 
 	owner = A25

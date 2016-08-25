@@ -2,10 +2,10 @@
 is_city = yes 
 
 add_core = B25
-add_core = A08
-add_core = A12
-add_core = A17
-add_core = A18
+add_claim = A08
+add_claim = A12
+add_claim = A17
+add_claim = A18
 owner = B25
 controller = B25
 
