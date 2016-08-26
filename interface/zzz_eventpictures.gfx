@@ -224,5 +224,20 @@ spriteTypes = {
 		allwaystransparent = yes
 	}	
 
+	spriteType = {
+		name = "BLOODYCROWN_SKULLS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/BLOODYCROWN_SKULLS_eventPicture.dds"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "ORC_THRONE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/ORC_THRONE_eventPicture.dds"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "SWORD_SHIELD_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/SWORD_SHIELD_eventPicture.dds"
+		allwaystransparent = yes
+	}	
 
 }
