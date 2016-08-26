@@ -826,12 +826,12 @@ sand_troll_ideas = {
 
 ice_troll_ideas = {
 	start = {
-		manpower_recovery_speed = 0.10
-		defensiveness = 0.10
+		mercenary_cost = -0.25
+        merc_maintenance_modifier = -0.25
 	}
 
 	bonus = {
-		production_efficiency = 0.1
+		prestige = 1
 	}
 	
 	trigger = {
@@ -840,25 +840,25 @@ ice_troll_ideas = {
 	free = yes		
 	
 	ice_troll_ideas_1 = {
-	
+        enemy_core_creation = 0.75
 	}
 	ice_troll_ideas_2 = {
-	
+        hostile_attrition = 2
 	}
 	ice_troll_ideas_3 = {
-	
+        development_cost = -0.15
 	}
 	ice_troll_ideas_4 = {
-	
+        reinforce_speed = 0.25
 	}
 	ice_troll_ideas_5 = {
-	
+        leader_land_manuever = 1
 	}
 	ice_troll_ideas_6 = {
-	
+        global_manpower_modifier = 0.25
 	}
 	ice_troll_ideas_7 = {
-	
+        recover_army_morale_speed = 0.15
 	}
 }
 

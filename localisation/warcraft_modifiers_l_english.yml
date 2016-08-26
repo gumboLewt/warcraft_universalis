@@ -44,3 +44,36 @@
  #------------------------------------------------
  city_of_innovation: "City of Innovation"
  desc_city_of_innovation: "Known for the inventiveness, the occupants of this province provide a bonus to technological research."
+ 
+ #------------------------------------------------
+ # Decision
+ #------------------------------------------------
+ seek_kaja_mite: "Seeking Kaja'mite"
+ desc_seek_kaja_mite: "Our people are perturbed by our expedition for Kaja'mite."
+ 
+ technological_discovery: "Technological Discovery"
+ desc_technological_discovery: "A useful piece of tech for our nation."
+ 
+ waste_of_money: "Waste of Money"
+ desc_waste_of_money: "Our people feel that this expedition is a waste of money."
+ 
+ kaja_mite: "Kaja'mite"
+ desc_kaja_mite: "The mineral that bestowed intelligence upon the goblins."
+ 
+ aggressive_marketing: "Aggressive Marketing"
+ desc_aggressive_marketing: "We are collaborating with other goblin leaders to push our competitiors out of the market."
+ 
+ illicit_connections: "Illicit Connections"
+ desc_illicit_connections: "The black market is a haven for cheap goods. Their origins are not questioned however."
+ 
+ blackmailed_labourers: "Blackmailed Labourers"
+ desc_blackmailed_labourers: "A labourer once threatened works far more effectively."
+ 
+ alchemy_surge: "Alchemy Surge"
+ desc_alchemy_surge: "Our goblins are focusing on alchemy currently!"
+ 
+ explosives_surge: "Explosives Surge"
+ desc_explosives_surge: "Our goblins are focusing on explosives currently!"
+ 
+ engineering_surge: "Engineering Surge"
+ desc_engineering_surge: "Our goblins are focusing on engineering currently!"
