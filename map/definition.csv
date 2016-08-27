@@ -2502,78 +2502,78 @@ province;red;green;blue;type;name;continent;region
 2501;61;179;57;land;Battered Cliffs;Northrend;Storm Peaks
 2502;216;179;67;land;Windy Cliffs;Northrend;Storm Peaks
 2503;137;179;162;land;Eroded Cliffs;Northrend;Storm Peaks
-2504;161;244;180;land;Shen'dralar Quarters;Kalimdor;Feralas
-2505;159;183;111;land;Crystalvein Ridges;Eastern Kingdoms;Stranglethorn Vale
-2506;168;209;170;land;Stranglethorn Cliffs;Eastern Kingdoms;Stranglethorn Vale
-2507;174;140;76;land;Mosh'ogg Crag;Eastern Kingdoms;Stranglethorn Vale
-2508;95;94;129;land;Zul'Gurub Mountains;Eastern Kingdoms;Stranglethorn Vale
-2509;177;94;42;land;Deadman's Tor;Eastern Kingdoms;Stranglethorn Vale
-2510;103;114;131;land;Vul'gol Uplands;Eastern Kingdoms;Duskwood
-2511;179;181;143;land;The Dry Valleys;Eastern Kingdoms;Westfall
-2512;135;190;70;land;Storm's Rise;Eastern Kingdoms;Blasted Lands
-2513;155;163;103;land;Deadman's Fell;Eastern Kingdoms;Deadwind Pass
-2514;67;137;153;land;Splinterspear Range;Eastern Kingdoms;Swamp of Sorrows
-2515;104;137;97;land;The Darkened Peak;Eastern Kingdoms;Duskwoood
-2516;159;137;110;land;Misty Rise;Eastern Kingdoms;Swamp of Sorrows
-2517;145;137;142;land;Everstill Highlands;Eastern Kingdoms;Redridge
-2518;94;82;161;land;Nethergarde Hills;Eastern Kingdoms;Blasted Lands
-2519;143;198;212;land;Redridge Cliffs;Eastern Kingdoms;Redridge
-2520;98;185;135;land;Stonewatch Overlook;Eastern Kingdoms;Redridge
-2521;153;185;174;land;Burning Canyons;Eastern Kingdoms;Redridge
-2522;142;144;115;land;Burning Cliffs;Eastern Kingdoms;Redridge
-2523;101;144;167;land;Ash Descent;Eastern Kingdoms;Searing Gorge
-2524;81;144;84;land;Chiselgrip Overlook;Eastern Kingdoms;Burning Steppes
-2525;202;102;85;land;Red Rise;Eastern Kingdoms;Redridge
-2526;50;100;170;land;Jasperlode Hills;Eastern Kingdoms;Elwynn Forest
+2504;161;244;180;land;Shen'dralar Quarters;Kalimdor;Feralas # New provinces for wastelands below
+2505;0;150;0;land;Amberweb Crag;Kalimdor;Bloodmyst Isle
+2506;154;141;160;land;Pass of Vi'or;Kalimdor;Bloodmyst Isle
+2507;54;141;120;land;Blacksilt Hills;Kalimdor;Bloodmyst Isle
+2508;199;141;71;land;Yrin Highlands;Kalimdor;Bloodmyst Isle
+2509;108;141;86;land;Shadowy Headlands;Kalimdor;Bloodmyst Isle
+2510;124;141;104;land;Ammen Pass;Kalimdor;Bloodmyst Isle
+2511;96;141;50;land;Azure Overlook;Kalimdor;Bloodmyst Isle
+2512;185;141;121;land;Nestlewood Ridge;Kalimdor;Bloodmyst Isle
+2513;62;141;144;land;Ameth'she;Kalimdor;Darkshore
+2514;167;141;41;land;Twilight Pass;Kalimdor;Darkshore
+2515;65;141;93;land;Jadefire Heights;Kalimdor;Felwood
+2516;84;141;145;land;Ansh'ral;Kalimdor;Darkshore
+2517;117;141;211;land;Crags of Jathtra;Kalimdor;Darkshore
+2518;51;141;101;land;Shatterspear Peaks;Kalimdor;Darkshore
+2519;155;141;30;land;Secluded Glades;Kalimdor;Moonglade
+2520;51;141;149;land;Moonshone Heights;Kalimdor;Moonglade
+2521;85;227;91;land;Timbermaw Ridge;Kalimdor;Felwood
+2522;187;134;54;land;Irontree Overlook;Kalimdor;Felwood
+2523;97;134;52;land;Shatter Scar Bluff;Kalimdor;Felwood
+2524;190;134;205;land;Twisted Rise;Kalimdor;Darkshore
+2525;210;71;128;land;Blackpaw Pass;Kalimdor;Felwood
+2526;97;71;35;land;Darkwood Heights;Kalimdor;Darkshore
 2527;162;209;64;land;Deeprun Tram;Eastern Kingdoms;Elwynn Forest
-2528;161;212;72;land;Stormwind Peaks;Eastern Kingdoms;Elwynn Forest
-2529;117;78;116;land;Stormwind Range;Eastern Kingdoms;Elwynn Forest
-2530;78;185;211;land;Arcane Headlands;Eastern Kingdoms;Elwynn Forest
-2531;196;209;61;land;Westbrook Bluffs;Eastern Kingdoms;Elwynn Forest
-2532;186;100;105;land;Blacktooth Rise;Eastern Kingdoms;Burning Steppes
-2533;219;170;133;land;Whelpling Uplands;Eastern Kingdoms;Burning Steppes
-2534;187;164;154;land;Blackchar Hills;Eastern Kingdoms;Burning Steppes
-2535;113;164;138;land;Firewatch Overlook;Eastern Kingdoms;Searing Gorge
-2536;173;164;68;land;Thorium Uplands;Eastern Kingdoms;Searing Gorge
-2537;120;164;192;land;Blackrock Headland;Eastern Kingdoms;Burning Steppes
-2538;98;164;51;land;Dustblech Fell;Eastern Kingdoms;Badlands
-2539;164;116;97;land;Dreadmaul Ridge;Eastern Kingdoms;Badlands
-2540;81;116;78;land;Ashen Tor;Eastern Kingdoms;Badlands
-2541;121;227;104;land;Fuselight Hills;Eastern Kingdoms;Badlands
-2542;197;124;165;land;Dustwind Crags;Eastern Kingdoms;Badlands
-2543;86;124;163;land;Stonespliter Ascent;Eastern Kingdoms;Loch Modan
-2544;102;236;175;land;Loch Modan Headlands;Eastern Kingdoms;Loch Modan
-2545;89;227;91;land;Elementium Heights;Eastern Kingdoms;Twilight Highlands
-2546;217;227;116;land;Grim Tor;Eastern Kingdoms;Twilight Highlands
-2547;101;141;80;land;Silver Stream Hills;Eastern Kingdoms;Loch Modan
-2548;173;141;81;land;Stonespliter Ridge;Eastern Kingdoms;Loch Modan
-2549;103;122;88;land;Grizzlepaw Rise;Eastern Kingdoms;Loch Modan
-2550;155;126;115;land;Iron Hills;Eastern Kingdoms;Dun Morogh
-2551;75;148;92;land;Iron Tor;Eastern Kingdoms;Dun Morogh
-2552;138;82;169;land;Ironforge Ascent;Eastern Kingdoms;Dun Morogh
-2553;148;82;77;land;Ironforge Descent;Eastern Kingdoms;Dun Morogh
-2554;106;167;138;land;Shimmering Slopes;Eastern Kingdoms;Dun Morogh
-2555;113;225;92;land;Anvilmar Mountains;Eastern Kingdoms;Dun Morogh
-2556;37;209;75;land;Coldridge Mountains;Eastern Kingdoms;Dun Morogh
-2557;196;225;148;land;Frostmane Uplands;Eastern Kingdoms;Dun Morogh
-2558;107;66;73;land;Frostmane Mountains;Eastern Kingdoms;Dun Morogh
-2559;187;191;89;land;Frozen Valleys;Eastern Kingdoms;Dun Morogh
-2560;93;191;143;land;Icy Uplands;Eastern Kingdoms;Dun Morogh
-2561;188;191;154;land;Hills of Tinkertown;Eastern Kingdoms;Dun Morogh
-2562;116;191;48;land;Snowy Fell;Eastern Kingdoms;Dun Morogh
-2563;116;191;48;land;Hills of Dun Algaz;Eastern Kingdoms;Wetlands
-2564;163;148;81;land;Saltspray Mounds;Eastern Kingdoms;Wetlands
-2565;68;148;98;land;Hills of Dun Modr;Eastern Kingdoms;Wetlands
-2566;144;148;121;land;Vermillion Gorge;Eastern Kingdoms;Twilight Highlands
-2567;53;148;168;land;Maddening Rise;Eastern Kingdoms;Twilight Highlands
-2568;165;148;84;land;Kirkhaven Crag;Eastern Kingdoms;Twilight Highlands
+2528;187;71;137;land;Tor of the Ancients;Kalimdor;Felwood
+2529;91;71;194;land;Thistlefur Valley;Thistlefur
+2530;91;170;194;land;Jor'los;Thistlefur
+2531;45;170;140;land;Iris Outpost;Thistlefur
+2532;186;100;105;land;Unnamed;;
+2533;219;170;133;land;Unnamed;;
+2534;187;164;154;land;Unnamed;;
+2535;113;164;138;land;Unnamed;;
+2536;173;164;68;land;Unnamed;;
+2537;120;164;192;land;Unnamed;;
+2538;98;164;51;land;Unnamed;;
+2539;164;116;97;land;Unnamed;;
+2540;81;116;78;land;Unnamed;;
+2541;121;227;104;land;Unnamed;;
+2542;197;124;165;land;Unnamed;;
+2543;86;124;163;land;Unnamed;;
+2544;102;236;175;land;Unnamed;;
+2545;89;227;91;land;Unnamed;;
+2546;217;227;116;land;Unnamed;;
+2547;101;141;80;land;Unnamed;;
+2548;173;141;81;land;Unnamed;;
+2549;103;122;88;land;Unnamed;;
+2550;155;126;115;land;Unnamed;;
+2551;75;148;92;land;Unnamed;;
+2552;138;82;169;land;Unnamed;;
+2553;148;82;77;land;Unnamed;;
+2554;106;167;138;land;Unnamed;;
+2555;113;225;92;land;Unnamed;;
+2556;37;209;75;land;Unnamed;;
+2557;196;225;148;land;Unnamed;;
+2558;107;66;73;land;Unnamed;;
+2559;187;191;89;land;Unnamed;;
+2560;93;191;143;land;Unnamed;;
+2561;188;191;154;land;Unnamed;;
+2562;116;191;48;land;Unnamed;;
+2563;116;191;48;land;Unnamed;;
+2564;163;148;81;land;Unnamed;;
+2565;68;148;98;land;Unnamed;;
+2566;144;148;121;land;Unnamed;;
+2567;53;148;168;land;Unnamed;;
+2568;165;148;84;land;Unnamed;;
 2569;122;205;56;land;Fields of Dun Morogh;Eastern Kingdoms;Dun Morogh
 2570;81;205;110;land;Shimmering Fields;Eastern Kingdoms;Dun Morogh
-2571;199;148;107;land;Summit of Madness;Eastern Kingdoms;Twilight Highlands
-2572;187;148;88;land;Secluded Knoll;Eastern Kingdoms;Dun Morogh
-2573;79;148;136;land;Chillvale;Eastern Kingdoms;Dun Morogh
-2574;170;148;207;land;Shimmering Highlands;Eastern Kingdoms;Dun Morogh
-2575;185;83;221;land;Unnamed;Eastern Kingdoms;Dun Morogh
+2571;199;148;107;land;Unnamed;;
+2572;187;148;88;land;Unnamed;;
+2573;79;148;136;land;Unnamed;;
+2574;170;148;207;land;Unnamed;;
+2575;185;83;221;land;Unnamed;;
 2576;148;215;99;land;Unnamed;;
 2577;121;221;154;land;Unnamed;;
 2578;115;66;243;land;Unnamed;;
