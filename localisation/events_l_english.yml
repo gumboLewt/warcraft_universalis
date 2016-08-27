@@ -584,7 +584,13 @@
  restore_the_pandaren_empire_title: "Restore the Pandaren Empire"
  restore_the_pandaren_empire_desc: "Times have changed since the mist parted, we must change with it. While Shaohao was the last emperor after the mists formed we must declare a new one now they have parted. This will benefit all members of the empire now that we are united under a new authority allowing us to deal with the uncertainity of the outside world beyond our lands more quickly and safely than before."
  
+ example.1.title: "Test"
+ example.1.desc: "test"
+ example.1.option.a: "[special_country.GetName]"
  
+ example.2.title: "Test"
+ example.2.desc: "test"
+ example.2.option.a: "[special_province.GetName]"
  
  
  

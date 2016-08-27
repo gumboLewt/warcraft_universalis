@@ -656,12 +656,12 @@ ogre_ideas = {
 
 draenei_ideas = {
 	start = {
-		enemy_core_creation = 0.25
-		
+		tolerance_own = 2
+        diplomatic_reputation = 1
 	}
 
 	bonus = {
-		colonists = 1
+		ae_impact = -0.1
 	}
 	
 	trigger = {
@@ -671,7 +671,7 @@ draenei_ideas = {
 	
 	#eyes of the rangari
 	draenei_ideas_1 = {
-		spy_offence = 0.1
+		infantry_power = 0.15
 	}
 	#fists of the vindicators
 	draenei_ideas_2 = {
@@ -679,23 +679,23 @@ draenei_ideas = {
 	}
 	#faith in the light
 	draenei_ideas_3 = {
-		tolerance_own = 1
+		religious_unity = 0.25
 	}
 	#acceptance of our fallen brothers and sisters
 	draenei_ideas_4 = {
-		accepted_culture_threshold = -0.1
+		global_unrest = -2
 	}
 	#a new homeland
 	draenei_ideas_5 = {
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 	#purified by the light
 	draenei_ideas_6 = {
-		global_missionary_strength = 0.02
+		recover_army_morale_speed = 0.1
 	}
 	#the light guides us
 	draenei_ideas_7 = {
-		legitimacy = 0.5
+		yearly_corruption = -0.05
 	}
 }
 

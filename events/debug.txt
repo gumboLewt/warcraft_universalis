@@ -1,0 +1,55 @@
+country_event = {
+	id = example.1
+	title = example.1.title
+	desc = example.1.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+    immediate = {
+        # This will save the last found country as your event target.
+		every_country = {
+            # This is where you add your limiting criteria
+            limit = {
+                num_of_diplomats = 1
+                treasury = 1000
+            }
+
+            save_event_target_as = special_country
+        }
+    }   
+    
+	option = {
+		name = example.1.option.a
+
+        event_target:special_country = {
+            # Do stuff here
+        }
+	}
+}
+
+country_event = {
+	id = example.2
+	title = example.2.title
+	desc = example.2.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+    immediate = {
+        # This will save the last found country as your event target.
+		every_province = {
+            # This is where you add your limiting criteria
+            limit = {
+                base_manpower = 8
+                is_capital = yes
+            }
+
+            save_event_target_as = special_province
+        }
+    }   
+    
+	option = {
+		name = example.2.option.a
+
+        event_target:special_province = {
+            # Do stuff here
+        }
+	}
+}
