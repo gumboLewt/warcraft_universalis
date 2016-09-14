@@ -4,7 +4,7 @@ mercantilism 		= 0.1
 technology_group 	= tech_demonic
 religion			= religion_fel
 secondary_religion = religion_shadow
-primary_culture 	= culture_dark_strand
+primary_culture 	= culture_highbourne
 capital 			= 2255
 
 622.1.1 = { 
