@@ -2635,43 +2635,6 @@ virmen_ideas = {
 	}
 }
 
-wildkin_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-		
-	}
-	
-	trigger = {
-		culture_group = culture_group_wildkin
-	}
-	free = yes		
-	
-	wildkin_ideas_1 = {
-	
-	}
-	wildkin_ideas_2 = {
-	
-	}
-	wildkin_ideas_3 = {
-	
-	}
-	wildkin_ideas_4 = {
-	
-	}
-	wildkin_ideas_5 = {
-	
-	}
-	wildkin_ideas_6 = {
-	
-	}
-	wildkin_ideas_7 = {
-	
-	}
-}
-
 void_ideas = {
 	start = {
 		

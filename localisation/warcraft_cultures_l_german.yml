@@ -412,21 +412,12 @@
  culture_springtail: "Sprungschweife"
  culture_snagtooth: "Raffzähne"
  
- culture_group_wildkin: "Wildkin"
- culture_owlkin: "Mondkin"
- 
  culture_group_void: "Leere"
  culture_voidwalker: "Leerenwandler"
 
- culture_group_flayer: "Flayer"
- culture_rockflayer: "Rockflayer"
- 
  culture_group_zangar: "Zangarisch"
  culture_sporeling: "Sporeling"
  culture_fungal_giant: "Fungigiant"
- 
- culture_group_yeti: "Yeti"
- culture_yeti: "Yeti"
  
  culture_group_tol_vir: "Tol'vir"
  culture_tol_vir: "Tol'vir"
