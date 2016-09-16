@@ -432,7 +432,6 @@ B87 = "countries/Illidari.txt"
 B88 = "countries/Shadow Council.txt"
 B89 = "countries/Fel Horde.txt"
 B90 = "countries/Burning Blade.txt"
-B91 = "countries/Searing Blade.txt"
 B92 = "countries/The Burning Legion.txt"
 B93 = "countries/Cult of the Dark Strand.txt" #Expanded to represent shadow council in northern Kalimdor
 B95 = "countries/Felsworn.txt"
@@ -502,7 +501,6 @@ E29 = "countries/Wolfcult.txt"
 E30 = "countries/Silverbrook.txt" #Wolfcut Trappers
 E31 = "countries/Nightbane.txt"
 F53 = "countries/Bloodfang.txt"
-G40 = "countries/Terrorwulf.txt"
 
 # Mantid
 E33 = "countries/Klaxxivess.txt"
