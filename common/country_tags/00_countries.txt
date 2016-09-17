@@ -340,7 +340,6 @@ B46 = "countries/Redfang.txt"
 F94 = "countries/Thistlefur.txt"
 F95 = "countries/Foulweald.txt"
 F96 = "countries/Bloodtooth.txt"
-G01 = "countries/Barkskin.txt"
 G21 = "countries/Blackmaw.txt"
 G22 = "countries/Bristlelimb.txt"
 
