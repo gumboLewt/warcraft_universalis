@@ -10486,14 +10486,38 @@ culture_group_tol_vir = {
 	graphical_culture = titangfx
     second_graphical_culture = westerngfx # So the game does look totally fucked up whilst we work on the gfx stuff
 
-	male_names = {
-			
-	}
+  male_names = {
+    "Huhotep" "Husam" "Tekbas" "Tebter" "Hurim" "Ninjsam" "Ammanris" "Ammandun" "Phaoahn" "Huret" "Phaohotep" "Itsam" "Atulsam" "Ammanbas" "Atulbas" "Ammanahn" "Tekter"
+    "Naris" "Ninjahn" "Anudun" "Huahn" "Menret" "Phaobas" "Tektep" "Teksam" "Hudun" "Tahbas" "Anuahn" "Narim" "Menesh" "Tekrim" "Tekhet" "Atulesh" "Itahn" "Huris"
+    "Tebtep" "Menvat" "Ithotep" "Anuvat" "Mensam" "Barim" "Tahvat" "Phaosam" "Batep" "Tahrim" "Atulahn" "Ithet" "Ninjris" "Phaodun" "Anusam" "Tahris" "Ittep" "Atulret"
+    "Baret" "Tahsam" "Mendun" "Naret" "Itbas" "Anutep" "Tekret" "Ammanhotep" "Badun" "Phaotep" "Atulhotep" "Bavat" "Tahahn" "Ammanesh" "Phaovat" "Phaoesh" "Hutep" "Tekris"
+    "Baris" "Atulvat" "Mentep" "Bahotep" "Atuldun" "Tebvat" "Natep" "Atultep" "Tahret" "Tebhet" "Anuris" "Tekhotep" "Atulris" "Tebret" "Tebesh" "Menhet" "Huesh" "Anuesh"
+    "Anubas" "Tahhotep" "Ninjter" "Anuhet" "Baesh" "Itdun" "Tebrim" "Nadun" "Itesh" "Menter" "Phaoris" "Ammanhet" "Itvat" "Atulter" "Ammanter" "Tebris" "Ninjrim" "Tebsam"
+    "Nahet" "Anuret" "Bahet" "Ninjdun" "Anurim" "Phaohet" "Tekdun" "Ammansam" "Hubas" "Ninjhotep" "Itter" "Menris" "Tebhotep" "Tebahn" "Nater" "Tahdun" "Navat" "Tebbas"
+    "Naahn" "Tahter" "Baahn" "Ninjret" "Ammanret" "Tekesh" "Menhotep" "Ammanvat" "Tebdun" "Huter" "Huhet" "Nabas" "Basam" "Nahotep" "Itret" "Itris" "Anuhotep" "Menbas"
+    "Bater" "Ninjbas" "Ninjhet" "Tahesh" "Ninjesh" "Atulrim" "Phaorim" "Phaoret" "Huvat" "Phaoter" "Nasam" "Anuter" "Menahn" "Naesh" "Ninjtep" "Ammanrim" "Tahhet"
+  }
 	female_names = {
-		
+    "Huhotep" "Husam" "Tekbas" "Tebter" "Hurim" "Ninjsam" "Ammanris" "Ammandun" "Phaoahn" "Huret" "Phaohotep" "Itsam" "Atulsam" "Ammanbas" "Atulbas" "Ammanahn" "Tekter"
+    "Naris" "Ninjahn" "Anudun" "Huahn" "Menret" "Phaobas" "Tektep" "Teksam" "Hudun" "Tahbas" "Anuahn" "Narim" "Menesh" "Tekrim" "Tekhet" "Atulesh" "Itahn" "Huris"
+    "Tebtep" "Menvat" "Ithotep" "Anuvat" "Mensam" "Barim" "Tahvat" "Phaosam" "Batep" "Tahrim" "Atulahn" "Ithet" "Ninjris" "Phaodun" "Anusam" "Tahris" "Ittep" "Atulret"
+    "Baret" "Tahsam" "Mendun" "Naret" "Itbas" "Anutep" "Tekret" "Ammanhotep" "Badun" "Phaotep" "Atulhotep" "Bavat" "Tahahn" "Ammanesh" "Phaovat" "Phaoesh" "Hutep" "Tekris"
+    "Baris" "Atulvat" "Mentep" "Bahotep" "Atuldun" "Tebvat" "Natep" "Atultep" "Tahret" "Tebhet" "Anuris" "Tekhotep" "Atulris" "Tebret" "Tebesh" "Menhet" "Huesh" "Anuesh"
+    "Anubas" "Tahhotep" "Ninjter" "Anuhet" "Baesh" "Itdun" "Tebrim" "Nadun" "Itesh" "Menter" "Phaoris" "Ammanhet" "Itvat" "Atulter" "Ammanter" "Tebris" "Ninjrim" "Tebsam"
+    "Nahet" "Anuret" "Bahet" "Ninjdun" "Anurim" "Phaohet" "Tekdun" "Ammansam" "Hubas" "Ninjhotep" "Itter" "Menris" "Tebhotep" "Tebahn" "Nater" "Tahdun" "Navat" "Tebbas"
+    "Naahn" "Tahter" "Baahn" "Ninjret" "Ammanret" "Tekesh" "Menhotep" "Ammanvat" "Tebdun" "Huter" "Huhet" "Nabas" "Basam" "Nahotep" "Itret" "Itris" "Anuhotep" "Menbas"
+    "Bater" "Ninjbas" "Ninjhet" "Tahesh" "Ninjesh" "Atulrim" "Phaorim" "Phaoret" "Huvat" "Phaoter" "Nasam" "Anuter" "Menahn" "Naesh" "Ninjtep" "Ammanrim" "Tahhet"
 	}
 	dynasty_names = {
-			
+    "Huhotep" "Husam" "Tekbas" "Tebter" "Hurim" "Ninjsam" "Ammanris" "Ammandun" "Phaoahn" "Huret" "Phaohotep" "Itsam" "Atulsam" "Ammanbas" "Atulbas" "Ammanahn" "Tekter"
+    "Naris" "Ninjahn" "Anudun" "Huahn" "Menret" "Phaobas" "Tektep" "Teksam" "Hudun" "Tahbas" "Anuahn" "Narim" "Menesh" "Tekrim" "Tekhet" "Atulesh" "Itahn" "Huris"
+    "Tebtep" "Menvat" "Ithotep" "Anuvat" "Mensam" "Barim" "Tahvat" "Phaosam" "Batep" "Tahrim" "Atulahn" "Ithet" "Ninjris" "Phaodun" "Anusam" "Tahris" "Ittep" "Atulret"
+    "Baret" "Tahsam" "Mendun" "Naret" "Itbas" "Anutep" "Tekret" "Ammanhotep" "Badun" "Phaotep" "Atulhotep" "Bavat" "Tahahn" "Ammanesh" "Phaovat" "Phaoesh" "Hutep" "Tekris"
+    "Baris" "Atulvat" "Mentep" "Bahotep" "Atuldun" "Tebvat" "Natep" "Atultep" "Tahret" "Tebhet" "Anuris" "Tekhotep" "Atulris" "Tebret" "Tebesh" "Menhet" "Huesh" "Anuesh"
+    "Anubas" "Tahhotep" "Ninjter" "Anuhet" "Baesh" "Itdun" "Tebrim" "Nadun" "Itesh" "Menter" "Phaoris" "Ammanhet" "Itvat" "Atulter" "Ammanter" "Tebris" "Ninjrim" "Tebsam"
+    "Nahet" "Anuret" "Bahet" "Ninjdun" "Anurim" "Phaohet" "Tekdun" "Ammansam" "Hubas" "Ninjhotep" "Itter" "Menris" "Tebhotep" "Tebahn" "Nater" "Tahdun" "Navat" "Tebbas"
+    "Naahn" "Tahter" "Baahn" "Ninjret" "Ammanret" "Tekesh" "Menhotep" "Ammanvat" "Tebdun" "Huter" "Huhet" "Nabas" "Basam" "Nahotep" "Itret" "Itris" "Anuhotep" "Menbas"
+    "Bater" "Ninjbas" "Ninjhet" "Tahesh" "Ninjesh" "Atulrim" "Phaorim" "Phaoret" "Huvat" "Phaoter" "Nasam" "Anuter" "Menahn" "Naesh" "Ninjtep" "Ammanrim" "Tahhet"
 	}
 
 	culture_neferset = {
@@ -11880,15 +11904,33 @@ culture_group_pandaren = {
 culture_group_mogu = {
 	graphical_culture = mogugfx
     second_graphical_culture = westerngfx # So the game does look totally fucked up whilst we work on the gfx stuff
-    
-	male_names = {
-			
-	}
+
+  male_names = {
+    "Fe Bo" "Jaifeng" "Zhu-Fe" "Shen Lao" "Dengbro" "Kien-Kien" "Qi Bu" "Lao Feng" "Shen-Ku" "Bu-Fe" "Kienlao" "Qi Kien" "Qonang" "Jai-Ku" "Kien Feng" "Ku-Bro" "Ku-Zhu" "Fengbu"
+    "Zu-Ku" "Zushen" "Fe Bu" "Bu Qon" "Qondeng" "Bu-Bro Zhang" "Feng Deng" "Zu Feng" "Qon Jai" "Bu-Ku" "Ang" "Lao" "Shen-Zhu" "Shen Ang" "Qi" "Lao Ang" "Shen" "Fe" "Zhu Feng"
+    "Qi-Fe" "Feng-Feng" "Lao-Kien" "Jai-Bro" "Ku-Qon" "Bro-Bu" "Deng-Ang" "Bu-Feng" "Fe-Zu" "Kien-Fe" "Shen-Deng" "Fe-Kien" "Ku-Jai" "Deng-Bu" "Zhu-Bu" "Bu-Bu" "Jai-Shen"
+    "Qon" "Lao" "Zu-Qon" "Bu Lao" "Fe Jai" "Jaife" "Feng-Ku" "Zhu Jai" "Qi Ang" "Bu" "Ku Bu" "Qon" "Zu Lao" "Jai" "Zu" "Lao-Zu" "Deng Fe" "Zhu" "Bro Lao" "Qon Zu" "Deng"
+    "Qon Shen" "Zu" "Bro Fe" "Kien" "Fe Qon" "Bu Zhu" "Shenjai" "Qon Kien" "Ku Zu" "Bu Zu" "Kien-Bu" "Fengjai" "Feng" "Shenji" "Ku Fe" "Lao-Bro" "Qon Feng"
+    "Deng Feng" "Shenau" "Zhu Zu" "Zhu Qu" "Jai-Bu" "Deng Shen" "Ku Ang" "Ku Lao" "Zu Kien" "Qon-Bu" "Feng Zu" "Feng Qon" "Bu-Kien" "Lao-Lao" "Lao-Ku" "Fe-Deng" "Fe-Lao" "Lao Fe"
+    "Zhu-Shen" "Ku Kien" "Zhu Qon" "Jai-Jai" "Shenshang" "Zu-Fe" "Bu Jai" "Zu-Deng" "Bu Ang" "Qonju" "Qizu" "Qiku" "Feng Lao" "Jai Lao" "Zhu-Lao" "Qideng" "Fe Ku" "Zhu-Ku"
+    "Jai Deng" "Brozhu" "Shen Bu" "Shen Brou" "Kien Qon" "Jai Qon" "Zu Ang" "Fe Zhu" "Deng-Zhu" "Dengjai" "Shen Fe" "Zu Zhu" "Qon-Fe" "Kiendeng" "Bu Shen" "Feng Fe" "Kien-Ku" "Kien-Bro"
+    "Jai Ang" "Laojai" "Brojai" "Zu Ku" "Kien Shen" "Bro-Deng" "Kien Zhu" "Zhuang" "Zhu Kien" "Ku Shen" "Te Feng" "Qi Qon" "Jai Zhu" "Bro Feng" "Deng Qon" "Lao-Deng"
+  }
 	female_names = {
-		
-	}
+    "Fe Bo" "Jaifeng" "Zhu-Fe" "Shen Lao" "Dengbro" "Kien-Kien" "Qi Bu" "Lao Feng" "Shen-Ku" "Bu-Fe" "Kienlao" "Qi Kien" "Qonang" "Jai-Ku" "Kien Feng" "Ku-Bro" "Ku-Zhu" "Fengbu"
+    "Zu-Ku" "Zushen" "Fe Bu" "Bu Qon" "Qondeng" "Bu-Bro Zhang" "Feng Deng" "Zu Feng" "Qon Jai" "Bu-Ku" "Ang" "Lao" "Shen-Zhu" "Shen Ang" "Qi" "Lao Ang" "Shen" "Fe" "Zhu Feng"
+    "Qi-Fe" "Feng-Feng" "Lao-Kien" "Jai-Bro" "Ku-Qon" "Bro-Bu" "Deng-Ang" "Bu-Feng" "Fe-Zu" "Kien-Fe" "Shen-Deng" "Fe-Kien" "Ku-Jai" "Deng-Bu" "Zhu-Bu" "Bu-Bu" "Jai-Shen"
+    "Qon" "Lao" "Zu-Qon" "Bu Lao" "Fe Jai" "Jaife" "Feng-Ku" "Zhu Jai" "Qi Ang" "Bu" "Ku Bu" "Qon" "Zu Lao" "Jai" "Zu" "Lao-Zu" "Deng Fe" "Zhu" "Bro Lao" "Qon Zu" "Deng"
+    "Qon Shen" "Zu" "Bro Fe" "Kien" "Fe Qon" "Bu Zhu" "Shenjai" "Qon Kien" "Ku Zu" "Bu Zu" "Kien-Bu" "Fengjai" "Feng" "Shenji" "Ku Fe" "Lao-Bro" "Qon Feng"
+    "Deng Feng" "Shenau" "Zhu Zu" "Zhu Qu" "Jai-Bu" "Deng Shen" "Ku Ang" "Ku Lao" "Zu Kien" "Qon-Bu" "Feng Zu" "Feng Qon" "Bu-Kien" "Lao-Lao" "Lao-Ku" "Fe-Deng" "Fe-Lao" "Lao Fe"
+    "Zhu-Shen" "Ku Kien" "Zhu Qon" "Jai-Jai" "Shenshang" "Zu-Fe" "Bu Jai" "Zu-Deng" "Bu Ang" "Qonju" "Qizu" "Qiku" "Feng Lao" "Jai Lao" "Zhu-Lao" "Qideng" "Fe Ku" "Zhu-Ku"
+    "Jai Deng" "Brozhu" "Shen Bu" "Shen Brou" "Kien Qon" "Jai Qon" "Zu Ang" "Fe Zhu" "Deng-Zhu" "Dengjai" "Shen Fe" "Zu Zhu" "Qon-Fe" "Kiendeng" "Bu Shen" "Feng Fe" "Kien-Ku" "Kien-Bro"
+    "Jai Ang" "Laojai" "Brojai" "Zu Ku" "Kien Shen" "Bro-Deng" "Kien Zhu" "Zhuang" "Zhu Kien" "Ku Shen" "Te Feng" "Qi Qon" "Jai Zhu" "Bro Feng" "Deng Qon" "Lao-Deng"
+  }
 	dynasty_names = {
-			
+    "Tian" "Kukien" "Zhu" "Jai" "Shenshang" "Zungfe" "Bujai" "Zudeng" "Bu" "Qonju" "Qizu" "Qiku" "Lao" "Jai" "Zhulao" "Qideng" "Feku" "Zhuke"
+    "Jaideng" "Brozhu" "Shenbu" "Shen" "Kien" "Jaiqun" "Zuang" "Fezhu" "Dengzhu" "Dengjai" "Shang" "Sheng" "Fe" "Kiendeng" "Bushan" "Feng" "Kienku"
+    "Jaing" "Laojai" "Brojai" "Zuku" "Kienshen" "Kienzhu" "Zhuang" "Zhukien" "Kushen" "Tefeng" "Qon" "Jaizhu" "Brofeng" "Dengon" "Deng"
 	}
 
 	culture_shao_tien = {
@@ -13088,14 +13130,32 @@ culture_group_hozen = {
 	graphical_culture = hozengfx
     second_graphical_culture = westerngfx # So the game does look totally fucked up whilst we work on the gfx stuff
 
-	male_names = {
-			
-	}
+  male_names = {
+    "Yipki" "Doko" "Kenok" "Rikkki" "Zhitak" "Riak" "Kenimo" "Takgut" "Ootak" "Kendu" "Riuk" "Takki" "Kahimo" "Rugut" "Rukem" "Ooimo" "Zhiko"
+    "Takyip" "Duak" "Zhiak" "Duko" "Dotik" "Dodu" "Gukak" "Gukdu" "Takok" "Mokimo" "Oogut" "Kahko" "Zhitik" "Kahkem" "Yipimo" "Ooyip" "Mokdu"
+    "Zhiyip" "Zhidu" "Takkem" "Taktik" "Rutak" "Riki" "Rikem" "Rutik" "Kahyip" "Gukgut" "Duken" "Duok" "Doak" "Kahok" "Yipdu" "Kahdu" "Kentak"
+    "Dutik" "Ooken" "Ruko" "Mokuk" "Rikkimo" "Mokok" "Kahki" "Riimo" "Yipok" "Zhigut" "Rigut" "Gukok" "Yipko" "Ruyip" "Kahuk" "Rikktak" "Moktak"
+    "Ruuk" "Ootik" "Kahak" "Takdu" "Mokkem" "Gukyip" "Duyip" "Ruken" "Rikktik" "Rikkkem" "Doken" "Zhikem" "Kenken" "Gukko" "Mokyip" "Dutak"
+    "Yipak" "Kahgut" "Riko" "Kentik" "Yipkem" "Kahtak" "Duuk" "Ooak" "Takak" "Dogut" "Kengut" "Rikkok" "Kahtik" "Yipuk" "Doyip" "Ritak" "Mokak"
+    "Dotak" "Mokken" "Dokem" "Takuk" "Kenko" "Moktik" "Oouk" "Ruak" "Taktak" "Yiptik" "Gukki" "Rikkgut" "Yipgut" "Dugut" "Rikkko" "Ooko"
+    "Yipyip" "Zhiken" "Takko" "Takimo" "Rikkuk" "Mokko" "Doki" "Gukken" "Kenyip" "Ookem" "Dook" "Dudu" "Oook" "Yiptak" "Ruimo" "Douk" "Kenki"
+    "Rikkken" "Zhiuk" "Rikkak" "Kahken" "Kenuk" "Ridu" "Gukuk" "Gukkem" "Ritik" "Ooki" "Riken" "Riok" "Ruki" "Duimo" "Mokgut" "Rikkyip" "Kenak"
+    "Kenkem" "Zhiimo" "Dukem" "Doimo" "Guktik" "Oodu" "Takken" "Yipken" "Zhiok"
+  }
 	female_names = {
-		
+    "Yipki" "Doko" "Kenok" "Rikkki" "Zhitak" "Riak" "Kenimo" "Takgut" "Ootak" "Kendu" "Riuk" "Takki" "Kahimo" "Rugut" "Rukem" "Ooimo" "Zhiko"
+    "Takyip" "Duak" "Zhiak" "Duko" "Dotik" "Dodu" "Gukak" "Gukdu" "Takok" "Mokimo" "Oogut" "Kahko" "Zhitik" "Kahkem" "Yipimo" "Ooyip" "Mokdu"
+    "Zhiyip" "Zhidu" "Takkem" "Taktik" "Rutak" "Riki" "Rikem" "Rutik" "Kahyip" "Gukgut" "Duken" "Duok" "Doak" "Kahok" "Yipdu" "Kahdu" "Kentak"
+    "Dutik" "Ooken" "Ruko" "Mokuk" "Rikkimo" "Mokok" "Kahki" "Riimo" "Yipok" "Zhigut" "Rigut" "Gukok" "Yipko" "Ruyip" "Kahuk" "Rikktak" "Moktak"
+    "Ruuk" "Ootik" "Kahak" "Takdu" "Mokkem" "Gukyip" "Duyip" "Ruken" "Rikktik" "Rikkkem" "Doken" "Zhikem" "Kenken" "Gukko" "Mokyip" "Dutak"
+    "Yipak" "Kahgut" "Riko" "Kentik" "Yipkem" "Kahtak" "Duuk" "Ooak" "Takak" "Dogut" "Kengut" "Rikkok" "Kahtik" "Yipuk" "Doyip" "Ritak" "Mokak"
+    "Dotak" "Mokken" "Dokem" "Takuk" "Kenko" "Moktik" "Oouk" "Ruak" "Taktak" "Yiptik" "Gukki" "Rikkgut" "Yipgut" "Dugut" "Rikkko" "Ooko"
+    "Yipyip" "Zhiken" "Takko" "Takimo" "Rikkuk" "Mokko" "Doki" "Gukken" "Kenyip" "Ookem" "Dook" "Dudu" "Oook" "Yiptak" "Ruimo" "Douk" "Kenki"
+    "Rikkken" "Zhiuk" "Rikkak" "Kahken" "Kenuk" "Ridu" "Gukuk" "Gukkem" "Ritik" "Ooki" "Riken" "Riok" "Ruki" "Duimo" "Mokgut" "Rikkyip" "Kenak"
+    "Kenkem" "Zhiimo" "Dukem" "Doimo" "Guktik" "Oodu" "Takken" "Yipken" "Zhiok"
 	}
 	dynasty_names = {
-			
+    ""
 	}
 
 	culture_forest_hozen = {
@@ -13121,14 +13181,36 @@ culture_group_saurok = {
 	graphical_culture = saurokgfx
     second_graphical_culture = westerngfx # So the game does look totally fucked up whilst we work on the gfx stuff
 
-	male_names = {
-			
-	}
+  male_names = {
+    "Akodraka" "Serpenrok" "Serpendraka" "Notus" "Glintkan" "Glintrok" "Vorlik" "Saltriss" "Gekluk" "Akoluk" "Ihgatus" "Krolik" "Krorok"
+    "Karluk" "Salshik" "Glintshik" "Akoshi" "Silkan" "Siltus" "Kartriss" "Krohula" "Glinttus" "Gekshi" "Salluk" "Ihgashik" "Glintraka"
+    "Nosar" "Vordtus" "Gektriss" "Ihgahula" "Glinttriss" "Glintluk" "Norok" "Karraka" "Vorsar" "Vordshik" "Ihgashi" "Salhula" "Ihgadraka"
+    "Silshi" "Akohula" "Vorkan" "Noraka" "Silraka" "Borokkan" "Ihgayis" "Vordraka" "Akotus" "Kartus" "Gekshik" "Ihgalik" "Nokan" "Geklik"
+    "Salrok" "Borokyis" "Borokdraka" "Vordyis" "Noluk" "Noyis" "Salkan" "Akoraka" "Serpentus" "Krosar" "Gekdraka" "Saltus" "Serpenshik"
+    "Serpenlik" "Vordkan" "Kroshi" "Siltriss" "Nolik" "Glintshi" "Notriss" "Ihgaraka" "Vorshik" "Krotriss" "Salraka" "Sallik" "Kroyis"
+    "Salshi" "Vorhula" "Kardraka" "Borokshi" "Borokraka" "Geksar" "Nodraka" "Serpenyis" "Glintsar" "Boroktus" "Vorddraka" "Krotus" "Glintdraka"
+    "Borokshik" "Ihgarok" "Silshik" "Ihgaluk" "Vordhula" "Vorrok" "Boroksar" "Noshik" "Karshik" "Serpenraka" "Akokan" "Karshi" "Nohula" "Voryis"
+    "Serpenkan" "Gekrok" "Gekkan" "Karrok" "Vortriss" "Akoshik" "Serpenluk" "Silluk" "Gekraka" "Sildraka" "Vordsar" "Gekhula" "Karlik" "Vordtriss"
+    "Serpentriss" "Saldraka" "Silhula" "Karkan" "Kroshik" "Sillik" "Boroktriss" "Ihgatriss" "Glinthula" "Boroklik" "Akosar" "Gektus" "Krokan"
+    "Vordshi" "Glintyis" "Karhula" "Akoyis" "Karsar" "Vorluk" "Vordluk" "Noshi" "Vordrok" "Akolik" "Akorok" "Gekyis" "Borokrok" "Serpensar" "Silyis"
+    "Serpenhula" "Kroluk" "Vorshi" "Borokluk" "Salsar" "Borokhula" "Karyis" "Kroraka" "Ihgasar" "Silsar" "Vordlik" "Salyis"
+  }
 	female_names = {
-		
+    "Akodraka" "Serpenrok" "Serpendraka" "Notus" "Glintkan" "Glintrok" "Vorlik" "Saltriss" "Gekluk" "Akoluk" "Ihgatus" "Krolik" "Krorok"
+    "Karluk" "Salshik" "Glintshik" "Akoshi" "Silkan" "Siltus" "Kartriss" "Krohula" "Glinttus" "Gekshi" "Salluk" "Ihgashik" "Glintraka"
+    "Nosar" "Vordtus" "Gektriss" "Ihgahula" "Glinttriss" "Glintluk" "Norok" "Karraka" "Vorsar" "Vordshik" "Ihgashi" "Salhula" "Ihgadraka"
+    "Silshi" "Akohula" "Vorkan" "Noraka" "Silraka" "Borokkan" "Ihgayis" "Vordraka" "Akotus" "Kartus" "Gekshik" "Ihgalik" "Nokan" "Geklik"
+    "Salrok" "Borokyis" "Borokdraka" "Vordyis" "Noluk" "Noyis" "Salkan" "Akoraka" "Serpentus" "Krosar" "Gekdraka" "Saltus" "Serpenshik"
+    "Serpenlik" "Vordkan" "Kroshi" "Siltriss" "Nolik" "Glintshi" "Notriss" "Ihgaraka" "Vorshik" "Krotriss" "Salraka" "Sallik" "Kroyis"
+    "Salshi" "Vorhula" "Kardraka" "Borokshi" "Borokraka" "Geksar" "Nodraka" "Serpenyis" "Glintsar" "Boroktus" "Vorddraka" "Krotus" "Glintdraka"
+    "Borokshik" "Ihgarok" "Silshik" "Ihgaluk" "Vordhula" "Vorrok" "Boroksar" "Noshik" "Karshik" "Serpenraka" "Akokan" "Karshi" "Nohula" "Voryis"
+    "Serpenkan" "Gekrok" "Gekkan" "Karrok" "Vortriss" "Akoshik" "Serpenluk" "Silluk" "Gekraka" "Sildraka" "Vordsar" "Gekhula" "Karlik" "Vordtriss"
+    "Serpentriss" "Saldraka" "Silhula" "Karkan" "Kroshik" "Sillik" "Boroktriss" "Ihgatriss" "Glinthula" "Boroklik" "Akosar" "Gektus" "Krokan"
+    "Vordshi" "Glintyis" "Karhula" "Akoyis" "Karsar" "Vorluk" "Vordluk" "Noshi" "Vordrok" "Akolik" "Akorok" "Gekyis" "Borokrok" "Serpensar" "Silyis"
+    "Serpenhula" "Kroluk" "Vorshi" "Borokluk" "Salsar" "Borokhula" "Karyis" "Kroraka" "Ihgasar" "Silsar" "Vordlik" "Salyis"
 	}
 	dynasty_names = {
-			
+    ""
 	}
 
 	culture_slitherscale = {
@@ -13198,15 +13280,50 @@ culture_group_saurok = {
 culture_group_taunka = {
 	graphical_culture = taunkagfx
 
-	male_names = {
-			
-	}
+  male_names = {
+    "Totun" "Grunauk" "Toil" "Ahoak" "Taak" "Roaun" "Tashe" "Tohan" "Dorlu" "Junmak" "Tota" "Toan" "Roatun" "Orun" "Talu" "Akimul"
+    "Roata" "Durshe" "Roaan" "Akiain" "Dorain" "Tomak" "Ahotun" "Durun" "Durta" "Grumul" "Juntun" "Akinauk" "Ahoil" "Akimak" "Torun"
+    "Halak" "Tata" "Akishe" "Roalu" "Akiil" "Duran" "Ednauk" "Dormul" "Ahoshe" "Gruta" "Halhan" "Junta" "Orak" "Edmul" "Edta" "Toril"
+    "Oran" "Torak" "Tonauk" "Dorun" "Roashe" "Grumak" "Torhan" "Taain" "Junmul" "Gruun" "Tormul" "Durak" "Orhan" "Grushe" "Dortun"
+    "Ahota" "Junil" "Tatun" "Akihan" "Dorak" "Toain" "Durmul" "Junnauk" "Tail" "Gruil" "Ahoan" "Junhan" "Dornauk" "Torta" "Edain"
+    "Ahonauk" "Durain" "Durlu" "Gruak" "Edun" "Akiak" "Junshe" "Tamak" "Edil" "Ormak" "Junlu" "Dorta" "Toshe" "Grulu" "Halan" "Torain"
+    "Gruan" "Grutun" "Taun" "Orta" "Tornauk" "Hallu" "Edtun" "Haltun" "Gruhan" "Dorshe" "Ahomak" "Taan" "Doril" "Akiun" "Toran" "Roamul"
+    "Tolu" "Halun" "Halil" "Halmul" "Ahomul" "Akian" "Ornauk" "Halta" "Torshe" "Durmak" "Torlu" "Edlu" "Edmak" "Tahan" "Toak" "Roanauk"
+    "Roaain" "Doran" "Ortun" "Edan" "Tamul" "Ahoun" "Junan" "Ormul" "Toun" "Durhan" "Ahohan" "Tomul" "Gruain" "Durnauk" "Halmak" "Halnauk"
+    "Junain" "Akita" "Tormak" "Oril" "Aholu" "Orshe" "Junak" "Edak" "Halain" "Durtun" "Duril" "Ahoain" "Edhan" "Dorhan" "Roamak" "Roaak" "Roail" "Orain" "Roahan"
+  }
 	female_names = {
-		
+    "Nokha" "Halah" "Tiwah" "Tauraah" "Ceponi" "Celea" "Pakha" "Halhana" "Tilea" "Barnook" "Tenook" "Talponi" "Tauraponi" "Mahu" "Halga"
+    "Ceah" "Mama" "Aeihu" "Barkha" "Taihu" "Telea" "Tikha" "Talnook" "Pahana" "Taurahana" "Taikha" "Barponi" "Aeima" "Taikoma" "Barhana"
+    "Anga" "Mawah" "Nonook" "Paga" "Aeikha" "Taurakoma" "Talkoma" "Barga" "Noponi" "Noah" "Tiponi" "Tiah" "Tinook" "Tehana" "Aeiwah" "Cere"
+    "Tallea" "Mahana" "Cewah" "Annook" "Tauraga" "Nore" "Taurawah" "Teah" "Talah" "Cehu" "Taurare" "Barkoma" "Talhu" "Maah" "Barre" "Barma"
+    "Taiponi" "Maga" "Anwah" "Pahu" "Halwah" "Cema" "Paponi" "Tauraona" "Noga" "Tauranook" "Cega" "Taire" "Pakoma" "Halona" "Talona" "Tewah"
+    "Barlea" "Nokoma" "Anhu" "Tiga" "Pawah" "Tiona" "Anma" "Mare" "Barah" "Aeinook" "Paah" "Aeihana" "Talwah" "Tekoma" "Halkoma" "Taurahu"
+    "Anona" "Halhu" "Taiwah" "Taiah" "Tima" "Ceona" "Talhana" "Tire" "Halkha" "Makoma" "Aeiah" "Anre" "Aeilea" "Aeiona" "Taihana" "Hallea"
+    "Talma" "Maona" "Nohu" "Ankha" "Barwah" "Cenook" "Aeiga" "Barhu" "Pama" "Aeiponi" "Aeire" "Barona" "Tehu" "Anhana" "Taiona" "Cehana"
+    "Tainook" "Taima" "Palea" "Teona" "Halre" "Taurama" "Tauralea" "Cekha" "Tihu" "Noma" "Talre" "Tere" "Anponi" "Tega" "Taurakha" "Talkha"
+    "Ankoma" "Halnook" "Anlea" "Teponi" "Taiga" "Manook" "Makha" "Anah" "Maponi" "Talga" "Paona" "Nowah" "Cekoma" "Malea" "Nohana" "Tema" "Noona" "Aeikoma"
 	}
-	dynasty_names = {
-			
-	}
+  dynasty_names = {
+    "Whurain" "Parka" "Frozenhide" "Icefrost" "Spiritcloud" "Farseer" "Spiritmane" "Whiteseer" "Coldwhisper" "Iceborn" "Stormseer"
+    "Whitemane" "Fartotem" "Icebreeze" "Ashgale" "Snowfrost" "Whiteborn" "Chillflower" "Wintermane" "Frosthoof" "Frostfrost"
+    "Ashwhisper" "Frozenborn" "Snowtotem" "Stormborn" "Icewhisper" "Wintertotem" "Chillseer" "Whiteflower" "Frozenwind" "Snowwhisper"
+    "Stormflower" "Frostborn" "Wintercloud" "Fargale" "Whitebreeze" "Coldgale" "Ashrunner" "Snowhide" "Chillhoof" "Winterseer"
+    "Frosttotem" "Stormgale" "Whitehide" "Iceseer" "Chilltotem" "Spiritfury" "Frozenflower" "Winterfrost" "Winterhide" "Ashflower"
+    "Frozenseer" "Icecloud" "Frostwhisper" "Snowwind" "Winterrunner" "Farrunner" "Icerunner" "Stormbreeze" "Stormrunner" "Chillwhisper"
+    "Frozentotem" "Spirithoof" "Spiritborn" "Coldcloud" "Farfury" "Snowmane" "Whitewind" "Coldborn" "Icehide" "Stormfrost" "Farbreeze"
+    "Iceflower" "Coldhide" "Whitehoof" "Whitegale" "Chillcloud" "Winterwhisper" "Icewind" "Chillborn" "Coldseer" "Frozenbreeze"
+    "Farflower" "Chillgale" "Icefury" "Winterbreeze" "Winterborn" "Stormmane" "Chillwind" "Spiritwhisper" "Stormcloud" "Stormfury"
+    "Snowbreeze" "Whiterunner" "Frostrunner" "Wintergale" "Ashcloud" "Stormtotem" "Coldtotem" "Coldhoof" "Frozenhoof" "Frozenfury"
+    "Farwind" "Winterwind" "Snowgale" "Snowcloud" "Spirittotem" "Frostwind" "Frozencloud" "Snowfury" "Whitefrost" "Winterhoof"
+    "Chillfrost" "Whitefury" "Farhide" "Icemane" "Ashborn" "Icehoof" "Whitecloud" "Ashtotem" "Farcloud" "Chillrunner" "Coldrunner"
+    "Frozenwhisper" "Whitetotem" "Ashfury" "Snowborn" "Coldmane" "Stormwhisper" "Icetotem" "Farwhisper" "Ashfrost" "Farborn" "Ashseer"
+    "Frostseer" "Farmane" "Frozenmane" "Spiritrunner" "Spirithide" "Coldfury" "Coldflower" "Snowrunner" "Frosthide" "Stormhide"
+    "Ashmane" "Frostmane" "Frozengale" "Stormhoof" "Winterfury" "Spiritflower" "Frostfury" "Ashwind" "Icegale" "Coldbreeze" "Snowseer"
+    "Farfrost" "Chillhide" "Snowhoof" "Coldwind" "Whitewhisper" "Chillbreeze" "Farhoof" "Spiritseer" "Spiritfrost" "Chillfury"
+    "Frostflower" "Chillmane" "Ashhoof" "Frozenrunner" "Frozenfrost" "Spiritbreeze" "Winterflower" "Snowflower" "Ashhide" "Frostcloud"
+    "Frostgale" "Stormwind" "Ashbreeze" "Spiritwind" "Coldfrost" "Spiritgale"
+  }
 
 	culture_icemist = {
 		male_names = {
@@ -13222,58 +13339,83 @@ culture_group_giant = {
 	graphical_culture = giantgfx
     second_graphical_culture = westerngfx # So the game does look totally fucked up whilst we work on the gfx stuff
 
-	male_names = {
-	}
+  male_names = {
+    "Ko'lash" "Mok'nan" "Kuchar" "Thehock" "Ko'lof" "Arkkrri" "Mok'lash" "Sorrun" "Mongun" "Sorzum" "Calhock" "Ko'oroc" "Sorhoff"
+    "Kuvdan" "Kaszum" "Calder" "Snonos" "Snolof" "Halhock" "Lilleder" "Sornos" "Kaslof" "Monlof" "Negolash" "Sorlof" "Dahoff" "Halrun"
+    "Kuhoff" "Gorlash" "Danan" "Callash" "Hallash" "Calnos" "Monhock" "Calrash" "Calgun" "Karri" "Negonan" "Halvdan" "Caloroc" "Thenan"
+    "Monnan" "Halnan" "Mok'lof" "Arkklash" "Kuder" "Gorhoff" "Kulof" "Therun" "Gorder" "Lillenan" "Mok'hoff" "Calrun" "Arkkhoff"
+    "Monzum" "Monder" "Kasoroc" "Halgun" "Arkknos" "Lillerri" "Dachar" "Ko'nan" "Kasnan" "Lillelash" "Darri" "Kasgun" "Arkkvdan"
+    "Therri" "Thenos" "Darun" "Gorrash" "Snochar" "Calnan" "Kaslash" "Mok'char" "Daoroc" "Dagun" "Ko'rash" "Kahock" "Monoroc" "Lillezum"
+    "Ko'vdan" "Lillehoff" "Hallof" "Kagun" "Kalash" "Monchar" "Arkkoroc" "Gorvdan" "Thechar" "Kazum" "Thezum" "Negozum" "Mok'vdan"
+    "Kanos" "Ko'zum" "Kaoroc" "Gorgun" "Ko'char" "Monvdan" "Negohock" "Lillelof" "Gorzum" "Lillechar" "Halrash" "Mok'gun" "Kurri"
+    "Arkkgun" "Snooroc" "Kulash" "Negogun" "Kachar" "Monrri" "Kurun" "Davdan" "Gorlof" "Kashock" "Kuoroc" "Monrash" "Gornos" "Monnos"
+    "Kasder" "Halnos" "Arkkrun" "Snovdan" "Karun" "Kanan" "Negohoff" "Halhoff" "Snozum" "Monlash" "Kurash" "Halrri" "Kader" "Theder"
+    "Thelof" "Gorchar" "Kahoff" "Lillevdan" "Sorvdan" "Kunan" "Ko'hock" "Negonos" "Mok'rri" "Darash" "Arkknan" "Arkkder" "Halder"
+    "Kunos" "Gororoc" "Kashoff" "Lillehock" "Arkkrash" "Sorrash" "Negolof" "Ko'rri" "Calzum" "Calrri" "Monrun" "Negooroc" "Ko'hoff"
+    "Thevdan" "Thegun" "Callof" "Monhoff" "Halzum" "Snoder" "Arkkhock" "Negoder" "Sorhock" "Theoroc" "Kalof" "Arkklof" "Mok'hock"
+    "Kasvdan" "Kasnos" "Kuzum" "Mok'der" "Karash" "Sorgun" "Snolash" "Danos" "Kasrri" "Calvdan" "Negorash" "Thehoff" "Dazum" "Negovdan"
+    "Dalof" "Sorrri" "Ko'gun" "Snorun" "Lillerash" "Lillerun" "Lillegun" "Gorhock" "Sorlash" "Snorash" "Ko'nos" "Gorrri" "Lillenos"
+    "Halchar" "Dader" "Mok'oroc" "Gorrun" "Dalash" "Snonan" "Haloroc" "Snorri" "Kaschar" "Kuhock" "Negorun" "Mok'rash" "Kugun" "Snohock"
+    "Therash" "Arkkchar" "Kavdan" "Mok'run" "Calhoff" "Mok'nos" "Lilleoroc" "Gornan" "Thelash" "Sororoc" "Mok'zum" "Ko'der" "Kasrash"
+    "Sorder" "Negochar" "Snogun" "Snohoff" "Sornan" "Negorri" "Sorchar" "Dahock" "Kasrun" "Arkkzum" "Calchar" "Ko'run"
+  }
 	female_names = {
+    "Ko'lash" "Mok'nan" "Kuchar" "Thehock" "Ko'lof" "Arkkrri" "Mok'lash" "Sorrun" "Mongun" "Sorzum" "Calhock" "Ko'oroc" "Sorhoff"
+    "Kuvdan" "Kaszum" "Calder" "Snonos" "Snolof" "Halhock" "Lilleder" "Sornos" "Kaslof" "Monlof" "Negolash" "Sorlof" "Dahoff" "Halrun"
+    "Kuhoff" "Gorlash" "Danan" "Callash" "Hallash" "Calnos" "Monhock" "Calrash" "Calgun" "Karri" "Negonan" "Halvdan" "Caloroc" "Thenan"
+    "Monnan" "Halnan" "Mok'lof" "Arkklash" "Kuder" "Gorhoff" "Kulof" "Therun" "Gorder" "Lillenan" "Mok'hoff" "Calrun" "Arkkhoff"
+    "Monzum" "Monder" "Kasoroc" "Halgun" "Arkknos" "Lillerri" "Dachar" "Ko'nan" "Kasnan" "Lillelash" "Darri" "Kasgun" "Arkkvdan"
+    "Therri" "Thenos" "Darun" "Gorrash" "Snochar" "Calnan" "Kaslash" "Mok'char" "Daoroc" "Dagun" "Ko'rash" "Kahock" "Monoroc" "Lillezum"
+    "Ko'vdan" "Lillehoff" "Hallof" "Kagun" "Kalash" "Monchar" "Arkkoroc" "Gorvdan" "Thechar" "Kazum" "Thezum" "Negozum" "Mok'vdan"
+    "Kanos" "Ko'zum" "Kaoroc" "Gorgun" "Ko'char" "Monvdan" "Negohock" "Lillelof" "Gorzum" "Lillechar" "Halrash" "Mok'gun" "Kurri"
+    "Arkkgun" "Snooroc" "Kulash" "Negogun" "Kachar" "Monrri" "Kurun" "Davdan" "Gorlof" "Kashock" "Kuoroc" "Monrash" "Gornos" "Monnos"
+    "Kasder" "Halnos" "Arkkrun" "Snovdan" "Karun" "Kanan" "Negohoff" "Halhoff" "Snozum" "Monlash" "Kurash" "Halrri" "Kader" "Theder"
+    "Thelof" "Gorchar" "Kahoff" "Lillevdan" "Sorvdan" "Kunan" "Ko'hock" "Negonos" "Mok'rri" "Darash" "Arkknan" "Arkkder" "Halder"
+    "Kunos" "Gororoc" "Kashoff" "Lillehock" "Arkkrash" "Sorrash" "Negolof" "Ko'rri" "Calzum" "Calrri" "Monrun" "Negooroc" "Ko'hoff"
+    "Thevdan" "Thegun" "Callof" "Monhoff" "Halzum" "Snoder" "Arkkhock" "Negoder" "Sorhock" "Theoroc" "Kalof" "Arkklof" "Mok'hock"
+    "Kasvdan" "Kasnos" "Kuzum" "Mok'der" "Karash" "Sorgun" "Snolash" "Danos" "Kasrri" "Calvdan" "Negorash" "Thehoff" "Dazum" "Negovdan"
+    "Dalof" "Sorrri" "Ko'gun" "Snorun" "Lillerash" "Lillerun" "Lillegun" "Gorhock" "Sorlash" "Snorash" "Ko'nos" "Gorrri" "Lillenos"
+    "Halchar" "Dader" "Mok'oroc" "Gorrun" "Dalash" "Snonan" "Haloroc" "Snorri" "Kaschar" "Kuhock" "Negorun" "Mok'rash" "Kugun" "Snohock"
+    "Therash" "Arkkchar" "Kavdan" "Mok'run" "Calhoff" "Mok'nos" "Lilleoroc" "Gornan" "Thelash" "Sororoc" "Mok'zum" "Ko'der" "Kasrash"
+    "Sorder" "Negochar" "Snogun" "Snohoff" "Sornan" "Negorri" "Sorchar" "Dahock" "Kasrun" "Arkkzum" "Calchar" "Ko'run"
 	}
 	dynasty_names = {
+    ""
 	}
 
 	culture_frost_giant = {
 		male_names = {
-			
 		}
 		female_names = {
-		
 		}
 		dynasty_names = {
-			
 		}
 	}
 
 	culture_ice_giant = {
 		male_names = {
-			
 		}
 		female_names = {
-		
 		}
 		dynasty_names = {
-			
 		}
 	}
 
 	culture_sea_giant = {
 		male_names = {
-			
 		}
 		female_names = {
-		
 		}
 		dynasty_names = {
-			
 		}
 	}
 
 	culture_mountain_giant = {
 		male_names = {
-			
 		}
 		female_names = {
-		
 		}
 		dynasty_names = {
-			
 		}
 	}
 }
@@ -13462,14 +13604,34 @@ culture_group_virmen = {
 	graphical_culture = virmengfx
     second_graphical_culture = westerngfx # So the game does look totally fucked up whilst we work on the gfx stuff
 
-	male_names = {
-			
-	}
+  male_names = {
+    "Raggis" "Kargit" "Chuhop" "Chuming" "Baitallus" "Cartallus" "Baiming" "Frenzygit" "Frenzyanya" "Ragjiu" "Raghop" "Hophop" "Cargit"
+    "Frenzyya" "Jinanya" "Tuhop" "Carzi" "Frenzyhop" "Hoptooth" "Skihop" "Tujiu" "Ragya" "Chufa" "Karjiu" "Verhop" "Frenzyjiu" "Tuyu"
+    "Chuyu" "Chuzi" "Ragtallus" "Verming" "Frenzytallus" "Karzi" "Skianya" "Jintooth" "Vertooth" "Skiming" "Tugit" "Frenzyming" "Jintallus"
+    "Caryu" "Baiya" "Verjiu" "Carya" "Verya" "Baihop" "Baijiu" "Carhop" "Karming" "Baigit" "Hopgit" "Aizi" "Ragyu" "Verfa" "Verzi" "Jingis"
+    "Jinhop" "Baizi" "Tuya" "Tutooth" "Jinjiu" "Frenzytooth" "Tuming" "Aihop" "Jinyu" "Hooktooth" "Tuanya" "Hookzi" "Hookming" "Karyu"
+    "Aiming" "Caranya" "Cargis" "Jinya" "Baigis" "Tuzi" "Skifa" "Hopzi" "Jinming" "Cartooth" "Hookyu" "Chuanya" "Chutallus" "Kargis" "Carming"
+    "Hookanya" "Hopfa" "Hookgis" "Hopya" "Skitooth" "Jinzi" "Hookfa" "Aigit" "Aitallus" "Chugis" "Skiyu" "Aitooth" "Tufa" "Raggit" "Hopanya"
+    "Hooktallus" "Vergit" "Hookjiu" "Frenzyzi" "Hookgit" "Skigit" "Ragzi" "Chujiu" "Karhop" "Aigis" "Hookhop" "Ragfa" "Karya" "Raganya"
+    "Frenzygis" "Hopming" "Skitallus" "Vergis" "Frenzyfa" "Skigis" "Karanya" "Jingit" "Aiyu" "Ragming" "Skiya" "Ragtooth" "Hopjiu" "Hookya"
+    "Carjiu" "Veryu" "Chutooth" "Karfa" "Aianya" "Tutallus" "Veranya" "Baiyu" "Baifa" "Kartooth" "Aijiu" "Jinfa" "Chugit" "Aifa" "Skijiu"
+    "Skizi" "Aiya" "Vertallus" "Hopgis" "Kartallus" "Chuya" "Baitooth" "Frenzyyu" "Tugis" "Carfa" "Baianya"
+  }
 	female_names = {
-		
+    "Raggis" "Kargit" "Chuhop" "Chuming" "Baitallus" "Cartallus" "Baiming" "Frenzygit" "Frenzyanya" "Ragjiu" "Raghop" "Hophop" "Cargit"
+    "Frenzyya" "Jinanya" "Tuhop" "Carzi" "Frenzyhop" "Hoptooth" "Skihop" "Tujiu" "Ragya" "Chufa" "Karjiu" "Verhop" "Frenzyjiu" "Tuyu"
+    "Chuyu" "Chuzi" "Ragtallus" "Verming" "Frenzytallus" "Karzi" "Skianya" "Jintooth" "Vertooth" "Skiming" "Tugit" "Frenzyming" "Jintallus"
+    "Caryu" "Baiya" "Verjiu" "Carya" "Verya" "Baihop" "Baijiu" "Carhop" "Karming" "Baigit" "Hopgit" "Aizi" "Ragyu" "Verfa" "Verzi" "Jingis"
+    "Jinhop" "Baizi" "Tuya" "Tutooth" "Jinjiu" "Frenzytooth" "Tuming" "Aihop" "Jinyu" "Hooktooth" "Tuanya" "Hookzi" "Hookming" "Karyu"
+    "Aiming" "Caranya" "Cargis" "Jinya" "Baigis" "Tuzi" "Skifa" "Hopzi" "Jinming" "Cartooth" "Hookyu" "Chuanya" "Chutallus" "Kargis" "Carming"
+    "Hookanya" "Hopfa" "Hookgis" "Hopya" "Skitooth" "Jinzi" "Hookfa" "Aigit" "Aitallus" "Chugis" "Skiyu" "Aitooth" "Tufa" "Raggit" "Hopanya"
+    "Hooktallus" "Vergit" "Hookjiu" "Frenzyzi" "Hookgit" "Skigit" "Ragzi" "Chujiu" "Karhop" "Aigis" "Hookhop" "Ragfa" "Karya" "Raganya"
+    "Frenzygis" "Hopming" "Skitallus" "Vergis" "Frenzyfa" "Skigis" "Karanya" "Jingit" "Aiyu" "Ragming" "Skiya" "Ragtooth" "Hopjiu" "Hookya"
+    "Carjiu" "Veryu" "Chutooth" "Karfa" "Aianya" "Tutallus" "Veranya" "Baiyu" "Baifa" "Kartooth" "Aijiu" "Jinfa" "Chugit" "Aifa" "Skijiu"
+    "Skizi" "Aiya" "Vertallus" "Hopgis" "Kartallus" "Chuya" "Baitooth" "Frenzyyu" "Tugis" "Carfa" "Baianya"
 	}
 	dynasty_names = {
-			
+    ""
 	}
 
 	culture_twitcheel = {
@@ -13525,14 +13687,47 @@ culture_group_zangar = {
 	graphical_culture = zangargfx
     second_graphical_culture = westerngfx # So the game does look totally fucked up whilst we work on the gfx stuff
 
-	male_names = {
-			
-	}
+  male_names = {
+    "Fahruun" "Fhnix" "Quagruun" "Quagfen" "Gzhunshu" "Hchmirran" "Mutashu" "Ba'ssn" "Khn'haff" "Fhcah" "Gzhunfen" "Quagmirran"
+    "Quagssn" "Quagcah" "Gzhun'uu" "Hchspore" "Msshifen" "Fahmirran" "Gscah" "Khn'nix" "Msshiruun" "Fhssn" "Quagwoor" "Mymirran"
+    "Gsssn" "Blubaruun" "Fah'uu" "Fahspore" "Khn'fen" "Fh'uu" "Mutahaff" "Hchnix" "Mutanix" "Fahhaff" "Khn'ruun" "Gzhunruun" "Hchshu"
+    "Ba'haff" "Khn'cah" "Fhruun" "Hchwoor" "Gswoor" "Fahshu" "Hchhaff" "Gsspore" "Khn'spore" "Myspore" "Fahfen" "Khn'ssn" "Blubashu"
+    "T'tt" "Quaghaff" "Ba'tt" "Msshi'fn" "My'tt" "T'ruun" "Quag'fn" "Msshihaff" "Blubaspore" "T'ssn" "Msshimirran" "Gzhunhaff" "Hchssn"
+    "T'spore" "T'fen" "Gzhunmirran" "Gshaff" "Msshissn" "Khn'shu" "Mutassn" "Hch'tt" "T'mirran" "Fhmirran" "Blubanix" "Msshishu" "Gsruun"
+    "Gzhunnix" "Msshispore" "Msshinix" "Khn'mirran" "Fahwoor" "My'uu" "Ba'fen" "Quagspore" "Quag'uu" "Gzhun'tt" "Mynix" "Gzhuncah"
+    "T'woor" "Quag'tt" "Ba'spore" "T'shu" "Khn'fn" "Gs'tt" "T'uu" "Myshu" "Fah'fn" "Hchcah" "Gsfen" "Gzhunssn" "Mutacah" "Khn'woor"
+    "Hch'fn" "Msshicah" "My'fn" "Blubawoor" "Mywoor" "Fah'tt" "Fahcah" "Muta'tt" "Bluba'tt" "Ba'fn" "Myfen" "Hchruun" "Ba'shu" "Fhfen"
+    "Mutamirran" "Mutaspore" "Mutawoor" "Blubacah" "Blubahaff" "T'nix" "Gs'uu" "Gzhun'fn" "Msshi'uu" "Gzhunspore" "Mycah" "Gsnix" "Bluba'fn"
+    "Fhshu" "Fh'fn" "Ba'cah" "Fhwoor" "Mutaruun" "Fhhaff" "T'fn" "Ba'uu" "Msshiwoor" "Msshi'tt" "Hch'uu" "T'cah" "Gsshu" "Myssn" "Quagshu"
+    "Khn'tt" "Muta'uu" "Ba'mirran" "T'haff" "Myhaff" "Myruun" "Fahssn" "Blubassn" "Blubamirran" "Blubafen" "Ba'ruun" "Bluba'uu" "Fhspore" "Gs'fn" "Ba'nix" "Muta'fn"
+  }
 	female_names = {
-		
+    "Fahruun" "Fhnix" "Quagruun" "Quagfen" "Gzhunshu" "Hchmirran" "Mutashu" "Ba'ssn" "Khn'haff" "Fhcah" "Gzhunfen" "Quagmirran"
+    "Quagssn" "Quagcah" "Gzhun'uu" "Hchspore" "Msshifen" "Fahmirran" "Gscah" "Khn'nix" "Msshiruun" "Fhssn" "Quagwoor" "Mymirran"
+    "Gsssn" "Blubaruun" "Fah'uu" "Fahspore" "Khn'fen" "Fh'uu" "Mutahaff" "Hchnix" "Mutanix" "Fahhaff" "Khn'ruun" "Gzhunruun" "Hchshu"
+    "Ba'haff" "Khn'cah" "Fhruun" "Hchwoor" "Gswoor" "Fahshu" "Hchhaff" "Gsspore" "Khn'spore" "Myspore" "Fahfen" "Khn'ssn" "Blubashu"
+    "T'tt" "Quaghaff" "Ba'tt" "Msshi'fn" "My'tt" "T'ruun" "Quag'fn" "Msshihaff" "Blubaspore" "T'ssn" "Msshimirran" "Gzhunhaff" "Hchssn"
+    "T'spore" "T'fen" "Gzhunmirran" "Gshaff" "Msshissn" "Khn'shu" "Mutassn" "Hch'tt" "T'mirran" "Fhmirran" "Blubanix" "Msshishu" "Gsruun"
+    "Gzhunnix" "Msshispore" "Msshinix" "Khn'mirran" "Fahwoor" "My'uu" "Ba'fen" "Quagspore" "Quag'uu" "Gzhun'tt" "Mynix" "Gzhuncah"
+    "T'woor" "Quag'tt" "Ba'spore" "T'shu" "Khn'fn" "Gs'tt" "T'uu" "Myshu" "Fah'fn" "Hchcah" "Gsfen" "Gzhunssn" "Mutacah" "Khn'woor"
+    "Hch'fn" "Msshicah" "My'fn" "Blubawoor" "Mywoor" "Fah'tt" "Fahcah" "Muta'tt" "Bluba'tt" "Ba'fn" "Myfen" "Hchruun" "Ba'shu" "Fhfen"
+    "Mutamirran" "Mutaspore" "Mutawoor" "Blubacah" "Blubahaff" "T'nix" "Gs'uu" "Gzhun'fn" "Msshi'uu" "Gzhunspore" "Mycah" "Gsnix" "Bluba'fn"
+    "Fhshu" "Fh'fn" "Ba'cah" "Fhwoor" "Mutaruun" "Fhhaff" "T'fn" "Ba'uu" "Msshiwoor" "Msshi'tt" "Hch'uu" "T'cah" "Gsshu" "Myssn" "Quagshu"
+    "Khn'tt" "Muta'uu" "Ba'mirran" "T'haff" "Myhaff" "Myruun" "Fahssn" "Blubassn" "Blubamirran" "Blubafen" "Ba'ruun" "Bluba'uu" "Fhspore" "Gs'fn" "Ba'nix" "Muta'fn"
 	}
 	dynasty_names = {
-		
+    "Fahruun" "Fhnix" "Quagruun" "Quagfen" "Gzhunshu" "Hchmirran" "Mutashu" "Ba'ssn" "Khn'haff" "Fhcah" "Gzhunfen" "Quagmirran"
+    "Quagssn" "Quagcah" "Gzhun'uu" "Hchspore" "Msshifen" "Fahmirran" "Gscah" "Khn'nix" "Msshiruun" "Fhssn" "Quagwoor" "Mymirran"
+    "Gsssn" "Blubaruun" "Fah'uu" "Fahspore" "Khn'fen" "Fh'uu" "Mutahaff" "Hchnix" "Mutanix" "Fahhaff" "Khn'ruun" "Gzhunruun" "Hchshu"
+    "Ba'haff" "Khn'cah" "Fhruun" "Hchwoor" "Gswoor" "Fahshu" "Hchhaff" "Gsspore" "Khn'spore" "Myspore" "Fahfen" "Khn'ssn" "Blubashu"
+    "T'tt" "Quaghaff" "Ba'tt" "Msshi'fn" "My'tt" "T'ruun" "Quag'fn" "Msshihaff" "Blubaspore" "T'ssn" "Msshimirran" "Gzhunhaff" "Hchssn"
+    "T'spore" "T'fen" "Gzhunmirran" "Gshaff" "Msshissn" "Khn'shu" "Mutassn" "Hch'tt" "T'mirran" "Fhmirran" "Blubanix" "Msshishu" "Gsruun"
+    "Gzhunnix" "Msshispore" "Msshinix" "Khn'mirran" "Fahwoor" "My'uu" "Ba'fen" "Quagspore" "Quag'uu" "Gzhun'tt" "Mynix" "Gzhuncah"
+    "T'woor" "Quag'tt" "Ba'spore" "T'shu" "Khn'fn" "Gs'tt" "T'uu" "Myshu" "Fah'fn" "Hchcah" "Gsfen" "Gzhunssn" "Mutacah" "Khn'woor"
+    "Hch'fn" "Msshicah" "My'fn" "Blubawoor" "Mywoor" "Fah'tt" "Fahcah" "Muta'tt" "Bluba'tt" "Ba'fn" "Myfen" "Hchruun" "Ba'shu" "Fhfen"
+    "Mutamirran" "Mutaspore" "Mutawoor" "Blubacah" "Blubahaff" "T'nix" "Gs'uu" "Gzhun'fn" "Msshi'uu" "Gzhunspore" "Mycah" "Gsnix" "Bluba'fn"
+    "Fhshu" "Fh'fn" "Ba'cah" "Fhwoor" "Mutaruun" "Fhhaff" "T'fn" "Ba'uu" "Msshiwoor" "Msshi'tt" "Hch'uu" "T'cah" "Gsshu" "Myssn" "Quagshu"
+    "Khn'tt" "Muta'uu" "Ba'mirran" "T'haff" "Myhaff" "Myruun" "Fahssn" "Blubassn" "Blubamirran" "Blubafen" "Ba'ruun" "Bluba'uu" "Fhspore" "Gs'fn" "Ba'nix" "Muta'fn"
 	}
 
 	culture_sporeling = {
@@ -13558,14 +13753,32 @@ culture_group_pygmy = {
 	graphical_culture = pygmygfx
     second_graphical_culture = westerngfx # So the game does look totally fucked up whilst we work on the gfx stuff
 
-	male_names = {
-			
-	}
+  male_names = {
+    "Augh" "Morahl" "Arwie" "Buduh" "Oooch" "Ooduh" "Ynglot" "Ugoh" "Buten" "Morum" "Eigah" "Pamo" "Telahl" "Pavind" "Gadog" "Buoh"
+    "Oomvind" "Ugmo" "Oomoch" "Oogh" "Oovind" "Telten" "Eigh" "Oodog" "Oogah" "Ooten" "Gaoh" "Gawie" "Morlot" "Mormo" "Eium" "Telduh"
+    "Ugoch" "Morgah" "Paoh" "Yngmo" "Malwie" "Teloch" "Buvind" "Gaduh" "Tellot" "Buahl" "Pagah" "Mallot" "Ynggh" "Auvind" "Ugten"
+    "Maloh" "Oomdog" "Ooum" "Oomum" "Yngwie" "Eiten" "Eiahl" "Malmo" "Paoch" "Ooahl" "Oomo" "Auwie" "Gaoch" "Arvind" "Gagah" "Pawie"
+    "Yngoh" "Malten" "Galot" "Mordog" "Eivind" "Morwie" "Argh" "Morten" "Ugwie" "Telvind" "Yngten" "Morvind" "Gavind" "Maldog" "Malduh"
+    "Oomahl" "Oomduh" "Auoh" "Uglot" "Paten" "Yngahl" "Auduh" "Eioh" "Morduh" "Eimo" "Gaum" "Oomlot" "Buum" "Malvind" "Budog" "Audog"
+    "Telgh" "Gaahl" "Palot" "Ardog" "Gamo" "Argah" "Arlot" "Yngdog" "Padog" "Aroh" "Bulot" "Bugah" "Teloh" "Malgh" "Eioch" "Maloch"
+    "Uggah" "Ugahl" "Yngduh" "Ynggah" "Ugum" "Auum" "Auoch" "Paum" "Buoch" "Eilot" "Gagh" "Arduh" "Malgah" "Auten" "Malum" "Oomoh"
+    "Uggh" "Paahl" "Buwie" "Yngvind" "Telmo" "Oolot" "Ugduh" "Armo" "Ugvind" "Oowie" "Aumo" "Oomwie" "Ugdog" "Morgh" "Paduh" "Eiwie"
+    "Moroch" "Malahl" "Augah" "Telgah" "Telum" "Oomten" "Aroch" "Aulot" "Oomgah" "Yngoch" "Arahl" "Auahl" "Arum" "Eidog" "Telwie" "Arten" "Pagh" "Oommo"
+  }
 	female_names = {
-		
+    "Augh" "Morahl" "Arwie" "Buduh" "Oooch" "Ooduh" "Ynglot" "Ugoh" "Buten" "Morum" "Eigah" "Pamo" "Telahl" "Pavind" "Gadog" "Buoh"
+    "Oomvind" "Ugmo" "Oomoch" "Oogh" "Oovind" "Telten" "Eigh" "Oodog" "Oogah" "Ooten" "Gaoh" "Gawie" "Morlot" "Mormo" "Eium" "Telduh"
+    "Ugoch" "Morgah" "Paoh" "Yngmo" "Malwie" "Teloch" "Buvind" "Gaduh" "Tellot" "Buahl" "Pagah" "Mallot" "Ynggh" "Auvind" "Ugten"
+    "Maloh" "Oomdog" "Ooum" "Oomum" "Yngwie" "Eiten" "Eiahl" "Malmo" "Paoch" "Ooahl" "Oomo" "Auwie" "Gaoch" "Arvind" "Gagah" "Pawie"
+    "Yngoh" "Malten" "Galot" "Mordog" "Eivind" "Morwie" "Argh" "Morten" "Ugwie" "Telvind" "Yngten" "Morvind" "Gavind" "Maldog" "Malduh"
+    "Oomahl" "Oomduh" "Auoh" "Uglot" "Paten" "Yngahl" "Auduh" "Eioh" "Morduh" "Eimo" "Gaum" "Oomlot" "Buum" "Malvind" "Budog" "Audog"
+    "Telgh" "Gaahl" "Palot" "Ardog" "Gamo" "Argah" "Arlot" "Yngdog" "Padog" "Aroh" "Bulot" "Bugah" "Teloh" "Malgh" "Eioch" "Maloch"
+    "Uggah" "Ugahl" "Yngduh" "Ynggah" "Ugum" "Auum" "Auoch" "Paum" "Buoch" "Eilot" "Gagh" "Arduh" "Malgah" "Auten" "Malum" "Oomoh"
+    "Uggh" "Paahl" "Buwie" "Yngvind" "Telmo" "Oolot" "Ugduh" "Armo" "Ugvind" "Oowie" "Aumo" "Oomwie" "Ugdog" "Morgh" "Paduh" "Eiwie"
+    "Moroch" "Malahl" "Augah" "Telgah" "Telum" "Oomten" "Aroch" "Aulot" "Oomgah" "Yngoch" "Arahl" "Auahl" "Arum" "Eidog" "Telwie" "Arten" "Pagh" "Oommo"
 	}
 	dynasty_names = {
-		
+    ""
 	}
 
 	culture_sand_pygmy = {
