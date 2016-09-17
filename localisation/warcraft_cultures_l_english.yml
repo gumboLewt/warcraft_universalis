@@ -148,9 +148,7 @@
  culture_moarg: "Mo'arg"
  culture_shivarra: "Shivarra"
  culture_pit_lord: "Annihilan"
- culture_sayaad: "Sayaad"
  culture_illidari: "Illidari"
- culture_felsworn: "Felsworn"
  culture_legion_cultist: "Fel Cultist"
  culture_fel_orc: "Fel Orc"
  culture_felblood_elf: "Felblood Elf"
@@ -159,7 +157,6 @@
  culture_group_satyr: "Satyr"
  culture_jadefire: "Jadefire"
  culture_axxarian: "Axxarian"
- culture_blackheart: "Blackheart"
  culture_hatefury: "Hatefury"
  culture_legashi: "Legashi"
  culture_crystal_satyr: "Crystal Satyr"
@@ -175,7 +172,6 @@
  culture_group_depths: "Depths"
  culture_nerglish: "Murloc"
  culture_jinyu: "Jinyu"
- culture_gorloc: "Gorloc"
  
  culture_group_lobstrok: "Lobstrok"
  culture_makrura: "Makrura"
@@ -220,7 +216,6 @@
  culture_palemane: "Palemane"
  culture_rothide: "Rot Hide" #undead gnolls
  culture_woodpaw: "Woodpaw"
- culture_savage_hill: "Savage Hill"
  culture_wildpaw: "Wildpaw"
   
  culture_group_centaur: "Centaur"
@@ -233,7 +228,6 @@
  culture_group_furbolg: "Furbolg"
  culture_gnarlpine: "Gnarlpine"
  culture_deadwood: "Deadwood"
- culture_blackwood: "Blackwood"
  culture_timbermaw: "Timbermaw"
  culture_stillpine: "Stillpine"
  culture_winterfall: "Winterfall"
@@ -242,7 +236,6 @@
  culture_thistlefur: "Thistlefur"
  culture_foulweald: "Foulweald"
  culture_bloodtooth: "Bloodtooth"
- culture_barkskin: "Barkskin"
  culture_blackmaw: "Blackmaw"
  culture_bristlelimb: "Bristlelimb"
  
@@ -258,7 +251,6 @@
  culture_rainspeaker: "Rainspeaker"
  culture_mosswalker: "Mosswalker"
  culture_sparktouched: "Sparktouched"
- culture_gorloc: "Borean Gorloc"
 
  culture_group_kobold: "Kobold"
  culture_drywhisker: "Drywhisker"
@@ -269,7 +261,6 @@
  culture_shalerhorn: "Gjalerhorn"
  culture_tunnel_rat: "Tunnel Rat"
  culture_boulderslide: "Boulderslide"
- culture_snowplain: "Snowplain"
  culture_windshear: "Windshear"
  
  culture_group_magnataur: "Magnataur"
@@ -280,7 +271,6 @@
  culture_group_harpy: "Harpy"
  culture_bloodfury: "Bloodfury"
  culture_coldwind: "Coldwind"
- culture_frostfeather: "Frostfeather"
  culture_dustwind: "Dustwind"
  culture_screeching: "Screeching"
  culture_northspring: "Northspring"
@@ -315,7 +305,6 @@
  culture_ooze: "Ooze"
  culture_treant: "Treant"
  culture_construct: "Construct"
- culture_ascendant: "Elemental Ascendant"
  culture_sha: "Sha"
  
  # Why not simply Gilnean? Becouse we will know way faster which we want in game
@@ -328,7 +317,6 @@
  culture_kul_tiran_worgen: "Tirasian Worgen"
  culture_azerothian_worgen: "Azerothian Worgen"
  culture_arathi_worgen: "Stormic Worgen"
- culture_feral_worgen: "Feral Worgen"
  
  culture_group_arrakoa: "Arrakoa"
  culture_sethekk: "Sethekk"
@@ -413,21 +401,12 @@
  culture_springtail: "Springtail"
  culture_snagtooth: "Snagtooth"
  
- culture_group_wildkin: "Wildkin"
- culture_owlkin: "Owlkin"
- 
  culture_group_void: "Void"
  culture_voidwalker: "Voidwalker"
 
- culture_group_flayer: "Flayer"
- culture_rockflayer: "Rockflayer"
- 
  culture_group_zangar: "Zangar"
  culture_sporeling: "Sporeling"
  culture_fungal_giant: "Fungal Giant"
- 
- culture_group_yeti: "Yeti"
- culture_yeti: "Yeti"
  
  culture_group_tol_vir: "Tol'vir"
  culture_tol_vir: "Tol'vir"

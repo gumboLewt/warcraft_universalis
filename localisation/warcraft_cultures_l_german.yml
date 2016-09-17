@@ -147,9 +147,7 @@
  culture_moarg: "Mo'arg"
  culture_shivarra: "Shivarra"
  culture_pit_lord: "Annihilan"
- culture_sayaad: "Sayaad"
  culture_illidari: "Illidari"
- culture_felsworn: "Felgeschworene"
  culture_legion_cultist: "Legions Kultisten"
  culture_fel_orc: "Höllenorks"
  culture_felblood_elf: "Felblutelfen"
@@ -158,14 +156,13 @@
  culture_group_satyr: "Satyr"
  culture_jadefire: "Jadefeuer"
  culture_axxarian: "Axxarian"
- culture_blackheart: "Schwarzherz"
  culture_hatefury: "Zornsäer"
  culture_legashi: "Legashi"
  culture_crystal_satyr: "Krystal Satyr"
  culture_wildspawn: "Wildgeborene"
  culture_xavian: "Xavian"
  culture_haldarr: "Haldarr"
- 
+
  culture_group_naga: "Naga"
  culture_nazja: "Nazja"
  culture_vashjari: "Vashjari"
@@ -174,7 +171,6 @@
  culture_group_depths: "Völker der Tiefen"
  culture_nerglish: "Murloc"
  culture_jinyu: "Jinyu"
- culture_gorloc: "Gorloc"
  
  culture_group_lobstrok: "Lobstrok"
  culture_makrura: "Makrura"
@@ -220,7 +216,6 @@
  culture_palemane: "Bleichmähnen"
  culture_rothide: "Moderfelle "
  culture_woodpaw: "Holzpfoten"
- culture_savage_hill: "Wilde Hügel Gnolle"
  culture_wildpaw: "Wildtatzen"
   
  culture_group_centaur: "Zentauren"
@@ -233,7 +228,6 @@
  culture_group_furbolg: "Furbolg"
  culture_gnarlpine: "Knarzklauen"
  culture_deadwood: "Totholz-Clan"
- culture_blackwood: "Schwarzholz-Clan"
  culture_timbermaw: "Holzschlund-Clan"
  culture_stillpine: "Tannenruhfeste-Clan"
  culture_winterfall: "Winterfall"
@@ -242,7 +236,6 @@
  culture_thistlefur: "Thistlefur"
  culture_foulweald: "Foulweald"
  culture_bloodtooth: "Blutzähne"
- culture_barkskin: "Borkenhaut"
  culture_blackmaw: "Schwarzschlund"
  culture_bristlelimb: "Sichelklauen"
  
@@ -258,7 +251,6 @@
  culture_rainspeaker: "Regenrufer"
  culture_mosswalker: "Moosläufer"
  culture_sparktouched: "Funkenbesprühten"
- culture_gorloc: "Boreanische Gorlocs"
  
  culture_group_kobold: "Kobold"
  culture_drywhisker: "Trockenstoppel"
@@ -269,7 +261,6 @@
  culture_shalerhorn: "Schallerhorn"
  culture_tunnel_rat: "Tunnelratten"
  culture_boulderslide: "Steinschlagkobolde "
- culture_snowplain: "Schneeebenenkobolde"
  culture_windshear: "Windscherer"
  
  culture_group_magnataur: "Magnataur"
@@ -280,7 +271,6 @@
  culture_group_harpy: "Harpyen"
  culture_bloodfury: "Blutfurieren"
  culture_coldwind: "Kaltwindharpyen"
- culture_frostfeather: "Frostfedern"
  culture_dustwind: "Staubwindharpyen"
  culture_screeching: "Kreischharpyen"
  culture_northspring: "Northspring"
@@ -315,7 +305,6 @@
  culture_ooze: "Ooze"
  culture_treant: "Treant"
  culture_construct: "Konstruckt"
- culture_ascendant: "Elementarherrscher"
  culture_sha: "Sha"
  
  culture_group_worgen: "Worgen"
@@ -327,7 +316,6 @@
  culture_kul_tiran_worgen: "Verfluchte Tiranen"
  culture_azerothian_worgen: "Verfluchte Azeroti"
  culture_arathi_worgen: "Verfluchte Arathi"
- culture_feral_worgen: "Wilde Worgen"
  
  culture_group_arrakoa: "Arrakoa"
  culture_sethekk: "Sethekk"
@@ -412,21 +400,12 @@
  culture_springtail: "Sprungschweife"
  culture_snagtooth: "Raffzähne"
  
- culture_group_wildkin: "Wildkin"
- culture_owlkin: "Mondkin"
- 
  culture_group_void: "Leere"
  culture_voidwalker: "Leerenwandler"
 
- culture_group_flayer: "Flayer"
- culture_rockflayer: "Rockflayer"
- 
  culture_group_zangar: "Zangarisch"
  culture_sporeling: "Sporeling"
  culture_fungal_giant: "Fungigiant"
- 
- culture_group_yeti: "Yeti"
- culture_yeti: "Yeti"
  
  culture_group_tol_vir: "Tol'vir"
  culture_tol_vir: "Tol'vir"

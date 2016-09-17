@@ -148,9 +148,7 @@
  culture_moarg: "Mo'arg"
  culture_shivarra: "Shivarra"
  culture_pit_lord: "Annihilen"
- culture_sayaad: "Sayaad"
  culture_illidari: "Illidari"
- culture_felsworn: "Gangrelige"
  culture_legion_cultist: "Gangr'Cultiste"
  culture_fel_orc: "Gangr'Orc"
  culture_felblood_elf: "Gangr'Elfe de Sang"
@@ -159,7 +157,6 @@
  culture_group_satyr: "Satyre"
  culture_jadefire: "Jadefeu"
  culture_axxarian: "Axxarien"
- culture_blackheart: "Mornecoeur"
  culture_hatefury: "Fielfurie"
  culture_legashi: "Legashi"
  culture_crystal_satyr: "Satyre de Crystal"
@@ -174,7 +171,6 @@
  culture_group_depths: "Profondeurs"
  culture_nerglish: "Murloc"
  culture_jinyu: "Jinyu"
- culture_gorloc: "Gorloc"
  
  culture_group_lobstrok: "Homstrok"
  culture_makrura: "Makrura"
@@ -219,7 +215,6 @@
  culture_palemane: "Crin-pâle"
  culture_rothide: "Poil-putride"
  culture_woodpaw: "Griffebois"
- culture_savage_hill: "de la colline Sauvage"
  culture_wildpaw: "Follepatte"
   
  culture_group_centaur: "Centaure"
@@ -232,7 +227,6 @@
  culture_group_furbolg: "Furbolg"
  culture_gnarlpine: "Pin-tordu"
  culture_deadwood: "Mort-bois"
- culture_blackwood: "Noirbois"
  culture_timbermaw: "Grumegueules"
  culture_stillpine: "Calmepin"
  culture_winterfall: "Tombe-hiver"
@@ -241,7 +235,6 @@
  culture_thistlefur: "Crin-de-chardon"
  culture_foulweald: "Vile-sylve"
  culture_bloodtooth: "Dent-rouge"
- culture_barkskin: "Dermécorce"
  culture_blackmaw: "Noiregueules"
  culture_bristlelimb: "Bras-hirsute"
  
@@ -257,7 +250,6 @@
  culture_rainspeaker: "Parlepluie"
  culture_mosswalker: "Marchemousse"
  culture_sparktouched: "Touchétincelle"
- culture_gorloc: "Gorloc Boréen"
 
  culture_group_kobold: "Kobold"
  culture_drywhisker: "Sèche-moustache"
@@ -268,7 +260,6 @@
  culture_shalerhorn: "Gjalercorne"
  culture_tunnel_rat: "Rat des tunnels"
  culture_boulderslide: "des Eboulis"
- culture_snowplain: "Plaineige"
  culture_windshear: "des Cisailles"
  
  culture_group_magnataur: "Magnataure"
@@ -279,7 +270,6 @@
  culture_group_harpy: "Harpie"
  culture_bloodfury: "Rougefurie"
  culture_coldwind: "de Vent-froid"
- culture_frostfeather: "Givreplume"
  culture_dustwind: "Terrevent"
  culture_screeching: "Hurlante"
  culture_northspring: "Ruissenord"
@@ -313,7 +303,6 @@
  culture_ooze: "Limon"
  culture_treant: "Tréant"
  culture_construct: "Assemblage"
- culture_ascendant: "Ascendant Elementaire"
  culture_sha: "Sha"
  
  culture_group_worgen: "Worgen"
@@ -404,21 +393,12 @@
  culture_springtail: "Queubriole"
  culture_snagtooth: "Dent-cassée"
  
- culture_group_wildkin: "Chouettard"
- culture_owlkin: "Indomptable"
- 
  culture_group_void: "Vide"
  culture_voidwalker: "Marcheur du vide"
-
- culture_group_flayer: "Ecorcheur"
- culture_rockflayer: "Ecorcheur de pierre"
  
  culture_group_zangar: "Zangar"
  culture_sporeling: "Sporelins"
  culture_fungal_giant: "Géant fongique"
- 
- culture_group_yeti: "Yeti"
- culture_yeti: "Yeti"
  
  culture_group_tol_vir: "Tol'vir"
  culture_tol_vir: "Tol'vir"

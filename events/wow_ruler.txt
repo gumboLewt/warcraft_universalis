@@ -37,7 +37,6 @@ country_event = {
             factor = 14 # 1200
             
             OR = {
-                culture_group = culture_group_wildkin
                 culture_group = culture_group_darnassian
             }
         }
@@ -126,7 +125,6 @@ country_event = {
                 culture_group = culture_group_kobold
                 culture_group = culture_group_magnataur
                 culture_group = culture_group_harpy
-                culture_group = culture_group_flayer
                 culture_group = culture_group_pygmy
             }
         }
@@ -213,7 +211,6 @@ country_event = {
             factor = 10
             
             OR = {
-                culture_group = culture_group_yeti
                 culture_group = culture_group_giant
             }
         }

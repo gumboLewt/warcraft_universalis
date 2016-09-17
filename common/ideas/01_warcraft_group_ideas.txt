@@ -543,7 +543,6 @@ outland_orc_ideas = {
 			primary_culture = culture_stormreaver
 			primary_culture = culture_burning_blade
 			primary_culture = culture_thunderlord
-			#primary_culture = culture_searing_blade
 			primary_culture = culture_blackrock
 		}
 	}
@@ -2632,43 +2631,6 @@ virmen_ideas = {
 	
 	}
 	virmen_ideas_7 = {
-	
-	}
-}
-
-wildkin_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-		
-	}
-	
-	trigger = {
-		culture_group = culture_group_wildkin
-	}
-	free = yes		
-	
-	wildkin_ideas_1 = {
-	
-	}
-	wildkin_ideas_2 = {
-	
-	}
-	wildkin_ideas_3 = {
-	
-	}
-	wildkin_ideas_4 = {
-	
-	}
-	wildkin_ideas_5 = {
-	
-	}
-	wildkin_ideas_6 = {
-	
-	}
-	wildkin_ideas_7 = {
 	
 	}
 }
