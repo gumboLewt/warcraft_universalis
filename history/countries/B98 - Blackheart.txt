@@ -1,7 +1,0 @@
-# Blackheart
-government 			= warband_gov
-mercantilism 		= 0.1
-technology_group 	= tech_satyr
-religion			= religion_fel
-primary_culture 	= culture_blackheart
-capital 			= 1
