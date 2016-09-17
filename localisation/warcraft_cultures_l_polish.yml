@@ -303,7 +303,6 @@
  culture_ooze: "Ooze"
  culture_treant: "Treant"
  culture_construct: "Construct"
- culture_ascendant: "Elemental Ascendant"
  culture_sha: "Sha"
  
  # Why not simply Gilnean? Becouse we will know way faster which we want in game
