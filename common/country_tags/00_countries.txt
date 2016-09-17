@@ -375,7 +375,6 @@ G33 = "countries/Garm.txt"
 # Harpy
 B63 = "countries/Bloodfury.txt" # tech_harpy
 B64 = "countries/Coldwind.txt"
-B65 = "countries/Frostfeather.txt"
 B66 = "countries/Dustwind.txt"
 B67 = "countries/Screeching.txt" # tech_harpy
 F87 = "countries/Northspring.txt"
