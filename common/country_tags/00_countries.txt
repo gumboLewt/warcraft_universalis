@@ -367,7 +367,6 @@ B62 = "countries/Shalerhorn.txt" # tech_kobold
 E53 = "countries/Tunnel Rat.txt" # tech_kobold
 G27 = "countries/Boulderslide.txt" # tech_kobold
 G28 = "countries/Windshear.txt" # tech_kobold
-G31 = "countries/Snowplain.txt" # tech_kobold
 
 # Magnataur
 B61 = "countries/Magmoth.txt" # tech_magnataur
