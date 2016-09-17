@@ -148,9 +148,7 @@
  culture_moarg: "Mo'arg"
  culture_shivarra: "Shivarra"
  culture_pit_lord: "Annihilan"
- culture_sayaad: "Sayaad"
  culture_illidari: "Illidari"
- culture_felsworn: "Felsworn"
  culture_legion_cultist: "Fel Cultist"
  culture_fel_orc: "Fel Orc"
  culture_felblood_elf: "Felblood Elf"
@@ -159,7 +157,6 @@
  culture_group_satyr: "Satyr"
  culture_jadefire: "Jadefire"
  culture_axxarian: "Axxarian"
- culture_blackheart: "Blackheart"
  culture_hatefury: "Hatefury"
  culture_legashi: "Legashi"
  culture_crystal_satyr: "Crystal Satyr"
@@ -220,7 +217,6 @@
  culture_palemane: "Palemane"
  culture_rothide: "Rot Hide" #undead gnolls
  culture_woodpaw: "Woodpaw"
- culture_savage_hill: "Savage Hill"
  culture_wildpaw: "Wildpaw"
   
  culture_group_centaur: "Centaur"
@@ -233,7 +229,6 @@
  culture_group_furbolg: "Furbolg"
  culture_gnarlpine: "Gnarlpine"
  culture_deadwood: "Deadwood"
- culture_blackwood: "Blackwood"
  culture_timbermaw: "Timbermaw"
  culture_stillpine: "Stillpine"
  culture_winterfall: "Winterfall"

@@ -297,7 +297,6 @@ B17 = "countries/Redridge Gnolls.txt"
 B18 = "countries/Palemane.txt"
 B19 = "countries/Rothide.txt"
 F10 = "countries/Woodpaw.txt"
-F41 = "countries/Savage Hill.txt"
 G25 = "countries/Wildpaw.txt"
 
 # Centaur
@@ -333,7 +332,6 @@ G41 = "countries/Saltspittle.txt"
 # Furbolg
 B39 = "countries/Gnarlpine.txt" # tech_furbolg
 B40 = "countries/Deadwood.txt" # tech_furbolg
-B41 = "countries/Blackwood.txt" # tech_furbolg
 B42 = "countries/Timbermaw.txt" 
 B43 = "countries/Stillpine.txt"
 B44 = "countries/Winterfall.txt" # tech_furbolg
@@ -439,13 +437,11 @@ F15 = "countries/Dreadlord.txt"
 F13 = "countries/Shadowsworn.txt"
 F37 = "countries/Disciples of Hate.txt"
 F82 = "countries/Hounds of Culuthas.txt"
-F98 = "countries/Mannoroc Conclave.txt" #Underblade Lashers
 G02 = "countries/Darkwhisper.txt"
 
 # Satyr
 B96 = "countries/Jadefire.txt"
 B97 = "countries/Axxarian.txt"
-B98 = "countries/Blackheart.txt"
 B99 = "countries/Hatefury.txt"
 E01 = "countries/Legashi.txt"
 F43 = "countries/Nazzivus.txt"
