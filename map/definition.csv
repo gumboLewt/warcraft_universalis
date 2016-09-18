@@ -2503,33 +2503,33 @@ province;red;green;blue;type;name;continent;region
 2502;216;179;67;land;Windy Cliffs;Northrend;Storm Peaks
 2503;137;179;162;land;Eroded Cliffs;Northrend;Storm Peaks
 2504;161;244;180;land;Shen'dralar Quarters;Kalimdor;Feralas # New provinces for wastelands below (remove)
-2505;0;150;0;land;Amberweb Crag;Kalimdor;Bloodmyst Isle
-2506;154;141;160;land;Pass of Vi'or;Kalimdor;Bloodmyst Isle
-2507;54;141;120;land;Blacksilt Hills;Kalimdor;Bloodmyst Isle
-2508;199;141;71;land;Yrin Highlands;Kalimdor;Bloodmyst Isle
-2509;108;141;86;land;Shadowy Headlands;Kalimdor;Bloodmyst Isle
-2510;124;141;104;land;Ammen Pass;Kalimdor;Bloodmyst Isle
-2511;96;141;50;land;Azure Overlook;Kalimdor;Bloodmyst Isle
-2512;185;141;121;land;Nestlewood Ridge;Kalimdor;Bloodmyst Isle
-2513;62;141;144;land;Ameth'she;Kalimdor;Darkshore
-2514;167;141;41;land;Twilight Pass;Kalimdor;Darkshore
-2515;65;141;93;land;Jadefire Heights;Kalimdor;Felwood
-2516;84;141;145;land;Ansh'ral;Kalimdor;Darkshore
-2517;117;141;211;land;Crags of Jathtra;Kalimdor;Darkshore
-2518;51;141;101;land;Shatterspear Peaks;Kalimdor;Darkshore
-2519;155;141;30;land;Secluded Glades;Kalimdor;Moonglade
-2520;51;141;149;land;Moonshone Heights;Kalimdor;Moonglade
-2521;85;227;91;land;Timbermaw Ridge;Kalimdor;Felwood
-2522;187;134;54;land;Irontree Overlook;Kalimdor;Felwood
-2523;97;134;52;land;Shatter Scar Bluff;Kalimdor;Felwood
-2524;190;134;205;land;Twisted Rise;Kalimdor;Darkshore
-2525;210;71;128;land;Blackpaw Pass;Kalimdor;Felwood
-2526;97;71;35;land;Darkwood Heights;Kalimdor;Darkshore
-2527;162;209;64;land;Deeprun Tram;Eastern Kingdoms;Elwynn Forest
-2528;187;71;137;land;Tor of the Ancients;Kalimdor;Felwood
-2529;91;71;194;land;Thistlefur Valley;Kalimdor;Felwood
-2530;91;170;194;land;Jor'los;Kalimdor;Felwood
-2531;45;170;104;land;Iris Outpost;Kalimdor;Felwood
+2505;0;150;0;land;Unnamed;;
+2506;154;141;160;land;Unnamed;;
+2507;54;141;120;land;Unnamed;;
+2508;199;141;71;land;Unnamed;;
+2509;108;141;86;land;Unnamed;;
+2510;124;141;104;land;Unnamed;;
+2511;96;141;50;land;Unnamed;;
+2512;185;141;121;land;Unnamed;;
+2513;62;141;144;land;Unnamed;;
+2514;167;141;41;land;Unnamed;;
+2515;65;141;93;land;Unnamed;;
+2516;84;141;145;land;Unnamed;;
+2517;117;141;211;land;Unnamed;;
+2518;51;141;101;land;Unnamed;;
+2519;155;141;30;land;Unnamed;;
+2520;51;141;149;land;Unnamed;;
+2521;85;227;91;land;Unnamed;;
+2522;187;134;54;land;Unnamed;;
+2523;97;134;52;land;Unnamed;;
+2524;190;134;205;land;Unnamed;;
+2525;210;71;128;land;Unnamed;;
+2526;97;71;35;land;Unnamed;;
+2527;162;209;64;land;Unnamed;;
+2528;187;71;137;land;Unnamed;;
+2529;91;71;194;land;Unnamed;;
+2530;91;170;194;land;Unnamed;;
+2531;45;170;104;land;Unnamed;;
 2532;186;100;105;land;Unnamed;;
 2533;219;170;133;land;Unnamed;;
 2534;187;164;154;land;Unnamed;;
