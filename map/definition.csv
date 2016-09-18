@@ -2502,7 +2502,7 @@ province;red;green;blue;type;name;continent;region
 2501;61;179;57;land;Battered Cliffs;Northrend;Storm Peaks
 2502;216;179;67;land;Windy Cliffs;Northrend;Storm Peaks
 2503;137;179;162;land;Eroded Cliffs;Northrend;Storm Peaks
-2504;161;244;180;land;Shen'dralar Quarters;Kalimdor;Feralas # New provinces for wastelands below
+2504;161;244;180;land;Shen'dralar Quarters;Kalimdor;Feralas # New provinces for wastelands below (remove)
 2505;0;150;0;land;Amberweb Crag;Kalimdor;Bloodmyst Isle
 2506;154;141;160;land;Pass of Vi'or;Kalimdor;Bloodmyst Isle
 2507;54;141;120;land;Blacksilt Hills;Kalimdor;Bloodmyst Isle
@@ -2527,9 +2527,9 @@ province;red;green;blue;type;name;continent;region
 2526;97;71;35;land;Darkwood Heights;Kalimdor;Darkshore
 2527;162;209;64;land;Deeprun Tram;Eastern Kingdoms;Elwynn Forest
 2528;187;71;137;land;Tor of the Ancients;Kalimdor;Felwood
-2529;91;71;194;land;Thistlefur Valley;Thistlefur
-2530;91;170;194;land;Jor'los;Thistlefur
-2531;45;170;140;land;Iris Outpost;Thistlefur
+2529;91;71;194;land;Thistlefur Valley;Kalimdor;Felwood
+2530;91;170;194;land;Jor'los;Kalimdor;Felwood
+2531;45;170;104;land;Iris Outpost;Kalimdor;Felwood
 2532;186;100;105;land;Unnamed;;
 2533;219;170;133;land;Unnamed;;
 2534;187;164;154;land;Unnamed;;
