@@ -7,6 +7,45 @@ random_new_world_region = {
 }
 
 #-------------------
+# Broken Isles
+#-------------------
+region_eye_of_azshara = {
+    areas = {
+        
+    }
+}
+
+region_azsuna = {
+    areas = {
+        
+    }
+}
+
+region_valsharah = {
+    areas = {
+        
+    }
+}
+
+region_highmountain = {
+    areas = {
+        
+    }
+}
+
+region_stormheim = {
+    areas = {
+        
+    }
+}
+
+region_suramar = {
+    areas = {
+        
+    }
+}
+
+#-------------------
 # Eastern Kingdoms
 #-------------------
 region_isle_of_quel_danas = {

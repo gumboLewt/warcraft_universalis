@@ -1,5 +1,14 @@
 # A region can only belong to one super region.
 
+broken_isles_superregion = {
+	region_eye_of_azshara
+    region_azsuna
+    region_valsharah
+    region_highmountain
+    region_stormheim
+    region_suramar
+}
+
 eastern_kingdom_superregion = {
 	region_isle_of_quel_danas
     region_eversong_woods
