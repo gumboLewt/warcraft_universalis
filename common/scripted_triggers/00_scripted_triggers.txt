@@ -108,6 +108,7 @@ is_evil = {
   OR = {
     religion_fel
     religion_hakkari
+    religion_titan_corrupt
     religion_shadow
     religion_old_gods
     religion_the_damned
@@ -118,6 +119,7 @@ is_evil = {
     religion_earth
     religion_air
     religion_water
+    religion_greed
     religion_terokk
   }
 }

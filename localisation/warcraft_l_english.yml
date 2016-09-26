@@ -1640,6 +1640,9 @@
  religion_titan: "Titanic"
  religion_titan_religion_desc: "The Titans are colossal, metallic space-faring beings whose purpose is bringing order to the stars by seeding planets with life. Many of their titan-forged creations still guard their ancient ruins in Azeroth and look up to them as if they were gods."
  
+ religion_titan_corrupt: "Corrupt Titanic"
+ religion_titan_corrupt_religion_desc: "The Titans are colossal, metallic space-faring beings whose purpose is bringing order to the stars by seeding planets with life. Many of their titan-forged creations still guard their ancient ruins in Azeroth and look up to them as if they were gods."
+ 
  religion_sect_of_dragons: "Sect of Dragons"
  religion_sect_of_dragons_religion_desc: "Dragons are majestic winged creatures, given power long ago by the Titans to safeguard Azeroth. They are divided into many Dragonflights, whose leaders are the Aspects. Mainly worshipped by other Dragons and the Dragonspawn, many mortals also venerate these ancient creatures."
  
@@ -1723,6 +1726,9 @@
  
  religion_tech: "Technicism"
  religion_tech_religion_desc: "Races like the Gnomes or the Goblins usually don't place much value in spirituality or the concept of deity. They society and philosophies are instead driven by an urge to invent new and ingenious technological wonders, each greater than the last. "
+ 
+ religion_greed: "Greed"
+ religion_greed_religion_desc: "Wealth is valued everywhere, but some societies value it more than others. For some it is practically a religion, and they are willing to make any deal to secure profit."
  
  religion_voodoo: "Voodoo"
  religion_voodoo_religion_desc: "Voodoo is a dark and powerful form of magic practiced by the shadow hunters, hexxers, and witch doctors. It is a twisted bent on Shamanism, focusing on the same spirits with much darker rituals of sentient sacrifice and cannibalism, rituals which Voodoo practitioners believe appease these spirits."

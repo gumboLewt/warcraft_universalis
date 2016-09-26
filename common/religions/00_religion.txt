@@ -30,10 +30,12 @@
 
 # Technology                - religion_group_technology
 #   Tech                    - religion_tech
+#   Greed                   - religion_greed
 
 # Order                     - religion_group_order
 #   Arcane                  - religion_arcane
 #   Titan                   - religion_titan
+#   Corrupt Titan           - religion_titan_corrupt
 #   Mystery of the Makers   - religion_mystery_of_the_makers
 #   Elune                   - religion_elune
 #   Sect of Dragons         - religion_sect_of_dragons
@@ -666,6 +668,9 @@ religion_group_technology = {
 	religion_tech = {
 		color = { 0.45 0.45 0.45 }
 		icon = 30
+    allowed_conversion = {
+      religion_greed
+    }
 		
 		country = {
 			build_cost = -0.05
@@ -690,6 +695,37 @@ religion_group_technology = {
 
 		heretic = { }
 	}
+
+  religion_greed = {
+		color = { 0.5 0.5 0.5 }
+		icon = 30
+    allowed_conversion = {
+      religion_tech
+    }
+		
+		country = {
+			build_cost = -0.05
+			development_cost = -0.05
+		}
+		country_as_secondary = {
+			build_cost = -0.05
+			development_cost = -0.05
+		}
+		
+		fervor = yes
+		
+		on_convert = {
+			change_religion = religion_greed
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+		heretic = { }
+  }
 }
 
 # Order
@@ -745,6 +781,33 @@ religion_group_order = {
 		
 		on_convert = {
 			change_religion = religion_titan
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}				
+		}
+		
+		heretic = { }
+	}
+	
+	religion_titan_corrupt = {
+		color = { 225 215 09 }
+		icon = 9
+		
+		country = {
+			defensiveness = 0.15
+		}
+		country_as_secondary = {
+			defensiveness = 0.15
+		}
+		province = {
+		
+		}
+		
+		on_convert = {
+			change_religion = religion_titan_corrupt
 			add_prestige = -100
 
 			add_country_modifier = {
