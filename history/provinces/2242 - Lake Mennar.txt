@@ -3,11 +3,20 @@ is_city = no
 base_tax = 1
 base_manpower = 1
 base_production = 1
-owner = G21
-add_core = G21
-controller = G21
-culture = culture_blackmaw
-religion = religion_ancestral
+owner = G39
+add_core = G39
+controller = G39
+culture = culture_haldarr
+religion = religion_fel
+
+618.1.1 = {
+  owner = E05
+  add_core = E05
+  remove_core = G39
+  controller = E05
+  culture = culture_nazja
+  religion = religion_old_gods
+}
 
 hre = no
 trade_goods = grain

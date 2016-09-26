@@ -16,11 +16,19 @@ religion = religion_ancestral
 hre = no
 trade_goods = oil
 
+622.1.1 = {
+  owner = A81
+  controller = A81
+  add_core = A81
+  remove_core = A84
+  culture = culture_venture
+  religion = religion_tech
+}
+
 631.1.1 = {
 owner = A79
 controller = A79
 add_core = A79
 culture = culture_bilgewater
-religion = religion_tech
 capital = "Nozzlepot's Outpost"
 }

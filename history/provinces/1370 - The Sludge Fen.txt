@@ -17,16 +17,13 @@ hre = no
 trade_goods = oil
 
 622.1.1 = {
-owner = A81
-controller = A81
-add_core = A81
-culture = culture_venture
-religion = religion_tech
-base_tax = 4
-base_manpower = 3
-base_production = 4
+  owner = A81
+  controller = A81
+  add_core = A81
+  remove_core = A84
+  culture = culture_venture
+  religion = religion_tech
+  base_tax = 4
+  base_manpower = 3
+  base_production = 4
 }
-
-
-
-

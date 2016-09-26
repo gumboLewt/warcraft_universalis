@@ -42,5 +42,6 @@ religion = religion_voodoo
 owner = A70
 controller = A70
 remove_core = G37
+religion = religion_loa
 }
 

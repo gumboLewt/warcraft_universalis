@@ -4,14 +4,14 @@ mercantilism 		= 0.1
 technology_group 	= tech_satyr
 religion			= religion_fel
 primary_culture 	= culture_haldarr
-capital 			= 1430
+capital 			= 2248
 
-546.1.1 = { 
-	monarch = { 
-		name = "" 
-		dynasty = "Haldarr" 
+546.1.1 = {
+	monarch = {
+		name = "Nekus"
+		dynasty = "Haldarr"
 		adm = 2
 		dip = 2
 		mil = 2
- 	} 
-} 
+ 	}
+}

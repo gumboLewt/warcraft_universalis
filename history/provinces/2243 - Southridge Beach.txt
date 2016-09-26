@@ -5,12 +5,21 @@ base_manpower = 1
 base_production = 1
 
 
-owner = E01
-controller = E01
-add_core = E01
-
-culture = culture_legashi
+owner = G39
+controller = G39
+add_core = G39
+culture = culture_haldarr
 religion = religion_fel
+
+618.1.1 = {
+  owner = E05
+  add_core = E05
+  remove_core = G39
+  controller = E05
+  culture = culture_nazja
+  religion = religion_old_gods
+}
+
 hre = no
 trade_goods = grain
 

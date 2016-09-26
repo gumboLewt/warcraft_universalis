@@ -15,18 +15,19 @@ religion = religion_ancestral
 hre = no
 trade_goods = grain
 
-618.1.1 = { 
+618.1.1 = {
 	owner = F91
 	controller = F91
 	add_core = F91
 	culture = culture_thunderhorn
 }
 
-622.1.1 = { 
+622.1.1 = {
 owner = A81
 controller = A81
 add_core = A81
 add_core = F88
+remove_core = F91
 culture = culture_venture
 religion = religion_tech
 base_tax = 2
@@ -34,7 +35,7 @@ base_manpower = 1
 base_production = 3
 }
 
-631.1.1 = { 
+631.1.1 = {
 owner = A85
 controller = A85
 add_core = A85

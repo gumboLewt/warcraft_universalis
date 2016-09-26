@@ -16,6 +16,11 @@ religion = religion_ancestral
 hre = no
 trade_goods = grain
 
-
-
-
+622.1.1 = {
+  owner = A81
+  controller = A81
+  add_core = A81
+  remove_core = A84
+  culture = culture_venture
+  religion = religion_tech
+}
