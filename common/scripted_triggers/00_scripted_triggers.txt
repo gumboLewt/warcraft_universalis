@@ -31,7 +31,6 @@ is_civilized = {
         technology_group = tech_tuskarr
         technology_group = tech_pandaren
         technology_group = tech_ethereal
-        
     }
 }
 
@@ -68,7 +67,7 @@ is_lesser = {
 is_bug = {
     OR = {
         technology_group = tech_aqir
-        technology_group = tech_mantid  
+        technology_group = tech_mantid
     }
 }
 
@@ -77,7 +76,48 @@ is_otherworld = {
         technology_group = tech_demonic
         technology_group = tech_old_god
         technology_group = tech_dragonkin
-        technology_group = tech_elemental  
+        technology_group = tech_elemental
     }
 }
 
+is_good = {
+  OR = {
+    religion_scarlet_light
+    religion_church_of_the_light
+    religion_argent_light
+    religion_light_of_the_naaru
+    religion_light_of_the_sunwell
+    religion_forgotten_shadow
+    religion_ancestral
+    religion_tech
+    religion_arcane
+    religion_titan
+    religion_mystery_of_the_makers
+    religion_elune
+    religion_sect_of_dragons
+    religion_arkkorok
+    religion_druidic
+    religion_loa
+    religion_celestial
+    religion_zangar
+    religion_primitive
+  }
+}
+
+is_evil = {
+  OR = {
+    religion_fel
+    religion_hakkari
+    religion_shadow
+    religion_old_gods
+    religion_the_damned
+    religion_void
+    religion_voodoo
+    religion_geomancy
+    religion_fire
+    religion_earth
+    religion_air
+    religion_water
+    religion_terokk
+  }
+}
