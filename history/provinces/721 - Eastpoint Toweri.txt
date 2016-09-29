@@ -7,7 +7,7 @@ owner = A63
 controller = A63
 
 culture = culture_firetree
-religion = religion_loa
+religion = religion_voodoo
 
 base_tax = 1
 base_manpower = 2
@@ -44,7 +44,7 @@ trade_goods = army_supplies
 	add_core = A26
 	remove_core = E52
 	culture = culture_alterac
-	religion = religion_church_of_the_light
+	religion = religion_shadow
 }
 
 # Cataclysm

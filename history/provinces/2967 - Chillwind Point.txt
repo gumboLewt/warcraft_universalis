@@ -10,7 +10,7 @@ controller = A63
 add_core = A63
 
 culture = culture_firetree
-religion = religion_loa
+religion = religion_voodoo
 
 hre = no
 trade_goods = grain
@@ -21,7 +21,7 @@ owner = B14
 controller = B14
 add_core = B14
 culture = culture_mudsnout
-religion = religion_ancestral
+religion = religion_geomancy
 }
 
 # The Frozen Throne

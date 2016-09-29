@@ -6,7 +6,7 @@ owner = F10
 controller = F10
 
 culture = culture_woodpaw
-religion = religion_ancestral
+religion = religion_geomancy
 
 base_tax = 2
 base_manpower = 2

@@ -11,7 +11,7 @@ base_manpower = 3
 base_production = 3
 
 culture = culture_amani
-religion = religion_loa
+religion = religion_voodoo
 
 hre = no
 trade_goods = army_supplies
@@ -32,7 +32,7 @@ religion = religion_arcane
 owner = A58
 controller = A58
 culture = culture_amani
-religion = religion_loa
+religion = religion_voodoo
 remove_core = A90
 }
 

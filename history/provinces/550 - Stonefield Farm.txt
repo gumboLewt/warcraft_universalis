@@ -37,7 +37,7 @@ owner = B15
 controller = B15
 add_core = B15
 remove_core = A41
-religion = religion_ancestral
+religion = religion_geomancy
 culture = culture_riverpaw }
 
 
@@ -55,6 +55,7 @@ religion = religion_church_of_the_light
 owner = A07
 controller = A07 
 add_core = A07 
+religion = religion_shadow
 }
 
 # The Burning Crusade
@@ -62,4 +63,5 @@ add_core = A07
 owner = A01
 controller = A01
 remove_core = A07 
+religion = religion_church_of_the_light 
 }

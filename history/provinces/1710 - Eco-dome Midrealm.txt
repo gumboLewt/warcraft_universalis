@@ -19,6 +19,8 @@ trade_goods = fur
 owner = E18
 controller = E18
 add_core =  E18
+culture = culture_kareshi
+religion = religion_arcane
 }
 
 

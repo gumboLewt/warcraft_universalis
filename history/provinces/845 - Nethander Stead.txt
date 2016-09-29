@@ -32,7 +32,7 @@ trade_goods = grain
 	controller = B14
 	add_core = B14
 	culture = culture_mudsnout
-	religion = religion_ancestral
+	religion = religion_geomancy
 	remove_core = A08
 }
 

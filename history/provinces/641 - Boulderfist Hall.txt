@@ -12,7 +12,7 @@ base_production = 4
 capital = "Smolderthorn Hold"
 
 culture = culture_smolderthorn
-religion = religion_loa
+religion = religion_voodoo
  
 hre = no 
 trade_goods = iron

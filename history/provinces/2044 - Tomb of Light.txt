@@ -21,6 +21,6 @@ trade_goods = crypts
 	controller = E21
 	add_core =  E21
 	culture = culture_kareshi
-	religion = religion_arcane
+	religion = religion_void
 }
 

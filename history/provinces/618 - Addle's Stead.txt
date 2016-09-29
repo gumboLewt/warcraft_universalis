@@ -52,6 +52,7 @@ controller = A03
 owner = A07
 controller = A07
 add_core = A07 
+religion = religion_shadow 
 }
 
 # Cataclysm
@@ -61,6 +62,5 @@ controller = F12
 add_core = F12
 remove_core = A07
 culture = culture_ghost
-religion = religion_shadow 
 }
 

@@ -4,7 +4,6 @@ government_rank 	= 1
 mercantilism 		= 0.1
 technology_group 	= tech_troll
 religion			= religion_druidic
-secondary_religion = religion_voodoo
 primary_culture 	= culture_shadowtooth
 capital 			= 1342
 

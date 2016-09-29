@@ -27,4 +27,5 @@ controller = A33
 add_core = A33
 add_core = F24
 culture = culture_leper_gnome
+religion = religion_greed
 }

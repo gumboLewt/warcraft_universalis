@@ -60,7 +60,7 @@ trade_goods = fur
 	add_core = E14
 	remove_core = E52
 	culture = culture_alterac
-	religion = religion_church_of_the_light
+	religion = religion_shadow
 	capital = "Syndicate Overlook" 
 }
 

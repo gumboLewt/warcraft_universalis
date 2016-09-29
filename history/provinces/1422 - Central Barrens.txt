@@ -31,11 +31,12 @@ remove_core = A89
 	native_size = 10
 	native_ferocity = 10
 	native_hostileness = 10 
-        culture = culture_kolkar
+  culture = culture_kolkar
+  religion = religion_geomancy
 }
 
 622.1.1 = {
-owner = H04
+owner =  H04
 controller = H04
 add_core = H04
 }

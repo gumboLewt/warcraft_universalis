@@ -2,7 +2,7 @@
 government 			= warband_gov
 mercantilism 		= 0.1 
 technology_group 	= tech_mogu
-religion			= religion_titan
+religion			= religion_titan_corrupt
 primary_culture 	= culture_dojani
 capital 			= 1
 

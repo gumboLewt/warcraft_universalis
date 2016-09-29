@@ -10,7 +10,7 @@ controller = B20
 add_core = B20
 
 culture = culture_galak
-religion = religion_ancestral
+religion = religion_air
 
 hre = no
 trade_goods = fur
@@ -22,6 +22,7 @@ trade_goods = fur
 	add_core = B18
   remove_core = B20
 	culture = culture_palemane
+  religion = religion_geomancy
 }
 
 631.1.1 = {
@@ -30,7 +31,6 @@ controller = B68
 add_core = B68
 remove_core = H04
 culture = culture_bristleback
-religion = religion_geomancy
 base_tax = 3
 base_manpower = 4
 base_production = 3

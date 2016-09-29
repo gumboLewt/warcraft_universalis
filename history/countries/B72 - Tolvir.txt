@@ -17,3 +17,7 @@ capital 			= 1563
         death_date = 1000.1.1
 	} 
 }
+
+631.1.1 = {
+  religion = religion_air
+}

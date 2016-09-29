@@ -10,7 +10,7 @@ base_production = 4
 
 
 culture = culture_shadowhide
-religion = religion_ancestral
+religion = religion_geomancy
 
 hre = no
 trade_goods = army_supplies

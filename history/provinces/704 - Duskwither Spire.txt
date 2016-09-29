@@ -6,7 +6,7 @@ add_core = A90
 owner = A58
 controller = A58
 culture = culture_amani
-religion = religion_loa
+religion = religion_voodoo
 
 base_tax = 4
 base_manpower = 3
@@ -39,5 +39,5 @@ owner = B94
 controller = B94
 add_core = B94
 culture = culture_wretched
-religion = religion_arcane
+religion = religion_shadow
 }

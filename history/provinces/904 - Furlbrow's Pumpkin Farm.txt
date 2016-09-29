@@ -53,6 +53,7 @@ controller = A02
 owner = A07
 controller = A07 
 add_core = A07 
+religion = religion_shadow
 }
 
 # The Burning Crusade

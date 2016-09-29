@@ -6,7 +6,7 @@ add_core = A90
 owner = A58
 controller = A58
 culture = culture_amani
-religion = religion_loa
+religion = religion_voodoo
 
 base_tax = 2
 base_manpower = 2
@@ -30,7 +30,7 @@ trade_goods = fur
 	owner = A58
 	controller = A58
 	culture = culture_amani
-	religion = religion_loa
+	religion = religion_voodoo
         remove_core = A90
 }
 

@@ -21,4 +21,5 @@ trade_goods = fish
 	controller = F86
 	add_core = F86
 	culture = culture_lost_one
+  religion = religion_geomancy
 }

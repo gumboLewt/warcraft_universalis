@@ -29,6 +29,7 @@ trade_goods = gold
 	owner = F40
 	controller = F40
 	add_core = F40
+  religion = religion_shadow
 	remove_core = H08
 	
 	base_tax = 3

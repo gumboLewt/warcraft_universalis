@@ -2,7 +2,7 @@
 government 			= mercantile_tribe
 mercantilism 		= 0.1
 technology_group 	= tech_gnome
-religion			= religion_tech
+religion			= religion_greed
 primary_culture 	= culture_leper_gnome
 capital 			= 3036
 

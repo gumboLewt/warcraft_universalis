@@ -15,10 +15,7 @@ hre = no
 trade_goods = artifacts
 
 631.1.1 = {
-owner = B72
-controller = B72
-add_core = B72
-culture = culture_neferset
+religion = religion_air
 base_tax = 6
 base_manpower = 6
 base_production = 6

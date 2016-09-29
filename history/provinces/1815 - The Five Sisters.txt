@@ -9,7 +9,7 @@ owner = E42
 controller = E42
 add_core = E42
 culture = culture_shao_tien
-religion = religion_titan
+religion = religion_titan_corrupt
 
 hre = yes
 trade_goods = stone

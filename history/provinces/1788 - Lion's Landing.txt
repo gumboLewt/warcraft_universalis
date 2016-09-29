@@ -6,7 +6,7 @@ base_manpower = 4
 base_production = 4
 
 culture = culture_dojani
-religion = religion_titan
+religion = religion_titan_corrupt
 owner = E81
 controller = E81
 add_core = E81

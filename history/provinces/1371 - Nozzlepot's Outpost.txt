@@ -22,7 +22,7 @@ trade_goods = oil
   add_core = A81
   remove_core = A84
   culture = culture_venture
-  religion = religion_tech
+  religion = religion_greed
 }
 
 631.1.1 = {
@@ -31,4 +31,5 @@ controller = A79
 add_core = A79
 culture = culture_bilgewater
 capital = "Nozzlepot's Outpost"
+religion = religion_tech
 }

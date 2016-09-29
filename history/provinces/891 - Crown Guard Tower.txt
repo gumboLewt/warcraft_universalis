@@ -8,7 +8,7 @@ owner = E55
 controller = E55
 
 culture = culture_shadowglen
-religion = religion_loa
+religion = religion_voodoo
 
 base_tax = 2
 base_manpower = 2

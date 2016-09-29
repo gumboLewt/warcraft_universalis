@@ -22,5 +22,5 @@ trade_goods = grain
   add_core = A81
   remove_core = A84
   culture = culture_venture
-  religion = religion_tech
+  religion = religion_greed
 }

@@ -11,7 +11,7 @@ base_production = 1
 
 
 culture = culture_bloodscalp
-religion = religion_loa
+religion = religion_voodoo
 
 
 hre = no

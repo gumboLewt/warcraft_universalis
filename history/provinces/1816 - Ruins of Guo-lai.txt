@@ -10,7 +10,7 @@ base_manpower = 3
 base_production = 3
 
 culture = culture_shao_tien
-religion = religion_titan
+religion = religion_titan_corrupt
 
 hre = yes
 trade_goods = artifacts

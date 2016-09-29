@@ -10,7 +10,7 @@ owner = A75
 controller = A75
 
 culture = culture_frostmane
-religion = religion_loa
+religion = religion_voodoo
 
 hre = no
 trade_goods = artifacts

@@ -8,7 +8,7 @@ base_tax = 8
 base_manpower = 8
 base_production = 8
 
-religion = religion_church_of_the_light
+religion = religion_shadow
     culture = culture_kul_tiran
 
 hre = no

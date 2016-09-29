@@ -53,6 +53,7 @@ controller = A02
 owner = A07
 controller = A07 
 add_core = A07 
+religion = religion_shadow
 }
 
 # The Burning Crusade
@@ -70,4 +71,5 @@ controller = XXX
 631.1.1 = { 
 owner = A07
 controller = A07
+religion = religion_church_of_the_light
 }

@@ -33,5 +33,5 @@ controller = B94
 add_core = B94
 remove_core = F54
 culture = culture_wretched
-religion = religion_arcane
+religion = religion_shadow
 }

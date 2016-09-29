@@ -8,7 +8,7 @@ controller = A75
 add_core A32
 
 culture = culture_frostmane
-religion = religion_loa
+religion = religion_voodoo
 
 base_tax = 2
 base_manpower = 3
@@ -29,4 +29,5 @@ owner = A33
 controller = A33
 add_core = A33
 culture = culture_leper_gnome
+religion = religion_greed
 }

@@ -19,4 +19,6 @@ trade_goods = warbeasts
 owner = E18
 controller = E18
 add_core =  E18
+religion = religion_arcane
+culture = culture_kareshi
 }

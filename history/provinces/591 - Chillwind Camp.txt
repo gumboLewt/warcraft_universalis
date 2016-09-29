@@ -9,7 +9,7 @@ owner = A63
 controller = A63
 
 culture = culture_firetree
-religion = religion_loa
+religion = religion_voodoo
 
 base_tax = 2
 base_manpower = 2
@@ -39,7 +39,7 @@ trade_goods = army_supplies
 	controller = B14
 	add_core = B14
 	culture = culture_mudsnout
-	religion = religion_ancestral
+	religion = religion_geomancy
 }
 
 # The Frozen Throne

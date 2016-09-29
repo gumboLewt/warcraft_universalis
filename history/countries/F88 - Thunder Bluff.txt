@@ -26,6 +26,13 @@ capital 			= 1373
 		dip = 4
 		mil = 2
  	}
+  heir = {
+    name = "Baine"
+		dynasty = "Bloodhoof"
+		adm = 3
+		dip = 3
+		mil = 3
+  }
 }
 
 622.1.1 = {

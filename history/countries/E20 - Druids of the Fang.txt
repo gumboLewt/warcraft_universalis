@@ -2,7 +2,7 @@
 government 			= cult_gov
 mercantilism 		= 0.1
 technology_group 	= tech_darnassian
-religion			= religion_druidic
+religion			= religion_old_gods
 primary_culture 	= culture_cenarion
 capital 			= 1
 

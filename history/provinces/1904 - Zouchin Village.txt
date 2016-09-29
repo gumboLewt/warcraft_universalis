@@ -20,7 +20,7 @@ trade_goods = fish
     owner = A78
     controller = A78
     add_core = A78
-    religion = religion_loa
+    religion = religion_voodoo
     culture = culture_zandalari
 }
 

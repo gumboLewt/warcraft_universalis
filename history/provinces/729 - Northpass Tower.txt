@@ -7,7 +7,7 @@ add_core = A08
 owner = A62
 controller = A62
 
-religion = religion_loa
+religion = religion_voodoo
 culture = culture_mossflayer 
 
 base_tax = 1
@@ -42,7 +42,7 @@ trade_goods = army_supplies
 	remove_core = E52
 	owner = A62
 	controller = A62
-	religion = religion_loa
+	religion = religion_voodoo
 	culture = culture_mossflayer
 	remove_core = A08 
 	remove_core = A10

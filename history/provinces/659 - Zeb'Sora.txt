@@ -12,7 +12,7 @@ base_production = 3
 
  
 culture = culture_shadowpine
-religion = religion_loa
+religion = religion_voodoo
  
 hre = no 
 trade_goods = fur

@@ -10,7 +10,7 @@ base_production = 1
 
 
 culture = culture_winterfang
-religion = religion_loa
+religion = religion_voodoo
 
 hre = no
 trade_goods = fur

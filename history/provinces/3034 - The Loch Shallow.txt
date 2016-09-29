@@ -10,7 +10,7 @@ controller = A76
 add_core = A76
 
 culture = culture_winterax
-religion = religion_loa
+religion = religion_voodoo
 
 hre = no
 trade_goods = fish

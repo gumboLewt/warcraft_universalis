@@ -21,6 +21,6 @@ trade_goods = artifacts
     add_core = A76
     remove_core = B46
     culture = culture_winterax
-    religion = religion_loa 
+    religion = religion_voodoo
 }
 

@@ -8,7 +8,7 @@ owner = B12
 controller = B12
 
 culture = culture_blackpaw
-religion = religion_ancestral
+religion = religion_geomancy
 
 base_tax = 1
 base_manpower = 2

@@ -29,6 +29,7 @@ controller = A33
 add_core = A33
 add_core = F24
 culture = culture_leper_gnome
+religion = religion_greed
 }
 
 # Cataclysm
@@ -36,4 +37,5 @@ culture = culture_leper_gnome
 owner = A32
 controller = A32
 culture = culture_gnome
+religion = religion_tech
 }

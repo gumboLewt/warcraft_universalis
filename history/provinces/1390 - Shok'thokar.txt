@@ -10,7 +10,7 @@ controller = B22
 add_core = B22
 
 culture = culture_magram
-religion = religion_ancestral
+religion = religion_geomancy
 
 hre = no
 trade_goods = army_supplies

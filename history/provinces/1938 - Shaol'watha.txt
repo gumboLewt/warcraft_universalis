@@ -10,7 +10,7 @@ base_manpower = 3
 base_production = 3
  
 culture = culture_revantusk
-religion = religion_loa
+religion = religion_voodoo
  
 hre = no 
 trade_goods = lumber
@@ -32,6 +32,7 @@ culture = culture_vilebranch
 owner = A61 
 controller = A61 
 culture = culture_revantusk 
+religion = religion_loa
 }
 
 

@@ -16,7 +16,7 @@ trade_goods = gemstones
 
 626.1.1 = { 
     culture = culture_venture
-    religion = religion_tech
+    religion = religion_greed
     owner = A81
     controller = A81
     add_core = A81 

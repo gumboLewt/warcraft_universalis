@@ -21,6 +21,6 @@ trade_goods = fossils
 owner = E92
 controller = E92
 add_core = E92
-religion = religion_titan
+religion = religion_titan_corrupt
 culture = culture_shan_ze
 }

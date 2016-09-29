@@ -11,10 +11,10 @@ base_production = 3
 
 
 culture = culture_bilgewater
-religion = religion_tech
+religion = religion_greed
 hre = no
 trade_goods = grain
 
-
-
-
+605.1.1 = {
+religion = religion_tech
+}

@@ -10,7 +10,7 @@ controller = B21
 add_core = B21
 
 culture = culture_gelkis
-religion = religion_ancestral
+religion = religion_earth
 
 hre = no
 trade_goods = fur
@@ -19,6 +19,7 @@ trade_goods = fur
 	owner = B69
 	controller = B69
 	add_core = B69
+  religion = religion_geomancy
 capital = "Razormane Outpost"
 }
 

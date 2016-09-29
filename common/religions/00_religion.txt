@@ -12,8 +12,8 @@
 #   Light of the Naaru      - religion_light_of_the_naaru
 #   Light of the Sunwell    - religion_light_of_the_sunwell
 
-# Void
-#   Shadow                  - religion_group_the_void
+# Void                      - religion_group_the_void
+#   Shadow                  - religion_shadow
 #   Old Gods                - religion_old_gods
 #   The Damned              - religion_the_damned
 #   Void                    - religion_void
@@ -418,6 +418,10 @@ religion_group_the_void = {
 		color = { 0.25 0.15 0.25 }
 		icon = 6
 		
+    allowed_conversion = {
+      religion_loa
+    }
+
 		country = {
 			global_unrest = -1
 			land_maintenance_modifier = -0.05
@@ -962,6 +966,10 @@ religion_group_nature = {
 		color = { 101 177 109 }
 		icon = 21
 		
+    allowed_conversion = {
+      religion_voodoo
+    }
+
 		country = {
 			land_maintenance_modifier = -0.05
 		}

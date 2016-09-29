@@ -19,6 +19,8 @@ trade_goods = apexis
 owner = F80
 controller = F80
 add_core = F80
+culture = culture_kareshi
+religion = religion_void
 }
 
 

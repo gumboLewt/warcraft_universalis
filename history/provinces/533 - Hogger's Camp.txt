@@ -4,7 +4,7 @@ is_city = yes
 owner = B15
 controller = B15
 add_core = B15
-religion = religion_ancestral
+religion = religion_geomancy
 culture = culture_riverpaw
 
 base_tax = 3
@@ -30,6 +30,6 @@ trade_goods = army_supplies
 	controller = B15
 	add_core = B15
 	remove_core = A41
-	religion = religion_ancestral
+	religion = religion_geomancy
 	culture = culture_riverpaw
 }

@@ -26,6 +26,7 @@ trade_goods = fish
 	owner = A26
 	controller = A26
 	add_core = A26
+  religion = religion_shadow
 	add_core = H08
 }
 
