@@ -20,4 +20,6 @@ trade_goods = mounts
 	owner = F88
 	controller = F88
 	add_core = F88
+  culture = culture_thunderhorn
+  religion = religion_ancestral
 }

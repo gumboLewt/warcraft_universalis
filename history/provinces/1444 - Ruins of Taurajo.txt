@@ -22,6 +22,7 @@ controller = F88
 add_core = F88
 remove_core = F85
 culture = culture_bloodhoof
+religion = religion_ancestral
 base_tax = 3
 base_manpower = 3
 base_production = 3
