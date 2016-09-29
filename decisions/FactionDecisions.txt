@@ -723,7 +723,7 @@ horde_opinion = {
 		     any_country = {
 			    has_country_modifier = horde_member
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier = horde_horde
                     who = ROOT
                     }
@@ -732,7 +732,7 @@ horde_opinion = {
 			any_country = {
 			    has_country_modifier = alliance_member
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier =  horde_alliance
                     who = ROOT
                     }
@@ -741,7 +741,7 @@ horde_opinion = {
 			any_country = {
 			    has_country_modifier = neutral_member
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier =  horde_neutral
                     who = ROOT
                     }
@@ -752,7 +752,7 @@ horde_opinion = {
 				NOT = { has_country_modifier = horde_member }
 				NOT = { has_country_modifier = alliance_member }
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier =  horde_creep
                     who = ROOT
                     }
@@ -768,37 +768,37 @@ horde_opinion = {
 			limit = {
 				has_country_modifier = horde_member
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = horde_horde
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = horde_horde }
+		add_opinion = { who = ROOT modifier = horde_horde }
 		}
 		every_country = {
 			limit = {
 				has_country_modifier = alliance_member
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = horde_alliance
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = horde_alliance }
+		add_opinion = { who = ROOT modifier = horde_alliance }
 		}
 		every_country = {
 			limit = {
 				has_country_modifier = neutral_member
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = horde_neutral
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = horde_neutral }
+		add_opinion = { who = ROOT modifier = horde_neutral }
 		}
 		every_country = {
 			limit = {
@@ -806,13 +806,13 @@ horde_opinion = {
 				NOT = { has_country_modifier = horde_member }
 				NOT = { has_country_modifier = alliance_member }
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = horde_creep
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = horde_creep }
+		add_opinion = { who = ROOT modifier = horde_creep }
 		}
 	}		
 	ai_will_do = {
@@ -828,7 +828,7 @@ alliance_opinion = {
 		     any_country = {
 			    has_country_modifier = horde_member
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier = alliance_horde
                     who = ROOT
                     }
@@ -837,7 +837,7 @@ alliance_opinion = {
 			any_country = {
 			    has_country_modifier = alliance_member
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier =  alliance_alliance
                     who = ROOT
                     }
@@ -846,7 +846,7 @@ alliance_opinion = {
 			any_country = {
 			    has_country_modifier = neutral_member
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier =  alliance_neutral
                     who = ROOT
                     }
@@ -857,7 +857,7 @@ alliance_opinion = {
 				NOT = { has_country_modifier = horde_member }
 				NOT = { has_country_modifier = alliance_member }
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier =  alliance_creep
                     who = ROOT
                     }
@@ -873,37 +873,37 @@ alliance_opinion = {
 			limit = {
 				has_country_modifier = horde_member
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = alliance_horde
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = alliance_horde }
+		add_opinion = { who = ROOT modifier = alliance_horde }
 		}
 		every_country = {
 			limit = {
 				has_country_modifier = alliance_member
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = alliance_alliance
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = alliance_alliance }
+		add_opinion = { who = ROOT modifier = alliance_alliance }
 		}
 		every_country = {
 			limit = {
 				has_country_modifier = neutral_member
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = alliance_neutral
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = alliance_neutral }
+		add_opinion = { who = ROOT modifier = alliance_neutral }
 		}
 		every_country = {
 			limit = {
@@ -911,13 +911,13 @@ alliance_opinion = {
 				NOT = { has_country_modifier = horde_member }
 				NOT = { has_country_modifier = alliance_member }
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = alliance_creep
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = alliance_creep }
+		add_opinion = { who = ROOT modifier = alliance_creep }
 		}
 	}		
 	ai_will_do = {
@@ -933,7 +933,7 @@ neutral_opinion = {
 		     any_country = {
 			    has_country_modifier = horde_member
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier = neutral_horde
                     who = ROOT
                     }
@@ -942,7 +942,7 @@ neutral_opinion = {
 			any_country = {
 			    has_country_modifier = alliance_member
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier =  neutral_alliance
                     who = ROOT
                     }
@@ -951,7 +951,7 @@ neutral_opinion = {
 			any_country = {
 			    has_country_modifier = neutral_member
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier =  neutral_neutral
                     who = ROOT
                     }
@@ -962,7 +962,7 @@ neutral_opinion = {
 				NOT = { has_country_modifier = horde_member }
 				NOT = { has_country_modifier = alliance_member }
 			    NOT = { 
-			        reverse_has_opinion_modifier = {
+			        has_opinion_modifier = {
                     modifier =  neutral_creep
                     who = ROOT
                     }
@@ -978,37 +978,37 @@ neutral_opinion = {
 			limit = {
 				has_country_modifier = horde_member
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = neutral_horde
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = neutral_horde }
+		add_opinion = { who = ROOT modifier = neutral_horde }
 		}
 		every_country = {
 			limit = {
 				has_country_modifier = alliance_member
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = neutral_alliance
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = neutral_alliance }
+		add_opinion = { who = ROOT modifier = neutral_alliance }
 		}
 		every_country = {
 			limit = {
 				has_country_modifier = neutral_member
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = neutral_neutral
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = neutral_neutral }
+		add_opinion = { who = ROOT modifier = neutral_neutral }
 		}
 		every_country = {
 			limit = {
@@ -1016,13 +1016,13 @@ neutral_opinion = {
 				NOT = { has_country_modifier = horde_member }
 				NOT = { has_country_modifier = alliance_member }
 				NOT = { 
-			      reverse_has_opinion_modifier = {
+			      has_opinion_modifier = {
                   modifier = neutral_creep
                   who = ROOT
                   }
 			    }
 			}
-		reverse_add_opinion = { who = ROOT modifier = neutral_creep }
+		add_opinion = { who = ROOT modifier = neutral_creep }
 		}
 	}		
 	ai_will_do = {
