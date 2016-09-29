@@ -82,44 +82,44 @@ is_otherworld = {
 
 is_good = {
   OR = {
-    religion_scarlet_light
-    religion_church_of_the_light
-    religion_argent_light
-    religion_light_of_the_naaru
-    religion_light_of_the_sunwell
-    religion_forgotten_shadow
-    religion_ancestral
-    religion_tech
-    religion_arcane
-    religion_titan
-    religion_mystery_of_the_makers
-    religion_elune
-    religion_sect_of_dragons
-    religion_arkkorok
-    religion_druidic
-    religion_loa
-    religion_celestial
-    religion_zangar
-    religion_primitive
+    religion = religion_scarlet_light
+    religion = religion_church_of_the_light
+    religion = religion_argent_light
+    religion = religion_light_of_the_naaru
+    religion = religion_light_of_the_sunwell
+    religion = religion_forgotten_shadow
+    religion = religion_ancestral
+    religion = religion_tech
+    religion = religion_arcane
+    religion = religion_titan
+    religion = religion_mystery_of_the_makers
+    religion = religion_elune
+    religion = religion_sect_of_dragons
+    religion = religion_arkkorok
+    religion = religion_druidic
+    religion = religion_loa
+    religion = religion_celestial
+    religion = religion_zangar
+    religion = religion_primitive
   }
 }
 
 is_evil = {
   OR = {
-    religion_fel
-    religion_hakkari
-    religion_titan_corrupt
-    religion_shadow
-    religion_old_gods
-    religion_the_damned
-    religion_void
-    religion_voodoo
-    religion_geomancy
-    religion_fire
-    religion_earth
-    religion_air
-    religion_water
-    religion_greed
-    religion_terokk
+    religion = religion_fel
+    religion = religion_hakkari
+    religion = religion_titan_corrupt
+    religion = religion_shadow
+    religion = religion_old_gods
+    religion = religion_the_damned
+    religion = religion_void
+    religion = religion_voodoo
+    religion = religion_geomancy
+    religion = religion_fire
+    religion = religion_earth
+    religion = religion_air
+    religion = religion_water
+    religion = religion_greed
+    religion = religion_terokk
   }
 }
