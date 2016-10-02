@@ -14,14 +14,22 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = artifacts
 
-
-
+592.1.1 = {
+add_core = B88
+owner = B88
+controller = B88
+remove_core = A55
+culture = culture_horde
+religion = religion_fel
+}
 
 #Outland
 601.1.1 = {
 owner = B89
 controller = B89
 add_core =  B89
+remove_core = B88
+culture = culture_fel_orc
 }
 
 # The Frozen Throne

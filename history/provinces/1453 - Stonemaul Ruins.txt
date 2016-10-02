@@ -28,6 +28,10 @@ base_production = 3
 capital = "Stonemaul Village"
 }
 
+618.1.1 = {
+  religion = religion_ancestral
+}
+
 # Rise of the Qiraji
 622.1.1 = { 
     owner = A99

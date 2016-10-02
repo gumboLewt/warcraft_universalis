@@ -15,6 +15,14 @@ religion = religion_terokk
 hre = no
 trade_goods = crypts
 
+592.1.1 = {
+owner = A39
+add_core = A39
+controller = A39
+religion = religion_fel
+culture = culture_bonechewer
+}
+
 #Outland
 601.1.1 = {
 	owner = F49

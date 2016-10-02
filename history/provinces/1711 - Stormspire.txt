@@ -14,6 +14,10 @@ religion = religion_ancestral
 hre = no
 trade_goods = grain
 
+592.1.1 = {
+religion = religion_fel
+}
+
 #Outland
 601.1.1 = {
 owner = E18

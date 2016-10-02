@@ -19,6 +19,8 @@ trade_goods = flying_mounts
 owner = F79
 controller = F79
 add_core = F79
+culture = culture_sethekk
+religion = religion_terokk
 }
 
 

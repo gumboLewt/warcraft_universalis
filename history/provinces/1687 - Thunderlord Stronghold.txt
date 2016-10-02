@@ -14,11 +14,8 @@ religion = religion_ancestral
 hre = no
 trade_goods = artifacts
 
-#Outland
-601.1.1 = {
-owner = A37
-controller = A37
-add_core = A37
+592.1.1 = {
+religion = religion_fel
 }
 
 622.1.1 = {

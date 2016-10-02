@@ -15,12 +15,16 @@ religion = religion_ancestral
 hre = no
 trade_goods = workshops
 
+592.1.1 = {
+religion = religion_fel
+}
+
 #Outland
 601.1.1 = {
 	owner = B89
 	controller = B89
 	add_core =  B89
-	religion = religion_fel
+  remove_core = A34
 }
 
 # Rise of the Qiraji

@@ -14,8 +14,18 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = fish
 
+592.1.1 = {
+add_core = A34
+owner = A34
+controller = A34
+remove_core = A55
+culture = culture_shadowmoon
+religion = religion_fel
+}
 
-
+617.1.1 = {
+religion = religion_ancestral
+}
 
 # The Frozen Throne
 618.1.1 = {

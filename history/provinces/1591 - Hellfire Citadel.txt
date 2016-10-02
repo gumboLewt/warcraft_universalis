@@ -15,12 +15,7 @@ base_production = 7
 hre = no
 trade_goods = army_supplies
 
-#Outland
-601.1.1 = {
-	owner = A36
-	controller = A36
-	add_core = A36
-	
+592.1.1 = {
 	religion = religion_fel
 }
 

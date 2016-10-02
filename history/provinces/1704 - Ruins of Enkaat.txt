@@ -14,5 +14,7 @@ religion = religion_ancestral
 hre = no
 trade_goods = artifacts
 
-
+592.1.1 = {
+religion = religion_fel
+}
 

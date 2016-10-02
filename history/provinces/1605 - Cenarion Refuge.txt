@@ -20,6 +20,9 @@ trade_goods = glowcap
 owner = F51
 controller = F51
 add_core =  F51
+remove_core = A56
+religion = religion_zangar
+culture = culture_fungal_giant
 }
 
 625.1.1 = {

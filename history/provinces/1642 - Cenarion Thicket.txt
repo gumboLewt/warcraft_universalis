@@ -14,11 +14,16 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = fur
 
-
-
+592.1.1 = {
+remove_core = A54
+add_core = B88
+owner = B88
+controller = B88
+religion = religion_shadow
+culture = culture_horde
+}
 
 # The Burning Crusade
 625.1.1 = {
 trade_goods = moonwell
 }
-

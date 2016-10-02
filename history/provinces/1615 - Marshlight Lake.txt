@@ -19,6 +19,8 @@ trade_goods = fel
 owner = B89
 controller = B89
 add_core = B89
+culture = culture_fel_orc
+religion = religion_fel
 }
 
 618.1.1 = { 

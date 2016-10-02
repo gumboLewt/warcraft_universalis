@@ -19,4 +19,6 @@ trade_goods = warbeasts
 owner = F72
 controller = F72
 add_core = F72
+culture = culture_mag_har
+religion = religion_ancestral
 }

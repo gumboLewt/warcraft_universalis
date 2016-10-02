@@ -13,11 +13,21 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = adamantium
 
+592.1.1 = {
+add_core = A43
+controller = A43
+owner = A43
+remove_core = A54
+culture = culture_twilights_hammer
+religion = religion_fel
+}
+
 #Outland
 601.1.1 = {
 owner = F80
 controller = F80
 add_core = F80
+remove_core = A43
 culture = culture_kareshi
 religion = religion_void
 }

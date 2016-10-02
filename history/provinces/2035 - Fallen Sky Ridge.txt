@@ -15,11 +15,21 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = gemstones
 
+592.1.1 = {
+remove_core = A56
+add_core = A36
+owner = A36
+controller = A36
+culture = culture_shattered_hand
+religion = religion_fel
+}
+
 # Rise of the Qiraji
 622.1.1 = { 
 	owner = F70 # Attacked by Blood Elves (Magic meteor)
 	controller = F70
 	add_core = F70
+  remove_core = A36
 	culture = culture_mountain_giant
 	religion = religion_earth
 }

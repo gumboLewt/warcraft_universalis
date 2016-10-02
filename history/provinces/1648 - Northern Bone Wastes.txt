@@ -14,11 +14,11 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = netherweave
 
-# The Burning Crusade
-625.1.1 = {
-	owner = A54
-	controller = A54
-	add_core =  A54
-	religion = religion_void 
+592.1.1 = {
+owner = B88
+controller = B88
+add_core = B88
+remove_core = F49
+religion = religion_fel
+culture = culture_horde
 }
-

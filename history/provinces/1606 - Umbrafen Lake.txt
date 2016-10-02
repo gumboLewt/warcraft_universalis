@@ -19,6 +19,9 @@ trade_goods = glowcap
 owner = F71
 controller = F71
 add_core =  F71
+remove_core = F84
+culture = culture_sporeling
+religion = religion_zangar
 }
 
 
