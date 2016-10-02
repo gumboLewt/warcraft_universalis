@@ -3,16 +3,20 @@ government 			= warband_gov
 mercantilism 		= 0.1
 technology_group 	= tech_orc
 primary_culture	 	= culture_shattered_hand
-religion			= religion_fel
+religion			= religion_ancestral
 capital 			= 1
 
-617.1.1 = { 
-	monarch = { 
-		name = "Kargath" 
-		dynasty = "Bladefist" 
+592.1.1 = {
+religion = religion_fel
+}
+
+617.1.1 = {
+	monarch = {
+		name = "Kargath"
+		dynasty = "Bladefist"
 		adm = 3
 		dip = 3
 		mil = 4
-	} 
+	}
 	primary_culture = culture_fel_orc
 }
