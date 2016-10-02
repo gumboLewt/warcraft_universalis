@@ -434,6 +434,8 @@ religion_group_the_void = {
 		province = {
 			local_missionary_strength = -0.01
 		}
+
+    personal_deity = yes
 		
 		on_convert = {
 			change_religion = religion_voodoo
