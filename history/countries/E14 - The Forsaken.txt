@@ -42,3 +42,10 @@ capital 			= 931
 		duration = -1
 	}
 }
+
+635.1.1 = {
+  add_country_modifier = {
+    name = horde_head
+    duration = -1
+  }
+}

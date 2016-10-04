@@ -23,9 +23,9 @@ capital 			= 1373
 		name = "Cairne"
 		dynasty = "Bloodhoof"
     birth_date = 518.1.1
-		adm = 3
+		adm = 4
 		dip = 4
-		mil = 2
+		mil = 3
  	}
 }
 
@@ -38,25 +38,26 @@ capital 			= 1373
     death_date = 700.1.1
     claim = 95
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 2
   }
 }
 
 622.1.1 = {
 	capital = 1473
-add_country_modifier = {
-    name = horde_member
-    duration = -1
-}
+  add_country_modifier = {
+      name = horde_member
+      duration = -1
+  }
 }
 
 631.1.1 = {
 	monarch = {
 		name = "Baine"
 		dynasty = "Bloodhoof"
+    birth_date = 600.1.1
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 2
  	}
 }
