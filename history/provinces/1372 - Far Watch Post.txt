@@ -30,5 +30,5 @@ trade_goods = fur
 	add_core = A48 
 	culture = culture_horde
 	religion = religion_ancestral
-        trade_goods = grain
+  trade_goods = grain
 }
