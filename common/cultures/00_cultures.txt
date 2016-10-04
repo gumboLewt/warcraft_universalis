@@ -3889,7 +3889,7 @@ culture_group_tauren = {
     "Vuncoi" "Atith" "Vunmul" "Hemvon" "Mulvon" "Athin" "Vunmel" "Atuth" "Nemull" "Vongam" "Permol" "Beinug" "Inpor" "Nenug" "Vinmull" "Bucei" "Dezhum"
     "Negam" "Uulne" "Buibo" "Caicai" "Molhem" "Cuicoi" "Atetha" "Beuth" "Coiper" "Vonetha" "Gamith" "Buihem" "Uulbo" "Bipor" "Conag" "Ethdez" "Ceimool"
     "Caicai" "Mugco" "Coiba" "Bopor" "Rnevon" "Coivin" "Cuiatha" "Venmug" "Rneetha" "Nagham" "Magvun" "Nagmull" "Ethaba" "Vincoi" "Othmul" "Athabu" "Ceibe"
-    "Ithrne" "Poruul" "Ethauth" "Athabui" "Ethacui" "Moolcoi"
+    "Ithrne" "Poruul" "Ethauth" "Athabui" "Ethacui" "Moolcoi" "Brakkas" "Duruk"
   }
 	female_names = {
     "Uthamug" "Venba" "Othavin" "Cuimull" "Bovon" "Ceiuth" "Atper" "Uthabo" "Othabai" "Vinco" "Hemuul" "Dezcai" "Buba" "Melham" "Mullcei"
