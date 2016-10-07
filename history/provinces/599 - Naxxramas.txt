@@ -29,6 +29,7 @@ capital = "Naxxramas"
 add_core = E11
 controller = E11
 owner = E11
+remove_core = E72
 culture = culture_scourge
 religion = religion_the_damned }
 

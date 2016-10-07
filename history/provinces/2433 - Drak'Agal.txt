@@ -15,6 +15,10 @@ religion = religion_voodoo
 hre = no
 trade_goods = grain
 
-
-
-
+626.1.1 = {
+add_core = F19
+controller = F19
+owner = F19
+culture = culture_lordaeron
+religion = religion_argent_light
+}

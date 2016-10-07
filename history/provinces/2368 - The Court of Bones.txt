@@ -4,13 +4,21 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
+owner = E74
+controller = E74
+add_core = E74
 
-culture = noculture
-religion = noreligion
+culture = culture_nerubian
+religion = religion_arcane
 
 hre = no
 trade_goods = grain
 
-
-
-
+615.1.1 = {
+  add_core = E11
+  owner = E11
+  controller = E11
+  remove_core = E74
+  culture = culture_scourge
+  religion = religion_the_damned
+}

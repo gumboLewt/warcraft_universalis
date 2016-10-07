@@ -5,12 +5,11 @@ base_manpower = 1
 base_production = 1
 
 
-culture = noculture
-religion = noreligion
+owner = B60
+controller = B60
+add_core = B60
+culture = culture_gammoth
+religion = religion_geomancy
 
 hre = no
 trade_goods = grain
-
-
-
-

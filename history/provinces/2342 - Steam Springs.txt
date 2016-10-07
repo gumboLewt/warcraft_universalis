@@ -4,15 +4,11 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-owner = B61
-controller = B61
-add_core = B61
-culture = culture_magmoth
-religion = religion_geomancy
+owner = E73
+controller = E73
+add_core = E73
+culture = culture_icemist
+religion = religion_ancestral
 
 hre = no
 trade_goods = grain
-
-
-
-

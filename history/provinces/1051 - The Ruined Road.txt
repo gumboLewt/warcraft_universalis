@@ -15,8 +15,17 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = artifacts
 
+617.1.1 = {
+  owner = E11
+  controller = E11
+  add_core = E11
+  remove_core = E72
+  culture = culture_scourge
+  religion = religion_the_damned
+}
+
 626.1.1 = {
-add_core = H06
+  add_core = H06
 }
 
 

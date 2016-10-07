@@ -15,26 +15,6 @@ religion = religion_primitive
 hre = no
 trade_goods = fur
 
-615.1.1 = {
-culture = culture_icemist
-religion = religion_ancestral
-owner = xxx
-controller = xxx
-base_manpower = 1
-trade_goods = crypts
-remove_core = B48
-}
-
-626.11.11 = {
-culture = culture_icemist
-religion = religion_ancestral
-owner = xxx
-controller = xxx
-base_manpower = 1
-}
-
-
-
 
 626.1.1 = {
 	owner = A18
