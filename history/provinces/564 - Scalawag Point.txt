@@ -20,12 +20,6 @@ trade_goods = fish
 controller = xxx
 }
 
-624.11.11 = { owner = xxx
-controller = xxx
-culture = culture_nerglish
-religion = religion_water
-}
-
 # The Burning Crusade
 625.1.1 = { 
 owner = A20
