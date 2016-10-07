@@ -4,9 +4,9 @@ owner = B52
 controller = B52
 add_core = B52
 
-base_tax = 4
-base_manpower = 4
-base_production = 4
+base_tax = 2
+base_manpower = 2
+base_production = 2
 
 culture = culture_mistwhisper
 religion = religion_titan
