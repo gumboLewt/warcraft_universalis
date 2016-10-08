@@ -15,3 +15,10 @@ religion = religion_voodoo
 
 hre = no
 trade_goods = fur
+
+631.1.1 = {
+add_core = E11
+controller = E11
+owner = E11
+culture = culture_undead_troll
+religion = religion_the_damned }
