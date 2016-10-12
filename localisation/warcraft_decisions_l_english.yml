@@ -84,10 +84,16 @@
  engineering_surge_desc: "Goblins are a naturally inventive race, and so will attempt to satisfy their curiousity as much as possible. However, goblins have serious issues with discipline, and as such need corralling towards productive pursuits, lest they spend all their time inventing explosive cake mix."
  
  #-----------------------------------------------
- # Conquest
+ # Warbands
  #-----------------------------------------------
  setup_conquest_choices_title: "Setup Conquest Choices"
  setup_conquest_choices_desc: "Set which conquest choice to automatically take, or resume manual control."
+ 
+ reform_warband_title: "Reform Warband"
+ reform_warband_desc: "It is time our people found peace; by shifting power from the military to tribal leaders we can finally take our society off of its war footing."
+ 
+ create_warband_title: "Create Warband"
+ create_warband_desc: "This weakling's peace can no longer be suffered; we must empower our generals and march our people into total war."
  
  #-----------------------------------------------
  # Religion

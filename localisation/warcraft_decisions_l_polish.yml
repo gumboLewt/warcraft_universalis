@@ -87,3 +87,14 @@
  conjure_diplomatic_title: "Conjure: Diplomatic"
  conjure_diplomatic_desc: "We choose a diplomatic way of problem-solving. It is truly glorious, but better be sure if you still can contain your arcane might in check"
  
+ #-----------------------------------------------
+ # Warbands
+ #-----------------------------------------------
+ setup_conquest_choices_title: "Setup Conquest Choices"
+ setup_conquest_choices_desc: "Set which conquest choice to automatically take, or resume manual control."
+ 
+ reform_warband_title: "Reform Warband"
+ reform_warband_desc: "It is time our people found peace; by shifting power from the military to tribal leaders we can finally take our society off of its war footing."
+ 
+ create_warband_title: "Create Warband"
+ create_warband_desc: "This weakling's peace can no longer be suffered; we must empower our generals and march our people into total war."
