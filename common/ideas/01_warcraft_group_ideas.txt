@@ -1189,44 +1189,6 @@ naga_ideas = {
 	}
 }
 
-scourge_ideas = {
-	start = {
-		culture_conversion_cost = -0.2
-	}
-
-	bonus = {
-		global_manpower_modifier = 0.25
-	}
-	
-	trigger = {
-		primary_culture = culture_scourge
-		#culture_group = culture_group_scourge   #umm...not culture_group_undead ?
-	}
-	free = yes		
-	
-	scourge_ideas_1 = {
-		diplomats = 1
-	}
-	scourge_ideas_2 = {
-		war_exhaustion_cost = -0.20
-	}
-	scourge_ideas_3 = {
-		land_morale = 0.10
-	}
-	scourge_ideas_4 = {
-		caravan_power = 0.25
-	}
-	scourge_ideas_5 = {
-		prestige_decay = -0.01
-	}
-	scourge_ideas_6 = {
-		free_leader_pool = 1
-	}
-	scourge_ideas_7 = {
-		trade_range_modifier = 0.25
-	}
-}
-
 # Suggested by Ace
 dragonkin_ideas = {
 	start = {
