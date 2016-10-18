@@ -375,7 +375,7 @@ darnassian_ideas = {
 	}
     # Might of Darnassus
 	darnassian_ideas_5 = {
-        discipline = 0.075
+        discipline = 0.05
 	}
     # Venerable Commanders
 	darnassian_ideas_6 = {
@@ -1232,7 +1232,7 @@ dragonkin_ideas = {
     
     # Fangs and Fire
 	dragonkin_ideas_6 = {
-        discipline = 0.1
+        discipline = 0.05
 	}
     
     # Flight of the Dragons
