@@ -3,6 +3,7 @@ country_decisions = {
         major = yes
         potential = {
             technology_group = tech_dragonkin
+            num_of_provinces_in_states = 5
         }
         allow = {
             technology_group = tech_dragonkin
