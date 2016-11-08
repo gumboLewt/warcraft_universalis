@@ -17,9 +17,6 @@ country_event = {
 
   option = {
     name = merchants_estate_disasters.1.a
-    define_ruler = {
-      claim = 40
-    }
   }
 }
 
