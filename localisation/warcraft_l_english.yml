@@ -318,6 +318,20 @@
  primitive_rebels_demand: "Convert to Primitive"
  primitive_rebels_demand_desc: "They demand we worship their primitive religion"
  
+ greed_rebels_title: "Greed Adherents"
+ greed_rebels_name: "Greed Adherents"
+ greed_rebels_desc: "They demand we follow the Greed belief"
+ greed_rebels_army: "Greed Adherents"
+ greed_rebels_demand: "Convert to Greed"
+ greed_rebels_demand_desc: "They demand we follow the Greed belief"
+ 
+ titan_corrupt_rebels_title: "Corrupt Titanic Adherents"
+ titan_corrupt_rebels_name: "Corrupt Titanic Adherents"
+ titan_corrupt_rebels_desc: "They demand we adhere to corrupt worship of the Titans"
+ titan_corrupt_rebels_army: "Corrupt Titanic Adherents"
+ titan_corrupt_rebels_demand: "Convert to Corrupt Titanic"
+ titan_corrupt_rebels_demand_desc: "They demand we adhere to corrupt worship of the Titans"
+ 
  #-----------------------------------------------
  # Colonial Nations
  #-----------------------------------------------
