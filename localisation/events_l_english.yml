@@ -642,27 +642,3 @@
  faction_changes.14.t: "A New Leader for the Horde"
  faction_changes.14.d: "With the Warchief's passing, a new leader has ascended to lead the Horde."
  faction_changes.14.a: "Long live the Warchief!"
- 
- example.1.title: "Test"
- example.1.desc: "test"
- example.1.option.a: "[special_country.GetName]"
- 
- example.2.title: "Test"
- example.2.desc: "test"
- example.2.option.a: "[special_province.GetName]"
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
