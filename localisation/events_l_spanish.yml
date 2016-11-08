@@ -4,3 +4,62 @@
  WARCRAFT_TIRISFAL.1.desc: "Magna Aegwynn of the Tirisfal Council says, that She can help us prepare Our great kingdom for the coming war. Can we trust her, my king?"
  WARCRAFT_TIRISFAL.1.option.a: "I think it is a good idea!"
  WARCRAFT_TIRISFAL.1.option.b: "I don't trust mages! Let the world know that we can do it ourselves..."
+ 
+ #-----------------------------------------------
+ # Faction Changes
+ #-----------------------------------------------
+ faction_changes.1.t: "Alliance Relations"
+ faction_changes.1.d: "[Root.getName], member state of the Alliance. All across Azeroth we benefit from its reputation, and in some circles its infamy."
+ faction_changes.1.a: "For the Alliance!"
+ 
+ faction_changes.2.t: "Horde Relations"
+ faction_changes.2.d: "[Root.getName], member state of the Horde. All across Azeroth we benefit from its reputation, and in some circles its infamy."
+ faction_changes.2.a: "For the Horde!"
+ 
+ faction_changes.3.t: "Neutral Relations"
+ faction_changes.3.d: "[Root.getName], friend of both the Alliance and the Horde. It is a difficult diplomatic position to maintain but a very beneficial one."
+ faction_changes.3.a: "For Azeroth!"
+ 
+ faction_changes.4.t: "An End to Alliance Relations"
+ faction_changes.4.d: "[Root.getName], member state of the Alliance no longer and all of Azeroth knows it."
+ faction_changes.4.a: "The Alliance, bah!"
+ 
+ faction_changes.5.t: "An End to Horde Relations"
+ faction_changes.5.d: "[Root.getName], member state of the Horde no longer and all of Azeroth knows it."
+ faction_changes.5.a: "The Horde, bah!"
+ 
+ faction_changes.6.t: "An End to Neutral Relations"
+ faction_changes.6.d: "[Root.getName] can no longer claim warm relations with both the  Alliance and the Horde."
+ faction_changes.6.a: "What a relief!"
+ 
+ faction_changes.7.t: "Kicked out of the Alliance"
+ faction_changes.7.d: "It would appear we have offended the delicate sensibilities of our fellow members of the Alliance. After our recent change of moral alignment we have been kicked out."
+ faction_changes.7.a: "Those fools are doomed anyway."
+ 
+ faction_changes.8.t: "Forced out of the Alliance"
+ faction_changes.8.d: "We no longer have control of our foreign relations, and as such can no longer claim to be true members of the Alliance."
+ faction_changes.8.a: "A shame things had to end this way."
+ 
+ faction_changes.9.t: "Kicked out of the Horde"
+ faction_changes.9.d: "It would appear we have offended the delicate sensibilities of our fellow members of the Horde. After our recent change of moral alignment we have been kicked out."
+ faction_changes.9.a: "Those fools are doomed anyway."
+ 
+ faction_changes.10.t: "Forced out of the Horde"
+ faction_changes.10.d: "We no longer have control of our foreign relations, and as such can no longer claim to be true members of the Horde."
+ faction_changes.10.a: "A shame things had to end this way."
+ 
+ faction_changes.11.t: "Turning from Neutrality"
+ faction_changes.11.d: "Our recent change of moral alignment has outraged both the Alliance and the Horde. At the very least, we are no longer guaranteed neutrality in their affairs."
+ faction_changes.11.a: "Those fools are doomed anyway."
+ 
+ faction_changes.12.t: "Forced from Neutrality"
+ faction_changes.12.d: "We no longer have control of our foreign relations, and as such can not claim to pursue a neutral foreign policy."
+ faction_changes.12.a: "An unfortunate development."
+ 
+ faction_changes.13.t: "A New Leader for the Alliance"
+ faction_changes.13.d: "With the head of the Alliance's passing, a new leader has ascended to guide the people of the Alliance forward."
+ faction_changes.13.a: "May the Alliance Flourish!"
+ 
+ faction_changes.14.t: "A New Leader for the Horde"
+ faction_changes.14.d: "With the Warchief's passing, a new leader has ascended to lead the Horde."
+ faction_changes.14.a: "Long live the Warchief!"
