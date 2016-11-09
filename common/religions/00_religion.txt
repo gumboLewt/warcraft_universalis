@@ -756,7 +756,6 @@ religion_group_order = {
 		}
 
 		uses_karma = yes
-		can_have_secondary_religion = yes
 		
 		on_convert = {
 			change_religion = religion_arcane
