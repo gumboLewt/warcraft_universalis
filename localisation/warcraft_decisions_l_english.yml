@@ -219,6 +219,18 @@
  theramore_nation_desc: "Build a great human-elven-dwarven country on eastern shores of Kalimdor"
  
  #-----------------------------------------------
+ # Orgrimmar
+ #-----------------------------------------------
+ found_orgrimmar_title: "Found Orgrimmar"
+ theramore_nation_desc: "Build a proud orcish country on the eastern coast of Kalimdor"
+ 
+ #-----------------------------------------------
+ # Thunder Bluff
+ #-----------------------------------------------
+ theramore_nation_title: "Found Thunder Bluff"
+ theramore_nation_desc: "Build a noble tauren country in the center of Kalimdor"
+ 
+ #-----------------------------------------------
  # Dragonflights
  #-----------------------------------------------
  unleash_the_power_of_the_dragonflight_title: "Unleash the Power of the Dragonflight"

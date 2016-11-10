@@ -15,6 +15,7 @@ country_decisions = {
       NOT = { has_country_modifier = alliance_member }
       NOT = { has_country_modifier = neutral_member }
       NOT = { has_country_modifier = alliance_enemy }
+      is_good = yes
     }
     allow = {
       NOT = { has_country_modifier = horde_member }
@@ -45,6 +46,7 @@ country_decisions = {
       NOT = { has_country_modifier = alliance_member }
       NOT = { has_country_modifier = neutral_member }
       NOT = { has_country_modifier = horde_enemy }
+      is_good = yes
     }
     allow = {
       NOT = { has_country_modifier = horde_member }
@@ -76,6 +78,7 @@ country_decisions = {
         NOT = { has_country_modifier = neutral_member }
         NOT = { has_country_modifier = horde_enemy }
         NOT = { has_country_modifier = alliance_enemy }
+        is_good = yes
       }
     allow = {
       OR = {

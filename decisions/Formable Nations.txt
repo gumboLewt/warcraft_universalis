@@ -1,5 +1,5 @@
 country_decisions = {
-    theramore_nation = {
+  theramore_nation = {
 		major = yes
 		potential = {
 			NOT = { exists = A23 } # Theramore
@@ -37,9 +37,117 @@ country_decisions = {
 			factor = 1
 		}
 	}
-}
 
-Frostmane_empire = {
+  found_orgrimmar = {
+    major = yes
+    potential = {
+      NOT = { exists = A48 }
+      culture_group = culture_group_orc
+      is_colonial_nation = no
+      capital_scope = { continent = continent_kalimdor }
+      is_good = yes
+    }
+    allow = {
+      owns_core_province = 1377
+      is_subject = no
+      is_at_war = no
+      NOT = { exists = A48 }
+    }
+    effect = {
+      change_tag = A48
+      1377 = {
+        if = {
+          limit = { NOT = { government_rank = 3 } }
+          set_government_rank = 3
+        }
+        if = {
+          limit = { NOT = { base_tax = 8 } }
+          base_tax = 8
+        }
+        if = {
+          limit = { NOT = { base_manpower = 8 } }
+          base_manpower = 8
+        }
+        if = {
+          limit = { NOT = { base_production = 8 } }
+          base_production = 8
+        }
+        if = {
+          limit = { NOT = { culture = culture_horde } }
+          culture = culture_horde
+        }
+        if = {
+          limit = { NOT = { religion = religion_ancestral } }
+          religion = religion_ancestral
+        }
+      }
+      add_country_modifier = {
+        name = "centralization_modifier"
+        duration = 7300
+      }
+      add_prestige = 25
+      change_primary_culture = culture_horde
+      ai_will_do = {
+        factor = 1
+      }
+    }
+  }
+
+  found_thunder_bluff = {
+    major = yes
+    potential = {
+      NOT = { exists = F88 }
+      culture_group = culture_group_tauren
+      is_colonial_nation = no
+      capital_scope = { continent = continent_kalimdor }
+      is_good = yes
+    }
+    allow = {
+      owns_core_province = 1473
+      is_subject = no
+      is_at_war = no
+      NOT = { exists = F88 }
+    }
+    effect = {
+      change_tag = F88
+      1473 = {
+        if = {
+          limit = { NOT = { government_rank = 3 } }
+          set_government_rank = 3
+        }
+        if = {
+          limit = { NOT = { base_tax = 6 } }
+          base_tax = 6
+        }
+        if = {
+          limit = { NOT = { base_manpower = 6 } }
+          base_manpower = 6
+        }
+        if = {
+          limit = { NOT = { base_production = 6 } }
+          base_production = 6
+        }
+        if = {
+          limit = { NOT = { culture = ROOT } }
+          culture = ROOT
+        }
+        if = {
+          limit = { NOT = { religion = religion_ancestral } }
+          religion = religion_ancestral
+        }
+      }
+      add_country_modifier = {
+        name = "centralization_modifier"
+        duration = 7300
+      }
+      add_prestige = 25
+      ai_will_do = {
+        factor = 1
+      }
+    }
+  }
+
+  Frostmane_empire = {
 		major = yes
 		potential = {
 			NOT = { exists = H1 } # Frostmane Empire
