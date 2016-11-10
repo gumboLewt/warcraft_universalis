@@ -16,9 +16,9 @@ hre = no
 trade_goods = grain
 
 618.1.1 = { 
-	owner = A89
-	controller = A89
-	add_core = A89
+	owner = F88
+	controller = F88
+	add_core = F88
 	culture = culture_winterhoof
 	religion = religion_ancestral
 }
@@ -27,7 +27,6 @@ trade_goods = grain
 owner = A81
 controller = A81
 add_core = A81
-add_core = F88
 culture = culture_venture
 religion = religion_greed
 base_tax = 2

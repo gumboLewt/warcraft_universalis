@@ -17,9 +17,10 @@ trade_goods = grain
 
 
 618.1.1 = { 
-owner = A84
-controller = A84
-add_core = A84
+owner = F88
+controller = F88
+add_core = F88
+remove_core = G05
 culture = culture_bloodhoof
 religion = religion_ancestral
 base_tax = 4
@@ -28,10 +29,6 @@ base_production = 4
 }
 
 622.1.1 = {
-owner = F88
-controller = F88
-add_core = F88
-remove_core = A84
 base_tax = 6
 base_manpower = 6
 base_production = 6

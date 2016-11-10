@@ -15,17 +15,18 @@ hre = no
 trade_goods = grain
 
 618.1.1 = { 
-	owner = E23
-	controller = E23
-	add_core = E23
+	owner = F88
+	controller = F88
+	add_core = F88
+  remove_core = G05
 	culture = culture_wildmane
+  religion = religion_ancestral
 }
 
 622.1.1 = { 
 owner = A81
 controller = A81
 add_core = A81
-add_core = F88
 culture = culture_venture
 religion = religion_greed
 base_tax = 2

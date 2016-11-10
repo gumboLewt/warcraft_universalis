@@ -16,11 +16,21 @@ religion = religion_ancestral
 hre = no
 trade_goods = oil
 
+598.1.1 = {
+  owner = B21
+  controller = B21
+  add_core = B21
+  remove_core = A84
+
+  culture = culture_gelkis
+  religion = religion_earth
+}
+
 622.1.1 = {
   owner = A81
   controller = A81
   add_core = A81
-  remove_core = A84
+  remove_core = B21
   culture = culture_venture
   religion = religion_greed
 }

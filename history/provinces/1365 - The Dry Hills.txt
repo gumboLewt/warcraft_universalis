@@ -10,9 +10,15 @@ owner = B24
 controller = B24
 add_core = B24
 
-
 culture = culture_kolkar
 religion = religion_geomancy
+
+617.1.1 = {
+add_core = H04
+owner = H04
+controller = H04
+remove_core = B24
+}
 
 hre = no
 trade_goods = fossils

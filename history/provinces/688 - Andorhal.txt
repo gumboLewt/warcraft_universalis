@@ -34,15 +34,15 @@ trade_goods = grain_silo
 
 # War of Lordaeron (TFT)
 620.9.1 = { 
+  owner = E52
 	controller = E52
+  add_core = E52
+  religion = religion_the_damned
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-	add_core = E52
 	remove_core = F15
-	owner = E52
-	religion = religion_the_damned
 }
 
 # Cataclysm

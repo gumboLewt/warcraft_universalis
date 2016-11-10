@@ -16,9 +16,9 @@ trade_goods = fur
 
 
 618.1.1 = { 
-owner = A84
-controller = A84
-add_core = A84
+owner = F88
+controller = F88
+add_core = F88
 culture = culture_bloodhoof
 religion = religion_ancestal
 }

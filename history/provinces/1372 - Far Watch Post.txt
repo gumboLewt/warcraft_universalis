@@ -17,11 +17,14 @@ hre = no
 trade_goods = fur
 
 
-# The Frozen Throne
-618.1.1 = { 
+617.1.1 = {
 	owner = B69
 	controller = B69
 	add_core = B69
+  remove_core = A84
+
+  culture = culture_razormane
+  religion = religion_geomancy
 }
 
 622.1.1 = { 

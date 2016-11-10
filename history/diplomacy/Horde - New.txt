@@ -15,11 +15,27 @@ alliance = {
 	end_date = 650.5.1
 }
 
+# Orgrimmar - Bloodhoof
+alliance = {
+  first = A48
+  second = A84
+  start_date = 617.1.1
+  end_date = 618.1.1
+}
+
+#Darkspear - Bloodhoof
+alliance = {
+  first = A70
+  second = A84
+  start_date = 617.1.1
+  end_date = 618.1.1
+}
+
 # Orgirmmar - Thunder Bluff
 alliance = {
   first = A48
   second = F88
-  start_date = 622.1.1
+  start_date = 618.1.1
   end_date = 650.5.1
 }
 
@@ -27,7 +43,7 @@ alliance = {
 alliance = {
   first = A70
   second = F88
-  start_date = 622.1.1
+  start_date = 618.1.1
   end_date = 650.5.1
 }
 

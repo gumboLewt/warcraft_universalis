@@ -16,17 +16,11 @@ hre = no
 trade_goods = fur
 
 
-618.1.1 = { 
-	owner = A84
-	controller = A84
-	add_core = A84
-        add_core = A88
-	culture = culture_dawnstrider
-	religion = religion_ancestral
-}
-
-622.1.1 = { 
+618.1.1 = {
 	owner = F88
 	controller = F88
 	add_core = F88
+  remove_core = B20
+	culture = culture_dawnstrider
+	religion = religion_ancestral
 }
