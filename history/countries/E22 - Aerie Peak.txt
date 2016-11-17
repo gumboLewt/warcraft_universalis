@@ -1,7 +1,7 @@
 # Hinterlands Wildhammer Branch
 government 			= administrative_kingdom
 government_rank = 1
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_dwarven
 religion			= religion_ancestral
 primary_culture 	= culture_wildhammer

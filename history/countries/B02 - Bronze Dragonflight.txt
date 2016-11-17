@@ -1,6 +1,6 @@
 # Bronze Dragonflight
 government 			= dragonflight_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_dragonkin
 religion			= religion_sect_of_dragons
 primary_culture 	= culture_bronze

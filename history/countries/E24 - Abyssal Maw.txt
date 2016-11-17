@@ -1,6 +1,6 @@
 # Abyssal Maw
 government 			= militaristic_kingdom
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_elemental
 religion			= religion_water
 primary_culture 	= culture_water

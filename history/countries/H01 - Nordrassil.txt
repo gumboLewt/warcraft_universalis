@@ -1,6 +1,6 @@
 # Nordrassil/Sentinels
 government 				= administrative_theocracy
-mercantilism 			= 0.1
+mercantilism 			= 10
 technology_group 		= tech_darnassian
 religion				= religion_elune
 primary_culture 		= culture_sentinel

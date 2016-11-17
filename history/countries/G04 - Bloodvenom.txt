@@ -1,6 +1,6 @@
 # Bloodvenom 
 government 			= cult_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_elemental
 religion			= religion_fel
 primary_culture 	= culture_ooze

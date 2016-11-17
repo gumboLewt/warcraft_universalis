@@ -1,6 +1,6 @@
 # Wrekt
 government 			= war_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_draenei
 religion			= religion_shadow
 primary_culture 	= culture_broken

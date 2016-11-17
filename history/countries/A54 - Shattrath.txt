@@ -1,5 +1,5 @@
 # Shattrath
-mercantilism 		= 0.1
+mercantilism 		= 10
 government 			= administrative_theocracy
 technology_group 	= tech_draenei
 religion			= religion_light_of_the_naaru

@@ -1,6 +1,6 @@
 # Atal'ai
 government 			= militaristic_order
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_troll
 religion			= religion_hakkari
 primary_culture 	= culture_atal_ai

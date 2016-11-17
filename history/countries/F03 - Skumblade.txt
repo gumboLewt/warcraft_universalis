@@ -1,6 +1,6 @@
 # Skumblade Saurok
 government 			= warband_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_primitive
 religion			= religion_voodoo
 primary_culture 	= culture_riverblade

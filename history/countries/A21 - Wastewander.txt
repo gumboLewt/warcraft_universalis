@@ -1,6 +1,6 @@
 # Wastewander
 government 			= criminal_organisation
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_human 
 religion			= religion_void
 primary_culture 	= culture_kul_tiran
