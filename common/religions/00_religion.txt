@@ -1026,10 +1026,10 @@ religion_group_nature = {
 		icon = 24
 		
 		country = {
-			accepted_culture_threshold = -0.1
+			num_accepted_cultures = 1
 		}
 		country_as_secondary = {
-			accepted_culture_threshold = -0.1
+			num_accepted_cultures = 1
 		}
 
 		personal_deity = yes

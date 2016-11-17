@@ -589,7 +589,7 @@ cocoa = {
 silk = {
 	color = { 0.72 0.10 0.10 }
 	modifier = {
-		accepted_culture_threshold = -0.1
+		num_accepted_cultures = 1
 	}
 	chance = {
 		factor = 10

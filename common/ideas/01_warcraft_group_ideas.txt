@@ -37,7 +37,7 @@ azerothian_ideas = {
 		idea_cost = -0.1
 	}
 	azerothian_ideas_6 = {
-		accepted_culture_threshold = -0.25
+		num_accepted_cultures = 1
 		tolerance_heathen = 1
 	}
 	azerothian_ideas_7 = {
@@ -1329,7 +1329,7 @@ undead_ideas = {
     # All's Fair in Death and War
 	undead_ideas_7 = {
         culture_conversion_cost = -0.5
-        accepted_culture_threshold = 0.5
+        num_accepted_cultures = -2
 	}
 }
 

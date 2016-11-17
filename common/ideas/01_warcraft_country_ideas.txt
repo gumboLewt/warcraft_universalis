@@ -127,7 +127,7 @@ thunderbluff_ideas = {
     
     # Coexistance
 	thunderbluff_ideas_2 = {
-		accepted_culture_threshold = -0.25
+		num_accepted_cultures = 1
 	}
     
     # Braves & Hunters

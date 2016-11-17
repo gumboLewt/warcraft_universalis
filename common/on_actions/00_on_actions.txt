@@ -186,6 +186,36 @@ on_new_monarch = {
     limit = { has_country_modifier = horde_head }
     events = { faction_changes.14 }
   }
+  if = {
+    limit = {
+      has_consort_regency = no
+      any_owned_province = {
+        has_province_modifier = domain_of_spouses_family
+      }
+    }
+    random_owned_province = {
+      limit = { has_province_modifier = domain_of_spouses_family }
+      remove_province_modifier = domain_of_spouses_family
+    }
+  }
+}
+
+on_new_consort = {
+  if = {
+    country_event = { id = consort_events.2 }
+  }
+  if = {
+    limit = { has_ruler_flag = had_10_years_anniversary }
+    clr_ruler_flag = had_10_years_anniversary
+  }
+  if = {
+    limit = { has_ruler_flag = had_20_years_anniversary }
+    clr_ruler_flag = had_20_years_anniversary
+  }
+  if = {
+    limit = { has_ruler_flag = consort_had_affection_of_ruler }
+    clr_ruler_flag = consort_had_affection_of_ruler
+  }
 }
 
 # country 
@@ -211,6 +241,120 @@ on_death_election = {
 on_diplomatic_annex = {
   events = {
     610
+  }
+}
+
+#country
+on_heir_death = {
+  if = {
+    limit = { has_country_flag = heir_dip_education }
+    clr_ruler_flag = heir_dip_education
+  }
+  if = {
+    limit = { has_country_flag = heir_mil_education }
+    clr_ruler_flag = heir_mil_education
+  }
+  if = {
+    limit = { has_country_flag = heir_adm_education }
+    clr_ruler_flag = heir_adm_education
+  }
+  if = {
+    limit = { has_ruler_flag = well_advised_tutored_heir }
+    clr_ruler_flag = well_advised_tutored_heir
+  }
+  if = {
+    limit = { has_ruler_flag = heir_went_on_grand_tour }
+    clr_ruler_flag = heir_went_on_grand_tour
+  }
+}
+
+# country
+on_queen_death = {
+  if = {
+    limit = { has_consort_flag = 10_years_anniversary }
+    set_ruler_flag = had_10_years_anniversary
+  }
+  if = {
+    limit = { has_consort_flag = 20_years_anniversary }
+    set_ruler_flag = had_20_years_anniversary
+  }
+  if = {
+    limit = { has_consort_flag = consort_has_affection_of_ruler }
+    set_ruler_flag = consort_had_affection_of_ruler
+  }
+  if = {
+    limit = {
+      has_regency = no
+      NOT = { has_ruler_flag = widow_widower }
+    }
+    set_ruler_flag = widow_widower
+  }
+  if = {
+    limit = { has_consort_regency = no }
+    random_owned_province = {
+      limit = { has_province_modifier = domain_of_spouses_family }
+      remove_province_modifier = domain_of_spouses_family
+    }
+  }
+  if = {
+    limit = { has_ruler_flag = accepted_help_from_spouses_family }
+    clr_ruler_flag = accepted_help_from_spouses_family
+  }
+  if = {
+    limit = { has_ruler_flag = helped_spouses_family }
+    clr_ruler_flag = helped_spouses_family
+  }
+  if = {
+    limit = { has_ruler_flag = refused_to_help_spouses_family }
+    clr_ruler_flag = refused_to_help_spouses_family
+  }
+  if = {
+    limit = { has_ruler_flag = lowborn_consort }
+    random_owned_province = {
+      limit = { has_province_modifier = home_of_consort }
+      remove_province_modifier = home_of_consort
+    }
+  }
+  if = {
+    limit = { has_ruler_flag = lowborn_consort }
+    clr_ruler_flag = lowborn_consort
+  }
+  if = {
+      limit = { has_country_modifier = consort_adm_advice }
+      remove_country_modifier = consort_adm_advice
+  }
+  if = {
+    limit = { has_country_modifier = consort_dip_advice }
+    remove_country_modifier = consort_dip_advice
+  }
+  if = {
+    limit = { has_country_modifier = consort_mil_advice }
+    remove_country_modifier = consort_mil_advice
+  }
+  if = {
+    limit = { has_country_modifier = without_spouse_advice }
+    remove_country_modifier = without_spouse_advice
+  }
+  if = {
+    limit = { has_ruler_modifier = affectionate_royal_couple }
+    remove_country_modifier = affectionate_royal_couple
+  }
+  clr_ruler_flag = marriage_length
+}
+
+# When a non-native changes government type
+on_government_change = {
+  if = {
+    limit = {
+      NOT = { government = monarchy }
+      any_owned_province = {
+        has_province_modifier = domain_of_spouses_family
+      }
+    }
+    random_owned_province = {
+      limit = { has_province_modifier = domain_of_spouses_family }
+      remove_province_modifier = domain_of_spouses_family
+    }
   }
 }
 
@@ -307,12 +451,6 @@ on_annexed = {
 
 }
 
-# Nation westernized
-# root = country
-on_westernized = {
-
-}
-
 on_dismantle_revolution = {
   kill_ruler = yes
     set_revolution_target = xxx
@@ -348,10 +486,6 @@ on_overextension_pulse = {
   }
 }
 
-on_westernisation_pulse = {
-
-}
-
 on_colonial_pulse = {
 
 }
@@ -362,6 +496,58 @@ on_bi_yearly_pulse = {
     100 = wow_outland.1
     100 = wow_outland.2
     100 = wow_outland.3
+
+    #Personality Events
+    25 = personality_events.10 #Just Dilema
+    25 = personality_events.11 #A righteous King
+    25 = personality_events.12 #A Righteous Republican Ruler
+    25 = personality_events.13
+    25 = personality_events.14
+    25 = personality_events.15
+    25 = personality_events.16
+    25 = personality_events.17
+    25 = personality_events.18
+    25 = personality_events.19
+    25 = personality_events.20
+    25 = personality_events.21
+    25 = personality_events.22
+    25 = personality_events.23
+    25 = personality_events.24
+    25 = personality_events.25
+    25 = personality_events.26
+    25 = personality_events.27
+    25 = personality_events.28
+    25 = personality_events.29
+    25 = personality_events.30
+    25 = personality_events.31
+    25 = personality_events.32
+    25 = personality_events.33
+    25 = personality_events.34
+    25 = personality_events.35
+    25 = personality_events.36
+    25 = personality_events.37
+    25 = personality_events.38
+    25 = personality_events.39
+    25 = personality_events.40
+    25 = personality_events.41
+    25 = personality_events.42
+    25 = personality_events.43
+    25 = personality_events.44
+    25 = personality_events.45
+    25 = personality_events.46
+    25 = personality_events.47
+    25 = personality_events.48
+    25 = personality_events.49
+    25 = personality_events.50
+    25 = personality_events.51
+    25 = personality_events.52
+    25 = personality_events.53
+    25 = personality_events.54
+    25 = personality_events.55
+    25 = personality_events.56
+    25 = personality_events.57
+    25 = personality_events.58
+
     1000 = 0
   }
 }
@@ -486,4 +672,30 @@ on_revoke_estate_land = {
 
 on_grant_estate_land = {
 
+}
+
+# country
+on_gain_great_power_status = {
+  if = {
+    limit = {
+      NOT = { has_country_flag = became_great_power_flag }
+    }
+    set_country_flag = became_great_power_flag
+  }
+}
+
+# country
+on_lose_great_power_status = {
+}
+
+# province
+on_province_religion_converted = {
+}
+
+# province
+on_province_culture_converted = {
+}
+
+# province
+on_province_owner_change = {
 }

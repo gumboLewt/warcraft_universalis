@@ -22,6 +22,30 @@ gov_kingdom_magic = {
 		2 = ARCHMAGE
 		3 = GRAND_MAGUS
 	}
+
+  consort_male = {
+    1 = PRINCE_CONSORT
+    2 = PRINCE_CONSORT
+    3 = PRINCE_CONSORT
+  }
+
+  consort_female = {
+    1 = CONSORT
+    2 = CONSORT
+    3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -56,6 +80,30 @@ gov_kingdom_kul_tiras = {
 		3 = GRAND_ADMIRAL
 	}
 	
+  consort_male = {
+    1 = CONSORT
+    2 = CONSORT
+    3 = CONSORT
+  }
+
+  consort_female = {
+    1 = CONSORT
+    2 = CONSORT
+    3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+	
 	trigger = {
 		OR = {
 			government = administrative_kingdom
@@ -84,6 +132,30 @@ gov_kingdom_dragonflight = {
 		2 = LADY
 		3 = LADY
 	}
+
+  consort_male = {
+    1 = CONSORT
+    2 = CONSORT
+    3 = CONSORT
+  }
+
+  consort_female = {
+    1 = CONSORT
+    2 = CONSORT
+    3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -114,6 +186,30 @@ gov_kingdom = {
 		2 = QUEEN
 		3 = EMPRESS
 	}
+
+  consort_male = {
+    1 = CONSORT
+    2 = KING_CONSORT
+    3 = EMPEROR_CONSORT
+  }
+
+  consort_female = {
+    1 = CONSORT
+    2 = QUEEN_CONSORT
+    3 = EMPRESS_CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -142,6 +238,30 @@ gov_regency = {
 		2 = LADY
 		3 = LADY
 	}
+
+  consort_male = {
+    1 = CONSORT
+    2 = CONSORT
+    3 = CONSORT
+  }
+
+  consort_female = {
+    1 = CONSORT
+    2 = CONSORT
+    3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 			government = regency_gov
@@ -169,6 +289,30 @@ gov_republic_ethereal = {
 		2 = TRADE_PRINCESS
 		3 = TRADE_QUEEN
 	}
+
+  consort_male = {
+    1 = MOGUL_CONSORT
+    2 = PRINCE_CONSORT
+    3 = KING_CONSORT
+  }
+
+  consort_female = {
+    1 = MOGUL_CONSORT
+    2 = CONSORT
+    3 = QUEEN_CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -198,6 +342,30 @@ gov_republic_goblin = {
 		2 = TRADE_PRINCESS
 		3 = TRADE_QUEEN
 	}
+
+  consort_male = {
+    1 = MOGUL_CONSORT
+    2 = PRINCE_CONSORT
+    3 = KING_CONSORT
+  }
+
+  consort_female = {
+    1 = MOGUL_CONSORT
+    2 = CONSORT
+    3 = QUEEN_CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -227,6 +395,30 @@ gov_republic_tinker = {
 		2 = HIGH_TINKER
 		3 = GRAND_TINKER
 	}
+
+  consort_male = {
+    1 = TINKER_CONSORT
+    2 = HIGH_CONSORT
+    3 = GRAND_CONSORT
+  }
+
+  consort_female = {
+    1 = TINKER_CONSORT
+    2 = HIGH_CONSORT
+    3 = GRAND_CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -256,6 +448,30 @@ gov_republic = {
 		2 = MAGISTRATE
 		3 = GRAND_MAGISTRATE
 	}
+
+  consort_male = {
+		1 = MAGISTRATE_CONSORT
+		2 = MAGISTRATE_CONSORT
+		3 = MAGISTRATE_CONSORT
+  }
+
+  consort_female = {
+		1 = MAGISTRATE_CONSORT
+		2 = MAGISTRATE_CONSORT
+		3 = MAGISTRATE_CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -284,6 +500,30 @@ gov_dictatorship = {
 		2 = COMMANDER
 		3 = COMMANDER
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = dictatorship_gov
@@ -311,6 +551,30 @@ gov_theocracy_elune = {
 		2 = ARCHDRUID
 		3 = ARCHDRUID
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -340,6 +604,30 @@ gov_theocracy_naaru = {
 		2 = PROPHETESS
 		3 = PROPHETESS
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -369,6 +657,30 @@ gov_theocracy_magic = {
 		2 = ARCHMAGE
 		3 = GRAND_MAGUS
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -399,6 +711,30 @@ gov_theocracy_shadow = {
 		2 = DARKMISTRESS
 		3 = SHADOWLADY
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -432,6 +768,30 @@ gov_theocracy = {
 		2 = PRIESTESS
 		3 = HIGH_PRIESTESS
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -460,6 +820,30 @@ gov_order_scarlet_crusade = {
 		2 = GRAND_CRUSADER
 		3 = GRAND_CRUSADER
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -489,6 +873,30 @@ gov_order_scarlet_onslaught = {
 		2 = CRUSADER
 		3 = GRAND_CRUSADER
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -518,6 +926,30 @@ gov_order_argent_crusade = {
 		2 = CRUSADER
 		3 = GRAND_CRUSADER
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -548,6 +980,30 @@ gov_order_argent_dawn = {
 		2 = LADY
 		3 = GRAND_CRUSADER
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -578,6 +1034,30 @@ gov_order = {
 		2 = HIGHLADY
 		3 = GRAND_MISTRESS
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
@@ -606,6 +1086,30 @@ gov_cult = {
 		2 = HIGH_CULTIST
 		3 = GRAND_CULTIST
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = cult_gov
@@ -630,6 +1134,30 @@ gov_cult_shendralar = {
 		2 = PRINCESS
 		3 = PRINCESS
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = cult_gov
@@ -658,6 +1186,30 @@ gov_warband_gov_true_horde = {
 		2 = WAR_MISTRESS
 		3 = WAR_MISTRESS
 	}
+
+  consort_male = {
+		1 = CHIEF_CONSORT
+		2 = CHIEF_CONSORT
+		3 = CHIEF_CONSORT
+  }
+
+  consort_female = {
+		1 = CHIEFTESS_CONSORT
+		2 = CHIEFTESS_CONSORT
+		3 = CHIEFTESS_CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = warband_gov
@@ -686,6 +1238,30 @@ gov_warband_gov_horde = {
 		2 = WAR_MISTRESS
 		3 = WAR_MISTRESS
 	}
+
+  consort_male = {
+		1 = CHIEF_CONSORT
+		2 = CHIEF_CONSORT
+		3 = CHIEF_CONSORT
+  }
+
+  consort_female = {
+		1 = CHIEFTESS_CONSORT
+		2 = CHIEFTESS_CONSORT
+		3 = CHIEFTESS_CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = warband_gov
@@ -713,6 +1289,30 @@ gov_warband_gov_pirate = {
 		2 = PIRATE_LADY
 		3 = PIRATE_QUEEN
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = criminal_organisation
@@ -743,6 +1343,30 @@ gov_warband_gov = {
 		2 = WAR_MISTRESS
 		3 = WAR_MISTRESS
 	}
+
+  consort_male = {
+		1 = CHIEF_CONSORT
+		2 = CHIEF_CONSORT
+		3 = CHIEF_CONSORT
+  }
+
+  consort_female = {
+		1 = CHIEFTESS_CONSORT
+		2 = CHIEFTESS_CONSORT
+		3 = CHIEFTESS_CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = warband_gov
@@ -767,6 +1391,30 @@ gov_scourge_main = {
 		2 = LICH_QUEEN
 		3 = LICH_QUEEN
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = scourge_gov
@@ -792,6 +1440,30 @@ gov_scourge_cult = {
 		2 = CULTIST
 		3 = ARCHLICH
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = scourge_gov
@@ -817,6 +1489,30 @@ gov_scourge = {
 		2 = COMMANDER
 		3 = COMMANDER
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = scourge_gov
@@ -846,6 +1542,30 @@ gov_expeditionary_force = {
 		2 = COMMANDER
 		3 = COMMANDER
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = expeditionary_force
@@ -870,6 +1590,30 @@ gov_criminal_organisation = {
 		2 = KINGPIN
 		3 = KINGPIN
 	}
+
+  consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		government = criminal_organisation
@@ -897,6 +1641,30 @@ gov_tribe = {
 		2 = CHIEFESS
 		3 = CHIEFESS
 	}
+
+  consort_male = {
+		1 = CHIEF_CONSORT
+		2 = CHIEF_CONSORT
+		3 = CHIEF_CONSORT
+  }
+
+  consort_female = {
+		1 = CHIEFTESS_CONSORT
+		2 = CHIEFTESS_CONSORT
+		3 = CHIEFTESS_CONSORT
+  }
+
+  heir_male = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
+
+  heir_female = {
+    1 = HEIR
+    2 = HEIR
+    3 = HEIR
+  }
 	
 	trigger = {
 		OR = {
