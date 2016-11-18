@@ -15,8 +15,4 @@ capital 			= 1055
 		dip = 3	
 		mil = 3	
 	}
-add_country_modifier = {
-    name = alliance_member
-    duration = -1
-}  
-} 
+}

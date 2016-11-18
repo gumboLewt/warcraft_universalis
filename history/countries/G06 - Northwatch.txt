@@ -9,37 +9,33 @@ add_accepted_culture = culture_kul_tiran
 capital 			 = 1439
 
 617.1.1 = {
-monarch = {
+  monarch = {
     name = "Duke" 
     dynasty = "Lionheart" 
 		adm = 3
 		dip = 4
 		mil = 3
  	}
-add_country_modifier = {
-name = alliance_member
-duration = -1
-}
-capital = 1369
+  capital = 1369
 }
 
 #The Frozen Throne
 618.1.1 = {
-monarch = {
-   name = "" 
-   dynasty = "Fairmount" 
+  monarch = {
+    name = "" 
+    dynasty = "Fairmount" 
 		adm = 3
 		dip = 2
 		mil = 4
-female = yes
+    female = yes
  	}
-capital = 1439
+  capital = 1439
 }
 
 631.1.1 = {
-monarch = {
-   name = "Tarlen" 
-   dynasty = "Aubrey" 
+  monarch = {
+    name = "Tarlen" 
+    dynasty = "Aubrey" 
 		adm = 4
 		dip = 3
 		mil = 4
@@ -47,11 +43,15 @@ monarch = {
 }
 
 632.1.1 = {
-monarch = {
-   name = "" 
-   dynasty = "Hartley" 
+  monarch = {
+    name = "" 
+    dynasty = "Hartley" 
 		adm = 3
 		dip = 3
 		mil = 4
  	}
+  add_country_modifier = {
+    name = alliance_member
+    duration = -1
+  }
 }
