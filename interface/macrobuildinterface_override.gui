@@ -275,7 +275,7 @@ guiTypes = {
 			position = {x = 152 y = 10 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 150
+			maxWidth = 108
 			maxHeight = 18
 		}
 		
@@ -288,6 +288,12 @@ guiTypes = {
 			maxHeight = 18
 		}
 		
+    iconType = {
+      name = "culture_acceptance_icon"
+      position = { x = 260 y = 10 }
+      spriteType = "GFX_macrobuild_entry_cultural_acceptance"
+    }
+
 		iconType =
 		{
 			name ="culture_progress"
@@ -340,6 +346,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 86
 			maxHeight = 18
+      fixedsize = yes
 		}
 
 		iconType = {
@@ -1809,7 +1816,7 @@ guiTypes = {
 			position = {x = 25 y = 526 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 180
+			maxWidth = 380
 			maxHeight = 32
 			text = "Army force limit: xx/xx"
 		}

@@ -52,7 +52,7 @@ spriteTypes = {
 	spriteType = {	
 		name = "GFX_unit_types_strip_mil_view"
 		texturefile = "gfx//interface//unit_types_strip.tga"
-		noOfFrames = 8
+		noOfFrames = 9
 		loadType = "INGAME"
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -103,7 +103,15 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 
-		spriteType = {
+  spriteType = {
+    name = "GFX_tab_local_government"
+    texturefile = "gfx//interface//tab_domestic_local_government.tga"
+    effectFile = "gfx/FX/buttonstate.lua"
+    noOfFrames = 2
+    loadType = "INGAME"
+  }
+
+  spriteType = {
 		name = "GFX_tab_domestic_building"
 		texturefile = "gfx//interface//tab_domestic_building.tga"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -160,6 +168,11 @@ spriteTypes = {
 	}
 	
 
+   spriteType = {
+     name = "GFX_country_icon_religion"
+     texturefile = "gfx//interface//country_icon_religion.dds"
+     noOfFrames = 27
+   }
 
 	spriteType = {
 		name = "GFX_icon_religion_small"
