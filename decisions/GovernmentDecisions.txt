@@ -32,7 +32,7 @@ country_decisions = {
       government = warband_gov
       is_good = yes
       is_at_war = no
-      is_subject = false
+      is_subject = no
     }
     effect = {
       change_government = war_tribe
@@ -71,7 +71,7 @@ country_decisions = {
       }
       is_evil = yes
       is_at_war = no
-      is_subject = false
+      is_subject = no
     }
     effect = {
       change_government = warband_gov

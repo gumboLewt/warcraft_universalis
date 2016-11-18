@@ -16,19 +16,19 @@ on_startup = {
     limit = {
       has_country_modifier = alliance_member
     }
-    events = { faction_changes.1 }
+    country_event = { id = faction_changes.1 }
   }
   if = {
     limit = {
       has_country_modifier = horde_member
     }
-    events = { faction_changes.2 }
+    country_event = { id = faction_changes.2 }
   }
   if = {
     limit = {
       has_country_modifier = neutral_member
     }
-    events = { faction_changes.3 }
+    country_event = { id = faction_changes.3 }
   }
 }
 
@@ -39,21 +39,21 @@ on_religion_change = {
       has_country_modifier = alliance_member
       is_evil = yes
     }
-    events = { faction_changes.4 }
+    country_event = { id = faction_changes.4 }
   }
   if = {
     limit = {
       has_country_modifier = horde_member
       is_evil = yes
     }
-    events = { faction_changes.6 }
+    country_event = { id = faction_changes.6 }
   }
   if = {
     limit = {
       has_country_modifier = neutral_member
       is_evil = yes
     }
-    events = { faction_changes.8 }
+    country_event = { id = faction_changes.8 }
   }
 }
 
@@ -180,11 +180,11 @@ on_new_monarch = {
   }
   if = {
     limit = { has_country_modifier = alliance_head }
-    events = { faction_changes.13 }
+    country_event = { id = faction_changes.13 }
   }
   if = {
     limit = { has_country_modifier = horde_head }
-    events = { faction_changes.14 }
+    country_event = { id = faction_changes.14 }
   }
   if = {
     limit = {
