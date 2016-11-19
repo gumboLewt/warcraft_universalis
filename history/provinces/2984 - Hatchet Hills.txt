@@ -10,7 +10,7 @@ owner = A58
 controller = A58
 
 culture = culture_amani
-religion = religion_loa
+religion = religion_voodoo
 
 hre = no
 trade_goods = artifacts
@@ -29,14 +29,14 @@ owner = xxx
 controller = xxx
 remove_core = F39
 culture = culture_amani
-religion = religion_loa
+religion = religion_voodoo
 }
 
 630.11.11 = {
 owner = xxx
 controller = xxx
 culture = culture_amani
-religion = religion_loa
+religion = religion_voodoo
 }
 
 631.1.1 = {

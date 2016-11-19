@@ -16,17 +16,24 @@ religion = religion_ancestral
 hre = no
 trade_goods = oil
 
-622.1.1 = {
-owner = A81
-controller = A81
-add_core = A81
-culture = culture_venture
-religion = religion_tech
-base_tax = 4
-base_manpower = 3
-base_production = 4
+598.1.1 = {
+  owner = B21
+  controller = B21
+  add_core = B21
+  remove_core = A84
+
+  culture = culture_gelkis
+  religion = religion_earth
 }
 
-
-
-
+622.1.1 = {
+  owner = A81
+  controller = A81
+  add_core = A81
+  remove_core = B21
+  culture = culture_venture
+  religion = religion_greed
+  base_tax = 4
+  base_manpower = 3
+  base_production = 4
+}

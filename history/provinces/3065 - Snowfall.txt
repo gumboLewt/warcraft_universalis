@@ -17,7 +17,7 @@ trade_goods = crypts
 	controller = A76
 	add_core = A76
 	culture = culture_winterax
-	religion = religion_loa
+	religion = religion_voodoo
 	base_tax = 2
 	base_manpower = 2
 }

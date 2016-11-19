@@ -18,4 +18,5 @@ trade_goods = glowcap
 #Outland
 601.1.1 = {
 	culture = culture_lost_one
+  religion = religion_geomancy
 }

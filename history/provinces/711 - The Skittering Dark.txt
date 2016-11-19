@@ -19,7 +19,6 @@ trade_goods = warbeasts
 618.1.1 = { 
 	owner = XXX
 	controller = XXX
-	remove_core = B19 
 }
  
 # Cataclysm

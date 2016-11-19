@@ -10,7 +10,7 @@ controller = B21
 add_core = B21
 
 culture = culture_gelkis
-religion = religion_ancestral
+religion = religion_earth
 
 hre = no
 trade_goods = fish
@@ -23,7 +23,7 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 culture = culture_cenarion
-religion = religion_druidic
+religion = religion_old_gods
 }
 
 

@@ -10,7 +10,7 @@ controller = A73
 add_core = A73
 
 culture = culture_sandfury
-religion = religion_loa
+religion = religion_voodoo
 
 hre = no
 trade_goods = fossils
@@ -20,6 +20,6 @@ trade_goods = fossils
 owner = A21
 controller = A21
 add_core = A21
-religion = religion_church_of_the_light
+religion = religion_void
 culture = culture_kul_tiran
 }

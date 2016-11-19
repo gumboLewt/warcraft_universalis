@@ -1,8 +1,8 @@
 # Alterac Gnolls
 government 			= war_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_gnoll
-religion			= religion_ancestral
+religion			= religion_geomancy
 primary_culture 	= culture_wildpaw
 capital 			= 2979
 

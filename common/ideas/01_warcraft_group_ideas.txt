@@ -37,7 +37,7 @@ azerothian_ideas = {
 		idea_cost = -0.1
 	}
 	azerothian_ideas_6 = {
-		accepted_culture_threshold = -0.25
+		num_accepted_cultures = 1
 		tolerance_heathen = 1
 	}
 	azerothian_ideas_7 = {
@@ -375,7 +375,7 @@ darnassian_ideas = {
 	}
     # Might of Darnassus
 	darnassian_ideas_5 = {
-        discipline = 0.075
+        discipline = 0.05
 	}
     # Venerable Commanders
 	darnassian_ideas_6 = {
@@ -483,44 +483,7 @@ vrykul_ideas = {
 	}
 }
 
-redeemed_orc_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-		
-	}
-	
-	trigger = {
-		has_country_flag = free_from_legion_influence
-	}
-	free = yes		
-	
-	redeemed_orc_ideas_1 = {
-	
-	}
-	redeemed_orc_ideas_2 = {
-	
-	}
-	redeemed_orc_ideas_3 = {
-	
-	}
-	redeemed_orc_ideas_4 = {
-	
-	}
-	redeemed_orc_ideas_5 = {
-	
-	}
-	redeemed_orc_ideas_6 = {
-	
-	}
-	redeemed_orc_ideas_7 = {
-	
-	}
-}
-
-outland_orc_ideas = {
+orc_ideas = {
 	start = {
 		global_tax_modifier = 0.1
 	}
@@ -532,79 +495,44 @@ outland_orc_ideas = {
 	trigger = {
 		OR = {
 			primary_culture = culture_mok_nathal
+			primary_culture = culture_horde
 			primary_culture = culture_bleeding_hollow
 			primary_culture = culture_bonechewer
 			primary_culture = culture_laughing_skull
+			primary_culture = culture_frostwolf
 			primary_culture = culture_dragonmaw
 			primary_culture = culture_shattered_hand
-			primary_culture = culture_frostwolf
 			primary_culture = culture_shadowmoon
+			primary_culture = culture_blackrock
 			primary_culture = culture_warsong
 			primary_culture = culture_stormreaver
 			primary_culture = culture_burning_blade
 			primary_culture = culture_thunderlord
-			primary_culture = culture_blackrock
+			primary_culture = culture_mag_har
 		}
 	}
 	free = yes		
 	
-	outland_orc_ideas_1 = {
+	orc_ideas_1 = {
 		global_manpower_modifier = 0.2
 	}
-	outland_orc_ideas_2 = {
-		infantry_cost = 0.1
+	orc_ideas_2 = {
+		infantry_cost = -0.1
 	}
-	outland_orc_ideas_3 = {
+	orc_ideas_3 = {
 		discipline = 0.05
 	}
-	outland_orc_ideas_4 = {
+	orc_ideas_4 = {
 		core_creation = -0.1
 	}
-	outland_orc_ideas_5 = {
+	orc_ideas_5 = {
 		production_efficiency = 0.05
 	}
-	outland_orc_ideas_6 = {
+	orc_ideas_6 = {
 		stability_cost_modifier = -0.1
 	}
-	outland_orc_ideas_7 = {
+	orc_ideas_7 = {
 		land_morale = 0.1
-	}
-}
-
-the_horde_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-		
-	}
-	
-	trigger = {
-		primary_culture = culture_horde
-	}
-	free = yes		
-	
-	the_horde_ideas_1 = {
-	
-	}
-	the_horde_ideas_2 = {
-	
-	}
-	the_horde_ideas_3 = {
-	
-	}
-	the_horde_ideas_4 = {
-	
-	}
-	the_horde_ideas_5 = {
-	
-	}
-	the_horde_ideas_6 = {
-	
-	}
-	the_horde_ideas_7 = {
-	
 	}
 }
 
@@ -1261,44 +1189,6 @@ naga_ideas = {
 	}
 }
 
-scourge_ideas = {
-	start = {
-		culture_conversion_cost = -0.2
-	}
-
-	bonus = {
-		global_manpower_modifier = 0.25
-	}
-	
-	trigger = {
-		primary_culture = culture_scourge
-		#culture_group = culture_group_scourge   #umm...not culture_group_undead ?
-	}
-	free = yes		
-	
-	scourge_ideas_1 = {
-		diplomats = 1
-	}
-	scourge_ideas_2 = {
-		war_exhaustion_cost = -0.20
-	}
-	scourge_ideas_3 = {
-		land_morale = 0.10
-	}
-	scourge_ideas_4 = {
-		caravan_power = 0.25
-	}
-	scourge_ideas_5 = {
-		prestige_decay = -0.01
-	}
-	scourge_ideas_6 = {
-		free_leader_pool = 1
-	}
-	scourge_ideas_7 = {
-		trade_range_modifier = 0.25
-	}
-}
-
 # Suggested by Ace
 dragonkin_ideas = {
 	start = {
@@ -1342,7 +1232,7 @@ dragonkin_ideas = {
     
     # Fangs and Fire
 	dragonkin_ideas_6 = {
-        discipline = 0.1
+        discipline = 0.05
 	}
     
     # Flight of the Dragons
@@ -1439,7 +1329,7 @@ undead_ideas = {
     # All's Fair in Death and War
 	undead_ideas_7 = {
         culture_conversion_cost = -0.5
-        accepted_culture_threshold = 0.5
+        num_accepted_cultures = -2
 	}
 }
 

@@ -15,7 +15,7 @@ base_production = 4
 hre = no
 trade_goods = fel
 
-618.1.1 = { 
+592.1.1 = {
 	religion = religion_fel
 }
 

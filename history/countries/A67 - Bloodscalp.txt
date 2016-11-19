@@ -1,9 +1,8 @@
 # Bloodscalp
 government 			= warband_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_troll
-religion			= religion_loa
-secondary_religion = religion_voodoo
+religion			= religion_voodoo
 primary_culture 	= culture_bloodscalp
 capital 			= 750
 

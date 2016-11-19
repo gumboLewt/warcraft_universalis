@@ -50,7 +50,7 @@ remove_core = A43
 # The Frozen Throne
 618.1.1 = { 
 trade_goods = smugglers
-religion = religion_church_of_the_light
+religion = religion_shadow
 add_core = A07
 owner = A07
 controller = A07 

@@ -1,8 +1,8 @@
 # Dragonmaw
 government 			= warband_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_orc
-religion			= religion_fel
+religion			= religion_ancestral
 primary_culture 	= culture_dragonmaw
 capital 			= 1672
 
@@ -14,8 +14,8 @@ capital 			= 1672
 		adm = 4
 		dip = 3
 		mil = 3
-                
-	} 
+	}
+  religion = religion_fel
 }
 
 600.1.1 = { 

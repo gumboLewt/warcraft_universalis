@@ -1,6 +1,6 @@
 # Skywall
 government 			= militaristic_kingdom
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_elemental
 religion			= religion_air
 primary_culture 	= culture_air

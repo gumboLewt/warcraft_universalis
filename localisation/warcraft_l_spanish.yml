@@ -1172,6 +1172,7 @@
  
  # Religions
  religion_titan: "Titanic"
+ religion_titan_corrupt: "Corrupt Titanic"
  religion_sect_of_dragons: "Sect of Dragons"
  religion_druidic: "Druidic"
  religion_divine: "Divine"
@@ -1200,6 +1201,7 @@
  religion_neptulon: "Neptulon"
  religion_geomancy: "Geomancy"
  religion_tech: "Technicism"
+ religion_greed: "Greed"
  religion_voodoo: "Voodoo"
  religion_light_of_the_sunwell: "Light of the Sunwell"
  

@@ -1,8 +1,8 @@
 # Galak
 government 			= warband_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_centaur
-religion			= religion_ancestral
+religion			= religion_air
 primary_culture 	= culture_galak
 capital 			= 1
 

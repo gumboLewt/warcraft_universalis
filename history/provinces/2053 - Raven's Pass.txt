@@ -16,11 +16,18 @@ religion = religion_ancestral
 hre = no
 trade_goods = flying_mounts
 
+592.1.1 = {
+religion = religion_fel
+}
+
 #Outland
 601.1.1 = {
 owner = F78
 controller = F78
 add_core = F78
+remove_core = A41
+culture = culture_black
+religion = religion_old_gods
 }
 
 

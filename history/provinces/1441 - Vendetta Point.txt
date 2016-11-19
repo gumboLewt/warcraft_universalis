@@ -5,11 +5,11 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-owner = A87
-controller = A87
-add_core = A87
-culture = culture_mistrunner
-religion = religion_druidic
+owner = B68
+controller = B68
+add_core = B68
+culture = culture_bristleback
+religion = religion_geomancy
 
 hre = no
 trade_goods = fur

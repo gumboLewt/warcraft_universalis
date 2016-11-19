@@ -25,9 +25,9 @@ native_hostileness = 10
 }
 
 622.1.1 = {
-owner = F88
-controller = F88
-add_core = F88
+owner = A86
+controller = A86
+add_core = A86
 culture = culture_runetotem
 add_core = A86
 }

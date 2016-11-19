@@ -19,4 +19,6 @@ trade_goods = lumber
 owner = F78
 controller = F78
 add_core = F78
+religion = religion_old_gods
+culture = culture_black
 }

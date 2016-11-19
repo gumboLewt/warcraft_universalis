@@ -14,6 +14,10 @@ religion = religion_ancestral
 hre = no
 trade_goods = grain
 
-
-
-
+622.1.1 = {
+  add_core = B57
+  owner = B57
+  controller = B57
+  culture = culture_gravelsnout
+  religion = religion_geomancy
+}

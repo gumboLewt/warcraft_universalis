@@ -93,8 +93,9 @@ technology = {
 technology = {
 	year = 649
 	
-    wow_drydock = yes
-    global_colonial_growth = 5
+  wow_drydock = yes
+  global_colonial_growth = 5
+  num_accepted_cultures = 1
 }
 
 # 9
@@ -143,6 +144,7 @@ technology = {
 	year = 727
 	
 	global_colonial_growth = 5
+  num_accepted_cultures = 1
 }
 
 # 15
@@ -187,10 +189,11 @@ technology = {
 # 20
 technology = {
 	year = 805
-	
-    wow_grand_workshop = yes
-    global_colonial_growth = 5
-    trade_efficiency = 0.05
+
+  wow_grand_workshop = yes
+  global_colonial_growth = 5
+  trade_efficiency = 0.05
+  num_accepted_cultures = 1
 }
 
 # 21
@@ -237,11 +240,11 @@ technology = {
 # 26
 technology = {
 	year = 883
-	
+
 	reduced_naval_attrition = yes
-    
-    wow_naval_academy = yes
-    global_colonial_growth = 5
+  wow_naval_academy = yes
+  global_colonial_growth = 5
+  num_accepted_cultures = 1
 }
 
 # 27
@@ -279,9 +282,10 @@ technology = {
 # 31
 technology = {
 	year = 948
-	
-    range = 25
-    trade_range = 25
+
+  range = 25
+  trade_range = 25
+  num_accepted_cultures = 1
 }
 
 # 32

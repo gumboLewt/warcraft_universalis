@@ -20,6 +20,9 @@ trade_goods = fel
 	owner = B89
 	controller = B89
 	add_core =  B89
+  remove_core = F83
+  culture = culture_fel_orc
+  religion = religion_fel
 }
 
 # The Frozen Throne

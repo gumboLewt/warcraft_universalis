@@ -1,6 +1,6 @@
 # Bloodspore/Gammoth
 government 			= war_tribe
-mercantilism 		= 0.1 
+mercantilism 		= 10 
 technology_group 	= tech_magnataur
 religion			= religion_geomancy
 primary_culture 	= culture_gammoth

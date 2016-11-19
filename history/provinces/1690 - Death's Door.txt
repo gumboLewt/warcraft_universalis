@@ -14,11 +14,17 @@ religion = religion_ancestral
 hre = no
 trade_goods = fel
 
+592.1.1 = {
+religion = religion_fel
+}
+
 #Outland
 601.1.1 = {
 owner = B89
 controller = B89
 add_core = B89
+culture = culture_fel_orc
+remove_core = A37
 }
 
 618.1.1 = { 

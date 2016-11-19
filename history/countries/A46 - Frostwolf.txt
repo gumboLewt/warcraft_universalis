@@ -1,7 +1,7 @@
 # Frostwolf
 government 			= warband_gov
 government_rank 	= 1
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_orc
 primary_culture 	= culture_frostwolf
 religion			= religion_ancestral
@@ -15,11 +15,4 @@ capital 			= 3061
 		dip = 1
 		mil = 5
  	}
-}
-
-622.1.1 = {
-	add_country_modifier = {
-		name = horde_member
-		duration = -1
-	}
 }

@@ -19,6 +19,9 @@ trade_goods = fish
 owner = F51
 controller = F51
 add_core =  F51
+remove_core = A56
+culture = culture_fungal_giant
+religion = religion_zangar
 }
 
 625.1.1 = {

@@ -20,6 +20,11 @@ trade_goods = grain
     add_core = G36
 }
 
-
-
-
+626.1.1 = {
+  owner = F29
+  add_core = F29
+  controller = F29
+  remove_core = G36
+  religion = religion_church_of_the_light
+  culture = culture_ironforge
+}

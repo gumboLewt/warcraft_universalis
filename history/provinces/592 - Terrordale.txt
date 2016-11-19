@@ -7,7 +7,7 @@ add_core = A08
 owner = A62
 controller = A62
 
-religion = religion_loa
+religion = religion_voodoo
 culture = culture_mossflayer 
 
 base_tax = 3

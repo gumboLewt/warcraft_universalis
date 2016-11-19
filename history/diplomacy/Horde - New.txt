@@ -14,28 +14,55 @@ alliance = {
 	start_date = 617.1.1
 	end_date = 650.5.1
 }
-# Orgrimmar - Warsong
+
+# Orgrimmar - Bloodhoof
 alliance = {
+  first = A48
+  second = A84
+  start_date = 617.1.1
+  end_date = 618.1.1
+}
+
+#Darkspear - Bloodhoof
+alliance = {
+  first = A70
+  second = A84
+  start_date = 617.1.1
+  end_date = 618.1.1
+}
+
+# Orgirmmar - Thunder Bluff
+alliance = {
+  first = A48
+  second = F88
+  start_date = 618.1.1
+  end_date = 650.5.1
+}
+
+# Darkspear - Thunder Bluff
+alliance = {
+  first = A70
+  second = F88
+  start_date = 618.1.1
+  end_date = 650.5.1
+}
+
+# Orgrimmar - Warsong
+march = {
 	first = A48
 	second = A35
 	start_date = 617.1.1
-	end_date = 618.1.1
+	end_date = 631.1.1
 }
 
 # Orgrimmar - Frostwolf
-alliance = {
+march = {
 	first = A48
 	second = A46
 	start_date = 622.1.1
 	end_date = 650.5.1
 }
 
-march = {
-	first = A48
-	second = A35
-	start_date = 618.1.1
-	end_date = 631.1.1
-}
 # Garrosh Warchief
 union = {
 	first = A48

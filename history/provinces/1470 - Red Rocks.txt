@@ -16,9 +16,9 @@ trade_goods = crypts
 
 
 618.1.1 = { 
-	owner = A87
-	controller = A87
-	add_core = A87
+	owner = F88
+	controller = F88
+	add_core = F88
 	culture = culture_mistrunner
 	religion = religion_druidic
 	is_city = yes

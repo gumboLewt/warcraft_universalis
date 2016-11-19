@@ -15,23 +15,6 @@ religion = religion_geomancy
 hre = no
 trade_goods = fur
 
-615.1.1 = {
-culture = culture_icemist
-religion = religion_ancestral
-owner = xxx
-controller = xxx
-base_manpower = 1
-remove_core = B48
-}
-
-626.11.11 = {
-culture = culture_icemist
-religion = religion_ancestral
-owner = xxx
-controller = xxx
-base_manpower = 1
-}
-
 # Wrath of the Lich King
 626.1.1 = {
 	is_city = yes

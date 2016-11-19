@@ -1,6 +1,6 @@
 # Gnomeregan
 government 			= mercantile_republic
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_gnome
 religion			= religion_tech
 primary_culture 	= culture_gnome

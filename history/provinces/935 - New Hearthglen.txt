@@ -10,7 +10,7 @@ base_production = 3
 
 
 culture = culture_winterfang
-religion = religion_loa
+religion = religion_voodoo
 
 hre = no
 trade_goods = fish
@@ -23,23 +23,17 @@ culture = culture_stonemaul
 religion = religion_geomancy
 }
 
-605.1.1 = {
-remove_core = A77
-}
 
-618.1.1 = { owner = xxx
-controller = xxx
+618.1.1 = {
+owner = E11
+controller = E11
+add_core = E11
+remove_core = G30
 culture = culture_scourge
 religion = religion_the_damned
 }
 
-625.11.11 = { owner = xxx
-controller = xxx
-culture = culture_scourge
-religion = religion_the_damned
-}
-
-626.1.1 = { 
+626.1.1 = {
 add_core = F18
 owner = F18
 controller = F18

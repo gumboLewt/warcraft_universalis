@@ -14,56 +14,53 @@ power_of_the_dragons = {
 	potential = {
 		technology_group = tech_dragonkin
 	}
-	
+
 	trigger = {
 		technology_group = tech_dragonkin
-        stability = 0
+    num_of_provinces_in_states = 10
 	}
-	
+
 	discipline = 0.1
-    land_morale = 0.1
-    infantry_power = 0.1
-    artillery_power = 0.1
-    cavalry_power = 0.1
-    
-    siege_ability = 0.25
-    
-    global_tax_income = 64
+  land_morale = 0.1
+  infantry_power = 0.1
+  artillery_power = 0.1
+  cavalry_power = 0.1
+  siege_ability = 0.25
+
+  global_tax_income = 64
 }
 
 # Faction Relations
 horde_enemy = {
-	potential = {
-		NOT = { has_country_modifier = horde_member }
-        NOT = { has_country_modifier = alliance_member }
-		NOT = { has_country_modifier = neutral_member }
-	}
-	
-	trigger = {
-		any_country = {
-            NOT = { has_opinion = { who = ROOT value = -100 } }
-            has_country_modifier = horde_member
-         }
-	}
-	
-	prestige = 1
+  potential = {
+    NOT = { has_country_modifier = alliance_member }
+    NOT = { has_country_modifier = neutral_member }
+  }
+
+  trigger = {
+    any_country = {
+      NOT = { has_opinion = { who = ROOT value = -100 } }
+      has_country_modifier = horde_member
+    }
+  }
+
+  prestige = 1
 }
 
 alliance_enemy = {
-	potential = {
-		NOT = { has_country_modifier = horde_member }
-        NOT = { has_country_modifier = alliance_member }
-		NOT = { has_country_modifier = neutral_member }
-	}
-	
-	trigger = {
-		any_country = {
-            NOT = { has_opinion = { who = ROOT value = -100 } }
-            has_country_modifier = alliance_member
-        }
-	}
-	
-	prestige = 1
+  potential = {
+    NOT = { has_country_modifier = horde_member }
+    NOT = { has_country_modifier = neutral_member }
+  }
+
+  trigger = {
+    any_country = {
+      NOT = { has_opinion = { who = ROOT value = -100 } }
+      has_country_modifier = alliance_member
+    }
+  }
+
+  prestige = 1
 }
 
 horde_on_the_move = {

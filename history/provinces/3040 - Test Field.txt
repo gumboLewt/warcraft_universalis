@@ -7,7 +7,7 @@ controller = A75
 add_core A32
 
 culture = culture_frostmane
-religion = religion_loa
+religion = religion_voodoo
 
 base_tax = 2
 base_manpower = 2
@@ -22,7 +22,7 @@ trade_goods = army_supplies
 	controller = A33
 	add_core = A33
 	culture = culture_leper_gnome
-	religion = religion_tech
+	religion = religion_greed
 }
 
 # Cataclysm
@@ -30,4 +30,5 @@ trade_goods = army_supplies
 	owner = A32
 	controller = A32
 	culture = culture_gnome
+	religion = religion_tech
 }

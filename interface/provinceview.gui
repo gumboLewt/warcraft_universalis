@@ -131,13 +131,21 @@ guiTypes = {
 			
 		OverlappingElementsBoxType = {
 			name = "modifiers"
-			position = { x = 158 y = 331 }
-			size = { x = 310 y = 32 }
+			position = { x = 176 y = 331 }
+			size = { x = 252 y = 32 }
 			Orientation = "UPPER_LEFT"
 			format = right
 			spacing = 1
 		}	
 		
+    guiButtonType =
+    {
+            name ="institution_icon"
+            spriteType = "GFX_province_institutions_button"
+            position = { x= 440 y = 327 }
+            shortcut = "n"
+    }
+
 		iconType =
 		{
 			name ="province_terrain"
@@ -248,6 +256,7 @@ guiTypes = {
 				borderSize = {x = 10 y = 8}
 				size = { x=180 y=32}
 				text = ""	
+        ignore_tab_navigation = no
 			}
 			
 			editBoxType = {
@@ -258,6 +267,7 @@ guiTypes = {
 				borderSize = {x = 10 y = 8}	
 				size = { x=180 y=32}
 				text = ""	
+        ignore_tab_navigation = no
 			}
 			
 #			iconType = {
@@ -620,9 +630,8 @@ guiTypes = {
 			iconType =
 			{
 				name ="religion_icon"
-				spriteType = "GFX_province_view_religion"
-				position = { x= 257 y = 240 }
-				scale = 0.75
+				spriteType = "GFX_icon_religion_small"
+				position = { x= 262 y = 246 }
 				hint_tag = "hint_religion"
 				allwaystransparent = yes
 			}
@@ -670,7 +679,11 @@ guiTypes = {
 				position = { x = 100 y = 328 }
 			}
 			
-
+      guiButtonType = {
+              name ="trading_city_button"
+              quadTextureSprite = "GFX_trading_city_button"
+              position = { x = 140 y = 328 }
+      }
 			
 			guiButtonType = {
 				name ="migrate_button"
@@ -1522,7 +1535,7 @@ guiTypes = {
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 15 y = 16}
-					text = "Cost"	
+					text = "HEADER_COST"	
 					maxWidth = 250
 					maxHeight = 20	
 					format = left
@@ -3059,6 +3072,81 @@ guiTypes = {
 			}
 		}
 
+   #### INSTITUTIONS WINDOW
+   windowType = {
+           name = "institutions_window"
+           backGround=""
+           position = { x=480 y=13 }       
+           size = { x=475 y=480 }
+           dontRender = ""
+           horizontalBorder= ""
+           verticalBorder= ""
+           fullScreen = no
+           moveable = 0
+           Orientation = "UPPER_LEFT"
+                   
+           iconType =
+           {
+                   name ="provinceview_building_bg"
+                   spriteType = "GFX_provinceview_institutions_bg"
+                   position = { x= 15 y = 122 }
+           }
+           
+           instantTextBoxType = {
+                   name = "header_label"
+                   position = { x = 29 y = 142 }
+                   textureFile = ""
+                   font = "vic_22"
+                   borderSize = {x = 2 y = 2}      
+                   text = "INSTITUTIONS"
+                   maxWidth = 120
+                   maxHeight = 32  
+                   format = left
+           }
+           
+           instantTextBoxType = {
+                   name = "growth_mod"
+                   position = { x = 170 y = 142 }
+                   textureFile = ""
+                   font = "vic_22"
+                   borderSize = {x = 2 y = 2}      
+                   text = "Growth: +10%"
+                   maxWidth = 130
+                   maxHeight = 32  
+                   format = right
+           }
+           
+           listboxType = {
+                   name = "institutions"
+                   position = { x= 26 y = 178 }
+                   size = { x = 256 y = 420 }
+                   Orientation = "UPPER_LEFT"
+                   spacing = 0
+                   scrollbartype = "standardlistbox_slider"
+                   borderSize = {x = 0 y = 0}
+           }
+           
+           instantTextBoxType = {
+                   name = "all_present"
+                   position = { x = 40 y = 180 }
+                   textureFile = ""
+                   font = "vic_22"
+                   borderSize = {x = 2 y = 2}      
+                   text = "All institutions present"
+                   maxWidth = 220
+                   maxHeight = 32  
+                   format = left
+           }
+           
+           guiButtonType = {
+                   name = "institution_close_button"
+                   position = { x = 304 y = 123 }
+                   quadTextureSprite ="GFX_closebutton2"
+                   clicksound = close_window
+                   shortcut = "n"
+           }
+   }
+
 	
 		### HISTORY WINDOW
 		windowType = {
@@ -3663,6 +3751,12 @@ guiTypes = {
 			maxHeight = 20
 			fixedsize = yes
 		}
+
+    iconType = {
+      name = "culture_acceptance_icon"
+      position = { x = 252 y = 8 }
+      spriteType = "GFX_cultural_acceptance"
+    }
 		
 		instantTextBoxType = {
 			position = { x = 310 y = 9 }
@@ -4257,6 +4351,18 @@ guiTypes = {
 				fixedsize = yes
 			}			
 		
+    instantTextBoxType = {
+        name = "trading_city_text"
+        position = { x = 42 y = 250 }
+        textureFile = ""
+        font = "vic_18"
+        text = ""
+        maxWidth = 440
+        maxHeight = 150
+        format = left
+        fixedsize = yes
+      }
+
 		guiButtonType = {
 			name = "DeclineButton"
 			position = { x=80 y =424}
@@ -5785,4 +5891,83 @@ guiTypes = {
 			text = "2000¤"	
 		}
 	}
+
+  windowType =
+  {
+          name = "province_institution_entry"
+          backGround=""
+          position = { x=0 y=0 }
+          size = { x=64 y= 57 }
+          moveable = 0
+          dontRender = ""
+          horizontalBorder= ""
+          verticalBorder= ""
+          fullScreen = n
+
+          iconType =
+          {
+                  name ="icon"
+                  spriteType = "GFX_estates_icons"
+                  position = { x= -2 y = 0 }
+          }
+
+          iconType =
+          {
+                  name ="highlight"
+                  spriteType = "GFX_highlight_frame"
+                  position = { x= -2 y = 0 }
+          }
+
+          iconType =
+          {
+                  name ="progress"
+                  spriteType = "GFX_province_institution_progress"
+                  position = { x = 59 y = 24 }
+                  Orientation = "UPPER_LEFT"
+          }
+
+          iconType =
+          {
+                  name ="power_progress_frame"
+                  spriteType = "GFX_promote_investments_progress_frame"
+                  position = { x = 45 y = 21 }
+          }
+
+          instantTextBoxType = {
+                  name = "progress_label"
+                  position = { x = 72 y = 23}
+                  textureFile = ""
+                  font = "vic_22s"
+                  borderSize = {x = 2 y = 2}
+                  text = "..."
+                  maxWidth = 180
+                  maxHeight = 20
+                  format = center
+          }
+
+          instantTextBoxType = {
+                  name = "name"
+                  position = { x = 48 y = -2}
+                  textureFile = ""
+                  font = "vic_22s"
+                  borderSize = {x = 2 y = 2}
+                  text = "..."
+                  maxWidth = 180
+                  maxHeight = 20
+                  format = left
+          }
+
+          instantTextBoxType = {
+                  name = "growth_per_month"
+                  position = { x = 178 y = 1}
+                  textureFile = ""
+                  font = "vic_18"
+                  borderSize = {x = 2 y = 2}
+                  text = "+1 per month"
+                  maxWidth = 110
+                  maxHeight = 20
+                  format = right
+          }
+  }
+
 }

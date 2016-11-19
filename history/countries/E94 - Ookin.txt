@@ -1,6 +1,6 @@
 # Grummle
 government 			= war_tribe
-mercantilism 		= 0.1 
+mercantilism 		= 10 
 technology_group 	= tech_primitive
 religion			= religion_celestial
 primary_culture 	= culture_mountain_hozen

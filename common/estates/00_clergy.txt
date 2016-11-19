@@ -983,6 +983,7 @@ estate_clergy =
 				limit = {
 					OR = {
 						religion = religion_tech
+						religion = religion_greed
 					}
 				}
 				
@@ -1043,6 +1044,7 @@ estate_clergy =
                         religion = religion_voodoo
                         religion = religion_ancestral
                         religion = religion_titan
+                        religion = religion_titan_corrupt
                         religion = religion_mystery_of_the_makers
                         religion = religion_elune
                         religion = religion_sect_of_dragons

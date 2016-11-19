@@ -1,24 +1,26 @@
 # 749
 is_city = no
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
+owner = B76
+controller = B76
+add_core = B76
 
-culture = culture_earthen
-religion = religion_titan
-
-
+culture = culture_iron
+religion = religion_old_gods
 
 hre = no
 trade_goods = artifacts
 
 
-
-
 # The Third War
 617.1.1 = { 
+base_tax = 2
+base_manpower = 2
+base_production = 2
 owner = F38
 controller = F38
 add_core = F38

@@ -1,6 +1,6 @@
 # Menethil
 government 			= militaristic_republic
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_human 
 religion			= religion_church_of_the_light
 primary_culture 	= culture_lordaeron
@@ -15,8 +15,4 @@ capital 			= 1055
 		dip = 3	
 		mil = 3	
 	}
-add_country_modifier = {
-    name = alliance_member
-    duration = -1
-}  
-} 
+}

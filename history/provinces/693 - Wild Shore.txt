@@ -25,5 +25,5 @@ owner = A15
 controller = A15
 add_core = A15
 culture = culture_kul_tiran
-religion = religion_church_of_the_light 
+religion = religion_shadow
 }

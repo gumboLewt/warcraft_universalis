@@ -1,13 +1,13 @@
 # Dragonmaw
 government 			= warband_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_orc
 religion			= religion_fel
 primary_culture 	= culture_fel_orc
 capital 			= 1672
 
 
-617.1.1 = { 
+601.1.1 = { 
 	monarch = { 
 		name = "Zuluhed" 
 		dynasty = "the Whacked" 

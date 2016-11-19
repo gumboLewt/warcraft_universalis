@@ -15,11 +15,16 @@ religion = religion_ancestral
 hre = no
 trade_goods = artifacts
 
+592.1.1 = {
+religion = religion_fel
+}
+
 #Outland
 601.1.1 = {
 	add_core = B85
 	owner = B85
 	controller = B85
+  remove_core = A45
 	culture = culture_ghost
 	religion = religion_old_gods
 	base_tax = 2

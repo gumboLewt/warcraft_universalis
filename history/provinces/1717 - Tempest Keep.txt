@@ -12,10 +12,20 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = arcane
 
-622.1.1 = {
+592.1.1 = {
+add_core = A43
+owner = A43
+controller = A43
+remove_core = A54
+religion = religion_fel
+culture = culture_twilights_hammer
+}
+
+617.1.1 = {
 owner = A54
 controller = A54
 add_core = A54
+remove_core = A43
 culture = culture_karaborian
 religion = religion_light_of_the_naaru
 base_tax = 6

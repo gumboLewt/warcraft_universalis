@@ -5,7 +5,7 @@ controller = B21
 add_core = B21
 
 culture = culture_gelkis
-religion = religion_ancestral
+religion = religion_earth
 
 is_city = no
 

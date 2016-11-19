@@ -13,6 +13,19 @@ base_production = 1
 hre = no
 trade_goods = grain
 
+617.1.1 = {
+  owner = A84
+  controller = A84
+  add_core = A84
+  culture = culture_bloodhoof
+  religion = religion_ancestral
+}
 
-
-
+618.1.1 = {
+	owner = B68
+	controller = B68
+	add_core = B68
+  remove_core = A84
+	culture = culture_bristleback
+	religion = religion_geomancy
+}

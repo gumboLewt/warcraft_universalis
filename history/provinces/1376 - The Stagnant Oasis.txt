@@ -15,6 +15,15 @@ religion = religion_ancestral
 hre = no
 trade_goods = fish
 
+605.1.1 = {
+  owner = B21
+  controller = B21
+  add_core = B21
+  remove_core = A89
+  culture = culture_gelkis
+  religion = religion_earth
+}
+
 617.1.1 = {
     base_tax = 3
     base_manpower = 3
@@ -33,7 +42,7 @@ trade_goods = fish
     controller = B18
     add_core = B18
     culture = culture_palemane
-    religion = religion_ancestral
+    religion = religion_geomancy
     capital = "Palemane Landing"
 }
 

@@ -1,6 +1,6 @@
 # Wormwing
 government 			= religious_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_harpy
 religion			= religion_druidic
 primary_culture 	= culture_wormwing

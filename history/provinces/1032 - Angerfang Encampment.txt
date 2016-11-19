@@ -7,7 +7,7 @@ owner = B13
 controller = B13
 
 culture = culture_mosshide
-religion = religion_ancestral
+religion = religion_geomancy
 
 base_tax = 2
 base_manpower = 2

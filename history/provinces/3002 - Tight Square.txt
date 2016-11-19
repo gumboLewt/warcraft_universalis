@@ -23,6 +23,7 @@ trade_goods = army_supplies
 	add_claim = A64
 	add_claim = A51 
 	culture = culture_alterac
+  religion = religion_shadow
 }
 
 # Warlords of Draenor

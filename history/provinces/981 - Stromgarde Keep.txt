@@ -24,7 +24,7 @@ trade_goods = silk
 	add_claim = A26
 	add_core = A64
 	culture = culture_witherbark
-    religion = religion_loa
+    religion = religion_voodoo
 }
 
 # Warlords of Draenor

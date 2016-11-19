@@ -4,14 +4,13 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
+owner = B69
+controller = B69
+add_core = B69
 
-owner = A84
-controller = A84
-add_core = A84
 
-
-culture = culture_bloodhoof
-religion = religion_ancestral
+culture = culture_razormane
+religion = religion_geomancy
 
 hre = no
 trade_goods = grain

@@ -22,7 +22,6 @@ owner = A78
 controller = A78
 add_core = A78
 remove_core = F03
-religion = religion_loa
 culture = culture_zandalari
 }
 

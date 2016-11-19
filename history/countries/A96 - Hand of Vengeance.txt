@@ -1,15 +1,7 @@
 # Hand of Vengeance
 government 			= expeditionary_force
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_undead
 religion			= religion_forgotten_shadow
 primary_culture 	= culture_forsaken
 capital 			= 714
-
-626.1.1 = {
-add_country_modifier = {
-    name = horde_member
-    duration = -1
-}
-}
-

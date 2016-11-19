@@ -63,970 +63,816 @@
 # support_heir
 
 offer_condottieri = {
-    
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 sell_ships_action = {
-    
+
 }
 
 designate_march = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
-
 ask_for_march = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 support_heir = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 
 ask_for_protection_action = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 protectorateaction = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 invite_to_federation = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 request_to_join_federation = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 transfer_trade_power = {
-    
+
 }
 
 enforce_peace = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 sellprov = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 warsubsidy = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 callaction = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 offermilaccess = {
-    
+
 }
 
 offer_fleet_access = {
-    
+
 }
 
 milaccess = {
-    
+
 }
 
 fleet_access = {
-    
+
 }
 
 support_independence_action = {
-    
+
 }
 
 vassalaction = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 royal_marriage = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 improve_relation = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-           ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 guaranteeaction = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-            ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 allianceaction = {
-    condition = {
-		potential = { 
-            ROOT = {
-		        is_civilized = yes
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    is_civilized = yes
-                }
-                FROM = {
-                    is_civilized = yes
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
-    condition = {
-		potential = { 
-            ROOT = {
-		        OR = {
-                    is_lesser = yes
-                    is_savage = yes
-                }
-            }
-		}
-		allow = {
-            hidden_trigger = {
-                ROOT = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-                FROM = {
-                    OR = {
-                        is_lesser = yes
-                        is_savage = yes
-                    }
-                }
-            }
-            custom_trigger_tooltip = {
-                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-            }
-		}
-	}
+  condition = {
+    potential = {
+      ROOT = {
+        is_good = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_good = yes
+        }
+        FROM = {
+          is_good = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        is_evil = yes
+      }
+    }
+    allow = {
+      hidden_trigger = {
+        ROOT = {
+          is_evil = yes
+        }
+        FROM = {
+          is_evil = yes
+        }
+      }
+      custom_trigger_tooltip = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+      }
+    }
+  }
 }
 
 declarewar = {
-	condition = {
-		potential = { 
-		   ROOT = {
-		        has_country_modifier = alliance_member
-		   }
-		}
-		allow = {
-		   NOT = { 
-			 FROM = {
-		        has_country_modifier = alliance_member
-		     }
-		   }    
-		}
-	}
-	condition = {
-		potential = { 
-		   ROOT = {
-		        has_country_modifier = horde_member
-		   }
-		}
-		allow = {
-		   NOT = { 
-			 FROM = {
-		        has_country_modifier = horde_member
-		     }
-		   }    
-		}
-	}
-	condition = {
-		potential = { 
-		   ROOT = {
-				has_country_modifier = horde_member
-				ai = yes
-		    }
-		}
-		allow = {
-		   NOT = { 
-			 FROM = {
-		        has_country_modifier = neutral_member
-		     }
-		    }    
-		}
-	}
-	condition = {
-		potential = { 
-		   ROOT = {
-				has_country_modifier = alliance_member
-				ai = yes
-		    }
-		}
-		allow = {
-		   NOT = { 
-			 FROM = {
-		        has_country_modifier = neutral_member
-		     }
-		    }    
-		}
-	}
-	condition = {
-		potential = { 
-		   ROOT = {
-				has_country_modifier = neutral_member
-		    }
-		}  		
-		allow = {
-		   NOT = { 
-			 FROM = {
-				has_country_modifier = horde_member
-		     } 
-		   }    
-		}
+  condition = {
+    potential = {
+      ROOT = {
+        has_country_modifier = alliance_member
+      }
     }
-	condition = {
-		potential = { 
-		   ROOT = {
-				has_country_modifier = neutral_member
-		    }
-		}  		
-		allow = {
-		   NOT = { 
-			 FROM = {
-				has_country_modifier = alliance_member
-		     } 
-		   }    
-		}
+    allow = {
+      NOT = {
+        FROM = {
+          OR = {
+            has_country_modifier = alliance_member
+            has_country_modifier = neutral_member
+          }
+        }
+      }
     }
-	condition = {
-		potential = { 
-		   ROOT = {
-				has_country_modifier = neutral_member
-		    }
-		}  		
-		allow = {
-		   NOT = { 
-			 FROM = {
-				has_country_modifier = neutral_member
-		     } 
-		   }    
-		}
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        has_country_modifier = horde_member
+      }
     }
+    allow = {
+      NOT = {
+        FROM = {
+          OR = {
+            has_country_modifier = horde_member
+            has_country_modifier = neutral_member
+          }
+        }
+      }
+    }
+  }
+  condition = {
+    potential = {
+      ROOT = {
+        has_country_modifier = neutral_member
+      }
+    }
+    allow = {
+      NOT = {
+        FROM = {
+          OR = {
+            has_country_modifier = alliance_member
+            has_country_modifier = horde_member
+            has_country_modifier = neutral_member
+          }
+        }
+      }
+    }
+  }
 }

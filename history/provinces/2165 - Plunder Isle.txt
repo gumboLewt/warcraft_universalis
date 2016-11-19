@@ -24,6 +24,6 @@ trade_goods = pirates
     owner = A15
     controller = A15
     add_core = A15
-    religion = religion_church_of_the_light
+    religion = religion_shadow
     culture = culture_kul_tiran
 }

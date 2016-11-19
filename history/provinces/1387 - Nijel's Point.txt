@@ -10,7 +10,7 @@ controller = B24
 add_core = B24
 
 culture = culture_kolkar
-religion = religion_ancestral
+religion = religion_geomancy
 
 hre = no
 trade_goods = artifacts

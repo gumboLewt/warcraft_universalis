@@ -34,6 +34,6 @@ trade_goods = fish
 	add_core = A15
 	remove_core = E52
 	culture = culture_kul_tiran
-	religion = religion_church_of_the_light
+	religion = religion_shadow
 	trade_goods = pirates
 }

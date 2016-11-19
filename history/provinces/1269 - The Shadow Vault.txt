@@ -36,7 +36,7 @@ trade_goods = artifacts
 	owner = E13
 	controller = E13
 	add_core = E13
-	religion = religion_shadow
+	religion = religion_forgotten_shadow
 	culture = culture_death_knight 
 }
 

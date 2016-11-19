@@ -17,8 +17,6 @@ trade_goods = saronite
 owner = B86
 controller = B86
 add_core = B86
+remove_core = B45
+culture = culture_ooze
 }
-
-
-
-

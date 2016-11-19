@@ -1,6 +1,6 @@
 # Exiles
 government 			= mercantile_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_arrakoa
 religion			= religion_terokk
 primary_culture 	= culture_exiles

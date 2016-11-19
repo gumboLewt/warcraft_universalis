@@ -1,6 +1,6 @@
 # Blasted Lands naga
 government 			= administrative_kingdom
-mercantilism 		= 0.1 
+mercantilism 		= 10 
 technology_group 	= tech_naga
 religion			= religion_water
 capital = 1

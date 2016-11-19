@@ -10,7 +10,7 @@ controller = A81
 add_core = A81
 
 culture = culture_venture
-religion = religion_tech
+religion = religion_greed
 
 hre = no
 trade_goods = grain

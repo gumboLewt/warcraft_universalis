@@ -24,6 +24,7 @@ trade_goods = fur
 owner = E30
 controller = E30
 add_core = E30
+remove_core = B45
 culture = culture_lordaeron
 religion = religion_church_of_the_light 
 }

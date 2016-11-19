@@ -15,8 +15,14 @@ religion = religion_arcane
 hre = no
 trade_goods = artifacts
 
-
-
+617.1.1 = {
+  owner = E11
+  controller = E11
+  add_core = E11
+  remove_core = E72
+  culture = culture_scourge
+  religion = religion_the_damned
+}
 
 626.1.1 = {
 	capital = "Violet Stand" 

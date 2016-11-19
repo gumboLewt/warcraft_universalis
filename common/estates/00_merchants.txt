@@ -296,7 +296,7 @@ estate_merchants =
 				loyalty = -10
 			}
 			
-			add_mercantilism = 0.01
+			add_mercantilism = 5
 		}
 		
 		ai_will_do = {

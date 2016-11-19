@@ -9,7 +9,7 @@ base_manpower = 3
 base_production = 3
 
 culture = culture_amani
-religion = religion_loa
+religion = religion_voodoo
 
 capital = "Ironwood Lumber Mill"
  

@@ -10,7 +10,7 @@ controller = B20
 add_core = B20
 
 culture = culture_galak
-religion = religion_ancestral
+religion = religion_air
 
 hre = no
 trade_goods = mounts
@@ -20,4 +20,6 @@ trade_goods = mounts
 	owner = F88
 	controller = F88
 	add_core = F88
+  culture = culture_thunderhorn
+  religion = religion_ancestral
 }

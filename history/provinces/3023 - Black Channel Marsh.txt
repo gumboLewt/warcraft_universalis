@@ -42,5 +42,5 @@ add_core = B13
 owner = B13
 controller = B13
 culture = culture_mosshide
-religion = religion_ancestral
+religion = religion_geomancy
 }

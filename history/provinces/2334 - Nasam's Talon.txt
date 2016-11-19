@@ -13,6 +13,11 @@ religion = religion_geomancy
 hre = no
 trade_goods = grain
 
-
-
-
+626.1.1 = {
+remove_core = B60
+owner = B10
+controller = B10
+add_core = B10
+culture = culture_skadir
+religion = religion_water
+}

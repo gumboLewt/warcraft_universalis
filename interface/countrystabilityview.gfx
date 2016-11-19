@@ -457,6 +457,13 @@ spriteTypes = {
 		size = { x = 61 y = 17 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
+
+  spriteType = {
+          name = "GFX_tab_subjects"
+          texturefile = "gfx//interface//tab_domestic_subject.tga"
+          noOfFrames = 2
+          loadType = "INGAME"
+  }
 	
 	spriteType = {
 		name = "GFX_icon_unjustified_demands"
@@ -471,11 +478,17 @@ spriteTypes = {
 		loadType = "INGAME"
 		
 	}		
+
 	spriteType = {
 		name = "GFX_icon_development_efficiency"
-		texturefile = "gfx//interface//ideas_EU4//administrative_efficiency.tga"
+		texturefile = "gfx//interface//development_icon.dds"
 		loadType = "INGAME"
-		
+	}
+
+	spriteType = {
+		name = "GFX_icon_accepted_cultures"
+		texturefile = "gfx//interface//accepted_cultures.dds"
+		loadType = "INGAME"
 	}
 
 	spriteType = {

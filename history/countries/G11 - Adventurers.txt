@@ -1,7 +1,7 @@
 # Marshal's Expedition
 government 			= expeditionary_force
 government_rank 	= 1
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_human
 religion			= religion_church_of_the_light
 primary_culture 	= culture_azerothian

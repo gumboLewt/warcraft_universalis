@@ -15,8 +15,9 @@ religion = religion_titan
 hre = no
 trade_goods = fish
 
-
-
+615.1.1 = {
+religion = religion_the_damned
+}
 
 626.1.1 = { 
 add_core = F18

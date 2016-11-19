@@ -1,6 +1,6 @@
 # Warsong
 government 			= warband_gov
-mercantilism 		= 0.1 
+mercantilism 		= 10 
 technology_group 	= tech_orc
 religion			= religion_ancestral
 primary_culture 	= culture_warsong
@@ -36,10 +36,6 @@ remove_country_modifier = horde_member
 617.1.1 = { 
 historical_friend = A48
 capital = 1420
-add_country_modifier = {
-    name = horde_member
-    duration = -1
-}
 }
 
 618.1.1 = {

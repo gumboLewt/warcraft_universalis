@@ -1,10 +1,10 @@
 # Thistlefur
 government 			= religious_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_furbolg
 religion			= religion_druidic
 primary_culture 	= culture_thistlefur
-capital 			= 1
+capital 			= 2228
 
 546.1.1 = { 
 monarch = { 

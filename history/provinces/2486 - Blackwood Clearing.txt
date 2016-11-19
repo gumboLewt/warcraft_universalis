@@ -1,14 +1,15 @@
 is_city = yes
-owner = B76
-controller = B76
-add_core = B76
+
+owner = B46
+controller = B46
+add_core = B46
 
 base_tax = 2
 base_manpower = 2
 base_production = 2
 
 
-culture = culture_iron
+culture = culture_redfang
 religion = religion_old_gods
 
 hre = no

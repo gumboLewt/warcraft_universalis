@@ -1,6 +1,6 @@
 # Maraudon
 government 			= cult_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_titan
 religion			= religion_earth
 primary_culture 	= culture_earth

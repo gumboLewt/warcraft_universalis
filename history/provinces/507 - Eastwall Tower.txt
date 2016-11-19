@@ -8,7 +8,7 @@ owner = B12
 controller = B12
 
 culture = culture_blackpaw
-religion = religion_ancestral
+religion = religion_geomancy
 
 base_tax = 1
 base_manpower = 2
@@ -40,7 +40,7 @@ trade_goods = army_supplies
 	add_core = A62
 	owner = A62
 	controller = A62
-	religion = religion_loa
+	religion = religion_voodoo
 	culture = culture_mossflayer 
 	remove_core = A08
 	remove_core = A10

@@ -22,7 +22,6 @@ add_core = F57
 add_core = A94
 add_core = F89
 culture = culture_stonemaul
-religion = religion_geomancy
 capital = "Stonemaul Hold"
 }
 

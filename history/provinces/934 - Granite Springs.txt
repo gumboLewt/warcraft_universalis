@@ -46,7 +46,10 @@ add_core = F39
 }
 
 631.1.1 = {
-owner = xxx
-controller = xxx
+owner = B86
+controller = B86
+add_core = B86
 remove_core = F39
+culture = culture_ooze
+religion = religion_old_gods
 }

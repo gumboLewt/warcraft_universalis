@@ -21,6 +21,6 @@ trade_goods = gold
 	controller = B12
 	add_core = B12
 	culture = culture_blackpaw
-	religion = religion_ancestral
+	religion = religion_geomancy
 	remove_core = A90
 }

@@ -1,6 +1,6 @@
 # Ulduar
 government 			= administrative_kingdom
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_titan
 religion			= religion_old_gods
 primary_culture 	= culture_iron
@@ -8,14 +8,27 @@ add_accepted_culture = culture_mecha_gnome
 capital 			= 782
 government_rank = 1
 
-546.1.1 = { 
-	monarch = { 
-		name = "Loken" 
-		dynasty = "Kronus" 
-		adm = 3
-		dip = 5
-		mil = 2
-        birth_date = 100.1.1
-        death_date = 1000.1.1          
-	} 
+546.1.1 = {
+  monarch = {
+  name = "Loken"
+  dynasty = "Kronus"
+  adm = 3
+  dip = 5
+  mil = 2
+  birth_date = 100.1.1
+  death_date = 1000.1.1
+  }
+}
+
+631.1.1 = {
+  monarch = {
+  name = "Thorim"
+  dynasty = "Kronus"
+  adm = 3
+  dip = 3
+  mil = 4
+  birth_date = 100.1.1
+  death_date = 1000.1.1
+  }
+  religion = religion_titan
 }

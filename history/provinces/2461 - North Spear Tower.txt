@@ -4,13 +4,16 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
+owner = B09
+controller = B09
+add_core = B09
 
-culture = noculture
-religion = noreligion
+culture = culture_winterskorn
+religion = religion_titan
 
 hre = no
 trade_goods = grain
 
-
-
-
+615.1.1 = {
+religion = religion_the_damned
+}

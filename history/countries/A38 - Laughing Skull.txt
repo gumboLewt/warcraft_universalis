@@ -1,7 +1,18 @@
 # Laughing Skull
 government 			= warband_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_orc
 primary_culture 	= culture_laughing_skull
-religion			= religion_fel
+religion			= religion_ancestral
 capital 			= 1
+
+592.1.1 = {
+monarch = {
+name = "Mogor"
+dynasty = "the Ogre"
+adm = 2
+dip = 3
+mil = 2
+}
+religion = religion_fel
+}

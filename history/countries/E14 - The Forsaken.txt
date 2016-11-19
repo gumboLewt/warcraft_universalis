@@ -1,6 +1,6 @@
 # The Forsaken
 government 			= militaristic_kingdom
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_undead
 religion			= religion_forgotten_shadow
 primary_culture 	= culture_forsaken
@@ -41,4 +41,11 @@ capital 			= 931
 		name = horde_member
 		duration = -1
 	}
+}
+
+635.1.1 = {
+  add_country_modifier = {
+    name = horde_head
+    duration = -1
+  }
 }

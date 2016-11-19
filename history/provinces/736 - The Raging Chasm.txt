@@ -42,7 +42,7 @@ owner = B15
 controller = B15
 add_core = B15
 culture = culture_riverpaw
-religion = religion_ancestral
+religion = religion_geomancy
 }
 
 

@@ -5,7 +5,7 @@ owner = E67
 controller = E67
 add_core = E67
 culture = culture_gormali
-religion = religion_titan
+religion = religion_titan_corrupt
 
 base_tax = 3
 base_manpower = 3

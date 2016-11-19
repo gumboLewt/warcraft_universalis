@@ -27,28 +27,21 @@ religion = religion_the_damned
 
 618.1.1 = {
 remove_core = E11
-owner = xxx
-controller = xxx
+owner = B34
+controller = B34
+add_core = B34
 culture = culture_nerglish
 religion = religion_water
 is_city = no
 }
 
-625.11.11 = {
-owner = xxx
-controller = xxx
-culture = culture_nerglish
-religion = religion_water
-is_city = no
-}
-
-
-626.1.1 = { 
+626.1.1 = {
 owner = B08
 controller = B08
 add_core = B08
+remove_core = B34
 culture = culture_dragonflayer
-religion = religion_the_damned 
+religion = religion_the_damned
 }
 
 

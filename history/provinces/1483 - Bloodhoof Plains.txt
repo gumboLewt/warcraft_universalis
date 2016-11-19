@@ -16,10 +16,11 @@ trade_goods = fur
 
 
 618.1.1 = { 
-owner = A84
-controller = A84
-add_core = A84
+owner = F88
+controller = F88
+add_core = F88
 culture = culture_bloodhoof
+religion = religion_ancestal
 }
 
 622.1.1 = { 
@@ -28,6 +29,7 @@ controller = B18
 add_core = B18
 remove_core = A84
 culture = culture_palemane
+religion = religion_geomancy
 capital = "Palemane Rock"
 base_tax = 3
 base_manpower = 3

@@ -1,6 +1,6 @@
 # Highvale 
 government 			= dictatorship_gov 
-mercantilism 		= 0.1 
+mercantilism 		= 10 
 technology_group 	= tech_thalassian
 religion			= religion_church_of_the_light 
 primary_culture 	= culture_high_elf 

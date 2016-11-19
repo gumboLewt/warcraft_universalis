@@ -1,8 +1,8 @@
 # 880 Amberpine Woods
 is_city = yes
-owner = B45
-controller = B45
-add_core = B45
+owner = E32
+controller = E32
+add_core = E32
 capital = "Amberpine Hold"
 
 base_tax = 3
@@ -10,13 +10,11 @@ base_manpower = 3
 base_production = 3
 
 
-culture = culture_frostpaw
-religion = religion_old_gods
+culture = culture_lordaeron
+religion = religion_church_of_the_light
 
 hre = no
 trade_goods = fur
-
-
 
 
 # Rise of the Qiraji

@@ -53,5 +53,5 @@ trade_goods = fur
 	add_core = B94
 	remove_core = F20 
 	culture = culture_wretched
-	religion = religion_arcane
+	religion = religion_shadow
 }

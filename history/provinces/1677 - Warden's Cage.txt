@@ -14,8 +14,14 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = army_supplies
 
-
-
+592.1.1 = {
+add_core = B88
+remove_core = A55
+owner = B88
+controller = B88
+religion = religion_fel
+culture = culture_horde
+}
 
 #Outland
 601.1.1 = {
@@ -31,8 +37,8 @@ controller = B87
 add_core = B87
 add_core =  E02
 remove_core = B89
-culture = culture_vashjari
-religion = religion_old_gods
+culture = culture_illidari
+religion = religion_fel
 }
 
 # Rise of the Qiraji

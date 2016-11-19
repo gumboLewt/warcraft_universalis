@@ -1,5 +1,5 @@
-# 2051 - Windyreed Village
 is_city = yes
+# 2051 - Windyreed Village
 
 base_tax = 3
 base_manpower = 3
@@ -15,10 +15,15 @@ religion = religion_ancestral
 hre = no
 trade_goods = fish
 
+592.1.1 = {
+religion = religion_fel
+}
+
 #Outland
 601.1.1 = {
 	owner = F86
 	controller = F86
 	add_core = F86
 	culture = culture_lost_one
+  religion = religion_geomancy
 }

@@ -24,7 +24,7 @@ add_core = E52
 owner = B19
 controller = B19
 culture = culture_rothide
-religion = religion_ancestral
+religion = religion_geomancy
 remove_core = A08
 }
 

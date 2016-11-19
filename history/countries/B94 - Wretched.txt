@@ -1,8 +1,8 @@
 # Wretched
 government			= religious_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_thalassian
-religion			= religion_arcane
+religion			= religion_shadow
 primary_culture 	= culture_wretched
 capital 			= 2988
 

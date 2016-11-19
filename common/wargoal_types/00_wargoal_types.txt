@@ -444,6 +444,7 @@ take_core = {
 		}
 		
 		po_demand_provinces = yes
+		po_return_cores = yes
 		
 		prov_desc = ALL_CORES
 	}
@@ -458,6 +459,7 @@ take_core = {
 		}
 		
 		po_demand_provinces = yes
+		po_return_cores = yes
 		
 		prov_desc = ALL_CORES	
 	}

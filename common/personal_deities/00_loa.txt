@@ -7,7 +7,12 @@ diety_shadra =
 	production_efficiency = 0.15
 	###discovered_relations_impact = -0.1 # Until we find a way to resize this religion window (looks bad)
 	
-	allow = { religion = religion_loa }
+	allow = {
+    OR = {
+      religion = religion_loa
+      religion = religion_voodoo
+    }
+  }
 	sprite = 17
 	
 	ai_will_do = {
@@ -30,7 +35,12 @@ diety_gahzrilla =
 	trade_efficiency = 0.15
 	###core_creation = -0.1
 	
-	allow = { religion = religion_loa }
+	allow = {
+    OR = {
+      religion = religion_loa
+      religion = religion_voodoo
+    }
+  }
 	sprite = 18
 	
 	ai_will_do = {

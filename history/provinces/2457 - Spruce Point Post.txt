@@ -12,6 +12,10 @@ religion = religion_old_gods
 hre = no
 trade_goods = grain
 
-
-
-
+631.1.1 = {
+owner = B86
+controller = B86
+add_core = B86
+remove_core = B45
+culture = culture_ooze
+}

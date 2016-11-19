@@ -10,7 +10,7 @@ base_manpower = 3
 base_production = 3
 
 culture = culture_mosshide
-religion = religion_ancestral
+religion = religion_geomancy
 
 hre = no
 trade_goods = fish
@@ -30,7 +30,7 @@ trade_goods = fish
 	controller = B13
 	remove_core = A43
 	culture = culture_mosshide
-	religion = religion_ancestral
+	religion = religion_geomancy
 }
 
 # Cataclysm

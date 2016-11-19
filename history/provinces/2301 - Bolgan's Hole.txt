@@ -9,7 +9,7 @@ controller = B21
 add_core = B21
 
 culture = culture_gelkis
-religion = religion_ancestral
+religion = religion_earth
 
 hre = no
 trade_goods = grain

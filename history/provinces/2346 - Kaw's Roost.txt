@@ -13,6 +13,11 @@ religion = religion_geomancy
 hre = no
 trade_goods = grain
 
-
-
-
+626.1.1 = {
+  owner = B01
+  controller = B01
+  add_core = B01
+  remove_core = B81
+  culture = culture_blue
+  religion = religion_sect_of_dragons
+}

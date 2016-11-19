@@ -20,7 +20,12 @@ trade_goods = fur
     add_core = G36
 }
 
-
-
-
-
+626.1.1 = {
+  owner = B48
+  controller = B48
+  owner = B48
+  remove_core = G36
+  remove_core = B55
+  culture = culture_frenzyheart
+  religion = religion_primitive
+}

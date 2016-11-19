@@ -18,6 +18,7 @@ trade_goods = fur
 626.1.1 = { 
 add_core = E11
 owner = E11
+controller = E11
 base_tax = 3
 base_manpower = 3
 base_production = 3

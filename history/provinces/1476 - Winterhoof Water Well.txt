@@ -10,15 +10,15 @@ controller = B20
 add_core = B20
 
 culture = culture_galak
-religion = religion_ancestral
+religion = religion_air
 
 hre = no
 trade_goods = grain
 
 618.1.1 = { 
-	owner = A89
-	controller = A89
-	add_core = A89
+	owner = F88
+	controller = F88
+	add_core = F88
 	culture = culture_winterhoof
 	religion = religion_ancestral
 }
@@ -27,9 +27,8 @@ trade_goods = grain
 owner = A81
 controller = A81
 add_core = A81
-add_core = F88
 culture = culture_venture
-religion = religion_tech
+religion = religion_greed
 base_tax = 2
 base_manpower = 1
 base_production = 3

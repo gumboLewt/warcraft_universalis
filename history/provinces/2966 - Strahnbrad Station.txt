@@ -33,7 +33,7 @@ trade_goods = mounts
 	controller = B14
 	add_core = B14
 	culture = culture_mudsnout
-	religion = religion_ancestral
+	religion = religion_geomancy
 }
 
 # The Frozen Throne
@@ -55,7 +55,7 @@ trade_goods = mounts
 	add_core = E14
 	remove_core = E52
 	culture = culture_alterac
-	religion = religion_church_of_the_light
+	religion = religion_shadow
 }
 
 # Cataclysm

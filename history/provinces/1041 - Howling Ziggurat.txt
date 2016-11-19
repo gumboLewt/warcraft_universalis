@@ -6,7 +6,7 @@ add_core = A90
 owner = A59
 controller = A59
 culture = culture_shadowpine
-religion = religion_loa
+religion = religion_voodoo
 
 base_tax = 2
 base_manpower = 2

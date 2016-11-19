@@ -7,6 +7,38 @@
 # FIXED STATE, RECALCULATED EVERY UPDATE
 ############################################
 
+great_power_1 = {
+  power = 25
+}
+
+great_power_2 = {
+  power = 22
+}
+
+great_power_3 = {
+  power = 20
+}
+
+great_power_4 = {
+  power = 18
+}
+
+great_power_5 = {
+  power = 16
+}
+
+great_power_6 = {
+  power = 14
+}
+
+great_power_7 = {
+  power = 12
+}
+
+great_power_8 = {
+  power = 10
+}
+
 subsidies_to_enemy_of_rival = {
 	power = 50		# multiplied with percentage of income given.
 	max = 50

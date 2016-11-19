@@ -9,13 +9,13 @@ light_of_the_sunwell_rebels = {
 
 	color = { 156 218 8  }
 
-	area = nation 					# Sticks to provinces of their nation
+	area = nation_religion
 	government = theocracy 			# Desires Theocracy
 	religion = religion_light_of_the_sunwell
-	defection = none				# Will not defect
-	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
-	independence = none				# Does not strive for independence
-	unit_transfer = no
+	defection = religion
+	independence = religion
+	defect_delay = 60
+	unit_transfer = yes
 	gfx_type = culture_province
 	will_relocate = yes	
 	
@@ -163,39 +163,10 @@ light_of_the_sunwell_rebels = {
  
  	# Province Scope
  	siege_won_trigger = {
-		NOT = {
-            is_capital = yes
-		}
+		NOT = { is_capital = yes }
  	}
 	siege_won_effect = {
-		custom_tooltip = religious_rebels_seige_effect_tooltip
-		hidden_effect = {
-			if = {
-				limit = {
-					OR = {
-						religion = religion_light_of_the_sunwell
-						is_reformation_center = yes
-						owner = { religion = religion_light_of_the_sunwell }
-					}
-				}
-				add_province_modifier = {
-					name = "religious_violence"
-					duration = 730
-				}
-			}
-			if = {
-				limit = {
-					NOT = { religion = religion_light_of_the_sunwell }
-					is_reformation_center = no
-					NOT = { owner = { religion = religion_light_of_the_sunwell } }
-				}
-				change_religion = religion_light_of_the_sunwell
-				add_province_modifier = {
-					name = "forced_conversion"
-					duration = 730
-				}
-			}
-		}
+    add_local_autonomy = 20
 	}
 	
 	# Country scope
@@ -215,15 +186,31 @@ light_of_the_sunwell_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = religion_group_the_light }
+				NOT = { religion = religion_light_of_the_sunwell }
 			}
-			add_prestige = -50
-			every_owned_province = {
-				limit = {
-					has_rebel_faction = REB
-				}
-				add_local_autonomy = 20
-			}
+			add_prestige = -20
+      if = {
+        limit = { exists = REB }
+        every_owned_province = {
+          limit = { religion = religion_light_of_the_sunwell }
+          if = {
+            limit = { NOT = { is_core = REB } }
+            add_core = REB
+          }
+          cede_province = REB
+        }
+      }
+      if = {
+        limit = { NOT = { exists = REB } }
+        every_owned_province = {
+          limit = {
+            religion = religion_light_of_the_sunwell
+            NOT = { is_core = REB }
+          }
+          add_core = REB
+        }
+        release_vassal = REB
+      }
 		}
 		if = {
 			limit = {
@@ -251,17 +238,6 @@ light_of_the_sunwell_rebels = {
 				duration = 3650
 				influence = 15
 			}
-		}
-		if = {
-			limit = {
-				OR = {
-					religion_group = religion_group_the_light
-					dominant_religion = religion_light_of_the_sunwell
-				}
-				NOT = { religion = religion_light_of_the_sunwell }
-			}
-			change_religion = religion_light_of_the_sunwell
-			force_converted = yes
 		}
 	}
 }

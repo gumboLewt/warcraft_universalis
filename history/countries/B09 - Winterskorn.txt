@@ -1,10 +1,14 @@
 # Winterskorn
 government 			= war_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_vrykul
-religion			= religion_the_damned
+religion			= religion_titan
 primary_culture 	= culture_winterskorn
 capital 		= 734
+
+615.1.1 = {
+religion = religion_the_damned
+}
 
 626.1.1 = { 
 monarch = { 
@@ -14,5 +18,5 @@ monarch = {
 		dip = 2
 		mil = 3 
 
- 	} 
- } 
+ 	}
+ }

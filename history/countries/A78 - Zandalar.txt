@@ -1,9 +1,8 @@
 # Zandalar
 government 			= militaristic_kingdom
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_troll
 religion			= religion_loa
-secondary_religion = religion_voodoo
 primary_culture 	= culture_zandalari
 capital 			= 2489
 
@@ -21,3 +20,7 @@ capital 			= 2489
 	} 
 
 } 
+
+631.1.1 = {
+  religion = religion_voodoo
+}

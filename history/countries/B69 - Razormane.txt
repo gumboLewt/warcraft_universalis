@@ -1,6 +1,6 @@
 # Razormane
 government 			= war_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_quillboar
 religion			= religion_geomancy
 primary_culture 	= culture_razormane

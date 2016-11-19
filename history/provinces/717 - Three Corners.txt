@@ -42,5 +42,5 @@ owner = B17
 controller = B17
 add_core = B17
 culture = culture_redridge
-religion = religion_ancestral 
+religion = religion_geomancy 
 }

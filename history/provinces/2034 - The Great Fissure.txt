@@ -16,6 +16,6 @@ hre = no
 trade_goods = fel_iron
 
 #Outland
-601.1.1 = {
+592.1.1 = {
 	religion = religion_fel
 }

@@ -1,10 +1,15 @@
 # Windyreed (Lost Ones)
 government 			= mercantile_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_draenei
 religion			= religion_ancestral
-primary_culture 	= culture_lost_one
+primary_culture 	= culture_broken
 capital 			= 2051
+
+601.1.1 = {
+culture = culture_lost_one
+religion = religion_geomancy
+}
 
 617.1.1 = { 
 monarch = { 

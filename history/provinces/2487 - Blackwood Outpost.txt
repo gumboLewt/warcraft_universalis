@@ -15,6 +15,10 @@ religion = religion_old_gods
 hre = no
 trade_goods = fur
 
-
-
-
+626.1.1 = {
+owner = H06
+controller = H06
+add_core = H06
+culture = culture_azerothian
+religion = religion_church_of_the_light
+}

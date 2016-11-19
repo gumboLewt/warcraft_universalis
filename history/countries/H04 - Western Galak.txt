@@ -1,8 +1,8 @@
 #Kolkar Mauraders
 government 			= warband_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_centaur
-religion			= religion_ancestral
+religion			= religion_geomancy
 primary_culture	 	= culture_kolkar
 capital 			= 1
 

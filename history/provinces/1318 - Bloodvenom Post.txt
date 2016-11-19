@@ -15,16 +15,15 @@ trade_goods = fish
 
 
 618.1.1 = {
-religion = religion_fel
 trade_goods = fel
 }
 
 622.1.1 = {
-owner = F88
-controller = F88
-add_core = F88
+owner = F91
+controller = F91
+add_core = F91
 remove_core = B40
-culture = culture_bloodhoof
+culture = culture_thunderhorn
 religion = religion_ancestral
 }
 

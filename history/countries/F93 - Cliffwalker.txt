@@ -1,7 +1,7 @@
 # Cliffwalker
 government 			= mercantile_tribe
 government_rank = 2
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_tauren
 religion			= religion_ancestral
 primary_culture 	= culture_cliffwalker
@@ -9,8 +9,8 @@ capital 			= 1362
 
 546.1.1 = {
 	monarch = {
-		name = "" 
-		dynasty = "Cliffwalker" 
+		name = "Orthus"
+		dynasty = "Cliffwalker"
 		adm = 3
 		dip = 4
 		mil = 2
@@ -19,8 +19,8 @@ capital 			= 1362
 
 617.1.1 = {
 	monarch = {
-		name = "" 
-		dynasty = "Cliffwalker" 
+		name = "Huln"
+		dynasty = "Cliffwalker"
 		adm = 3
 		dip = 4
 		mil = 2

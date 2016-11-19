@@ -1,6 +1,6 @@
 # Frostborn
 government 			= war_tribe
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_dwarven
 religion			= religion_titan
 primary_culture 	= culture_frostborn

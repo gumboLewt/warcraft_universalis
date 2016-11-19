@@ -1,18 +1,24 @@
 # Netherwing Dragonflight
 government 			= dragonflight_gov
-mercantilism 		= 0.1
+mercantilism 		= 10
 technology_group 	= tech_dragonkin
 religion			= religion_arcane
 primary_culture 	= culture_netherwing
 capital 			= 1617
 
-617.1.1 = { 
-	monarch = { 
-		name = "Neltharaku" 
-		dynasty = "the Netherwing" 
+617.1.1 = {
+	monarch = {
+		name = "Neltharaku"
+		dynasty = "the Netherwing"
 		adm = 3
 		dip = 4
 		mil = 3
-                
-	} 
+	}
+}
+
+625.1.1 = {
+  add_country_modifier = {
+    name = neutral_member
+    duration = -1
+  }
 }

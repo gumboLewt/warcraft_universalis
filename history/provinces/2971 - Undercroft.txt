@@ -11,7 +11,7 @@ add_core = A08
 owner = E55
 controller = E55
 culture = culture_shadowglen
-religion = religion_loa
+religion = religion_voodoo
 
 hre = no
 trade_goods = crypts
@@ -31,7 +31,7 @@ trade_goods = crypts
 	add_core = E52
 	owner = A62
 	controller = A62
-	religion = religion_loa
+	religion = religion_voodoo
 	culture = culture_mossflayer
 	remove_core = A08 
 	remove_core = E62
