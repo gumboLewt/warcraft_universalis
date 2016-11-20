@@ -27,9 +27,9 @@ controller = A08
 
 # The Frozen Throne
 618.1.1 = { 
-owner = E52 
-controller = E52
-add_core = E52
+owner = P52 
+controller = P52
+add_core = P52
 religion = religion_the_damned
 culture = culture_scourge 
 remove_core = A08
@@ -42,7 +42,7 @@ controller = A25
 
 # Reconquest of Lordaeron (TFT)
 620.7.1 = { 
-controller = E52
+controller = P52
 }
 
 # Reconquest of Lordaeron (TFT)
@@ -60,9 +60,9 @@ religion = religion_shadow
 
 # Cataclysm
 631.1.1 = {  
-owner = E14
-controller = E14
-add_core = E14
+owner = P14
+controller = P14
+add_core = P14
 remove_core = A13 
 culture = culture_forsaken
 religion = religion_forgotten_shadow 

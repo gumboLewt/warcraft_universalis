@@ -18,9 +18,9 @@ trade_goods = fossils
 
 
 632.1.1 = {
-owner = E92
-controller = E92
-add_core = E92
+owner = P92
+controller = P92
+add_core = P92
 religion = religion_titan_corrupt
 culture = culture_shan_ze
 }

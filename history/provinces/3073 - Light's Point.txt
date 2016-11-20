@@ -2,7 +2,7 @@
 is_city = yes
 
 add_core = A08
-add_core = E62
+add_core = P62
 owner = A08
 controller = A08
 
@@ -18,14 +18,14 @@ trade_goods = gold
 
 # The Third War
 618.1.1 = { 
-	add_core = E52
+	add_core = P52
 }
 
 # The Frozen Throne
 618.1.1 = { 
-	add_core = E62
-	owner = E62
-	controller = E62
+	add_core = P62
+	owner = P62
+	controller = P62
 }
 
 # Rise of the Qiraji
@@ -38,11 +38,11 @@ trade_goods = gold
 
 # Wrath of the Lich King
 626.1.1 = {
-	owner = E13
-	controller = E13
-	add_core = E13
+	owner = P13
+	controller = P13
+	add_core = P13
 	remove_core = A08
-	remove_core = E62
+	remove_core = P62
 	culture = culture_death_knight
 	religion = religion_forgotten_shadow
 	base_tax = 1

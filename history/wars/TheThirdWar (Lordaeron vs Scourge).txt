@@ -6,9 +6,9 @@ war_goal = {
 }
 
 617.1.1 = {
-	add_attacker = E11
-	add_attacker = E12
-    add_attacker = E52
+	add_attacker = P11
+	add_attacker = P12
+    add_attacker = P52
 	add_defender = A08
 	add_defender = A09
     add_defender = A10
@@ -16,9 +16,9 @@ war_goal = {
 }
 
 618.1.1 = {
-	rem_attacker = E11
-	rem_attacker = E12
-    rem_attacker = E52
+	rem_attacker = P11
+	rem_attacker = P12
+    rem_attacker = P52
 	rem_defender = A08
 	rem_defender = A09
     rem_defender = A10

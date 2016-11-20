@@ -1,9 +1,9 @@
 # 1002
 is_city = no
 
-owner = E08
-controller = E08
-add_core = E08
+owner = P08
+controller = P08
+add_core = P08
 
 base_tax = 3
 base_manpower = 3

@@ -1,9 +1,9 @@
 # 1913
 is_city = yes
 
-owner = E66
-controller = E66
-add_core = E66
+owner = P66
+controller = P66
+add_core = P66
 
 base_tax = 3
 base_manpower = 3
@@ -17,9 +17,9 @@ hre = yes
 trade_goods = fur
 
 632.1.1 = {
-    owner = E90
-    controller = E90
-    add_core = E90
+    owner = P90
+    controller = P90
+    add_core = P90
     culture = culture_yongqi
     religion = religion_fire
     trade_goods = oil

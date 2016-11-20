@@ -1,9 +1,9 @@
 # 1944 Algaz Station
 is_city = yes
 
-owner = E53
-controller = E53
-add_core = E53
+owner = P53
+controller = P53
+add_core = P53
 
 culture = culture_tunnel_rat
 religion = religion_geomancy

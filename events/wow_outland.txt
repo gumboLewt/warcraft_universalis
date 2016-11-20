@@ -6,7 +6,7 @@ namespace = wow_outland
 # Remain alone
 
 # A93 - Sunfury
-# E02 - Coilscar
+# P02 - Coilscar
 # B87 - Illidari
 country_event = {
 	id = wow_outland.1
@@ -21,22 +21,22 @@ country_event = {
             tag = A93
             tag = B87
         }
-        NOT = { alliance_with = E02 }
-        NOT = { is_rival = E02 }
-        exits = E02
+        NOT = { alliance_with = P02 }
+        NOT = { is_rival = P02 }
+        exists = P02
 	}
 
 	option = {
 		name = wow_outland.1.option.a
 
-        create_alliance = E02
+        create_alliance = P02
         
         add_opinion = {
-            who = E02
+            who = P02
             modifier = dubious_dealings
         }
         
-        E02 = {
+        P02 = {
             add_opinion = {
                 who = ROOT
                 modifier = dubious_dealings
@@ -79,7 +79,7 @@ country_event = {
 
 	trigger = {
         OR = {
-            tag = E02
+            tag = P02
             tag = B87
         }
         NOT = { alliance_with = A93 }
@@ -140,7 +140,7 @@ country_event = {
 
 	trigger = {
         OR = {
-            tag = E02
+            tag = P02
             tag = A93
         }
         NOT = { alliance_with = B87 }

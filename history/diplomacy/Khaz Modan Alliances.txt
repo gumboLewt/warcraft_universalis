@@ -12,7 +12,7 @@ alliance = {
 # Dark Iron - Ragnaros 
 alliance = {
 	first = A30
-	second = E26
+	second = P26
 	start_date = 546.1.1
 	end_date = 632.1.1
 }

@@ -7,14 +7,14 @@ primary_culture 	= culture_broken
 capital 			= 2051
 
 601.1.1 = {
-culture = culture_lost_one
-religion = religion_geomancy
+	primary_culture = culture_lost_one
+	religion = religion_geomancy
 }
 
 617.1.1 = { 
-monarch = { 
-     name = "Fitai" 
-     dynasty = "Windyreed" 
+	monarch = { 
+		name = "Fitai" 
+		dynasty = "Windyreed" 
 		adm = 3
 		dip = 3
 		mil = 3

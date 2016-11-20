@@ -6,9 +6,9 @@ base_manpower = 3
 base_production = 3
 
 
-owner = E41
-controller = E41
-add_core = E41
+owner = P41
+controller = P41
+add_core = P41
 culture = culture_korune
 religion = religion_titan_corrupt
 
@@ -16,9 +16,9 @@ hre = yes
 trade_goods = fur
 
 632.1.1 = {
-    owner = E89
-    controller = E89
-    add_core = E89
+    owner = P89
+    controller = P89
+    add_core = P89
     culture = culture_ruqin
     religion = religion_fire
     trade_goods = oil

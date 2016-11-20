@@ -7,9 +7,9 @@ base_production = 3
 
 culture = culture_dojani
 religion = religion_titan_corrupt
-owner = E81
-controller = E81
-add_core = E81
+owner = P81
+controller = P81
+add_core = P81
 
 hre = yes
 trade_goods = fish

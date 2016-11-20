@@ -22,9 +22,9 @@ trade_goods = copper
 
 # The Frozen Throne
 618.1.1 = {
-	add_core = E52
-	owner = E52
-	controller = E52
+	add_core = P52
+	owner = P52
+	controller = P52
 	culture = culture_scourge
 	remove_core = A08
 }

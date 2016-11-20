@@ -41,9 +41,9 @@ remove_core = A40 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = E31
-controller = E31
-add_core = E31
+owner = P31
+controller = P31
+add_core = P31
 culture = culture_wolfcult
 religion = religion_shadow
 }

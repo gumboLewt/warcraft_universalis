@@ -20,9 +20,9 @@ trade_goods = army_supplies
 
 
 626.1.1 = { 
-owner = E13
-controller = E13
-add_core = E13
+owner = P13
+controller = P13
+add_core = P13
 religion = religion_forgotten_shadow
 culture = culture_death_knight 
 }

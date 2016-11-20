@@ -1,9 +1,9 @@
 # 1278
 is_city = yes
 
-owner = E16
-controller = E16
-add_core = E16
+owner = P16
+controller = P16
+add_core = P16
 
 culture = culture_hyldnir
 religion = religion_titan

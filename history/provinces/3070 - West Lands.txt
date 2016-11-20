@@ -28,9 +28,9 @@ trade_goods = stone
 
 # The Frozen Throne
 618.1.1 = { 
-	owner = E12
-	controller = E12
-	add_core = E12
+	owner = P12
+	controller = P12
+	add_core = P12
 	remove_core = A41
 	religion = religion_the_damned
 	culture = culture_cultist
@@ -43,15 +43,15 @@ trade_goods = stone
 
 # War of Lordaeron (TFT)
 620.10.1 = { 
-	controller = E14
+	controller = P14
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-	owner = E50
-	controller = E50
-	add_core = E50
-	remove_core = E12
+	owner = P50
+	controller = P50
+	add_core = P50
+	remove_core = P12
 	culture = culture_crushridge
 	religion = religion_geomancy 
 }

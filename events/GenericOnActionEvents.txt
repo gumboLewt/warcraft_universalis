@@ -1,7 +1,7 @@
 # Integrating FROMCOUNTRY
 country_event = {
 	id = 610
-	title = "EVTNAME610"
+	title = "EVTNAMP610"
 	desc = "EVTDESC610"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
@@ -19,7 +19,7 @@ country_event = {
 # Chance of being triggered when an heir with a weak claim succeeds to the throne
 country_event = {
 	id = 611
-	title = "EVTNAME611"
+	title = "EVTNAMP611"
 	desc = "EVTDESC611"
 	picture = MILITARY_CAMP_eventPicture
 	

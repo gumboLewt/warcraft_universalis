@@ -3,9 +3,9 @@ is_city = yes
 
 culture = culture_dojani
 religion = religion_titan_corrupt
-owner = E81
-controller = E81
-add_core = E81
+owner = P81
+controller = P81
+add_core = P81
 
 base_tax = 3
 base_manpower = 3
@@ -15,10 +15,10 @@ hre = yes
 trade_goods = fish
 
 632.1.1 = {
-    owner = E91
-    controller = E91
-    add_core = E91
-    remove_core = E81
+    owner = P91
+    controller = P91
+    add_core = P91
+    remove_core = P81
     culture = culture_red_crane
     religion = religion_celestial
 }

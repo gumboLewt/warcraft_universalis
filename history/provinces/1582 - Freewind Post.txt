@@ -5,9 +5,9 @@ base_tax = 4
 base_manpower = 4
 base_production = 4
 
-add_core = E23
-owner = E23
-controller = E23
+add_core = P23
+owner = P23
+controller = P23
 
 culture = culture_wildmane
 religion = religion_ancestral

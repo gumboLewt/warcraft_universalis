@@ -1418,7 +1418,7 @@ gov_scourge_main = {
 	
 	trigger = {
 		government = scourge_gov
-		tag = E11 # Add Lich King tag
+		tag = P11 # Add Lich King tag
 	}
 }
 
@@ -1467,7 +1467,7 @@ gov_scourge_cult = {
 	
 	trigger = {
 		government = scourge_gov
-		tag = E12 # Cult of the Damned
+		tag = P12 # Cult of the Damned
 	}
 }
 
@@ -1517,9 +1517,9 @@ gov_scourge = {
 	trigger = {
 		government = scourge_gov
 		OR = {
-			tag = E52
+			tag = P52
 			tag = F21
-			tag = E13
+			tag = P13
 		}
 	}
 }

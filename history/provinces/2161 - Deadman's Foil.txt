@@ -8,9 +8,9 @@ base_production = 2
 culture = culture_azerothian
 religion = religion_arcane
 
-owner = E59
-controller = E59
-add_core = E59
+owner = P59
+controller = P59
+add_core = P59
 
 hre = no
 trade_goods = runecloth
@@ -20,7 +20,7 @@ trade_goods = runecloth
 	owner = A40
 	controller = A40
 	add_core = A40
-	remove_core = E59
+	remove_core = P59
 	
 	religion = religion_fel
 	culture = culture_bleeding_hollow

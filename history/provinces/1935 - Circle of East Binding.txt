@@ -20,9 +20,9 @@ trade_goods = artifacts
 
 # The Frozen Throne
 618.1.1 = { 
-add_core = E24
-controller = E24
-owner = E24
+add_core = P24
+controller = P24
+owner = P24
 culture = culture_water
 religion = religion_water
 }

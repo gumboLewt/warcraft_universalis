@@ -28,5 +28,5 @@ trade_goods = army_supplies
 600.1.1 = {
 	add_core = A65
 	add_core = G20
-	remove_core = E98
+	remove_core = P98
 }

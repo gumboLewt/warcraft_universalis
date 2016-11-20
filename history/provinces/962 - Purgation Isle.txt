@@ -18,9 +18,9 @@ trade_goods = naval_supplies
 
 # Rise of the Qiraj
 622.1.1 = { 
-	owner = E51
-	controller = E51
-	add_core = E51
+	owner = P51
+	controller = P51
+	add_core = P51
 	capital = "Torn Fin Wreck"
 	culture = culture_nerglish
 	religion = religion_water
@@ -35,7 +35,7 @@ trade_goods = naval_supplies
 	controller = F53
 	add_core = F53
 	add_core = A29
-	remove_core = E51
+	remove_core = P51
 	culture = culture_gilnean_worgen
 	religion = religion_church_of_the_light
 	capital = "Bloodfang Camp" 

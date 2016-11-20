@@ -21,7 +21,7 @@ culture = culture_ymirjar
 base_tax = 5
 base_manpower = 4
 base_production = 5
-owner = E15
-controller = E15
-add_core = E15
+owner = P15
+controller = P15
+add_core = P15
 }

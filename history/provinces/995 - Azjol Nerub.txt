@@ -1,9 +1,9 @@
 # 995
 is_city = yes
 
-owner = E74
-controller = E74
-add_core = E74
+owner = P74
+controller = P74
+add_core = P74
 
 base_tax = 10
 base_manpower = 10
@@ -17,8 +17,8 @@ hre = no
 trade_goods = silk
 
 615.1.1 = {
-  owner = E11
-  controller = E11
-  add_core = E11
+  owner = P11
+  controller = P11
+  add_core = P11
   religion = religion_the_damned
 }

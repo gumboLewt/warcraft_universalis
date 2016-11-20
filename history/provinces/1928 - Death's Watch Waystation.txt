@@ -20,7 +20,7 @@ trade_goods = army_supplies
 # The Frozen Throne
 618.1.1 = { 
 add_core = F15
-add_core = E52
+add_core = P52
 owner = F15
 controller = F15
 culture = culture_scourge
@@ -30,14 +30,14 @@ remove_core = A08
 
 # War of Lordaeron (TFT)
 620.3.1 = { 
-controller = E14
+controller = P14
 }
 
 # War of Lordaeron (TFT)
 620.5.1 = { 
-add_core = E14
-owner = E14
-controller = E14
+add_core = P14
+owner = P14
+controller = P14
 remove_core = F15
 culture = culture_forsaken
 religion = religion_forgotten_shadow 

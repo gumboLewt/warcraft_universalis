@@ -20,9 +20,9 @@ trade_goods = grain
 
 # Rise of the Qiraj
 622.1.1 = { 
-owner = E51
-controller = E51
-add_core = E51
+owner = P51
+controller = P51
+add_core = P51
 culture = culture_nerglish
 religion = religion_water
 }

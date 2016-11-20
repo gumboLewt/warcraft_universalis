@@ -4,9 +4,9 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-owner = E16
-controller = E16
-add_core = E16
+owner = P16
+controller = P16
+add_core = P16
 
 culture = culture_hyldnir
 religion = religion_titan

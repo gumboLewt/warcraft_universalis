@@ -1,9 +1,9 @@
 # 1878
 is_city = yes
 
-owner = E46
-controller = E46
-add_core = E46
+owner = P46
+controller = P46
+add_core = P46
 
 
 base_tax = 3

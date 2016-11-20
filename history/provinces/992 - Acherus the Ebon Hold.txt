@@ -3,7 +3,7 @@ is_city = yes
 
 add_core = B12
 add_core = A08
-add_core = E62
+add_core = P62
 owner = B12
 controller = B12
 
@@ -22,7 +22,7 @@ trade_goods = lumber
 	owner = A08
 	controller = A08
 	add_core = A08
-	add_core = E62
+	add_core = P62
 	remove_core = B12
 	religion = religion_church_of_the_light
 	culture = culture_lordaeron 
@@ -30,14 +30,14 @@ trade_goods = lumber
 
 # The Third War
 618.1.1 = { 
-	add_core = E52
+	add_core = P52
 }
 
 # The Frozen Throne
 618.1.1 = { 
-	add_core = E62
-	owner = E62
-	controller = E62
+	add_core = P62
+	owner = P62
+	controller = P62
 }
 
 # Rise of the Qiraji
@@ -50,12 +50,12 @@ trade_goods = lumber
 
 # The Burning Crusade
 625.1.1 = { 
-	owner = E13
-	controller = E13
-	add_core = E13
+	owner = P13
+	controller = P13
+	add_core = P13
 	add_core = F18
 	remove_core = A08
-	remove_core = E62
+	remove_core = P62
 	religion = religion_the_damned
 	culture = culture_death_knight
 	base_tax = 5

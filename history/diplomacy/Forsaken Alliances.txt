@@ -11,7 +11,7 @@
 #####################################################
 # Forsaken - New Alliance
 alliance = {
-	first = E14
+	first = P14
 	second = A25
 	start_date = 620.1.1
 	end_date = 620.5.1
@@ -19,7 +19,7 @@ alliance = {
 
 # Forsaken - Frostwolf
 alliance = {
-	first = E14
+	first = P14
 	second = A46
 	start_date = 622.1.1
 	end_date = 650.5.1
@@ -27,7 +27,7 @@ alliance = {
 
 # Forsaken - Hand of Vengeance
 union = {
-	first = E14
+	first = P14
 	second = A96
 	start_date = 626.1.1
 	end_date = 650.5.1
@@ -38,8 +38,8 @@ union = {
 #################
 # Forsaken - Wolf Cult
 alliance = {
-	first = E14
-	second = E29
+	first = P14
+	second = P29
 	start_date = 630.1.1
 	end_date = 632.5.1
 }

@@ -35,13 +35,13 @@ trade_goods = salt
 
 # Reconquest of Lordaeron (TFT)
 620.8.1 = { 
-	controller = E52
+	controller = P52
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-	owner = E52
-	add_core = E52
+	owner = P52
+	add_core = P52
 	religion = religion_the_damned
 	culture = culture_scourge
 	base_tax = 2
@@ -62,9 +62,9 @@ trade_goods = salt
 
 # Mists of Pandaria
 632.1.1 = { 
-	owner = E14
-	controller = E14
-	add_core = E14
+	owner = P14
+	controller = P14
+	add_core = P14
 	religion = religion_forgotten_shadow
 	culture = culture_forsaken
 	base_manpower = 2

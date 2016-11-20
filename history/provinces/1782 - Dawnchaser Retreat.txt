@@ -1,9 +1,9 @@
 # 1782
 is_city = yes
 
-owner = E83
-controller = E83
-add_core = E83
+owner = P83
+controller = P83
+add_core = P83
 capital = "Riverblade Village"
 
 base_tax = 3
@@ -25,9 +25,9 @@ trade_goods = fish
 }
 
 632.1.1 = { 
-    owner = E83
-    controller = E83
-    add_core = E83
+    owner = P83
+    controller = P83
+    add_core = P83
     culture = culture_riverblade
     religion = religion_voodoo
 }

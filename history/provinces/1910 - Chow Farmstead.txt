@@ -1,9 +1,9 @@
 # 1910
 is_city = yes
 
-owner = E66
-controller = E66
-add_core = E66
+owner = P66
+controller = P66
+add_core = P66
 
 base_tax = 3
 base_manpower = 2
@@ -17,10 +17,10 @@ hre = yes
 trade_goods = grain
 
 632.1.1 = {
-    owner = E44
-    controller = E44
-    add_core = E44
-    remove_core = E66
+    owner = P44
+    controller = P44
+    add_core = P44
+    remove_core = P66
     trade_goods = slaves
 }
 

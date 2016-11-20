@@ -52,7 +52,7 @@ vassal = {
 # Stormwind - Karazhan
 march = {
 	first = A01
-	second = E59
+	second = P59
 	start_date = 546.1.1
 	end_date = 592.1.1
 }

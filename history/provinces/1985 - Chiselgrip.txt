@@ -1,9 +1,9 @@
 # 1985 Chiselgrip
 is_city = yes
 
-owner = E56
-controller = E56
-add_core = E56
+owner = P56
+controller = P56
+add_core = P56
 
 base_tax = 3
 base_manpower = 3
@@ -17,9 +17,9 @@ trade_goods = dark_iron
 
 # Fall of Stormwind
 597.1.1 = { 
-	owner = E98
-	controller = E98
-	add_core = E98
+	owner = P98
+	controller = P98
+	add_core = P98
 	culture = culture_blackrock
 	religion = religion_fel 
 }
@@ -33,15 +33,15 @@ trade_goods = dark_iron
 622.1.1 = {
 	owner = A41
 	controller = A41
-	remove_core = E98
+	remove_core = P98
 	religion = religion_fel
 }
 
 # Cataclysm
 631.1.1 = { 
-	owner = E56
-	controller = E56
-	add_core = E56
+	owner = P56
+	controller = P56
+	add_core = P56
 	culture = culture_dark_iron
 	religion = religion_arcane 
 }

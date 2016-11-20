@@ -21,13 +21,13 @@ trade_goods = army_supplies
 592.1.1 = { owner = A43
 controller = A43
 add_core = A43
-add_core = E96
+add_core = P96
 culture = culture_dreadmaul
 religion = religion_geomancy }
 
 # Beyond the Dark Portal
-600.1.1 = { owner = E96
-controller = E96
+600.1.1 = { owner = P96
+controller = P96
 remove_core = A43 }
 
 # Rise of the Qiraji

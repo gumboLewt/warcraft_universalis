@@ -1,9 +1,9 @@
 # 1784
 is_city = yes
 
-owner = E81
-controller = E81
-add_core = E81
+owner = P81
+controller = P81
+add_core = P81
 
 base_tax = 3
 base_manpower = 2

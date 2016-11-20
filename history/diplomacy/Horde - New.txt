@@ -90,7 +90,7 @@ alliance = {
 ### Pre-Horde Revantusk
 # Forsaken - Revantusk
 alliance = {
-	first = E14
+	first = P14
 	second = A61
 	start_date = 622.1.1
 	end_date = 650.5.1

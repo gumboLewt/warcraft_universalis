@@ -26,16 +26,16 @@ trade_goods = fur
 
 # The Frozen Throne
 618.1.1 = { 
-	owner = E52
-	controller = E52
-	add_core = E52
+	owner = P52
+	controller = P52
+	add_core = P52
 	religion = religion_the_damned
 	culture = culture_scourge
 }
 
 # War of Lordaeron (TFT)
 620.8.1 = { 
-	controller = E14
+	controller = P14
 }
 
 # Rise of the Qiraji
@@ -43,8 +43,8 @@ trade_goods = fur
 	owner = A26
 	controller = A26
 	add_core = A26
-	add_core = E14
-	remove_core = E52
+	add_core = P14
+	remove_core = P52
 	culture = culture_alterac
 	religion = religion_shadow
 	capital = "Syndicate Camp"

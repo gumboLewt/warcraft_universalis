@@ -2502,93 +2502,93 @@ province;red;green;blue;type;name;continent;region
 2501;61;179;57;land;Battered Cliffs;Northrend;Storm Peaks
 2502;216;179;67;land;Windy Cliffs;Northrend;Storm Peaks
 2503;137;179;162;land;Eroded Cliffs;Northrend;Storm Peaks
-2504;161;244;180;land;Shen'dralar Quarters;Kalimdor;Feralas # New provinces for wastelands below (remove)
-2505;122;186;27;land;Faronaar Ridges;Azsuna;Broken Isles
-2506;122;131;95;land;Illidari Perch;Azsuna;Broken Isles
-2507;143;155;193;land;The Nightwell;Suramar;Broken Isles
-2508;122;74;113;land;Altar of End Times;Azsuna;Broken Isles
-2509;143;65;37;land;Pits of Despair;Azsuna;Broken Isles
-2510;143;137;92;land;Trickster's Cut;Azsuna;Broken Isles
-2511;143;132;203;land;Soul Engine Apocalypse;Azsuna;Broken Isles
-2512;143;151;70;land;Felsurge Nest;Azsuna;Broken Isles
-2513;143;79;72;land;The Burning Gate;Azsuna;Broken Isles
-2514;143;176;90;land;Faronaar Front;Azsuna;Broken Isles
-2515;143;77;108;land;Traitor's Overlook;Azsuna;Broken Isles
-2516;143;221;101;land;Legion Camp: Ruin;Azsuna;Broken Isles
-2517;143;87;95;land;Legion Camp: Chaos;Azsuna;Broken Isles
-2518;103;199;84;land;Illidari Stand;Azsuna;Broken Isles
-2519;103;80;98;land;Old Coast Path;Azsuna;Broken Isles
-2520;103;149;179;land;Oceanus Cove;Azsuna;Broken Isles
-2521;103;163;79;land;Forever Rise;Azsuna;Broken Isles
-2522;103;94;130;land;Isle of the Watchers;Azsuna;Broken Isles
-2523;103;100;89;land;Garden of Elune;Azsuna;Broken Isles
-2524;103;71;151;land;Shackle's Den;Azsuna;Broken Isles
-2525;103;173;58;land;Mak'rana;Azsuna;Broken Isles
-2526;181;159;89;land;Dead Man's Bay;Azsuna;Broken Isles
+2504;161;244;180;land;Shen'dralar Quarters;Kalimdor;Feralas # New provinces 
+2505;153;205;63;land;Faronaar;Azsuna;Broken Isles
+2506;153;61;63;land;Legion Encampments;Azsuna;Broken Isles
+2507;153;168;173;land;Illidari Stand;Azsuna;Broken Isles
+2508;153;151;56;land;Oceanus Cove;Azsuna;Broken Isles
+2509;153;110;142;land;Dead Man Bay;Azsuna;Broken Isles
+2510;153;123;44;land;Mak'rana;Azsuna;Broken Isles
+2511;153;175;54;land;The Ruined Sanctum;Azsuna;Broken Isles
+2512;153;96;117;land;Isle of the Watchers;Azsuna;Broken Isles
+2513;153;116;25;land;Old Coast Ruins;Azsuna;Broken Isles
+2514;110;85;200;land;Nar'thalas Academy;Azsuna;Broken Isles
+2515;110;172;108;land;Ruins of Nar'thalas Palace;Azsuna;Broken Isles
+2516;110;77;68;land;Nor'Danil Wellspring;Azsuna;Broken Isles
+2517;110;178;90;land;Hatecoil Warcamp;Azsuna;Broken Isles
+2518;110;153;174;land;Felblaze Ingress;Azsuna;Broken Isles
+2519;110;164;71;land;Empyrean Society Enclave;Azsuna;Broken Isles
+2520;59;124;118;land;Azurewing Repose;Azsuna;Broken Isles
+2521;59;193;63;land;Ley-Ruins of Zarkhenar;Azsuna;Broken Isles
+2522;158;100;117;land;The Lost Orchard;Azsuna;Broken Isles
+2523;158;183;157;land;Challiane's Terrace;Azsuna;Broken Isles
+2524;158;83;114;land;Timeworn Strand;Azsuna;Broken Isles
+2525;158;88;58;land;Llothien Highlands;Azsuna;Broken Isles
+2526;153;148;77;land;Shattered Front;Azsuna;Broken Isles
 2527;162;208;64;land;Deeprun Tram;Stormwind;Eastern Kingdoms
-2528;181;169;61;land;Warden's Redoubt;Azsuna;Broken Isles
-2529;122;100;72;land;Temple of a Thousand Lights;Azsuna;Broken Isles
-2530;122;176;107;land;The Ruined Sanctum;Azsuna;Broken Isles
-2531;122;66;113;land;Vault of the Wardens;Azsuna;Broken Isles
-2532;181;83;80;land;Warden's Eyrie;Azsuna;Broken Isles
-2533;162;139;111;land;Olivian Veil;Azsuna;Broken Isles
-2534;162;92;69;land;The Empyrean Society Enclave;Azsuna;Broken Isles
-2535;162;99;97;land;Hatecoil Warcamp;Azsuna;Broken Isles
-2536;208;189;139;land;Nar'thalas Academy;Azsuna;Broken Isles
-2537;208;198;191;land;El'dranil Shallows;Azsuna;Broken Isles
-2538;208;126;70;land;Ruins of Nar'thalas;Azsuna;Broken Isles
-2539;208;207;92;land;Peak of Nar'thalas;Azsuna;Broken Isles
-2540;100;156;168;land;Shipwreck Arena;Azsuna;Broken Isles
-2541;100;175;40;land;Crumbled Palace;Azsuna;Broken Isles
-2542;100;87;86;land;Llothien Heights;Azsuna;Broken Isles
-2543;162;89;51;land;Llothien Highlands;Azsuna;Broken Isles
-2544;100;178;54;land;Nor'danil Wellsprings;Azsuna;Broken Isles
-2545;100;91;60;land;Grey Shoals;Azsuna;Broken Isles
-2546;80;182;146;land;Timeworn Strand;Azsuna;Broken Isles
-2547;80;107;88;land;Challiane's Terrace;Azsuna;Broken Isles
-2548;80;144;166;land;Azurewing Repose;Azsuna;Broken Isles
-2549;80;164;91;land;The Lost Orchard;Azsuna;Broken Isles
-2550;138;115;156;land;Azurewing Whelplands;Azsuna;Broken Isles
-2551;138;68;75;land;Rhut'van Passage;Azsuna;Broken Isles
-2552;138;176;85;land;Ley-Ruins of Zarkhenar;Azsuna;Broken Isles
-2553;138;112;79;land;Felblaze Ingress;Azsuna;Broken Isles
-2554;138;191;173;land;Farondale;Azsuna;Broken Isles
-2555;138;131;55;land;The Greenway;Azsuna;Broken Isles
-2556;162;155;76;land;Llothien;Azsuna;Broken Isles
-2557;162;179;85;land;Hatecoil Rise;Azsuna;Broken Isles #
-2558;175;194;90;land;Black Rook Hold;Val'sharah;Broken Isles
-2559;124;208;186;land;Gloaming Reef;Val'sharah;Broken Isles
-2560;108;204;112;land;The Dreamgrove;Val'sharah;Broken Isles
-2561;108;125;113;land;Shaladrassil;Val'sharah;Broken Isles
-2562;108;47;156;land;Darkheart Thicket;Val'sharah;Broken Isles
-2563;108;173;77;land;Verdant Heights;Val'sharah;Broken Isles
-2564;108;106;149;land;Darkheart Rise;Val'sharah;Broken Isles
-2565;147;144;169;land;Hills of Shaladrassil;Val'sharah;Broken Isles
-2566;108;170;139;land;The Emerald Gateway;Val'sharah;Broken Isles
-2567;53;148;168;land;Unnamed;Val'sharah;Broken Isles
-2568;165;148;84;land;Unnamed;Val'sharah;Broken Isles
+2528;110;144;110;land;Grey Shoals;Azsuna;Broken Isles
+2529;158;182;76;land;Azurewing Whelplands;Azsuna;Broken Isles
+2530;79;166;127;land;Rhut'van Passage;Azsuna;Broken Isles
+2531;79;61;93;land;Terrace of Nar'thalas;Azsuna;Broken Isles
+2532;79;128;95;land;Gloaming Reef;Val'sharah;Broken Isles
+2533;79;195;144;land;Bradensbrook;Val'sharah;Broken Isles
+2534;79;104;104;land;Thas'talah;Val'sharah;Broken Isles
+2535;79;69;171;land;Smolderhide Thicket;Val'sharah;Broken Isles
+2536;79;165;122;land;Sabermaw Ridge;Val'sharah;Broken Isles
+2537;116;191;186;land;Steelclaw Vale;Val'sharah;Broken Isles
+2538;116;123;74;land;Lightsong;Val'sharah;Broken Isles
+2539;116;167;192;land;Moonclaw Vale;Val'sharah;Broken Isles
+2540;116;93;112;land;Grove of Cenarius;Val'sharah;Broken Isles
+2541;116;152;145;land;Andu'talah;Val'sharah;Broken Isles
+2542;167;200;88;land;Temple of Elune;Val'sharah;Broken Isles
+2543;167;84;60;land;Black Rook Hold;Val'sharah;Broken Isles
+2544;167;199;121;land;Ashamane's Fall;Val'sharah;Broken Isles
+2545;167;128;122;land;Shala'nir;Val'sharah;Broken Isles
+2546;167;188;125;land;Shaladrassil;Val'sharah;Broken Isles
+2547;167;87;106;land;Darkheart Thicket;Val'sharah;Broken Isles
+2548;167;169;94;land;The Dreamgrove;Val'sharah;Broken Isles
+2549;116;128;64;land;Field of Dreamers;Val'sharah;Broken Isles
+2550;116;175;72;land;Undergorge;Val'sharah;Broken Isles
+2551;116;147;188;land;The Wildwood;Val'sharah;Broken Isles
+2552;116;75;59;land;Malorne's Refuge;Val'sharah;Broken Isles
+2553;116;87;173;land;Moonrest;Val'sharah;Broken Isles
+2554;196;173;44;land;Grizzlewald;Val'sharah;Broken Isles
+2555;196;130;105;land;Starsong Refuge;Val'sharah;Broken Isles
+2556;196;190;91;land;Lostlight Grotto;Val'sharah;Broken Isles
+2557;127;105;122;land;Dreadroot;Val'sharah;Broken Isles
+2558;127;201;107;land;Howling Dale;Val'sharah;Broken Isles
+2559;127;108;142;land;Emerald Ascent;Val'sharah;Broken Isles
+2560;127;185;114;land;Emerald Bay;Val'sharah;Broken Isles
+2561;127;72;63;land;The Emerald Gateway;Val'sharah;Broken Isles
+2562;127;185;69;land;Feathermane Hunting Grounds;Suramar;Broken Isles
+2563;108;173;77;land;Unnamed;Suramar;Broken Isles
+2564;108;106;149;land;Unnamed;Suramar;Broken Isles
+2565;147;144;169;land;Unnamed;Suramar;Broken Isles
+2566;108;170;139;land;Unnamed;Suramar;Broken Isles
+2567;53;148;168;land;Unnamed;Suramar;Broken Isles
+2568;165;148;84;land;Unnamed;Suramar;Broken Isles
 2569;122;205;56;land;Fields of Dun Morogh;Eastern Kingdoms;Dun Morogh
 2570;81;205;110;land;Shimmering Fields;Eastern Kingdoms;Dun Morogh
-2571;199;148;107;land;Unnamed;Val'sharah;Broken Isles
-2572;187;148;88;land;Unnamed;Val'sharah;Broken Isles
-2573;79;148;136;land;Unnamed;Val'sharah;Broken Isles
-2574;170;148;207;land;Unnamed;Val'sharah;Broken Isles
-2575;185;83;221;land;Unnamed;Val'sharah;Broken Isles
-2576;148;215;99;land;Unnamed;Val'sharah;Broken Isles
-2577;121;221;154;land;Unnamed;Val'sharah;Broken Isles
-2578;115;66;243;land;Unnamed;Val'sharah;Broken Isles
-2579;233;42;164;land;Unnamed;Val'sharah;Broken Isles
-2580;60;166;0;land;Unnamed;Val'sharah;Broken Isles
-2581;220;223;18;land;Unnamed;Val'sharah;Broken Isles
-2582;247;1;240;land;Unnamed;Val'sharah;Broken Isles
-2583;115;18;82;land;Unnamed;Val'sharah;Broken Isles
-2584;79;112;8;land;Unnamed;Val'sharah;Broken Isles
-2585;68;114;201;land;Unnamed;Val'sharah;Broken Isles
-2586;120;92;170;land;Unnamed;Val'sharah;Broken Isles
-2587;203;47;69;land;Unnamed;Val'sharah;Broken Isles
-2588;25;22;201;land;Unnamed;Val'sharah;Broken Isles
-2589;133;220;202;land;Unnamed;Val'sharah;Broken Isles
-2590;109;243;7;land;Unnamed;Val'sharah;Broken Isles
+2571;199;148;107;land;Unnamed;Suramar;Broken Isles
+2572;187;148;88;land;Unnamed;Suramar;Broken Isles
+2573;79;148;136;land;Unnamed;Suramar;Broken Isles
+2574;170;148;207;land;Unnamed;Suramar;Broken Isles
+2575;185;83;221;land;Unnamed;Suramar;Broken Isles
+2576;148;215;99;land;Unnamed;Suramar;Broken Isles
+2577;121;221;154;land;Unnamed;Suramar;Broken Isles
+2578;115;66;243;land;Unnamed;Suramar;Broken Isles
+2579;233;42;164;land;Unnamed;Suramar;Broken Isles
+2580;60;166;0;land;Unnamed;Suramar;Broken Isles
+2581;220;223;18;land;Unnamed;Suramar;Broken Isles
+2582;247;1;240;land;Unnamed;Suramar;Broken Isles
+2583;115;18;82;land;Unnamed;Suramar;Broken Isles
+2584;79;112;8;land;Unnamed;Suramar;Broken Isles
+2585;68;114;201;land;Unnamed;Suramar;Broken Isles
+2586;120;92;170;land;Unnamed;Suramar;Broken Isles
+2587;203;47;69;land;Unnamed;Suramar;Broken Isles
+2588;25;22;201;land;Unnamed;Suramar;Broken Isles
+2589;133;220;202;land;Unnamed;;
+2590;109;243;7;land;Unnamed;;
 2591;77;203;151;land;Unnamed;;
 2592;59;224;71;land;Unnamed;;
 2593;227;67;182;land;Unnamed;;

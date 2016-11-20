@@ -16,9 +16,9 @@ hre = yes
 trade_goods = artifacts
 
 632.1.1 = { 
-    owner = E35
-    controller = E35
-    add_core = E35
+    owner = P35
+    controller = P35
+    add_core = P35
     remove_core = F02
     culture = culture_huojin 
 }
@@ -28,7 +28,7 @@ trade_goods = artifacts
     owner = A88
     controller = A88
     add_core = A88
-    remove_core = E35
+    remove_core = P35
     culture = culture_dawnstrider
     religion = religion_ancestral
 }

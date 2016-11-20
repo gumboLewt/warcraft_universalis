@@ -2,7 +2,7 @@
 is_city = yes
 
 add_core = A08
-add_core = E62
+add_core = P62
 owner = A08
 controller = A08
 
@@ -18,14 +18,14 @@ trade_goods = grain_silo
 
 # The Third War
 617.1.1 = { 
-	add_claim = E52
+	add_claim = P52
 }
 
 # The Frozen Throne
 618.1.1 = { 
-	add_core = E62
-	owner = E62
-	controller = E62
+	add_core = P62
+	owner = P62
+	controller = P62
 }
 
 # Rise of the Qiraji
@@ -42,7 +42,7 @@ trade_goods = grain_silo
 	controller = X01
 	add_core = X01
 	remove_core = A08
-	remove_core = E62
+	remove_core = P62
 	religion = religion_fel
 	culture = culture_forsaken
 }

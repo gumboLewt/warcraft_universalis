@@ -30,9 +30,9 @@ trade_goods = grain
 
 # Rise of the Qiraji
 622.1.1 = { 
-	controller = E27
-	owner = E27
-	add_core = E27
+	controller = P27
+	owner = P27
+	add_core = P27
 	add_core = A98
 	culture = culture_earth
 	religion = religion_earth

@@ -4,19 +4,19 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-owner = E72
-controller = E72
-add_core = E72
+owner = P72
+controller = P72
+add_core = P72
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 hre = no
 trade_goods = grain
 
 617.1.1 = {
-  owner = E11
-  controller = E11
-  add_core = E11
-  remove_core = E72
+  owner = P11
+  controller = P11
+  add_core = P11
+  remove_core = P72
   culture = culture_scourge
   religion = religion_the_damned
 }

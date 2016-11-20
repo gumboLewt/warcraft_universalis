@@ -29,7 +29,7 @@ trade_goods = army_supplies
 
 # Reconquest of Lordaeron (TFT)
 620.8.1 = { 
-	controller = E52
+	controller = P52
 }
 
 # Rise of the Qiraji
@@ -37,7 +37,7 @@ trade_goods = army_supplies
 	owner = B19
 	controller = B19
 	add_core = B19
-	add_core = E52
+	add_core = P52
 	culture = culture_rothide
 	religion = religion_the_damned 
 }

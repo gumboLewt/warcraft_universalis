@@ -1,9 +1,9 @@
 # 1876
 is_city = yes
 
-owner = E89
-controller = E89
-add_core = E89
+owner = P89
+controller = P89
+add_core = P89
 
 
 base_tax = 3

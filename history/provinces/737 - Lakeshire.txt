@@ -18,15 +18,15 @@ trade_goods = fish
 
 
 # Fall of Stormwind
-597.1.1 = { owner = E98
-controller = E98
-add_core = E98
+597.1.1 = { owner = P98
+controller = P98
+add_core = P98
 culture = culture_blackrock
 religion = religion_fel }
 
 # Beyond the Dark Portal
 600.1.1 = { owner = A04
 controller = A04
-remove_core = E98
+remove_core = P98
 culture = culture_azerothian
 religion = religion_church_of_the_light }

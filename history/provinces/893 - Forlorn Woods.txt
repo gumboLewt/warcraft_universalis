@@ -1,9 +1,9 @@
 # 893
 is_city = yes
 
-owner = E77
-controller = E77
-add_core = E77
+owner = P77
+controller = P77
+add_core = P77
 
 base_tax = 3
 base_manpower = 3
@@ -25,8 +25,8 @@ religion = religion_sect_of_dragons
 }
 
 631.1.1 = {
-owner = E77
-controller = E77
+owner = P77
+controller = P77
 culture = culture_crystal_satyr
 religion = religion_arcane
 remove_core = B01

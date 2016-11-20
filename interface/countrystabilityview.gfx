@@ -456,20 +456,19 @@ spriteTypes = {
 		textureFile2 = "gfx\\interface\\default_progressbar_w256_h32_black.dds" #background for positive side of stability
 		size = { x = 61 y = 17 }
 		effectFile = "gfx/FX/progress.lua"
-	}	
-
-  spriteType = {
-          name = "GFX_tab_subjects"
-          texturefile = "gfx//interface//tab_domestic_subject.tga"
-          noOfFrames = 2
-          loadType = "INGAME"
-  }
+	}
+	
+	spriteType = {
+		name = "GFX_tab_subjects"
+		texturefile = "gfx//interface//tab_domestic_subject.tga"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}		
 	
 	spriteType = {
 		name = "GFX_icon_unjustified_demands"
 		texturefile = "gfx//interface//ideas_EU4//unjustified_demands.tga"
 		loadType = "INGAME"
-		
 	}	
 	
 	spriteType = {
@@ -478,11 +477,10 @@ spriteTypes = {
 		loadType = "INGAME"
 		
 	}		
-
 	spriteType = {
 		name = "GFX_icon_development_efficiency"
 		texturefile = "gfx//interface//development_icon.dds"
-		loadType = "INGAME"
+		loadType = "INGAME"	
 	}
 
 	spriteType = {

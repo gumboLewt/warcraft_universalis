@@ -5,9 +5,9 @@ base_tax = 3
 base_manpower = 4
 base_production = 3
 
-owner = E59
-controller = E59
-add_core = E59
+owner = P59
+controller = P59
+add_core = P59
 
 culture = culture_azerothian
 religion = religion_arcane
@@ -25,7 +25,7 @@ trade_goods = runecloth
 	religion = religion_geomancy
 	add_core = F07
 	add_core = A40
-	remove_core = E59
+	remove_core = P59
 	owner = A40
 	controller = A40
 }

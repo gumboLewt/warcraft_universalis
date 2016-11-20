@@ -24,9 +24,9 @@ trade_goods = arcane
 
 # The Third War
 617.1.1 = {
-	add_core = E12
-	owner = E12
-	controller = E12
+	add_core = P12
+	owner = P12
+	controller = P12
 	religion = religion_the_damned
 	culture = culture_cultist
 	base_manpower = 4

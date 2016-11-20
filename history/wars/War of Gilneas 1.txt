@@ -6,8 +6,8 @@ war_goal = {
 }
 
 631.1.1 = {
-	add_attacker = E14
-	add_attacker = E29
+	add_attacker = P14
+	add_attacker = P29
 	add_attacker = A48
 	add_attacker = A43
 	
@@ -22,8 +22,8 @@ war_goal = {
 }
 
 632.1.1 = {
-	rem_attacker = E14
-	rem_attacker = E29
+	rem_attacker = P14
+	rem_attacker = P29
 	rem_attacker = A48
 	rem_attacker = A43
 	

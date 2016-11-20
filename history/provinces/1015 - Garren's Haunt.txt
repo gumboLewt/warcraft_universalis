@@ -20,7 +20,7 @@ trade_goods = grain
 # The Frozen Throne
 618.1.1 = {
 add_core = B19
-add_core = E52
+add_core = P52
 owner = B19
 controller = B19
 culture = culture_rothide
@@ -30,7 +30,7 @@ remove_core = A08
 
 # War of Lordaeron (TFT)
 619.12.1 = {
-controller = E52
+controller = P52
 }
 
 # Rise of the Qiraji
@@ -44,7 +44,7 @@ controller = B19
 religion = religion_forgotten_shadow
 culture = culture_forsaken
 remove_core = B19
-add_core = E14
-owner = E14
-controller = E14
+add_core = P14
+owner = P14
+controller = P14
 }

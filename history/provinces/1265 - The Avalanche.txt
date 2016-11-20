@@ -23,9 +23,9 @@ trade_goods = fur
 
 # The Burning Crusade
 625.1.1 = { 
-	add_core = E11
-	controller = E11
-	owner = E11
+	add_core = P11
+	controller = P11
+	owner = P11
 	culture = culture_scourge
 	religion = religion_the_damned 
 	base_tax = 3

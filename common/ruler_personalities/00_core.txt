@@ -1409,7 +1409,7 @@ silver_tongue_personality = {
 	
 	other_ai_war_chance_multiplier = 0.5
 	
-	relations_decay_of_me = 0.2
+	improve_relation_modifier = 0.2
 	nation_designer_cost = 5
 } #2 easier events, 3 better events
 
@@ -2636,7 +2636,7 @@ naive_personality = {
 	fair_fights = yes
 	gift_chance = 90
 	
-	relations_decay_of_me = -0.2
+	improve_relation_modifier = -0.2
 	nation_designer_cost = -5
 } #1 Less bad event
 

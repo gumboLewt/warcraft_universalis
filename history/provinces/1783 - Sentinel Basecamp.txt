@@ -1,9 +1,9 @@
 # 1783
 is_city = yes
 
-owner = E82
-controller = E82
-add_core = E82
+owner = P82
+controller = P82
+add_core = P82
 capital = "Fallsong Village"
 
 base_tax = 4

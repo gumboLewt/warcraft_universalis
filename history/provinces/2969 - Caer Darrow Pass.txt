@@ -33,9 +33,9 @@ trade_goods = fish
 
 # Third War
 617.1.1 = { 
-	owner = E12
-	controller = E12
-	add_core = E12
+	owner = P12
+	controller = P12
+	add_core = P12
 	religion = religion_the_damned
 	culture = culture_scourge
 }
@@ -47,5 +47,5 @@ trade_goods = fish
 
 # War of Lordaeron (TFT)
 620.5.1 = { 
-	controller = E12
+	controller = P12
 }

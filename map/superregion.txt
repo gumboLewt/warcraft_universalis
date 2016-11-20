@@ -52,7 +52,7 @@ kalimdor_superregion = {
     region_winterspring
     region_felwood
     region_mount_hyjal
-    region_ashevale
+    region_ashenvale
     region_azshara
     region_durotar
     region_the_barrens

@@ -5,9 +5,9 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-owner = E54
-add_core = E54
-controller = E54
+owner = P54
+add_core = P54
+controller = P54
 
 culture = culture_trogg
 religion = religion_geomancy
@@ -29,9 +29,9 @@ religion = religion_fel
 
 # Beyond the Dark Portal
 600.1.1 = {
-owner = E54
-controller = E54
-add_core = E54
+owner = P54
+controller = P54
+add_core = P54
 remove_core = A40
 culture = culture_trogg 
 religion = religion_geomancy

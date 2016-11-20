@@ -35,7 +35,7 @@ trade_goods = army_supplies
 # Cataclysm
 631.1.1 = { 
 	culture = culture_gilnean_worgen
-	controller = E14
+	controller = P14
 }
 
 # Mists of Pandaria

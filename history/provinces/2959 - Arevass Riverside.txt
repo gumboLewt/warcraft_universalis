@@ -21,24 +21,24 @@ trade_goods = fish
 	owner = A25
 	controller = A25
 	add_core = A25
-	add_core = E52
+	add_core = P52
 	remove_core = A08
 }
 
 # Reconquest of Lordaeron (TFT)
 620.7.1 = { 
-	controller = E52
+	controller = P52
 }
 
 # War of Lordaeron (TFT)
 620.9.1 = {
-	controller = E14
+	controller = P14
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-	owner = E14
-	add_core = E14
+	owner = P14
+	add_core = P14
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 }

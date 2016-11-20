@@ -45,9 +45,9 @@ trade_goods = lumber
 623.1.1 = { 
 religion = religion_old_gods
 culture = culture_nazja
-	add_core = E07
-	owner = E07
-	controller = E07 
+	add_core = P07
+	owner = P07
+	controller = P07 
 	remove_core = A07
 }
 

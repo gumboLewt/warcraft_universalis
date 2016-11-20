@@ -1,9 +1,9 @@
 # 1872
 is_city = yes
 
-owner = E47
-controller = E47
-add_core = E47
+owner = P47
+controller = P47
+add_core = P47
 
 
 base_tax = 3
@@ -21,10 +21,10 @@ trade_goods = oil
 
 
 632.1.1 = {
-owner = E45
-controller = E45
-add_core = E45
-remove_core = E47
+owner = P45
+controller = P45
+add_core = P45
+remove_core = P47
 culture = culture_osul
 }
 

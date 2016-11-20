@@ -3,7 +3,7 @@ namespace = elections
 # Election!
 country_event = {
 	id = 700
-	title = "EVTNAME700"
+	title = "EVTNAMP700"
 	desc = "EVTDESC700"
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
@@ -89,7 +89,7 @@ country_event = {
 # Election!
 country_event = {
 	id = 701
-	title = "EVTNAME700"
+	title = "EVTNAMP700"
 	desc = "EVTDESC701"
 	picture = ELECTION_REPUBLICAN_eventPicture
 	

@@ -18,9 +18,9 @@ trade_goods = thorium
 
 
 
-598.1.1 = { owner = E98
-controller = E98
-add_core = E98
+598.1.1 = { owner = P98
+controller = P98
+add_core = P98
 culture = culture_blackrock
 religion = religion_fel }
 
@@ -28,7 +28,7 @@ religion = religion_fel }
 600.1.1 = { 
 owner = XXX
 controller = XXX
-remove_core = E98
+remove_core = P98
 culture = culture_dark_iron
 religion = religion_fire
 }

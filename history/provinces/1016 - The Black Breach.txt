@@ -29,8 +29,8 @@ culture = culture_twilight
 }
 
 632.1.1 = { 
-owner = E27
-controller = E27
+owner = P27
+controller = P27
 remove_core = A43
 culture = culture_earth
 religion = religion_earth

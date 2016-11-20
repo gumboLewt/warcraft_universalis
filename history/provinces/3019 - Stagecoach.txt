@@ -17,9 +17,9 @@ trade_goods = fur
 
 # The Second War
 598.1.1 = { 
-	owner = E50
-	controller = E50
-	add_core = E50
+	owner = P50
+	controller = P50
+	add_core = P50
 	culture = culture_crushridge
 	religion = religion_geomancy 
 

@@ -44,7 +44,7 @@ culture = culture_gilnean_worgen
 	owner = A29
 	controller = A29
 	add_core = A29
-        add_claim = E14
+        add_claim = P14
 	culture = culture_ironforge
 	religion = religion_church_of_the_light
 	

@@ -49,4 +49,4 @@ tags=
 	"Alternative History"
 }
 picture="picture.jpg"
-supported_version = "1.18.*"
+supported_version = "1.19.*"

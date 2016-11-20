@@ -1,9 +1,9 @@
 # 1986 Ruins of Thaurissan
 is_city = yes
 
-owner = E56
-controller = E56
-add_core = E56
+owner = P56
+controller = P56
+add_core = P56
 
 base_tax = 1
 base_manpower = 2
@@ -17,12 +17,12 @@ trade_goods = artifacts
 
 # Fall of Stormwind
 597.1.1 = { 
-owner = E98
-	controller = E98
-	add_core = E98
+owner = P98
+	controller = P98
+	add_core = P98
 	culture = culture_blackrock
 	religion = religion_fel 
-	remove_core = E26 
+	remove_core = P26 
 }
 
 # Beyond the Dark Portal
@@ -32,7 +32,7 @@ owner = E98
 	add_core = F61
 	culture = culture_fire
 	religion = religion_fire
-	remove_core = E26 
+	remove_core = P26 
 	native_size = 3
 	native_ferocity = 10
 	native_hostileness = 10

@@ -11,7 +11,7 @@ country_event = {
 	trigger = {
 		is_year = 622	# Rise of the Qiraji
 		not = {is_year = 626}
-		tag = E12		# Cult of the Damned
+		tag = P12		# Cult of the Damned
 		owns = 3075		# Reanimatory
 	}
 	

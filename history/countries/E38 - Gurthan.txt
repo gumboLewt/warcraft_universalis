@@ -1,7 +1,0 @@
-# Gurthan
-government 			= warband_gov
-mercantilism 		= 10
-technology_group 	= tech_mogu
-religion			= religion_titan_corrupt
-primary_culture 	= culture_gurthan
-capital 			= 1

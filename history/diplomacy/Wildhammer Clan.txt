@@ -3,7 +3,7 @@
 ########################################################
 # Aerie Peak - Wildhammer
 union = {
-	first = E22
+	first = P22
 	second = A28
 	start_date = 546.1.1
 	end_date = 650.1.1
@@ -11,7 +11,7 @@ union = {
 
 # Aerie Peak - Ravenhold
 alliance = {
-	first = E22
+	first = P22
 	second = A27
 	start_date = 546.1.1
 	end_date = 597.1.1

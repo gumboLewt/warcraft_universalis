@@ -1,9 +1,9 @@
 # 1778
 is_city = yes
 
-owner = E83
-controller = E83
-add_core = E83
+owner = P83
+controller = P83
+add_core = P83
 capital = "Riverblade Den"
 
 base_tax = 3

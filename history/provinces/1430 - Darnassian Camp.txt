@@ -1,9 +1,9 @@
 # 1430
 is_city = yes
 
-owner = E01
-controller = E01
-add_core = E01
+owner = P01
+controller = P01
+add_core = P01
 
 culture = culture_legashi
 religion = religion_fel

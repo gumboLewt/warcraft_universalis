@@ -6,11 +6,11 @@ war_goal = {
 }
 
 619.1.1 = {
-	add_attacker = E14
+	add_attacker = P14
 	add_attacker = B19
     add_attacker = B25
-	add_attacker = E50
-    add_attacker = E55
+	add_attacker = P50
+    add_attacker = P55
 	add_attacker = F16
 	add_defender = F15
 	add_defender = A25
@@ -35,11 +35,11 @@ war_goal = {
 }
 
 622.1.1 = {
-	rem_attacker = E14
+	rem_attacker = P14
 	rem_attacker = B19
     rem_attacker = B25
-	rem_attacker = E50
-    rem_attacker = E55
+	rem_attacker = P50
+    rem_attacker = P55
 	rem_attacker = F16
 	rem_defender = A25
 }

@@ -1,9 +1,9 @@
 # 1960
 is_city = yes
 
-owner = E56
-controller = E56
-add_core = E56
+owner = P56
+controller = P56
+add_core = P56
 
 culture = culture_dark_iron
 religion = religion_arcane

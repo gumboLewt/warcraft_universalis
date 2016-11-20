@@ -2,7 +2,7 @@
 is_city = yes
 
 add_core = A08
-add_core = E62
+add_core = P62
 owner = A08
 controller = A08
 
@@ -18,14 +18,14 @@ trade_goods = fish
 
 # The Third War
 618.1.1 = { 
-	add_claim = E52
+	add_claim = P52
 }
 
 # The Frozen Throne
 618.1.1 = { 
-	owner = E62
-	controller = E62
-	add_core = E62
+	owner = P62
+	controller = P62
+	add_core = P62
 }
 
 # Rise of the Qiraji
@@ -39,11 +39,11 @@ trade_goods = fish
 
 # Cataclysm
 631.1.1 = { 
-	add_core = E12
+	add_core = P12
 	remove_core = A08
-	remove_core = E62
-	owner = E12
-	controller = E12
+	remove_core = P62
+	owner = P12
+	controller = P12
 	culture = culture_cultist
 	religion = religion_the_damned
 }

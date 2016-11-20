@@ -4,8 +4,8 @@
 ### Highvale
 # Highvale - Wildhammer
 alliance = {
-	first = E49
-	second = E22
+	first = P49
+	second = P22
 	start_date = 618.1.1
 	end_date = 640.1.1
 }
@@ -15,7 +15,7 @@ alliance = {
 # Quel'Thalas-Highvale
 march = {
 	first = A90
-	second = E49
+	second = P49
 	start_date = 600.1.1
 	end_date = 618.1.1
 }

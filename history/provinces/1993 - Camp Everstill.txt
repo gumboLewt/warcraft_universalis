@@ -17,9 +17,9 @@ trade_goods = fish
 
 # Fall of Stormwind
 597.1.1 = { 
-	owner = E98
-	controller = E98
-	add_core = E98
+	owner = P98
+	controller = P98
+	add_core = P98
 	culture = culture_blackrock
 	religion = religion_fel 
 }
@@ -35,7 +35,7 @@ trade_goods = fish
 	owner = F11
 	controller = F11
 	add_core = F11
-	remove_core = E98
+	remove_core = P98
 	culture = culture_nerglish
 	religion = religion_water
 }

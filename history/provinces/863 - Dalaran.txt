@@ -26,7 +26,7 @@ capital = "Dalaran Ruins"
 owner = A25
 controller = A25
 add_core = A25
-add_core = E52
+add_core = P52
 religion = religion_church_of_the_light 
 }
 

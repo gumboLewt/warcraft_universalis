@@ -27,9 +27,9 @@ trade_goods = army_supplies
 
 # The Frozen Throne
 618.1.1 = { 
-	owner = E52 
-	controller = E52
-	add_core = E52
+	owner = P52 
+	controller = P52
+	add_core = P52
 	remove_core = A41
 	religion = religion_the_damned
 	culture = culture_scourge 
@@ -42,15 +42,15 @@ trade_goods = army_supplies
 
 # War of Lordaeron (TFT)
 620.9.1 = { 
-	controller = E14
+	controller = P14
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-	owner = E50
-	controller = E50
-	add_core = E50
-	remove_core = E52
+	owner = P50
+	controller = P50
+	add_core = P50
+	remove_core = P52
 	culture = culture_crushridge
 	religion = religion_geomancy 
 }

@@ -61,7 +61,7 @@ vassal = {
 # Amani-Shadowglen
 vassal = {
 	first = A58
-	second = E55
+	second = P55
 	start_date = 592.1.1
 	end_date = 600.1.1
 }

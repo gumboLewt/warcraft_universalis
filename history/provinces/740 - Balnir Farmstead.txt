@@ -17,9 +17,9 @@ trade_goods = grain
 
 # The Third War
 617.1.1 = { 
-	add_core = E52
-	owner = E52
-	controller = E52
+	add_core = P52
+	owner = P52
+	controller = P52
 	culture = culture_scourge
 	religion = religion_the_damned 
 }
@@ -35,13 +35,13 @@ trade_goods = grain
 
 # War of Lordaeron (TFT)
 620.6.1 = {
-	controller = E52
+	controller = P52
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-	add_core = E52
+	add_core = P52
 	remove_core = F15
-	owner = E52
+	owner = P52
 	religion = religion_the_damned
 }

@@ -1,9 +1,9 @@
 # 651 Rivenwood
 is_city = no
 
-owner = E32
-controller = E32
-add_core = E32
+owner = P32
+controller = P32
+add_core = P32
 
 base_tax = 2
 base_manpower = 2
@@ -19,10 +19,10 @@ trade_goods = fur
 capital = "Trapper Camp"
 
 605.1.1 = {
-remove_core = E32
-owner = E11
-controller = E11
-add_core = E11
+remove_core = P32
+owner = P11
+controller = P11
+add_core = P11
 culture = culture_scourge
 religion = religion_the_damned
 }
@@ -31,7 +31,7 @@ religion = religion_the_damned
 owner = B34
 controller = B34
 add_core = B34
-remove_core = E11
+remove_core = P11
 culture = culture_nerglish
 religion = religion_water
 trade_goods = fish

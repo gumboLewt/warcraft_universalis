@@ -38,9 +38,9 @@ trade_goods = mounts
 
 # The Frozen Throne
 618.1.1 = { 
-	owner = E52 
-	controller = E52
-	add_core = E52
+	owner = P52 
+	controller = P52
+	add_core = P52
 	remove_core = B14
 	religion = religion_the_damned
 	culture = culture_scourge 
@@ -52,16 +52,16 @@ trade_goods = mounts
 	owner = A26
 	controller = A26
 	add_core = A26
-	add_core = E14
-	remove_core = E52
+	add_core = P14
+	remove_core = P52
 	culture = culture_alterac
 	religion = religion_shadow
 }
 
 # Cataclysm
 631.1.1 = { 
-	owner = E14
-	controller = E14
+	owner = P14
+	controller = P14
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 }

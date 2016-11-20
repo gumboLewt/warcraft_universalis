@@ -25,9 +25,9 @@ religion = religion_geomancy
 
 
 618.1.1 = {
-owner = E11
-controller = E11
-add_core = E11
+owner = P11
+controller = P11
+add_core = P11
 remove_core = G30
 culture = culture_scourge
 religion = religion_the_damned

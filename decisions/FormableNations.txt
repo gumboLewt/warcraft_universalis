@@ -1,0 +1,214 @@
+country_decisions = {
+	theramore_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = A23 } # Theramore
+			culture_group = culture_group_human
+			is_colonial_nation = no
+			capital_scope = { region = region_dustwallow_marsh }
+		}
+		allow = {
+		    owns_core_province = 1456 #Theramore Isle
+			NOT = { exists = A23}
+			is_at_war = no		
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = A23
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					province_id = 1461
+					province_id = 1462
+					province_id = 1463
+					province_id = 1465
+				}
+				add_permanent_claim = A23
+			}
+			change_government = administrative_kingdom
+			set_capital = 1456
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	found_orgrimmar = {
+		major = yes
+		potential = {
+			NOT = { exists = A48 }
+			culture_group = culture_group_orc
+			is_colonial_nation = no
+			capital_scope = { continent = continent_kalimdor }
+			is_good = yes
+		}
+		allow = {
+			owns_core_province = 1377
+			is_subject = no
+			is_at_war = no
+			NOT = { exists = A48 }
+		}
+		effect = {
+			change_tag = A48
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			1377 = {
+				while = {
+					limit = {
+						NOT = { base_tax = 8 }
+					}
+					add_base_tax = 1
+				}
+				while = {
+					limit = {
+						NOT = { base_manpower = 8 }
+					}
+					add_base_manpower = 1
+				}
+				while = {
+					limit = {
+						NOT = { base_production = 8 }
+					}
+					add_base_production = 1
+				}
+				if = {
+					limit = { NOT = { culture = culture_horde } }
+					change_culture = culture_horde
+				}
+				if = {
+					limit = { NOT = { religion = religion_ancestral } }
+					change_religion = religion_ancestral
+				}
+			}
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			
+			add_prestige = 25
+			change_primary_culture = culture_horde
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	found_thunder_bluff = {
+		major = yes
+		potential = {
+			NOT = { exists = F88 }
+			culture_group = culture_group_tauren
+			is_colonial_nation = no
+			capital_scope = { continent = continent_kalimdor }
+			is_good = yes
+		}
+		allow = {
+			owns_core_province = 1473
+			is_subject = no
+			is_at_war = no
+			NOT = { exists = F88 }
+		}
+		effect = {
+			change_tag = F88
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			
+			1473 = {
+				while = {
+					limit = {
+						NOT = { base_tax = 6 }
+					}
+					add_base_tax = 1
+				}
+				while = {
+					limit = {
+						NOT = { base_manpower = 6 }
+					}
+					add_base_manpower = 1
+				}
+				while = {
+					limit = {
+						NOT = { base_production = 6 }
+					}
+					add_base_production = 1
+				}
+				if = {
+					limit = { NOT = { religion = religion_ancestral } }
+					change_religion = religion_ancestral
+				}
+			}
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	frostmane_empire = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = H1 } # Frostmane Empire
+			primary_culture = culture_frostmane
+			is_colonial_nation = no
+			
+			capital_scope = { 
+				region = region_dun_morogh 
+			}
+		}
+		
+		allow = {
+		    owns_core_province = 3041 #Frostmane village
+		    owns_core_province = 947 #Ironforge
+		    owns_core_province = 887 #upper city
+		    owns_core_province = 1949 #anvilmar
+		    owns_core_province = 1951 #Frostmane Hold
+		    owns_core_province = 956 #Kharnos
+			NOT = { exists = H1 }
+			is_at_war = no		
+		}
+		
+		effect = {
+			add_prestige = 25
+			change_tag = H1
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			region_dun_morogh = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = H1
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+
+			set_capital = 1951
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

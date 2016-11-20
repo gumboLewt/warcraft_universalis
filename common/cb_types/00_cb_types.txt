@@ -427,3 +427,13 @@ cb_force_migration = {
 	}	
 	war_goal = force_migration
 }
+
+# Forced our ally to break alliance
+cb_forced_break_alliance = {
+
+	valid_for_subject = no
+	is_triggered_only = yes
+	months = 120
+	
+	war_goal = superiority_insult
+}

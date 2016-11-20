@@ -148,7 +148,7 @@ country_event = {
 		}
 		NOT = { 
 			has_opinion = {
-				who = E14 # The Forsaken
+				who = P14 # The Forsaken
 				value = 0
 			}
 		}

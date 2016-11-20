@@ -1,9 +1,9 @@
 # 1828
 is_city = yes
 
-owner = E37
-controller = E37
-add_core = E37
+owner = P37
+controller = P37
+add_core = P37
 
 base_tax = 2
 base_manpower = 3
@@ -20,9 +20,9 @@ trade_goods = army_supplies
 
 
 632.1.1 = 
-{ owner = E45
-controller = E45
-add_core = E45
+{ owner = P45
+controller = P45
+add_core = P45
 culture = culture_osul
 religion = religion_fire
 }

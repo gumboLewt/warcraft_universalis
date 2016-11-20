@@ -1,9 +1,9 @@
 # 1781
 is_city = yes
 
-owner = E65
-controller = E65
-add_core = E65
+owner = P65
+controller = P65
+add_core = P65
 
 base_tax = 2
 base_manpower = 2

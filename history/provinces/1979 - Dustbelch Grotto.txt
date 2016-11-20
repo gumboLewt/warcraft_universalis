@@ -1,9 +1,9 @@
 # 1979
 is_city = yes
 
-owner = E57
-controller = E57
-add_core = E57
+owner = P57
+controller = P57
+add_core = P57
 
 base_tax = 3
 base_manpower = 3
@@ -23,5 +23,5 @@ trade_goods = army_supplies
 600.1.1 = { owner = F06
 controller = F06
 add_core = F06
-remove_core = E57
+remove_core = P57
 culture = culture_dustbelcher }

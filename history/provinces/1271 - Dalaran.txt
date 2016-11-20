@@ -1,9 +1,9 @@
 # 1271 (Northrend)
 is_city = yes
 
-owner = E77
-controller = E77
-add_core = E77
+owner = P77
+controller = P77
+add_core = P77
 
 base_tax = 2
 base_manpower = 2
@@ -28,7 +28,7 @@ trade_goods = arcane
 	owner = A18
 	controller = A18
 	add_core = A18
-	remove_core = E77
+	remove_core = P77
 	culture = culture_dalaran
 	religion = religion_arcane
 

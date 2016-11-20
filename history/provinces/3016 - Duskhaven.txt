@@ -20,9 +20,9 @@ trade_goods = grain
 
 # Cataclysm
 631.1.1 = { 
-owner = E14
-controller = E14
-add_core = E14
+owner = P14
+controller = P14
+add_core = P14
 religion = religion_forgotten_shadow
 culture = culture_forsaken
 }
@@ -31,7 +31,7 @@ culture = culture_forsaken
 632.1.1 = { 
 owner = XXX
 controller = XXX
-remove_core = E14
+remove_core = P14
 culture = culture_gilnean_worgen
 religion = religion_church_of_the_light
 }

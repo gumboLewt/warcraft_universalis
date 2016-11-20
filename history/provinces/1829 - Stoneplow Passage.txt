@@ -1,9 +1,9 @@
 # 1829
 is_city = yes
 
-owner = E84
-controller = E84
-add_core = E84
+owner = P84
+controller = P84
+add_core = P84
 capital = "Stoneplow Garrison"
 
 base_tax = 2
@@ -21,9 +21,9 @@ trade_goods = army_supplies
 
 
 632.1.1 = {
-owner = E34
-controller = E34
-add_core = E34
+owner = P34
+controller = P34
+add_core = P34
 culture = culture_mantid
 religion = religion_old_gods
 }

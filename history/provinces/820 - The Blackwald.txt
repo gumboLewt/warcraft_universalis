@@ -20,9 +20,9 @@ trade_goods = fur
 
 # The Frozen Throne
 618.1.1 = { 
-owner = E29
-controller = E29
-add_core = E29
+owner = P29
+controller = P29
+add_core = P29
 culture = culture_wolfcult
 religion = religion_shadow
 }
@@ -31,7 +31,7 @@ religion = religion_shadow
 632.1.1 = { 
 owner = A12
 controller = A12
-remove_core = E29
+remove_core = P29
 culture = culture_gilnean_worgen
 religion = religion_church_of_the_light
 }

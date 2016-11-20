@@ -1,9 +1,9 @@
 # 827 The Savage Ledge
 is_city = no
 
-owner = E17
-controller = E17
-add_core = E17
+owner = P17
+controller = P17
+add_core = P17
 
 base_tax = 3
 base_manpower = 3

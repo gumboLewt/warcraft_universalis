@@ -73,7 +73,7 @@ alliance = {
 # Lordaeron - Wildhammer
 alliance = {
 	first = A08
-	second = E22
+	second = P22
 	start_date = 597.1.1
 	end_date = 605.1.1
 }
@@ -146,7 +146,7 @@ alliance = {
 # Quel'Thalas - Wildhammer
 alliance = {
 	first = A90
-	second = E22
+	second = P22
 	start_date = 597.1.1
 	end_date = 605.1.1
 }
@@ -211,7 +211,7 @@ alliance = {
 # Dalaran - Wildhammer
 alliance = {
 	first = A18
-	second = E22
+	second = P22
 	start_date = 597.1.1
 	end_date = 605.1.1
 }
@@ -268,7 +268,7 @@ alliance = {
 # Gilneas - Wildhammer
 alliance = {
 	first = A12
-	second = E22
+	second = P22
 	start_date = 597.1.1
 	end_date = 605.1.1
 }
@@ -317,7 +317,7 @@ alliance = {
 # Alterac - Wildhammer
 alliance = {
 	first = A17
-	second = E22
+	second = P22
 	start_date = 597.1.1
 	end_date = 598.1.1
 }
@@ -358,7 +358,7 @@ alliance = {
 # Stromgarde - Wildhammer
 alliance = {
 	first = A16
-	second = E22
+	second = P22
 	start_date = 597.1.1
 	end_date = 605.1.1
 }
@@ -391,7 +391,7 @@ alliance = {
 # Stormwind - Wildhammer
 alliance = {
 	first = A01
-	second = E22
+	second = P22
 	start_date = 597.1.1
 	end_date = 605.1.1
 }
@@ -416,7 +416,7 @@ alliance = {
 # Ironforge - Wildhammer
 alliance = {
 	first = A29
-	second = E22
+	second = P22
 	start_date = 597.1.1
 	end_date = 605.1.1
 }
@@ -433,7 +433,7 @@ alliance = {
 # Gnomeregan - Wildhammer
 alliance = {
 	first = A32
-	second = E22
+	second = P22
 	start_date = 597.1.1
 	end_date = 605.1.1
 }
@@ -449,7 +449,7 @@ alliance = {
 ### Wildhammer
 # Wildhammer - Kul Tiras
 alliance = {
-	first = E22
+	first = P22
 	second = A14
 	start_date = 597.1.1
 	end_date = 605.1.1

@@ -6,9 +6,9 @@ base_manpower = 3
 base_production = 3
 
 
-owner = E46
-controller = E46
-add_core = E46
+owner = P46
+controller = P46
+add_core = P46
 culture = culture_deadtalker
 religion = religion_shadow
 

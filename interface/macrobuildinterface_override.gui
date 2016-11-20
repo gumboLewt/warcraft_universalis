@@ -278,6 +278,12 @@ guiTypes = {
 			maxWidth = 108
 			maxHeight = 18
 		}
+
+		iconType = {
+			name = "culture_acceptance_icon"
+			position = { x = 260 y = 10 }
+			spriteType = "GFX_macrobuild_entry_cultural_acceptance"
+		}
 		
 		instantTextBoxType={
 			name = "cost"
@@ -288,12 +294,6 @@ guiTypes = {
 			maxHeight = 18
 		}
 		
-    iconType = {
-      name = "culture_acceptance_icon"
-      position = { x = 260 y = 10 }
-      spriteType = "GFX_macrobuild_entry_cultural_acceptance"
-    }
-
 		iconType =
 		{
 			name ="culture_progress"
@@ -346,7 +346,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 86
 			maxHeight = 18
-      fixedsize = yes
+			fixedsize = yes
 		}
 
 		iconType = {
@@ -996,6 +996,27 @@ guiTypes = {
 				position = { x= 182 y = 12 }
 				quadTextureSprite ="GFX_sort_autonomy_s"
 			}
+			
+			
+			checkboxType = {
+				name = "show_subjects"
+				position = { x=220 y=6 }
+				quadTextureSprite ="GFX_checkbox_gold_32"
+			}	
+
+			instantTextBoxType={
+				name = "show_subjects_title"
+				position = {x = 254 y = 9 }
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}	
+				maxWidth = 256
+				maxHeight = 18
+				text = "MACRO_BUILDR_INCL_SUBJ"
+				format = left
+			}
+			
+
+			
 		}
 
 		########### ESTATES ########

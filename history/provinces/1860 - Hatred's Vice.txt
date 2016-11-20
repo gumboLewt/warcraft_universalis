@@ -1,9 +1,9 @@
 # 1860
 is_city = yes
 
-owner = E48
-controller = E48
-add_core = E48
+owner = P48
+controller = P48
+add_core = P48
 capital = "Fire Camp Palewind"
 
 
@@ -25,7 +25,7 @@ trade_goods = oil
 owner = B84
 controller = B84
 add_core = B84
-remove_core = E48
+remove_core = P48
 religion = religion_old_gods
 culture = culture_sha
 }

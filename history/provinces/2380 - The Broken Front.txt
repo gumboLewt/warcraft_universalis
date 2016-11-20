@@ -5,9 +5,9 @@ base_manpower = 1
 base_production = 1
 
 
-owner = E74
-controller = E74
-add_core = E74
+owner = P74
+controller = P74
+add_core = P74
 culture = culture_nerubian
 religion = religion_arcane
 
@@ -15,10 +15,10 @@ hre = no
 trade_goods = grain
 
 617.1.1 = {
-  owner = E11
-  controller = E11
-  add_core = E11
-  remove_core = E72
+  owner = P11
+  controller = P11
+  add_core = P11
+  remove_core = P72
   culture = culture_scourge
   religion = religion_the_damned
 }

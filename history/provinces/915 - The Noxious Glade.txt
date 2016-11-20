@@ -17,9 +17,9 @@ trade_goods = lumber
 
 # The Third War
 617.1.1 = {
-	add_core = E12
-	controller = E12
-	owner = E12
+	add_core = P12
+	controller = P12
+	owner = P12
 	remove_core = B12
 	religion = religion_the_damned
 	culture = culture_lordaeron

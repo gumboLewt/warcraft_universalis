@@ -5,9 +5,9 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-owner = E53
-controller = E53
-add_core = E53
+owner = P53
+controller = P53
+add_core = P53
 
 culture = culture_tunnel_rat
 religion = religion_geomancy

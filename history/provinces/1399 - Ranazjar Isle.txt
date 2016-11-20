@@ -22,9 +22,9 @@ base_production = 2
 }
 
 631.1.1 = { 
-owner = E24
-controller = E24
-add_core = E24 
+owner = P24
+controller = P24
+add_core = P24 
 base_tax = 1
 base_manpower = 1
 base_production = 1

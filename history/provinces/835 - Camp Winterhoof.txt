@@ -1,9 +1,9 @@
 # 835
 is_city = no
 
-owner = E73
-controller = E73
-add_core = E73
+owner = P73
+controller = P73
+add_core = P73
 
 base_tax = 1
 base_manpower = 1

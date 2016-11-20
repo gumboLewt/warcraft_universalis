@@ -22,8 +22,8 @@ trade_goods = artifacts
 
 # The Third War
 617.1.1 = { 
-owner = E58
-controller = E58
-add_core = E58 
+owner = P58
+controller = P58
+add_core = P58 
 religion = religion_voodoo
 }

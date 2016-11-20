@@ -1,9 +1,9 @@
 # 1795
 is_city = yes
 
-owner = E84
-controller = E84
-add_core = E84
+owner = P84
+controller = P84
+add_core = P84
 
 base_tax = 4
 base_manpower = 3
@@ -17,9 +17,9 @@ hre = yes
 trade_goods = grain
 
 632.1.1 = {
-    owner = E75
-    controller = E75
-    add_core = E75
+    owner = P75
+    controller = P75
+    add_core = P75
     culture = culture_springtail
     religion = religion_geomancy
 }

@@ -1,9 +1,9 @@
 # 1907
 is_city = yes
 
-owner = E41
-controller = E41
-add_core = E41
+owner = P41
+controller = P41
+add_core = P41
 
 base_tax = 3
 base_manpower = 3

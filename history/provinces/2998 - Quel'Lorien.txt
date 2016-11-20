@@ -17,9 +17,9 @@ trade_goods = fur
  
 # High elven expedition to assist wildhammers with hinterlands trolls after second war
 600.1.1 = {
-add_core = E49
-owner = E49  
-controller = E49 
+add_core = P49
+owner = P49  
+controller = P49 
 capital = "Quel'Danil Lodge"
 religion = religion_church_of_the_light
 culture = culture_high_elf
@@ -35,6 +35,6 @@ base_production = 4
 # War in the Hinterlands
 631.1.1 = {
 add_claim = A61
-add_claim = E14
+add_claim = P14
 }
 

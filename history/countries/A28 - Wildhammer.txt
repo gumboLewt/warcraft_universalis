@@ -15,7 +15,7 @@ monarch = {
 		dip = 2
 		mil = 5
  	} 
-historical_friend = E22
+historical_friend = P22
  } 
 
 598.1.1 = {

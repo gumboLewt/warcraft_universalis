@@ -15,9 +15,9 @@ hre = no
 trade_goods = grain
 
 626.1.1 = {
-owner = E13
-controller = E13
-add_core = E13
+owner = P13
+controller = P13
+add_core = P13
 culture = culture_death_knight
 religion = religion_forgotten_shadow
 }

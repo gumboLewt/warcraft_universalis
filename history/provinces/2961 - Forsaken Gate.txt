@@ -30,7 +30,7 @@ trade_goods = salt
 	owner = A25
 	controller = A25
 	add_core = A25
-	add_core = E52
+	add_core = P52
 	religion = religion_church_of_the_light
 }
 
@@ -51,9 +51,9 @@ trade_goods = salt
 
 # Cataclysm
 631.1.1 = { 
-	owner = E14
-	controller = E14
-	add_core = E14
+	owner = P14
+	controller = P14
+	add_core = P14
 	religion = religion_forgotten_shadow
 	culture = culture_forsaken
 	base_tax = 3

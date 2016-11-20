@@ -1,9 +1,9 @@
 # 1874
 is_city = yes
 
-owner = E90
-controller = E90
-add_core = E90
+owner = P90
+controller = P90
+add_core = P90
 
 
 base_tax = 3
@@ -21,10 +21,10 @@ trade_goods = oil
 
 
 632.1.1 = {
-owner = E34
-controller = E34
-add_core = E34
-remove_core = E90
+owner = P34
+controller = P34
+add_core = P34
+remove_core = P90
 culture = culture_mantid
 religion = religion_old_gods
 }

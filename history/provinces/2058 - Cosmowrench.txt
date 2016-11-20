@@ -15,26 +15,26 @@ hre = no
 trade_goods = adamantium
 
 592.1.1 = {
-add_core = A43
-owner = A43
-controller = A43
-remove_core = A54
-religion = religion_fel
-culture = culture_twilights_hammer
+	add_core = A43
+	owner = A43
+	controller = A43
+	remove_core = A54
+	religion = religion_fel
+	culture = culture_twilights_hammer
 }
 
 617.1.1 = {
-remove_core = A43
-owner = XXX
-controler = XXX
+	remove_core = A43
+	owner = XXX
+	controller = XXX
 }
 
 625.1.1 = {
-owner = F81
-controller = F81
-add_core =  F81
-remove_core = A43
-culture = culture_kezani
-religion = religion_tech
-trade_goods = workshops
+	owner = F81
+	controller = F81
+	add_core =  F81
+	remove_core = A43
+	culture = culture_kezani
+	religion = religion_tech
+	trade_goods = workshops
 }

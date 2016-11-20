@@ -1,9 +1,9 @@
 # 1267 Corp'rethar
 is_city = yes
 
-owner = E74
-controller = E74
-add_core = E74
+owner = P74
+controller = P74
+add_core = P74
 
 base_tax = 2
 base_manpower = 2
@@ -17,9 +17,9 @@ trade_goods = saronite
 
 # The Alliance Splinters
 605.1.1 = { 
-	add_core = E11
-	controller = E11
-	owner = E11
+	add_core = P11
+	controller = P11
+	owner = P11
 	culture = culture_scourge
 	religion = religion_the_damned 
 }

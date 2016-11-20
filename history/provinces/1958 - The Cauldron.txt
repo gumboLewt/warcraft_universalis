@@ -1,9 +1,9 @@
 # 1958 The Cauldron
 is_city = yes
 
-owner = E56
-controller = E56
-add_core = E56
+owner = P56
+controller = P56
+add_core = P56
 
 culture = culture_dark_iron
 religion = religion_arcane
@@ -18,9 +18,9 @@ trade_goods = thorium
 
 # The Second War
 598.1.1 = { 
-	owner = E98
-	controller = E98
-	add_core = E98
+	owner = P98
+	controller = P98
+	add_core = P98
 	culture = culture_blackrock
 	religion = religion_fel 
 }
@@ -29,7 +29,7 @@ trade_goods = thorium
 600.1.1 = { 
 	owner = A30
 	controller = A30
-	remove_core = E98
+	remove_core = P98
 	culture = culture_dark_iron
 	religion = religion_fire 
 }

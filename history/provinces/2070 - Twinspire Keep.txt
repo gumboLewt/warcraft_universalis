@@ -1,9 +1,9 @@
 # 2070
 is_city = yes
 
-owner = E67
-controller = E67
-add_core = E67
+owner = P67
+controller = P67
+add_core = P67
 
 base_tax = 4
 base_manpower = 4
@@ -20,7 +20,7 @@ trade_goods = army_supplies
     owner = A48
     controller = A48
     add_core = A48
-    add_core = E14
+    add_core = P14
     culture = culture_horde
     religion = religion_ancestral
 }
@@ -30,6 +30,6 @@ trade_goods = army_supplies
     owner = XXX
     controller = XXX
     remove_core = A48
-    remove_core = E14
+    remove_core = P14
 }
 

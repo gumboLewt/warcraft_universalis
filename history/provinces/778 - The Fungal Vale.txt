@@ -1,9 +1,9 @@
 # 778 The Fungal Vale
 is_city = yes
 
-add_core = E55
-owner = E55
-controller = E55
+add_core = P55
+owner = P55
+controller = P55
 culture = culture_shadowglen
 religion = religion_voodoo
 
@@ -17,9 +17,9 @@ trade_goods = lumber
 
 # The Third War
 617.1.1 = {
-	add_core = E12
-	owner = E12
-	controller = E12
+	add_core = P12
+	owner = P12
+	controller = P12
 	religion = religion_the_damned
 }
 

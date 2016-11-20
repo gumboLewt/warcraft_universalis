@@ -18,7 +18,7 @@ trade_goods = grain
 
 # The Third War
 618.1.1 = { 
-	add_core = E52
+	add_core = P52
 }
 
 # The Frozen Throne
@@ -30,11 +30,11 @@ trade_goods = grain
 
 # Rise of the Qiraji
 622.1.1 = { 
-	add_core = E52
+	add_core = P52
 	remove_core = A08
 	remove_core = A10
-	owner = E52
-	controller = E52
+	owner = P52
+	controller = P52
 	culture = culture_scourge
 	religion = religion_the_damned
 }

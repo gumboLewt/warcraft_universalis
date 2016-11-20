@@ -20,9 +20,9 @@ trade_goods = army_supplies
 
 # Fall of Stormwind
 597.1.1 = {
-owner = E98
-controller = E98
-add_core = E98
+owner = P98
+controller = P98
+add_core = P98
 culture = culture_blackrock
 religion = religion_fel
 }
@@ -34,5 +34,5 @@ controller = A41
 add_core = A65
 add_core = A41
 add_core = G20
-remove_core = E98
+remove_core = P98
 }

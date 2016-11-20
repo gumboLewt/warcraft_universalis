@@ -40,9 +40,9 @@ trade_goods = artifacts
 
 # The Frozen Throne
 618.1.1 = { 
-	add_core = E28
-	controller = E28
-	owner = E28
+	add_core = P28
+	controller = P28
+	owner = P28
 	culture = culture_air
 	religion = religion_air
 }

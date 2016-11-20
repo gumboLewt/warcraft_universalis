@@ -4,9 +4,9 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-owner = E22
-controller = E22
-add_core = E22
+owner = P22
+controller = P22
+add_core = P22
 
 hre = no
 trade_goods = smugglers

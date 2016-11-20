@@ -34,7 +34,7 @@ trade_goods = grain_silo
 # Cataclysm
 631.1.1 = { 
 	culture = culture_gilnean_worgen
-	controller = E14
+	controller = P14
 }
 
 # Mists of Pandaria

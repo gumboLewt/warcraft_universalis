@@ -9,7 +9,7 @@
 #####################################################
 # Forsaken - Blackthorn Bandits
 vassal = {
-	first = E14
+	first = P14
 	second = F16
 	start_date = 619.1.1
 	end_date = 622.1.1
@@ -17,23 +17,23 @@ vassal = {
 
 # Forsaken - Shadowglen
 vassal = {
-	first = E14
-	second = E55
+	first = P14
+	second = P55
 	start_date = 619.1.1
 	end_date = 620.7.1
 }
 
 # Forsaken - Crushridge
 vassal = {
-	first = E14
-	second = E50
+	first = P14
+	second = P50
 	start_date = 619.1.1
 	end_date = 622.1.1
 }
 
 # Forsaken - Rothide
 vassal = {
-	first = E14
+	first = P14
 	second = B19
 	start_date = 619.1.1
 	end_date = 622.1.1
@@ -41,7 +41,7 @@ vassal = {
 
 # Forsaken - Vile Fin
 vassal = {
-	first = E14
+	first = P14
 	second = B25
 	start_date = 619.1.1
 	end_date = 622.1.1
@@ -49,7 +49,7 @@ vassal = {
 
 # Forsaken - New Stromgarde
 vassal = {
-	first = E14
+	first = P14
 	second = H12
 	start_date = 631.1.1
 	end_date = 650.1.1   #temp

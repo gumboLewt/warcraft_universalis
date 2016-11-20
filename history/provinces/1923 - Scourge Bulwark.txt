@@ -18,9 +18,9 @@ trade_goods = army_supplies
  
 # The Third War
 617.1.1 = {
-	add_core = E52
-	owner = E52
-	controller = E52
+	add_core = P52
+	owner = P52
+	controller = P52
 	culture = culture_scourge
 	religion = religion_the_damned
 }
@@ -37,21 +37,21 @@ trade_goods = army_supplies
 
 # War of Lordaeron (TFT)
 620.8.1 = {
-	controller = E52
+	controller = P52
 }
 
 # Rise of the Qiraji
 622.1.1 = {
-	owner = E52
+	owner = P52
 	remove_core = F15
 	religion = religion_the_damned
 }
 
 # Cataclysm
 631.1.1 = {
-	add_core = E14
-	owner = E14
-	controller = E14
+	add_core = P14
+	owner = P14
+	controller = P14
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 }

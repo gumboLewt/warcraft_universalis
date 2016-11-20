@@ -1,9 +1,9 @@
 # 953 Karazhan
 is_city = yes
 
-owner = E59
-controller = E59
-add_core = E59
+owner = P59
+controller = P59
+add_core = P59
 
 base_tax = 7
 base_manpower = 7
@@ -28,8 +28,8 @@ trade_goods = arcane
 
 # The Burning Crusade
 625.1.1 = { 
-	owner = E59
-	controller = E59
-	add_core = E59
+	owner = P59
+	controller = P59
+	add_core = P59
 	culture = culture_forsaken
 }

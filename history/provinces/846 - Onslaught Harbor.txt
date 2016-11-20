@@ -5,9 +5,9 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 
-owner = E17
-controller = E17
-add_core = E17
+owner = P17
+controller = P17
+add_core = P17
 
 culture = culture_mjordin
 religion = religion_titan

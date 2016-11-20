@@ -29,9 +29,9 @@ religion = religion_ancestral
 
 # The Frozen Throne
 618.1.1 = {
-owner = E02
-controller = E02
-add_core =  E02
+owner = P02
+controller = P02
+add_core =  P02
 culture = culture_vashjari
 religion = religion_old_gods
 }

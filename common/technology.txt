@@ -55,105 +55,105 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 
 	tech_gnome = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 
 	tech_darnassian = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_thalassian = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_dwarven = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 
 	tech_orc = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_ogre = {
 		start_cost_modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_draenei = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_troll = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_goblin = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_tauren = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_aqir = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_demonic = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_satyr = {
 		start_cost_modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	tech_naga = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -161,7 +161,7 @@ groups = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	
@@ -169,7 +169,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -177,7 +177,7 @@ groups = {
 		start_cost_modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -185,7 +185,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 1
-		trade_company = yes
+		
 	}
 	
 	
@@ -193,7 +193,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -201,7 +201,7 @@ groups = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	
@@ -209,7 +209,7 @@ groups = {
 		start_cost_modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	
@@ -217,7 +217,7 @@ groups = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	
@@ -225,7 +225,7 @@ groups = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	
@@ -233,7 +233,7 @@ groups = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	
@@ -241,7 +241,7 @@ groups = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -249,7 +249,7 @@ groups = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	
@@ -257,7 +257,7 @@ groups = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	
@@ -265,7 +265,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -273,7 +273,7 @@ groups = {
 		start_cost_modifier = 0.25
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -281,7 +281,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -289,7 +289,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -297,7 +297,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 	
 	
@@ -305,7 +305,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -313,7 +313,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -321,7 +321,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -329,7 +329,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -337,7 +337,7 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	
@@ -345,21 +345,21 @@ groups = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
 	
 	tech_vrykul = {
 		start_cost_modifier = 0
 		start_level = 1
 		cav_to_inf_ratio = 0.5
-		trade_company = yes
+		
 	}
         
 	tech_magnataur = {
 		start_cost_modifier = 1
 		start_level = 1
 		cav_to_inf_ratio = 0
-		trade_company = yes
+		
 	}
 }
 

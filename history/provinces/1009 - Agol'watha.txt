@@ -29,9 +29,9 @@ trade_goods = army_supplies
 
 # Cataclysm - Influx of Draenei Settlers after revantusk raids diminished elven population
 631.1.1 = {
-	add_core = E49
-	owner = E49  
-	controller = E49
+	add_core = P49
+	owner = P49  
+	controller = P49
 	culture = culture_karaborian
 	religion = religion_light_of_the_naaru
 	base_manpower = 3

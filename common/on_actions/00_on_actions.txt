@@ -674,6 +674,16 @@ on_grant_estate_land = {
 
 }
 
+on_death_has_harem = {
+
+}
+
+on_select_heir_from_harem = {
+}
+
+on_fetishist_cult_change = {
+}
+
 # country
 on_gain_great_power_status = {
   if = {
@@ -698,4 +708,12 @@ on_province_culture_converted = {
 
 # province
 on_province_owner_change = {
+}
+
+# country
+on_parliament_debate_failed = {
+}
+
+# country
+on_parliament_debate_succeeded = {
 }

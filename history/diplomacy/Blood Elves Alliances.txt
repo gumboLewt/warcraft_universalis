@@ -13,7 +13,7 @@ alliance = {
 # Sunfury-Silvermoon
 union = {
 	first = A93
-	second = E49
+	second = P49
 	start_date = 622.1.1
 	end_date = 625.1.1
 }
