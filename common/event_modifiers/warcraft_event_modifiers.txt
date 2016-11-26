@@ -28,7 +28,7 @@ recently_conjured = {
 }
 
 kings_grasp = {
-    reduced_liberty_desire = -200		#This is simply not possible to break true Lich King's grasp
+    reduced_liberty_desire = 1000		#This is simply not possible to break true Lich King's grasp
 }
 
 blood_of_mannaroth = {

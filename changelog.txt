@@ -1,10 +1,10 @@
-# Added "Inspire Righteousness" decision for Humans
-# Added "Enact Civil Code" decision for Humans
-# Added "Mobilise Workforces" decision for Humans
-# Added "Domination of the Clergy" triggered modifier for going over 80 influence with the Clergy
-# Added "Domination of the Commoners" triggered modifier for going over 80 influence with the Commoners
-# Added "Domination of the Merchants" triggered modifier for going over 80 influence with the Merchants
-# Added "Domination of the Nobility" triggered modifier for going over 80 influence with the Nobility
-# Added the Deeprun Tram
-# Tidied up the Ironforge province shapes
-# 
+# 26/11/2016
+- Added new aspects for The Damned religion
+- Added aspects for the Void religion
+- Added new aspects for the Fel religion
+- Added missing localisation keys for various things
+- Added the two provinces near Ironforge to the Kharanos area
+- Fixed an issue with the Deeprun Tram province colour definition
+- Adjusted the base Liberty Desire scalar for relative power to 25
+- Fixed the King's Grasp (reduced liberty desire) modifier
+- Adjusted the Scourge Mindlessness triggered modifier

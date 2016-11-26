@@ -935,14 +935,10 @@ subject_nation = {
 	global_tax_income = 6
 	land_forcelimit	= 2
 	naval_forcelimit = 1
-    
-	liberty_desire = -50
 }
 
 vassal_nation = {
 	development_cost = 0.5
-    
-	liberty_desire = -50
 }
 
 primitive_nation = {

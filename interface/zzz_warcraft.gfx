@@ -14,6 +14,12 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	
+    spriteType = {
+		name = "GFX_country_icon_religion"
+		texturefile = "gfx//interface//country_icon_religion.dds"
+		noOfFrames = 33		
+	}
+    
 	spriteType = {
 		name = "GFX_religion_icon_strip"
 		texturefile = "gfx/interface/icon_religion_small.dds"

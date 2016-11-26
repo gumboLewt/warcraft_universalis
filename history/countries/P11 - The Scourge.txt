@@ -7,6 +7,11 @@ religion			= religion_the_damned
 primary_culture = culture_scourge
 capital = 1268
 
+add_country_modifier = {
+    name = kings_grasp
+    duration = -1
+}
+
 605.1.1 = { 
 	monarch =
 	{ 

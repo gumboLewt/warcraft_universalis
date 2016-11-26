@@ -9,6 +9,7 @@ primary_culture = culture_scourge
 add_accepted_culture = culture_undead_troll
 capital = 642
 
+
 617.1.1 = { 
 	monarch =
 	{ 

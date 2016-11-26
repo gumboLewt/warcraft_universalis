@@ -1,0 +1,125 @@
+﻿l_english:
+ # Main
+ got_institution_feudalism: "Feudalism"
+ got_institution_feudalism_date: "100"
+ desc_got_institution_feudalism: "Society is feudal, operating through feifdoms owned by individuals with power or wealth, most of the time both."
+ 
+ got_institution_rumours: "Rumours of Magic"
+ got_institution_rumours_date: "150"
+ desc_got_institution_rumours: "Rumours of magic returning have begun circulating, and those who's beliefs may be threatened are beginning to become agitated."
+ 
+ got_institution_illumination: "Illumination of Magic"
+ got_institution_illumination_date: "250"
+ desc_got_institution_illumination: "Society has begun to accept the precense of magic in the world, and all though attitudes are generally hostile towards it, those with an open mind have much to learn."
+ 
+ got_institution_cultivation: "Cultivation of Magic"
+ got_institution_cultivation_date: "300"
+ desc_got_institution_cultivation: "Attitudes within society has shifted, and the study of magic is considered reputable. Schools such as those of the elementalists have begun appearing, although many still consider it heretical."
+ 
+ got_institution_refinement: "Refinement of Magic"
+ got_institution_refinement_date: "400"
+ desc_got_institution_refinement: "Society has come to accept the advantages of magic, especially in it's use against our enemies. Schools of magic have been firmly established for all forms, such as divination, elemental control, skinchanging, glamoring, and controversially necromany."
+ 
+ got_institution_edification: "Edification of Magic"
+ got_institution_edification_date: "500"
+ desc_got_institution_edification: "Society accepts the existance of magic fully, and it's usage is popular throughout. Our enemies tremble in awe of our mastery, and our practictioners have begun teaching freely, ensuring our society is leading the way."
+ 
+ got_institution_enlightenment: "Enlightenment"
+ got_institution_enlightenment_date: "600"
+ desc_got_institution_enlightenment: "Once again a nation has reached the status Valyria once held. Our mastery of the schools of magic is unmatched, and our dominion is unquestioned. Atleast for now, we must be vigilant we do not fall prey to the same mistakes the Valyrians did."
+ 
+ # Penalty descriptions
+ got_institution_feudalism_penalty: "Countries that have not yet fully §YEmbraced§! the §YFeudalism§! Institution will recieve an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ got_institution_rumours_penalty: "Countries that have not yet fully §YEmbraced§! the §YRumours of Magic§! Institution will recieve an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ got_institution_illumination_penalty: "Countries that have not yet fully §YEmbraced§! the §YIllumination of Magic§! Institution will recieve an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ got_institution_cultivation_penalty: "Countries that have not yet fully §YEmbraced§! the §YCultivation of Magic§! Institution will recieve an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ got_institution_refinement_penalty: "Countries that have not yet fully §YEmbraced§! the §YRefinement of Magic§! Institution will recieve an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ got_institution_edification_penalty: "Countries that have not yet fully §YEmbraced§! the §YEdification of Magic§! Institution will recieve an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ got_institution_enlightenment_penalty: "Countries that have not yet fully §YEmbraced§! the §YEnlightenment§! Institution will recieve an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ 
+ # Modifiers
+ rumours_of_magic: "Source of Magical Rumors"
+ desc_rumours_of_magic: ""
+ 
+ home_of_the_illuminated: "Home of the Illuminated"
+ desc_home_of_the_illuminated: ""
+ 
+ cultivators_of_glory: "Cultivators of Glory"
+ desc_cultivators_of_glory: ""
+ 
+ refinement_of_magic: "Refinement of Magic"
+ desc_refinement_of_magic: ""
+ 
+ educators_of_magic: "Magical Educators"
+ desc_educators_of_magic: ""
+ 
+ home_of_the_enlightenment: "Home of the Enlightenment"
+ desc_home_of_the_enlightenment: ""
+ 
+ # Neighbour embraced tooltips
+ tt_anhe_feudalism: "Adjacent province has §YFeudalism§!"
+ tt_anhe_rumours: "Adjacent province has §YRumours of Magic§!"
+ tt_anhe_illumination: "Adjacent province has §YIllumination of Magic§!"
+ tt_anhe_cultivation: "Adjacent province has §YCultivation of Magic§!"
+ tt_anhe_refinement: "Adjacent province has §YRefinement of Magic§!"
+ tt_anhe_edification: "Adjacent province has §YEdification of Magic§!"
+ tt_anhe_enlightenment: "Adjacent province has §YEnlightenment§!"
+ 
+ # Friendly coast embraced tooltips
+ tt_afcbphe_feudalism: "Nearby Friendly Province has §YFeudalism§!"
+ tt_afcbphe_rumours: "Nearby Friendly Province has §YRumours of Magic§!"
+ tt_afcbphe_illumination: "Nearby Friendly Province has §YIllumination of Magic§!"
+ tt_afcbphe_cultivation: "Nearby Friendly Province has §YCultivation of Magic§!"
+ tt_afcbphe_refinement: "Nearby Friendly Province has §YRefinement of Magic§!"
+ tt_afcbphe_edification: "Nearby Friendly Province has §YEdification of Magic§!"
+ tt_afcbphe_enlightenment: "Nearby Friendly Province has §YEnlightenment§!"
+ 
+ # Embracement tooltips
+ tt_embraced_feudalism: "Owner has embraced §YFeudalism§!"
+ tt_embraced_rumours: "Owner has embraced §YRumours of Magic§!"
+ tt_embraced_illumination: "Owner has embraced §YIllumination of Magic§!"
+ tt_embraced_cultivation: "Owner has embraced §YCultivation of Magic§!"
+ tt_embraced_refinement: "Owner has embraced §YRefinement of Magic§!"
+ tt_embraced_edification: "Owner has embraced §YEdification of Magic§!"
+ tt_embraced_enlightenment: "Owner has embraced §YEnlightenment§!"
+ 
+ # Tooltips
+ tt_magical_affinity: "Magical Affinity"
+ tt_devout_belief: "Devout Belief"
+ tt_westerosi_ideals: "Westerosi Ideals"
+ tt_essosian_ideals: "Essosian Ideals"
+ tt_slaver_ideals: "Slaver Ideals"
+ tt_eastern_ideals: "Eastern Ideals"
+ tt_mythical_ideals: "Mythical Ideals"
+ 
+ tooltip_development_got_5: "5 development province"
+ tooltip_development_got_10: "10 development province"
+ tooltip_development_got_15: "15 development province"
+ tooltip_development_got_20: "20 development province"
+ tooltip_development_got_25: "25 development province"
+ tooltip_development_got_30: "30 development province"
+
+ # Events
+ got_institutions.100.title: "Rumors of Magic!"
+ got_institutions.100.desc: "The existance of has been rumoured amongst our populance, and although most are hostile, perhaps this means the magic is returning..."
+ got_institutions.100.option.a: "This changes everything..."
+ 
+ got_institutions.200.title: "Illumination of Magic!"
+ got_institutions.200.desc: "Our scholars have begun to unravel the basics of magic. Attitutes towards magic are still negative, but such a step will sure help our people, even if they do not agree with it's source."
+ got_institutions.200.option.a: "This changes everything..."
+ 
+ got_institutions.300.title: "Cultivation of Magic!"
+ got_institutions.300.desc: "Attitutes towards magic have begun to shift, and more people are beginning to exhibit magical tendencies. Our scholars are studying these changes, and preliminary reports tell us that great change may be in store."
+ got_institutions.300.option.a: "This changes everything..."
+ 
+ got_institutions.400.title: "Refinement of Magic!"
+ got_institutions.400.desc: "Attitutes towards magic are postive, and magic use is universally accepted within our society. We are beginning to see stratafication happening, with various schools of magic concentrating their knowledge."
+ got_institutions.400.option.a: "This changes everything..."
+ 
+ got_institutions.500.title: "Edification of Magic!"
+ got_institutions.500.desc: "Practictioners of magic, such as elementalists and diviners are beginning to teach their methods more openly, and attitudes in governance seek to make magic a central element of our society. Surely we are soon to reach the heights that Valyria once stood at!"
+ got_institutions.500.option.a: "This changes everything..."
+ 
+ got_institutions.600.title: "Enlightenment!"
+ got_institutions.600.desc: "Our mastery over magic is almost resolute. We are successors of Valyria, and our power is unmatched by most in this world. Lest we become overconfident, we may just spell our own doom..."
+ got_institutions.600.option.a: "This changes everything..."

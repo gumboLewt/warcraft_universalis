@@ -39,6 +39,9 @@ NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_4 = 80
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_5 = 195
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_6 = 317
 
+-- Reduce liberty desire increase for relative power
+NDefines.NCountry.LIBERTY_DESIRE_RELATIVE_POWER = 25
+
 NDefines.NCountry.HRE_RANK = 2							
 NDefines.NCountry.HRE_MAX_RANK = 3							
 NDefines.NCountry.HRE_MAX_RANK_ELECTOR = 3				

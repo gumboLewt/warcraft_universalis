@@ -77,8 +77,14 @@ religion_group_disorder = {
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
 			bloodlust
-			fel_magic
-			demonic_influences
+			fel_corruption
+			demonology
+            fel_infusion
+            sacrificial_rituals
+            nurture_warlocks
+            fel_drain
+            fel_stone
+            demonic_influences
 		}
 		
 		hre_religion = yes
@@ -365,9 +371,15 @@ religion_group_the_void = {
 		
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
-			plague_of_undeath
-			blight
-			acolytes_of_the_damned
+			unrelenting_conversion
+            unity_in_death
+            patchwork_minions
+            blight
+            flesh_supplies
+            raze_and_ruin
+            acolytes_of_the_damned
+            plague_bombs
+            corrupted_minds
 		}
 		
 		on_convert = {
@@ -399,6 +411,13 @@ religion_group_the_void = {
 
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
+            manifest_the_void
+            void_corruption
+            parasitic_horrors
+            void_tendrils
+            demonic_allies
+            summon_voidwalkers
+            voidform
 		}
 		
 		on_convert = {
@@ -418,9 +437,9 @@ religion_group_the_void = {
 		color = { 0.25 0.15 0.25 }
 		icon = 6
 		
-    allowed_conversion = {
-      religion_loa
-    }
+        allowed_conversion = {
+            religion_loa
+        }
 
 		country = {
 			global_unrest = -1
@@ -435,7 +454,7 @@ religion_group_the_void = {
 			local_missionary_strength = -0.01
 		}
 
-    personal_deity = yes
+        personal_deity = yes
 		
 		on_convert = {
 			change_religion = religion_voodoo

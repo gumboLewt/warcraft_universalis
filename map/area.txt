@@ -455,7 +455,7 @@ area_eastern_dun_morogh = {
 }
 
 area_kharanos = {
-    956 973 3044 
+    956 973 3044 2569 2570
 }
 
 area_anvilmar = {

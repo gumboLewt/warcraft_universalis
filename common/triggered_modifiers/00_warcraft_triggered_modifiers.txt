@@ -7,7 +7,8 @@ scourge_mindlessness = {
 		primary_culture = culture_scourge
 	}
 	
-	tolerance_own = 100
+	tolerance_own = 10
+    global_unrest = -10
 }
 
 power_of_the_dragons = {
@@ -17,50 +18,50 @@ power_of_the_dragons = {
 
 	trigger = {
 		technology_group = tech_dragonkin
-    num_of_provinces_in_states = 10
+        num_of_provinces_in_states = 10
 	}
 
 	discipline = 0.1
-  land_morale = 0.1
-  infantry_power = 0.1
-  artillery_power = 0.1
-  cavalry_power = 0.1
-  siege_ability = 0.25
+    land_morale = 0.1
+    infantry_power = 0.1
+    artillery_power = 0.1
+    cavalry_power = 0.1
+    siege_ability = 0.25
 
-  global_tax_income = 64
+    global_tax_income = 64
 }
 
 # Faction Relations
 horde_enemy = {
-  potential = {
-    NOT = { has_country_modifier = alliance_member }
-    NOT = { has_country_modifier = neutral_member }
-  }
-
-  trigger = {
-    any_country = {
-      NOT = { has_opinion = { who = ROOT value = -100 } }
-      has_country_modifier = horde_member
+    potential = {
+        NOT = { has_country_modifier = alliance_member }
+        NOT = { has_country_modifier = neutral_member }
     }
-  }
 
-  prestige = 1
+    trigger = {
+        any_country = {
+            NOT = { has_opinion = { who = ROOT value = -100 } }
+            has_country_modifier = horde_member
+        }
+    }
+
+    prestige = 1
 }
 
 alliance_enemy = {
-  potential = {
-    NOT = { has_country_modifier = horde_member }
-    NOT = { has_country_modifier = neutral_member }
-  }
-
-  trigger = {
-    any_country = {
-      NOT = { has_opinion = { who = ROOT value = -100 } }
-      has_country_modifier = alliance_member
+    potential = {
+        NOT = { has_country_modifier = horde_member }
+        NOT = { has_country_modifier = neutral_member }
     }
-  }
 
-  prestige = 1
+    trigger = {
+        any_country = {
+            NOT = { has_opinion = { who = ROOT value = -100 } }
+            has_country_modifier = alliance_member
+        }
+    }
+
+    prestige = 1
 }
 
 horde_on_the_move = {
