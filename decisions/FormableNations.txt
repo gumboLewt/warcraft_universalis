@@ -146,6 +146,10 @@ country_decisions = {
 					limit = { NOT = { religion = religion_ancestral } }
 					change_religion = religion_ancestral
 				}
+        if = {
+					limit = { NOT = { culture = ROOT } }
+					change_culture = ROOT
+        }
 			}
 			
 			add_country_modifier = {
