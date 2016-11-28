@@ -17,9 +17,9 @@ trade_goods = fish
 
 # Horde Landing
 617.1.1 = {
-owner = A48
-	controller = A48
-	add_core = A48
+  owner = A46
+	controller = A46
+	add_core = A46
 	culture = culture_horde
 	religion = religion_ancestral
 	capital = "Horde Landing Site"

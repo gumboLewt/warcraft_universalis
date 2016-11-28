@@ -6,29 +6,52 @@
 ## See archive for old version of these alliances.
 # May make Warchief allied with Major Horde Members
 
-### Invasion of Kalimdor/Founding of Durotar
+### Invasion of Kalimdor
+# Orcs - Trolls
+alliance = {
+  first = A46
+  second = A70
+  start_date = 617.1.1
+  end_date = 618.1.1
+}
+
+alliance = {
+  first = A35
+  second = A70
+  start_date = 617.1.1
+  end_date = 618.1.1
+}
+
+# Orcs - Tauren
+alliance = {
+  first = A46
+  second = A84
+  start_date = 617.1.1
+  end_date = 618.1.1
+}
+
+alliance = {
+  first = A35
+  second = A84
+  start_date = 617.1.1
+  end_date = 618.1.1
+}
+
+# Tauren - Trolls
+alliance = {
+  first = A84
+  second = A70
+  start_date = 617.1.1
+  end_date = 618.1.1
+}
+
+###Founding of Durotar
 # Orgrimmar - Darkspear
 alliance = {
 	first = A48
 	second = A70
-	start_date = 617.1.1
+	start_date = 618.1.1
 	end_date = 650.5.1
-}
-
-# Orgrimmar - Bloodhoof
-alliance = {
-  first = A48
-  second = A84
-  start_date = 617.1.1
-  end_date = 618.1.1
-}
-
-#Darkspear - Bloodhoof
-alliance = {
-  first = A70
-  second = A84
-  start_date = 617.1.1
-  end_date = 618.1.1
 }
 
 # Orgirmmar - Thunder Bluff
@@ -39,10 +62,10 @@ alliance = {
   end_date = 650.5.1
 }
 
-# Darkspear - Thunder Bluff
+# Thunder Bluff - Darkspear
 alliance = {
-  first = A70
-  second = F88
+  first = F88
+  second = A70
   start_date = 618.1.1
   end_date = 650.5.1
 }
@@ -51,15 +74,15 @@ alliance = {
 march = {
 	first = A48
 	second = A35
-	start_date = 617.1.1
+	start_date = 618.1.1
 	end_date = 631.1.1
 }
 
 # Orgrimmar - Frostwolf
-march = {
+alliance = {
 	first = A48
 	second = A46
-	start_date = 622.1.1
+	start_date = 618.1.1
 	end_date = 650.5.1
 }
 
@@ -87,7 +110,7 @@ alliance = {
 }
 
 
-### Pre-Horde Revantusk
+### Eastern Kingdom Revantusk
 # Forsaken - Revantusk
 alliance = {
 	first = P14
@@ -101,6 +124,14 @@ alliance = {
 	second = A61
 	start_date = 618.1.1
 	end_date = 631.1.1
+}
+
+#Orgrimmar - Forsaken
+alliance = {
+	first = A48
+	second = P14
+	start_date = 622.1.1
+	end_date = 650.1.1
 }
 
 ### Shatterspear
