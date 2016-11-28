@@ -15,11 +15,19 @@ owner = G05
 controller = G05
 add_core = G05
 
-618.1.1 = { 
-owner = F88
-controller = F88
-add_core = F88
-remove_core = G05
-culture = culture_mistrunner
-religion = religion_druidic
+618.1.1 = {
+  owner = B68
+  controller = B68
+  add_core = B68
+  remove_core = G05
+  culture = culture_bristleback
+  religion = religion_geomancy
+}
+
+622.1.1 = {
+  owner = F88
+  controller = F88
+  add_core = F88
+  culture = culture_mistrunner
+  religion = religion_druidic
 }
