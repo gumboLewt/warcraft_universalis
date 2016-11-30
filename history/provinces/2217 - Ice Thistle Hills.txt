@@ -9,11 +9,11 @@ owner = B44
 controller = B44
 add_core = B44
 culture = culture_winterfall
-religion = religion_fel
+religion = religion_ancestral
+
+618.1.1 = {
+  religion = religion_fel
+}
 
 hre = no
 trade_goods = grain
-
-
-
-
