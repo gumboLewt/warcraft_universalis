@@ -20,7 +20,7 @@ capital 			= 1377
   historical_friend = A61
   historical_friend = A35
   historical_friend = A70
-  historical_friend = F88
+  historical_friend = A84
   add_country_modifier = {
       name = horde_member
       duration = -1
@@ -29,6 +29,10 @@ capital 			= 1377
       name = horde_head
       duration = -1
   }
+}
+
+618.1.1 = {
+  historical_friend = F88
 }
 
 631.1.1 = {
