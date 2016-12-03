@@ -8,16 +8,28 @@ secondary_religion = religion_church_of_the_light
 primary_culture 	= culture_dalaran
 capital 			= 720
 
-546.1.1 = { 
+620.1.1 = { 
 	monarch = { 
 		name = "Ataeric"
 		dynasty = "of Dalaran" 
-		adm = 3
+		adm = 4
 		dip = 3
-		mil = 5
-		} 
-		add_country_modifier = {
-			name = alliance_member
-			duration = -1
+		mil = 4
+		birth_date = 581.12.1
+		
+		leader = {
+			name = "Ataeric of Dalaran"
+			type = general
+			rank = 0
+			fire = 3
+			shock = 5
+			manuever = 2
+			siege = 1
 		}
+	}
+	
+	add_country_modifier = {
+		name = alliance_member
+		duration = -1
+	}
 } 

@@ -1,10 +1,6 @@
-# 26/11/2016
-- Added new aspects for The Damned religion
-- Added aspects for the Void religion
-- Added new aspects for the Fel religion
-- Added missing localisation keys for various things
-- Added the two provinces near Ironforge to the Kharanos area
-- Fixed an issue with the Deeprun Tram province colour definition
-- Adjusted the base Liberty Desire scalar for relative power to 25
-- Fixed the King's Grasp (reduced liberty desire) modifier
-- Adjusted the Scourge Mindlessness triggered modifier
+# 03/11/2016
+-New small sea area around Plunder Isle
+-Delete some unused regions
+-Delete floating trees (WoD Draenor)
+-Some province balance and fixes
+-Add Royal Family for Gilneas with personalities
