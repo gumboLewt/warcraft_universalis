@@ -4,3 +4,4 @@
 -Delete floating trees (WoD Draenor)
 -Some province balance and fixes
 -Add Royal Family for Gilneas with personalities
+-Test of immortal queen

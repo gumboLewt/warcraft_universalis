@@ -26,6 +26,12 @@ capital 			= 931
 			siege = 4
 		}
 	}
+	
+	add_ruler_personality = immortal_personality # да...THIS WILL WORK!!1!1!
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = tactical_genius_personality
+	
+	
     add_country_modifier = {
         name = gift_of_fate
         duration = 3650
