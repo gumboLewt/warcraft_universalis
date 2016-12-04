@@ -24,7 +24,10 @@ trade_goods = army_supplies
 	owner = A25
 	controller = A25
 	add_core = A25
-	remove_core = A08
+	remove_claim = A08
+	remove_claim = A12
+	remove_claim = A17
+	remove_claim = A18
 }
 
 # Reconquest of Lordaeron (TFT)

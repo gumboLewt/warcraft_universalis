@@ -13,23 +13,33 @@ capital 			= 648
 		dynasty = "of Dalaran" 
 				
 		adm = 3		
-		dip = 3	
-		mil = 3	
+		dip = 2
+		mil = 4
 	}
 }
 
-
 631.1.1 = {
 	monarch = { 
-		name = "Vincent"  
-		dynasty = "Godfrey" 
+		name = ""  
+		dynasty = "Silverlaine" 
 				
-		adm = 3		
-		dip = 3	
-		mil = 3	
+		adm = 1
+		dip = 0
+		mil = 1
 	}
 
 	government = dictatorship_gov
 	primary_culture = culture_forsaken 
 	technology_group = tech_undead
+}
+
+631.5.1 = {
+	monarch = { 
+		name = "Vincent"  
+		dynasty = "Godfrey" 
+				
+		adm = 3
+		dip = 1
+		mil = 4
+	}
 }

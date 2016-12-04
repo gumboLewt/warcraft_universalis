@@ -15,24 +15,13 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = fur
 
-
-
-
 # Cataclysm
 631.1.1 = { 
-controller = A48
-owner = A48
-add_core = A48
-culture = culture_horde
-religion = religion_ancestral
-
+	controller = A48
 }
 
 # Mists of Pandaria
 632.1.1 = { 
-controller = A12
-owner = A12
-remove_core = A48
-culture = culture_gilnean_worgen
-religion = religion_church_of_the_light
+	controller = A12
+	culture = culture_gilnean_worgen
 }

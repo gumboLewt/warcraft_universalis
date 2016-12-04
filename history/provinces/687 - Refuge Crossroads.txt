@@ -1,5 +1,6 @@
-# 687
+# 687 Refuge Crossroads
 is_city = yes
+
 add_core = A16
 owner = A16
 controller = A16
@@ -13,12 +14,3 @@ religion = religion_church_of_the_light
  
 hre = no 
 trade_goods = cloth
-
-# The Third War - Orcs Passed through
-617.1.1 = { 
-owner = XXX
-controller = XXX
-}
-
-
-

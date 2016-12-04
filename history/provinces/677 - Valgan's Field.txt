@@ -53,18 +53,15 @@ trade_goods = grain
 
 # Cataclysm
 631.1.1 = { 
-	owner = F53
+	owner = P14
 	controller = F53
-	add_core = F53
 	add_core = P14
 	remove_core = A13 
-	religion = religion_church_of_the_light
+	culture = culture_forsaken
+	religion = religion_forgotten_shadow
 }
 
 # Pandaria
 632.1.1 = { 
-	owner = P14
 	controller = P14
-	culture = culture_forsaken
-	religion = religion_forgotten_shadow
 }

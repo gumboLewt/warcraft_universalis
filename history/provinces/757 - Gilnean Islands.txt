@@ -33,5 +33,11 @@ trade_goods = fish
 
 # Cataclysm
 631.1.1 = { 
+	controller = A48
 	culture = culture_gilnean_worgen
+}
+
+# Mists of Pandaria
+632.1.1 = { 
+	controller = A12
 }

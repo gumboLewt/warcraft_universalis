@@ -14,12 +14,3 @@ religion = religion_church_of_the_light
 
 hre = no
 trade_goods = army_supplies
-
-
-
-
-# Cataclysm
-631.1.1 = { 
-	owner = XXX
-	controller = XXX
-}

@@ -14,3 +14,25 @@ religion = religion_church_of_the_light
  
 hre = no 
 trade_goods = grain
+
+# Cataclysm
+631.1.1 = {
+	revolt = {
+		name = "Tempest Rebellion"
+		type = pretender_rebels
+		size = 1
+		leader = "Vincent Godfrey"
+	}
+	unrest = 5
+	controller = REB
+}
+
+# Mists of Pandaria
+632.1.1 = {
+	revolt = {
+		type = pretender_rebels
+		size = 0
+	}
+	controller = A12
+	unrest = 0
+}
