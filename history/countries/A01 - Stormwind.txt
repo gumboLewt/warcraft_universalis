@@ -1,7 +1,7 @@
 # Stormwind
 government 			= administrative_kingdom
 mercantilism 		= 10
-technology_group 	= tech_human 
+technology_group 	= tech_human
 religion			= religion_church_of_the_light
 primary_culture 	= culture_azerothian
 capital 			= 1022
@@ -11,64 +11,115 @@ historical_friend = A03
 historical_friend = A04
 historical_friend = A05
 
-546.1.1 = { 
-	monarch = { 
-		name = "Adamant" 
-		dynasty = "Wrynn" 
+546.1.1 = {
+	monarch = {
+		name = "Adamant"
+		dynasty = "Wrynn"
+    birth_date = 510.1.1
 		adm = 4
 		dip = 3
-		mil = 3 
- 	} 
-} 
+		mil = 3
+ 	}
+}
 
-592.1.1 = { 
-	monarch = { 
-		name = "Llane" 
-		dynasty = "Wrynn" 
+552.1.1 = {
+  heir = {
+    name = "Llane"
+    dynasty = "Wrynn"
+    birth_date = 552.1.1
+    adm = 3
+    dip = 3
+    mil = 4
+  }
+}
+
+593.1.1 = {
+	monarch = {
+		name = "Llane"
+		dynasty = "Wrynn"
+    birth_date = 552.1.1
 		adm = 3
 		dip = 3
-		mil = 4 
- 	} 
-} 
+		mil = 4
+ 	}
+  heir = {
+		name = "Varian"
+		dynasty = "Wrynn"
+    birth_date = 582.1.1
+		adm = 3
+		dip = 3
+		mil = 4
+  }
+  clear_scripted_personalities = yes
+  add_ruler_personality = kind_hearted_personality
+}
 
 597.1.1 = {
 	add_country_modifier = {
 		name = alliance_member
 		duration = -1
 	}
-    monarch = { 
-		name = "Varian" 
-		dynasty = "Wrynn" 
+  monarch = {
+		name = "Varian"
+		dynasty = "Wrynn"
+    birth_date = 582.1.1
 		adm = 3
 		dip = 3
-		mil = 4 
+		mil = 4
  	}
  	capital = 991
+  clear_scripted_personalities = yes
+  add_ruler_personality = bold_fighter_personality
+}
+
+607.1.1 = {
+	heir = {
+		name = "Anduin"
+		dynasty = "Wrynn"
+    birth_date = 607.1.1
+		adm = 2
+		dip = 3
+		mil = 1
+ 	}
 }
 
 617.1.1 = { capital = 1022 }
- 
-622.1.1 = { 
-	monarch = { 
-		name = "Anduin" 
-		dynasty = "Wrynn" 
+
+622.1.1 = {
+	monarch = {
+		name = "Anduin"
+		dynasty = "Wrynn"
+    birth_date = 607.1.1
 		adm = 2
 		dip = 3
-		mil = 1 
- 	} 
+		mil = 1
+ 	}
 	add_country_modifier = {
 		name = alliance_head
 		duration = -1
 	}
+  clear_scripted_personalities = yes
+  add_ruler_personality = charismatic_negotiator_personality
 }
- 
-626.1.1 = { 
-	monarch = { 
-		name = "Varian" 
-		dynasty = "Wrynn" 
+
+626.1.1 = {
+	monarch = {
+		name = "Varian"
+		dynasty = "Wrynn"
+    birth_date = 582.1.1
 		adm = 3
 		dip = 3
-		mil = 4 
- 	} 
-} 
- 
+		mil = 4
+ 	}
+  heir = {
+    name = "Anduin"
+    dynasty = "Wrynn"
+    birth_date = 607.1.1
+    adm = 2
+    dip = 3
+    mil = 1
+  }
+  clear_scripted_personalities = yes
+  add_ruler_personality = bold_fighter_personality
+  add_heir_personality = charismatic_negotiator_personality
+}

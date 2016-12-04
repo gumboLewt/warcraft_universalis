@@ -1,30 +1,41 @@
 # Darkshire
 government 			= mercantile_republic
 mercantilism 		= 10
-technology_group 	= tech_human 
+technology_group 	= tech_human
 religion			= religion_church_of_the_light
 primary_culture 	= culture_azerothian
 capital 			= 1021
 historical_friend = A01
 
-546.1.1 = { 
-	monarch = { 
-		name = "Gavin" 
-		dynasty = "Carevin" 
-		adm = 3
-		dip = 3
-		mil = 3
-                
-	} 
+546.1.1 = {
+  monarch = {
+    name = "Keira"
+    dynasty = "Berrybuck"
+    birth_date = 520.1.1
+    adm = 4
+    dip = 3
+    mil = 1
+  }
 }
 
-617.1.1 = { 
-	monarch = { 
-		name = "Ello" 
-		dynasty = "Ebonlocke" 
+596.1.1 = {
+	monarch = {
+		name = "Gavin"
+		dynasty = "Carevin"
+    birth_date = 564.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+621.1.1 = {
+	monarch = {
+		name = "Ello"
+		dynasty = "Ebonlocke"
+    birth_date = 584.1.1
 		adm = 3
 		dip = 3
 		mil = 3
-                
-	} 
-}  
+	}
+}

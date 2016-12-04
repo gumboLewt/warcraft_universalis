@@ -14,10 +14,14 @@ capital 			= 660
 		dip = 4
 		mil = 4
 	}
-    add_country_modifier = {
-        name = gift_of_fate
-        duration = 3650
-    }
+  add_country_modifier = {
+    name = gift_of_fate
+    duration = 3650
+  }
+  clear_scripted_personalities = yes
+  add_ruler_personality = scholar_personality
+  add_ruler_personality = naive_enthusiast_personality
+  add_ruler_personality = architectural_visionary_personality
 }
 
 625.1.1 = {
@@ -28,11 +32,15 @@ capital 			= 660
 		dip = 2
 		mil = 5
 	}
-    government = regency_gov
-    add_country_modifier = {
-        name = horde_member
-        duration = -1
-    }
+  government = regency_gov
+  add_country_modifier = {
+    name = horde_member
+    duration = -1
+  }
+  clear_scripted_personalities = yes
+  add_ruler_personality = free_thinker_personality
+  add_ruler_personality = inspiring_leader_personality
+  add_ruler_personality = well_advised_personality
 }
 
 626.1.1 = {

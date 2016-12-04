@@ -12,6 +12,7 @@ capital 			= 1473
 	monarch = {
 		name = "Huln"
 		dynasty = "Bloodhoof"
+    birth_date = 500.1.1
 		adm = 3
 		dip = 2
 		mil = 2
@@ -27,6 +28,10 @@ capital 			= 1473
 		dip = 4
 		mil = 3
  	}
+  clear_scripted_personalities = yes
+  add_ruler_personality = lawgiver_personality
+  add_ruler_personality = kind_hearted_personality
+  add_ruler_personality = just_personality
 }
 
 600.1.1 = {
@@ -61,4 +66,8 @@ capital 			= 1473
 		dip = 4
 		mil = 2
  	}
+  clear_scripted_personalities = yes
+  add_ruler_personality = silver_tongue_personality
+  add_ruler_personality = kind_hearted_personality
+  add_ruler_personality = calm_personality
 }

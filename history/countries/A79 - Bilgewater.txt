@@ -6,33 +6,37 @@ religion			= religion_greed
 primary_culture 	= culture_bilgewater
 capital 			= 1
 
-546.1.1 = { 
-monarch = { 
-     name = "" 
-     dynasty = "Bilgewater" 
-		adm = 5
-		dip = 4
-		mil = 3
- 	} 
- } 
+546.1.1 = {
+  monarch = {
+    name = "Dexkay"
+    dynasty = "Maldy"
+    adm = 5
+    dip = 4
+    mil = 3
+  }
+}
 
-592.1.1 = { 
-monarch = { 
-     name = "Jastor" 
-     dynasty = "Gallywix" 
-		adm = 5
-		dip = 2
-		mil = 3
- 	} 
- } 
+592.1.1 = {
+  monarch = {
+    name = "Jastor"
+    dynasty = "Gallywix"
+    adm = 5
+    dip = 2
+    mil = 3
+  }
+  clear_scripted_personalities = yes
+  add_ruler_personality = midas_touched_personality
+  add_ruler_personality = embezzler_personality
+  add_ruler_personality = intricate_webweaver_personality
+}
 
 605.1.1 = {
-religion = religion_tech
+  religion = religion_tech
 }
 
 631.1.1 = {
-add_country_modifier = {
+  add_country_modifier = {
     name = horde_member
     duration = -1
-}
+  }
 }

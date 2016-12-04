@@ -7,15 +7,30 @@ primary_culture 	= culture_frostwolf
 religion			= religion_ancestral
 capital 			= 3061
 
-600.1.1 = {
+546.1.1 = {
+  monarch = {
+    name = "Garad"
+    dynasty = "Frostwolf"
+    birth_date = 526.1.1
+    adm = 3
+    dip = 2
+    mil = 4
+  }
+}
+
+592.1.1 = {
 	monarch = {
-		name = "Durotan" 
-		dynasty = "Frostwolf" 
+		name = "Durotan"
+		dynasty = "Frostwolf"
     birth_date = 558.1.1
 		adm = 3
 		dip = 3
 		mil = 4
  	}
+  clear_scripted_personality = yes
+  add_ruler_personality = calm_personality
+  add_ruler_personality = just_personality
+  add_ruler_personality = strict_personality
 }
 
 605.1.1 = {
@@ -35,6 +50,10 @@ capital 			= 3061
     name = horde_head
     duration = -1
   }
+  clear_scripted_personalities = yes
+  add_ruler_personality = lawgiver_personality
+  add_ruler_personality = benevolent_personality
+  add_ruler_personality = just_personality
 }
 
 617.1.1 = {
@@ -43,8 +62,8 @@ capital 			= 3061
 
 618.1.1 = {
 	monarch = {
-		name = "Drek'Thar" 
-		dynasty = "Frostwolf" 
+		name = "Drek'Thar"
+		dynasty = "Frostwolf"
     birth_date = 557.1.1
 		adm = 3
 		dip = 1
@@ -53,4 +72,8 @@ capital 			= 3061
   remove_country_modifier = horde_member
   remove_country_modifier = horde_head
   capital 			= 3061
+  clear_scripted_personalities = yes
+  add_ruler_personality = incorruptible_personality
+  add_ruler_personality = righteous_personality
+  add_ruler_personality = careful_personality
 }

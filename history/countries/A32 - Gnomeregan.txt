@@ -6,25 +6,31 @@ religion			= religion_tech
 primary_culture 	= culture_gnome
 capital 			= 3036
 
-546.1.1 = { 
-	monarch = { 
-		name = "Sigga" 
-		dynasty = "Bellsprocket" 
+546.1.1 = {
+	monarch = {
+		name = "Sigga"
+		dynasty = "Bellsprocket"
+    birth_date = 500.1.1
 		adm = 3
 		dip = 4
 		mil = 3
 		female = yes
-	} 
-} 
+	}
+}
 
 592.1.1 = {
-	monarch = { 
-		name = "Gelbin" 
-		dynasty = "Mekkatorque" 
+	monarch = {
+		name = "Gelbin"
+		dynasty = "Mekkatorque"
+    birth_date = 571.1.1
 		adm = 5
 		dip = 4
 		mil = 3
- 	} 
+ 	}
+  clear_scripted_personalities = yes
+  add_ruler_personality = scholar_personality
+  add_ruler_personality = architectural_visionary_personality
+  add_ruler_personality = free_thinker_personality
 }
 
 598.1.1 = {

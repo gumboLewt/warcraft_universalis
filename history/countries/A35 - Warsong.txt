@@ -1,47 +1,65 @@
 # Warsong
 government 			= warband_gov
-mercantilism 		= 10 
+mercantilism 		= 10
 technology_group 	= tech_orc
 religion			= religion_ancestral
 primary_culture 	= culture_warsong
 capital 			= 1
 
+546.1.1 = {
+  monarch = {
+    name = "Golgak"
+    dynasty = "Warsong"
+    birth_date = 523.1.1
+    adm = 2
+    dip = 2
+    mil = 5
+  }
+}
+
 592.1.1 = {
-	monarch = { 
-		name = "Grom" 
-		dynasty = "Hellscream" 
-		adm = 2
-		dip = 2
-		mil = 5
-	} 
-	heir = { 
-		name = "Garrosh" 
-		dynasty = "Hellscream" 
-		adm = 4
-		dip = 3
-		mil = 4
-	}
-	religion = religion_fel
-add_country_modifier = {
+  monarch = {
+    name = "Grom"
+    dynasty = "Hellscream"
+    birth_date = 555.1.1
+    adm = 2
+    dip = 2
+    mil = 5
+  }
+  heir = {
+    name = "Garrosh"
+    dynasty = "Hellscream"
+    birth-date = 582.1.1
+    adm = 4
+    dip = 3
+    mil = 4
+  }
+  religion = religion_fel
+  add_country_modifier = {
     name = horde_member
     duration = -1
+  }
+  clear_scripted_personalities = yes
+  add_ruler_personality = inspiring_leader_personality
+  add_ruler_personality = cruel_personality
+  add_ruler_personality = bold_fighter_personality
 }
-} 
 
 601.1.1 = {
-religion = religion_ancestral
-remove_country_modifier = horde_member
+  religion = religion_ancestral
+  remove_country_modifier = horde_member
 }
 
-617.1.1 = { 
-historical_friend = A48
-capital = 1420
+617.1.1 = {
+  historical_friend = A48
+  capital = 1420
 }
 
 618.1.1 = {
-	monarch = { 
-		name = ""  
-		dynasty = "Gargok" 
+	monarch = {
+		name = "Gargok"
+		dynasty = "Warsong"
+    birth_date = 592.1.1
 		adm = 2
 		dip = 1
 		mil = 3
@@ -51,18 +69,24 @@ capital = 1420
 
 627.1.1 = {
 	monarch = {
-		name = "Garrosh" 
-		dynasty = "Hellscream" 
+		name = "Garrosh"
+		dynasty = "Hellscream"
+    birth-date = 582.1.1
 		adm = 4
 		dip = 3
 		mil = 4
 	}
+  clear_scripted_personalities = yes
+  add_ruler_personality = conqueror_personality
+  add_ruler_personality = malevolent_personality
+  add_ruler_personality = bold_fighter_personality
 }
 
 633.1.1 = {
-	monarch = { 
-		name = ""  
-		dynasty = "Gargok" 
+	monarch = {
+		name = "Gargok"
+		dynasty = "Warsong"
+    birth_date = 592.1.1
 		adm = 2
 		dip = 1
 		mil = 3

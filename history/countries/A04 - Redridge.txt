@@ -1,30 +1,41 @@
 # Redridge
 government 			= mercantile_republic
 mercantilism 		= 10
-technology_group 	= tech_human 
+technology_group 	= tech_human
 religion			= religion_church_of_the_light
 primary_culture 	= culture_azerothian
 capital 			= 737
 historical_friend = A01
 
-546.1.1 = { 
-	monarch = { 
-		name = "David" 
-		dynasty = "Ashlock" 
+546.1.1 = {
+	monarch = {
+		name = "David"
+		dynasty = "Ashlock"
+    birth_date = 492.1.1
 		adm = 3
 		dip = 3
 		mil = 3
-                
-	} 
+	}
 }
 
-617.1.1 = { 
-	monarch = { 
-		name = "Paul" 
-		dynasty = "solomon" 
-		adm = 3
+583.1.1 = {
+  monarch = {
+    name = "Sarah"
+    dynasty = "Osgood"
+    birth_date = 541.1.1
+    adm = 4
+    dip = 2
+    mil = 2
+  }
+}
+
+622.1.1 = {
+	monarch = {
+		name = "Paul"
+		dynasty = "Solomon"
+    birth_date = 569.1.1
+		adm = 2
 		dip = 3
-		mil = 3
-                
-	} 
-}  
+		mil = 2
+	}
+}

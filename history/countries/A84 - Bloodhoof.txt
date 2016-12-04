@@ -8,8 +8,9 @@ capital 			= 1373
 
 546.1.1 = {
 	monarch = {
-		name = "" 
-		dynasty = "Bloodhoof" 
+		name = "Huln"
+		dynasty = "Bloodhoof"
+    birth_date = 500.1.1
 		adm = 3
 		dip = 2
 		mil = 2
@@ -18,12 +19,31 @@ capital 			= 1373
 
 592.1.1 = {
 	monarch = {
-		name = "Cairne" 
-		dynasty = "Bloodhoof" 
-		adm = 3
+		name = "Cairne"
+		dynasty = "Bloodhoof"
+    birth_date = 518.1.1
+		adm = 4
 		dip = 4
-		mil = 2
+		mil = 3
  	}
+  clear_scripted_personalities = yes
+  add_ruler_personality = lawgiver_personality
+  add_ruler_personality = kind_hearted_personality
+  add_ruler_personality = just_personality
+}
+
+600.1.1 = {
+  heir = {
+    name = "Baine"
+    monarch_name = "Baine"
+    dynasty = "Bloodhoof"
+    birth_date = 600.1.1
+    death_date = 700.1.1
+    claim = 95
+    adm = 3
+    dip = 4
+    mil = 2
+  }
 }
 
 617.1.1 = {
@@ -41,10 +61,15 @@ capital 			= 1373
 
 631.1.1 = {
 	monarch = {
-		name = "Baine" 
-		dynasty = "Bloodhoof" 
+		name = "Baine"
+		dynasty = "Bloodhoof"
+    birth_date = 600.1.1
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 2
  	}
+  clear_scripted_personalities = yes
+  add_ruler_personality = silver_tongue_personality
+  add_ruler_personality = kind_hearted_personality
+  add_ruler_personality = calm_personality
 }
