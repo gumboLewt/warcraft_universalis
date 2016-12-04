@@ -10,8 +10,8 @@ base_tax = 3
 base_manpower = 2
 base_production = 3
 
-culture = culture_nerglish
-religion = religion_water
+culture = culture_lordaeron             # Yes, under murloc occupation
+religion = religion_church_of_the_light # so don't change this, please
  
 hre = no 
 trade_goods = grain
@@ -21,8 +21,6 @@ trade_goods = grain
 	remove_core = B25
 	owner = A08
 	controller = A08
-	culture = culture_lordaeron
-	religion = religion_church_of_the_light 
 }
 
 # The Frozen Throne
