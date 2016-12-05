@@ -6,7 +6,7 @@ estate_nobles =
 	
 	keep_on_conquest = no 							# Is estate kept in control of province on conquest?
 	always_remove_on_religious_conquest = yes 		# Estate will always be removed when conquered by a different religion than previous owner	
-	min_territory = 20 								# They want to control at least this % of the country's non-overseas development, if # of home provinces is above set amount
+	min_territory = 5 								# They want to control at least this % of the country's non-overseas development, if # of home provinces is above set amount
 	min_provinces_to_want_territory = 10			
 	min_autonomy = 25								# Min autonomy in estate provinces
 
@@ -29,16 +29,13 @@ estate_nobles =
 	# Territory Modifiers
 	#############################
 	
-	#wanted_territory_modifier = {
-	#	desc = EST_VAL_POWERFUL_HOUSE	# Powerful House
-	#	trigger = {
-	#		OR = {
-	#			government = royal_house
-	#			government = great_house
-	#		}
-	#	}	
-	#	value = 10
-	#}
+	wanted_territory_modifier = {
+        desc = EST_LARGE_NATION
+        trigger = {
+            num_of_cities = 25
+        }	
+        value = 5
+    }
 	
 	#############################
 	# Country Modifiers

@@ -403,4 +403,29 @@ engineering_surge = {
     production_efficiency = 0.1
 }
 
+# Institutions
+phlogiston_origin = {
+    prestige = 1
+}
+
+clockwerk_engineering_origin = {
+    prestige = 1
+}
+
+boomsticks_origin = {
+    prestige = 1
+}
+
+oil_extraction_origin = {
+    prestige = 1
+}
+
+mechanical_constructs_origin = {
+    prestige = 1
+}
+
+pneumatics_origin = {
+    prestige = 1
+}
+
 

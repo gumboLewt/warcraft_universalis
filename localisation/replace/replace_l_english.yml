@@ -219,15 +219,12 @@
  IS_HRE_HERETIC_RELIGION: "§Y$RELIGION$§! is the opposition faith of the Pandaren Empire."
  IS_NOT_HERETIC_HRE_RELIGION: "§Y$RELIGION$§! is NOT the opposition faith of the Pandaren Empire."
  
- 
- ## 
- 
- Lord_Protector_DIPACTIONS_DESC: "The Lord Protector may take the following diplomatic actions: \n$LIST|Y$"
+ EMPEROR_DIPACTIONS_DESC: "The Lord Protector may take the following diplomatic actions: \n$LIST|Y$"
  HRE_VOTE_SCORE_DESC: "Once a month §Y$ELECTOR$§W will change who they are backing to the realm with the highest vote score."
  HRE_OTHER_VOTE_SELF: "The Prince of §Y$ELECTOR$§W is backing themselves for the Iron Throne."
  HRE_RELATION_SELF: "We give ourselves §Y$POINTS$§W when ranking of who we want to vote for as the next Lord Protector."
  HRE_CAST_VOTE_DESC: "You can select who you want to vote for the Lord Protector!"
- BENEFIT_FOR_Lord_Protector: "Lord Protector gets"
+ BENEFIT_FOR_EMPEROR_: "Lord Protector gets"
  NO_WAR_ON_EMPIRE: "You can not declare war on a member of the Pandaren Empire, if you are allied with the Lord Protector in a war."
  NO_WAR_ON_EMPIRE_FIRST_MONTHS: "You can not declare war on a member of the Pandaren Empire, if you are allied with the Lord Protector and the Lord Protector has recently gone to war."
  ALREADY_WAR_EMPIRE: "You can not declare war on a member of the Pandaren Empire, if you are already at war with the Lord Protector."
@@ -252,7 +249,7 @@
  DEMANDUNLAWFULTERRITORYREQDENYEFFECTS: "Declining will have the following effects:\nThe Lord Protector will receive a casus belli against you.\nProvince effects:\n$PROVEFFECT$\n\nOpinion modifier from members of the Pandaren Empire:\n$OPINIONEFFECT$"
  DIPLO_CHANGE_EMPIRE: "Opinion change of other Pandaren Empire members: "
  PART_OF_HRE: "$COUNTRY|Y$ is part of the Pandaren Empire."
- DIP_SCORE_Lord Protector: "Lord Protector - $VAL$\n"
+ DIP_SCORE_EMPEROR_: "Lord Protector - $VAL$\n"
  
  IMPREF_SIZE: "Economical Power: $VAL$\n"
  IMPREF_RELIGIOUS: "Theocracy: $VAL$\n"

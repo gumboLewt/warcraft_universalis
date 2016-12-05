@@ -12,8 +12,13 @@ estate_tribes =
 	always_remove_on_religious_conquest = yes
 
 	# They want to control at least this % of the country's non-overseas development, if # of home provinecs is above set amount
-	min_territory = 25
-	min_provinces_to_want_territory = 4
+	min_territory = 5
+	min_provinces_to_want_territory = 10
+    
+	#############################
+	# Territory Modifiers
+	#############################
+    
 	wanted_territory_modifier = {
 		desc = EST_TOTAL_DEVELOPMENT
 		trigger = {

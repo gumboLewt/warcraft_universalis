@@ -2632,7 +2632,7 @@ naive_personality = {
 	chance = {
 	}
 	
-	ignore_ae = yes
+    underestimate_ae = yes
 	fair_fights = yes
 	gift_chance = 90
 	

@@ -141,8 +141,6 @@
  ADMIRAL: "Admiral"
  GRAND_ADMIRAL: "Grand Admiral"
  
- 
- 
  # Republics
  MAGISTRATE: "Magistrate"
  GRAND_MAGISTRATE: "Grand Magistrate"
@@ -217,8 +215,14 @@
  LICH_KING: "Lich King" 
  LICH_QUEEN: "Lich Queen" 
  
- 
  # Tribal
  CHIEFTAIN: "Chieftain"
  CHIEFESS: "Chiefess"
  
+ MOGUL_CONSORT: "Consort"
+ TINKER_CONSORT: "Consort"
+ HIGH_CONSORT: "Consort"
+ GRAND_CONSORT: "Consort"
+ MAGISTRATE_CONSORT: "Consort"
+CHIEF_CONSORT: "Consort"
+CHIEFTESS_CONSORT: "Consort"

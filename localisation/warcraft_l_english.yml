@@ -2037,6 +2037,8 @@
  # Tribes - Passive
  EST_TOTAL_DEVELOPMENT: "Total Development: §Y$VAL$%§!"
  
+ EST_LARGE_NATION: "Large Nation: §Y$VAL$%§!"
+ 
  #-----------------------------------
  # Estate Loyalty 
  #-----------------------------------
