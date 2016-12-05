@@ -1,12 +1,12 @@
-is_city = no
+owner = A78
+controller = A78
+add_core = A78
+is_city = yes
 
 base_tax = 1
 base_manpower = 2
 base_production = 5
 
-owner = A78
-controller = A78
-add_core = A78
 religion = religion_loa
 culture = culture_zandalari
 
@@ -14,5 +14,5 @@ hre = no
 trade_goods = grain
 
 631.1.1 = {
-religion = religion_voodoo
+    religion = religion_voodoo
 }

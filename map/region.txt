@@ -729,7 +729,7 @@ region_crystalsong = {
     areas = {
         area_forlorn_woods
         area_unbound_thicket
-        area_dalaran
+        area_dalaran_cs
     }
 }
 

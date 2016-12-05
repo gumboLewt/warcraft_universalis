@@ -390,6 +390,13 @@ country_event = {
                     discover_province = PREV
                 }
             }
+            
+            southern_seas = {
+                
+                ROOT = {
+                    discover_province = PREV
+                }
+            }
         }
         
         if = {

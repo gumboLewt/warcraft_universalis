@@ -1,6 +1,8 @@
 #Example: Large parts of Africa and south east Asia
 tropical = {
-	
+	2469 2470 2471
+    2508 2509
+    2472
 }
 
 arid = {
