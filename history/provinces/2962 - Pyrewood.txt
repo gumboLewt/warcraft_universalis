@@ -28,7 +28,7 @@ trade_goods = cloth
 	owner = A25
 	controller = A25
 	add_core = A25
-        remove_core = A08
+    remove_core = A08
 }
 
 # Rise of the Qiraji
@@ -37,16 +37,21 @@ trade_goods = cloth
 	controller = F52
 	add_core = F52
 	add_core = P14
+	
+	culture = culture_gilnean_worgen
 }
 
 # Cataclysm
 631.1.1 = { 
 	owner = P14
-	controller = P14
-	culture = culture_forsaken
-	religion = religion_forgotten_shadow
+	controller = A01
+	
+	base_tax = 1         # Most of population fleed to Gilneas,
+	base_manpower = 1    # then headed ships to Stormwind and finally 
+	base_production = 1  # crashed at shores of Val'sharah
+}
 
-	base_tax = 1
-	base_manpower = 1
-	base_production = 1
+# Mists of Pandaria
+632.1.1 = { 
+	controller = P14
 }

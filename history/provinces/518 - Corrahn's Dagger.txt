@@ -45,6 +45,7 @@ trade_goods = fur
 	add_core = A26
 	add_core = P14
 	remove_core = P52
+	remove_core = A41
 	culture = culture_alterac
 	religion = religion_shadow
 	capital = "Syndicate Camp"

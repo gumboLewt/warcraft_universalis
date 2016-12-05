@@ -37,4 +37,6 @@ trade_goods = cloth
 617.1.1 = {
 	owner = A03
 	controller = A03
+	
+	base_manpower = 2
 }

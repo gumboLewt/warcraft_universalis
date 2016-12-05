@@ -6,8 +6,8 @@ add_core = A08
 add_core = A12
 owner = B25
 controller = B25
-culture = culture_nerglish
-religion = religion_water
+culture = culture_gilnean                # Yes, under murloc occupation
+religion = religion_church_of_the_light  # so don't change this, please
 
 base_tax = 1
 base_manpower = 2
@@ -22,8 +22,6 @@ trade_goods = grain
 	remove_core = B25
 	owner = A12
 	controller = A12
-	culture = culture_gilnean
-	religion = religion_church_of_the_light 
 }
 
 # The Frozen Throne

@@ -47,8 +47,8 @@ trade_goods = gold
 	owner = P14
 	controller = P14
 	add_core = P14
-	culture = culture_forsaken
-	religion = religion_forgotten_shadow
+	# culture = culture_forsaken            # Living Humans still there
+	# religion = religion_forgotten_shadow  # in large number
 	trade_goods = warbeasts
 	capital = "Azurelode Spider Farm" 
 }

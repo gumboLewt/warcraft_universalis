@@ -11,8 +11,6 @@ base_tax = 1
 base_manpower = 1
 base_production = 1
 
-
-
 hre = no
 trade_goods = fish
 
@@ -31,7 +29,9 @@ trade_goods = fish
 	controller = XXX
 	culture = culture_azerothian
 	religion = religion_church_of_the_light 
+	
 	remove_core = A40
+	add_core = A03
 }
 
 # Rise of the Qiraji

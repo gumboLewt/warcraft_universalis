@@ -3,8 +3,9 @@ government 			= militaristic_kingdom
 mercantilism 		= 10
 technology_group 	= tech_human
 religion			= religion_church_of_the_light
+secondary_religion  = religion_arcane
 primary_culture 	= culture_arathi
-capital 			= 2007
+capital 			= 2010
 
 546.1.1 = { 
 	monarch = { 
@@ -18,7 +19,7 @@ capital 			= 2007
 
 592.1.1 = { 
 	monarch = { 
-		name = "Reginald" 
+		name = "Reginald I" 
 		dynasty = "Baradin" 
 		adm = 3
 		dip = 2
@@ -28,12 +29,13 @@ capital 			= 2007
  
 600.1.1 = { 
 	monarch = { 
-		name = "Reginald" 
+		name = "Reginald II" 
 		dynasty = "Baradin" 
 		adm = 4
 		dip = 3
 		mil = 3 
  	} 
+	add_accepted_culture = culture_kul_tiran
 }
  
 631.1.1 = { 
@@ -45,9 +47,11 @@ capital 			= 2007
 		mil = 4
  	}	
 	government = dictatorship_gov
-add_country_modifier = {
-    name = alliance_member
-    duration = -1
-} 
+	
+	add_country_modifier = {
+		name = alliance_member
+		duration = -1
+	} 
+	
+	capital = 2007
 }
- 
