@@ -19,6 +19,7 @@ religion = religion_fel
 owner = G02
 controller = G02
 add_core = G02
+remove_core = H01
 trade_goods = fel
 }
 

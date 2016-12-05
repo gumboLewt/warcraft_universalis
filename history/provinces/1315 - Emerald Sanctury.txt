@@ -15,7 +15,6 @@ trade_goods = lumber
 
 
 622.1.1 = {
-remove_core = H01
 owner = H02
 controller = H02
 add_core = H02

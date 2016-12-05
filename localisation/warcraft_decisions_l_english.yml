@@ -222,13 +222,13 @@
  # Orgrimmar
  #-----------------------------------------------
  found_orgrimmar_title: "Found Orgrimmar"
- theramore_nation_desc: "Build a proud orcish country on the eastern coast of Kalimdor"
+ found_orgrimmar_desc: "Build a proud orcish country on the eastern coast of Kalimdor"
  
  #-----------------------------------------------
  # Thunder Bluff
  #-----------------------------------------------
- theramore_nation_title: "Found Thunder Bluff"
- theramore_nation_desc: "Build a noble tauren country in the center of Kalimdor"
+ found_thunder_bluff_title: "Found Thunder Bluff"
+ found_thunder_bluff_desc: "Build a noble tauren country in the center of Kalimdor"
  
  #-----------------------------------------------
  # Dragonflights

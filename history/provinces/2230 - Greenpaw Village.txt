@@ -11,10 +11,9 @@ add_core = F95
 culture = culture_foulweald
 religion = religion_druidic
 
-
 hre = no
 trade_goods = grain
 
-
-
-
+618.1.1 = {
+  religion = religion_fel
+}

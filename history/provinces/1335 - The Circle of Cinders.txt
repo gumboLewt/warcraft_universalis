@@ -1,10 +1,10 @@
 # Barrow Dens, Location of Horde Base/Dark Trolls/Barkskin Furbolgs
-owner = H01
-controller = H01
-add_core = H01
+owner = A95
+controller = A95
+add_core = A95
 
-culture = culture_sentinel
-religion = religion_elune
+culture = culture_forest_nymph
+religion = religion_druidic
 is_city = yes
 
 base_tax = 3

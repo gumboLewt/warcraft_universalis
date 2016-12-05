@@ -2,14 +2,16 @@ owner = B44
 controller = B44
 add_core = B44
 culture = culture_winterfall
-religion = religion_fel
+religion = religion_ancestral
 is_city = yes
 
 base_tax = 3
 base_manpower = 3
 base_production = 3
 
+618.1.1 = {
+  religion = religion_fel
+}
 
 hre = no
 trade_goods = flying_mounts
-

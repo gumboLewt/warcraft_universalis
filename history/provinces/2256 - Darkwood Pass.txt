@@ -9,9 +9,12 @@ add_core = H01
 culture = culture_sentinel
 religion = religion_elune
 
+622.1.1 = {
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = H01
+}
+
 hre = no
 trade_goods = grain
-
-
-
-

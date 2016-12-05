@@ -9,10 +9,48 @@ capital 			= 3061
 
 600.1.1 = {
 	monarch = {
+		name = "Durotan" 
+		dynasty = "Frostwolf" 
+    birth_date = 558.1.1
+		adm = 3
+		dip = 3
+		mil = 4
+ 	}
+}
+
+605.1.1 = {
+  monarch = {
+    name = "Thrall"
+    dynasty = "Frostwolf"
+    birth_date = 592.1.1
+    adm = 4
+    dip = 5
+    mil = 3
+  }
+  add_country_modifier = {
+    name = horde_member
+    duration = -1
+  }
+  add_country_modifier = {
+    name = horde_head
+    duration = -1
+  }
+}
+
+617.1.1 = {
+  capital = 1439
+}
+
+618.1.1 = {
+	monarch = {
 		name = "Drek'Thar" 
-		dynasty = "the Frostwolf" 
+		dynasty = "Frostwolf" 
+    birth_date = 557.1.1
 		adm = 3
 		dip = 1
 		mil = 5
  	}
+  remove_country_modifier = horde_member
+  remove_country_modifier = horde_head
+  capital 			= 3061
 }

@@ -6,7 +6,7 @@ technology_group 	= tech_tauren
 religion			= religion_ancestral
 secondary_religion = religion_druidic
 primary_culture 	= culture_bloodhoof
-capital 			= 1373
+capital 			= 1473
 
 546.1.1 = {
 	monarch = {
@@ -43,8 +43,9 @@ capital 			= 1373
   }
 }
 
-622.1.1 = {
-	capital = 1473
+618.1.1 = {
+  historical_friend = A48
+  historical_friend = A70
   add_country_modifier = {
       name = horde_member
       duration = -1
