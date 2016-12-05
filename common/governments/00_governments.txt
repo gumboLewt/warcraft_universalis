@@ -661,7 +661,8 @@ cult_gov = {
 warband_gov = {
 	nomad = yes
 	monarchy = yes
-	
+	queen = no
+
 	valid_for_new_country = yes
 	
 	valid_for_nation_designer = yes
@@ -694,7 +695,8 @@ warband_gov = {
 scourge_gov = {
 	nomad = yes
 	monarchy = yes
-	
+	queen = no
+    
 	unique_government = yes
 	
 	valid_for_new_country = no
@@ -734,7 +736,8 @@ scourge_gov = {
 expeditionary_force = {
 	nomad = yes
 	monarchy = yes
-	
+	queen = no
+    
 	unique_government = yes
 	
 	valid_for_new_country = no
@@ -772,7 +775,8 @@ expeditionary_force = {
 religious_tribe = {
 	tribal = yes
 	monarchy = yes
-	
+	queen = no
+    
 	native_mechanic = no
 	allow_migration = yes
 	
@@ -809,7 +813,8 @@ religious_tribe = {
 mercantile_tribe = {
 	tribal = yes
 	monarchy = yes
-	
+	queen = no
+    
 	native_mechanic = no
 	allow_migration = yes
 	
@@ -849,7 +854,8 @@ mercantile_tribe = {
 war_tribe = {
 	tribal = yes
 	monarchy = yes
-	
+	queen = no
+    
 	native_mechanic = no
 	allow_migration = yes
 	

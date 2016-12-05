@@ -20,6 +20,8 @@ capital 			= 1662
 		dip = 3
 		mil = 5
 	} 
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
 }
 
 618.1.1 = { 
@@ -30,4 +32,6 @@ capital 			= 1662
 		dip = 5
 		mil = 3
 	} 
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
 }

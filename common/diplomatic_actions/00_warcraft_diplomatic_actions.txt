@@ -63,26 +63,26 @@
 # support_heir
 
 offer_condottieri = {
-  condition = {
-    potential = {
-      ROOT = {
-        is_good = yes
-      }
-    }
-    allow = {
-      hidden_trigger = {
-        ROOT = {
-          is_good = yes
+    condition = {
+        potential = {
+            ROOT = {
+                is_good = yes
+            }
         }
-        FROM = {
-          is_good = yes
+        allow = {
+            hidden_trigger = {
+                ROOT = {
+                    is_good = yes
+                }
+                FROM = {
+                    is_good = yes
+                }
+            }
+            custom_trigger_tooltip = {
+                tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+            }
         }
-      }
-      custom_trigger_tooltip = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-      }
     }
-  }
   condition = {
     potential = {
       ROOT = {

@@ -172,60 +172,63 @@ country_decisions = {
 # FACTION INFO FAKE DECISIONS #
 ###############################
 # Not meant to be fired, just used for displaying Alliance, Horde and Neutral membership in the tooltip, for easy reference.
-  neutral_info = {
-    potential = {
-      ai = no
-    }
-    allow = {
-      ai = yes
-    }
-    effect = {
-      every_known_country = {
-        limit = {
-          has_country_modifier = neutral_member
+    neutral_info = {
+        potential = {
+            ai = no
         }
-      }
+        allow = {
+            always = no
+        }
+        effect = {
+            every_known_country = {
+                limit = {
+                    has_country_modifier = neutral_member
+                }
+                add_prestige = 1
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
     }
-    ai_will_do = {
-      factor = 0
+    
+    horde_info = {
+        potential = {
+            ai = no
+        }
+        allow = {
+            always = no
+        }
+        effect = {
+            every_known_country = {
+                limit = {
+                    has_country_modifier = horde_member
+                }
+                add_prestige = 1
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
     }
-  }
 
-  horde_info = {
-    potential = {
-      ai = no
-    }
-    allow = {
-      ai = yes
-    }
-    effect = {
-      every_known_country = {
-        limit = {
-          has_country_modifier = horde_member
+    alliance_info = {
+        potential = {
+            ai = no
         }
-      }
-    }
-    ai_will_do = {
-      factor = 0
-    }
-  }
-
-  alliance_info = {
-    potential = {
-      ai = no
-    }
-    allow = {
-      ai = yes
-    }
-    effect = {
-      every_known_country = {
-        limit = {
-          has_country_modifier = alliance_member
+        allow = {
+            always = no
         }
-      }
+        effect = {
+            every_known_country = {
+                limit = {
+                    has_country_modifier = alliance_member
+                }
+                add_prestige = 1
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
     }
-    ai_will_do = {
-      factor = 0
-    }
-  }
 }

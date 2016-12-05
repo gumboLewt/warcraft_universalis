@@ -2,7 +2,9 @@
 
 graphical_culture = westerngfx
 
-color = { 156 49 189 }
+color = { 94 112 37 }
+
+
 
 monarch_names = {
 	"Thordine" = 20

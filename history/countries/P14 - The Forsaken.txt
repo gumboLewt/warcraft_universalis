@@ -30,6 +30,8 @@ capital 			= 931
         name = gift_of_fate
         duration = 3650
     }
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
 }
 
 620.6.1 = {
@@ -44,8 +46,8 @@ capital 			= 931
 }
 
 635.1.1 = {
-  add_country_modifier = {
-    name = horde_head
-    duration = -1
-  }
+    add_country_modifier = {
+        name = horde_head
+        duration = -1
+    }
 }

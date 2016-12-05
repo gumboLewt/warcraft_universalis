@@ -2,7 +2,9 @@
 
 graphical_culture = westerngfx
 
-color = { 121 261 161 }
+color = { 230 227 80 }
+
+
 
 monarch_names = {
   "Wenog" = 20

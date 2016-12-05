@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 66 99 32 }
+color = { 96  131  80 }
 
 monarch_names = {
 	"Dridral" = 20

@@ -16,5 +16,7 @@ primary_culture = culture_shivarra
 		mil = 3	
                 female = yes
 	}  
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
 } 
 

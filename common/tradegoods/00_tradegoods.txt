@@ -8,6 +8,9 @@ grain = {
 	modifier = {
 		land_forcelimit_modifier = 0.10
 	}
+    province = {
+		land_forcelimit = 0.5
+	}
 	chance = {
 		factor = 35
 		modifier = {
@@ -73,6 +76,9 @@ wine = {
 	modifier = {
 		stability_cost_modifier = -0.10
 	}
+    province = {
+		local_unrest = -1
+	}
 	chance = {
 		factor = 5
 		modifier = {
@@ -115,6 +121,9 @@ wool = {
 	modifier = {
 		global_ship_cost = -0.05
 	}
+    province = {
+		local_development_cost = -0.05
+	}
 	chance = {
 		factor = 30
 		modifier = {
@@ -155,6 +164,9 @@ cloth = {
 	modifier = {
 		merc_maintenance_modifier = -0.15
 	}
+    province = {
+		local_development_cost = -0.1
+	}
 	chance = {
 		factor = 10
 		modifier = {
@@ -171,7 +183,10 @@ cloth = {
 fish = {
 	color = { 0.55 0.82 0.97 }
 	modifier = {
-		culture_conversion_cost = -0.1
+		global_sailors_modifier = 0.25
+	}
+    province = {
+		local_sailors_modifier = 0.25
 	}
 	chance = {
 		factor = 20
@@ -197,6 +212,9 @@ fur = {
 	color = { 0.54 0.40 0.31 }
 	modifier = {
 		prestige = 1
+	}
+    province = {
+        province_trade_power_modifier = 0.10
 	}
 	chance = {
 		factor = 15
@@ -252,6 +270,9 @@ salt = {
 	modifier = {
 		land_maintenance_modifier = -0.10
 	}
+    province = {
+		local_defensiveness = 0.15
+	}
 	chance = {
 		factor = 5
 		modifier = {
@@ -277,7 +298,10 @@ salt = {
 naval_supplies = {
 	color = { 0.11 0.17 0.4 }
 	modifier = {
-		naval_forcelimit_modifier = 0.10
+		naval_forcelimit_modifier = 0.20
+	}
+    province = {
+		naval_forcelimit = 0.5
 	}
 	chance = {
 		factor = 15
@@ -328,6 +352,9 @@ copper = {
 	modifier = {
 		global_regiment_recruit_speed = -0.1
 	}
+    province = {
+		regiment_recruit_speed = -0.2
+	}
 	chance = {
 		factor = 15
 		modifier = {
@@ -362,6 +389,9 @@ iron = {
 	modifier = {
 		global_regiment_cost = -0.05
 	}
+    province = {
+		local_build_time = -0.2
+	}
 	chance = {
 		factor = 10
 	}
@@ -372,7 +402,10 @@ iron = {
 slaves = {
 	color = { 0.0 0.0 0.0 }
 	modifier = {
-		global_tariffs = 0.10
+		global_tariffs = 0.25
+	}
+    province = {
+		local_missionary_strength = 0.01
 	}
 	chance = {
 		factor = 15
@@ -382,7 +415,10 @@ slaves = {
 ivory = {
 	color = { 0.75 0.7 0.63 }
 	modifier = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 2
+	}
+    province = {
+		local_state_maintenance_modifier = -0.2
 	}
 	chance = {
 		factor = 15
@@ -403,6 +439,9 @@ tea = {
 	color = { 0.07 0.33 0.09 }
 	modifier = {
 		advisor_cost = -0.10
+	}
+    province = {
+		garrison_growth = 0.25
 	}
 	chance = {
 		factor = 15
@@ -433,6 +472,9 @@ chinaware = {
 	modifier = {
 		legitimacy = 0.25
 	}
+    province = {
+		local_autonomy = -0.1
+	}
 	chance = {
 		factor = 15
 		
@@ -447,6 +489,9 @@ spices = {
 	color = { 0.4 0.65 0.38 }
 	modifier = {
 		spy_offence = 0.10
+	}
+    province = {
+		local_core_creation = 0.20
 	}
 	chance = {
 		factor = 25
@@ -464,6 +509,9 @@ coffee = {
 	color = { 0.22 0.15 0.09 }
 	modifier = {
 		defensiveness = 0.1
+	}
+    province = {
+		local_institution_spread = 0.1
 	}
 	chance = {
 		factor = 15
@@ -486,6 +534,9 @@ cotton = {
 	color = { 0.52 0.68 0.6 }
 	modifier = {
 		colonist_placement_chance = 0.05
+	}
+    province = {
+		local_development_cost = -0.1
 	}
 	chance = {
 		factor = 20
@@ -514,6 +565,9 @@ sugar = {
 	modifier = {
 		war_exhaustion_cost = -0.1
 	}
+    province = {
+		local_unrest = -1
+	}
 	chance = {
 		factor = 15
 		modifier = {
@@ -538,6 +592,9 @@ tobacco = {
 	color = { 0.33 0.56 0.38 }
 	modifier = {
 		global_spy_defence = 0.25
+	}
+    province = {
+		province_trade_power_modifier = 0.10
 	}
 	chance = {
 		factor = 15
@@ -565,6 +622,10 @@ cocoa = {
 	modifier = {
 		manpower_recovery_speed = 0.05
 	}
+    province = {
+		local_manpower_modifier = 0.10
+	}
+    
 	chance = {
 		factor = 15
 		
@@ -591,6 +652,9 @@ silk = {
 	modifier = {
 		num_accepted_cultures = 1
 	}
+    province = {
+		province_trade_power_value = 2
+	}
 	chance = {
 		factor = 10
 		
@@ -612,8 +676,12 @@ silk = {
 dyes = {
 	color = { 0.63 0.17 0.50 }
 	modifier = {
-		heir_chance = 0.10
+		heir_chance = 0.33
 	}
+    province = {
+		province_trade_power_modifier = 0.10
+	}
+    
 	chance = {
 		factor = 15
 		modifier = {
@@ -637,6 +705,9 @@ tropical_wood = {
 	color = { 0.45 0.47 0.09 }
 	modifier = {
 		development_cost = -0.05
+	}
+    province = {
+		local_build_cost = -0.2
 	}
 	chance = {
 		factor = 25

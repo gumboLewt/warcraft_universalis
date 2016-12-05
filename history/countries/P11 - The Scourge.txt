@@ -25,7 +25,8 @@ add_country_modifier = {
 		name = kings_grasp
 		duration = -1
 	}
-	
+	clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
 }
 
 622.1.1 = { 
@@ -37,6 +38,8 @@ add_country_modifier = {
 		dip = 3
 		mil = 6
 	}  
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
 }
 
 631.1.1 = { 
@@ -48,4 +51,6 @@ add_country_modifier = {
 		dip = 3	
 		mil = 4
 	}  
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
 }

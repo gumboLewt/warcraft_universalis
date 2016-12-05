@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 161 62 230 }
+color = { 103 168 199 }
 
 monarch_names = {
   "Edona" = 1

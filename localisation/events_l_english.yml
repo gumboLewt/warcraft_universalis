@@ -139,27 +139,27 @@
  random_province.3.option.c: "Punish the owners of the pit"
  
  #-----------------------------------------------
- # Monarch Death
+ # Ruler
  #-----------------------------------------------
- monarch_death.1.title: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has died!"
- monarch_death.1.desc: "The illustrious rule of [Root.Monarch.GetTitle] [Root.Monarch.GetName] has come to an end."
- monarch_death.1.option.a: "The cycle continues..."
+ wow_ruler.1.title: "Deterioration..."
+ wow_ruler.1.desc: "As time passes, the aptitude of [Root.Monarch.GetName] drifts, as time decays all things, undying or not."
+ wow_ruler.1.option.a: "[Root.Monarch.GetName] has no time for book keeping"
+ wow_ruler.1.option.b: "[Root.Monarch.GetName]'s wit has been dulled by time"
+ wow_ruler.1.option.c: "The warcry of [Root.Monarch.GetName] has become a whimper"
  
- monarch_death.2.title: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] reflects..."
- monarch_death.2.desc: "The eternal rule of [Root.Monarch.GetTitle] [Root.Monarch.GetName] leaves much time for reflection. After a bout of deep reflection, [Root.Monarch.GetName] has changed their outlook towards the world."
- monarch_death.2.option.a: "The cycle continues..."
+ wow_ruler.2.title: "Revival!"
+ wow_ruler.2.desc: "As time passes, the aptitude of [Root.Monarch.GetName] drifts, and a revival of spirit emerges!"
+ wow_ruler.2.option.a: "[Root.Monarch.GetName] feels studious"
+ wow_ruler.2.option.b: "[Root.Monarch.GetName] wit has sharpened"
+ wow_ruler.2.option.c: "[Root.Monarch.GetName] roars!"
  
- monarch_death.3.title: "Diseased and Dying"
- monarch_death.3.desc: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has been diseased for many years now, and is beginning to succumb."
- monarch_death.3.option.a: "Let [Root.Monarch.GetHerHim] go"
- monarch_death.3.option.b: "Do everything possible to prolong [Root.Monarch.GetHerHis] life"
+ wow_ruler.3.title: "A Long Life"
+ wow_ruler.3.desc: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] is a member of a long-lived species, and so looks forward to a seemingly immortal existance."
+ wow_ruler.3.option.a: "Great"
  
- DISEASED_AND_DYING_HINT: "Although clinging to life, another attack will almost certainly kill [Root.Monarch.GetTitle] [Root.Monarch.GetName]."
- 
- monarch_death.4.title: "Pretenders arise!"
- monarch_death.4.desc: "The regency of [Root.GetName] has caused much unrest in the people whom inhabit it's lands. They have found a new [Root.Monarch.GetTitle] who has promised them representation in an otherwise unjust society."
- monarch_death.4.option.a: "Resist these pretenders!"
- monarch_death.4.option.b: "Accept the people's mandate"
+ wow_ruler.4.title: "No [Root.Monarch.GetTitle] Rules Forever..."
+ wow_ruler.4.desc: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] is a member of a long-lived species, but has reached an old age and is now very vunerable to stresses of life."
+ wow_ruler.4.option.a: "Oh dear"
  
  #-----------------------------------------------
  # Story

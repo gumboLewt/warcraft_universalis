@@ -2,25 +2,25 @@ namespace = nobility_estate_disasters
 
 # Soverign Aristocracy
 country_event = {
-  id = nobility_estate_disasters.1
-  title = nobility_estate_disasters.1.t
-  desc = nobility_estate_disasters.1.d
-  picture = BURNING_CASTLE_eventPicture
+    id = nobility_estate_disasters.1
+    title = nobility_estate_disasters.1.t
+    desc = nobility_estate_disasters.1.d
+    picture = BURNING_CASTLE_eventPicture
 
-  major = yes
-  is_triggered_only = yes
+    major = yes
+    is_triggered_only = yes
 
-  immediate = {
-    add_stability = -5
-    change_government = administrative_kingdom
-  }
-
-  option = {
-    name = nobility_estate_disasters.1.a
-    define_ruler = {
-      claim = 40
+    immediate = {
+        add_stability = -5
+        change_government = administrative_kingdom
     }
-  }
+
+    option = {
+        name = nobility_estate_disasters.1.a
+        define_ruler = {
+            claim = 40
+        }
+    }
 }
 
 # Independent Nobility

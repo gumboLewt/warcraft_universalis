@@ -8,3 +8,12 @@
 - Adjusted the base Liberty Desire scalar for relative power to 25
 - Fixed the King's Grasp (reduced liberty desire) modifier
 - Adjusted the Scourge Mindlessness triggered modifier
+
+clear_scripted_personalities = yes
+add_ruler_personality = immortal_personality
+
+# 27/11/2016
+- Added automatic culture convert when Good nation takes an Evil nation's province in a war
+- Added trade goods province modifiers
+- Changed Ruler death system to use the Immortal personality type, granting it to cultures which live forever (or a long time).
+Removes flag on ruler's from a culture with a limited lifespan when the ruler exceeds the age limit

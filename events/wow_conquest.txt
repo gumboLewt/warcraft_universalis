@@ -393,6 +393,43 @@ province_event = {
 }
 
 #---------------------------
+# Auto-convert culture
+#---------------------------
+province_event = {
+    id = wow_conquest.6
+	title = wow_conquest.6.title
+	desc = wow_conquest.6.desc
+	picture = KING_LLANE_eventPicture # Placeholder
+    
+    is_triggered_only = yes
+    hidden = yes
+    
+    trigger = {
+        OR = {
+            AND = {
+                is_good = yes
+                owner = {
+                    is_evil = yes
+                }
+            }
+            AND = {
+                is_evil = yes
+                owner = {
+                    is_good = yes
+                }
+            }
+        }
+        is_core = owner
+    }
+    
+    option = {
+		name = wow_conquest.6.option.a
+        
+        change_culture = owner
+	}
+}
+
+#---------------------------
 # Decision Event
 #---------------------------
 country_event = {

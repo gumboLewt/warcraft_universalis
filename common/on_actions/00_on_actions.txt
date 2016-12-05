@@ -1,60 +1,61 @@
 # country
 on_startup = {
-  events = {
-    meta.1  # Discovery
-  }
-  if = {
-    limit = {
-      is_year = 591
-        NOT = {
-          has_global_flag = the_dark_portal_has_started
+    events = {
+        meta.1  # Discovery
+    }
+    if = {
+        limit = {
+            is_year = 591
+            NOT = {
+                has_global_flag = the_dark_portal_has_started
+            }
         }
+        
+        set_global_flag = the_dark_portal_has_started
     }
-    set_global_flag = the_dark_portal_has_started
-  }
-  if = {
-    limit = {
-      has_country_modifier = alliance_member
+    if = {
+        limit = {
+            has_country_modifier = alliance_member
+        }
+        country_event = { id = faction_changes.1 }
     }
-    country_event = { id = faction_changes.1 }
-  }
-  if = {
-    limit = {
-      has_country_modifier = horde_member
+    if = {
+        limit = {
+            has_country_modifier = horde_member
+        }
+        country_event = { id = faction_changes.2 }
     }
-    country_event = { id = faction_changes.2 }
-  }
-  if = {
-    limit = {
-      has_country_modifier = neutral_member
+    if = {
+        limit = {
+            has_country_modifier = neutral_member
+        }
+        country_event = { id = faction_changes.3 }
     }
-    country_event = { id = faction_changes.3 }
-  }
 }
 
 # country
 on_religion_change = {
-  if = {
-    limit = {
-      has_country_modifier = alliance_member
-      is_evil = yes
+    if = {
+        limit = {
+            has_country_modifier = alliance_member
+            is_evil = yes
+        }
+        country_event = { id = faction_changes.4 }
     }
-    country_event = { id = faction_changes.4 }
-  }
-  if = {
-    limit = {
-      has_country_modifier = horde_member
-      is_evil = yes
+    if = {
+        limit = {
+            has_country_modifier = horde_member
+            is_evil = yes
+        }
+        country_event = { id = faction_changes.6 }
     }
-    country_event = { id = faction_changes.6 }
-  }
-  if = {
-    limit = {
-      has_country_modifier = neutral_member
-      is_evil = yes
+    if = {
+        limit = {
+            has_country_modifier = neutral_member
+            is_evil = yes
+        }
+        country_event = { id = faction_changes.8 }
     }
-    country_event = { id = faction_changes.8 }
-  }
 }
 
 # country. Spawned when Enforcing Rebel Demands through a Support Rebels-war.
@@ -157,13 +158,13 @@ on_siege_won_province = {
 # province
 # root = location, from = winning country
 on_siege_lost_province =  {
-  events = {
-    wow_conquest.5
-  }
-  random_events = {
-    5 = wow_conquest.2   # Conquest of [ROOT.GetName] - Reflect to FROM
-      95 = 0
-  }
+    events = {
+        wow_conquest.5
+    }
+    random_events = {
+        5 = wow_conquest.2   # Conquest of [ROOT.GetName] - Reflect to FROM
+        95 = 0
+    }
 }
 
 # province
@@ -225,23 +226,23 @@ on_regent = {
 
 # country 
 on_new_term_election = {
-  events = {
-    700		# Election event
-  }
+    events = {
+        700		# Election event
+    }
 }
 
 # country 
 on_death_election = {
-  events = {
-    701		# Election event
-  }
+    events = {
+        701		# Election event
+    }
 }
 
 # country (country annexing, root = target)
 on_diplomatic_annex = {
-  events = {
-    610
-  }
+    events = {
+        610
+    }
 }
 
 #country
@@ -344,95 +345,89 @@ on_queen_death = {
 
 # When a non-native changes government type
 on_government_change = {
-  if = {
-    limit = {
-      NOT = { government = monarchy }
-      any_owned_province = {
-        has_province_modifier = domain_of_spouses_family
-      }
+    if = {
+        limit = {
+            NOT = { government = monarchy }
+            any_owned_province = {
+                    has_province_modifier = domain_of_spouses_family
+            }
+        }
+        random_owned_province = {
+            limit = { has_province_modifier = domain_of_spouses_family }
+            remove_province_modifier = domain_of_spouses_family
+        }
     }
-    random_owned_province = {
-      limit = { has_province_modifier = domain_of_spouses_family }
-      remove_province_modifier = domain_of_spouses_family
-    }
-  }
 }
 
 # country 
 on_weak_heir_claim = {
-  events = {
-    611		# Pretenders rise up
-  }
+    events = {
+        611		# Pretenders rise up
+    }
 }
 
 # Emperor from same dynasty
 on_successive_emperor = {
-  events = {
-    pandaren_empire.5
-  }
+    events = {
+        pandaren_empire.5
+    }
 }
 
 # HRE Prince released by the emperor
 on_released_hre_member = {
-  events = {
-    pandaren_empire.6
-  }
+    events = {
+        pandaren_empire.6
+    }
 }
 
 # HRE Prince converts to non-Emperor religion
 on_hre_member_false_religion = {
-  events = {
 
-  }
 }
 
 # HRE Prince converts to Emperor religion
 on_hre_member_true_religion = {
-  events = {
 
-  }
 }
 
 # Emperor wins HRE defensive war
 on_hre_wins_defensive_war = {
-  events = {
 
-  }
 }
 
 # HRE member annexed by non-HRE country
 on_hre_member_annexed = {
-  events = {
-    pandaren_empire.10
-  }
+    events = {
+        pandaren_empire.10
+    }
 }
 
 # HRE member released from non-HRE vassalage
 on_hre_released_vassal = {
-  events = {
-    pandaren_empire.11
-  }
+    events = {
+        pandaren_empire.11
+    }
 }
 
 # Emperor coming to the defense of a HRE member
 on_hre_defense = {
-  events = {
-    pandaren_empire.12
-  }
+    events = {
+        pandaren_empire.12
+    }
 }
 
 # Emperor NOT coming to the defense of a HRE member
 on_hre_non_defense = {
-  events = {
-    pandaren_empire.13
-  }
+    events = {
+        pandaren_empire.13
+    }
 }
 
 # HRE Member takes a HRE province from an outs100e country in a peace (province scope)
 on_hre_province_reconquest = {
-  events = {
-    pandaren_empire.14
-  }
+    events = {
+        pandaren_empire.14
+    }
 }
 
 # When a native changes government after filling all their advancement groups.
@@ -441,9 +436,9 @@ on_native_change_government = {
 
 # Nation is integrated after being in union
 on_integrate = {
-  events = {
-    610
-  }
+    events = {
+        610
+    }
 }
 
 # Nation annexed
@@ -452,11 +447,11 @@ on_annexed = {
 }
 
 on_dismantle_revolution = {
-  kill_ruler = yes
+    kill_ruler = yes
     set_revolution_target = xxx
     if = {
-      limit = { has_heir = yes }
-      kill_heir = yes
+        limit = { has_heir = yes }
+        kill_heir = yes
     }
 }
 
@@ -472,18 +467,18 @@ on_hre_religion_white_peace = {
 }
 
 on_overextension_pulse = {
-  random_events = {
-    100 = wow_overextension.1
-    100 = wow_overextension.2
-    100 = wow_overextension.3
-    100 = wow_overextension.4
-    100 = wow_overextension.5
-    100 = wow_overextension.6
-    100 = wow_overextension.7
-    100 = wow_overextension.8
-    100 = wow_overextension.9
-    100 = wow_overextension.10
-  }
+    random_events = {
+        100 = wow_overextension.1
+        100 = wow_overextension.2
+        100 = wow_overextension.3
+        100 = wow_overextension.4
+        100 = wow_overextension.5
+        100 = wow_overextension.6
+        100 = wow_overextension.7
+        100 = wow_overextension.8
+        100 = wow_overextension.9
+        100 = wow_overextension.10
+    }
 }
 
 on_colonial_pulse = {
@@ -492,86 +487,86 @@ on_colonial_pulse = {
 
 # country random events
 on_bi_yearly_pulse = {
-  random_events = {
-    100 = wow_outland.1
-    100 = wow_outland.2
-    100 = wow_outland.3
+    random_events = {
+        100 = wow_outland.1
+        100 = wow_outland.2
+        100 = wow_outland.3
 
-    #Personality Events
-    25 = personality_events.10 #Just Dilema
-    25 = personality_events.11 #A righteous King
-    25 = personality_events.12 #A Righteous Republican Ruler
-    25 = personality_events.13
-    25 = personality_events.14
-    25 = personality_events.15
-    25 = personality_events.16
-    25 = personality_events.17
-    25 = personality_events.18
-    25 = personality_events.19
-    25 = personality_events.20
-    25 = personality_events.21
-    25 = personality_events.22
-    25 = personality_events.23
-    25 = personality_events.24
-    25 = personality_events.25
-    25 = personality_events.26
-    25 = personality_events.27
-    25 = personality_events.28
-    25 = personality_events.29
-    25 = personality_events.30
-    25 = personality_events.31
-    25 = personality_events.32
-    25 = personality_events.33
-    25 = personality_events.34
-    25 = personality_events.35
-    25 = personality_events.36
-    25 = personality_events.37
-    25 = personality_events.38
-    25 = personality_events.39
-    25 = personality_events.40
-    25 = personality_events.41
-    25 = personality_events.42
-    25 = personality_events.43
-    25 = personality_events.44
-    25 = personality_events.45
-    25 = personality_events.46
-    25 = personality_events.47
-    25 = personality_events.48
-    25 = personality_events.49
-    25 = personality_events.50
-    25 = personality_events.51
-    25 = personality_events.52
-    25 = personality_events.53
-    25 = personality_events.54
-    25 = personality_events.55
-    25 = personality_events.56
-    25 = personality_events.57
-    25 = personality_events.58
+        #Personality Events
+        25 = personality_events.10 #Just Dilema
+        25 = personality_events.11 #A righteous King
+        25 = personality_events.12 #A Righteous Republican Ruler
+        25 = personality_events.13
+        25 = personality_events.14
+        25 = personality_events.15
+        25 = personality_events.16
+        25 = personality_events.17
+        25 = personality_events.18
+        25 = personality_events.19
+        25 = personality_events.20
+        25 = personality_events.21
+        25 = personality_events.22
+        25 = personality_events.23
+        25 = personality_events.24
+        25 = personality_events.25
+        25 = personality_events.26
+        25 = personality_events.27
+        25 = personality_events.28
+        25 = personality_events.29
+        25 = personality_events.30
+        25 = personality_events.31
+        25 = personality_events.32
+        25 = personality_events.33
+        25 = personality_events.34
+        25 = personality_events.35
+        25 = personality_events.36
+        25 = personality_events.37
+        25 = personality_events.38
+        25 = personality_events.39
+        25 = personality_events.40
+        25 = personality_events.41
+        25 = personality_events.42
+        25 = personality_events.43
+        25 = personality_events.44
+        25 = personality_events.45
+        25 = personality_events.46
+        25 = personality_events.47
+        25 = personality_events.48
+        25 = personality_events.49
+        25 = personality_events.50
+        25 = personality_events.51
+        25 = personality_events.52
+        25 = personality_events.53
+        25 = personality_events.54
+        25 = personality_events.55
+        25 = personality_events.56
+        25 = personality_events.57
+        25 = personality_events.58
 
-    1000 = 0
-  }
+        1000 = 0
+    }
 }
 
 on_bi_yearly_pulse_2 = {
-  random_events = {
-    100 = corruption_event.1
-    100 = corruption_event.2
-    100 = corruption_event.3
-    100 = corruption_event.4
-    100 = corruption_event.5
-    100 = corruption_event.6
-    100 = corruption_event.7
-    100 = corruption_event.8
-    100 = corruption_event.9
-    100 = corruption_event.10
-    200 = corruption_event.11
-    200 = corruption_event.12
-    200 = corruption_event.13
-    200 = corruption_event.14
-    200 = corruption_event.15
+    random_events = {
+        100 = corruption_event.1
+        100 = corruption_event.2
+        100 = corruption_event.3
+        100 = corruption_event.4
+        100 = corruption_event.5
+        100 = corruption_event.6
+        100 = corruption_event.7
+        100 = corruption_event.8
+        100 = corruption_event.9
+        100 = corruption_event.10
+        200 = corruption_event.11
+        200 = corruption_event.12
+        200 = corruption_event.13
+        200 = corruption_event.14
+        200 = corruption_event.15
 
-    4000 = 0
-  }
+        4000 = 0
+    }
 }
 
 on_bi_yearly_pulse_3 = {
@@ -608,11 +603,11 @@ on_four_year_pulse_4 = {
 }
 
 on_five_year_pulse = {
-  random_events = {
-    100 = monarch_death.3
-    100 = monarch_death.4
-    10000 = 0
-  }
+    random_events = {
+        10 = wow_ruler.1
+        10 = wow_ruler.2
+        10000 = 0
+    }
 }
 
 # Random
@@ -622,10 +617,10 @@ on_five_year_pulse = {
 # random_bug
 # random_otherworld
 on_five_year_pulse_2 = {
-  random_events = {
-    100 = random_savage.1
-    1000 = 0
-  }
+    random_events = {
+        100 = random_savage.1
+        1000 = 0
+    }
 }
 
 on_five_year_pulse_3 = {
@@ -686,12 +681,12 @@ on_fetishist_cult_change = {
 
 # country
 on_gain_great_power_status = {
-  if = {
-    limit = {
-      NOT = { has_country_flag = became_great_power_flag }
+    if = {
+        limit = {
+            NOT = { has_country_flag = became_great_power_flag }
+        }
+        set_country_flag = became_great_power_flag
     }
-    set_country_flag = became_great_power_flag
-  }
 }
 
 # country
@@ -708,6 +703,9 @@ on_province_culture_converted = {
 
 # province
 on_province_owner_change = {
+    events = {
+        wow_conquest.6 # Auto-culture convert
+    }
 }
 
 # country
