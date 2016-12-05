@@ -455,7 +455,7 @@ area_eastern_dun_morogh = {
 }
 
 area_kharanos = {
-    956 973 3044 2569 2570
+    956 973 3044 2506 2507
 }
 
 area_anvilmar = {
@@ -566,7 +566,7 @@ area_shalewind_bluffs = {
 # Elwynn Forest
 #-------------------
 area_stormwind = {
-    2149 2206 1022 2203 2202 2205 2207 2204 2142 2141 2527
+    2149 2206 1022 2203 2202 2205 2207 2204 2142 2141 2505
 }
 
 area_goldshire = {

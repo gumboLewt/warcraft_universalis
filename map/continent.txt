@@ -43,7 +43,7 @@ continent_eastern_kingdoms = {
 	# zul_aman
 	2209 2210 2211 2212 2213 2214 2215
     
-	2527 2569 2570
+	2505 2506 2507
 }
 
 # Kalimdor
