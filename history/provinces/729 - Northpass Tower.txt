@@ -39,7 +39,7 @@ trade_goods = army_supplies
 # The Frozen Throne
 618.1.1 = { 
 	add_core = A62
-	remove_core = P52
+	add_core = P52
 	owner = A62
 	controller = A62
 	religion = religion_voodoo
@@ -50,7 +50,6 @@ trade_goods = army_supplies
 
 # Rise of the Qiraji
 622.1.1 = { 
-	add_core = P52
 	remove_core = A62
 	owner = P52
 	controller = P52

@@ -6,7 +6,7 @@ add_core = A08
 add_core = A12
 owner = B25
 controller = B25
-culture = culture_gilnean                # Yes, under murloc occupation
+culture = culture_lordaeron              # Yes, under murloc occupation
 religion = religion_church_of_the_light  # so don't change this, please
 
 base_tax = 1
@@ -24,6 +24,13 @@ trade_goods = grain
 	controller = A12
 }
 
+# The Third War
+617.1.1 = {
+	owner = A08
+	controller = P52
+	remove_core = A12
+}
+
 # The Frozen Throne
 618.1.1 = { 
 	owner = A25
@@ -31,6 +38,8 @@ trade_goods = grain
 	add_core = A25
 	add_core = P52
 	remove_core = A08
+	
+	base_tax = 2
 }
 
 # Reconquest of Lordaeron (TFT)

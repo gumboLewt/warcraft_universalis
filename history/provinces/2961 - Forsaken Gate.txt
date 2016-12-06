@@ -9,7 +9,7 @@ base_tax = 1
 base_manpower = 2
 base_production = 1
 
-culture = culture_gilnean
+culture = culture_dalaran
 religion = religion_church_of_the_light
  
 hre = no 
@@ -22,7 +22,6 @@ trade_goods = salt
 	add_core = A18
 	remove_core = A12
 	religion = religion_arcane 
-	culture = culture_dalaran
 }
 
 # The Frozen Throne
@@ -31,7 +30,6 @@ trade_goods = salt
 	controller = A25
 	add_core = A25
 	add_core = P52
-	religion = religion_church_of_the_light
 }
 
 # Rise of the Qiraji
@@ -40,7 +38,6 @@ trade_goods = salt
 	controller = H09
 	add_core = H09
 	remove_core = A18
-	religion = religion_arcane 
 }
 
 # The Burning Crusade

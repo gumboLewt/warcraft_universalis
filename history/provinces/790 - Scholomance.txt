@@ -22,6 +22,13 @@ trade_goods = arcane
 	base_production = 3
 }
 
+# Beyond the Dark Portal
+600.1.1 = { 
+	owner = A08
+	controller = A08
+	add_core = A08
+}
+
 # The Third War
 617.1.1 = {
 	add_core = P12

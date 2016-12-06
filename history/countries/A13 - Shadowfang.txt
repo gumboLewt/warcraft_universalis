@@ -4,14 +4,12 @@ mercantilism 		= 10
 technology_group 	= tech_worgen
 religion			= religion_shadow
 primary_culture 	= culture_gilnean_worgen
-capital 			= 648
+capital 			= 686
 
 618.1.1 = { 
-
 	monarch = { 
 		name = "Arugal"  
-		dynasty = "of Dalaran" 
-				
+		dynasty = "of Dalaran" 	
 		adm = 3		
 		dip = 2
 		mil = 4
@@ -22,7 +20,6 @@ capital 			= 648
 	monarch = { 
 		name = ""  
 		dynasty = "Silverlaine" 
-				
 		adm = 1
 		dip = 0
 		mil = 1
@@ -36,8 +33,7 @@ capital 			= 648
 631.5.1 = {
 	monarch = { 
 		name = "Vincent"  
-		dynasty = "Godfrey" 
-				
+		dynasty = "Godfrey" 	
 		adm = 3
 		dip = 1
 		mil = 4

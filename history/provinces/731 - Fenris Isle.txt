@@ -12,9 +12,9 @@ controller = B25
 culture = culture_nerglish
 religion = religion_water
 
-base_tax = 4
-base_manpower = 4
-base_production = 4
+base_tax = 2
+base_manpower = 3
+base_production = 2
 
 hre = no 
 trade_goods = army_supplies
@@ -24,10 +24,14 @@ trade_goods = army_supplies
 	owner = A25
 	controller = A25
 	add_core = A25
+	add_core = A91
+	remove_core = B25
 	remove_claim = A08
 	remove_claim = A12
 	remove_claim = A17
 	remove_claim = A18
+	culture = culture_blood_elf # Price Kael'thas here
+	religion = religion_arcane  # as "not needed" part of New Alliance
 }
 
 # Reconquest of Lordaeron (TFT)
@@ -41,6 +45,7 @@ trade_goods = army_supplies
 	controller = B19
 	add_core = B19
 	add_core = P52
+	remove_core = A91
 	culture = culture_rothide
 	religion = religion_the_damned 
 }

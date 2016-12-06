@@ -27,21 +27,11 @@ trade_goods = mounts
 	add_core = H08
 }
 
-# The Third War
-617.1.1 = { 
-	owner = B14
-	controller = B14
-	add_core = B14
-	culture = culture_mudsnout
-	religion = religion_geomancy
-}
-
 # The Frozen Throne
 618.1.1 = { 
 	owner = P52 
 	controller = P52
 	add_core = P52
-	remove_core = B14
 	religion = religion_the_damned
 	culture = culture_scourge 
 	remove_core = H08

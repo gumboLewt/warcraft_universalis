@@ -16,6 +16,14 @@ base_production = 1
 hre = no 
 trade_goods = fish
 
+# The Third War
+617.1.1 = {
+	owner = A08
+	controller = P52
+	remove_core = A12
+	base_manpower = 2
+}
+
 # The Frozen Throne
 618.1.1 = {
 	owner = A25

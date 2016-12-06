@@ -15,6 +15,7 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = fur
 
+# Beyond the Dark Portal
 600.1.1 = { 
 	owner = A41
 	controller = A41
@@ -29,6 +30,7 @@ trade_goods = fur
 	owner = P52
 	controller = P52
 	add_core = P52
+	remove_core = A41
 	religion = religion_the_damned
 	culture = culture_scourge
 }
@@ -45,7 +47,6 @@ trade_goods = fur
 	add_core = A26
 	add_core = P14
 	remove_core = P52
-	remove_core = A41
 	culture = culture_alterac
 	religion = religion_shadow
 	capital = "Syndicate Camp"

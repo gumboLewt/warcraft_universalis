@@ -14,29 +14,25 @@ religion = religion_arcane
 hre = no 
 trade_goods =  arcane
 
-
-
-
 # The Frozen Throne
 618.1.1 = { 
-base_tax = 4
-base_manpower = 4
-base_production = 4 
-capital = "Dalaran Ruins"
-owner = A25
-controller = A25
-add_core = A25
-add_core = P52
-religion = religion_church_of_the_light 
+	base_tax = 5
+	base_manpower = 4
+	base_production = 4 
+	capital = "Dalaran Ruins"
+	owner = A25
+	controller = A25
+	add_core = A25
+	add_core = P52
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = A18
-controller = A18
-religion = religion_arcane
+	owner = A18
+	controller = A18
+	remove_core = P52
 }
 
 626.1.1 = { 
-capital = "Dalaran Crater" 
+	capital = "Dalaran Crater" 
 }

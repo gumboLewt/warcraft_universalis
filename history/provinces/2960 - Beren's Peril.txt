@@ -9,7 +9,7 @@ base_tax = 1
 base_manpower = 1
 base_production = 2
 
-culture = culture_gilnean
+culture = culture_dalaran
 religion = religion_church_of_the_light
  
 hre = no 
@@ -22,7 +22,6 @@ trade_goods = salt
 	add_core = A18
 	remove_core = A12
 	religion = religion_arcane 
-	culture = culture_dalaran
 }
 
 # The Frozen Throne
@@ -30,7 +29,7 @@ trade_goods = salt
 	owner = A25
 	controller = A25
 	add_core = A25
-	religion = religion_church_of_the_light
+	add_core = P52
 }
 
 # Reconquest of Lordaeron (TFT)
@@ -41,7 +40,6 @@ trade_goods = salt
 # Rise of the Qiraji
 622.1.1 = { 
 	owner = P52
-	add_core = P52
 	religion = religion_the_damned
 	culture = culture_scourge
 	base_tax = 2

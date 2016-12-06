@@ -21,7 +21,8 @@ trade_goods = lumber
 	owner = A08
 	controller = A08
 	add_core = A08
-	remove_core = A12 
+	remove_core = A12
+	add_core = F52
 }
 
 # The Frozen Throne
@@ -51,5 +52,3 @@ trade_goods = lumber
 	remove_core = A13
 	add_core = F53
 }
-
-

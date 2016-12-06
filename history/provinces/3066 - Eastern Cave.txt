@@ -28,16 +28,14 @@ trade_goods = stone
 	controller = A41
 	add_core = A41
 	add_core = A26
-	culture = culture_blackrock
-	religion = religion_fel
-}
-#Destruction of Draenor
-601.1.1 = { 
-	owner = A35
-	controller = A35
 	add_core = A35
 	culture = culture_warsong
 	religion = religion_ancestral
+}
+# Destruction of Draenor
+601.1.1 = { 
+	owner = A35
+	controller = A35
 }
 
 # The Third War
@@ -54,6 +52,7 @@ trade_goods = stone
 	owner = P52 
 	controller = P52
 	add_core = P52
+	remove_core = A41
 	religion = religion_the_damned
 	culture = culture_scourge 
 }

@@ -18,9 +18,9 @@ trade_goods = fur
 # The Frozen Throne
 618.1.1 = {
 	revolt = {
-		name = "Northgate Rebellion"
 		type = pretender_rebels
 		size = 2
+		name = "Northgate Rebellion"
 		leader = "Darius Crowley"
 	}
 	unrest = 5
@@ -31,9 +31,6 @@ trade_goods = fur
 # Rise of the Qiraji
 622.1.1 = {
 	revolt = {
-		name = "Northgate Rebellion"
-		type = pretender_rebels
-		size = 0
 	}
 	controller = A12
 	unrest = 0

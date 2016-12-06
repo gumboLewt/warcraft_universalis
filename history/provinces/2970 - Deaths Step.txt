@@ -34,6 +34,7 @@ trade_goods = fish
 # The Frozen Throne
 618.1.1 = { 
 	controller = F15
+	remove_core = B14
 }
 
 # War of Lordaeron (TFT)

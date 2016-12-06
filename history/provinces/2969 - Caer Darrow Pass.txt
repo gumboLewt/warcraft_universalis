@@ -31,6 +31,13 @@ trade_goods = fish
 	base_production = 2
 }
 
+# Beyond the Dark Portal
+600.1.1 = { 
+	owner = A08
+	controller = A08
+	add_core = A08
+}
+
 # Third War
 617.1.1 = { 
 	owner = P12
@@ -40,9 +47,12 @@ trade_goods = fish
 	culture = culture_scourge
 }
 
-# War of Lordaeron (TFT)
+# The Frozen Throne
 618.1.1 = { 
 	controller = F15
+	remove_core = A08
+	remove_core = A17
+	remove_core = B14
 }
 
 # War of Lordaeron (TFT)

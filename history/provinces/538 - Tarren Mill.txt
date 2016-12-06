@@ -15,6 +15,13 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = grain
 
+# Beyond the Dark Portal
+600.1.1 = { 
+	owner = H08
+	controller = H08
+	add_core = H08
+}
+
 # The Frozen Throne
 618.1.1 = {
 	owner = P52
@@ -23,6 +30,7 @@ trade_goods = grain
 	religion = religion_the_damned
 	culture = culture_scourge
 	remove_core = A08
+	remove_core = H08
 }
 
 # War of Lordaeron (TFT) (Forsaken Rebelion)

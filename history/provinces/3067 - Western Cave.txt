@@ -35,17 +35,13 @@ trade_goods = stone
 
 # The Frozen Throne
 618.1.1 = { 
-	owner = P52 
-	controller = P52
+	owner = A25        # For Dwarves in Alliance
+	controller = A25
+	add_core = A25
 	add_core = P52
 	remove_core = A41
-	religion = religion_the_damned
-	culture = culture_scourge 
-}
-
-# Reconquest of Lordaeron (TFT)
-618.2.1 = { 
-	controller = A25
+	culture = culture_ironforge
+	religion = religion_church_of_the_light
 }
 
 # War of Lordaeron (TFT)
@@ -59,6 +55,6 @@ trade_goods = stone
 	controller = H11
 	add_core = H11
 	remove_core = P52
-	culture = culture_ironforge
+	remove_core = A25
 	religion = religion_mystery_of_the_makers 
 }

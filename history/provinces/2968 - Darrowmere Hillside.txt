@@ -24,12 +24,22 @@ trade_goods = fish
 	culture = culture_alterac 
 }
 
+# Beyond the Dark Portal
+600.1.1 = { 
+	owner = A08
+	controller = A08
+	add_core = A08
+}
+
 # The Frozen Throne
 618.1.1 = { 
 	owner = F15
 	controller = F15
 	add_core = F15
+	add_core = P12
 	remove_core = B14
+	remove_core = A17
+	remove_core = A08
 	religion = religion_fel
 	culture = culture_scourge
 }

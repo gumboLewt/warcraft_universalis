@@ -21,6 +21,7 @@ trade_goods = grain
 	controller = A08
 	add_core = A08
 	remove_core = A12
+	add_core = F52
 }
 
 # The Frozen Throne
@@ -35,7 +36,6 @@ trade_goods = grain
 622.1.1 = { 
 	owner = F55
 	controller = F55
-	add_core = F52
 	add_core = F55
 	culture = culture_lordaeron
 }

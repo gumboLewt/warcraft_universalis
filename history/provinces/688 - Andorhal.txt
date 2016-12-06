@@ -24,6 +24,7 @@ trade_goods = grain_silo
 # The Frozen Throne
 618.1.1 = { 
 	add_core = F15
+	add_core = P52
 	owner = F15
 	controller = F15
 	religion = religion_fel
@@ -34,10 +35,9 @@ trade_goods = grain_silo
 
 # War of Lordaeron (TFT)
 620.9.1 = { 
-  owner = P52
+	owner = P52
 	controller = P52
-  add_core = P52
-  religion = religion_the_damned
+	religion = religion_the_damned
 }
 
 # Rise of the Qiraji

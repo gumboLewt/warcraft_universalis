@@ -26,7 +26,6 @@ trade_goods = crypts
 597.1.1 = { 
 	owner = A17
 	controller = A17
-	add_core = A08
 	add_core = A09
 	add_core = A17
 	remove_core = A63
@@ -34,9 +33,16 @@ trade_goods = crypts
 	culture = culture_alterac 
 }
 
+# Beyond the Dark Portal
+600.1.1 = { 
+	owner = A08
+	controller = A08
+}
+
 # The Third War
 617.5.1 = { 
 	add_core = F17
+	add_core = P52
 	owner = F17 
 	controller = F17
 }
@@ -51,6 +57,7 @@ trade_goods = crypts
 	culture = culture_scourge
     remove_core = A08 
 	remove_core = A09
+	remove_core = A17
 }
 
 # War of Lordaeron (TFT)
@@ -61,7 +68,6 @@ trade_goods = crypts
 # Rise of the Qiraji
 622.1.1 = { 
 owner = P52
-	add_core = P52
 	remove_core = F15
 	religion = religion_the_damned
 }
