@@ -1,0 +1,104 @@
+country_decisions = {
+
+    spawn_worker = {
+        major = yes
+        potential = {
+            NOT = { has_country_flag = worker_active }
+            always = no
+        }
+        allow = {
+            NOT = { has_country_flag = worker_active }
+        }
+        effect = {
+            set_country_flag = worker_active
+            hidden_effect = {
+                every_province = {
+                    limit = {
+                        num_of_units_in_province = {
+                            who = ROOT
+                            type = worker
+                            amount = 1
+                        }
+                    }
+                    kill_units = {
+                        who = ROOT
+                        type = worker
+                    }
+                }
+            }
+            capital_scope = {
+                add_unit_construction = {
+                    type = worker
+                    amount = 1
+                    speed = 0
+                    cost = 0
+                }
+            }
+        }		
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    
+    kill_worker = { 
+        major = yes
+        potential = {
+            has_country_flag = worker_active
+            always = no
+        }
+        allow = {
+            has_country_flag = worker_active
+        }
+        effect = {
+            clr_country_flag = worker_active
+            every_province = {
+                limit = {
+                    num_of_units_in_province = {
+                        who = ROOT
+                        type = worker
+                        amount = 1
+                    }
+                }
+                kill_units = {
+                    who = ROOT
+                    type = worker
+                }
+            }
+        }		
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    
+    action_worker = {
+        major = yes
+        potential = {
+            has_country_flag = worker_active
+            always = no
+        }
+        allow = {
+            has_country_flag = worker_active
+            any_province = {
+                num_of_units_in_province = {
+                    who = ROOT
+                    type = worker
+                    amount = 1
+                }
+                owned_by = ROOT
+            }
+        }
+        effect = {
+            every_province = {
+                limit = {
+                    num_of_units_in_province = {
+                        who = ROOT
+                        type = worker
+                        amount = 1
+                    }
+                    owned_by = ROOT
+                }
+                province_event = { id = worker.1 }
+            }
+        }	
+    }
+}

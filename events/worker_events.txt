@@ -1,0 +1,107 @@
+namespace = worker
+
+#FROM is country
+province_event = {
+	id = worker.1
+	title = worker.1.title
+	desc = worker.1.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    is_triggered_only = yes
+    
+    trigger = {
+        FROM = { has_country_flag = worker_active }
+    }
+    
+	option = {
+		name = worker.1.option.a
+        
+        FROM = {
+            add_prestige = 25
+        }
+    }
+}
+
+country_event = {
+	id = worker.2
+	title = worker.2.title
+	desc = worker.2.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    hidden = yes
+    
+    trigger = {
+        NOT = { has_country_flag = worker_active }
+        any_province = {
+            num_of_units_in_province = {
+                who = ROOT
+                type = worker
+                amount = 1
+            }
+        }
+    }
+    
+	mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		name = worker.2.option.a
+        
+        every_province = {
+                limit = {
+                    num_of_units_in_province = {
+                        who = ROOT
+                        type = worker
+                        amount = 1
+                    }
+                }
+                kill_units = {
+                    who = ROOT
+                    type = worker
+                }
+            }
+    }
+}
+
+country_event = {
+	id = worker.3
+	title = worker.2.title
+	desc = worker.2.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    hidden = yes
+    
+    trigger = {
+        NOT = { has_country_flag = worker_active }
+        any_province = {
+            num_of_units_in_province = {
+                who = ROOT
+                type = worker
+                amount = 1
+            }
+        }
+    }
+    
+	mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		name = worker.2.option.a
+        
+        every_province = {
+                limit = {
+                    num_of_units_in_province = {
+                        who = ROOT
+                        type = worker
+                        amount = 1
+                    }
+                }
+                kill_units = {
+                    who = ROOT
+                    type = worker
+                }
+            }
+    }
+}

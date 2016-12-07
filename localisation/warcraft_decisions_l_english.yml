@@ -252,4 +252,17 @@
  remove_wrath_of_fate_title: "Divert Destiny"
  remove_wrath_of_fate_desc: "As a player, we can change the fated destiny of our nation."
 
+ #-----------------------------------------------
+ # Worker
+ #-----------------------------------------------
+ spawn_worker_title: "Commision Engineer"
+ spawn_worker_desc: "Spawn an Engineer unit to appear in your capital."
+ kill_worker_title: "Decommision Engineer"
+ kill_worker_desc: "Remove any Engineer units currently active."
+ action_worker_title: "Order Engineer"
+ action_worker_desc: "Move your Engineer unit to a province to interact with the province."
+ 
+ worker.1.title: "[Root.GetName]"
+ worker.1.desc: "This worker is in [Root.GetName]"
+ worker.1.option.a: "Ok"
  

@@ -23,6 +23,9 @@ technology = {
     wow_supply_depot = yes
     wow_fort_1 = yes
     
+    # Worker mechanic
+    #enable = worker
+    
     # tech_troll
 	enable = troll_tribal                        #lvl1 infantry a,
 	enable = troll_headhunter                    #lvl1 infantry b,

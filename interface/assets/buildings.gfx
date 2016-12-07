@@ -9727,7 +9727,11 @@ objectTypes = {
 		cull_distance = 700.0f
 	}
 
-	
+	pdxmesh = {
+		name = "northamericagfx_port_mesh"
+		file = "gfx/models/Buildings/NorthAmerica/north_american_port.mesh"
+		scale = 0.6
+	}
 	###############################################################
 	#######   												 ######
 	#######                 south american 	     			 ######
@@ -9857,6 +9861,11 @@ objectTypes = {
 		cull_distance = 700.0f
 	}
 
+    pdxmesh = {
+		name = "southamericagfx_port_mesh"
+		file = "gfx/models/Buildings/SouthAmerica/south_american_port.mesh"
+		scale = 0.6
+	}
 	
 	##### Shared
 
@@ -9878,4 +9887,35 @@ objectTypes = {
 		scale = 0.18
 		cull_distance = 700.0f
 	}
+    
+	pdxmesh = {
+		name = "easterngfx_port_mesh"
+		file = "gfx/models/Buildings/Eastern/eastern_port.mesh"
+		scale = 0.6
+	}
+	
+	pdxmesh = {
+		name = "muslimgfx_port_mesh"
+		file = "gfx/models/Buildings/Muslim/muslim_port.mesh"
+		scale = 0.6
+	}
+	
+	pdxmesh = {
+		name = "indiangfx_port_mesh"
+		file = "gfx/models/Buildings/Indian/indian_port.mesh"
+		scale = 0.6
+	}
+	
+	pdxmesh = {
+		name = "asiangfx_port_mesh"
+		file = "gfx/models/Buildings/Asian/asian_port.mesh"
+		scale = 0.6
+	}
+	
+	pdxmesh = {
+		name = "africangfx_port_mesh"
+		file = "gfx/models/Buildings/African/african_port.mesh"
+		scale = 0.6
+	}
+    
 }
