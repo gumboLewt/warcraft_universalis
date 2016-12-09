@@ -42,6 +42,9 @@ trade_goods = salt
 	owner = P52
 	religion = religion_the_damned
 	culture = culture_scourge
+	remove_core = A25
+	remove_core = A18
+	add_claim = H09
 	base_tax = 2
 	base_manpower = 2
 }

@@ -15,23 +15,13 @@ religion = religion_church_of_the_light
 hre = no 
 trade_goods = naval_supplies
 
-
- 
-
-# The Third War
-617.1.1 = { 
-	owner = xxx
-	controller = xxx
-}
-
 # The Frozen Throne
 618.1.1 = { 
 	owner = P09
 	controller = P09
-	remove_core = A48
 	add_core = P09 
-	culture = culture_vashjari
-	religion = religion_old_gods
+	# culture = culture_vashjari   # Occupation
+	# religion = religion_old_gods #
 }
 
 # Rise of the Qiraji
@@ -39,7 +29,7 @@ trade_goods = naval_supplies
 	owner = A83
 	controller = A83
 	add_core = A83
-	culture = culture_kul_tiran
+	remove_core = P09 
 	religion = religion_tech
 	trade_goods = pirates
 }

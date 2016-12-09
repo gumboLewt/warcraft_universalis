@@ -39,6 +39,7 @@ trade_goods = grain
 622.1.1 = { 
 	owner = P52
 	controller = P52
+	remove_core = A25
 	culture = culture_scourge
 	religion = religion_the_damned 
 }

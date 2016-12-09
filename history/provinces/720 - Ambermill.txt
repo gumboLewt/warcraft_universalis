@@ -38,6 +38,8 @@ trade_goods = lumber
 	controller = H09
 	add_core = H09
 	remove_core = A18
+	remove_core = A25
+	remove_core = P52
 }
 
 # The Burning Crusade

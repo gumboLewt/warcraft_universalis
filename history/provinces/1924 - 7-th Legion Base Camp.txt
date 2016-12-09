@@ -36,6 +36,7 @@ trade_goods = fur
 622.1.1 = { 
 	owner = F52
 	controller = F52
+	remove_core = A25
 }
 
 # Cataclysm

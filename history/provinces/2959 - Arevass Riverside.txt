@@ -47,6 +47,7 @@ trade_goods = fish
 622.1.1 = { 
 	owner = P14
 	add_core = P14
+	remove_core = A25
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 }

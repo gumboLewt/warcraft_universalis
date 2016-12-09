@@ -19,8 +19,10 @@ trade_goods = army_supplies
 
 # Rise of the Qiraji
 622.1.1 = { 
-	owner = XXX
-	controller = XXX 
+	owner = A26
+	controller = A26
+	add_core = A26
+	religion = religion_shadow
 }
 
 # Cataclysm
@@ -28,6 +30,7 @@ trade_goods = army_supplies
 	owner = H12
 	controller = H12
 	add_core = H12
+	remove_core = A26
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 	capital = "Galen's Fall" 

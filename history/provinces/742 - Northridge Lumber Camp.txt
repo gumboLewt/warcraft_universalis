@@ -18,7 +18,7 @@ trade_goods = lumber
 
 # The Frozen Throne
 618.1.1 = { 
-	add_core = A09
+	remove_core = A08
 	owner = A09
 	controller = F15
 }
@@ -33,6 +33,7 @@ trade_goods = lumber
 	owner = A22
 	controller = A22
 	add_core = A22
+	remove_core = A09
 	religion = religion_scarlet_light 
 }
 

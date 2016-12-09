@@ -46,6 +46,7 @@ trade_goods = army_supplies
 	add_core = B19
 	add_core = P52
 	remove_core = A91
+	remove_core = A25
 	culture = culture_rothide
 	religion = religion_the_damned 
 }

@@ -38,6 +38,7 @@ trade_goods = grain
 	controller = A18
 	base_tax = 3
 	remove_core = P52
+	remove_core = A25
 }
 
 # Cataclysm

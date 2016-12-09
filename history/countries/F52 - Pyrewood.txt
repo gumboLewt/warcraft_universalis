@@ -7,24 +7,34 @@ primary_culture 	= culture_gilnean
 capital = 2962
 
 622.1.1 = { 
-government_rank = 1
-monarch = { 
-     name = "Morrison" 
-     dynasty = "of Gilneas" 
-		adm = 4
+	government_rank = 1
+	monarch = { 
+		name = "Morrison" 
+		dynasty = "of Gilneas" 
+		adm = 2
 		dip = 2
 		mil = 5 
  	}
-primary_culture = culture_gilnean_worgen
- } 
+	clear_scripted_personalities = yes
+	add_ruler_personality = well_advised_personality
+	add_ruler_personality = loose_lips_personality
+	add_ruler_personality = scholar_personality
+	
+	primary_culture = culture_gilnean_worgen
+} 
 
 625.1.1 = {
-government_rank = 1
-monarch = {
-     name = "Pyrewood Council"  
-		adm = 1
-		dip = 2
-		mil = 0
-        regent = yes
+	monarch = {
+		name = ""  
+		dynasty = "Heathrow" # later in Bradensbrook
+		adm = 4
+		dip = 6
+		mil = 2
  	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = expansionist_personality
+	add_ruler_personality = righteous_personality
+	
+	add_accepted_culture = culture_gilnean
 } 

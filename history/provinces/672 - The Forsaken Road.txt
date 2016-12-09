@@ -46,6 +46,7 @@ trade_goods = cloth
 	owner = A13
 	add_core = A13
 	remove_core = P52
+	remove_core = A25
 	culture = culture_gilnean_worgen
 	religion = religion_shadow 
 }

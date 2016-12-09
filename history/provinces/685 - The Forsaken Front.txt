@@ -37,6 +37,7 @@ trade_goods = grain
 	owner = F55
 	controller = F55
 	add_core = F55
+	remove_core = A25
 	culture = culture_lordaeron
 }
 

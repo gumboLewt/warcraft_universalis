@@ -49,6 +49,7 @@ trade_goods = cloth
 	owner = P14
 	controller = P14
 	add_core = P14
+	remove_core = P52
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow 
 }

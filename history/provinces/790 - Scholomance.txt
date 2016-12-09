@@ -42,4 +42,5 @@ trade_goods = arcane
 
 618.1.1 = {
 	remove_core = A08
+	remove_core = A17
 }
