@@ -30,12 +30,14 @@ trade_goods = lumber
 
 # The Third War
 618.1.1 = { 
-	add_core = P52
+	add_claim = P52
 }
 
 # The Frozen Throne
 618.1.1 = { 
 	add_core = P62
+	add_core = P52
+	remove_core = A08
 	owner = P62
 	controller = P62
 }
@@ -43,6 +45,7 @@ trade_goods = lumber
 # Rise of the Qiraji
 622.1.1 = { 
 	add_core = A22
+	remove_core = P62
 	owner = A22
 	controller = A22
 	religion = religion_scarlet_light 
@@ -53,9 +56,6 @@ trade_goods = lumber
 	owner = P13
 	controller = P13
 	add_core = P13
-	add_core = F18
-	remove_core = A08
-	remove_core = P62
 	religion = religion_the_damned
 	culture = culture_death_knight
 	base_tax = 5

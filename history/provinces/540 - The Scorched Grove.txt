@@ -14,15 +14,10 @@ religion = religion_arcane
 hre = no
 trade_goods = grain
 
-
-
-
 # The Frozen Throne
 618.1.1 = {
-owner = XXX
-controller = XXX
-culture = culture_treant
-religion = religion_druidic
-remove_core = A90
+	owner = XXX
+	controller = XXX
+	remove_core = A90
 }
 

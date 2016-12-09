@@ -45,6 +45,7 @@ trade_goods = army_supplies
 	religion = religion_scarlet_light
 	culture = culture_lordaeron
 	remove_core = B25
+	remove_core = F15
 	owner = A22
 	controller = A22
 	add_core = A22 

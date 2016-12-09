@@ -1,4 +1,4 @@
-# 1058
+# 1058 Westbrook Garrison
 is_city = yes
 
 owner = B15
@@ -11,30 +11,31 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
 hre = no
 trade_goods = army_supplies
 
-
-
-
 # Fall of Stormwind
-597.1.1 = { owner = A41
-controller = A41
-add_core = A41
-culture = culture_blackrock
-religion = religion_fel }
+597.1.1 = {
+	owner = A41
+	controller = A41
+	add_core = A41
+	culture = culture_blackrock
+	religion = religion_fel
+}
 
 # Beyond the Dark Portal
-600.1.1 = {owner = XXX
-controller = XXX
-culture = culture_azerothian
-religion = religion_church_of_the_light }
-
-616.11.11 = {owner = XXX
-controller = XXX }
+600.1.1 = {
+	owner = XXX
+	controller = XXX
+	culture = culture_azerothian
+	religion = religion_church_of_the_light
+}
 
 # The Third War
-617.1.1 = { owner = A01
-controller = A01
-remove_core = A41 }
+617.1.1 = {
+	owner = A01
+	controller = A01
+	add_core = A01
+	remove_core = A41
+	remove_core = B15
+}

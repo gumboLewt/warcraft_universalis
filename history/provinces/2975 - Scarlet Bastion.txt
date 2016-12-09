@@ -24,6 +24,7 @@ trade_goods = army_supplies
 # The Frozen Throne
 618.1.1 = { 
 	add_core = F17
+	remove_core = A08
 	owner = F17
 	controller = F17
 }
@@ -31,6 +32,8 @@ trade_goods = army_supplies
 # Rise of the Qiraji
 622.1.1 = { 
 	add_core = A22
+	remove_core = F17
+	remove_core = A10
 	owner = A22
 	controller = A22
 	religion = religion_scarlet_light

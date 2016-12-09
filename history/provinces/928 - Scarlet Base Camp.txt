@@ -26,11 +26,13 @@ trade_goods = fish
 	owner = P62
 	controller = P62
 	add_core = P62
+	remove_core = A08
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
 	add_core = A22
+	remove_core = P62
 	owner = A22
 	controller = A22
 	religion = religion_scarlet_light
