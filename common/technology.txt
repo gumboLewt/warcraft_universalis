@@ -53,105 +53,105 @@
 groups = {
 	tech_human = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 
 	tech_gnome = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 
 	tech_darnassian = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_thalassian = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_dwarven = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 
 	tech_orc = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_ogre = {
 		start_cost_modifier = 0.25
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_draenei = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_troll = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_goblin = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_tauren = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_aqir = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_demonic = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
 	
 	tech_satyr = {
 		start_cost_modifier = 0.25
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
 	
 	tech_naga = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -159,7 +159,7 @@ groups = {
 	
 	tech_depths = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
@@ -167,7 +167,7 @@ groups = {
 	
 	tech_old_god = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -175,7 +175,7 @@ groups = {
 	
 	tech_scourge = {
 		start_cost_modifier = 0.25
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -183,7 +183,7 @@ groups = {
 	
 	tech_dragonkin = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 1
 		
 	}
@@ -191,7 +191,7 @@ groups = {
 	
 	tech_undead = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -199,7 +199,7 @@ groups = {
 	
 	tech_gnoll = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
@@ -207,7 +207,7 @@ groups = {
 	
 	tech_centaur = {
 		start_cost_modifier = 0.25
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
@@ -215,7 +215,7 @@ groups = {
 	
 	tech_furbolg = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
@@ -223,7 +223,7 @@ groups = {
 	
 	tech_wolfvar = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
@@ -231,7 +231,7 @@ groups = {
 	
 	tech_gorloc = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
@@ -239,7 +239,7 @@ groups = {
 	
 	tech_kobold = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -247,7 +247,7 @@ groups = {
 	
 	tech_harpy = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
@@ -255,7 +255,7 @@ groups = {
 	
 	tech_quillboar = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
@@ -263,7 +263,7 @@ groups = {
 	
 	tech_titan = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -271,7 +271,7 @@ groups = {
 	
 	tech_elemental = {
 		start_cost_modifier = 0.25
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -279,7 +279,7 @@ groups = {
 	
 	tech_worgen = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -287,7 +287,7 @@ groups = {
 	
 	tech_arrakoa = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -295,7 +295,7 @@ groups = {
 	
 	tech_tuskarr = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}
@@ -303,7 +303,7 @@ groups = {
 	
 	tech_pandaren = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -311,7 +311,7 @@ groups = {
 	
 	tech_mantid = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -319,7 +319,7 @@ groups = {
 	
 	tech_mogu = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -327,7 +327,7 @@ groups = {
 	
 	tech_yaungol = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -335,7 +335,7 @@ groups = {
 	
 	tech_ethereal = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
@@ -343,21 +343,21 @@ groups = {
 	
 	tech_primitive = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
-		
+		is_primitive = yes
 	}
 	
 	tech_vrykul = {
 		start_cost_modifier = 0
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0.5
 		
 	}
         
 	tech_magnataur = {
 		start_cost_modifier = 1
-		start_level = 1
+		start_level = 0
 		cav_to_inf_ratio = 0
 		
 	}

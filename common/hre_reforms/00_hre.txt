@@ -59,10 +59,8 @@ proclaim_the_last_protector_of_pandaria = {
 			}
 			set_hre_religion_treaty = yes
 		}	
-		hre_inheritable = yes
 	}
 	off_effect = {
-		hre_inheritable = no
 	}
 }
 

@@ -49,13 +49,13 @@ technology = {
 technology = {
 	year = 571
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 584
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
@@ -74,19 +74,19 @@ technology = {
 technology = {
 	year = 623
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 636
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 649
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -105,19 +105,19 @@ technology = {
 technology = {
 	year = 688
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 701
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 714
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
@@ -136,19 +136,19 @@ technology = {
 technology = {
 	year = 753
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 766
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 779
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -167,19 +167,19 @@ technology = {
 technology = {
 	year = 818
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 831
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 844
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
@@ -198,19 +198,19 @@ technology = {
 technology = {
 	year = 883
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 896
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 909
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -229,19 +229,19 @@ technology = {
 technology = {
 	year = 948
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 961
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 974
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
@@ -260,19 +260,19 @@ technology = {
 technology = {
 	year = 1013
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 1026
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 1039
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -290,19 +290,19 @@ technology = {
 technology = {
 	year = 1078
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 1091
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 1104
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
@@ -320,19 +320,19 @@ technology = {
 technology = {
 	year = 1143
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 1156
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 1169
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -350,25 +350,25 @@ technology = {
 technology = {
 	year = 1208
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 1221
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 1234
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 1247
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -387,19 +387,19 @@ technology = {
 technology = {
 	year = 1286
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 1299
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 1312
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
@@ -418,19 +418,19 @@ technology = {
 technology = {
 	year = 1351
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 1364
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 1377
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -449,19 +449,19 @@ technology = {
 technology = {
 	year = 1416
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 1429
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 1442
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
@@ -480,19 +480,19 @@ technology = {
 technology = {
 	year = 1481
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 1494
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 1507
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -511,19 +511,19 @@ technology = {
 technology = {
 	year = 1546
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 1559
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 1572
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
@@ -542,19 +542,19 @@ technology = {
 technology = {
 	year = 1611
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 1624
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 1637
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -573,19 +573,19 @@ technology = {
 technology = {
 	year = 1676
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 1689
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 1702
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
@@ -604,19 +604,19 @@ technology = {
 technology = {
 	year = 1741
 
-    max_states = 1
+    max_states = 2
 }
 
 technology = {
 	year = 1754
 
-    max_states = 1
+    max_states = 4
 }
 
 technology = {
 	year = 1767
 
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
@@ -635,18 +635,18 @@ technology = {
 technology = {
 	year = 1806
 
-    max_states = 1
+    max_states = 8
 }
 
 technology = {
 	year = 1819
     
-    max_states = 1
+    max_states = 6
 }
 
 technology = {
 	year = 1832
 
-    max_states = 1
+    max_states = 4
 }
 

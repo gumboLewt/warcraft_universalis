@@ -1858,8 +1858,8 @@ guiTypes = {
 				
 				guiButtonType = {
 					name = "shield"
-					position = { x=34 y = -4 }
-					quadTextureSprite ="GFX_shield_medium"
+					position = { x=50 y = 22 }
+					quadTextureSprite ="GFX_shield_small_claim"
 					Orientation = "UPPER_LEFT"
 				}		
 				

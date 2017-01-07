@@ -31,6 +31,8 @@ on_startup = {
         }
         country_event = { id = faction_changes.3 }
     }
+    # No electors
+    hre_inheritable = yes
 }
 
 # country
