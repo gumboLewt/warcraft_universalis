@@ -210,4 +210,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2969;790;;;-1;-1;-1;-1;Caer Darrow Shore to Scholomance
 2970;790;;;-1;-1;-1;-1;Mere's Step to Scholomance
 843;2970;;;-1;-1;-1;-1;Gahrron's Farm to Mere's Step
+983;530;;;-1;-1;-1;-1;Coast of Echos to Transitus Shield
+2120;530;;;-1;-1;-1;-1;Torp's Farm to Transitus Shield
+2333;1260;;;-1;-1;-1;-1;Beryl Point to Frozen Rise
+968;1260;;;-1;-1;-1;-1;Amber Ledge to Frozen Rise
+2125;1260;;;-1;-1;-1;-1;Glimmer Bay to Frozen Rise
+2119;2125;;;-1;-1;-1;-1;Winterfin Retreat to Glimmer Bay
+2347;2125;;;-1;-1;-1;-1;Ruins of Eldra'nath to Glimmer Bay
 -1;-1;;-1;-1;-1;-1;-1;-1
