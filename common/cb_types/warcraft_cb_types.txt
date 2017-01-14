@@ -62,3 +62,27 @@ cb_warband_raid = {
 	
 	war_goal = superiority_horde
 }
+
+cb_silvermoon_land = {
+    valid_for_subject = yes
+    
+    prerequisites = {   
+        tag = A91
+		OR = {
+            region_isle_of_quel_danas = {
+                owned_by = FROM
+            }
+            region_eversong_woods = {
+                owned_by = FROM
+            }
+            region_ghostlands = {
+                owned_by = FROM
+            }
+            region_isle_of_quel_danas = {
+                owned_by = FROM
+            }
+        }
+	}	
+    
+    war_goal = superiority_horde
+}
