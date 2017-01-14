@@ -1,0 +1,20 @@
+country_decisions = {
+	test_decision = {
+		potential = {
+			ai = no
+            always = no
+		}
+		
+		allow = {
+			has_regency = no
+		}
+		
+		effect = {
+			add_ruler_personality = scholar_personality
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
