@@ -279,3 +279,10 @@
  reclaim_stromkar_title: "Seek Strom'kar, the Warbreaker"
  reclaim_stromkar_desc: "Now that Stromgarde has been restored, let us seek the legendary Strom'kar. Our search may upset the people of the realm however."
  
+ #-----------------------------------------------
+ # Gilneas
+ #-----------------------------------------------
+ release_crowley_title: "Release Darius Crowley"
+ release_crowley_desc: "The leader of the Northgate Rebellion, Darisu Crowley was imprisoned for his actions. However, he still commands the loyalty of many men within Gilneas, and his release would see a surge in our fighting forces if it were to occur."
+ 
+ released_crowley_tt: "Spawns 10 units loyal to Darius Crowley in your capital."

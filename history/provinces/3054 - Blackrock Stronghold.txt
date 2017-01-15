@@ -23,7 +23,7 @@ trade_goods = army_supplies
 	culture = culture_blackrock
 	religion = religion_fel
 	
-	add_building = fort_18th
+	add_building = wow_fort_4
 }
 
 # Beyond the Dark Portal
