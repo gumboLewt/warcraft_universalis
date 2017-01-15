@@ -47,6 +47,7 @@
  regency_gov: "Regency"
  regency_gov_desc: "A kingdom which is currently in a state of prolonged interregnum."
  
+ 
  # Kingdoms
  HOLDING: "Holding"
  KINGDOM: "Kingdom"
@@ -224,5 +225,9 @@
  HIGH_CONSORT: "Consort"
  GRAND_CONSORT: "Consort"
  MAGISTRATE_CONSORT: "Consort"
-CHIEF_CONSORT: "Consort"
-CHIEFTESS_CONSORT: "Consort"
+ CHIEF_CONSORT: "Consort"
+ CHIEFTESS_CONSORT: "Consort"
+ 
+ SPLINTER: "Splinter"
+ OVERSEER: "Overseer"
+ 

@@ -345,6 +345,9 @@
  # Colonial Nations
  #-----------------------------------------------
  colonial_outland: "Outland"
+ colonial_northrend: "Northrend"
+ colonial_pandaria: "Pandaria"
+ colonial_maelstrom: "Maelstrom"
  
  #-----------------------------------------------
  # Diplomatic Actions

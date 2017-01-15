@@ -62,7 +62,7 @@ NDefines.NFrontend.CAMERA_LOOKAT_X = 4000.0
 
 NDefines.NCountry.PS_BUY_IDEA = 400
 NDefines.NCountry.PS_ADVANCE_TECH = 600
-NDefines.NCountry.MAX_CROWN_COLONIES = 999
+NDefines.NCountry.MAX_CROWN_COLONIES = 1
 
 NDefines.NDiplomacy.TRUCE_YEARS = 2     -- Flat 2 years
 NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 0

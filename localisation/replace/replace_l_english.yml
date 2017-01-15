@@ -7,6 +7,9 @@
  
  impassable_mountains: "Impassable Mountains"
  
+ colonial_government: "Splinter"
+ colonial_government_desc: "A splinter realm of another realm from a distant continent."
+ 
  #---------------------------------------------------------
  # Trade Goods
  #---------------------------------------------------------
