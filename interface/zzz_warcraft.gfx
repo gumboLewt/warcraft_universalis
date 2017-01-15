@@ -11,7 +11,7 @@ spriteTypes = {
     #----------------------------------------------
     # Blessings
     #----------------------------------------------
-    priteType = {
+    spriteType = {
 		name = "GFX_holy_site_default"
 		texturefile = "gfx//interface//holy_sites//aksum.dds"
 	}

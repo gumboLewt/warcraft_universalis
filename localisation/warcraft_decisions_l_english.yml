@@ -266,3 +266,16 @@
  worker.1.desc: "This worker is in [Root.GetName]"
  worker.1.option.a: "Ok"
  
+ #-----------------------------------------------
+ # Stromgarde
+ #-----------------------------------------------
+ danaths_return_title: "Danath's Return"
+ danaths_return_desc: "With the restoration of the Kingdom of Stromgarde, now is the time to call for Danath Trollbane, the assumed heir to the throne."
+ 
+ restore_stromgarde_title: "Restore Stromgarde"
+ restore_stromgarde_desc: "The prestige of the Stromic people is once again unparalleled. Let us restore the city of Stromgarde to it's former glory!"
+ stromgarde_area_development_gain_tt: "Increases the development of the Stromgarde provinces massively."
+ 
+ reclaim_stromkar_title: "Seek Strom'kar, the Warbreaker"
+ reclaim_stromkar_desc: "Now that Stromgarde has been restored, let us seek the legendary Strom'kar. Our search may upset the people of the realm however."
+ 

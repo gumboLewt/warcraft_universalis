@@ -2,6 +2,15 @@
  #-----------------------------------------------
  # Event Modifiers
  #-----------------------------------------------
+ artifact_system_active: "Seeking Artifact"
+ desc_artifact_system_active: "We are currently seeking an artifact."
+ 
+ stromkar_the_warbreaker: "Strom'kar, the Warbreaker"
+ desc_stromkar_the_warbreaker: "We possess this artifact."
+ 
+ restored_stromgarde: "Stromgarde Restored!"
+ desc_restored_stromgarde: "We have restored Stromgarde to it's former glory."
+ 
  blood_of_mannaroth_event: ""
  desc_blood_of_mannaroth_event: ""
  
@@ -1943,17 +1952,8 @@
  power_of_the_dragons: "Power of the Dragons"
  desc_power_of_the_dragons: "The dragonflights are powerful entities on Azeroth, and others know to fear thier presence."
  
- domination_of_the_clergy: "Domination of the Clergy"
- desc_domination_of_the_clergy: "Our nation is dominated by several powerful figures within the clergy. Without reducing their influence, our governance is hampered."
- 
- domination_of_the_commoners: "Domination of the Commoners"
- desc_domination_of_the_commoners: "Our nation is dominated by several powerful figures from the commoners. Without reducing their influence, our governance is hampered."
- 
- domination_of_the_merchants: "Domination of the Merchants"
- desc_domination_of_the_merchants: "Our nation is dominated by several powerful figures within the merchant class. Without reducing their influence, our governance is hampered."
- 
- domination_of_the_nobility: "Domination of the Nobility"
- desc_domination_of_the_nobility: "Our nation is dominated by several powerful figures within the nobility. Without reducing their influence, our governance is hampered."
+ fear_of_stromkar: "Fear of Strom'kar"
+ fear_of_stromkar_desc: "Trolls fear Strom'kar, and will flee whenever it is sighted."
  
  #-----------------------------------
  # Estates

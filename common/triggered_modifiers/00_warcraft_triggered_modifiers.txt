@@ -149,3 +149,19 @@ loss_of_the_sunwell = {
     global_manpower_modifier = -0.25
     recover_army_morale_speed = -0.05
 }
+
+fear_of_stromkar = {
+    potential = {
+        has_country_modifier = stromkar_the_warbreaker
+    }
+    
+	trigger = {
+        is_at_war = yes
+        any_country = {
+            war_with = ROOT
+            technology_group = tech_troll
+        }
+	}
+    
+    land_morale = 0.2
+}
