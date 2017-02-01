@@ -18,7 +18,14 @@ colonial_outland = {
         #Netherstorm
 		1704 1702 1701 2056 1703 1710 2057 1709 2058 1706 1707 1708 1717 1716 1715 2059 1705 1711 1712 1713 2060 1714 2061 
 	}
-	
+    names = {
+		trigger = {
+			tag = A16 # Stromgarde
+		}
+		
+		name = "Honor Hold"
+	}
+    
 	names = {
 		trigger = {
 			tag = A91 #Silvermoon
@@ -42,6 +49,24 @@ colonial_outland = {
 		
 		name = "Omenai"
 	}
+    
+    names = {
+		trigger = {
+			has_country_modifier = alliance_member
+		}
+		
+		name = "Alliance Vanguard"
+	}
+    
+    names = {
+		trigger = {
+			has_country_modifier = horde_member
+		}
+		
+		name = "Horde Vanguard"
+	}
+    
+    
 	names = {
 		name = "[Root.GetName]"
 	}
@@ -71,6 +96,22 @@ colonial_northrend = {
         2490 2491 2492 2493 2494 2495 2496 2497 2498 2499 2500 2501 2502 2503
 	}
 	
+    names = {
+		trigger = {
+			has_country_modifier = alliance_member
+		}
+		
+		name = "Alliance Expeditionary Force"
+	}
+    
+    names = {
+		trigger = {
+			has_country_modifier = horde_member
+		}
+		
+		name = "Horde Expeditionary Force"
+	}
+    
 	names = {
 		name = "[Root.GetName]"
 	}
@@ -94,6 +135,22 @@ colonial_pandaria = {
         1905
 	}
 	
+    names = {
+		trigger = {
+			has_country_modifier = alliance_member
+		}
+		
+		name = "Alliance Vanguard"
+	}
+    
+    names = {
+		trigger = {
+			has_country_modifier = horde_member
+		}
+		
+		name = "Horde Vanguard"
+	}
+    
 	names = {
 		name = "[Root.GetName]"
 	}
@@ -108,6 +165,22 @@ colonial_maelstrom = {
         2508 2509
 	}
 	
+    names = {
+		trigger = {
+			has_country_modifier = alliance_member
+		}
+		
+		name = "Alliance Vanguard"
+	}
+    
+    names = {
+		trigger = {
+			has_country_modifier = horde_member
+		}
+		
+		name = "Horde Vanguard"
+	}
+    
 	names = {
 		name = "[Root.GetName]"
 	}

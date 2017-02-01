@@ -278,6 +278,8 @@ B06 = "countries/Twilight Dragonflight.txt"
 B07 = "countries/Infinite Dragonflight.txt" # not used, but potential formable?
 F78 = "countries/Wyrmcult.txt"
 
+V01 = "countries/Red Dragonflight.txt" # Eastern Kingdoms
+
 # Vrykul
 B08 = "countries/Dragonflayer.txt"
 B09 = "countries/Winterskorn.txt"

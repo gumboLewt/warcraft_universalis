@@ -1,9 +1,9 @@
 # 841
 is_city = yes
 
-add_core = B03
-owner = B03
-controller = B03
+add_core = V01
+owner = V01
+controller = V01
 
 base_tax = 4
 base_manpower = 4

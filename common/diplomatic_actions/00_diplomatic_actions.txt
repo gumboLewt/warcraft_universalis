@@ -74,8 +74,1504 @@
 # counterespionage
 # abandon_union_action
 
-royal_marriage = {
-	condition = {
+# Note:
+#   The action is always available, so potential is which instance we want to limit, and allow is whether it is allowed or not
+#   Therefore, don't add checks that assume failure means the action is blocked, the checks must pass to block the action
+
+# Diplomatic Actions
+allianceaction = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+
+offer_condottieri = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+sell_ships_action = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+designate_march = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+ask_for_march = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+support_heir = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+ask_for_protection_action = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+protectorateaction = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+invite_to_federation = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+request_to_join_federation = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+transfer_trade_power = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+enforce_peace = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+sellprov = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+warsubsidy = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+callaction = {
+    
+}
+
+offermilaccess = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+offer_fleet_access = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+milaccess = {
+
+}
+
+fleet_access = {
+
+}
+
+support_independence_action = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+vassalaction = {
+    condition = {
+		tooltip = VASSALINVALID
+		potential = {
+		}
+		allow = {
+			alliance_with = FROM
+			FROM = {
+				has_opinion = {
+					who = ROOT
+					value = 190
+				}
+			}
+			FROM = { is_at_war = no }
+		}
+	}
+    
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+break_marriage = {
+
+}
+
+royal_marriage = {  
+    condition = {
 		tooltip = MARWAR
 		potential = {
 		}
@@ -83,10 +1579,579 @@ royal_marriage = {
 			NOT = { war_with = FROM }
 		}
 	}
+    
+    # Same 'Race'
+    condition = {
+        tooltip = WOW_SAME_RACE
+        
+        potential = {
+            NOT ={ technology_group = FROM }
+        } 
+        allow = {
+            always = no
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
 }
 
+improve_relation = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+guaranteeaction = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+giftaction = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+offerloan = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+imperial_relations_action = {
+    condition = {
+        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                AND = {
+                    is_good = yes
+                    FROM = { 
+                        NOT = { is_good = yes }
+                    }
+                }
+                AND = {
+                    is_evil = yes
+                    FROM = { 
+                        NOT = { is_evil = yes }
+                    }
+                }
+                AND = {
+                    is_civilized = yes
+                    FROM = { 
+                        NOT = { is_civilized = yes }
+                    }
+                }
+                AND = {
+                    is_savage = yes
+                    FROM = { 
+                        NOT = { is_savage = yes }
+                    }
+                }
+                AND = {
+                    is_lesser = yes
+                    FROM = { 
+                        OR = {
+                            AND = {
+                                is_lesser = yes
+                                NOT = { is_neighbor_of = FROM }
+                            }
+                            NOT = { is_lesser = yes }
+                        }
+                    }
+                }
+                AND = {
+                    is_bug = yes
+                    FROM = { 
+                        NOT = { is_bug = yes }
+                    }
+                }
+                AND = {
+                    is_pure_evil = yes
+                    FROM = { 
+                        NOT = { 
+                            OR = {
+                                is_pure_evil = yes
+                                is_savage = yes
+                                is_lesser = yes
+                                is_bug = yes
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    technology_group = tech_dragonkin
+                    FROM = { 
+                        NOT = { technology_group = tech_dragonkin }
+                    }
+                }
+                AND = {
+                    technology_group = tech_elemental
+                    FROM = { 
+                        NOT = { technology_group = tech_elemental }
+                    }
+                }
+            }
+        } 
+        allow = {
+            always = no
+        }
+    }
+}
+
+religious_unity_action = {
+    condition = {
+        potential = {
+            always = yes
+        }
+        allow = {
+            always = no
+        }
+    }
+}
+
+grant_electorate = {
+    condition = {
+        potential = {
+            always = yes
+        }
+        allow = {
+            always = no
+        }
+    }
+}
+
+remove_electorate = {
+    condition = {
+        potential = {
+            always = yes
+        }
+        allow = {
+            always = no
+        }
+    }
+}
+
+grant_freecity = {
+    condition = {
+        potential = {
+            always = yes
+        }
+        allow = {
+            always = no
+        }
+    }
+}
+
+remove_freecity = {
+    condition = {
+        potential = {
+            always = yes
+        }
+        allow = {
+            always = no
+        }
+    }
+}
+
+demand_unlawful_territory_action = {
+
+}
+
+abandon_union_action = {
+    condition = {
+		potential = {
+		}
+		allow = {
+			ROOT = {
+				senior_union_with = FROM
+				is_at_war = no
+			}
+		}
+	}
+}
+
+# Aggressive Actions
 annexationaction = {
-	condition = {
+    condition = {
 		tooltip = ANNEX_TOO_LOW
 		potential = {
 			FROM = {
@@ -102,26 +2167,10 @@ annexationaction = {
 			}
 		}
 	}
-	#condition = {
-	#	tooltip = ANNEXINVALID
-	#	potential = {
-	#		FROM = {
-	#			vassal_of = ROOT
-	#		}
-	#	}
-	#	allow = {
-	#		FROM = {
-	#			years_in_vassalage_under = {
-	#				who = ROOT
-	#				years = 10
-	#			}
-	#		}
-	#	}
-	#}
 }
 
 integrationaction = {
-	condition = {
+    condition = {
 		tooltip = INTEGRATETOOLOWDESC
 		potential = {
 			senior_union_with = FROM
@@ -135,79 +2184,34 @@ integrationaction = {
 			}
 		}
 	}
-	#condition = {
-	#	tooltip = INTEGRATEINVALID
-	#	potential = {
-	#		senior_union_with = FROM
-	#	}
-	#	allow = {
-	#		FROM = {
-	#			years_in_union_under = {
-	#				who = ROOT
-	#				years = 50
-	#			}
-	#		}
-	#	}
-	#}
 }
 
-vassalaction = {
-	condition = {
-		tooltip = VASSALINVALID
-		potential = {
-		}
-		allow = {
-			alliance_with = FROM
-			FROM = {
-				has_opinion = {
-					who = ROOT
-					value = 190
-				}
-			}
-			FROM = { is_at_war = no }
-		}
-	}
+warningaction = {
+
 }
 
-abandon_union_action = {
-	condition = {
-		potential = {
-		}
-		allow = {
-			ROOT = {
-				senior_union_with = FROM
-				is_at_war = no
-			}
-		}
-	}
+threaten_war = {
+
 }
 
-protectorateaction = {
-	condition = {
-		tooltip = HORDENOPROTECTORATE
-		potential = {
-		}
-		allow = {
-			FROM = {
-				is_nomad = no
-			}
-		}
-	}
+insultaction = {
+
 }
 
-ask_for_protection_action = {
-	condition = {
-		tooltip = HORDENOPROTECTORATE
-		potential = {
-		}
-		allow = {
-			is_nomad = no
-		}
-	}
+claimaction = {
+
+}
+
+call_crusade_action = {
+
+}
+
+excommunicate_action = {
+
 }
 
 form_coalition = {
-	condition = {
+    condition = {
 		tooltip = MINAGGRESSIVEEXPANSION
 		potential = {	
 		}
@@ -225,4 +2229,63 @@ form_coalition = {
 			}
 		}
 	}
+}
+
+declarewar = {
+    condition = {
+        tooltip = WOW_WAR_ON_ALLIANCE
+        
+        potential = {
+            has_country_modifier = alliance_member
+            FROM = { has_country_modifier = alliance_member }
+        }
+        allow = {
+            always = no
+        }
+    }
+    condition = {
+        tooltip = WOW_WAR_ON_HORDE
+        
+        potential = {
+            has_country_modifier = horde_member
+            FROM = { has_country_modifier = horde_member }
+        }
+        allow = {
+            always = no
+        }
+    }
+    # neutral_member
+}
+
+# Spy Actions
+fabricate_claim = {
+
+} 
+
+infiltrate_administration = {
+   
+}
+
+sabotage_reputation = {
+    
+}
+
+support_rebels = {
+    
+}
+
+sow_discontent = {
+    
+}
+
+study_technology = {
+    
+}
+
+agitate_for_liberty = {
+    
+}
+
+counterespionage = {
+    
 }

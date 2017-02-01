@@ -1,8 +1,8 @@
 # 1025
 is_city = yes
-add_core = B03
-owner = B03
-controller = B03
+add_core = V01
+owner = V01
+controller = V01
 
 base_tax = 2
 base_manpower = 2
@@ -19,35 +19,35 @@ trade_goods = flying_mounts
 
 
 598.1.1 = { 
-owner = A45
-controller = A45
-add_core = A45
-culture = culture_dragonmaw
-religion = religion_fel 
+    owner = A45
+    controller = A45
+    add_core = A45
+    culture = culture_dragonmaw
+    religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 603.1.1 = { 
-owner = B03
-controller = B03
-culture = culture_red
-religion = religion_sect_of_dragons 
+    owner = V01
+    controller = V01
+    culture = culture_red
+    religion = religion_sect_of_dragons 
 }
 
 
 # Cataclysm
 631.1.1 = { 
-owner = B06
-controller = B06
-add_core = B06
-remove_core = B03
-religion = religion_old_gods
-culture = culture_twilight_dragon
+    owner = B06
+    controller = B06
+    add_core = B06
+    remove_core = V01
+    religion = religion_old_gods
+    culture = culture_twilight_dragon
 }
 
 632.1.1 = { 
-owner = XXX
-controller = XXX
-remove_core = B06
+    owner = XXX
+    controller = XXX
+    remove_core = B06
 }
 

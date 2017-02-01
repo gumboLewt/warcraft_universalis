@@ -73,19 +73,6 @@ religion_group_disorder = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-
-		uses_church_power = yes				# Uses church power/aspect mechanics
-		aspects = {
-			bloodlust
-			fel_corruption
-			demonology
-            fel_infusion
-            sacrificial_rituals
-            nurture_warlocks
-            fel_drain
-            fel_stone
-            demonic_influences
-		}
 		
 		hre_religion = yes
 		
@@ -99,6 +86,32 @@ religion_group_disorder = {
 			}			
 		}
 		
+        papacy = {
+			papal_tag = B92
+			election_cost = 1000
+			seat_of_papacy = 1662
+			
+			beckon_demonspawn = {
+				cost = 50
+				potential = {
+					NOT = { tag = B92 }
+				}
+				allow = {
+					NOT = { war_with = B92 }
+					NOT = { has_country_modifier = beckoned_demonspawn }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "beckoned_demonspawn"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+        }
+        
 		heretic = { }
 	}
 	

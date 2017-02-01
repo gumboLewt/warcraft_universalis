@@ -80,6 +80,13 @@ is_otherworld = {
     }
 }
 
+is_pure_evil = {
+    OR = {
+        technology_group = tech_demonic
+        technology_group = tech_old_god
+    }
+}
+
 is_good = {
   OR = {
     religion = religion_scarlet_light

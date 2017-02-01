@@ -228,7 +228,7 @@ regency_gov = {
 	
 	unique_government = yes
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
 	allow_convert = no
     
 	valid_for_nation_designer = yes

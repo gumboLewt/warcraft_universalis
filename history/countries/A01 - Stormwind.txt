@@ -66,9 +66,9 @@ historical_friend = A05
 	monarch = { 
 		name = "Varian" 
 		dynasty = "Wrynn" 
-		adm = 3
-		dip = 3
-		mil = 4 
- 	} 
+		adm = 5
+		dip = 4
+		mil = 6 
+ 	}
 } 
  
