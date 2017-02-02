@@ -1,11 +1,41 @@
 spriteTypes = {
     #----------------------------------------------
-    # General
+    # UI
     #----------------------------------------------
     spriteType = {
 		name = "GFX_large_square_bg"
 		texturefile = "gfx//interface//gui//gui_large_square_bg.dds"
 		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_burning_legion_bg"
+		texturefile = "gfx//interface//ui//burning_legion_bg.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_tarnished_metal_block_large"
+		texturefile = "gfx//interface//ui//tarnished_metal_block_large.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_tarnished_metal_block_medium"
+		texturefile = "gfx//interface//ui//tarnished_metal_block_medium.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_tarnished_metal_block_medium_long"
+		texturefile = "gfx//interface//ui//tarnished_metal_block_medium_long.dds"
+	}
+    
+    #----------------------------------------------
+    # Papacy
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_legion_action_strip"
+		texturefile = "gfx//interface//ui//legion_action_strip.dds"
+		noOfFrames = 16
 	}
     
     #----------------------------------------------

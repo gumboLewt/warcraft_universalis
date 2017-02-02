@@ -2278,7 +2278,55 @@
  # Papacy (Burning Legion)
  #-----------------------------------
  beckon_demonspawn: "Beckon Demonspawn"
+ summon_eredar_warlocks: "Summon Eredar Warlocks"
+ consult_with_nathrezim: "Consult with the Nathrezim"
+ summon_succubi: "Summon Succubi"
+ apply_demonic_wards: "Apply Demonic Wards"
+ summon_doomguards: "Summon Doomguards"
+ embolden_fire: "Embolden Fire"
+ fuel_soul_engines: "Fuel Soul Engines"
+ summon_legion_custodians: "Summon Fel Custodians"
+ summon_legion_agents: "Summon Demonic Agents"
+ summon_legion_commanders: "Summon Legion Commanders"
+ conduct_extreme_vetting: "Conduct Extreme Vetting"
+ order_demonic_monuments: "Construct Demonic Effigies"
+ supervise_encampments: "Cull Unruly Demons"
+ siphon_slave_essence: "Siphon Mortal Essence"
+ vet_commandants: "Vet Commandants"
  
  beckoned_demonspawn: "Beckoned Demonspawn"
  desc_beckoned_demonspawn: "We have called for more demonic creatures from the Twisting Nether."
+ 
+ eredar_warlocks: "Eredar Warlocks"
+ desc_eredar_warlocks: "We have called for more Eredar Warlocks from the Twisting Nether."
+ 
+ nathrezim_guidance: "Nathrezim Consultation"
+ desc_nathrezim_guidance: "We have consulted with the Nathrezim."
+ 
+ succubi_seduction: "Succubi Seduction"
+ desc_succubi_seduction: "We have called for Succubi to aid our conflicts."
+ 
+ doomguard_brutality: "Doomguard Brutality"
+ desc_doomguard_brutality: "We have called for Doomguards to bring their brutal force to the fields of war."
+ 
+ demonic_wards: "Demonic Wards"
+ desc_demonic_wards: "We have applied demonic wards to our portals and other such structures, protecting them from harm."
+ 
+ strengthened_fire_magic: "Emboldened Fire"
+ desc_strengthened_fire_magic: "We have called for pyromancer warlocks from the Twisting Nether to aid our war."
+ 
+ soul_engines: "Soul Engines"
+ desc_soul_engines: "We have begun to fuel the Soul Engines, granting our troops much needs relief."
+ 
+ CURRENT_BURNING_CRUSADE_TOOLTIP: "The current Burning Crusade target is displayed above."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
