@@ -15,13 +15,11 @@ religion = religion_hakkari
 hre = no
 trade_goods = fish
 
-
-
-
 # First War
-592.1.1 = { owner = A41
-	controller = A41
-	add_core = A41
+592.1.1 = { 
+    owner = V13
+	controller = V13
+	add_core = V13
 	culture = culture_blackrock
 	religion = religion_fel 
 }
@@ -30,7 +28,7 @@ trade_goods = fish
 600.1.1 = { 
 	owner = XXX
 	controller = XXX
-	remove_core = A41
+	remove_core = V13
 }
 
 # Rise of the Qiraji

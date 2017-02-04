@@ -1,0 +1,8 @@
+# Thunderlord
+government 			= warband_gov
+mercantilism 		= 10
+technology_group 	= tech_orc
+primary_culture 	= culture_dragonmaw
+religion			= religion_fel
+capital 			= 1
+

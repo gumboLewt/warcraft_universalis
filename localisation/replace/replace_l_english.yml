@@ -11,6 +11,17 @@
  colonial_government_desc: "A splinter realm of another realm from a distant continent."
  
  #---------------------------------------------------------
+ # Reform Desire
+ #---------------------------------------------------------
+ REFORM_DESIRE_TOOLTIP:0 "§YInvasion Thirst§!\nThis represents how soon a Burning Legion attack will occur. If it goes too high we may see large scale invasions across Azeroth. This level is common through the entire world, and actions by any monarch may increase it."
+ HINT_REFORMDESIRE_TITLE:0 "Invasion Thirst"
+ HINT_REFORMDESIRE_TEXT:0 "Invasion Thirst represents how soon a Burning Legion attack will occur. If it goes too high we may see large scale invasions across Azeroth. This level is common through the entire world, and actions by any monarch may increase it."
+ HINT_CHANGERELIGION_TEXT:0 ""
+ REFORM_DESIRE_IS_LESS_THAN:0 "Invasion Thirste is less than §Y$SIZE$§!.\n"
+ REFORM_DESIRE_IS_AT_LEAST:0 "Invasion Thirst is at least §Y$SIZE$§!.\n"
+ REFORM_DESIRE_EFFECT:0 "$DIRECTION$ $PERC$ Invasion Thirst.\n"
+ 
+ #---------------------------------------------------------
  # Trade Goods
  #---------------------------------------------------------
  grain: "Farms"
@@ -634,6 +645,9 @@
  CARDINAL_TOOLTIP_CHANCE:0 "§Y$COUNTRY$§W has $AMOUNT$ chance of being the next fel controller."
  
  CARDINAL_NOT_READY:0 "The Emissary has been influenced too recently. We must wait until "
+ 
+ CARDINAL_NEW:0 "§YActive Emissary§!\nWe control this active emissary from $HOME|Y$. Each active emissary gives us $BENEFIT$ Fel Influence per year."
+ NO_ACTVIVE_CARDINALS:0 "No active emissaries."
  
  #----------------------------------------------------
  # Excommunication

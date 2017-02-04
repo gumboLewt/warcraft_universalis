@@ -131,6 +131,18 @@ H07 = "countries/Horde Expedition.txt"
 F72 = "countries/Mag'har.txt"
 F85 = "countries/Earthen Ring.txt"
 
+V10 = "countries/Thunderlord Vanguard.txt"
+V11 = "countries/Bonechewer Vanguard.txt"
+V12 = "countries/Bleeding Hollow Vanguard.txt"
+V13 = "countries/Blackrock Vanguard.txt"
+V14 = "countries/Stormreaver Vanguard.txt"
+V15 = "countries/Twilights Hammer Vanguard.txt"
+V16 = "countries/Burning Blade Vanguard.txt"
+V17 = "countries/Dragonmaw Vanguard.txt"
+V18 = "countries/Orgrimmar Vanguard.txt"
+V19 = "countries/Shadow Vanguard.txt"
+
+
 # Ogre
 A49 = "countries/Bladespire.txt"
 A51 = "countries/Boulderfist.txt"
@@ -279,6 +291,15 @@ B07 = "countries/Infinite Dragonflight.txt" # not used, but potential formable?
 F78 = "countries/Wyrmcult.txt"
 
 V01 = "countries/Red Dragonflight.txt" # Eastern Kingdoms
+#V02
+#V03
+#V04
+#V05
+#V06
+#V07
+#V08
+#V09
+
 
 # Vrykul
 B08 = "countries/Dragonflayer.txt"

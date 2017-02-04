@@ -6,31 +6,30 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-
 culture = culture_gurubashi
 religion = religion_loa
 
 hre = no
 trade_goods = army_supplies
 
-
-
-
 # First War
-592.1.1 = { owner = A43
-controller = A43
-add_core = A43
-add_core = P96
-culture = culture_dreadmaul
-religion = religion_geomancy }
+592.1.1 = { 
+    owner = V15
+    controller = V15
+    add_core = V15
+    add_core = P96
+    culture = culture_dreadmaul
+    religion = religion_geomancy 
+}
 
 # Beyond the Dark Portal
-600.1.1 = { owner = P96
-controller = P96
-remove_core = A43 }
+600.1.1 = { 
+    owner = P96
+    controller = P96
+    remove_core = V15 
+}
 
 # Rise of the Qiraji
 622.1.1 = {
-religion = religion_fel
+    religion = religion_fel
 }

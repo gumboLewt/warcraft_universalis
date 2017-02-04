@@ -24,6 +24,7 @@ trade_goods = arcane
 597.1.1 = { 
 	owner = XXX
 	controller = XXX 
+    remove_core = P59
 }
 
 # The Burning Crusade

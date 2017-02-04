@@ -13,56 +13,48 @@ religion = religion_loa
 hre = no
 trade_goods = army_supplies
 
-
-
-
 # First War
 592.1.1 = { 
-owner = A41
-controller = A41
-add_core = A41
-culture = culture_blackrock
-religion = religion_fel 
+    owner = V13
+    controller = V13
+    add_core = V13
+    culture = culture_blackrock
+    religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = XXX
-controller = XXX 
-}
-
-616.11.11 = { 
-owner = XXX
-controller = XXX 
+    owner = XXX
+    controller = XXX 
+    remove_core = V13
 }
 
 # The Third War
 617.1.1 = { 
-owner = P96
-controller = P96
-add_core = P96
-remove_core = A41
-culture = culture_dreadmaul
-religion = religion_geomancy 
+    owner = P96
+    controller = P96
+    add_core = P96
+    culture = culture_dreadmaul
+    religion = religion_geomancy 
 }
 
 # Rise of the Qiraji
 622.1.1 = {
-religion = religion_fel
+    religion = religion_fel
 }
 
 # Cataclysm
 631.1.1 = { 
-owner = A48
-controller = A48
-add_core = A48
+    owner = V18
+    controller = V18
+    add_core = V18
 }
 
 # Warlords of Draenor
 633.1.1 = { 
-owner = F26
-controller = F26
-add_core = F26
-culture = culture_horde
-religion = religion_ancestral 
+    owner = F26
+    controller = F26
+    add_core = F26
+    culture = culture_horde
+    religion = religion_ancestral 
 }

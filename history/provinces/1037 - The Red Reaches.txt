@@ -10,20 +10,15 @@ base_tax = 3
 base_manpower = 3
 base_production = 3
 
-
-
 culture = culture_nerglish
 religion = religion_water
 
 hre = no
 trade_goods = fish
 
-
-
-
 # Cataclysm
 631.1.1 = { 
-owner = F36
-controller = F36
-add_core = F36
+    owner = F36
+    controller = F36
+    add_core = F36
 }

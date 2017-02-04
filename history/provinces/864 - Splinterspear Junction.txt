@@ -12,35 +12,27 @@ religion = religion_hakkari
 hre = no
 trade_goods = fur
 
-
-
-
 # First War
 592.1.1 = { 
-owner = A40
-controller = A40
-add_core = A40
-culture = culture_bleeding_hollow 
-religion = religion_fel 
+    owner = V12
+    controller = V12
+    add_core = V12
+    culture = culture_bleeding_hollow 
+    religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = XXX
-controller = XXX
-remove_core = A40 
-}
-
-621.11.11 = { 
-owner = XXX
-controller = XXX 
+    owner = XXX
+    controller = XXX
+    remove_core = V12 
 }
 
 # Rise of the Qiraji
 622.1.1 = { 
-owner = A48
-controller = A48
-add_core = A48
-culture = culture_horde
-religion = religion_ancestral
+    owner = V18
+    controller = V18
+    add_core = V18
+    culture = culture_horde
+    religion = religion_ancestral
 }

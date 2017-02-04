@@ -214,6 +214,15 @@ guiTypes = {
 		}			
 		
         iconType =
+        {
+            name = "papal_influence_icon"
+            spriteType = "GFX_papal_influence"
+            position = { x= 48 y = 128 }
+			Orientation = "UPPER_RIGHT"
+        }
+			
+            
+        iconType =
 		{
 			name ="influence_banner"
 			spriteType = "GFX_tarnished_metal_block_medium"

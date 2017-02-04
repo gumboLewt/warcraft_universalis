@@ -16,14 +16,11 @@ religion = religion_sect_of_dragons
 hre = no
 trade_goods = fur
 
-
-
-
 # First War
 592.1.1 = { 
-	owner = A40
-	controller = A40
-	add_core = A40
+	owner = V12
+	controller = V12
+	add_core = V12
 	culture = culture_bleeding_hollow 
 	religion = religion_fel 
 }
@@ -32,7 +29,7 @@ trade_goods = fur
 600.1.1 = { 
 	owner = XXX
 	controller = XXX
-	remove_core = A40
+	remove_core = V12
 	culture = culture_bog_beast
 	religion = religion_druidic
 }

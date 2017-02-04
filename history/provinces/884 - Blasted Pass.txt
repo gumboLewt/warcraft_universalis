@@ -12,34 +12,27 @@ religion = religion_loa
 hre = no
 trade_goods = cloth
 
-
-
-
 # First War
 592.1.1 = { 
-owner = A41
-controller = A41
-add_core = A41
-culture = culture_blackrock
-religion = religion_fel 
+    owner = V13
+    controller = V13
+    add_core = V13
+    culture = culture_blackrock
+    religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = XXX
-controller = XXX
-}
-
-632.11.11 = { 
-owner = XXX
-controller = XXX 
+    owner = XXX
+    controller = XXX
+    remove_core = V13
 }
 
 # Warlords of Draenor
 633.1.1 = { 
-owner = F26
-controller = F26
-add_core = F26
-culture = culture_horde
-religion = religion_ancestral 
+    owner = F26
+    controller = F26
+    add_core = F26
+    culture = culture_horde
+    religion = religion_ancestral 
 }

@@ -15,14 +15,11 @@ religion = religion_water
 hre = no
 trade_goods = fish
 
-
-
-
 # First War
 592.1.1 = { 
-	owner = A41
-	controller = A41
-	add_core = A41
+	owner = V13
+	controller = V13
+	add_core = V13
 	culture = culture_blackrock
 	religion = religion_fel 
 }
@@ -34,7 +31,7 @@ trade_goods = fish
 	add_core = F34
 	culture = culture_broken
 	religion = religion_light_of_the_naaru
-	remove_core = A41
+	remove_core = V13
 }
 
 # The Third War

@@ -1,0 +1,22 @@
+namespace = burning_legion
+
+country_event = {
+	id = burning_legion.1
+	title = burning_legion.1.title
+	desc = burning_legion.1.desc
+	picture = MANNOROTH_eventPicture # Placeholder
+    
+    is_triggered_only = yes
+    
+	option = {
+		name = burning_legion.1.option.a
+
+        add_reform_desire = 0.01
+	}
+    
+    option = {
+		name = burning_legion.1.option.b
+
+        
+	}
+}
