@@ -15,15 +15,15 @@ hre = no
 trade_goods = fish
 
 592.1.1 = {
-religion = religion_fel
+    religion = religion_fel
 }
 
 #Outland
 601.1.1 = {
-owner = F68
-controller = F68
-add_core =  F68
-remove_core = A35
-religion = religion_ancestral
-culture = culture_broken
+    owner = F68
+    controller = F68
+    add_core =  F68
+    remove_core = A35
+    religion = religion_ancestral
+    culture = culture_broken
 }

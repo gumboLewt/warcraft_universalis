@@ -4,7 +4,7 @@ mercantilism 		= 10
 technology_group 	= tech_orc
 religion			= religion_ancestral
 primary_culture 	= culture_warsong
-capital 			= 1
+capital 			= 1625
 
 592.1.1 = {
 	monarch = { 
@@ -22,10 +22,10 @@ capital 			= 1
 		mil = 4
 	}
 	religion = religion_fel
-add_country_modifier = {
-    name = horde_member
-    duration = -1
-}
+    add_country_modifier = {
+        name = horde_member
+        duration = -1
+    }
 } 
 
 601.1.1 = {
@@ -34,8 +34,8 @@ remove_country_modifier = horde_member
 }
 
 617.1.1 = { 
-historical_friend = A48
-capital = 1420
+    historical_friend = A48
+    capital = 1420
 }
 
 618.1.1 = {

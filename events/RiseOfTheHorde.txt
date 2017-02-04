@@ -29,7 +29,7 @@ country_event = {
             # Blackrock
             if = {
                 limit = {
-                    exists = A41
+                    NOT = { exists = A41 }
                 }
                 
                 blackrock_spawn = {
@@ -40,8 +40,8 @@ country_event = {
                                 is_empty = yes
                             }
                         }
-                        cede_province = V13
-                        add_core = V13
+                        cede_province = A41
+                        add_core = A41
                         change_religion = religion_ancestral
                         change_culture = culture_blackrock
                     }
@@ -51,7 +51,7 @@ country_event = {
             # Bleeding Hollow
             if = {
                 limit = {
-                    exists = A40
+                    NOT = { exists = A40 }
                 }
                 
                 bleeding_hollow_spawn = {
@@ -73,7 +73,7 @@ country_event = {
             # Twilight's Hammer
             if = {
                 limit = {
-                    exists = A43
+                    NOT = { exists = A43 }
                 }
                 twilights_hammer_spawn = {
                     if = {
@@ -83,8 +83,8 @@ country_event = {
                                 is_empty = yes
                             }
                         }
-                        cede_province = V15
-                        add_core = V15
+                        cede_province = A43
+                        add_core = A43
                         change_religion = religion_fel
                         change_culture = culture_twilights_hammer
                     }
@@ -94,7 +94,7 @@ country_event = {
             # Shadow Council
             if = {
                 limit = {
-                    exists = B88
+                    NOT = { exists = B88 }
                 }
                 shadow_council_spawn = {
                     if = {
@@ -104,44 +104,15 @@ country_event = {
                                 is_empty = yes
                             }
                         }
-                        cede_province = V19
-                        add_core = V19
+                        cede_province = B88
+                        add_core = B88
                         change_religion = religion_fel
                         change_culture = culture_horde
                     }
                 }
             }
-            
-            country_event = { id = rise_of_the_horde.3 }
         }
 	}
-}
-
-country_event = {
-	id = rise_of_the_horde.3
-	title = rise_of_the_horde.3.title
-	desc = rise_of_the_horde.3.desc
-	picture = ORCISH_INVASION_eventPicture
-    
-    hidden = yes
-    is_triggered_only = yes
-
-	option = {
-		name = rise_of_the_horde.3.option.a
-
-        B88 = {
-            create_union = V19
-        }
-        A43 = {
-            create_union = V15
-        }
-        A40 = {
-            create_union = V12
-        }
-        A41 = {
-            create_union = V13
-        }
-    }
 }
 
 # Collapse of Draenei Hegemony

@@ -1500,28 +1500,6 @@
  V01: "Red Dragonflight"
  V01_ADJ: "Dragonkin"
  
- # Orc Splinters
- V10: "Thunderlord Vanguard"
- V10_ADJ: "Thunderlord"
- V11: "Bonechewer Vanguard"
- V11_ADJ: "Bonechewer"
- V12: "Bleeding Hollow Vanguard"
- V12_ADJ: "Bleeding Hollow"
- V13: "Blackrock Vanguard"
- V13_ADJ: "Blackrock"
- V14: "Stormreaver Vanguard"
- V14_ADJ: "Stormreaver"
- V15: "Twilight's Hammer Vanguard"
- V15_ADJ: "Twilight's Hammer"
- V16: "Burning Blade Vanguard"
- V16_ADJ: "Burning Blade"
- V17: "Dragowmaw Vanguard"
- V17_ADJ: "Dragonmaw"
- V18: "Orgrimmar Vanguard"
- V18_ADJ: "Orgrimmar"
- V19: "Shadow Vanguard"
- V19_ADJ: "Shadow"
- 
  #-----------------------------------------------
  # Governments
  #-----------------------------------------------
