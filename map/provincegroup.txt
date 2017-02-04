@@ -19,6 +19,15 @@ shadow_council_spawn = {
     1035 1045 1034
 }
 
+twilight_hammer_draenei_holdings = {
+    1706 1708 1707 1717 2058 1709 2057 1710
+}
+
+shadow_council_draenei_holdings = {
+    2044 1648 1649 2047 1568 1642 1641 1658
+    1671 2037 1677 1669 1670 1679 1668 1667
+}
+
 north_kalimdor_provincegroup = {
     1325 1326 1324 2135 2136 # Moonglade
     1296 1295 1297 1298 1299 1300 1301 1302 1303 1304 2251 2252 2253 2254 2255 2256 # Darkshore

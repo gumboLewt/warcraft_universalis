@@ -31,39 +31,6 @@ power_of_the_dragons = {
     global_tax_income = 64
 }
 
-# Faction Relations
-horde_enemy = {
-    potential = {
-        NOT = { has_country_modifier = alliance_member }
-        NOT = { has_country_modifier = neutral_member }
-    }
-
-    trigger = {
-        any_country = {
-            NOT = { has_opinion = { who = ROOT value = -100 } }
-            has_country_modifier = horde_member
-        }
-    }
-
-    prestige = 1
-}
-
-alliance_enemy = {
-    potential = {
-        NOT = { has_country_modifier = horde_member }
-        NOT = { has_country_modifier = neutral_member }
-    }
-
-    trigger = {
-        any_country = {
-            NOT = { has_opinion = { who = ROOT value = -100 } }
-            has_country_modifier = alliance_member
-        }
-    }
-
-    prestige = 1
-}
-
 horde_on_the_move = {
     potential = {
         culture_group = culture_group_orc

@@ -1,13 +1,15 @@
-namespace = first_war
+namespace = the_first_war
+
+# 592
 
 # The Blood of Mannaroth
 # Borne from the blood of the Destructor, powers beyond comprehension can be gained. All it takes is a sip. What do you say, [Root.Monarch.GetTitle] [Root.Monarch.GetName]? Will you quench your thirst?
 # I will!
 # Begone tainted one!
 country_event = {
-	id = first_war.1
-	title = first_war.1.title
-	desc = first_war.1.desc
+	id = the_first_war.1
+	title = the_first_war.1.title
+	desc = the_first_war.1.desc
 	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
@@ -41,7 +43,7 @@ country_event = {
     }
 	
 	option = {
-		name = first_war.1.option.a
+		name = the_first_war.1.option.a
         
 		add_country_modifier = {
 			name = blood_of_mannaroth
@@ -54,7 +56,7 @@ country_event = {
 	}
 	
 	option = {
-		name = first_war.1.option.b
+		name = the_first_war.1.option.b
         
         release_all_subjects = yes
         add_stability = -6
@@ -65,9 +67,9 @@ country_event = {
 # The demonsblood within the veins [Root.Monarch.GetTitle] [Root.Monarch.GetName] has begun churning, and has sent [Root.Monarch.GetHimHer] into a fit of rage. 
 # Roar!
 country_event = {
-	id = first_war.7
-	title = first_war.7.title
-	desc = first_war.7.desc
+	id = the_first_war.7
+	title = the_first_war.7.title
+	desc = the_first_war.7.desc
 	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
@@ -79,7 +81,7 @@ country_event = {
 	}
     
 	option = {
-		name = first_war.7.option.a
+		name = the_first_war.7.option.a
         
 		change_mil = 1
 		
@@ -93,9 +95,9 @@ country_event = {
 # The demonsblood within the veins [Root.Monarch.GetTitle] [Root.Monarch.GetName] has begun churning, and has sent [Root.Monarch.GetHimHer] into a depressive stupor.
 # Zzzz....
 country_event = {
-	id = first_war.8
-	title = first_war.8.title
-	desc = first_war.8.desc
+	id = the_first_war.8
+	title = the_first_war.8.title
+	desc = the_first_war.8.desc
 	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
@@ -107,7 +109,7 @@ country_event = {
 	}
     
 	option = {
-		name = first_war.8.option.a
+		name = the_first_war.8.option.a
         
         change_adm = -1
 		
@@ -122,9 +124,9 @@ country_event = {
 # Zug Zug!
 # No, we must be resist the demonsblood!
 country_event = {
-	id = first_war.9
-	title = first_war.9.title
-	desc = first_war.9.desc
+	id = the_first_war.9
+	title = the_first_war.9.title
+	desc = the_first_war.9.desc
 	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
@@ -144,7 +146,7 @@ country_event = {
 	}
     
 	option = {
-		name = first_war.9.option.a
+		name = the_first_war.9.option.a
         
 		random_neighbor_country = {
             limit = {
@@ -165,7 +167,7 @@ country_event = {
 	}
 	
 	option = {
-		name = first_war.9.option.b
+		name = the_first_war.9.option.b
         
         add_yearly_manpower = -5
 	}
@@ -176,9 +178,9 @@ country_event = {
 # Rouse them!
 # Let the sleep... 
 country_event = {
-	id = first_war.10
-	title = first_war.10.title
-	desc = first_war.10.desc
+	id = the_first_war.10
+	title = the_first_war.10.title
+	desc = the_first_war.10.desc
 	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
@@ -190,7 +192,7 @@ country_event = {
 	}
     
 	option = {
-		name = first_war.10.option.a
+		name = the_first_war.10.option.a
         
 		add_stability = -1
         
@@ -200,16 +202,16 @@ country_event = {
 	}
 	
 	option = {
-		name = first_war.10.option.b
+		name = the_first_war.10.option.b
         
         add_mil_power = -100
 	}
 }
 # Support from the Dark Portal
 country_event = {
-	id = first_war.5
-	title = first_war.5.title
-	desc = first_war.5.desc
+	id = the_first_war.5
+	title = the_first_war.5.title
+	desc = the_first_war.5.desc
 	picture = ORCISH_INVASION_eventPicture
     
 	trigger = {
@@ -245,7 +247,7 @@ country_event = {
 	}
 	
 	option = {
-		name = first_war.5.option.a
+		name = the_first_war.5.option.a
         
         add_yearly_manpower = 1
     }

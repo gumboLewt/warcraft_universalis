@@ -1,12 +1,10 @@
 # Strength those that should survive - Applied to small nations that should be powerful
 gift_of_fate = {
     army_tradition = 1
-    discipline = 0.1
     global_manpower_modifier = 0.25
     global_regiment_cost = -0.25
     land_forcelimit_modifier = 0.25
     land_maintenance_modifier = -0.25
-    land_morale = 0.2
     recover_army_morale_speed = 0.1
     global_tax_income = 120
 }
@@ -14,12 +12,10 @@ gift_of_fate = {
 # Weaken those that should fall - Applied to empires after they should be weakened
 wrath_of_fate = {
     army_tradition = -1
-    discipline = -0.1
     global_manpower_modifier = -0.25
     global_regiment_cost = 0.25
     land_forcelimit_modifier = -0.25
     land_maintenance_modifier = 0.25
-    land_morale = -0.2
     recover_army_morale_speed = -0.1
 }
 
@@ -91,7 +87,7 @@ warlust = {
 }
 
 recently_conjured = {
-    prestige = 0.5						#0,5% extra prestige yearly
+    prestige = 0.5	
 }
 
 

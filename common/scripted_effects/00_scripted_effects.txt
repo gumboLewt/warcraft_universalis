@@ -1954,3 +1954,99 @@ grant_mil_from_development = {
         controller = { add_mil_power = 60 }
     }
 }
+
+opinions_joined_alliance = {
+    every_country = {
+        limit = {
+            has_country_modifier = alliance_member
+            NOT = { has_opinion_modifier = { who = ROOT modifier = alliance_alliance } }
+        }
+        add_opinion = { who = ROOT modifier = alliance_alliance }
+    }
+    every_country = {
+        limit = {
+            has_country_modifier = horde_member
+            NOT = { has_opinion_modifier = { who = ROOT modifier = alliance_horde } }
+        }
+        add_opinion = { who = ROOT modifier = alliance_horde }
+    }
+}
+
+opinions_joined_horde = {
+            every_country = {
+                limit = {
+                    has_country_modifier = alliance_member
+                    NOT = { has_opinion_modifier = { who = ROOT modifier = horde_alliance } }
+                }
+                add_opinion = { who = ROOT modifier = horde_alliance }
+            }
+            every_country = {
+                limit = {
+                    has_country_modifier = horde_member
+                    NOT = { has_opinion_modifier = { who = ROOT modifier = horde_horde } }
+                }
+                add_opinion = { who = ROOT modifier = horde_horde }
+            }
+}
+
+opinions_left_alliance = {
+            every_country = {
+                limit = {
+                    has_country_modifier = alliance_member
+                    has_opinion_modifier = { who = ROOT modifier = alliance_alliance }
+                }
+                remove_opinion = { who = ROOT modifier = alliance_alliance }
+            }
+            every_country = {
+                limit = {
+                    has_country_modifier = alliance_member
+                    reverse_has_opinion_modifier = { who = ROOT modifier = alliance_alliance }
+                }
+                reverse_remove_opinion = { who = ROOT modifier = alliance_alliance }
+            }
+            every_country = {
+                limit = {
+                    has_country_modifier = horde_member
+                    has_opinion_modifier = { who = ROOT modifier = alliance_horde }
+                }
+                remove_opinion = { who = ROOT modifier = alliance_horde }
+            }
+            every_country = {
+                limit = {
+                    has_country_modifier = horde_member
+                    reverse_has_opinion_modifier = { who = ROOT modifier = alliance_horde }
+                }
+                reverse_remove_opinion = { who = ROOT modifier = alliance_horde }
+            }
+}
+
+opinions_left_horde = {
+            every_country = {
+                limit = {
+                    has_country_modifier = alliance_member
+                    has_opinion_modifier = { who = ROOT modifier = horde_alliance }
+                }
+                remove_opinion = { who = ROOT modifier = horde_alliance }
+            }
+            every_country = {
+                limit = {
+                    has_country_modifier = alliance_member
+                    reverse_has_opinion_modifier = { who = ROOT modifier = horde_alliance }
+                }
+                reverse_remove_opinion = { who = ROOT modifier = horde_alliance }
+            }
+            every_country = {
+                limit = {
+                    has_country_modifier = horde_member
+                    has_opinion_modifier = { who = ROOT modifier = horde_horde }
+                }
+                remove_opinion = { who = ROOT modifier = horde_horde }
+            }
+            every_country = {
+                limit = {
+                    has_country_modifier = horde_member
+                    reverse_has_opinion_modifier = { who = ROOT modifier = horde_horde }
+                }
+                reverse_remove_opinion = { who = ROOT modifier = horde_horde }
+            }
+}

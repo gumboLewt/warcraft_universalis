@@ -1,0 +1,68 @@
+namespace = fall_of_stormwind
+
+# 597
+country_event = {
+	id = fall_of_stormwind.1
+	title = fall_of_stormwind.1.title
+	desc = fall_of_stormwind.1.desc
+	picture = MANNOROTH_eventPicture # Placeholder
+    
+    major = yes
+    
+    trigger = {
+        technology_group = tech_orc # Fire on a orc nation to grab the culture/religion
+        OR = {
+            # If started in the bookmark, just fire it as soon as possible
+            AND = {
+                ai = no
+                started_in = 597.1.1
+            }
+            # Otherwise, wait for Stormwind to have it's capital sieged in a war against an Orc (ROOT)
+            AND = {
+                OR = {
+                    started_in = 546.1.1
+                    started_in = 592.1.1
+                }
+                technology_group = tech_orc
+                is_evil = yes
+                war_with = A01
+                A01 = {
+                    ai = yes
+                    capital_scope = {
+                        sieged_by = ROOT
+                    }
+                }
+            }
+        }
+    }
+    
+	option = {
+		name = fall_of_stormwind.1.option.a
+
+        # Grant Stormwind Southshore and remove all other provinces
+        # Southshore
+        if = {
+            limit = {
+                A08 = { is_good = yes }
+                991 = {
+                    owned_by = A08
+                    is_capital = no
+                }
+            }
+            
+            991 = {
+                cede_province = A01
+                add_core = A01
+            }
+        }
+
+        A01 = {
+            every_owned_province = {
+                limit = {
+                    NOT = { province_id = 991 }
+                }
+                cede_province = XXX
+            }
+        }
+	}
+}

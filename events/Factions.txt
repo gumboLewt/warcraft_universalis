@@ -1,0 +1,169 @@
+namespace = factions
+
+#Lose Alliance Membership - Evil
+country_event = {
+	id = factions.1
+	title = factions.1.title
+	desc = factions.1.desc
+	picture = KAELTHAS_CLOSE_eventPicture
+
+	major = yes
+	trigger = {
+		is_evil = yes
+		has_country_modifier = alliance_member
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		remove_country_modifier = alliance_member
+	}
+
+	option = {
+		name = factions.1.option.a
+		
+        opinions_left_alliance = yes
+	}
+}
+
+#Lose Alliance Membership - Vassal
+country_event = {
+	id = factions.2
+	title = factions.2.title
+	desc = factions.2.desc
+	picture = LOTHAR_FIRE_eventPicture
+
+	major = yes
+	trigger = {
+		is_subject = yes
+		has_country_modifier = alliance_member
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	immediate = {
+		remove_country_modifier = alliance_member
+	}
+
+	option = {
+		name = factions.2.option.a
+		
+        opinions_left_alliance = yes
+	}
+}
+
+#Lose Horde Membership - Evil
+country_event = {
+	id = factions.3
+	title = factions.3.title
+	desc = factions.3.desc
+	picture = BLOODLUST_eventPicture
+
+	major = yes
+	trigger = {
+		is_evil = true
+		has_country_modifier = horde_member
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		remove_country_modifier = horde_member
+	}
+
+	option = {
+		name = factions.3.option.a
+		
+        opinions_left_horde = yes
+	}
+}
+
+#Lose Horde Membership - Vassal
+country_event = {
+	id = factions.4
+	title = factions.4.title
+	desc = factions.4.desc
+	picture = INTERNMENT_CAMP_eventPicture
+
+	major = yes
+	trigger = {
+		is_subject = yes
+		has_country_modifier = horde_member
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	immediate = {
+		remove_country_modifier = horde_member
+	}
+
+	option = {
+		name = factions.4.option.a
+		
+        opinions_left_horde = yes
+	}
+}
+
+#Trigger these in the death events
+#New Alliance Leader
+country_event = {
+	id = factions.5
+	title = factions.5.title
+	desc = factions.5.desc
+	picture = BLIND_PALADIN_eventPicture
+
+	major = yes
+    is_triggered_only = yes
+    
+	trigger = {
+		has_country_modifier = alliance_head
+	}
+
+	option = {
+		name = factions.5.option.a
+        
+		remove_country_modifier = alliance_head
+        
+		random_country = {
+			limit = { has_country_modifier = alliance_member }
+			add_country_modifier = {
+				name = alliance_head
+				duration = -1
+			}
+		}
+	}
+}
+
+#New Horde Leader
+country_event = {
+	id = factions.6
+	title = factions.6.title
+	desc = factions.6.desc
+	picture = ORC_SHAMAN_eventPicture
+
+	major = yes
+    is_triggered_only = yes
+    
+	trigger = {
+		has_country_modifier = horde_head
+	}
+
+	option = {
+		name = factions.6.option.a
+        
+        remove_country_modifier = horde_head
+        
+		random_country = {
+			limit = { has_country_modifier = horde_member }
+            
+			add_country_modifier = {
+				name = horde_head
+				duration = -1
+			}
+		}
+	}
+}

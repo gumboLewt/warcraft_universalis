@@ -411,6 +411,8 @@ consort_has_bad_mil_personality = {
 	}
 }
 
+# Factions
+
 
 
 

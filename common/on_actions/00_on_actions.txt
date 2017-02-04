@@ -17,19 +17,13 @@ on_startup = {
         limit = {
             has_country_modifier = alliance_member
         }
-        country_event = { id = faction_changes.1 }
+        opinions_joined_alliance = yes
     }
     if = {
         limit = {
             has_country_modifier = horde_member
         }
-        country_event = { id = faction_changes.2 }
-    }
-    if = {
-        limit = {
-            has_country_modifier = neutral_member
-        }
-        country_event = { id = faction_changes.3 }
+        opinions_joined_horde = yes
     }
     # No electors
     hre_inheritable = yes
@@ -42,21 +36,14 @@ on_religion_change = {
             has_country_modifier = alliance_member
             is_evil = yes
         }
-        country_event = { id = faction_changes.4 }
+        opinions_left_alliance = yes
     }
     if = {
         limit = {
             has_country_modifier = horde_member
             is_evil = yes
         }
-        country_event = { id = faction_changes.6 }
-    }
-    if = {
-        limit = {
-            has_country_modifier = neutral_member
-            is_evil = yes
-        }
-        country_event = { id = faction_changes.8 }
+        opinions_left_horde = yes
     }
 }
 
@@ -177,48 +164,48 @@ on_abandon_colony = {
 
 # country
 on_new_monarch = {
-  events = {
-    wow_government.1    # The Education of [Root.Monarch.GetName]
-    wow_government.2    # Ascension of [Root.Monarch.GetName]
-  }
-  if = {
-    limit = { has_country_modifier = alliance_head }
-    country_event = { id = faction_changes.13 }
-  }
-  if = {
-    limit = { has_country_modifier = horde_head }
-    country_event = { id = faction_changes.14 }
-  }
-  if = {
-    limit = {
-      has_consort_regency = no
-      any_owned_province = {
-        has_province_modifier = domain_of_spouses_family
-      }
+    events = {
+        wow_government.1    # The Education of [Root.Monarch.GetName]
+        wow_government.2    # Ascension of [Root.Monarch.GetName]
     }
-    random_owned_province = {
-      limit = { has_province_modifier = domain_of_spouses_family }
-      remove_province_modifier = domain_of_spouses_family
+    if = {
+        limit = { has_country_modifier = alliance_head }
+        country_event = { id = factions.5 }
     }
-  }
+    if = {
+        limit = { has_country_modifier = horde_head }
+        country_event = { id = factions.6 }
+    }
+    if = {
+        limit = {
+            has_consort_regency = no
+            any_owned_province = {
+                has_province_modifier = domain_of_spouses_family
+            }
+        }
+        random_owned_province = {
+            limit = { has_province_modifier = domain_of_spouses_family }
+            remove_province_modifier = domain_of_spouses_family
+        }
+    }
 }
 
 on_new_consort = {
-  if = {
-    country_event = { id = consort_events.2 }
-  }
-  if = {
-    limit = { has_ruler_flag = had_10_years_anniversary }
-    clr_ruler_flag = had_10_years_anniversary
-  }
-  if = {
-    limit = { has_ruler_flag = had_20_years_anniversary }
-    clr_ruler_flag = had_20_years_anniversary
-  }
-  if = {
-    limit = { has_ruler_flag = consort_had_affection_of_ruler }
-    clr_ruler_flag = consort_had_affection_of_ruler
-  }
+    if = {
+        country_event = { id = consort_events.2 }
+    }
+    if = {
+        limit = { has_ruler_flag = had_10_years_anniversary }
+        clr_ruler_flag = had_10_years_anniversary
+    }
+    if = {
+        limit = { has_ruler_flag = had_20_years_anniversary }
+        clr_ruler_flag = had_20_years_anniversary
+    }
+    if = {
+        limit = { has_ruler_flag = consort_had_affection_of_ruler }
+        clr_ruler_flag = consort_had_affection_of_ruler
+    }
 }
 
 # country 

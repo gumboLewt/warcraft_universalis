@@ -1,0 +1,119 @@
+﻿l_english:
+ # 546
+ rise_of_the_horde.1.title: "The Orcish Horde"
+ rise_of_the_horde.1.desc: "Hideous creatures have been sighted in the Blasted Lands, and have begun to form encampments there. Without resistance, they will soon sweep through our lands."
+ rise_of_the_horde.1.option.a: "Fight back!"
+
+ rise_of_the_horde.2.title: "Collapse of Draenei Hegemony"
+ rise_of_the_horde.2.desc: "The orcish clans have led numerous raids over the years against our lands, but we have weathered them all. However this time, they seem emboldened by some otherworldly force, and our people cannot resist."
+ rise_of_the_horde.2.option.a: "Oh dear..."
+ 
+ tt_orcish_horde: "Orc Hordes will appear in the Blasted Lands and the surrounding areas."
+ tt_orcish_horde_draenei: "The Orcish Horde has conquered our lands, and new orcish factions emerge from the conquests."
+ 
+ # 592
+ the_first_war.1.title: "The Blood of Mannaroth"
+ the_first_war.1.desc: "Borne from the blood of the Destructor, there are powers beyond comprehension contained within. All it takes to gain such power is a sip. What do you say, [Root.Monarch.GetTitle] [Root.Monarch.GetName]?"
+ the_first_war.1.option.a: "Drink!"
+ the_first_war.1.option.b: "Begone traitor!"
+ 
+ the_first_war.2.title: "Orc Raid"
+ the_first_war.2.desc: ""
+ the_first_war.2.option.a: ""
+ 
+ the_first_war.3.title: "Attack on [From.GetName]!"
+ the_first_war.3.desc: "Our clansmen ache with bloodlust, and will attempt to raid [From.GetName] if we do not stop them."
+ the_first_war.3.option.a: "Zug Zug!"
+
+ the_first_war.4.title: "Raid by [From.GetName]"
+ the_first_war.4.desc: "The damned orcs led by [From.Monarch.GetName] have attacked one of our settlements, damaging it in the process."
+ the_first_war.4.option.a: "We must weather this storm..."
+ the_first_war.4.option.b: "Send a diplomat to this settlements..."
+ the_first_war.4.option.c: "We will cover the loses!"
+ 
+ the_first_war.5.title: "Support from the Dark Portal"
+ the_first_war.5.desc: "More of our clansmen have left Draenor to travel through the Dark Portal and fight here on Azeroth. Zug Zug!"
+ the_first_war.5.option.a: "The humans have no chance..."
+
+ the_first_war.7.title: "Blood Boil!"
+ the_first_war.7.desc: "The demonsblood within the veins [Root.Monarch.GetTitle] [Root.Monarch.GetName] has begun churning, and has sent [Root.Monarch.GetHimHer] into a fit of rage. "
+ the_first_war.7.option.a: "Roar!"
+ 
+ the_first_war.8.title: "Sullen"
+ the_first_war.8.desc: "The demonsblood within the veins [Root.Monarch.GetTitle] [Root.Monarch.GetName] has begun churning, and has sent [Root.Monarch.GetHimHer] into a depressive stupor."
+ the_first_war.8.option.a: "Zzzz...."
+ 
+ the_first_war.9.title: "Boiling Blood!"
+ the_first_war.9.desc: "The clansmen who partook in the demonsblood have become enraged, and are eager for blood. If we cannot sate their bloodlust, they're liable to decimate one another. Do you allow them to wage war?"
+ the_first_war.9.option.a: "Zug Zug!"
+ the_first_war.9.option.b: "No, we must be resist the demonsblood!"
+ 
+ the_first_war.10.title: "Zzzzzz...."
+ the_first_war.10.desc: "The demonsblood has sent our clansmen into a stupor, their bodies leaden and their spirits faltering. Without some rousing they are liable to pass out, leaving out outposts defenceless!"
+ the_first_war.10.option.a: "Rouse them!"
+ the_first_war.10.option.b: "Let the sleep..."
+ 
+ # 597
+ fall_of_stormwind.1.title: "Fall of Stormwind"
+ fall_of_stormwind.1.desc: "The aftermath of the First War draws near, and the results do not look pretty. Stormwind has been savaged by the orcish hordes, and with the siege of Stormwind, it is time for the Azerothian people to retreat. Lordaeron may accept us for some time, so let us sail northward to unite with our kin."
+ fall_of_stormwind.1.option.a: "How did it come to this..."
+
+ # 598
+ second_war.1.title: ""
+ second_war.1.desc: ""
+ second_war.1.option.a: ""
+ 
+ # 600
+ beyond_the_dark_portal.1.title: ""
+ beyond_the_dark_portal.1.desc: ""
+ beyond_the_dark_portal.1.option.a: ""
+
+ # 605
+ the_alliance_splinters.1.title: ""
+ the_alliance_splinters.1.desc: ""
+ the_alliance_splinters.1.option.a: ""
+ 
+ # 617
+ third_war.1.title: ""
+ third_war.1.desc: ""
+ third_war.1.option.a: ""
+ 
+ # 618
+ the_frozen_throne.1.title: ""
+ the_frozen_throne.1.desc: ""
+ the_frozen_throne.1.option.a: ""
+ 
+ # 622
+ rise_of_qiraji.1.title: ""
+ rise_of_qiraji.1.desc: ""
+ rise_of_qiraji.1.option.a: ""
+ 
+ # 625
+ the_burning_crusade.1.title: ""
+ the_burning_crusade.1.desc: ""
+ the_burning_crusade.1.option.a: ""
+ 
+ # 626
+ wrath_of_the_lich_king.1.title: ""
+ wrath_of_the_lich_king.1.desc: ""
+ wrath_of_the_lich_king.1.option.a: ""
+ 
+ # 631
+ catacylsm.1.title: ""
+ catacylsm.1.desc: ""
+ catacylsm.1.option.a: ""
+ 
+ # 632
+ mists_of_pandaria.1.title: ""
+ mists_of_pandaria.1.desc: ""
+ mists_of_pandaria.1.option.a: ""
+ 
+ # 633
+ warlords_of_draenor.1.title: ""
+ warlords_of_draenor.1.desc: ""
+ warlords_of_draenor.1.option.a: ""
+ 
+ # 635
+ legion.1.title: ""
+ legion.1.desc: ""
+ legion.1.option.a: ""

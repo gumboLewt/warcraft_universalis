@@ -1,0 +1,190 @@
+namespace = rise_of_the_horde
+
+# 546
+
+# The Orcish Horde
+# These hideous creatures have been sighted in the Blasted Lands, and have begun to form encampments there. Without resistance, they will soon sweep through our lands.
+# Defend our lands!
+country_event = {
+	id = rise_of_the_horde.1
+	title = rise_of_the_horde.1.title
+	desc = rise_of_the_horde.1.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    major = yes
+    fire_only_once = yes
+    
+	trigger = {
+        # Only fire for the Rise of the Horde
+        started_in = 546.1.1
+		tag = A01
+        is_year = 589
+	}
+	
+	option = {
+		name = rise_of_the_horde.1.option.a
+
+        custom_tooltip = tt_orcish_horde
+        hidden_effect = {
+            # Blackrock
+            if = {
+                limit = {
+                    exists = A41
+                }
+                
+                blackrock_spawn = {
+                    if = {
+                        limit = { 
+                            OR = {
+                                owner = { ai = yes }
+                                is_empty = yes
+                            }
+                        }
+                        cede_province = V13
+                        add_core = V13
+                        change_religion = religion_ancestral
+                        change_culture = culture_blackrock
+                    }
+                }
+            }
+
+            # Bleeding Hollow
+            if = {
+                limit = {
+                    exists = A40
+                }
+                
+                bleeding_hollow_spawn = {
+                    if = {
+                        limit = { 
+                            OR = {
+                                owner = { ai = yes }
+                                is_empty = yes
+                            }
+                        }
+                        cede_province = V12
+                        add_core = V12
+                        change_religion = religion_fel
+                        change_culture = culture_bleeding_hollow
+                    }
+                }
+            }
+            
+            # Twilight's Hammer
+            if = {
+                limit = {
+                    exists = A43
+                }
+                twilights_hammer_spawn = {
+                    if = {
+                        limit = { 
+                            OR = {
+                                owner = { ai = yes }
+                                is_empty = yes
+                            }
+                        }
+                        cede_province = V15
+                        add_core = V15
+                        change_religion = religion_fel
+                        change_culture = culture_twilights_hammer
+                    }
+                }
+            }
+            
+            # Shadow Council
+            if = {
+                limit = {
+                    exists = B88
+                }
+                shadow_council_spawn = {
+                    if = {
+                        limit = { 
+                            OR = {
+                                owner = { ai = yes }
+                                is_empty = yes
+                            }
+                        }
+                        cede_province = V19
+                        add_core = V19
+                        change_religion = religion_fel
+                        change_culture = culture_horde
+                    }
+                }
+            }
+            
+            country_event = { id = rise_of_the_horde.3 }
+        }
+	}
+}
+
+country_event = {
+	id = rise_of_the_horde.3
+	title = rise_of_the_horde.3.title
+	desc = rise_of_the_horde.3.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    hidden = yes
+    is_triggered_only = yes
+
+	option = {
+		name = rise_of_the_horde.3.option.a
+
+        B88 = {
+            create_union = V19
+        }
+        A43 = {
+            create_union = V15
+        }
+        A40 = {
+            create_union = V12
+        }
+        A41 = {
+            create_union = V13
+        }
+    }
+}
+
+# Collapse of Draenei Hegemony
+country_event = {
+	id = rise_of_the_horde.2
+	title = rise_of_the_horde.2.title
+	desc = rise_of_the_horde.2.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    major = yes
+    fire_only_once = yes
+    
+	trigger = {
+        # Only fire for the Rise of the Horde
+        started_in = 546.1.1
+		OR = {
+            tag = A54
+            tag = F49
+            tag = A55
+        }
+        is_year = 560
+        ai = yes
+	}
+
+	option = {
+		name = rise_of_the_horde.2.option.a
+
+        custom_tooltip = tt_orcish_horde_draenei
+        
+        hidden_effect = {
+            shadow_council_draenei_holdings = {
+                add_core = B88
+                cede_province = B88
+                change_religion = religion_shadow
+                change_culture = culture_horde
+            }
+            twilight_hammer_draenei_holdings = {
+                add_core = A43
+                cede_province = A43
+                change_religion = religion_ancestral
+                change_culture = culture_twilights_hammer
+            }
+        }
+    }
+}
+
