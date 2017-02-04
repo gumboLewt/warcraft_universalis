@@ -17,9 +17,9 @@ trade_goods = smugglers
 
 # First War
 592.1.1 = { 
-	owner = V12
-	controller = V12
-	add_core = V12
+	owner = A40
+	controller = A40
+	add_core = A40
 	remove_core = P59
 	
 	religion = religion_fel
@@ -30,7 +30,7 @@ trade_goods = smugglers
 600.1.1 = { 
 	owner = XXX
 	controller = XXX
-	remove_core = V12
+	remove_core = A40
 	
 	culture = culture_deadwind
 	religion = religion_geomancy

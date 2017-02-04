@@ -14,9 +14,9 @@ trade_goods = army_supplies
 
 # First War
 592.1.1 = { 
-    owner = V15
-    controller = V15
-    add_core = V15
+    owner = A43
+    controller = A43
+    add_core = A43
     add_core = P96
     culture = culture_dreadmaul
     religion = religion_geomancy 
@@ -26,7 +26,7 @@ trade_goods = army_supplies
 600.1.1 = { 
     owner = P96
     controller = P96
-    remove_core = V15 
+    remove_core = A43 
 }
 
 # Rise of the Qiraji

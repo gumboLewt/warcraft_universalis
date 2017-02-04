@@ -13,9 +13,9 @@ trade_goods = fish
 
 # First War
 592.1.1 = { 
-    owner = V15
-    controller = V15
-    add_core = V15
+    owner = A43
+    controller = A43
+    add_core = A43
     culture = culture_twilights_hammer
     religion = religion_fel 
 }
@@ -24,7 +24,7 @@ trade_goods = fish
 600.1.1 = { 
     owner = XXX
     controller = XXX 
-    remove_core = V15
+    remove_core = A43
 }
 
 # Warlords of Draenor

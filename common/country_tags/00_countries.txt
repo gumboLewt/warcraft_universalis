@@ -131,6 +131,18 @@ H07 = "countries/Horde Expedition.txt"
 F72 = "countries/Mag'har.txt"
 F85 = "countries/Earthen Ring.txt"
 
+V10 = "countries/Thunderlord Vanguard.txt"
+V11 = "countries/Bonechewer Vanguard.txt"
+V12 = "countries/Bleeding Hollow Vanguard.txt"
+V13 = "countries/Blackrock Vanguard.txt"
+V14 = "countries/Stormreaver Vanguard.txt"
+V15 = "countries/Twilights Hammer Vanguard.txt"
+V16 = "countries/Burning Blade Vanguard.txt"
+V17 = "countries/Dragonmaw Vanguard.txt"
+V18 = "countries/Orgrimmar Vanguard.txt"
+V19 = "countries/Shadow Vanguard.txt"
+
+
 # Ogre
 A49 = "countries/Bladespire.txt"
 A51 = "countries/Boulderfist.txt"

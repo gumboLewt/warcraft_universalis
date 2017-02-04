@@ -18,9 +18,9 @@ trade_goods = grain
 
 # First War
 592.1.1 = { 
-    owner = V15
-    controller = V15
-    add_core = V15
+    owner = A43
+    controller = A43
+    add_core = A43
     culture = culture_twilights_hammer
     religion = religion_fel 
 }
@@ -29,14 +29,14 @@ trade_goods = grain
 600.1.1 = { 
     owner = XXX
     controller = XXX 
-    remove_core = V15
+    remove_core = A43
 }
 
 # Warlords of Draenor
 633.1.1 = { 
-    owner = V18
-    controller = V18
-    add_core = V18
+    owner = A48
+    controller = A48
+    add_core = A48
     culture = culture_horde
     religion = religion_ancestral 
 }
