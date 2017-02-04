@@ -1,0 +1,20 @@
+dark_portal_speed_boost = {
+    local_movement_speed = 0.9
+}
+
+city_of_innovation = {
+    technology_cost = -0.05
+}
+
+incensed_people = {
+    local_unrest = 10
+}
+
+denied_autonomy = {
+    local_unrest = 2
+}
+
+sexually_frustrated = {
+    local_unrest = 2
+}
+
