@@ -17,15 +17,15 @@ trade_goods = fish
 
 # Rise of the Qiraji
 600.1.1 = {
-owner = xxx
-controller = xxx
+owner = XXX
+controller = XXX
 culture = culture_dunemaul
 religion = religion_geomancy
 }
 
 630.11.11 = {
-owner = xxx
-controller = xxx
+owner = XXX
+controller = XXX
 culture = culture_dunemaul
 religion = religion_geomancy
 }

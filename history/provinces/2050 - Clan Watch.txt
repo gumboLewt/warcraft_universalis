@@ -29,6 +29,6 @@ religion = religion_ancestral
 }
 
 625.1.1 = { 
-owner = xxx
-controller = xxx
+owner = XXX
+controller = XXX
 }

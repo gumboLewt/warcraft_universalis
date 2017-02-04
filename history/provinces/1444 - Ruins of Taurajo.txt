@@ -17,24 +17,24 @@ hre = no
 trade_goods = fur
 
 622.1.1 = {
-owner = F88
-controller = F88
-add_core = F88
-remove_core = F85
-culture = culture_bloodhoof
-religion = religion_ancestral
-base_tax = 3
-base_manpower = 3
-base_production = 3
+    owner = F88
+    controller = F88
+    add_core = F88
+    remove_core = F85
+    culture = culture_bloodhoof
+    religion = religion_ancestral
+    base_tax = 3
+    base_manpower = 3
+    base_production = 3
 }
 
 
 631.1.1 = {
-owner = xxx
-controller = xxx
-base_tax = 1
-base_manpower = 1
-base_production = 1
+    owner = XXX
+    controller = XXX
+    base_tax = 1
+    base_manpower = 1
+    base_production = 1
 }
 
 

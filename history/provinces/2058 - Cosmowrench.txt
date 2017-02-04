@@ -12,7 +12,7 @@ culture = culture_shattrathi
 religion = religion_light_of_the_naaru
 
 hre = no
-trade_goods = adamantium
+trade_goods = adamantite
 
 592.1.1 = {
 	add_core = A43

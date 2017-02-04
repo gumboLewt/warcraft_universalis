@@ -16,8 +16,8 @@ hre = no
 trade_goods = fur
 
 618.1.1 = {
-owner = xxx
-controller = xxx
+owner = XXX
+controller = XXX
 }
 
 622.1.1 = {

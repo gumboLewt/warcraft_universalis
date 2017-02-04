@@ -27,7 +27,7 @@ area_sunstrider_isle = {
 }
 
 area_silvermoon = {
-    660 626 609 676 2988 609
+    660 626 676 2988 609
 }
 
 area_duskwither_hills = {
@@ -390,7 +390,7 @@ area_upper_wetlands = {
 }
 
 area_dun_algaz = {
-    589 1944 554 
+    589 1944 
 }
 
 #-------------------
@@ -1522,7 +1522,7 @@ area_accursed_cove = {
 }
 
 area_argent_tournament = {
-    2378 895 911 1226 2494
+    2378 911 1226 2494
 }
 
 area_valley_of_lost_hope = {
@@ -1617,7 +1617,7 @@ area_draktharon_keep = {
 }
 
 area_zeramas = {
-    649 2420 2422 2427 2425
+    649 2420 2422 2425
 }
 
 area_voltarus = {

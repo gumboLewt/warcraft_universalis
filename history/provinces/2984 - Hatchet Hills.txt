@@ -25,16 +25,16 @@ religion = religion_church_of_the_light
 }
 
 626.1.1 = {
-owner = xxx
-controller = xxx
+owner = XXX
+controller = XXX
 remove_core = F39
 culture = culture_amani
 religion = religion_voodoo
 }
 
 630.11.11 = {
-owner = xxx
-controller = xxx
+owner = XXX
+controller = XXX
 culture = culture_amani
 religion = religion_voodoo
 }

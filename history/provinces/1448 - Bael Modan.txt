@@ -1,6 +1,6 @@
 # 1448 Bael Modan
-controller = F01
 owner = F01
+controller = F01
 add_core = F01
 
 is_city = no

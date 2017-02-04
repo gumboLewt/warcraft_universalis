@@ -27,8 +27,8 @@ religion = religion_fel
 }
 
 618.1.1 = { 
-	owner = xxx
-	controller = xxx
+	owner = XXX
+	controller = XXX
 	religion = religion_fel
 }
 

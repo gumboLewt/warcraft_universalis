@@ -28,8 +28,8 @@ remove_core = A37
 }
 
 618.1.1 = { 
-owner = xxx
-controller = xxx
+owner = XXX
+controller = XXX
 remove_core = B89
 }
 

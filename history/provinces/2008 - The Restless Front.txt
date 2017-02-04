@@ -40,8 +40,8 @@ religion = religion_church_of_the_light
 
 # Cataclysm
 631.1.1 = {
-owner = xxx
-controller = xxx 
+owner = XXX
+controller = XXX 
 culture = culture_ghost
 religion = religion_shadow
 }

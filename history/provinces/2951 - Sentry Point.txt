@@ -12,8 +12,8 @@ hre = no
 trade_goods = pirates
 
 617.11.30 = { 
-	owner = xxx
-	controller = xxx 
+	owner = XXX
+	controller = XXX 
 }
 
 # The Frozen Throne

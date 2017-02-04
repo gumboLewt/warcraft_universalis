@@ -12,8 +12,8 @@ hre = no
 trade_goods = fish
 
 617.11.30 = { 
-owner = xxx
-controller = xxx 
+owner = XXX
+controller = XXX 
 }
 
 # The Frozen Throne
@@ -34,8 +34,8 @@ controller = xxx
 
 # Mists of Pandaria
 632.1.1 = { 
-	owner = xxx
-	controller = xxx
+	owner = XXX
+	controller = XXX
 
 	base_tax = 1
 	base_manpower = 1

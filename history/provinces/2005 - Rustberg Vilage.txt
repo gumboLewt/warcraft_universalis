@@ -36,16 +36,16 @@ trade_goods = fish
 
 # Stromic population of this village leave to help mainland Stromgarde
 622.1.1 = {
-    owner = xxx
-    controller = xxx
+    owner = XXX
+    controller = XXX
     base_tax = 3
     manpower = 2
     base_production = 3
 }
 
 630.11.11 = {
-    owner = xxx
-    controller = xxx
+    owner = XXX
+    controller = XXX
     culture = culture_arathi
 }
 

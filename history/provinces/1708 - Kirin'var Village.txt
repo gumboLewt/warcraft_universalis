@@ -38,8 +38,8 @@ culture = culture_twilights_hammer
 }
 
 625.1.1 = {
-	owner = xxx
-	controller = xxx
+	owner = XXX
+	controller = XXX
 	culture = culture_ghost
 	
 	base_tax = 1

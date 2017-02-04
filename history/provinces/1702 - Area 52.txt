@@ -12,7 +12,7 @@ culture = culture_laughing_skull
 religion = religion_ancestral
 
 hre = no
-trade_goods = adamantium
+trade_goods = adamantite
 
 592.1.1 = {
 religion = religion_fel

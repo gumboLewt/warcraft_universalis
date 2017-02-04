@@ -27,8 +27,8 @@ religion = religion_fel
 }
 
 625.1.1 = {
-owner = xxx
-controller = xxx
+owner = XXX
+controller = XXX
 culture = culture_voidwalker
 religion = religion_void
 trade_goods = adamantite

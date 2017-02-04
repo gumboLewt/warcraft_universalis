@@ -27,8 +27,8 @@ owner = P98
 
 # Beyond the Dark Portal
 600.1.1 = { 
-	owner = xxx
-	controller = xxx
+	owner = XXX
+	controller = XXX
 	add_core = F61
 	culture = culture_fire
 	religion = religion_fire

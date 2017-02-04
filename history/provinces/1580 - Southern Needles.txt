@@ -13,16 +13,16 @@ culture = culture_screeching
 religion = religion_air
 
 hre = no
-trade_goods = granaries
+trade_goods = army_supplies
 capital = "Roguefeather Den"
 
 631.1.1 = {
-owner = A43
-controller = A43
-add_core = A43
-religion = religion_old_gods
-culture = culture_twilight
-capital = "Twilight Bulwark"
+    owner = A43
+    controller = A43
+    add_core = A43
+    religion = religion_old_gods
+    culture = culture_twilight
+    capital = "Twilight Bulwark"
 }
 
 

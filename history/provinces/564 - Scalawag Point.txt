@@ -16,8 +16,8 @@ religion = religion_water
 hre = no
 trade_goods = fish
 
-618.1.1 = { owner = xxx
-controller = xxx
+618.1.1 = { owner = XXX
+controller = XXX
 }
 
 # The Burning Crusade

@@ -1,46 +1,6 @@
 #-----------------------------------
 # General
 #-----------------------------------
-amass_wealth = {
-	type = country
-
-	category = ADM
-	ai_mission = yes
-	
-	allow = {
-		NOT = { treasury = 1000 }
-	}
-	abort = {
-		NOT = { treasury = 0 }
-	}
-	success = {
-		treasury = 1500
-	}
-	chance = {
-		factor = 1000
-		modifier = {
-			factor = 2
-			adm = 4
-		}
-		modifier = {
-			factor = 3
-			adm = 6
-		}
-	}
-	immediate = {
-
-	}
-	abort_effect = {
-
-	}
-	effect = {
-		add_country_modifier = {
-			name = "secure_investment"
-			duration = 3650
-		}
-	}
-}
-
 triple_alliance = {
 	type = country
 
