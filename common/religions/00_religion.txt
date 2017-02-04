@@ -1006,7 +1006,7 @@ religion_group_technology = {
 
   religion_greed = {
 		color = { 0.5 0.5 0.5 }
-		icon = 30
+		icon = 34
     allowed_conversion = {
       religion_tech
     }
