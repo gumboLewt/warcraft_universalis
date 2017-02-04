@@ -19,7 +19,8 @@ capital 			= 1645
 }
 
 592.1.1 = {
-religion = religion_fel
+    religion = religion_fel
+    
 	monarch = { 
 		name = "Tagar" 
 		dynasty = "Spinebreaker" 
@@ -31,6 +32,6 @@ religion = religion_fel
 }
 
 617.1.1 = {
-primary_culture = culture_fel_orc
+    primary_culture = culture_fel_orc
 }
 

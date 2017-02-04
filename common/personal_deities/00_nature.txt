@@ -78,7 +78,6 @@ diety_shoveltusk =
                     region = region_borean_tundra
                     region = region_dragonblight
                     region = region_grizzly_hills
-                    region = region_zul_drak
                 }
 		    }
 		}	
