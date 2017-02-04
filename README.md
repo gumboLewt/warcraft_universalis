@@ -5,6 +5,10 @@ The aim of this mod is to recreate the lore from Blizzard Entertainment's Warcra
 
 Allowing for a unique EU4 experience where the player does not simply play at altering the course of history but is in fact steeped in a whole other fictional universe filled with magic, demons, dragons and fantasy whilst retaining a very Europa Universalis feel. 
 
+## Community
+
+Join our Discord server with: https://discord.gg/cE2z6Aa 
+
 ### Installing 
 1. Download the latest release.
 2. Go to **\Documents\Paradox Interactive\Europa Universalis IV\mod\**
