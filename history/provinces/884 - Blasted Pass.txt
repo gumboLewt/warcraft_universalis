@@ -14,9 +14,9 @@ trade_goods = cloth
 
 # First War
 592.1.1 = { 
-    owner = V13
-    controller = V13
-    add_core = V13
+    owner = A41
+    controller = A41
+    add_core = A41
     culture = culture_blackrock
     religion = religion_fel 
 }
@@ -25,7 +25,7 @@ trade_goods = cloth
 600.1.1 = { 
     owner = XXX
     controller = XXX
-    remove_core = V13
+    remove_core = A41
 }
 
 # Warlords of Draenor

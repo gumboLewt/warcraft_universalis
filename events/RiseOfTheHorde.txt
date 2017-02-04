@@ -62,8 +62,8 @@ country_event = {
                                 is_empty = yes
                             }
                         }
-                        cede_province = V12
-                        add_core = V12
+                        cede_province = A40
+                        add_core = A40
                         change_religion = religion_fel
                         change_culture = culture_bleeding_hollow
                     }

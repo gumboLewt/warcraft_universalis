@@ -14,9 +14,9 @@ trade_goods = army_supplies
 
 # First War
 592.1.1 = { 
-    owner = V13
-    controller = V13
-    add_core = V13
+    owner = A41
+    controller = A41
+    add_core = A41
     culture = culture_blackrock
     religion = religion_fel 
 }
@@ -27,7 +27,7 @@ trade_goods = army_supplies
     controller = F14
     add_core = F14
     add_core = A18
-    remove_core = V13
+    remove_core = A41
     culture = culture_dalaran
     religion = religion_arcane
 }

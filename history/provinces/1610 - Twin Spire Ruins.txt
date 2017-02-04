@@ -1,33 +1,40 @@
 # 1610
 is_city = no
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-
 owner = F84
 controller = F84
 add_core = F84
 culture = culture_broken
 religion = religion_ancestral
 
+base_tax = 3
+base_manpower = 3
+base_production = 3
+
 hre = no
 trade_goods = artifacts
 
+546.1.1 = {
+    owner = F84
+    controller = F84
+    add_core = F84
+    culture = culture_broken
+    religion = religion_ancestral
+}
+
 #Outland
 601.1.1 = {
-owner = F84
-controller = F84
-add_core = F84
-culture = culture_broken
+    owner = F84
+    controller = F84
+    add_core = F84
+    culture = culture_broken
 }
 
 625.1.1 = {
-owner = B38
-controller = B38
-add_core = B38
-remove_core = F84
-culture = culture_bogstrok
-religion = religion_water
+    owner = B38
+    controller = B38
+    add_core = B38
+    remove_core = F84
+    culture = culture_bogstrok
+    religion = religion_water
 }
