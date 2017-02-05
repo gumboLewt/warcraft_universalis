@@ -35,6 +35,7 @@ trade_goods = crypts
 
 # Wrath of the Lich King
 626.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	remove_core = A76

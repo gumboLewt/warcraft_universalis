@@ -14,18 +14,15 @@ religion = religion_elune
 hre = no
 trade_goods = fur
 
-
-
-
 # After the Third War
 622.1.1 = {
-owner = B39
-controller = B39
-add_core = B39
-base_tax = 3
-base_manpower = 3
-base_production = 3
-culture = culture_gnarlpine
-religion = religion_fel
-is_city = yes
+    owner = B39
+    controller = B39
+    add_core = B39
+    base_tax = 3
+    base_manpower = 3
+    base_production = 3
+    culture = culture_gnarlpine
+    religion = religion_fel
+    is_city = yes
 }

@@ -26,6 +26,7 @@ trade_goods = wine
 
 # Beyond the Dark Portal
 600.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	add_core = A01
@@ -36,6 +37,7 @@ trade_goods = wine
 
 # Rise of the Qiraji
 622.1.1 = { 
+    is_city = yes
 	owner = A07
 	controller = A07 
 	add_core = A07 

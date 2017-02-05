@@ -26,6 +26,7 @@ trade_goods = cloth
 
 # Beyond the Dark Portal
 600.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	culture = culture_azerothian
@@ -35,8 +36,10 @@ trade_goods = cloth
 
 # The Third War
 617.1.1 = {
+    is_city = yes
 	owner = A03
 	controller = A03
+    add_core = A03
 	
 	base_manpower = 2
 }

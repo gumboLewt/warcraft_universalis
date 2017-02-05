@@ -20,13 +20,14 @@ trade_goods = fel
 	owner = B89
 	controller = B89
 	add_core =  B89
-  remove_core = F83
-  culture = culture_fel_orc
-  religion = religion_fel
+    remove_core = F83
+    culture = culture_fel_orc
+    religion = religion_fel
 }
 
 # The Frozen Throne
 618.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	remove_core =  B89
@@ -35,6 +36,7 @@ trade_goods = fel
 
 # Rise of the Qiraji
 622.1.1 = {
+    is_city = yes
 	owner = B88
 	controller = B88
 	add_core =  B88

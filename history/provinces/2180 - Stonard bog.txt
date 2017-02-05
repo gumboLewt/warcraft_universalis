@@ -27,6 +27,7 @@ trade_goods = army_supplies
 
 # Beyond the Dark Portal
 600.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX 
     remove_core = A41
@@ -34,6 +35,7 @@ trade_goods = army_supplies
 
 # Rise of the Qiraji
 622.1.1 = { 
+    is_city = yes
 	owner = A48
 	controller = A48
 	add_core = A48

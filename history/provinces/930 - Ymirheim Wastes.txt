@@ -1,5 +1,5 @@
 # 930 The Bombardment/ Silkweb Caverns
-is_city = no
+is_city = yes
 
 
 owner = P74

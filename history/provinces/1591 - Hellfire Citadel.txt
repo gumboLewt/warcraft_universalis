@@ -1,5 +1,5 @@
 # 1591 Hellfire Citadel
-is_city = no
+is_city = yes
 
 owner = A36
 controller = A36

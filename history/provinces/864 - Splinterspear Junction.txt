@@ -23,6 +23,7 @@ trade_goods = fur
 
 # Beyond the Dark Portal
 600.1.1 = { 
+    is_city = no
     owner = XXX
     controller = XXX
     remove_core = A40 
@@ -30,6 +31,7 @@ trade_goods = fur
 
 # Rise of the Qiraji
 622.1.1 = { 
+    is_city = yes
     owner = A48
     controller = A48
     add_core = A48

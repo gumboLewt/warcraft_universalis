@@ -16,9 +16,6 @@ religion = religion_water
 hre = no
 trade_goods = grain
 
-
-
-
 # First War
 592.1.1 = { 
 	owner = A43
@@ -30,6 +27,7 @@ trade_goods = grain
 
 # Beyond the Dark Portal
 600.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX 
     remove_core = A43
@@ -37,6 +35,7 @@ trade_goods = grain
 
 # Warlords of Draenor
 633.1.1 = { 
+    is_city = yes
 	owner = A48
 	controller = A48
 	add_core = A48

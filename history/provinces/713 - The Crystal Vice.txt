@@ -16,8 +16,9 @@ hre = no
 trade_goods = titanium
 
 632.1.1 = {
+    is_city = no
     owner = XXX
     controller = XXX
-    removE_core = A99
+    remove_core = A99
 }
 

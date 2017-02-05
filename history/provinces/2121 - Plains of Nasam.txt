@@ -1,5 +1,5 @@
 # 2121 Bloodspore Plains
-is_city = no
+is_city = yes
 
 owner = B60
 controller = B60

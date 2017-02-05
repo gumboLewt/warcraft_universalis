@@ -1,5 +1,5 @@
 # 1376 The Merchant Coast
-is_city = no
+is_city = yes
 
 base_tax = 2
 base_manpower = 2

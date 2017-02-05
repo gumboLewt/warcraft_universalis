@@ -35,6 +35,7 @@ trade_goods = flying_mounts
 
 # Mists of Pandaria
 632.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX
 	revolt = {

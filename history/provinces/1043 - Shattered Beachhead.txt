@@ -1,5 +1,4 @@
-# 1043
-is_city = yes
+# 1043no
 
 base_tax = 2
 base_manpower = 2
@@ -22,6 +21,7 @@ trade_goods = fish
 
 # Beyond the Dark Portal
 600.1.1 = { 
+    is_city = no
     owner = XXX
     controller = XXX 
     remove_core = A43
@@ -29,6 +29,7 @@ trade_goods = fish
 
 # Warlords of Draenor
 633.1.1 = { 
+    is_city = yes
     owner = A01
     controller = A01
     add_core = A01

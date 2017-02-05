@@ -1,4 +1,4 @@
-is_city = no
+is_city = yes
 
 owner = B61
 controller = B61

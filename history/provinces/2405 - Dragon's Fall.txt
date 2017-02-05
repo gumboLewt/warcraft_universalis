@@ -14,6 +14,8 @@ hre = no
 trade_goods = grain
 
 632.1.1 = {
+    is_city = no
+    
     owner = XXX
     controller = XXX
     remove_core = A99

@@ -1,6 +1,6 @@
 # 1498 Rage Scar Vale
 
-is_city = no
+is_city = yes
 
 capital = "Rage Scar Hold"
 

@@ -1,5 +1,5 @@
 # 1589 Expedition Armory
-is_city = no
+is_city = yes
 
 owner = A40
 controller = A40

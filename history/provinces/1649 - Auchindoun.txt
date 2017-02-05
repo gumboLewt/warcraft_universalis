@@ -15,6 +15,15 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = crypts
 
+546.1.1 = {
+    owner = F49
+    controller = F49
+    add_core = F49
+
+    culture = culture_shattrathi
+    religion = religion_light_of_the_naaru
+}
+
 #Outland
 592.1.1 = {
 	owner = B88

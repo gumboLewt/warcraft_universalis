@@ -1,5 +1,5 @@
 # 651 Rivenwood
-is_city = no
+is_city = yes
 
 owner = P32
 controller = P32

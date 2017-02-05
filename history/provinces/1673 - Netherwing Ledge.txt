@@ -12,12 +12,21 @@ base_production = 3
 culture = culture_dragonmaw
 religion = religion_ancestral
 
-592.1.1 = {
-religion = religion_fel
-}
-
 hre = no
 trade_goods = flying_mounts
+
+546.1.1 = {
+    owner = A45
+    controller = A45
+    add_core = A45
+
+    culture = culture_dragonmaw
+    religion = religion_ancestral
+}
+
+592.1.1 = {
+    religion = religion_fel
+}
 
 #Outland
 601.1.1 = {
@@ -25,7 +34,8 @@ trade_goods = flying_mounts
 	controller = F48
 	add_core =  F48
 	add_core = B05
-  culture = culture_netherwing
-  religion = religion_arcane
+    
+    culture = culture_netherwing
+    religion = religion_arcane
 }
 

@@ -1,5 +1,5 @@
 # 1407 Webwinder Pass
-is_city = no
+is_city = yes
 
 base_tax = 1
 base_manpower = 1

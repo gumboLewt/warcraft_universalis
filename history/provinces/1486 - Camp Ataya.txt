@@ -1,5 +1,5 @@
 # 1486
-is_city = no
+is_city = yes
 
 owner = A86
 controller = A86

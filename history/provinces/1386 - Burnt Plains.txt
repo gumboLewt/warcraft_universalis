@@ -1,5 +1,5 @@
 # 1386 Charred Vale
-is_city = no
+is_city = yes
 owner = B63
 controller = B63
 add_core = B63
@@ -28,6 +28,7 @@ trade_goods = lumber
 }
 
 632.1.1 = {
+    is_city = no
     owner = XXX
     controller = XXX
     remove_core = A99

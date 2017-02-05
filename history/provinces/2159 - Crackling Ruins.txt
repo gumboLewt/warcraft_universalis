@@ -1,5 +1,5 @@
 # 2159
-is_city = no
+is_city = yes
 
 owner = A72
 controller = A72

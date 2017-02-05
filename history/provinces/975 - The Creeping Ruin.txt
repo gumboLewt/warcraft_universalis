@@ -14,17 +14,14 @@ religion = religion_voodoo
  
 hre = no 
 trade_goods = artifacts
- 
-
-
-
 
 # Beyond the Dark Portal
 600.1.1 = { 
-remove_core = A60 
-owner = XXX 
-controller = XXX
-culture = culture_ooze 
+    is_city = no
+    remove_core = A60 
+    owner = XXX 
+    controller = XXX
+    culture = culture_ooze 
 }
 
 

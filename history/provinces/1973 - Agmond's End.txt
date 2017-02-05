@@ -1,5 +1,5 @@
 # 1973
-is_city = no
+is_city = yes
 
 owner = B74
 controller = B74

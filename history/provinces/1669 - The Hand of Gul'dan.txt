@@ -1,5 +1,5 @@
 # 1669
-is_city = no
+is_city = yes
 
 base_tax = 3
 base_manpower = 3
@@ -8,17 +8,28 @@ base_production = 3
 owner = A55
 controller = A55
 add_core =  A55
+
 culture = culture_karaborian
 religion = religion_light_of_the_naaru
 
 hre = no
 trade_goods = fel_iron
 
+546.1.1 = {
+    owner = A55
+    controller = A55
+    add_core =  A55
+
+    culture = culture_karaborian
+    religion = religion_light_of_the_naaru
+}
+
 592.1.1 = {
-add_core = B88
-owner = B88
-controller = B88
-remove_core = A55
-culture = culture_horde
-religion = religion_fel
+    add_core = B88
+    owner = B88
+    controller = B88
+    remove_core = A55
+    
+    culture = culture_horde
+    religion = religion_fel
 }

@@ -1,5 +1,5 @@
 # 1590 Honor Hold
-is_city = no
+is_city = yes
 
 owner = A40
 controller = A40

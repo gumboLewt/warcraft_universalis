@@ -23,7 +23,7 @@ country_event = {
         if = {
             limit = {
 			    OR = {
-                   capital_scope = {
+                   any_owned_province = {
                         continent = continent_draenor
                    }
                 }
@@ -46,11 +46,11 @@ country_event = {
         if = {
             limit = {
 			    OR = {
-                   capital_scope = {
+                   any_owned_province = {
                         continent = continent_eastern_kingdoms
                    }
 				   AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_kalimdor
                         }
 				        OR = {
@@ -65,7 +65,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_outland
                         }
 				        OR = {
@@ -75,7 +75,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_northrend
                         }
 				        OR = {
@@ -90,7 +90,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_pandaria
                         }
 				        OR = {
@@ -138,11 +138,11 @@ country_event = {
         if = {
             limit = {
 			    OR = {
-                   capital_scope = {
-                    continent = continent_kalimdor
+                   any_owned_province = {
+                        continent = continent_kalimdor
                    }
 				   AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_eastern_kingdoms
                         }
 				        OR = {
@@ -151,7 +151,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_outland
                         }
 				        OR = {
@@ -160,7 +160,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_northrend
                         }
 				        OR = {
@@ -171,7 +171,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_pandaria
                         }
 				        OR = {
@@ -220,11 +220,11 @@ country_event = {
         if = {
             limit = {
 			    OR = {
-                   capital_scope = {
-                    continent = continent_outland
+                   any_owned_province = {
+                        continent = continent_outland
                    }
 				   AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_eastern_kingdoms
                         }
 				        OR = {
@@ -232,7 +232,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_kalimdor
                         }
 				        OR = {
@@ -240,7 +240,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_northrend
                         }
 				        OR = {
@@ -248,7 +248,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_pandaria
                         }
 				        OR = {
@@ -312,11 +312,11 @@ country_event = {
         if = {
             limit = {
 			    OR = {
-                   capital_scope = {
+                   any_owned_province = {
                         continent = continent_maelstrom
                    }
 				   AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_eastern_kingdoms
                         }
 				        OR = {
@@ -325,7 +325,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_kalimdor
                         }
 				        OR = {
@@ -334,7 +334,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_outland
                         }
 				        OR = {
@@ -343,7 +343,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_northrend
                         }
 				        OR = {
@@ -352,7 +352,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_pandaria
                         }
 				        OR = {
@@ -416,11 +416,11 @@ country_event = {
         if = {
             limit = {
 			    OR = {
-                   capital_scope = {
-                    continent = continent_pandaria
+                   any_owned_province = {
+                        continent = continent_pandaria
                    }
 				   AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_eastern_kingdoms
                         }
 				        OR = {
@@ -428,7 +428,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_kalimdor
                         }
 				        OR = {
@@ -436,7 +436,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_northrend
                         }
 				        OR = {
@@ -444,7 +444,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_outland
                         }
 				        OR = {
@@ -493,11 +493,11 @@ country_event = {
         if = {
             limit = {
 			    OR = {
-                   capital_scope = {
-                    continent = continent_northrend
+                   any_owned_province = {
+                        continent = continent_northrend
                    }
 				   AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_eastern_kingdoms
                         }
 				        OR = {
@@ -505,7 +505,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_kalimdor
                         }
 				        OR = {
@@ -513,7 +513,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_pandaria
                         }
 				        OR = {
@@ -521,7 +521,7 @@ country_event = {
 					    }
 				    }
 					AND = {
-				        capital_scope = {
+				        any_owned_province = {
                             continent = continent_outland
                         }
 				        OR = {

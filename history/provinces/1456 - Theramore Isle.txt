@@ -11,11 +11,6 @@ religion = religion_water
 hre = no
 trade_goods = fish
 
-617.11.30 = { 
-owner = XXX
-controller = XXX 
-}
-
 # The Frozen Throne
 618.1.1 = { 
 	controller = A23
@@ -34,6 +29,7 @@ controller = XXX
 
 # Mists of Pandaria
 632.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX
 
@@ -43,5 +39,5 @@ controller = XXX
 
 	capital = "Ruins of Theramore"
 	trade_goods = arcane
-        remove_core = A23
+    remove_core = A23
 }

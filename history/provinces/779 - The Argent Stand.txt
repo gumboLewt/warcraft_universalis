@@ -1,5 +1,5 @@
 # 779 Heb'Valok
-is_city = no
+is_city = yes
 
 owner = A74
 controller = A74

@@ -1,8 +1,8 @@
 # 1025
 is_city = yes
-add_core = V01
-owner = V01
-controller = V01
+add_core = B03
+owner = B03
+controller = B03
 
 base_tax = 2
 base_manpower = 2
@@ -15,20 +15,18 @@ religion = religion_sect_of_dragons
 hre = no
 trade_goods = flying_mounts
 
-
-
-
 # Cataclysm
 631.1.1 = { 
     owner = B06
     controller = B06
     add_core = B06
-    remove_core = V01
+    remove_core = B03
     religion = religion_old_gods
     culture = culture_twilight_dragon
 }
 
 632.1.1 = { 
+    is_city = no
     owner = XXX
     controller = XXX
     remove_core = B06

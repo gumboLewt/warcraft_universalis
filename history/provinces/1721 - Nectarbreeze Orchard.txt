@@ -1,5 +1,5 @@
 # 1721
-is_city = no
+is_city = yes
 
 owner = P63
 controller = P63

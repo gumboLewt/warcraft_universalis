@@ -1,5 +1,5 @@
 # 1404 Webwinder Hollow/Boulderslide Ravine
-is_city = no
+is_city = yes
 
 #owner = G27
 #controller = G27

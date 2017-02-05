@@ -16,20 +16,18 @@ religion = religion_voodoo
 hre = no
 trade_goods = artifacts
 
-
-
-
 # Rise of the Qiraji
 622.1.1 = {
-owner = F31
-controller = F31
-add_core = F31
-religion = religion_geomancy
-culture = culture_moshogg
+    owner = F31
+    controller = F31
+    add_core = F31
+    religion = religion_geomancy
+    culture = culture_moshogg
 }
 
 632.1.1 = { 
-owner = XXX
-controller = XXX 
+    is_city = no
+    owner = XXX
+    controller = XXX 
 }
 

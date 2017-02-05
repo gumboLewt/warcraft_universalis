@@ -1,12 +1,12 @@
 # 1409 The Dry Hills
 
-is_city = no
+is_city = yes
 
 owner = F92
 controller = F92
 add_core = F92
 
-is_city = no
+is_city = yes
 
 base_tax = 3
 base_manpower = 3

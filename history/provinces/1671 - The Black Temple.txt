@@ -15,12 +15,21 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = arcane
 
+546.1.1 = {
+    owner = A55
+    controller = A55
+    add_core =  A55
+
+    culture = culture_karaborian
+    religion = religion_light_of_the_naaru
+}
+
 592.1.1 = {
-add_core = B88
-owner = B88
-controller = B88
-culture = culture_horde
-religion = religion_shadow
+    add_core = B88
+    owner = B88
+    controller = B88
+    culture = culture_horde
+    religion = religion_shadow
 }
 
 #Outland
@@ -28,9 +37,9 @@ religion = religion_shadow
 	owner = B89
 	controller = B89
 	add_core =  B89
-  remove_core = B88
-  culture = culture_fel_orc
-  religion = religion_fel
+    remove_core = B88
+    culture = culture_fel_orc
+    religion = religion_fel
 }
 
 # Rise of the Qiraji

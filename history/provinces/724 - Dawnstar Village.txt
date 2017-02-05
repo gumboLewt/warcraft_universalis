@@ -16,37 +16,33 @@ hre = no
 trade_goods = grain
 
 618.1.1 = {
-owner = XXX
-controller = XXX
-culture = culture_ghost
-remove_core = A90
-}
-
-621.11.11 = {
-owner = XXX
-controller = XXX
+    is_city = no
+    owner = XXX
+    controller = XXX
+    culture = culture_ghost
+    remove_core = A90
 }
 
 622.1.1 = { 
-owner = A91
-controller = A91
-add_core = A91
-culture = culture_blood_elf
-religion = religion_arcane
+    owner = A91
+    controller = A91
+    add_core = A91
+    culture = culture_blood_elf
+    religion = religion_arcane
 }
 
 625.1.1 = { 
-owner = G18
-controller = G18
-add_core = G18
-religion = religion_fel
+    owner = G18
+    controller = G18
+    add_core = G18
+    religion = religion_fel
 }
 
 626.1.1 = { 
-owner = A91
-controller = A91
-add_core = A91
-remove_core = G18
-culture = culture_blood_elf
-religion = religion_light_of_the_sunwell
+    owner = A91
+    controller = A91
+    add_core = A91
+    remove_core = G18
+    culture = culture_blood_elf
+    religion = religion_light_of_the_sunwell
 }

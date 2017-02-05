@@ -16,32 +16,31 @@ religion = religion_geomancy
 hre = no
 trade_goods = thorium
 
-
-
-
 598.1.1 = { 
-owner = P98
-controller = P98
-add_core = P98
-add_core = F06
-culture = culture_dustbelcher
-religion = religion_geomancy
- }
+    owner = P98
+    controller = P98
+    add_core = P98
+    add_core = F06
+    culture = culture_dustbelcher
+    religion = religion_geomancy
+}
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = XXX
-controller = XXx
-remove_core = P98
-remove_core = F06
-culture = culture_dark_iron
-religion = religion_fire 
+    is_city = no
+    owner = XXX
+    controller = XXX
+    remove_core = P98
+    remove_core = F06
+    culture = culture_dark_iron
+    religion = religion_fire 
 }
 
 # Cataclysm
-631.1.1 = { 
-owner = P56
-controller = P56
-add_core = P56
-religion = religion_arcane 
+631.1.1 = {
+    is_city = yes
+    owner = P56
+    controller = P56
+    add_core = P56
+    religion = religion_arcane 
 }

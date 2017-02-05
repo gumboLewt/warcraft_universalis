@@ -1,5 +1,5 @@
 # 835
-is_city = no
+is_city = yes
 
 owner = P73
 controller = P73

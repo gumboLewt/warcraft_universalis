@@ -1,5 +1,5 @@
 # 1526 placeholder for marshal's refuge
-is_city = no
+is_city = yes
 
 base_tax = 2
 base_manpower = 1

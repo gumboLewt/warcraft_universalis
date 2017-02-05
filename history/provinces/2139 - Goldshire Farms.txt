@@ -4,11 +4,9 @@ add_core = A01
 owner = A01
 controller = A01
 
-
 base_tax = 3
 base_manpower = 2
 base_production = 3
-
 
 culture = culture_azerothian
 religion = religion_church_of_the_light
@@ -16,34 +14,28 @@ religion = religion_church_of_the_light
 hre = no
 trade_goods = grain
 
-
-
-
 # Fall of Stormwind
 597.1.1 = { 
-owner = A41
-controller = A41
-add_core = A41
-culture = culture_blackrock
-religion = religion_fel 
+    owner = A41
+    controller = A41
+    add_core = A41
+    culture = culture_blackrock
+    religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 600.1.1 = {
-owner = XXX
-controller = XXX
-culture = culture_azerothian
-religion = religion_church_of_the_light
-remove_core = A41 
-}
-
-616.11.11 = {
-owner = XXX
-controller = XXX 
+    is_city = no
+    owner = XXX
+    controller = XXX
+    culture = culture_azerothian
+    religion = religion_church_of_the_light
+    remove_core = A41 
 }
 
 # The Third War
 617.1.1 = { 
-owner = A01
-controller = A01
+    is_city = yes
+    owner = A01
+    controller = A01
 }

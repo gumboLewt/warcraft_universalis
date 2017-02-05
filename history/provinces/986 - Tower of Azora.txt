@@ -17,26 +17,28 @@ base_production = 3
 hre = no
 trade_goods = arcane
 
-
-
-
 # Fall of Stormwind
-597.1.1 = { owner = A45
-controller = A45
-add_core = A45
-culture = culture_dragonmaw
-religion = religion_fel }
+597.1.1 = { 
+    owner = A45
+    controller = A45
+    add_core = A45
+    culture = culture_dragonmaw
+    religion = religion_fel 
+}
 
 # Beyond the Dark Portal
-600.1.1 = {owner = XXX
-controller = XXX
-culture = culture_azerothian
-religion = religion_arcane }
-
-616.11.11 = {owner = XXX
-controller = XXX }
+600.1.1 = {
+    is_city = no
+    owner = XXX
+    controller = XXX
+    culture = culture_azerothian
+    religion = religion_arcane 
+}
 
 # The Third War
-617.1.1 = { owner = A01
-controller = A01
-remove_core = A45 }
+617.1.1 = { 
+    is_city = yes
+    owner = A01
+    controller = A01
+    remove_core = A45 
+}

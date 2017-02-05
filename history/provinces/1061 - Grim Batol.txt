@@ -1,9 +1,9 @@
 # 1061
 is_city = yes
 
-add_core = V01
-owner = V01
-controller = V01
+add_core = B03
+owner = B03
+controller = B03
 
 base_tax = 6
 base_manpower = 6
@@ -15,9 +15,6 @@ religion = religion_sect_of_dragons
 hre = no
 trade_goods = flying_mounts
 
-
-
-
 598.1.1 = { 
     owner = A45
     controller = A45
@@ -28,8 +25,8 @@ trade_goods = flying_mounts
 
 # Beyond the Dark Portal
 603.1.1 = { 
-    owner = V01
-    controller = V01
+    owner = B03
+    controller = B03
     culture = culture_red
     religion = religion_sect_of_dragons 
 }
@@ -44,6 +41,7 @@ trade_goods = flying_mounts
 }
 
 632.1.1 = { 
+    is_city = no
     owner = XXX
     controller = XXX
     remove_core = A43

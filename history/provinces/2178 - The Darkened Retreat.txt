@@ -25,6 +25,7 @@ trade_goods = fish
 
 # Beyond the Dark Portal
 600.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	culture = culture_azerothian
@@ -36,6 +37,7 @@ trade_goods = fish
 
 # Rise of the Qiraji
 622.1.1 = { 
+    is_city = yes
 	owner = A03
 	controller = A03
 }

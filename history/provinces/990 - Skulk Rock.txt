@@ -1,7 +1,6 @@
 # 990
 is_city = yes
 
-
 add_core = A60
 owner = A60 
 controller = A60
@@ -16,16 +15,13 @@ religion = religion_voodoo
 hre = no 
 trade_goods = army_supplies
  
-
-
-
- 
 # Beyond the Dark Portal
 600.1.1 = { 
-remove_core = A60 
-owner = XXX 
-controller = XXX
-culture = culture_ooze  
+    remove_core = A60 
+    owner = XXX 
+    controller = XXX
+    is_city = no
+    culture = culture_ooze  
 }
 
 

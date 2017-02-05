@@ -34,6 +34,7 @@ trade_goods = runecloth
 
 # The Burning Crusade (Blood Elves dont like High Elves and removed blocade)
 625.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX
 	add_core = F20 

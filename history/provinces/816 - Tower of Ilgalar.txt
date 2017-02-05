@@ -25,7 +25,8 @@ trade_goods = arcane
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+600.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX
 	add_core = A04
@@ -33,6 +34,7 @@ trade_goods = arcane
 
 # The Third War
 617.1.1 = {
+    is_city = yes
 	owner = A04
 	controller = A04
 	remove_core = P98

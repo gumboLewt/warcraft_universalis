@@ -14,9 +14,6 @@ religion = religion_elune
 hre = no
 trade_goods = ashenvale_lumber
 
-
-
-
 # After the Third War
 622.1.1 = {
 	owner = A94

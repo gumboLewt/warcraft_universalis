@@ -28,6 +28,7 @@ trade_goods = lumber
 600.1.1 = { 
     owner = XXX
     controller = XXX
+    is_city = no
     remove_core = A43
     culture = culture_bog_beast 
     religion = religion_druidic
@@ -35,6 +36,7 @@ trade_goods = lumber
 
 # Cataclysm
 631.1.1 = { 
+    is_city = yes
     owner = A94
     controller = A94
     add_core = A94

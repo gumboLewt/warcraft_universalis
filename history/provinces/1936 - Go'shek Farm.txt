@@ -27,6 +27,7 @@ trade_goods = grain
 
 # The Third War
 617.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	culture = culture_horde
@@ -35,6 +36,7 @@ trade_goods = grain
 
 # Rise of the Qiraji
 622.1.1 = {
+    is_city = yes
 	owner = A48
 	controller = A48
 	add_core = A48

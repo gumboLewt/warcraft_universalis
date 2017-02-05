@@ -1,5 +1,5 @@
 # 2107
-is_city = no
+is_city = yes
 
 owner = P79
 controller = P79

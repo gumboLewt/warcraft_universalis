@@ -15,9 +15,6 @@ religion = religion_water
 hre = no
 trade_goods = tropical_wood
 
-
-
-
 # First War
 592.1.1 = { 
 	owner = A40
@@ -29,6 +26,7 @@ trade_goods = tropical_wood
 
 # Beyond the Dark Portal
 600.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX
 	remove_core = A40
@@ -36,6 +34,7 @@ trade_goods = tropical_wood
 
 # Rise of the Qiraji
 622.1.1 = { 
+    is_city = yes
 	owner = B95
 	controller = B95
 	add_core = B95

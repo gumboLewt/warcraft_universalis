@@ -24,6 +24,7 @@ trade_goods = fish
 
 # Warlords of Draenor
 633.1.1 = { 
+    is_city = no
     owner = XXX
     controller = XXX
     culture = culture_jade_serpent

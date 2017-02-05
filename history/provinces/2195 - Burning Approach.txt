@@ -4,7 +4,6 @@ add_core = B17
 owner = B17
 controller = B17
 
-
 base_tax = 1
 base_manpower = 1
 base_production = 1
@@ -14,9 +13,6 @@ religion = religion_geomancy
 
 hre = no
 trade_goods = lumber
-
-
-
 
 # Fall of Stormwind
 597.1.1 = { 
@@ -29,12 +25,14 @@ trade_goods = lumber
 
 # Beyond the Dark Portal
 600.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 }
 
 # The Third War
 617.1.1 = { 
+    is_city = yes
 	owner = A04
 	controller = A04
 	remove_core = P98

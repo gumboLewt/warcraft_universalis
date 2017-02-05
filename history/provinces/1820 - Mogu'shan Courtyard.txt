@@ -17,6 +17,7 @@ trade_goods = artifacts
 
 # Warlords of Draenor
 633.1.1 = { 
+    is_city = no
     owner = XXX
     controller = XXX
     religion = religion_old_gods

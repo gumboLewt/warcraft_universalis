@@ -26,6 +26,7 @@ trade_goods = warbeasts
 
 # Beyond the Dark Portal
 600.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	add_core = F61
@@ -33,6 +34,7 @@ trade_goods = warbeasts
 
 # The Third War
 617.1.1 = {
+    is_city = yes
 	owner = A41
 	controller = A41
 	add_core = A41

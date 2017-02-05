@@ -17,9 +17,10 @@ trade_goods = smugglers
 
 # The Frozen Throne - Abandoned after the Plague seeps in
 618.1.1 = {
-owner = XXX
-controller = XXX
-culture = culture_scourge
-religion = religion_the_damned
-trade_goods = warbeasts
+    is_city = no
+    owner = XXX
+    controller = XXX
+    culture = culture_scourge
+    religion = religion_the_damned
+    trade_goods = warbeasts
 }

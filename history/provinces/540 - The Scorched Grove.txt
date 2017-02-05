@@ -16,6 +16,7 @@ trade_goods = grain
 
 # The Frozen Throne
 618.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	remove_core = A90

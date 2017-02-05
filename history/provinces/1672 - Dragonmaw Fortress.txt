@@ -15,8 +15,17 @@ religion = religion_ancestral
 hre = no
 trade_goods = flying_mounts
 
+546.1.1 = {
+    owner = A45
+    controller = A45
+    add_core = A45
+
+    culture = culture_dragonmaw
+    religion = religion_ancestral
+}
+
 592.1.1 = {
-religion = religion_fel
+    religion = religion_fel
 }
 
 #Outland
@@ -24,7 +33,8 @@ religion = religion_fel
 	owner = F48
 	controller = F48
 	add_core =  F48
-  remove_core = A45
+    remove_core = A45
+    
 	culture = culture_fel_orc
 	base_manpower = 5
 }

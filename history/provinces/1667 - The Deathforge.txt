@@ -15,13 +15,23 @@ religion = religion_light_of_the_naaru
 hre = no
 trade_goods = workshops
 
+546.1.1 = {
+    owner = A55
+    controller = A55
+    add_core =  A55
+
+    culture = culture_karaborian
+    religion = religion_light_of_the_naaru
+}
+
 592.1.1 = {
-owner = A45
-controller = A45
-add_core = A45
-remove_core = A55
-culture = culture_dragonmaw
-religion = religion_fel
+    owner = A45
+    controller = A45
+    add_core = A45
+    remove_core = A55
+    
+    culture = culture_dragonmaw
+    religion = religion_fel
 }
 
 #Outland

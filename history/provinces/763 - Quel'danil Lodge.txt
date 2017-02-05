@@ -17,19 +17,16 @@ trade_goods = fish
 
 # Beyond the Dark Portal
 600.1.1 = { 
+    is_city = no
 	remove_core = A60 
 	owner = XXX
 	controller = XXX
 	culture = culture_ooze 
 }
 
-630.11.11 = { 
-	owner = XXX
-	controller = XXX
-}
-
 # Cataclysm
 631.1.1 = {
+    is_city = yes
 	add_core = A60
 	owner = A60
 	controller = A60

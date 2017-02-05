@@ -15,13 +15,11 @@ religion = religion_voodoo
 hre = no
 trade_goods = fur
 
-
-
-
 # Cataclysm
 631.1.1 = {
-owner = XXX
-controller = XXX
-add_core = A60 
-culture = culture_vilebranch
+    is_city = no
+    owner = XXX
+    controller = XXX
+    add_core = A60 
+    culture = culture_vilebranch
 }

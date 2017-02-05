@@ -1,5 +1,5 @@
 # 2031 Forge Camp Rage
-is_city = no
+is_city = yes
 
 owner = A40
 controller = A40
@@ -27,12 +27,14 @@ religion = religion_fel
 }
 
 618.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX
 	religion = religion_fel
 }
 
 625.1.1 = {
+    is_city = yes
 	owner = B92
 	controller = B92
 	add_core = B92

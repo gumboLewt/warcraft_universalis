@@ -36,6 +36,7 @@ trade_goods = fish
 
 # Stromic population of this village leave to help mainland Stromgarde
 622.1.1 = {
+    is_city = no
     owner = XXX
     controller = XXX
     base_tax = 3
@@ -44,18 +45,5 @@ trade_goods = fish
 }
 
 630.11.11 = {
-    owner = XXX
-    controller = XXX
     culture = culture_arathi
 }
-
-# Cataclysm
-# Owned by Farson Hold (create them)
-631.1.1 = { 
-    #owner = A15
-    #controller = A15
-    #add_core = A15
-    #culture = culture_kul_tiran
-    #manpower = 3
-}
-

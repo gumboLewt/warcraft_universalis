@@ -1,5 +1,5 @@
 # 1621
-is_city = no
+is_city = yes
 
 base_tax = 4
 base_manpower = 4
@@ -16,8 +16,8 @@ trade_goods = fur
 
 #Outland
 601.1.1 = {
-owner = F83
-controller = F83
-add_core = F83
+    owner = F83
+    controller = F83
+    add_core = F83
 }
 

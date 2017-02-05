@@ -1,5 +1,5 @@
 # 726
-is_city = no
+is_city = yes
 
 
 owner = P74

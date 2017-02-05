@@ -35,11 +35,12 @@ trade_goods = fish
 
 # Cataclysm
 631.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX
 	culture = culture_ooze 
 	religion = religion_water
-        native_size = 10
-        native_ferocity = 10
-        native_hostileness = 10
+    native_size = 10
+    native_ferocity = 10
+    native_hostileness = 10
 }

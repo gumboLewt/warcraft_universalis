@@ -1,5 +1,5 @@
 # 1496 Thalanaar
-is_city = no
+is_city = yes
 
 owner = A85
 controller = A85
@@ -18,24 +18,25 @@ hre = no
 trade_goods = fish
 
 600.1.1 = {
-owner = XXX
-controller = XXX
-native_size = 1
-native_ferocity = 10
-native_hostileness = 10
+    owner = XXX
+    controller = XXX
+    native_size = 1
+    native_ferocity = 10
+    native_hostileness = 10
 }
 
-622.1.1 = [
-owner = A94
-controller = A94
-add_core = A94
-culture = culture_sentinel
-religion = religion_elune
-capital = "Thalanaar"
-trade_goods = moonwell
+622.1.1 = {
+    is_city = yes
+    owner = A94
+    controller = A94
+    add_core = A94
+    culture = culture_sentinel
+    religion = religion_elune
+    capital = "Thalanaar"
+    trade_goods = moonwell
 }
 
 631.1.1 = {
-capital = "New Thalanaar"
+    capital = "New Thalanaar"
 }
 

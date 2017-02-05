@@ -27,11 +27,7 @@ trade_goods = artifacts
 
 # The Third War
 617.1.1 = {
-	owner = XXX
-	controller = XXX
-}
-
-617.11.11 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	culture = culture_arathi
@@ -40,6 +36,7 @@ trade_goods = artifacts
 
 # The Frozen Throne
 618.1.1 = { 
+    is_city = yes
 	add_core = P28
 	controller = P28
 	owner = P28

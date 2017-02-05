@@ -14,16 +14,13 @@ religion = religion_elune
 hre = no
 trade_goods = ashenvale_lumber
 
-
-
-
 # After the Third War
 622.1.1 = {
 	owner = A94
 	controller = A94
 	add_core = A94
 	is_city = yes
-base_tax = 2
-base_manpower = 1
-base_production = 2
+    base_tax = 2
+    base_manpower = 1
+    base_production = 2
 }

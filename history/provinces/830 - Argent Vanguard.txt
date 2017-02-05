@@ -1,5 +1,5 @@
 # 830 Nerubian Vanguard
-is_city = no
+is_city = yes
 
 owner = P74
 controller = P74

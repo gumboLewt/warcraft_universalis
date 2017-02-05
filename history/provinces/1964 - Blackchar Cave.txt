@@ -15,20 +15,20 @@ religion = religion_fire
 hre = no
 trade_goods = thorium
 
-
-
-
-598.1.1 = { owner = P98
-controller = P98
-add_core = P98
-culture = culture_blackrock
-religion = religion_fel }
+598.1.1 = { 
+    owner = P98
+    controller = P98
+    add_core = P98
+    culture = culture_blackrock
+    religion = religion_fel 
+}
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = XXX
-controller = XXX
-remove_core = P98
-culture = culture_dark_iron
-religion = religion_fire
+    is_city = no
+    owner = XXX
+    controller = XXX
+    remove_core = P98
+    culture = culture_dark_iron
+    religion = religion_fire
 }

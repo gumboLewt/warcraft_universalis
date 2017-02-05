@@ -34,6 +34,7 @@ trade_goods = thorium
 
 # The Third War
 617.1.1 = { 
+    is_city = no
     owner = XXX
     controller = XXX 
     remove_core = A18
@@ -43,6 +44,7 @@ trade_goods = thorium
 
 # Warlords of Draenor
 633.1.1 = { 
+    is_city = yes
     owner = F26
     controller = F26
     add_core = F26

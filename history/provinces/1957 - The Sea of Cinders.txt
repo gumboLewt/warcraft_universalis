@@ -1,5 +1,5 @@
 # 1957
-is_city = no
+is_city = yes
 
 owner = P56
 controller = P56
@@ -16,13 +16,11 @@ religion = religion_arcane
 hre = no
 trade_goods = warbeasts
 
-
-
-
 # Fall of Stormwind
 597.1.1 = { 
-owner = XXX
-controller = XXX
+    is_city = no
+    owner = XXX
+    controller = XXX
 }
 
 

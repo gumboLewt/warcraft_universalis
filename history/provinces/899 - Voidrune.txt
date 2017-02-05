@@ -32,7 +32,7 @@ controller = B34
 add_core = B34
 culture = culture_nerglish
 religion = religion_water
-is_city = no
+is_city = yes
 }
 
 626.1.1 = {

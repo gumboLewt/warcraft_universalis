@@ -19,6 +19,7 @@ trade_goods = army_supplies
 # but population too small to hold territory, used as hunting ground
 
 600.1.1 = {
+    is_city = no
 	owner = XXX 
 	controller = XXX
 	culture = culture_high_elf
@@ -29,6 +30,7 @@ trade_goods = army_supplies
 
 # Cataclysm - Influx of Draenei Settlers after revantusk raids diminished elven population
 631.1.1 = {
+    is_city = yes
 	add_core = P49
 	owner = P49  
 	controller = P49

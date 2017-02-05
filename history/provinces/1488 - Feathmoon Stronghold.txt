@@ -1,6 +1,6 @@
 # 1488 - The Forgotten Shore
 
-is_city = no
+is_city = yes
 
 base_tax = 3
 base_manpower = 3

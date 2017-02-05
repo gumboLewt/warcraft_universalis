@@ -1,5 +1,5 @@
 # 1351 Ashenvale Verge
-is_city = no
+is_city = yes
 owner = F97
 controller = F97
 add_core = F97

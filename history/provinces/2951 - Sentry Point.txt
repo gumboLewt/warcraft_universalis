@@ -11,13 +11,9 @@ religion = religion_water
 hre = no
 trade_goods = pirates
 
-617.11.30 = { 
-	owner = XXX
-	controller = XXX 
-}
-
 # The Frozen Throne
 618.1.1 = { 
+    is_city = yes
 	controller = A23
 	owner = A23
 	add_core = A23

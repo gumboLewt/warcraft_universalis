@@ -1,5 +1,5 @@
 # 2104
-is_city = no
+is_city = yes
 
 owner = B49
 controller = B49

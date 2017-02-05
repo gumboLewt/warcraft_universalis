@@ -1,5 +1,5 @@
 # 1266 Death's Rise
-is_city = no
+is_city = yes
 
 owner = P17
 controller = P17

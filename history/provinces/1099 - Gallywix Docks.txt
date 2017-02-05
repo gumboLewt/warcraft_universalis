@@ -1,5 +1,5 @@
 # 1099
-is_city = no
+is_city = yes
 
 owner = A79
 controller = A79

@@ -1,5 +1,5 @@
 # 1423 Twin Oasis
-is_city = no
+is_city = yes
 capital = "Kolkar Oasis Camps"
 
 base_tax = 3

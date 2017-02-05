@@ -15,32 +15,30 @@ religion = religion_tech
 hre = no
 trade_goods = silk
 
-
-
-
 # The Second War
 598.1.1 = {
-owner = A80
-controller = A80
-add_core = A80
-remove_core = A32
-culture = culture_steamwheedle
-religion = religion_tech
+    owner = A80
+    controller = A80
+    add_core = A80
+    remove_core = A32
+    culture = culture_steamwheedle
+    religion = religion_tech
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
-owner = XXX
-controller = XXX
-remove_core = A80
-religion = religion_druidic
+600.1.1 = { 
+    is_city = no
+    owner = XXX
+    controller = XXX
+    remove_core = A80
+    religion = religion_druidic
 }
 
 # Cataclysm
 631.1.1 = {
-owner = P53
-controller = P53
-add_core = P53
-culture = culture_tunnel_rat
-religion = religion_geomancy
+    owner = P53
+    controller = P53
+    add_core = P53
+    culture = culture_tunnel_rat
+    religion = religion_geomancy
 }

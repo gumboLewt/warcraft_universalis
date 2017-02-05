@@ -39,6 +39,7 @@ trade_goods = army_supplies
 
 # Cataclysm
 631.1.1 = {
+    is_city = no
 	owner = XXX			# Forsaken Assault on Dun Garok
 	controller = XXX
 	culture = culture_ghost

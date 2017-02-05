@@ -1,6 +1,6 @@
 #1499 High Wilderness
 
-is_city = no
+is_city = yes
 
 base_tax = 3
 base_manpower = 3

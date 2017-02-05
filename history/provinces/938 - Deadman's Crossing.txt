@@ -28,6 +28,7 @@ trade_goods = runecloth
 
 # Beyond the Dark Portal
 600.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX
 	remove_core = A40

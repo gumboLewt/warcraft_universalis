@@ -16,8 +16,6 @@ hre = no
 trade_goods = army_supplies
 
 
-
-
 # Fall of Stormwind
 597.1.1 = { 
 	owner = P98
@@ -29,12 +27,14 @@ trade_goods = army_supplies
 
 # Beyond the Dark Portal
 600.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX 
 }
 
 # The Third War
 617.1.1 = { 
+    is_city = yes
 	owner = A04
 	controller = A04
 	remove_core = P98

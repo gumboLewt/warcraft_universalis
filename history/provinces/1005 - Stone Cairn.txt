@@ -18,12 +18,14 @@ trade_goods = fish
 
 # Beyond the Dark Portal
 600.1.1 = {
+    is_city = no
 	owner = XXX
 	controller = XXX 
 }
 
 # The Third War
 617.1.1 = {
+    is_city = yes
 	owner = F11
 	controller = F11
 	add_core = F11

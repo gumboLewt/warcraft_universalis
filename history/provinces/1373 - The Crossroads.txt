@@ -1,5 +1,5 @@
 # 1373
-is_city = no
+is_city = yes
 
 base_tax = 1
 base_manpower = 1
@@ -9,7 +9,6 @@ owner = A84
 controller = A84
 add_core = A84
 
-
 culture = culture_bloodhoof
 religion = religion_ancestral
 
@@ -17,29 +16,31 @@ hre = no
 trade_goods = grain
 
 617.1.1 = {
-owner = H04
-controller = H04
-add_core = H04
-culture = culture_kolkar
-religion = religion_geomancy
-remove_core = A84
+    owner = H04
+    controller = H04
+    add_core = H04
+    culture = culture_kolkar
+    religion = religion_geomancy
+    remove_core = A84
 }
 
-618.1.1 = {
-owner = XXX
-controller = XXX
-culture = culture_razormane
-religion = religion_geomancy
-remove_core = A89
+618.1.1 = { 
+    is_city = no
+    owner = XXX
+    controller = XXX
+    culture = culture_razormane
+    religion = religion_geomancy
+    remove_core = A89
 }
 
 622.1.1 = { 
-owner = A48
-controller = A48
-add_core = A48 
-base_tax = 4
-base_manpower = 4
-base_production = 4
-culture = culture_horde
-religion = religion_ancestral
+    is_city = yes
+    owner = A48
+    controller = A48
+    add_core = A48 
+    base_tax = 4
+    base_manpower = 4
+    base_production = 4
+    culture = culture_horde
+    religion = religion_ancestral
 }

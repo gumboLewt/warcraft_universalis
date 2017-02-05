@@ -1,5 +1,5 @@
 # 523 The conflageration/nerubian farms
-is_city = no
+is_city = yes
 
 
 owner = P74

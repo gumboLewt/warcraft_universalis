@@ -69,6 +69,7 @@ trade_goods = grain
 }
 
 632.1.1 = { 
+    is_city = no
 	remove_core = A02
 	owner = XXX
 	controller = XXX
@@ -78,6 +79,7 @@ trade_goods = grain
 
 # Warlords of Draenor
 633.1.1 = { 
+    is_city = yes
 	owner = F19
 	controller = F19
 	add_core = F19

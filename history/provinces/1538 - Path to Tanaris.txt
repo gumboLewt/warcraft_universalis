@@ -17,6 +17,7 @@ trade_goods = stone
 
 # Rise of the Qiraji
 622.1.1 = { 
+    is_city = no
 	owner = XXX
 	controller = XXX
 	culture = culture_silithid
@@ -24,9 +25,9 @@ trade_goods = stone
 }
 
 631.1.1 = {
-culture = culture_lordaeron
-religion = religion_church_of_the_light
-owner = F39
-controller = F39
-add_core = F39
+    culture = culture_lordaeron
+    religion = religion_church_of_the_light
+    owner = F39
+    controller = F39
+    add_core = F39
 }

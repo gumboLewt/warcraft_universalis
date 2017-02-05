@@ -1,4 +1,4 @@
-is_city = no
+is_city = yes
 owner = B30
 controller = B30
 add_core = B30
