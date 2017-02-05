@@ -28,17 +28,6 @@ country_event = {
                 duration = -1
                 hidden = yes
             }
-            if = {
-                limit = { 
-                    NOT = { started_in = 590 }
-                    tag = A41 
-                }
-                
-                change_religion = religion_fel
-                every_owned_province = {
-                    change_religion = religion_fel
-                }
-            }
         }
     }
 	
@@ -50,6 +39,11 @@ country_event = {
 			duration = -1
 		}
 		
+        change_religion = religion_fel
+        every_owned_province = {
+            change_religion = religion_fel
+        }
+        
 		ai_chance = { 
 			factor = 100 
 		}

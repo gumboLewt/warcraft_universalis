@@ -527,4 +527,7 @@
  restore_the_pandaren_empire_title: "Restore the Pandaren Empire"
  restore_the_pandaren_empire_desc: "Times have changed since the mist parted, we must change with it. While Shaohao was the last emperor after the mists formed we must declare a new one now they have parted. This will benefit all members of the empire now that we are united under a new authority allowing us to deal with the uncertainity of the outside world beyond our lands more quickly and safely than before."
  
+ free_core.1.title: "Expeditionary Force"
+ free_core.1.desc: "Our expeditionary force in a distant land has finally seized land from the natives. As hardy men an women, they'll be able to act as a hub for our communications immediately."
+ free_core.1.option.a: "Great!"
  
