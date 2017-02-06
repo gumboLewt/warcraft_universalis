@@ -6,7 +6,7 @@ NDefines.NGame.START_DATE = "546.1.1"
 NDefines.NGame.END_DATE = "100000.1.1"
 NDefines.NGame.MAX_RANDOM_NEW_WORLD = "100000.1.1"
 
-
+NDefines.NDiplomacy.NUM_OF_GREAT_POWERS = 0
 
 NDefines.NReligion.ASPECT_ADD_COST = 100
 NDefines.NReligion.ASPECT_REMOVE_COST = 0
@@ -32,8 +32,8 @@ NDefines.NReligion.CHANGE_SECONDARY_PRESTIGE_HIT = -50
 NDefines.NCountry.MONARCH_DEATH = 2
 
 
-NDefines.NCountry.ALLOW_FEMALE_GENERALS = 1
-NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 50	
+NDefines.NCountry.ALLOW_FEMALE_GENERALS = 1 
+NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 0 -- Supporting female portraits is too much
     
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_1 = 291
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_2 = 406
@@ -64,7 +64,7 @@ NDefines.NFrontend.CAMERA_LOOKAT_X = 4000.0
 
 NDefines.NCountry.PS_BUY_IDEA = 400
 NDefines.NCountry.PS_ADVANCE_TECH = 600
-NDefines.NCountry.MAX_CROWN_COLONIES = 1
+NDefines.NCountry.MAX_CROWN_COLONIES = 9999
 
 NDefines.NDiplomacy.TRUCE_YEARS = 2     -- Flat 2 years
 NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 0
