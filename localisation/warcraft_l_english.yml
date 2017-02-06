@@ -1968,6 +1968,12 @@
  fear_of_stromkar: "Fear of Strom'kar"
  fear_of_stromkar_desc: "Trolls fear Strom'kar, and will flee whenever it is sighted."
  
+ matriarchal: "Matriarchal"
+ matriarchal_desc: "As a matriarchal society, we only accept female advisors."
+ 
+ egalitarian: "Egalitarian"
+ egalitarian_desc: "As a egalitarian society, we accept both male and female advisors."
+ 
  #-----------------------------------
  # Estates
  #-----------------------------------

@@ -55,3 +55,6 @@ voidgfx
 flayergfx
 zangargfx
 pygmygfx
+cryptfiendgfx
+nerubiangfx
+

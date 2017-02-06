@@ -1,6 +1,6 @@
 # Silithid
 
-graphical_culture = westerngfx
+graphical_culture = aqirgfx
 
 color = { 88 236 230 }
 

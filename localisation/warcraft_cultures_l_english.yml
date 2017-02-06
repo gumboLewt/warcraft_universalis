@@ -136,6 +136,8 @@
  culture_stonespire: "Stonespire"
  
  culture_group_aqir: "Aqir"
+ culture_group_nerubian: "Nerubian"
+ culture_group_mantid: "Mantid"
  culture_nerubian: "Nerubian"
  culture_qiraji: "Qiraji"
  culture_silithid: "Silithid"
@@ -200,6 +202,8 @@
  culture_netherwing: "Netherwing Dragonflight"
  
  culture_group_undead: "Undead"
+ culture_group_scourge: "Scourge"
+ culture_group_crypt_fiends: "Crypt Fiend"
  culture_forsaken: "Undead"
  culture_undead_troll: "Undead Troll"
  culture_revenant: "Revenant"
