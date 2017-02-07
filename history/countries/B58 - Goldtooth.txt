@@ -3,7 +3,7 @@ government 			= war_tribe
 mercantilism 		= 10 
 technology_group 	= tech_kobold
 religion			= religion_geomancy
-primary_culture 	= culture_tunnel_rat
+primary_culture 	= culture_goldtooth
 capital 			= 962
 
 546.1.1 = { 
