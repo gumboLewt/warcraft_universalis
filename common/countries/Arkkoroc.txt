@@ -1,6 +1,6 @@
 #Arkkoroc
 
-graphical_culture = westerngfx
+graphical_culture = seagiantgfx
 
 color = { 14 121 134 }
 

@@ -1,0 +1,26 @@
+# Frostmane Empire
+H1 = {
+    always = no
+}
+
+# The Scourge
+P11 = {
+    always = no
+}
+
+P52 = {
+    always = no
+}
+
+P12 = {
+    always = no
+}
+
+P13 = {
+    always = no
+}
+
+F21 = { 
+    always = no
+}
+

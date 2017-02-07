@@ -30,7 +30,7 @@ trade_goods = elementium
     is_city = no
     owner = XXX
     controller = XXX
-    culture = culture_n_zoth
+    
     base_tax = 3
     base_manpower = 2
     base_production = 3

@@ -1,6 +1,6 @@
 # Atalai
 
-graphical_culture = westerngfx
+graphical_culture = trollgfx
 
 color = { 218 235 249 }
 

@@ -1,6 +1,6 @@
 # Shadowsworn orc cult
 
-graphical_culture = westerngfx
+graphical_culture = humagfx
 
 color = { 52 120 110 }
 

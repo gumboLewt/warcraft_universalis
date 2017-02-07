@@ -28,7 +28,7 @@ religion = religion_fel
 owner = A43
 controller = A43
 add_core = A43
-culture = culture_n_zoth
+
 religion = religion_old_gods
 }
 

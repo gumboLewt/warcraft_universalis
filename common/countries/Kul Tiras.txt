@@ -5,14 +5,7 @@ graphical_culture = westerngfx
 color = { 44 147 10 }
 
 historical_idea_groups = {
-	maritime_ideas #D1
-	naval_ideas #M1
-	exploration_ideas #D2
-	economic_ideas #A1
-	quality_ideas #M2
-	humanist_ideas #A2
-	trade_ideas #D3
-	innovativeness_ideas #A3
+
 }
 
 monarch_names = {

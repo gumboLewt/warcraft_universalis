@@ -20,6 +20,6 @@ controller = A43
 add_core = A43
 remove_core = H01
 add_core = A94
-culture = culture_twilight
+culture = culture_twilights_hammer
 religion = religion_old_gods
 }

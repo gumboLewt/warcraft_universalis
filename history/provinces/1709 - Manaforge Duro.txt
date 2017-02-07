@@ -19,7 +19,7 @@ trade_goods = arcane
 	controller = A43
 	remove_core = A54
 	religion = religion_fel
-	culture = culture_twilights_hammer
+	culture = culture_twilights_hammers_hammer
 }
 
 617.1.1 = {

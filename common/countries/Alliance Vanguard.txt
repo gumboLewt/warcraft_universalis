@@ -1,6 +1,6 @@
 # Alliance Vanguard
 
-graphical_culture = westerngfx
+graphical_culture = humangfx
 
 color = { 29 28 183 }
 

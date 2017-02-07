@@ -20,7 +20,7 @@ trade_goods = arcane
 	controller = A43
 	add_core = A43
 	remove_core = A98
-	culture = culture_twilight
+	culture = culture_twilights_hammer
 	
 	base_tax = 3
 	base_manpower = 3

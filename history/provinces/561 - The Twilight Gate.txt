@@ -37,5 +37,4 @@ trade_goods = army_supplies
     owner = XXX
     controller = XXX
     remove_core = A43
-    culture = culture_n_zoth
 }

@@ -1,6 +1,6 @@
 # Amani
 
-graphical_culture = westerngfx
+graphical_culture = trollgfx
 
 color = { 52 130 7 }
 

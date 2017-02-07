@@ -47,5 +47,5 @@ controller = B83
 add_core = B83
 remove_core = A43
 remove_core = F08
-culture = culture_n_zoth
+
 }

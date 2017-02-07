@@ -62,7 +62,7 @@ diety_deepmother =
 	
 	allow = { 
           religion = religion_water
-		  culture_group = culture_group_depths
+		  culture_group = culture_group_murloc
     }
 	sprite = 9
 	

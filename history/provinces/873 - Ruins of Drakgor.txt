@@ -32,7 +32,7 @@ owner = A43
 controller = A43
 add_core = A43
 religion = religion_old_gods
-culture = culture_twilight
+culture = culture_twilights_hammer
 }
 
 632.1.1 = { 
@@ -40,5 +40,5 @@ owner = B83
 controller = B83
 add_core = B83
 remove_core = A43
-culture = culture_n_zoth
+
 }

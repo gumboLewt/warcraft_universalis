@@ -22,7 +22,7 @@ trade_goods = flying_mounts
     add_core = B06
     remove_core = B03
     religion = religion_old_gods
-    culture = culture_twilight_dragon
+    culture = culture_twilights_hammer_dragon
 }
 
 632.1.1 = { 

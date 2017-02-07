@@ -1,6 +1,6 @@
 # Anglers
 
-graphical_culture = westerngfx
+graphical_culture = pandarengfx
 
 color = { 15 170 0 }
 

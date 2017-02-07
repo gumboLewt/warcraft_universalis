@@ -17,7 +17,7 @@ hre = no
 trade_goods = flying_mounts
 
 631.1.1 = {
-    culture = culture_twilight_dragon
+    culture = culture_twilights_hammer_dragon
     religion = religion_old_gods
     owner = B06
     controller = B06

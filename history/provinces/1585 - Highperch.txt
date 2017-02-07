@@ -28,7 +28,7 @@ trade_goods = flying_mounts
     controller = A43
     add_core = A43
     religion = religion_old_gods
-    culture = culture_twilight
+    culture = culture_twilights_hammer
     capital = "Twilight Aerie"
 }
 

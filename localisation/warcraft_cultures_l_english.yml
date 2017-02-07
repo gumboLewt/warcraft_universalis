@@ -157,6 +157,8 @@
  culture_felblood_elf: "Felblood Elf"
  culture_satyr: "Satyr"
  
+ culture_group_demonhunter: "Demon Hunters"
+ 
  culture_group_satyr: "Satyr"
  culture_jadefire: "Jadefire"
  culture_axxarian: "Axxarian"
@@ -172,19 +174,13 @@
  culture_vashjari: "Vashjari"
  culture_zoram: "Zoram"
  
- culture_group_depths: "Depths"
+ culture_group_murloc: "Murloc"
+ culture_group_jinyu: "Jinyu"
+ culture_group_lobstrok: "Lobstrok"
  culture_nerglish: "Murloc"
  culture_jinyu: "Jinyu"
- 
- culture_group_lobstrok: "Lobstrok"
  culture_makrura: "Makrura"
  culture_bogstrok: "Bogstrok"
- 
- culture_group_old_god: "Old God"
- culture_yogg_saron: "Yogg'Saron"
- culture_c_thun: "C'Thun"
- culture_n_zoth: "N'Zoth"
- culture_twilight: "Twilight Cultist"
  
  culture_group_scourge: "Scourge"
  culture_scourge: "Scourge"
@@ -205,6 +201,7 @@
  culture_group_undead: "Undead"
  culture_group_scourge: "Scourge"
  culture_group_crypt_fiends: "Crypt Fiend"
+ culture_group_ghost: "Ghost"
  culture_forsaken: "Undead"
  culture_undead_troll: "Undead Troll"
  culture_revenant: "Revenant"
@@ -290,6 +287,10 @@
  culture_razorfen: "Razorfen"
  
  culture_group_titan: "Titan"
+ culture_group_dwarven: "Dwarven"
+ culture_group_corrupted_dwarven: "Corrupted Dwarven"
+ culture_group_trogg: "Trogg"
+ culture_group_grummle: "Grummle"
  culture_earthen: "Earthen"
  culture_ironforge: "Ironforge"
  culture_wildhammer: "Wildhammer"
@@ -301,6 +302,12 @@
  culture_ulduar: "Ulduar"
  
  culture_group_elemental: "Elemental"
+ culture_group_fire: "Fire"
+ culture_group_earth: "Earth"
+ culture_group_water: "Water"
+ culture_group_air: "Air"
+ culture_group_nature: "Nature"
+ culture_group_sha: "Sha"
  culture_fire: "Fire"
  culture_earth: "Earth"
  culture_water: "Water"
@@ -324,6 +331,7 @@
  culture_arathi_worgen: "Stormic Worgen"
  
  culture_group_arrakoa: "Arrakoa"
+ culture_group_fallen_arrakoa: "Fallen Arrakoa"
  culture_sethekk: "Sethekk"
  culture_apexis: "Apexis"
  
@@ -370,6 +378,7 @@
  culture_kareshi: "K'areshi"
  
  culture_group_gnomish: "Gnomish"
+ culture_group_mecha_gnomish: "Mecha-Gnomish"
  culture_gnome: "Gnome"
  culture_leper_gnome: "Leper Gnome"
  culture_mecha_gnome: "Mechagnome"
@@ -390,7 +399,9 @@
  culture_group_taunka: "Taunka"
  culture_icemist: "Icemist"
 
- culture_group_giant: "Giant"
+ culture_group_ice_giant: "Frozen Giants"
+ culture_group_sea_giant: "Sea Giants"
+ culture_group_earth_giant: "Earthen Giants"
  culture_frost_giant: "Frost Giant"
  culture_ice_giant: "Ice Giant"
  culture_sea_giant: "Sea Giant"

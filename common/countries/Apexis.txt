@@ -1,6 +1,6 @@
 # Apexis
 
-graphical_culture = westerngfx
+graphical_culture = arrakoagfx
 
 color = { 59 212 96 }
 
