@@ -211,6 +211,196 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
     
+    # Female
+    spriteType = {
+		name = "GFX_advisor_artist_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_philosopher_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_natural_scientist_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_theologian_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_inquisitor_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_master_of_mint_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_treasurer_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_statesman_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_colonial_governor_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_diplomat_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_naval_reformer_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_navigator_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_trader_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_spymaster_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_grand_captain_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_commandant_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_army_organiser_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_army_reformer_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_recruitmaster_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_fortification_expert_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_quartermaster_female"
+		texturefile = "gfx//interface//advisors//dummy_advisor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
     #-----------------
     # Human
     #-----------------
@@ -5438,7 +5628,7 @@ spriteTypes = {
     #-----------------
     # harpygfx
     spriteType = {
-		name = "GFX_advisor_harpygfx_artist"
+		name = "GFX_advisor_harpygfx_artist_female"
 		texturefile = "gfx//interface//advisors//harpy//1.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5447,7 +5637,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_philosopher"
+		name = "GFX_advisor_harpygfx_philosopher_female"
 		texturefile = "gfx//interface//advisors///harpy//2.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5456,7 +5646,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_natural_scientist"
+		name = "GFX_advisor_harpygfx_natural_scientist_female"
 		texturefile = "gfx//interface//advisors///harpy//3.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5465,7 +5655,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_theologian"
+		name = "GFX_advisor_harpygfx_theologian_female"
 		texturefile = "gfx//interface//advisors///harpy//4.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5474,7 +5664,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_inquisitor"
+		name = "GFX_advisor_harpygfx_inquisitor_female"
 		texturefile = "gfx//interface//advisors///harpy//5.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5483,7 +5673,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_master_of_mint"
+		name = "GFX_advisor_harpygfx_master_of_mint_female"
 		texturefile = "gfx//interface//advisors///harpy//6.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5492,7 +5682,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_treasurer"
+		name = "GFX_advisor_harpygfx_treasurer_female"
 		texturefile = "gfx//interface//advisors///harpy//7.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5501,7 +5691,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_statesman"
+		name = "GFX_advisor_harpygfx_statesman_female"
 		texturefile = "gfx//interface//advisors///harpy//1.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5510,7 +5700,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_colonial_governor"
+		name = "GFX_advisor_harpygfx_colonial_governor_female"
 		texturefile = "gfx//interface//advisors///harpy//2.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5519,7 +5709,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_diplomat"
+		name = "GFX_advisor_harpygfx_diplomat_female"
 		texturefile = "gfx//interface//advisors///harpy//3.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5528,7 +5718,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_naval_reformer"
+		name = "GFX_advisor_harpygfx_naval_reformer_female"
 		texturefile = "gfx//interface//advisors///harpy//4.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5537,7 +5727,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_navigator"
+		name = "GFX_advisor_harpygfx_navigator_female"
 		texturefile = "gfx//interface//advisors///harpy//5.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5546,7 +5736,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_trader"
+		name = "GFX_advisor_harpygfx_trader_female"
 		texturefile = "gfx//interface//advisors///harpy//6.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5555,7 +5745,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_spymaster"
+		name = "GFX_advisor_harpygfx_spymaster_female"
 		texturefile = "gfx//interface//advisors///harpy//7.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5564,7 +5754,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_grand_captain"
+		name = "GFX_advisor_harpygfx_grand_captain_female"
 		texturefile = "gfx//interface//advisors///harpy//1.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5573,7 +5763,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_commandant"
+		name = "GFX_advisor_harpygfx_commandant_female"
 		texturefile = "gfx//interface//advisors///harpy//2.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5582,7 +5772,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_army_organiser"
+		name = "GFX_advisor_harpygfx_army_organiser_female"
 		texturefile = "gfx//interface//advisors///harpy//3.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5591,7 +5781,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_army_reformer"
+		name = "GFX_advisor_harpygfx_army_reformer_female"
 		texturefile = "gfx//interface//advisors///harpy//4.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5600,7 +5790,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_recruitmaster"
+		name = "GFX_advisor_harpygfx_recruitmaster_female"
 		texturefile = "gfx//interface//advisors///harpy//5.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5609,7 +5799,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_fortification_expert"
+		name = "GFX_advisor_harpygfx_fortification_expert_female"
 		texturefile = "gfx//interface//advisors///harpy//6.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -5618,7 +5808,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_advisor_harpygfx_quartermaster"
+		name = "GFX_advisor_harpygfx_quartermaster_female"
 		texturefile = "gfx//interface//advisors///harpy//7.dds"
 		noOfFrames = 1
 		norefcount = yes
