@@ -1515,6 +1515,11 @@
  X01: "The Risen"
  X01_ADJ: "Risen"
  
+ U01: "Frostmane Empire"
+ U01_ADJ: "Frostmane"
+ U02: "Empire of the Shifting Sands"
+ U02_ADJ: "Aqir"
+ 
  # Dragonflight Continental splinters
  V01: "Red Dragonflight"
  V01_ADJ: "Dragonkin"
@@ -2344,7 +2349,7 @@
  desc_soul_engines: "We have begun to fuel the Soul Engines, granting our troops much needs relief."
  
  CURRENT_BURNING_CRUSADE_TOOLTIP: "The current Burning Crusade target is displayed above."
- 
+ APH_ONLY_PANDARIA: "Only on Pandaria."
  
  
  

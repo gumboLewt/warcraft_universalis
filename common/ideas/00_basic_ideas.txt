@@ -735,11 +735,11 @@ w_defensive = {
         defensiveness = 0.33
     }
     
-    intimidation = {
+    self_sufficiency = {
         recover_army_morale_speed = 0.1s
     }
     
-    expert_trapper = {
+    expert_trappers = {
         hostile_attrition = 2
     }
     
@@ -767,7 +767,7 @@ w_offensive = {
         global_regiment_recruit_speed = -0.15
     }
     
-    technomancy_blueprints = {
+    engineering_blueprints = {
         leader_land_fire = 1
     }
     
@@ -954,7 +954,7 @@ w_raiding = {
         capture_ship_chance = 0.25
     }
     
-    massed_hulls = {
+    local_lumber = {
         galley_cost = -0.25
     }
     

@@ -1,5 +1,23 @@
 ﻿l_english:
  #-----------------------------------------------
+ # Formation
+ #-----------------------------------------------
+ theramore_nation_title: "Form Theramore"
+ theramore_nation_desc: "Build a great human-elven-dwarven country on eastern shores of Kalimdor"
+ 
+ found_orgrimmar_title: "Found Orgrimmar"
+ found_orgrimmar_desc: "Build a proud orcish country on the eastern coast of Kalimdor"
+ 
+ found_thunder_bluff_title: "Found Thunder Bluff"
+ found_thunder_bluff_desc: "Build a noble tauren country in the center of Kalimdor"
+ 
+ form_the_frostmane_empire_title: "Form the Frostmane Empire"
+ form_the_frostmane_empire_desc: "Form a great Troll empire."
+ 
+ establish_the_empire_of_the_shifting_sands_title: "Establish the Empire of the Shifting Sands"
+ establish_the_empire_of_the_shifting_sands_desc: "Establish an empire!"
+ 
+ #-----------------------------------------------
  # Human
  #-----------------------------------------------
  inspire_righteousness_title: "Inspire Righteousness"
@@ -134,24 +152,6 @@
  
  void_portals: "Void Portals"
  desc_void_portals: "We have constructed void portals, allowing us to more easily remove those that do not submit to the power of the Void."
- 
- #-----------------------------------------------
- # Theramore
- #-----------------------------------------------
- theramore_nation_title: "Form Theramore"
- theramore_nation_desc: "Build a great human-elven-dwarven country on eastern shores of Kalimdor"
- 
- #-----------------------------------------------
- # Orgrimmar
- #-----------------------------------------------
- found_orgrimmar_title: "Found Orgrimmar"
- found_orgrimmar_desc: "Build a proud orcish country on the eastern coast of Kalimdor"
- 
- #-----------------------------------------------
- # Thunder Bluff
- #-----------------------------------------------
- found_thunder_bluff_title: "Found Thunder Bluff"
- found_thunder_bluff_desc: "Build a noble tauren country in the center of Kalimdor"
  
  #-----------------------------------------------
  # Dragonflights

@@ -39,6 +39,27 @@ spriteTypes = {
 		texturefile = "gfx//interface//ui//banner_left_6.dds"
 	}
 
+    spriteType = {
+		name = "GFX_pandaria_hre_bg"
+		texturefile = "gfx//interface//ui//pandaria_hre_bg.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_banner_bamboo_310"
+		texturefile = "gfx//interface//ui//bamboo_60_310.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_banner_opposite"
+		texturefile = "gfx//interface//ui//combat_banner_opposite.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_bamboo_underline"
+		texturefile = "gfx//interface//ui//bamboo_underline.dds"
+	}
+    
     #----------------------------------------------
     # Buildings
     #----------------------------------------------

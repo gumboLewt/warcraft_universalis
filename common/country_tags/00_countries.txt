@@ -279,15 +279,6 @@ B07 = "countries/Infinite Dragonflight.txt" # not used, but potential formable?
 F78 = "countries/Wyrmcult.txt"
 
 V01 = "countries/Red Dragonflight.txt" # Eastern Kingdoms
-#V02
-#V03
-#V04
-#V05
-#V06
-#V07
-#V08
-#V09
-
 
 # Vrykul
 B08 = "countries/Dragonflayer.txt"
@@ -605,25 +596,9 @@ F71 = "countries/Sporelok.txt"
 # Pygmy
 G15 = "countries/Oogah.txt"
 
-
-
 # Formables
-H1 = "countries/Frostmane Empire.txt"
-#Arak
-#Orgrimmar
-#Thunderbluff
-#The Ethereum
-#Orcish Horde
-#Scarlet Onslaught
-#Argent Crusade
-#New Gilneas
-#Stromgarde
-#Azj'Aqir
-#Azjol-Nerub
-#Zandalari Empire
-#Trade Coalition
-#Thunder Kingdom
-
+U01 = "countries/Frostmane Empire.txt"
+U02 = "countries/Empire of the Shifting Sands.txt"
 
 # Cultural Formables
 #Amani Empire (FOREST TROLL)

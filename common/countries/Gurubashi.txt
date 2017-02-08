@@ -1,6 +1,6 @@
 # Gurubashi
 
-graphical_culture = westerngfx
+graphical_culture = trollgfx
 
 color = { 186 45 45 }
 

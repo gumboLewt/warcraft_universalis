@@ -148,11 +148,11 @@ can_add_estate = {
 # Called by can_add_province_to_hre
 is_possible_hre_province = {
   condition = {
-    tooltip = "APH_ONLY_EUROPE"
+    tooltip = "APH_ONLY_PANDARIA"
     potential = {
     }
     allow = {
-      continent = europe
+      continent = continent_pandaria
     }
   }
 }
