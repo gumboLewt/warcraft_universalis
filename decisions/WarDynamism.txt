@@ -21,6 +21,7 @@ country_decisions = {
     ownership_settings = {
 		potential = {
 			ai = no
+            is_savage = yes
 		}
 		
 		allow = {

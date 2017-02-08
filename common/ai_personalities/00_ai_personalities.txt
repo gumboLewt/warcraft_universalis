@@ -38,19 +38,15 @@ ai_capitalist = {
 		}
 		modifier = {
 			factor = 1.1
-			administrative_ideas = 1
+			w_administrative = 1
 		}		
 		modifier = {
 			factor = 1.1
-			trade_ideas = 1
+			w_trade = 1
 		}			
 		modifier = {
 			factor = 1.1
-			economic_ideas = 1
-		}
-		modifier = {
-			factor = 1.1
-			plutocracy_ideas = 1
+			w_economic = 1
 		}
 		modifier = {
 			factor = 1.25 
@@ -97,22 +93,18 @@ ai_diplomat = {
 		modifier = {
 			factor = 1.5
 			dip = 6
+		}		
+		modifier = {
+			factor = 1.1
+			w_espionage = 1
 		}
 		modifier = {
 			factor = 1.1
-			aristocracy_ideas = 1
-		}			
-		modifier = {
-			factor = 1.1
-			spy_ideas = 1
-		}
-		modifier = {
-			factor = 1.1
-			diplomatic_ideas = 1
+			w_diplomatic = 1
 		}	
 		modifier = {
 			factor = 1.1
-			innovativeness_ideas = 1
+			w_innovative = 1
 		}		
 		modifier = {
 			factor = 1.25
@@ -133,6 +125,7 @@ ai_diplomat = {
             OR = {
                 culture_group = culture_group_darnassian
                 culture_group = culture_group_draenei
+                culture_group = culture_group_broken
                 culture_group = culture_group_tauren
             }
 		}
@@ -177,23 +170,23 @@ ai_militarist = {
 		}	
 		modifier = {
 			factor = 1.1
-			offensive_ideas = 1
+			w_offensive = 1
 		}			
 		modifier = {
 			factor = 1.1
-			defensive_ideas = 1
+			w_defensive = 1
 		}
 		modifier = {
 			factor = 1.1
-			quality_ideas = 1
+			w_quality = 1
 		}
 		modifier = {
 			factor = 1.1
-			quantity_ideas = 1
+			w_quantity = 1
 		}			
 		modifier = {
 			factor = 1.1
-			religious_ideas = 1
+			w_raiding = 1
 		}		
 		modifier = {
 			factor = 1.25
@@ -218,11 +211,16 @@ ai_militarist = {
                 culture_group = culture_group_zandalar_troll
                 culture_group = culture_group_dark_troll
                 culture_group = culture_group_aqir
+                culture_group = culture_group_nerubian
+                culture_group = culture_group_mantid
                 culture_group = culture_group_demonic
                 culture_group = culture_group_satyr
                 culture_group = culture_group_naga
-                culture_group = culture_group_depths
+                culture_group = culture_group_murloc
                 culture_group = culture_group_undead
+                culture_group = culture_group_scourge
+                culture_group = culture_group_crypt_fiends
+                culture_group = culture_group_ghost
             }
 		}
 	}
@@ -262,19 +260,15 @@ ai_colonialist = {
 		}	
 		modifier = {
 			factor = 1.1
-			trade_ideas = 1
+			w_trade = 1
 		}			
 		modifier = {
 			factor = 1.1
-			exploration_ideas = 1
+			w_expansion = 1
 		}			
 		modifier = {
 			factor = 1.1
-			maritime_ideas = 1
-		}
-		modifier = {
-			factor = 1.1
-			expansion_ideas = 1
+			w_maritime = 1
 		}		
 		modifier = {
 			factor = 0

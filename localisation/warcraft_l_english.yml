@@ -469,7 +469,6 @@
  nerubiangfx: "Nerubian"
  brokengfx: "Broken"
  dwarvengfx: "Dwarven" # 1 to 21
- darkirongfx: "Dark Iron"
  firegfx: "Fire"
  earthgfx: "Earth"
  watergfx: "Water"
@@ -488,6 +487,7 @@
  grummlegfx: "Grummle"
  murlocgfx: "Murloc"
  fallenarrakoagfx: "Fallen Arrakoa"
+ northrendtitangfx: "Northrend Titan"
 
  #-----------------------------------------------
  # Tradenodes

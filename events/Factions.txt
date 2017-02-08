@@ -34,13 +34,14 @@ country_event = {
 	picture = LOTHAR_FIRE_eventPicture
 
 	major = yes
+    
 	trigger = {
 		is_subject = yes
 		has_country_modifier = alliance_member
 	}
 
 	mean_time_to_happen = {
-		days = 0
+		days = 1
 	}
 
 	immediate = {
@@ -94,7 +95,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 0
+		days = 1
 	}
 
 	immediate = {

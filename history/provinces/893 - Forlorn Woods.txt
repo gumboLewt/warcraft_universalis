@@ -10,7 +10,7 @@ base_manpower = 3
 base_production = 3
 
 
-culture = culture_crystal_satyr
+culture = culture_crystal_nymph
 religion = religion_arcane
 
 hre = no
@@ -27,7 +27,7 @@ religion = religion_sect_of_dragons
 631.1.1 = {
 owner = P77
 controller = P77
-culture = culture_crystal_satyr
+culture = culture_crystal_nymph
 religion = religion_arcane
 remove_core = B01
 }
