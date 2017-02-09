@@ -2192,13 +2192,10 @@
  #-----------------------------------
  # Missions
  #-----------------------------------
- amass_wealth_title: "Amass Wealth"
- amass_wealth_desc: "Our coffers are looking empty. Let us hoard some wealth so we are protected from any unanticipated spending."
- 
- triple_alliance_title: "Make Friends"
+ triple_alliance_title: "Allegiances"
  triple_alliance_desc: "The list of our allies grows short. Without probing some of our potential allies, we may find ourselves with no what so ever."
  
- win_the_affections_of_the_people_title: "Win over the People"
+ win_the_affections_of_the_people_title: "Devotion of the People"
  win_the_affections_of_the_people_desc: "Our people are cautious folk, and many have distanced themselves from the [Root.Monarch.GetTitle] over the years. Let us bring these folk back into the fold, and win their favour."
  
  remove_unrest_title: "Reduce Unrest"
@@ -2224,6 +2221,69 @@
  
  conquer_burning_steppes_title: "Conquer Burning Steppes"
  conquer_burning_steppes_desc: "The inhabitants of the Burning Steppes are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_searing_gorge_title: "Conquer the Searing Gorge"
+ conquer_searing_gorge_desc: "The inhabitants of the Searing Gorge are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_badlands_title: "Conquer the Badlands"
+ conquer_badlands_desc: "The inhabitants of the Badlands are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_dun_morogh_title: "Conquer Dun Morogh"
+ conquer_dun_morogh_desc: "The inhabitants of Dun Morogh are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_loch_modan_title: "Conquer Loch Modan"
+ conquer_loch_modan_desc: "The inhabitants of Loch Modan are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_twilight_highlands_title: "Conquer the Twilight Highlands"
+ conquer_twilight_highlands_desc: "The inhabitants of the Twilight Highlands are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_the_wetlands_title: "Conquer the Wetlands"
+ conquer_the_wetlands_desc: "The inhabitants of the Wetlands are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_the_hinterlands_title: "Conquer the Hinterlands"
+ conquer_the_hinterlands_desc: "The inhabitants of the Hinterlands are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_arathi_highlands_title: "Conquer the Arathi Highlands"
+ conquer_arathi_highlands_desc: "The inhabitants of the Arathi Highlands are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_kul_tiras_title: "Conquer Kul Tiras"
+ conquer_kul_tiras_desc: "The inhabitants of Kul Tiras are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_zul_dare_title: ""
+ conquer_zul_dare_desc: "The inhabitants of the Burning Steppes are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_tol_barad_title: "Conquer Tol Barad"
+ conquer_tol_barad_desc: "The inhabitants of Tol Barad are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_hillsbrad_foothills_title: "Conquer the Hillsbrad Foothills"
+ conquer_hillsbrad_foothills_desc: "The inhabitants of the Hillsbrad Foothills are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_alterac_mountains_title: ""Conquer the Alterac Mountains
+ conquer_alterac_mountains_desc: "The inhabitants of the Alterac Mountains are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_gilneas_title: "Conquer Gilneas"
+ conquer_gilneas_desc: "The inhabitants of Gilneas are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_silverpine_forest_title: "Conquer Silverpine Forest"
+ conquer_silverpine_forest_desc: "The inhabitants of Silverpine Forest are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_tirisfal_glades_title: "Conquer Tirisfal Glades"
+ conquer_tirisfal_glades_desc: "The inhabitants of Tirisfal Glades are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_western_plaguelands_title: "Conquer the Western Plaguelands"
+ conquer_western_plaguelands_desc: "The inhabitants of the Western Plaguelands are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_eastern_plaguelands_title: "Conquer the Eastern Plaguelands"
+ conquer_eastern_plaguelands_desc: "The inhabitants of the Eastern Plaguelands are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_ghostlands_title: "Conquer the Ghostlands"
+ conquer_ghostlands_desc: "The inhabitants of the Ghostlands are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_eversong_woods_title: "Conquer Eversong Woods"
+ conquer_eversong_woods_desc: "The inhabitants of the Eversong Woods are opposed to us in every way. Let us teach them what it means to be a conqueror!"
+ 
+ conquer_isle_of_quel_danas_title: "Conquer the Isle of Quel'Danas"
+ conquer_isle_of_quel_danas_desc: "The inhabitants of Quel'Danas are opposed to us in every way. Let us teach them what it means to be a conqueror!"
  
  # Mission modifiers
  friend_to_all: "Friend to All"

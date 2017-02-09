@@ -46,7 +46,7 @@ w_administrative = {
 	category = ADM
 
 	bonus = {
-    
+        
 	}
 
     w_administrative_1 = {

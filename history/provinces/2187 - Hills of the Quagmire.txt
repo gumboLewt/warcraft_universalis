@@ -1,45 +1,17 @@
-# 2187
+# 8
 is_city = yes
 
 base_tax = 1
 base_manpower = 1
 base_production = 1
 
-owner = B29
-controller = B29
-add_core = B29
 
-culture = culture_nerglish
-religion = religion_water
+culture = noculture
+religion = noreligion
 
 hre = no
-trade_goods = fish
+trade_goods = grain
 
-# First War
-592.1.1 = { 
-	owner = A41
-	controller = A41
-	add_core = A41
-	culture = culture_blackrock
-	religion = religion_fel 
-}
 
-# Beyond the Dark Portal
-600.1.1 = { 
-	owner = F34
-	controller = F34
-	add_core = F34
-	culture = culture_broken
-	religion = religion_light_of_the_naaru
-	remove_core = A41
-}
 
-# The Third War
-617.1.1 = { 
-	owner = F35
-	controller = F35
-	add_core = F35
-	culture = culture_lost_one
-	religion = religion_ancestral
-	remove_core = F34
-}
+

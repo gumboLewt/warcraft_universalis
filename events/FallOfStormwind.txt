@@ -8,30 +8,23 @@ country_event = {
 	picture = MANNOROTH_eventPicture # Placeholder
     
     major = yes
+    fire_only_once = yes
     
     trigger = {
+        always = no
         technology_group = tech_orc # Fire on a orc nation to grab the culture/religion
+        NOT = { is_year = 598 }
         OR = {
-            # If started in the bookmark, just fire it as soon as possible
-            AND = {
-                ai = no
-                started_in = 597.1.1
-            }
-            # Otherwise, wait for Stormwind to have it's capital sieged in a war against an Orc (ROOT)
-            AND = {
-                OR = {
-                    started_in = 546.1.1
-                    started_in = 592.1.1
-                }
-                technology_group = tech_orc
-                is_evil = yes
-                war_with = A01
-                A01 = {
-                    ai = yes
-                    capital_scope = {
-                        sieged_by = ROOT
-                    }
-                }
+            started_in = 546.1.1
+            started_in = 592.1.1
+        }
+        technology_group = tech_orc
+        is_evil = yes
+        war_with = A01
+        A01 = {
+            ai = yes
+                capital_scope = {
+                sieged_by = ROOT
             }
         }
     }

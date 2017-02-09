@@ -1,0 +1,55 @@
+namespace = merchants_estate_disasters
+
+# The Bazaar is soverign
+country_event = {
+    id = merchants_estate_disasters.1
+    title = merchants_estate_disasters.1.t
+    desc = merchants_estate_disasters.1.d
+    picture = BURNING_CASTLE_eventPicture
+
+    major = yes
+    is_triggered_only = yes
+
+    immediate = {
+        add_stability = -5
+        change_government = mercantile_republic
+    }
+
+    option = {
+        name = merchants_estate_disasters.1.a
+    }
+}
+
+# The Bazaar is independent
+country_event = {
+    id = merchants_estate_disasters.2
+    title = merchants_estate_disasters.2.t
+    desc = merchants_estate_disasters.2.d
+    picture = BANKRUPTCY_eventPicture
+
+    major = yes
+    is_triggered_only = yes
+
+    immediate = {
+        add_stability = -3
+    }
+
+    option = {
+        name = merchants_estate_disasters.2.a
+    }
+}
+
+# Bazaar brought to heel
+country_event = {
+    id = merchants_estate_disasters.3
+    title = merchants_estate_disasters.3.t
+    desc = merchants_estate_disasters.3.d
+    picture = ECONOMY_eventPicture
+
+    major = yes
+    is_triggered_only = yes
+
+    option = {
+        name = merchants_estate_disasters.3.a
+    }
+}

@@ -35,6 +35,10 @@ nationalist_rebels = {
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 10
+        modifier = {
+			factor = 10
+			has_province_modifier = "roaming_orcs"
+		}
 		modifier = {
 			factor = 0.01
 			NOT = { nationalism = 1 }
@@ -184,6 +188,7 @@ nationalist_rebels = {
 			every_owned_province = {
 				limit = {
 					has_rebel_faction = REB
+					culture = REB
 				}
 				if = {
 					limit = { NOT = { is_core = REB } }
@@ -199,7 +204,9 @@ nationalist_rebels = {
 			every_owned_province = {
 				limit = {
 					has_rebel_faction = REB
+					culture = REB
 					NOT = { is_core = REB }
+					culture = REB
 				}
 				add_core = REB
 			}

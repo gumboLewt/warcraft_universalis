@@ -1,0 +1,1792 @@
+#-----------------------------------
+# AI Direction
+#-----------------------------------
+conquer_duskwood = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_duskwood = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        # Only allow when they border the region
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_duskwood
+            }
+        }
+        
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_duskwood = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_duskwood = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_duskwood = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_deadwind_pass = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_deadwind_pass = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        # Only allow when they border the region
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_deadwind_pass
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_deadwind_pass = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_deadwind_pass = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_deadwind_pass = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_westfall = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_westfall = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_westfall
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_westfall = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_westfall = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_westfall = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_elwynn_forest = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_elwynn_forest = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_elwynn_forest
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_elwynn_forest = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_elwynn_forest = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_elwynn_forest = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_redridge_mountains = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_redridge_mountains = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_redridge_mountains
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_redridge_mountains = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_redridge_mountains = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_redridge_mountains = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_burning_steppes = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_burning_steppes = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_burning_steppes
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_burning_steppes = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_burning_steppes = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_burning_steppes = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_searing_gorge = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_searing_gorge = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_searing_gorge
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_searing_gorge = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_searing_gorge = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_searing_gorge = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_badlands = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_badlands = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_badlands
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_badlands = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_badlands = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_badlands = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_dun_morogh = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_dun_morogh = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_dun_morogh
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_dun_morogh = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_dun_morogh = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_dun_morogh = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_loch_modan = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_loch_modan = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_loch_modan
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_loch_modan = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_loch_modan = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_loch_modan = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_twilight_highlands = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_twilight_highlands = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_twilight_highlands
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_twilight_highlands = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_twilight_highlands = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_twilight_highlands = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_the_wetlands = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_wetlands = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_wetlands
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_wetlands = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_wetlands = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_wetlands = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_the_hinterlands = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_the_hinterlands = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_the_hinterlands
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_the_hinterlands = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_the_hinterlands = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_the_hinterlands = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_arathi_highlands = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_arathi_highlands = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_arathi_highlands
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_arathi_highlands = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_arathi_highlands = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_arathi_highlands = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_kul_tiras = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_kul_tiras = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_kul_tiras
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_kul_tiras = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_kul_tiras = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_kul_tiras = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_zul_dare = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_zul_dare = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_zul_dare
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_zul_dare = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_zul_dare = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_zul_dare = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_tol_barad = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_tol_barad = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_tol_barad
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_tol_barad = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_tol_barad = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_tol_barad = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_hillsbrad_foothills = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_hillsbrad_foothills = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_hillsbrad_foothills
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_hillsbrad_foothills = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_hillsbrad_foothills = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_hillsbrad_foothills = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_alterac_mountains = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_alterac_mountains = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_alterac_mountains
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_alterac_mountains = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_alterac_mountains = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_alterac_mountains = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_gilneas = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_gilneas = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_gilneas
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_gilneas = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_gilneas = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_gilneas = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_silverpine_forest = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_silverpine_forest = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_silverpine_forest
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_silverpine_forest = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_silverpine_forest = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_silverpine_forest = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_tirisfal_glades = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_tirisfal_glades = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_tirisfal_glades
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_tirisfal_glades = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_tirisfal_glades = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_tirisfal_glades = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_western_plaguelands = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_western_plaguelands = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_western_plaguelands
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_western_plaguelands = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_western_plaguelands = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_western_plaguelands = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_eastern_plaguelands = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_eastern_plaguelands = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_eastern_plaguelands
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_eastern_plaguelands = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_eastern_plaguelands = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_eastern_plaguelands = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_ghostlands = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_ghostlands = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_ghostlands
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_ghostlands = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_ghostlands = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_ghostlands = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_eversong_woods = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_eversong_woods = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_eversong_woods
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_eversong_woods = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 10
+			OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+        
+	}
+	immediate = {
+		region_eversong_woods = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_eversong_woods = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}
+
+conquer_isle_of_quel_danas = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+        
+		region_isle_of_quel_danas = {
+			NOT = { owned_by = ROOT }
+            # Only allow if the cultures are sufficiently different
+            OR = {
+                NOT = { culture_group = ROOT }
+                NOT = { religion_group = ROOT }
+            }
+		}
+        
+        any_owned_province = {
+            any_neighbor_province = {
+                region = region_isle_of_quel_danas
+            }
+        }
+	}
+	abort = {
+		always = no
+	}
+	success = {
+		region_isle_of_quel_danas = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 250
+        
+        modifier = {
+			factor = 0.1
+			NOT = { is_savage = yes }
+		}
+        
+        modifier = {
+			factor = 10
+			
+            OR = {
+                culture_group = culture_group_orc
+                culture_group = culture_group_forest_troll
+                culture_group = culture_group_jungle_troll
+                culture_group = culture_group_sand_troll
+                culture_group = culture_group_ice_troll
+                culture_group = culture_group_zandalar_troll
+                culture_group = culture_group_dark_troll  
+            }
+		}
+	}
+	immediate = {
+		region_isle_of_quel_danas = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		region_isle_of_quel_danas = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}

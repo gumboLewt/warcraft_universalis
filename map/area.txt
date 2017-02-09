@@ -605,11 +605,7 @@ area_splinterspear_bog = {
 }
 
 area_swamps_of_sorrow = {
-    2155 2156 994 
-}
-
-area_hills_of_sorrow = {
-    2187 2179 2191
+    2155 2156 994 2191
 }
 
 area_sorrowmurk = {

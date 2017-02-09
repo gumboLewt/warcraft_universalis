@@ -8,6 +8,9 @@
  kings_grasp: "King's Grasp"
  desc_kings_grasp: "Our grip over our subjects is unbreakable!"
  
+ roaming_orcs: "Roaming Orcs"
+ desc_roaming_orcs: "A contigent of orcs are roaming the lands in this province."
+ 
  #------------------------------------------------
  # Province
  #------------------------------------------------
