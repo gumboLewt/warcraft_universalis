@@ -11,6 +11,19 @@
  colonial_government_desc: "A splinter realm of another realm from a distant continent."
  
  #---------------------------------------------------------
+ # Ideas
+ #---------------------------------------------------------
+ plutocracy_ideas: "Peasantry Ideas"
+ plutocracy_ideas_desc: ""
+ bill_of_rights: "Peasant Freedoms"
+ bill_of_rights_desc: ""
+ abolished_serfdom: "Loyalty to the Crown"
+ abolished_serfdom_desc: ""
+ emancipation: "Warhungry"
+ emancipation_desc: ""
+ 
+ 
+ #---------------------------------------------------------
  # Reform Desire
  #---------------------------------------------------------
  REFORM_DESIRE_TOOLTIP:0 "§YInvasion Thirst§!\nThis represents how soon a Burning Legion attack will occur. If it goes too high we may see large scale invasions across Azeroth. This level is common through the entire world, and actions by any monarch may increase it."

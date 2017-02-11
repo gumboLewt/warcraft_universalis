@@ -49,6 +49,9 @@ NDefines.NCountry.HRE_RANK = 2
 NDefines.NCountry.HRE_MAX_RANK = 3							
 NDefines.NCountry.HRE_MAX_RANK_ELECTOR = 3				
 NDefines.NCountry.SUBJECT_MAX_RANK = 2
+NDefines.NDiplomacy.HRE_PRINCE_AUTHORITY_THRESHOLD = 20
+NDefines.NDiplomacy.HRE_HERETIC_PENALTY = 0
+NDefines.NDiplomacy.LACK_OF_ELECTORS_HIT = 0
 
 NDefines.NCountry.PS_DEMAND_NON_WARGOAL_PEACE_PRIMITIVES = 50
 NDefines.NEconomy.GOLD_MINE_SIZE_PRIMITIVES = 40

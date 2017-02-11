@@ -10,6 +10,7 @@ country_event = {
 	is_triggered_only = yes
     
     trigger = {
+        has_dlc = "Rights of Man"
         ruler_has_personality = immortal_personality
     }
    
@@ -42,6 +43,7 @@ country_event = {
 	is_triggered_only = yes
     
     trigger = {
+        has_dlc = "Rights of Man"
         ruler_has_personality = immortal_personality
     }
    
@@ -72,6 +74,7 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
 	
     trigger = {
+        has_dlc = "Rights of Man"
         NOT = { ruler_has_personality = immortal_personality } 
         NOT = { has_ruler_flag = set_immortality }
         OR = {
@@ -121,6 +124,7 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
 	
     trigger = {
+        has_dlc = "Rights of Man"
         ruler_has_personality = immortal_personality 
         OR = {
             # Dwarfs

@@ -38,15 +38,15 @@ ai_capitalist = {
 		}
 		modifier = {
 			factor = 1.1
-			w_administrative = 1
+			administrative_ideas = 1
 		}		
 		modifier = {
 			factor = 1.1
-			w_trade = 1
+			trade_ideas = 1
 		}			
 		modifier = {
 			factor = 1.1
-			w_economic = 1
+			economic_ideas = 1
 		}
 		modifier = {
 			factor = 1.25 
@@ -96,15 +96,15 @@ ai_diplomat = {
 		}		
 		modifier = {
 			factor = 1.1
-			w_espionage = 1
+			spy_ideas = 1
 		}
 		modifier = {
 			factor = 1.1
-			w_diplomatic = 1
+			diplomatic_ideas = 1
 		}	
 		modifier = {
 			factor = 1.1
-			w_innovative = 1
+			innovativeness_ideas = 1
 		}		
 		modifier = {
 			factor = 1.25
@@ -170,24 +170,20 @@ ai_militarist = {
 		}	
 		modifier = {
 			factor = 1.1
-			w_offensive = 1
+			offensive_ideas = 1
 		}			
 		modifier = {
 			factor = 1.1
-			w_defensive = 1
+			defensive_ideas = 1
 		}
 		modifier = {
 			factor = 1.1
-			w_quality = 1
+			quality_ideas = 1
 		}
 		modifier = {
 			factor = 1.1
-			w_quantity = 1
-		}			
-		modifier = {
-			factor = 1.1
-			w_raiding = 1
-		}		
+			quantity_ideas = 1
+		}				
 		modifier = {
 			factor = 1.25
 			any_neighbor_country = {
@@ -260,15 +256,15 @@ ai_colonialist = {
 		}	
 		modifier = {
 			factor = 1.1
-			w_trade = 1
+			trade_ideas = 1
 		}			
 		modifier = {
 			factor = 1.1
-			w_expansion = 1
+			expansion_ideas = 1
 		}			
 		modifier = {
 			factor = 1.1
-			w_maritime = 1
+			maritime_ideas = 1
 		}		
 		modifier = {
 			factor = 0
