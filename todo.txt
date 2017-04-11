@@ -1,7 +1,0 @@
-- Reduce strength of the Scourge/Warband governments
-- Make Undead immortal
-- Add story events for each bookmark
-
-MAP
-- Add Eye of Azshara
-- Reduce Mak'rana height

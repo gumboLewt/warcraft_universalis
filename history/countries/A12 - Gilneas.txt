@@ -81,13 +81,12 @@ capital = 927
 		name = "Liam"
 		monarch_name = "Liam I"
 		dynasty = "Graymane"
-		birth_date = 599.1.1
+		birth_date = 579.1.1
 		death_date = 631.5.11
 		claim = 100
 		adm = 5
 		dip = 3
 		mil = 2
-		
 		leader = { 
 			name = "Liam Graymane"
 			type = general

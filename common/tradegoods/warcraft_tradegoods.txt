@@ -425,7 +425,7 @@ mounts = {
 		land_maintenance_modifier = -0.10
 	}
     province = {
-		local_movement_speed = 0.25
+		local_friendly_movement_speed = 0.25
 	}
 	chance = {
 		factor = 10
@@ -438,7 +438,7 @@ flying_mounts = {
 		land_maintenance_modifier = -0.10
 	}
     province = {
-		local_movement_speed = 0.5
+		local_friendly_movement_speed = 0.5
 	}
 	chance = {
 		factor = 10
@@ -451,7 +451,7 @@ warbeasts = {
 		land_maintenance_modifier = -0.10
 	}
     province = {
-		local_movement_speed = 0.25
+		local_friendly_movement_speed = 0.25
 	}
 	chance = {
 		factor = 10

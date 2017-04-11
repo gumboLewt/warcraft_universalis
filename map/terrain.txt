@@ -237,8 +237,9 @@ categories =  {
         # Modifiers
 		movement_cost = 2
 		defence = 3
-        local_movement_speed = -0.9
-		
+        local_friendly_movement_speed = -0.9
+		local_hostile_movement_speed = -0.9
+        
 		local_development_cost = 10
         
         # Override

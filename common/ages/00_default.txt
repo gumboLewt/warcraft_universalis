@@ -1,0 +1,525 @@
+rise_of_the_horde = {
+	start = 546
+	
+	can_start = {
+		always = yes
+	}
+	
+	religious_conflicts = yes
+	
+    absolutism = {
+		harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+		
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+	}
+    
+	objectives = {
+		obj_1 = {
+        
+        }
+		obj_2 = {
+        
+        }
+        obj_3 = {
+        
+        }
+        obj_4 = {
+        
+        }
+        obj_5 = {
+        
+        }
+        obj_6 = {
+        
+        }
+        obj_7 = {
+        
+        }
+	}		
+
+	abilities = {
+		ab_1 = {
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        ab_2 = {
+            allow = {
+            
+            }
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+the_first_war = {
+	start = 592
+	
+	can_start = {
+		has_global_flag = the_first_war
+	}
+	
+	religious_conflicts = yes
+	
+	objectives = {
+		obj_1 = {
+        
+        }
+		obj_2 = {
+        
+        }
+        obj_3 = {
+        
+        }
+        obj_4 = {
+        
+        }
+        obj_5 = {
+        
+        }
+        obj_6 = {
+        
+        }
+        obj_7 = {
+        
+        }
+	}		
+
+	abilities = {
+		ab_1 = {
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        ab_2 = {
+            allow = {
+            
+            }
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+the_second_war = {
+	start = 598
+	
+	can_start = {
+		has_global_flag = the_second_war
+	}
+	
+	religious_conflicts = yes
+	
+	objectives = {
+		obj_1 = {
+        
+        }
+		obj_2 = {
+        
+        }
+        obj_3 = {
+        
+        }
+        obj_4 = {
+        
+        }
+        obj_5 = {
+        
+        }
+        obj_6 = {
+        
+        }
+        obj_7 = {
+        
+        }
+	}		
+
+	abilities = {
+		ab_1 = {
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        ab_2 = {
+            allow = {
+            
+            }
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+the_third_war = {
+	start = 617
+	
+	can_start = {
+		has_global_flag = the_third_war
+	}
+	
+	religious_conflicts = yes
+	
+	objectives = {
+		obj_1 = {
+        
+        }
+		obj_2 = {
+        
+        }
+        obj_3 = {
+        
+        }
+        obj_4 = {
+        
+        }
+        obj_5 = {
+        
+        }
+        obj_6 = {
+        
+        }
+        obj_7 = {
+        
+        }
+	}		
+
+	abilities = {
+		ab_1 = {
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        ab_2 = {
+            allow = {
+            
+            }
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+rise_of_the_qiraji = {
+	start = 622
+	
+	can_start = {
+		has_global_flag = rise_of_the_qiraji
+	}
+	
+	religious_conflicts = yes
+	
+	objectives = {
+		obj_1 = {
+        
+        }
+		obj_2 = {
+        
+        }
+        obj_3 = {
+        
+        }
+        obj_4 = {
+        
+        }
+        obj_5 = {
+        
+        }
+        obj_6 = {
+        
+        }
+        obj_7 = {
+        
+        }
+	}		
+
+	abilities = {
+		ab_1 = {
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        ab_2 = {
+            allow = {
+            
+            }
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+the_burning_crusade = {
+	start = 625
+	
+	can_start = {
+		has_global_flag = the_burning_crusade
+	}
+	
+	religious_conflicts = yes
+	
+	objectives = {
+		obj_1 = {
+        
+        }
+		obj_2 = {
+        
+        }
+        obj_3 = {
+        
+        }
+        obj_4 = {
+        
+        }
+        obj_5 = {
+        
+        }
+        obj_6 = {
+        
+        }
+        obj_7 = {
+        
+        }
+	}		
+
+	abilities = {
+		ab_1 = {
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        ab_2 = {
+            allow = {
+            
+            }
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+wrath_of_the_lich_king = {
+	start = 626
+	
+	can_start = {
+		has_global_flag = wrath_of_the_lich_king
+	}
+	
+	religious_conflicts = yes
+	
+	objectives = {
+		obj_1 = {
+        
+        }
+		obj_2 = {
+        
+        }
+        obj_3 = {
+        
+        }
+        obj_4 = {
+        
+        }
+        obj_5 = {
+        
+        }
+        obj_6 = {
+        
+        }
+        obj_7 = {
+        
+        }
+	}		
+
+	abilities = {
+		ab_1 = {
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        ab_2 = {
+            allow = {
+            
+            }
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+the_shattering = {
+	start = 631
+	
+	can_start = {
+		has_global_flag = the_shattering
+	}
+	
+	religious_conflicts = yes
+	
+	objectives = {
+		obj_1 = {
+        
+        }
+		obj_2 = {
+        
+        }
+        obj_3 = {
+        
+        }
+        obj_4 = {
+        
+        }
+        obj_5 = {
+        
+        }
+        obj_6 = {
+        
+        }
+        obj_7 = {
+        
+        }
+	}		
+
+	abilities = {
+		ab_1 = {
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        ab_2 = {
+            allow = {
+            
+            }
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}
+
+mists_of_pandaria = {
+	start = 632
+	
+	can_start = {
+		has_global_flag = mists_of_pandaria
+	}
+	
+	religious_conflicts = yes
+	
+	objectives = {
+		obj_1 = {
+        
+        }
+		obj_2 = {
+        
+        }
+        obj_3 = {
+        
+        }
+        obj_4 = {
+        
+        }
+        obj_5 = {
+        
+        }
+        obj_6 = {
+        
+        }
+        obj_7 = {
+        
+        }
+	}		
+
+	abilities = {
+		ab_1 = {
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        ab_2 = {
+            allow = {
+            
+            }
+			effect = {
+				
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}

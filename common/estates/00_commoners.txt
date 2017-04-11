@@ -273,7 +273,7 @@ estate_commoners =
 		name = "GRANT_LORDSHIP"
 		icon = 1
 		
-		years_between_use = 10
+		years_between_use = 20
 		
 		potential = {
 			NOT = { stability = 3 }
@@ -290,8 +290,8 @@ estate_commoners =
 			add_estate_influence_modifier = {
 				estate = estate_commoners
 				desc = EST_VAL_GRANTED_LORDSHIP
-				influence = 25
-				duration = 3650
+				influence = 15
+				duration = 7300
 			}
 			
 			add_stability = 1
@@ -386,11 +386,6 @@ estate_commoners =
 		}
 		
 		effect = {
-			add_estate_loyalty = {
-				estate = estate_commoners
-				loyalty = 5
-			}
-			
 			if = {
 				limit = {
 					NOT = {
@@ -490,17 +485,17 @@ estate_commoners =
 		years_between_use = 10
 		
 		trigger = {		
-			is_at_war = yes
 			estate_loyalty = {
 				estate = estate_commoners
 				loyalty = 20
 			}
+            war_exhaustion = 0.01
 		}
 		
 		effect = {
 			add_estate_loyalty = {
 				estate = estate_commoners
-				loyalty = -20
+				loyalty = -10
 			}
 			add_war_exhaustion = -2
 		}

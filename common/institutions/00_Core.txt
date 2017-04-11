@@ -17,8 +17,6 @@
 #    All but primitives start with this
 # Tax bonus
 civic_code = {
-	penalty = 0.5
-	
     historical_start_date = 546.1.1
 	historical_start_province = 1022
     
@@ -92,8 +90,6 @@ civic_code = {
 # Phlogiston
 # Production bonus
 phlogiston = {
-	penalty = 0.5
-	
     historical_start_date = 600.1.1
 	historical_start_province = 941
     

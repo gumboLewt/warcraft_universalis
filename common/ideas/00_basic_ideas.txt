@@ -267,7 +267,7 @@ diplomatic_ideas = {
 		}
 		modifier = {
 			factor = 1.5
-			num_of_vassals = 2
+			vassal = 2
 		}
 	}
 }
@@ -823,11 +823,11 @@ influence_ideas = {
 		}
 		modifier = {
 			factor = 1.7
-			num_of_vassals = 1
+			vassal = 1
 		}
 		modifier = {
 			factor = 1.7
-			num_of_vassals = 2
+			vassal = 2
 		}
 	}
 }

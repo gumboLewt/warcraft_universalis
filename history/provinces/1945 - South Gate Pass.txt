@@ -1,9 +1,10 @@
 # 1945
 is_city = yes
 
-owner = P54
-add_core = P54
-controller = P54
+owner = A29
+controller = A29
+add_core = A29
+add_core = P53
 
 culture = culture_trogg
 religion = religion_geomancy

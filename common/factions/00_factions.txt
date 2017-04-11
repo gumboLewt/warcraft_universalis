@@ -3,7 +3,9 @@ faction_lower_spire =
 {
 	#Allows to fight wars.
 	monarch_power = DIP
-	
+	always = yes
+
+    
 	modifier = 
 	{
 		global_missionary_strength = 0.02
@@ -17,7 +19,8 @@ faction_lower_spire =
 faction_crimson_halls =
 {
 	monarch_power = ADM
-
+    always = yes
+    
 	#Merchants, Traders, Expansions.
 	modifier = 
 	{
@@ -31,7 +34,8 @@ faction_crimson_halls =
 faction_plagueworks =
 {
 	monarch_power = MIL
-
+    always = yes
+    
 	#buildings, Internal Stability.
 	modifier = 
 	{

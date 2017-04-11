@@ -1,0 +1,4127 @@
+negative_idea_adm_modifiers = {
+	category = ADM
+
+    custom_idea_enemy_core_creation_neg = {
+        enemy_core_creation = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+    
+    custom_idea_vassal_income_neg = {
+        vassal_income = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    
+    custom_idea_global_institution_spread_neg = {
+        global_institution_spread = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_tax_modifier_neg = {
+        global_tax_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_inflation_reduction_neg = {
+        inflation_reduction = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_production_efficiency_neg = {
+        production_efficiency = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_administrative_efficiency_neg = {
+        administrative_efficiency = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_core_decay_on_your_own_neg = {
+        core_decay_on_your_own = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_female_advisor_chance_neg = {
+        female_advisor_chance = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_imperial_authority_neg = {
+        imperial_authority = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_yearly_absolutism_neg = {
+        yearly_absolutism = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_possible_condottieri_neg = {
+        possible_condottieri = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_church_power_modifier_neg = {
+        church_power_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_enforce_religion_cost_neg = {
+        enforce_religion_cost = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_harmonization_speed_neg = {
+        harmonization_speed = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_institution_spread_from_true_faith_neg = {
+        institution_spread_from_true_faith = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_prestige_per_development_from_conversion_neg = {
+        prestige_per_development_from_conversion = -0.5
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_religious_unity_neg = {
+        religious_unity = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_autonomy_change_time_neg = {
+        autonomy_change_time = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_autonomy_neg = {
+        global_autonomy = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_native_uprising_chance_neg = {
+        native_uprising_chance = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_adm_tech_cost_modifier_neg = {
+        adm_tech_cost_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_build_cost_neg = {
+        build_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_build_time_neg = {
+        build_time = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_development_cost_neg = {
+        development_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_embracement_cost_neg = {
+        embracement_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_inflation_action_cost_neg = {
+        inflation_action_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_native_advancement_cost_neg = {
+        native_advancement_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_technology_cost_neg = {
+        technology_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_advisor_cost_neg = {
+        advisor_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_all_power_cost_neg = {
+        all_power_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_core_creation_neg = {
+        core_creation = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_idea_cost_neg = {
+        idea_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_monthly_militarized_society_neg = {
+        monthly_militarized_society = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_prestige_decay_neg = {
+        prestige_decay = 0.01
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_yearly_corruption_neg = {
+        yearly_corruption = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_state_maintenance_modifier_neg = {
+        state_maintenance_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+
+    custom_idea_stability_cost_modifier_neg = {
+        stability_cost_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_advisor_pool_neg = {
+        advisor_pool = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_heir_chance_neg = {
+        heir_chance = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_max_states_neg = {
+        max_states = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_monarch_admin_power_neg = {
+        monarch_admin_power = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_monthly_splendor_neg = {
+        monthly_splendor = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_missionaries_neg = {
+        missionaries = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_monthly_fervor_increase_neg = {
+        monthly_fervor_increase = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_papal_influence_neg = {
+        papal_influence = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_tolerance_heathen_neg = {
+        tolerance_heathen = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_tolerance_heretic_neg = {
+        tolerance_heretic = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_tolerance_own_neg = {
+        tolerance_own = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_yearly_harmony_neg = {
+        yearly_harmony = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_heretic_missionary_strength_neg = {
+        global_heretic_missionary_strength = -0.01
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_missionary_strength_neg = {
+        global_missionary_strength = -0.01
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_horde_unity_neg = {
+        horde_unity = -0.25
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 80
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_legitimacy_neg = {
+        legitimacy = -0.25
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 80
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_meritocracy_neg = {
+        meritocracy = -0.25
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 80
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_prestige_neg = {
+        prestige = -0.5
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_republican_tradition_neg = {
+        republican_tradition = -0.25
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 80
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_devotion_neg = {
+        devotion = -0.25
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 80
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_interest_neg = {
+        interest = 1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_unrest_neg = {
+        global_unrest = 0.5
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_max_absolutism_neg = {
+        max_absolutism = -5
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_years_of_nationalism_neg = {
+        years_of_nationalism = 5
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+    
+    custom_idea_global_tax_income_neg = {
+        global_tax_income = -12
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+}
+
+negative_idea_dip_modifiers = {
+	category = DIP
+
+    custom_idea_colonist_placement_chance_neg = {
+        colonist_placement_chance = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_tariffs_neg = {
+        global_tariffs = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_native_assimilation_neg = {
+        native_assimilation = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_range_neg = {
+        range = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_claim_duration_neg = {
+        claim_duration = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_improve_relation_modifier_neg = {
+        improve_relation_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_rival_change_cost_neg = {
+        rival_change_cost = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_blockade_efficiency_neg = {
+        blockade_efficiency = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_capture_ship_chance_neg = {
+        capture_ship_chance = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_galley_power_neg = {
+        galley_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_global_naval_engagement_modifier_neg = {
+        global_naval_engagement_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_global_sailors_modifier_neg = {
+        global_sailors_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_global_ship_repair_neg = {
+        global_ship_repair = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_global_ship_trade_power_neg = {
+        global_ship_trade_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_heavy_ship_power_neg = {
+        heavy_ship_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_light_ship_power_neg = {
+        light_ship_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_naval_forcelimit_modifier_neg = {
+        naval_forcelimit_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_naval_morale_neg = {
+        naval_morale = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_naval_tradition_from_battle_neg = {
+        naval_tradition_from_battle = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_prestige_from_naval_neg = {
+        prestige_from_naval = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_privateer_efficiency_neg = {
+        privateer_efficiency = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_recover_navy_morale_speed_neg = {
+        recover_navy_morale_speed = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_ship_durability_neg = {
+        ship_durability = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_transport_power_neg = {
+        transport_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_navy_tradition_neg = {
+        navy_tradition = -0.5
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_global_spy_defence_neg = {
+        global_spy_defence = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_rebel_support_efficiency_neg = {
+        rebel_support_efficiency = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_spy_offence_neg = {
+        spy_offence = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_caravan_power_neg = {
+        caravan_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_embargo_efficiency_neg = {
+        embargo_efficiency = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_foreign_trade_power_neg = {
+        global_foreign_trade_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_own_trade_power_neg = {
+        global_own_trade_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_prov_trade_power_modifier_neg = {
+        global_prov_trade_power_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_trade_goods_size_modifier_neg = {
+        global_trade_goods_size_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_trade_power_neg = {
+        global_trade_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_placed_merchant_power_neg = {
+        placed_merchant_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_ship_power_propagation_neg = {
+        ship_power_propagation = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_trade_efficiency_neg = {
+        trade_efficiency = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_trade_range_modifier_neg = {
+        trade_range_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_trade_steering_neg = {
+        trade_steering = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_ae_impact_neg = {
+        ae_impact = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_diplomatic_annexation_cost_neg = {
+        diplomatic_annexation_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_province_warscore_cost_neg = {
+        province_warscore_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_unjustified_demands_neg = {
+        unjustified_demands = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_dip_tech_cost_modifier_neg = {
+        dip_tech_cost_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_envoy_travel_time_neg = {
+        envoy_travel_time = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_migration_cooldown_neg = {
+        migration_cooldown = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_war_exhaustion_neg = {
+        war_exhaustion = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_war_exhaustion_cost_neg = {
+        war_exhaustion_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_galley_cost_neg = {
+        galley_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_global_ship_cost_neg = {
+        global_ship_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_global_ship_recruit_speed_neg = {
+        global_ship_recruit_speed = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_heavy_ship_cost_neg = {
+        heavy_ship_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_light_ship_cost_neg = {
+        light_ship_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_naval_attrition_neg = {
+        naval_attrition = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_naval_maintenance_modifier_neg = {
+        naval_maintenance_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_navy_tradition_decay_neg = {
+        navy_tradition_decay = 0.01
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_sunk_ship_morale_hit_recieved_neg = {
+        sunk_ship_morale_hit_recieved = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_transport_cost_neg = {
+        transport_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_culture_conversion_cost_neg = {
+        culture_conversion_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_discovered_relations_impact_neg = {
+        discovered_relations_impact = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_colonists_neg = {
+        colonists = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_diplomatic_reputation_neg = {
+        diplomatic_reputation = -0.5
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_diplomatic_upkeep_neg = {
+        diplomatic_upkeep = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_diplomats_neg = {
+        diplomats = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_monarch_diplomatic_power_neg = {
+        monarch_diplomatic_power = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_leader_naval_fire_neg = {
+        leader_naval_fire = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_leader_naval_manuever_neg = {
+        leader_naval_manuever = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_leader_naval_shock_neg = {
+        leader_naval_shock = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_naval_forcelimit_neg = {
+        naval_forcelimit = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_num_accepted_cultures_neg = {
+        num_accepted_cultures = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_merchants_neg = {
+        merchants = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_colonial_growth_neg = {
+        global_colonial_growth = -10
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_reduced_liberty_desire_neg = {
+        reduced_liberty_desire = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_liberty_desire_from_subject_development_neg = {
+        liberty_desire_from_subject_development = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_reduced_liberty_desire_on_same_continent_neg = {
+        reduced_liberty_desire_on_same_continent = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+}
+
+negative_idea_mil_modifiers = {
+	category = MIL
+    
+    custom_idea_mercenary_cost_neg = {
+        mercenary_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_merc_maintenance_modifier_neg = {
+        merc_maintenance_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+    
+    custom_idea_possible_mercenaries_neg = {
+        possible_mercenaries = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    
+    custom_idea_vassal_forcelimit_bonus_neg = {
+        vassal_forcelimit_bonus = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    
+    custom_idea_amount_of_banners_neg = {
+        amount_of_banners = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_army_tradition_neg = {
+        army_tradition = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_army_tradition_from_battle_neg = {
+        army_tradition_from_battle = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_artillery_power_neg = {
+        artillery_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_backrow_artillery_damage_neg = {
+        backrow_artillery_damage = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_cav_to_inf_ratio_neg = {
+        cav_to_inf_ratio = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_cavalry_flanking_neg = {
+        cavalry_flanking = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_cavalry_power_neg = {
+        cavalry_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_defensiveness_neg = {
+        defensiveness = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_discipline_neg = {
+        discipline = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_fire_damage_neg = {
+        fire_damage = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_garrison_size_neg = {
+        garrison_size = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_garrison_growth_neg = {
+        global_garrison_growth = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+    
+    custom_idea_global_manpower_modifier_neg = {
+        global_manpower_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_infantry_power_neg = {
+        infantry_power = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_land_forcelimit_modifier_neg = {
+        land_forcelimit_modifier = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_land_morale_neg = {
+        land_morale = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_loot_amount_neg = {
+        loot_amount = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_manpower_recovery_speed_neg = {
+        manpower_recovery_speed = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_mercenary_discipline_neg = {
+        mercenary_discipline = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_movement_speed_neg = {
+        movement_speed = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_prestige_from_land_neg = {
+        prestige_from_land = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_raze_power_gain_neg = {
+        raze_power_gain = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_recover_army_morale_speed_neg = {
+        recover_army_morale_speed = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_reinforce_speed_neg = {
+        reinforce_speed = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_rival_border_fort_maintenance_neg = {
+        rival_border_fort_maintenance = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_shock_damage_neg = {
+        shock_damage = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_army_tradition_decay_neg = {
+        army_tradition_decay = 0.01
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_artillery_cost_neg = {
+        artillery_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_cavalry_cost_neg = {
+        cavalry_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_fire_damage_received_neg = {
+        fire_damage_received = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_fort_maintenance_modifier_neg = {
+        fort_maintenance_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_regiment_cost_neg = {
+        global_regiment_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_global_regiment_recruit_speed_neg = {
+        global_regiment_recruit_speed = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_infantry_cost_neg = {
+        infantry_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_land_attrition_neg = {
+        land_attrition = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_land_maintenance_modifier_neg = {
+        land_maintenance_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_reinforce_cost_modifier_neg = {
+        reinforce_cost_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_shock_damage_received_neg = {
+        shock_damage_received = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_mil_tech_cost_modifier_neg = {
+        mil_tech_cost_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_war_taxes_cost_modifier_neg = {
+        war_taxes_cost_modifier = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_harsh_treatment_cost_neg = {
+        harsh_treatment_cost = 0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_artillery_bonus_vs_fort_neg = {
+        artillery_bonus_vs_fort = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_hostile_attrition_neg = {
+        hostile_attrition = -0.5
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_land_forcelimit_neg = {
+        land_forcelimit = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_leader_land_fire_neg = {
+        leader_land_fire = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_leader_land_manuever_neg = {
+        leader_land_manuever = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_leader_land_shock_neg = {
+        leader_land_shock = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_leader_siege_neg = {
+        leader_siege = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_siege_blockade_progress_neg = {
+        siege_blockade_progress = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+
+            modifier = {
+                factor = 0
+
+                primitives = yes
+            }
+        }
+    }
+
+    custom_idea_monarch_military_power_neg = {
+        monarch_military_power = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 100
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_free_leader_pool_neg = {
+        free_leader_pool = -1
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 50
+
+        chance = {
+            factor = 0
+        }
+    }
+
+    custom_idea_warscore_cost_vs_other_religion_neg = {
+        warscore_cost_vs_other_religion = -0.05
+        level_cost_1 = 0
+        level_cost_2 = 0
+        level_cost_3 = 0
+        level_cost_4 = 0
+        level_cost_5 = 0
+        level_cost_6 = 0
+        level_cost_7 = 0
+        level_cost_8 = 0
+        level_cost_9 = 0
+        level_cost_10 = 0
+
+        max_level = 200
+
+        chance = {
+            factor = 0
+        }
+    }
+}

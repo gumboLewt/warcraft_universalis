@@ -15,14 +15,11 @@ hre = no
 trade_goods = artifacts
 
 
- 
-
-
 # The Frozen Throne
 618.1.1 = { 
-owner = P26
-controller = P26
-add_core = P26
-culture = culture_fire
-religion = religion_fire
+    owner = P26
+    controller = P26
+    add_core = P26
+    culture = culture_fire
+    religion = religion_fire
 }

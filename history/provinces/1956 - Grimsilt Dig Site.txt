@@ -16,24 +16,22 @@ religion = religion_geomancy
 hre = no
 trade_goods = artifacts
 
-
-
-
 598.1.1 = { 
-owner = P98
-controller = P98
-add_core = P98
-culture = culture_blackrock
-religion = religion_fel 
+    owner = P98
+    controller = P98
+    add_core = P98
+    culture = culture_blackrock
+    religion = religion_fel 
 }
 
 # Beyond the Dark Portal
 600.1.1 = { 
-owner = A30
-controller = A30
-remove_core = P98
-culture = culture_dark_iron
-religion = religion_fire 
+    owner = A30
+    controller = A30
+    add_core = A30
+    remove_core = P98
+    culture = culture_dark_iron
+    religion = religion_fire 
 }
 
 # Cataclysm

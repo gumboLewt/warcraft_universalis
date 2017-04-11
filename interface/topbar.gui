@@ -63,7 +63,7 @@ guiTypes = {
         iconType = {
 			name = "great_power_button_base"
 			quadTextureSprite ="GFX_great_power_button_base"
-			position = { x= 820 y = 60 }
+			position = { x= 91 y = -9999 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}		
@@ -71,14 +71,14 @@ guiTypes = {
         iconType = {
 			name = "build_interface_button_base"
 			quadTextureSprite ="GFX_great_power_button_base"
-			position = { x= 750 y = 60 }
+			position = { x= -1 y = 102 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
 		
 		guiButtonType = {
 			name = "open_build_interface_button"
-			position = { x = 757 y = 67 }
+			position = { x = 6 y = 109 }
 			quadTextureSprite ="GFX_open_build_interface"
 			tooltip = ""
 			tooltipText =""
@@ -90,12 +90,15 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "great_power_button"
-			position = { x = 827 y = 67 }
+			position = { x = 827 y = -9999 }
 			quadTextureSprite ="GFX_great_power_button"
 			buttonFont = "Main_14_black"
 			clicksound = macro_build
 		}		
-
+	
+	######### top bar portraits ###########
+		
+		
 		guiButtonType =
 		{
 			name ="icon_merchant"
@@ -132,6 +135,9 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_missionary"
 		}
+		
+	
+	#############  portrait values #############
 	
 		instantTextBoxType = {
 			name = "text_merchants"
@@ -184,6 +190,9 @@ guiTypes = {
 			maxHeight = 32
 			format = centre		
 		}
+		
+		
+	###########  top bar icons and values #############
 		
 		iconType =
 		{
@@ -265,7 +274,11 @@ guiTypes = {
 			maxHeight = 32
 			format = right
 		}
+		
 
+
+
+		
 		iconType =
 		{
 			name ="icon_prestige"
@@ -297,6 +310,27 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "text_dev"
+			position = { x = 605 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"	
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_meritocracy"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 588 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 5
+			hint_tag = "hint_meritocracy"
+		}
+		instantTextBoxType = {
+			name = "text_meritocracy"
 			position = { x = 605 y = 13 }
 			textureFile = ""
 			font = "vic_18"
@@ -381,14 +415,14 @@ guiTypes = {
 			verticalBorder= ""
 			fullScreen = no	
 
-                iconType =
+				iconType =
 				{
 					name ="topbar_liberty_overlay"
 					spriteType = "GFX_topbar_liberty_overlay"
 					position = { x= 491 y = -1 }
 					Orientation = "UPPER_LEFT"
 				}	
-                
+
 				iconType =
 				{
 					name ="icon_powerprojection"
@@ -453,6 +487,20 @@ guiTypes = {
 				}		
 		
 		}
+	#######################################	
+
+		
+
+		
+
+		
+
+		
+		
+	############### Power mechanics for a country ################
+	
+
+
 
 		iconType =
 		{
@@ -492,6 +540,7 @@ guiTypes = {
 			hint_tag = "hint_adm"
 		}		
 		
+		
 		instantTextBoxType = {
 			name = "text_DIP"
 			position = { x = 581 y = 52 }
@@ -529,7 +578,50 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_mil"
 		}		
+
+		iconType = {
+			name = "button_base"
+			spriteType ="GFX_age_frame_addon"
+			position = { x= 690 y = 30 }
+			alwaystransparent = yes
+		}			
 		
+		guiButtonType = {
+			name = "current_age_button"
+			position = { x = 722 y = 32 }
+			quadTextureSprite ="GFX_age_button"
+			clicksound = macro_build
+		}
+		
+		guiButtonType = {
+			name = "age_icon"
+			spriteType ="GFX_icon_age_s"
+			position = { x= 705 y = 47 }
+			frame = 1
+		}	
+
+		instantTextBoxType = {
+			name = "age_title"
+			position = { x = 740 y = 52 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "AgeText"	
+			maxWidth = 160
+			maxHeight = 32
+			format = left
+			alwaystransparent = yes
+		}		
+		
+
+
+		
+		
+		
+	#################################################
+	
+
+
 		instantTextBoxType = {
 			name = "PlayerNationText"
 			position = { x = 148 y = 50 }
@@ -541,8 +633,13 @@ guiTypes = {
 			maxHeight = 32
 			fixedsize = yes
 		}
-        
-        ############### DATE PANEL ###################
+
+
+	############### DATE PANEL ###################
+		
+		
+
+		
 
 		windowType = {
 			name = "pause_window"

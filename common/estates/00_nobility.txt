@@ -331,7 +331,7 @@ estate_nobles =
 		name = "GRANT_KNIGHTHOOD"
 		icon = 41
 		
-		years_between_use = 10
+		years_between_use = 20
 		
 		trigger = {		
 			estate_influence = {
@@ -347,16 +347,11 @@ estate_nobles =
 		}
 		
 		effect = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 5
-			}
-		
 			add_estate_influence_modifier = {
 				estate = estate_nobles
 				desc = EST_VAL_GRANTED_KNIGHTHOOD
-				influence = 10
-				duration = 3650
+				influence = 20
+				duration = 7300
 			}
 			
 			if = {
@@ -424,7 +419,7 @@ estate_nobles =
 		name = "GRANT_ADMIRALITY"
 		icon = 5
 		
-		years_between_use = 10
+		years_between_use = 20
 		
 		trigger = {		
 			estate_influence = {
@@ -443,13 +438,8 @@ estate_nobles =
 			add_estate_influence_modifier = {
 				estate = estate_nobles
 				desc = EST_VAL_GRANTED_ADMIRALITY
-				influence = 10
-				duration = 3650
-			}
-			
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 5
+				influence = 15
+				duration = 7300
 			}
 			
 			if = {
@@ -861,7 +851,7 @@ estate_nobles =
 		years_between_use = 25
 		
 		trigger = {	
-			NOT = { government = republic }
+			government = monarchy
 			estate_influence = {
 				estate = estate_nobles
 				influence = 20
@@ -869,15 +859,10 @@ estate_nobles =
 		}
 		
 		effect = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-			
 			add_estate_influence_modifier = {
 				estate = estate_nobles
 				desc = EST_VAL_APPOINTED_HEIR_INFLUENCE
-				influence = 10
+				influence = 20
 				duration = 9125
 			}
 			
@@ -906,7 +891,7 @@ estate_nobles =
 		years_between_use = 25
 		
 		trigger = {		
-			NOT = { government = republic }
+            government = monarchy
 			estate_influence = {
 				estate = estate_nobles
 				influence = 20
@@ -914,15 +899,10 @@ estate_nobles =
 		}
 		
 		effect = {
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-			
 			add_estate_influence_modifier = {
 				estate = estate_nobles
 				desc = EST_VAL_ABDICATED_THRONE_INFLUENCE
-				influence = 10
+				influence = 20
 				duration = 9125
 			}
 			
@@ -939,7 +919,7 @@ estate_nobles =
 		name = "APPOINT_COMMANDER"
 		icon = 30
 		
-		years_between_use = 25
+		years_between_use = 15
 		
 		trigger = {		
 			estate_influence = {
@@ -949,37 +929,19 @@ estate_nobles =
 		}
 		
 		effect = {
-			add_estate_loyalty = {
+			add_estate_influence_modifier = {
 				estate = estate_nobles
-				loyalty = 10
+				desc = EST_VAL_APPOINTED_COMMANDER
+				influence = 20
+				duration = 3650
 			}
-			
+            
 			if = {
 				limit = {
-					estate_influence = {
-						estate = estate_nobles
-						influence = 20
-					}
 					NOT = {
-						estate_influence = {
+						estate_loyalty = {
 							estate = estate_nobles
-							influence = 40
-						}
-					}
-				}
-				add_army_tradition = 5
-			}
-			
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_nobles
-						influence = 40
-					}
-					NOT = {
-						estate_influence = {
-							estate = estate_nobles
-							influence = 60
+							loyalty = 60
 						}
 					}
 				}
@@ -988,12 +950,28 @@ estate_nobles =
 			
 			if = {
 				limit = {
-					estate_influence = {
+					estate_loyalty = {
 						estate = estate_nobles
-						influence = 60
+						loyalty = 60
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 80
+						}
 					}
 				}
-				add_army_tradition = 15
+				add_army_tradition = 20
+			}
+			
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 80
+					}
+				}
+				add_army_tradition = 30
 			}
 		}
 		
@@ -1007,7 +985,7 @@ estate_nobles =
 		name = "CALL_BANNERS"
 		icon = 124
 		
-		years_between_use = 15
+		years_between_use = 10
 		
 		trigger = {		
 			estate_influence = {
@@ -1020,7 +998,7 @@ estate_nobles =
 		effect = {
 			add_estate_loyalty = {
 				estate = estate_nobles
-				loyalty = -15
+				loyalty = -10
 			}
 			
 			add_yearly_manpower = 1

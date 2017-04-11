@@ -56,6 +56,21 @@ spriteTypes = {
 		name = "GFX_actions_button"
 		texturefile = "gfx//interface//actions_button.dds"
 	}	
+	
+	spriteType = {
+		name = "GFX_estate_loyalty_L"
+		texturefile = "gfx/interface/estates_loyalty_icon_l.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_estate_influence_L"
+		texturefile = "gfx/interface/estates_influence_icon_l.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_estate_territory_L"
+		texturefile = "gfx/interface/estates_territory_icon_l.dds"
+	}	
 
 	spriteType = {
 		name = "GFX_estates_influence_icon"

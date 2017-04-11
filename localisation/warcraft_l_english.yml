@@ -1806,6 +1806,9 @@
  faction_crimson_halls: "The Crimson Halls"
  faction_plagueworks: "The Plagueworks"
  
+ test_name_faction: "Test Me"
+ test_name_faction_FACTION_DESC: "Description here"
+ 
  faction_lower_spire_FACTION_DESC: "The Lower Spire of Icecrown Citadel holds the headquarters of the Cult of the Damned. Lady Deathwhisper rules over the cultists as Supreme Overseer and coordinates attacks on targets throughout Azeroth."
  faction_crimson_halls_FACTION_DESC: "The Crimson Halls is the name given to the headquarters of the elite San'layn darkfallen. They are the Lich Kings most trusted ambassadors, overseers, and tacticians. These undead vampiric blood elves are led by the Blood Queen Lana'thel."
  faction_plagueworks_FACTION_DESC: "The Plagueworks are overseen by Putricide. He has proven himself to be extremely useful in concocting the most volatile forms of plague and creating monstrosities that only a twisted madman could think of."
@@ -2045,6 +2048,7 @@
  EST_VAL_GRANTED_ADMIRALITY: "Granted Admiralship: §Y$VAL$%§!"
  EST_VAL_APPOINTED_HEIR_INFLUENCE: "Appointed Heir: §Y$VAL$%§!"
  EST_VAL_ABDICATED_THRONE_INFLUENCE: "Abdicated Throne: §Y$VAL$%§!"
+ EST_VAL_APPOINTED_COMMANDER: "Appointed Commander: §Y$VAL$%§!"
  
  # Clergy - Passive
  EST_VAL_RELIGIOUS_IG: "Religious Ideas: §Y$VAL$%§!"

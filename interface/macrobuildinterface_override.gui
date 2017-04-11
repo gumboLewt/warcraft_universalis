@@ -332,11 +332,11 @@ guiTypes = {
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullscreen = no
-		
-		iconType = {
+
+		guiButtonType = {
 			name = "category_banner_icon"
 			position = { x = 6 y = 0 }
-			spriteType = "GFX_macrobuild_entry_frame_390_thin"
+			quadTextureSprite = "GFX_macrobuild_entry_frame_390_thin"
 		}
 		
 		instantTextBoxType={
@@ -389,16 +389,16 @@ guiTypes = {
 		iconType = {
 			name ="bg"
 			spriteType = "onmap_builing_bg3"
-			position = { x= 234 y = 0 }
+			position = { x= 232 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name = "tax"
-			position = {x = 241 y = 8 }
+			position = {x = 236 y = 8 }
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 22
+			maxWidth = 24
 			maxHeight = 18
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -408,7 +408,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "tax_button"
-			position = { x = 260 y = -2 }
+			position = { x = 257 y = -2 }
 			quadTextureSprite ="GFX_development_button_tax"
 			tooltip = ""
 			tooltipText =""
@@ -419,10 +419,10 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "production"
-			position = {x = 293 y = 8 }
+			position = {x = 290 y = 8 }
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 22
+			maxWidth = 24
 			maxHeight = 18
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -432,7 +432,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "production_button"
-			position = { x = 312 y = -2 }
+			position = { x = 311 y = -2 }
 			quadTextureSprite ="GFX_development_button_production"
 			tooltip = ""
 			tooltipText =""
@@ -443,10 +443,10 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "manpower"
-			position = {x = 345 y = 8 }
+			position = {x = 344 y = 8 }
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 22
+			maxWidth = 24
 			maxHeight = 18
 			text = ""
 			orientation = "UPPER_LEFT"
@@ -466,6 +466,119 @@ guiTypes = {
 		}
 	}
 
+	##### Diplomatic Action Type Item #####
+	windowType = 
+	{
+		name = "macro_diplo_action_type_item"
+		backGround=""
+		position = { x=0 y=20 }	
+		size = { x=270 y=27 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+		
+		guiButtonType = {
+			name = "button"
+			position = { x=0 y = 0 }
+			quadTextureSprite ="GFX_macro_diplomacy_action_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = "PW_DIPLOMACY_ACTION"
+			buttonFont = "vic_18"
+			clicksound = click
+		}
+		
+		instantTextBoxType={
+			name = "num_accepting_label"
+			position = {x = 215 y = 6 }
+			font = "vic_18"
+			text = ""			
+			borderSize = {x = 0 y = 0}
+			maxWidth = 40
+			maxHeight = 20
+			format = right
+			allwaystransparent = yes
+		}
+	}
+
+	# Used for alternative button_diploaction where action doesn't need acceptance
+	positionType = {
+		name = "diploaction_country_alt_pos"
+		position = { x = 73 y = 6 }
+	}
+	
+	##### Diplomatic Action Item #####
+	windowType = 
+	{
+		name = "macro_diplo_action_item"
+		backGround=""
+		position = { x=0 y=20 }	
+		size = { x=270 y=33 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+
+		guiButtonType = {
+			name = "button_diploaction"
+			position = { x=0 y =-2 }
+			quadTextureSprite ="GFX_macro_diplomacy_country_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+#			buttonFont = "vic_18"
+			clicksound = click
+		}
+		
+		instantTextBoxType={
+			name = "country"
+			position = {x = 32 y = 6 }
+			font = "vic_18"
+			text = "PW_DIPLOMACY_ACTION"			
+			borderSize = {x = 0 y = 0}
+			maxWidth = 254
+			maxHeight = 18
+			format = center
+#			allwaystransparent = yes
+		}		
+
+		guiButtonType =
+		{
+			name ="flag"
+			position = { x= 1 y = 0 }
+			quadTextureSprite = "GFX_shield_small"
+			Orientation = "UPPER_LEFT"
+		}
+	
+		iconType =
+		{
+			name ="ai_accept"
+			spriteType = "GFX_diplomacy_arrowupdown"
+			position = { x= 288 y = 5 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.6
+			allwaystransparent = yes
+		}
+
+		instantTextBoxType={
+			name = "acceptance_label"
+			position = {x = 312 y = 5 }
+			font = "vic_22"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 54
+			maxHeight = 18
+			text = ""
+			format = center
+			allwaystransparent = yes
+		}
+
+	}	
+	
+	
 	##### MAIN INTERFACE #####
 	windowType = {
 		name = "macro_build_interface"
@@ -475,7 +588,7 @@ guiTypes = {
 		hide_position = { x=-400 y = 150 }	
 		animation_type = "decelerated"
 		animation_time = 250	
-		size = { x=1000 y = 568}
+		size = { x=392 y = 568}
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -492,78 +605,85 @@ guiTypes = {
 
 		checkboxType = {
 			name = "land_units_button"
-			position = { x=870 y=60}
+			position = { x=873 y=58}
 			quadTextureSprite ="GFX_build_interface_army_tab"
 			shortcut = "1"
 		}
 		
 		checkboxType = {
 			name = "navy_units_button"
-			position = { x=870 y=112}
+			position = { x=873 y=108}
 			quadTextureSprite ="GFX_build_interface_navy_tab"
 			shortcut = "2"
 		}
 
 		checkboxType = {
 			name = "core_button"
-			position = { x=870 y=164}
+			position = { x=873 y=158}
 			quadTextureSprite ="GFX_build_interface_core_tab"
 			shortcut = "3"
 		}
 		
 		checkboxType = {
 			name = "missionary_button"
-			position = { x=870 y=216}
+			position = { x=873 y=208}
 			quadTextureSprite ="GFX_build_interface_missionary_tab"
 			shortcut = "4"
 		}
 		
 		checkboxType = {
 			name = "autonomy_button"
-			position = { x=870 y=268}
+			position = { x=873 y=258}
 			quadTextureSprite ="GFX_build_interface_revolt_tab"
 			shortcut = "5"
 		}
 		
 		checkboxType = {
 			name = "culture_button"
-			position = { x=870 y=320}
+			position = { x=873 y=308}
 			quadTextureSprite ="GFX_build_interface_culture_tab"
 			shortcut = "6"
 		}
 		
 		checkboxType = {
 			name = "buildings_button"
-			position = { x=870 y=372}
+			position = { x=873 y=358}
 			quadTextureSprite ="GFX_build_interface_building_tab"
 			shortcut = "7"
 		}
 
 		checkboxType = {
 			name = "development_button"
-			position = { x=870 y=424}
+			position = { x=873 y=408}
 			quadTextureSprite ="GFX_build_interface_development_tab"
 			shortcut = "8"
 		}
 
 		checkboxType = {
 			name = "estates_button"
-			position = { x=870 y=476}
+			position = { x=873 y=458}
 			quadTextureSprite ="GFX_build_interface_estates_tab"
 			shortcut = "9"
+		}
+
+		checkboxType = {
+			name = "diplomacy_button"
+			position = { x=873 y=508 }
+			quadTextureSprite ="GFX_build_interface_diplomacy_tab"
+			shortcut = "0"
 		}
 
 		iconType =
 		{
 			name ="close_gold"
 			spriteType = "GFX_close_gold"
-			position = { x= 849 y = 11 }
+			position = { x= 848 y = 11 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		guiButtonType = {
 			name = "close_button"
-			position = { x = 853 y = 14 }
+			position = { x = 852 y = 14 }
 			quadTextureSprite ="GFX_closebutton2"
 		}
 				
@@ -571,7 +691,7 @@ guiTypes = {
 			name = "macro_title"
 			position = {x = 68 y = 15 }
 			font = "vic_22"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 300
 			maxHeight = 18
 			text = "CV_BUILD_CORE"
@@ -596,18 +716,7 @@ guiTypes = {
 				buttonText = "NAME"
 				buttonFont = "vic_18"
 			}
-			
-#			instantTextBoxType={
-#				name = "core_header_name"
-#				position = {x = 0 y = 4 }
-#				font = "vic_18"
-#				borderSize = {x = 0 y = 0}	
-#				maxWidth = 64
-#				maxHeight = 18
-#				text = "NAME"
-#				format = left
-#			}
-			
+
 			guiButtonType = {
 				name = "development_button"
 				position = { x= 132 y = 9 }
@@ -615,18 +724,7 @@ guiTypes = {
 #				buttonText = "LEDGER_DEVELOPMENT"
 #				buttonFont = "vic_18"
 			}
-			
-#			instantTextBoxType={
-#				name = "core_header_development"
-#				position = {x = 100 y = 4 }
-#				font = "vic_18"
-#				borderSize = {x = 0 y = 0}	
-#				maxWidth = 64
-#				maxHeight = 18
-#				text = "LEDGER_DEVELOPMENT"
-#				format = left
-#			}
-			
+
 			guiButtonType = {
 				name = "overextension_button"
 				position = { x= 188 y = 9 }
@@ -634,15 +732,7 @@ guiTypes = {
 #				buttonText = "LEDGER_DEVELOPMENT"
 #				buttonFont = "vic_18"
 			}			
-			
-#			iconType =
-#			{
-#				name ="core_overext_icon"
-#				spriteType = "GFX_icon_overextension"
-#				position = {x = 179 y = -1 }
-#				Orientation = "UPPER_LEFT"
-#			}
-			
+
 			guiButtonType = {
 				name = "cost_button"
 				position = { x= 244 y = 9 }
@@ -651,17 +741,6 @@ guiTypes = {
 #				buttonText = "PEACE_COST"
 #				buttonFont = "vic_18"
 			}
-						
-#			instantTextBoxType={
-#				name = "core_header_cost"
-#				position = {x = 220 y = 4 }
-#				font = "vic_18"
-#				borderSize = {x = 0 y = 0}	
-#				maxWidth = 54
-#				maxHeight = 18
-#				text = "PEACE_COST"
-#				format = left
-#			}
 		}
 		
 		windowType = {
@@ -941,7 +1020,7 @@ guiTypes = {
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
 			}
-			
+
 			guiButtonType = {
 				name = "cancel_button"
 				position = { x=100 y = 464 }
@@ -952,7 +1031,95 @@ guiTypes = {
 				clicksound=click
 			}
 		}
-		
+
+		windowType = {
+			name = "building_province_list_header"
+			backGround=""
+			position = { x = 20 y = 50 }
+			size = { x=342 y = 568}
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullscreen = no
+
+			guiButtonType = {
+				name = "name_button"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_sort_114"
+				buttonText = "NAME"
+				buttonFont = "vic_18"
+			}
+
+			guiButtonType = {
+				name = "free_slots_button"
+				position = { x = 114 y = 0 }
+				quadTextureSprite ="GFX_sort_building_slots"
+				buttonFont = "vic_18"
+			}
+			
+			guiButtonType = {
+				name = "estate_button"
+				position = { x = 143 y = 0 }
+				quadTextureSprite ="GFX_sort_estate"
+				buttonFont = "vic_18"
+			}			
+
+			guiButtonType = {
+				name = "trade_good_button"
+				position = { x = 164 y = 0 }
+				quadTextureSprite ="GFX_exp_sort_goods_s"
+				buttonFont = "vic_18"
+			}			
+			
+			guiButtonType = {
+				name = "cost_button"
+				position = { x = 185 y = 0 }
+				quadTextureSprite ="GFX_sort_gold"
+				buttonFont = "vic_18"
+			}
+
+			guiButtonType = {
+				name = "improvement_amount_button"
+				position = { x = 295 y = 0 }
+				quadTextureSprite ="GFX_sort_info"
+				buttonFont = "vic_18"
+			}
+
+			guiButtonType = {
+				name = "improvement_value_button"
+				position = { x = 245 y = 0 }
+				quadTextureSprite ="GFX_sort_value"
+				buttonFont = "vic_18"
+			}
+
+			guiButtonType = {
+				name = "close_button"
+				position = { x = 54 y = 472 }
+				quadTextureSprite ="button_type_1"
+				buttonFont = "vic_18"
+				buttonText = "CLOSE"
+				shortcut = "z"
+			}
+
+			checkboxType = {
+				name = "show_subjects"
+				position = { x=220 y=472 }
+				quadTextureSprite ="GFX_checkbox_gold_32"
+			}
+
+			instantTextBoxType={
+				name = "show_subjects_title"
+				position = {x = 254 y = 475 }
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 148
+				maxHeight = 18
+				text = "MACRO_BUILDR_INCL_SUBJ"
+				format = left
+			}
+		}
+
 		windowType = {
 			name = "development_header"
 			backGround=""
@@ -963,7 +1130,7 @@ guiTypes = {
 			horizontalBorder= ""
 			verticalBorder= ""
 			fullscreen = no
-			
+
 			guiButtonType = {
 				name = "name_button"
 				position = { x= -8 y = 11 }
@@ -978,45 +1145,93 @@ guiTypes = {
 				quadTextureSprite ="GFX_sort_goods"
 			}
 
-			
 			guiButtonType = {
 				name = "cost_button"
 				position = { x= 108 y = 12 }
 				quadTextureSprite ="GFX_sort_cost_s"
 			}
-						
+
 			guiButtonType = {
 				name = "development_button"
 				position = { x= 145 y = 12 }
 				quadTextureSprite ="GFX_sort_total_s"
 			}
-						
+
 			guiButtonType = {
 				name = "autonomy_button"
 				position = { x= 182 y = 12 }
 				quadTextureSprite ="GFX_sort_autonomy_s"
 			}
 			
+			guiButtonType = {
+				name = "tax_modifier_button"
+				position = { x= 220 y = 12 }
+				quadTextureSprite ="GFX_sort_macro_tax"
+			}
+
+			guiButtonType = {
+				name = "tax_value_button"
+				position = { x= 246 y = 12 }
+				quadTextureSprite ="GFX_sort_macro_tax_cost"
+			}
+
+			guiButtonType = {
+				name = "production_modifier_button"
+				position = { x= 274 y = 12 }
+				quadTextureSprite ="GFX_sort_macro_production"
+			}
+
+			guiButtonType = {
+				name = "production_value_button"
+				position = { x= 300 y = 12 }
+				quadTextureSprite ="GFX_sort_macro_production_cost"
+			}
+
+			guiButtonType = {
+				name = "manpower_modifier_button"
+				position = { x= 328 y = 12 }
+				quadTextureSprite ="GFX_sort_macro_manpower"
+			}
+
+			guiButtonType = {
+				name = "manpower_value_button"
+				position = { x= 354 y = 12 }
+				quadTextureSprite ="GFX_sort_macro_manpower_cost"
+			}
 			
 			checkboxType = {
 				name = "show_subjects"
-				position = { x=220 y=6 }
+				position = { x=220 y=470 }
 				quadTextureSprite ="GFX_checkbox_gold_32"
-			}	
+			}
 
 			instantTextBoxType={
 				name = "show_subjects_title"
-				position = {x = 254 y = 9 }
+				position = {x = 254 y = 473 }
 				font = "vic_22"
-				borderSize = {x = 0 y = 0}	
-				maxWidth = 256
+				borderSize = {x = 0 y = 0}
+				maxWidth = 148
 				maxHeight = 18
 				text = "MACRO_BUILDR_INCL_SUBJ"
 				format = left
 			}
-			
 
-			
+			checkboxType = {
+				name = "show_territories"
+				position = { x=20 y=470 }
+				quadTextureSprite ="GFX_checkbox_gold_32"
+			}
+
+			instantTextBoxType={
+				name = "show_territories_title"
+				position = {x = 54 y = 473 }
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 148
+				maxHeight = 18
+				text = "MACRO_BUILDR_INCL_TERRITORIES"
+				format = left
+			}
 		}
 
 		########### ESTATES ########
@@ -1056,6 +1271,209 @@ guiTypes = {
 				quadTextureSprite ="GFX_sort_territory"
 			}
 			#################################
+		}
+
+		windowType = {
+			name = "diplomacy_header"
+			backGround=""
+			position = { x = 20 y = 50 }
+			size = { x=342 y = 568}
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullscreen = no
+			
+			###### DIPLOMACY BUTTONS ######
+			
+			iconType = {
+				name ="macro_diplomacy_line"
+				spriteType = "GFX_macro_diplomacy_line"
+				position = { x= -11 y = 39 }
+			}			
+			
+			guiButtonType = {
+				name = "relations_button"
+				position = { x= -8 y = -6 }
+				quadTextureSprite ="GFX_macro_diplomacy_tab_relations"
+				shortcut = "a"
+			}
+			guiButtonType = {
+				name = "alliances_button"
+				position = { x= 43 y = -6 }
+				quadTextureSprite = "GFX_macro_diplomacy_tab_alliance"
+				shortcut = "s"
+			}
+			guiButtonType = {
+				name = "influence_button"
+				position = { x= 94 y = -6 }
+				quadTextureSprite ="GFX_macro_diplomacy_tab_influence"
+				shortcut = "d"
+			}
+			guiButtonType = {
+				name = "dynastic_button"
+				position = { x= 145 y = -6 }
+				quadTextureSprite ="GFX_macro_diplomacy_tab_dynastic"
+				shortcut = "g"
+			}
+			guiButtonType = {
+				name = "economic_button"
+				position = { x= 196 y = -6 }
+				quadTextureSprite ="GFX_macro_diplomacy_tab_economic"
+				shortcut = "z"
+			}
+			guiButtonType = {
+				name = "papal_button"
+				position = { x= 247 y = -6 }
+				quadTextureSprite ="GFX_macro_diplomacy_tab_papal"
+				shortcut = "x"
+			}
+			guiButtonType = {
+				name = "hre_button"
+				position = { x= 298 y = -6 }
+				quadTextureSprite ="GFX_macro_diplomacy_tab_hre"
+				shortcut = "c"
+			}
+			guiButtonType = {
+				name = "great_power_button"
+				position = { x= 349 y = -6 }
+				quadTextureSprite ="GFX_macro_diplomacy_tab_great_power"
+				shortcut = "v"
+			}
+			#################################
+		}
+
+		###### IMPROVE RELATIONS WINDOW
+		windowType = {
+			name = "improve_relations_window"
+			backGround =""
+			position = { x=50 y=100 }
+			size = { x=200 y= 30 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = ""
+			
+			iconType = {
+				name ="improve_relations_BG"
+				spriteType = "GFX_macro_diplomacy_green_banner"
+				position = { x= -18 y = 4 }
+			}				
+
+			instantTextBoxType = {
+				name = "label"
+				position = { x = 15 y = 13 }
+				textureFile = ""
+				font = "vic_18"
+				text = "MACRO_IMPROVE_RELATIONS"
+				maxWidth = 290
+				maxHeight = 24
+				format = centre
+				fixedsize = yes
+			}
+			
+			instantTextBoxType = {
+				name = "info_text"
+				position = { x = 15 y = 40 }
+				textureFile = ""
+				font = "vic_18"
+				text = "MACRO_IMPROVE_RELATIONS_INFO"
+				maxWidth = 290
+				maxHeight = 52
+				format = centre
+				fixedsize = yes
+			}			
+
+			listboxType = {
+				name ="rule_button_list"
+				position = { x = 98 y = 120 }
+				backGround=""
+				size = { x= 200 y = 360 }
+				horizontal = 0
+				spacing = 0
+				scrollbartype = "standardlistbox_slider"
+			}
+		}
+		
+		############## 
+		windowType = 
+		{
+			name = "select_diplo_action_type_window"
+			backGround=""
+			position = { x=50 y=100 }
+			size = { x=400 y=400 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no	
+			
+			iconType = {
+				name ="select_diplo_action_type_BG"
+				spriteType = "GFX_macro_diplomacy_overlay1"
+				position = { x= -9 y = 4 }
+			}				
+			
+			instantTextBoxType = {
+				name = "action_type_label"
+				position = { x = 15 y = 11 }
+				textureFile = ""
+				font = "vic_18"
+				text = "<Action Type>"
+				maxWidth = 290
+				maxHeight = 24	
+				format = centre
+				fixedsize = yes
+			}
+
+			
+			listboxType = {
+				name ="action_type_list"
+				position = { x = 26 y = 40 }
+				backGround=""
+				size = { x= 264 y = 136 }
+				horizontal = 0
+				spacing = 0
+				scrollbartype = "standardlistbox_slider"
+			}
+		}
+
+		############## diplomacy_target_list_window
+		windowType = {
+			name = "diplomacy_target_list_window"
+			backGround =""
+			position = { x=8 y=100 }
+			size = { x=200 y= 30 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = ""
+
+			iconType = {
+				name ="bg"
+				spriteType = "GFX_macro_diplomacy_overlay2"
+				position = { x= 0 y = 189 }
+			}
+
+			instantTextBoxType = {
+				name = "label"
+				position = { x = 20 y = 194 }
+				textureFile = ""
+				font = "vic_18"
+				text = ""
+				maxWidth = 364
+				maxHeight = 24	
+				format = centre
+				fixedsize = yes
+
+			}
+			listboxType = {
+				name ="action_list"
+				position = { x = 17 y = 225 }
+				backGround=""
+				size = { x= 369 y = 232 } 
+				horizontal = 0
+				spacing = 0
+				scrollbartype = "standardlistbox_slider"
+			}			
 		}
 
 		############################
@@ -1870,15 +2288,6 @@ guiTypes = {
 			position = { x = -35 y = -2 }
 			quadTextureSprite ="GFX_unit_banner_checkbox"
 		}
-
-		#iconType =
-		#{
-		#	name ="icon_type"
-		#	spriteType = "GFX_unit_types_strip"
-		#	position = { x= -33 y = 2 }
-		#	Orientation = "UPPER_LEFT"
-		#	scale = 0.8
-		#}
 		
 		instantTextBoxType = {
 			name = "unit_name"
@@ -1945,15 +2354,6 @@ guiTypes = {
 			position = { x = -35 y = -2 }
 			quadTextureSprite ="GFX_unit_banner_checkbox"
 		}
-
-		#iconType =
-		#{
-		#	name ="icon_type"
-		#	spriteType = "GFX_unit_types_strip"
-		#	position = { x= -33 y = 2 }
-		#	Orientation = "UPPER_LEFT"
-		#	scale = 0.8
-		#}
 		
 		instantTextBoxType = {
 			name = "unit_name"
@@ -2012,6 +2412,71 @@ guiTypes = {
 			maxHeight = 32
 			format = left
 			allwaystransparent = yes
+		}
+	}
+
+	windowType = {
+		name = "improve_relation_button_entry"
+		backGround=""
+		position = { x=0 y = 0}
+		size = { x= 268 y = 64 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullscreen = no
+
+		iconType = {
+			name ="improve_relations_BG"
+			spriteType = "GFX_macro_diplomacy_slot"
+			position = { x= -20 y = 0 }
+			allwaystransparent = yes
+		}			
+
+		instantTextBoxType = {
+			name = "improve_rule_text"
+			position = { x= -10 y = -8 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "Invalid Rule"
+			maxWidth =144
+			maxHeight = 32
+			format = center
+
+		}
+		
+		guiButtonType = {
+			name = "improve_rule_button"
+			position = { x = -38 y = 13 }
+			quadTextureSprite ="GFX_button_plus"
+#			buttonText = "Invalid Rule"
+#			buttonFont = "vic_18"
+		}
+
+		OverlappingElementsBoxType = {
+			name ="diplomat_icon_list"
+			position = { x = -11 y = 10 }
+			size = { x= 240 y = 28 }
+			spacing = -10
+			format = left
+		}
+	}
+
+	windowType = {
+		name = "improve_relation_button_diplomat_entry"
+		backGround=""
+		position = { x=0 y = 0}
+		size = { x= 230 y = 28 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullscreen = no
+
+		guiButtonType = {
+			name = "diplomat_icon"
+			position = { x=0 y = 0}
+			spriteType ="GFX_icon_diplomat"
 		}
 	}
 }

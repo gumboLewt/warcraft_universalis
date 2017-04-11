@@ -221,6 +221,11 @@ on_death_election = {
     }
 }
 
+
+# country
+on_bankruptcy = {
+}
+
 # country (country annexing, root = target)
 on_diplomatic_annex = {
     events = {
@@ -429,6 +434,18 @@ on_annexed = {
 
 }
 
+# When a nation gains the Mandate of Heaven (becomes the Emperor of China)
+# FROM = Old Emperor, ROOT = New Emperor
+on_mandate_of_heaven_gained = {
+	
+}
+
+# When a nation loses the Mandate of Heaven
+# FROM = New Emperor, ROOT = Old Emperor
+on_mandate_of_heaven_lost = {
+
+}
+
 on_dismantle_revolution = {
     kill_ruler = yes
     set_revolution_target = xxx
@@ -436,6 +453,18 @@ on_dismantle_revolution = {
         limit = { has_heir = yes }
         kill_heir = yes
     }
+}
+
+# province
+on_adm_development = {
+}
+
+# province
+on_dip_development = {
+}
+
+# province
+on_mil_development = {
 }
 
 on_lock_hre_religion = {
@@ -685,6 +714,7 @@ on_province_culture_converted = {
 }
 
 # province
+# FROM = old owner
 on_province_owner_change = {
 
 }
@@ -695,4 +725,14 @@ on_parliament_debate_failed = {
 
 # country
 on_parliament_debate_succeeded = {
+}
+
+#on_harmonized_<religion>
+
+# country. from = overlord
+on_accept_tribute = {
+}
+
+# country. from = overlord
+on_refuse_tribute = {
 }

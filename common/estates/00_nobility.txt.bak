@@ -1,0 +1,1043 @@
+estate_nobles =
+{
+	icon = 2
+	
+	color = { 95 180 200 }
+	
+	keep_on_conquest = no 							# Is estate kept in control of province on conquest?
+	always_remove_on_religious_conquest = yes 		# Estate will always be removed when conquered by a different religion than previous owner	
+	min_territory = 5 								# They want to control at least this % of the country's non-overseas development, if # of home provinces is above set amount
+	min_provinces_to_want_territory = 10			
+	min_autonomy = 25								# Min autonomy in estate provinces
+
+	trigger = {
+		OR = {
+			technology_group = tech_human
+			technology_group = tech_dwarven
+			technology_group = tech_thalassian
+		}
+	}
+	
+	# If true, province can be granted to estate
+	province_trigger = {
+		always = yes
+	}
+
+	autonomy_does_not_affect = local_manpower_modifier
+	
+	#############################
+	# Territory Modifiers
+	#############################
+	
+	wanted_territory_modifier = {
+        desc = EST_LARGE_NATION
+        trigger = {
+            num_of_cities = 25
+        }	
+        value = 5
+    }
+	
+	#############################
+	# Country Modifiers
+	#############################
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		cavalry_power = 0.1
+		army_tradition = 1
+		land_forcelimit_modifier = 0.25
+	}
+	country_modifier_neutral = {
+		land_forcelimit_modifier = 0.1
+	}	
+	country_modifier_angry = {
+		cavalry_power = -0.1
+		army_tradition = -1
+		land_forcelimit_modifier = -0.25
+	}	
+	
+	#############################
+	# Province Modifiers
+	#############################
+	# These do not scale, but only applied in provinces owned by the estate
+	province_modifier_happy = {
+		local_manpower_modifier = 0.5
+		local_unrest = -5
+	}
+	province_modifier_neutral = {
+		local_manpower_modifier = 0.25
+		local_unrest = -1
+	}	
+	province_modifier_angry = {
+		local_manpower_modifier = -0.5
+		local_unrest = 5
+	}	
+	
+	#############################
+	# Influence modifiers
+	#############################
+	base_influence = 30
+	
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				estate_influence = {
+                    estate = estate_clergy
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_commoners
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_merchants
+                    influence = 80
+                }
+			}
+		}
+		influence = -20
+	}
+	
+	# Aristocratic
+	influence_modifier = {
+		desc = EST_VAL_ARISTOCRATIC_IG
+		trigger = {
+			has_idea_group = aristocracy_ideas
+		}
+		influence = 5
+	}
+	
+	# Plutocratic
+	influence_modifier = {
+		desc = EST_VAL_PLUTOCRATIC_IG
+		trigger = {
+			has_idea_group = plutocracy_ideas
+		}
+		influence = -5
+	}
+	
+	# Republic
+	influence_modifier = {
+		desc = EST_VAL_REPUBLIC
+		trigger = {
+			NOT = { government = monarchy }
+		}
+		influence = -10
+	}
+	
+	# Number of Cities
+	influence_modifier = {
+		desc = EST_VAL_CITIES
+		trigger = {
+			num_of_cities = 10
+			NOT = { num_of_cities = 40 }
+		}
+		influence = 5
+	}
+	
+	influence_modifier = {
+		desc = EST_VAL_CITIES
+		trigger = {
+			num_of_cities = 40
+		}
+		influence = 10
+	}
+
+	#############################
+	# Loyalty modifiers
+	#############################
+	
+	# Disaster
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				estate_influence = {
+                    estate = estate_clergy
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_commoners
+                    influence = 80
+                }
+				estate_influence = {
+                    estate = estate_merchants
+                    influence = 80
+                }
+			}
+		}
+		loyalty = -20
+	}
+	
+	# Legitimacy
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {
+			government = monarchy
+			legitimacy = 25
+			NOT = { legitimacy = 50 }
+		}
+		loyalty = 2.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {
+			government = monarchy
+			legitimacy = 50
+			NOT = { legitimacy = 75 }
+		}
+		loyalty = 5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {	
+			government = monarchy
+			legitimacy = 75
+			NOT = { legitimacy = 90 }
+		}
+		loyalty = 7.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {	
+			government = monarchy
+			legitimacy = 90
+		}
+		loyalty = 10
+	}
+	
+	
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {
+			government = monarchy
+			NOT = { legitimacy = -25 }
+			legitimacy = -50
+		}
+		loyalty = -2.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {
+			government = monarchy
+			NOT = { legitimacy = -50 }
+			legitimacy = -75
+		}
+		loyalty = -5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {
+			government = monarchy
+			NOT = { legitimacy = -75 }
+			legitimacy = -90
+		}
+		loyalty = -7.5
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {
+			government = monarchy
+			NOT = { legitimacy = -90 }
+		}
+		loyalty = -10
+	}
+	
+	#############################
+	# Custom Names
+	#############################
+	
+	#############################
+	# AI Picking
+	#############################
+	# For province assignment
+	ai_grant_province = {
+		factor = 1
+		modifier = {
+			factor = 5
+			base_manpower = 10
+		}
+		
+		modifier = {
+			factor = 10
+			base_manpower = 20
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = { base_manpower = 2 }
+		}
+		
+		modifier = {
+			factor = 0.5
+			NOT = { has_owner_culture = yes }
+		}		
+	}
+	
+	#############################
+	# Interactions
+	#############################
+	
+	# Assemble Council
+	# 30 loyalty if complete, -10 if failed
+	# 	Take rival land
+	#	Attack rival
+	#	Guarantee neighbour
+	#	Ally neighbour
+	# 	Up opinion with neighbour
+	interaction = {
+		name = "ASSEMBLE_COUNCIL"
+		icon = 1
+		
+		years_between_use = 20
+		# 10 years to act
+		# 10 years for loyalty modifier clearance
+		
+        potential = {
+            OR = {
+                is_civilized = yes
+                is_savage = yes
+                is_lesser = yes
+            }
+        }
+        
+		trigger = {		
+			estate_influence = {
+				estate = estate_nobles
+				influence = 20
+			}
+		}
+		
+		effect = {
+			country_event = { id = WOW_COUNCIL.1 }
+			custom_tooltip = COUNCIL_GOAL_NOTICE
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	# Grant Knighthood
+	# 20 influence
+	#	Gives general, 20-80 tradition
+	interaction = {
+		name = "GRANT_KNIGHTHOOD"
+		icon = 41
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_nobles
+				influence = 50
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_nobles
+					influence = 80
+				}
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 5
+			}
+		
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = EST_VAL_GRANTED_KNIGHTHOOD
+				influence = 10
+				duration = 3650
+			}
+			
+			if = {
+				limit = { 
+					NOT = { army_tradition = 20 }
+				}	
+				
+				create_general = 20
+			}
+			if = {
+				limit = { 
+					army_tradition = 20
+					NOT = { army_tradition = 40 }
+				}	
+				
+				create_general = 40
+			}
+			if = {
+				limit = { 
+					army_tradition = 40
+					NOT = { army_tradition = 60 }
+				}	
+				
+				create_general = 60
+			}
+			if = {
+				limit = { 
+					army_tradition = 60
+					NOT = { army_tradition = 80 }
+				}	
+				
+				create_general = 80
+			}
+			if = {
+				limit = { 
+					army_tradition = 80
+				}	
+				
+				create_general = 100
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1	
+			
+			modifier = {
+				factor = 0
+				num_of_generals = 2
+			}
+			
+			modifier = {
+				factor = 0
+				estate_influence = {
+					estate = estate_nobles
+					influence = 60
+				}
+			}
+		}
+	}
+	
+	# Grant Admirality
+	# 10 influence
+	#	Gives admiral, 20-80 tradition
+	interaction = {
+		name = "GRANT_ADMIRALITY"
+		icon = 5
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_nobles
+				influence = 50
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_nobles
+					influence = 80
+				}
+			}
+		}
+		
+		effect = {
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = EST_VAL_GRANTED_ADMIRALITY
+				influence = 10
+				duration = 3650
+			}
+			
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 5
+			}
+			
+			if = {
+				limit = { 
+					NOT = { navy_tradition = 20 }
+				}	
+				
+				create_admiral = 20
+			}
+			if = {
+				limit = { 
+					navy_tradition = 20
+					NOT = { navy_tradition = 40 }
+				}	
+				
+				create_admiral = 40
+			}
+			if = {
+				limit = { 
+					navy_tradition = 40
+					NOT = { navy_tradition = 60 }
+				}	
+				
+				create_admiral = 60
+			}
+			if = {
+				limit = { 
+					navy_tradition = 60
+					NOT = { navy_tradition = 80 }
+				}	
+				
+				create_admiral = 80
+			}
+			if = {
+				limit = { 
+					navy_tradition = 80
+				}	
+				
+				create_admiral = 100
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1	
+			
+			modifier = {
+				factor = 0
+				
+				all_owned_province = {
+					NOT = { has_port = yes }
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				num_of_admirals = 2
+			}
+			
+			modifier = {
+				factor = 0
+				estate_influence = {
+					estate = estate_nobles
+					influence = 60
+				}
+			}
+		}
+	}
+	
+	# Solicit Investment
+	# -10 to -20 loyalty
+	#	Grants 50 to 200 mil power
+	interaction = {
+		name = "SOLICIT_INVESTMENT"
+		icon = 4
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_nobles
+				influence = 20
+			}
+		}
+		
+		effect = {
+			# Below 40
+			if = {
+				limit = {
+					NOT = {
+						estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 40
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = -10
+				}
+				
+				add_mil_power = 50
+			}
+			# Between 40 - 60
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 40
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 60
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = -15
+				}
+				
+				add_mil_power = 100
+			}
+			# Between 60 - 80
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 60
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 80
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = -20
+				}
+				
+				add_mil_power = 150
+			}
+			# Above 80
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 80
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = -25
+				}
+				
+				add_mil_power = 200
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				NOT = { 
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 60
+					}
+				}	
+			}
+			
+			modifier = {
+				factor = 0
+				
+				mil_power = 500
+			}
+		}
+	}
+	
+	# Entreat Nobles
+	# 15 loyalty, 10 influence
+	interaction = {
+		name = "ENTREAT_NOBLES"
+		icon = 25
+		
+		years_between_use = 5
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_nobles
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 15
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = EST_VAL_ENTREATED_INFLUENCE
+				influence = 10
+				duration = 1825
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				estate_influence = {
+					estate = estate_nobles
+					influence = 60
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 100
+				}
+			}
+		}
+	}
+	
+	# Oust Unfavourables
+	# -20 loyalty, -20 influence
+	interaction = {
+		name = "OUST_UNFAVOURABLES"
+		icon = 11
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_nobles
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -15
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = EST_VAL_OUSTED_INFLUENCE
+				influence = -15
+				duration = 3650
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				NOT = {
+					estate_influence = {
+						estate = estate_nobles
+						influence = 80
+					}
+				}
+			}
+		}
+	}
+	
+	# Grovel for Funds
+	# -10 to -20 loyalty
+	#	Grants 1 years income to 4 years income
+	interaction = {
+		name = "GROVEL_FOR_FUNDS"
+		icon = 6
+		
+		years_between_use = 10
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_nobles
+				influence = 20
+			}
+		}
+		
+		effect = {
+			# Below 40
+			if = {
+				limit = {
+					NOT = {
+						estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 40
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = -5
+				}
+				
+				add_years_of_income = 0.25
+			}
+			
+			# Between 40 - 60
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 40
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 60
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = -10
+				}
+				
+				add_years_of_income = 0.5
+			}
+			
+			# Between 60 - 80
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 60
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 80
+						}
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = -15
+				}
+				
+				add_years_of_income = 0.75
+			}
+			
+			# Above 80
+			if = {
+				limit = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 80
+					}
+				}
+			
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = -20
+				}
+				
+				add_years_of_income = 1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				
+				NOT = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 40
+					}
+				}
+			}
+		}
+	}
+	
+	# Appoint Heir
+	# 20 loyalty, 10 influence
+	#	Kills current heir, grants 9+ heir, low claim
+	#	Grants 9+ heir, high claim
+	interaction = {
+		name = "APPOINT_HEIR"
+		icon = 100
+		
+		years_between_use = 25
+		
+		trigger = {	
+			NOT = { government = republic }
+			estate_influence = {
+				estate = estate_nobles
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 10
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = EST_VAL_APPOINTED_HEIR_INFLUENCE
+				influence = 10
+				duration = 9125
+			}
+			
+			country_event = { id = WOW_ESTATES.1 }
+			
+			if = {
+				limit = { NOT = { legitimacy = 50 } }
+				
+				add_stability = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	# Cede Throne
+	# 30 loyalty, 10 influence
+	#	Stability -2
+	#	Kills ruler, grants 9+ ruler
+	interaction = {
+		name = "ABDICATE_THRONE"
+		icon = 34
+		
+		years_between_use = 25
+		
+		trigger = {		
+			NOT = { government = republic }
+			estate_influence = {
+				estate = estate_nobles
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 10
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = EST_VAL_ABDICATED_THRONE_INFLUENCE
+				influence = 10
+				duration = 9125
+			}
+			
+			country_event = { id = WOW_ESTATES.2 }
+		}
+		
+		ai_will_do = {
+			factor = 0		
+		}
+	}
+	
+	# Appoint Commander
+	interaction = {
+		name = "APPOINT_COMMANDER"
+		icon = 30
+		
+		years_between_use = 25
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_nobles
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 10
+			}
+			
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_nobles
+						influence = 20
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 40
+						}
+					}
+				}
+				add_army_tradition = 5
+			}
+			
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_nobles
+						influence = 40
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_nobles
+							influence = 60
+						}
+					}
+				}
+				add_army_tradition = 10
+			}
+			
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_nobles
+						influence = 60
+					}
+				}
+				add_army_tradition = 15
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1		
+		}
+	}
+	
+	# Call Banners
+	interaction = {
+		name = "CALL_BANNERS"
+		icon = 124
+		
+		years_between_use = 15
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_nobles
+				influence = 20
+			}
+			
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -15
+			}
+			
+			add_yearly_manpower = 1
+		}
+		
+		ai_will_do = {
+			factor = 1	
+
+			modifier = {
+				factor = 0
+				NOT = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 50
+					}
+				}
+			}
+		}
+	}
+}

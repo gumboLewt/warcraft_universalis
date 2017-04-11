@@ -29,6 +29,7 @@ trade_goods = fur
 600.1.1 = { 
     owner = A29
     controller = A29
+    add_core = A29
     remove_core = A43
     culture = culture_ironforge 
     religion = religion_church_of_the_light

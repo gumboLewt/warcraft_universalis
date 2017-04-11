@@ -278,7 +278,7 @@ estate_merchants =
 		name = "GRANT_TRADE_LICENSES"
 		icon = 68
 		
-		years_between_use = 10
+		years_between_use = 20
 		
 		trigger = {		
 			estate_influence = {
@@ -290,7 +290,7 @@ estate_merchants =
 		effect = {
 			add_estate_loyalty = {
 				estate = estate_merchants
-				loyalty = -10
+				loyalty = -20
 			}
 			
 			add_mercantilism = 5
@@ -315,7 +315,7 @@ estate_merchants =
 		name = "APPOINT_NAVAL_EXPLORER"
 		icon = 32
 		
-		years_between_use = 25
+		years_between_use = 20
 		
 		potential = {
 			OR = {
@@ -335,13 +335,8 @@ estate_merchants =
 			add_estate_influence_modifier = {
 				estate = estate_merchants
 				desc = EST_VAL_APPOINTED_NAVAL_EXPLORER
-				influence = 10
-				duration = 3650
-			}
-			
-			add_estate_loyalty = {
-				estate = estate_merchants
-				loyalty = 5
+				influence = 15
+				duration = 7300
 			}
 			
 			if = {
@@ -410,7 +405,7 @@ estate_merchants =
 		name = "APPOINT_LAND_EXPLORER"
 		icon = 39
 		
-		years_between_use = 25
+		years_between_use = 20
 		
 		potential = {
 			OR = {
@@ -430,15 +425,10 @@ estate_merchants =
 			add_estate_influence_modifier = {
 				estate = estate_merchants
 				desc = EST_VAL_APPOINTED_LAND_EXPLORER
-				influence = 10
-				duration = 3650
+				influence = 15
+				duration = 7300
 			}
-			
-			add_estate_loyalty = {
-				estate = estate_merchants
-				loyalty = 5
-			}
-			
+
 			if = {
 				limit = { 
 					NOT = { army_tradition = 20 }
@@ -836,22 +826,22 @@ estate_merchants =
 		name = "RESTRUCTURE_LOANS"
 		icon = 108
 		
-		years_between_use = 5
+		years_between_use = 10
 		
 		trigger = {		
 			estate_influence = {
 				estate = estate_merchants
 				influence = 20
 			}
-			inflation = 2
+			inflation = 0.01
 		}
 		
 		effect = {
 			add_estate_influence_modifier = {
 				estate = estate_merchants
 				desc = EST_VAL_RESTRUCTURED_LOANS_INFLUENCE
-				influence = 15
-				duration = 1825
+				influence = 10
+				duration = 3650
 			}
 			
 			add_inflation = -2
@@ -875,7 +865,7 @@ estate_merchants =
 		name = "DIVERT_STOCK"
 		icon = 96
 		
-		years_between_use = 5
+		years_between_use = 10
 		
 		trigger = {		
 			estate_influence = {

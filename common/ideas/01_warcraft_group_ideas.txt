@@ -5,6 +5,7 @@
 azerothian_ideas = {
 	start = {
 		diplomatic_upkeep = 2
+        global_unrest = -1
 	}
 
 	bonus = {
@@ -48,6 +49,7 @@ azerothian_ideas = {
 depths_ideas = {
 	start = {
 		naval_maintenance_modifier = -0.2
+        years_of_nationalism = -5
 	}
 
 	bonus = {
@@ -86,6 +88,7 @@ depths_ideas = {
 gilnean_ideas = {
 	start = {
 		advisor_cost = -0.1
+        stability_cost_modifier = -0.1
 	}
 
 	bonus = {
@@ -128,6 +131,7 @@ gilnean_ideas = {
 arathi_ideas = {
 	start = {
 		diplomatic_upkeep = 1
+        num_accepted_cultures = 1
 	}
 
 	bonus = {
@@ -172,7 +176,7 @@ lordaeron_ideas = {
 	}
 
 	bonus = {
-	advisor_pool = 1
+        advisor_pool = 1
 	}
 	
 	trigger = {
@@ -340,6 +344,7 @@ kul_tiran_ideas = {
 darnassian_ideas = {
 	start = {
 		army_tradition = 0.5
+        global_unrest = -1
 	}
 
 	bonus = {
@@ -389,6 +394,7 @@ darnassian_ideas = {
 highbourne_ideas = {
 	start = {
 		legitimacy = 1
+        spy_offence = 0.1
 	}
 
 	bonus = {
@@ -484,6 +490,7 @@ vrykul_ideas = {
 orc_ideas = {
 	start = {
 		global_tax_modifier = 0.1
+        leader_land_shock = 1
 	}
 
 	bonus = {
@@ -813,6 +820,7 @@ goblin_ideas = {
 tauren_ideas = {
 	start = {
         stability_cost_modifier = -0.1
+        leader_land_manuever = 1
 	}
 
 	bonus = {
@@ -851,6 +859,7 @@ tauren_ideas = {
 thalassian_ideas = {
 	start = {
 		legitimacy = 1
+        leader_land_fire = 1
 	}
 
 	bonus = {
@@ -1173,6 +1182,7 @@ gnoll_ideas = {
 centaur_ideas = {
 	start = {
 		cavalry_cost = -0.3
+        cavalry_flanking = 0.25
 	}
 
 	bonus = {
@@ -1255,7 +1265,8 @@ furbolg_ideas = {
 
 harpy_ideas = {
 	start = {
-		  diplomats = 1
+        diplomats = 1
+        movement_speed = 0.1
 	}
 
 	bonus = {
@@ -1300,6 +1311,7 @@ harpy_ideas = {
 dwarven_ideas = {
 	start = {
 		defensiveness = 0.33
+        siege_ability = 0.1
 	}
 
 	bonus = {
@@ -1342,7 +1354,8 @@ dwarven_ideas = {
 
 worgen_ideas = {
 	start = {
-		siege_ability = 0.20
+		siege_ability = 0.1
+        army_tradition_decay = -0.01
 	}
 
 	bonus = {
@@ -1426,7 +1439,6 @@ gnomish_ideas = {
 	start = {
 		technology_cost = -0.10
         idea_cost = -0.10
-        leader_land_shock = -1
 	}
 
 	bonus = {

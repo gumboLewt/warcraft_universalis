@@ -8,7 +8,7 @@ capital 			= 1583 #Not sure
 
 546.1.1 = { 
 	monarch = { 
-		name = "" 
+		name = "Nathka"
 		dynasty = "Grimtotem" 
 		adm = 4
 		dip = 3

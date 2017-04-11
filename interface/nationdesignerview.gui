@@ -167,8 +167,8 @@ guiTypes = {
 			### shield stuff
 			guiButtonType = {
 				name ="shield"
-				quadTextureSprite = "GFX_mega_flag"
-				position = { x= 140 y = 260 }
+				quadTextureSprite = "GFX_shield_fancy"
+				position = { x= 140 y = 247 }
 			}
 			
 			
@@ -1949,154 +1949,6 @@ guiTypes = {
 			maxHeight = 32
 			format = left
 		}
-        
-        # Crash fix
-        iconType =
-		{
-			name ="icon_gov_desc_4"
-			spriteType = "GFX_idea_empty"
-			position = { x= 179 y = -9999 }
-			scale = 0.5
-			
-		}
-		
-		instantTextBoxType = {
-			name = "gov_desc_4"
-			position = { x = 205 y = -9999 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 4 y = 4}	
-			text = ""	
-			maxWidth = 64
-			maxHeight = 32
-			format = left
-		}
-        
-        iconType =
-		{
-			name ="icon_gov_desc_5"
-			spriteType = "GFX_idea_empty"
-			position = { x= 179 y = -9999 }
-			scale = 0.5
-			
-		}
-		
-		instantTextBoxType = {
-			name = "gov_desc_5"
-			position = { x = 205 y = -9999 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 4 y = 4}	
-			text = ""	
-			maxWidth = 64
-			maxHeight = 32
-			format = left
-		}
-        
-        iconType =
-		{
-			name ="icon_gov_desc_6"
-			spriteType = "GFX_idea_empty"
-			position = { x= 179 y = -9999 }
-			scale = 0.5
-			
-		}
-		
-		instantTextBoxType = {
-			name = "gov_desc_6"
-			position = { x = 205 y = -9999 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 4 y = 4}	
-			text = ""	
-			maxWidth = 64
-			maxHeight = 32
-			format = left
-		}
-        
-        iconType =
-		{
-			name ="icon_gov_desc_7"
-			spriteType = "GFX_idea_empty"
-			position = { x= 179 y = -9999 }
-			scale = 0.5
-			
-		}
-		
-		instantTextBoxType = {
-			name = "gov_desc_7"
-			position = { x = 205 y = -9999 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 4 y = 4}	
-			text = ""	
-			maxWidth = 64
-			maxHeight = 32
-			format = left
-		}
-        
-        iconType =
-		{
-			name ="icon_gov_desc_8"
-			spriteType = "GFX_idea_empty"
-			position = { x= 179 y = -9999 }
-			scale = 0.5
-			
-		}
-		
-		instantTextBoxType = {
-			name = "gov_desc_8"
-			position = { x = 205 y = -9999 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 4 y = 4}	
-			text = ""	
-			maxWidth = 64
-			maxHeight = 32
-			format = left
-		}
-        
-        iconType =
-		{
-			name ="icon_gov_desc_9"
-			spriteType = "GFX_idea_empty"
-			position = { x= 179 y = -9999 }
-			scale = 0.5
-			
-		}
-		
-		instantTextBoxType = {
-			name = "gov_desc_9"
-			position = { x = 205 y = -9999 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 4 y = 4}	
-			text = ""	
-			maxWidth = 64
-			maxHeight = 32
-			format = left
-		}
-        
-        iconType =
-		{
-			name ="icon_gov_desc_10"
-			spriteType = "GFX_idea_empty"
-			position = { x= 179 y = -9999 }
-			scale = 0.5
-			
-		}
-		
-		instantTextBoxType = {
-			name = "gov_desc_10"
-			position = { x = 205 y = -9999 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 4 y = 4}	
-			text = ""	
-			maxWidth = 64
-			maxHeight = 32
-			format = left
-		}
 
 		instantTextBoxType = {
 			name = "list_item_pts_label"
@@ -2317,22 +2169,22 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "lvl_down"
-			position = { x = 295 y = 4 }
+			position = { x = 300 y = 4 }
 			quadTextureSprite ="GFX_arrow_left_big"	
 		}
 		guiButtonType = {
 			name = "lvl_up"
-			position = { x = 331 y = 4 }
+			position = { x = 350 y = 4 }
 			quadTextureSprite ="GFX_arrow_right_big"	
 		}
 		
 		instantTextBoxType = {
 			name = "lvl_number"
-			position = { x = 314 y = 7 }
+			position = { x = 316 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			text = "0"	
-			maxWidth = 20
+			maxWidth = 40
 			maxHeight = 20	
 			format = centre
 			fixedsize = yes
@@ -2340,7 +2192,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "idea_points"
-			position = { x = 353 y = 7 }
+			position = { x = 353 y = -9999 }
 			textureFile = ""
 			font = "vic_18"
 			text = "100"	

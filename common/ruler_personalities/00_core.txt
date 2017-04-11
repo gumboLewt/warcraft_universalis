@@ -703,7 +703,7 @@ benevolent_personality = {
 	chance = {
 		modifier = {
 			factor = 1
-			num_of_vassals = 2
+			vassal = 2
 		}
 	}
 	

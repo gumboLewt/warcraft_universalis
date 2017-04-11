@@ -101,17 +101,6 @@ outland_superregion = {
     region_netherstorm
 }
 
-draenor_superregion = {
-    region_tanaan_jungle
-    region_talador
-    region_old_nagrand
-    region_old_shadowmoon_valley
-    region_spires_of_arak
-    region_gorgrond
-    region_frostfire_ridge
-    region_ashran
-}
-
 ocean_superregion = {
     eastern_ocean
     western_ocean
@@ -130,7 +119,6 @@ wasteland_superregion = {
     kalimdor_wasteland_region
     maelstrom_wasteland_region
     northrend_wasteland_region
-    draenor_wasteland_region
     outland_wasteland_region
     pandaria_wasteland_region
 }

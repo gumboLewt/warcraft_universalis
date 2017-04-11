@@ -917,57 +917,6 @@ region_netherstorm = {
 }
 
 #-------------------
-# Draenor
-#-------------------
-region_tanaan_jungle = {
-    areas = {
-    
-    }
-}
-
-region_talador = {
-    areas = {
-    
-    }
-}
-
-region_old_nagrand = {
-    areas = {
-    
-    }
-}
-
-region_old_shadowmoon_valley = {
-    areas = {
-    
-    }
-}
-
-region_spires_of_arak = {
-    areas = {
-    
-    }
-}
-
-region_gorgrond = {
-    areas = {
-    
-    }
-}
-
-region_frostfire_ridge = {
-    areas = {
-    
-    }
-}
-
-region_ashran = {
-    areas = {
-    
-    }
-}
-
-#-------------------
 # Sea
 #-------------------
 eastern_ocean = {
@@ -1068,12 +1017,6 @@ maelstrom_wasteland_region = {
 northrend_wasteland_region = {
 	areas = {
 		area_northrend_wastelands
-	}
-}
-
-draenor_wasteland_region = {
-	areas = {
-		area_draenor_wastelands
 	}
 }
 

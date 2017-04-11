@@ -24,29 +24,6 @@ country_event = {
             limit = {
 			    OR = {
                    any_owned_province = {
-                        continent = continent_draenor
-                   }
-                }
-            }    
-            draenor_provincegroup = {
-                
-                ROOT = {
-                    discover_province = PREV
-                }
-            }
-            
-            draenor_wasteland_region = {
-                
-                ROOT = {
-                    discover_province = PREV
-                }
-            }
-        }
-        
-        if = {
-            limit = {
-			    OR = {
-                   any_owned_province = {
                         continent = continent_eastern_kingdoms
                    }
 				   AND = {

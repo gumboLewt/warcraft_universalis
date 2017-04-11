@@ -38,14 +38,14 @@ estate_the_legion =
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		discipline = 0.05
+		papal_influence = 2
 		stability_cost_modifier = -0.1
 	}
 	country_modifier_neutral = {
-		discipline = 0.05
+		papal_influence = 1
 	}
 	country_modifier_angry = {
-		discipline = -0.05
+		papal_influence = -2
 		stability_cost_modifier = 0.1
 	}
 
