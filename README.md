@@ -33,7 +33,7 @@ If You want to see additional, warcraftish models on your screen:
 ### Polish language
 If You want to play EU4 in Polish
 
-1. Download basic files from https://github.com/Xanaa/Warcraft-Universalis-Polska
+1. Download basic files from https://github.com/vawser/Warcraft-Universalis-Polska
 2. Follow instruction in this files and return here
 3. Go to **\Documents\Paradox Interactive\Europa Universalis IV\** and open settings.txt
 4. Find " language="l_english" " on the top of the file
