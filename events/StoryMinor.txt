@@ -26,7 +26,7 @@ country_event = {
 	option = {
 		name = story.1.option.a
 		
-        log = "[Root.GetName] - story.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - story.1.option.a" }
 
 		change_tag = X01 # The Risen
 		change_government = scourge_gov
@@ -117,7 +117,7 @@ country_event = {
 	option = {
 		name = story.2.option.a
 		
-        log = "[Root.GetName] - story.2.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - story.2.option.a" }
 
 		random_owned_province = {
 			limit = { is_capital = no }
@@ -168,7 +168,7 @@ country_event = {
 	option = {
 		name = story.3.option.a
 		
-        log = "[Root.GetName] - story.3.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - story.3.option.a" }
 
 		set_country_flag = true_horde
 		

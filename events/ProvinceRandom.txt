@@ -45,7 +45,7 @@ province_event = {
 	option = {
 		name = random_province.1.option.a
 
-        log = "[Root.GetName] - random_province.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.1.option.a" }
 
         set_local_autonomy = 75
 	}
@@ -53,7 +53,7 @@ province_event = {
     option = {
 		name = random_province.1.option.b
 
-        log = "[Root.GetName] - random_province.1.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.1.option.b" }
 
         add_province_modifier = {
             name = denied_autonomy
@@ -64,7 +64,7 @@ province_event = {
     option = {
 		name = random_province.1.option.c
 
-        log = "[Root.GetName] - random_province.1.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.1.option.c" }
 
         add_province_modifier = {
             name = incensed_people
@@ -105,7 +105,7 @@ province_event = {
 	option = {
 		name = random_province.2.option.a
 
-        log = "[Root.GetName] - random_province.2.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.2.option.a" }
 
         add_base_tax = 2
 	}
@@ -113,7 +113,7 @@ province_event = {
     option = {
 		name = random_province.2.option.b
 
-        log = "[Root.GetName] - random_province.2.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.2.option.b" }
 
         add_scaled_local_adm_power = 10
 	}
@@ -121,7 +121,7 @@ province_event = {
     option = {
 		name = random_province.2.option.c
 
-        log = "[Root.GetName] - random_province.2.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.2.option.c" }
 
         add_province_modifier = {
             name = sexually_frustrated
@@ -165,21 +165,21 @@ province_event = {
 	option = {
 		name = random_province.3.option.a
 
-        log = "[Root.GetName] - random_province.3.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.3.option.a" }
         add_scaled_local_dip_power = 10
 	}
     
     option = {
 		name = random_province.3.option.b
 
-        log = "[Root.GetName] - random_province.3.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.3.option.b" }
         add_scaled_local_mil_power = 10
 	}
     
     option = {
 		name = random_province.3.option.c
 
-        log = "[Root.GetName] - random_province.3.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.3.option.c" }
         add_scaled_local_adm_power = 10
 	}
 }

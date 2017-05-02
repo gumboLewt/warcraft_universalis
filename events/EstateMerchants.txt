@@ -18,7 +18,7 @@ country_event = {
     option = {
         name = merchants_estate_disasters.1.a
 
-        log = "[Root.GetName] - merchants_estate_disasters.1.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - merchants_estate_disasters.1.a" }
     }
 }
 
@@ -39,7 +39,7 @@ country_event = {
     option = {
         name = merchants_estate_disasters.2.a
 
-        log = "[Root.GetName] - merchants_estate_disasters.2.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - merchants_estate_disasters.2.a" }
     }
 }
 
@@ -56,6 +56,6 @@ country_event = {
     option = {
         name = merchants_estate_disasters.3.a
 
-        log = "[Root.GetName] - merchants_estate_disasters.3.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - merchants_estate_disasters.3.a" }
     }
 }

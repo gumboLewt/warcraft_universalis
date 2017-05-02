@@ -22,7 +22,7 @@ country_event = {
 	option = {
 		name = WARCRAFT_TIRISFAL.1.option.a      # Enter
         
-        log = "[Root.GetName] - WARCRAFT_TIRISFAL.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WARCRAFT_TIRISFAL.1.option.a" }
 
 		ai_chance = { factor = 100 }
 		add_dip_power = 50
@@ -37,7 +37,7 @@ country_event = {
 	option = {
 		name = WARCRAFT_TIRISFAL.1.option.b		 # Get Out
 
-        log = "[Root.GetName] - WARCRAFT_TIRISFAL.1.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WARCRAFT_TIRISFAL.1.option.b" }
 
 		ai_chance = { factor = 0 }
 		add_mil_power = 50

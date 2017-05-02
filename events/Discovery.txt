@@ -20,7 +20,7 @@ country_event = {
 	option = {
 		name = discovery.1.option.a
 		
-        log = "[Root.GetName] - discovery.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - discovery.1.option.a" }
 
         if = {
             limit = {

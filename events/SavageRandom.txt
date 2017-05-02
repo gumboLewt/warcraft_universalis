@@ -36,7 +36,7 @@ country_event = {
 	option = {
 		name = random_savage.1.option.a
 
-        log = "[Root.GetName] - random_savage.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_savage.1.option.a" }
 
         random_country = {
             limit = {
@@ -61,7 +61,7 @@ country_event = {
     option = {
 		name = random_savage.1.option.b
 
-        log = "[Root.GetName] - random_savage.1.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_savage.1.option.b" }
 
         add_stability = -1
 	}

@@ -18,6 +18,6 @@ country_event = {
     option = {
         name = tribes_estate_disasters.1.a
 
-        log = "[Root.GetName] - tribes_estate_disasters.1.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - tribes_estate_disasters.1.a" }
     }
 }

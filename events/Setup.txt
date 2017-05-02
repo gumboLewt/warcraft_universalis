@@ -1,5 +1,7 @@
 namespace = setup
 
+# if = { limit = { has_global_flag = enable_event_logging } log = \1 }
+
 country_event = {
 	id = setup.1
 	title = setup.1.title
@@ -19,13 +21,14 @@ country_event = {
 
     option = {
         name = setup.1.option.a
-
-        log = "[Root.GetName] - Global Setup"
-    
+        
         # --- Logging flags
         #   Comment these for release builds
         #   Enabling these will spam the game.log
         set_global_flag = enable_onaction_logging
+        set_global_flag = enable_event_logging
+
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - Global Setup" }
 
         # Configure HRE
         hre_inheritable = yes
@@ -40,7 +43,7 @@ country_event = {
                 NOT = { is_year = 592 }
             }
             set_global_flag = rise_of_the_horde
-            log = "Game flag: rise_of_the_horde"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: rise_of_the_horde" }
         }
 
         # The First War
@@ -50,7 +53,7 @@ country_event = {
                 NOT = { is_year = 598 }
             }
             set_global_flag = the_first_war
-            log = "Game flag: the_first_war"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_first_war" }
         }
 
         # The Second War
@@ -60,7 +63,7 @@ country_event = {
                 NOT = { is_year = 617 }
             }
             set_global_flag = the_second_war
-            log = "Game flag: the_second_war"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_second_war" }
         }
 
         # The Third War
@@ -70,7 +73,7 @@ country_event = {
                 NOT = { is_year = 618 }
             }
             set_global_flag = the_third_war 
-            log = "Game flag: the_third_war"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_third_war" }
         }
 
         # The Frozen Throne
@@ -80,7 +83,7 @@ country_event = {
                 NOT = { is_year = 622 }
             }
             set_global_flag = the_frozen_throne
-            log = "Game flag: the_frozen_throne"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_frozen_throne" }
         }
 
         # The Rise of the Qiraji
@@ -90,7 +93,7 @@ country_event = {
                 NOT = { is_year = 625 }
             }
             set_global_flag = rise_of_the_qiraji
-            log = "Game flag: rise_of_the_qiraji"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: rise_of_the_qiraji" }
         }
 
         # The Burning Crusade
@@ -100,7 +103,7 @@ country_event = {
                 NOT = { is_year = 626 }
             }
             set_global_flag = the_burning_crusade
-            log = "Game flag: the_burning_crusade"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_burning_crusade" }
         }
 
         # Wrath of the Lich King
@@ -110,7 +113,7 @@ country_event = {
                 NOT = { is_year = 631 }
             }
             set_global_flag = wrath_of_the_lich_king
-            log = "Game flag: wrath_of_the_lich_king"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: wrath_of_the_lich_king" }
         }
 
         # Cataclysm
@@ -120,7 +123,7 @@ country_event = {
                 NOT = { is_year = 632 }
             }
             set_global_flag = cataclysm
-            log = "Game flag: cataclysm"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: cataclysm" }
         }
 
         # Mists of Pandaria
@@ -130,7 +133,7 @@ country_event = {
                 #NOT = { is_year = 600 }
             }
             set_global_flag = mists_of_pandaria
-            log = "Game flag: mists_of_pandaria"
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: mists_of_pandaria" }
         }
     }  
 }
@@ -155,7 +158,7 @@ country_event = {
     option = {
         name = setup.1.option.a
 
-        log = "[Root.GetName] - Start Setup"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - Start Setup" }
 
         if = {
             limit = {

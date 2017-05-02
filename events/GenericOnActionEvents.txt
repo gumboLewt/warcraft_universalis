@@ -10,7 +10,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB610A"
 
-        log = "[Root.GetName] - EVTOPTB610A"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTB610A" }
 
 		add_country_modifier = {
 			name = "annexers_legacy"
@@ -36,7 +36,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB611A"
 
-        log = "[Root.GetName] - EVTOPTB611A"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTB611A" }
 		random_owned_province = {
 			limit = { 
 				is_in_capital_area = yes

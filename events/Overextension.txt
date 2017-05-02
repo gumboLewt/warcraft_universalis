@@ -19,7 +19,7 @@ country_event = {
 	option = {
 		name = wow_overextension.1.option.a
 
-        log = "[Root.GetName] - wow_overextension.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.1.option.a" }
 
 		add_war_exhaustion = 1
 		add_manpower = -0.05
@@ -54,7 +54,7 @@ country_event = {
 	option = {
 		name = wow_overextension.2.option.a
 
-        log = "[Root.GetName] - wow_overextension.2.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.2.option.a" }
 		add_stability = -1
 		
 		if = {
@@ -88,7 +88,7 @@ country_event = {
 	option = {
 		name = wow_overextension.3.option.a
 
-        log = "[Root.GetName] - wow_overextension.3.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.3.option.a" }
 
 		add_prestige = -25
 		
@@ -123,7 +123,7 @@ country_event = {
 	option = {
 		name = wow_overextension.4.option.a
 
-        log = "[Root.GetName] - wow_overextension.4.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.4.option.a" }
 
 		add_inflation = 1
 		
@@ -158,7 +158,7 @@ country_event = {
 	option = {
 		name = wow_overextension.5.option.a
 
-        log = "[Root.GetName] - wow_overextension.5.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.5.option.a" }
 		add_army_tradition = -10
 		
 		if = {
@@ -200,7 +200,7 @@ country_event = {
 	option = {
 		name = wow_overextension.6.option.a
 
-        log = "[Root.GetName] - wow_overextension.6.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.6.option.a" }
 		random_active_trade_node = {
 			limit = {
 				NOT = { 
@@ -266,7 +266,7 @@ country_event = {
 	option = {
 		name = wow_overextension.7.option.a
 
-        log = "[Root.GetName] - wow_overextension.7.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.7.option.a" }
 		random_active_trade_node = {
 			limit = {
 				NOT = { 
@@ -317,7 +317,7 @@ country_event = {
 	option = {
 		name = wow_overextension.8.option.a
 
-        log = "[Root.GetName] - wow_overextension.8.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.8.option.a" }
 		if = {
 			limit = { NOT = { government = khas } }
 			add_legitimacy = -15
@@ -358,7 +358,7 @@ country_event = {
 	option = {
 		name = wow_overextension.9.option.a
 
-        log = "[Root.GetName] - wow_overextension.9.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.9.option.a" }
 		add_dip_power = -50
 		
 		if = {
@@ -397,7 +397,7 @@ country_event = {
 	option = {
 		name = wow_overextension.10.option.a
 
-        log = "[Root.GetName] - wow_overextension.10.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.10.option.a" }
 
 		if = {
 			limit = {

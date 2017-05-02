@@ -11,7 +11,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-        log = "[Root.GetName] - commoners_estate_disasters.1.a - immediate"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - commoners_estate_disasters.1.a - immediate" }
 
 		add_stability = -5
 		
@@ -114,7 +114,7 @@ country_event = {
 	option = {
 		name = commoners_estate_disasters.1.a
 
-        log = "[Root.GetName] - commoners_estate_disasters.1.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - commoners_estate_disasters.1.a" }
 
 		define_ruler = {
 			claim = 40
@@ -139,7 +139,7 @@ country_event = {
     option = {
         name = commoners_estate_disasters.2.a
 
-        log = "[Root.GetName] - commoners_estate_disasters.2.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - commoners_estate_disasters.2.a" }
     }
 }
 
@@ -156,6 +156,6 @@ country_event = {
     option = {
         name = commoners_estate_disasters.3.a
 
-        log = "[Root.GetName] - commoners_estate_disasters.3.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - commoners_estate_disasters.3.a" }
     }
 }

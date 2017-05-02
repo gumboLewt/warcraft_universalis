@@ -40,7 +40,8 @@ country_event = {
 	option = {
 		name = wow_artifacts.1.option.a
 
-        log = "[Root.GetName] - wow_artifacts.1
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_artifacts.1" }
+
         hidden_effect = {
             random_list = {
                 50 = {
@@ -68,7 +69,8 @@ country_event = {
 	option = {
 		name = wow_artifacts.2.option.a
 
-        log = "[Root.GetName] - wow_artifacts.2
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_artifacts.2" }
+
         add_country_modifier = {
             name = stromkar_the_warbreaker
             duration = -1
@@ -90,7 +92,7 @@ country_event = {
 	option = {
 		name = wow_artifacts.3.option.a
 
-        log = "[Root.GetName] - wow_artifacts.3
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_artifacts.3" }
         add_prestige = -5
 	}
 }

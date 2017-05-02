@@ -30,7 +30,7 @@ country_event = {
 	option = {
 		name = wow_outland.1.option.a
 
-        log = "[Root.GetName] - wow_outland.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_outland.1.option.a" }
         create_alliance = P02
         
         add_opinion = {
@@ -64,7 +64,7 @@ country_event = {
     option = {
 		name = wow_outland.1.option.b
 
-        log = "[Root.GetName] - wow_outland.1.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_outland.1.option.b" }
 
         ai_chance = {
             factor = 0
@@ -95,7 +95,7 @@ country_event = {
 	option = {
 		name = wow_outland.2.option.a
 
-        log = "[Root.GetName] - wow_outland.2.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_outland.2.option.a" }
         create_alliance = A93
         
         add_opinion = {
@@ -129,7 +129,7 @@ country_event = {
     option = {
 		name = wow_outland.2.option.b
 
-        log = "[Root.GetName] - wow_outland.2.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_outland.2.option.b" }
         ai_chance = {
             factor = 0
         }
@@ -159,7 +159,7 @@ country_event = {
 	option = {
 		name = wow_outland.3.option.a
 
-        log = "[Root.GetName] - wow_outland.3.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_outland.3.option.a" }
         create_alliance = B87
         
         add_opinion = {
@@ -193,7 +193,7 @@ country_event = {
     option = {
 		name = wow_outland.3.option.b
 
-        log = "[Root.GetName] - wow_outland.3.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_outland.3.option.b" }
         ai_chance = {
             factor = 0
         }

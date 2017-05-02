@@ -18,7 +18,7 @@ country_event = {
 	option = {
 		name = wow_government.1.option.a
             
-        log = "[Root.GetName] - wow_government.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.1.option.a" }
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -53,7 +53,7 @@ country_event = {
 	option = {
 		name = wow_government.1.option.b
 		
-        log = "[Root.GetName] - wow_government.1.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.1.option.b" }
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -88,7 +88,7 @@ country_event = {
 	option = {
 		name = wow_government.1.option.c
 		
-        log = "[Root.GetName] - wow_government.1.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.1.option.c" }
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -139,7 +139,7 @@ country_event = {
     option = {
 		name = wow_government.2.option.a
 		
-        log = "[Root.GetName] - wow_government.2.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.2.option.a" }
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -174,7 +174,7 @@ country_event = {
 	option = {
 		name = wow_government.2.option.b
 		
-        log = "[Root.GetName] - wow_government.2.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.2.option.b" }
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -209,7 +209,7 @@ country_event = {
 	option = {
 		name = wow_government.2.option.c
 		
-        log = "[Root.GetName] - wow_government.2.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.2.option.c" }
 		random_list = {
 			33 = {
 				add_ruler_modifier = {

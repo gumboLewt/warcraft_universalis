@@ -16,7 +16,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.100.option.a
 		
-        log = "[Root.GetName] - warcraft_institutions.100.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.100.option.a" }
 
 		add_adm_power = 100
 		add_dip_power = 100
@@ -65,7 +65,7 @@ country_event = {
 	}
 
 	option = {
-        log = "[Root.GetName] - warcraft_institutions.101.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.101.option.a" }
 
 		name = warcraft_institutions.100.option.a
 		custom_tooltip = phlogiston_penalty
@@ -88,7 +88,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.100.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.102.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.102.option.a" }
 		custom_tooltip = phlogiston_penalty
 	}
 }
@@ -109,7 +109,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.200.option.a
 		
-        log = "[Root.GetName] - warcraft_institutions.200.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.200.option.a" }
 
 		add_adm_power = 100
 		add_dip_power = 100
@@ -160,7 +160,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.200.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.201.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.201.option.a" }
 		custom_tooltip = clockwerk_engineering_penalty
 	}
 }
@@ -181,7 +181,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.200.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.202.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.202.option.a" }
 		custom_tooltip = clockwerk_engineering_penalty
 	}
 }
@@ -202,7 +202,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.300.option.a
 		
-        log = "[Root.GetName] - warcraft_institutions.300.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.300.option.a" }
 		add_adm_power = 100
 		add_dip_power = 100
 		add_mil_power = 100
@@ -252,7 +252,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.200.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.301.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.301.option.a" }
 		custom_tooltip = boomsticks_penalty
 	}
 }
@@ -273,7 +273,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.200.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.302.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.302.option.a" }
 		custom_tooltip = boomsticks_penalty
 	}
 }
@@ -294,7 +294,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.400.option.a
 		
-        log = "[Root.GetName] - warcraft_institutions.400.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.400.option.a" }
 		add_adm_power = 100
 		add_dip_power = 100
 		add_mil_power = 100
@@ -344,7 +344,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.400.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.401.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.401.option.a" }
 		custom_tooltip = oil_extraction_penalty
 	}
 }
@@ -365,7 +365,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.400.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.402.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.402.option.a" }
 		custom_tooltip = oil_extraction_penalty
 	}
 }
@@ -386,7 +386,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.500.option.a
 		
-        log = "[Root.GetName] - warcraft_institutions.500.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.500.option.a" }
 
 		add_adm_power = 100
 		add_dip_power = 100
@@ -437,7 +437,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.500.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.501.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.501.option.a" }
 		custom_tooltip = mechanical_constructs_penalty
 	}
 }
@@ -458,7 +458,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.500.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.502.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.502.option.a" }
 		custom_tooltip = mechanical_constructs_penalty
 	}
 }
@@ -479,7 +479,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.600.option.a
 		
-        log = "[Root.GetName] - warcraft_institutions.600.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.600.option.a" }
 		add_adm_power = 100
 		add_dip_power = 100
 		add_mil_power = 100
@@ -529,7 +529,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.600.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.601.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.601.option.a" }
 		custom_tooltip = pneumatics_penalty
 	}
 }
@@ -550,7 +550,7 @@ country_event = {
 	option = {
 		name = warcraft_institutions.600.option.a
 
-        log = "[Root.GetName] - warcraft_institutions.602.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - warcraft_institutions.602.option.a" }
 		custom_tooltip = pneumatics_penalty
 	}
 }

@@ -17,21 +17,21 @@ country_event = {
 	option = {
 		name = wow_ruler.1.option.a
 		
-        log = "[Root.GetName] - wow_ruler.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_ruler.1.option.a" }
         change_adm = -1
 	}
     
     option = {
 		name = wow_ruler.1.option.b
 		
-        log = "[Root.GetName] - wow_ruler.1.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_ruler.1.option.b" }
         change_dip = -1
 	}
     
     option = {
 		name = wow_ruler.1.option.c
 		
-        log = "[Root.GetName] - wow_ruler.1.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_ruler.1.option.c" }
         change_mil = -1
 	}
 }
@@ -53,21 +53,21 @@ country_event = {
 	option = {
 		name = wow_ruler.2.option.a
 		
-        log = "[Root.GetName] - wow_ruler.2.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_ruler.2.option.a" }
         change_adm = 1
 	}
     
     option = {
 		name = wow_ruler.2.option.b
 		
-        log = "[Root.GetName] - wow_ruler.2.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_ruler.2.option.b" }
         change_dip = 1
 	}
     
     option = {
 		name = wow_ruler.2.option.c
 		
-        log = "[Root.GetName] - wow_ruler.2.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_ruler.2.option.c" }
         change_mil = 1
 	}
 }
@@ -116,7 +116,7 @@ country_event = {
 	option = {
 		name = wow_ruler.3.option.a
 
-        log = "[Root.GetName] - wow_ruler.3.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_ruler.3.option.a" }
 		clear_scripted_personalities = yes
         add_ruler_personality = immortal_personality
         set_ruler_flag = set_immortality
@@ -182,7 +182,7 @@ country_event = {
 	option = {
 		name = wow_ruler.4.option.a
 		
-        log = "[Root.GetName] - wow_ruler.4.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_ruler.4.option.a" }
         remove_ruler_personality = immortal_personality
 	}
 }

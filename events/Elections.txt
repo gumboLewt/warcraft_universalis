@@ -12,7 +12,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA700"	# Current ruler stays
 
-        log = "[Root.GetName] - EVTOPTA700"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTA700" }
 
 		trigger = {
 			has_regency = no
@@ -57,7 +57,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB700"	# An administrator type
 
-        log = "[Root.GetName] - EVTOPTB700"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTB700" }
 
 		ai_chance = { factor = 20 }
 		define_ruler = {
@@ -71,7 +71,7 @@ country_event = {
 	option = {
 		name = "EVTOPTC700"	# A diplomat
 
-        log = "[Root.GetName] - EVTOPTC700"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTC700" }
 
 		ai_chance = { factor = 20 }
 		define_ruler = {
@@ -85,7 +85,7 @@ country_event = {
 	option = {
 		name = "EVTOPTD700"	# A military man
 
-        log = "[Root.GetName] - EVTOPTD700"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTD700" }
 
 		ai_chance = { factor = 20 }
 		define_ruler = {
@@ -110,7 +110,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB700"	# An administrator type
 
-        log = "[Root.GetName] - EVTOPTB700"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTB700" }
 
 		ai_chance = { factor = 40 }
 		define_ruler = {
@@ -123,7 +123,7 @@ country_event = {
 	option = {
 		name = "EVTOPTC700"	# A diplomat
 
-        log = "[Root.GetName] - EVTOPTC700"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTC700" }
 
 		ai_chance = { factor = 30 }
 		define_ruler = {
@@ -136,7 +136,7 @@ country_event = {
 	option = {
 		name = "EVTOPTD700"	# A military man
 
-        log = "[Root.GetName] - EVTOPTD700"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTD700" }
 
 		ai_chance = { factor = 30 }
 		define_ruler = {
