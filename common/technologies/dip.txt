@@ -8,7 +8,7 @@ ahead_of_time = {
 technology = {
 	year = 545
 	
-	merchants = yes
+    merchants = yes
 		
 	naval_morale			=	2.0
 	range					=	250
@@ -26,735 +26,236 @@ technology = {
     wow_tavern = yes
     wow_workshop = yes
 }
-
 # 1
 technology = {
-	year = 558
+	year = 550
 	
     may_fabricate_claims = yes
-    may_steal_maps = yes
-    may_study_technology = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
 }
-
 # 2
 technology = {
-	year = 571
+	year = 555
 	
-	may_sow_discontent = yes
-    may_sabotage_reputation = yes
-    may_slander_merchants = yes
-    may_sabotage_recruitment = yes
-    may_corrupt_officials = yes
-    may_agitate_for_liberty = yes
-    may_infiltrate_administration = yes
+    may_study_technology = yes
     
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
 }
-
 # 3
 technology = {
-	year = 584
+	year = 560
 	
-	naval_morale			=	0.2
+    may_slander_merchants = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+    
+    num_accepted_cultures = 1
 }
-
 # 4
 technology = {
-	year = 597
+	year = 565
 	
-    wow_grand_shipyard = yes
-    range = 25
-    trade_range = 25
+    may_sabotage_recruitment = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
 }
-
 # 5
+technology = {
+	year = 570
+	
+    may_corrupt_officials = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+}
+# 6
+technology = {
+	year = 575
+	
+    may_agitate_for_liberty = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 7
+technology = {
+	year = 580
+	
+    may_steal_maps = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+    
+    num_accepted_cultures = 1
+}
+# 8
+technology = {
+	year = 585
+	
+    may_infiltrate_administration = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 9
+technology = {
+	year = 590
+	
+    may_sow_discontent = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+}
+# 10
+technology = {
+	year = 595
+	
+    may_sabotage_reputation = yes
+    
+    wow_grand_shipyard = yes
+    wow_drydock = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 11
+technology = {
+	year = 600
+	
+    wow_grand_market = yes
+    wow_well_kept_tavern = yes
+    
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+    
+    num_accepted_cultures = 1
+}
+# 12
+technology = {
+	year = 605
+	
+    wow_grand_workshop = yes
+    wow_tomb_of_riches = yes
+    
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
+}
+# 13
 technology = {
 	year = 610
 	
-	global_colonial_growth = 5
-    trade_efficiency = 0.1
-}
-
-# 6
-technology = {
-	year = 623
-	
-	naval_morale			=	0.2
-}
-
-# 7
-technology = {
-	year = 636
-	
-	range = 25
-    trade_range = 25
-}
-
-# 8
-technology = {
-	year = 649
-	
-  wow_drydock = yes
-  global_colonial_growth = 5
-  num_accepted_cultures = 1
-}
-
-# 9
-technology = {
-	year = 662
-	
-	naval_morale			=	0.2
-}
-
-# 10
-technology = {
-	year = 675
-	
-	range = 25
-    trade_range = 25
+    wow_naval_academy = yes
+    wow_grand_monument = yes
     
-    naval_maintenance = 0.2
-    trade_efficiency = 0.05
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
 }
-
-# 11
-technology = {
-	year = 688
-	
-	global_colonial_growth = 5
-}
-
-# 12
-technology = {
-	year = 701
-	
-	wow_grand_market = yes
-    naval_morale			=	0.2
-}
-
-# 13
-technology = {
-	year = 714
-	
-	range = 25
-    trade_range = 25
-}
-
 # 14
 technology = {
-	year = 727
+	year = 615
 	
-	global_colonial_growth = 5
-  num_accepted_cultures = 1
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
 }
-
 # 15
 technology = {
-	year = 740
-
-	naval_morale			=	0.2
-    trade_efficiency = 0.05
+	year = 620
+	
+    range = 50
+    trade_range = 50
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
+    
+    num_accepted_cultures = 1
 }
-
 # 16
 technology = {
-	year = 753
+	year = 625
 	
-	wow_well_kept_tavern = yes
-    range = 25
-    trade_range = 25
+    range = 50
+    trade_range = 50
+    
+    naval_morale			=	0.5
 }
-
 # 17
 technology = {
-	year = 766
+	year = 630
 	
-	global_colonial_growth = 5
+    range = 100
+    trade_range = 100
+    
+    trade_efficiency = 0.1
+    
+    global_colonial_growth = 10
 }
-
 # 18
 technology = {
-	year = 779
+	year = 635
 	
-	naval_morale			=	0.2
+    range = 100
+    trade_range = 100
+    
+    naval_morale			=	1
 }
-
 # 19
 technology = {
-	year = 792
-
-	range = 25
-    trade_range = 25
-}
-
-# 20
-technology = {
-	year = 805
-
-  wow_grand_workshop = yes
-  global_colonial_growth = 5
-  trade_efficiency = 0.05
-  num_accepted_cultures = 1
-}
-
-# 21
-technology = {
-	year = 818
+	year = 640
 	
-	naval_morale			=	0.2
-}
-
-# 22
-technology = {
-	year = 831
-	
-	range = 25
-    trade_range = 25
-}
-
-# 23
-technology = {
-	year = 844
-	
-    wow_tomb_of_riches = yes
-    global_colonial_growth = 5
-}
-
-# 24
-technology = {
-	year = 857
-	
-	naval_morale			=	0.2
-}
-
-# 25
-technology = {
-	year = 870
-	
-	range = 25
-    trade_range = 25
+    range = 500
+    trade_range = 500
     
-    naval_maintenance = 0.2
-    trade_efficiency = 0.05
-}
-
-# 26
-technology = {
-	year = 883
-
-	reduced_naval_attrition = yes
-  wow_naval_academy = yes
-  global_colonial_growth = 5
-  num_accepted_cultures = 1
-}
-
-# 27
-technology = {
-	year = 896
-	
-	naval_morale			=	0.2
-}
-
-# 28
-technology = {
-	year = 909
-	
-	range = 25
-    trade_range = 25
-}
-
-# 29
-technology = {
-	year = 922
-	
-	allow_client_states = yes	
-    global_colonial_growth = 5
-}
-
-# 30
-technology = {
-	year = 935
-	
-    wow_grand_monument = yes
-    naval_morale			=	0.2
-    trade_efficiency = 0.05
-}
-
-# 31
-technology = {
-	year = 948
-
-  range = 25
-  trade_range = 25
-  num_accepted_cultures = 1
-}
-
-# 32
-technology = {
-	year = 961
-	
-	global_colonial_growth = 5
-}
-
-# 33
-technology = {
-	year = 974
-	
-    naval_morale			=	0.2
-}
-
-# 34
-technology = {
-	year = 987
-	
-	range = 25
-    trade_range = 25
-}
-
-# 35
-technology = {
-	year = 1000
-	
-	global_colonial_growth = 5
-    trade_efficiency = 0.05
-}
-
-# 36
-technology = {
-	year = 1013
-	
-	naval_morale			=	0.2
-}
-
-# 37
-technology = {
-	year = 1026
-	
-	range = 25
-    trade_range = 25
-}
-
-# 38
-technology = {
-	year = 1039
-	
-	global_colonial_growth = 5
-}
-
-# 39
-technology = {
-	year = 1052
-	
-	naval_morale			=	0.2
-}
-
-# 40
-technology = {
-	year = 1065
-	
-	range = 25
-    trade_range = 25
+    trade_efficiency = 0.1
     
-    naval_maintenance = 0.2
-    trade_efficiency = 0.05
-}
-
-# 41
-technology = {
-	year = 1078
-	
-	global_colonial_growth = 5
-}
-
-# 42
-technology = {
-	year = 1091
-	
-	naval_morale			=	0.2
-}
-
-# 43
-technology = {
-	year = 1104
-	
-	range = 25
-    trade_range = 25
-}
-
-# 44
-technology = {
-	year = 1117
-	
-	global_colonial_growth = 5
-}
-
-# 45
-technology = {
-	year = 1130
-	
-	naval_morale			=	0.2
-    trade_efficiency = 0.05
-}
-
-# 46
-technology = {
-	year = 1143
-	
-	range = 25
-    trade_range = 25
-}
-
-# 47
-technology = {
-	year = 1156
-	
-	global_colonial_growth = 5
-}
-
-# 48
-technology = {
-	year = 1169
-	
-	naval_morale			=	0.2
-}
-
-# 49
-technology = {
-	year = 1182
-	
-	range = 25
-    trade_range = 25
-}
-
-# 50
-technology = {
-	year = 1195
-	
-	global_colonial_growth = 5
-    trade_efficiency = 0.05
-}
-
-
-technology = {
-	year = 1208
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1221
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1234
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1247
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1260
-
-    range = 25
-    trade_range = 25
-    trade_efficiency = 0.05
+    global_colonial_growth = 10
     
-}
-
-technology = {
-	year = 1273
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1286
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1299
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1312
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1325
-
-    naval_maintenance = 0.2
-    naval_morale			=	0.2
-    trade_efficiency = 0.05
-}
-
-technology = {
-	year = 1338
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1351
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1364
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1377
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1390
-
-    
-    global_colonial_growth = 5
-    trade_efficiency = 0.05
-}
-
-technology = {
-	year = 1403
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1416
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1429
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1442
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1455
-
-    range = 25
-    trade_range = 25
-    trade_efficiency = 0.05
-    
-}
-
-technology = {
-	year = 1468
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1481
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1494
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1507
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1520
-
-    
-    naval_morale			=	0.2
-    trade_efficiency = 0.05
-}
-
-technology = {
-	year = 1533
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1546
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1559
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1572
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1585
-
-    global_colonial_growth = 5
-    trade_efficiency = 0.05
-    
-}
-
-technology = {
-	year = 1598
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1611
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1624
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1637
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1650
-
-    
-    range = 25
-    trade_range = 25
-    trade_efficiency = 0.05
-}
-
-technology = {
-	year = 1663
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1676
-
-    naval_morale			=	0.2
-}
-
-technology = {
-	year = 1689
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1702
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1715
-
-    naval_morale			=	0.2
-    naval_maintenance = 0.2
-    trade_efficiency = 0.05
-}
-
-technology = {
-	year = 1728
-
-    range = 25
-    trade_range = 25
-}
-
-technology = {
-	year = 1741
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1754
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1767
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1780
-
-    global_colonial_growth = 5
-    trade_efficiency = 0.05
-}
-
-technology = {
-	year = 1793
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1806
-
-    global_colonial_growth = 5
-}
-
-technology = {
-	year = 1819
-    
-    
-}
-
-technology = {
-	year = 1832
-
-    
+    num_accepted_cultures = 1
 }

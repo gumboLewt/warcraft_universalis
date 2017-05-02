@@ -1,3 +1,0 @@
-namespace = catacylsm
-
-# 631

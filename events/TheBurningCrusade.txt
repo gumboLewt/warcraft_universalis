@@ -1,3 +1,0 @@
-namespace = the_burning_crusade
-
-# 625

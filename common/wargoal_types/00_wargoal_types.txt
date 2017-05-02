@@ -22,7 +22,6 @@
 # po_form_personal_union
 # po_gold
 # po_become_vassal
-# po_become_protectorate
 # po_concede_defeat
 # po_annul_treaties
 # po_change_government
@@ -205,7 +204,6 @@ take_capital_disloyal = {
 	peace_cost_factor = 0.5
 	
 	po_become_vassal = yes
-	po_become_protectorate = yes
 	
 	
 	war_name = VASSAL_WAR_NAME
@@ -219,7 +217,6 @@ take_capital_vassalize = {
 	peace_cost_factor = 0.5
 	
 	po_become_vassal = yes
-	po_become_protectorate = yes
 	
 	
 	war_name = VASSAL_MISSION_WAR_NAME
@@ -256,6 +253,7 @@ take_province_hre = {
 	
 	allowed_provinces = {
 		is_part_of_hre = yes
+		has_province_modifier = unlawful_territory
 	}
 	
 	po_release_vassals = yes
@@ -470,7 +468,7 @@ take_core = {
 take_capital_claim = {
 	type = take_capital
 	
-	badboy_factor = 0.75
+	badboy_factor = 1.0
 	prestige_factor = 1
 	peace_cost_factor = 1.0
 
@@ -488,7 +486,7 @@ take_capital_claim = {
 take_claim = {
 	type = take_province
 	
-	badboy_factor = 0.75
+	badboy_factor = 1.0
 	prestige_factor = 1
 	peace_cost_factor = 1.0	
 	
@@ -575,6 +573,44 @@ take_capital_imperial = {
 	}	
 	
 	war_name = IMPERIAL_WAR_NAME
+}
+
+take_capital_mayan = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.75
+		prestige_factor = 1
+		peace_cost_factor = 0.75	
+		
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		po_demand_provinces = yes
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 1
+		peace_cost_factor = 0.75	
+		
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		po_demand_provinces = yes
+		
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}	
+	
+	war_name = MAYAN_WAR_NAME
 }
 
 take_province_revolutionary = {
@@ -796,7 +832,6 @@ take_province_excommunication = {
 	po_demand_provinces = yes
 	po_revoke_cores = yes
 	po_become_vassal = yes
-	po_become_protectorate = yes
 	po_gold = yes
 	po_concede_defeat = yes
 	
@@ -944,7 +979,6 @@ superiority_primitives = {
 	po_release_annexed = yes
 	po_return_cores = yes
 	po_gold = yes
-	po_become_protectorate = yes
 	#po_become_vassal = yes
 	#po_change_religion = yes
 	
@@ -962,20 +996,7 @@ superiority_overseas = {
 	peace_cost_factor = 0.5	
 	
 	allowed_provinces = {
-		owner = {
-			capital_scope = {
-				OR = {
-					continent = asia
-					continent = africa
-				}
-			}
-			OR = {
-				technology_group = indian
-				technology_group = sub_saharan
-				technology_group = chinese
-				technology_group = nomad_group
-			}
-		}
+		always = yes
 	}
 	
 	#po_annex = yes
@@ -985,7 +1006,6 @@ superiority_overseas = {
 	po_release_annexed = yes
 	po_return_cores = yes
 	po_gold = yes
-	po_become_protectorate = yes
 	#po_become_vassal = yes
 	#po_change_religion = yes
 	
@@ -1030,7 +1050,7 @@ superiority_horde = {
 	type = superiority
 	
 	attacker = {
-		badboy_factor = 0.5
+		badboy_factor = 0.75
 		prestige_factor = 1
 		peace_cost_factor = 1	
 		
@@ -1040,14 +1060,14 @@ superiority_horde = {
 
 		po_demand_provinces = yes
 		po_become_vassal = yes
-		po_become_protectorate = yes
+		po_become_tributary_state = yes
 		po_gold = yes
 		
 		prov_desc = ALL_PROVS
 	}
 	
 	defender = {
-		badboy_factor = 0.5
+		badboy_factor = 0.75
 		prestige_factor = 1
 		peace_cost_factor = 1	
 		
@@ -1057,7 +1077,7 @@ superiority_horde = {
 
 		po_demand_provinces = yes
 		po_become_vassal = yes
-		po_become_protectorate = yes
+		po_become_tributary_state = yes
 		po_gold = yes
 		
 		prov_desc = ALL_PROVS
@@ -1071,7 +1091,7 @@ take_province_tribal_feud = {
 	type = take_province
 	
 	attacker = {
-		badboy_factor = 0.5
+		badboy_factor = 0.75
 		prestige_factor = 1
 		peace_cost_factor = 1	
 		
@@ -1081,14 +1101,14 @@ take_province_tribal_feud = {
 
 		po_demand_provinces = yes
 		po_become_vassal = yes
-		po_become_protectorate = yes
+		po_become_tributary_state = yes
 		po_gold = yes
 		
 		prov_desc = ALL_PROVS
 	}
 	
 	defender = {
-		badboy_factor = 0.5
+		badboy_factor = 0.75
 		prestige_factor = 1
 		peace_cost_factor = 1	
 		
@@ -1098,7 +1118,7 @@ take_province_tribal_feud = {
 
 		po_demand_provinces = yes
 		po_become_vassal = yes
-		po_become_protectorate = yes
+		po_become_tributary_state = yes
 		po_gold = yes
 		
 		prov_desc = ALL_PROVS
@@ -1229,6 +1249,44 @@ humiliate = {
 	war_name = HUMILIATE_WAR_NAME	
 }
 
+humiliate_rotw = {
+	type = take_capital
+	
+	badboy_factor = 1
+	prestige_factor = 1.25
+	peace_cost_factor = 1
+	
+	allowed_provinces = {
+		always = no
+	}
+	
+	allowed_provinces_are_eligible = yes
+	
+	po_annex = no
+	po_demand_provinces = no
+	po_revoke_cores = yes
+	po_release_vassals = yes
+	po_release_annexed = yes
+	po_return_cores = yes
+	po_change_religion = no
+	po_form_personal_union = no
+	po_gold = yes
+	po_become_vassal = no
+	po_concede_defeat = no
+	po_annul_treaties = yes
+	po_change_government = no
+	po_revoke_elector = no
+	po_trade_power = yes
+	po_humiliate = yes
+	po_humiliate_rival = yes
+	
+	deny_annex = yes
+	
+	country_desc = ALL_COUNTRIES
+	prov_desc = NO_PROVS
+	war_name = HUMILIATE_ROTW_WAR_NAME	
+}
+
 blockade_ports = {
 	type = blockade_ports
 	
@@ -1294,6 +1352,72 @@ superiority_religious_league = {
 	war_name = RELIGIOUS_LEAGUE_WAR_NAME
 }
 
+superiority_chinese_unification = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1.5
+		peace_cost_factor = 0.5
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		po_demand_provinces = yes
+		
+		country_desc = ALL_CGROUP_COUNTRIES
+		prov_desc = ALL_CHINESE_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1.5
+		peace_cost_factor = 0.5
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		po_demand_provinces = yes
+		
+		country_desc = ALL_CGROUP_COUNTRIES
+		prov_desc = ALL_CHINESE_PROVS
+	}
+	
+	war_name = CHINESE_UNIFICATION_WAR_NAME	
+}
+
+take_capital_take_mandate = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1.0
+		peace_cost_factor = 0.5
+
+		po_demand_provinces = yes
+		po_take_mandate = yes
+
+		country_desc = CHINESE_EMPIRE_COUNTRY
+		prov_desc = ALL_PROVS
+	}
+	
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1.0
+		peace_cost_factor = 0.5
+
+		po_demand_provinces = yes
+		po_take_mandate = no
+
+		country_desc = ALL_COUNTRIES
+		prov_desc = ALL_PROVS
+	}
+	
+	war_name = CELESTIAL_EMPIRE_WAR_NAME
+}
+
 force_migration = {
 	type = take_capital
 	
@@ -1311,4 +1435,16 @@ force_migration = {
 	deny_annex = yes
 
 	war_name = FORCE_MIGRATION_WAR_NAME
+}
+
+take_capital_force_tributary = {
+	type = take_capital
+	
+	badboy_factor = 0.5
+	prestige_factor = 2
+	peace_cost_factor = 0.5
+	
+	po_become_tributary_state = yes
+	
+	war_name = TRIBUTARY_MISSION_WAR_NAME
 }

@@ -1,3 +1,0 @@
-namespace = second_war
-
-# 598

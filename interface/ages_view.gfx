@@ -195,170 +195,62 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/mists_of_pandaria.dds"
 	}
 	
+    # Warcraft
+    spriteType = {
+		name = "GFX_ab_regimented_infantry"
+		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
+	}
     
-	# Age of Discovery Objectives
-	spriteType = {
-		name = "GFX_obj_discover_america"
-		texturefile = "gfx/interface/ages/obj_discover_america.dds"
+    spriteType = {
+		name = "GFX_ab_regimented_cavalry"
+		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_obj_5_centers_of_trade"
-		texturefile = "gfx/interface/ages/obj_5_centers_of_trade.dds"
+    
+    spriteType = {
+		name = "GFX_ab_regimented_siege_engines"
+		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_obj_30_development_city"
-		texturefile = "gfx/interface/ages/obj_30_development_city.dds"
+    
+    spriteType = {
+		name = "GFX_ab_ancient_tomes"
+		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_obj_renaissance"
-		texturefile = "gfx/interface/ages/obj_renaissance.dds"
+    
+    spriteType = {
+		name = "GFX_ab_familiar_terrain"
+		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_obj_two_unions"
-		texturefile = "gfx/interface/ages/obj_two_unions.dds"
+    
+    spriteType = {
+		name = "GFX_ab_soldiers_of_fortune"
+		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_obj_two_continents"
-		texturefile = "gfx/interface/ages/obj_two_continents.dds"
+    
+    spriteType = {
+		name = "GFX_ab_purifying_flames"
+		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_obj_humiliate_rival"
-		texturefile = "gfx/interface/ages/obj_humiliate_rival.dds"
+    
+    spriteType = {
+		name = "GFX_ab_wheel_and_deal"
+		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_obj_100_development"	
-		texturefile = "gfx/interface/ages/obj_100_development.dds"
+    
+    spriteType = {
+		name = "GFX_ab_hostile_occupation"
+		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
 	}
-
-	spriteType = {
-		name = "GFX_obj_many_vassals"		
-		texturefile = "gfx/interface/ages/obj_many_vassals.dds"
+    
+    spriteType = {
+		name = "GFX_ab_seaborne"
+		texturefile = "gfx/interface/ages/ab_seaborne.dds"
 	}
-
-
-
-	# Age of Reformation Objectives
-	spriteType = {
-		name = "GFX_obj_christian_convert"
-		texturefile = "gfx/interface/ages/obj_christian_convert.dds"
+    
+    spriteType = {
+		name = "GFX_ab_regional_expeditions"
+		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_obj_humanism_religious"
-		texturefile = "gfx/interface/ages/obj_humanism_religious.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_convert_10_provinces"
-		texturefile = "gfx/interface/ages/obj_convert_10_provinces.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_colonial_empire"
-		texturefile = "gfx/interface/ages/obj_colonial_empire.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_force_converted"
-		texturefile = "gfx/interface/ages/obj_force_converted.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_asian_trade"
-		texturefile = "gfx/interface/ages/obj_asian_trade.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_unify_culture"
-		texturefile = "gfx/interface/ages/obj_unify_culture.dds"
-	}
-	
-
-
-	# Age of Absolutism Objectives
-	spriteType = {
-		name = "GFX_obj_3_trade_companies"
-		texturefile = "gfx/interface/ages/obj_3_trade_companies.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_universities"
-		texturefile = "gfx/interface/ages/obj_universities.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_large_forcelimit"
-		texturefile = "gfx/interface/ages/obj_large_forcelimit.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_90_absolutism"
-		texturefile = "gfx/interface/ages/obj_90_absolutism.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_emperor_of_china"
-		texturefile = "gfx/interface/ages/obj_emperor_of_china.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_cultures_accepted"
-		texturefile = "gfx/interface/ages/obj_cultures_accepted.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_win_religious_war"
-		texturefile = "gfx/interface/ages/obj_win_religious_war.dds"
-	}
-	
-	
-	
-	# Age of Revolutions Objectives
-	spriteType = {
-		name = "GFX_obj_parliament"
-		texturefile = "gfx/interface/ages/obj_parliament.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_emperor"
-		texturefile = "gfx/interface/ages/obj_emperor.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_large_subject"
-		texturefile = "gfx/interface/ages/obj_large_subject.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_disc_army"
-		texturefile = "gfx/interface/ages/obj_disc_army.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_huge_capital"
-		texturefile = "gfx/interface/ages/obj_huge_capital.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_great_general"
-		texturefile = "gfx/interface/ages/obj_great_general.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_obj_two_institutions"
-		texturefile = "gfx/interface/ages/obj_two_institutions.dds"
-	}
-
-
-
-
+    
 	# NEW Abilities	
 	spriteType = {
 		name = "GFX_ab_cavalry_armies"

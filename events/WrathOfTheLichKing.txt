@@ -1,3 +1,0 @@
-namespace = wrath_of_the_lich_king
-
-# 626

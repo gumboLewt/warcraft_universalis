@@ -111,7 +111,7 @@ righteous_personality = {
 	easy_war_chance_multiplier = 0.75
 	
 	legitimacy = 1
-	republican_tradition = 0.005
+	republican_tradition = 0.5
 	nation_designer_cost = 5
 } #1 better, 1 less bad
 
@@ -172,18 +172,21 @@ kind_hearted_personality = {
 	ruler_allow = {
 		allow = {
 			NOT = { ruler_has_personality = cruel_personality }
+			NOT = { ruler_has_personality = malevolent_personality }
 		}
 	}
 
 	heir_allow = {
 		allow = {
 			NOT = { heir_has_personality = cruel_personality }
+			NOT = { heir_has_personality = malevolent_personality }
 		}
 	}
 	
 	consort_allow = {
 		allow = {
 			NOT = { consort_has_personality = cruel_personality }
+			NOT = { consort_has_personality = malevolent_personality }
 		}
 	}
 	allow = {
@@ -2632,7 +2635,7 @@ naive_personality = {
 	chance = {
 	}
 	
-    underestimate_ae = yes
+	underestimate_ae = yes
 	fair_fights = yes
 	gift_chance = 90
 	
@@ -2916,6 +2919,7 @@ malevolent_personality = {
 	ruler_allow = {
 		allow = {
 			NOT = { ruler_has_personality = benevolent_personality }
+			NOT = { ruler_has_personality = kind_hearted_personality }
 		}
 	
 		chance = {
@@ -2941,6 +2945,7 @@ malevolent_personality = {
 	heir_allow = {
 		allow = {
 			NOT = { heir_has_personality = benevolent_personality }
+			NOT = { heir_has_personality = kind_hearted_personality }
 		}
 	
 		chance = {
@@ -2966,6 +2971,7 @@ malevolent_personality = {
 	consort_allow = {
 		allow = {
 			NOT = { consort_has_personality = benevolent_personality }
+			NOT = { consort_has_personality = kind_hearted_personality }
 		}
 
 		chance = {
@@ -3017,4 +3023,5 @@ immortal_personality = {
 
 	immortal = 1 # dummy modifier only used to get the right icon
 	nation_designer_cost = 800
+	static = yes # Makes nation_designer_cost not scale with age etc. 
 }

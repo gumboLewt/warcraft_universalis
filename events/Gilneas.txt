@@ -32,6 +32,8 @@ country_event = {
 	
 	option = {
 		name = gilneas.1.option.a #We care for ourselves and only ourselves.
+
+        log = "[Root.GetName] - gilneas.1.option.a"
 		ai_chance = { factor = 100 }
 		add_prestige = 10
 		every_owned_province = {
@@ -50,6 +52,8 @@ country_event = {
 	
 	option = {
 		name = gilneas.1.option.b #We mustn't let our fellow humans stand alone.
+
+        log = "[Root.GetName] - gilneas.1.option.b"
 		ai_chance = { factor = 0 }
 		add_prestige = -10
 	}

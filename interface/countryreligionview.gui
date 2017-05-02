@@ -156,7 +156,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="religion_background"
-			spriteType = "GFX_banner_yellow_20"
+			spriteType = "GFX_banner_yellow_160"
 			position = { x= 70 y = -2 }
 			Orientation = "UPPER_LEFT"		
 		}
@@ -193,18 +193,18 @@ guiTypes = {
 		{
 			name ="reformation_center_icon"
 			spriteType = "GFX_heretics_tolerance_icon"
-			position = { x = 115 y = 24 }
+			position = { x = 107 y = 24 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name = "reformation_center_desc"
-			position = { x = 140 y =28 }
+			position = { x = 132 y =28 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = "Reformation center desc"	
-			maxWidth = 512
+			maxWidth = 400
 			maxHeight = 32
 			format = left
 		}
@@ -212,19 +212,19 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="religion_modifiers_listbox_convert"
-			position = { x=90 y = 50}
+			position = { x=90 y = 46}
 			backGround=""
 			size = { x=300 y =100}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
-			spacing = 1
+			spacing = -4
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 1 y = 1}
 		}
 		
 		guiButtonType = {
 			name = "religion_convert_now"
-			position = { x=362 y = -2}
+			position = { x=502 y = -4}
 			quadTextureSprite ="GFX_change_religion_button"	
 		}
 	

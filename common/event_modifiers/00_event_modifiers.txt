@@ -2826,14 +2826,95 @@ tur_janissary = {
 	discipline = 0.05
 }
 
+hun_black_army = {
+	mercenary_discipline = 0.1
+	army_tradition = 0.4
+	merc_maintenance_modifier = 0.3
+	land_forcelimit_modifier = -0.15
+}
 
-
+mercenary_concessions = {
+	local_autonomy = 0.15
+	local_tax_modifier = -0.25
+}
 
 hun_power_to_magnates = {
 	global_tax_modifier = -0.10
 	global_unrest = -3
 	technology_cost = 0.25
 	idea_cost = 0.25
+}
+
+hun_banditry_in_upper_hungary = {
+	local_monthly_devastation = 0.03
+}
+
+hun_curtailing_banditry_in_upper_hungary = {
+	local_monthly_devastation = -0.02
+}
+
+hun_poorly_maintained_fortifications = {
+	local_defensiveness = -0.15
+}
+
+hun_frontier_fortresses = {
+	defensiveness = 0.25
+	global_tax_modifier = -0.1
+}
+
+hun_reformed_colleges = {
+	local_missionary_strength = -1.0 #Same as religious zeal
+	local_institution_spread = 0.3
+	local_development_cost = -0.1
+}
+
+hun_counter_reformation = {
+	global_missionary_strength = 0.01 
+	papal_influence = 2
+}
+
+hun_military_frontier_modifier = {
+	local_tax_modifier = -0.35
+	local_missionary_strength = -1
+	local_defensiveness = 0.25
+	local_manpower_modifier = 0.25
+}
+
+hun_great_balkan_migration = {
+	local_development_cost = -0.1
+	local_tax_modifier = -0.35
+}
+
+hun_city_league_obligation = {
+	local_defensiveness = 0.25
+	local_manpower_modifier = 0.1
+	trade_goods_size = 0.05
+}
+
+hun_city_leagues_protected = {
+	local_manpower_modifier = -0.9
+	trade_goods_size = 0.15
+	local_development_cost = -0.1
+}
+
+slovak_autonomy = {
+	local_autonomy = 0.1
+}
+
+slovak_national_awakening = {
+	local_unrest = 6
+}
+
+hab_royal_hungary = {
+	local_autonomy = 0.05
+	local_tax_modifier = -0.15
+	local_defensiveness = 0.1
+}
+
+hun_kurucs = {
+	infantry_power = 0.1
+	cavalry_power = 0.05
+	global_tax_modifier = -0.1
 }
 
 nap_renaissance_culture = {
@@ -2857,6 +2938,14 @@ boh_strong_nobles = {
 	stability_cost_modifier = 0.25
 	global_tax_modifier = -0.10
 	technology_cost = 0.10
+}
+
+boh_hussite_king = {
+	diplomatic_reputation = -1
+	papal_influence = -5
+	ae_impact = 0.1
+	tolerance_own = 2
+	infantry_power = 0.1 #Hussite tactics
 }
 
 merchant_investement = {
@@ -6070,6 +6159,13 @@ noble_power_elective_monarchy = {
 	cavalry_cost = 0.25
 }
 
+bushi_power_japan = {
+	legitimacy = -0.5
+	global_autonomy = 0.03
+	infantry_cost = 0.1
+	cavalry_cost = 0.25
+}
+
 junker_dominance_prussian_monarchy = {
 	legitimacy = -0.5
 	global_autonomy = 0.03
@@ -7369,6 +7465,11 @@ polish_partitions = {
 	trade_efficiency = 0.1
 }
 
+death_of_lithuania = {
+	diplomatic_reputation = 1
+	ae_impact = -0.1
+}
+
 emperor_friendly_with_elector = {
 	imperial_authority = 0.1
 }
@@ -8528,7 +8629,7 @@ harmonized_pagan = {
 }
 
 harmonized_jewish_group = {
-	global_institution_spread = 0.16
+	global_institution_spread = 0.15
 	religion = yes
 }
 

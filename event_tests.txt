@@ -1,0 +1,120 @@
+capital_scope = { province_event = { id = war_dynamism.1 } }
+country_event = { id = war_dynamism.2 }
+capital_scope = { province_event = { id = war_dynamism.3 } }
+country_event = { id = war_dynamism.100 }
+country_event = { id = war_dynamism.101 }
+country_event = { id = WARCRAFT_TIRISFAL.1 }
+country_event = { id = story.1 }
+country_event = { id = story.2 }
+country_event = { id = story.3 }
+country_event = { id = random_savage.1 }
+country_event = { id = wow_ruler.1 }
+country_event = { id = wow_ruler.2 }
+country_event = { id = wow_ruler.3 }
+country_event = { id = wow_ruler.4 }
+country_event = { id = rise_of_the_horde.1 }
+country_event = { id = rise_of_the_horde.2 }
+country_event = { id = random_province.1 }
+country_event = { id = random_province.2 }
+country_event = { id = random_province.3 }
+country_event = { id = wow_overextension.1 }
+country_event = { id = wow_overextension.2 }
+country_event = { id = wow_overextension.3 }
+country_event = { id = wow_overextension.4 }
+country_event = { id = wow_overextension.5 }
+country_event = { id = wow_overextension.6 }
+country_event = { id = wow_overextension.7 }
+country_event = { id = wow_overextension.8 }
+country_event = { id = wow_overextension.9 }
+country_event = { id = wow_overextension.10 }
+country_event = { id = wow_outland.1 }
+country_event = { id = wow_outland.2 }
+country_event = { id = wow_outland.3 }
+country_event = { id = warcraft_institutions.100 }
+country_event = { id = warcraft_institutions.200 }
+country_event = { id = warcraft_institutions.300 }
+country_event = { id = warcraft_institutions.400 }
+country_event = { id = warcraft_institutions.500 }
+country_event = { id = warcraft_institutions.600 }
+country_event = { id = wow_government.1 }
+country_event = { id = wow_government.2 }
+country_event = { id = gilneas.1 }
+country_event = { id = 610 }
+country_event = { id = 611 }
+country_event = { id = factions.1 }
+country_event = { id = factions.2 }
+country_event = { id = factions.3 }
+country_event = { id = factions.4 }
+country_event = { id = factions.5 }
+country_event = { id = factions.6 }
+country_event = { id = tribes_estate_disasters.1 }
+country_event = { id = WOW_ESTATES.1 }
+country_event = { id = WOW_ESTATES.2 }
+country_event = { id = old_gods_estate_disasters.1 }
+country_event = { id = old_gods_estate_disasters.2 }
+country_event = { id = old_gods_estate_disasters.3 }
+country_event = { id = nobility_estate_disasters.1 }
+country_event = { id = nobility_estate_disasters.2 }
+country_event = { id = nobility_estate_disasters.3 }
+country_event = { id = merchants_estate_disasters.1 }
+country_event = { id = merchants_estate_disasters.2 }
+country_event = { id = merchants_estate_disasters.3 }
+country_event = { id = the_legion_estate_disasters.1 }
+country_event = { id = the_legion_estate_disasters.2 }
+country_event = { id = the_legion_estate_disasters.3 }
+country_event = { id = commoners_estate_disasters.1 }
+country_event = { id = commoners_estate_disasters.2 }
+country_event = { id = commoners_estate_disasters.3 }
+country_event = { id = clergy_estate_disasters.1 }
+country_event = { id = clergy_estate_disasters.2 }
+country_event = { id = clergy_estate_disasters.3 }
+country_event = { id = 700 }
+country_event = { id = 701 }
+country_event = { id = WARCRAFT_EASTERNPLAGUELANDS.1 }
+country_event = { id = meta.1 }
+country_event = { id = WOW_COUNCIL.1 }
+country_event = { id = WOW_COUNCIL.2 }
+country_event = { id = WOW_COUNCIL.3 }
+country_event = { id = WOW_COUNCIL.4 }
+country_event = { id = WOW_COUNCIL.5 }
+country_event = { id = WOW_COUNCIL.6 }
+country_event = { id = WOW_COUNCIL.7 }
+country_event = { id = corruption_event.1 }
+country_event = { id = corruption_event.2 }
+country_event = { id = corruption_event.3 }
+country_event = { id = corruption_event.4 }
+country_event = { id = corruption_event.5 }
+country_event = { id = corruption_event.6 }
+country_event = { id = corruption_event.7 }
+country_event = { id = corruption_event.8 }
+country_event = { id = corruption_event.9 }
+country_event = { id = corruption_event.10 }
+country_event = { id = corruption_event.11 }
+country_event = { id = corruption_event.12 }
+country_event = { id = corruption_event.13 }
+country_event = { id = corruption_event.14 }
+country_event = { id = corruption_event.15 }
+country_event = { id = corruption_event.16 }
+country_event = { id = corruption_event.17 }
+country_event = { id = corruption_event.18 }
+country_event = { id = corruption_event.19 }
+country_event = { id = corruption_event.20 }
+country_event = { id = burning_legion.1 }
+capital_scope = { country_event = { id = building_events.1 } }
+capital_scope = { country_event = { id = building_events.2 } }
+capital_scope = { country_event = { id = building_events.3 } }
+capital_scope = { country_event = { id = building_events.4 } }
+capital_scope = { country_event = { id = building_events.5 } }
+capital_scope = { country_event = { id = building_events.6 } }
+capital_scope = { country_event = { id = building_events.7 } }
+capital_scope = { country_event = { id = building_events.8 } }
+capital_scope = { country_event = { id = building_events.9 } }
+capital_scope = { country_event = { id = building_events.10 } }
+capital_scope = { country_event = { id = building_events.11 } }
+capital_scope = { country_event = { id = building_events.12 } }
+capital_scope = { country_event = { id = building_events.13 } }
+capital_scope = { country_event = { id = building_events.14 } }
+capital_scope = { country_event = { id = building_events.15 } }
+country_event = { id = wow_artifacts.1 }
+country_event = { id = wow_artifacts.2 }
+country_event = { id = wow_artifacts.3 }

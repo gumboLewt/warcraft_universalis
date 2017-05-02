@@ -1,3 +1,0 @@
-namespace = rise_of_qiraji
-
-# 622

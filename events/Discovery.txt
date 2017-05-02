@@ -1,10 +1,10 @@
-namespace = meta
+namespace = discovery
 
 # Handle Discovery
 country_event = {
-	id = meta.1
-	title = meta.1.title
-	desc = meta.1.desc
+	id = discovery.1
+	title = discovery.1.title
+	desc = discovery.1.desc
 	picture = ASSASSINATION_eventPicture
 	
     hidden = yes
@@ -18,8 +18,10 @@ country_event = {
     }
 	
 	option = {
-		name = meta.1.option.a
+		name = discovery.1.option.a
 		
+        log = "[Root.GetName] - discovery.1.option.a"
+
         if = {
             limit = {
 			    OR = {

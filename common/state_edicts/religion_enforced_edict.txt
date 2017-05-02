@@ -1,14 +1,10 @@
 edict_religion_enforced = {
 	potential = {
-		current_age = age_of_reformation
+		always = yes		
 	}
 	
 	allow = {
-		custom_trigger_tooltip = {
-			tooltip =edict_religion_enforced_tooltip
-			has_country_flag = religion_enforced_edict
-		}
-		current_age = age_of_reformation
+		always = yes		
 	}
 	
 	modifier = {

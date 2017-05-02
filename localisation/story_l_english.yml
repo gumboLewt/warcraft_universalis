@@ -1,17 +1,7 @@
 ﻿l_english:
- # 546
- rise_of_the_horde.1.title: "The Orcish Horde"
- rise_of_the_horde.1.desc: "Hideous creatures have been sighted in the Blasted Lands, and have begun to form encampments there. Without resistance, they will soon sweep through our lands."
- rise_of_the_horde.1.option.a: "Fight back!"
-
- rise_of_the_horde.2.title: "Collapse of Draenei Hegemony"
- rise_of_the_horde.2.desc: "The orcish clans have led numerous raids over the years against our lands, but we have weathered them all. However this time, they seem emboldened by some otherworldly force, and our people cannot resist."
- rise_of_the_horde.2.option.a: "Oh dear..."
- 
- tt_orcish_horde: "Orc Hordes will appear in the Blasted Lands and the surrounding areas."
- tt_orcish_horde_draenei: "The Orcish Horde has conquered our lands, and new orcish factions emerge from the conquests."
- 
+ #-----------------------------------------------
  # 592
+ #-----------------------------------------------
  the_first_war.1.title: "The Blood of Mannaroth"
  the_first_war.1.desc: "Borne from the blood of the Destructor, there are powers beyond comprehension contained within. All it takes to gain such power is a sip. What do you say, [Root.Monarch.GetTitle] [Root.Monarch.GetName]?"
  the_first_war.1.option.a: "Drink!"
@@ -58,62 +48,86 @@
  fall_of_stormwind.1.desc: "The aftermath of the First War draws near, and the results do not look pretty. Stormwind has been savaged by the orcish hordes, and with the siege of Stormwind, it is time for the Azerothian people to retreat. Lordaeron may accept us for some time, so let us sail northward to unite with our kin."
  fall_of_stormwind.1.option.a: "How did it come to this..."
 
+ #-----------------------------------------------
  # 598
+ #-----------------------------------------------
  second_war.1.title: ""
  second_war.1.desc: ""
  second_war.1.option.a: ""
  
+ #-----------------------------------------------
  # 600
+ #-----------------------------------------------
  beyond_the_dark_portal.1.title: ""
  beyond_the_dark_portal.1.desc: ""
  beyond_the_dark_portal.1.option.a: ""
 
+ #-----------------------------------------------
  # 605
+ #-----------------------------------------------
  the_alliance_splinters.1.title: ""
  the_alliance_splinters.1.desc: ""
  the_alliance_splinters.1.option.a: ""
  
+ #-----------------------------------------------
  # 617
+ #-----------------------------------------------
  third_war.1.title: ""
  third_war.1.desc: ""
  third_war.1.option.a: ""
  
+ #-----------------------------------------------
  # 618
+ #-----------------------------------------------
  the_frozen_throne.1.title: ""
  the_frozen_throne.1.desc: ""
  the_frozen_throne.1.option.a: ""
  
+ #-----------------------------------------------
  # 622
+ #-----------------------------------------------
  rise_of_qiraji.1.title: ""
  rise_of_qiraji.1.desc: ""
  rise_of_qiraji.1.option.a: ""
  
+ #-----------------------------------------------
  # 625
+ #-----------------------------------------------
  the_burning_crusade.1.title: ""
  the_burning_crusade.1.desc: ""
  the_burning_crusade.1.option.a: ""
  
+ #-----------------------------------------------
  # 626
+ #-----------------------------------------------
  wrath_of_the_lich_king.1.title: ""
  wrath_of_the_lich_king.1.desc: ""
  wrath_of_the_lich_king.1.option.a: ""
  
+ #-----------------------------------------------
  # 631
+ #-----------------------------------------------
  catacylsm.1.title: ""
  catacylsm.1.desc: ""
  catacylsm.1.option.a: ""
  
+ #-----------------------------------------------
  # 632
+ #-----------------------------------------------
  mists_of_pandaria.1.title: ""
  mists_of_pandaria.1.desc: ""
  mists_of_pandaria.1.option.a: ""
  
+ #-----------------------------------------------
  # 633
+ #-----------------------------------------------
  warlords_of_draenor.1.title: ""
  warlords_of_draenor.1.desc: ""
  warlords_of_draenor.1.option.a: ""
  
+ #-----------------------------------------------
  # 635
+ #-----------------------------------------------
  legion.1.title: ""
  legion.1.desc: ""
  legion.1.option.a: ""

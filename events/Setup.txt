@@ -1,0 +1,173 @@
+namespace = setup
+
+country_event = {
+	id = setup.1
+	title = setup.1.title
+	desc = setup.1.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_global_flag = completed_setup }
+    }
+
+    immediate = {
+        set_global_flag = completed_setup
+    }
+
+    option = {
+        name = setup.1.option.a
+
+        log = "[Root.GetName] - Global Setup"
+    
+        # --- Logging flags
+        #   Comment these for release builds
+        #   Enabling these will spam the game.log
+        set_global_flag = enable_onaction_logging
+
+        # Configure HRE
+        hre_inheritable = yes
+    
+        # Game flags
+        #   Used to detect which bookmark the flag starts in, accounting for time adjustments
+
+        # Rise of the Horde
+        if = { 
+            limit = {
+                is_year = 546
+                NOT = { is_year = 592 }
+            }
+            set_global_flag = rise_of_the_horde
+            log = "Game flag: rise_of_the_horde"
+        }
+
+        # The First War
+        if = { 
+            limit = {
+                is_year = 592
+                NOT = { is_year = 598 }
+            }
+            set_global_flag = the_first_war
+            log = "Game flag: the_first_war"
+        }
+
+        # The Second War
+        if = { 
+            limit = {
+                is_year = 598
+                NOT = { is_year = 617 }
+            }
+            set_global_flag = the_second_war
+            log = "Game flag: the_second_war"
+        }
+
+        # The Third War
+        if = { 
+            limit = {
+                is_year = 617
+                NOT = { is_year = 618 }
+            }
+            set_global_flag = the_third_war 
+            log = "Game flag: the_third_war"
+        }
+
+        # The Frozen Throne
+        if = { 
+            limit = {
+                is_year = 618
+                NOT = { is_year = 622 }
+            }
+            set_global_flag = the_frozen_throne
+            log = "Game flag: the_frozen_throne"
+        }
+
+        # The Rise of the Qiraji
+        if = { 
+            limit = {
+                is_year = 622
+                NOT = { is_year = 625 }
+            }
+            set_global_flag = rise_of_the_qiraji
+            log = "Game flag: rise_of_the_qiraji"
+        }
+
+        # The Burning Crusade
+        if = { 
+            limit = {
+                is_year = 625
+                NOT = { is_year = 626 }
+            }
+            set_global_flag = the_burning_crusade
+            log = "Game flag: the_burning_crusade"
+        }
+
+        # Wrath of the Lich King
+        if = { 
+            limit = {
+                is_year = 626
+                NOT = { is_year = 631 }
+            }
+            set_global_flag = wrath_of_the_lich_king
+            log = "Game flag: wrath_of_the_lich_king"
+        }
+
+        # Cataclysm
+        if = { 
+            limit = {
+                is_year = 631
+                NOT = { is_year = 632 }
+            }
+            set_global_flag = cataclysm
+            log = "Game flag: cataclysm"
+        }
+
+        # Mists of Pandaria
+        if = { 
+            limit = {
+                is_year = 632
+                #NOT = { is_year = 600 }
+            }
+            set_global_flag = mists_of_pandaria
+            log = "Game flag: mists_of_pandaria"
+        }
+    }  
+}
+
+country_event = {
+	id = setup.2
+	title = setup.1.title
+	desc = setup.1.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_country_flag = completed_country_setup }
+    }
+
+    immediate = {
+        set_country_flag = completed_country_setup
+    }
+
+    option = {
+        name = setup.1.option.a
+
+        log = "[Root.GetName] - Start Setup"
+
+        if = {
+            limit = {
+                has_country_modifier = alliance_member
+            }
+            opinions_joined_alliance = yes
+        }
+        if = {
+            limit = {
+                has_country_modifier = horde_member
+            }
+            opinions_joined_horde = yes
+        }
+    }  
+}

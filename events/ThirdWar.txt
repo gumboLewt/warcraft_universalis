@@ -1,3 +1,0 @@
-namespace = third_war
-
-# 617

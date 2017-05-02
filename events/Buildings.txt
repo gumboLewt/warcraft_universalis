@@ -63,12 +63,15 @@ province_event = {
 	option = {
 		name = building_events.1.option.a
 
+        log = "[Root.GetName] - building_events.1.option.a"
+
         add_building = wow_town_hall
 	}
     
     option = {
 		name = building_events.1.option.b
 
+        log = "[Root.GetName] - building_events.1.option.b"
         add_base_tax = 1
 	}
 }
@@ -132,12 +135,14 @@ province_event = {
 	option = {
 		name = building_events.2.option.a
 
+        log = "[Root.GetName] - building_events.2.option.a"
         add_building = wow_court
 	}
     
     option = {
 		name = building_events.2.option.b
 
+        log = "[Root.GetName] - building_events.2.option.b"
         add_base_tax = 1
 	}
 }
@@ -201,12 +206,14 @@ province_event = {
 	option = {
 		name = building_events.3.option.a
 
+        log = "[Root.GetName] - building_events.3.option.a"
         add_building = wow_temple
 	}
     
     option = {
 		name = building_events.3.option.b
 
+        log = "[Root.GetName] - building_events.3.option.b"
         add_base_tax = 1
 	}
 }
@@ -292,12 +299,14 @@ province_event = {
 	option = {
 		name = building_events.4.option.a
 
+        log = "[Root.GetName] - building_events.4.option.a"
         add_building = wow_mine
 	}
     
     option = {
 		name = building_events.4.option.b
 
+        log = "[Root.GetName] - building_events.4.option.b"
         add_base_production = 1
 	}
 }
@@ -375,12 +384,14 @@ province_event = {
 	option = {
 		name = building_events.5.option.a
 
+        log = "[Root.GetName] - building_events.5.option.a"
         add_building = wow_lumbermill
 	}
     
     option = {
 		name = building_events.5.option.b
 
+        log = "[Root.GetName] - building_events.5.option.b"
         add_base_production = 1
 	}
 }
@@ -458,12 +469,14 @@ province_event = {
 	option = {
 		name = building_events.6.option.a
 
+        log = "[Root.GetName] - building_events.6.option.a"
         add_building = wow_farm
 	}
     
     option = {
 		name = building_events.6.option.b
 
+        log = "[Root.GetName] - building_events.6.option.b"
         add_base_production = 1
 	}
 }
@@ -530,12 +543,14 @@ province_event = {
 	option = {
 		name = building_events.7.option.a
 
+        log = "[Root.GetName] - building_events.7.option.a"
         add_building = wow_barracks
 	}
     
     option = {
 		name = building_events.7.option.b
 
+        log = "[Root.GetName] - building_events.7.option.b"
         add_base_manpower = 1
 	}
 }
@@ -599,12 +614,14 @@ province_event = {
 	option = {
 		name = building_events.8.option.a
 
+        log = "[Root.GetName] - building_events.8.option.a"
         add_building = wow_training_grounds
 	}
     
     option = {
 		name = building_events.8.option.b
 
+        log = "[Root.GetName] - building_events.8.option.b"
         add_base_manpower = 1
 	}
 }
@@ -668,12 +685,14 @@ province_event = {
 	option = {
 		name = building_events.9.option.a
 
+        log = "[Root.GetName] - building_events.9.option.a"
         add_building = wow_supply_depot
 	}
     
     option = {
 		name = building_events.9.option.b
 
+        log = "[Root.GetName] - building_events.9.option.b"
         add_base_manpower = 1
 	}
 }
@@ -741,12 +760,14 @@ province_event = {
 	option = {
 		name = building_events.10.option.a
 
+        log = "[Root.GetName] - building_events.10.option.a"
         add_building = wow_shipyard
 	}
     
     option = {
 		name = building_events.10.option.b
 
+        log = "[Root.GetName] - building_events.10.option.b"
         add_base_manpower = 1
 	}
 }
@@ -811,12 +832,14 @@ province_event = {
 	option = {
 		name = building_events.11.option.a
 
+        log = "[Root.GetName] - building_events.11.option.a"
         add_building = wow_dock
 	}
     
     option = {
 		name = building_events.11.option.b
 
+        log = "[Root.GetName] - building_events.11.option.b"
         add_base_manpower = 1
 	}
 }
@@ -883,12 +906,14 @@ province_event = {
 	option = {
 		name = building_events.12.option.a
 
+        log = "[Root.GetName] - building_events.12.option.a"
         add_building = wow_market
 	}
     
     option = {
 		name = building_events.12.option.b
 
+        log = "[Root.GetName] - building_events.12.option.b"
         add_base_production = 1
 	}
 }
@@ -952,12 +977,14 @@ province_event = {
 	option = {
 		name = building_events.13.option.a
 
+        log = "[Root.GetName] - building_events.13.option.a"
         add_building = wow_tavern
 	}
     
     option = {
 		name = building_events.13.option.b
 
+        log = "[Root.GetName] - building_events.13.option.b"
         add_base_production = 1
 	}
 }
@@ -1021,12 +1048,14 @@ province_event = {
 	option = {
 		name = building_events.14.option.a
 
+        log = "[Root.GetName] - building_events.14.option.a"
         add_building = wow_workshop
 	}
     
     option = {
 		name = building_events.14.option.b
 
+        log = "[Root.GetName] - building_events.14.option.b"
         add_base_production = 1
 	}
 }
@@ -1093,12 +1122,14 @@ province_event = {
 	option = {
 		name = building_events.15.option.a
 
+        log = "[Root.GetName] - building_events.15.option.a"
         add_building = wow_fort_1
 	}
     
     option = {
 		name = building_events.15.option.b
 
+        log = "[Root.GetName] - building_events.15.option.b"
         add_treasury = 50
 	}
 }

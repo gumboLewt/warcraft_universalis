@@ -1,3 +1,0 @@
-namespace = the_frozen_throne
-
-# 618

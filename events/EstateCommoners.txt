@@ -11,6 +11,8 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+        log = "[Root.GetName] - commoners_estate_disasters.1.a - immediate"
+
 		add_stability = -5
 		
 		if = {
@@ -111,6 +113,9 @@ country_event = {
 	
 	option = {
 		name = commoners_estate_disasters.1.a
+
+        log = "[Root.GetName] - commoners_estate_disasters.1.a"
+
 		define_ruler = {
 			claim = 40
 		}
@@ -119,34 +124,38 @@ country_event = {
 
 # Commoners are restless
 country_event = {
-  id = commoners_estate_disasters.2
-  title = commoners_estate_disasters.2.t
-  desc = commoners_estate_disasters.2.d
-  picture = ANGRY_MOB_eventPicture
+    id = commoners_estate_disasters.2
+    title = commoners_estate_disasters.2.t
+    desc = commoners_estate_disasters.2.d
+    picture = ANGRY_MOB_eventPicture
 
-  major = yes
-  is_triggered_only = yes
+    major = yes
+    is_triggered_only = yes
 
-  immediate = {
-    add_stability = -3
-  }
+    immediate = {
+        add_stability = -3
+    }
 
-  option = {
-    name = commoners_estate_disasters.2.a
-  }
+    option = {
+        name = commoners_estate_disasters.2.a
+
+        log = "[Root.GetName] - commoners_estate_disasters.2.a"
+    }
 }
 
 # Commoners are loyal again
 country_event = {
-  id = commoners_estate_disasters.3
-  title = commoners_estate_disasters.3.t
-  desc = commoners_estate_disasters.3.d
-  picture = REFORM_eventPicture
+    id = commoners_estate_disasters.3
+    title = commoners_estate_disasters.3.t
+    desc = commoners_estate_disasters.3.d
+    picture = REFORM_eventPicture
 
-  major = yes
-  is_triggered_only = yes
+    major = yes
+    is_triggered_only = yes
 
-  option = {
-    name = commoners_estate_disasters.3.a
-  }
+    option = {
+        name = commoners_estate_disasters.3.a
+
+        log = "[Root.GetName] - commoners_estate_disasters.3.a"
+    }
 }

@@ -26,6 +26,14 @@ can_reduce_war_exhaustion = {
 can_reduce_inflation = {
 }
 
+can_declare_bankruptcy = {
+
+}
+
+can_colonize_province = {
+
+}
+
 can_release_colonial_nation = {
   condition = {
     tooltip = "CAN_RELEASE_CN_WE_ARE_AT_WAR"
@@ -138,9 +146,11 @@ can_burn_colony = {
 }
 
 can_add_seat_in_parliament = {
+
 }
 
 can_add_estate = {
+    
 }
 
 ### Special functions

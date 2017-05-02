@@ -21,6 +21,9 @@ country_event = {
 	
 	option = {
 		name = WARCRAFT_EASTERNPLAGUELANDS.1.option.a	# Great!
+
+        log = "[Root.GetName] - WARCRAFT_EASTERNPLAGUELANDS.1.option.a"
+
 		ai_chance = { factor = 100 }
 		3075 = { # Reanimatory
 			add_base_tax = 6

@@ -25,6 +25,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.1.a"
+
+        log = "[Root.GetName] - corruption_event.1.a"
 		add_country_modifier = {
 			name = "trusted_merchants"
 			duration = 3650
@@ -48,6 +50,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.2.a"
+
+        log = "[Root.GetName] - corruption_event.2.a"
 		add_stability = 1
 	}
 }
@@ -68,6 +72,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.3.a"
+
+        log = "[Root.GetName] - corruption_event.3.a"
 		add_adm_power = 40
 		add_dip_power = 40
 		add_mil_power = 40
@@ -90,6 +96,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.4.a"
+
+        log = "[Root.GetName] - corruption_event.4.a"
 		add_prestige = 20
 	}
 }
@@ -119,6 +127,7 @@ country_event = {
 	option = {
 		name = "corruption_event.5.a"
 		
+        log = "[Root.GetName] - corruption_event.5.a"
 		random_known_country = {
 			limit = {
 				has_spy_network_in = {
@@ -153,12 +162,16 @@ country_event = {
 	# Launch an investigation
 	option = {
 		name = "corruption_event.6.a"
+
+        log = "[Root.GetName] - corruption_event.6.a"
 		add_adm_power = -40
 	}
 
 	# Take the loss
 	option = {
 		name = "corruption_event.6.b"
+
+        log = "[Root.GetName] - corruption_event.6.b"
 		add_years_of_income = -0.25
 	}
 }
@@ -180,12 +193,16 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.7.a"
+
+        log = "[Root.GetName] - corruption_event.7.a"
 		kill_advisor = random
 		add_prestige = -10
 	}
 
 	option = {
 		name = "corruption_event.7.b"
+
+        log = "[Root.GetName] - corruption_event.7.b"
 		remove_advisor = random
 		add_adm_power = -15
 		add_dip_power = -15
@@ -194,6 +211,8 @@ country_event = {
 
 	option = {
 		name = "corruption_event.7.c"
+
+        log = "[Root.GetName] - corruption_event.7.c"
 		add_adm_power = -30
 		add_dip_power = -30
 		add_mil_power = -30
@@ -218,12 +237,17 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.8.a"
+
+        log = "[Root.GetName] - corruption_event.8.a"
 		add_dip_power = -30
 		add_years_of_income = -0.1
 	}
 
 	option = {
 		name = "corruption_event.8.b"
+
+        log = "[Root.GetName] - corruption_event.8.b"
+
 		add_country_modifier = {
 			name = "recruited_smugglers"
 			duration = 3650
@@ -234,6 +258,9 @@ country_event = {
 
 	option = {
 		name = "corruption_event.8.c"
+
+        log = "[Root.GetName] - corruption_event.8.c"
+
 		add_country_modifier = {
 			name = "smugglers_dominating"
 			duration = 3650
@@ -266,6 +293,8 @@ province_event = {
 	# Apologize, promise to improve
 	option = {
 		name = "corruption_event.9.a"
+
+        log = "[Root.GetName] - corruption_event.9.a"
 		owner = {
 			add_prestige = -10
 			every_owned_province = {
@@ -278,6 +307,8 @@ province_event = {
 	# Reject it as prejudice
 	option = {
 		name = "corruption_event.9.b"
+
+        log = "[Root.GetName] - corruption_event.9.b"
 		owner = {
 			every_owned_province = {
 				limit = { culture = ROOT }
@@ -304,11 +335,15 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.10.a"
+
+        log = "[Root.GetName] - corruption_event.10.a"
 		add_dip_power = -30
 	}
 
 	option = {
 		name = "corruption_event.10.b"
+
+        log = "[Root.GetName] - corruption_event.10.b"
 		random_known_country = {
 			limit = { alliance_with = ROOT }
 			add_opinion = {
@@ -336,6 +371,8 @@ province_event = {
 	
 	option = {
 		name = "corruption_event.11.a"
+
+        log = "[Root.GetName] - corruption_event.11.a"
 		owner = {
 			every_owned_province = {
 				limit = { trade_goods = ROOT }
@@ -363,6 +400,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.12.a"
+
+        log = "[Root.GetName] - corruption_event.12.a"
 		add_army_tradition = -10
 	}
 }
@@ -384,6 +423,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.13.a"
+
+        log = "[Root.GetName] - corruption_event.13.a"
 		add_navy_tradition = -10
 	}
 }
@@ -404,6 +445,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.14.a"
+
+        log = "[Root.GetName] - corruption_event.14.a"
 		add_country_modifier = {
 			name = "distrusted_merchants"
 			duration = 3650
@@ -426,6 +469,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.15.a"
+
+        log = "[Root.GetName] - corruption_event.15.a"
 		add_stability = -1
 	}
 }
@@ -448,11 +493,15 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.16.a"
+
+        log = "[Root.GetName] - corruption_event.16.a"
 		add_mil_power = -50
 	}
 
 	option = {
 		name = "corruption_event.16.b"
+
+        log = "[Root.GetName] - corruption_event.16.b"
 		add_corruption = 1
 	}
 }
@@ -472,6 +521,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.17.a"
+
+        log = "[Root.GetName] - corruption_event.17.a"
 		add_corruption = 0.5
 	}
 }
@@ -491,6 +542,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.18.a"
+    
+        log = "[Root.GetName] - corruption_event.18.a"
 		add_corruption = 1
 	}
 }
@@ -510,6 +563,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.19.a"
+
+        log = "[Root.GetName] - corruption_event.19.a"
 		remove_advisor = trader
 		add_country_modifier = {
 			name = "minor_trade_crisis"
@@ -519,6 +574,8 @@ country_event = {
 
 	option = {
 		name = "corruption_event.19.b"
+
+        log = "[Root.GetName] - corruption_event.19.b"
 		add_corruption = 0.5
 	}
 }
@@ -534,6 +591,8 @@ country_event = {
 	
 	option = {
 		name = "corruption_event.20.a"
+
+        log = "[Root.GetName] - corruption_event.20.a"
 		add_corruption = 0.5
 	}
 }

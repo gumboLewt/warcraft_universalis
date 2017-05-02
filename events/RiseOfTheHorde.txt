@@ -1,10 +1,62 @@
 namespace = rise_of_the_horde
 
-# 546
+# Kil'jaeden's Scheme
+#   Ner'zhul (Shadowmoon) contacted by Kil'jaeden, event to all clans to accept Ner'zhul's guidance to attack the Draenei
+#   Those that accept will appear in the Blasted Lands during the initial attack
+#   +50 opinion of those that have 'Allies of Ner'zhul'
+#   -50 opinion of those that have 'Shunned Ner'zhul'
+#   AI:
+#       Blackrock (always)
+#       Bleeding Hollow (always)
 
-# The Orcish Horde
-# These hideous creatures have been sighted in the Blasted Lands, and have begun to form encampments there. Without resistance, they will soon sweep through our lands.
-# Defend our lands!
+# 1 year
+# Doubts of Ner'zhul
+#   Ner'zhul doubts Kil'jaeden, Gul'dan has usurped him, Ner'zhul is replaced, kept alive to watch
+#   Clear 'Allies of Ner'zhul'
+#   Clear 'Shunned Ner'zhul'
+#   'The First Warlocks' fires
+
+# The First Warlocks
+#   All clans get event from Shadowmoon (Gul'dan), offering them the art of demonology/necromancy
+#   Those that accept will comprise the initial horde during the First War
+#       Gain 'Allies of Gul'dan'
+#   Those that reject it grant a CB to all those that don't on themselves
+#       Gain 'Enemies of Gul'dan'
+
+# The Shadow Council
+#   Grant a buff to Shadowmoon
+
+# Collapse of the Draenei
+#   Fires when Shattrath is attacked by an Orc clan (add mission for all Orc clans whom have 'Allies of Gul'dan' for this)
+#   Fires 'Blood of Mannoroth' for all clans
+
+# Blood of Mannoroth
+#   Clear 'Allies of Gul'dan'
+#   Clear 'Enemies of Gul'dan'
+#   Those that accept (AI except Frostwolves always accept) gain: 'Fel-infused'
+#   Those that refuse gain: 'Refusal of Fel'
+#   All 'Fel-infused' clans gain CB on 'Refusal of Fel' clans
+
+# The Dying Time
+#   Once all Draenei states are destroyed (add mission to encourage this)
+#   Kil'jaeden ceases contact, the orcs are without an enemy with all Draenei holdings destroyed
+#   All clans gain CB on one another called 'The Dying Times'
+
+# Contact with Medivh
+#   Occurs for Shadowmoon after 'The Dying Time' fires
+#   Add great project called 'Dark Portal'
+
+# The Dark Portal
+#   Once the 'Dark Portal' project is complete, this fires
+#   All 'Fel-infused' clans gain a random province in the Blasted lands, + 1 colonist for 10 years (to simulate the expansion in the Blasted Lands)
+
+# The First War
+#   Add CB for orcs against all states on Azeroth
+#   Add minor buff for orcs until they attack Stormwind
+
+# Draenei:
+#   Orc clans who agree with Gul'dan/Ner'zhul will gain -100 opinion and a CB against all Draenei states
+
 country_event = {
 	id = rise_of_the_horde.1
 	title = rise_of_the_horde.1.title
@@ -16,6 +68,7 @@ country_event = {
     
 	trigger = {
         # Only fire for the Rise of the Horde
+        has_global_flag = collapse_of_draenei_hegemony
         started_in = 546.1.1
 		tag = A01
         is_year = 589
@@ -24,125 +77,8 @@ country_event = {
 	option = {
 		name = rise_of_the_horde.1.option.a
 
-        custom_tooltip = tt_orcish_horde
-        hidden_effect = {
-            blackrock_spawn = {
-                if = {
-                    limit = { 
-                        OR = {
-                            owner = { ai = yes }
-                            is_empty = yes
-                        }
-                    }
-                    cede_province = A41
-                    add_core = A41
-                    change_religion = religion_ancestral
-                    change_culture = culture_blackrock
-                }
-            }
-            bleeding_hollow_spawn = {
-                if = {
-                    limit = { 
-                        OR = {
-                            owner = { ai = yes }
-                            is_empty = yes
-                        }
-                    }
-                    cede_province = A40
-                    add_core = A40
-                    change_religion = religion_ancestral
-                    change_culture = culture_bleeding_hollow
-                }
-            }
-            twilights_hammer_spawn = {
-                if = {
-                    limit = { 
-                        OR = {
-                            owner = { ai = yes }
-                            is_empty = yes
-                        }
-                    }
-                    cede_province = A43
-                    add_core = A43
-                    change_religion = religion_fel
-                    change_culture = culture_twilights_hammer
-                }
-            }
-            shadow_council_spawn = {
-                if = {
-                    limit = { 
-                        OR = {
-                            owner = { ai = yes }
-                            is_empty = yes
-                        }
-                    }
-                    cede_province = B88
-                    add_core = B88
-                    change_religion = religion_fel
-                    change_culture = culture_horde
-                }
-            }
-        }
-	}
-}
+        log = "[Root.GetName] - rise_of_the_horde.1.option.a"
 
-# Collapse of Draenei Hegemony
-country_event = {
-	id = rise_of_the_horde.2
-	title = rise_of_the_horde.2.title
-	desc = rise_of_the_horde.2.desc
-	picture = ORCISH_INVASION_eventPicture
-    
-    major = yes
-    fire_only_once = yes
-    
-	trigger = {
-        # Only fire for the Rise of the Horde
-        started_in = 546.1.1
-		OR = {
-            tag = A54
-            tag = F49
-            tag = A55
-        }
-        is_year = 560
-        ai = yes
-	}
-
-	option = {
-		name = rise_of_the_horde.2.option.a
-
-        custom_tooltip = tt_orcish_horde_draenei
         
-        hidden_effect = {
-            shadow_council_draenei_holdings = {
-                if = {
-                    limit = { 
-                        OR = {
-                            owner = { ai = yes }
-                            is_empty = yes
-                        }
-                    }
-                    add_core = B88
-                    cede_province = B88
-                    change_religion = religion_shadow
-                    change_culture = culture_horde
-                }
-            }
-            twilight_hammer_draenei_holdings = {
-                if = {
-                    limit = { 
-                        OR = {
-                            owner = { ai = yes }
-                            is_empty = yes
-                        }
-                    }
-                   add_core = A43
-                    cede_province = A43
-                    change_religion = religion_ancestral
-                    change_culture = culture_twilights_hammer
-                }
-            }
-        }
     }
 }
-

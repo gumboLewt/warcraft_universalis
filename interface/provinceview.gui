@@ -2578,7 +2578,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_sort_button_90"
 				position = { x = 265 y = 230 }
 				buttonFont = "vic_18"
-				buttonText = "Culture"
+				buttonText = "CULTURE"
 			}			
 			guiButtonType = {
 				name = "sort_state_unrest"

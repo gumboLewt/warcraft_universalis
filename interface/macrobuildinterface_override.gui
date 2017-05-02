@@ -543,7 +543,7 @@ guiTypes = {
 			maxWidth = 254
 			maxHeight = 18
 			format = center
-#			allwaystransparent = yes
+			allwaystransparent = yes
 		}		
 
 		guiButtonType =

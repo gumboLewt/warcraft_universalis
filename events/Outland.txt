@@ -17,6 +17,7 @@ country_event = {
     is_triggered_only = yes
 
 	trigger = {
+        current_age = the_burning_crusade
         OR = {
             tag = A93
             tag = B87
@@ -29,6 +30,7 @@ country_event = {
 	option = {
 		name = wow_outland.1.option.a
 
+        log = "[Root.GetName] - wow_outland.1.option.a"
         create_alliance = P02
         
         add_opinion = {
@@ -62,6 +64,8 @@ country_event = {
     option = {
 		name = wow_outland.1.option.b
 
+        log = "[Root.GetName] - wow_outland.1.option.b"
+
         ai_chance = {
             factor = 0
         }
@@ -78,6 +82,7 @@ country_event = {
     is_triggered_only = yes
 
 	trigger = {
+        current_age = the_burning_crusade
         OR = {
             tag = P02
             tag = B87
@@ -90,6 +95,7 @@ country_event = {
 	option = {
 		name = wow_outland.2.option.a
 
+        log = "[Root.GetName] - wow_outland.2.option.a"
         create_alliance = A93
         
         add_opinion = {
@@ -123,6 +129,7 @@ country_event = {
     option = {
 		name = wow_outland.2.option.b
 
+        log = "[Root.GetName] - wow_outland.2.option.b"
         ai_chance = {
             factor = 0
         }
@@ -139,6 +146,7 @@ country_event = {
     is_triggered_only = yes
 
 	trigger = {
+        current_age = the_burning_crusade
         OR = {
             tag = P02
             tag = A93
@@ -151,6 +159,7 @@ country_event = {
 	option = {
 		name = wow_outland.3.option.a
 
+        log = "[Root.GetName] - wow_outland.3.option.a"
         create_alliance = B87
         
         add_opinion = {
@@ -184,47 +193,7 @@ country_event = {
     option = {
 		name = wow_outland.3.option.b
 
-        ai_chance = {
-            factor = 0
-        }
-	}
-}
-
-# Legion Reinforcements
-# Our reserves are unending, and our will is unbreakable. Let us summon more demons to help us with this war.
-# Summon them!
-# Hold off
-country_event = {
-	id = wow_outland.4
-	title = wow_outland.4.title
-	desc = wow_outland.4.desc
-	picture = DARK_PORTAL_CLOSEUP_eventPicture
-
-    is_triggered_only = yes
-
-	trigger = {
-        tag = B92
-	}
-
-	option = {
-		name = wow_outland.3.option.a
-
-        capital_scope = {
-            infantry = ROOT
-            infantry = ROOT
-            infantry = ROOT
-            infantry = ROOT
-            infantry = ROOT 
-        }
-        
-        ai_chance = {
-            factor = 100
-        }
-	}
-    
-    option = {
-		name = wow_outland.3.option.b
-
+        log = "[Root.GetName] - wow_outland.3.option.b"
         ai_chance = {
             factor = 0
         }

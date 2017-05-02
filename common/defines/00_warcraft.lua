@@ -3,8 +3,11 @@
 -- NDefines.NDiplomacy.MAX_CLIENT_STATES = 20
 
 NDefines.NGame.START_DATE = "546.1.1"
-NDefines.NGame.END_DATE = "100000.1.1"
-NDefines.NGame.MAX_RANDOM_NEW_WORLD = "100000.1.1"
+NDefines.NGame.END_DATE = "1000.1.1"
+NDefines.NGame.MAX_RANDOM_NEW_WORLD = "1000.1.1"
+
+NDefines.NCountry.PS_ADVANCE_TECH = 250
+NDefines.NCountry.PS_BUY_IDEA = 100
 
 NDefines.NDiplomacy.NUM_OF_GREAT_POWERS = 0
 
@@ -65,8 +68,6 @@ NDefines.NFrontend.CAMERA_START_X = 4000.0
 NDefines.NFrontend.CAMERA_END_X = 4000.0
 NDefines.NFrontend.CAMERA_LOOKAT_X = 4000.0
 
-NDefines.NCountry.PS_BUY_IDEA = 400
-NDefines.NCountry.PS_ADVANCE_TECH = 600
 NDefines.NCountry.MAX_CROWN_COLONIES = 9999
 
 NDefines.NDiplomacy.TRUCE_YEARS = 2     -- Flat 2 years

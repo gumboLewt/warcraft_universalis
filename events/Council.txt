@@ -21,6 +21,8 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.1.option.a
 		
+        log = "[Root.GetName] - WOW_COUNCIL.1.option.a"
+
 		trigger = {
 			any_neighbor_country = {  
 				NOT = { is_rival = ROOT }
@@ -57,6 +59,8 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.1.option.b
 		
+        log = "[Root.GetName] - WOW_COUNCIL.1.option.b"
+
 		trigger = {
 			NOT = { stability = 3 }
 		}
@@ -76,6 +80,8 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.1.option.c
 		
+        log = "[Root.GetName] - WOW_COUNCIL.1.option.c"
+
 		trigger = {
 			any_neighbor_country = {  
 				NOT = { is_rival = ROOT }
@@ -113,6 +119,8 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.1.option.d
 		
+        log = "[Root.GetName] - WOW_COUNCIL.1.option.d"
+
 		trigger = {
 			any_neighbor_country = {  
 				NOT = { is_rival = ROOT }
@@ -150,6 +158,8 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.1.option.e
 		
+        log = "[Root.GetName] - WOW_COUNCIL.1.option.e"
+
 		trigger = {
 			any_neighbor_country = {  
 				NOT = { is_rival = ROOT }
@@ -187,6 +197,8 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.1.option.g
 		
+        log = "[Root.GetName] - WOW_COUNCIL.1.option.g"
+
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -25
@@ -224,6 +236,7 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.2.option.a
 		
+        log = "[Root.GetName] - WOW_COUNCIL.2.option.a"
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -25
@@ -253,6 +266,7 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.3.option.a
 		
+        log = "[Root.GetName] - WOW_COUNCIL.3.option.a"
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25
@@ -290,6 +304,7 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.4.option.a
 		
+        log = "[Root.GetName] - WOW_COUNCIL.4.option.a"
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25
@@ -327,6 +342,7 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.5.option.a
 		
+        log = "[Root.GetName] - WOW_COUNCIL.5.option.a"
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25
@@ -364,6 +380,7 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.6.option.a
 		
+        log = "[Root.GetName] - WOW_COUNCIL.6.option.a"
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25
@@ -391,6 +408,7 @@ country_event = {
 	option = {
 		name = WOW_COUNCIL.7.option.a
 		
+        log = "[Root.GetName] - WOW_COUNCIL.7.option.a"
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25

@@ -13,6 +13,7 @@ country_event = {
 	picture = MANNOROTH_eventPicture # Placeholder
     
 	trigger = {
+        always = no
         NOT = { tag = A46 }
 		is_year = 592
 		NOT = { is_year = 600 }
@@ -34,6 +35,8 @@ country_event = {
 	option = {
 		name = the_first_war.1.option.a
         
+        log = "[Root.GetName] - the_first_war.1.option.a"
+
 		add_country_modifier = {
 			name = blood_of_mannaroth
 			duration = -1
@@ -52,6 +55,8 @@ country_event = {
 	option = {
 		name = the_first_war.1.option.b
         
+        log = "[Root.GetName] - the_first_war.1.option.b"
+
         release_all_subjects = yes
         add_stability = -6
 	}
@@ -77,6 +82,7 @@ country_event = {
 	option = {
 		name = the_first_war.7.option.a
         
+        log = "[Root.GetName] - the_first_war.7.option.a"
 		change_mil = 1
 		
 		ai_chance = { 
@@ -105,6 +111,8 @@ country_event = {
 	option = {
 		name = the_first_war.8.option.a
         
+        log = "[Root.GetName] - the_first_war.8.option.a"
+
         change_adm = -1
 		
 		ai_chance = { 
@@ -142,6 +150,7 @@ country_event = {
 	option = {
 		name = the_first_war.9.option.a
         
+        log = "[Root.GetName] - the_first_war.9.option.a"
 		random_neighbor_country = {
             limit = {
                 ROOT = {
@@ -163,6 +172,8 @@ country_event = {
 	option = {
 		name = the_first_war.9.option.b
         
+        log = "[Root.GetName] - the_first_war.9.option.b"
+
         add_yearly_manpower = -5
 	}
 }
@@ -188,6 +199,8 @@ country_event = {
 	option = {
 		name = the_first_war.10.option.a
         
+        log = "[Root.GetName] - the_first_war.10.option.a"
+
 		add_stability = -1
         
 		ai_chance = { 
@@ -198,6 +211,8 @@ country_event = {
 	option = {
 		name = the_first_war.10.option.b
         
+        log = "[Root.GetName] - the_first_war.10.option.b"
+
         add_mil_power = -100
 	}
 }
@@ -243,6 +258,8 @@ country_event = {
 	option = {
 		name = the_first_war.5.option.a
         
+        log = "[Root.GetName] - the_first_war.5.option.a"
+
         add_yearly_manpower = 1
     }
 }

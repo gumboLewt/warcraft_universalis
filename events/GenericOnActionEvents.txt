@@ -9,6 +9,9 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB610A"
+
+        log = "[Root.GetName] - EVTOPTB610A"
+
 		add_country_modifier = {
 			name = "annexers_legacy"
 			duration = 3650
@@ -32,6 +35,8 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB611A"
+
+        log = "[Root.GetName] - EVTOPTB611A"
 		random_owned_province = {
 			limit = { 
 				is_in_capital_area = yes

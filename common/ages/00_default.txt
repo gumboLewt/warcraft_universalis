@@ -8,61 +8,164 @@ rise_of_the_horde = {
 	religious_conflicts = yes
 	
     absolutism = {
-		harsh_treatment = 1
-		stability = 1
-		decrease_autonomy_command = 1
-		strengthen_government = 2
-		
-		increase_autonomy_command = -2
-		debase_currency = -1
-		execute_rebel_acceptance_command = -10
-		seat_in_parliament = -3
-		war_exhaustion = -1
+
 	}
     
 	objectives = {
-		obj_1 = {
-        
+        # Prestigious Capital
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
         }
-		obj_2 = {
-        
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        obj_3 = {
-        
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
         }
-        obj_4 = {
-        
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
         }
-        obj_5 = {
-        
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
         }
-        obj_6 = {
-        
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
         }
-        obj_7 = {
-        
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
         }
 	}		
 
 	abilities = {
-		ab_1 = {
-			effect = {
-				
+        # Regimented Infantry
+        ab_regimented_infantry = {
+			modifier = {
+				infantry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
         
-        ab_2 = {
-            allow = {
-            
-            }
-			effect = {
-				
+        # Regimented Cavalry
+        ab_regimented_cavalry = {
+			modifier = {
+				cavalry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+        
+        # Regimented Siege Engines
+        ab_regimented_siege_engines = {
+			modifier = {
+				artillery_power = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Ancient Tomes
+        ab_ancient_tomes = {
+			modifier = {
+				technology_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        
+        # Familiar Terrain
+        ab_familiar_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Soldiers of Fortune
+        ab_soldiers_of_fortune = {
+			modifier = {
+				possible_mercenaries = 1.0
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+        
+        # Purifying Flames
+        ab_purifying_flames = {
+			modifier = {
+				global_missionary_strength = 0.02
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Wheel and Deal
+        ab_wheel_and_deal = {
+			modifier = {
+				global_own_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Hostile Occupation
+        ab_hostile_occupation = {
+			modifier = {
+				years_of_nationalism = -10
+			}
+			ai_will_do = {
+				factor = 20
+			}
+		}
+        
+        # Seaborne
+        ab_seaborne = {
+			modifier = {
+				naval_morale = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Regional Expeditions
+        ab_regional_expeditions = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 50
 			}
 		}
 	}
@@ -77,49 +180,165 @@ the_first_war = {
 	
 	religious_conflicts = yes
 	
+    absolutism = {
+
+	}
+    
 	objectives = {
-		obj_1 = {
-        
+        # Prestigious Capital
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
         }
-		obj_2 = {
-        
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        obj_3 = {
-        
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
         }
-        obj_4 = {
-        
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
         }
-        obj_5 = {
-        
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
         }
-        obj_6 = {
-        
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
         }
-        obj_7 = {
-        
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
         }
 	}		
 
 	abilities = {
-		ab_1 = {
-			effect = {
-				
+        # Regimented Infantry
+        ab_regimented_infantry = {
+			modifier = {
+				infantry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
         
-        ab_2 = {
-            allow = {
-            
-            }
-			effect = {
-				
+        # Regimented Cavalry
+        ab_regimented_cavalry = {
+			modifier = {
+				cavalry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+        
+        # Regimented Siege Engines
+        ab_regimented_siege_engines = {
+			modifier = {
+				artillery_power = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Ancient Tomes
+        ab_ancient_tomes = {
+			modifier = {
+				technology_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        
+        # Familiar Terrain
+        ab_familiar_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Soldiers of Fortune
+        ab_soldiers_of_fortune = {
+			modifier = {
+				possible_mercenaries = 1.0
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+        
+        # Purifying Flames
+        ab_purifying_flames = {
+			modifier = {
+				global_missionary_strength = 0.02
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Wheel and Deal
+        ab_wheel_and_deal = {
+			modifier = {
+				global_own_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Hostile Occupation
+        ab_hostile_occupation = {
+			modifier = {
+				years_of_nationalism = -10
+			}
+			ai_will_do = {
+				factor = 20
+			}
+		}
+        
+        # Seaborne
+        ab_seaborne = {
+			modifier = {
+				naval_morale = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Regional Expeditions
+        ab_regional_expeditions = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 50
 			}
 		}
 	}
@@ -134,49 +353,165 @@ the_second_war = {
 	
 	religious_conflicts = yes
 	
+    absolutism = {
+
+	}
+    
 	objectives = {
-		obj_1 = {
-        
+        # Prestigious Capital
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
         }
-		obj_2 = {
-        
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        obj_3 = {
-        
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
         }
-        obj_4 = {
-        
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
         }
-        obj_5 = {
-        
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
         }
-        obj_6 = {
-        
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
         }
-        obj_7 = {
-        
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
         }
 	}		
 
 	abilities = {
-		ab_1 = {
-			effect = {
-				
+        # Regimented Infantry
+        ab_regimented_infantry = {
+			modifier = {
+				infantry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
         
-        ab_2 = {
-            allow = {
-            
-            }
-			effect = {
-				
+        # Regimented Cavalry
+        ab_regimented_cavalry = {
+			modifier = {
+				cavalry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+        
+        # Regimented Siege Engines
+        ab_regimented_siege_engines = {
+			modifier = {
+				artillery_power = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Ancient Tomes
+        ab_ancient_tomes = {
+			modifier = {
+				technology_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        
+        # Familiar Terrain
+        ab_familiar_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Soldiers of Fortune
+        ab_soldiers_of_fortune = {
+			modifier = {
+				possible_mercenaries = 1.0
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+        
+        # Purifying Flames
+        ab_purifying_flames = {
+			modifier = {
+				global_missionary_strength = 0.02
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Wheel and Deal
+        ab_wheel_and_deal = {
+			modifier = {
+				global_own_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Hostile Occupation
+        ab_hostile_occupation = {
+			modifier = {
+				years_of_nationalism = -10
+			}
+			ai_will_do = {
+				factor = 20
+			}
+		}
+        
+        # Seaborne
+        ab_seaborne = {
+			modifier = {
+				naval_morale = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Regional Expeditions
+        ab_regional_expeditions = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 50
 			}
 		}
 	}
@@ -185,55 +520,171 @@ the_second_war = {
 the_third_war = {
 	start = 617
 	
-	can_start = {
+    can_start = {
 		has_global_flag = the_third_war
 	}
-	
+    
 	religious_conflicts = yes
 	
+    absolutism = {
+
+	}
+    
 	objectives = {
-		obj_1 = {
-        
+        # Prestigious Capital
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
         }
-		obj_2 = {
-        
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        obj_3 = {
-        
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
         }
-        obj_4 = {
-        
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
         }
-        obj_5 = {
-        
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
         }
-        obj_6 = {
-        
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
         }
-        obj_7 = {
-        
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
         }
 	}		
 
 	abilities = {
-		ab_1 = {
-			effect = {
-				
+        # Regimented Infantry
+        ab_regimented_infantry = {
+			modifier = {
+				infantry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
         
-        ab_2 = {
-            allow = {
-            
-            }
-			effect = {
-				
+        # Regimented Cavalry
+        ab_regimented_cavalry = {
+			modifier = {
+				cavalry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+        
+        # Regimented Siege Engines
+        ab_regimented_siege_engines = {
+			modifier = {
+				artillery_power = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Ancient Tomes
+        ab_ancient_tomes = {
+			modifier = {
+				technology_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        
+        # Familiar Terrain
+        ab_familiar_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Soldiers of Fortune
+        ab_soldiers_of_fortune = {
+			modifier = {
+				possible_mercenaries = 1.0
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+        
+        # Purifying Flames
+        ab_purifying_flames = {
+			modifier = {
+				global_missionary_strength = 0.02
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Wheel and Deal
+        ab_wheel_and_deal = {
+			modifier = {
+				global_own_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Hostile Occupation
+        ab_hostile_occupation = {
+			modifier = {
+				years_of_nationalism = -10
+			}
+			ai_will_do = {
+				factor = 20
+			}
+		}
+        
+        # Seaborne
+        ab_seaborne = {
+			modifier = {
+				naval_morale = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Regional Expeditions
+        ab_regional_expeditions = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 50
 			}
 		}
 	}
@@ -242,55 +693,171 @@ the_third_war = {
 rise_of_the_qiraji = {
 	start = 622
 	
-	can_start = {
+    can_start = {
 		has_global_flag = rise_of_the_qiraji
 	}
-	
+    
 	religious_conflicts = yes
 	
+    absolutism = {
+
+	}
+    
 	objectives = {
-		obj_1 = {
-        
+        # Prestigious Capital
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
         }
-		obj_2 = {
-        
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        obj_3 = {
-        
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
         }
-        obj_4 = {
-        
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
         }
-        obj_5 = {
-        
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
         }
-        obj_6 = {
-        
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
         }
-        obj_7 = {
-        
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
         }
 	}		
 
 	abilities = {
-		ab_1 = {
-			effect = {
-				
+        # Regimented Infantry
+        ab_regimented_infantry = {
+			modifier = {
+				infantry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
         
-        ab_2 = {
-            allow = {
-            
-            }
-			effect = {
-				
+        # Regimented Cavalry
+        ab_regimented_cavalry = {
+			modifier = {
+				cavalry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+        
+        # Regimented Siege Engines
+        ab_regimented_siege_engines = {
+			modifier = {
+				artillery_power = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Ancient Tomes
+        ab_ancient_tomes = {
+			modifier = {
+				technology_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        
+        # Familiar Terrain
+        ab_familiar_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Soldiers of Fortune
+        ab_soldiers_of_fortune = {
+			modifier = {
+				possible_mercenaries = 1.0
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+        
+        # Purifying Flames
+        ab_purifying_flames = {
+			modifier = {
+				global_missionary_strength = 0.02
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Wheel and Deal
+        ab_wheel_and_deal = {
+			modifier = {
+				global_own_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Hostile Occupation
+        ab_hostile_occupation = {
+			modifier = {
+				years_of_nationalism = -10
+			}
+			ai_will_do = {
+				factor = 20
+			}
+		}
+        
+        # Seaborne
+        ab_seaborne = {
+			modifier = {
+				naval_morale = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Regional Expeditions
+        ab_regional_expeditions = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 50
 			}
 		}
 	}
@@ -299,55 +866,171 @@ rise_of_the_qiraji = {
 the_burning_crusade = {
 	start = 625
 	
-	can_start = {
+    can_start = {
 		has_global_flag = the_burning_crusade
 	}
-	
+    
 	religious_conflicts = yes
 	
+    absolutism = {
+
+	}
+    
 	objectives = {
-		obj_1 = {
-        
+        # Prestigious Capital
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
         }
-		obj_2 = {
-        
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        obj_3 = {
-        
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
         }
-        obj_4 = {
-        
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
         }
-        obj_5 = {
-        
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
         }
-        obj_6 = {
-        
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
         }
-        obj_7 = {
-        
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
         }
 	}		
 
 	abilities = {
-		ab_1 = {
-			effect = {
-				
+        # Regimented Infantry
+        ab_regimented_infantry = {
+			modifier = {
+				infantry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
         
-        ab_2 = {
-            allow = {
-            
-            }
-			effect = {
-				
+        # Regimented Cavalry
+        ab_regimented_cavalry = {
+			modifier = {
+				cavalry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+        
+        # Regimented Siege Engines
+        ab_regimented_siege_engines = {
+			modifier = {
+				artillery_power = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Ancient Tomes
+        ab_ancient_tomes = {
+			modifier = {
+				technology_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        
+        # Familiar Terrain
+        ab_familiar_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Soldiers of Fortune
+        ab_soldiers_of_fortune = {
+			modifier = {
+				possible_mercenaries = 1.0
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+        
+        # Purifying Flames
+        ab_purifying_flames = {
+			modifier = {
+				global_missionary_strength = 0.02
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Wheel and Deal
+        ab_wheel_and_deal = {
+			modifier = {
+				global_own_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Hostile Occupation
+        ab_hostile_occupation = {
+			modifier = {
+				years_of_nationalism = -10
+			}
+			ai_will_do = {
+				factor = 20
+			}
+		}
+        
+        # Seaborne
+        ab_seaborne = {
+			modifier = {
+				naval_morale = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Regional Expeditions
+        ab_regional_expeditions = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 50
 			}
 		}
 	}
@@ -356,55 +1039,171 @@ the_burning_crusade = {
 wrath_of_the_lich_king = {
 	start = 626
 	
-	can_start = {
+    can_start = {
 		has_global_flag = wrath_of_the_lich_king
 	}
-	
+    
 	religious_conflicts = yes
 	
+    absolutism = {
+
+	}
+    
 	objectives = {
-		obj_1 = {
-        
+        # Prestigious Capital
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
         }
-		obj_2 = {
-        
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        obj_3 = {
-        
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
         }
-        obj_4 = {
-        
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
         }
-        obj_5 = {
-        
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
         }
-        obj_6 = {
-        
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
         }
-        obj_7 = {
-        
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
         }
 	}		
 
 	abilities = {
-		ab_1 = {
-			effect = {
-				
+        # Regimented Infantry
+        ab_regimented_infantry = {
+			modifier = {
+				infantry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
         
-        ab_2 = {
-            allow = {
-            
-            }
-			effect = {
-				
+        # Regimented Cavalry
+        ab_regimented_cavalry = {
+			modifier = {
+				cavalry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+        
+        # Regimented Siege Engines
+        ab_regimented_siege_engines = {
+			modifier = {
+				artillery_power = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Ancient Tomes
+        ab_ancient_tomes = {
+			modifier = {
+				technology_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        
+        # Familiar Terrain
+        ab_familiar_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Soldiers of Fortune
+        ab_soldiers_of_fortune = {
+			modifier = {
+				possible_mercenaries = 1.0
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+        
+        # Purifying Flames
+        ab_purifying_flames = {
+			modifier = {
+				global_missionary_strength = 0.02
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Wheel and Deal
+        ab_wheel_and_deal = {
+			modifier = {
+				global_own_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Hostile Occupation
+        ab_hostile_occupation = {
+			modifier = {
+				years_of_nationalism = -10
+			}
+			ai_will_do = {
+				factor = 20
+			}
+		}
+        
+        # Seaborne
+        ab_seaborne = {
+			modifier = {
+				naval_morale = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Regional Expeditions
+        ab_regional_expeditions = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 50
 			}
 		}
 	}
@@ -419,49 +1218,165 @@ the_shattering = {
 	
 	religious_conflicts = yes
 	
+    absolutism = {
+
+	}
+    
 	objectives = {
-		obj_1 = {
-        
+        # Prestigious Capital
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
         }
-		obj_2 = {
-        
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        obj_3 = {
-        
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
         }
-        obj_4 = {
-        
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
         }
-        obj_5 = {
-        
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
         }
-        obj_6 = {
-        
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
         }
-        obj_7 = {
-        
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
         }
 	}		
 
 	abilities = {
-		ab_1 = {
-			effect = {
-				
+        # Regimented Infantry
+        ab_regimented_infantry = {
+			modifier = {
+				infantry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
         
-        ab_2 = {
-            allow = {
-            
-            }
-			effect = {
-				
+        # Regimented Cavalry
+        ab_regimented_cavalry = {
+			modifier = {
+				cavalry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+        
+        # Regimented Siege Engines
+        ab_regimented_siege_engines = {
+			modifier = {
+				artillery_power = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Ancient Tomes
+        ab_ancient_tomes = {
+			modifier = {
+				technology_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        
+        # Familiar Terrain
+        ab_familiar_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Soldiers of Fortune
+        ab_soldiers_of_fortune = {
+			modifier = {
+				possible_mercenaries = 1.0
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+        
+        # Purifying Flames
+        ab_purifying_flames = {
+			modifier = {
+				global_missionary_strength = 0.02
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Wheel and Deal
+        ab_wheel_and_deal = {
+			modifier = {
+				global_own_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Hostile Occupation
+        ab_hostile_occupation = {
+			modifier = {
+				years_of_nationalism = -10
+			}
+			ai_will_do = {
+				factor = 20
+			}
+		}
+        
+        # Seaborne
+        ab_seaborne = {
+			modifier = {
+				naval_morale = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Regional Expeditions
+        ab_regional_expeditions = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 50
 			}
 		}
 	}
@@ -470,55 +1385,171 @@ the_shattering = {
 mists_of_pandaria = {
 	start = 632
 	
-	can_start = {
+    can_start = {
 		has_global_flag = mists_of_pandaria
 	}
-	
+    
 	religious_conflicts = yes
 	
+    absolutism = {
+
+	}
+    
 	objectives = {
-		obj_1 = {
-        
+        # Prestigious Capital
+		obj_prestigious_capital = {
+            capital_scope = {
+                development = 50
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 0 }
+            }
         }
-		obj_2 = {
-        
+        # Wise Ruler
+		obj_wise_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        obj_3 = {
-        
+        # Religious Defender
+        obj_religious_defender = {
+            is_defender_of_faith = yes
+            religious_unity = 1.0
         }
-        obj_4 = {
-        
+        obj_colossal_fleet = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.9
         }
-        obj_5 = {
-        
+        obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.9
         }
-        obj_6 = {
-        
+        obj_realm_of_virtues = {
+            prestige = 100
+            NOT = { corruption = 0 }
+            OR = {
+                legitimacy = 100
+                horde_unity = 100
+                devotion = 100
+                republican_tradition = 100
+                meritocracy = 100
+            }
         }
-        obj_7 = {
-        
+        obj_noble_connections = {
+            num_of_royal_marriages = 5
         }
 	}		
 
 	abilities = {
-		ab_1 = {
-			effect = {
-				
+        # Regimented Infantry
+        ab_regimented_infantry = {
+			modifier = {
+				infantry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
         
-        ab_2 = {
-            allow = {
-            
-            }
-			effect = {
-				
+        # Regimented Cavalry
+        ab_regimented_cavalry = {
+			modifier = {
+				cavalry_power = 0.1
 			}
 			ai_will_do = {
 				factor = 10
+			}
+		}
+        
+        # Regimented Siege Engines
+        ab_regimented_siege_engines = {
+			modifier = {
+				artillery_power = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Ancient Tomes
+        ab_ancient_tomes = {
+			modifier = {
+				technology_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        
+        # Familiar Terrain
+        ab_familiar_terrain = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Soldiers of Fortune
+        ab_soldiers_of_fortune = {
+			modifier = {
+				possible_mercenaries = 1.0
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+        
+        # Purifying Flames
+        ab_purifying_flames = {
+			modifier = {
+				global_missionary_strength = 0.02
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Wheel and Deal
+        ab_wheel_and_deal = {
+			modifier = {
+				global_own_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Hostile Occupation
+        ab_hostile_occupation = {
+			modifier = {
+				years_of_nationalism = -10
+			}
+			ai_will_do = {
+				factor = 20
+			}
+		}
+        
+        # Seaborne
+        ab_seaborne = {
+			modifier = {
+				naval_morale = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        
+        # Regional Expeditions
+        ab_regional_expeditions = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 50
 			}
 		}
 	}

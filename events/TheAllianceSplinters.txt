@@ -1,3 +1,0 @@
-namespace = the_alliance_splinters
-
-# 605

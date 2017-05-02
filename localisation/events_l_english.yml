@@ -85,17 +85,17 @@
  # Buildings
  #-----------------------------------------------
  building_events.1.title: "Prosperous Locals in [Root.GetName]"
- building_events.1.desc: "The local people of [Root.GetName] have pooled together their wealth towards a town hall for their settlement. They have contacted [Root.Monarch.GetTitle] [Root.Monarch.GetName] to ensure their wealth is spent in accordance to [Root.Monarch.GetHerHis] wishes."
+ building_events.1.desc: "The local people of [Root.GetName] have pooled together their wealth towards a town hall for their settlement. They have contacted [Owner.Monarch.GetTitle] [Owner.Monarch.GetName] to ensure their wealth is spent in accordance to [Owner.Monarch.GetHerHis] wishes."
  building_events.1.option.a: "Build the town hall"
  building_events.1.option.b: "Invest in other projects"
  
  building_events.2.title: "Prosperous Locals in [Root.GetName]"
- building_events.2.desc: "The local people of [Root.GetName] have pooled together their wealth towards a court for their settlement. They have contacted [Root.Monarch.GetTitle] [Root.Monarch.GetName] to ensure their wealth is spent in accordance to [Root.Monarch.GetHerHis] wishes."
+ building_events.2.desc: "The local people of [Root.GetName] have pooled together their wealth towards a court for their settlement. They have contacted [Owner.Monarch.GetTitle] [Owner.Monarch.GetName] to ensure their wealth is spent in accordance to [Owner.Monarch.GetHerHis] wishes."
  building_events.2.option.a: "Build the court"
  building_events.2.option.b: "Invest in other projects"
  
  building_events.3.title: "Prosperous Locals in [Root.GetName]"
- building_events.3.desc: "The local people of [Root.GetName] have pooled together their wealth towards a temple for their settlement. They have contacted [Root.Monarch.GetTitle] [Root.Monarch.GetName] to ensure their wealth is spent in accordance to [Root.Monarch.GetHerHis] wishes."
+ building_events.3.desc: "The local people of [Root.GetName] have pooled together their wealth towards a temple for their settlement. They have contacted [Owner.Monarch.GetTitle] [Owner.Monarch.GetName] to ensure their wealth is spent in accordance to [Owner.Monarch.GetHerHis] wishes."
  building_events.3.option.a: "Build the temple"
  building_events.3.option.b: "Invest in other projects"
  

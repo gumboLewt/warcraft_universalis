@@ -256,13 +256,13 @@ guiTypes = {
 		{
 			name ="icon"
 			spriteType = "GFX_idea_unknown"
-			position = { x= 8ยง y = 4 }
+			position = { x= 8 y = -9999 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 64 y = 2 }
+			position = { x = 8 y = 2 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "name"	
@@ -274,7 +274,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "desc"
-			position = { x = 64 y = 20 }
+			position = { x = 8 y = 20 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "desc"	

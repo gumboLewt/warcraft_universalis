@@ -238,7 +238,7 @@ development = {
 	local_missionary_strength = -0.001
 	land_forcelimit	= 0.1			# special case, affected by autonomy
 	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
-	local_sailors = 25			# special case, affected by autonomy & set to 0 by code if not port
+	local_sailors = 30			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.1
 }
@@ -655,7 +655,7 @@ navy_tradition = {
 	trade_steering = 1.0
 	privateer_efficiency = 0.25
 	blockade_efficiency = 1
-	sailors_recovery_speed = 0.1
+	sailors_recovery_speed = 0.2
 }
 
 positive_piety = {

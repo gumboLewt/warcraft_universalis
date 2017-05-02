@@ -1,3 +1,0 @@
-namespace = warlords_of_draenor
-
-# 633

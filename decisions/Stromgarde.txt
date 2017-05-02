@@ -46,6 +46,7 @@ country_decisions = {
         major = yes
         
         potential = {
+            NOT = { has_country_flag = danath_has_returned }
             tag = A16
             is_year = 622 # Rise of the Qiraji onwards
         }
@@ -59,6 +60,9 @@ country_decisions = {
 		}
         
 		effect = {
+            hidden_effect = {
+                set_country_flag = danath_has_returned 
+            }
             define_ruler = {
                 name = "Danath"
                 dynasty = "Trollbane"

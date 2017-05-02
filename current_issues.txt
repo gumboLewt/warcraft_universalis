@@ -1,0 +1,2 @@
+Game:
+    Creation of a new country causes CTD (i.e. cede_province = B88)

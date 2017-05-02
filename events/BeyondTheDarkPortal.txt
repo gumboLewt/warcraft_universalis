@@ -1,3 +1,0 @@
-namespace = beyond_the_dark_portal
-
-# 600

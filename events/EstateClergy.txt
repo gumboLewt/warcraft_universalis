@@ -17,6 +17,8 @@ country_event = {
 
     option = {
         name = clergy_estate_disasters.1.a
+
+        log = "[Root.GetName] - clergy_estate_disasters.1.a"
         define_ruler = {
             claim = 40
         }
@@ -39,6 +41,8 @@ country_event = {
 
     option = {
         name = clergy_estate_disasters.2.a
+
+        log = "[Root.GetName] - clergy_estate_disasters.2.a"
     }
 }
 
@@ -54,5 +58,7 @@ country_event = {
 
     option = {
         name = clergy_estate_disasters.3.a
+
+        log = "[Root.GetName] - clergy_estate_disasters.3.a"
     }
 }

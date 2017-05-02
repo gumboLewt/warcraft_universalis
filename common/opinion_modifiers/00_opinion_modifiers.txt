@@ -152,9 +152,6 @@ colonial_relation = {
 	opinion = 50
 }
 
-in_protectorate = {
-	opinion = 25
-}
 
 excommunicated = {
 	opinion = -50
@@ -190,6 +187,11 @@ consort_regent_marriage_ties = {
 ##################################
 
 want_your_provinces = {
+	opinion = -15
+	min = -200
+}
+
+want_subject_provinces = {
 	opinion = -15
 	min = -200
 }
@@ -382,17 +384,6 @@ they_force_unioned_us = {
 	yearly_decay = 2
 }
 
-protectorate_broke_free = {
-	opinion = -50
-	yearly_decay = 1
-	min = -50
-}
-
-protectorate_abandoned = {
-	opinion = -50
-	yearly_decay = 1
-	min = -50
-}
 
 elector_voted_for_us = 
 {
@@ -658,7 +649,7 @@ released_us_freely = {
 	yearly_decay = 1
 }
 
-fightinginside_japan = {
+fightinginside_realm = {
 	opinion = -25
 	yearly_decay = 1
 }
@@ -765,9 +756,13 @@ boh_papal_reconciled = {
 	yearly_decay = 1
 }
 
+hun_refused_to_help_rebels = {
+	opinion = 50
+	yearly_decay = 2
+}
+
 boh_heretic_hussite = {
-	opinion = -30
-	years = 30
+	opinion = -50
 	yearly_decay = 1
 }
 
@@ -775,6 +770,11 @@ boh_protestant_king = {
 	opinion = -60
 	years = 15
 	yearly_decay = 4
+}
+
+hun_crowned_by_rebels = {
+	opinion = -100
+	yearly_decay = 5
 }
 
 cyp_famagusta_taken = {
@@ -2205,6 +2205,11 @@ mng_chinese_rites_denounced = {
 hun_bakocz_foreign_policy = {
 	opinion = 50
 	yearly_decay = 2
+}
+
+hun_invited_jesuits = {
+	opinion = 50
+	yearly_decay = 1
 }
 
 ##################################################

@@ -11,6 +11,7 @@ country_event = {
 	option = {
 		name = WOW_ESTATES.1.option.a
 		
+        log = "[Root.GetName] - WOW_ESTATES.1.option.a"
 		if = {
 			limit = {
 				has_heir = yes
@@ -54,6 +55,8 @@ country_event = {
 	option = {
 		name = WOW_ESTATES.2.option.a
 		
+        log = "[Root.GetName] - WOW_ESTATES.2.option.a"
+
 			# Very Low Legitimacy
 				if = {
 				limit = {

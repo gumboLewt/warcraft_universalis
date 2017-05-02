@@ -11,12 +11,13 @@ country_event = {
 	option = {
 		name = burning_legion.1.option.a
 
+        log = "[Root.GetName] - burning_legion.1.a"
         add_reform_desire = 0.01
 	}
     
     option = {
 		name = burning_legion.1.option.b
 
-        
+        log = "[Root.GetName] - burning_legion.1.b"
 	}
 }

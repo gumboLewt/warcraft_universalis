@@ -36,6 +36,8 @@ country_event = {
 	option = {
 		name = random_savage.1.option.a
 
+        log = "[Root.GetName] - random_savage.1.option.a"
+
         random_country = {
             limit = {
                 NOT = { border_distance = { who = ROOT  distance = 100 } }
@@ -58,6 +60,8 @@ country_event = {
     
     option = {
 		name = random_savage.1.option.b
+
+        log = "[Root.GetName] - random_savage.1.option.b"
 
         add_stability = -1
 	}

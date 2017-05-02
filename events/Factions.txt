@@ -22,6 +22,7 @@ country_event = {
 	option = {
 		name = factions.1.option.a
 		
+        log = "[Root.GetName] - factions.1.option.a"
         opinions_left_alliance = yes
 	}
 }
@@ -51,6 +52,7 @@ country_event = {
 	option = {
 		name = factions.2.option.a
 		
+        log = "[Root.GetName] - factions.2.option.a"
         opinions_left_alliance = yes
 	}
 }
@@ -77,6 +79,7 @@ country_event = {
 	option = {
 		name = factions.3.option.a
 		
+        log = "[Root.GetName] - factions.3.option.a"
         opinions_left_horde = yes
 	}
 }
@@ -105,6 +108,7 @@ country_event = {
 	option = {
 		name = factions.4.option.a
 		
+        log = "[Root.GetName] - factions.4.option.a"
         opinions_left_horde = yes
 	}
 }
@@ -127,6 +131,7 @@ country_event = {
 	option = {
 		name = factions.5.option.a
         
+        log = "[Root.GetName] - factions.5.option.a"
 		remove_country_modifier = alliance_head
         
 		random_country = {
@@ -156,6 +161,7 @@ country_event = {
 	option = {
 		name = factions.6.option.a
         
+        log = "[Root.GetName] - factions.6.option.a"
         remove_country_modifier = horde_head
         
 		random_country = {
