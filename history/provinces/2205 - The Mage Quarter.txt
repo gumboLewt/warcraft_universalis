@@ -1,5 +1,6 @@
-# 2205
+# 2205 The Mage Quarter
 is_city = yes
+
 add_core = A01
 owner = A01
 controller = A01
@@ -13,9 +14,6 @@ religion = religion_church_of_the_light
 
 hre = no
 trade_goods = arcane
-
-
-
 
 # Fall of Stormwind
 597.1.1 = {
@@ -32,5 +30,5 @@ trade_goods = arcane
 	controller = A01
 	remove_core = A41
 	culture = culture_azerothian
-	religion = religion_church_of_the_light 
+	religion = religion_arcane
 }

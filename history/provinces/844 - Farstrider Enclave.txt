@@ -16,9 +16,6 @@ religion = religion_voodoo
 hre = no 
 trade_goods = army_supplies
 
-
- 
-
 # The First War
 592.1.1 = {
 owner = A90
@@ -32,7 +29,7 @@ religion = religion_arcane
 owner = F54
 controller = F54
 add_core = F54
-add_claim = F59
+add_claim = F21
 religion = religion_church_of_the_light
 remove_core = A90
 }

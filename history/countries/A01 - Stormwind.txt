@@ -44,6 +44,7 @@ historical_friend = A05
 		mil = 4 
  	}
  	capital = 991
+	secondary_religion = religion_arcane
 }
 
 617.1.1 = { capital = 1022 }

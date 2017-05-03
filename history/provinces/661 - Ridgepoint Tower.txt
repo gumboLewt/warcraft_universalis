@@ -1,4 +1,4 @@
-# 661
+# 661 Ridgepoint Tower
 is_city = yes
 
 owner = B15
@@ -38,4 +38,5 @@ trade_goods = army_supplies
     is_city = yes
     owner = A01
     controller = A01
+	add_core = A01
 }
