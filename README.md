@@ -5,13 +5,6 @@ The aim of this mod is to recreate the lore from Blizzard Entertainment's Warcra
 
 Allowing for a unique EU4 experience where the player does not simply play at altering the course of history but is in fact steeped in a whole other fictional universe filled with magic, demons, dragons and fantasy whilst retaining a very Europa Universalis feel. 
 
-## Extras
-Art - https://github.com/vawser/warcraft_art 
-
-Models - https://github.com/vawser/warcraft_models 
-
-Music - https://github.com/vawser/warcraft_sound 
-
 ## Community
 
 Join our Discord server with: https://discord.gg/cE2z6Aa 
@@ -28,13 +21,16 @@ Join our Discord server with: https://discord.gg/cE2z6Aa
 	
 4. Launch Europa Universalis 4 and tick **Warcraft Universalis** under the Mod tab.
 
-# Optional Downloads
+## Steam Workship Links
+Main - http://steamcommunity.com/sharedfiles/filedetails/?id=713243950
+Art - http://steamcommunity.com/sharedfiles/filedetails/?id=901607627
+Models - http://steamcommunity.com/sharedfiles/filedetails/?id=901607852
+Music - http://steamcommunity.com/sharedfiles/filedetails/?id=901607242
 
-### Custom Models
-If You want to see additional, warcraftish models on your screen:
-
-1. Download and install mod from https://github.com/vawser/zz_warcraft_models
-2. Launch Europa Universalis 4 and tick **Warcraft Models** under the Mod tab.
+## Optional Downloads
+Art - https://github.com/vawser/warcraft_art 
+Models - https://github.com/vawser/warcraft_models 
+Music - https://github.com/vawser/warcraft_sound 
 
 ### Polish language
 If You want to play EU4 in Polish
