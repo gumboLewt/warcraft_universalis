@@ -23,14 +23,20 @@ Join our Discord server with: https://discord.gg/cE2z6Aa
 
 ## Steam Workship Links
 Main - http://steamcommunity.com/sharedfiles/filedetails/?id=713243950
+
 Art - http://steamcommunity.com/sharedfiles/filedetails/?id=901607627
+
 Models - http://steamcommunity.com/sharedfiles/filedetails/?id=901607852
+
 Music - http://steamcommunity.com/sharedfiles/filedetails/?id=901607242
 
 ## Optional Downloads
 Art - https://github.com/vawser/warcraft_art 
+
 Models - https://github.com/vawser/warcraft_models 
+
 Music - https://github.com/vawser/warcraft_sound 
+
 
 ### Polish language
 If You want to play EU4 in Polish
