@@ -38,7 +38,7 @@ Models - https://github.com/vawser/warcraft_models
 Music - https://github.com/vawser/warcraft_sound 
 
 
-### Polish language
+## Polish language
 If You want to play EU4 in Polish
 
 1. Download basic files from https://github.com/vawser/Warcraft-Universalis-Polska
