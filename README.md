@@ -9,7 +9,7 @@ Allowing for a unique EU4 experience where the player does not simply play at al
 
 Join our Discord server with: https://discord.gg/cE2z6Aa 
 
-### Installing 
+## Installing 
 1. Download the latest release.
 
 2. Go to **\Documents\Paradox Interactive\Europa Universalis IV\mod\**
