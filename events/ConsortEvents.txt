@@ -42,7 +42,7 @@ country_event = {
 	}
 	
 	trigger = {
-        log = "[Root.GetName] - consort_events.1"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.1" }
 		has_dlc = "Rights of Man"
         
         # Limit to certain cultures
@@ -133,7 +133,7 @@ country_event = {
 	option = {
 		name = consort_events.1.a #
 
-        log = "[Root.GetName] - consort_events.1.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.1.a" }
 
 		custom_tooltip = consort_events.1.a.tt #The Queens Family will expect special treatment.
 		add_years_of_income = 0.15
@@ -149,7 +149,7 @@ country_event = {
 	option = {
 		name = consort_events.1.b #
 
-        log = "[Root.GetName] - consort_events.1.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.1.b" }
 
 		add_prestige = 10
 		if = {
@@ -173,7 +173,7 @@ country_event = {
 
 	
 	trigger = {
-        log = "[Root.GetName] - consort_events.2"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.2" }
 		has_dlc = "Rights of Man"
 		has_foreign_consort = no
 		is_lesser_in_union = no
@@ -208,7 +208,7 @@ country_event = {
 	option = {
 		name = consort_events.2.a #
 
-        log = "[Root.GetName] - consort_events.2.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.2.a" }
 
 		custom_tooltip = consort_events.2.a.tt #The Queens Family will expect special treatment.
 		event_target:origin_of_queens_family = {
@@ -234,7 +234,7 @@ country_event = {
 	}
 	
 	trigger = {
-        log = "[Root.GetName] - consort_events.3"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.3" }
 		has_dlc = "Rights of Man"
 		has_consort = yes
 		is_lesser_in_union = no
@@ -290,7 +290,7 @@ country_event = {
 	option = {
 		name = consort_events.3.a #
 
-        log = "[Root.GetName] - consort_events.3.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.3.a" }
 		if = {
 			limit = { has_ruler_flag = accepted_help_from_spouses_family }
 			clr_ruler_flag = accepted_help_from_spouses_family
@@ -390,7 +390,7 @@ country_event = {
 	option = {
 		name = consort_events.3.b #Refuse
 
-        log = "[Root.GetName] - consort_events.3.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.3.b" }
 
 		custom_tooltip = consort_events.3.b.tt
 		set_ruler_flag = refused_to_help_spouses_family
@@ -412,7 +412,7 @@ country_event = {
 	picture = KING_DOING_GREAT_eventPicture
 	
 	trigger = {
-        log = "[Root.GetName] - consort_events.4"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.4" }
 		has_dlc = "Rights of Man"
 		is_lesser_in_union = no
 		has_consort = yes
@@ -469,7 +469,7 @@ country_event = {
 	option = {
 		name = consort_events.4.a #
 
-        log = "[Root.GetName] - consort_events.4.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.4.a" }
 		set_ruler_flag = accepted_help_from_spouses_family
 		trigger_switch = {
 			on_trigger = has_country_flag
@@ -584,7 +584,7 @@ country_event = {
 	option = {
 		name = consort_events.4.b #Refuse
 
-        log = "[Root.GetName] - consort_events.4.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.4.b" }
 		add_prestige = 5
 		custom_tooltip = consort_events.4.b.tt
 	}
@@ -598,7 +598,7 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
 	
 	trigger = {
-        log = "[Root.GetName] - consort_events.5"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.5" }
 		has_dlc = "Rights of Man"
 		is_lesser_in_union = no
 		NOT = { has_ruler_flag = has_lowborn_consort }
@@ -627,7 +627,7 @@ country_event = {
 
 	option = {
 		name = consort_events.5.a #
-        log = "[Root.GetName] - consort_events.5.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.5.a" }
 		if = {
 			limit = { has_ruler_flag = accepted_help_from_regents_family }
 			clr_ruler_flag = accepted_help_from_regents_family
@@ -731,7 +731,7 @@ country_event = {
 	}
 	option = {
 		name = consort_events.5.b #Refuse
-        log = "[Root.GetName] - consort_events.5.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.5.b" }
 		custom_tooltip = consort_events.5.b.tt
 		set_ruler_flag = refused_to_help_consort_regents_family
 		add_prestige = -10
@@ -752,7 +752,7 @@ country_event = {
 	picture = ROYAL_COUPLE_FUTURE_eventPicture
 
 	trigger = {
-        log = "[Root.GetName] - consort_events.6"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.6" }
 		has_dlc = "Rights of Man"
 		is_lesser_in_union = no
 		has_consort = no
@@ -811,7 +811,7 @@ country_event = {
 	#Yes to lowborn consort
 	option = {
 		name = consort_events.6.a 
-        log = "[Root.GetName] - consort_events.6.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.6.a" }
 		set_ruler_flag = has_lowborn_consort #Before creating the consort!
 		define_consort = { }
 		add_ruler_modifier = { 
@@ -836,7 +836,7 @@ country_event = {
 	#No to lowborn consort 
 	option = {
 		name = consort_events.6.b 
-        log = "[Root.GetName] - consort_events.6.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.6.b" }
 		set_ruler_flag = turned_down_marriage_offer_for_love
 	}
 }
@@ -870,7 +870,7 @@ country_event = {
 	
 	
 	trigger = {
-        log = "[Root.GetName] - consort_events.51"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.51" }
 		has_dlc = "Rights of Man"
 		is_lesser_in_union = no
 		has_consort = yes
@@ -897,7 +897,7 @@ country_event = {
 
 	option = {
 		name = consort_events.51.a # This is what kin means
-        log = "[Root.GetName] - consort_events.51.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - consort_events.51.a" }
 		custom_tooltip = consort_events.51.a.tt #The Consort's family will hear of the plesantries
 		add_dip_power = 10
 

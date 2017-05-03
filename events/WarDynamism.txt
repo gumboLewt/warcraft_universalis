@@ -34,7 +34,7 @@ province_event = {
 	option = {
 		name = war_dynamism.1.option.a
         
-        log = "[Root.GetName] - war_dynamism.1.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.1.option.a" }
 
         if = {
             limit = { 
@@ -68,7 +68,7 @@ country_event = {
 	option = {
 		name = war_dynamism.2.option.a
         
-        log = "[Root.GetName] - war_dynamism.2.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.2.option.a" }
 
         FROM = {
             add_province_modifier = {
@@ -84,7 +84,7 @@ country_event = {
     option = {
 		name = war_dynamism.2.option.b
         
-        log = "[Root.GetName] - war_dynamism.2.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.2.option.b" }
 
         FROM = {
             add_province_modifier = {
@@ -103,7 +103,7 @@ country_event = {
     option = {
 		name = war_dynamism.2.option.c
         
-        log = "[Root.GetName] - war_dynamism.2.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.2.option.c" }
 
         FROM = {
             grant_ducats_from_development = yes
@@ -134,7 +134,7 @@ country_event = {
 	option = {
 		name = war_dynamism.2.option.a
         
-        log = "[Root.GetName] - war_dynamism.3.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.3.option.a" }
 
         trigger = {
             has_country_flag = auto_loot_pick_pass_over
@@ -154,7 +154,7 @@ country_event = {
             has_country_flag = auto_loot_pick_loot
         }
 
-        log = "[Root.GetName] - war_dynamism.3.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.3.option.b" }
         
         FROM = {
             add_province_modifier = {
@@ -173,7 +173,7 @@ country_event = {
             has_country_flag = auto_loot_pick_scorched_earth
         }
         
-        log = "[Root.GetName] - war_dynamism.3.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.3.option.c" }
 
         FROM = {
             grant_ducats_from_development = yes
@@ -259,7 +259,7 @@ province_event = {
     option = {
 		name = war_dynamism.10.option.a
         
-        log = "[Root.GetName] - war_dynamism.10.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.10.option.a" }
 
         if = {
             limit = {
@@ -304,7 +304,7 @@ country_event = {
     option = {
 		name = war_dynamism.11.option.b
 
-        log = "[Root.GetName] - war_dynamism.11.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.11.option.a" }
 
         FROM = { cede_province = ROOT }
         
@@ -374,7 +374,7 @@ country_event = {
             has_country_flag = auto_claim_pick_peace_treaty
         }
 
-        log = "[Root.GetName] - war_dynamism.12.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.12.option.a" }
 	}
     
     # Claim it
@@ -385,7 +385,7 @@ country_event = {
             has_country_flag = auto_claim_pick_seize
         }
         
-        log = "[Root.GetName] - war_dynamism.12.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.12.option.b" }
 
         # Legitimate claim
         if = {
@@ -456,7 +456,7 @@ province_event = {
     option = {
 		name = war_dynamism.13.option.a
         
-        log = "[Root.GetName] - war_dynamism.13.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.13.option.a" }
 
         clr_province_flag = ownership_option_picked_for_province
 	}
@@ -478,7 +478,7 @@ country_event = {
             NOT = { has_country_flag = auto_loot_set }
         }
         
-        log = "[Root.GetName] - war_dynamism.100.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.100.option.a" }
 
         set_country_flag = auto_loot_set
         set_country_flag = auto_loot_pick_pass_over
@@ -491,7 +491,7 @@ country_event = {
             NOT = { has_country_flag = auto_loot_set }
         }
         
-        log = "[Root.GetName] - war_dynamism.100.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.100.option.b" }
 
         set_country_flag = auto_loot_set
         set_country_flag = auto_loot_pick_loot
@@ -504,7 +504,7 @@ country_event = {
             NOT = { has_country_flag = auto_loot_set }
         }
         
-        log = "[Root.GetName] - war_dynamism.100.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.100.option.c" }
 
         set_country_flag = auto_loot_set
         set_country_flag = auto_loot_pick_scorched_earth
@@ -517,7 +517,7 @@ country_event = {
             has_country_flag = auto_loot_set
         }
         
-        log = "[Root.GetName] - war_dynamism.100.option.d"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.100.option.d" }
 
         clr_country_flag = auto_loot_set
         clr_country_flag = auto_loot_pick_pass_over
@@ -546,7 +546,7 @@ country_event = {
             NOT = { has_country_flag = auto_claim_set }
         }
         
-        log = "[Root.GetName] - war_dynamism.101.option.a"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.101.option.a" }
 
         set_country_flag = auto_claim_set
         set_country_flag = auto_claim_pick_peace_treaty
@@ -559,7 +559,7 @@ country_event = {
             NOT = { has_country_flag = auto_claim_set }
         }
         
-        log = "[Root.GetName] - war_dynamism.101.option.b"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.101.option.b" }
 
         set_country_flag = auto_claim_set
         set_country_flag = auto_claim_pick_seize
@@ -572,7 +572,7 @@ country_event = {
             has_country_flag = auto_claim_set
         }
         
-        log = "[Root.GetName] - war_dynamism.101.option.c"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.101.option.c" }
 
         clr_country_flag = auto_claim_set
         clr_country_flag = auto_claim_pick_seize
@@ -582,7 +582,7 @@ country_event = {
     option = {
 		name = war_dynamism.101.option.d
     
-        log = "[Root.GetName] - war_dynamism.101.option.d"
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.101.option.d" }
     }
 }
 

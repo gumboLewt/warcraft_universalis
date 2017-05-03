@@ -196,6 +196,12 @@ on_new_consort = {
     }
 }
 
+on_monarch_death = {
+    if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_monarch_death" }
+    events = {
+    }
+}
+
 # country 
 on_regent = {
     if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_regent" }
@@ -217,6 +223,13 @@ on_death_election = {
     }
 }
 
+# country 
+on_replace_governor = {
+    if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_replace_governor" }
+	events = {
+		
+	}
+}
 
 # country
 on_bankruptcy = {
@@ -348,12 +361,24 @@ on_government_change = {
     }
 }
 
+# country
+on_new_heir = {
+    if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_new_heir" }
+}
+
 # country 
 on_weak_heir_claim = {
     if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_weak_heir_claim" }
     events = {
         611		# Pretenders rise up
     }
+}
+
+on_heir_needed_theocracy = {
+    if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_heir_needed_theocracy" }
+	events = {
+		
+	}
 }
 
 # Emperor from same dynasty
