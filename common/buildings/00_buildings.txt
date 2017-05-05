@@ -8,6 +8,7 @@
 # one_per_country = yes/no # if yes, only one of these can exist in a country
 # manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
 # onmap = yes/no # show as a sprite on the map
+# indestructible = yes # Stops the buildings being destroyed by bankruptcy
 
 # FROM = owner
 # ROOT = province

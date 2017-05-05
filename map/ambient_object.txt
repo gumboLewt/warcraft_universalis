@@ -156,7 +156,7 @@ type={
 	visible_in_all_map_modes=yes
 	object={
 		name="outland_dark_portal_ek"
-		hidden_on_start=no
+		hidden_on_start=yes
 		position={
 			4204.000 0.000 269.000 
 		}
@@ -166,7 +166,7 @@ type={
 	}
 	object={
 		name="outland_dark_portal_outland"
-		hidden_on_start=no
+		hidden_on_start=yes
 		position={
 			5478.000 0.000 349.000 
 		}

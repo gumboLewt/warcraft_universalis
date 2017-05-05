@@ -1,0 +1,21 @@
+﻿l_english:
+ #-----------------------------------
+ # Casus Belli
+ #-----------------------------------
+ cb_scourge: "Scourge"
+ cb_scourge_desc: "The Scourge must spread across all of Azeroth!"
+ 
+ cb_for_the_alliance: "For the Alliance!"
+ cb_for_the_alliance_desc: "The Horde must be wiped out, and it's members slain!"
+ 
+ cb_for_the_horde: "For the Horde!"
+ cb_for_the_horde_desc: "The Alliance must be wiped out, and it's members slain!"
+ 
+ cb_petty_squabbles: "Petty Squabbles"
+ cb_petty_squabbles_desc: "Our neighbours have encroached upon our land. Let's teach them a lesson they'll never forget!"
+ 
+ cb_warband_raid: "Warband Raid"
+ cb_warband_raid_desc: "As a warband, we must prove ourselves conquerors and subdue our neighbours, otherwise our people may think us weak."
+ 
+ cb_silvermoon_land: "Lands of the Quel'Thalas"
+ cb_silvermoon_land_desc: "As the remnants of the Quel'Thalasian elves, it is our duty to reclaim our lands from the scum that inhabits them."

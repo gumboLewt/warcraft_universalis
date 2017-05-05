@@ -1,5 +1,6 @@
+#---------------------------------
 # Fel
-
+#---------------------------------
 bloodlust = {
 	effect = {
 		discipline = 0.1
@@ -81,8 +82,9 @@ demonic_influences = {
 	}
 }
 
+#---------------------------------
 # The Damned
-
+#---------------------------------
 unrelenting_conversion = {
     effect = {
         colonists = 1
@@ -188,7 +190,9 @@ corrupted_minds = {
 	}
 }
 
+#---------------------------------
 # Void
+#---------------------------------
 manifest_the_void = {
     effect = {
         all_power_cost = -0.05

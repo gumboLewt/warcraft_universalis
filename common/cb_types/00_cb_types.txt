@@ -23,9 +23,9 @@ cb_restore_personal_union = {
 	prerequisites = {
 		government = monarchy
 		is_revolution_target = no
-    FROM = {
-      is_subject = no
-    }
+        FROM = {
+          is_subject = no
+        }
 	}
 	
 	war_goal = take_capital_personal_union

@@ -195,7 +195,7 @@ ai_militarist = {
 			is_march = yes
 		}
         modifier = {
-			factor = 1.1
+			factor = 3
             OR = {
                 culture_group = culture_group_vrykul
                 culture_group = culture_group_orc

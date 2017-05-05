@@ -167,6 +167,11 @@ spriteTypes = {
     
     spriteType = {
 		name = "GFX_the_third_war"
+		texturefile = "gfx/interface/ages/the_second_war.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_the_frozen_throne"
 		texturefile = "gfx/interface/ages/the_frozen_throne.dds"
 	}
     

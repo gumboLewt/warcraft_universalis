@@ -1,0 +1,158 @@
+
+# The Light
+religion_group_the_light = {
+	defender_of_faith = yes
+	can_form_personal_unions = yes
+	
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+	
+	crusade_name = CRUSADE
+	
+	religion_scarlet_light = {
+		color = { 127 0 0 }
+		icon = 2
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heathen = -3
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heathen = -3
+		}
+		
+		uses_piety = yes
+		misguided_heretic = yes
+		
+		on_convert = {
+			change_religion = religion_scarlet_light
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+		
+		heretic = { }
+	}
+	
+	religion_church_of_the_light = {
+		color = { 254 235 137 }
+		icon = 1
+		
+		country = {
+			tolerance_own = 1
+			war_exhaustion_cost = -0.1
+		}
+		country_as_secondary = {
+			advisor_pool = 1
+			war_exhaustion_cost = -0.1
+		}
+
+		uses_piety = yes
+		misguided_heretic = yes
+		
+		hre_religion = yes
+		
+		on_convert = {
+			change_religion = religion_church_of_the_light
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+		
+		heretic = { }
+	}
+	
+	religion_argent_light = {
+		color = { 181 185 188 }
+		icon = 31
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heathen = -3
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heathen = -3
+		}
+
+		uses_piety = yes
+		misguided_heretic = yes
+		
+		on_convert = {
+			change_religion = religion_argent_light
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+		
+		heretic = { }
+	}
+	
+	religion_light_of_the_naaru = {
+		color = { 0 255 255 }
+		icon = 3
+		
+		country = {
+			tolerance_own = 1
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			global_unrest = -1
+		}
+
+		uses_piety = yes
+		misguided_heretic = yes
+		
+		on_convert = {
+			change_religion = religion_light_of_the_naaru
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+		
+		heretic = { }
+	}
+	
+    religion_light_of_the_sunwell = {
+		color = { 255 255 61 }
+		icon = 32
+		
+		country = {
+			advisor_pool = 1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			advisor_pool = 1
+			tolerance_own = 1
+		}
+		
+		uses_karma = yes
+		misguided_heretic = yes
+		
+		on_convert = {
+			change_religion = religion_light_of_the_sunwell
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+		
+		heretic = { }
+	}
+}

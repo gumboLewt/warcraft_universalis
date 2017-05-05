@@ -1,4 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+1586;1035;;;-1;-1;-1;-1;Draenor to Azeroth (Dark Portal)
 927;525;;;-1;-1;-1;-1;Gilneas to Northgate Woods (Gilneas)
 505;774;;;-1;-1;-1;-1;Northern Headlands Woods to Keel Harbour (Gilneas)
 927;804;;;-1;-1;-1;-1;Gilneas to Aderic's Repose (Gilneas)
@@ -38,7 +39,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1705;1711;;;-1;-1;-1;-1;Manafroge Ara to Stormspire
 1666;1673;;;-1;-1;-1;-1;Sanctum of the Stars to Netherwing Ledge
 1672;1673;;;-1;-1;-1;-1;Dragonmaw Fortress to Netherwing Ledge
-1586;1035;;;-1;-1;-1;-1;Draenor to Azeroth (Dark Portal)
 681;1003;;;-1;-1;-1;-1;Mizjah Ruins to Jainiz Ruins
 681;548;;;-1;-1;-1;-1;Mizjah Ruins to Fort Livingston
 1998;996;sea;290;-1;-1;-1;-1;Janeiro's Point to Booty Bay

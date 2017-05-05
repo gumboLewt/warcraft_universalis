@@ -56,6 +56,13 @@ guiTypes = {
 		}
         
         WindowType = {
+			name = "the_frozen_throne"
+			position = { x= 35 y = -29}
+			upsound = age_of_discovery
+
+		}
+        
+        WindowType = {
 			name = "rise_of_the_qiraji"
 			position = { x= 35 y = -29}
 			upsound = age_of_discovery

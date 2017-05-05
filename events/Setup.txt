@@ -35,7 +35,15 @@ country_event = {
     
         # Game flags
         #   Used to detect which bookmark the flag starts in, accounting for time adjustments
-
+        
+        if = {
+            limit = {
+                is_year = 592
+            }
+            set_global_flag = dark_portal_built
+            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: dark_portal_built" }
+        }
+        
         # Rise of the Horde
         if = { 
             limit = {

@@ -1,21 +1,6 @@
-#
-# remember to add graphics for relevant ones when you add to this
-#
-# if a modifier is scaled, its multiplied with development in the province.
-
-#   Dwarf / Gnome / Goblin get all faster
-#   Primitives get all slower
-
-# 1022 - Stormwind Keep
-# 941 - Ironforge
-# 3038 - Gnomeregan
-# 1098 - Oil Platform
-# 1097 - Bilgewater Lumberyard
-# 3048 - Military Ward
-
+#-----------------------------------------------------------------------------
 # Civic Code
-#    All but primitives start with this
-# Tax bonus
+#-----------------------------------------------------------------------------
 civic_code = {
     historical_start_date = 546.1.1
 	historical_start_province = 1022
@@ -77,7 +62,7 @@ civic_code = {
 		}
 	}
 	
-	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income. (Or it has a more than long term goal...)
+	ai_will_do = { 
 		factor = 24
 		
 		modifier = {
@@ -87,8 +72,9 @@ civic_code = {
 	}
 }
 
+#-----------------------------------------------------------------------------
 # Phlogiston
-# Production bonus
+#-----------------------------------------------------------------------------
 phlogiston = {
     historical_start_date = 600.1.1
 	historical_start_province = 941
@@ -269,7 +255,7 @@ phlogiston = {
 		}
 	}
 	
-	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+	ai_will_do = { 
 		factor = 24
 		
 		modifier = {
@@ -295,10 +281,9 @@ phlogiston = {
 	}
 }
 
-# 631 is latest bookmark
-
+#-----------------------------------------------------------------------------
 # Clockwerk Engineering
-# Military bonus
+#-----------------------------------------------------------------------------
 clockwerk_engineering = {
     historical_start_date = 650.1.1
 	historical_start_province = 3038
@@ -480,7 +465,7 @@ clockwerk_engineering = {
 		}
 	}
 	
-	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+	ai_will_do = { 
 		factor = 24
 		
 		modifier = {
@@ -506,8 +491,9 @@ clockwerk_engineering = {
 	}
 }
 
+#-----------------------------------------------------------------------------
 # Boomsticks
-# Fire bonus
+#-----------------------------------------------------------------------------
 boomsticks = {
     historical_start_date = 700.1.1
 	historical_start_province = 3048
@@ -689,7 +675,7 @@ boomsticks = {
 		}
 	}
 	
-	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+	ai_will_do = { 
 		factor = 24
 		
 		modifier = {
@@ -715,8 +701,9 @@ boomsticks = {
 	}
 }
 
+#-----------------------------------------------------------------------------
 # Oil Extraction
-#   Ship bonus
+#-----------------------------------------------------------------------------
 oil_extraction = {
     historical_start_date = 750.1.1
 	historical_start_province = 1098
@@ -897,7 +884,7 @@ oil_extraction = {
 		}
 	}
 	
-	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+	ai_will_do = {
 		factor = 24
 		
 		modifier = {
@@ -923,8 +910,9 @@ oil_extraction = {
 	}
 }
 
+#-----------------------------------------------------------------------------
 # Mechanical Constructs
-# Production bonus
+#-----------------------------------------------------------------------------
 mechanical_constructs = {
     historical_start_date = 800.1.1
 	historical_start_province = 941
@@ -1106,7 +1094,7 @@ mechanical_constructs = {
 		}
 	}
 	
-	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+	ai_will_do = { 
 		factor = 24
 		
 		modifier = {
@@ -1132,8 +1120,9 @@ mechanical_constructs = {
 	}
 }
 
+#-----------------------------------------------------------------------------
 # Pneumatics
-# Military bonus
+#-----------------------------------------------------------------------------
 pneumatics = {
     historical_start_date = 850.1.1
 	historical_start_province = 1097
@@ -1313,4 +1302,29 @@ pneumatics = {
 				tooltip = tt_primitive
 			}
 		}
+    }
+	ai_will_do = { 
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
 }

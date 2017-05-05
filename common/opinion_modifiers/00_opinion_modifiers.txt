@@ -103,7 +103,6 @@ at_war = {
 same_dynasty = {
 	opinion = 25
 }
-
 royal_marriage = {
 	opinion = 25
 }
@@ -174,13 +173,12 @@ in_same_trade_league = {
 }
 
 consort_marriage_ties = {
-  opinion = 5
+	opinion = 5
 }
 
-consort_regent_marriage_ties = {
-  opinion = 15
+consort_regent_marriage_ties = { # Goes under consort_marriage_ties in interface
+	opinion = 15
 }
-
 
 ##################################
 # Strategy

@@ -1,4 +1,21 @@
+#-----------------------------------------
 # Icecrown Factions
+#-----------------------------------------
+faction_crimson_halls =
+{
+	monarch_power = ADM
+    always = yes
+    
+	#Merchants, Traders, Expansions.
+	modifier = 
+	{
+		army_tradition = 1
+		diplomats = 1
+		fabricate_claims_cost = -0.33
+		diplomatic_upkeep = 2
+	}
+}
+
 faction_lower_spire =
 {
 	#Allows to fight wars.
@@ -13,21 +30,6 @@ faction_lower_spire =
 		war_exhaustion = -0.05
 		land_morale = 0.15
 
-	}
-}
-
-faction_crimson_halls =
-{
-	monarch_power = ADM
-    always = yes
-    
-	#Merchants, Traders, Expansions.
-	modifier = 
-	{
-		army_tradition = 1
-		diplomats = 1
-		fabricate_claims_cost = -0.33
-		diplomatic_upkeep = 2
 	}
 }
 

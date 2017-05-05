@@ -1,17 +1,19 @@
 # 2028
 is_city = yes
+owner = A40
+controller = A40
+add_core = A40
+culture = culture_bleeding_hollow 
+religion = religion_ancestral
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
-
-culture = culture_fel_orc
-religion = religion_fel
+base_tax = 1
+base_manpower = 1
+base_production = 1
 
 hre = no
-trade_goods = army_supplies
+trade_goods = artifacts
 
-
-
-
+#Outland
+592.1.1 = {	
+	religion = religion_fel
+}
