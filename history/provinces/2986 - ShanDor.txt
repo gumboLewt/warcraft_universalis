@@ -1,22 +1,21 @@
-# 2986 ShanDor
+# 2986 - ShanDor.txt
 is_city = yes
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-add_core = A58
-add_core = A90
 owner = A90
 controller = A90
+add_core = A58
+add_core = A90
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_high_elf
 religion = religion_arcane
 
-hre = no
 trade_goods = arcane
+hre = no
 
-# The Frozen Throne
 618.1.1 = {
 	owner = F21
 	controller = F21

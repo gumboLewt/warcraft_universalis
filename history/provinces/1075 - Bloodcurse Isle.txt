@@ -1,20 +1,17 @@
-# 1075
+# 1075 - Bloodcurse Isle.txt
 is_city = yes
 
 owner = B31
 controller = B31
 add_core = B31
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_nerglish
 religion = religion_water
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-
-hre = no
 trade_goods = fish
-
-
-
+hre = no
 

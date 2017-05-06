@@ -1,19 +1,17 @@
+# 2288 - Rocktusk Farm.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
 
 owner = B66
 controller = B66
 add_core = B66
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_dustwind
 religion = religion_air
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

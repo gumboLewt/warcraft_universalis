@@ -1,18 +1,19 @@
-# 1610
+# 1610 - Twin Spire Ruins.txt
 is_city = yes
 
 owner = F84
 controller = F84
 add_core = F84
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_broken
 religion = religion_ancestral
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-hre = no
 trade_goods = artifacts
+hre = no
 
 546.1.1 = {
     owner = F84

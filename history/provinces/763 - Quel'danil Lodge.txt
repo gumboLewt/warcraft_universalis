@@ -1,21 +1,20 @@
-# 763 Quel'Danil Lodge
+# 763 - Quel'danil Lodge.txt
 is_city = yes
 
-add_core = A60
 owner = A60 
 controller = A60
+add_core = A60
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
- 
+base_manpower = 3
+
 culture = culture_vilebranch
 religion = religion_voodoo
- 
-hre = no 
-trade_goods = fish
 
-# Beyond the Dark Portal
+trade_goods = fish
+hre = no 
+
 600.1.1 = { 
     is_city = no
 	remove_core = A60 

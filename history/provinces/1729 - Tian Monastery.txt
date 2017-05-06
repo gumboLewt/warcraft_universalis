@@ -1,4 +1,4 @@
-# 1729
+# 1729 - Tian Monastery.txt
 is_city = yes
 
 owner = P63
@@ -6,16 +6,12 @@ controller = P63
 add_core = P63
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_jade_serpent
 religion = religion_celestial
 
-hre = yes
 trade_goods = ale
-
-
-
+hre = yes
 

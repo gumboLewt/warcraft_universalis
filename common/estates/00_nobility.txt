@@ -174,30 +174,40 @@ estate_nobles =
 		desc = EST_VAL_LEGITIMACY
 		trigger = {
 			government = monarchy
-			legitimacy = 25
-			NOT = { legitimacy = 50 }
+			legitimacy = 50
+			NOT = { legitimacy = 60 }
 		}
-		loyalty = 2.5
+		loyalty = 2
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_LEGITIMACY
 		trigger = {
 			government = monarchy
-			legitimacy = 50
-			NOT = { legitimacy = 75 }
+			legitimacy = 60
+			NOT = { legitimacy = 70 }
 		}
-		loyalty = 5
+		loyalty = 4
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_LEGITIMACY
 		trigger = {	
 			government = monarchy
-			legitimacy = 75
-			NOT = { legitimacy = 90 }
+			legitimacy = 70
+			NOT = { legitimacy = 80 }
 		}
-		loyalty = 7.5
+		loyalty = 6
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {	
+			government = monarchy
+			legitimacy = 80
+            NOT = { legitimacy = 90 }
+		}
+		loyalty = 8
 	}
 	
 	loyalty_modifier = {
@@ -208,46 +218,56 @@ estate_nobles =
 		}
 		loyalty = 10
 	}
-	
-	
-	loyalty_modifier = {
+    
+    loyalty_modifier = {
 		desc = EST_VAL_LEGITIMACY
 		trigger = {
 			government = monarchy
-			NOT = { legitimacy = -25 }
-			legitimacy = -50
+			legitimacy = 40
+			NOT = { legitimacy = 50 }
 		}
-		loyalty = -2.5
+		loyalty = -2
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_LEGITIMACY
 		trigger = {
 			government = monarchy
-			NOT = { legitimacy = -50 }
-			legitimacy = -75
+			legitimacy = 30
+			NOT = { legitimacy = 40 }
 		}
-		loyalty = -5
+		loyalty = -4
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_LEGITIMACY
-		trigger = {
+		trigger = {	
 			government = monarchy
-			NOT = { legitimacy = -75 }
-			legitimacy = -90
+			legitimacy = 20
+			NOT = { legitimacy = 30 }
 		}
-		loyalty = -7.5
+		loyalty = -6
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_LEGITIMACY
-		trigger = {
+		trigger = {	
 			government = monarchy
-			NOT = { legitimacy = -90 }
+			legitimacy = 10
+            NOT = { legitimacy = 20 }
+		}
+		loyalty = -8
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMACY
+		trigger = {	
+			government = monarchy
+			NOT = { legitimacy = 10 }
 		}
 		loyalty = -10
 	}
+    
 	
 	#############################
 	# Custom Names

@@ -1,20 +1,17 @@
-# 1533
+# 1533 - Fire Plume Ridge.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
-hre = no
-trade_goods = warbeasts
 
 owner = A98
 controller = A98
 add_core = A98
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_silithid
 religion = religion_old_gods
 
-
-
+trade_goods = warbeasts
+hre = no
 

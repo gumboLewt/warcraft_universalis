@@ -1,16 +1,17 @@
-# 1355 Stonetalon Peak
+# 1355 - Stonetalon Peak.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = H02
 controller = H02
 add_core = H02
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_cenarion
 religion = religion_druidic
 
-hre = no
 trade_goods = moonwell
+hre = no
 

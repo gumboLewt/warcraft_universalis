@@ -1,20 +1,17 @@
+# 2215 - tek Shore.txt
 is_city = yes 
 
-add_core = A58
 owner = A58
 controller = A58
+add_core = A58
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
+base_manpower = 4
 
 culture = culture_amani
 religion = religion_voodoo
 
-capital = "Amani Shipyard"
- 
-hre = no 
 trade_goods = naval_supplies
+hre = no 
 
-
- 

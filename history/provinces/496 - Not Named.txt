@@ -1,17 +1,14 @@
-# 496
+# 496 - Not Named.txt
 is_city = yes
 
+
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
+culture = culture_azerothian # Dummy
+religion = religion_ancestral # Dummy
 
-culture = noculture
-religion = noreligion
-
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

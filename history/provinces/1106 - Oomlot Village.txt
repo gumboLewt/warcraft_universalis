@@ -1,20 +1,17 @@
-# 1106
+# 1106 - Oomlot Village.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = A81
 controller = A81
 add_core = A81
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_venture
 religion = religion_greed
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

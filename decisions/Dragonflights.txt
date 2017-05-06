@@ -23,6 +23,7 @@ country_decisions = {
                 limit = { has_siege = yes }
                 kill_units = {
                     who = enemy
+                    amount = 1000
                 }
             }
         }		

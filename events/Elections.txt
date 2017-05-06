@@ -2,15 +2,15 @@ namespace = elections
 
 # Election!
 country_event = {
-	id = 700
-	title = "EVTNAMP700"
-	desc = "EVTDESC700"
+	id = elections.1
+	title = elections.1.title
+	desc = elections.1.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA700"	# Current ruler stays
+		name = elections.1.option.d
 
         if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTA700" }
 
@@ -55,9 +55,9 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB700"	# An administrator type
+		name = elections.1.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTB700" }
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - elections.1.option.a" }
 
 		ai_chance = { factor = 20 }
 		define_ruler = {
@@ -69,9 +69,9 @@ country_event = {
 
 	}
 	option = {
-		name = "EVTOPTC700"	# A diplomat
+		name = elections.1.option.b
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTC700" }
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - elections.1.option.b" }
 
 		ai_chance = { factor = 20 }
 		define_ruler = {
@@ -83,9 +83,9 @@ country_event = {
 	
 	}
 	option = {
-		name = "EVTOPTD700"	# A military man
+		name = elections.1.option.c
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTD700" }
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - elections.1.option.c" }
 
 		ai_chance = { factor = 20 }
 		define_ruler = {
@@ -100,17 +100,17 @@ country_event = {
 
 # Election!
 country_event = {
-	id = 701
-	title = "EVTNAMP700"
-	desc = "EVTDESC701"
+	id = elections.2
+	title = elections.2.title
+	desc = elections.2.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTB700"	# An administrator type
+		name = elections.2.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTB700" }
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - elections.2.option.a" }
 
 		ai_chance = { factor = 40 }
 		define_ruler = {
@@ -121,9 +121,9 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTC700"	# A diplomat
+		name = elections.2.option.b
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTC700" }
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - elections.2.option.b" }
 
 		ai_chance = { factor = 30 }
 		define_ruler = {
@@ -134,9 +134,9 @@ country_event = {
 		}	
 	}
 	option = {
-		name = "EVTOPTD700"	# A military man
+		name = elections.2.option.c
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTD700" }
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - elections.2.option.c" }
 
 		ai_chance = { factor = 30 }
 		define_ruler = {

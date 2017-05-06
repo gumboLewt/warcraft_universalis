@@ -279,8 +279,10 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		corruption = 25
-		NOT = { corruption = 50 }
+		owner = {
+            corruption = 25
+            NOT = { corruption = 50 }
+        }
 		has_owner_culture = no
 		owner = {
 			any_known_country = {
@@ -366,7 +368,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		corruption = 50
+		owner = { corruption = 50 }
 	}
 	
 	option = {

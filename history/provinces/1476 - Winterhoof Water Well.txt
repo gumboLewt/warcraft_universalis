@@ -1,19 +1,19 @@
-# 1476
+# 1476 - Winterhoof Water Well.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 3
 
 owner = B20
 controller = B20
 add_core = B20
 
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
 culture = culture_galak
 religion = religion_air
 
-hre = no
 trade_goods = grain
+hre = no
 
 618.1.1 = { 
 	owner = F88

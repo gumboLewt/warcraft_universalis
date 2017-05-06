@@ -1,21 +1,20 @@
-# 1662 - Legion Hold
+# 1662 - Legion Hold.txt
 is_city = yes
-
-base_tax = 5
-base_manpower = 5
-base_production = 5
 
 owner = A34
 controller = A34
-add_core =  A34
+add_core = A34
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
 
 culture = culture_shadowmoon
 religion = religion_ancestral
 
-hre = no
 trade_goods = workshops
+hre = no
 
-# Shadowmoon
 546.1.1 = {
     owner = A34
     controller = A34

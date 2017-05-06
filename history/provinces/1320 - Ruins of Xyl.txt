@@ -1,17 +1,19 @@
+# 1320 - Ruins of Xyl.txt
+is_city = yes
+
 owner = B96
 controller = B96
 add_core = B96
-is_city = yes
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_jadefire
 religion = religion_fel
 
-hre = no
 trade_goods = fel
+hre = no
 
 631.1.1 = {
 owner = H02

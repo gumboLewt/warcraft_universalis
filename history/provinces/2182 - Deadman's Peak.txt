@@ -1,21 +1,20 @@
-# 2182 Deadman's Peak
+# 2182 - Deadman's Peak.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 3
 
 owner = P59
 controller = P59
 add_core = P59
 
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
 culture = culture_azerothian
 religion = religion_arcane
 
-hre = no
 trade_goods = smugglers
+hre = no
 
-# First War
 592.1.1 = { 
 	owner = A40
 	controller = A40

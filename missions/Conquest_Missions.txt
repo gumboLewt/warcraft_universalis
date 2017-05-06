@@ -104,10 +104,7 @@ conquer_a_port = {
 			is_capital = no
 			owner = { NOT = { num_of_cities = 2} }
 		}
-		OR = {
-			NOT = { owned_by = PAP }
-			is_capital = no
-		}
+        is_capital = no
 	}
 	abort = {
 		FROM = { 
@@ -174,7 +171,6 @@ conquer_neighbour = {
 			FROM = { is_part_of_hre = no }
 		}
 		is_capital = no
-		NOT = { owned_by = PAP }
 		owner = {
 			NOT = { alliance_with = FROM }
 		}
@@ -300,7 +296,7 @@ conquer_core = {
 				duration = 3650
 			}
 		}
-		add_yearly_manpower = 0.5
+		FROM = { add_yearly_manpower = 0.5 }
 	}	
 }
 
@@ -375,7 +371,7 @@ protect_religious_minority = {
 			duration = 3650
 		}
 		
-		add_yearly_manpower = 0.33
+		FROM = { add_yearly_manpower = 0.33 }
 	}
 }
 
@@ -403,7 +399,6 @@ protect_cultural_minority = {
 			owner = { is_part_of_hre = no }
 			FROM = { is_part_of_hre = no }
 		}
-		NOT = { owned_by = PAP }
 	}
 	abort = {
 		OR = {
@@ -458,7 +453,7 @@ protect_cultural_minority = {
 			duration = 3650
 		}
 		
-		add_yearly_manpower = 0.8
+		FROM = { add_yearly_manpower = 0.8 }
 	}
 }
 

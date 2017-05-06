@@ -1,21 +1,19 @@
-# 1780
+# 1780 - Nayeli Lagoon.txt
 is_city = yes
 
 owner = P65
 controller = P65
 add_core = P65
-capital = "Marista"
 
 base_tax = 3
-base_manpower = 2
 base_production = 3
-
+base_manpower = 2
 
 culture = culture_red_crane
 religion = religion_celestial
 
-hre = yes
 trade_goods = fish
+hre = yes
 
 632.1.1 = {
     owner = P69

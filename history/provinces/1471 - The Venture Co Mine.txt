@@ -1,19 +1,19 @@
-# 1471
+# 1471 - The Venture Co Mine.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = G05
 controller = G05
 add_core = G05
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_windfury
 religion = religion_air
 
-hre = no
 trade_goods = iron
-
+hre = no
 
 622.1.1 = { 
 culture = culture_venture

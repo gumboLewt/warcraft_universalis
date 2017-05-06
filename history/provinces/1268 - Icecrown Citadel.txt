@@ -1,4 +1,4 @@
-# 1268 Icecrown Citadel
+# 1268 - Icecrown Citadel.txt
 is_city = yes
 
 owner = P74
@@ -6,16 +6,15 @@ controller = P74
 add_core = P74
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
+base_manpower = 2
 
 culture = culture_nerubian
 religion = religion_arcane
 
-hre = no
 trade_goods = saronite
+hre = no
 
-# The Alliance Splinters
 605.1.1 = { 
 	add_core = P11
 	controller = P11

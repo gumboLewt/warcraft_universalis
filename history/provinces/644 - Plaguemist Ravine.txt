@@ -1,21 +1,20 @@
-# 644 Lakemist Ravine
+# 644 - Plaguemist Ravine.txt
 is_city = yes 
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = P22
 controller = P22
 add_core = P22
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_wildhammer
 religion = religion_ancestral
- 
-hre = no 
-trade_goods = smugglers
 
-# The Frozen Throne - Abandoned after the Plague seeps in
+trade_goods = smugglers
+hre = no 
+
 618.1.1 = {
     is_city = no
     owner = XXX

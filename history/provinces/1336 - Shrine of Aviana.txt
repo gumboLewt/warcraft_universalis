@@ -1,17 +1,19 @@
+# 1336 - Shrine of Aviana.txt
+is_city = yes
+
 owner = F99
 controller = F99
 add_core = F99
-is_city = yes
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_wormwing
 religion = religion_druidic
 
-hre = no
 trade_goods = artifacts
+hre = no
 
 632.1.1 = {
 culture = culture_cenarion

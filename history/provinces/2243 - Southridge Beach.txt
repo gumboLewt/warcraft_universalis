@@ -1,15 +1,19 @@
+# 2243 - Southridge Beach.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
 
 owner = G39
 controller = G39
 add_core = G39
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_haldarr
 religion = religion_fel
+
+hre = no
+trade_goods = grain
 
 618.1.1 = {
   owner = P05
@@ -19,10 +23,6 @@ religion = religion_fel
   culture = culture_nazja
   religion = religion_old_gods
 }
-
-hre = no
-trade_goods = grain
-
 
 
 

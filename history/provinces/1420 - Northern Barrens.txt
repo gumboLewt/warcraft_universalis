@@ -1,20 +1,19 @@
-# 1420
+# 1420 - Northern Barrens.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = A84
 controller = A84
 add_core = A84
 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
 culture = culture_bloodhoof
 religion = religion_ancestral
 
-hre = no
 trade_goods = fur
+hre = no
 
 592.1.1 = {
     owner = B21

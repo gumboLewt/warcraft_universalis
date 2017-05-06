@@ -1,18 +1,19 @@
-# 1698
+# 1698 - Forge Camp Anger.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A37
 controller = A37
 add_core = A37
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_thunderlord
 religion = religion_ancestral
 
-hre = no
 trade_goods = fel
+hre = no
 
 592.1.1 = {
 religion = religion_fel

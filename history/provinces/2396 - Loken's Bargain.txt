@@ -1,18 +1,17 @@
+# 2396 - Loken's Bargain.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = F42
 controller = F42
 add_core = F42
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_ice_giant
 religion = religion_titan
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

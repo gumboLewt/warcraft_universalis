@@ -1,18 +1,17 @@
+# 2402 - Snowfall Glade.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = B51
 controller = B51
 add_core = B51
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_snowfall
 religion = religion_primitive
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

@@ -1,14 +1,19 @@
+# 1343 - Ascendant's Circle.txt
+is_city = yes
+
 owner = H01
 controller = H01
 add_core = H01
 
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_sentinel
 religion = religion_elune
-is_city = yes
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
+hre = no
+trade_goods = ashenvale_lumber
 
 622.1.1 = {
   owner = A94
@@ -16,6 +21,3 @@ base_production = 2
   add_core = A94
   remove_core = H01
 }
-
-hre = no
-trade_goods = ashenvale_lumber

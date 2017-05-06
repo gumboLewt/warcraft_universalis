@@ -1,21 +1,20 @@
-# 2177 Dark Road
+# 2177 - Dark Road.txt
 is_city = yes
 
-add_core = A03
 owner = A03
 controller = A03
+add_core = A03
 
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
 culture = culture_azerothian
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = cloth
+hre = no
 
-# Fall of Stormwind
 597.1.1 = { 
 	owner = A40
 	controller = A40

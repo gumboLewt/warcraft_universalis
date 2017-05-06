@@ -1,22 +1,20 @@
-# 543 Capital City
+# 543 - Undercity.txt
 is_city = yes
 
-add_core = A08
 owner = A08
 controller = A08
-capital ="Lordaeron City"
+add_core = A08
 
 base_tax = 9
-base_manpower = 8
 base_production = 7
+base_manpower = 8
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
- 
-hre = no 
-trade_goods = grain_silo
 
-# The Frozen Throne
+trade_goods = grain_silo
+hre = no 
+
 618.1.1 = {
 	add_core = A25
 	add_core = P14

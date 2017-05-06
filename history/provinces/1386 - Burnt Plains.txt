@@ -1,19 +1,19 @@
-# 1386 Charred Vale
+# 1386 - Burnt Plains.txt
 is_city = yes
+
 owner = B63
 controller = B63
 add_core = B63
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_bloodfury
 religion = religion_air
 
-hre = no
 trade_goods = lumber
+hre = no
 
 631.1.1 = {
     owner = A99

@@ -1,4 +1,4 @@
-# 1876
+# 1876 - The Underbough.txt
 is_city = yes
 
 owner = P89
@@ -6,15 +6,14 @@ controller = P89
 add_core = P89
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_ruqin
 religion = religion_fire
 
-hre = no
 trade_goods = oil
+hre = no
 
 632.1.1 = {
     is_city = no

@@ -1,23 +1,20 @@
-# 966 Galens Fall
+# 966 - Galen's Fall.txt
 is_city = yes
 
-add_core = A16
 owner = A16
 controller = A16
+add_core = A16
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
-
-capital = "Thoradin's Gates"
+base_manpower = 2
 
 culture = culture_arathi
 religion = religion_church_of_the_light
- 
-hre = no 
-trade_goods = army_supplies
 
-# Rise of the Qiraji
+trade_goods = army_supplies
+hre = no 
+
 622.1.1 = { 
 	owner = A26
 	controller = A26

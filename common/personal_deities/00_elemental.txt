@@ -1,14 +1,10 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new dieties, make sure they are uniquely named.
 
-#######
-#WATER#
-#######
-
-#Unique Modifiers not addded yet
-diety_neptulon = 
-{ 
-	#(Economic - Offensive) 
+#---------------------------------------------
+# Water
+#---------------------------------------------
+diety_neptulon = { 
 	siege_ability = 0.15
 	production_efficiency = 0.15
 	
@@ -19,22 +15,19 @@ diety_neptulon =
 		factor = 1
 		modifier = {
 			factor = 2
-			culture = culture_water
+			primary_culture = culture_water
 		}	
 		modifier = {
 			factor = 2
 			OR = {
-                culture = culture_kvaldir
-                culture = culture_skadir
+                primary_culture = culture_kvaldir
+                primary_culture = culture_skadir
 			}
 		}		
 	}	
 }
-#Unique Modifiers not addded yet
-# The watery counterpart of geomancy
-diety_hydromancy = 
-{ 
-	#(Trade - Deffensive) 
+
+diety_hydromancy = { 
 	defensiveness = 0.15
 	trade_efficiency = 0.15
 	
@@ -47,22 +40,19 @@ diety_hydromancy =
 			factor = 2
 			OR = {
                 culture_group = culture_group_lobstrok
-                culture = culture_gilblin
+                primary_culture = culture_gilblin
 			}
 		}			
 	}	
 }
-#Unique Modifiers not addded yet
-# Murloc
-diety_deepmother = 
-{ 
-	#(Trade - Deffensive) 
+
+diety_deepmother = { 
 	defensiveness = 0.15
 	trade_efficiency = 0.15
 	
 	allow = { 
-          religion = religion_water
-		  culture_group = culture_group_murloc
+        religion = religion_water
+        culture_group = culture_group_murloc
     }
 	sprite = 9
 	
@@ -75,14 +65,10 @@ diety_deepmother =
 	}	
 }
 
-######
-#FIRE#
-######
-
-#Unique Modifiers not addded yet
-diety_ragnaros = 
-{ 
-	#(Economic - Offensive) 
+#---------------------------------------------
+# Fire
+#---------------------------------------------
+diety_ragnaros = { 
 	siege_ability = 0.15
 	production_efficiency = 0.15
 	
@@ -93,26 +79,22 @@ diety_ragnaros =
 		factor = 1
 		modifier = {
 			factor = 2
-			culture = culture_fire
+			primary_culture = culture_fire
 		}	
 		modifier = {
 			factor = 2
-			culture = culture_dark_iron
+			primary_culture = culture_dark_iron
 		}		
 	}	
 }
 
-#Unique Modifiers not addded yet
-#Yaungol
-diety_ordos = 
-{ 
-	#(Economic - Offensive) 
+diety_ordos = { 
 	siege_ability = 0.15
 	production_efficiency = 0.15
 	
 	allow = { 
-          religion = religion_fire
-		  culture_group = culture_group_yaungol
+        religion = religion_fire
+        culture_group = culture_group_yaungol
     }
 	sprite = 5
 	
@@ -125,14 +107,10 @@ diety_ordos =
 	}	
 }
 
-#######
-#Earth#
-#######
-
-#Unique Modifiers not addded yet
-diety_therazane = 
-{ 
-	#(Economic - Offensive) 
+#---------------------------------------------
+# Earth
+#---------------------------------------------
+diety_therazane = { 
 	siege_ability = 0.15
 	production_efficiency = 0.15
 	
@@ -143,7 +121,7 @@ diety_therazane =
 		factor = 1
 		modifier = {
 			factor = 2
-			culture = culture_earth
+			primary_culture = culture_earth
 		}	
 		modifier = {
 			factor = 2
@@ -152,11 +130,7 @@ diety_therazane =
 	}	
 }
 
-#Unique Modifiers not addded yet
-#Nagrand elemental
-diety_gurok = 
-{ 
-	#(Economic - Offensive) 
+diety_gurok = { 
 	siege_ability = 0.15
 	production_efficiency = 0.15
 	
@@ -183,14 +157,10 @@ diety_gurok =
 	}	
 }
 
-#####
-#Air#
-#####
-
-#Unique Modifiers not addded yet
-diety_al_akir = 
-{ 
-	#(Economic - Offensive) 
+#---------------------------------------------
+# Air
+#---------------------------------------------
+diety_al_akir = { 
 	siege_ability = 0.15
 	production_efficiency = 0.15
 	
@@ -201,7 +171,7 @@ diety_al_akir =
 		factor = 1
 		modifier = {
 			factor = 2
-			culture = culture_air
+			primary_culture = culture_air
 		}	
 		modifier = {
 			factor = 2
@@ -210,11 +180,7 @@ diety_al_akir =
 	}	
 }
 
-#Unique Modifiers not addded yet
-#Air/Lighting Elemental Magic
-diety_storm_magic = 
-{ 
-	#(Economic - Offensive) 
+diety_storm_magic = { 
 	siege_ability = 0.15
 	production_efficiency = 0.15
 	

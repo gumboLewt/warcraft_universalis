@@ -1,4 +1,4 @@
-# 1906
+# 1906 - The Dooker Dome.txt
 is_city = yes
 
 owner = P94
@@ -6,16 +6,12 @@ controller = P94
 add_core = P94
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_mountain_hozen
 religion = religion_celestial
 
-hre = yes
 trade_goods = warbeasts
-
-
-
+hre = yes
 

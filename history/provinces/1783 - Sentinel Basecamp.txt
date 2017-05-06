@@ -1,21 +1,17 @@
-# 1783
+# 1783 - Sentinel Basecamp.txt
 is_city = yes
 
 owner = P82
 controller = P82
 add_core = P82
-capital = "Fallsong Village"
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
+base_manpower = 4
 
 culture = culture_jinyu
 religion = religion_celestial
 
-hre = yes
 trade_goods = grain
-
-
-
+hre = yes
 

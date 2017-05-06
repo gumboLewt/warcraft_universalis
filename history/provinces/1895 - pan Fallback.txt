@@ -1,4 +1,4 @@
-# 1895
+# 1895 - pan Fallback.txt
 is_city = yes
 
 owner = P37
@@ -6,16 +6,12 @@ controller = P37
 add_core = P37
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_shado_pan
 religion = religion_celestial
 
-hre = yes
 trade_goods = army_supplies
-
-
-
+hre = yes
 

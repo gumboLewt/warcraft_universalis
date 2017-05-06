@@ -1,17 +1,17 @@
-# 1619
+# 1619 - Path to Blade Edge Mountains.txt
 is_city = yes
 
+owner = A56
+controller = A56
+add_core = A56 
+
 base_tax = 2
-base_manpower = 2
 base_production = 2
+base_manpower = 2
 
-	owner = A56
-	controller = A56
-	add_core = A56 
-	culture = culture_karaborian
-	religion = religion_light_of_the_naaru
+culture = culture_karaborian
+religion = religion_light_of_the_naaru
 
-hre = no
 trade_goods = glowcap
-
+hre = no
 

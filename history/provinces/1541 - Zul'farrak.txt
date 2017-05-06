@@ -1,16 +1,17 @@
-# 1541 Zul'Darrak
+# 1541 - Zul'farrak.txt
 is_city = yes
-
-base_tax = 5
-base_manpower = 6
-base_production = 5
 
 owner = A73
 controller = A73
 add_core = A73
 
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
 culture = culture_sandfury
 religion = religion_voodoo
 
-hre = no
 trade_goods = artifacts
+hre = no
+

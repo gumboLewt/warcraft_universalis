@@ -1,21 +1,19 @@
-# 1372
+# 1372 - Far Watch Post.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = A84
 controller = A84
 add_core = A84
 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
 culture = culture_bloodhoof
 religion = religion_ancestral
 
-hre = no
 trade_goods = fur
-
+hre = no
 
 617.1.1 = {
 	owner = B69

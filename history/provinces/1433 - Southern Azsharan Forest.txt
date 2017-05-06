@@ -1,25 +1,24 @@
-# 1433
+# 1433 - Southern Azsharan Forest.txt
 is_city = yes
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
 owner = G39
-add_core = G39
 controller = G39
+add_core = G39
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_haldarr
 religion = religion_fel
 
-hre = no
 trade_goods = lumber
+hre = no
 
-}
-# Cataclysm
 631.1.1 = { 
-owner = A79
-add_core = A79
-controller = A79
-religion = religion_tech
-culture = culture_bilgewater
+    owner = A79
+    add_core = A79
+    controller = A79
+    religion = religion_tech
+    culture = culture_bilgewater
 }

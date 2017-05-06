@@ -31,7 +31,6 @@ eastern_kingdom_superregion = {
     region_duskwood
     region_westfall
     region_stranglethorn_vale
-    region_blasted_lands
 }
 
 kalimdor_superregion = {

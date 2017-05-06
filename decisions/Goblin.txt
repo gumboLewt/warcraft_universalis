@@ -106,11 +106,9 @@ country_decisions = {
     alchemy_surge = {
         potential = {
             culture_group = culture_group_goblin
-            AND = {
-                NOT = { has_country_modifier = alchemy_surge }
-                NOT = { has_country_modifier = explosives_surge }
-                NOT = { has_country_modifier = engineering_surge }
-            }
+            NOT = { has_country_modifier = alchemy_surge }
+            NOT = { has_country_modifier = explosives_surge }
+            NOT = { has_country_modifier = engineering_surge }
         }
         allow = {
             adm_power = 100
@@ -130,11 +128,9 @@ country_decisions = {
     explosives_surge = {
         potential = {
             culture_group = culture_group_goblin
-            AND = {
-                NOT = { has_country_modifier = alchemy_surge }
-                NOT = { has_country_modifier = explosives_surge }
-                NOT = { has_country_modifier = engineering_surge }
-            }
+            NOT = { has_country_modifier = alchemy_surge }
+            NOT = { has_country_modifier = explosives_surge }
+            NOT = { has_country_modifier = engineering_surge }
         }
         allow = {
             adm_power = 100
@@ -154,11 +150,9 @@ country_decisions = {
     engineering_surge = {
         potential = {
             culture_group = culture_group_goblin
-            AND = {
-                NOT = { has_country_modifier = alchemy_surge }
-                NOT = { has_country_modifier = explosives_surge }
-                NOT = { has_country_modifier = engineering_surge }
-            }
+            NOT = { has_country_modifier = alchemy_surge }
+            NOT = { has_country_modifier = explosives_surge }
+            NOT = { has_country_modifier = engineering_surge }
         }
         allow = {
             adm_power = 100

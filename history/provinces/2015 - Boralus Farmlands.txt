@@ -1,24 +1,20 @@
-# 2015 Boralus Farmlands
+# 2015 - Boralus Farmlands.txt
 is_city = yes
 
-add_core = A14
 owner = A14
 controller = A14
+add_core = A14
 
 base_tax = 3
-base_manpower = 3
 base_production = 4
- 
+base_manpower = 3
+
 culture = culture_kul_tiran
 religion = religion_church_of_the_light
- 
-hre = no 
+
 trade_goods = grain
+hre = no 
 
-
-
-
-# Rise of the Qiraj
 622.1.1 = { 
 owner = P51
 controller = P51

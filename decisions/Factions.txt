@@ -155,12 +155,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = alliance_member
-      capital_scope = { province_group = lordaeron_province_group }
+      capital_scope = { province_group = lordaeron_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = lordaeron_province_group }
+        capital_scope = { province_group = lordaeron_provincegroup }
         ai = yes
       }
     }
@@ -172,7 +172,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = lordaeron_province_group }
+        capital_scope = { province_group = lordaeron_provincegroup }
       }
     }
     effect = {
@@ -182,7 +182,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = alliance_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = lordaeron_province_group }
+          capital_scope = { province_group = lordaeron_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -198,12 +198,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = alliance_member
-      capital_scope = { province_group = khaz_modan_province_group }
+      capital_scope = { province_group = khaz_modan_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = khaz_modan_province_group }
+        capital_scope = { province_group = khaz_modan_provincegroup }
         ai = yes
       }
     }
@@ -215,7 +215,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = khaz_modan_province_group }
+        capital_scope = { province_group = khaz_modan_provincegroup }
       }
     }
     effect = {
@@ -225,7 +225,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = alliance_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = khaz_modan_province_group }
+          capital_scope = { province_group = khaz_modan_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -241,12 +241,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = alliance_member
-      capital_scope = { province_group = azeroth_province_group }
+      capital_scope = { province_group = azeroth_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = azeroth_province_group }
+        capital_scope = { province_group = azeroth_provincegroup }
         ai = yes
       }
     }
@@ -258,7 +258,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = azeroth_province_group }
+        capital_scope = { province_group = azeroth_provincegroup }
       }
     }
     effect = {
@@ -268,7 +268,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = alliance_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = azeroth_province_group }
+          capital_scope = { province_group = azeroth_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -284,12 +284,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = alliance_member
-      capital_scope = { province_group = north_kalimdor_province_group }
+      capital_scope = { province_group = north_kalimdor_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = north_kalimdor_province_group }
+        capital_scope = { province_group = north_kalimdor_provincegroup }
         ai = yes
       }
     }
@@ -301,7 +301,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = north_kalimdor_province_group }
+        capital_scope = { province_group = north_kalimdor_provincegroup }
       }
     }
     effect = {
@@ -311,7 +311,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = alliance_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = north_kalimdor_province_group }
+          capital_scope = { province_group = north_kalimdor_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -327,12 +327,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = alliance_member
-      capital_scope = { province_group = central_kalimdor_province_group }
+      capital_scope = { province_group = central_kalimdor_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = central_kalimdor_province_group }
+        capital_scope = { province_group = central_kalimdor_provincegroup }
         ai = yes
       }
     }
@@ -344,7 +344,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = central_kalimdor_province_group }
+        capital_scope = { province_group = central_kalimdor_provincegroup }
       }
     }
     effect = {
@@ -354,7 +354,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = alliance_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = central_kalimdor_province_group }
+          capital_scope = { province_group = central_kalimdor_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -370,12 +370,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = alliance_member
-      capital_scope = { province_group = south_kalimdor_province_group }
+      capital_scope = { province_group = south_kalimdor_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = south_kalimdor_province_group }
+        capital_scope = { province_group = south_kalimdor_provincegroup }
         ai = yes
       }
     }
@@ -387,7 +387,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = south_kalimdor_province_group }
+        capital_scope = { province_group = south_kalimdor_provincegroup }
       }
     }
     effect = {
@@ -397,7 +397,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = alliance_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = south_kalimdor_province_group }
+          capital_scope = { province_group = south_kalimdor_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -413,12 +413,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = alliance_member
-      capital_scope = { province_group = northrend_province_group }
+      capital_scope = { province_group = northrend_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = northrend_province_group }
+        capital_scope = { province_group = northrend_provincegroup }
         ai = yes
       }
     }
@@ -430,7 +430,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = northrend_province_group }
+        capital_scope = { province_group = northrend_provincegroup }
       }
     }
     effect = {
@@ -440,7 +440,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = alliance_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = northrend_province_group }
+          capital_scope = { province_group = northrend_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -456,12 +456,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = alliance_member
-      capital_scope = { province_group = outland_province_group }
+      capital_scope = { province_group = outland_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = outland_province_group }
+        capital_scope = { province_group = outland_provincegroup }
         ai = yes
       }
     }
@@ -473,7 +473,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = outland_province_group }
+        capital_scope = { province_group = outland_provincegroup }
       }
     }
     effect = {
@@ -483,7 +483,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = alliance_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = outland_province_group }
+          capital_scope = { province_group = outland_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -499,12 +499,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = alliance_member
-      capital_scope = { province_group = pandaria_province_group }
+      capital_scope = { province_group = pandaria_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = pandaria_province_group }
+        capital_scope = { province_group = pandaria_provincegroup }
         ai = yes
       }
     }
@@ -516,7 +516,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = alliance_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = pandaria_province_group }
+        capital_scope = { province_group = pandaria_provincegroup }
       }
     }
     effect = {
@@ -526,7 +526,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = alliance_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = pandaria_province_group }
+          capital_scope = { province_group = pandaria_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -585,12 +585,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = horde_member
-      capital_scope = { province_group = lordaeron_province_group }
+      capital_scope = { province_group = lordaeron_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = lordaeron_province_group }
+        capital_scope = { province_group = lordaeron_provincegroup }
         ai = yes
       }
     }
@@ -602,7 +602,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = lordaeron_province_group }
+        capital_scope = { province_group = lordaeron_provincegroup }
       }
     }
     effect = {
@@ -612,7 +612,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = horde_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = lordaeron_province_group }
+          capital_scope = { province_group = lordaeron_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -628,12 +628,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = horde_member
-      capital_scope = { province_group = khaz_modan_province_group }
+      capital_scope = { province_group = khaz_modan_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = khaz_modan_province_group }
+        capital_scope = { province_group = khaz_modan_provincegroup }
         ai = yes
       }
     }
@@ -645,7 +645,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = khaz_modan_province_group }
+        capital_scope = { province_group = khaz_modan_provincegroup }
       }
     }
     effect = {
@@ -655,7 +655,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = horde_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = khaz_modan_province_group }
+          capital_scope = { province_group = khaz_modan_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -671,12 +671,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = horde_member
-      capital_scope = { province_group = azeroth_province_group }
+      capital_scope = { province_group = azeroth_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = azeroth_province_group }
+        capital_scope = { province_group = azeroth_provincegroup }
         ai = yes
       }
     }
@@ -688,7 +688,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = azeroth_province_group }
+        capital_scope = { province_group = azeroth_provincegroup }
       }
     }
     effect = {
@@ -698,7 +698,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = horde_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = azeroth_province_group }
+          capital_scope = { province_group = azeroth_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -714,12 +714,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = horde_member
-      capital_scope = { province_group = north_kalimdor_province_group }
+      capital_scope = { province_group = north_kalimdor_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = north_kalimdor_province_group }
+        capital_scope = { province_group = north_kalimdor_provincegroup }
         ai = yes
       }
     }
@@ -731,7 +731,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = north_kalimdor_province_group }
+        capital_scope = { province_group = north_kalimdor_provincegroup }
       }
     }
     effect = {
@@ -741,7 +741,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = horde_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = north_kalimdor_province_group }
+          capital_scope = { province_group = north_kalimdor_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -757,12 +757,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = horde_member
-      capital_scope = { province_group = central_kalimdor_province_group }
+      capital_scope = { province_group = central_kalimdor_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = central_kalimdor_province_group }
+        capital_scope = { province_group = central_kalimdor_provincegroup }
         ai = yes
       }
     }
@@ -774,7 +774,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = central_kalimdor_province_group }
+        capital_scope = { province_group = central_kalimdor_provincegroup }
       }
     }
     effect = {
@@ -784,7 +784,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = horde_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = central_kalimdor_province_group }
+          capital_scope = { province_group = central_kalimdor_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -800,12 +800,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = horde_member
-      capital_scope = { province_group = south_kalimdor_province_group }
+      capital_scope = { province_group = south_kalimdor_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = south_kalimdor_province_group }
+        capital_scope = { province_group = south_kalimdor_provincegroup }
         ai = yes
       }
     }
@@ -817,7 +817,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = south_kalimdor_province_group }
+        capital_scope = { province_group = south_kalimdor_provincegroup }
       }
     }
     effect = {
@@ -827,7 +827,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = horde_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = south_kalimdor_province_group }
+          capital_scope = { province_group = south_kalimdor_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -843,12 +843,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = horde_member
-      capital_scope = { province_group = northrend_province_group }
+      capital_scope = { province_group = northrend_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = northrend_province_group }
+        capital_scope = { province_group = northrend_provincegroup }
         ai = yes
       }
     }
@@ -860,7 +860,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = northrend_province_group }
+        capital_scope = { province_group = northrend_provincegroup }
       }
     }
     effect = {
@@ -870,7 +870,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = horde_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = northrend_province_group }
+          capital_scope = { province_group = northrend_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -886,12 +886,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = horde_member
-      capital_scope = { province_group = outland_province_group }
+      capital_scope = { province_group = outland_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = outland_province_group }
+        capital_scope = { province_group = outland_provincegroup }
         ai = yes
       }
     }
@@ -903,7 +903,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = outland_province_group }
+        capital_scope = { province_group = outland_provincegroup }
       }
     }
     effect = {
@@ -913,7 +913,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = horde_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = outland_province_group }
+          capital_scope = { province_group = outland_provincegroup }
           ai = yes
         }
         create_alliance = ROOT
@@ -929,12 +929,12 @@ country_decisions = {
     potential = {
       is_subject = no
       has_country_modifier = horde_member
-      capital_scope = { province_group = pandaria_province_group }
+      capital_scope = { province_group = pandaria_provincegroup }
       any_known_country = {
         is_subject = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = pandaria_province_group }
+        capital_scope = { province_group = pandaria_provincegroup }
         ai = yes
       }
     }
@@ -946,7 +946,7 @@ country_decisions = {
         is_at_war = no
         has_country_modifier = horde_member
         NOT = { alliance_with = ROOT }
-        capital_scope = { province_group = pandaria_province_group }
+        capital_scope = { province_group = pandaria_provincegroup }
       }
     }
     effect = {
@@ -956,7 +956,7 @@ country_decisions = {
           is_at_war = no
           has_country_modifier = horde_member
           NOT = { alliance_with = ROOT }
-          capital_scope = { province_group = pandaria_province_group }
+          capital_scope = { province_group = pandaria_provincegroup }
           ai = yes
         }
         create_alliance = ROOT

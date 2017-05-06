@@ -1,4 +1,4 @@
-# 1952
+# 1952 - Blackrock Mountain.txt
 is_city = yes
 
 owner = A30
@@ -6,17 +6,15 @@ controller = A30
 add_core = A30
 
 base_tax = 8
-base_manpower = 8
 base_production = 8
-
+base_manpower = 8
 
 culture = culture_dark_iron
 religion = religion_fire
 
-hre = no
 trade_goods = dark_iron
+hre = no
 
-# Fall of Stormwind
 597.1.1 = { 
     owner = A41
     controller = A41

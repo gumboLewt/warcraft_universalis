@@ -38,7 +38,7 @@ darkshire_ideas = {
     # House of Ebonlocke
 	darkshire_ideas_4 = {
 		legitimacy = 1
-        republican_tradition = 0.01
+        republican_tradition = 1
 	}
     
     # The Harvest Witches

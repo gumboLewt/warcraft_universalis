@@ -1,21 +1,20 @@
-# 888
+# 888 - The Shores of Madness.txt
 is_city = yes
-add_core = F10
+
 owner = F10
 controller = F10
+add_core = F10
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_woodpaw
 religion = religion_geomancy
 
-hre = no
 trade_goods = fish
+hre = no
 
-# The Third War
 618.1.1 = { 
     is_city = no
     

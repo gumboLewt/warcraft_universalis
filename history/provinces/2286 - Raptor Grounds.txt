@@ -1,17 +1,19 @@
+# 2286 - Raptor Grounds.txt
 is_city = yes
 
+owner = B68
+controller = B68
+add_core = B68
+
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
-	owner = B68
-	controller = B68
-	add_core = B68
-	culture = culture_bristleback
-	religion = religion_geomancy
+culture = culture_bristleback
+religion = religion_geomancy
 
-hre = no
 trade_goods = grain
+hre = no
 
 617.1.1 = {
   owner = A84

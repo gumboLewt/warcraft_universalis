@@ -1,14 +1,17 @@
+# 1314 - Jadefire Glen.txt
+is_city = yes
+
 owner = B96
 controller = B96
 add_core = B96
-is_city = yes
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
+base_manpower = 2
 
 culture = culture_jadefire
 religion = religion_fel
 
-hre = no
 trade_goods = fel
+hre = no
+

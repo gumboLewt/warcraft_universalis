@@ -1,22 +1,21 @@
-# 3005 Arathi Strand
+# 3005 - Arathi Strand.txt
 is_city = yes
 
-base_tax = 2
-base_manpower = 3
-base_production = 3
-
-add_core = A65
-add_core = A16
 owner = A16
 controller = A16
+add_core = A65
+add_core = A16
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
 
 culture = culture_arathi
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = grain
+hre = no
 
-# The Second War
 598.1.1 = {
 	owner = A29
 	controller = A29

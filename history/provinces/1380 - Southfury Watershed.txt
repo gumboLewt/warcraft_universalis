@@ -1,15 +1,17 @@
-# 1380
+# 1380 - Southfury Watershed.txt
 is_city = yes
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
-add_core = B69
 owner = B69
 controller = B69
+add_core = B69
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_razormane
 religion = religion_geomancy
 
-hre = no
 trade_goods = grain
+hre = no
+

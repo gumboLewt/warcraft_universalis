@@ -1,17 +1,19 @@
+# 2471 - Port Zul.txt
 is_city = yes
-
-base_tax = 4
-base_manpower = 6
-base_production = 8
 
 owner = A78
 controller = A78
 add_core = A78
-religion = religion_loa
-culture = culture_zandalari
 
-hre = no
+base_tax = 4
+base_production = 8
+base_manpower = 6
+
+culture = culture_zandalari
+religion = religion_loa
+
 trade_goods = grain
+hre = no
 
 631.1.1 = {
 religion = religion_voodoo

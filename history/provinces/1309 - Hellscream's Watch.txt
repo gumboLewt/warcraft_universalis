@@ -1,18 +1,19 @@
-#1309 Thistlefur Village
+# 1309 - Hellscream's Watch.txt
+is_city = yes
+
 owner = F94
 controller = F94
 add_core = F94
 
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_thistlefur
 religion = religion_druidic
-is_city = yes
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
-hre = no
 trade_goods = ashenvale_lumber
+hre = no
 
 618.1.1 = {
   religion = religion_fel

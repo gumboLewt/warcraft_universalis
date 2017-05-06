@@ -1,3 +1,4 @@
+# 2485 - Heartwood Clearing.txt
 is_city = yes
 
 owner = B46
@@ -5,15 +6,12 @@ controller = B46
 add_core = B46
 
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
 culture = culture_redfang
 religion = religion_old_gods
 
-hre = no
 trade_goods = fur
-
-
-
+hre = no
 

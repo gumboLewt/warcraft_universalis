@@ -1,17 +1,17 @@
-# 1560
-
-base_tax = 5
-base_manpower = 5
-base_production = 5
-
-
-culture = culture_air
-religion = religion_air
-
-hre = no
-trade_goods = artifacts
+# 1560 - The Vortex Pinnacle.txt
+is_city = yes
 
 owner = P28
 controller = P28
 add_core = P28
-is_city = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+culture = culture_air
+religion = religion_air
+
+trade_goods = artifacts
+hre = no
+

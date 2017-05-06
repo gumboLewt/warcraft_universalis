@@ -1,20 +1,20 @@
-# 1440 Bramblescar
+# 1440 - Forward Command.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = B68
 controller = B68
 add_core = B68
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_bristleback
 religion = religion_geomancy
 
-hre = no
 trade_goods = fur
+hre = no
 
-# Razormane Pushed Deeper into barrens by orcs, starts conflict with Bristleback
 622.1.1 = {
 owner = B69
 controller = B69

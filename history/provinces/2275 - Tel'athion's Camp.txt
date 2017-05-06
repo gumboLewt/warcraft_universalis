@@ -1,18 +1,17 @@
+# 2275 - Tel'athion's Camp.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = B97
 controller = B97
 add_core = B97
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_axxarian
 religion = religion_fel
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

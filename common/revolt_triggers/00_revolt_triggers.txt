@@ -1,5 +1,9 @@
 # Frostmane Empire
-H1 = {
+U01 = {
+    always = no
+}
+
+U02 = {
     always = no
 }
 

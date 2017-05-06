@@ -1,23 +1,17 @@
-# 1576 Tombs of the Precusors
+# 1576 - Ramkahen Walls.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
-
-culture = culture_ramkahen
-religion = religion_titan
-
-hre = no
-trade_goods = artifacts
-
-capital = "Nahom"
 
 owner = G09
 controller = G09
 add_core = G09
 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
+culture = culture_ramkahen
+religion = religion_titan
 
+trade_goods = artifacts
+hre = no
 

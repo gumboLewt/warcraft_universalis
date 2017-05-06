@@ -1,4 +1,4 @@
-# 1784
+# 1784 - Shores of Dojan.txt
 is_city = yes
 
 owner = P81
@@ -6,16 +6,12 @@ controller = P81
 add_core = P81
 
 base_tax = 3
-base_manpower = 2
 base_production = 3
-
+base_manpower = 2
 
 culture = culture_dojani
 religion = religion_titan_corrupt
 
-hre = yes
 trade_goods = fish
-
-
-
+hre = yes
 

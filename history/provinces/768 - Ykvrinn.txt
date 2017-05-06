@@ -1,20 +1,17 @@
-# 768
+# 768 - Ykvrinn.txt
 is_city = yes
+
 owner = B82
 controller = B82
 add_core = B82
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
+culture = culture_azerothian # Dummy
+religion = religion_ancestral # Dummy
 
-culture = noculture
-religion = noreligion
-
-hre = no
 trade_goods = fish
-
-
-
+hre = no
 

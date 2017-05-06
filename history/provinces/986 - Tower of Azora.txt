@@ -1,23 +1,21 @@
-# 986 Tower of Azora
+# 986 - Tower of Azora.txt
 is_city = yes
-add_core = A01
 
 owner = B15
 controller = B15
+add_core = A01
 add_core = B15
 
-religion = religion_geomancy
-culture = culture_riverpaw
-
 base_tax = 3
-base_manpower = 2
 base_production = 3
+base_manpower = 2
 
+culture = culture_riverpaw
+religion = religion_geomancy
 
-hre = no
 trade_goods = arcane
+hre = no
 
-# Fall of Stormwind
 597.1.1 = { 
     owner = A45
     controller = A45

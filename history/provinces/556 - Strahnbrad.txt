@@ -1,21 +1,20 @@
-# 556 Strahnbrad
+# 556 - Strahnbrad.txt
 is_city = yes
 
-add_core = A17
 owner = A17
 controller = A17
+add_core = A17
 
 base_tax = 4
-base_manpower = 5
 base_production = 4
+base_manpower = 5
 
 culture = culture_alterac
 religion = religion_church_of_the_light
- 
-hre = no 
-trade_goods = gold
 
-# Beyond the Dark Portal
+trade_goods = gold
+hre = no 
+
 600.1.1 = { 
 	owner = H08
 	controller = H08

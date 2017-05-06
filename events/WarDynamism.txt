@@ -23,7 +23,7 @@ province_event = {
         OR = {
             NOT = { has_province_modifier = untouched }
             NOT = { has_province_modifier = recently_looted }
-            NOT = { has_province_modifier = scorched_earth }
+            NOT = { has_province_modifier = scorched_earth_wd }
         }
 	}
 
@@ -110,7 +110,7 @@ country_event = {
             remove_2_development_of_each = yes
             
             add_province_modifier = {
-                name = scorched_earth
+                name = scorched_earth_wd
                 duration = 1825
             }
         }
@@ -180,7 +180,7 @@ country_event = {
             remove_2_development_of_each = yes
             
             add_province_modifier = {
-                name = scorched_earth
+                name = scorched_earth_wd
                 duration = 1825
             }
         }
@@ -225,15 +225,6 @@ province_event = {
             }
 		}
         
-        # Isolated provinces
-        modifier = { 
-            factor = 0.5
-            
-			all_neighbor_province = {
-                NOT = { owned_by = owner }
-            }
-		}
-
         # Legitimate claims
 		modifier = { 
 			is_core = controller

@@ -1,21 +1,20 @@
-# 976 Azurelode Mine
+# 976 - Azurelode Mine.txt
 is_city = yes
 
 owner = P51
 controller = P51
 add_core = P51
 
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_nerglish
 religion = religion_water
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
- 
-hre = no 
 trade_goods = gold
+hre = no 
 
-# Fall of Stormwind
 597.1.1 = { 
 	owner = A01
 	controller = A01

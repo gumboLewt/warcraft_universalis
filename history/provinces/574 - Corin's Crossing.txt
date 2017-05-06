@@ -1,22 +1,21 @@
-# 574 Corin's Crossing
+# 574 - Corin's Crossing.txt
 is_city = yes
 
-add_core = A08
-add_core = P62
 owner = A08
 controller = A08
+add_core = A08
+add_core = P62
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 
-hre = no 
 trade_goods = cloth
+hre = no 
 
-# The Third War
 617.1.1 = { 
 	controller = P52
 }

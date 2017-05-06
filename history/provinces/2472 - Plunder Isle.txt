@@ -1,3 +1,4 @@
+# 2472 - Plunder Isle.txt
 is_city = yes
 
 owner = A15
@@ -5,15 +6,12 @@ controller = A15
 add_core = A15
 
 base_tax = 8
-base_manpower = 8
 base_production = 8
+base_manpower = 8
 
+culture = culture_kul_tiran
 religion = religion_shadow
-    culture = culture_kul_tiran
 
-hre = no
 trade_goods = gold
-
-
-
+hre = no
 

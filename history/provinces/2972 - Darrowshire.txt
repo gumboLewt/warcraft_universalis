@@ -1,22 +1,21 @@
-# 2972 Darrowshire
+# 2972 - Darrowshire.txt
 is_city = yes
 
-base_tax = 5
-base_manpower = 6
-base_production = 5
-
-add_core = A08
-add_core = P62
 owner = A08
 controller = A08
+add_core = A08
+add_core = P62
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = grain
+hre = no
 
-# The Third War
 617.1.1 = { 
 	add_core = P52
 }

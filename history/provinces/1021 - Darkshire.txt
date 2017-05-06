@@ -1,24 +1,20 @@
-# 1021
+# 1021 - Darkshire.txt
 is_city = yes
-add_core = A03
+
 owner = A03
 controller = A03
+add_core = A03
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
-
+base_manpower = 4
 
 culture = culture_azerothian
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = grain_silo
+hre = no
 
-
-
-
-# Fall of Stormwind
 597.1.1 = { owner = A40
 controller = A40
 add_core = A40

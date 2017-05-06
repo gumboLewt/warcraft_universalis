@@ -1,25 +1,25 @@
-# 1658
+# 1658 - Plains of Terrokar.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = A54
 controller = A54
-add_core =  A54
+add_core = A54
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_shattrathi
 religion = religion_light_of_the_naaru
 
-
-hre = no
 trade_goods = fur
+hre = no
 
 592.1.1 = {
-add_core = B88
-remove_core = A54
-controller = B88
-owner = B88
-religion = religion_fel
-culture = culture_horde
+    add_core = B88
+    remove_core = A54
+    controller = B88
+    owner = B88
+    religion = religion_fel
+    culture = culture_horde
 }

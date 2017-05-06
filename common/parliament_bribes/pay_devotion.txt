@@ -1,9 +1,6 @@
 pay_devotion = {
 	trigger = {
-		OR = {
-			government = theocracy
-			government = monastic_order_government
-		}
+		government = theocracy
 	}
 	
 	effect = {

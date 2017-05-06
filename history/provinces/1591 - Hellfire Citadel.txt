@@ -1,19 +1,18 @@
-# 1591 Hellfire Citadel
+# 1591 - Hellfire Citadel.txt
 is_city = yes
 
 owner = A36
 controller = A36
 add_core = A36
 
-culture	= culture_shattered_hand
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
 religion = religion_ancestral
 
-base_tax = 7
-base_manpower = 7
-base_production = 7
-
-hre = no
 trade_goods = army_supplies
+hre = no
 
 592.1.1 = {
 	religion = religion_fel

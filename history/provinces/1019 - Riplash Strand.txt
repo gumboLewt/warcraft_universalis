@@ -1,4 +1,4 @@
-# 1019
+# 1019 - Riplash Strand.txt
 is_city = yes
 
 owner = P08
@@ -6,18 +6,14 @@ controller = P08
 add_core = P08
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_nazja
 religion = religion_old_gods
 
-hre = no
 trade_goods = fish
-
-
-
+hre = no
 
 626.1.1 = { 
 owner = B10

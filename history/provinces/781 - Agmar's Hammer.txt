@@ -1,4 +1,4 @@
-# 781
+# 781 - Agmar's Hammer.txt
 is_city = yes
 
 owner = B51
@@ -6,16 +6,14 @@ controller = B51
 add_core = B51
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_snowfall
 religion = religion_primitive
 
-hre = no
 trade_goods = fur
-
+hre = no
 
 626.1.1 = { 
 owner = H07

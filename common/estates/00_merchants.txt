@@ -121,7 +121,7 @@ estate_merchants =
 			trade_income_percentage = 0.5
 			NOT = { trade_income_percentage = 0.6 }
 		}
-		influence = 2.5
+		influence = 5
 	}
 	
 	influence_modifier = {
@@ -130,7 +130,7 @@ estate_merchants =
 			trade_income_percentage = 0.6
 			NOT = { trade_income_percentage = 0.7 }
 		}
-		influence = 5
+		influence = 10
 	}
 	
 	influence_modifier = {
@@ -139,7 +139,7 @@ estate_merchants =
 			trade_income_percentage = 0.7
 			NOT = { trade_income_percentage = 0.8 }
 		}
-		influence = 7.5
+		influence = 15
 	}
 	
 	influence_modifier = {
@@ -147,7 +147,7 @@ estate_merchants =
 		trigger = {
 			trade_income_percentage = 0.8
 		}
-		influence = 10
+		influence = 20
 	}
 	
 	#############################
@@ -181,7 +181,7 @@ estate_merchants =
 			num_of_merchants = 3
 			NOT = { num_of_merchants = 4 }
 		}
-		loyalty = 2.5
+		loyalty = 5
 	}
 	
 	loyalty_modifier = {
@@ -190,7 +190,7 @@ estate_merchants =
 			num_of_merchants = 4
 			NOT = { num_of_merchants = 5 }
 		}
-		loyalty = 5
+		loyalty = 10
 	}
 	
 	loyalty_modifier = {
@@ -199,7 +199,7 @@ estate_merchants =
 			num_of_merchants = 5
 			NOT = { num_of_merchants = 6 }
 		}
-		loyalty = 7.5
+		loyalty = 15
 	}
 	
 	loyalty_modifier = {
@@ -207,7 +207,7 @@ estate_merchants =
 		trigger = {
 			num_of_merchants = 6
 		}
-		loyalty = 10
+		loyalty = 20
 	}
 	
 	# Trading Bonuses
@@ -217,7 +217,7 @@ estate_merchants =
 			num_of_trading_bonuses = 1
 			NOT = { num_of_trading_bonuses = 2 }
 		}
-		loyalty = 2.5
+		loyalty = 5
 	}
 	
 	loyalty_modifier = {
@@ -226,7 +226,7 @@ estate_merchants =
 			num_of_trading_bonuses = 2
 			NOT = { num_of_trading_bonuses = 3 }
 		}
-		loyalty = 5
+		loyalty = 10
 	}
 	
 	loyalty_modifier = {
@@ -235,7 +235,7 @@ estate_merchants =
 			num_of_trading_bonuses = 3
 			NOT = { num_of_trading_bonuses = 4 }
 		}
-		loyalty = 7.5
+		loyalty = 25
 	}
 	
 	loyalty_modifier = {
@@ -243,7 +243,7 @@ estate_merchants =
 		trigger = {
 			num_of_trading_bonuses = 4
 		}
-		loyalty = 10
+		loyalty = 20
 	}
 	
 	#############################

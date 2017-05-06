@@ -219,13 +219,11 @@ country_event = {
 
 	trigger = {
 		has_country_flag = assembled_council
-		AND = {
-			NOT = { has_country_modifier = council_request_timer_001 }
-			NOT = { has_country_modifier = council_request_timer_002 }
-			NOT = { has_country_modifier = council_request_timer_003 }
-			NOT = { has_country_modifier = council_request_timer_004 }
-			NOT = { has_country_modifier = council_request_timer_005 }
-		}
+        NOT = { has_country_modifier = council_request_timer_001 }
+        NOT = { has_country_modifier = council_request_timer_002 }
+        NOT = { has_country_modifier = council_request_timer_003 }
+        NOT = { has_country_modifier = council_request_timer_004 }
+        NOT = { has_country_modifier = council_request_timer_005 }
 	}
 	
 	immediate = {

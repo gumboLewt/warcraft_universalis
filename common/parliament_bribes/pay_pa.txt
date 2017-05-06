@@ -1,15 +1,6 @@
 pay_pa = {
 	trigger = {
-		OR = {
-			AND = {
-				religion = orthodox
-				FROM = { religion = orthodox }
-			}
-			AND = {
-				religion = coptic
-				FROM = { religion = coptic }
-			}
-		}
+		uses_patriarch_authority = yes
 	}
 	
 	effect = {

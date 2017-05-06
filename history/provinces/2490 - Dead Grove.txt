@@ -1,3 +1,4 @@
+# 2490 - Dead Grove.txt
 is_city = yes
 
 owner = P72
@@ -5,16 +6,15 @@ controller = P72
 add_core = P72
 
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = lumber
+hre = no
 
-# The Third War
 617.1.1 = { 
     add_core = P11
     controller = P11

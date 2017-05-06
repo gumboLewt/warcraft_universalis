@@ -1,23 +1,20 @@
-# 2038
+# 2038 - Blackwind Landing.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = B77
 controller = B77
-add_core =  B77
+add_core = B77
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_sethekk
 religion = religion_terokk
 
-hre = no
 trade_goods = flying_mounts
+hre = no
 
-
-
-
-#Outland
 601.1.1 = {
 owner = B77
 add_core =  B77

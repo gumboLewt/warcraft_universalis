@@ -1,22 +1,17 @@
-# 1562
+# 1562 - Akhenet Fields.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 4
-
-
-culture = culture_ramkahen
-religion = religion_titan
-
-hre = no
-trade_goods = grain
 
 owner = G09
 controller = G09
 add_core = G09
 
-capital = "Mar'at"
+base_tax = 3
+base_production = 4
+base_manpower = 3
 
+culture = culture_ramkahen
+religion = religion_titan
 
+trade_goods = grain
+hre = no
 

@@ -1,22 +1,17 @@
-# 1526 placeholder for marshal's refuge
+# 1526 - Path to Sithilis.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 1
-base_production = 2
 
 owner = H03
 controller = H03
 add_core = H03
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
 culture = culture_cenarion
 religion = religion_druidic
 
-hre = no
 trade_goods = gemstones
-
-
-
-
-
-
+hre = no
 

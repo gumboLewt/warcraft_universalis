@@ -1,18 +1,19 @@
-# 1644
+# 1644 - Firewing Point.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A39
 controller = A39
-add_core =  A39
+add_core = A39
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_bonechewer
 religion = religion_ancestral
 
-hre = no
 trade_goods = arcane
+hre = no
 
 592.1.1 = {
 religion = religion_fel

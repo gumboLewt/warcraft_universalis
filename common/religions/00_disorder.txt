@@ -21,8 +21,8 @@ religion_group_disorder = {
 			local_missionary_strength = -0.02
 		}
 		
-		hre_religion = yes
-		
+        hre_heretic_religion = yes
+        
 		on_convert = {
 			change_religion = religion_fel
 			add_prestige = -100
@@ -346,6 +346,8 @@ religion_group_disorder = {
 		province = {
 			local_missionary_strength = -0.01
 		}
+        
+        uses_piety = yes
 		
 		on_convert = {
 			change_religion = religion_hakkari
@@ -356,9 +358,6 @@ religion_group_disorder = {
 				duration = 3650
 			}			
 		}
-		
-		piety = yes
-		
 		heretic = { }
 	}
 }

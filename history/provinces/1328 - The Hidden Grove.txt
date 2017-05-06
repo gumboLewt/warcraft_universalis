@@ -1,18 +1,19 @@
-# Winterfall Village
+# 1328 - The Hidden Grove.txt
+is_city = yes
+
 owner = B44
 controller = B44
 add_core = B44
-is_city = yes
 
 base_tax = 3
-base_manpower = 4
 base_production = 3
+base_manpower = 4
 
 culture = culture_winterfall
 religion = religion_ancestral
 
-hre = no
 trade_goods = fur
+hre = no
 
 618.1.1 = {
 religion = religion_fel

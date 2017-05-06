@@ -1,18 +1,19 @@
-# Well of Eternity
+# 1334 - Nordrassil.txt
+is_city = yes
+
 owner = A95
 controller = A95
 add_core = A95
-is_city = yes
 
 base_tax = 12
-base_manpower = 6
 base_production = 12
+base_manpower = 6
 
 culture = culture_forest_nymph
 religion = religion_druidic
 
-hre = no
 trade_goods = arcane
+hre = no
 
 618.1.1 = {
   base_tax = 4

@@ -19,6 +19,8 @@ country_event = {
 	}
 	
 	option = {
+        name = dark_portal.1.option.a
+        
         if = { limit = { has_global_flag = enable_event_logging } log = "Dark Portal revealed" }
         
         show_ambient_object = outland_dark_portal_outland

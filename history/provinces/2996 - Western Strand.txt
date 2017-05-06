@@ -1,21 +1,20 @@
-# 2996 Western Strand
+# 2996 - Western Strand.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = P51
 controller = P51
 add_core = P51
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_nerglish
 religion = religion_water
 
-hre = no
 trade_goods = fish
+hre = no
 
-# Fall of Stormwind
 597.1.1 = { 
 	owner = A01
 	controller = A01

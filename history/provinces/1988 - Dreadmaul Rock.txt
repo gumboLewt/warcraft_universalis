@@ -1,21 +1,20 @@
-# 1988 Dreadmaul Rock
+# 1988 - Dreadmaul Rock.txt
 is_city = yes
-
-base_tax = 4
-base_manpower = 4
-base_production = 4
 
 owner = P56
 controller = P56
 add_core = P56
 
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
 culture = culture_dark_iron
 religion = religion_arcane
 
-hre = no
 trade_goods = dark_iron
+hre = no
 
-# Fall of Stormwind
 597.1.1 = {
 	owner = P98
 	controller = P98

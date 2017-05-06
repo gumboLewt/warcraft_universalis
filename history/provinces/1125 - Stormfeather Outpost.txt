@@ -1,23 +1,20 @@
-# 1125 Stormfeather Woods
+# 1125 - Stormfeather Outpost.txt
 is_city = yes 
-add_core = A60
+
 owner = A60
 controller = A60
+add_core = A60
 
 base_tax = 3
-base_manpower = 2
 base_production = 3
+base_manpower = 2
 
 culture = culture_vilebranch
 religion = religion_voodoo
- 
-hre = no 
+
 trade_goods = lumber
- 
+hre = no 
 
- 
-
-# Cataclysm
 631.1.1 = { 
 add_core = A61
 add_core = P22

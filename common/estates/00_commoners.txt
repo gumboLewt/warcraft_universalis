@@ -163,7 +163,7 @@ estate_commoners =
 			prestige = 0
 			NOT = { prestige = 25 }
 		}
-		loyalty = 2.5
+		loyalty = 5
 	}
 	
 	loyalty_modifier = {
@@ -172,7 +172,7 @@ estate_commoners =
 			prestige = 25
 			NOT = { prestige = 50 }
 		}
-		loyalty = 5
+		loyalty = 10
 	}
 	
 	loyalty_modifier = {
@@ -181,7 +181,7 @@ estate_commoners =
 			prestige = 50
 			NOT = { prestige = 75 }
 		}
-		loyalty = 7.5
+		loyalty = 15
 	}
 	
 	loyalty_modifier = {
@@ -189,7 +189,7 @@ estate_commoners =
 		trigger = {
 			prestige = 75
 		}
-		loyalty = 10
+		loyalty = 20
 	}
 	
 	# Stability
@@ -459,8 +459,8 @@ estate_commoners =
 			}
 			OR = {
 				legitimacy = 75
-				horde_unity = 0.75
-				republican_tradition = 0.75
+				horde_unity = 75
+				republican_tradition = 75
 				devotion = 75
 			}
 		}

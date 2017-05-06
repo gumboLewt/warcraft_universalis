@@ -1,21 +1,20 @@
-# 1552 Timeless Beach
+# 1552 - Timeless Beach.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 4
-base_production = 3
 
 owner = A73
 controller = A73
 add_core = A73
 
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
 culture = culture_sandfury
 religion = religion_voodoo
 
-hre = no
 trade_goods = naval_supplies
+hre = no
 
-# The Frozen Throne
 618.1.1 = {
 owner = A19
 controller = A19

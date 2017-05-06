@@ -1,20 +1,17 @@
-# 1034
-
+# 1034 - Serpent's Coil.txt
 is_city = yes
 
+
 base_tax = 2
-base_manpower = 2
 base_production = 2
-
-
+base_manpower = 2
 
 culture = culture_gurubashi
 religion = religion_loa
 
-hre = no
 trade_goods = thorium
+hre = no
 
-# First War
 592.1.1 = { 
     owner = B88
     controller = B88

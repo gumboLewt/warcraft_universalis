@@ -1,4 +1,4 @@
-# 1907
+# 1907 - Mogujia.txt
 is_city = yes
 
 owner = P41
@@ -6,16 +6,12 @@ controller = P41
 add_core = P41
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_korune
 religion = religion_titan_corrupt
 
-hre = yes
 trade_goods = artifacts
-
-
-
+hre = yes
 

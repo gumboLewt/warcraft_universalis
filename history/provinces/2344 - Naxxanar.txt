@@ -1,3 +1,4 @@
+# 2344 - Naxxanar.txt
 is_city = yes
 
 owner = P74
@@ -5,14 +6,14 @@ controller = P74
 add_core = P74
 
 base_tax = 8
-base_manpower = 8
 base_production = 8
+base_manpower = 8
 
 culture = culture_nerubian
 religion = religion_arcane
 
-hre = no
 trade_goods = artifacts
+hre = no
 
 615.1.1 = { 
     add_core = P11

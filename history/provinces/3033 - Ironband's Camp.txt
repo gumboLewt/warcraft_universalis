@@ -1,21 +1,20 @@
-# 3033 Ironband's Camp
+# 3033 - Ironband's Camp.txt
 is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
 owner = P54
-add_core = P54
 controller = P54
+add_core = P54
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_trogg
 religion = religion_geomancy
 
-hre = no
 trade_goods = fossils
+hre = no
 
-# The Second War
 598.1.1 = { 
     owner = A40
     controller = A40

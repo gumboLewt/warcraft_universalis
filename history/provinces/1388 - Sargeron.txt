@@ -1,19 +1,17 @@
-# 1388
+# 1388 - Sargeron.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = B99
 controller = B99
 add_core = B99
 
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_hatefury
 religion = religion_fel
 
-hre = no
 trade_goods = artifacts
-
-
+hre = no
 

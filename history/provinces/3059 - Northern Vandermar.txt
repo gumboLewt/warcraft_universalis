@@ -1,21 +1,20 @@
-# 3059 Northern Vandermar
+# 3059 - Northern Vandermar.txt
 is_city = yes
 
-add_core = A08
 owner = A08
 controller = A08
+add_core = A08
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
- 
-hre = no 
-trade_goods = grain
 
-# The Third War
+trade_goods = grain
+hre = no 
+
 617.1.1 = { 
 	religion = religion_the_damned
 }

@@ -1,18 +1,19 @@
-# 1607
+# 1607 - The Lagoon.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = F84
 controller = F84
 add_core = F84
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_broken
 religion = religion_ancestral
 
-hre = no
 trade_goods = warbeasts
+hre = no
 
 622.1.1 = {
 base_tax = 3

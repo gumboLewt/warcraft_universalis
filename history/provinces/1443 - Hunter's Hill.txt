@@ -1,19 +1,19 @@
-# 1443
+# 1443 - Hunter's Hill.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = B21
 controller = B21
 add_core = B21
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_gelkis
 religion = religion_earth
 
-hre = no
 trade_goods = fur
+hre = no
 
 618.1.1 = {
 	remove_core = B21

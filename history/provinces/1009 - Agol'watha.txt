@@ -1,22 +1,19 @@
-# 1009 - Agol'watha 
+# 1009 - Agol'watha.txt
 is_city = yes
 
-base_tax = 2
-base_manpower = 3
-base_production = 2
-
-add_core = A60
 owner = A60
 controller = A60
+add_core = A60
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
 
 culture = culture_vilebranch
 religion = religion_voodoo
 
-hre = no
 trade_goods = army_supplies
-
-# High elven ranger expedition to assist wildhammers drove witherbark trolls off after the second war,
-# but population too small to hold territory, used as hunting ground
+hre = no
 
 600.1.1 = {
     is_city = no

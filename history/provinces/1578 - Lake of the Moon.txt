@@ -1,21 +1,17 @@
-# 1578 Oasis of Vir'sar
+# 1578 - Lake of the Moon.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = G10
 controller = G10
 add_core = G10
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_orsis
 religion = religion_titan
 
-hre = no
 trade_goods = fish
-
-
-
-
-
+hre = no
 

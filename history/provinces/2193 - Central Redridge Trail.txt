@@ -1,21 +1,20 @@
-# 2193 Central Redridge Trail
+# 2193 - Central Redridge Trail.txt
 is_city = yes
 
-add_core = B16
 owner = B16
 controller = B16
+add_core = B16
 
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
 culture = culture_shadowhide
 religion = religion_geomancy
 
-hre = no
 trade_goods = stone
+hre = no
 
-# Cataclysm
 631.1.1 = { 
 	owner = A80
 	controller = A80

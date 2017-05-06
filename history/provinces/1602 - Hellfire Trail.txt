@@ -1,21 +1,19 @@
-# 1602 - Hellfire Trail
+# 1602 - Hellfire Trail.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = A36
 controller = A36
 add_core = A36
 
-culture	= culture_shattered_hand
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 religion = religion_ancestral
 
-hre = no
 trade_goods = fel_iron
+hre = no
 
-#Outland
 592.1.1 = {
 	religion = religion_fel
 }

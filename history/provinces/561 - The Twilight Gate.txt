@@ -1,20 +1,20 @@
-# 561
+# 561 - The Twilight Gate.txt
 is_city = yes
+
 owner = F09
 controller = F09
 add_core = F09
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_jellyneck
 religion = religion_loa
 
-hre = no
 trade_goods = army_supplies
+hre = no
 
-# Beyond the Dark Portal
 600.1.1 = { 
     owner = F08
     controller = F08

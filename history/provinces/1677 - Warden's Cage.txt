@@ -1,18 +1,19 @@
-# 1677
+# 1677 - Warden's Cage.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A55
 controller = A55
-add_core =  A55
+add_core = A55
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_karaborian
 religion = religion_light_of_the_naaru
 
-hre = no
 trade_goods = army_supplies
+hre = no
 
 592.1.1 = {
 add_core = B88

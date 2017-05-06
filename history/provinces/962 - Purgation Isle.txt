@@ -1,22 +1,21 @@
-# 962 Purgation Isle
+# 962 - Purgation Isle.txt
 is_city = yes
 
-add_core = A14
-add_core = A12
 owner = A12
 controller = A12
+add_core = A14
+add_core = A12
 
 base_tax = 2
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_kul_tiran
 religion = religion_church_of_the_light
 
-hre = no 
 trade_goods = naval_supplies
+hre = no 
 
-# Rise of the Qiraj
 622.1.1 = { 
 	owner = P51
 	controller = P51

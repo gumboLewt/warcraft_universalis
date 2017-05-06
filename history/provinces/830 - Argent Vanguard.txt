@@ -1,4 +1,4 @@
-# 830 Nerubian Vanguard
+# 830 - Argent Vanguard.txt
 is_city = yes
 
 owner = P74
@@ -6,18 +6,14 @@ controller = P74
 add_core = P74
 
 base_tax = 1
-base_manpower = 2
 base_production = 1
-
+base_manpower = 2
 
 culture = culture_nerubian
 religion = religion_arcane
 
-hre = no
 trade_goods = army_supplies
-
-
-
+hre = no
 
 615.1.1 = { 
 add_core = P11

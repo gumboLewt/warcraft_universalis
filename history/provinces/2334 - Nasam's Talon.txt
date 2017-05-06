@@ -1,17 +1,19 @@
+# 2334 - Nasam's Talon.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = B60
 controller = B60
 add_core = B60
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_gammoth
 religion = religion_geomancy
 
-hre = no
 trade_goods = grain
+hre = no
 
 626.1.1 = {
 remove_core = B60

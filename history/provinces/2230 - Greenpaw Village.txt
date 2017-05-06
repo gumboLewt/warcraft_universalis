@@ -1,18 +1,19 @@
+# 2230 - Greenpaw Village.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = F95
 controller = F95
 add_core = F95
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_foulweald
 religion = religion_druidic
 
-hre = no
 trade_goods = grain
+hre = no
 
 618.1.1 = {
   religion = religion_fel

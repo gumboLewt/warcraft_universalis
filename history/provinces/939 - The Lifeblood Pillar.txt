@@ -1,3 +1,4 @@
+# 939 - The Lifeblood Pillar.txt
 is_city = yes
 
 owner = B54
@@ -5,14 +6,14 @@ controller = B54
 add_core = B54
 
 base_tax = 6
-base_manpower = 6
 base_production = 6
+base_manpower = 6
 
 culture = culture_mosswalker
 religion = religion_titan
 
-hre = no
 trade_goods = gemstones
+hre = no
 
 625.1.1 = {
 owner = P11

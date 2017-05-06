@@ -1,4 +1,4 @@
-#2133
+# 2133 - Coldwind Heights.txt
 is_city = yes
 
 owner = B64
@@ -6,16 +6,12 @@ controller = B64
 add_core = B64
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_coldwind
 religion = religion_air
 
-hre = no
 trade_goods = lumber
-
-
-
+hre = no
 

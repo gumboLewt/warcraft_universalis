@@ -47,8 +47,8 @@ capital 			= 642
 
 618.1.1 = { # Fall of Stratholme
 	capital = 2975
-add_country_modifier = {
-name = alliance_member
-duration = -1
-} 
+    add_country_modifier = {
+        name = alliance_member
+        duration = -1
+    } 
 }

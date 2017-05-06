@@ -6,6 +6,10 @@
  faction_crimson_halls: "The Crimson Halls"
  faction_plagueworks: "The Plagueworks"
  
+ faction_lower_spire_influence: "The Lower Spire Influence"
+ faction_crimson_halls: "Crimson Halls Influence"
+ faction_plagueworks: "Plagueworks Influence"
+ 
  test_name_faction: "Test Me"
  test_name_faction_FACTION_DESC: "Description here"
  

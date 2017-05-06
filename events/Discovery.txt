@@ -72,9 +72,7 @@ country_event = {
 				        any_owned_province = {
                             continent = continent_pandaria
                         }
-				        OR = {
-                            is_year = 632
-					    }
+                        is_year = 632
 				    }
 			    }
             }    
@@ -153,9 +151,7 @@ country_event = {
 				        any_owned_province = {
                             continent = continent_pandaria
                         }
-				        OR = {
-                            is_year = 632
-					    }
+                        is_year = 632
 				    }
 			    }
             }    
@@ -206,33 +202,25 @@ country_event = {
 				        any_owned_province = {
                             continent = continent_eastern_kingdoms
                         }
-				        OR = {
-                            is_year = 625
-					    }
+				        is_year = 625
 				    }
 					AND = {
 				        any_owned_province = {
                             continent = continent_kalimdor
                         }
-				        OR = {
-                            is_year = 625
-					    }
+				        is_year = 625
 				    }
 					AND = {
 				        any_owned_province = {
                             continent = continent_northrend
                         }
-				        OR = {
-                            is_year = 626
-					    }
+				        is_year = 626
 				    }
 					AND = {
 				        any_owned_province = {
                             continent = continent_pandaria
                         }
-				        OR = {
-                            is_year = 632
-					    }
+				        is_year = 632
 				    }
 			    }
             }    
@@ -426,9 +414,7 @@ country_event = {
 				        any_owned_province = {
                             continent = continent_outland
                         }
-				        OR = {
-                            is_year = 632
-					    }
+                        is_year = 632
 				    }
 			    }
             }    
@@ -479,33 +465,25 @@ country_event = {
 				        any_owned_province = {
                             continent = continent_eastern_kingdoms
                         }
-				        OR = {
-                            is_year = 617
-					    }
+				        is_year = 617
 				    }
 					AND = {
 				        any_owned_province = {
                             continent = continent_kalimdor
                         }
-				        OR = {
-                            is_year = 622
-					    }
+				        is_year = 622
 				    }
 					AND = {
 				        any_owned_province = {
                             continent = continent_pandaria
                         }
-				        OR = {
-                            is_year = 632
-					    }
+				        is_year = 632
 				    }
 					AND = {
 				        any_owned_province = {
                             continent = continent_outland
                         }
-				        OR = {
-                            is_year = 625
-					    }
+				        is_year = 625
 				    }
 			    }
             } 

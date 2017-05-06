@@ -1,19 +1,19 @@
-# 1376 The Merchant Coast
+# 1376 - The Stagnant Oasis.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
 
 owner = A89
 controller = A89
 add_core = A89
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_winterhoof
 religion = religion_ancestral
 
-hre = no
 trade_goods = fish
+hre = no
 
 605.1.1 = {
   owner = B21

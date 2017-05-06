@@ -1,27 +1,21 @@
-# 2973 Blackwood Town - Home of Garithos
+# 2973 - Blackwood Town.txt
 is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
-add_core = A08
-add_core = A10
 owner = A08
 controller = A08
+add_core = A08
+add_core = A10
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = grain
+hre = no
 
-# The Third War
-618.1.1 = { 
-	add_core = P52
-}
-
-# The Frozen Throne
 618.1.1 = { 
 	add_core = A10
 	owner = A10

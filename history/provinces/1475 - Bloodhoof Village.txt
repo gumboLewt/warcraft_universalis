@@ -1,21 +1,20 @@
-# 1475 Bloodhoof Village
+# 1475 - Bloodhoof Village.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = B20
 controller = B20
 add_core = B20
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_galak
 religion = religion_air
 
-hre = no
 trade_goods = mounts
+hre = no
 
-# The Frozen Throne
 618.1.1 = { 
 owner = F88
 controller = F88

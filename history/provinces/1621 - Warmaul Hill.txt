@@ -1,20 +1,20 @@
-# 1621
+# 1621 - Warmaul Hill.txt
 is_city = yes
-
-base_tax = 4
-base_manpower = 4
-base_production = 4
 
 owner = F83
 controller = F83
 add_core = F83
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
 culture = culture_warmaul
 religion = religion_earth
 
-hre = no
 trade_goods = fur
+hre = no
 
-#Outland
 601.1.1 = {
     owner = F83
     controller = F83

@@ -1,26 +1,20 @@
-# 3037 Dormitory
+# 3037 - Dormitory.txt
 is_city = yes
 
-add_core = A32
 owner = A32
 controller = A32
+add_core = A32
 
 base_tax = 4
-base_manpower = 5
 base_production = 4
+base_manpower = 5
 
 culture = culture_gnome
 religion = religion_tech
 
-hre = no
 trade_goods = workshops
+hre = no
 
-add_permanent_province_modifier = {
-	name = city_of_innovation
-	duration = -1
-}
-
-# Rise of the Qiraji
 622.1.1 = {
 owner = A33
 controller = A33

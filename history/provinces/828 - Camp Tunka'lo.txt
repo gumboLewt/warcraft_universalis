@@ -1,20 +1,17 @@
-# 828
+# 828 - Camp Tunka'lo.txt
 is_city = yes
 
 owner = F42
 controller = F42
 add_core = F42
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_ice_giant
 religion = religion_titan
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-
-hre = no
 trade_goods = fur
-
-
-
+hre = no
 

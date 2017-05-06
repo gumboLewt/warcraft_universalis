@@ -1,4 +1,4 @@
-# 1804
+# 1804 - Stormstout Plain.txt
 is_city = yes
 
 owner = P84
@@ -6,16 +6,12 @@ controller = P84
 add_core = P84
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
-
+base_manpower = 2
 
 culture = culture_red_crane
 religion = religion_celestial
 
-hre = yes
 trade_goods = fur
-
-
-
+hre = yes
 

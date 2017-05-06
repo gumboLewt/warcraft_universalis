@@ -1,19 +1,19 @@
-# 1445
+# 1445 - The Great Gate.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = B20
 controller = B20
 add_core = B20
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_galak
 religion = religion_air
 
-hre = no
 trade_goods = fur
-
+hre = no
 
 631.1.1 = {
 owner = F88

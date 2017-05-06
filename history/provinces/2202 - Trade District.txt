@@ -1,24 +1,20 @@
-# 2202
+# 2202 - Trade District.txt
 is_city = yes
-add_core = A01
+
 owner = A01
 controller = A01
+add_core = A01
 
 base_tax = 6
-base_manpower = 6
 base_production = 6
-
+base_manpower = 6
 
 culture = culture_azerothian
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = mounts
+hre = no
 
-
-
-
-# Fall of Stormwind
 597.1.1 = {
 	owner = A41
 	controller = A41

@@ -1,22 +1,19 @@
-# 1860
+# 1860 - Hatred's Vice.txt
 is_city = yes
 
 owner = P48
 controller = P48
 add_core = P48
-capital = "Fire Camp Palewind"
-
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_palewind
 religion = religion_fire
 
-hre = no
 trade_goods = oil
+hre = no
 
 632.1.1 = {
     owner = B84

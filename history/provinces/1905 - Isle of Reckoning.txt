@@ -1,18 +1,19 @@
-# 1905
+# 1905 - Isle of Reckoning.txt
 is_city = yes
-
-base_tax = 4
-base_manpower = 4
-base_production = 4
 
 owner = A78
 controller = A78
 add_core = A78
-religion = religion_loa
-culture = culture_zandalari
 
-hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = culture_zandalari
+religion = religion_loa
+
 trade_goods = artifacts
+hre = yes
 
 631.1.1 = {
     religion = religion_voodoo

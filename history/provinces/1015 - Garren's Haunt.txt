@@ -1,20 +1,20 @@
-# 1015 Garren's Haunt
+# 1015 - Garren's Haunt.txt
 is_city = yes
-add_core = A08
+
 owner = A08
 controller = A08
+add_core = A08
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
+base_manpower = 2
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
- 
-hre = no 
+
 trade_goods = grain
- 
-# The Frozen Throne
+hre = no 
+
 618.1.1 = {
 	add_core = B19
 	add_core = P52

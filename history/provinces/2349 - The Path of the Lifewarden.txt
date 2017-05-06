@@ -1,3 +1,4 @@
+# 2349 - The Path of the Lifewarden.txt
 is_city = yes
 
 owner = B55
@@ -5,14 +6,14 @@ controller = B55
 add_core = B55
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
+base_manpower = 2
 
 culture = culture_sparktouched
 religion = religion_titan
 
-hre = no
 trade_goods = fur
+hre = no
 
 615.1.1 = {
     owner = G36
@@ -21,11 +22,10 @@ trade_goods = fur
 }
 
 626.1.1 = {
-  owner = B48
-  controller = B48
-  owner = B48
-  remove_core = G36
-  remove_core = B55
-  culture = culture_frenzyheart
-  religion = religion_primitive
+    owner = B48
+    controller = B48
+    remove_core = G36
+    remove_core = B55
+    culture = culture_frenzyheart
+    religion = religion_primitive
 }

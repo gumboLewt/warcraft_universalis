@@ -1,20 +1,17 @@
-# 1877
+# 1877 - Cho.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
 
 owner = P46
 controller = P46
 add_core = P46
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_deadtalker
 religion = religion_shadow
 
-hre = no
 trade_goods = oil
-
-
-
+hre = no
 

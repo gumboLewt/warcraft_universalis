@@ -1,21 +1,19 @@
-# 570 Crestfall
+# 570 - Crestfall.txt
 is_city = yes
-add_core = A14
+
 owner = A14
 controller = A14
+add_core = A14
 
 base_tax = 4
-base_manpower = 4
 base_production = 5
- 
+base_manpower = 4
+
 culture = culture_kul_tiran
 religion = religion_church_of_the_light
- 
-hre = no 
+
 trade_goods = fish
-
-
-
+hre = no 
 
 598.1.1 = { owner = A41
 controller = A41

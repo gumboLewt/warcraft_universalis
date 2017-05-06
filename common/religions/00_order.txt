@@ -172,10 +172,6 @@ religion_group_order = {
 			land_forcelimit_modifier = 0.1
 		}
 
-		uses_church_power = yes				# Uses church power/aspect mechanics
-		aspects = {
-		}
-		
 		on_convert = {
 			change_religion = religion_arkkorok
 			add_prestige = -100

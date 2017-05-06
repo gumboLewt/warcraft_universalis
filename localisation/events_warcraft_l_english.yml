@@ -1,5 +1,41 @@
 ﻿l_english:
  #-----------------------------------------------
+ # Rise of the Horde
+ #-----------------------------------------------
+ rise_of_the_horde.1.title: ""
+ rise_of_the_horde.1.desc: ""
+ rise_of_the_horde.1.option.a: ""
+ 
+ rise_of_the_horde.2.title: ""
+ rise_of_the_horde.2.desc: ""
+ rise_of_the_horde.2.option.a: ""
+ 
+ rise_of_the_horde.3.title: ""
+ rise_of_the_horde.3.desc: ""
+ rise_of_the_horde.3.option.a: ""
+ 
+ rise_of_the_horde.4.title: ""
+ rise_of_the_horde.4.desc: ""
+ rise_of_the_horde.4.option.a: ""
+ 
+ rise_of_the_horde.5.title: ""
+ rise_of_the_horde.5.desc: ""
+ rise_of_the_horde.5.option.a: ""
+ 
+ rise_of_the_horde.6.title: ""
+ rise_of_the_horde.6.desc: ""
+ rise_of_the_horde.6.option.a: ""
+ 
+ rise_of_the_horde.7.title: ""
+ rise_of_the_horde.7.desc: ""
+ rise_of_the_horde.7.option.a: ""
+ 
+ rise_of_the_horde.8.title: ""
+ rise_of_the_horde.8.desc: ""
+ rise_of_the_horde.8.option.a: ""
+ 
+ 
+ #-----------------------------------------------
  # 592
  #-----------------------------------------------
  the_first_war.1.title: "The Blood of Mannaroth"
@@ -355,6 +391,10 @@
  story.2.title: "Insidious Happenings"
  story.2.desc: "The undead have begun taking control of our holdings, driving our people away. If we do not stem the tide of these foul beasts, who knows what could happen to us."
  story.2.option.a: "They will be purged!"
+ 
+ story.3.title: "The True Horde Rises"
+ story.3.desc: "The Horde has finally settled their debts and calmed their greviences. Let the True Horde arise!"
+ story.3.option.a: "Arise!"
 
  #-----------------------------------------------
  # Gilneas
@@ -664,3 +704,48 @@
  free_core.1.desc: "Our expeditionary force in a distant land has finally seized land from the natives. As hardy men an women, they'll be able to act as a hub for our communications immediately."
  free_core.1.option.a: "Great!"
  
+ #-----------------------------------------------
+ # Elections
+ #-----------------------------------------------
+ elections.1.title: "Election!"
+ elections.1.desc: "The term of [Root.Monarch.GetName] has come to an end, and as such it is time to elect a new [Root.Monarch.GetTitle]."
+ elections.1.option.a: "An administrator"
+ elections.1.option.b: "A diplomat"
+ elections.1.option.c: "An officer"
+ elections.1.option.d: "[Root.Monarch.GetName] will stay!"
+ 
+ elections.2.title: "Election"
+ elections.2.desc: "[Root.Monarch.GetName], the current [Root.Monarch.GetTitle] has passed on. It is time to elect an new [Root.Monarch.GetTitle]."
+ elections.1.option.a: "An administrator"
+ elections.1.option.b: "A diplomat"
+ elections.1.option.c: "An officer"
+ 
+ #-----------------------------------------------
+ # Generic OnAction
+ #-----------------------------------------------
+ generic_onaction.1.title: "Integrating [From.GetName]"
+ generic_onaction.1.desc: "When a smaller country gives up its independence to join a greater realm, there is a lot of adapting, and while some parts are easy, the administration of the realm will still need to expand to accommodate all possibilities."
+ generic_onaction.1.option.a: "Integration is a slow process."
+ 
+ generic_onaction.2.title: "Rise of a Pretender"
+ generic_onaction.2.desc: "The disputed succession of [Root.Monarch.GetName] has caused a Pretender to raise an army and march for the capital!"
+ generic_onaction.2.option.a: "Crush them!"
+ 
+ #-----------------------------------------------
+ # Empty
+ #-----------------------------------------------
+ dark_portal.1.title: ""
+ dark_portal.1.desc: ""
+ dark_portal.1.option.a: ""
+ 
+ discovery.1.title: ""
+ discovery.1.desc: ""
+ discovery.1.option.a: ""
+ 
+ setup.1.title: ""
+ setup.1.desc: ""
+ setup.1.option.a: ""
+ 
+ setup.2.title: ""
+ setup.2.desc: ""
+ setup.2.option.a: ""

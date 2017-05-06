@@ -1,22 +1,20 @@
-# 606
+# 606 - Hammerfall.txt
 is_city = yes
-add_core = A16
+
 owner = A16
 controller = A16
+add_core = A16
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
-capital = "Eastgarde Village"
+base_manpower = 3
 
 culture = culture_arathi
 religion = religion_church_of_the_light
- 
-hre = no 
-trade_goods = mithril
 
-# Beyond the Dark Portal
+trade_goods = mithril
+hre = no 
+
 600.1.1 = { 
     culture = culture_horde
     religion = religion_fel

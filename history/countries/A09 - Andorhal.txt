@@ -9,9 +9,9 @@ primary_culture 	= culture_lordaeron
 capital 			= 1
 
 546.1.1 = { 
-monarch = { 
-     name = "Tolbert" 
-     dynasty = "Fordring" 
+    monarch = { 
+        name = "Tolbert" 
+        dynasty = "Fordring" 
 		adm = 2
 		dip = 2
 		mil = 3
@@ -19,29 +19,29 @@ monarch = {
  } 
 
 592.1.1 = { 
-monarch = { 
-     name = "Tirion" 
-     dynasty = "Fordring" 
+    monarch = { 
+        name = "Tirion" 
+        dynasty = "Fordring" 
 		adm = 3
 		dip = 3
 		mil = 4
  	} 
- } 
+} 
 
 617.1.1 = { 
-monarch = { 
-     name = "Taelan" 
-     dynasty = "Fordring" 
+    monarch = { 
+        name = "Taelan" 
+        dynasty = "Fordring" 
 		adm = 2
 		dip = 3
 		mil = 2 
  	} 
- } 
+} 
 
 618.1.1 = {
-add_country_modifier = {
-    name = alliance_member
-    duration = -1
-} 
+    add_country_modifier = {
+        name = alliance_member
+        duration = -1
+    } 
 }
 

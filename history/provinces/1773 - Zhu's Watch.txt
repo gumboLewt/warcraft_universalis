@@ -1,4 +1,4 @@
-# 1773
+# 1773 - Zhu's Watch.txt
 is_city = yes
 
 owner = P65
@@ -6,16 +6,12 @@ controller = P65
 add_core = P65
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_red_crane
 religion = religion_celestial
 
-hre = yes
 trade_goods = fur
-
-
-
+hre = yes
 

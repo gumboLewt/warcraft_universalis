@@ -150,17 +150,9 @@ estate_clergy =
 	loyalty_modifier = {
 		desc = EST_VAL_CHURCHPOWER
 		trigger = {
+            uses_church_aspects = yes
 			church_power = 100
 			NOT = { church_power = 125 }
-		}
-		loyalty = 2.5
-	}
-	
-	loyalty_modifier = {
-		desc = EST_VAL_CHURCHPOWER
-		trigger = {
-			church_power = 125
-			NOT = { church_power = 150 }
 		}
 		loyalty = 5
 	}
@@ -168,35 +160,39 @@ estate_clergy =
 	loyalty_modifier = {
 		desc = EST_VAL_CHURCHPOWER
 		trigger = {
-			church_power = 150
-			NOT = { church_power = 175 }
+            uses_church_aspects = yes
+			church_power = 125
+			NOT = { church_power = 150 }
 		}
-		loyalty = 7.5
+		loyalty = 10
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_CHURCHPOWER
 		trigger = {
+            uses_church_aspects = yes
+			church_power = 150
+			NOT = { church_power = 175 }
+		}
+		loyalty = 15
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_CHURCHPOWER
+		trigger = {
+            uses_church_aspects = yes
 			church_power = 175
 		}
-		loyalty = 10
+		loyalty = 20
 	}
 	
 	# Fervor
 	loyalty_modifier = {
 		desc = EST_VAL_FERVOR
 		trigger = {
+            uses_fervor = yes
 			fervor = 25
 			NOT = { fervor = 50 }
-		}
-		loyalty = 2.5
-	}
-	
-	loyalty_modifier = {
-		desc = EST_VAL_FERVOR
-		trigger = {
-			fervor = 50
-			NOT = { fervor = 75 }
 		}
 		loyalty = 5
 	}
@@ -204,35 +200,39 @@ estate_clergy =
 	loyalty_modifier = {
 		desc = EST_VAL_FERVOR
 		trigger = {
-			fervor = 75
-			NOT = { fervor = 90 }
+            uses_fervor = yes
+			fervor = 50
+			NOT = { fervor = 75 }
 		}
-		loyalty = 7.5
+		loyalty = 10
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_FERVOR
 		trigger = {
+            uses_fervor = yes
+			fervor = 75
+			NOT = { fervor = 90 }
+		}
+		loyalty = 15
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_FERVOR
+		trigger = {
+            uses_fervor = yes
 			fervor = 90
 		}
-		loyalty = 10
+		loyalty = 20
 	}
 	
 	# Patriarch Authority
 	loyalty_modifier = {
 		desc = EST_VAL_PATRIARCH_AUTHORITY
 		trigger = {
+            uses_patriarch_authority = yes
 			patriarch_authority = 0.25
 			NOT = { patriarch_authority = 0.5 }
-		}
-		loyalty = 2.5
-	}
-	
-	loyalty_modifier = {
-		desc = EST_VAL_PATRIARCH_AUTHORITY
-		trigger = {
-			patriarch_authority = 0.5
-			NOT = { patriarch_authority = 0.75 }
 		}
 		loyalty = 5
 	}
@@ -240,110 +240,119 @@ estate_clergy =
 	loyalty_modifier = {
 		desc = EST_VAL_PATRIARCH_AUTHORITY
 		trigger = {
-			patriarch_authority = 0.75
-			NOT = { patriarch_authority = 0.9 }
+            uses_patriarch_authority = yes
+			patriarch_authority = 0.5
+			NOT = { patriarch_authority = 0.75 }
 		}
-		loyalty = 7.5
+		loyalty = 10
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_PATRIARCH_AUTHORITY
 		trigger = {
+            uses_patriarch_authority = yes
+			patriarch_authority = 0.75
+			NOT = { patriarch_authority = 0.9 }
+		}
+		loyalty = 15
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_PATRIARCH_AUTHORITY
+		trigger = {
+            uses_patriarch_authority = yes
 			patriarch_authority = 0.9
 		}
-		loyalty = 10
+		loyalty = 20
 	}
 	
 	# Piety
 	loyalty_modifier = {
 		desc = EST_VAL_PIETY
-		trigger = {
+		trigger = { 
+            uses_piety = yes
 			piety = 0.25
 			NOT = { piety = 0.5 }
 		}
-		loyalty = 2.5
+		loyalty = 5
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_PIETY
 		trigger = {
+            uses_piety = yes
 			piety = 0.5
 			NOT = { piety = 0.75 }
 		}
-		loyalty = 5
+		loyalty = 10
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_PIETY
 		trigger = {
+            uses_piety = yes
 			piety = 0.75
 			NOT = { piety = 0.9 }
 		}
-		loyalty = 7.5
+		loyalty = 15
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_PIETY
 		trigger = {
+            uses_piety = yes
 			piety = 0.9
 		}
-		loyalty = 10
+		loyalty = 20
 	}
 	
 	# Invested Papal Influence
-	#	asoiaf_faith_of_the_seven
 	loyalty_modifier = {
 		desc = EST_VAL_INVESTED_PAPAL_INFLUENCE
 		trigger = {
+            uses_papacy = yes
 			invested_papal_influence = 25
 			NOT = { invested_papal_influence = 50 }
 		}
-		loyalty = 2.5
+		loyalty = 5
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_INVESTED_PAPAL_INFLUENCE
 		trigger = {
+            uses_papacy = yes
 			invested_papal_influence = 50
 			NOT = { invested_papal_influence = 75 }
 		}
-		loyalty = 5
+		loyalty = 10
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_INVESTED_PAPAL_INFLUENCE
 		trigger = {
+            uses_papacy = yes
 			invested_papal_influence = 75
 			NOT = { invested_papal_influence = 100 }
 		}
-		loyalty = 7.5
+		loyalty = 15
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_INVESTED_PAPAL_INFLUENCE
 		trigger = {
+            uses_papacy = yes
 			invested_papal_influence = 100
 		}
-		loyalty = 10
+		loyalty = 20
 	}
 	
 	# Karma
-	#	asoiaf_lion_of_the_night
-	#	asoiaf_stone_cow_of_faros
 	loyalty_modifier = {
 		desc = EST_VAL_KARMA
 		trigger = {
+            uses_karma = yes
 			karma = 25
 			NOT = { karma = 50 }
-		}
-		loyalty = 2.5
-	}
-	
-	loyalty_modifier = {
-		desc = EST_VAL_KARMA
-		trigger = {
-			karma = 50
-			NOT = { karma = 75 }
 		}
 		loyalty = 5
 	}
@@ -351,18 +360,30 @@ estate_clergy =
 	loyalty_modifier = {
 		desc = EST_VAL_KARMA
 		trigger = {
-			karma = 75
-			NOT = { karma = 90 }
+            uses_karma = yes
+			karma = 50
+			NOT = { karma = 75 }
 		}
-		loyalty = 7.5
+		loyalty = 10
 	}
 	
 	loyalty_modifier = {
 		desc = EST_VAL_KARMA
 		trigger = {
+            uses_karma = yes
+			karma = 75
+			NOT = { karma = 90 }
+		}
+		loyalty = 15
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_KARMA
+		trigger = {
+            uses_karma = yes
 			karma = 90
 		}
-		loyalty = 10
+		loyalty = 20
 	}
 	
 	# Religious Unity
@@ -476,7 +497,7 @@ estate_clergy =
 				}
 				
 				add_legitimacy = 10
-				add_republican_tradition = 0.10
+				add_republican_tradition = 10
 				add_devotion = 10
 			}
 			
@@ -495,7 +516,7 @@ estate_clergy =
 				}
 				
 				add_legitimacy = 5
-				add_republican_tradition = 0.15
+				add_republican_tradition = 15
 				add_devotion = 15
 			}
 			
@@ -514,7 +535,7 @@ estate_clergy =
 				}
 				
 				add_legitimacy = 25
-				add_republican_tradition = 0.25
+				add_republican_tradition = 25
 				add_devotion = 25
 			}
 		}
@@ -542,13 +563,13 @@ estate_clergy =
 				factor = 0
 				
 				government = republic
-				NOT = { republican_tradition = 0.5 }
+				NOT = { republican_tradition = 50 }
 			}
 			
 			modifier = {
 				factor = 0
 				
-				government = religion
+				government = theocracy
 				NOT = { devotion = 50 }
 			}
 		}

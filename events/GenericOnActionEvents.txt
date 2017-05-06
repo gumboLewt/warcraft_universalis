@@ -1,16 +1,18 @@
+namespace = generic_onaction
+
 # Integrating FROMCOUNTRY
 country_event = {
-	id = 610
-	title = "EVTNAMP610"
-	desc = "EVTDESC610"
+	id = generic_onaction.1
+	title = generic_onaction.1.title
+	desc = generic_onaction.1.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTB610A"
+		name = generic_onaction.1.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTB610A" }
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - generic_onaction.1.option.a" }
 
 		add_country_modifier = {
 			name = "annexers_legacy"
@@ -21,9 +23,9 @@ country_event = {
 
 # Chance of being triggered when an heir with a weak claim succeeds to the throne
 country_event = {
-	id = 611
-	title = "EVTNAMP611"
-	desc = "EVTDESC611"
+	id = generic_onaction.2
+	title = generic_onaction.2.title
+	desc = generic_onaction.2.desc
 	picture = MILITARY_CAMP_eventPicture
 	
 	is_triggered_only = yes
@@ -34,9 +36,9 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB611A"
+		name = generic_onaction.2.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - EVTOPTB611A" }
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - generic_onaction.2.option.a" }
 		random_owned_province = {
 			limit = { 
 				is_in_capital_area = yes

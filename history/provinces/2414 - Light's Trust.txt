@@ -1,17 +1,19 @@
+# 2414 - Light's Trust.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = P72
 controller = P72
 add_core = P72
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = grain
+hre = no
 
 617.1.1 = {
 owner = P11

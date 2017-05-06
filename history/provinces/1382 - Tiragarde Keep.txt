@@ -1,24 +1,20 @@
-# 1382
+# 1382 - Tiragarde Keep.txt
 is_city = yes
 
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
-add_core = B69
 owner = B69
 controller = B69
+add_core = B69
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_razormane
 religion = religion_geomancy
 
-hre = no
 trade_goods = fish
+hre = no
 
-
-
-
-# The Frozen Throne
 618.1.1 = { 
 	owner = A14
 	controller = A14

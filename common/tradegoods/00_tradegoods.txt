@@ -141,10 +141,12 @@ wool = {
 		}
 		modifier = {
 			factor = 0.15
-			has_terrain = grasslands
-			has_terrain = hills
-			has_terrain = forest
-			has_terrain = woods
+            OR = {
+                has_terrain = grasslands
+                has_terrain = hills
+                has_terrain = forest
+                has_terrain = woods
+            }
 		}
 		modifier = {
 			factor = 1.25
@@ -724,4 +726,499 @@ tropical_wood = {
 
 unknown = {
 	color = { 0.5 0.5 0.5 }
+}
+
+#WOOD
+ashenvale_lumber = {
+	color = { 0.96 0.93 0.58 }
+	modifier = {
+		defensiveness = 0.1
+	}
+    province = {
+		local_build_cost = -0.2
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+lumber = {
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+		war_exhaustion_cost = -0.1
+	}
+    province = {
+		local_build_cost = -0.2
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+kypari = {
+	color = { 0.96 0.93 0.58 }
+	modifier = {
+		defensiveness = 0.1
+	}
+    province = {
+		local_defensiveness = 0.2
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+# tropical_wood - already present
+
+oil = {
+	color = { 0.93 0.98 0.98 }
+	modifier = {
+		development_cost = -0.05
+	}
+    province = {
+		supply_limit_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+#MINES, METALS, & ORES
+stone = {
+	color = { 0.72 0.49 0.44 }
+	modifier = {
+		development_cost = -0.05
+	}
+    province = {
+		local_hostile_attrition = 1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+dark_iron = {
+	color = { 0.86 0.19 0.19 }
+	modifier = {
+		global_spy_defence = 0.25
+	}
+    province = {
+		local_missionary_strength = 0.01
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+# gold - already present
+
+
+saronite = {
+	color = { 0.55 0.82 0.97 }
+	modifier = {
+		stability_cost_modifier = -0.10
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+mithril = {
+	color = { 0.54 0.40 0.31 }
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+# iron - already present
+
+thorium = {
+	color = { 0.93 0.98 0.98 }
+	modifier = {
+		global_ship_cost = -0.05
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+fel_iron = {
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+# copper - already present
+
+khorium = {
+	color = { 0.85 0.46 0.15 }
+	modifier = {
+		global_ship_cost = -0.05
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+adamantite = {
+	color = { 1.0 0.84 0.19 }
+	modifier = {
+		defensiveness = 0.1
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+titanium = {
+	color = { 0.6 0.62 0.65 }
+	modifier = {
+		defensiveness = 0.1
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+elementium = {
+	color = { 0.0 0.0 0.0 }
+	modifier = {
+		prestige = 1
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+ghost_iron = {
+	color = { 0.75 0.7 0.63 }
+	modifier = {
+		defensiveness = 0.1
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+gemstones = {
+	color = { 0.07 0.33 0.09 }
+	modifier = {
+		stability_cost_modifier = -0.10
+	}
+    province = {
+		local_tax_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+# FOOD
+
+grain_silo = {
+	color = { 0.4 0.65 0.38 }
+	modifier = {
+		manpower_recovery_speed = 0.05
+	}
+    province = {
+		supply_limit_modifier = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+# grain - rename to "Farms" in localization
+
+# wine - already present
+
+# fish - already present
+
+ale  = {
+	color = { 0.75 0.7 0.63 }
+	modifier = {
+		heir_chance = 0.10
+	}
+    province = {
+		local_unrest = -2
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+#LEATHER/FURS:
+
+# fur - rename to "Hides" in localization
+
+#CLOTH
+
+# cloth - already present
+
+# silk - already present
+
+runecloth = {
+	color = { 0.18 0.57 0.8 }
+	modifier = {
+		merc_maintenance_modifier = -0.15
+	}
+    province = {
+		local_unrest = -1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+netherweave = {
+	color = { 0.22 0.15 0.09 }
+	modifier = {
+		merc_maintenance_modifier = -0.15
+	}
+    province = {
+		local_unrest = -1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+#ARCHAEOLOGY/DIGSITES
+
+fossils = {
+	color = { 0.52 0.68 0.6 }
+	modifier = {
+		prestige = 1
+	}
+    province = {
+		province_trade_power_value = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+artifacts = {
+	color = { 0.74 0.95 0.68 }
+	modifier = {
+		prestige = 1
+	}
+    province = {
+		province_trade_power_value = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+crypts = {
+	color = { 0.07 0.33 0.09 }
+	modifier = {
+		culture_conversion_cost = -0.1
+	}
+    province = {
+		province_trade_power_value = 0.1
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+
+#SPECIAL RESOURCES & OUTLAWS
+
+smugglers = {
+	color = { 0.33 0.56 0.38 }
+	modifier = {
+		colonist_placement_chance = 0.05
+	}
+    province = {
+		local_colonial_growth = 10
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+pirates = {
+	color = { 0.45 0.21 0.09 }
+	modifier = {
+		naval_forcelimit_modifier = 0.10
+	}
+    province = {
+		local_ship_cost = -0.2
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+workshops = {
+	color = { 0.33 0.56 0.38 }
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+    province = {
+		local_regiment_cost = -0.2
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+arcane = {
+	color = { 0.33 0.56 0.38 }
+	modifier = {
+		legitimacy = 0.25
+	}
+    province = {
+		local_institution_spread = 0.2
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+fel = {
+	color = { 0.85 0.46 0.15 }
+	modifier = {
+		legitimacy = 0.25
+	}
+    province = {
+		local_institution_spread = 0.2
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+#SUPPLIES
+
+# naval_supplies - already present
+
+army_supplies = {
+	color = { 0.72 0.10 0.10 }
+	modifier = {
+		global_regiment_recruit_speed = -0.1
+	}
+    province = {
+		supply_limit_modifier = 0.25
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+#MOUNTS & WARBEASTS
+
+mounts = {
+	color = { 0.63 0.17 0.50 }
+	modifier = {
+		land_maintenance_modifier = -0.10
+	}
+    province = {
+		local_friendly_movement_speed = 0.25
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+flying_mounts = {
+	color = { 0.45 0.47 0.09 }
+	modifier = {
+		land_maintenance_modifier = -0.10
+	}
+    province = {
+		local_friendly_movement_speed = 0.5
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+warbeasts = {
+	color = { 0.8 0.5 0.5 }
+	modifier = {
+		land_maintenance_modifier = -0.10
+	}
+    province = {
+		local_friendly_movement_speed = 0.25
+	}
+	chance = {
+		factor = 10
+	}
+}
+# OTHER
+apexis = {
+	color = { 0.07 0.33 0.39 }
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+    province = {
+		regiment_recruit_speed = -0.25
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+glowcap = {
+	color = { 0.96 0.83 0.48 }
+	modifier = {
+		heir_chance = 0.10
+	}
+    province = {
+		regiment_recruit_speed = -0.25
+	}
+	chance = {
+		factor = 10
+	}
+}
+
+moonwell = {
+	color = { 0.96 0.43 0.98 }
+	modifier = {
+		stability_cost_modifier = -0.10
+	}
+    province = {
+		local_missionary_strength = 0.03
+	}
+	chance = {
+		factor = 10
+	}
 }

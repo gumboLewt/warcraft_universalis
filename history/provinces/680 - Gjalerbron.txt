@@ -1,4 +1,4 @@
-# 680
+# 680 - Gjalerbron.txt
 is_city = yes
 
 owner = B62
@@ -6,15 +6,14 @@ controller = B62
 add_core = B62
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_shalerhorn
 religion = religion_geomancy
 
-hre = no
 trade_goods = crypts
+hre = no
 
 626.1.1 = { 
 owner = B08

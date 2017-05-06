@@ -1,19 +1,19 @@
-# 1708 Kirin'Var Village
+# 1708 - Kirin'var Village.txt
 is_city = yes
 
 owner = A54
 controller = A54
-add_core =  A54
+add_core = A54
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_shattrathi
 religion = religion_light_of_the_naaru
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-hre = no
 trade_goods = arcane
+hre = no
 
 592.1.1 = {
 add_core = A43
@@ -21,7 +21,7 @@ owner = A43
 controller = A43
 remove_core = A54
 religion = religion_fel
-culture = culture_twilights_hammers_hammer
+culture = culture_twilights_hammer
 }
 
 #Outland

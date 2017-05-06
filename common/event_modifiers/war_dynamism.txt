@@ -12,7 +12,7 @@ recently_looted = {
     regiment_recruit_speed = 0.75
 }
 
-scorched_earth = {
+scorched_earth_wd = {
     local_tax_modifier = -1
     local_manpower_modifier = -1
     local_production_efficiency = -1

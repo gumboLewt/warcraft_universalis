@@ -1,23 +1,20 @@
-# 641 Thandol Valley
+# 641 - Boulderfist Hall.txt
 is_city = yes
 
-add_core = A65
 owner = A65
 controller = A65
+add_core = A65
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
-
-capital = "Smolderthorn Hold"
+base_manpower = 4
 
 culture = culture_smolderthorn
 religion = religion_voodoo
- 
-hre = no 
-trade_goods = iron
 
-# Beyond the Dark Portal
+trade_goods = iron
+hre = no 
+
 600.1.1 = {
 	owner = A51
 	controller = A51

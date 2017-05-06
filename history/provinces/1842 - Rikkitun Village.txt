@@ -1,20 +1,17 @@
-# 1842
+# 1842 - Rikkitun Village.txt
 is_city = yes
 
 owner = P34
 controller = P34
 add_core = P34
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_mantid
 religion = religion_old_gods
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-
-hre = no
 trade_goods = kypari
-
-
-
+hre = no
 

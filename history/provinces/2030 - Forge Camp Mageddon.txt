@@ -1,19 +1,19 @@
-# 2030 Forge Camp Mageddon
+# 2030 - Forge Camp Mageddon.txt
 is_city = yes
 
 owner = A40
 controller = A40
 add_core = A40
 
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_bleeding_hollow 
 religion = religion_ancestral
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
-hre = no
 trade_goods = fel
+hre = no
 
 592.1.1 = {
 religion = religion_fel

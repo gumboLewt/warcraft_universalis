@@ -1,21 +1,17 @@
+# 2456 - Ruins of Drak'Zin.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
 
 owner = B47
 controller = B47
 add_core = B47
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_bloodpaw
 religion = religion_primitive
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

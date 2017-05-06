@@ -1,20 +1,22 @@
+# 1341 - Sethria's Roost.txt
+is_city = yes
+
 owner = F99
 controller = F99
 add_core = F99
-is_city = yes
 
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
 culture = culture_wormwing
 religion = religion_druidic
 
-hre = no
 trade_goods = artifacts
+hre = no
 
 631.1.1 = {
-culture = culture_twilights_hammer_dragon
+culture = culture_red
 religion = religion_old_gods
 owner = B06
 controller = B06

@@ -1,18 +1,19 @@
-# 1680
+# 1680 - Forge Camp Terror.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A41
 controller = A41
 add_core = A41
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_blackrock
 religion = religion_ancestral
 
-hre = no
 trade_goods = apexis
+hre = no
 
 592.1.1 = {
 religion = religion_fel

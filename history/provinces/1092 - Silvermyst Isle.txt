@@ -1,4 +1,4 @@
-# 1092
+# 1092 - Silvermyst Isle.txt
 is_city = yes
 
 owner = B31
@@ -6,12 +6,12 @@ controller = B31
 add_core = B31
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
-
+base_manpower = 2
 
 culture = culture_nerglish
 religion = religion_water
 
-hre = no
 trade_goods = fish
+hre = no
+

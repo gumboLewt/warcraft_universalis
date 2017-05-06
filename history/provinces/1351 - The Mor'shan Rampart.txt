@@ -1,19 +1,19 @@
-# 1351 Ashenvale Verge
+# 1351 - The Mor'shan Rampart.txt
 is_city = yes
+
 owner = F97
 controller = F97
 add_core = F97
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_xavian
 religion = religion_fel
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
-hre = no
 trade_goods = ashenvale_lumber
-capital = "Shadowtooth Camp"
-
+hre = no
 
 618.1.1 = {
 culture = culture_warsong

@@ -1,22 +1,20 @@
-# 686 Shadowfang Keep
+# 686 - Shadowfang Keep.txt
 is_city = yes 
 
-add_core = A12
 owner = A12
 controller = A12
-capital = "Silverlaine Keep"
+add_core = A12
 
 base_tax = 3
-base_manpower = 4
 base_production = 3
- 
+base_manpower = 4
+
 culture = culture_gilnean
 religion = religion_church_of_the_light
- 
-hre = no 
-trade_goods = lumber
 
-# The Third War
+trade_goods = lumber
+hre = no 
+
 617.1.1 = { 
 	owner = A08
 	controller = A08

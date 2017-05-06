@@ -1,4 +1,4 @@
-# 883 Nekmani Wellspring
+# 883 - Nek'mani Wellspring.txt
 is_city = yes
 
 owner = A68
@@ -6,16 +6,15 @@ controller = A68
 add_core = A68
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_shatterspear
 religion = religion_loa
 
-hre = no
 trade_goods = artifacts
+hre = no
 
-# The Frozen Throne
 618.1.1 = { 
 	owner = F32
 	controller = F32

@@ -1,4 +1,4 @@
-# 2119
+# 2119 - Winterfin Coast.txt
 is_city = yes
 
 owner = B33
@@ -6,12 +6,12 @@ controller = B33
 add_core = B33
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_nerglish
 religion = religion_water
 
-hre = no
 trade_goods = fish
+hre = no
+

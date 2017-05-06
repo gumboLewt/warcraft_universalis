@@ -1,4 +1,4 @@
-# 2077
+# 2077 - Camp Nooka Nooka.txt
 is_city = yes
 
 owner = P68
@@ -6,17 +6,12 @@ controller = P68
 add_core = P68
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_forest_hozen
 religion = religion_celestial
 
-hre = yes
 trade_goods = fish
-
-
-
-
+hre = yes
 

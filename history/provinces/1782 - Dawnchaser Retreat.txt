@@ -1,28 +1,19 @@
-# 1782
+# 1782 - Dawnchaser Retreat.txt
 is_city = yes
 
 owner = P83
 controller = P83
 add_core = P83
-capital = "Riverblade Village"
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_riverblade
 religion = religion_voodoo
 
-hre = yes
 trade_goods = fish
-
-632.1.1 = { 
-    owner = A88
-    controller = A88
-    add_core = A88
-    culture = culture_dawnstrider
-    religion = religion_ancestral
-}
+hre = yes
 
 632.1.1 = { 
     owner = P83

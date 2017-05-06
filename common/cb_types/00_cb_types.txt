@@ -303,13 +303,8 @@ cb_heretic = {
 cb_trade_war = {
 	
 	prerequisites = {
-		
-		OR = {
-			AND = {
-				trade_embargo_by = FROM
-				NOT = { FROM = { trade_embargo_by = ROOT } }
-			}
-		}
+        trade_embargo_by = FROM
+        NOT = { FROM = { trade_embargo_by = ROOT } }
 		is_revolution_target = no
 	}
 	

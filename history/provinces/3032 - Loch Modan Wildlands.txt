@@ -1,24 +1,20 @@
-# 3032 Loch Modan Wildlands (Troll Ruins Found in area, so Winterax tribe will be here till second war)
+# 3032 - Loch Modan Wildlands.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = A76
 controller = A76
 add_core = A76
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_winterax
 religion = religion_voodoo
 
-hre = no
 trade_goods = fur
+hre = no
 
-
-
-
-# The Second War
 598.1.1 = { 
 remove_core = A76
 owner = A40

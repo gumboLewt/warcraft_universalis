@@ -1,17 +1,19 @@
+# 2470 - Mount Mugamba.txt
+is_city = yes
+
 owner = A78
 controller = A78
 add_core = A78
-is_city = yes
 
 base_tax = 1
-base_manpower = 2
 base_production = 5
+base_manpower = 2
 
-religion = religion_loa
 culture = culture_zandalari
+religion = religion_loa
 
-hre = no
 trade_goods = grain
+hre = no
 
 631.1.1 = {
     religion = religion_voodoo

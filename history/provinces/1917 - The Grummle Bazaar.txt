@@ -1,19 +1,17 @@
-# 1917
+# 1917 - The Grummle Bazaar.txt
 is_city = yes
 
 owner = P41
 controller = P41
 add_core = P41
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
 culture = culture_korune
 religion = religion_titan_corrupt
 
-base_tax = 4
-base_manpower = 4
-base_production = 4
-
-hre = yes
 trade_goods = smugglers
-
-
-
+hre = yes
 

@@ -16,7 +16,7 @@ philosopher = {
 	# Bonus
 	prestige = 1
 
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -34,7 +34,7 @@ natural_scientist = {
 	# Bonus
 	production_efficiency = 0.10
 
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }	
 
 	chance = {
@@ -52,7 +52,7 @@ artist = {
 	# Bonus
 	stability_cost_modifier = -0.10
 
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }	
 
 	chance = {
@@ -70,7 +70,7 @@ treasurer = {
 	# Bonus
 	global_tax_modifier = 0.1
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }	
 
 	chance = {
@@ -88,7 +88,7 @@ theologian = {
 	# Bonus
 	global_unrest = -2
 
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -107,7 +107,7 @@ master_of_mint = {
 	# Bonus
 	inflation_reduction = 0.10
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -125,7 +125,7 @@ inquisitor = {
 	# Bonus
 	global_missionary_strength = 0.02
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -146,7 +146,7 @@ statesman = {
 	# Bonus
 	diplomatic_reputation = 1
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -164,7 +164,7 @@ naval_reformer = {
 	# Bonus
 	naval_morale = 0.1 
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -186,7 +186,7 @@ trader = {
 	# Bonus
 	trade_efficiency = 0.10
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -204,7 +204,7 @@ spymaster = {
 	# Bonus
 	spy_offence = 0.25
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -222,7 +222,7 @@ colonial_governor = {
 	# Bonus
 	global_tariffs = 0.10
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -248,7 +248,7 @@ diplomat = {
 	# Bonus
 	improve_relation_modifier = 0.2
 
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }	
 
 	chance = {
@@ -266,7 +266,7 @@ navigator = {
 	# Bonus
 	range = 0.20
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -325,7 +325,7 @@ commandant = {
 	# Bonus
 	discipline = 0.05
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -343,7 +343,7 @@ quartermaster = {
 	# Bonus
 	reinforce_speed = 0.33
 
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -365,7 +365,7 @@ recruitmaster = {
 	# Bonus
 	global_manpower_modifier = 0.10
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -387,7 +387,7 @@ fortification_expert = {
 	# Bonus
 	defensiveness = 0.2
 	
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
@@ -406,7 +406,7 @@ grand_captain = {
 	# Bonus
 	land_maintenance_modifier = -0.10
 
-    allow_only_male = yes
+    
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {

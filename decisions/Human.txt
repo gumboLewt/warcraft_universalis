@@ -86,18 +86,16 @@ country_decisions = {
     encourage_research = {
         potential = {
 			technology_group = tech_human
-            AND = {
-                NOT = { has_country_modifier = illusion_of_grandeur }
-                NOT = { has_country_modifier = enchanted_spyglass }
-                NOT = { has_country_modifier = scrying_orb }
-                NOT = { has_country_modifier = arcane_familiars }
-                NOT = { has_country_modifier = conjured_feasts }
-                NOT = { has_country_modifier = enchanted_broom }
-                NOT = { has_country_modifier = embued_tome }
-                NOT = { has_country_modifier = mana_shields }
-                NOT = { has_country_modifier = invisibility_cloaks }
-                NOT = { has_country_modifier = arcane_crystal }
-            }
+            NOT = { has_country_modifier = illusion_of_grandeur }
+            NOT = { has_country_modifier = enchanted_spyglass }
+            NOT = { has_country_modifier = scrying_orb }
+            NOT = { has_country_modifier = arcane_familiars }
+            NOT = { has_country_modifier = conjured_feasts }
+            NOT = { has_country_modifier = enchanted_broom }
+            NOT = { has_country_modifier = embued_tome }
+            NOT = { has_country_modifier = mana_shields }
+            NOT = { has_country_modifier = invisibility_cloaks }
+            NOT = { has_country_modifier = arcane_crystal }
 		}
 		allow =  {
 			technology_group = tech_human

@@ -1,19 +1,18 @@
-# 1594 - Pools of Aggonar
+# 1594 - Pools of Aggonar.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A36
 controller = A36
 add_core = A36
 
-culture	= culture_shattered_hand
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 religion = religion_ancestral
 
-hre = no
 trade_goods = fel
+hre = no
 
 592.1.1 = {
     religion = religion_fel

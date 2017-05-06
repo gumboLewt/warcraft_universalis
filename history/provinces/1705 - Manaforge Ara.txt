@@ -1,18 +1,19 @@
-# 1705
+# 1705 - Manaforge Ara.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 4
 
 owner = A38
 controller = A38
-add_core =  A38
+add_core = A38
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
 culture = culture_laughing_skull
 religion = religion_ancestral
 
-hre = no
 trade_goods = arcane
+hre = no
 
 592.1.1 = {
 religion = religion_fel

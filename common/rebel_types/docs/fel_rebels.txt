@@ -232,16 +232,16 @@ fel_rebels = {
 		if = {
 			limit = {
 				religion = religion_fel
-				has_estate = estate_church
+				has_estate = estate_clergy
 				NOT = {
 					has_estate_influence_modifier = {
-						estate = estate_church
+						estate = estate_clergy
 						modifier = EST_VAL_RELIGIOUS_ZEALOTS_TRIUMPH
 					}
 				}
 			}
 			add_estate_influence_modifier = {
-				estate = estate_church
+				estate = estate_clergy
 				desc = EST_VAL_RELIGIOUS_ZEALOTS_TRIUMPH
 				duration = 3650
 				influence = 15

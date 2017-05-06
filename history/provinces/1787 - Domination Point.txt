@@ -1,18 +1,19 @@
-# 1787
+# 1787 - Domination Point.txt
 is_city = yes
 
-base_tax = 4
-base_manpower = 4
-base_production = 4
-
-culture = culture_riverblade
-religion = religion_voodoo
 owner = P83
 controller = P83
 add_core = P83
 
-hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = culture_riverblade
+religion = religion_voodoo
+
 trade_goods = army_supplies
+hre = yes
 
 632.1.1 = { 
     owner = A48

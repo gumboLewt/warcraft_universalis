@@ -1,20 +1,17 @@
-# 1107
+# 1107 - Ruins of Vashj'elan.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A81
 controller = A81
 add_core = A81
 
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_venture
 religion = religion_greed
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

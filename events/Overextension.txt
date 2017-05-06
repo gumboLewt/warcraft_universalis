@@ -108,7 +108,7 @@ country_event = {
 	id = wow_overextension.4
 	title = wow_overextension.4.title
 	desc = wow_overextension.4.desc
-	picture = wow_overextension_eventPicture
+	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
 	

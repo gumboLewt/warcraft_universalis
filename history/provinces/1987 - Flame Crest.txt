@@ -1,21 +1,20 @@
-# 1987 Flame Crest
+# 1987 - Flame Crest.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = P56
 controller = P56
 add_core = P56
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_dark_iron
 religion = religion_arcane
 
-hre = no
 trade_goods = army_supplies
+hre = no
 
-# Fall of Stormwind
 597.1.1 = { 
 	owner = P98
 	controller = P98

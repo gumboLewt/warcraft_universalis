@@ -1,18 +1,19 @@
-# 1622
+# 1622 - Forge Camp Hate.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = F83
 controller = F83
 add_core = F83
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_warmaul
 religion = religion_earth
 
-hre = no
 trade_goods = fel
+hre = no
 
 625.1.1 = {
 owner = B92

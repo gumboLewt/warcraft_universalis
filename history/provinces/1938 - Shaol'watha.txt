@@ -1,24 +1,20 @@
-# 1938 
+# 1938 - Shaol'watha.txt
 is_city = yes 
-add_core = A61
+
 owner = A61
 controller = A61
-
+add_core = A61
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
- 
+base_manpower = 3
+
 culture = culture_revantusk
 religion = religion_voodoo
- 
-hre = no 
+
 trade_goods = lumber
- 
+hre = no 
 
-
-
-# The Third War
 617.1.1 = { 
 add_core = A60 
 owner = A60 

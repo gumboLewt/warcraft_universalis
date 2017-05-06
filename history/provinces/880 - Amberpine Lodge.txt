@@ -1,23 +1,20 @@
-# 880 Amberpine Woods
+# 880 - Amberpine Lodge.txt
 is_city = yes
+
 owner = P32
 controller = P32
 add_core = P32
-capital = "Amberpine Hold"
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = fur
+hre = no
 
-
-# Rise of the Qiraji
 622.1.1 = { 
 owner = P30
 controller = P30

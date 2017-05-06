@@ -1,22 +1,20 @@
-# 800
+# 800 - Stonewatch.txt
 is_city = yes
-add_core = B16
+
 owner = B16
 controller = B16
+add_core = B16
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
-
+base_manpower = 4
 
 culture = culture_shadowhide
 religion = religion_geomancy
 
-hre = no
 trade_goods = army_supplies
+hre = no
 
-
-# Fall of Stormwind
 597.1.1 = { 
 	owner = P98
 	controller = P98

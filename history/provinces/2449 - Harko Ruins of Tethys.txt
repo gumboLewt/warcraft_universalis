@@ -1,3 +1,4 @@
+# 2449 - Harko Ruins of Tethys.txt
 is_city = yes
 
 owner = A76
@@ -5,11 +6,12 @@ controller = A76
 add_core = A76
 
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
 culture = culture_winterax
 religion = religion_voodoo
 
-hre = no
 trade_goods = grain
+hre = no
+

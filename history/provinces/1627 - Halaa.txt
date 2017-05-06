@@ -1,31 +1,24 @@
-# 1627
+# 1627 - Halaa.txt
 is_city = yes
-
-base_tax = 4
-base_manpower = 4
-base_production = 4
 
 owner = A46
 controller = A46
 add_core = A46
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
 culture = culture_frostwolf
 religion = religion_ancestral
 
-601 = {
-remove_core = A46
-add_core = F72
-owner = F72
-controller = F72
-culture = mag_har
-}
-
-622.1.1 = {
-add_core = F83
-owner = F83
-controller = F83
-culture = culture_warmaul
-religion = religion_earth
-}
-
 hre = no
 trade_goods = artifacts
+
+622.1.1 = {
+    add_core = F83
+    owner = F83
+    controller = F83
+    culture = culture_warmaul
+    religion = religion_earth
+}

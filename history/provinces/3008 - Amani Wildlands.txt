@@ -1,15 +1,14 @@
-# 3008 Amani Wildlands
+# 3008 - Amani Wildlands.txt
 is_city = yes
 
+
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = culture_azerothian # Dummy
+religion = religion_ancestral # Dummy
 
-hre = no
 trade_goods = grain
-
-
+hre = no
 

@@ -1,20 +1,19 @@
-# 1683
+# 1683 - Raven's Wood.txt
 is_city = yes
-
-base_tax = 4
-base_manpower = 4
-base_production = 4
-
-capital = "Boulder'mok"
 
 owner = A41
 controller = A41
 add_core = A41
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
 culture = culture_blackrock
 religion = religion_ancestral
 
-hre = no
 trade_goods = lumber
+hre = no
 
 592.1.1 = {
 religion = religion_fel

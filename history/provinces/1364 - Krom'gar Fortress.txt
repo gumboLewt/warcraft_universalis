@@ -1,21 +1,17 @@
-# 1364 Windshear Cliffs
+# 1364 - Krom'gar Fortress.txt
 is_city = yes
 
 owner = G28
 controller = G28
 add_core = G28
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_windshear
 religion = religion_geomancy
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
-
-
-hre = no
 trade_goods = iron
-
-
-
+hre = no
 

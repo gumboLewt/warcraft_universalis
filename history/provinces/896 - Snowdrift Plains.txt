@@ -1,4 +1,4 @@
-# 896
+# 896 - Snowdrift Plains.txt
 is_city = yes
 
 owner = B73
@@ -6,17 +6,14 @@ controller = B73
 add_core = B73
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_iron
 religion = religion_old_gods
 
-hre = no
 trade_goods = workshops
-
-capital = "Narvir's Cradle"
+hre = no
 
 631.1.1 = {
 owner = B86

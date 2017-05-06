@@ -1,4 +1,4 @@
-# 1447 Field of Giants
+# 1447 - Desolation Hold.txt
 is_city = yes
 
 owner = B68
@@ -6,14 +6,14 @@ controller = B68
 add_core = B68
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
+base_manpower = 2
 
 culture = culture_bristleback
 religion = religion_geomancy
 
-hre = no
 trade_goods = fur
+hre = no
 
 618.1.1 = {
     is_city = no

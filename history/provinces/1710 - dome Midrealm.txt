@@ -1,25 +1,26 @@
-# 1710
+# 1710 - dome Midrealm.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A54
 controller = A54
-add_core =  A54
+add_core = A54
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_shattrathi
 religion = religion_light_of_the_naaru
 
-hre = no
 trade_goods = fur
+hre = no
 
 592.1.1 = {
 owner = A43
 controller = A43
 add_core = A43
 remove_core = A54
-culture = culture_twilights_hammers_hammer
+culture = culture_twilights_hammer
 religion = religion_fel
 }
 

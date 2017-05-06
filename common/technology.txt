@@ -268,7 +268,6 @@ groups = {
 	tech_primitive = {
 		start_cost_modifier = 0
 		start_level = 0
-		
 		is_primitive = yes
 	}
 	

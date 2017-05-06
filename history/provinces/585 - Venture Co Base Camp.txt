@@ -1,4 +1,4 @@
-# 585 Venture Co Base Comp
+# 585 - Venture Co Base Camp.txt
 is_city = yes
 
 owner = A66
@@ -6,16 +6,15 @@ controller = A66
 add_core = A66
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_gurubashi
 religion = religion_voodoo
 
-hre = no
 trade_goods = fish
+hre = no
 
-# The Third War
 617.1.1 = {
 	owner = A01
 	controller = A01

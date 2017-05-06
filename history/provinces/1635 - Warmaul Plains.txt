@@ -1,20 +1,20 @@
-# 1635
+# 1635 - Warmaul Plains.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = F83
 controller = F83
 add_core = F83
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_warmaul
 religion = religion_earth
 
-hre = no
 trade_goods = fur
+hre = no
 
-#Outland
 601.1.1 = {
 owner = F83
 controller = F83

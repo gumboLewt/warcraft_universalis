@@ -256,4 +256,19 @@
  demonic_influences: "Demonic Influences"
  desc_demonic_influences: ""
  
+ # Shadow
+ 
+ # Old God
+ 
+ #------------------------------------------------
+ # Personal Deities
+ #------------------------------------------------
+ diety_yulon: "Yu'lon"
+ diety_yulon_desc: "Yu'lon, the spirit of Wisdom. He resides in the Jade Forest."
+ diety_chiji: "Chi'ji"
+ diety_chiji_desc: "Chi'ji, the spirit of hope. She resides in the Krasarang Wilds."
+ diety_niuzao: "Niuazo"
+ diety_niuzao_desc: "Niuzao, the spirit of strength. He resides in Townlong Steppes."
+ diety_xuen: "Xuen"
+ diety_xuen_desc: "Xuen, the spirit of power. He resides in Kunlai Summit."
  

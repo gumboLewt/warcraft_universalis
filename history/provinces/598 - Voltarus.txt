@@ -1,4 +1,4 @@
-# 598
+# 598 - Voltarus.txt
 is_city = yes
 
 owner = A74
@@ -6,15 +6,14 @@ controller = A74
 add_core = A74
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_drakkari
 religion = religion_voodoo
 
-hre = no
 trade_goods = grain
+hre = no
 
 626.1.1 = { 
 add_core = P11

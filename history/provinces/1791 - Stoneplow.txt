@@ -1,4 +1,4 @@
-# 1791
+# 1791 - Stoneplow.txt
 is_city = yes
 
 owner = P84
@@ -6,16 +6,12 @@ controller = P84
 add_core = P84
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
-
+base_manpower = 4
 
 culture = culture_red_crane
 religion = religion_celestial
 
-hre = yes
 trade_goods = grain
-
-
-
+hre = yes
 

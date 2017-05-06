@@ -1,4 +1,4 @@
-# 531
+# 531 - Balia'mah Ruins.txt
 is_city = yes
 
 owner = A69
@@ -6,16 +6,12 @@ controller = A69
 add_core = A69
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_skullsplitter
 religion = religion_voodoo
 
-hre = no
 trade_goods = artifacts
-
-
-
+hre = no
 

@@ -1,20 +1,20 @@
-# 1694
+# 1694 - Veil Ruuan.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A49
 controller = A49
 add_core = A49
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_bladespire
 religion = religion_geomancy
 
-hre = no
 trade_goods = flying_mounts
+hre = no
 
-#Outland
 601.1.1 = {
 owner = F79
 controller = F79

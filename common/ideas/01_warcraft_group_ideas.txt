@@ -1251,7 +1251,7 @@ furbolg_ideas = {
     # Strong Chieftains
 	furbolg_ideas_5 = {
         legitimacy = 1
-        republican_tradition = 0.01
+        republican_tradition = 1
 	}
     # Shamanistic Rituals
 	furbolg_ideas_6 = {

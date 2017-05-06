@@ -1,23 +1,22 @@
-# 3075 - Reanimatory
+# 3075 - Reanimatory.txt
 is_city = yes
 
+owner = A62
+controller = A62
 add_core = A62
 add_core = A10
 add_core = A08
-owner = A62
-controller = A62
-
-religion = religion_voodoo
-culture = culture_mossflayer 
 
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
-hre = no 
+culture = culture_mossflayer 
+religion = religion_voodoo
+
 trade_goods = grain
+hre = no 
 
-# Fall of Stormwind
 597.1.1 = { 
 	owner = A08
 	controller = A08

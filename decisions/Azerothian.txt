@@ -5,11 +5,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = A02 }
 			NOT = { tag = A02 }
-			
-			OR = {
-				culture_group = culture_group_human
-			}
-			
+            culture_group = culture_group_human
 			any_owned_province = {
 				region = region_westfall
 			}

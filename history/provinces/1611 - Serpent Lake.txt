@@ -1,18 +1,19 @@
-# 1611
+# 1611 - Serpent Lake.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = F68
 controller = F68
-add_core =  F68
+add_core = F68
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_broken
 religion = religion_ancestral
 
-hre = no
 trade_goods = fish
+hre = no
 
 622.1.1 = {
 base_tax = 3

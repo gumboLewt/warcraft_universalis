@@ -1,4 +1,4 @@
-# 1819
+# 1819 - Central Vale Gate.txt
 is_city = yes
 
 owner = F02
@@ -6,15 +6,12 @@ controller = F02
 add_core = F02
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_golden_lotus
 religion = religion_celestial
 
-hre = yes
 trade_goods = army_supplies
-
-
-
+hre = yes
 

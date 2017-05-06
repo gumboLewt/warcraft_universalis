@@ -1,18 +1,17 @@
-# 1080
+# 1080 - The Vector Coil.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = B97
 controller = B97
 add_core = B97
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_axxarian
 religion = religion_fel
 
-hre = no
 trade_goods = fur
-
-
+hre = no
 

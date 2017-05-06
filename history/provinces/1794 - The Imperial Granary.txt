@@ -1,4 +1,4 @@
-# 1794
+# 1794 - The Imperial Granary.txt
 is_city = yes
 
 owner = P84
@@ -6,16 +6,12 @@ controller = P84
 add_core = P84
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_red_crane
 religion = religion_celestial
 
-hre = yes
 trade_goods = grain_silo
-
-
-
+hre = yes
 

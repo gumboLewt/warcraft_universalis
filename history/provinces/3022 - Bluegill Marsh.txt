@@ -1,24 +1,20 @@
-# 3022 Bluegill Marsh
+# 3022 - Bluegill Marsh.txt
 is_city = yes
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
-add_core = B26
 owner = B26
 controller = B26
+add_core = B26
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
 culture = culture_nerglish
 religion = religion_water
 
-hre = no
 trade_goods = fish
+hre = no
 
-
-
-
-# The Second War
 598.1.1 = {
 owner = A80
 controller = A80

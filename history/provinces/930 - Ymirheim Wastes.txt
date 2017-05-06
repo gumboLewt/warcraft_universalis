@@ -1,21 +1,19 @@
-# 930 The Bombardment/ Silkweb Caverns
+# 930 - Ymirheim Wastes.txt
 is_city = yes
-
 
 owner = P74
 controller = P74
 add_core = P74
 
 base_tax = 3
-base_manpower = 2
 base_production = 3
-
+base_manpower = 2
 
 culture = culture_nerubian
 religion = religion_arcane
-hre = no
-trade_goods = silk
 
+trade_goods = silk
+hre = no
 
 615.1.1 = { 
 add_core = P11

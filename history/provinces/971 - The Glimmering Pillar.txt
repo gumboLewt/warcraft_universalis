@@ -1,4 +1,4 @@
-# 971
+# 971 - The Glimmering Pillar.txt
 is_city = yes
 
 owner = B52
@@ -6,15 +6,14 @@ controller = B52
 add_core = B52
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_mistwhisper
 religion = religion_titan
 
-hre = no
 trade_goods = gemstones
+hre = no
 
 615.1.1 = {
 owner = G36

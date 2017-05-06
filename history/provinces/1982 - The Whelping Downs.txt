@@ -1,21 +1,20 @@
-# 1982 The Whelping Downs
+# 1982 - The Whelping Downs.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A30
 controller = A30
 add_core = A30
 
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_dark_iron
 religion = religion_fire
 
-hre = no
 trade_goods = flying_mounts
+hre = no
 
-# Fall of Stormwind
 597.1.1 = {
     owner = A41
     controller = A41
@@ -34,6 +33,6 @@ trade_goods = flying_mounts
 632.1.1 = {
     add_core = B06
     remove_core = A99
-    culture = culture_twilights_hammer_dragon
+    culture = culture_red
     religion = religion_fel
 }

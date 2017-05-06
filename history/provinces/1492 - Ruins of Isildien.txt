@@ -1,19 +1,19 @@
-# 1492
-
+# 1492 - Ruins of Isildien.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A85
 controller = A85
 add_core = A85
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_grimtotem
 religion = religion_ancestral
 
-hre = no
 trade_goods = artifacts
+hre = no
 
 600.1.1 = {
 add_core = A52

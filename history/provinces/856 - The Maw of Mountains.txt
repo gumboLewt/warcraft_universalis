@@ -1,19 +1,19 @@
-# 856
+# 856 - The Maw of Mountains.txt
 is_city = yes
-add_core = F10
+
 owner = F10
 controller = F10
+add_core = F10
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
-
+base_manpower = 4
 
 culture = culture_woodpaw
 religion = religion_geomancy
 
-hre = no
 trade_goods = elementium
+hre = no
 
 598.1.1 = { owner = A45
 controller = A45

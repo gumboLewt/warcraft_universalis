@@ -1,21 +1,20 @@
-# 1924 7-th Legion Base Camp
+# 1924 - th Legion Base Camp.txt
 is_city = yes
 
-add_core = A12
 owner = A12
 controller = A12
+add_core = A12
 
 base_tax = 2
-base_manpower = 2
 base_production = 1
- 
+base_manpower = 2
+
 culture = culture_gilnean
 religion = religion_church_of_the_light
- 
-hre = no 
-trade_goods = fur
 
-# Third War
+trade_goods = fur
+hre = no 
+
 617.1.1 = {
 	owner = A08
 	controller = A08

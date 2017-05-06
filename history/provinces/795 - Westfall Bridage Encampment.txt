@@ -1,21 +1,19 @@
-# 795
+# 795 - Westfall Bridage Encampment.txt
 is_city = yes
 
 owner = B46
 controller = B46
 add_core = B46
-capital = "Redfang Encampment"
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_redfang
 religion = religion_old_gods
 
-hre = no
 trade_goods = fur
+hre = no
 
 626.1.1 = {
 owner = H06

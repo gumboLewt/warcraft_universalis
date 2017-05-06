@@ -1,29 +1,24 @@
-# 937
+# 937 - Hardwrench Hideaway.txt
 is_city = yes
 
 owner = B28
-controller= B28
+controller = B28
 add_core = B28
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_nerglish
 religion = religion_water
 
-hre = no
 trade_goods = fish
+hre = no
 
-
-
-
-# Cataclysm
 631.1.1 = { 
-owner = A79
-controller = A79
-add_core = A79
-culture = culture_bilgewater
-religion = religion_tech
+    owner = A79
+    controller = A79
+    add_core = A79
+    culture = culture_bilgewater
+    religion = religion_tech
 }

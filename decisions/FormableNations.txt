@@ -19,19 +19,14 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			if = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					province_id = 1461
-					province_id = 1462
-					province_id = 1463
-					province_id = 1465
-				}
-				add_permanent_claim = A23
-			}
+            1461 = { add_permanent_claim = A23 }
+            1462 = { add_permanent_claim = A23 }
+            1463 = { add_permanent_claim = A23 }
+            1465 = { add_permanent_claim = A23 }
+            
 			change_government = administrative_kingdom
 			set_capital = 1456
-			country_event = { id = ideagroups.1 } #Swap Ideas
+			swap_free_idea_group = yes
 		}
 		ai_will_do = {
 			factor = 1
@@ -146,10 +141,10 @@ country_decisions = {
 					limit = { NOT = { religion = religion_ancestral } }
 					change_religion = religion_ancestral
 				}
-        if = {
+                if = {
 					limit = { NOT = { culture = ROOT } }
 					change_culture = ROOT
-        }
+                }
 			}
 			
 			add_country_modifier = {

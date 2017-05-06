@@ -1,24 +1,20 @@
-# 3021 Tal'doren
+# 3021 - Tal'doren.txt
 is_city = yes
 
-base_tax = 2
-base_manpower = 3
-base_production = 2
-
-add_core = A12
 owner = A12
 controller = A12
+add_core = A12
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
 
 culture = culture_gilnean
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = artifacts
+hre = no
 
-
-
-
-# The Frozen Throne
 618.1.1 = { 
 owner = P29
 controller = P29

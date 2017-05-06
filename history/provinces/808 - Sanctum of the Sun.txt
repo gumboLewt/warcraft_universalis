@@ -1,22 +1,20 @@
-#808 Sanctum of the Sun
+# 808 - Sanctum of the Sun.txt
 is_city = yes 
 
-add_core = A59
-add_claim = A90
 owner = A59
 controller = A59
+add_core = A59
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_shadowpine
 religion = religion_voodoo
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-hre = no 
 trade_goods = arcane
+hre = no 
 
-# Fall of Stormwind
 597.1.1 = {
 	add_core = A90
 	owner = A90

@@ -1,21 +1,20 @@
-# 1657 - Southern Bone Wastes
+# 1657 - Southern Bone Wastes.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = B78
 controller = B78
-add_core =  B78
+add_core = B78
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_sethekk
 religion = religion_terokk
 
-hre = no
 trade_goods = crypts
+hre = no
 
-#Outland
 601.1.1 = {
 	owner = F49
 	controller = F49

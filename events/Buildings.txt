@@ -1130,6 +1130,6 @@ province_event = {
 		name = building_events.15.option.b
 
         if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.15.option.b" }
-        add_treasury = 50
+        owner = { add_treasury = 50 }
 	}
 }

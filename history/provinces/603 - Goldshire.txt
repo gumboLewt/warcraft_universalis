@@ -1,20 +1,20 @@
-# 603
+# 603 - Goldshire.txt
 is_city = yes
-add_core = A01
+
 owner = A01
 controller = A01
+add_core = A01
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
+base_manpower = 4
 
 culture = culture_azerothian
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = mounts
+hre = no
 
-# Fall of Stormwind
 597.1.1 = { 
     owner = A41
     controller = A41

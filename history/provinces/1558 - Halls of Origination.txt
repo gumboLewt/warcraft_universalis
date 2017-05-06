@@ -1,19 +1,17 @@
-# 1558
+# 1558 - Halls of Origination.txt
 is_city = yes
-
-base_tax = 7
-base_manpower = 7
-base_production = 7
 
 owner = G09
 controller = G09
 add_core = G09
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
 culture = culture_ramkahen
 religion = religion_titan
 
-hre = no
 trade_goods = artifacts
-
-
-
+hre = no
 

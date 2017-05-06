@@ -1,21 +1,19 @@
-# 1369
+# 1369 - Honor's Stand.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = F92
 controller = F92
 add_core = F92
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_witchwing
 religion = religion_air
 
-hre = no
 trade_goods = fur
-
+hre = no
 
 617.1.1 = {
 owner = G06

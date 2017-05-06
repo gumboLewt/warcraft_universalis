@@ -1,4 +1,4 @@
-# 1985 Chiselgrip
+# 1985 - Chiselgrip.txt
 is_city = yes
 
 owner = P56
@@ -6,16 +6,15 @@ controller = P56
 add_core = P56
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_dark_iron
 religion = religion_arcane
 
-hre = no
 trade_goods = dark_iron
+hre = no
 
-# Fall of Stormwind
 597.1.1 = { 
 	owner = P98
 	controller = P98

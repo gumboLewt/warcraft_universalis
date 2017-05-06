@@ -1,19 +1,17 @@
+# 2383 - Uldis.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = P16
 controller = P16
 add_core = P16
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_hyldnir
 religion = religion_titan
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

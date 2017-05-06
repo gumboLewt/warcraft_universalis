@@ -5,7 +5,7 @@ mercantilism 		= 10
 technology_group 	= tech_human
 religion			= religion_church_of_the_light
 primary_culture 	= culture_lordaeron
-capital 			= 1
+capital 			= 642
 
 546.1.1 = { 
 	monarch = { 
@@ -14,23 +14,23 @@ capital 			= 1
 		adm = 4
 		dip = 4
 		mil = 3
-                female = yes
+        female = yes
 	} 
 } 
 
 592.1.1 = { 
-monarch = { 
-     name = "Marcus" 
-     dynasty = "Valdelmar" 
+    monarch = { 
+        name = "Marcus" 
+        dynasty = "Valdelmar" 
 		adm = 3
 		dip = 3
 		mil = 4
- 	} 
- }  
+    } 
+}  
 
 618.1.1 = {
-add_country_modifier = {
-    name = alliance_member
-    duration = -1
-} 
+    add_country_modifier = {
+        name = alliance_member
+        duration = -1
+    } 
 }

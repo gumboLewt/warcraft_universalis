@@ -1,18 +1,17 @@
-# 1595
+# 1595 - Mag'har Post.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = F72
 controller = F72
 add_core = F72
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_mag_har
 religion = religion_ancestral
 
-hre = no
 trade_goods = netherweave
-
-
+hre = no
 

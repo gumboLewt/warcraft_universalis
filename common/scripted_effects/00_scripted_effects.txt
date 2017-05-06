@@ -2164,3 +2164,4 @@ increase_heir_mil_effect = {
 			add_mil_power = 50
 		}
 	}
+}

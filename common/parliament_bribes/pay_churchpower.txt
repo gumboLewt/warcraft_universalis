@@ -1,7 +1,6 @@
 pay_churchpower = {
 	trigger = {
-		religion = protestant
-		FROM = { religion = protestant }
+		uses_church_aspects = yes
 	}
 	
 	effect = {

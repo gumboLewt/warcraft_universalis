@@ -1,3 +1,4 @@
+# 766 - The Mosslight Pillar.txt
 is_city = yes
 
 owner = B55
@@ -5,15 +6,14 @@ controller = B55
 add_core = B55
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_sparktouched
 religion = religion_titan
 
-hre = no
 trade_goods = gemstones
+hre = no
 
 615.1.1 = {
     owner = G36

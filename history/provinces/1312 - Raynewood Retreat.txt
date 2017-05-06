@@ -1,17 +1,17 @@
+# 1312 - Raynewood Retreat.txt
+is_city = yes
+
 owner = B96
 controller = B96
 add_core = B96
-culture = culture_jadefire
-religion = religion_fel
-is_city = yes
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
+base_manpower = 2
 
+culture = culture_jadefire
+religion = religion_fel
 
-hre = no
 trade_goods = moonwell
-
-
+hre = no
 

@@ -1,19 +1,19 @@
-# 1668
+# 1668 - Coilskar Point.txt
 is_city = yes
-
-base_tax = 4
-base_manpower = 4
-base_production = 4
 
 owner = A55
 controller = A55
-add_core =  A55
+add_core = A55
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 culture = culture_karaborian
 religion = religion_light_of_the_naaru
 
-hre = no
 trade_goods = fish
+hre = no
 
 546.1.1 = {
     owner = A55

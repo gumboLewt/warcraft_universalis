@@ -1,5 +1,4 @@
-# 1037
-
+# 1037 - The Red Reaches.txt
 is_city = yes
 
 owner = P60
@@ -7,16 +6,15 @@ controller = P60
 add_core = P60
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_nerglish
 religion = religion_water
 
-hre = no
 trade_goods = fish
+hre = no
 
-# Cataclysm
 631.1.1 = { 
     owner = F36
     controller = F36

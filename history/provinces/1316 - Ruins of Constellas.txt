@@ -1,17 +1,19 @@
+# 1316 - Ruins of Constellas.txt
+is_city = yes
+
 owner = B96
 controller = B96
 add_core = B96
-culture = culture_jadefire
-religion = religion_fel
-is_city = yes
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
+base_manpower = 2
 
-hre = no
+culture = culture_jadefire
+religion = religion_fel
+
 trade_goods = moonwell
-
+hre = no
 
 618.1.1 = {
 base_tax = 3

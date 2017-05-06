@@ -1,19 +1,17 @@
+# 2385 - Frostgrip's Hollow.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = A31
 controller = A31
 add_core = A31
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_frostborn
 religion = religion_titan
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

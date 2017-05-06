@@ -1,20 +1,19 @@
-# 1444
+# 1444 - Ruins of Taurajo.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = B68
 controller = B68
 add_core = B68
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_bristleback
 religion = religion_geomancy
 
-capital = "Camp Taurajo"
-
-hre = no
 trade_goods = fur
+hre = no
 
 622.1.1 = {
     owner = F88

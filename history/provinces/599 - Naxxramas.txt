@@ -1,26 +1,20 @@
-# 599 The Carrion Fields
+# 599 - Naxxramas.txt
 is_city = yes
 
 owner = P72
 controller = P72
 add_core = P72
-capital = "Wintergarde Village"
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
-
+base_manpower = 4
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = fish
+hre = no
 
-
-
-
-# The Third War
 605.1.1 = { 
 base_tax = 5
 base_manpower = 5

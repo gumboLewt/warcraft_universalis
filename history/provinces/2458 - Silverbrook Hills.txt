@@ -1,17 +1,19 @@
+# 2458 - Silverbrook Hills.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = B45
 controller = B45
 add_core = B45
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_frostpaw
 religion = religion_old_gods
 
-hre = no
 trade_goods = grain
+hre = no
 
 622.1.1 = {
 owner = P30

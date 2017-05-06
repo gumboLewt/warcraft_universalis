@@ -1,19 +1,19 @@
-# 1593 Throne of Kil'Jaeden
+# 1593 - Throne of Kil'jaeden.txt
 is_city = yes
 
 owner = A40
 controller = A40
 add_core = A40
 
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
 culture = culture_bleeding_hollow 
 religion = religion_ancestral
 
-base_tax = 4
-base_manpower = 3
-base_production = 4
-
-hre = no
 trade_goods = fel
+hre = no
 
 592.1.1 = {
 	religion = religion_fel

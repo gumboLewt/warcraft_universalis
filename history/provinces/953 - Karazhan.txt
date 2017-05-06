@@ -1,4 +1,4 @@
-# 953 Karazhan
+# 953 - Karazhan.txt
 is_city = yes
 
 owner = P59
@@ -6,16 +6,15 @@ controller = P59
 add_core = P59
 
 base_tax = 7
-base_manpower = 7
 base_production = 7
+base_manpower = 7
 
 culture = culture_azerothian
 religion = religion_arcane
 
-hre = no
 trade_goods = arcane
+hre = no
 
-# First War
 592.1.1 = { 
 	religion = religion_fel
 }

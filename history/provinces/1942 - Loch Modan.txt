@@ -1,4 +1,4 @@
-# 1942 Loch Modan
+# 1942 - Loch Modan.txt
 is_city = yes
 
 owner = A29
@@ -6,16 +6,15 @@ controller = A29
 add_core = A29
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_ironforge
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = fish
+hre = no
 
-# The Second War
 598.1.1 = { 
     owner = A40
     controller = A40

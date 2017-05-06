@@ -1,15 +1,17 @@
-
+# 1362 - Sun Rock Retreat.txt
 is_city = yes
-
-base_tax = 2
-base_manpower = 2
-base_production = 2
 
 owner = F93
 controller = F93
 add_core = F93
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_cliffwalker
 religion = religion_ancestral
 
-hre = no
 trade_goods = flying_mounts
+hre = no
+

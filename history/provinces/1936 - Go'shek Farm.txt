@@ -1,22 +1,20 @@
-# 1936 Go'shek Farm
+# 1936 - Go'shek Farm.txt
 is_city = yes
 
-add_core = A65
-add_claim = A16
 owner = A65
 controller = A65
+add_core = A65
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
 
 culture = culture_smolderthorn
 religion = religion_voodoo
 
-base_tax = 2
-base_manpower = 2
-base_production = 3
-
-hre = no 
 trade_goods = grain
+hre = no 
 
-# The First War
 592.1.1 = { 
 	add_core = A16
 	owner = A16

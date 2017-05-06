@@ -1,19 +1,19 @@
-# 1452 Direhorn Post/ The Quagmire
+# 1452 - Direhorn Post.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 2
-base_production = 2
 
 owner = A85
 controller = A85
 add_core = A85
 
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
 culture = culture_grimtotem
 religion = religion_ancestral
 
-hre = no
 trade_goods = cloth
+hre = no
 
 631.1.1 = { 
 	base_tax = 2 # Burned by the Theramore Forces

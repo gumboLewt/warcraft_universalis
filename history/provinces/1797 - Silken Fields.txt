@@ -1,20 +1,17 @@
-# 1797
+# 1797 - Silken Fields.txt
 is_city = yes
+
 owner = P84
 controller = P84
 add_core = P84
 
 base_tax = 3
-base_manpower = 2
 base_production = 3
-
+base_manpower = 2
 
 culture = culture_red_crane
 religion = religion_celestial
 
-hre = yes
 trade_goods = silk
-
-
-
+hre = yes
 

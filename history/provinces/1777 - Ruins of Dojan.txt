@@ -1,4 +1,4 @@
-# 1777
+# 1777 - Ruins of Dojan.txt
 is_city = yes
 
 owner = P81
@@ -6,16 +6,12 @@ controller = P81
 add_core = P81
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_dojani
 religion = religion_titan_corrupt
 
-hre = yes
 trade_goods = grain
-
-
-
+hre = yes
 

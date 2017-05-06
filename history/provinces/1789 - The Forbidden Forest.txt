@@ -1,19 +1,19 @@
-# 1789
+# 1789 - The Forbidden Forest.txt
 is_city = yes
 
-base_tax = 3
-base_manpower = 2
-base_production = 3
-
-culture = culture_riverblade
-religion = religion_voodoo
 owner = P83
 controller = P83
 add_core = P83
 
+base_tax = 3
+base_production = 3
+base_manpower = 2
 
-hre = yes
+culture = culture_riverblade
+religion = religion_voodoo
+
 trade_goods = tropical_wood
+hre = yes
 
 632.1.1 = { 
     owner = A94

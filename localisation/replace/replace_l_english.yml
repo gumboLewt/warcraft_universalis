@@ -109,7 +109,7 @@
  SUBJECT_NEW_WAR:0 "$OVERLORD$ joins $SUBJECT$'s war against $LIST$. \n"
  PEACE_GRANT_INDEPENDANCE:0 "$DEFENDER$ grants independence to $ATTACKER$. \n"
  PEACE_DONT_GRANT_INDEPENDANCE:0 "§R$ATTACKER$ remains subject to $DEFENDER$.§! \n"
- WHITE_PEACE_INDEPENDANCE:0 "White Peace. \n §R$ATTACKER$ remains subject to $DEFENDER$.§!\n
+ WHITE_PEACE_INDEPENDANCE:0 "White Peace. \n §R$ATTACKER$ remains subject to $DEFENDER$.§!\n"
  PERSONAL_UNION_WITH: "§Y$OTHER$§W's Ruler"
  
  #---------------------------------------------------------

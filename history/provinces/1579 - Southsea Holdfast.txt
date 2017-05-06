@@ -1,21 +1,20 @@
-# 1579
+# 1579 - Southsea Holdfast.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = B57
 controller = B57
 add_core = B57
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_gravelsnout
 religion = religion_geomancy
 
-hre = no
 trade_goods = gold
+hre = no
 
-
-# Cataclysm
 631.1.1 = { owner = A19
 controller = A19
 add_core = A19

@@ -1,4 +1,4 @@
-# 1493
+# 1493 - Camp Mojache.txt
 is_city = yes
 
 owner = A85
@@ -6,15 +6,14 @@ controller = A85
 add_core = A85
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_grimtotem
 religion = religion_ancestral
 
-hre = no
 trade_goods = fur
+hre = no
 
 600.1.1 = {
     is_city = no
@@ -31,5 +30,4 @@ trade_goods = fur
     controller = A86
     add_core = A86
     culture = culture_runetotem
-    add_core = A86
 }

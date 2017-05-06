@@ -1,25 +1,20 @@
-# 2165
+# 2165 - Plunder Isle.txt
 is_city = yes
 
-base_tax = 4
-base_manpower = 4
-base_production = 4
-
 owner = A83
-controller= A83
+controller = A83
 add_core = A83
 
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 culture = culture_blackwater
 religion = religion_loa
 
-hre = no
 trade_goods = pirates
+hre = no
 
-
-
-
-# The Frozen Throne
 618.1.1 = { 
     owner = A15
     controller = A15

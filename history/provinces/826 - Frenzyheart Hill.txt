@@ -1,3 +1,4 @@
+# 826 - Frenzyheart Hill.txt
 is_city = yes
 
 owner = B48
@@ -5,14 +6,12 @@ controller = B48
 add_core = B48
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
+base_manpower = 4
 
 culture = culture_frenzyheart
 religion = religion_primitive
 
-hre = no
 trade_goods = fur
-
-
+hre = no
 

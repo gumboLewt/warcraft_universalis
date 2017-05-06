@@ -1,28 +1,27 @@
-# 1025
+# 803 - Vermillion Passage.txt
 is_city = yes
-add_core = B03
+
 owner = B03
 controller = B03
+add_core = B03
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
-
+base_manpower = 2
 
 culture = culture_red
 religion = religion_sect_of_dragons
 
-hre = no
 trade_goods = flying_mounts
+hre = no
 
-# Cataclysm
 631.1.1 = { 
     owner = B06
     controller = B06
     add_core = B06
     remove_core = B03
     religion = religion_old_gods
-    culture = culture_twilights_hammer_dragon
+    culture = culture_red
 }
 
 632.1.1 = { 

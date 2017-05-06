@@ -1,17 +1,17 @@
-# 1994 Ridge Trail
+# 1994 - Redridge Trail.txt
 is_city = yes
 
+
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
 culture = culture_shadowhide
 religion = religion_ancestral
 
-hre = no
 trade_goods = cloth
+hre = no
 
-# Cataclysm
 631.1.1 = { 
 	owner = A80
 	controller = A80

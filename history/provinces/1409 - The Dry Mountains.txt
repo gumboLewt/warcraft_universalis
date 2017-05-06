@@ -1,23 +1,17 @@
-# 1409 The Dry Hills
-
+# 1409 - The Dry Mountains.txt
 is_city = yes
 
 owner = F92
 controller = F92
 add_core = F92
 
-is_city = yes
-
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_witchwing
 religion = religion_air
 
-hre = no
 trade_goods = lumber
-
-
+hre = no
 

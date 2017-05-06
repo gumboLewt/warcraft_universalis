@@ -1,21 +1,19 @@
-# 583
+# 583 - The Forgotten Shore.txt
 is_city = yes
 
 owner = P72
 controller = P72
 add_core = P72
-capital = "Wintergarde Port"
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
-
+base_manpower = 4
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = naval_supplies
+hre = no
 
 605.1.1 = { 
 owner = P11

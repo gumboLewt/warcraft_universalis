@@ -17,7 +17,6 @@ province_event = {
         is_capital = no
         NOT = { is_core = owner }
         controlled_by = owner
-        owned_by = owner
 	}
 
     mean_time_to_happen = {
@@ -91,8 +90,6 @@ province_event = {
 	trigger = {
         is_capital = no
         controlled_by = owner
-        owned_by = owner
-        
         owner = {
             is_civilized = yes
         }
@@ -148,8 +145,6 @@ province_event = {
 	trigger = {
         is_capital = no
         controlled_by = owner
-        owned_by = owner
-        
         owner = {
             OR = {
                 is_savage = yes

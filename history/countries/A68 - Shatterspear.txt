@@ -19,12 +19,12 @@ capital 			= 883
 
 
 618.1.1 = {
-capital = 1296
+    capital = 1296
 }
 
 631.1.1 = {
-add_country_modifier = {
-    name = horde_member
-    duration = -1
-}
+    add_country_modifier = {
+        name = horde_member
+        duration = -1
+    }
 } 

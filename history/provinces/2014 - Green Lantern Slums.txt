@@ -1,20 +1,17 @@
-# 2014
+# 2014 - Green Lantern Slums.txt
 is_city = yes
-add_core = A14
+
 owner = A14
 controller = A14
+add_core = A14
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
- 
+base_manpower = 3
+
 culture = culture_kul_tiran
 religion = religion_church_of_the_light
- 
-hre = no 
+
 trade_goods = fish
-
-
-
-
+hre = no 
 

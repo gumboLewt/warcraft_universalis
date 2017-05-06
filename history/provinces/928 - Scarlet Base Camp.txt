@@ -1,27 +1,21 @@
-# 928 Scarlet Base Camp
+# 928 - Scarlet Base Camp.txt
 is_city = yes
 
-add_core = A08
-add_core = P62
 owner = A08
 controller = A08
+add_core = A08
+add_core = P62
 
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
- 
-hre = no 
+
 trade_goods = fish
+hre = no 
 
-# The Third War
-618.1.1 = { 
-	add_claim = P52
-}
-
-# The Frozen Throne
 618.1.1 = { 
 	owner = P62
 	controller = P62

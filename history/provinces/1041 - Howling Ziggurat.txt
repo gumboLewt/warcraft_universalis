@@ -1,21 +1,21 @@
-#1041 Howling Ziggarut
+# 1041 - Howling Ziggurat.txt
 is_city = yes 
 
-add_core = A59
-add_core = A90
 owner = A59
 controller = A59
+add_core = A59
+add_core = A90
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
 culture = culture_shadowpine
 religion = religion_voodoo
 
-base_tax = 2
-base_manpower = 2
-base_production = 2
-
-hre = no 
 trade_goods = artifacts
+hre = no 
 
-# Fall of Stormwind
 597.1.1 = {
 owner = A90
 controller = A90

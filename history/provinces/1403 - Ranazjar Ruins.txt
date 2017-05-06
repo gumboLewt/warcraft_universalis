@@ -1,16 +1,16 @@
-# 1403
+# 1403 - Ranazjar Ruins.txt
 is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_zoram
 religion = religion_old_gods
 
-hre = no
 trade_goods = artifacts
+hre = no
 
 622.1.1 = { 
 owner = G23

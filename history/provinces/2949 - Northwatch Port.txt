@@ -1,4 +1,4 @@
-# 2949 -Northwatch Port
+# 2949 - Northwatch Port.txt
 is_city = yes
 
 owner = B68
@@ -6,16 +6,15 @@ controller = B68
 add_core = B68
 
 base_tax = 1
-base_manpower = 1
 base_production = 1
+base_manpower = 1
 
 culture = culture_bristleback
 religion = religion_geomancy
 
-hre = no
 trade_goods = fish
+hre = no
 
-# Horde Landing
 617.1.1 = {
 	owner = A46
 	controller = A46

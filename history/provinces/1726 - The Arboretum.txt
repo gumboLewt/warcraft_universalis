@@ -1,22 +1,17 @@
-# 1726
+# 1726 - The Arboretum.txt
 is_city = yes
 
 owner = F46
 controller = F46
 add_core = F46
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_jade_serpent
 religion = religion_celestial
 
-
-hre = yes
 trade_goods = flying_mounts
-
-
-
-
+hre = yes
 

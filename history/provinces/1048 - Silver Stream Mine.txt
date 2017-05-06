@@ -1,25 +1,20 @@
-# 1048 Silver Stream Mine
+# 1048 - Silver Stream Mine.txt
 is_city = yes
 
 owner = P53
 controller = P53
 add_core = P53
 
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_tunnel_rat
 religion = religion_geomancy
 
-base_tax = 3
-base_manpower = 3
-base_production = 3
-
-
-hre = no
 trade_goods = copper
+hre = no
 
-
-
-
-# The Second War
 598.1.1 = { 
 owner = A40
 controller = A40

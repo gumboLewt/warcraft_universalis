@@ -1,4 +1,4 @@
-# 1867
+# 1867 - Niuzao Temple.txt
 is_city = yes
 
 owner = P64
@@ -6,16 +6,12 @@ controller = P64
 add_core = P64
 
 base_tax = 4
-base_manpower = 4
 base_production = 4
-
+base_manpower = 4
 
 culture = culture_black_ox
 religion = religion_celestial
 
-hre = no
 trade_goods = artifacts
-
-
-
+hre = no
 

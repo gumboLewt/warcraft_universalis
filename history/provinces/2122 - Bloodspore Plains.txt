@@ -1,4 +1,4 @@
-# 2122
+# 2122 - Bloodspore Plains.txt
 is_city = yes
 
 owner = B60
@@ -6,16 +6,12 @@ controller = B60
 add_core = B60
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_gammoth
 religion = religion_geomancy
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

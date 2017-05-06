@@ -1,21 +1,20 @@
-# 1674 Invasion Point:Cataclysm
+# 1674 - Shadowed Wastes.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A34
 controller = A34
-add_core =  A34
+add_core = A34
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_shadowmoon
 religion = religion_ancestral
 
-hre = no
 trade_goods = fel
+hre = no
 
-# Shadowmoon
 546.1.1 = {
     owner = A34
     controller = A34

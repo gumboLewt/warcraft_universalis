@@ -1,1 +1,13 @@
 # Order here is the priority for taking them, if trigger is true.
+
+A01 = {
+    always = yes
+}
+
+A41 = {
+    always = yes
+}
+
+A08 = {
+    NOT = { is_year = 600 }
+}

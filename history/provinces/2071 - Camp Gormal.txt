@@ -1,4 +1,4 @@
-# 2071
+# 2071 - Camp Gormal.txt
 is_city = yes
 
 owner = P67
@@ -6,17 +6,12 @@ controller = P67
 add_core = P67
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_gormali
 religion = religion_titan_corrupt
 
-hre = yes
 trade_goods = slaves
-
-
-
-
+hre = yes
 

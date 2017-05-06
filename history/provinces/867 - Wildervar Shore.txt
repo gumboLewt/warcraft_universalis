@@ -1,19 +1,19 @@
-# 867
+# 867 - Wildervar Shore.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = B76
 controller = B76
 add_core = B76
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_iron
 religion = religion_old_gods
 
-hre = no
 trade_goods = fish
+hre = no
 
 626.1.1 = {
 add_core = A96

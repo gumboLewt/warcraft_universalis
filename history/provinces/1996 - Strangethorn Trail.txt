@@ -1,14 +1,15 @@
-# 1996 Stranglethorn Trail
+# 1996 - Strangethorn Trail.txt
 is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
 add_core = A01
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_gurubashi
 religion = religion_loa
 
-hre = no
 trade_goods = fur
+hre = no
+

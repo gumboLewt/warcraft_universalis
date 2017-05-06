@@ -1,17 +1,17 @@
+# 1367 - The Fold.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = F92
 controller = F92
 add_core = F92
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_witchwing
 religion = religion_air
 
-hre = no
 trade_goods = fur
-
-
+hre = no
 

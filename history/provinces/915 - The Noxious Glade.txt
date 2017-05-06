@@ -1,21 +1,20 @@
-#915 The Noxious Glade
+# 915 - The Noxious Glade.txt
 is_city = yes
 
-add_core = B12
 owner = B12
 controller = B12
+add_core = B12
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
 culture = culture_blackpaw
 religion = religion_geomancy
 
-hre = no 
 trade_goods = lumber
+hre = no 
 
-# The Third War
 617.1.1 = {
 	add_core = P12
 	controller = P12

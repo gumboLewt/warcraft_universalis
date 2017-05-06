@@ -1,23 +1,19 @@
-# 1490
+# 1490 - Dire Maul.txt
 is_city = yes
 
 owner = F90
 controller = F90
 add_core = F90
 
-is_city = yes
-capital = "Eldre'Thalas Ruins"
-
 base_tax = 4
-base_manpower = 4
 base_production = 4
+base_manpower = 4
 
 culture = culture_wildspawn
 religion = religion_fel
 
-hre = no
 trade_goods = artifacts
-
+hre = no
 
 600.1.1 = {
 add_core = A52

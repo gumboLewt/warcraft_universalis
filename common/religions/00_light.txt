@@ -140,7 +140,7 @@ religion_group_the_light = {
 			tolerance_own = 1
 		}
 		
-		uses_karma = yes
+		uses_piety = yes
 		misguided_heretic = yes
 		
 		on_convert = {

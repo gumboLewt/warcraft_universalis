@@ -1,4 +1,4 @@
-# 984
+# 984 - Crystalvein Mine.txt
 is_city = yes
 
 owner = A69
@@ -6,20 +6,15 @@ controller = A69
 add_core = A69
 
 base_tax = 3
-base_manpower = 2
 base_production = 3
-
+base_manpower = 2
 
 culture = culture_skullsplitter
 religion = religion_voodoo
 
-hre = no
 trade_goods = gemstones
+hre = no
 
-
-
-
-# Rise of the Qiraji
 622.1.1 = { culture = culture_venture
 religion = religion_greed
 owner = A81

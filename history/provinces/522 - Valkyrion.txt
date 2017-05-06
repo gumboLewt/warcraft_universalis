@@ -1,22 +1,19 @@
-# 522
+# 522 - Valkyrion.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = P16
 controller = P16
 add_core = P16
 
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_hyldnir
 religion = religion_titan
 
-hre = no
 trade_goods = army_supplies
-
-
-
+hre = no
 
 626.1.1 = { 
 add_core = P11

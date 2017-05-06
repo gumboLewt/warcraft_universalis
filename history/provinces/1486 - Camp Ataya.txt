@@ -1,4 +1,4 @@
-# 1486
+# 1486 - Camp Ataya.txt
 is_city = yes
 
 owner = A86
@@ -6,12 +6,12 @@ controller = A86
 add_core = A86
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_runetotem
 religion = religion_ancestral
 
-hre = no
 trade_goods = fur
+hre = no
+

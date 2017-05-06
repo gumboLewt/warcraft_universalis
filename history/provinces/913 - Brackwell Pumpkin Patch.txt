@@ -1,21 +1,20 @@
-# 913
+# 913 - Brackwell Pumpkin Patch.txt
 is_city = yes
 
 owner = B15
 controller = B15
 add_core = B15
-religion = religion_geomancy
-culture = culture_riverpaw
 
 base_tax = 2
-base_manpower = 2
 base_production = 2
+base_manpower = 2
 
+culture = culture_riverpaw
+religion = religion_geomancy
 
-hre = no
 trade_goods = grain
+hre = no
 
-# Fall of Stormwind
 597.1.1 = { 
     owner = A45
     controller = A45

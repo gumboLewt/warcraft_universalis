@@ -813,8 +813,7 @@ take_province_excommunication = {
 	
 	allowed_provinces = {
 		owner = { 
-			is_excommunicated = yes
-			religion = catholic		
+			is_excommunicated = yes	
 		}
 		OR = {
 			is_core = ROOT
@@ -902,7 +901,6 @@ take_province_ban = {
 
 	po_release_vassals = yes
 	po_release_annexed = yes
-	po_return_cores = yes
 	po_return_cores = yes
 	po_demand_provinces = yes
 	

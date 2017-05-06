@@ -28,6 +28,8 @@ religion_group_elemental = {
 			}			
 		}
 
+        personal_deity = yes
+        
 		heretic = { }
 	}
 	

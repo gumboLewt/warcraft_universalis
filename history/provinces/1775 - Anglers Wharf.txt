@@ -1,18 +1,19 @@
-# 1775
+# 1775 - Anglers Wharf.txt
 is_city = yes
 
-culture = culture_dojani
-religion = religion_titan_corrupt
 owner = P81
 controller = P81
 add_core = P81
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
+base_manpower = 3
 
-hre = yes
+culture = culture_dojani
+religion = religion_titan_corrupt
+
 trade_goods = fish
+hre = yes
 
 632.1.1 = {
     owner = P91

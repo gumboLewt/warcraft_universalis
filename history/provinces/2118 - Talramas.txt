@@ -1,19 +1,19 @@
-# 2118 Talramas/Gorloc Grounds
+# 2118 - Talramas.txt
 is_city = yes
-
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
 owner = B61
 controller = B61
 add_core = B61
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_magmoth
 religion = religion_geomancy
 
-hre = no
 trade_goods = fur
-
+hre = no
 
 626.1.1 = { 
 add_core = P11

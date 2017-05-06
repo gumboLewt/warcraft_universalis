@@ -1,18 +1,17 @@
+# 2239 - Valormok.txt
 is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
 owner = G39
-add_core = G39
 controller = G39
-culture = culture_haldaar
+add_core = G39
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_haldarr
 religion = religion_fel
 
-hre = no
 trade_goods = grain
-
-
-
+hre = no
 

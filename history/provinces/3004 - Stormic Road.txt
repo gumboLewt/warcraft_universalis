@@ -1,21 +1,20 @@
-# 3004 Stormic Road
+# 3004 - Stormic Road.txt
 is_city = yes
 
-base_tax = 2
-base_manpower = 1
-base_production = 1
-
-add_core = A16
 owner = A16
 controller = A16
+add_core = A16
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
 
 culture = culture_arathi
 religion = religion_church_of_the_light
 
-hre = no
 trade_goods = fish
+hre = no
 
-# Mists of Pandaria
 632.1.1 = { 
 	owner = H12
 	controller = H12

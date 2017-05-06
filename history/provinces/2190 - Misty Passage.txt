@@ -1,17 +1,14 @@
-# 2190
+# 2190 - Misty Passage.txt
 is_city = yes
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_hakkari
 religion = religion_hakkari
 
-hre = no
 trade_goods = fur
-
-
-
+hre = no
 

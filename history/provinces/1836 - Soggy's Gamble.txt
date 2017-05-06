@@ -1,21 +1,19 @@
-# 1836
+# 1836 - Soggy's Gamble.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = P86
 controller = P86
 add_core = P86
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
 culture = culture_mistblade
 religion = religion_voodoo
 
-hre = no
 trade_goods = fish
-
-
-
+hre = no
 
 632.1.1 = {
 owner = P91

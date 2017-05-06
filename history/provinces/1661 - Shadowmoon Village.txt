@@ -1,19 +1,19 @@
-# 1661
+# 1661 - Shadowmoon Village.txt
 is_city = yes
-
-base_tax = 4
-base_manpower = 4
-base_production = 4
 
 owner = A34
 controller = A34
-add_core =  A34
+add_core = A34
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 culture = culture_shadowmoon
 religion = religion_ancestral
 
-hre = no
 trade_goods = flying_mounts
+hre = no
 
 546.1.1 = {
     owner = A34

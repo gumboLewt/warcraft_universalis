@@ -93,24 +93,25 @@ country_event = {
             culture_group = culture_group_naga
             culture_group = culture_group_undead
             culture_group = culture_group_tol_vir
-            culture_group = culture_group_elemental
+            culture_group = culture_group_fire
+            culture_group = culture_group_earth
+            culture_group = culture_group_water
+            culture_group = culture_group_wind
             culture_group = culture_group_ethereal
             culture_group = culture_group_mogu
             culture_group = culture_group_pandaren
             culture_group = culture_group_arrakoa
         }
         # Exclude any cultures in a group that aren't similar
-        AND = {
-            NOT = { primary_culture = culture_trogg }
-            NOT = { primary_culture = culture_grummle }
-            NOT = { primary_culture = culture_wretched }
-            NOT = { primary_culture = culture_illidari }
-            NOT = { primary_culture = culture_legion_cultist }
-            NOT = { primary_culture = culture_fel_orc }
-            NOT = { primary_culture = culture_felblood_elf }
-            NOT = { primary_culture = culture_cultist }
-            NOT = { primary_culture = culture_rothide }
-        }
+        NOT = { primary_culture = culture_trogg }
+        NOT = { primary_culture = culture_grummle }
+        NOT = { primary_culture = culture_wretched }
+        NOT = { primary_culture = culture_illidari }
+        NOT = { primary_culture = culture_legion_cultist }
+        NOT = { primary_culture = culture_fel_orc }
+        NOT = { primary_culture = culture_felblood_elf }
+        NOT = { primary_culture = culture_cultist }
+        NOT = { primary_culture = culture_rothide }
     }
    
 	option = {

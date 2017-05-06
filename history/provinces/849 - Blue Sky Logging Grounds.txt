@@ -1,24 +1,20 @@
-# 849
+# 849 - Blue Sky Logging Grounds.txt
 is_city = yes
-
-base_tax = 4
-base_manpower = 3
-base_production = 4
 
 owner = B45
 controller = B45
 add_core = B45
 
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
 culture = culture_frostpaw
 religion = religion_old_gods
 
-hre = no
 trade_goods = lumber
+hre = no
 
-
-
-
-# Rise of the Qiraji
 622.1.1 = { 
 owner = P30
 controller = P30

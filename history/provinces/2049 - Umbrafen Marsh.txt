@@ -1,21 +1,20 @@
-# 2049 - Umbrafen Marsh
+# 2049 - Umbrafen Marsh.txt
 is_city = yes
-
-base_tax = 3
-base_manpower = 3
-base_production = 3
 
 owner = A56
 controller = A56
-add_core =  A56
+add_core = A56
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_shattrathi
 religion = religion_light_of_the_naaru
 
-hre = no
 trade_goods = fish
+hre = no
 
-#Outland
 601.1.1 = {
 	owner = F65
 	controller = F65

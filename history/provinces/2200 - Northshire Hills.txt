@@ -1,21 +1,20 @@
-# 2200 Northshire Hills
+# 2200 - Northshire Hills.txt
 is_city = yes
 
-add_core = A01
 owner = A01
 controller = A01
+add_core = A01
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
 culture = culture_azerothian
 religion = religion_church_of_the_light
 
-base_tax = 1
-base_manpower = 1
-base_production = 1
-
-
-hre = no
 trade_goods = stone
+hre = no
 
-# Fall of Stormwind
 597.1.1 = { 
 	owner = A44
 	controller = A44

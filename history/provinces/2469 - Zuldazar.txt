@@ -1,18 +1,19 @@
+# 2469 - Zuldazar.txt
 is_city = yes
-
-base_tax = 8
-base_manpower = 8
-base_production = 6
 
 owner = A78
 controller = A78
 add_core = A78
-religion = religion_loa
+
+base_tax = 8
+base_production = 6
+base_manpower = 8
+
 culture = culture_zandalari
+religion = religion_loa
 
-hre = no
 trade_goods = grain
-
+hre = no
 
 631.1.1 = {
 religion = religion_voodoo

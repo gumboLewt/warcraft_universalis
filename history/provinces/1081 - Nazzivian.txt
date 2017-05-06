@@ -1,4 +1,4 @@
-# 1081
+# 1081 - Nazzivian.txt
 is_city = yes
 
 owner = F43
@@ -6,16 +6,12 @@ controller = F43
 add_core = F43
 
 base_tax = 3
-base_manpower = 3
 base_production = 3
-
+base_manpower = 3
 
 culture = culture_nazzivian
 religion = religion_fel
 
-hre = no
 trade_goods = fel
-
-
-
+hre = no
 
