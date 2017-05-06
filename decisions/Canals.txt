@@ -1,5 +1,5 @@
 country_decisions = {
-	construct_Ula-tek_canal = {
+	construct_ula_tek_canal = {
 		major = yes
 		potential = {
 			OR = {
@@ -12,7 +12,7 @@ country_decisions = {
 			has_discovered = 2214
 			2214 = {
 				range = ROOT
-				NOT = { has_great_project = Ula-tek_canal }
+				NOT = { has_great_project = ula_tek_canal }
 				NOT = { has_construction = canal }
 			}
 			adm_tech = 2
@@ -34,7 +34,7 @@ country_decisions = {
 		}
 	}
 	
-	cancel_Ula-tek_canal = {
+	cancel_ula_tek_canal = {
 		major = yes
 		potential = {
 			ai = no

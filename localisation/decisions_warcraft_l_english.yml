@@ -202,9 +202,9 @@
  #-----------------------------------------------
  # Canals
  #-----------------------------------------------
- construct_Ula-tek_canal_title: "Build Ula-tek Canal"
- construct_Ula-tek_canal_desc: "We need an sea-connection with the western world but sailing north is very unsafe. Our great nation will construct a great cannal and prove worthy to ancestors!"
+ construct_ula_tek_canal_title: "Build Ula-tek Canal"
+ construct_ula_tek_canal_desc: "We need an sea-connection with the western world but sailing north is very unsafe. Our great nation will construct a great cannal and prove worthy to ancestors!"
  
- cancel_Ula-tek_canal_title: "Cancel Ula-tek Canal"
- cancel_Ula-tek_canal_desc: "Our nation is still not ready for great things like this..."
+ cancel_ula_tek_canal_title: "Cancel Ula-tek Canal"
+ cancel_ula_tek_canal_desc: "Our nation is still not ready for great things like this..."
  
