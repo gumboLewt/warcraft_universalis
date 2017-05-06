@@ -1,0 +1,13 @@
+kiljaedens_favour = {
+    discipline = 0.1
+}
+
+the_shadow_council = {
+    global_unrest = -10
+}
+
+fel_infused = {
+    infantry_power = 0.25
+    reinforce_cost_modifier = -0.5
+    recover_army_morale_speed = 0.2
+}

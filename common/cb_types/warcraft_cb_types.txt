@@ -86,3 +86,43 @@ cb_silvermoon_land = {
     
     war_goal = superiority_horde
 }
+
+cb_draenei_scum = {
+	valid_for_subject = no
+
+	prerequisites = {
+		capital_scope = { continent = continent_outland }
+        culture_group = culture_group_orc
+        government = warband_gov
+        OR = {
+            has_country_flag = joined_nerzhul
+            has_country_flag = joined_guldan
+            has_country_flag = accepted_the_demonsblood
+        }
+		FROM = {
+			capital_scope = { continent = continent_outland }
+            culture_group = culture_group_draenei
+		}
+	}
+	
+	war_goal = superiority_horde
+}
+
+cb_orc_scum = {
+	valid_for_subject = no
+
+	prerequisites = {
+		capital_scope = { continent = continent_outland }
+        culture_group = culture_group_orc
+        government = warband_gov
+        has_country_flag = accepted_the_demonsblood
+		FROM = {
+			capital_scope = { continent = continent_outland }
+            culture_group = culture_group_orc
+            government = warband_gov
+            NOT = { has_country_flag = accepted_the_demonsblood }
+		}
+	}
+	
+	war_goal = superiority_horde
+}

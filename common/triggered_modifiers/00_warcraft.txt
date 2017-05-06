@@ -1,3 +1,21 @@
+# Rise of the Horde
+collapse_of_the_draenei_civilisation = {
+	potential = {
+		has_global_flag = rise_of_the_horde
+	}
+	
+	trigger = {
+		capital_scope = { continent = continent_outland }
+        culture_group = culture_group_draenei
+	}
+	
+	stability_cost_modifier = -1
+    global_manpower_modifier = -0.5
+    global_tax_modifier = -0.5
+    global_trade_power = -0.5
+}
+
+# Other
 scourge_mindlessness = {
 	potential = {
 		primary_culture = culture_scourge

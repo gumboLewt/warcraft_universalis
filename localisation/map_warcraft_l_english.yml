@@ -763,3 +763,9 @@
  feltouched: "Fel-touched"
  feltouched_desc: "Fel-touched represents land that is or has been exposed to Fel energies in some form."
  
+ #-----------------------------------------------
+ # Canals
+ #-----------------------------------------------
+ 
+ Ula-tek_canal: "Ula-tek Canal"
+ 

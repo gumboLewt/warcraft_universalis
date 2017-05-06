@@ -1194,9 +1194,9 @@ province;red;green;blue;type;name;continent;region
 1193;160;92;229;lake;Beren's Flow;;
 1194;167;234;50;lake;Tarren Lake;;
 1195;143;106;107;sea;Unnamed;;
-1196;169;204;30;sea;Unnamed;;
+1196;169;204;30;lake;Lake Zul;;
 1197;47;22;31;lake;Witherbark Lake;;
-1198;114;24;107;lake;Stromgarde Pools;;
+1198;114;24;107;sea;Ula-tek Basin;;
 1199;88;36;220;sea;Unnamed;;
 1200;24;148;148;sea;Unnamed;;
 1201;212;98;128;sea;Unnamed;;
@@ -1220,7 +1220,7 @@ province;red;green;blue;type;name;continent;region
 1219;151;46;20;lake;Blackrock Lake;;
 1220;254;170;151;lake;Lake Everstill;;
 1221;35;57;182;lake;Stonard Pools;;
-1222;49;172;132;lake;Zul'Gurub Lake;;
+1222;49;172;132;lake;Lake Amani;;
 1223;62;176;35;lake;Sentinel Lake;;
 1224;167;14;101;lake;Writhing Waters;;
 1225;167;20;254;land;Jotunheim Shore;;

@@ -2,38 +2,51 @@
  #-----------------------------------------------
  # Rise of the Horde
  #-----------------------------------------------
- rise_of_the_horde.1.title: ""
- rise_of_the_horde.1.desc: ""
- rise_of_the_horde.1.option.a: ""
+ rise_of_the_horde.1.title: "Rulkan's Guidance"
+ rise_of_the_horde.1.desc: "Our [Root.Monarch.GetTitle] has announced that his deceased wife, Rulkan has spoken to him in a vision. She has urged [Root.Monarch.GetName] to encourage the other clans to attack the Draenei settlements. Although the Draenei have rarely ever threatened us, it would be treasonous to ignore the word of the [Root.Monarch.GetTitle]."
+ rise_of_the_horde.1.option.a: "Incite the clans"
+ rise_of_the_horde.1.option.b: "Refuse Rulkan's guidance"
  
- rise_of_the_horde.2.title: ""
- rise_of_the_horde.2.desc: ""
- rise_of_the_horde.2.option.a: ""
+ rise_of_the_horde.2.title: "Messenger from Ner'zhul"
+ rise_of_the_horde.2.desc: "It appears that the shaman Ner'zhul has been contacted by his dearly departed wife, Rulkan. He urges that we attack our Draenei neighbours before they strike us first.\n\nWhether this is true or not remains to be seen, but to refuse his guidance would turn the Shadowmoon clan against us."
+ rise_of_the_horde.2.option.a: "Follow his guidance"
+ rise_of_the_horde.2.option.b: "Reject his guidance"
  
- rise_of_the_horde.3.title: ""
- rise_of_the_horde.3.desc: ""
- rise_of_the_horde.3.option.a: ""
+ rise_of_the_horde.3.title: "Doubts of Ner'zhul"
+ rise_of_the_horde.3.desc: "Doubts have crept into Ner'zhul's mind. His vision of Rulkan is wrong, and he can no longer trust her spirit without question.\n\nAnd so, Ner'zhul journied to Oshu'gun, where he discovered the true spirit of Rulkan and realised the deception pulled on him.\n\nKil'jaeden, ever resourceful has groomed the orc Gul'dan, an eager one, for the role of usurper.\n\nWith Ner'zhul's obedience questioned, he is forcefully exiled by Gul'dan."
+ rise_of_the_horde.3.option.a: "Arise Gul'dan!"
  
- rise_of_the_horde.4.title: ""
- rise_of_the_horde.4.desc: ""
- rise_of_the_horde.4.option.a: ""
+ rise_of_the_horde.4.title: "Fel Magics"
+ rise_of_the_horde.4.desc: "With Ner'zhul exiled, the dark practices of Gul'dan have come to light. Urged by Kil'jaeden, he ask been tasked with spread the foul magics he conjures to other clans, encouraging them to adopt it inplace of their shamanistic ways."
+ rise_of_the_horde.4.option.a: "Fel!"
  
- rise_of_the_horde.5.title: ""
+ rise_of_the_horde.5.title: "The Shadow Council"
  rise_of_the_horde.5.desc: ""
  rise_of_the_horde.5.option.a: ""
  
- rise_of_the_horde.6.title: ""
+ rise_of_the_horde.6.title: "Collapse of the Draenei"
  rise_of_the_horde.6.desc: ""
  rise_of_the_horde.6.option.a: ""
+    
+ rise_of_the_horde.7.title: "Blood of Mannoroth"
+ rise_of_the_horde.7.desc: ""
+ rise_of_the_horde.7.option.a: ""
+ 
+ rise_of_the_horde.7.title: "The Dark Portal"
+ rise_of_the_horde.7.desc: ""
+ rise_of_the_horde.7.option.a: ""
  
  rise_of_the_horde.7.title: ""
  rise_of_the_horde.7.desc: ""
  rise_of_the_horde.7.option.a: ""
  
- rise_of_the_horde.8.title: ""
- rise_of_the_horde.8.desc: ""
- rise_of_the_horde.8.option.a: ""
+ rise_of_the_horde.7.title: ""
+ rise_of_the_horde.7.desc: ""
+ rise_of_the_horde.7.option.a: ""
  
+ rise_of_the_horde.7.title: ""
+ rise_of_the_horde.7.desc: ""
+ rise_of_the_horde.7.option.a: ""
  
  #-----------------------------------------------
  # 592

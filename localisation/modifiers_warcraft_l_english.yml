@@ -146,3 +146,10 @@
  
  proclaimed_strength: "Proclaimed Strength"
  desc_proclaimed_strength: "We have proclaimed our strength!"
+ 
+ #------------------------------------------------
+ # Rise of the Horde
+ #------------------------------------------------
+ kiljaedens_favour: "Kil'jaeden's Favour"
+ desc_kiljaedens_favour: "Our actions have been influenced by the demonlord Kil'jaeden."
+ 
