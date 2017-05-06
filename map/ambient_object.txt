@@ -439,3 +439,21 @@ type={
 		}
 	}
 }
+type={
+	type="kiel_canal"
+	use_animation=no
+	scale=0.700000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="kiel_canal"
+		hidden_on_start=yes
+		position={
+			4456.000 0.200 1507.000 
+		}
+		rotation={
+			0.000 115.000 0.000 
+		}
+	}
+}
