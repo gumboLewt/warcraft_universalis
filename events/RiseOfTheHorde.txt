@@ -340,6 +340,9 @@ country_event = {
 	option = {
 		name = rise_of_the_horde.5.option.a#
         
+        set_global_flag = set_blood_of_mannoroth
+        set_country_flag = drank_the_demonsblood
+        
         add_country_modifier = {
             name = the_shadow_council
             duration = -1
@@ -406,7 +409,7 @@ country_event = {
 	trigger = {
         has_global_flag = blood_of_mannoroth
         capital_scope = { continent = continent_outland }
-        culture_group = culture_group_draenei
+        culture_group = culture_group_orc
         NOT = { has_country_flag = set_blood_of_mannoroth }
 	}
     
@@ -500,14 +503,13 @@ country_event = {
     
 	trigger = {
         has_global_flag = blood_of_mannoroth
-        NOT = {
-            calc_true_if = {
-                any_country = {
-                    capital_scope = { continent = continent_outland }
-                    culture_group = culture_group_draenei
-                }
-                amount = 1
+        OR = {
+            AND = {
+                NOT = { exists = A54 } # Shattrath
+                NOT = { exists = A55 } # Karabor
+                NOT = { exists = F49 } # Kurenai
             }
+            is_year = 590 # fallback
         }
 	}
 	
@@ -522,13 +524,11 @@ country_event = {
     }
 }
 
-# The Dark Portal
-#   Once the 'Dark Portal' project is complete, this fires
-#   All 'Fel-infused' clans gain a random province in the Blasted lands, + 1 colonist for 10 years (to simulate the expansion in the Blasted Lands)
+# "Contact with Medivh"
 country_event = {
-	id = rise_of_the_horde.8
-	title = rise_of_the_horde.8.title
-	desc = rise_of_the_horde.8.desc
+	id = rise_of_the_horde.9
+	title = rise_of_the_horde.9.title
+	desc = rise_of_the_horde.9.desc
 	picture = ORCISH_INVASION_eventPicture
     
     major = yes
@@ -540,11 +540,80 @@ country_event = {
 	}
 	
     mean_time_to_happen = {
+		months = 12
+    }
+    
+	option = {
+		name = rise_of_the_horde.9.option.a
+        
+        add_adm_power = -100
+        add_dip_power = -100
+        add_mil_power = -100
+        
+        country_event = { id = rise_of_the_horde.10 days = 30 random = 90 }
+    }
+    
+    option = {
+		name = rise_of_the_horde.9.option.b
+        
+        country_event = { id = rise_of_the_horde.10 days = 90 random = 270 }
+    }
+}
+
+# The Dark Portal
+#   Once the 'Dark Portal' project is complete, this fires
+#   All 'Fel-infused' clans gain a random province in the Blasted lands, + 1 colonist for 10 years (to simulate the expansion in the Blasted Lands)
+country_event = {
+	id = rise_of_the_horde.10
+	title = rise_of_the_horde.10.title
+	desc = rise_of_the_horde.10.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    major = yes
+    is_triggered_only = yes
+    
+	trigger = {
+        tag = A34
+	}
+	
+    mean_time_to_happen = {
 		months = 24
     }
     
 	option = {
-		name = rise_of_the_horde.8.option.a
+		name = rise_of_the_horde.10.option.a
+        
+        1586 = {
+            remove_province_modifier = dark_portal_closed
+        }
+        
+        set_global_flag = dark_portal_built
+    }
+}
+
+# Fallback
+# If Shadowmoon is killed completely, the Dark Portal will eventually be completed by the 'leftovers'
+country_event = {
+	id = rise_of_the_horde.11
+	title = rise_of_the_horde.11.title
+	desc = rise_of_the_horde.11.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    major = yes
+    
+	trigger = {
+        NOT = { exists = A34 }
+        NOT = { has_global_flag = dark_portal_built }
+        capital_scope = { continent = continent_outland }
+        culture_group = culture_group_orc
+	}
+	
+    mean_time_to_happen = {
+		months = 120
+    }
+    
+	option = {
+		name = rise_of_the_horde.11.option.a
         
         1586 = {
             remove_province_modifier = dark_portal_closed

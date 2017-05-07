@@ -129,3 +129,21 @@ cb_orc_scum = {
 	
 	war_goal = superiority_horde
 }
+
+cb_the_dying_times = {
+	valid_for_subject = no
+
+	prerequisites = {
+		capital_scope = { continent = continent_outland }
+        culture_group = culture_group_orc
+        government = warband_gov
+		FROM = {
+			capital_scope = { continent = continent_outland }
+            culture_group = culture_group_orc
+            government = warband_gov
+		}
+        has_global_flag = the_dying_times
+	}
+	
+	war_goal = superiority_horde
+}
