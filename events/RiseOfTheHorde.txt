@@ -30,6 +30,7 @@ country_event = {
 		name = rise_of_the_horde.1.option.a
 
         set_global_flag = nerzhul_recruitment
+        set_country_flag = joined_nerzhul
         custom_tooltip = incite_draenei_violence
         
         add_ruler_modifier = {
@@ -164,37 +165,39 @@ country_event = {
 	}
     
     immediate = {
-        every_country = {
-            limit = {
-                has_country_flag = set_side_for_nerzhul_event
-            }
-            if = { 
-                limit = { 
-                    exists = A34
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    has_country_flag = set_side_for_nerzhul_event
                 }
-                remove_opinion = {
-                    who = A34
-                    modifier = allies_of_nerzhul
-                }
-                A34 = {
+                if = { 
+                    limit = { 
+                        exists = A34
+                    }
                     remove_opinion = {
-                        who = ROOT
+                        who = A34
                         modifier = allies_of_nerzhul
                     }
+                    A34 = {
+                        remove_opinion = {
+                            who = ROOT
+                            modifier = allies_of_nerzhul
+                        }
+                    }
                 }
-            }
-            if = { 
-                limit = { 
-                    exists = A34
-                }
-                remove_opinion = {
-                    who = A34
-                    modifier = enemies_of_nerzhul
-                }
-                A34 = {
+                if = { 
+                    limit = { 
+                        exists = A34
+                    }
                     remove_opinion = {
-                        who = ROOT
+                        who = A34
                         modifier = enemies_of_nerzhul
+                    }
+                    A34 = {
+                        remove_opinion = {
+                            who = ROOT
+                            modifier = enemies_of_nerzhul
+                        }
                     }
                 }
             }
@@ -205,6 +208,7 @@ country_event = {
 		name = rise_of_the_horde.3.option.a
 
         set_global_flag = guldan_recruitment
+        set_country_flag = joined_guldan
         
         define_ruler = {
             name = "Gul'dan"
@@ -270,6 +274,10 @@ country_event = {
         }
         
         set_country_flag = joined_guldan
+        
+        random_owned_province = {
+            change_religion = religion_fel
+        }
         
         ai_chance = {
             factor = 90
@@ -361,7 +369,6 @@ country_event = {
     
 	trigger = {
         has_global_flag = guldan_recruitment
-        
         capital_scope = { continent = continent_outland }
         culture_group = culture_group_draenei
         FROM = {
@@ -372,7 +379,7 @@ country_event = {
 	}
 	
     mean_time_to_happen = {
-		months = 1
+		days = 1
     }
     
 	option = {
@@ -400,11 +407,6 @@ country_event = {
         has_global_flag = blood_of_mannoroth
         capital_scope = { continent = continent_outland }
         culture_group = culture_group_draenei
-        FROM = {
-            capital_scope = { continent = continent_outland }
-            culture_group = culture_group_orc
-            government = warband_gov
-        }
         NOT = { has_country_flag = set_blood_of_mannoroth }
 	}
     
@@ -456,7 +458,7 @@ country_event = {
     
     # Reject
     option = {
-		name = rise_of_the_horde.6.option.b
+		name = rise_of_the_horde.7.option.b
 
         A34 = {
             add_opinion = {
@@ -547,6 +549,8 @@ country_event = {
         1586 = {
             remove_province_modifier = dark_portal_closed
         }
+        
+        set_global_flag = dark_portal_built
     }
 }
 
