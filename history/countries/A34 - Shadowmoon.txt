@@ -7,8 +7,7 @@ primary_culture 	= culture_shadowmoon
 capital 			= 1661
 
 546.1.1 = {
-	monarch =
-	{
+	monarch = {
 		name = "Ner'zhul"
 		dynasty = "Shadowmoon"
 		adm = 4
@@ -18,9 +17,8 @@ capital 			= 1661
 }
 
 548.1.1 = {
-	monarch =
-	{
-		name = "Gul'dan"
+	monarch = {
+		name = "Teron'gor"
 		dynasty = "Shadowmoon"
 		adm = 6
 		dip = 4

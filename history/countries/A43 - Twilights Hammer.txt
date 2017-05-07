@@ -15,13 +15,14 @@ capital 			= 1
 		dip = 4
 		mil = 4
 	} 
-  religion			= religion_fel
+    religion			= religion_fel
 	historical_friend = A40
 	historical_friend = A41
 	historical_friend = B88
 }
 
 617.1.1 = { 
+    remove_country_modifier = fel_infused
     religion = religion_old_gods
     government = cult_gov
     technology_group = tech_old_god

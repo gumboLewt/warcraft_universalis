@@ -69,7 +69,9 @@ country_event = {
 	picture = ORCISH_INVASION_eventPicture
 
 	trigger = {
+        has_global_flag = rise_of_the_horde
         has_global_flag = nerzhul_recruitment
+        
         NOT = { has_country_flag = set_side_for_nerzhul_event }
         capital_scope = { continent = continent_outland }
         culture_group = culture_group_orc
@@ -156,6 +158,8 @@ country_event = {
     fire_only_once = yes
     
 	trigger = {
+        has_global_flag = rise_of_the_horde
+        
         had_global_flag = { flag = nerzhul_recruitment days = 365 }
 		tag = A34
 	}
@@ -211,7 +215,8 @@ country_event = {
         set_country_flag = joined_guldan
         
         define_ruler = {
-            name = "Gul'dan"
+            name = "Teron'gor"
+            dynasty = "Shadowmoon"
             adm = 5
             dip = 3
             mil = 5
@@ -237,7 +242,9 @@ country_event = {
 	picture = ORCISH_INVASION_eventPicture
 
 	trigger = {
+        has_global_flag = rise_of_the_horde
         has_global_flag = guldan_recruitment
+        
         NOT = { has_country_flag = set_side_for_guldan_event }
         capital_scope = { continent = continent_outland }
         culture_group = culture_group_orc
@@ -329,10 +336,11 @@ country_event = {
     fire_only_once = yes
     
 	trigger = {
-        has_global_flag = guldan_recruitment
+        has_global_flag = rise_of_the_horde
+        has_global_flag = blood_of_mannoroth
 		tag = A34
 	}
-	
+
     mean_time_to_happen = {
 		months = 12
     }
@@ -340,18 +348,34 @@ country_event = {
 	option = {
 		name = rise_of_the_horde.5.option.a#
         
-        set_global_flag = set_blood_of_mannoroth
+        set_country_flag = set_blood_of_mannoroth
         set_country_flag = drank_the_demonsblood
         
-        add_country_modifier = {
-            name = the_shadow_council
-            duration = -1
+        hidden_effect = {
+            1671 = {
+                cede_province = B88
+                add_core = B88
+                change_culture = culture_horde
+                change_religion = religion_fel
+            }
+            
+            B88 = {
+                add_country_modifier = {
+                    name = the_shadow_council
+                    duration = -1
+                }
+                set_global_flag = set_blood_of_mannoroth
+                set_country_flag = drank_the_demonsblood
+            }
         }
         
-        change_religion = religion_fel
-        
-        every_owned_province = {
+        if = { 
+            limit = { NOT = { religion_fel } }
             change_religion = religion_fel
+            
+            every_owned_province = {
+                change_religion = religion_fel
+            }
         }
     }
 }
@@ -407,7 +431,9 @@ country_event = {
     major = yes
 
 	trigger = {
+        has_global_flag = rise_of_the_horde
         has_global_flag = blood_of_mannoroth
+        
         capital_scope = { continent = continent_outland }
         culture_group = culture_group_orc
         NOT = { has_country_flag = set_blood_of_mannoroth }
@@ -425,20 +451,15 @@ country_event = {
 	option = {
 		name = rise_of_the_horde.7.option.a
 
-        A34 = {
+        B88 = {
             add_opinion = {
                 who = ROOT
                 modifier = accepted_the_demonsblood
             }
         }
         add_opinion = {
-            who = A34
+            who = B88
             modifier = accepted_the_demonsblood
-        }
-        
-        add_country_modifier = {
-            name = fel_infused
-            duration = 18250
         }
         
         set_country_flag = drank_the_demonsblood
@@ -463,14 +484,14 @@ country_event = {
     option = {
 		name = rise_of_the_horde.7.option.b
 
-        A34 = {
+        B88 = {
             add_opinion = {
                 who = ROOT
                 modifier = rejected_the_demonsblood
             }
         }
         add_opinion = {
-            who = A34
+            who = B88
             modifier = rejected_the_demonsblood
         }
         
@@ -502,7 +523,9 @@ country_event = {
     fire_only_once = yes
     
 	trigger = {
+        has_global_flag = rise_of_the_horde
         has_global_flag = blood_of_mannoroth
+        
         OR = {
             # Karabor and Shattrath badly cut down
             AND = {
@@ -510,6 +533,9 @@ country_event = {
                     NOT = { total_development = 10 }
                 }
                 A55 = {
+                    NOT = { total_development = 10 }
+                }
+                F49 = {
                     NOT = { total_development = 10 }
                 }
             }
@@ -539,8 +565,10 @@ country_event = {
     fire_only_once = yes
     
 	trigger = {
-        has_global_flag = the_dying_times
-        tag = A34
+        had_global_flag = { flag = the_dying_times days = 180 }
+        has_global_flag = rise_of_the_horde
+        
+        tag = B88
 	}
 	
     mean_time_to_happen = {
@@ -577,7 +605,8 @@ country_event = {
     is_triggered_only = yes
     
 	trigger = {
-        tag = A34
+        has_global_flag = rise_of_the_horde
+        tag = B88
 	}
 	
     mean_time_to_happen = {
@@ -587,12 +616,13 @@ country_event = {
 	option = {
 		name = rise_of_the_horde.10.option.a
         
-        clr_global_flag = the_dying_times
-        
         1586 = {
             remove_province_modifier = dark_portal_closed
         }
         
+        clr_global_flag = the_dying_times
+        clr_global_flag = rise_of_the_horde
+        set_global_flag = the_first_war
         set_global_flag = dark_portal_built
     }
 }
@@ -608,8 +638,11 @@ country_event = {
     major = yes
     
 	trigger = {
-        NOT = { exists = A34 }
-        NOT = { has_global_flag = dark_portal_built }
+        has_global_flag = rise_of_the_horde
+        has_global_flag = the_dying_timess
+        
+        NOT = { exists = B88 }
+        NOT = { has_global_flag = the_first_war }
         capital_scope = { continent = continent_outland }
         culture_group = culture_group_orc
 	}
@@ -621,19 +654,16 @@ country_event = {
 	option = {
 		name = rise_of_the_horde.11.option.a
         
-        clr_global_flag = the_dying_times
-        
         1586 = {
             remove_province_modifier = dark_portal_closed
         }
         
+        clr_global_flag = the_dying_times
+        clr_global_flag = rise_of_the_horde
+        set_global_flag = the_first_war
         set_global_flag = dark_portal_built
     }
 }
-
-# The First War
-#   Add CB for orcs against all states on Azeroth
-#   Add minor buff for orcs until they attack Stormwind
 
 # The Exodar
 #   Spawn the Exodar in Azuremyst Isle

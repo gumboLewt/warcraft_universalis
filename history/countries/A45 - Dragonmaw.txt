@@ -15,7 +15,7 @@ capital 			= 1672
 		dip = 3
 		mil = 3
 	}
-  religion = religion_fel
+    religion = religion_fel
 }
 
 600.1.1 = { 
@@ -41,19 +41,19 @@ capital 			= 1672
 }
 
 631.1.1 = {  
-monarch = {  
-      name = "Zaela"  
-     dynasty = "Dragonmaw"  
+    monarch = {  
+    name = "Zaela"  
+    dynasty = "Dragonmaw"  
  		adm = 3 
 		dip = 4
 		mil = 4 
-                female = yes
+        female = yes
   	}
-add_country_modifier = {
-    name = horde_member
-    duration = -1
+    add_country_modifier = {
+        name = horde_member
+        duration = -1
+    }  
 }  
-  }  
 
 633.1.1 = { 
 	monarch = { 

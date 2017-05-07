@@ -23,9 +23,6 @@
  scarlet_crusade_weakness: "Scarlet Crusade Weakness"
  desc_scarlet_crusade_weakness: "The citizens of our realm are far and few between. We will struggle to fill our manpower pool and will most likely have to resort to mercenaries."
  
- horde_on_the_move: "Horde on the Move"
- desc_horde_on_the_move: "The portal is under Fel control. They will permit more orcs through the Dark Portal to assist our fight."
- 
  a_strange_new_world: "A Strange New World"
  desc_a_strange_new_world: "Having travelled from Draenor, the orcish clans are driven crazy by bloodlust as they see before them the prizes of Azeroth."
  
@@ -49,3 +46,9 @@
  
  collapse_of_the_draenei_civilisation: "Collapse of the Draenei"
  desc_collapse_of_the_draenei_civilisation: "The orcish clans on Draenor has increased the potency of their attacks. It won't be long before our people are mere memories."
+ 
+ the_power_of_fel: "The Power of Fel"
+ desc_the_power_of_fel: "The blood of Mannoroth has corrupted our forms, making us stronger, more brutal."
+ 
+ occupation_of_the_blasted_lands: "Occupation of the Blasted Lands"
+ desc_occupation_of_the_blasted_lands: "With little resistance in this region, we can create new settlements easily, and without resistance."

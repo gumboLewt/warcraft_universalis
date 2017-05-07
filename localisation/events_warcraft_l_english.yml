@@ -13,8 +13,8 @@
  rise_of_the_horde.2.option.b: "Reject his guidance"
  
  rise_of_the_horde.3.title: "Doubts of Ner'zhul"
- rise_of_the_horde.3.desc: "Doubts have crept into Ner'zhul's mind. His vision of Rulkan is wrong, and he can no longer trust her spirit without question.\n\nAnd so, Ner'zhul journied to Oshu'gun, where he discovered the true spirit of Rulkan and realised the deception pulled on him.\n\nKil'jaeden, ever resourceful has groomed the orc Gul'dan, an eager one, for the role of usurper.\n\nWith Ner'zhul's obedience questioned, he is forcefully exiled by Gul'dan."
- rise_of_the_horde.3.option.a: "Arise Gul'dan!"
+ rise_of_the_horde.3.desc: "Doubts have crept into Ner'zhul's mind. His vision of Rulkan is wrong, and he can no longer trust her spirit without question.\n\nAnd so, Ner'zhul journied to Oshu'gun, where he discovered the true spirit of Rulkan and realised the deception pulled on him.\n\nGul'dan in turn has been aiding Kil'jaeden, and has turned the shaman Teron'gor against the elements. With an apprentice of his own, Teron'gor will lead the Shadowmoon clan were Ner'zhul failed."
+ rise_of_the_horde.3.option.a: "Arise Teron'gor"
  
  rise_of_the_horde.4.title: "The First Warlocks"
  rise_of_the_horde.4.desc: "Eager to prove himself to Kil'jaeden, Gul'dan has named Blackhand as warcheif of the Orcish Horde, and has begun corrupting the shamanistic practices of the orcs, teaching them to forbidden arts of necromancy and demonology."
@@ -54,13 +54,13 @@
  #-----------------------------------------------
  # The First War
  #-----------------------------------------------
- the_first_war.1.title: ""
- the_first_war.1.desc: ""
- the_first_war.1.option.a: ""
+ the_first_war.1.title: "The First War"
+ the_first_war.1.desc: "Our clan have passaged through the Dark Portal into the now Blasted Lands of Azeroth. Let us spread across this land and pillage and plunder whatever we find."
+ the_first_war.1.option.a: "Zugzug!"
  
- the_first_war.2.title: ""
- the_first_war.2.desc: ""
- the_first_war.2.option.a: ""
+ the_first_war.2.title: "Instruments of Gul'dan"
+ the_first_war.2.desc: "The orcs of the Pale, led by the ogre Cho'gall have been convinced of the role of the Horde in the Hour of Twilight. They have formed a new clan, called Twilight's Hammer."
+ the_first_war.2.option.a: "Let them loose!"
  
  the_first_war.3.title: ""
  the_first_war.3.desc: ""

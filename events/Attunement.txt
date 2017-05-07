@@ -45,8 +45,6 @@ country_event = {
 	desc = attunement.2.desc
 	picture = MAGI_eventPicture
     
-    major = yes
-    
 	trigger = {
         uses_patriarch_authority = yes
 	}
@@ -67,9 +65,7 @@ country_event = {
 	title = attunement.3.title
 	desc = attunement.3.desc
 	picture = MAGI_eventPicture
-    
-    major = yes
-    
+
 	trigger = {
         uses_patriarch_authority = yes
 	}

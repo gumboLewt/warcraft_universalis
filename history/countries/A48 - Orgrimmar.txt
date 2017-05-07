@@ -12,34 +12,34 @@ capital 			= 1377
 	monarch = {
 		name = "Thrall"
 		dynasty = "Durotan"
-    birth_date = 592.1.1
+        birth_date = 592.1.1
 		adm = 4
 		dip = 5
 		mil = 3
 	}
-  historical_friend = A61
-  historical_friend = A35
-  historical_friend = A70
-  historical_friend = A84
-  add_country_modifier = {
-      name = horde_member
-      duration = -1
-  }
-  add_country_modifier = {
-      name = horde_head
-      duration = -1
-  }
+    historical_friend = A61
+    historical_friend = A35
+    historical_friend = A70
+    historical_friend = A84
+    add_country_modifier = {
+        name = horde_member
+        duration = -1
+    }
+    add_country_modifier = {
+        name = horde_head
+        duration = -1
+    }
 }
 
 618.1.1 = {
-  historical_friend = F88
+    historical_friend = F88
 }
 
 631.1.1 = {
 	monarch = {
 		name = "Garrosh"
 		dynasty = "Hellscream"
-    birth_date = 582.1.1
+        birth_date = 582.1.1
 		adm = 3
 		dip = 2
 		mil = 5
@@ -50,10 +50,10 @@ capital 			= 1377
 	monarch = {
 		name = "Varok"       # Probably better to treat Org
 		dynasty = "Saurfang" # monarch as leader of the orcs
-    birth_date = 564.1.1 # rather than leader of the Horde
+        birth_date = 564.1.1 # rather than leader of the Horde
 		adm = 3
 		dip = 3
 		mil = 4
 	}
-  remove_country_modifier = horde_head
+    remove_country_modifier = horde_head
 }

@@ -16,12 +16,12 @@ trade_goods = arcane
 hre = no
 
 592.1.1 = {
-   owner = A34
-    controller = A34
-    add_core = A34
-    remove_core = A34
-    culture = culture_shadowmoon
-    religion = religion_ancestral
+   owner = B88
+    controller = B88
+    add_core = B88
+    remove_core = B88
+    culture = culture_horde
+    religion = religion_fel
 }
 
 #Outland

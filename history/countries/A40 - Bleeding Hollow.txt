@@ -18,7 +18,7 @@ capital 			= 1588
 }
 
 592.1.1 = {
-  religion = religion_fel
+    religion = religion_fel
 	historical_friend = A41
 	historical_friend = A43
 	historical_friend = B88

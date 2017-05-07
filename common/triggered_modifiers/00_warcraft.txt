@@ -1,7 +1,11 @@
+#-----------------------------------------------------
 # Rise of the Horde
+#-----------------------------------------------------
 collapse_of_the_draenei_civilisation = {
 	potential = {
 		has_global_flag = rise_of_the_horde
+        capital_scope = { continent = continent_outland }
+        culture_group = culture_group_draenei
 	}
 	
 	trigger = {
@@ -15,7 +19,40 @@ collapse_of_the_draenei_civilisation = {
     global_trade_power = -0.5
 }
 
+
+the_power_of_fel = {
+    potential = {
+        culture_group = culture_group_orc
+        religion = religion_fel
+    }
+	trigger = {
+        culture_group = culture_group_orc
+        religion = religion_fel
+	}
+
+	manpower_recovery_speed = 0.5 
+    discipline = 0.05
+    land_morale = 0.1
+}
+
+occupation_of_the_blasted_lands = {
+    potential = {
+        has_global_flag = the_first_war
+        culture_group = culture_group_orc
+        religion = religion_fel
+    }
+	trigger = {
+        region_blasted_lands = {
+            is_empty = yes
+        }
+	}
+
+	colonists = 1
+}
+
+#-----------------------------------------------------
 # Other
+#-----------------------------------------------------
 scourge_mindlessness = {
 	potential = {
 		primary_culture = culture_scourge
@@ -48,24 +85,6 @@ power_of_the_dragons = {
 
     global_tax_income = 64
 }
-
-horde_on_the_move = {
-    potential = {
-        culture_group = culture_group_orc
-    }
-	trigger = {
-        has_global_flag = dark_portal_built
-        NOT = { has_global_flag = azeroth_rout }
-        religion = religion_fel
-	}
-    
-	global_manpower = 25
-	manpower_recovery_speed = 0.5
-	global_tax_income = 180
-	land_forcelimit = 50
-	war_exhaustion = -0.1
-}
-
 power_of_the_sunwell = {
     potential = {
         OR = {

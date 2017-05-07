@@ -3,14 +3,81 @@ namespace = the_first_war
 # Add once Orcs need to be weakened
 # set_global_flag = azeroth_rout 
 
-# The Blasted Lands
-# All clans with gul'dan allegiance spawn get 1 random province in the Blasted Lands
-#   If starting in 592, pick Shadowmoon, Blackrock and Bleeding Hollow
-#   Gain CB on all Humans
-#   Free colonist, can_colonize check for the Blasted Lands
+# The First War
+#   Add CB for orcs against all states on Azeroth
+#   Add minor buff for orcs until they attack Stormwind
+country_event = {
+	id = the_first_war.1
+	title = the_first_war.1.title
+	desc = the_first_war.1.desc
+	picture = ORCISH_INVASION_eventPicture
+
+	trigger = {
+        has_global_flag = the_first_war
+        capital_scope = { continent = continent_outland }
+        culture_group = culture_group_orc
+        government = warband_gov
+        region_blasted_lands = {
+            is_empty = yes
+        }
+	}
+	
+    mean_time_to_happen = {
+		months = 1
+    }
+    
+	option = {
+		name = the_first_war.1.option.a
+        
+        random_province = {
+            limit = {
+                region = region_blasted_lands
+                is_empty = yes
+            }
+
+            cede_province = ROOT
+            add_core = ROOT
+            change_culture = ROOT
+            change_religion = ROOT
+        }
+    }
+}
 
 # Gul'dan Instruments
 #   Spawn Twilight's Hammer in the Blasted Lands, 1 random province in the Blasted Lands
+country_event = {
+	id = the_first_war.2
+	title = the_first_war.2.title
+	desc = the_first_war.2.desc
+	picture = ORCISH_INVASION_eventPicture
+
+    major = yes
+    
+	trigger = {
+        has_global_flag = the_first_war
+        tag = B88
+	}
+	
+    mean_time_to_happen = {
+		months = 1
+    }
+    
+	option = {
+		name = the_first_war.2.option.a
+
+        random_province = {
+            limit = {
+                region = region_blasted_lands
+                is_empty = yes
+            }
+
+            cede_province = A43
+            add_core = A43
+            change_culture = culture_twilights_hammer
+            change_religion = religion_fel
+        }
+    }
+}
 
 # Assault on Darkshire
 #   Debuff for humans once Darkshire is attacked
