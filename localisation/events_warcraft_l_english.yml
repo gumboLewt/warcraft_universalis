@@ -642,6 +642,22 @@
  generic_onaction.2.option.a: "Crush them!"
  
  #-----------------------------------------------
+ # Attunement
+ #-----------------------------------------------
+ attunement.1.title: "[Root.GetElementalType] Attunement"
+ attunement.1.desc: "Our [Root.GetElementalTypeAdj] overlord demands regular tribute, else our attunement with the element of [Root.GetElementalType] will diminish."
+ attunement.1.option.a: "We must please our [Root.GetElementalTypeAdj] overlord"
+ attunement.1.option.b: "Our attunement with [Root.GetElementalType] means little"
+ 
+ attunement.2.title: "Favour of [Root.GetElementalLord]"
+ attunement.2.desc: "Our attunement to the element of [Root.GetElementalType] has strengthened. The elements favour us in this moment."
+ attunement.2.option.a: "O' lordly [Root.GetElementalLord]"
+ 
+ attunement.3.title: "Disfavour of [Root.GetElementalLord]"
+ attunement.3.desc: "Our attunement to the element of [Root.GetElementalType] has weakened. The elements disfavour us in this moment."
+ attunement.3.option.a: "How dare [Root.GetElementalLord] besmirch our people"
+ 
+ #-----------------------------------------------
  # Empty
  #-----------------------------------------------
  dark_portal.1.title: ""
