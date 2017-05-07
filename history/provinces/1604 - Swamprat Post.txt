@@ -1,9 +1,9 @@
 # 1604 - Swamprat Post.txt
 is_city = yes
 
-owner = A56
-controller = A56
-add_core = A56
+owner = A54
+controller = A54
+add_core = A54
 
 base_tax = 3
 base_production = 3
@@ -16,21 +16,21 @@ trade_goods = fish
 hre = no
 
 601.1.1 = {
-owner = F51
-controller = F51
-add_core =  F51
-remove_core = A56
-culture = culture_fungal_giant
-religion = religion_zangar
+    owner = F51
+    controller = F51
+    add_core =  F51
+    remove_core = A56
+    culture = culture_fungal_giant
+    religion = religion_zangar
 }
 
 625.1.1 = {
-owner = A70
-controller = A70
-add_core = A70
-remove_core = F51
-culture = culture_darkspear
-religion = religion_loa
+    owner = A70
+    controller = A70
+    add_core = A70
+    remove_core = F51
+    culture = culture_darkspear
+    religion = religion_loa
 }
 
 

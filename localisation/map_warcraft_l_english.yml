@@ -28,7 +28,7 @@
  #-----------------------------------------------
  # Regions
  #-----------------------------------------------
- 
+ region_zangermarsh: "Zangermarsh"
  region_isle_of_quel_danas: "Isle of Quel'Danas"
  region_eversong_woods: "Eversong Woods"
  region_ghostlands: "Ghostlands"

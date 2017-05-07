@@ -16,8 +16,10 @@ trade_goods = crypts
 hre = no
 
 592.1.1 = {
-	owner = B88
-	controller = B88
-	add_core =  B88
-	religion = religion_shadow
+    owner = A39
+    controller = A39
+    add_core = A39
+    remove_core = F49
+    religion = religion_fel
+    culture = culture_bonechewer
 }

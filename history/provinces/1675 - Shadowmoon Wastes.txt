@@ -15,15 +15,6 @@ religion = religion_ancestral
 trade_goods = artifacts
 hre = no
 
-546.1.1 = {
-    owner = A34
-    controller = A34
-    add_core =  A34
-
-    culture = culture_shadowmoon
-    religion = religion_ancestral
-}
-
 592.1.1 = {
     religion = religion_fel
 }

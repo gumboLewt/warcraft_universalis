@@ -33,11 +33,3 @@ hre = no
 	religion = religion_fel
 }
 
-# Rise of the Qiraji
-622.1.1 = {
-    is_city = yes
-	owner = B88
-	controller = B88
-	add_core =  B88
-	culture = culture_horde
-}

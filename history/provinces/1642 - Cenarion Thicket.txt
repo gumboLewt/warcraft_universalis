@@ -16,15 +16,15 @@ trade_goods = fur
 hre = no
 
 592.1.1 = {
-remove_core = A54
-add_core = B88
-owner = B88
-controller = B88
-religion = religion_shadow
-culture = culture_horde
+    owner = A34
+    controller = A34
+    add_core = A34
+    remove_core = A54
+    religion = religion_fel
+    culture = culture_shadowmoon
 }
 
 # The Burning Crusade
 625.1.1 = {
-trade_goods = moonwell
+    trade_goods = moonwell
 }

@@ -1,9 +1,9 @@
 # 1598 - Temple of Telhamat.txt
 is_city = yes
 
-owner = A56
-controller = A56
-add_core = A56
+owner = A54
+controller = A54
+add_core = A54
 
 base_tax = 3
 base_production = 3
@@ -16,20 +16,20 @@ trade_goods = artifacts
 hre = no
 
 592.1.1 = {
-add_core = A36
-owner = A36
-controller = A36
-religion = religion_fel
-culture = culture_shattered_hand
+    add_core = A36
+    owner = A36
+    controller = A36
+    religion = religion_fel
+    culture = culture_shattered_hand
 }
 
 #Outland
 601.1.1 = {
-owner = A56
-controller = A56
-add_core = A56
-remove_core = A36
-culture = culture_shattrathi
-religion = religion_light_of_the_naaru
+    owner = A54
+    controller = A54
+    add_core = A54
+    remove_core = A54
+    culture = culture_shattrathi
+    religion = religion_light_of_the_naaru
 }
 

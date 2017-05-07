@@ -15,15 +15,6 @@ religion = religion_light_of_the_naaru
 trade_goods = artifacts
 hre = no
 
-546.1.1 = {
-    owner = A55
-    controller = A55
-    add_core =  A55
-
-    culture = culture_karaborian
-    religion = religion_light_of_the_naaru
-}
-
 601.1.1 = {
 	owner = A57
 	controller = A57

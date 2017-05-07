@@ -1,9 +1,9 @@
 # 2049 - Umbrafen Marsh.txt
 is_city = yes
 
-owner = A56
-controller = A56
-add_core = A56
+owner = A54
+controller = A54
+add_core = A54
 
 base_tax = 3
 base_production = 3

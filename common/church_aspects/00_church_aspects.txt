@@ -1,93 +1,9 @@
 #---------------------------------
-# Fel
-#---------------------------------
-bloodlust = {
-	effect = {
-		discipline = 0.1
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-fel_corruption = {
-	effect = {
-        infantry_power = 0.1
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-demonology = {
-	effect = {
-        shock_damage = 0.1
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-fel_infusion = {
-	effect = {
-        fire_damage = 0.1
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-sacrificial_rituals = {
-	effect = {
-        stability_cost_modifier = -0.1
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-nurture_warlocks = {
-	effect = {
-        leader_land_fire = 1
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-fel_drain = {
-	effect = {
-        years_of_nationalism = -5
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-fel_stone = {
-	effect = {
-        build_cost = -0.15
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-demonic_influences = {
-	effect = {
-        diplomatic_reputation = 1
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-#---------------------------------
 # The Damned
 #---------------------------------
 unrelenting_conversion = {
     effect = {
-        colonists = 1
+        global_missionary_strength = 0.02
     }
     
     ai_will_do = {
@@ -102,7 +18,7 @@ unrelenting_conversion = {
 
 unity_in_death = {
     effect = {
-        global_missionary_strength = 0.05
+        culture_conversion_cost = -0.15
     }
     
     ai_will_do = {
@@ -117,7 +33,7 @@ unity_in_death = {
 
 patchwork_minions = {
     effect = {
-        global_manpower_modifier = 0.25
+        global_manpower_modifier = 0.1
     }
     
     ai_will_do = {
@@ -132,7 +48,7 @@ patchwork_minions = {
 
 blight = {
     effect = {
-        hostile_attrition = 5
+        hostile_attrition = 1
     }
     
     ai_will_do = {
@@ -142,7 +58,7 @@ blight = {
 
 flesh_supplies = {
     effect = {
-        recover_army_morale_speed = 0.25
+        recover_army_morale_speed = 0.1
     }
     
     ai_will_do = {
@@ -152,7 +68,7 @@ flesh_supplies = {
 
 raze_and_ruin = {
     effect = {
-        siege_ability = 0.1
+        siege_ability = 0.05
     }
     
     ai_will_do = {
@@ -162,7 +78,7 @@ raze_and_ruin = {
 
 acolytes_of_the_damned = {
     effect = {
-        improve_relation_modifier = 0.15
+        improve_relation_modifier = 0.1
     }
     
     ai_will_do = {
@@ -195,7 +111,7 @@ corrupted_minds = {
 #---------------------------------
 manifest_the_void = {
     effect = {
-        all_power_cost = -0.05
+        all_power_cost = -0.025
     }
     
     ai_will_do = {
@@ -205,7 +121,7 @@ manifest_the_void = {
 
 void_corruption = {
     effect = {
-        rebel_support_efficiency = 1
+        rebel_support_efficiency = 0.5
     }
     
     ai_will_do = {
@@ -215,7 +131,7 @@ void_corruption = {
 
 parasitic_horrors = {
     effect = {
-        shock_damage = 0.2
+        shock_damage = 0.1
     }
     
     ai_will_do = {
@@ -225,7 +141,7 @@ parasitic_horrors = {
 
 void_tendrils = {
     effect = {
-        global_missionary_strength = 0.05
+        global_missionary_strength = 0.02
     }
     
     ai_will_do = {
@@ -245,7 +161,7 @@ demonic_allies = {
 
 summon_voidwalkers = {
     effect = {
-        land_maintenance_modifier = -0.15
+        land_maintenance_modifier = -0.1
     }
     
     ai_will_do = {
@@ -255,7 +171,7 @@ summon_voidwalkers = {
 
 voidform = {
     effect = {
-        movement_speed = 0.25
+        movement_speed = 0.15
     }
     
     ai_will_do = {
@@ -266,8 +182,126 @@ voidform = {
 #---------------------------------
 # Shadow
 #---------------------------------
+shadow_word_pain = {
+    effect = {
+        siege_ability = 0.05
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+shadow_word_death = {
+    effect = {
+        fire_damage = 0.1
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+shadow_mend = {
+    effect = {
+        manpower_recovery_speed = 0.15
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+call_shadowfiend = {
+    effect = {
+        infantry_power = 0.05
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+master_of_duality = {
+    effect = {
+        land_morale = 0.075
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+psychic_scream = {
+    effect = {
+        backrow_artillery_damage = 0.1
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
 
 
 #---------------------------------
 # Old God (Madness)
 #---------------------------------
+maddenning_howl = {
+    effect = {
+        hostile_attrition = 1
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+call_from_beyond = {
+    effect = {
+        advisor_pool = 1
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+shadowy_barrier = {
+    effect = {
+        defensiveness = 0.25
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+beacon_of_madness = {
+    effect = {
+        global_regiment_recruit_speed = -0.15
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+lunatic_gaze = {
+    effect = {
+        shock_damage = 0.1
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}
+
+widsom_of_the_mad = {
+    effect = {
+        idea_cost = -0.05
+    }
+    
+    ai_will_do = {
+		factor = 1
+	}
+}

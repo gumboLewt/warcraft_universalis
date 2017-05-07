@@ -504,10 +504,14 @@ country_event = {
 	trigger = {
         has_global_flag = blood_of_mannoroth
         OR = {
+            # Karabor and Shattrath badly cut down
             AND = {
-                NOT = { exists = A54 } # Shattrath
-                NOT = { exists = A55 } # Karabor
-                NOT = { exists = F49 } # Kurenai
+                A54 = {
+                    NOT = { total_development = 10 }
+                }
+                A55 = {
+                    NOT = { total_development = 10 }
+                }
             }
             is_year = 590 # fallback
         }
@@ -583,6 +587,8 @@ country_event = {
 	option = {
 		name = rise_of_the_horde.10.option.a
         
+        clr_global_flag = the_dying_times
+        
         1586 = {
             remove_province_modifier = dark_portal_closed
         }
@@ -615,6 +621,8 @@ country_event = {
 	option = {
 		name = rise_of_the_horde.11.option.a
         
+        clr_global_flag = the_dying_times
+        
         1586 = {
             remove_province_modifier = dark_portal_closed
         }
@@ -627,5 +635,6 @@ country_event = {
 #   Add CB for orcs against all states on Azeroth
 #   Add minor buff for orcs until they attack Stormwind
 
-# Draenei:
-#   Orc clans who agree with Gul'dan/Ner'zhul will gain -100 opinion and a CB against all Draenei states
+# The Exodar
+#   Spawn the Exodar in Azuremyst Isle
+

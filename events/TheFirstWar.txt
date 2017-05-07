@@ -1,265 +1,28 @@
 namespace = the_first_war
 
-# 592
+# Add once Orcs need to be weakened
+# set_global_flag = azeroth_rout 
 
-# The Blood of Mannaroth
-# Borne from the blood of the Destructor, powers beyond comprehension can be gained. All it takes is a sip. What do you say, [Root.Monarch.GetTitle] [Root.Monarch.GetName]? Will you quench your thirst?
-# I will!
-# Begone tainted one!
-country_event = {
-	id = the_first_war.1
-	title = the_first_war.1.title
-	desc = the_first_war.1.desc
-	picture = MANNOROTH_eventPicture # Placeholder
-    
-	trigger = {
-        always = no
-        NOT = { tag = A46 }
-		is_year = 592
-		NOT = { is_year = 600 }
-		culture_group = culture_group_orc
-		NOT = { has_country_modifier = blood_of_mannaroth }
-        NOT = { has_country_modifier = blood_of_mannaroth_event } 
-	}
-	
-	immediate = {
-        hidden_effect = {
-            add_country_modifier = {
-                name = blood_of_mannaroth_event
-                duration = -1
-                hidden = yes
-            }
-        }
-    }
-	
-	option = {
-		name = the_first_war.1.option.a
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - the_first_war.1.option.a" }
+# The Blasted Lands
+# All clans with gul'dan allegiance spawn get 1 random province in the Blasted Lands
+#   If starting in 592, pick Shadowmoon, Blackrock and Bleeding Hollow
+#   Gain CB on all Humans
+#   Free colonist, can_colonize check for the Blasted Lands
 
-		add_country_modifier = {
-			name = blood_of_mannaroth
-			duration = -1
-		}
-		
-        change_religion = religion_fel
-        every_owned_province = {
-            change_religion = religion_fel
-        }
-        
-		ai_chance = { 
-			factor = 100 
-		}
-	}
-	
-	option = {
-		name = the_first_war.1.option.b
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - the_first_war.1.option.b" }
+# Gul'dan Instruments
+#   Spawn Twilight's Hammer in the Blasted Lands, 1 random province in the Blasted Lands
 
-        release_all_subjects = yes
-        add_stability = -6
-	}
-}
+# Assault on Darkshire
+#   Debuff for humans once Darkshire is attacked
 
-# Blood Boil!
-# The demonsblood within the veins [Root.Monarch.GetTitle] [Root.Monarch.GetName] has begun churning, and has sent [Root.Monarch.GetHimHer] into a fit of rage. 
-# Roar!
-country_event = {
-	id = the_first_war.7
-	title = the_first_war.7.title
-	desc = the_first_war.7.desc
-	picture = MANNOROTH_eventPicture # Placeholder
-    
-	trigger = {
-		has_country_modifier = blood_of_mannaroth
-	}
-    
-    mean_time_to_happen = {
-		months = 600
-	}
-    
-	option = {
-		name = the_first_war.7.option.a
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - the_first_war.7.option.a" }
-		change_mil = 1
-		
-		ai_chance = { 
-			factor = 100 
-		}
-	}
-}
+# Assault on Westfall
+#   Debuff for humans once Westfall is attacked
 
-# Sullen
-# The demonsblood within the veins [Root.Monarch.GetTitle] [Root.Monarch.GetName] has begun churning, and has sent [Root.Monarch.GetHimHer] into a depressive stupor.
-# Zzzz....
-country_event = {
-	id = the_first_war.8
-	title = the_first_war.8.title
-	desc = the_first_war.8.desc
-	picture = MANNOROTH_eventPicture # Placeholder
-    
-	trigger = {
-		has_country_modifier = blood_of_mannaroth
-	}
-    
-    mean_time_to_happen = {
-		months = 600
-	}
-    
-	option = {
-		name = the_first_war.8.option.a
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - the_first_war.8.option.a" }
+# Assault on Redridge Mountains
+#   Debuff for humans once Redridge is attacked
 
-        change_adm = -1
-		
-		ai_chance = { 
-			factor = 100 
-		}
-	}
-}
-
-# Boiling Blood!
-# The clansmen who partook in the demonsblood have become enraged, and are eager for blood. If we cannot sate their bloodlust, they're liable to decimate one another. Do you allow them to wage war?
-# Zug Zug!
-# No, we must be resist the demonsblood!
-country_event = {
-	id = the_first_war.9
-	title = the_first_war.9.title
-	desc = the_first_war.9.desc
-	picture = MANNOROTH_eventPicture # Placeholder
-    
-	trigger = {
-		has_country_modifier = blood_of_mannaroth
-        is_subject = no
-        any_neighbor_country = {  
-            ROOT = {
-                NOT = { has_opinion = { who = PREV value = 0 } }
-            }
-            NOT = { religion = religion_fel }
-            NOT = { alliance_with = ROOT }
-        }
-	}
-    
-    mean_time_to_happen = {
-		months = 300
-	}
-    
-	option = {
-		name = the_first_war.9.option.a
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - the_first_war.9.option.a" }
-		random_neighbor_country = {
-            limit = {
-                ROOT = {
-                    NOT = { has_opinion = { who = PREV value = 0 } }
-                }
-                NOT = { religion = religion_fel }
-                NOT = { alliance_with = ROOT }
-            }
-            ROOT = {
-                declare_war = PREV
-            }
-        }
-        
-		ai_chance = { 
-			factor = 50
-		}
-	}
-	
-	option = {
-		name = the_first_war.9.option.b
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - the_first_war.9.option.b" }
-
-        add_yearly_manpower = -5
-	}
-}
-
-# Zzzzzz....
-# The demonsblood has sent our clansmen into a stupor, their bodies leaden and their spirits faltering. Without some rousing they are liable to pass out, leaving out outposts defenceless!
-# Rouse them!
-# Let the sleep... 
-country_event = {
-	id = the_first_war.10
-	title = the_first_war.10.title
-	desc = the_first_war.10.desc
-	picture = MANNOROTH_eventPicture # Placeholder
-    
-	trigger = {
-		has_country_modifier = blood_of_mannaroth
-	}
-    
-    mean_time_to_happen = {
-		months = 300
-	}
-    
-	option = {
-		name = the_first_war.10.option.a
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - the_first_war.10.option.a" }
-
-		add_stability = -1
-        
-		ai_chance = { 
-			factor = 50
-		}
-	}
-	
-	option = {
-		name = the_first_war.10.option.b
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - the_first_war.10.option.b" }
-
-        add_mil_power = -100
-	}
-}
-# Support from the Dark Portal
-country_event = {
-	id = the_first_war.5
-	title = the_first_war.5.title
-	desc = the_first_war.5.desc
-	picture = ORCISH_INVASION_eventPicture
-    
-	trigger = {
-        religion = religion_fel
-        culture_group = culture_group_orc
-        1035 = {
-            religion = religion_fel # If the Portal is controlled by a Fel-aligned nation, they'd let through reinforcements
-        }
-        NOT = { is_year = 601 } #Draenor Explodes and Outland is Created
-        capital_scope = { region = region_blasted_lands } #Close proximity to portal
-	}
-	
-	mean_time_to_happen = {
-		months = 64
-        
-        modifier = {
-            factor = 0.5
-            
-            NOT = { manpower_percentage = 0.25 }
-        }
-        
-        modifier = {
-            factor = 0.5
-            
-            NOT = { manpower_percentage = 0.5 }
-        }
-        
-        modifier = {
-            factor = 0.5
-            
-            NOT = { manpower_percentage = 0.75 }
-        }
-	}
-	
-	option = {
-		name = the_first_war.5.option.a
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - the_first_war.5.option.a" }
-
-        add_yearly_manpower = 1
-    }
-}
+# Assault on Stormwind
+#   Clear previous debuffs
+#   Buff for humans once Stormwind is attacked
+#   -> Stormwind loses, skip to Fall of Stormwind
+#   -> Stormwind wins, follow lore path

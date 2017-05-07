@@ -1,15 +1,15 @@
 # 1686 - Circle of Blood.txt
 is_city = yes
 
-owner = F77
-controller = F77
-add_core = F77
+owner = A49
+controller = A49
+add_core = A49
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
-culture = culture_bloodmaul
+culture = culture_bladespire
 religion = religion_geomancy
 
 trade_goods = warbeasts

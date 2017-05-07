@@ -1,36 +1,21 @@
 # 1668 - Coilskar Point.txt
 is_city = yes
 
-owner = A55
-controller = A55
-add_core = A55
+owner = A34
+controller = A34
+add_core = A34
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_karaborian
-religion = religion_light_of_the_naaru
+culture = culture_shadowmoon
+religion = religion_ancestral
 
 trade_goods = fish
 hre = no
 
-546.1.1 = {
-    owner = A55
-    controller = A55
-    add_core =  A55
-    
-    culture = culture_karaborian
-    religion = religion_light_of_the_naaru
-}
-
 592.1.1 = {
-    add_core = A34
-    owner = A34
-    controller = A34
-    remove_core = A55
-    
-    culture = culture_shadowmoon
     religion = religion_fel
 }
 

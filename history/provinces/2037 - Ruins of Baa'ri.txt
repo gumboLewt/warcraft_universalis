@@ -25,13 +25,12 @@ hre = no
 }
 
 592.1.1 = {
-    add_core = B88
-    owner = B88
-    controller = B88
+   owner = A34
+    controller = A34
+    add_core = A34
     remove_core = A55
-    
-    culture = culture_horde
-    religion = religion_fel
+    culture = culture_shadowmoon
+    religion = religion_ancestral
 }
 
 #Outland
@@ -39,7 +38,6 @@ hre = no
     owner = B89
     controller = B89
     add_core =  B89
-    remove_core = B88
     culture = culture_fel_orc
 }
 

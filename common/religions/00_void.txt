@@ -23,7 +23,12 @@ religion_group_the_void = {
 
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
-            
+            shadow_word_pain
+            shadow_word_death
+            shadow_mend
+            call_shadowfiend
+            master_of_duality
+            psychic_scream
 		}
 		
 		on_convert = {
@@ -52,7 +57,12 @@ religion_group_the_void = {
 		
         uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
-            
+            maddenning_howl
+            call_from_beyond
+            shadowy_barrier
+            beacon_of_madness
+            lunatic_gaze
+            widsom_of_the_mad
 		}
         
 		on_convert = {
@@ -162,7 +172,12 @@ religion_group_the_void = {
 		
         uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
-            
+            shadow_word_pain
+            shadow_word_death
+            shadow_mend
+            call_shadowfiend
+            master_of_duality
+            psychic_scream
 		}
         
 		on_convert = {

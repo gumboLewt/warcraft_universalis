@@ -9,6 +9,7 @@ base_tax = 7
 base_production = 7
 base_manpower = 7
 
+culture = culture_shattered_hand
 religion = religion_ancestral
 
 trade_goods = army_supplies

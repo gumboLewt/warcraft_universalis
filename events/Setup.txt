@@ -25,8 +25,8 @@ country_event = {
         # --- Logging flags
         #   Comment these for release builds
         #   Enabling these will spam the game.log
-        set_global_flag = enable_onaction_logging
-        set_global_flag = enable_event_logging
+        #set_global_flag = enable_onaction_logging
+        #set_global_flag = enable_event_logging
 
         if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - Global Setup" }
 

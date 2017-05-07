@@ -16,9 +16,9 @@ trade_goods = army_supplies
 hre = no
 
 601.1.1 = { 
-	owner = B88
-	controller = B88
-	add_core = B88
-	culture = culture_horde
-	religion = religion_fel
+	owner = A34
+    controller = A34
+    add_core = A34
+    culture = culture_shadowmoon
+    religion = religion_fel
 }

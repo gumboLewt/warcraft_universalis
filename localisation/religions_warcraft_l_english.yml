@@ -257,9 +257,32 @@
  desc_demonic_influences: ""
  
  # Shadow
+ shadow_word_pain: "Shadow Word: Pain"
+ desc_shadow_word_pain: ""
+ shadow_word_death: "Shadow Word: Death"
+ desc_shadow_word_death: ""
+ shadow_mend: "Shadow Mending"
+ desc_shadow_mend: ""
+ call_shadowfiend: "Summon Shadowfiends"
+ desc_call_shadowfiend: ""
+ master_of_duality: "Master Duality"
+ desc_master_of_duality: ""
+ psychic_scream: "Psychic Screams"
+ desc_psychic_scream: ""
  
  # Old God
- 
+ maddenning_howl: "Maddenning Howls"
+ desc_maddenning_howl: ""
+ call_from_beyond: "Call from Beyond"
+ desc_call_from_beyond: ""
+ shadowy_barrier: "Shadowy Barriers"
+ desc_shadowy_barrier: ""
+ beacon_of_madness: "Beacons of Madness"
+ desc_beacon_of_madness: ""
+ lunatic_gaze: "Gaze of a Lunatic"
+ desc_lunatic_gaze: ""
+ widsom_of_the_mad: "Wisdom of the Insane"
+ desc_widsom_of_the_mad: ""
  #------------------------------------------------
  # Personal Deities
  #------------------------------------------------

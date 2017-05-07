@@ -16,7 +16,7 @@ trade_goods = fel
 hre = no
 
 592.1.1 = {
-religion = religion_fel
+    religion = religion_fel
 }
 
 #Outland

@@ -16,22 +16,23 @@ trade_goods = artifacts
 hre = no
 
 592.1.1 = {
-add_core = B88
-owner = B88
-controller = B88
-religion = religion_shadow
-culture = culture_horde
+    owner = A34
+    controller = A34
+    add_core = A34
+    remove_core = A54
+    religion = religion_fel
+    culture = culture_shadowmoon
 }
 
 # Rise of the Qiraji
 622.1.1 = {
-owner = A54
-controller = A54
-add_core =  A54
-culture = culture_shattrathi
-religion = religion_light_of_the_naaru
-base_tax = 8
-base_manpower = 8
-base_production = 8
+    owner = A54
+    controller = A54
+    add_core =  A54
+    culture = culture_shattrathi
+    religion = religion_light_of_the_naaru
+    base_tax = 8
+    base_manpower = 8
+    base_production = 8
 }
 

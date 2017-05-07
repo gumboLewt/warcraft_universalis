@@ -1,26 +1,17 @@
 # 1608 - Telredor.txt
 is_city = yes
 
-owner = F68
-controller = F68
-add_core = F68
+owner = F62
+controller = F62
+add_core = F62
 
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
-culture = culture_shattrathi
-religion = religion_light_of_the_naaru
+culture = culture_sporeling
+religion = religion_zangar
 
 trade_goods = glowcap
 hre = no
-
-601.1.1 = {
-owner = A56
-controller = A56
-add_core =  A56
-}
-
-
-
 

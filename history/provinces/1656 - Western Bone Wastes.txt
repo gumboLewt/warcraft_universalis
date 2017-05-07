@@ -15,7 +15,11 @@ religion = religion_light_of_the_naaru
 trade_goods = crypts
 hre = no
 
-625.1.1 = {
-religion = religion_void
+592.1.1 = {
+    owner = A39
+    controller = A39
+    add_core = A39
+    remove_core = F49
+    religion = religion_fel
+    culture = culture_bonechewer
 }
-

@@ -16,10 +16,10 @@ trade_goods = fur
 hre = no
 
 592.1.1 = {
-    add_core = B88
+    owner = A34
+    controller = A34
+    add_core = A34
     remove_core = A54
-    controller = B88
-    owner = B88
     religion = religion_fel
-    culture = culture_horde
+    culture = culture_shadowmoon
 }
