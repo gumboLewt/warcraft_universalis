@@ -370,7 +370,8 @@ country_event = {
         }
         
         if = { 
-            limit = { NOT = { religion_fel } }
+            limit = { NOT = { religion = religion_fel } }
+            
             change_religion = religion_fel
             
             every_owned_province = {
