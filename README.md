@@ -21,7 +21,7 @@ Join our Discord server with: https://discord.gg/cE2z6Aa
 	
 4. Launch Europa Universalis 4 and tick **Warcraft Universalis** under the Mod tab.
 
-## Steam Workship Links
+## Steam Workshop Links
 Main - http://steamcommunity.com/sharedfiles/filedetails/?id=713243950
 
 Art - http://steamcommunity.com/sharedfiles/filedetails/?id=901607627
