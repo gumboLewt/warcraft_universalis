@@ -209,7 +209,7 @@ light_of_the_naaru_rebels = {
           }
           add_core = REB
         }
-        release_vassal = REB
+        create_vassal = REB
       }
 		}
 		if = {

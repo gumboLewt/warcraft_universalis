@@ -14,12 +14,12 @@
 # --------------------------------------------------------------
 
 # Restoration of recently broken PU
-cb_restore_personal_union = {	
+cb_restore_personal_union = {
 	valid_for_subject = no
-	
+
 	is_triggered_only = yes
 	months = 240
-	
+
 	prerequisites = {
 		government = monarchy
 		is_revolution_target = no
@@ -27,7 +27,7 @@ cb_restore_personal_union = {
           is_subject = no
         }
 	}
-	
+
 	war_goal = take_capital_personal_union
 }
 
@@ -37,7 +37,7 @@ cb_defection = {
 
 	is_triggered_only = yes
 	months = 12
-	
+
 	war_goal = take_core_defection
 }
 
@@ -47,7 +47,7 @@ cb_loan_cancelled = {
 
 	is_triggered_only = yes
 	months = 12
-	
+
 	war_goal = superiority_loan
 }
 
@@ -57,7 +57,7 @@ cb_spy_discovered = {
 
 	is_triggered_only = yes
 	months = 12
-	
+
 	war_goal = superiority_spy
 }
 
@@ -67,7 +67,7 @@ cb_disloyal_vassal = {
 
 	is_triggered_only = yes
 	months = 120
-	
+
 	war_goal = take_capital_disloyal
 }
 
@@ -77,8 +77,8 @@ cb_hre_attacked = {
 
 	is_triggered_only = yes
 	months = 60
-	
-	war_goal = take_province_hre	
+
+	war_goal = take_province_hre
 }
 
 # War of Honor
@@ -86,10 +86,10 @@ cb_insult = {
 	valid_for_subject = no
 
 	is_triggered_only = yes
-	
+
 	months = 12
-	
-	war_goal = superiority_insult_mutual	
+
+	war_goal = superiority_insult_mutual
 }
 
 # Dishonored an alliance
@@ -98,37 +98,37 @@ cb_dishonored_call = {
 
 	is_triggered_only = yes
 	months = 36
-	
-	war_goal = superiority_insult	
+
+	war_goal = superiority_insult
 }
 
 # CB for vassalization missions
 cb_vassalize_mission = {
 	valid_for_subject = no
-	
+
 	is_triggered_only = yes
 	months = 120
-	
+
 	war_goal = take_capital_vassalize
 }
 
 # CB for fabricated claim on throne. (from events)
 cb_fabricated_claims = {
 	valid_for_subject = no
-	
+
 	is_triggered_only = yes
 	months = 12
-	
-	war_goal = take_capital_fabricated_claims		
+
+	war_goal = take_capital_fabricated_claims
 }
 
 # CB for Emperor against HRE members that refuse religious conformance
 cb_religious_conformance = {
 	valid_for_subject = no
-	
+
 	is_triggered_only = yes
 	months = 24
-	
+
 	war_goal = take_capital_conformance
 }
 
@@ -138,8 +138,8 @@ cb_border_war = {
 
 	is_triggered_only = yes
 	months = 12
-	
-	war_goal = take_border	
+
+	war_goal = take_border
 }
 
 # Trade War (from events and others)
@@ -149,7 +149,20 @@ cb_trade_war_triggered = {
 	is_triggered_only = yes
 	months = 24
 
-	war_goal = superiority_trade	
+	war_goal = superiority_trade
+
+	attacker_disabled_po = {
+		po_annex
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+		po_become_vassal
+		po_become_tributary_state
+		po_form_personal_union
+		po_transfer_vassals
+	}
 }
 
 cb_trade_conflict = {
@@ -158,7 +171,47 @@ cb_trade_conflict = {
 	is_triggered_only = yes
 	months = 24
 
-	war_goal = blockade_ports	
+	war_goal = blockade_ports
+
+	attacker_disabled_po = {
+		po_annex
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+		po_become_vassal
+		po_form_personal_union
+		po_become_tributary_state
+		po_transfer_vassals
+	}
+}
+
+cb_trade_league_conflict = {
+	valid_for_subject = no
+
+	prerequisites = {
+        is_civilized = yes
+        FROM = { is_civilized = yes }
+		is_trade_league_leader = yes
+		can_justify_trade_conflict = FROM
+	}
+	months = 24
+
+	war_goal = blockade_ports
+
+	attacker_disabled_po = {
+		po_annex
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+		po_become_vassal
+		po_become_tributary_state
+		po_form_personal_union
+		po_transfer_vassals
+	}
 }
 
 cb_annex = {
@@ -167,7 +220,7 @@ cb_annex = {
 	is_triggered_only = yes
 	months = 24
 
-	war_goal = annex_country	
+	war_goal = annex_country
 }
 
 cb_change_government = {
@@ -176,7 +229,7 @@ cb_change_government = {
 	is_triggered_only = yes
 	months = 120
 
-	war_goal = war_goal_change_government	
+	war_goal = war_goal_change_government
 }
 
 # AUTOMATIC - Constantly in effect while 'prerequisites' is true
@@ -184,12 +237,12 @@ cb_change_government = {
 
 # Temporary claim CB (mostly used by missions)
 cb_conquest = {
-	
+
 	prerequisites = {
 		claim = FROM
 		is_revolution_target = no
 	}
-	
+
 	war_goal = take_claim
 }
 
@@ -200,7 +253,7 @@ cb_core = {
 		core_claim = FROM
 		is_revolution_target = no
 	}
-		
+
 	war_goal = take_core
 }
 
@@ -208,9 +261,9 @@ cb_core = {
 cb_independence_war = {
 	exclusive = yes
 	independence = yes
-	
+
 	prerequisites = {
-		is_subject = yes
+		is_subject_other_than_tributary_trigger = yes
 		is_subject_of = FROM
 		NOT = { is_colonial_nation_of = FROM }
 		is_revolution_target = no
@@ -223,41 +276,41 @@ cb_independence_war = {
 cb_colonial_independance_war = {
 	exclusive = yes
 	independence = yes
-	
+
 	prerequisites = {
 		is_subject = yes
 		is_colonial_nation_of = FROM
 		is_revolution_target = no
 	}
-		
+
 	war_goal = defend_capital_independence
 }
 
 # Colonialist CB
 cb_colonial = {
-	
+
 	prerequisites = {
 		colony_claim = FROM
 		is_revolution_target = no
 	}
-	
-	war_goal = take_colony	
+
+	war_goal = take_colony
 }
 
 # Liberation CB
 cb_liberation = {
-	
+
 	prerequisites = {
 		always = no		#just for some historical wars.
 	}
-	
+
 	war_goal = take_capital_liberation
 }
 
 # Defender of the Faith
 cb_defender_of_the_faith = {
 	valid_for_subject = no
-	
+
 	prerequisites = {
 		is_defender_of_faith = yes
 		is_neighbor_of = FROM
@@ -268,16 +321,16 @@ cb_defender_of_the_faith = {
 			hre_religion_treaty = no
 			capital_scope = { is_part_of_hre = no }
 			FROM = { capital_scope = { is_part_of_hre = no } }
-		}		
+		}
 	}
-	
+
 	war_goal = defend_country_faith
 }
 
 # Purging of Heresy
 cb_heretic = {
 	valid_for_subject = no
-	
+
 	prerequisites = {
 		is_neighbor_of = FROM
 		cb_on_religious_enemies = yes
@@ -288,10 +341,10 @@ cb_heretic = {
 			hre_religion_treaty = no
 			capital_scope = { is_part_of_hre = no }
 			FROM = { capital_scope = { is_part_of_hre = no } }
-		}		
-		is_revolution_target = no	
+		}
+		is_revolution_target = no
 	}
-	
+
 	allowed_provinces = {
 		always = yes
 	}
@@ -301,20 +354,36 @@ cb_heretic = {
 
 # Trade War
 cb_trade_war = {
-	
+
 	prerequisites = {
         trade_embargo_by = FROM
         NOT = { FROM = { trade_embargo_by = ROOT } }
 		is_revolution_target = no
+        is_civilized = yes
+        FROM = { is_civilized = yes }
 	}
-	
+
 	war_goal = superiority_trade_mutual
+
+	attacker_disabled_po = {
+		po_annex
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+		po_become_vassal
+		po_become_tributary_state
+		po_form_personal_union
+		po_transfer_vassals
+	}
 }
 
 # Coalition CB
 cb_super_badboy = {
+	coalition = yes
 
-	prerequisites = {	
+	prerequisites = {
 		coalition_target = FROM
 		NOT = { FROM = { is_in_coalition_war = yes } }
 		num_of_coalition_members = 3
@@ -324,43 +393,30 @@ cb_super_badboy = {
 		}
 		is_revolution_target = no
 	}
-	
+
 	war_goal = superiority_punitive
 }
 
-# War on "primitives" (annexable religion)
-cb_primitives = {
-	valid_for_subject = no
-	
-	prerequisites = {
-		cb_on_primitives = yes
-		NOT = { has_country_modifier = the_proclamation_of_year_timer } # Used from event
-		FROM = { 
-			primitives = yes 
-			is_subject = no
-		}
-		is_revolution_target = no
-	}
-	
-	war_goal = superiority_primitives	
-}
 
 # Claim Throne
 cb_claim_throne = {
 	valid_for_subject = no
-	
+
 	prerequisites = {
 		succession_claim = FROM
 		is_revolution_target = no
 	}
-	
+
 	war_goal = take_capital_throne
 }
 
 # When someone is privateering in a node that you trade and have some power in.
 cb_privateers = {
-	
+
 	prerequisites = {
+        is_civilized = yes
+        FROM = { is_civilized = yes }
+        
 		FROM = {
 			has_privateers = yes
 		}
@@ -388,7 +444,7 @@ cb_privateers = {
 		}
 		is_revolution_target = no
 	}
-	
+
 	war_goal = blockade_ports
 }
 
@@ -396,13 +452,13 @@ cb_privateers = {
 cb_support_rebels = {
 	support_rebels = yes
 	valid_for_subject = no
-	
+
 	prerequisites = {
 		has_dlc = "Art of War"
 		has_spawned_supported_rebels = FROM
 		is_revolution_target = no
 	}
-	
+
 	war_goal = take_capital_support_rebels
 }
 
@@ -429,6 +485,7 @@ cb_humiliate_rotw = {
 		po_become_vassal
 		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 
 	war_goal = humiliate_rotw
@@ -455,16 +512,16 @@ cb_take_mandate = {
 cb_force_migration = {
 
 	valid_for_subject = no
-	
+
 	prerequisites = {
 		has_dlc = "The Cossacks"
 		is_neighbor_of = FROM
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		FROM = {
 			can_migrate = yes
-			is_subject = no
+			is_free_or_tributary_trigger = yes
 		}
-	}	
+	}
 	war_goal = force_migration
 }
 

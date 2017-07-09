@@ -4,24 +4,15 @@
 # Effects are fully scriptable here.
 
 # This is required!
-
+# Causes CTD on new tag formation if removed
 submission_to_emperor = {
 	potential = {
-		has_global_flag = italy_out_of_HRE
-		culture_group = latin
+		always = no
 	}
 
 	trigger = {
-		is_emperor = no
-		NOT = { tag = ITA }
-		capital_scope = {
-			is_part_of_hre = yes
-		}
+		always = no
 	}
-
-	global_unrest = 3
-	stability_cost_modifier = 0.1
-	prestige = -1
 }
 
 

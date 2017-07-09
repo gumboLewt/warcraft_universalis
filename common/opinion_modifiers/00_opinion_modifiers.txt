@@ -3676,3 +3676,13 @@ overlord_military_aid = {
 	opinion = 50
 	yearly_decay = 1
 }
+
+st_nicholas_icon_gratitude = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+siberian_intermezzo = {
+	opinion = -60
+	yearly_decay = 3
+}

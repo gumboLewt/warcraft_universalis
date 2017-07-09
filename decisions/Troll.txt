@@ -1,0 +1,118 @@
+country_decisions = {
+
+	initiate_guerilla_warfare = {
+		potential = {
+			technology_group = tech_troll
+            NOT = { has_country_modifier = initiate_guerilla_warfare }
+		}
+		
+		allow = {
+			mil_power = 100
+            NOT = { has_country_modifier = initiate_guerilla_warfare }
+		}
+		
+		effect = {
+			add_mil_power = -100
+            add_country_modifier = {
+                name = initiate_guerilla_warfare
+                duration = -1
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    enforce_loa_worship = {
+		potential = {
+			technology_group = tech_troll
+            NOT = { has_country_modifier = enforcing_loa_worship }
+		}
+		
+		allow = {
+            prestige = 50
+            religion = religion_loa
+            NOT = { has_country_modifier = enforcing_loa_worship }
+		}
+		
+		effect = {
+            add_country_modifier = {
+                name = enforcing_loa_worship
+                duration = -1
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    summon_loa_spirit = {
+		potential = {
+			technology_group = tech_troll
+            NOT = { has_country_modifier = summoned_loa_spirit }
+		}
+		
+		allow = {
+            adm_power = 250
+            dip_power = 250
+            mil_power = 250
+            religion = religion_loa
+            NOT = { has_country_modifier = summoned_loa_spirit }
+		}
+		
+		effect = {
+            add_adm_power = -250
+            add_dip_power = -250
+            add_mil_power = -250
+            add_country_modifier = {
+                name = summoned_loa_spirit
+                duration = 15325
+            }
+            
+            define_general = {
+                name = "Loa"
+                fire = 6
+                shock = 6
+                manuever = 3
+                siege = 3
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    condemn_the_old_gods = {
+		potential = {
+			technology_group = tech_troll
+            NOT = { has_country_modifier = condemned_the_old_gods }
+		}
+		
+		allow = {
+            mil_power = 100
+            any_known_country = {
+                religion = religion_old_gods
+            }
+            NOT = { has_country_modifier = condemned_the_old_gods }
+		}
+		
+		effect = {
+            add_mil_power = -100
+            
+            # Add diplomatic_action check that prevents friendly interaction with Old God tech nations
+            add_country_modifier = {
+                name = condemned_the_old_gods
+                duration = -1
+            }
+            
+            custom_tooltip = OLD_GOD_INTERACTION_RESTRICTED
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

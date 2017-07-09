@@ -211,7 +211,7 @@ titan_corrupt_rebels = {
           }
           add_core = REB
         }
-        release_vassal = REB
+        create_vassal = REB
       }
 		}
 		if = {

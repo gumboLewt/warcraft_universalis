@@ -153,7 +153,8 @@ guiTypes = {
 			maxWidth = 192
 			maxHeight = 15
 			format = left
-			fixedsize = yes			
+			fixedsize = yes		
+			allwaystransparent = yes			
 		}		
 	}
 	

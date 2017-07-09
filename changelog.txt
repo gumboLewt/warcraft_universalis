@@ -1,0 +1,2 @@
+- Updated for 1.22
+- Fixed the "Instruments of Gul'Dan" event from firing multiple times

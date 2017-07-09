@@ -77,8 +77,10 @@ default = {
 	gives_daimyo_bonuses = no
 	gets_help_with_rebels = no							# Only for AI. Bidirectional.
 	share_rebel_popup = yes								# Whether the Overlord gets popups about Subject's rebels and sees them in Stability View.
+	separatists_become_subjects = no					# Whether separatist rebels enforcing demands will become subjects of the overlord.
 	allows_taking_land_without_independence = no
 	can_transfer_in_peace = yes							# Whether this subject type can be made into a vassal with the "Transfer Subject" Age Ability.
+	can_set_mil_focus = yes
 	
 	max_government_rank = 0								# 0 means no limit
 	cities_required_for_bonuses = 0						# How many cities the subject needs before giving bonuses to overlord
@@ -135,6 +137,7 @@ default = {
 	demand_artifacts = no
 	demand_additional_tribute = no
 	force_seppuku = no
+	press_sailors = no
 	contribute_to_capital = no
 	force_isolation = no
 	return_land = no
@@ -158,9 +161,6 @@ default = {
 vassal = {
 	copy_from = default
 	
-	use_vassal_ui = yes
-	construct_vassal = yes
-	
 	# Graphics:
 	sprite = GFX_icon_vassal
 	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
@@ -180,6 +180,8 @@ vassal = {
 	forcelimit_bonus = 1.0
 
 	relative_power_class = 2
+	
+	restoration_cb = cb_disloyal_vassal
 
 	# Subject Interactions:
 	scutage = yes
@@ -203,11 +205,6 @@ vassal = {
 
 march = {
 	copy_from = vassal
-
-	use_march_ui = yes
-	use_vassal_ui = no
-	construct_vassal = no
-	construct_march = yes	
 	
 	# Graphics:
 	sprite = GFX_icon_march
@@ -240,7 +237,7 @@ march = {
 		modifier = march_bonus
 		trigger = {
 			NOT = {
-				total_development = 200
+				development_of_overlord_fraction = 0.25
 			}
 		}
 		expiration_message_overlord = MARCHTOOLARGE
@@ -251,13 +248,13 @@ march = {
 daimyo_vassal = {
 	copy_from = vassal
 	count = vassal
-
 	
 	# Properties:
 	has_power_projection = yes
 	takes_diplo_slot = no
 	gives_daimyo_bonuses = yes
 	gets_help_with_rebels = no
+	separatists_become_subjects = yes
 	allows_taking_land_without_independence = yes
 	can_use_claims = no
 
@@ -323,9 +320,6 @@ daimyo_vassal = {
 
 personal_union = {
 	copy_from = default
-	
-	use_union_ui = yes
-	construct_union = yes
 
 	# Graphics:
 	sprite = GFX_court_union
@@ -344,6 +338,8 @@ personal_union = {
 
 	relative_power_class = 1
 
+	restoration_cb = cb_restore_personal_union
+	
 	# Subject Interactions:
 	placate_rulers = no
 	enforce_culture = yes
@@ -363,7 +359,6 @@ client_vassal = {
 	copy_from = vassal
 	count = vassal
 	
-
 	# Graphics:
 	diplomacy_overlord_sprite = GFX_diplomacy_leadclients
 	diplomacy_subject_sprite = GFX_diplomacy_areclients
@@ -380,7 +375,6 @@ client_vassal = {
 client_march = {
 	copy_from = march
 	count = march
-	
 
 	# Graphics:
 	diplomacy_overlord_sprite = GFX_diplomacy_leadclients
@@ -398,9 +392,6 @@ client_march = {
 
 colony = {
 	copy_from = default
-
-	use_colonial_ui = yes
-	construct_colonial = yes
 	
 	# Graphics:
 	sprite = GFX_subject_colony_icon
@@ -420,13 +411,14 @@ colony = {
 	dynamically_created_during_history = yes
 	overlord_enforce_peace_attacking = yes
 	can_transfer_in_peace = no
+	press_sailors = yes
 	
 	liberty_desire_development_ratio = 0.1
 
 	max_government_rank = 1
 	cities_required_for_bonuses = 10
 
-	relative_power_class = 1
+	relative_power_class = 0
 
 	can_fight = {
 		other_overlord = colony
@@ -503,6 +495,7 @@ tributary_state = {
 	can_use_claims = no
 	share_rebel_popup = no
 	can_transfer_in_peace = no
+	can_set_mil_focus = no
 	
 	liberty_desire_development_ratio = 0.175
 	trust_on_start = 0

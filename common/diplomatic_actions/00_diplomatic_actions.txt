@@ -79,81 +79,158 @@
 # Diplomatic Actions
 allianceaction = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_CONTINENT_DISTANCE
+        
+        potential = {
+            always = yes # Always applies
+        } 
+        allow = {
+            OR = {
+                provinces_on_capital_continent_of = FROM
+                FROM = { provinces_on_capital_continent_of = ROOT }
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
@@ -161,891 +238,1374 @@ allianceaction = {
 
 offer_condottieri = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 sell_ships_action = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 designate_march = {
-    condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-        
-        potential = {
-            OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
-                    }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
-                    }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
-                    }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
-                    }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
-                    }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
-                    }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
-            }
-        } 
-        allow = {
-            always = no
-        }
-    }
+    
 }
 
 ask_for_march = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_CONTINENT_DISTANCE
+        
+        potential = {
+            always = yes # Always applies
+        } 
+        allow = {
+            OR = {
+                provinces_on_capital_continent_of = FROM
+                FROM = { provinces_on_capital_continent_of = ROOT }
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 support_heir = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_CONTINENT_DISTANCE
+        
+        potential = {
+            always = yes # Always applies
+        } 
+        allow = {
+            OR = {
+                provinces_on_capital_continent_of = FROM
+                FROM = { provinces_on_capital_continent_of = ROOT }
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 invite_to_federation = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_CONTINENT_DISTANCE
+        
+        potential = {
+            always = yes # Always applies
+        } 
+        allow = {
+            OR = {
+                provinces_on_capital_continent_of = FROM
+                FROM = { provinces_on_capital_continent_of = ROOT }
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 request_to_join_federation = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_CONTINENT_DISTANCE
+        
+        potential = {
+            always = yes # Always applies
+        } 
+        allow = {
+            OR = {
+                provinces_on_capital_continent_of = FROM
+                FROM = { provinces_on_capital_continent_of = ROOT }
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 transfer_trade_power = {
-    condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-        
-        potential = {
-            OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
-                    }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
-                    }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
-                    }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
-                    }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
-                    }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
-                    }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
-            }
-        } 
-        allow = {
-            always = no
-        }
-    }
+    
 }
 
 enforce_peace = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_CONTINENT_DISTANCE
+        
+        potential = {
+            always = yes # Always applies
+        } 
+        allow = {
+            OR = {
+                provinces_on_capital_continent_of = FROM
+                FROM = { provinces_on_capital_continent_of = ROOT }
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 sellprov = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 warsubsidy = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
@@ -1056,162 +1616,288 @@ callaction = {
 
 offermilaccess = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 offer_fleet_access = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
@@ -1226,81 +1912,144 @@ fleet_access = {
 
 support_independence_action = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
@@ -1321,83 +2070,122 @@ vassalaction = {
 			FROM = { is_at_war = no }
 		}
 	}
-    
+
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
@@ -1410,6 +2198,7 @@ royal_marriage = {
     condition = {
 		tooltip = MARWAR
 		potential = {
+            always = yes
 		}
 		allow = {
 			NOT = { war_with = FROM }
@@ -1421,496 +2210,490 @@ royal_marriage = {
         tooltip = WOW_SAME_RACE
         
         potential = {
-            NOT ={ technology_group = FROM }
+            always = yes
         } 
         allow = {
-            always = no
+            technology_group = FROM
         }
     }
     
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
         
         potential = {
-            OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
-                    }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
-                    }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
-                    }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
-                    }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
-                    }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
-                    }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
-            }
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
         } 
         allow = {
-            always = no
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
         }
     }
 }
 
 improve_relation = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 guaranteeaction = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_CONTINENT_DISTANCE
+        
+        potential = {
+            always = yes # Always applies
+        } 
+        allow = {
+            OR = {
+                provinces_on_capital_continent_of = FROM
+                FROM = { provinces_on_capital_continent_of = ROOT }
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 giftaction = {
     condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
         
         potential = {
             OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
                     }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
                     }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
                     }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
                     }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
                     }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
                     }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
             }
         } 
         allow = {
-            always = no
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
         }
     }
 }
 
 offerloan = {
-    condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-        
-        potential = {
-            OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
-                    }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
-                    }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
-                    }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
-                    }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
-                    }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
-                    }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
-            }
-        } 
-        allow = {
-            always = no
-        }
-    }
+    
 }
 
 imperial_relations_action = {
-    condition = {
-        tooltip = WOW_DIPLOMATICALLY_INCOMPATIBLE
-        
-        potential = {
-            OR = {
-                AND = {
-                    is_good = yes
-                    FROM = { 
-                        NOT = { is_good = yes }
-                    }
-                }
-                AND = {
-                    is_evil = yes
-                    FROM = { 
-                        NOT = { is_evil = yes }
-                    }
-                }
-                AND = {
-                    is_civilized = yes
-                    FROM = { 
-                        NOT = { is_civilized = yes }
-                    }
-                }
-                AND = {
-                    is_savage = yes
-                    FROM = { 
-                        NOT = { is_savage = yes }
-                    }
-                }
-                AND = {
-                    is_lesser = yes
-                    FROM = { 
-                        OR = {
-                            AND = {
-                                is_lesser = yes
-                                NOT = { is_neighbor_of = FROM }
-                            }
-                            NOT = { is_lesser = yes }
-                        }
-                    }
-                }
-                AND = {
-                    is_bug = yes
-                    FROM = { 
-                        NOT = { is_bug = yes }
-                    }
-                }
-                AND = {
-                    is_pure_evil = yes
-                    FROM = { 
-                        NOT = { 
-                            OR = {
-                                is_pure_evil = yes
-                                is_savage = yes
-                                is_lesser = yes
-                                is_bug = yes
-                            }
-                        }
-                    }
-                }
-                AND = {
-                    technology_group = tech_dragonkin
-                    FROM = { 
-                        NOT = { technology_group = tech_dragonkin }
-                    }
-                }
-                AND = {
-                    technology_group = tech_elemental
-                    FROM = { 
-                        NOT = { technology_group = tech_elemental }
-                    }
-                }
-            }
-        } 
-        allow = {
-            always = no
-        }
-    }
+    
 }
 
 religious_unity_action = {
@@ -2023,11 +2806,319 @@ integrationaction = {
 }
 
 warningaction = {
-
+    condition = {
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_CONTINENT_DISTANCE
+        
+        potential = {
+            always = yes # Always applies
+        } 
+        allow = {
+            OR = {
+                provinces_on_capital_continent_of = FROM
+                FROM = { provinces_on_capital_continent_of = ROOT }
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
+                    }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
+            }
+        } 
+        allow = {
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
+        }
+    }
 }
 
 threaten_war = {
-
+    condition = {
+        tooltip = WOW_TROLL_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            technology_group = tech_troll
+            FROM = { religion = religion_old_gods }
+        } 
+        allow = {
+            NOT = { has_country_modifier = condemned_the_old_gods }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS
+        
+        potential = {
+            FROM = { technology_group = tech_troll }
+            religion = religion_old_gods
+        } 
+        allow = {
+            FROM = { NOT = { has_country_modifier = condemned_the_old_gods } }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_CONTINENT_DISTANCE
+        
+        potential = {
+            always = yes # Always applies
+        } 
+        allow = {
+            OR = {
+                provinces_on_capital_continent_of = FROM
+                FROM = { provinces_on_capital_continent_of = ROOT }
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
+                    }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
+            }
+        } 
+        allow = {
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
+        }
+    }
 }
 
 insultaction = {
@@ -2103,24 +3194,386 @@ declarewar = {
         }
     }
     
+    # Prevent same race nations attacking each other
+    condition = {
+        tooltip = WOW_SELF_WAR
+        
+        potential = {
+            ai = yes
+            FROM = { ai = yes }
+            NOT = { is_lesser = yes } # Exclude 'lesser' races
+        }
+        allow = {
+            NOT = { technology_group = FROM }
+        }
+    }
+    
     # neutral_member
 }
 
 # Spy Actions
 fabricate_claim = {
-
+    
 } 
 
 infiltrate_administration = {
-   
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
+                    }
+                } 
+            }
+        }
+    }
+    
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
+            }
+        } 
+        allow = {
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
+        }
+    }
 }
 
 sabotage_reputation = {
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
+                    }
+                } 
+            }
+        }
+    }
     
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
+            }
+        } 
+        allow = {
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
+        }
+    }
 }
 
 support_rebels = {
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
+                    }
+                } 
+            }
+        }
+    }
     
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
+            }
+        } 
+        allow = {
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
+        }
+    }
 }
 
 sow_discontent = {
@@ -2128,13 +3581,361 @@ sow_discontent = {
 }
 
 study_technology = {
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
+                    }
+                } 
+            }
+        }
+    }
     
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
+            }
+        } 
+        allow = {
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
+        }
+    }
 }
 
 agitate_for_liberty = {
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
+                    }
+                } 
+            }
+        }
+    }
     
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
+            }
+        } 
+        allow = {
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
+        }
+    }
 }
 
 counterespionage = {
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            OR = {
+                technology_group = tech_human
+                technology_group = tech_gnome
+                technology_group = tech_darnassian
+                technology_group = tech_draenei
+                technology_group = tech_dwarven
+                technology_group = tech_worgen
+                technology_group = tech_pandaren
+                technology_group = tech_tuskarr
+                technology_group = tech_titan
+            }   
+        } 
+        allow = {
+            FROM = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_thalassian
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_orc
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_troll
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_goblin
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_tauren
+                    }
+                    AND = { 
+                        has_country_modifier = horde_member
+                        technology_group = tech_undead
+                    }
+                } 
+            }
+        }
+    }
     
+    condition = {
+        tooltip = WOW_ACTION_INCOMPATIBLE
+        
+        potential = {
+            NOT = {
+                OR = {
+                    technology_group = tech_human
+                    technology_group = tech_gnome
+                    technology_group = tech_darnassian
+                    technology_group = tech_draenei
+                    technology_group = tech_dwarven
+                    technology_group = tech_worgen
+                    technology_group = tech_pandaren
+                    technology_group = tech_tuskarr
+                    technology_group = tech_titan
+                }   
+            }
+        } 
+        allow = {
+            FROM = {
+                NOT = { 
+                    OR = {
+                        technology_group = tech_human
+                        technology_group = tech_gnome
+                        technology_group = tech_darnassian
+                        technology_group = tech_draenei
+                        technology_group = tech_dwarven
+                        technology_group = tech_worgen
+                        technology_group = tech_pandaren
+                        technology_group = tech_tuskarr
+                        technology_group = tech_titan
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_thalassian
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_orc
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_troll
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_goblin
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_tauren
+                        }
+                        AND = { 
+                            has_country_modifier = horde_member
+                            technology_group = tech_undead
+                        }
+                    } 
+                }
+            }
+        }
+    }
 }

@@ -1,0 +1,16 @@
+initiate_guerilla_warfare = {
+    land_morale = 0.05
+    infantry_power = 0.05
+}
+
+enforcing_loa_worship = {
+    global_missionary_strength = 0.01
+}
+
+summoned_loa_spirit = {
+    prestige = 1
+}
+
+condemned_the_old_gods = {
+    global_unrest = -1
+}

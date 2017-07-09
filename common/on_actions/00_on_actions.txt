@@ -421,6 +421,9 @@ on_overextension_pulse = {
     }
 }
 
+on_siberian_pulse = {
+}
+
 on_colonial_pulse = {
     if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_colonial_pulse" }
 }
@@ -691,6 +694,25 @@ on_parliament_debate_succeeded = {
 }
 
 #on_harmonized_<religion>
+# country
+on_russian_subednik = {
+
+}
+
+# country
+on_russian_oprichnina = {
+
+}
+
+# country
+on_russian_streltsy = {
+
+}
+
+# province
+on_consecrate_patriarch = {
+}
+
 
 # country. from = overlord
 on_accept_tribute = {

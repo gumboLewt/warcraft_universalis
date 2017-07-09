@@ -521,10 +521,10 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "ruler_label"
-				position = { x = 40 y = 61 }
+				position = { x = 25 y = 61 }
 				font = "vic_22"
 				text = "FE_RULER"
-				maxWidth = 60
+				maxWidth = 80
 				maxHeight = 24	
 				format = left
 				fixedsize = yes
@@ -532,7 +532,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ruler_pts_label"
-				position = { x = 100 y = 63 }
+				position = { x = 104 y = 63 }
 				textureFile = ""
 				font = "vic_18"
 				text = "0"	
@@ -784,10 +784,10 @@ guiTypes = {
 	
 				instantTextBoxType = {
 					name = "heir_label"
-					position = { x = 40 y = 73 }
+					position = { x = 25 y = 73 }
 					font = "vic_22"
 					text = "HEIR"
-					maxWidth = 60
+					maxWidth = 80
 					maxHeight = 24	
 					format = left
 					fixedsize = yes
@@ -801,7 +801,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "heir_pts_label"
-					position = { x = 100 y = 75 }
+					position = { x = 104 y = 75 }
 					textureFile = ""
 					font = "vic_18"
 					text = "0"	
@@ -1034,10 +1034,10 @@ guiTypes = {
 	
 				instantTextBoxType = {
 					name = "consort_label"
-					position = { x = 40 y = 73 }
+					position = { x = 25 y = 73 }
 					font = "vic_22"
 					text = "CONSORT"
-					maxWidth = 60
+					maxWidth = 80
 					maxHeight = 24	
 					format = left
 					fixedsize = yes
@@ -1051,7 +1051,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "consort_pts_label"
-					position = { x = 100 y = 75 }
+					position = { x = 104 y = 75 }
 					textureFile = ""
 					font = "vic_18"
 					text = "0"	
@@ -1711,9 +1711,9 @@ guiTypes = {
 
 				listboxType = {
 					name ="listbox"
-					position = { x = 60 y = 88 }
+					position = { x = 10 y = 88 }
 					backGround=""
-					size = { x= 310 y =576 }
+					size = { x= 380 y =576 }
 					horizontal = 0
 					spacing = 0
 					scrollbartype = "standardlistbox_slider"
@@ -1731,9 +1731,9 @@ guiTypes = {
 			
 				listboxType = {
 					name ="listbox"
-					position = { x = 60 y = 88 }
+					position = { x = 10 y = 88 }
 					backGround=""
-					size = { x= 310 y =576 }
+					size = { x= 380 y =576 }
 					horizontal = 0
 					spacing = 0
 					scrollbartype = "standardlistbox_slider"
@@ -1751,9 +1751,9 @@ guiTypes = {
 			
 				listboxType = {
 					name ="listbox"
-					position = { x = 60 y = 88 }
+					position = { x = 10 y = 88 }
 					backGround=""
-					size = { x= 310 y =576 }
+					size = { x= 380 y =576 }
 					horizontal = 0
 					spacing = 0
 					scrollbartype = "standardlistbox_slider"
@@ -2091,7 +2091,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "idea_button"
 			position = { x = 0 y = 0 }
-			quadTextureSprite ="GFX_button_straight_300_32"
+			quadTextureSprite ="GFX_button_straight_380_32"
 			buttonFont = "vic_18"
 		}
 		instantTextBoxType = {
@@ -2100,7 +2100,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			text = "0"	
-			maxWidth = 260
+			maxWidth = 340
 			maxHeight = 20	
 			format = left
 			fixedsize = yes
@@ -2169,22 +2169,22 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "lvl_down"
-			position = { x = 300 y = 4 }
+			position = { x = 295 y = 4 }
 			quadTextureSprite ="GFX_arrow_left_big"	
 		}
 		guiButtonType = {
 			name = "lvl_up"
-			position = { x = 350 y = 4 }
+			position = { x = 331 y = 4 }
 			quadTextureSprite ="GFX_arrow_right_big"	
 		}
 		
 		instantTextBoxType = {
 			name = "lvl_number"
-			position = { x = 316 y = 7 }
+			position = { x = 314 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			text = "0"	
-			maxWidth = 40
+			maxWidth = 20
 			maxHeight = 20	
 			format = centre
 			fixedsize = yes
@@ -2192,7 +2192,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "idea_points"
-			position = { x = 353 y = -9999 }
+			position = { x = 353 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			text = "100"	
