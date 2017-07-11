@@ -15,7 +15,7 @@ religion = religion_titan
 trade_goods = fossils
 hre = no
 
-600.1.1 = { 
+816.1.1 = { 
 owner = F06
 controller = F06
 add_core = F06

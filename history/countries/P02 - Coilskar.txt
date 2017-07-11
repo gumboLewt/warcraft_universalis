@@ -7,7 +7,7 @@ primary_culture 	= culture_vashjari
 capital 			= 1609
 government_rank = 1
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch = { 
 		name = "Neik'ja" 
 		dynasty = "Vashj" 
@@ -18,7 +18,7 @@ government_rank = 1
 	} 
 }
 
-626.1.1 = { 
+946.1.1 = { 
 	monarch = { 
 		name = "Naj'entus" 
 		dynasty = "Coilskar" 

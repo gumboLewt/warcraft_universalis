@@ -12,7 +12,7 @@ religion = religion_water
 trade_goods = lumber
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	controller = A23
 	owner = A23
 	add_core = A23
@@ -28,7 +28,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	trade_goods = smugglers
 	religion = religion_shadow
 	
@@ -37,7 +37,7 @@ hre = no
 	controller = A07 
 }
 
-623.1.1 = { 
+931.1.1 = { 
     religion = religion_old_gods
     culture = culture_nazja
 	add_core = P07
@@ -46,7 +46,7 @@ hre = no
 	remove_core = A07
 }
 
-631.1.1 = { 
+971.1.1 = { 
     is_city = no
 	owner = XXX
 	controller = XXX 

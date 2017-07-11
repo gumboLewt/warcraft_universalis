@@ -16,7 +16,7 @@ capital 			= 962
 	} 
 } 
 
-617.1.1 = { 
+901.1.1 = { 
 	monarch = { 
 		name = "Morloch" 
 		dynasty = "Irondeep" 

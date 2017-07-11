@@ -15,19 +15,19 @@ religion = religion_church_of_the_light
 trade_goods = mounts
 hre = no
 
-592.1.1 = { 
+776.1.1 = { 
 	base_manpower = 2
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
 	owner = H08
 	controller = H08
 	add_core = H08
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	owner = P52 
 	controller = P52
 	add_core = P52
@@ -37,7 +37,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = A26
 	controller = A26
 	add_core = A26
@@ -48,7 +48,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = P14
 	controller = P14
 	culture = culture_forsaken

@@ -191,3 +191,66 @@
  
  condemned_the_old_gods: "Condemned the Old Gods"
  desc_condemned_the_old_gods: "We have condemned the Old Gods and their followers."
+ 
+ summoned_blood_god: "Blood God"
+ desc_summoned_blood_god: "We have summoned the Blood God! May our enemies bleed in his name!"
+ 
+ conducting_blood_worship: "Blood Sacrifices"
+ desc_conducting_blood_worship: "Let us worship Hakkar, the Blood God, and offer him the blood sacrifices he desires."
+ 
+ sacrificed_prisoners: "Sacrificed Prisoners"
+ desc_sacrificed_prisoners: "We have sacrificed our prisoners of war to strength our own warriors."
+ 
+ #------------------------------------------------
+ # Murloc
+ #------------------------------------------------
+ encouraged_worship: "Encouraging Worship"
+ desc_encouraged_worship: "Uuuuggguglugglugglugluguaararaaaagllug!"
+ 
+ embraced_magic: "Embraced Magic"
+ desc_embraced_magic: "Gluuuguuug!"
+ 
+ treasures_of_azeroth: "Treasures of Azeroth"
+ desc_treasures_of_azeroth: "Lugluguaalugluguaalugluguaa...lugluguaa!"
+ 
+ murloc_muster: "Murloc Muster"
+ desc_murloc_muster: "Luglugarraaaa!"
+ 
+ gmmmlmmmrrmrmrmgrg: "Gmmmlmmmrrmrmrmgrg!"
+ desc_gmmmlmmmrrmrmrmgrg: "Gmmmlmmmrrmrmrmgrg!"
+ 
+ #------------------------------------------------
+ # Gnoll
+ #------------------------------------------------
+ curbed_infighting: "Curbed Infighting"
+ desc_curbed_infighting: "We have curbed infighting within our clan."
+ 
+ divined_magic: "Studied Magic"
+ desc_divined_magic: "We have studied the method of magic those 'humans' we have seen use."
+ 
+ weapons_trade: "Weapons Trade"
+ desc_weapons_trade: "We have traded with other folk to source our warriors weapons."
+ 
+ challenged_alpha: "Challenged Alpha"
+ desc_challenged_alpha: "Our alpha was challenged, and new notable gnolls have been found as equals."
+ 
+ #------------------------------------------------
+ # Kobold
+ #------------------------------------------------
+ shiny_trove: "Shiny Trove"
+ desc_shiny_trove: "Our trove of shinies!"
+ 
+ candle_devotion: "Candle Devotion"
+ desc_candle_devotion: "Worship of the candle is a must!"
+ 
+ #------------------------------------------------
+ # High Elf
+ #------------------------------------------------
+ sunwell_energies: "Sunwell Energies"
+ desc_sunwell_energies: "The energies of the Sunwell imbue our [Root.Monarch.GetTitle] with unnatural power!"
+ 
+ forest_protection_act: "Forest Protection Act"
+ desc_forest_protection_act: "Protecting the forests means setting up official roads and routes, greatly speeding up travel across our nation."
+ 
+ the_three_gates: "The Three Gates"
+ desc_the_three_gates: "The scum beyond our lands shall be held back by the creation of three gates."

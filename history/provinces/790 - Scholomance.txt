@@ -15,20 +15,20 @@ religion = religion_church_of_the_light
 trade_goods = arcane
 hre = no 
 
-598.1.1 = {
+806.1.1 = {
 	base_tax = 4
 	base_production = 3
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
 	owner = A08
 	controller = A08
 	add_core = A08
 }
 
 # The Third War
-617.1.1 = {
+901.1.1 = {
 	add_core = P12
 	owner = P12
 	controller = P12
@@ -38,7 +38,7 @@ hre = no
 	base_production = 4
 }
 
-618.1.1 = {
+906.1.1 = {
 	remove_core = A08
 	remove_core = A17
 }

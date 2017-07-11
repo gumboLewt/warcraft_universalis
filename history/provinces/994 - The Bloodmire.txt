@@ -15,7 +15,7 @@ religion = religion_sect_of_dragons
 trade_goods = fish
 hre = no
 
-592.1.1 = { 
+776.1.1 = { 
 	owner = A41
 	controller = A41
 	add_core = A41
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
 	owner = F34
 	controller = F34
 	add_core = F34

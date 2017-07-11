@@ -15,7 +15,7 @@ religion = religion_celestial
 trade_goods = army_supplies
 hre = yes
 
-632.1.1 = { 
+976.1.1 = { 
     owner = P42
     controller = P42
     add_core = P42
@@ -24,7 +24,7 @@ hre = yes
 }
 
 # Warlords of Draenor
-633.1.1 = { 
+981.1.1 = { 
     is_city = no
     owner = XXX
     controller = XXX

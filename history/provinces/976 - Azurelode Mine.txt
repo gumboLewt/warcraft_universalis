@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = gold
 hre = no 
 
-597.1.1 = { 
+801.1.1 = { 
 	owner = A01
 	controller = A01
 	add_core = A01
@@ -25,7 +25,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
 	owner = A08
 	controller = A08
 	remove_core = A01
@@ -33,7 +33,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	owner = A11
 	controller = A11
 	add_core = A11
@@ -42,7 +42,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = P14
 	controller = P14
 	add_core = P14

@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = grain
 hre = no
 
-598.1.1 = {
+806.1.1 = {
   owner = B21
   controller = B21
   add_core = B21
@@ -24,7 +24,7 @@ hre = no
   religion = religion_earth
 }
 
-622.1.1 = {
+926.1.1 = {
   owner = A81
   controller = A81
   add_core = A81

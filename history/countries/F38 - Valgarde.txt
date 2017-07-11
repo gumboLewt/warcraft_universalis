@@ -8,7 +8,7 @@ primary_culture 	= culture_lordaeron
 add_accepted_culture = culture_ironforge
 capital 			= 1
 
-617.1.1 = { 
+901.1.1 = { 
 	monarch =
 	{ 
 		name = "Arthas" 
@@ -23,7 +23,7 @@ add_country_modifier = {
 }   
 } 
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch = { 
 		name = "Luc" 
 		dynasty = "Valonforth" 
@@ -34,7 +34,7 @@ add_country_modifier = {
 	government = dictatorship_gov
 } 
 
-626.1.1 = { 
+946.1.1 = { 
 	monarch = { 
 		name = "Andrew" 
 		dynasty = "Keller" 

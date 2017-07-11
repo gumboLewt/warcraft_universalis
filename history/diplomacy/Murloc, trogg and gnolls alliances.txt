@@ -6,24 +6,24 @@
 alliance = {
 	first = B26
 	second = B13
-	start_date = 631.1.1
-	end_date = 632.1.1
+	start_date = 971.1.1
+	end_date = 976.1.1
 }
 
 # Bluegill - Tunnel Rat
 alliance = {
 	first = B26
 	second = P53
-	start_date = 631.1.1
-	end_date = 632.1.1
+	start_date = 971.1.1
+	end_date = 976.1.1
 }
 
 # Bluegill - Stonesplinter
 alliance = {
 	first = B26
 	second = P54
-	start_date = 631.1.1
-	end_date = 632.1.1
+	start_date = 971.1.1
+	end_date = 976.1.1
 }
 
 ### Mosshide
@@ -31,16 +31,16 @@ alliance = {
 alliance = {
 	first = B13
 	second = P53
-	start_date = 631.1.1
-	end_date = 632.1.1
+	start_date = 971.1.1
+	end_date = 976.1.1
 }
 
 # Mosshide - Stonesplinter
 alliance = {
 	first = B13
 	second = P54
-	start_date = 631.1.1
-	end_date = 632.1.1
+	start_date = 971.1.1
+	end_date = 976.1.1
 }
 
 ### Tunnel Rat
@@ -48,6 +48,6 @@ alliance = {
 alliance = {
 	first = P53
 	second = P54
-	start_date = 631.1.1
-	end_date = 632.1.1
+	start_date = 971.1.1
+	end_date = 976.1.1
 }

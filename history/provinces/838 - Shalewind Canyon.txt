@@ -16,12 +16,12 @@ religion = religion_geomancy
 trade_goods = copper
 hre = no
 
-600.1.1 = { 
+816.1.1 = { 
 	add_core = A04
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = A04
 	controller = A04
 	culture = culture_azerothian

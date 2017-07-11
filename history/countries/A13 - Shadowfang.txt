@@ -6,7 +6,7 @@ religion			= religion_shadow
 primary_culture 	= culture_gilnean_worgen
 capital 			= 686
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch = { 
 		name = "Arugal"  
 		dynasty = "of Dalaran" 	
@@ -16,7 +16,7 @@ capital 			= 686
 	}
 }
 
-631.1.1 = {
+971.1.1 = {
 	monarch = { 
 		name = ""  
 		dynasty = "Silverlaine" 
@@ -30,7 +30,7 @@ capital 			= 686
 	technology_group = tech_undead
 }
 
-631.5.1 = {
+971.5.1 = {
 	monarch = { 
 		name = "Vincent"  
 		dynasty = "Godfrey" 	

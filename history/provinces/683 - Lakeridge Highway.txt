@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = cloth
 hre = no
 
-597.1.1 = { 
+801.1.1 = { 
     owner = P98
     controller = P98
     add_core = P98
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX
@@ -32,7 +32,7 @@ hre = no
 }
 
 # The Third War
-617.1.1 = { 
+901.1.1 = { 
     owner = A04
     controller = A04
     culture = culture_azerothian
@@ -40,7 +40,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
     owner = B17
     controller = B17
     add_core = B17

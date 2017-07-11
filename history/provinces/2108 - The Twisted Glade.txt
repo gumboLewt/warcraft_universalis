@@ -15,7 +15,7 @@ religion = religion_druidic
 trade_goods = grain
 hre = no
 
-626.1.1 = { 
+946.1.1 = { 
 owner = G29
 controller = G29
 add_core = G29

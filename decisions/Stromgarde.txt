@@ -48,7 +48,7 @@ country_decisions = {
         potential = {
             NOT = { has_country_flag = danath_has_returned }
             tag = A16
-            is_year = 622 # Rise of the Qiraji onwards
+            is_year = 926 # Rise of the Qiraji onwards
         }
         
 		allow = {

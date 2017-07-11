@@ -17,7 +17,7 @@ capital 			= 3036
 	} 
 } 
 
-592.1.1 = {
+776.1.1 = {
 	monarch = { 
 		name = "Gelbin" 
 		dynasty = "Mekkatorque" 
@@ -27,13 +27,13 @@ capital 			= 3036
  	} 
 }
 
-598.1.1 = {
+806.1.1 = {
 add_country_modifier = {
     name = alliance_member
     duration = -1
 }
 }
 
-631.1.1 = {
+971.1.1 = {
 	capital = 1140
 }

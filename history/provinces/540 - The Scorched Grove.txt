@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = grain
 hre = no
 
-618.1.1 = {
+906.1.1 = {
     is_city = no
 	owner = XXX
 	controller = XXX

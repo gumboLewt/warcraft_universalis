@@ -6,7 +6,7 @@ religion			= religion_geomancy
 primary_culture 	= culture_mogrosh
 capital 			= 1
 
-598.1.1 = { 
+806.1.1 = { 
 	monarch = { 
 		name = "Choksul" 
 		dynasty = "Mo'grosh" 
@@ -16,7 +16,7 @@ capital 			= 1
 	} 
 } 
 
-631.1.1 = { 
+971.1.1 = { 
 	monarch = { 
 		name = "Gor'kesh" 
 		dynasty = "Mo'grosh" 

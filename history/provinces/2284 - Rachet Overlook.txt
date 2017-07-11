@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = grain
 hre = no
 
-617.1.1 = {
+901.1.1 = {
 owner = H04
 controller = H04
 add_core = H04

@@ -15,7 +15,7 @@ religion = religion_druidic
 trade_goods = flying_mounts
 hre = no
 
-631.1.1 = {
+971.1.1 = {
 owner = A94
 controller = A94
 add_core = A94

@@ -17,7 +17,7 @@ religion = religion_voodoo
 trade_goods = grain
 hre = no 
 
-597.1.1 = { 
+801.1.1 = { 
 	owner = A08
 	controller = A08
 	add_core = A08
@@ -28,19 +28,19 @@ hre = no
 }
 
 # The Third War
-618.1.1 = { 
+906.1.1 = { 
 	add_core = P52
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	add_core = A10
 	owner = A10
 	controller = A10
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 	add_core = P12
 	remove_core = A08
 	remove_core = A10
@@ -51,6 +51,6 @@ hre = no
 }
 
 # Wrath of the Lich King
-626.1.1 = {
+946.1.1 = {
 	base_manpower = 2
 }

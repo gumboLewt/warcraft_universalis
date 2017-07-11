@@ -10,7 +10,7 @@ add_accepted_culture = culture_undead_troll
 capital = 642
 
 
-617.1.1 = { 
+901.1.1 = { 
 	monarch =
 	{ 
 		name = "Mal'ganis" 
@@ -23,7 +23,7 @@ capital = 642
     add_ruler_personality = immortal_personality
 } 
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch =
 	{ 
 		name = "Arthas" 
@@ -36,7 +36,7 @@ capital = 642
     add_ruler_personality = immortal_personality
 } 
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch =
 	{ 
 		name = "Titus"  
@@ -49,7 +49,7 @@ capital = 642
     add_ruler_personality = immortal_personality
 } 
 
-631.1.1 = { 
+971.1.1 = { 
 	monarch =
 	{ 
 		name = "Aurius"  

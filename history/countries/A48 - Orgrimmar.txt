@@ -8,11 +8,11 @@ primary_culture 	= culture_horde
 capital 			= 1377
 
 
-617.1.1 = {
+901.1.1 = {
 	monarch = {
 		name = "Thrall"
 		dynasty = "Durotan"
-        birth_date = 592.1.1
+        birth_date = 776.1.1
 		adm = 4
 		dip = 5
 		mil = 3
@@ -31,26 +31,26 @@ capital 			= 1377
     }
 }
 
-618.1.1 = {
+906.1.1 = {
     historical_friend = F88
 }
 
-631.1.1 = {
+971.1.1 = {
 	monarch = {
 		name = "Garrosh"
 		dynasty = "Hellscream"
-        birth_date = 582.1.1
+        birth_date = 726.1.1
 		adm = 3
 		dip = 2
 		mil = 5
 	}
 }
 
-633.1.1 = {
+981.1.1 = {
 	monarch = {
 		name = "Varok"       # Probably better to treat Org
 		dynasty = "Saurfang" # monarch as leader of the orcs
-        birth_date = 564.1.1 # rather than leader of the Horde
+        birth_date = 636.1.1 # rather than leader of the Horde
 		adm = 3
 		dip = 3
 		mil = 4

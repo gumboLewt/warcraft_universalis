@@ -5,12 +5,12 @@ war_goal = {
 	province = 775 # Hearthglen
 }
 
-618.1.1 = {
+906.1.1 = {
 	add_attacker = F15
 	add_defender = A09
 }
 
-622.1.1 = {
+926.1.1 = {
 	rem_attacker = F15
 	rem_defender = A09
 }

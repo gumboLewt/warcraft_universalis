@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fur
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
     owner = P11
     controller = P11
     add_core = P11
@@ -24,7 +24,7 @@ hre = no
     remove_core = A77
 }
 
-626.1.1 = { 
+946.1.1 = { 
     add_core = A96
     owner = A96
     controller = A96

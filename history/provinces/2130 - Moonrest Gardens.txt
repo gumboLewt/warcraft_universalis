@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = arcane
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 owner = B01
 controller = B01
 add_core = B01

@@ -5,7 +5,7 @@ war_goal = {
 	tag = A42
 }
 
-598.1.1 = {
+806.1.1 = {
 	add_attacker = A41
         add_attacker = A58
         add_attacker = A80
@@ -28,7 +28,7 @@ war_goal = {
 	add_defender = A43
 }
 
-600.1.1 = {
+816.1.1 = {
 	rem_attacker = A41
         rem_attacker = A58
         rem_attacker = A80

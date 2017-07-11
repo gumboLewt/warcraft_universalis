@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = fish
 hre = no
 
-617.1.1 = {
+901.1.1 = {
   owner = A46
 	controller = A46
 	add_core = A46
@@ -24,7 +24,7 @@ hre = no
 	capital = "Horde Landing Site"
 }
 
-618.1.1 = {
+906.1.1 = {
 	owner = G06
 	controller = G06
 	add_core = G06
@@ -38,7 +38,7 @@ hre = no
 }
 
 # Damaged after being razed and rebuilt
-632.1.1 = { 
+976.1.1 = { 
 	base_tax = 4
 	base_manpower = 4
 	base_production = 4

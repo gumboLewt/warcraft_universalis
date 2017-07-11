@@ -12,7 +12,7 @@ add_country_modifier = {
     duration = -1
 }
 
-605.1.1 = { 
+841.1.1 = { 
 	monarch =
 	{ 
 		name = "Ner'zhul"
@@ -29,7 +29,7 @@ add_country_modifier = {
     add_ruler_personality = immortal_personality
 }
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch =
 	{ 
 		name = "Arthas" 
@@ -42,7 +42,7 @@ add_country_modifier = {
     add_ruler_personality = immortal_personality
 }
 
-631.1.1 = { 
+971.1.1 = { 
 	monarch =
 	{ 
 		name = "Bolvar" 

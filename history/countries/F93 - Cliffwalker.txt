@@ -17,7 +17,7 @@ capital 			= 1362
  	}
 }
 
-617.1.1 = {
+901.1.1 = {
 	monarch = {
 		name = "Huln"
 		dynasty = "Cliffwalker"
@@ -27,7 +27,7 @@ capital 			= 1362
  	}
 }
 
-618.1.1 = {
+906.1.1 = {
 add_country_modifier = {
     name = horde_member
     duration = -1

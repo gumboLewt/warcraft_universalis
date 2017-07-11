@@ -16,7 +16,7 @@ capital 			= 3002
 	} 
 } 
 
-592.1.1 = { 
+776.1.1 = { 
 	monarch = { 
 		name = "Thoras" 
 		dynasty = "Trollbane" 
@@ -26,18 +26,18 @@ capital 			= 3002
 	} 
 }
  
-597.1.1 = {
+801.1.1 = {
 	add_country_modifier = {
 		name = alliance_member
 		duration = -1
 	} 
 }
 
-605.1.1 = {
+841.1.1 = {
 	remove_country_modifier = alliance_member
 }
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch = { 
 		name = "Galen" 
 		dynasty = "Trollbane" 
@@ -53,7 +53,7 @@ capital 			= 3002
 	} 
 }
  
-631.1.1 = { 
+971.1.1 = { 
 	monarch = { 
 		name = "" 
 		dynasty = "Amaren" 
@@ -65,6 +65,6 @@ capital 			= 3002
 	government = regency_gov
 }
 
-632.6.1 = {
+976.6.1 = {
 	capital = 673
 }

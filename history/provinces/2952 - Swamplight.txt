@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = fur
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	culture = culture_lordaeron
 	religion = religion_church_of_the_light
 	controller = A23

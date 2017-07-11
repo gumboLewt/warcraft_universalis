@@ -6,7 +6,7 @@ religion			= religion_geomancy
 primary_culture 	= culture_dreadmaul
 capital 			= 1
 
-592.1.1 = { 
+776.1.1 = { 
 	monarch = { 
 		name = "Zzarc'Vul" 
 		dynasty = "Splinterfist" 

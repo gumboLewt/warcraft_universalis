@@ -17,7 +17,7 @@ capital 			= 642
 	}
 }
 
-592.1.1 = { 
+776.1.1 = { 
 	monarch = { 
 		name = "Alexander II" 
 		dynasty = "Rivendare" 
@@ -27,7 +27,7 @@ capital 			= 642
  	} 
  }  
 
-617.1.1 = {
+901.1.1 = {
 	monarch = {
 		name = "(Regency Council)"
 		adm = 0
@@ -38,14 +38,14 @@ capital 			= 642
 	heir = { 
 		name = "Aurius" 
 		dynasty = "Rivendare" 
-		birth_date = 600.1.1
+		birth_date = 816.1.1
 		adm = 3
 		dip = 3
 		mil = 4 
  	} 
 }
 
-618.1.1 = { # Fall of Stratholme
+906.1.1 = { # Fall of Stratholme
 	capital = 2975
     add_country_modifier = {
         name = alliance_member

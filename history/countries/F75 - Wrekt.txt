@@ -9,7 +9,7 @@ add_accepted_culture = culture_karaborian
 
 capital 			= 1643
 
-617.1.1 = { 
+901.1.1 = { 
 	monarch = { 
 		name = "" 
 		dynasty = "Wrekt" 

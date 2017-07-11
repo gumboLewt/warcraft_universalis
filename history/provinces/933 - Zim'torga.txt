@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = artifacts
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 owner = A78
 controller = A78
 add_core = A78
@@ -23,7 +23,7 @@ culture = culture_zandalari
 religion = religion_loa
 }
 
-631.1.1 = { 
+971.1.1 = { 
 remove_core = A74
 religion = religion_voodoo
 }

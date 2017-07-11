@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = fish
 hre = no
 
-617.1.1 = {
+901.1.1 = {
 	owner = A46
 	controller = A46
 	add_core = A46
@@ -24,7 +24,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	owner = G06
 	controller = G06
 	add_core = G06
@@ -34,7 +34,7 @@ hre = no
 }
 
 # Damaged after being razed and rebuilt
-631.1.1 = { 
+971.1.1 = { 
 	base_tax = 2
 	base_manpower = 2
 	base_production = 3

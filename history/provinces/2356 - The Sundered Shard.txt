@@ -15,7 +15,7 @@ religion = religion_titan
 trade_goods = fur
 hre = no
 
-625.1.1 = {
+941.1.1 = {
 owner = P11
 controller = P11
 add_core = P11

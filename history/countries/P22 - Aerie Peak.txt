@@ -19,14 +19,14 @@ historical_friend = A28
 historical_rival = A61
  } 
 
-598.1.1 = {
+806.1.1 = {
 add_country_modifier = {
     name = alliance_member
     duration = -1
 }
 }
  
- 617.1.1 = { 
+ 901.1.1 = { 
 monarch = { 
      name = "Falstad" 
      dynasty = "Wildhammer" 
@@ -36,11 +36,11 @@ monarch = {
  	} 
  } 
 
-618.1.1 = {
+906.1.1 = {
 remove_country_modifier = alliance_member
 }
 
-631.1.1 = {
+971.1.1 = {
 add_country_modifier = {
     name = alliance_member
     duration = -1

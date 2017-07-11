@@ -15,11 +15,11 @@ religion = religion_ancestral
 trade_goods = apexis
 hre = no
 
-592.1.1 = {
+776.1.1 = {
 religion = religion_fel
 }
 
-605.1.1 = {
+841.1.1 = {
 remove_core = A41
 add_core = B89
 owner = B89
@@ -27,7 +27,7 @@ controller = B89
 culture = culture_fel_orc
 }
 
-625.1.1 = {
+941.1.1 = {
 owner = B92
 controller = B92
 add_core = B92

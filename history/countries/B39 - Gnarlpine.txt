@@ -16,7 +16,7 @@ monarch = {
  	} 
  } 
 
-600.1.1 = { 
+816.1.1 = { 
 monarch = { 
      name = "Ursal" 
       dynasty = "Gnarlpine" 
@@ -26,6 +26,6 @@ monarch = {
  	}
 }
 
-622.1.1 = {
+926.1.1 = {
 religion = religion_fel
 }

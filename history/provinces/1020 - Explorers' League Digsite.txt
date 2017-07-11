@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = artifacts
 hre = no
 
-622.1.1 = { 
+926.1.1 = { 
 culture = culture_ironforge
 religion = religion_mystery_of_the_makers
 owner = A29

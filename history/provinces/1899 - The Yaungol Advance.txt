@@ -15,7 +15,7 @@ religion = religion_titan_corrupt
 trade_goods = mounts
 hre = yes
 
-632.1.1 = {
+976.1.1 = {
     owner = P43
     controller = P43
     add_core = P43

@@ -7,7 +7,7 @@ secondary_religion = religion_shadow
 primary_culture 	= culture_highbourne
 capital 			= 2255
 
-622.1.1 = { 
+926.1.1 = { 
 
 	monarch =
 	{ 
@@ -19,7 +19,7 @@ capital 			= 2255
 	} 
 } 
 
-631.1.1 = {
+971.1.1 = {
 monarch = {
      name = "Warlock Cabal"  
 		adm = 1

@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = workshops
 hre = no
 
-622.1.1 = { 
+926.1.1 = { 
 	owner = A80
 	controller = A80
         add_core = A80

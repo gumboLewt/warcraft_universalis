@@ -6,7 +6,7 @@ religion			= religion_arcane
 primary_culture 	= culture_kareshi
 capital 			= 1711
 
-625.1.1 = {
+941.1.1 = {
 add_country_modifier = {
     name = neutral_member
     duration = -1

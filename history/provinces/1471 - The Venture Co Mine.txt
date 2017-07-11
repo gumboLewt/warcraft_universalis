@@ -15,7 +15,7 @@ religion = religion_air
 trade_goods = iron
 hre = no
 
-622.1.1 = { 
+926.1.1 = { 
 culture = culture_venture
 religion = religion_greed
 base_tax = 4

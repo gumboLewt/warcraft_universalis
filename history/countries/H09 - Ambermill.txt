@@ -8,14 +8,14 @@ secondary_religion = religion_church_of_the_light
 primary_culture 	= culture_dalaran
 capital 			= 720
 
-620.1.1 = { 
+916.1.1 = { 
 	monarch = { 
 		name = "Ataeric"
 		dynasty = "of Dalaran" 
 		adm = 4
 		dip = 3
 		mil = 4
-		birth_date = 581.12.1
+		birth_date = 721.12.1
 		
 		leader = {
 			name = "Ataeric of Dalaran"

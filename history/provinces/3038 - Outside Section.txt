@@ -15,7 +15,7 @@ religion = religion_tech
 trade_goods = workshops
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 owner = A33
 controller = A33
 add_core = A33
@@ -25,7 +25,7 @@ religion = religion_greed
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
 owner = A32
 controller = A32
 culture = culture_gnome

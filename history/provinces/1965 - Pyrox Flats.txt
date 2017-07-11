@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = army_supplies
 hre = no
 
-598.1.1 = { 
+806.1.1 = { 
     owner = P98
     controller = P98
     add_core = P98
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
     owner = A30
     controller = A30
     add_core = A30
@@ -34,6 +34,6 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
     religion = religion_arcane 
 }

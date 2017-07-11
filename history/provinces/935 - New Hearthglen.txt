@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fish
 hre = no
 
-600.1.1 = {
+816.1.1 = {
 owner = G30
 controller = G30
 add_core = G30
@@ -24,7 +24,7 @@ religion = religion_geomancy
 }
 
 
-618.1.1 = {
+906.1.1 = {
 owner = P11
 controller = P11
 add_core = P11
@@ -33,7 +33,7 @@ culture = culture_scourge
 religion = religion_the_damned
 }
 
-626.1.1 = {
+946.1.1 = {
 add_core = F18
 owner = F18
 controller = F18

@@ -1,0 +1,7 @@
+government 			= warband_gov
+mercantilism 		= 10
+technology_group 	= tech_troll
+religion			= religion_voodoo
+primary_culture 	= culture_gurubashi
+capital 			= 1
+

@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = arcane
 hre = no
 
-597.1.1 = { 
+801.1.1 = { 
     owner = A43
     controller = A43
     add_core = A43
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX
@@ -33,7 +33,7 @@ hre = no
 }
 
 # The Third War
-617.1.1 = { 
+901.1.1 = { 
     is_city = yes
     owner = A02
     controller = A02
@@ -41,7 +41,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
     trade_goods = smugglers
     religion = religion_shadow
     add_core = A07

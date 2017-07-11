@@ -10,7 +10,7 @@ country_event = {
 	
 	trigger = {
 		is_year = 546	# Rise of the Horde
-		NOT = { is_year = 592 }  # The First War
+		NOT = { is_year = 776 }  # The First War
 		tag = A08		# Lordaeron
 		owns = 964		# Venomweb Vale
 	}

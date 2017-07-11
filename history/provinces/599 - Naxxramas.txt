@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = fish
 hre = no
 
-605.1.1 = { 
+841.1.1 = { 
 base_tax = 5
 base_manpower = 5
 base_production = 5
@@ -27,11 +27,11 @@ remove_core = P72
 culture = culture_scourge
 religion = religion_the_damned }
 
-622.1.1 = { 
+926.1.1 = { 
 capital = "Wintergarde Ruins"
 }
 
-626.1.1 = {
+946.1.1 = {
 capital = "Naxxramas"
 add_core = F18
 add_core = F19

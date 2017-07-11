@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 owner = B39
 controller = B39
 add_core = B39
@@ -28,7 +28,7 @@ is_city = yes
 remove_core = B30
 }
 
-622.1.1 = {
+926.1.1 = {
 owner = B30
 controller = B30
 add_core = B30
@@ -38,7 +38,7 @@ culture = culture_nerglish
 religion = religion_water
 }
 
-631.1.1 = {
+971.1.1 = {
 owner = A94
 controller = A94
 add_core = A94

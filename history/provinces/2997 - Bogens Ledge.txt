@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fur
 hre = no
 
-631.1.1 = {
+971.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX

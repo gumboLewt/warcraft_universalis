@@ -5,7 +5,7 @@ war_goal = {
 	province = 1022 # Stormwind
 }
 
-592.1.1 = {
+776.1.1 = {
 	add_attacker = A41
 	add_attacker = A40
         add_attacker = A43
@@ -17,7 +17,7 @@ war_goal = {
 	add_defender = A05
 }
 
-597.1.1 = {
+801.1.1 = {
 	rem_attacker = A41
 	rem_attacker = A40
         rem_attacker = A43

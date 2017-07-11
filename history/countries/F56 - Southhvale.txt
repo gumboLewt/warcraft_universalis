@@ -6,7 +6,7 @@ religion			= religion_arcane
 primary_culture 	= culture_high_elf 
 capital 			= 1047
 
-600.1.1 = { 
+816.1.1 = { 
 	monarch = { 
 		name = "Vyrin" 
 		dynasty = "Swiftwind" 
@@ -21,10 +21,10 @@ capital 			= 1047
 	}
 }
 
-605.1.1 = {
+841.1.1 = {
 	remove_country_modifier = alliance_member
 }
 
-618.1.1 = {
+906.1.1 = {
 	religion = religion_church_of_the_light 
 }

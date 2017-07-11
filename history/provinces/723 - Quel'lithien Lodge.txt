@@ -17,13 +17,13 @@ religion = religion_arcane
 trade_goods = fur
 hre = no 
 
-592.1.1 = { 
+776.1.1 = { 
 	remove_core = A10
 	remove_core = A62
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	owner = F54
 	controller = F54
 	add_core = F54
@@ -32,13 +32,13 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	base_tax = 4
 	base_production = 3
 }
 
 # The Burning Crusade
-625.1.1 = { 
+941.1.1 = { 
 	owner = F20
 	controller = F20
 	add_core = F20
@@ -46,7 +46,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = B94
 	controller = B94
 	add_core = B94

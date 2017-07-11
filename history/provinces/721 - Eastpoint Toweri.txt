@@ -16,7 +16,7 @@ religion = religion_voodoo
 trade_goods = army_supplies
 hre = no 
 
-597.1.1 = { 
+801.1.1 = { 
 	add_core = A08
 	remove_core = A63
 	owner = A08
@@ -26,7 +26,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	owner = P52
 	controller = P52
 	add_core = P52
@@ -36,7 +36,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 	owner = A26
 	controller = A26
 	add_core = A26
@@ -46,7 +46,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = P14
 	controller = P14
 	add_core = P14

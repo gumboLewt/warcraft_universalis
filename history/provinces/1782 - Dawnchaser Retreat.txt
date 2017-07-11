@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fish
 hre = yes
 
-632.1.1 = { 
+976.1.1 = { 
     owner = P83
     controller = P83
     add_core = P83

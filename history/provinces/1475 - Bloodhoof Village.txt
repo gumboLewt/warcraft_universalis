@@ -15,7 +15,7 @@ religion = religion_air
 trade_goods = mounts
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 owner = F88
 controller = F88
 add_core = F88

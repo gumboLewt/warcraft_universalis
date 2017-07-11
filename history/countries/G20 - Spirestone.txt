@@ -6,7 +6,7 @@ religion			= religion_geomancy
 primary_culture 	= culture_spirestone
 capital 			= 3054
 
-622.1.1 = { 
+926.1.1 = { 
 monarch = { 
      name = "Omokk" 
      dynasty = "Spirestone" 

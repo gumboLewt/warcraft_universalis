@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = naval_supplies
 hre = no 
 
-618.1.1 = { 
+906.1.1 = { 
 	owner = P09
 	controller = P09
 	add_core = P09 
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = A83
 	controller = A83
 	add_core = A83

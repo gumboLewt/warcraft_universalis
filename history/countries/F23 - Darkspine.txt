@@ -8,7 +8,7 @@ government_rank = 1
 
 primary_culture = culture_vashjari
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch =
 	{ 
 		name = "Nazjari" 

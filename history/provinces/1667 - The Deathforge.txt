@@ -16,7 +16,7 @@ trade_goods = workshops
 hre = no
 
 #Outland
-601.1.1 = {
+821.1.1 = {
     culture = culture_shadowmoon
     religion = religion_fel
 	base_tax = 4

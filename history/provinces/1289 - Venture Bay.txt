@@ -15,7 +15,7 @@ religion = religion_primitive
 trade_goods = naval_supplies
 hre = no
 
-626.1.1 = { culture = culture_venture
+946.1.1 = { culture = culture_venture
 religion = religion_greed
 owner = A81
 controller = A81

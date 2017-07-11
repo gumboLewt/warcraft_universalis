@@ -15,7 +15,7 @@ religion = religion_air
 trade_goods = grain
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 owner = F88
 controller = F88
 add_core = F88
@@ -27,7 +27,7 @@ base_manpower = 4
 base_production = 4
 }
 
-622.1.1 = {
+926.1.1 = {
 base_tax = 6
 base_manpower = 6
 base_production = 6

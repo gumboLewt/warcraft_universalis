@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = lumber
 hre = no 
 
-617.1.1 = { 
+901.1.1 = { 
 add_core = A60 
 owner = A60 
 controller = A60 
@@ -24,7 +24,7 @@ culture = culture_vilebranch
 
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
 owner = A61 
 controller = A61 
 culture = culture_revantusk 

@@ -15,14 +15,14 @@ religion = religion_geomancy
 trade_goods = fur
 hre = no
 
-601.1.1 = {
+821.1.1 = {
 owner = F50
 controller = F50
 add_core = F50
 remove_core = A51
 }
 
-625.1.1 = {
+941.1.1 = {
 owner = F29
 controller = F29
 add_core = F29

@@ -17,7 +17,7 @@ capital 			= 1
   }
 }
 
-617.1.1 = {
+901.1.1 = {
   add_country_modifier = {
     name = neutral_member
     duration = -1
@@ -25,7 +25,7 @@ capital 			= 1
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
   monarch = {
     name = "Arygos"
     adm = 4
@@ -35,7 +35,7 @@ capital 			= 1
 }
 
 # Mists of Panadaria
-632.1.1 = {
+976.1.1 = {
   monarch = {
     name = "Kalecgos"
     adm = 5

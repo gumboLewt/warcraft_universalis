@@ -15,7 +15,7 @@ religion = religion_light_of_the_naaru
 trade_goods = fish
 hre = no
 
-601.1.1 = {
+821.1.1 = {
 	owner = F65
 	controller = F65
 	add_core =  F65

@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = crypts
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 religion = religion_the_damned
 owner = B71
 controller = B71

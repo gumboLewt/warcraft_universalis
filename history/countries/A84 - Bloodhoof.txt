@@ -16,7 +16,7 @@ capital 			= 1373
  	}
 }
 
-592.1.1 = {
+776.1.1 = {
 	monarch = {
 		name = "Cairne" 
 		dynasty = "Bloodhoof" 
@@ -26,7 +26,7 @@ capital 			= 1373
  	}
 }
 
-617.1.1 = {
+901.1.1 = {
   historical_friend = A48
   historical_friend = A70
   add_country_modifier = {
@@ -35,11 +35,11 @@ capital 			= 1373
   }
 }
 
-618.1.1 = {
+906.1.1 = {
 	capital = 1473
 }
 
-631.1.1 = {
+971.1.1 = {
 	monarch = {
 		name = "Baine" 
 		dynasty = "Bloodhoof" 

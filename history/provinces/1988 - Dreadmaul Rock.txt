@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = dark_iron
 hre = no
 
-597.1.1 = {
+801.1.1 = {
 	owner = P98
 	controller = P98
 	add_core = P98
@@ -25,7 +25,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
 	owner = P99
 	controller = P99
 	remove_core = P98

@@ -21,8 +21,8 @@ historical_friend = A08
 		name = "Kael'Thas"
 		monarch_name = "Kael'Thas"
 		dynasty = "Sunstrider"
-		birth_date = 544.1.1
-		death_date = 618.1.1
+		birth_date = 536.1.1
+		death_date = 906.1.1
 		claim = 100
 		adm = 3
 		dip = 2
@@ -37,11 +37,11 @@ historical_friend = A08
 		shock = 3
 		manuever = 2
 		siege = 4
-		death_date = 600.1.1
+		death_date = 816.1.1
 	}
 }
 
-592.1.1 = {
+776.1.1 = {
 	leader = {
 		name = "Sylvanas Windrunner"
 		type = general
@@ -50,7 +50,7 @@ historical_friend = A08
 		shock = 5
 		manuever = 5
 		siege = 3
-		death_date = 618.1.1
+		death_date = 906.1.1
 	}
 	
 	leader = {
@@ -61,7 +61,7 @@ historical_friend = A08
 		shock = 3
 		manuever = 3
 		siege = 5
-		death_date = 618.1.1
+		death_date = 906.1.1
 	}
 	
 	leader = {
@@ -72,18 +72,18 @@ historical_friend = A08
 		shock = 3
 		manuever = 3
 		siege = 1
-		death_date = 618.1.1
+		death_date = 906.1.1
 	}
 }
 
-598.1.1 = {
+806.1.1 = {
 add_country_modifier = {
     name = alliance_member
     duration = -1
 }
 }
 
-605.1.1 = {
+841.1.1 = {
 remove_country_modifier = alliance_member
 }
 

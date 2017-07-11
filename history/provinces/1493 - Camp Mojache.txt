@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = fur
 hre = no
 
-600.1.1 = {
+816.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX
@@ -24,7 +24,7 @@ hre = no
     native_hostileness = 10
 }
 
-622.1.1 = {
+926.1.1 = {
     is_city = yes
     owner = A86
     controller = A86

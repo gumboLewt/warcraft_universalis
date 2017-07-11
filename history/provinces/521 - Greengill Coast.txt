@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = fish
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 owner = F22
 controller = F22
 add_core = F22

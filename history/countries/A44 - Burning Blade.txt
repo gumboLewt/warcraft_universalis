@@ -6,11 +6,11 @@ religion			= religion_ancestral
 primary_culture 	= culture_horde
 capital 			= 1637
 
-592.1.1 = { 
+776.1.1 = { 
     religion = religion_fel
 }
 
-597.1.1 = { 
+801.1.1 = { 
 	monarch = { 
 		name = "Dharl" 
 		dynasty = "Bladefury" 

@@ -7,7 +7,7 @@ primary_culture 	= culture_zoram
 capital 			= 1
 government_rank = 1
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch = { 
 		name = "Skessesh" 
 		dynasty = "Hatecrest" 

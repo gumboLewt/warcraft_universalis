@@ -15,7 +15,7 @@ religion = religion_titan_corrupt
 trade_goods = artifacts
 hre = yes
 
-633.1.1 = { 
+981.1.1 = { 
     is_city = no
     owner = XXX
     controller = XXX

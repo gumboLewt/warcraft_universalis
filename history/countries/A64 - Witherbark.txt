@@ -16,7 +16,7 @@ monarch = {
   	}  
   }  
 
-592.1.1 = {  
+776.1.1 = {  
 monarch = {  
       name = "Zalas"  
      dynasty = "Witherbark"  
@@ -26,6 +26,6 @@ monarch = {
   	}  
   }  
 
-600.1.1 = {
+816.1.1 = {
 historical_friend = A51
 }

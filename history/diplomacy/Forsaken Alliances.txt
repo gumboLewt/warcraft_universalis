@@ -13,24 +13,24 @@
 alliance = {
 	first = P14
 	second = A25
-	start_date = 620.1.1
-	end_date = 620.5.1
+	start_date = 916.1.1
+	end_date = 916.5.1
 }
 
 # Forsaken - Frostwolf
 alliance = {
 	first = P14
 	second = A46
-	start_date = 622.1.1
-	end_date = 650.5.1
+	start_date = 926.1.1
+	end_date = 1066.5.1
 }
 
 # Forsaken - Hand of Vengeance
 union = {
 	first = P14
 	second = A96
-	start_date = 626.1.1
-	end_date = 650.5.1
+	start_date = 946.1.1
+	end_date = 1066.5.1
 }
 
 #################
@@ -40,6 +40,6 @@ union = {
 alliance = {
 	first = P14
 	second = P29
-	start_date = 630.1.1
-	end_date = 632.5.1
+	start_date = 966.1.1
+	end_date = 976.5.1
 }

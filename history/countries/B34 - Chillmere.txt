@@ -16,7 +16,7 @@ capital 			= 651
 	} 
 } 
 
-626.1.1 = {
+946.1.1 = {
 primary_culture = culture_murghoul
 religion = religion_the_damned
 	monarch = { 

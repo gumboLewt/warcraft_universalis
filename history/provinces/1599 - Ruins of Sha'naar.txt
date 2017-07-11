@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = artifacts
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 	owner = B87
 	controller = B87
 	add_core = B87

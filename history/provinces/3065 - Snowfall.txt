@@ -12,7 +12,7 @@ religion = religion_air
 trade_goods = crypts
 hre = no 
 
-598.1.1 = {
+806.1.1 = {
 	owner = A76
 	controller = A76
 	add_core = A76
@@ -23,18 +23,18 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	base_production = 3
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	base_tax = 3
 	base_manpower = 3
 }
 
 # Wrath of the Lich King
-626.1.1 = {
+946.1.1 = {
     is_city = no
 	owner = XXX
 	controller = XXX

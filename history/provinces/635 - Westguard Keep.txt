@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = fur
 hre = no
 
-605.1.1 = {
+841.1.1 = {
 remove_core = P32
 owner = P11
 controller = P11
@@ -26,7 +26,7 @@ religion = religion_the_damned
 
 
 # The Third War
-617.1.1 = { 
+901.1.1 = { 
 owner = F38
 controller = F38
 add_core = F38
@@ -38,6 +38,6 @@ base_production = 4
 trade_goods = naval_supplies
 }
 
-618.1.1 = {
+906.1.1 = {
 remove_core = P11
 }

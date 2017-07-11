@@ -7,7 +7,7 @@ primary_culture 	= culture_vashjari
 government_rank = 1
 capital = 691
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch =
 	{ 
 		name = "Nazjak"  

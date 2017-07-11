@@ -16,7 +16,7 @@ religion = religion_geomancy
 trade_goods = copper
 hre = no
 
-597.1.1 = { 
+801.1.1 = { 
 	owner = B58
 	controller = B58
 	add_core = B58
@@ -25,7 +25,7 @@ hre = no
 }
 
 # The Third War
-617.1.1 = { 
+901.1.1 = { 
 	owner = A01
 	controller = A01
 	culture = culture_azerothian
@@ -33,7 +33,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = B58
 	controller = B58
 	add_core = B58

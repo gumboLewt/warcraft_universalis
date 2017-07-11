@@ -15,7 +15,7 @@ religion = religion_primitive
 trade_goods = fur
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 	owner = A18
 	controller = A18
 	add_core = A18

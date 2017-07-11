@@ -9,8 +9,8 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		is_year = 622	# Rise of the Qiraji
-		not = {is_year = 626}
+		is_year = 926	# Rise of the Qiraji
+		NOT = { is_year = 946 }
 		tag = P12		# Cult of the Damned
 		owns = 3075		# Reanimatory
 	}

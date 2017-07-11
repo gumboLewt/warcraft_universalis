@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = fur
 hre = no 
 
-600.1.1 = { 
+816.1.1 = { 
 	owner = A41
 	controller = A41
 	add_core = A41
@@ -25,7 +25,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	owner = P52
 	controller = P52
 	add_core = P52
@@ -35,12 +35,12 @@ hre = no
 }
 
 # War of Lordaeron (TFT)
-620.8.1 = { 
+916.8.1 = { 
 	controller = P14
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = A26
 	controller = A26
 	add_core = A26
@@ -52,7 +52,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = H11
 	controller = H11
 	add_core = H11
@@ -62,7 +62,7 @@ hre = no
 }
 
 # Mists of Pandaria
-632.1.1 = { 
+976.1.1 = { 
 	base_tax = 1          # Forsaken bomb attack
 	base_manpower = 1
 	base_production = 1

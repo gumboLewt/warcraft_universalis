@@ -16,7 +16,7 @@ religion = religion_church_of_the_light
 trade_goods = lumber
 hre = no
 
-598.1.1 = { 
+806.1.1 = { 
 	owner = A63
 	controller = A63
 	culture = culture_firetree
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
 	owner = A14
 	controller = A14
 	# culture = culture_kul_tiran              # only occupied by Kul Tiras
@@ -32,7 +32,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = A63
 	controller = A63
 }

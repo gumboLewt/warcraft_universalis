@@ -5,7 +5,7 @@ country_decisions = {
         
         potential = {
             tag = A12
-            is_year = 617
+            is_year = 901
             NOT = { has_country_flag = released_crowley }
         }
         

@@ -16,7 +16,7 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no
 
-598.1.1 = {
+806.1.1 = {
 	owner = A29
 	controller = A29
 	add_core = A29

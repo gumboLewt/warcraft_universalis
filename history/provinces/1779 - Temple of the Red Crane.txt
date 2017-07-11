@@ -15,7 +15,7 @@ religion = religion_celestial
 trade_goods = artifacts
 hre = yes
 
-632.1.1 = {
+976.1.1 = {
     owner = B84
     controller = B84
     add_core = B84
@@ -24,7 +24,7 @@ hre = yes
 }
 
 # Warlords of Draenor
-633.1.1 = { 
+981.1.1 = { 
     owner = P37
     controller = P37
     add_core = P37

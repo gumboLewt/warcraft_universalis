@@ -16,7 +16,7 @@ religion = religion_church_of_the_light
 trade_goods = copper
 hre = no 
 
-617.1.1 = {
+901.1.1 = {
 	add_core = A08
 	owner = A08
 	controller = P52
@@ -25,7 +25,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	owner = A25
 	controller = A25
 	add_core = A25
@@ -33,12 +33,12 @@ hre = no
 }
 
 # Reconquest of Lordaeron (TFT)
-620.10.1 = {
+916.10.1 = {
 	controller = P52
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = A13
 	controller = A13
 	add_core = A13
@@ -50,7 +50,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = F53
 	controller = F53
 	add_core = F53

@@ -6,7 +6,7 @@ religion			= religion_geomancy
 primary_culture 	= culture_crushridge #They was part of Crushridges
 capital 			= 1453
 
-600.1.1 = { 
+816.1.1 = { 
 monarch = { 
      name = "Kor'gall" 
      dynasty = "Stonemaul" 
@@ -16,7 +16,7 @@ monarch = {
  	} 
  } 
 
-618.1.1 = { 
+906.1.1 = { 
 monarch = { 
 		name = "Rexxar" 
 		dynasty = "The Stonemaul"  
@@ -31,7 +31,7 @@ monarch = {
   religion = religion_ancestral
  } 
  
-622.1.1 = { 
+926.1.1 = { 
 	capital = 1451 
 	monarch = { 
 		name = "Mok'Morokk" 
@@ -42,7 +42,7 @@ monarch = {
  	} 
 }
 
-625.1.1 = {
+941.1.1 = {
 	monarch = { 
 		name = "Tharg" 
 		dynasty = "Stonemaul" 

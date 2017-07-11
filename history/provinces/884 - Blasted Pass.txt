@@ -12,7 +12,7 @@ religion = religion_loa
 trade_goods = cloth
 hre = no
 
-592.1.1 = { 
+776.1.1 = { 
     owner = A41
     controller = A41
     add_core = A41
@@ -21,7 +21,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
     is_city = no
     owner = XXX
     controller = XXX
@@ -29,7 +29,7 @@ hre = no
 }
 
 # Warlords of Draenor
-633.1.1 = { 
+981.1.1 = { 
     is_city = yes
     owner = F26
     controller = F26

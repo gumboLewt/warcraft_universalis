@@ -6,7 +6,7 @@ religion			= religion_water
 primary_culture 	= culture_kvaldir
 capital 			= 1
 
-626.1.1 = { 
+946.1.1 = { 
 monarch = { 
      name = "Hrothgar" 
 	dynasty = "Kvaldir"

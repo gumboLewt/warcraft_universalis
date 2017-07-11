@@ -6,7 +6,7 @@ religion			= religion_geomancy
 primary_culture 	= culture_dreadmaul
 capital 			= 1
 
-592.1.1 = { 
+776.1.1 = { 
 	monarch = { 
 		name = "Grol" 
 		dynasty = "the Destroyer" 
@@ -16,11 +16,11 @@ capital 			= 1
 	} 
 } 
 
-622.1.1 = { 
+926.1.1 = { 
 religion = religion_fel 
 }
 
-633.1.1 = { 
+981.1.1 = { 
 	monarch = { 
 		name = "Toothsmash" 
 		dynasty = "the Annihilator" 

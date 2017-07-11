@@ -15,7 +15,7 @@ religion = religion_druidic
 trade_goods = ashenvale_lumber
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 culture = culture_warsong
 religion = religion_ancestral
 owner = A35
@@ -24,13 +24,13 @@ add_core = A35
 capital = "Splintertree Post"
 }
 
-622.1.1 = {
+926.1.1 = {
 base_tax = 3
 base_manpower = 3
 base_production = 3
 }
 
-633.1.1 = {
+981.1.1 = {
 culture = culture_foulweald
 religion = religion_fel
 owner = F95

@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = gold
 hre = no
 
-631.1.1 = { owner = A19
+971.1.1 = { owner = A19
 controller = A19
 add_core = A19
 religion = religion_church_of_the_light

@@ -5,7 +5,7 @@ war_goal = {
 	province = 927 # Gilneas City
 }
 
-631.1.1 = {
+971.1.1 = {
 	add_attacker = P14
 	add_attacker = P29
 	add_attacker = A48
@@ -21,7 +21,7 @@ war_goal = {
 	add_defender = H11
 }
 
-632.1.1 = {
+976.1.1 = {
 	rem_attacker = P14
 	rem_attacker = P29
 	rem_attacker = A48

@@ -6,7 +6,7 @@ religion			= religion_fel
 primary_culture 	= culture_stormreaver
 capital 			= 1
 
-597.1.1 = { 
+801.1.1 = { 
 	monarch = { 
 		name = "Gul'dan" 
 		dynasty = "Shadowmoon" 

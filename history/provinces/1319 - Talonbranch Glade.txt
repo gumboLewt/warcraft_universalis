@@ -15,12 +15,12 @@ religion = religion_ancestral
 trade_goods = lumber
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 religion = religion_fel
 trade_goods = fel
 }
 
-622.1.1 = {
+926.1.1 = {
 owner = A94
 controller = A94
 add_core = A94
@@ -29,7 +29,7 @@ culture = culture_sentinel
 religion = religion_elune
 }
 
-631.1.1 = {
+971.1.1 = {
 owner = A12
 controller = A12
 add_core = A12

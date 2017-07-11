@@ -5,7 +5,7 @@ war_goal = {
 	province = 981 # Stromgarde Keep
 }
 
-618.1.1 = {
+906.1.1 = {
 	add_attacker = P52
 	add_attacker = P12
 	add_attacker = P11
@@ -14,7 +14,7 @@ war_goal = {
 	add_defender = A11
 }
 
-622.1.1 = {
+926.1.1 = {
 	rem_attacker = P52
 	rem_attacker = P12
 	rem_attacker = P11

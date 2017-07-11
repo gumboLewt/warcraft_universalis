@@ -15,7 +15,7 @@ religion = religion_light_of_the_naaru
 trade_goods = fel_iron
 hre = no
 
-592.1.1 = {
+776.1.1 = {
    owner = A34
     controller = A34
     add_core = A34

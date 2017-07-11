@@ -15,7 +15,7 @@ religion = religion_celestial
 trade_goods = grain
 hre = yes
 
-632.1.1 = {
+976.1.1 = {
     owner = P75
     controller = P75
     add_core = P75

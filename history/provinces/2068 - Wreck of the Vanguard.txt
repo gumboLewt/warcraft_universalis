@@ -15,7 +15,7 @@ religion = religion_celestial
 trade_goods = fish
 hre = yes
 
-632.1.1 = { 
+976.1.1 = { 
     owner = A01
     controller = A01
     add_core = A01

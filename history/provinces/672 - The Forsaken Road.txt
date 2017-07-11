@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = cloth
 hre = no 
 
-617.1.1 = {
+901.1.1 = {
 	add_core = A08
 	remove_core = A12
 	owner = A08
@@ -23,7 +23,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	owner = A25 
 	controller = A25
 	add_core = A25
@@ -31,7 +31,7 @@ hre = no
 }
 
 # Reconquest of Lordaeron (TFT)
-620.7.1 = { 
+916.7.1 = { 
     owner = P52
 	controller = P52
     add_core = P52
@@ -39,7 +39,7 @@ hre = no
 }
 
 # Reconquest of Lordaeron (TFT)
-620.8.1 = { 
+916.8.1 = { 
     owner = A13
 	controller = A13
     add_core = A13
@@ -47,13 +47,13 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	culture = culture_gilnean_worgen
 	religion = religion_shadow 
 }
 
 # Cataclysm
-631.1.1 = {  
+971.1.1 = {  
 	owner = P14
 	controller = P14
 	add_core = P14

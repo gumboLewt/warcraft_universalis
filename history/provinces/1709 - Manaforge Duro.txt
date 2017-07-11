@@ -15,7 +15,7 @@ religion = religion_light_of_the_naaru
 trade_goods = arcane
 hre = no
 
-592.1.1 = {
+776.1.1 = {
 	add_core = A43
 	owner = A43
 	controller = A43
@@ -24,14 +24,14 @@ hre = no
 	culture = culture_twilights_hammer
 }
 
-617.1.1 = {
+901.1.1 = {
     is_city = no
 	remove_core = A43
 	owner = XXX
 	controller = XXX
 }
 
-622.1.1 = {
+926.1.1 = {
     is_city = yes
 	owner = A93
 	controller = A93

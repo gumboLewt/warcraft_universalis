@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fish
 hre = no
 
-600.1.1 = {
+816.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX
@@ -23,7 +23,7 @@ hre = no
     religion = religion_geomancy
 }
 
-630.11.11 = {
+966.11.11 = {
     is_city = no
     owner = XXX
     controller = XXX
@@ -31,7 +31,7 @@ hre = no
     religion = religion_geomancy
 }
 
-631.1.1 = {
+971.1.1 = {
     is_city = yes
     add_core = A32
     owner = A32

@@ -17,7 +17,7 @@ capital 			= 2010
  	} 
 } 
 
-592.1.1 = { 
+776.1.1 = { 
 	monarch = { 
 		name = "Reginald I" 
 		dynasty = "Baradin" 
@@ -27,7 +27,7 @@ capital 			= 2010
  	} 
 }
  
-600.1.1 = { 
+816.1.1 = { 
 	monarch = { 
 		name = "Reginald II" 
 		dynasty = "Baradin" 
@@ -38,7 +38,7 @@ capital 			= 2010
 	add_accepted_culture = culture_kul_tiran
 }
  
-631.1.1 = { 
+971.1.1 = { 
 	monarch = { 
 		name = "Marcus" 
 		dynasty = "Johnson" 

@@ -6,7 +6,7 @@ religion			= religion_forgotten_shadow
 primary_culture 	= culture_forsaken
 capital 			= 966
 
-631.1.1 = { 
+971.1.1 = { 
 	monarch = { 
 		name = "Galen" 
 		dynasty = "Trollbane" 
@@ -16,6 +16,6 @@ capital 			= 966
 	} 
 }
 
-633.6.1 = {
+981.6.1 = {
 	capital = 3002
 }

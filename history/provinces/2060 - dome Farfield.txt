@@ -15,12 +15,12 @@ religion = religion_ancestral
 trade_goods = warbeasts
 hre = no
 
-592.1.1 = {
+776.1.1 = {
 religion = religion_fel
 }
 
 #Outland
-601.1.1 = {
+821.1.1 = {
 owner = P18
 controller = P18
 add_core =  P18

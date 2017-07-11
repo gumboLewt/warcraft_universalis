@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = gemstones
 hre = no
 
-631.1.1 = { 
+971.1.1 = { 
 capital = "Speedbarge Dock"
 owner = A80
 controller = A80

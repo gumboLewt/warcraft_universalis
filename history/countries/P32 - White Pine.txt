@@ -18,7 +18,7 @@ monarch = {
  } 
 
 
-592.1.1 = { 
+776.1.1 = { 
 monarch = { 
      name = "Blanchard" 
      dynasty = "Pike" 
@@ -29,7 +29,7 @@ monarch = {
 government = dictatorship_gov
  }
 
-622.1.1 = { 
+926.1.1 = { 
 monarch = { 
      name = "Mark" 
      dynasty = "Anderhol" 
@@ -39,7 +39,7 @@ monarch = {
  	} 
  }
 
-626.1.1 = { 
+946.1.1 = { 
 monarch = { 
      name = "" 
      dynasty = "Dumont" 

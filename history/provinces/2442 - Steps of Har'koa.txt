@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = grain
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 owner = A78
 controller = A78
 add_core = A78
@@ -26,7 +26,7 @@ base_manpower = 2
 base_production = 2
 }
 
-631.1.1 = {
+971.1.1 = {
 religion = religion_voodoo
 remove_core = A74
 }

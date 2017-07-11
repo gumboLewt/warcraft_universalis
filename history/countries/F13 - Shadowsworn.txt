@@ -7,7 +7,7 @@ primary_culture 	= culture_stormreaver
 capital 			= 1
 
 
-600.1.1 = { 
+816.1.1 = { 
 	monarch = { 
 		name = "Sevine" 
 		dynasty = "Stormreaver" 
@@ -19,7 +19,7 @@ capital 			= 1
 	} 
 }
 
-618.1.1 = {
+906.1.1 = {
 	technology_group 	= tech_demonic
 	primary_culture 	= culture_legion_cultist
 }

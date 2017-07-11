@@ -7,7 +7,7 @@ primary_culture 	= culture_twilights_hammer
 capital 			= 1
 
 
-592.1.1 = { 
+776.1.1 = { 
 	monarch = { 
 		name = "Cho'gall" 
 		dynasty = " of Highmaul" 
@@ -21,14 +21,14 @@ capital 			= 1
 	historical_friend = B88
 }
 
-617.1.1 = { 
+901.1.1 = { 
     remove_country_modifier = fel_infused
     religion = religion_old_gods
     government = cult_gov
     technology_group = tech_old_god
 }
 
-632.1.1 = { 
+976.1.1 = { 
 	monarch = { 
 		name = "Twilight Council" 
 		adm = 4

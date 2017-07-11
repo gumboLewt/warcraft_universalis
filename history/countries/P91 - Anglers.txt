@@ -16,7 +16,7 @@ capital 			= 1
 	} 
 } 
 
-632.1.1 = { 
+976.1.1 = { 
 	monarch = { 
 		name = "Nat" 
 		dynasty = "Pagle" 

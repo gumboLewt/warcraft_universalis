@@ -21,7 +21,7 @@ historical_friend = A05
  	} 
 } 
 
-592.1.1 = { 
+776.1.1 = { 
 	monarch = { 
 		name = "Llane" 
 		dynasty = "Wrynn" 
@@ -31,7 +31,7 @@ historical_friend = A05
  	} 
 } 
 
-597.1.1 = {
+801.1.1 = {
 	add_country_modifier = {
 		name = alliance_member
 		duration = -1
@@ -47,9 +47,9 @@ historical_friend = A05
 	secondary_religion = religion_arcane
 }
 
-617.1.1 = { capital = 1022 }
+901.1.1 = { capital = 1022 }
  
-622.1.1 = { 
+926.1.1 = { 
 	monarch = { 
 		name = "Anduin" 
 		dynasty = "Wrynn" 
@@ -63,7 +63,7 @@ historical_friend = A05
 	}
 }
  
-626.1.1 = { 
+946.1.1 = { 
 	monarch = { 
 		name = "Varian" 
 		dynasty = "Wrynn" 

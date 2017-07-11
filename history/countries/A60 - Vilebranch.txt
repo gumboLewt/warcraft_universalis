@@ -16,7 +16,7 @@ capital 			= 2999
   	} 
 }
 
-592.1.1 = {  
+776.1.1 = {  
 	monarch = {  
 		name = "Kaz'jin"  
 		dynasty = "Vilebranch"  
@@ -27,7 +27,7 @@ capital 			= 2999
 }  
 
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch = { 
 		name = "Hexx" 
 		dynasty = "Vilebranch" 
@@ -40,7 +40,7 @@ capital 			= 2999
     government = militaristic_theocracy
 } 
  
-631.1.1 = { 
+971.1.1 = { 
 	monarch = { 
 		name = "Qiaga" 
 		dynasty = "Vilebranch" 
@@ -52,6 +52,6 @@ capital 			= 2999
  	capital = 942
 } 
 
-632.1.1 = {
+976.1.1 = {
  	capital = 2999
 }

@@ -7,7 +7,7 @@ religion			= religion_church_of_the_light
 primary_culture 	= culture_lordaeron
 capital 			= 685
 
-622.1.1 = {
+926.1.1 = {
 	monarch = {
 		name = "Valdred"
 		dynasty = "Moray"

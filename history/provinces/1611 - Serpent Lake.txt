@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = fish
 hre = no
 
-600.1.1 = {
+816.1.1 = {
     owner = F68
     controller = F68
     add_core = F68
@@ -23,7 +23,7 @@ hre = no
     religion = religion_ancestral
 }
 
-622.1.1 = {
+926.1.1 = {
     base_tax = 3
     base_manpower = 3
     base_production = 3

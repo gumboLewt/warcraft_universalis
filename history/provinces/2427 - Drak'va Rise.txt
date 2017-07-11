@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = grain
 hre = no
 
-626.1.1 = { add_core = F19
+946.1.1 = { add_core = F19
 controller = F19
 owner = F19
 culture = culture_lordaeron

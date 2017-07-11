@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = fish
 hre = no
 
-615.1.1 = { 
+891.1.1 = { 
 	add_core = P11
 	owner = P11
 	controller = P11
@@ -26,7 +26,7 @@ hre = no
 }
 
 # Wrath of the Lich King
-626.1.1 = { 
+946.1.1 = { 
 	add_core = F19
 	owner = F19
 	controller = F19

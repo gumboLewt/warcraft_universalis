@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = army_supplies
 hre = no
 
-600.1.1 = {
+816.1.1 = {
     is_city = no
 	owner = XXX 
 	controller = XXX
@@ -26,7 +26,7 @@ hre = no
 }
 
 # Cataclysm - Influx of Draenei Settlers after revantusk raids diminished elven population
-631.1.1 = {
+971.1.1 = {
     is_city = yes
 	add_core = P49
 	owner = P49  

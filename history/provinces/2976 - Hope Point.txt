@@ -16,7 +16,7 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	add_core = A10
 	add_core = P52
 	remove_core = A08
@@ -25,7 +25,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	add_core = A24
 	remove_core = A10
 	remove_core = P52
@@ -35,7 +35,7 @@ hre = no
 }
 
 # Wrath of the Lich King
-626.1.1 = {
+946.1.1 = {
 	owner = F19
 	controller = F19
 	add_core = F19

@@ -7,7 +7,7 @@ religion			= religion_fel
 primary_culture 	= culture_blackrock
 capital 			= 1984
 
-597.1.1 = { 
+801.1.1 = { 
 	monarch = { 
 		name = "Rend" 
 		dynasty = "Blackhand" 
@@ -24,7 +24,7 @@ capital 			= 1984
 	} 
 }
 
-600.1.1 = { 
+816.1.1 = { 
 	monarch = { 
 		name = "" 
 		dynasty = "Jong" 

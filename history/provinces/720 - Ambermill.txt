@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = lumber
 hre = no 
 
-617.1.1 = { 
+901.1.1 = { 
 	owner = A18
 	controller = A18
 	add_core = A18
@@ -24,7 +24,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	owner = A25
 	controller = A25
 	add_core = A25
@@ -32,7 +32,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 	owner = H09
 	controller = H09
 	add_core = H09
@@ -42,12 +42,12 @@ hre = no
 }
 
 # The Burning Crusade
-625.1.1 = {
+941.1.1 = {
 	base_manpower = 5
 }
 
 # Mists of Pandaria
-632.1.1 = { 
+976.1.1 = { 
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 	owner = P14

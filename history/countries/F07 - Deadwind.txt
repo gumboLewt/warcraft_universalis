@@ -6,7 +6,7 @@ religion			= religion_geomancy
 primary_culture 	= culture_deadwind
 capital 			= 1
 
-592.1.1 = { 
+776.1.1 = { 
 	monarch = { 
 		name = "Turok" 
 		dynasty = "Deadwind" 
@@ -16,7 +16,7 @@ capital 			= 1
 	} 
 } 
 
-597.1.1 = { 
+801.1.1 = { 
 	monarch = { 
 		name = "Kolbine" 
 		dynasty = "Deadwind" 

@@ -15,7 +15,7 @@ religion = religion_sect_of_dragons
 trade_goods = flying_mounts
 hre = no
 
-631.1.1 = { 
+971.1.1 = { 
     owner = B06
     controller = B06
     add_core = B06
@@ -24,7 +24,7 @@ hre = no
     culture = culture_red
 }
 
-632.1.1 = { 
+976.1.1 = { 
     is_city = no
     owner = XXX
     controller = XXX

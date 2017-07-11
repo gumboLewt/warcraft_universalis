@@ -5,7 +5,7 @@ war_goal = {
 	province = 543 # Lordaeron city
 }
 
-618.1.1 = {
+906.1.1 = {
 	add_attacker = A25
 	add_defender = F15
 	add_defender = P12
@@ -13,11 +13,11 @@ war_goal = {
 	add_defender = P11
 }
 
-618.5.1 = {
+906.5.1 = {
 	rem_defender = F15
 }
 
-622.1.1 = {
+926.1.1 = {
 	rem_attacker = A25
 	rem_defender = P12
 	rem_defender = P52

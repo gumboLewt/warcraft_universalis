@@ -15,14 +15,14 @@ religion = religion_elune
 trade_goods = ashenvale_lumber
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 	owner = A94
 	controller = A94
         add_core = A94
         remove_core = H01
 }
 
-631.1.1 = {
+971.1.1 = {
 base_tax = 3
 base_manpower = 3
 base_production = 3

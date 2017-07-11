@@ -16,7 +16,7 @@ capital 			= 2122
 	} 
 } 
 
-600.1.1 = { 
+816.1.1 = { 
 	monarch = { 
 		name = "Gammothra" 
 		dynasty = "the Tormentor" 

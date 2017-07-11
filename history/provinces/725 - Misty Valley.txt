@@ -15,7 +15,7 @@ religion = religion_sect_of_dragons
 trade_goods = fur
 hre = no
 
-592.1.1 = { 
+776.1.1 = { 
 	owner = A40
 	controller = A40
 	add_core = A40
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
     is_city = no
 	owner = XXX
 	controller = XXX
@@ -34,6 +34,6 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
 	culture = culture_sprite
 }

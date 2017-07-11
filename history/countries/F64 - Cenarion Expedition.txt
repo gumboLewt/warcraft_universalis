@@ -6,7 +6,7 @@ primary_culture 		= culture_cenarion
 add_accepted_culture 	= culture_sentinel
 capital 				= 1620
 
-625.1.1 = {
+941.1.1 = {
 	monarch = {
 		name = "Ysiel" 
 		dynasty = "Windsinger" 

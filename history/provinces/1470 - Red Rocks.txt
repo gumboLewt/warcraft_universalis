@@ -15,7 +15,7 @@ religion = religion_air
 trade_goods = crypts
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	owner = B68
 	controller = B68
 	add_core = B68

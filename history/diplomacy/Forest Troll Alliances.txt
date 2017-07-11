@@ -6,7 +6,7 @@ vassal = {
 	first = A58
 	second = A59
 	start_date = 546.1.1
-	end_date = 634.1.1
+	end_date = 986.1.1
 }
 
 # Amani-Mossflayer
@@ -14,7 +14,7 @@ vassal = {
 	first = A58
 	second = A62
 	start_date = 546.1.1
-	end_date = 600.1.1
+	end_date = 816.1.1
 }
 
 ### Zul'jin's United Troll Tribes ###
@@ -22,48 +22,48 @@ vassal = {
 vassal = {
 	first = A58
 	second = A63
-	start_date = 592.1.1
-	end_date = 600.1.1
+	start_date = 776.1.1
+	end_date = 816.1.1
 }
 
 # Amani-Vilebranch
 vassal = {
 	first = A58
 	second = A60
-	start_date = 592.1.1
-	end_date = 600.1.1
+	start_date = 776.1.1
+	end_date = 816.1.1
 }
 
 # Amani-Witherbark
 vassal = {
 	first = A58
 	second = A64
-	start_date = 592.1.1
-	end_date = 600.1.1
+	start_date = 776.1.1
+	end_date = 816.1.1
 }
 
 # Amani-Raventusk
 vassal = {
 	first = A58
 	second = A61
-	start_date = 592.1.1
-	end_date = 600.1.1
+	start_date = 776.1.1
+	end_date = 816.1.1
 }
 
 # Amani-Smolderthorn
 vassal = {
 	first = A58
 	second = A65
-	start_date = 592.1.1
-	end_date = 600.1.1
+	start_date = 776.1.1
+	end_date = 816.1.1
 }
 
 # Amani-Shadowglen
 vassal = {
 	first = A58
 	second = P55
-	start_date = 592.1.1
-	end_date = 600.1.1
+	start_date = 776.1.1
+	end_date = 816.1.1
 }
 
 ##########################
@@ -75,7 +75,7 @@ vassal = {
 	first = A60
 	second = A61
 	start_date = 546.1.1
-	end_date = 592.1.1
+	end_date = 776.1.1
 }
 
 # Vilebranch-Firetree
@@ -83,7 +83,7 @@ vassal = {
 	first = A60
 	second = A63
 	start_date = 546.1.1
-	end_date = 592.1.1
+	end_date = 776.1.1
 }
 
 # Vilebranch-Witherbark
@@ -91,7 +91,7 @@ vassal = {
 	first = A60
 	second = A64
 	start_date = 546.1.1
-	end_date = 592.1.1
+	end_date = 776.1.1
 }
 
 # Vilebranch-Smolderthorn
@@ -99,7 +99,7 @@ vassal = {
 	first = A60
 	second = A65
 	start_date = 546.1.1
-	end_date = 592.1.1
+	end_date = 776.1.1
 }
 
 ##########################
@@ -110,6 +110,6 @@ vassal = {
 alliance = {
 	first = A51
 	second = A64
-	start_date = 600.1.1
-	end_date = 650.1.1
+	start_date = 816.1.1
+	end_date = 1066.1.1
 }

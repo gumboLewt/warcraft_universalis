@@ -15,14 +15,14 @@ religion = religion_elune
 trade_goods = ashenvale_lumber
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 remove_core = H01
 owner = A94
 controller = A94
 add_core = A94
 }
 
-631.1.1 = {
+971.1.1 = {
 culture = culture_horde
 religion = religion_ancestral
 owner = A35
@@ -30,7 +30,7 @@ controller = A35
 add_core = A35
 }
 
-633.1.1 = {
+981.1.1 = {
 culture = culture_sentinel
 religion = religion_elune
 owner = A94

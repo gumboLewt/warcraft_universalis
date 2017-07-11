@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = army_supplies
 hre = no 
 
-618.1.1 = { 
+906.1.1 = { 
 	owner = A25
 	controller = A25
 	add_core = A25
@@ -30,12 +30,12 @@ hre = no
 }
 
 # Reconquest of Lordaeron (TFT)
-620.8.1 = { 
+916.8.1 = { 
 	controller = P52
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = B19
 	controller = B19
 	add_core = B19
@@ -47,7 +47,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = A11
 	controller = A11
 	add_core = A11

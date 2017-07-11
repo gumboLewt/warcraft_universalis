@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = grain
 hre = no 
 
-592.1.1 = { 
+776.1.1 = { 
 	add_core = A16
 	owner = A16
 	controller = A16
@@ -24,7 +24,7 @@ hre = no
 }
 
 # The Third War
-617.1.1 = {
+901.1.1 = {
     is_city = no
 	owner = XXX
 	controller = XXX
@@ -33,7 +33,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
     is_city = yes
 	owner = A48
 	controller = A48

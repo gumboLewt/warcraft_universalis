@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = fish
 hre = no
 
-631.1.1 = { 
+971.1.1 = { 
 owner = A48
 controller = A48
 add_core = A48
@@ -23,7 +23,7 @@ culture = culture_horde
 religion = religion_ancestral
 }
 
-632.1.1 = { 
+976.1.1 = { 
 owner = A01
 controller = A01
 add_core = A01

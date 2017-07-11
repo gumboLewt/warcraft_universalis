@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = gemstones
 hre = no
 
-622.1.1 = { culture = culture_venture
+926.1.1 = { culture = culture_venture
 religion = religion_greed
 owner = A81
 controller = A81

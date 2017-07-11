@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no 
 
-618.1.1 = {
+906.1.1 = {
 	add_core = B19
 	add_core = P52
 	owner = B19
@@ -26,18 +26,18 @@ hre = no
 }
 
 # War of Lordaeron (TFT)
-619.12.1 = {
+911.12.1 = {
 	controller = P52
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 	religion = religion_the_damned
 	controller = B19
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
 	religion = religion_forgotten_shadow
 	culture = culture_forsaken
 	remove_core = B19

@@ -7,7 +7,7 @@ primary_culture 	= culture_burning_blade
 capital 			= 1
 
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch = { 
 		name = "Neeru" 
 		dynasty = "Fireblade" 

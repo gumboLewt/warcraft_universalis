@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = army_supplies
 hre = no 
 
-617.1.1 = {
+901.1.1 = {
 add_core = P52
 owner = P52
 controller = P52
@@ -24,7 +24,7 @@ religion = religion_the_damned
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 add_core = F15
 owner = F15
 controller = F15
@@ -33,12 +33,12 @@ remove_core = A08
 }
 
 # War of Lordaeron (TFT)
-620.4.1 = { 
+916.4.1 = { 
 controller = P14
 }
 
 # War of Lordaeron (TFT)
-620.5.1 = {
+916.5.1 = {
 add_core = P14
 remove_core = F15
 owner = P14
@@ -48,7 +48,7 @@ base_manpower = 3
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
 base_tax = 3
 base_production = 3
 }

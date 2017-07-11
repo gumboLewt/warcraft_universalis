@@ -8,7 +8,7 @@ primary_culture 	= culture_azerothian
 add_accepted_culture = culture_steamwheedle
 capital 			= 1
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch =
 	{ 
 		name = "Williden" 

@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-598.1.1 = {
+806.1.1 = {
     owner = A80
     controller = A80
     add_core = A80
@@ -25,7 +25,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX
@@ -34,7 +34,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
     add_core = B13
     owner = B13
     controller = B13

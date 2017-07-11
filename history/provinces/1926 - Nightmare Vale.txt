@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = fur
 hre = no 
 
-618.1.1 = {
+906.1.1 = {
 add_core = F16
 controller = F16
 owner = F16
@@ -24,7 +24,7 @@ remove_core = A08
 }
 
 # War of Lordaeron (TFT)
-620.7.1 = {
+916.7.1 = {
 add_core = P52
 controller = P52
 remove_core = F16
@@ -34,7 +34,7 @@ culture = culture_scourge
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 controller = A22
 owner = A22
 add_core = A22

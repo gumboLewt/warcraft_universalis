@@ -15,14 +15,14 @@ religion = religion_ancestral
 trade_goods = flying_mounts
 hre = no
 
-600.1.1 = {
+816.1.1 = {
     is_city = no
     culture = culture_wildmane
     owner = XXX
     controller = XXX
 }
 
-631.1.1 = {
+971.1.1 = {
     is_city = yes
     owner = A43
     controller = A43

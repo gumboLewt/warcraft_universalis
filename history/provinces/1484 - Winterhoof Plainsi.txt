@@ -15,7 +15,7 @@ religion = religion_air
 trade_goods = fur
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 	owner = B18
 	controller = B18
 	add_core = B18
@@ -24,7 +24,7 @@ hre = no
   religion = religion_geomancy
 }
 
-631.1.1 = {
+971.1.1 = {
 owner = B68
 controller = B68
 add_core = B68

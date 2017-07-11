@@ -15,7 +15,7 @@ religion = religion_elune
 trade_goods = mounts
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 	remove_core = H01
 	owner = A94
 	controller = A94

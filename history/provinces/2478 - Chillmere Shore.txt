@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 culture = culture_murghoul
 religion = religion_the_damned
 }

@@ -15,18 +15,18 @@ religion = religion_druidic
 trade_goods = grain
 hre = no
 
-618.1.1 = {
+906.1.1 = {
   religion = religion_fel
 }
 
-623.1.1 = {
+931.1.1 = {
   religion = religion_druidic
 }
 
-631.1.1 = {
+971.1.1 = {
   religion = religion_voodoo
 }
 
-632.1.1 = {
+976.1.1 = {
   religion = religion_druidic
 }

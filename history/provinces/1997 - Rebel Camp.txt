@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = army_supplies
 hre = no
 
-617.1.1 = { 
+901.1.1 = { 
 owner = A01
 controller = A01
 add_core = A01
@@ -24,10 +24,10 @@ religion = religion_church_of_the_light
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 add_core = F28
 }
 
-632.1.1 = {
+976.1.1 = {
 remove_core = F28
 }

@@ -17,7 +17,7 @@ capital 			= 1941
 	}
 }
 
-592.1.1 = {
+776.1.1 = {
 	monarch = {
 		name = "Korrak" 
 		dynasty = "the Bloodrager" 

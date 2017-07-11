@@ -15,13 +15,13 @@ religion = religion_zangar
 trade_goods = glowcap
 hre = no
 
-601.1.1 = {
+821.1.1 = {
 owner = F51
 controller = F51
 add_core =  F51
 }
 
-625.1.1 = {
+941.1.1 = {
 owner = F69
 controller = F69
 add_core = F69

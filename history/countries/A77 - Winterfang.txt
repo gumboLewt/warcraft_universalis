@@ -16,7 +16,7 @@ monarch = {
  	} 
  } 
 
-592.1.1 = { 
+776.1.1 = { 
 monarch = { 
      name = "Shakor" 
      dynasty = "Winterfang" 
@@ -26,7 +26,7 @@ monarch = {
  	} 
  } 
 
-618.1.1 = {
+906.1.1 = {
   primary_culture = culture_undead_troll
   religion = religion_the_damned
 }

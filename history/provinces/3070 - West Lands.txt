@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = stone
 hre = no 
 
-600.1.1 = { 
+816.1.1 = { 
 	owner = A41
 	controller = A41
 	add_core = A41
@@ -26,7 +26,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	owner = P12
 	controller = P12
 	add_core = P12
@@ -36,17 +36,17 @@ hre = no
 }
 
 # Reconquest of Lordaeron (TFT)
-618.2.1 = { 
+906.2.1 = { 
 	controller = A25
 }
 
 # War of Lordaeron (TFT)
-620.10.1 = { 
+916.10.1 = { 
 	controller = P14
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = P50
 	controller = P50
 	add_core = P50

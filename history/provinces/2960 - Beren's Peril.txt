@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = salt
 hre = no 
 
-617.1.1 = {
+901.1.1 = {
 	owner = A18
 	controller = A18
 	add_core = A18
@@ -24,7 +24,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	owner = A25
 	controller = A25
 	add_core = A25
@@ -32,12 +32,12 @@ hre = no
 }
 
 # Reconquest of Lordaeron (TFT)
-620.8.1 = { 
+916.8.1 = { 
 	controller = P52
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = P52
 	religion = religion_the_damned
 	culture = culture_scourge
@@ -49,7 +49,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = H09
 	controller = H09
 	add_core = H09
@@ -61,7 +61,7 @@ hre = no
 }
 
 # Mists of Pandaria
-632.1.1 = { 
+976.1.1 = { 
 	owner = P14
 	controller = P14
 	add_core = P14

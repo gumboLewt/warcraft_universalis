@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = arcane
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 owner = B01
 controller = B01
 add_core = B01
@@ -23,7 +23,7 @@ culture = culture_blue
 religion = religion_sect_of_dragons
 }
 
-631.1.1 = {
+971.1.1 = {
 owner = P77
 controller = P77
 culture = culture_crystal_nymph

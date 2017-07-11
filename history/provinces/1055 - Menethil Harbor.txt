@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = naval_supplies
 hre = no
 
-598.1.1 = {
+806.1.1 = {
 owner = A80
 controller = A80
 add_core = A80
@@ -28,7 +28,7 @@ base_production = 4
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
 owner = A08
 controller = A08
 add_core = A08
@@ -39,7 +39,7 @@ religion = religion_church_of_the_light
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 owner = A06
 controller = A06
 remove_core = A08

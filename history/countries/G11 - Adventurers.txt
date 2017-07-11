@@ -7,7 +7,7 @@ religion			= religion_church_of_the_light
 primary_culture 	= culture_azerothian
 capital 			= 1
 
-631.1.1 = { 
+971.1.1 = { 
 	monarch =
 	{ 
 		name = "Harrison" 

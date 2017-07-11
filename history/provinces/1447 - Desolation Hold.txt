@@ -15,13 +15,13 @@ religion = religion_geomancy
 trade_goods = fur
 hre = no
 
-618.1.1 = {
+906.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX
 }
 
-622.1.1 = {
+926.1.1 = {
     owner = A98
     controller = A98
     add_core = A98
@@ -29,7 +29,7 @@ hre = no
     religion = religion_old_gods
 }
 
-631.1.1 = {
+971.1.1 = {
     owner = A48
     controller = A48
     add_core = A48

@@ -16,7 +16,7 @@ religion = religion_church_of_the_light
 trade_goods = crypts
 hre = no 
 
-598.1.1 = { 
+806.1.1 = { 
 owner = A41
 controller = A41
 add_core = A41
@@ -25,7 +25,7 @@ religion = religion_fel
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
 owner = F04
 controller = F04
 add_core = F04
@@ -36,12 +36,12 @@ religion = religion_church_of_the_light
 }
 
 # Much of the Stromic population on this island leave to help mainland Stromgarde
-622.1.1 = {
+926.1.1 = {
 base_manpower = 1
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 owner = F37
 controller = F37
 add_core = F37

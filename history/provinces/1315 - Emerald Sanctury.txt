@@ -15,7 +15,7 @@ religion = religion_fel
 trade_goods = lumber
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 owner = H02
 controller = H02
 add_core = H02

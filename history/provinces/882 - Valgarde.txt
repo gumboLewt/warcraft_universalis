@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-617.1.1 = { 
+901.1.1 = { 
 owner = F38
 controller = F38
 add_core = F38

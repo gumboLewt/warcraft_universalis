@@ -16,7 +16,7 @@ religion = religion_geomancy
 trade_goods = grain
 hre = no
 
-597.1.1 = { 
+801.1.1 = { 
     owner = A41
     controller = A41
     add_core = A41
@@ -25,7 +25,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
     owner = B15
     controller = B15
     add_core = B15
@@ -36,7 +36,7 @@ hre = no
 
 
 # The Third War
-617.1.1 = { 
+901.1.1 = { 
     owner = A01
     controller = A01
     remove_core = B15
@@ -45,7 +45,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
     owner = A07
     controller = A07 
     add_core = A07 
@@ -53,7 +53,7 @@ hre = no
 }
 
 # The Burning Crusade
-625.1.1 = { 
+941.1.1 = { 
     owner = A01
     controller = A01
     remove_core = A07 

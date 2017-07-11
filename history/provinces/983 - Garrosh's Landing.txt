@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = fish
 hre = no
 
-626.1.1 = { 
+946.1.1 = { 
 owner = B10
 controller = B10
 add_core = B10

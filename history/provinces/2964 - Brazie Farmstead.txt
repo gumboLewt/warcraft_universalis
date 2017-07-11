@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = grain
 hre = no
 
-597.1.1 = { 
+801.1.1 = { 
 	base_tax = 2
 	base_manpower = 2
 	base_production = 3
@@ -23,7 +23,7 @@ hre = no
 
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	base_manpower = 3
 	owner = A25
 	controller = A25
@@ -32,7 +32,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	owner = A18
 	controller = A18
 	base_tax = 3
@@ -41,6 +41,6 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	base_production = 4
 }

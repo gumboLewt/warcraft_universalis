@@ -42,9 +42,9 @@ A05 = "countries/Northshire.txt"
 A06 = "countries/Menethil.txt"
 A07 = "countries/Defias Brotherhood.txt"
 A08 = "countries/Lordaeron.txt"
-A09 = "countries/Andorhal.txt" #Hearthglen
+A09 = "countries/Andorhal.txt"
 A10 = "countries/Stratholme.txt"
-A11 = "countries/Southshore.txt" #Hillsbrad
+A11 = "countries/Southshore.txt"
 A12 = "countries/Gilneas.txt"
 A13 = "countries/Shadowfang.txt"
 A14 = "countries/Kul Tiras.txt"
@@ -61,8 +61,9 @@ A24 = "countries/The Argent Dawn.txt"
 A25 = "countries/Lordaeron Remnants.txt"
 A26 = "countries/Syndicate.txt"
 A27 = "countries/Ravenholdt.txt"
+
 P59 = "countries/Karazhan.txt"
-P61 = "countries/Tirisfal.txt"
+P61 = "countries/Tirisfal.txt"              # Missing flag
 P62 = "countries/Tyr's Hand.txt"
 P72 = "countries/Wintergarde.txt"
 F04 = "countries/Tol Barad.txt"
@@ -74,38 +75,39 @@ F19 = "countries/Argent Crusade.txt"
 F27 = "countries/Elwynn Bandits.txt"
 F28 = "countries/Kurzen.txt"
 F38 = "countries/Valgarde.txt"
-F39 = "countries/Nedreck.txt"
+F39 = "countries/Nedreck.txt"               # Missing flag
 F40 = "countries/Bloodhill Bandits.txt"
 F52 = "countries/Pyrewood.txt"
 F55 = "countries/Lordaeron Survivors.txt"
 H06 = "countries/Alliance Vanguard.txt"
 F58 = "countries/Theramore Deserters.txt"
 F61 = "countries/Morgans Forces.txt"
-P19 = "countries/Fray Island.txt"
+P19 = "countries/Fray Island.txt"           # Missing flag
 G06 = "countries/Northwatch.txt"
-G07 = "countries/Marshal Expedition.txt"
-G11 = "countries/Adventurers.txt"
-G12 = "countries/Schnottz.txt"
+G07 = "countries/Marshal Expedition.txt"    # Missing flag
+G11 = "countries/Adventurers.txt"           # Missing flag
+G12 = "countries/Schnottz.txt"              # Missing flag
 H08 = "countries/Strahnbrad.txt"
 H09 = "countries/Ambermill.txt"
-P32 = "countries/White Pine.txt" #Trappers/Amberpine
+P32 = "countries/White Pine.txt"
 
 # Dwarven
 A28 = "countries/Wildhammer.txt"
 A29 = "countries/Ironforge.txt"
 A30 = "countries/Dark Iron.txt"
 A31 = "countries/Frostborn.txt"
-P56 = "countries/Thorium Brotherhood.txt"
-F25 = "countries/Iron Summit.txt"
-F29 = "countries/Nesingwary.txt"
+
+P56 = "countries/Thorium Brotherhood.txt"   # Missing flag
+F25 = "countries/Iron Summit.txt"           # Missing flag
+F29 = "countries/Nesingwary.txt"            # Missing flag
 F59 = "countries/Bael Modan.txt"
 P22 = "countries/Aerie Peak.txt"
-H11 = "countries/Stormpike.txt"
+H11 = "countries/Stormpike.txt"             # Missing flag
 
 # Gnomish
 A32 = "countries/Gnomeregan.txt"
 A33 = "countries/Thermaplugg Exiles.txt"
-G13 = "countries/Gnomish Expedition.txt"
+G13 = "countries/Gnomish Expedition.txt"    # Missing flag
 
 # Orc
 A34 = "countries/Shadowmoon.txt"
@@ -125,11 +127,11 @@ A47 = "countries/MokNathal.txt"
 A48 = "countries/Orgrimmar.txt"
 A50 = "countries/Thrallmar.txt"
 P98 = "countries/Black Tooth Grin.txt"
-F26 = "countries/Ironmarch.txt"
+F26 = "countries/Ironmarch.txt"             # Missing flag
 F48 = "countries/Fel Dragonmaw.txt"
-H07 = "countries/Horde Expedition.txt"
-F72 = "countries/Mag'har.txt"
-F85 = "countries/Earthen Ring.txt"
+H07 = "countries/Horde Expedition.txt"      # Missing flag
+F72 = "countries/Mag'har.txt"               # Missing flag
+F85 = "countries/Earthen Ring.txt"          # Missing flag
 
 # Ogre
 A49 = "countries/Bladespire.txt"
@@ -139,41 +141,41 @@ A53 = "countries/Bloodmaul.txt"
 P50 = "countries/Crushridge.txt"
 P96 = "countries/Dreadmaul.txt"
 P97 = "countries/Splinterfist.txt"
-P99 = "countries/Firegut.txt"
-F01 = "countries/Stonespire.txt"
-F05 = "countries/Mo'grosh.txt"
+P99 = "countries/Firegut.txt"               # Missing flag
+F01 = "countries/Stonespire.txt"            # Missing flag
+F05 = "countries/Mo'grosh.txt"              # Missing flag
 F06 = "countries/Dustbelcher.txt"
-F07 = "countries/Deadwind.txt"
-F08 = "countries/Bloodeye.txt"
-F31 = "countries/Mosh'Ogg.txt"
+F07 = "countries/Deadwind.txt"              # Missing flag
+F08 = "countries/Bloodeye.txt"              # Missing flag
+F31 = "countries/Mosh'Ogg.txt"              # Missing flag
 F50 = "countries/Outland Boulderfist.txt"
 H05 = "countries/Dunemaul.txt" 
-F57 = "countries/Stonemaul.txt"
+F57 = "countries/Stonemaul.txt"             # Missing flag
 F60 = "countries/Stagecoach.txt"
 F69 = "countries/Ango'rosh.txt"
-F76 = "countries/Ogrila.txt"
-F77 = "countries/Gronn.txt"
+F76 = "countries/Ogrila.txt"                # Missing flag
+F77 = "countries/Gronn.txt"                 # Missing flag
 F83 = "countries/Warmaul.txt"
-G20 = "countries/Spirestone.txt"
-G30 = "countries/Icemaul.txt"
+G20 = "countries/Spirestone.txt"            # Missing flag
+G30 = "countries/Icemaul.txt"               # Missing flag
 
 # Draenei
 A54 = "countries/Shattrath.txt"
 A55 = "countries/Karabor.txt"
-A56 = "countries/Exodar.txt"
+A56 = "countries/Exodar.txt"                # Missing flag
 A57 = "countries/Ashtoungue Deathsworn.txt"
 F34 = "countries/Harborage.txt"
 F35 = "countries/Fallow Sanctuary.txt"
 F49 = "countries/Auchenai.txt"
-F65 = "countries/Umbrafen.txt"
+F65 = "countries/Umbrafen.txt"              
 F66 = "countries/Feralfen.txt"
 F67 = "countries/Daggerfen.txt"
-F68 = "countries/Kurenai.txt"
-F74 = "countries/Dreghood.txt"
-F75 = "countries/Wrekt.txt"
+F68 = "countries/Kurenai.txt"               # Missing flag
+F74 = "countries/Dreghood.txt"              # Missing flag
+F75 = "countries/Wrekt.txt"                 # Missing flag
 F84 = "countries/Murkblood.txt"
 F86 = "countries/Windyreed.txt"
-G19 = "countries/Shattered Sun.txt"
+G19 = "countries/Shattered Sun.txt"         # Missing flag
 
 # Forest Troll
 A58 = "countries/Amani.txt"
@@ -196,8 +198,8 @@ A71 = "countries/Atalai.txt"
 A72 = "countries/Hakkari.txt"
 P58 = "countries/Zanzil.txt"
 F09 = "countries/Jellyneck.txt"
-F63 = "countries/Zabra'jin.txt"
-G37 = "countries/Echo Isles.txt"
+F63 = "countries/Zabra'jin.txt"             # Missing flag
+G37 = "countries/Echo Isles.txt"            # Missing flag
 
 # Sand Troll
 A73 = "countries/Sandfury.txt"	# tech_troll
@@ -212,82 +214,81 @@ A77 = "countries/Winterfang.txt"
 A78 = "countries/Zandalar.txt"
 
 # Dark Troll
-F47 = "countries/Shadowtooth.txt"
+F47 = "countries/Shadowtooth.txt"           # Missing flag
 
 # Goblin
 A79 = "countries/Bilgewater.txt"
 A80 = "countries/Steamwheedle.txt"
-A81 = "countries/Venture Company.txt"
+A81 = "countries/Venture Company.txt"       # Missing flag
 A82 = "countries/Gilblin.txt"
 A83 = "countries/Blackwater.txt"
-F81 = "countries/BOOM.txt"
-G34 = "countries/Tinkers Union.txt"
+F81 = "countries/BOOM.txt"                  # Missing flag
+G34 = "countries/Tinkers Union.txt"         # Missing flag
 
 # Tauren
-A84 = "countries/Bloodhoof.txt" # tech_tauren
-A85 = "countries/Grimtotem.txt" # tech_tauren
-A86 = "countries/Runetotem.txt" # tech_tauren
-A87 = "countries/Mistrunner.txt" # tech_tauren
+A84 = "countries/Bloodhoof.txt" 
+A85 = "countries/Grimtotem.txt"             # Missing flag
+A86 = "countries/Runetotem.txt"
+A87 = "countries/Mistrunner.txt"
 A88 = "countries/Dawnstrider.txt" 
-A89 = "countries/Winterhoof.txt" # tech_tauren
-F88 = "countries/Thunder Bluff.txt" # tech_tauren
-P23 = "countries/Wildmane.txt"
-F91 = "countries/Thunderhorn.txt"
-F93 = "countries/Cliffwalker.txt"
+A89 = "countries/Winterhoof.txt"
+F88 = "countries/Thunder Bluff.txt"         # Missing flag
+P23 = "countries/Wildmane.txt"              # Missing flag
+F91 = "countries/Thunderhorn.txt"           # Missing flag
+F93 = "countries/Cliffwalker.txt"           # Missing flag
 
 # High Elf
 A90 = "countries/QuelThalas.txt"
 P49 = "countries/Highvale.txt"
 F20 = "countries/Quellithian.txt"
-F54 = "countries/QuelThalas Remnants.txt" #Farstriders
+F54 = "countries/QuelThalas Remnants.txt"   # Farstriders
 F56 = "countries/Southvale.txt"
-B94 = "countries/Wretched.txt"
-G16 = "countries/Silver Covenant.txt"
-
-G43 = "countries/Shen'dralar.txt"
+B94 = "countries/Wretched.txt"              # Missing flag
+G16 = "countries/Silver Covenant.txt"       # Missing flag
+G43 = "countries/Shen'dralar.txt"           # Missing flag
 
 # Blood Elf
 A91 = "countries/Silvermoon.txt"
-A92 = "countries/Sunreaver.txt" # tech_thalassian
+A92 = "countries/Sunreaver.txt"     
 A93 = "countries/Sunfury.txt"
-G17 = "countries/Sunhawk.txt"
-G18 = "countries/Dawnblade.txt"
+G17 = "countries/Sunhawk.txt"               # Missing flag
+G18 = "countries/Dawnblade.txt"             # Missing flag
 
 # Night Elf
 A94 = "countries/Darnassus.txt"
-A95 = "countries/Cenarion Circle.txt" # tech_darnassian Keepers of the Grove
-H01 = "countries/Nordrassil.txt" #Sentinels
-H02 = "countries/Moonglade.txt" #Cenarion Circle
+A95 = "countries/Cenarion Circle.txt"       # Keepers of the Grove
+H01 = "countries/Nordrassil.txt"            # Sentinels
+H02 = "countries/Moonglade.txt"             # Cenarion Circle
 H03 = "countries/Cenarion Hold.txt"
-F64 = "countries/Cenarion Expedition.txt"
-P20 = "countries/Druids of the Fang.txt"
+F64 = "countries/Cenarion Expedition.txt"   # Missing flag
+P20 = "countries/Druids of the Fang.txt"    # Missing flag
 
 # Aqir
-A97 = "countries/AhnQiraj.txt" # tech_aqir
-A98 = "countries/Silithid.txt" # tech_aqir
+A97 = "countries/AhnQiraj.txt"
+A98 = "countries/Silithid.txt"
 P74 = "countries/AzjolNerub.txt"
 
 # Dragonkin
-A99 = "countries/Black Dragonflight.txt" # tech_dragonkin
+A99 = "countries/Black Dragonflight.txt"
 B01 = "countries/Blue Dragonflight.txt"
 B02 = "countries/Bronze Dragonflight.txt"
 B03 = "countries/Red Dragonflight.txt"
 B04 = "countries/Green Dragonflight.txt"
-B05 = "countries/Netherwing Dragonflight.txt"
-B06 = "countries/Twilight Dragonflight.txt"
-B07 = "countries/Infinite Dragonflight.txt" # not used, but potential formable?
-F78 = "countries/Wyrmcult.txt"
+B05 = "countries/Netherwing Dragonflight.txt"   # Missing flag
+B06 = "countries/Twilight Dragonflight.txt"     # Missing flag
+B07 = "countries/Infinite Dragonflight.txt"     # Missing flag
+F78 = "countries/Wyrmcult.txt"                  # Missing flag
 
 V01 = "countries/Red Dragonflight.txt" # Eastern Kingdoms
 
 # Vrykul
 B08 = "countries/Dragonflayer.txt"
 B09 = "countries/Winterskorn.txt"
-B10 = "countries/Skadir.txt"
-B11 = "countries/Kvaldir.txt"
-P15 = "countries/Ymirjar.txt" #Undead Vrykul
-P16 = "countries/Hyldnir.txt"
-P17 = "countries/Jotunheim.txt" 
+B10 = "countries/Skadir.txt"                    # Missing flag
+B11 = "countries/Kvaldir.txt"                   # Missing flag
+P15 = "countries/Ymirjar.txt"                   # Missing flag
+P16 = "countries/Hyldnir.txt"                   # Missing flag
+P17 = "countries/Jotunheim.txt"                 # Missing flag
 
 # Gnoll
 B12 = "countries/Blackpaw.txt"
@@ -299,37 +300,38 @@ B17 = "countries/Redridge Gnolls.txt"
 B18 = "countries/Palemane.txt"
 B19 = "countries/Rothide.txt"
 F10 = "countries/Woodpaw.txt"
-G25 = "countries/Wildpaw.txt"
+G25 = "countries/Wildpaw.txt"                   # Missing flag
 
 # Centaur
-B20 = "countries/Galak.txt" # tech_centaur
-B21 = "countries/Gelkis.txt" # tech_centaur
-B22 = "countries/Magram.txt" # tech_centaur 
-B23 = "countries/Mauraudine.txt" # tech_centaur
-B24 = "countries/Kolkar.txt" # tech_centaur
-H04 = "countries/Western Galak.txt" # Kolkar Marauders AKA: Warcraft's 3 Centaur Marauders
+B20 = "countries/Galak.txt" 
+B21 = "countries/Gelkis.txt" 
+B22 = "countries/Magram.txt"  
+B23 = "countries/Mauraudine.txt"
+B24 = "countries/Kolkar.txt" 
+H04 = "countries/Western Galak.txt"             # Kolkar Marauders 
 
-# Depths
+# Murloc
 B25 = "countries/Vile Fin.txt"
 B26 = "countries/Blue Gill.txt"
 B27 = "countries/Grimscale.txt"
 B28 = "countries/Saltscale.txt"
 B29 = "countries/Marshfin.txt"
-B30 = "countries/Greymist.txt" # tech_depths
-B31 = "countries/Siltfin.txt" # Blacksilt
-B32 = "countries/Mirefin.txt" # tech_depths
-B33 = "countries/Winterfin.txt" # tech_depths
+B30 = "countries/Greymist.txt"              
+B31 = "countries/Siltfin.txt"                   # Blacksilt
+B32 = "countries/Mirefin.txt" 
+B33 = "countries/Winterfin.txt" 
 B34 = "countries/Chillmere.txt"
 B35 = "countries/White Shark.txt"
-B36 = "countries/Tidewalker.txt" # tech_depths
-B37 = "countries/Makraru.txt" # tech_depths
-B38 = "countries/Bogstrok.txt" # tech_depths
+B36 = "countries/Tidewalker.txt" 
 P51 = "countries/Torn Fin.txt"
 P60 = "countries/Rockpool.txt"
 F11 = "countries/Redgill.txt"
 F22 = "countries/Greengill.txt"
 F30 = "countries/Murkgill.txt"
-G41 = "countries/Saltspittle.txt"
+G41 = "countries/Saltspittle.txt"               # Missing flag
+
+B37 = "countries/Makraru.txt" 
+B38 = "countries/Bogstrok.txt" 
 
 # Furbolg
 B39 = "countries/Gnarlpine.txt" # tech_furbolg
@@ -360,15 +362,15 @@ B55 = "countries/Sparktouched.txt"
 G36 = "countries/Oracles.txt"
 
 # Kobold
-B56 = "countries/Drywhisker.txt" # tech_kobold
-B57 = "countries/Gravelsnout.txt" # tech_kobold
+B56 = "countries/Drywhisker.txt"
+B57 = "countries/Gravelsnout.txt"
 B58 = "countries/Goldtooth.txt"
-B59 = "countries/Whitewhisker.txt" # tech_kobold
+B59 = "countries/Whitewhisker.txt"
 B60 = "countries/Bloodspore.txt"
-B62 = "countries/Shalerhorn.txt" # tech_kobold
-P53 = "countries/Tunnel Rat.txt" # tech_kobold
-G27 = "countries/Boulderslide.txt" # tech_kobold
-G28 = "countries/Windshear.txt" # tech_kobold
+B62 = "countries/Shalerhorn.txt"
+P53 = "countries/Tunnel Rat.txt"
+G27 = "countries/Boulderslide.txt"
+G28 = "countries/Windshear.txt"
 
 # Magnataur
 B61 = "countries/Magmoth.txt" # tech_magnataur
@@ -599,6 +601,15 @@ G15 = "countries/Oogah.txt"
 # Formables
 U01 = "countries/Frostmane Empire.txt"
 U02 = "countries/Empire of the Shifting Sands.txt"
+U03 = "countries/Amani Empire.txt"
+U04 = "countries/Gurubashi Empire.txt"
+U05 = "countries/Drakkari Empire.txt"
+U06 = "countries/Empire of Hakkar.txt"
+U07 = "countries/Murloc Horde.txt"
+U08 = "countries/The Grand Pack.txt"
+U09 = "countries/Candleborn.txt"
+U10 = "countries/Highborne Empire.txt"
+
 
 # Cultural Formables
 #Amani Empire (FOREST TROLL)

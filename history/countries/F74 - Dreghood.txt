@@ -8,7 +8,7 @@ add_accepted_culture = culture_shattrathi
 add_accepted_culture = culture_karaborian
 capital 			= 1599
 
-617.1.1 = { 
+901.1.1 = { 
 	monarch = { 
 		name = "Naladu" 
 		dynasty = "Dreghood" 

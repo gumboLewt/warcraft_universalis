@@ -16,7 +16,7 @@ religion = religion_church_of_the_light
 trade_goods = fish
 hre = no 
 
-618.1.1 = { 
+906.1.1 = { 
 	owner = P62
 	controller = P62
 	add_core = P62
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	add_core = A22
 	remove_core = P62
 	owner = A22
@@ -34,7 +34,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	add_core = P12
 	remove_core = A08
 	remove_core = P62

@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = artifacts
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 owner = B30
 controller = B30
 add_core = B30
@@ -25,7 +25,7 @@ religion = religion_water
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 owner = B93
 controller = B93
 add_core = B93
@@ -36,7 +36,7 @@ remove_core = B30
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
 owner = A68
 controller = A68
 add_core = A68
@@ -52,7 +52,7 @@ trade_goods = army_supplies
          
 }
 
-632.1.1 = {
+976.1.1 = {
 owner = A94
 controller = A94
 add_core = A94

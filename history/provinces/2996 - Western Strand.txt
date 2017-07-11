@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-597.1.1 = { 
+801.1.1 = { 
 	owner = A01
 	controller = A01
 	add_core = A01
@@ -25,7 +25,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
 	owner = A08
 	controller = A08
 	remove_core = A01
@@ -33,7 +33,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	owner = A11
 	controller = A11
 	add_core = A11
@@ -41,7 +41,7 @@ hre = no
 }
 
 # Rise of the Qiraj
-622.1.1 = { 
+926.1.1 = { 
 	owner = P51
 	controller = P51
 	add_core = P51

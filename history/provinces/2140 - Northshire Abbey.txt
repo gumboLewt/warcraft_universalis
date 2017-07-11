@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = wine
 hre = no
 
-597.1.1 = { 
+801.1.1 = { 
 	owner = A44
 	controller = A44
 	add_core = A44
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
     is_city = no
 	owner = XXX
 	controller = XXX
@@ -35,7 +35,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
     is_city = yes
 	owner = A07
 	controller = A07 
@@ -43,14 +43,14 @@ hre = no
 }
 
 # The Burning Crusade
-625.1.1 = { 
+941.1.1 = { 
 	owner = A01
 	controller = A01
 	remove_core = A07 
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = A41
 	controller = A41
 	add_core = A41
@@ -59,7 +59,7 @@ hre = no
 }
 
 # Mists of Pandaria
-632.1.1 = {
+976.1.1 = {
 	owner = A01
 	controller = A01
 	remove_core = A41

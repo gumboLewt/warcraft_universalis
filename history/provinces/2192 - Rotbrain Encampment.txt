@@ -15,12 +15,12 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no 
 
-617.1.1 = { 
+901.1.1 = { 
 	religion = religion_the_damned 
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	add_core = P14
 	add_core = P52
 	owner = P14
@@ -31,7 +31,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 	controller = A22
 	owner = A22
 	add_core = A22
@@ -40,7 +40,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
 	owner = H10
 	controller = H10
 	add_core = H10

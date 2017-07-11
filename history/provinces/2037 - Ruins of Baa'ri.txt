@@ -24,7 +24,7 @@ hre = no
     religion = religion_light_of_the_naaru
 }
 
-592.1.1 = {
+776.1.1 = {
    owner = A34
     controller = A34
     add_core = A34
@@ -34,7 +34,7 @@ hre = no
 }
 
 #Outland
-601.1.1 = {
+821.1.1 = {
     owner = B89
     controller = B89
     add_core =  B89
@@ -42,7 +42,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
     owner = A57
     controller = A57
     add_core =  A57

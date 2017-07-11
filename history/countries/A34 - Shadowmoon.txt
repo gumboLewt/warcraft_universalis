@@ -16,7 +16,7 @@ capital 			= 1661
 	}
 }
 
-548.1.1 = {
+556.1.1 = {
 	monarch = {
 		name = "Teron'gor"
 		dynasty = "Shadowmoon"
@@ -27,7 +27,7 @@ capital 			= 1661
     religion = religion_fel
 }
 
-617.1.1 = {
+901.1.1 = {
 	monarch =
 	{
 		name = "Or'barokh"
@@ -39,7 +39,7 @@ capital 			= 1661
     religion = religion_ancestral
 }
 
-625.1.1 = {
+941.1.1 = {
     add_country_modifier = {
         name = horde_member
         duration = -1

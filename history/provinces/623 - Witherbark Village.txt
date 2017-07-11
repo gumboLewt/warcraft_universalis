@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fish
 hre = no 
 
-600.1.1 = {
+816.1.1 = {
 	add_core = A64
 	remove_core = A65
 	owner = A64

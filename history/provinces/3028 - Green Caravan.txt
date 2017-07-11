@@ -15,14 +15,14 @@ religion = religion_old_gods
 trade_goods = flying_mounts
 hre = no
 
-622.1.1 = { 
+926.1.1 = { 
 	owner = A45
 	controller = A45
 	add_core = A45
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	revolt = {
 		type = nationalist_rebels
 		size = 1
@@ -33,7 +33,7 @@ hre = no
 }
 
 # Mists of Pandaria
-632.1.1 = { 
+976.1.1 = { 
     is_city = no
 	owner = XXX
 	controller = XXX

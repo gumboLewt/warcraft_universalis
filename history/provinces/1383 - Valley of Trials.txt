@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = fur
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	owner = A48
 	controller = A48
 	add_core = A48 

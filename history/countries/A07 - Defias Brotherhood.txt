@@ -6,7 +6,7 @@ religion			= religion_shadow
 primary_culture 	= culture_azerothian
 capital 			= 1999
 
-617.1.1 = { 
+901.1.1 = { 
 	monarch = { 
 		name = "Edwin" 
 		dynasty = "VanCleef" 
@@ -17,7 +17,7 @@ capital 			= 1999
 	} 
 }  
 
-631.1.1 = { 
+971.1.1 = { 
 	monarch = { 
 		name = "Vanessa" 
 		dynasty = "VanCleef" 

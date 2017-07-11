@@ -17,7 +17,7 @@ religion = religion_geomancy
 trade_goods = lumber
 hre = no 
 
-597.1.1 = { 
+801.1.1 = { 
 	owner = A08
 	controller = A08
 	add_core = A08
@@ -28,12 +28,12 @@ hre = no
 }
 
 # The Third War
-618.1.1 = { 
+906.1.1 = { 
 	add_claim = P52
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	add_core = P62
 	add_core = P52
 	remove_core = A08
@@ -42,7 +42,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	add_core = A22
 	remove_core = P62
 	owner = A22
@@ -51,7 +51,7 @@ hre = no
 }
 
 # The Burning Crusade
-625.1.1 = { 
+941.1.1 = { 
 	owner = P13
 	controller = P13
 	add_core = P13
@@ -63,7 +63,7 @@ hre = no
 }
 
 # Wrath of the Lich King
-626.1.1 = {
+946.1.1 = {
 	religion = religion_forgotten_shadow
 	base_tax = 6
 	base_manpower = 7

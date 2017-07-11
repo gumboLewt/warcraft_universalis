@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = artifacts
 hre = no 
 
-618.1.1 = { 
+906.1.1 = { 
     owner = P26
     controller = P26
     add_core = P26

@@ -15,12 +15,12 @@ religion = religion_church_of_the_light
 trade_goods = copper
 hre = no 
 
-617.1.1 = { 
+901.1.1 = { 
 	religion = religion_the_damned 
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	add_core = P52
 	owner = P52
 	controller = P52

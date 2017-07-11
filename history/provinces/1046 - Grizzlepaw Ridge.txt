@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = fur
 hre = no
 
-598.1.1 = {
+806.1.1 = {
     owner = A40
     controller = A40
     add_core = A40
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
     owner = A29
     controller = A29
     add_core = A29
@@ -34,7 +34,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
     owner = A30
     controller = A30
     add_core = A30
@@ -43,7 +43,7 @@ hre = no
 }
 
 # Mists of Pandaria
-632.1.1 = {
+976.1.1 = {
     owner = A29
     controller = A29
     add_core = A29

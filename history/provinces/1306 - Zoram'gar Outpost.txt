@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-622.1.1 = {
+926.1.1 = {
     add_core = A70
     owner = A70
     controller = A70
@@ -24,14 +24,14 @@ hre = no
     religion = religion_loa
 }
 
-631.1.1 = {
+971.1.1 = {
     base_tax = 3
     base_manpower = 3
     base_production = 3
     trade_goods = naval_supplies
 }
 
-633.1.1 = {
+981.1.1 = {
     base_tax = 2
     base_manpower = 2
     base_production = 2

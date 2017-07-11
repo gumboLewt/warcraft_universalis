@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no 
 
-618.1.1 = { 
+906.1.1 = { 
 add_core = P14
 owner = P14
 controller = P14
@@ -25,12 +25,12 @@ remove_core = A08
 }
 
 # War of Lordaeron (TFT)
-619.12.1 = {
+911.12.1 = {
 controller = P52
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 owner = A22
 controller = A22
 add_core = A22
@@ -39,7 +39,7 @@ religion = religion_scarlet_light
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 add_core = P14
 owner = P14
 controller = P14

@@ -16,7 +16,7 @@ religion = religion_voodoo
 trade_goods = fur
 hre = no 
 
-592.1.1 = {
+776.1.1 = {
 	owner = A90
 	controller = A90
 	culture = culture_high_elf
@@ -24,7 +24,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	owner = A58
 	controller = A58
 	culture = culture_amani
@@ -33,7 +33,7 @@ hre = no
 }
 
 # The Burning Crusade
-625.1.1 = {
+941.1.1 = {
 	owner = A91
 	controller = A91
 	add_core = A91

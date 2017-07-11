@@ -223,4 +223,93 @@
  condemn_the_old_gods_title: "Condemn the Old Gods"
  condemn_the_old_gods_desc: "Let us condemn the Old Gods, and all who follow them."
  
+ reform_the_amani_empire_title: "Reform the Amani Empire"
+ reform_the_amani_empire_desc: "Once again, the Amani trolls will rule!"
+ 
+ reform_the_gurubashi_empire_title: "Reform the Gurubashi Empire"
+ reform_the_gurubashi_empire_desc: "Once again, the Gurubashi Empire will rule!"
+ 
+ reform_the_drakkari_empire_title: "Reform the Drakkari Empire"
+ reform_the_drakkari_empire_desc: "Once again, the Drakkari Empire will rule!"
+ 
+ form_the_empire_of_hakkar_title: "Form the Empire of Hakkar"
+ form_the_empire_of_hakkar_desc: "Let the Hakkari trolls rise into an empire!"
+ 
+ summon_the_blood_god_title: "Summon the Blood God"
+ summon_the_blood_god_desc: "Let us summon the Blood God to fight our enemies and consume their blood!"
+ 
+ listen_to_the_old_gods_title: "Listen to the Old Gods"
+ listen_to_the_old_gods_desc: "The Old Gods are everpresent, and their utterances are infusened with secret wisdom. Let us listen to them closer."
+ 
+ conduct_blood_sacrifice_title: "Conduct Blood Sacrifice"
+ conduct_blood_sacrifice_desc: "Let us worship Hakkar, the Blood God, and offer him the blood sacrifices he desires."
+
+ sacrifice_prisoners_title: "Sacrifice Prisoners of War"
+ sacrifice_prisoners_desc: "Let us drain our prisoners of their blood and empower our own warriors for battle."
+ 
+ #-----------------------------------------------
+ # Murloc
+ #-----------------------------------------------
+ form_the_murloc_horde_title: "Form the Murloc Horde"
+ form_the_murloc_horde_desc: "Aurrrrrrrrruuuuggguglugglugglugluguaa!"
+ 
+ encourage_worship_murloc_title: "Encourage Worship"
+ encourage_worship_murloc_desc: "Auuuuruuugluuugggg!"
+ 
+ embrace_magic_title: "Embrace Magic"
+ embrace_magic_desc: "Luuugggauuuruuug!"
+ 
+ gather_treasure_title: "Gather Treasure"
+ gather_treasure_desc: "Lugluguaalugluguaalugluguaa...lugluguaa!"
+ 
+ muster_murlocs_title: "Muster Murlocs"
+ muster_murlocs_desc: "Gluggluglug!"
+ 
+ call_a_gmmmlmmmrrmrmrmgrg_title: "Call a Gmmmlmmmrrmrmrmgrg!"
+ call_a_gmmmlmmmrrmrmrmgrg_desc: "Luguaaluggluglugglug...gmmmlmmmrrmrmrmgrg!"
+ 
+ #-----------------------------------------------
+ # Gnoll
+ #-----------------------------------------------
+ form_the_grand_pack_title: "Form the Grand Pack"
+ form_the_grand_pack_desc: "Let us unite the Gnolls under one pack!"
+ 
+ curb_infighting_title: "Curb Infighting"
+ curb_infighting_desc: "If we curb the infighting within our clan, our warriors with fight far more effectively."
+ 
+ divine_magic_title: "Study Magic"
+ divine_magic_desc: "If we study the magic use of our racial neighbours, perhaps we too can benefit from it."
+ 
+ initiate_weapons_trade_title: "Initiate Weapons Trade"
+ initiate_weapons_trade_desc: "Let us trade with other nations to source our weaponry easily."
+ 
+ challenge_alpha_title: "Challenge Alpha"
+ challenge_alpha_desc: "Let us challenge our alpha with a cohort of suitable gnolls, and see who has the brawn to stand toe-to-toe with him."
+ 
+ #-----------------------------------------------
+ # Kobold
+ #-----------------------------------------------
+ collect_shinies_title: "Collect Shinies"
+ collect_shinies_desc: "Our kobold brother shall explore the lands near us and collect any shinies they find."
+ 
+ build_candle_shrine_title: "Build Candle Shrine"
+ build_candle_shrine_desc: "The candle is a divine object, and we should pay it the tribute it deserves."
+ 
+ form_the_candleborn_title: "Form the Candleborn"
+ form_the_candleborn_desc: "Let us form a united horde of kobolds, with a shared devotion of the beloved candle."
+ 
+ #-----------------------------------------------
+ # High Elf
+ #-----------------------------------------------
+ form_the_highborne_empire_title: "Form the Highborne Empire"
+ form_the_highborne_empire_desc: "Let us form the Highborne Empire and unite the high elves in all of the Eastern Kingdoms under one banner."
+ 
+ drink_from_the_sunwell_title: "Drink from the Sunwell"
+ drink_from_the_sunwell_desc: "The energies of the Sunwell will imbue our [Root.Monarch.GetTitle] with unnatural power!"
+ 
+ enforce_the_forest_protection_act_title: "Pass Forest Protection Act"
+ enforce_the_forest_protection_act_desc: "Protecting the forests means setting up official roads and routes, greatly speeding up travel across our nation."
+ 
+ create_the_three_gates_title: "Create the Three Gates"
+ create_the_three_gates_desc: "The scum beyond our lands shall be held back by the creation of three gates."
  

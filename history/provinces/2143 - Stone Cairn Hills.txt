@@ -16,7 +16,7 @@ religion = religion_geomancy
 trade_goods = fish
 hre = no
 
-600.1.1 = {
+816.1.1 = {
     is_city = no
 	owner = XXX
 	controller = XXX 
@@ -24,7 +24,7 @@ hre = no
 }
 
 # The Third War
-617.1.1 = {
+901.1.1 = {
     is_city = yes
 	owner = F11
 	controller = F11

@@ -15,7 +15,7 @@ religion = religion_geomancy
 hre = no
 trade_goods = fossils
 
-617.1.1 = {
+901.1.1 = {
 add_core = H04
 owner = H04
 controller = H04

@@ -6,7 +6,7 @@ religion			= religion_shadow
 primary_culture 	= culture_kul_tiran
 capital 			= 2472
 
-618.1.1 = {  
+906.1.1 = {  
 monarch = {  
       name = "Robert"  
      dynasty = "Falrevere"  

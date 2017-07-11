@@ -6,7 +6,7 @@ war_goal = {
 }
 
 # Attack on High Elf Lodge and Stormfeather Outpost
-631.1.1 = {
+971.1.1 = {
 	add_attacker = A61
 	add_attacker = P14
 	add_defender = P22
@@ -14,13 +14,13 @@ war_goal = {
 }
 
 # Failed attack on Quel'Danil
-632.1.1 = {
+976.1.1 = {
 	rem_attacker = P14
 	rem_defender = P49
 }
 
 # End of open war between Horde and Alliance
-633.1.1 = {
+981.1.1 = {
 	rem_attacker = A61
 	rem_defender = P22
 }

@@ -14,7 +14,7 @@ religion = religion_geomancy
 trade_goods = lumber
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 owner = A81
 controller = A81
 add_core = A81

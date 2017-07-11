@@ -7,7 +7,7 @@ primary_culture 	= culture_forsaken
 capital 			= 931
 
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch = { 
 		name = "Sylvannas" 
 		dynasty = "Windrunner" 
@@ -19,7 +19,6 @@ capital 			= 931
 		leader = {
 			name = "Sylvannas Windrunner"
 			type = general
-			rank = 0
 			fire = 6
 			shock = 6
 			manuever = 6
@@ -27,31 +26,22 @@ capital 			= 931
 		}
 	}
 	
-	add_ruler_personality = immortal_personality # да...THIS WILL WORK!!1!1!
-	add_ruler_personality = obsessive_perfectionist_personality
-	add_ruler_personality = tactical_genius_personality
-	
-	
-    add_country_modifier = {
-        name = gift_of_fate
-        duration = 3650
-    }
     clear_scripted_personalities = yes
     add_ruler_personality = immortal_personality
 }
 
-620.6.1 = {
+916.6.1 = {
 	capital = 543
 }
 
-622.1.1 = {
+926.1.1 = {
 	add_country_modifier = {
 		name = horde_member
 		duration = -1
 	}
 }
 
-635.1.1 = {
+991.1.1 = {
     add_country_modifier = {
         name = horde_head
         duration = -1

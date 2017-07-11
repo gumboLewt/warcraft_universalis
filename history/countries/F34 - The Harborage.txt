@@ -6,7 +6,7 @@ religion			= religion_light_of_the_naaru
 primary_culture 	= culture_broken
 capital 			= 2179
 
-600.1.1 = { 
+816.1.1 = { 
 monarch = { 
      name = "Magtoor" 
      dynasty = "the Exile" 
@@ -16,7 +16,7 @@ monarch = {
  	} 
 } 
 
-631.1.1 = { 
+971.1.1 = { 
 monarch = { 
      name = "Avuun" 
      dynasty = "the Unbroken" 

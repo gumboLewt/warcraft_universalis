@@ -16,14 +16,14 @@ capital 				= 1513
  	}
 }
 
-622.1.1 = {
+926.1.1 = {
 add_country_modifier = {
     name = neutral_member
     duration = -1
 } 
 }
 
-631.1.1 = {
+971.1.1 = {
 	monarch = {
 		name = "Hamuul" 
 		dynasty = "Runetotem" 

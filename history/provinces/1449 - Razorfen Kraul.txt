@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = grain
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 base_tax = 4
 base_manpower = 4
 base_production = 4

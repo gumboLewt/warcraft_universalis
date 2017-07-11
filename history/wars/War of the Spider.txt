@@ -5,12 +5,12 @@ war_goal = {
 	province = 628 #Scourge Temples
 }
 
-605.1.1 = {
+841.1.1 = {
 	add_attacker = P11
 	add_defender = P74
 }
 
-615.1.1 = {
+891.1.1 = {
 	rem_attacker = P11
 	rem_defender = P74
 }

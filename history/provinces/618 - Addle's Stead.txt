@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no
 
-597.1.1 = { 
+801.1.1 = { 
     owner = A43
     controller = A43
     add_core = A43
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX
@@ -34,14 +34,14 @@ hre = no
 }
 
 # The Third War
-617.1.1 = { 
+901.1.1 = { 
     owner = A03
     controller = A03
     is_city = yes
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
     owner = A07
     controller = A07
     add_core = A07 
@@ -49,7 +49,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
     owner = F12
     controller = F12
     add_core = F12

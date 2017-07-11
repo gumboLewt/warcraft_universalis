@@ -18,7 +18,7 @@ capital 			= 1645
 	} 
 }
 
-592.1.1 = {
+776.1.1 = {
     religion = religion_fel
     
 	monarch = { 
@@ -30,7 +30,7 @@ capital 			= 1645
 	} 
 }
 
-617.1.1 = {
+901.1.1 = {
     primary_culture = culture_fel_orc
 }
 

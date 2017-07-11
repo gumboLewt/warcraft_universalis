@@ -16,12 +16,12 @@ religion = religion_church_of_the_light
 trade_goods = grain_silo
 hre = no 
 
-617.1.1 = { 
+901.1.1 = { 
 	controller = P12 
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	add_core = F15
 	add_core = P52
 	owner = F15
@@ -33,19 +33,19 @@ hre = no
 }
 
 # War of Lordaeron (TFT)
-620.9.1 = { 
+916.9.1 = { 
 	owner = P52
 	controller = P52
 	religion = religion_the_damned
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	remove_core = F15
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	add_core = P12
 	remove_core = P52
 	owner = P12
@@ -53,7 +53,7 @@ hre = no
 }
 
 # Mists of Pandaria
-632.1.1 = { 
+976.1.1 = { 
 	add_core = P14
 	remove_core = P12
 	owner = P14

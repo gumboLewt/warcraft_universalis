@@ -15,13 +15,13 @@ religion = religion_terokk
 trade_goods = flying_mounts
 hre = no
 
-601.1.1 = {
+821.1.1 = {
 owner = B77
 add_core =  B77
 }
 
 # The Burning Crusade
-625.1.1 = {
+941.1.1 = {
 owner = A54
 controller = A54
 add_core =  A54

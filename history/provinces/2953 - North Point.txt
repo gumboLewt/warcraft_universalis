@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = iron
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	culture = culture_high_elf
 	religion = religion_church_of_the_light
 	base_tax = 3

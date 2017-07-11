@@ -15,7 +15,7 @@ religion = religion_fire
 trade_goods = flying_mounts
 hre = no
 
-597.1.1 = {
+801.1.1 = {
     owner = A41
     controller = A41
     add_core = A41
@@ -24,13 +24,13 @@ hre = no
 }
 
 # The Third War
-617.1.1 = {
+901.1.1 = {
     add_core = A99
     culture = culture_black
     religion = religion_old_gods
 }
 
-632.1.1 = {
+976.1.1 = {
     add_core = B06
     remove_core = A99
     culture = culture_red

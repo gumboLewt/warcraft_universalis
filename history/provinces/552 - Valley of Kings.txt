@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = grain
 hre = no
 
-598.1.1 = { 
+806.1.1 = { 
     owner = A40
     controller = A40
     add_core = A40
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
     owner = A29
     controller = A29
     add_core = A29

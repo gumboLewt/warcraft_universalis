@@ -15,7 +15,7 @@ religion = religion_titan
 trade_goods = fish
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	owner = A70
 	controller = A70
 	add_core = A70
@@ -30,14 +30,14 @@ hre = no
         trade_goods = mounts
 }
 
-622.1.1 = {
+926.1.1 = {
 owner = G37
 controller = G37
 add_core = G37
 religion = religion_voodoo
 }
 
-631.1.1 = {
+971.1.1 = {
 owner = A70
 controller = A70
 remove_core = G37

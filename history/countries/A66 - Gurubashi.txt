@@ -16,7 +16,7 @@ monarch = {
   	}  
   }  
 
-600.1.1 = {  
+816.1.1 = {  
 monarch = {  
       name = "Jin'do"  
      dynasty = "Gurubashi"  
@@ -26,11 +26,11 @@ monarch = {
   	}  
   }
 
-622.1.1 = {
+926.1.1 = {
 religion = religion_hakkari
 }
 
-631.1.1 = {
+971.1.1 = {
 religion = religion_loa
 secondary_religion = religion_voodoo
 }

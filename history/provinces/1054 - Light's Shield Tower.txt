@@ -16,7 +16,7 @@ religion = religion_church_of_the_light
 trade_goods = army_supplies
 hre = no 
 
-617.1.1 = { 
+901.1.1 = { 
 	add_core = P52
 	owner = P52
 	controller = P52
@@ -24,13 +24,13 @@ hre = no
 	religion = religion_the_damned 
 }
 
-618.1.1 = {
+906.1.1 = {
 	remove_core = A08
 	remove_core = P62
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	add_core = F19
 	remove_core = P52
 	owner = F19

@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = grain
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 remove_core = B60
 owner = B10
 controller = B10

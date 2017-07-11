@@ -9,7 +9,7 @@ add_accepted_culture = culture_dalaran
 add_accepted_culture = culture_gilnean
 capital = 863
 
-618.1.1 = { 
+906.1.1 = { 
 	government_rank = 2
 	monarch = { 
 		name = "Othmar" 
@@ -41,7 +41,7 @@ capital = 863
 		shock = 3
 		manuever = 2
 		siege = 0
-		death_date = 618.4.1 # Killed by Kael'thas
+		death_date = 906.4.1 # Killed by Kael'thas
 	}
 	leader = {
 		name = "Kael'Thas Sunstrider"
@@ -51,7 +51,7 @@ capital = 863
 		shock = 4
 		manuever = 3
 		siege = 1
-		death_date = 618.3.1 # Imprisoned
+		death_date = 906.3.1 # Imprisoned
 	}
 	leader = {
 		name = "Kristoff"
@@ -61,7 +61,7 @@ capital = 863
 		shock = 2
 		manuever = 1
 		siege = 0
-		death_date = 620.4.1 # Fleed to Theramore
+		death_date = 916.4.1 # Fleed to Theramore
 	}
 	add_country_modifier = {
 		name = alliance_member
@@ -73,7 +73,7 @@ capital = 863
 	}
 }
 
-618.5.1 = { 
+906.5.1 = { 
 	government_rank = 1
 	monarch = { 
 		name = "Detheroc" 
@@ -91,7 +91,7 @@ capital = 863
 	remove_country_modifier = alliance_member
 }
 
-620.1.1 = { 
+916.1.1 = { 
 	government_rank = 2
 	monarch = { 
 		name = "Othmar" 
@@ -107,7 +107,7 @@ capital = 863
 	
 }
 
-620.5.1 = { 
+916.5.1 = { 
 	government_rank = 1
 	monarch = { 
 		name = "Refugee Council"  

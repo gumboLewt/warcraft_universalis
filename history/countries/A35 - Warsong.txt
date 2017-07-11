@@ -6,7 +6,7 @@ religion			= religion_ancestral
 primary_culture 	= culture_warsong
 capital 			= 1625
 
-592.1.1 = {
+776.1.1 = {
 	monarch = { 
 		name = "Grom" 
 		dynasty = "Hellscream" 
@@ -24,16 +24,16 @@ capital 			= 1625
 	religion = religion_fel
 } 
 
-601.1.1 = {
+821.1.1 = {
     religion = religion_ancestral
 }
 
-617.1.1 = { 
+901.1.1 = { 
     historical_friend = A48
     capital = 1420
 }
 
-618.1.1 = {
+906.1.1 = {
 	monarch = { 
 		name = ""  
 		dynasty = "Gargok" 
@@ -44,7 +44,7 @@ capital 			= 1625
 	capital = 1351
 }
 
-627.1.1 = {
+951.1.1 = {
 	monarch = {
 		name = "Garrosh" 
 		dynasty = "Hellscream" 
@@ -54,7 +54,7 @@ capital 			= 1625
 	}
 }
 
-633.1.1 = {
+981.1.1 = {
 	monarch = { 
 		name = ""  
 		dynasty = "Gargok" 

@@ -15,7 +15,7 @@ religion = religion_terokk
 trade_goods = crypts
 hre = no
 
-601.1.1 = {
+821.1.1 = {
 owner = B77
 controller = B77
 add_core =  B77

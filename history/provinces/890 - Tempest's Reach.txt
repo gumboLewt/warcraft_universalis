@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no 
 
-631.1.1 = {
+971.1.1 = {
 	revolt = {
 		name = "Tempest Rebellion"
 		type = pretender_rebels
@@ -27,7 +27,7 @@ hre = no
 }
 
 # Mists of Pandaria
-632.1.1 = {
+976.1.1 = {
 	revolt = {
 		type = pretender_rebels
 		size = 0

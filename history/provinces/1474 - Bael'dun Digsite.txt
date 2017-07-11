@@ -15,7 +15,7 @@ religion = religion_air
 trade_goods = fossils
 hre = no
 
-622.1.1 = { 
+926.1.1 = { 
 	controller = F59
 	owner = F59
 	add_core = F59

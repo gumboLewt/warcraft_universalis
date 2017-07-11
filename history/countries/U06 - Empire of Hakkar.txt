@@ -1,0 +1,8 @@
+# Hakkari
+government 			= militaristic_order
+mercantilism 		= 10
+technology_group 	= tech_troll
+religion			= religion_hakkari
+primary_culture 	= culture_hakkari
+capital 			= 1
+

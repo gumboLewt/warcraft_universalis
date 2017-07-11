@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = crypts
 hre = no
 
-605.1.1 = { 
+841.1.1 = { 
 owner = P11
 controller = P11
 add_core = P11
@@ -24,7 +24,7 @@ culture = culture_scourge
 religion = religion_the_damned
 }
 
-626.1.1 = { 
+946.1.1 = { 
 owner = H06
 controller = H06
 add_core = H06

@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = army_supplies
 hre = no 
 
-598.1.1 = { 
+806.1.1 = { 
 	owner = A29
 	controller = A29
 	add_core = A29
@@ -27,17 +27,17 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	remove_core = A08
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	add_core = P09 
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
     is_city = no
 	owner = XXX			# Forsaken Assault on Dun Garok
 	controller = XXX

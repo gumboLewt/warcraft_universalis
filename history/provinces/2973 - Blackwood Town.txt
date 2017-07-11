@@ -16,14 +16,14 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	add_core = A10
 	owner = A10
 	controller = A10
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	add_core = P52
 	remove_core = A08
 	remove_core = A10

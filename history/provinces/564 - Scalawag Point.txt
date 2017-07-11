@@ -15,14 +15,14 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
     is_city = no
     owner = XXX
     controller = XXX
 }
 
 # The Burning Crusade
-625.1.1 = { 
+941.1.1 = { 
     is_city = yes
     owner = A20
     controller = A20

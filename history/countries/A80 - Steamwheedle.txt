@@ -16,7 +16,7 @@ monarch = {
  	} 
  } 
 
-592.1.1 = { 
+776.1.1 = { 
 monarch = { 
      name = "" 
      dynasty = "Steamwheedle" 
@@ -26,7 +26,7 @@ monarch = {
  	} 
  } 
 
-605.1.1 = {
+841.1.1 = {
 add_country_modifier = {
     name = neutral_member
     duration = -1

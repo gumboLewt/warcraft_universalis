@@ -6,7 +6,7 @@ religion			= religion_fel
 primary_culture 	= culture_illidari
 capital 			= 1671
 
-617.1.1 = { 
+901.1.1 = { 
 	monarch = { 
 		name = "Illidan" 
 		dynasty = "Stormrage" 
@@ -16,11 +16,11 @@ capital 			= 1671
 	} 
 }
 
-622.1.1 = {
+926.1.1 = {
 	add_accepted_culture = culture_blood_elf
 }
 
-626.1.1 = { 
+946.1.1 = { 
 	monarch = { 
 		name = "Ruusk" 
 		dynasty = "Eclipsion" 

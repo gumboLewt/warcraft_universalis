@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = fur
 hre = no 
 
-618.1.1 = {
+906.1.1 = {
 	revolt = {
 		type = pretender_rebels
 		size = 2
@@ -28,7 +28,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 	revolt = {
 	}
 	controller = A12
@@ -36,12 +36,12 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	culture = culture_gilnean_worgen
 	controller = P14
 }
 
 # Mists of Pandaria
-632.1.1 = { 
+976.1.1 = { 
 	controller = A12
 }

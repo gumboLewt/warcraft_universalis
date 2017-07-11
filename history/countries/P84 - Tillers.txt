@@ -17,7 +17,7 @@ capital 			= 1
 } 
 
 
-582.1.1 = { 
+726.1.1 = { 
 	monarch = { 
 		name = "Haohan" 
 		dynasty = "Mudclaw" 

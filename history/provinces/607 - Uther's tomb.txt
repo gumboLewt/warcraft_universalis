@@ -17,12 +17,12 @@ religion = religion_voodoo
 trade_goods = crypts
 hre = no 
 
-592.1.1 = { 
+776.1.1 = { 
 	base_manpower = 3
 }
 
 # Fall of Stormwind
-597.1.1 = { 
+801.1.1 = { 
 	owner = A17
 	controller = A17
 	add_core = A09
@@ -33,13 +33,13 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
 	owner = A08
 	controller = A08
 }
 
 # The Third War
-617.5.1 = { 
+901.5.1 = { 
 	add_core = F17
 	add_core = P52
 	owner = F17 
@@ -47,7 +47,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	add_core = F15
 	remove_core = F17
 	owner = F15
@@ -60,19 +60,19 @@ hre = no
 }
 
 # War of Lordaeron (TFT)
-620.6.1 = { 
+916.6.1 = { 
 	controller = P52
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 owner = P52
 	remove_core = F15
 	religion = religion_the_damned
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = F19
 	controller = F19
 	add_core = F19

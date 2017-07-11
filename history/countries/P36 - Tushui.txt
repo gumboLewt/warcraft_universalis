@@ -7,7 +7,7 @@ religion			= religion_celestial
 primary_culture 	= culture_tuskui
 capital 			= 1
 
-632.1.1 = { 
+976.1.1 = { 
 
 monarch = { 
      name = "Aysa" 

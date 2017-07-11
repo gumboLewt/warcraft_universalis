@@ -12,7 +12,7 @@ add_accepted_culture = culture_shivarra
 add_accepted_culture = culture_construct
 capital 			= 1662
 
-617.1.1 = { 
+901.1.1 = { 
 	monarch = { 
 		name = "Archimonde" 
 		dynasty = "the Defiler" 
@@ -24,7 +24,7 @@ capital 			= 1662
     add_ruler_personality = immortal_personality
 }
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch = { 
 		name = "Kil'Jaeden" 
 		dynasty = "the Deciever" 

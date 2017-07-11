@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = fur
 hre = no 
 
-592.1.1 = { 
+776.1.1 = { 
 	owner = A46
 	controller = A46
 	add_core = A46
@@ -25,14 +25,14 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	base_tax = 3
 	base_manpower = 3
 	base_production = 3
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	base_tax = 4
 	base_manpower = 4
 	base_production = 4
@@ -40,6 +40,6 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
 	base_manpower = 5
 }

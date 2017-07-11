@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = army_supplies
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 owner = F21
 controller = F21
 add_claim = A58
@@ -26,12 +26,12 @@ remove_core = A90
 }
 
 
-622.1.1 = {
+926.1.1 = {
 remove_claim = A58
 }
 
 # The Burning Crusade
-625.1.1 = {
+941.1.1 = {
 owner = B92
 controller = B92
 add_core = B92
@@ -40,7 +40,7 @@ religion = religion_fel
 }
 
 # Wrath of the Lich King
-626.1.1 = { 
+946.1.1 = { 
 owner = G19
 controller = G19
 add_core = G19
@@ -50,7 +50,7 @@ religion = religion_light_of_the_naaru
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 owner = A91
 controller = A91
 add_core = A91

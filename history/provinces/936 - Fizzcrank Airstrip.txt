@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = fur
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 	is_city = yes
 	owner = A32
 	controller = A32

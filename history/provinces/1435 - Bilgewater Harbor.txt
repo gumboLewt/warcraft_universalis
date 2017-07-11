@@ -16,7 +16,7 @@ hre = no
 trade_goods = naval_supplies
 
 
-618.1.1 = {
+906.1.1 = {
     owner = P05
     add_core = P05
     remove_core = G39
@@ -26,7 +26,7 @@ trade_goods = naval_supplies
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
     owner = A79
     add_core = A79
     controller = A79

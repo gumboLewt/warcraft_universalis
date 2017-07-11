@@ -17,7 +17,7 @@ monarch = {
  	} 
  } 
 
-592.1.1 = { 
+776.1.1 = { 
 monarch = {
      name = "Luke" 
      dynasty = "Abbendis" 
@@ -28,7 +28,7 @@ monarch = {
  	government = dictatorship_gov
 }
 
-597.1.1 = { 
+801.1.1 = { 
 monarch = { 
      name = "Anduin " 
      dynasty = "Lothar" 
@@ -38,7 +38,7 @@ monarch = {
  	}
 }
 
-600.1.1 = { 
+816.1.1 = { 
 monarch = { 
      name = "Aedelas" 
      dynasty = "Blackmoore" 
@@ -48,7 +48,7 @@ monarch = {
  	}
 }
 
-617.1.1 = { 
+901.1.1 = { 
 	monarch = { 
 		name = "Henry" 
 		dynasty = "Maleb" 
@@ -69,14 +69,14 @@ monarch = {
  	government = administrative_republic
 } 
 
-618.1.1 = {
+906.1.1 = {
 	add_country_modifier = {
 		name = alliance_member
 		duration = -1
 	} 
 }
 
-631.1.1 = {
+971.1.1 = {
 	primary_culture = culture_lordaeron_worgen
 	technology_group = tech_worgen 
 	government = dictatorship_gov

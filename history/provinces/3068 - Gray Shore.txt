@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = stone
 hre = no 
 
-618.1.1 = { 
+906.1.1 = { 
 	add_core = B25
 	owner = B25
 	controller = B25
@@ -25,16 +25,16 @@ hre = no
 }
 
 # War of Lordaeron (TFT)
-620.1.1 = { 
+916.1.1 = { 
 	controller = F15
 }
 
 # War of Lordaeron (TFT)
-620.5.1 = {
+916.5.1 = {
 	controller = P52
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	controller = B25
 }

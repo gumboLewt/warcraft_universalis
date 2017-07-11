@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = fish
 hre = no
 
-622.1.1 = { 
+926.1.1 = { 
 	owner = P52
 	controller = P52
 	add_core = P52
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	owner = A15
 	controller = A15
 	add_core = A15

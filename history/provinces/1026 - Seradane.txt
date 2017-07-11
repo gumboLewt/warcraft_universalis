@@ -15,7 +15,7 @@ religion = religion_sect_of_dragons
 trade_goods = lumber
 hre = no 
 
-631.1.1 = {
+971.1.1 = {
     is_city = no
     controller = XXX
     owner = XXX

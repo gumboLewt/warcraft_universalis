@@ -7,7 +7,7 @@ primary_culture 	= culture_forsaken
 capital 			= 2192
 
 
-631.1.1 = { 
+971.1.1 = { 
 	monarch = { 
 		name = "Marcus" 
 		dynasty = "Redpath" 
@@ -17,7 +17,7 @@ capital 			= 2192
 	} 
 }
 
-632.1.1 = { 
+976.1.1 = { 
 	monarch = { 
 		name = "Undead Council" 
 		adm = 1

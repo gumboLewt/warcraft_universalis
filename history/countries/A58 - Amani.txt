@@ -17,7 +17,7 @@ monarch = {
   }  
 
 
-592.1.1 = {  
+776.1.1 = {  
 monarch = {  
       name = "Zul'jin"  
      dynasty = "Amani"  
@@ -27,7 +27,7 @@ monarch = {
   	}  
   }  
   
-631.1.1 = {  
+971.1.1 = {  
 monarch = {  
       name = "Daakara"  
      dynasty = "Amani"  
@@ -37,7 +37,7 @@ monarch = {
   	}  
  }  
  
-632.1.1 = {  
+976.1.1 = {  
 monarch = {  
       name = "Kazra'jin"  
      dynasty = "Amani"  

@@ -17,14 +17,14 @@ monarch = {
  	} 
  } 
 
-597.1.1 = {
+801.1.1 = {
 add_country_modifier = {
     name = alliance_member
     duration = -1
 }
 } 
 
-618.1.1 = { 
+906.1.1 = { 
 monarch = { 
      name = "Ansirem"
      dynasty = "Runeweaver" 
@@ -34,7 +34,7 @@ monarch = {
  	} 
  } 
 
-626.1.1 = { 
+946.1.1 = { 
 monarch = { 
      name = "Rhonin"
      dynasty = "Redhair" 
@@ -50,7 +50,7 @@ add_country_modifier = {
 } 
 } 
 
-632.1.1 = { 
+976.1.1 = { 
 	monarch = { 
 		name = "Jaina"
 		dynasty = "Proudmoore" 

@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = grain
 hre = no
 
-605.1.1 = {
+841.1.1 = {
 owner = B73
 controller = B73
 add_core = B73
@@ -24,7 +24,7 @@ culture = culture_iron
 religion = religion_old_gods
 }
 
-631.1.1 = {
+971.1.1 = {
 owner = B86
 controller = B86
 add_core = B86

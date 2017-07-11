@@ -6,7 +6,7 @@ religion			= religion_celestial
 primary_culture 	= culture_golden_lotus
 capital 			= 1
 
-597.1.1 = { 
+801.1.1 = { 
 	monarch = { 
 		name = "Zhi" 
 		dynasty = "the Harmonious" 

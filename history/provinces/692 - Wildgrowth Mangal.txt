@@ -15,13 +15,13 @@ religion = religion_titan
 trade_goods = fish
 hre = no
 
-615.1.1 = {
+891.1.1 = {
     owner = G36
     controller = G36
     add_core = G36
 }
 
-626.1.1 = {
+946.1.1 = {
     owner = F29
     add_core = F29
     controller = F29

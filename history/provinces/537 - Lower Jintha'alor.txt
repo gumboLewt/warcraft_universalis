@@ -15,17 +15,17 @@ religion = religion_voodoo
 trade_goods = iron
 hre = no 
 
-622.1.1 = { 
+926.1.1 = { 
 	religion = religion_hakkari 
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	add_core = A61 
 }
 
 # Mists of Pandaria
-632.1.1 = { 
+976.1.1 = { 
 	owner = A61
 	controller = A61
 	culture = culture_revantusk

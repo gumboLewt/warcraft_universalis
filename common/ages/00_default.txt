@@ -170,7 +170,7 @@ rise_of_the_horde = {
 }
 
 the_first_war = {
-	start = 592
+	start = 776
 	
 	can_start = {
 		has_global_flag = the_first_war
@@ -343,7 +343,7 @@ the_first_war = {
 }
 
 the_second_war = {
-	start = 598
+	start = 806
 	
 	can_start = {
 		has_global_flag = the_second_war
@@ -516,7 +516,7 @@ the_second_war = {
 }
 
 the_third_war = {
-	start = 617
+	start = 901
 	
     can_start = {
 		has_global_flag = the_third_war
@@ -689,7 +689,7 @@ the_third_war = {
 }
 
 the_frozen_throne = {
-	start = 618
+	start = 906
 	
     can_start = {
 		has_global_flag = the_frozen_throne
@@ -862,7 +862,7 @@ the_frozen_throne = {
 }
 
 rise_of_the_qiraji = {
-	start = 622
+	start = 926
 	
     can_start = {
 		has_global_flag = rise_of_the_qiraji
@@ -1035,7 +1035,7 @@ rise_of_the_qiraji = {
 }
 
 the_burning_crusade = {
-	start = 625
+	start = 941
 	
     can_start = {
 		has_global_flag = the_burning_crusade
@@ -1208,7 +1208,7 @@ the_burning_crusade = {
 }
 
 wrath_of_the_lich_king = {
-	start = 626
+	start = 946
 	
     can_start = {
 		has_global_flag = wrath_of_the_lich_king
@@ -1381,7 +1381,7 @@ wrath_of_the_lich_king = {
 }
 
 the_shattering = {
-	start = 631
+	start = 971
 	
 	can_start = {
 		has_global_flag = the_shattering
@@ -1554,7 +1554,7 @@ the_shattering = {
 }
 
 mists_of_pandaria = {
-	start = 632
+	start = 976
 	
     can_start = {
 		has_global_flag = mists_of_pandaria

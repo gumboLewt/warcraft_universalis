@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = apexis
 hre = no
 
-601.1.1 = {
+821.1.1 = {
     owner = F76
     controller = F76
     add_core = F76

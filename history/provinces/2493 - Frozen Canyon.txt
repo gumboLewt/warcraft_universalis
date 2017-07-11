@@ -15,7 +15,7 @@ religion = religion_sect_of_dragons
 trade_goods = fur
 hre = no
 
-631.1.1 = {
+971.1.1 = {
     culture = culture_red
     religion = religion_old_gods
     owner = B06
@@ -23,7 +23,7 @@ hre = no
     add_core = B06
 }
 
-632.1.1 = {
+976.1.1 = {
     culture = culture_red
     religion = religion_sect_of_dragons
     owner = B03

@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = artifacts
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 	owner = F54
 	controller = F54
 	add_core = F54
@@ -28,7 +28,7 @@ hre = no
 }
 
 # The Burning Crusade
-625.1.1 = {
+941.1.1 = {
     owner = F39
     controller = F39
     add_core = F39
@@ -36,7 +36,7 @@ hre = no
 }
 
 # Wrath of the Lich King	
-626.1.1 = {
+946.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX
@@ -46,7 +46,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
     is_city = yes
     owner = G16
     controller = G16

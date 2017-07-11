@@ -15,25 +15,25 @@ religion = religion_ancestral
 trade_goods = fel
 hre = no
 
-592.1.1 = {
+776.1.1 = {
 religion = religion_fel
 }
 
 #Outland
-601.1.1 = {
+821.1.1 = {
 	owner = B89
 	controller = B89
 	add_core = B89
 }
 
-618.1.1 = {
+906.1.1 = {
     is_city = no
 	owner = XXX
 	controller = XXX
 	religion = religion_fel
 }
 
-625.1.1 = {
+941.1.1 = {
     is_city = yes
 	owner = B92
 	controller = B92

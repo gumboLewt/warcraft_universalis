@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = grain
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	owner = P52
 	controller = P52
 	add_core = P52
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
     is_city = no
 	owner = XXX
 	controller = XXX

@@ -6,7 +6,7 @@ religion			= religion_greed
 primary_culture 	= culture_leper_gnome
 capital 			= 3036
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch = { 
 		name = "Sicco" 
 		dynasty = "Thermaplugg" 

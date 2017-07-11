@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = cloth
 hre = no
 
-631.1.1 = { 
+971.1.1 = { 
 	base_tax = 2 # Burned by the Theramore Forces
 	base_manpower = 1
 	base_production = 1

@@ -16,7 +16,7 @@ religion = religion_church_of_the_light
 trade_goods = army_supplies
 hre = no 
 
-598.1.1 = { 
+806.1.1 = { 
     owner = A41
     controller = A41
     add_core = A41
@@ -25,7 +25,7 @@ hre = no
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
     owner = F04
     controller = F04
     add_core = F04
@@ -36,7 +36,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX 

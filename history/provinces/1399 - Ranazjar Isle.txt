@@ -12,7 +12,7 @@ religion = religion_old_gods
 trade_goods = fish
 hre = no
 
-622.1.1 = { 
+926.1.1 = { 
 owner = G23
 controller = G23
 add_core = G23 
@@ -21,7 +21,7 @@ base_manpower = 2
 base_production = 2
 }
 
-631.1.1 = { 
+971.1.1 = { 
 owner = P24
 controller = P24
 add_core = P24 

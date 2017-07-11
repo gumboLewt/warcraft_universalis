@@ -15,7 +15,7 @@ capital 			= 753
 	} 
 } 
 
-592.1.1 = { 
+776.1.1 = { 
 	monarch = { 
 		name = "Jokkum" 
 		dynasty = "Hodir"

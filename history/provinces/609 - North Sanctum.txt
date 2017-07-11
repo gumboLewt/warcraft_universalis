@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = arcane
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 owner = F21
 controller = F21
 add_core = F21
@@ -25,7 +25,7 @@ remove_core = A90
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 owner = A91
 controller = A91
 add_core = A91

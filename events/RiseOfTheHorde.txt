@@ -404,6 +404,15 @@ country_event = {
             culture_group = culture_group_orc
             government = warband_gov
         }
+        1641 = {
+            owner = {
+                culture_group = culture_group_draenei
+            }
+            controller = {
+                culture_group = culture_group_orc
+            }
+            has_siege = yes
+        }
 	}
 	
     mean_time_to_happen = {
@@ -540,7 +549,7 @@ country_event = {
                     NOT = { total_development = 10 }
                 }
             }
-            is_year = 590 # fallback
+            is_year = 766 # fallback
         }
 	}
 	

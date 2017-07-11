@@ -15,14 +15,14 @@ religion = religion_church_of_the_light
 trade_goods = fish
 hre = no
 
-597.1.1 = { owner = P98
+801.1.1 = { owner = P98
 controller = P98
 add_core = P98
 culture = culture_blackrock
 religion = religion_fel }
 
 # Beyond the Dark Portal
-600.1.1 = { owner = A04
+816.1.1 = { owner = A04
 controller = A04
 remove_core = P98
 culture = culture_azerothian

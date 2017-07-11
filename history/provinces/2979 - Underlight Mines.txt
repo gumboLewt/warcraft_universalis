@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = gold
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 	owner = B12
 	controller = B12
 	add_core = B12

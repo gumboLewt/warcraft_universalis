@@ -17,7 +17,7 @@ capital 			= 2119
 	}
 }
 
-626.1.1 = { 
+946.1.1 = { 
 	monarch =
 	{ 
 		name = "King" 

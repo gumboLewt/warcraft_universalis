@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = gold
 hre = no
 
-597.1.1 = { 
+801.1.1 = { 
 owner = A42
 controller = A42
 add_core = A42
@@ -24,7 +24,7 @@ religion = religion_fel
 }
 
 # Beyond the Dark Portal
-600.1.1 = {
+816.1.1 = {
 owner = F11
 controller = F11
 add_core = F11
@@ -34,7 +34,7 @@ religion = religion_water
 }
 
 # The Third War
-617.1.1 = { owner = A02
+901.1.1 = { owner = A02
 controller = A02
 remove_core = F11
 culture = culture_azerothian
@@ -42,7 +42,7 @@ religion = religion_church_of_the_light
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 owner = A07
 controller = A07 
 add_core = A07
@@ -50,7 +50,7 @@ religion = religion_shadow
 }
 
 # The Burning Crusade
-625.1.1 = { 
+941.1.1 = { 
 owner = B58
 controller = B58 
 add_core = B58

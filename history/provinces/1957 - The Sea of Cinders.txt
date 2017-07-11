@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = warbeasts
 hre = no
 
-600.1.1 = { 
+816.1.1 = { 
     owner = A30
     controller = A30
     add_core = A30

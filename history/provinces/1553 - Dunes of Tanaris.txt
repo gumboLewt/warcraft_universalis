@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fossils
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 owner = A21
 controller = A21
 add_core = A21

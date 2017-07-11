@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fossils
 hre = no
 
-626.1.1 = { 
+946.1.1 = { 
 add_core = P11
 controller = P11
 owner = P11

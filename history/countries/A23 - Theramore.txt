@@ -9,7 +9,7 @@ add_accepted_culture = culture_kul_tiran
 add_accepted_culture = culture_high_elf
 capital 			 = 1456
 
-617.1.1 = {
+901.1.1 = {
 monarch = {
     name = "Jaina" 
     dynasty = "Proudmoore" 
@@ -25,11 +25,11 @@ monarch = {
 }
 
 #The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	government = administrative_kingdom
 }
 
-632.1.1 = {
+976.1.1 = {
 monarch = {
     name = "Northwatch Council" 
 		adm = 1

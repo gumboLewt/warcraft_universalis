@@ -16,7 +16,7 @@ monarch = {
  	}
 }
 
-617.1.1 = {
+901.1.1 = {
 monarch = {
      name = "" 
      dynasty = "Angler" 
@@ -26,7 +26,7 @@ monarch = {
  	}
 }
 
-632.1.1 = {
+976.1.1 = {
 monarch = {
      name = "Kril'mandar" 
      dynasty = "the Clawlord" 

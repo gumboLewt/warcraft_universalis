@@ -8,7 +8,7 @@ primary_culture 	= culture_sentinel
 add_accepted_culture = culture_cenarion
 capital 			= 1073
 
-622.1.1 = { 
+926.1.1 = { 
 	government_rank	= 3
 	monarch =
 	{ 

@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = fur
 hre = no
 
-605.1.1 = {
+841.1.1 = {
 remove_core = P32
 owner = P11
 controller = P11
@@ -24,7 +24,7 @@ culture = culture_scourge
 religion = religion_the_damned
 }
 
-618.1.1 = {
+906.1.1 = {
 owner = B34
 controller = B34
 add_core = B34
@@ -35,7 +35,7 @@ trade_goods = fish
 }
 
 
-626.1.1 = { 
+946.1.1 = { 
 culture = culture_murghoul
 religion = religion_the_damned
 }

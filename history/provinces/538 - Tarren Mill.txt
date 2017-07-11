@@ -15,14 +15,14 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no 
 
-600.1.1 = { 
+816.1.1 = { 
 	owner = H08
 	controller = H08
 	add_core = H08
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 	owner = P52
 	controller = P52
 	add_core = P52
@@ -33,12 +33,12 @@ hre = no
 }
 
 # War of Lordaeron (TFT) (Forsaken Rebelion)
-620.7.1 = { 
+916.7.1 = { 
 	controller = P14
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 	owner = P14
 	add_core = P14
 	remove_core = P52

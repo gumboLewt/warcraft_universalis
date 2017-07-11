@@ -15,7 +15,7 @@ religion = religion_air
 trade_goods = army_supplies
 hre = no 
 
-600.1.1 = { 
+816.1.1 = { 
 	owner = H11
 	controller = H11
 	add_core = H11
@@ -26,20 +26,20 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	base_tax = 3
 	base_manpower = 3
 	base_production = 3
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	base_tax = 4
 	base_manpower = 4
 	base_production = 4
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
 	base_manpower = 5
 }

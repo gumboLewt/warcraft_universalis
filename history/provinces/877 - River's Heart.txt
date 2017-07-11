@@ -12,7 +12,7 @@ religion = religion_titan
 trade_goods = fish
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 owner = F29
 add_core = F29
 religion = religion_church_of_the_light

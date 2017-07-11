@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fish
 hre = no 
 
-600.1.1 = { 
+816.1.1 = { 
     is_city = no
 	remove_core = A60 
 	owner = XXX
@@ -24,7 +24,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = {
+971.1.1 = {
     is_city = yes
 	add_core = A60
 	owner = A60

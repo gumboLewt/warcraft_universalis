@@ -6,7 +6,7 @@ religion			= religion_geomancy
 primary_culture 	= culture_dunemaul
 capital 			= 1
 
-597.1.1 = { 
+801.1.1 = { 
 	monarch = { 
 		name = "Gor'marok" 
 		dynasty = "Dunemaul" 
@@ -16,7 +16,7 @@ capital 			= 1
 	} 
 } 
 
-631.1.1 = {
+971.1.1 = {
 add_country_modifier = {
     name = horde_member
     duration = -1

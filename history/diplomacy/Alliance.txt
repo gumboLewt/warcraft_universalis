@@ -1,0 +1,89 @@
+#############################
+### Alliance of Ambermill ###
+#############################
+# Ambermill - Dalaran
+alliance = {
+	first = H09
+	second = A18
+	start_date = 926.1.1
+	end_date = 971.1.1
+}
+
+# Ambermill - Pyrewood
+alliance = {
+	first = H09
+	second = F52
+	start_date = 941.1.1
+	end_date = 971.1.1
+}
+
+# Ambermill - Lordaeron Survivors
+alliance = {
+	first = H09
+	second = F55
+	start_date = 926.1.1
+	end_date = 971.1.1
+}
+
+# Ambermill - Stormpike
+alliance = {
+	first = H09
+	second = H11
+	start_date = 926.1.1
+	end_date = 976.1.1
+}
+
+# Ambermill - Hillsbrad
+alliance = {
+	first = H09
+	second = A11
+	start_date = 926.1.1
+	end_date = 976.1.1
+}
+
+# Ambermill - Gilneas
+alliance = {
+	first = H09
+	second = A12
+	start_date = 971.1.1
+	end_date = 976.1.1
+}
+
+### Stormpike ###
+# Stormpike - Hillsbrad
+alliance = {
+	first = H11
+	second = A11
+	start_date = 926.1.1
+	end_date = 1066.1.1
+}
+
+# Stormpike - Ironforge
+alliance = {
+	first = H11
+	second = A29
+	start_date = 816.1.1
+	end_date = 1066.1.1
+}
+
+#############################
+### Alliance of Valgarde  ###
+#############################
+# Valgarde - Amberpine
+march = {
+	first = F38
+	second = P32
+	start_date = 946.1.1
+	end_date = 1016.1.1
+}
+
+###################
+### Shadowfang  ###
+###################
+# Shadowfang - Pyrewood
+march = {
+	first = A13
+	second = F52
+	start_date = 926.1.1
+	end_date = 941.1.1 # Death of Pyrewood ruling council controlled by Arugal
+}

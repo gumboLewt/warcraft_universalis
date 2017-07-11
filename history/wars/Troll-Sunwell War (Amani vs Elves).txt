@@ -5,13 +5,13 @@ war_goal = {
 	province = 844 # Sunwell
 }
 
-618.1.1 = {
+906.1.1 = {
 	add_attacker = A58
 	add_attacker = A59
 	add_defender = F54
 }
 
-622.1.1 = {
+926.1.1 = {
 	rem_attacker = A58
 	rem_attacker = A59
 	rem_defender = F54

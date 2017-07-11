@@ -12,7 +12,7 @@ religion = religion_ancestral
 trade_goods = copper
 hre = no
 
-631.1.1 = {
+971.1.1 = {
 	owner = F34
 	controller = F34
 	add_core = F34

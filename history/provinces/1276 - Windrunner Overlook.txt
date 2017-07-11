@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = arcane
 hre = no
 
-626.1.1 = { owner = G16
+946.1.1 = { owner = G16
 controller = G16
 add_core = G16
 culture = culture_high_elf

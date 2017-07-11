@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = silk
 hre = no
 
-615.1.1 = {
+891.1.1 = {
   owner = P11
   controller = P11
   add_core = P11

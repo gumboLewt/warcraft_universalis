@@ -7,7 +7,7 @@ religion			= religion_church_of_the_light
 primary_culture 	= culture_lordaeron
 capital 			= 979
 
-622.1.1 = { 
+926.1.1 = { 
 	religion = religion_scarlet_light   # Fall of Alexandros Mograine
 
 	monarch = { 
@@ -24,11 +24,11 @@ capital 			= 979
 		dip = 3
 		mil = 5
 		female = yes
-		birth_date = 599.12.11
+		birth_date = 811.12.11
  	} 
 } 
 
-626.1.1 = {
+946.1.1 = {
 	government_rank = 1
 	monarch = { 
 		name = "Sally" 
@@ -37,12 +37,12 @@ capital 			= 979
 		dip = 3
 		mil = 3
         female = yes
-        birth_date = 604.8.11
+        birth_date = 836.8.11
  	} 
 }
 
 #Legion
-635.1.1 = {
+991.1.1 = {
 	government_rank = 1
 	monarch = { 
 		name = "Michael" 
@@ -51,6 +51,6 @@ capital 			= 979
 		dip = 1
 		mil = 4
         female = yes
-        birth_date = 596.8.11
+        birth_date = 796.8.11
  	} 
 }

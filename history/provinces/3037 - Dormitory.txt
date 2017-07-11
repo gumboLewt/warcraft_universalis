@@ -15,7 +15,7 @@ religion = religion_tech
 trade_goods = workshops
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 owner = A33
 controller = A33
 add_core = A33

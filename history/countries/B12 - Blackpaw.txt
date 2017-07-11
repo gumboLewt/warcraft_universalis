@@ -6,7 +6,7 @@ religion			= religion_geomancy
 primary_culture 	= culture_blackpaw
 capital 			= 2979
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch = { 
 		name = "Banzai" 
 		dynasty = "Blackpaw" 

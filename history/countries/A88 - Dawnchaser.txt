@@ -6,7 +6,7 @@ religion			= religion_ancestral
 primary_culture 	= culture_dawnstrider
 capital 			= 1
 
-632.1.1 = { 
+976.1.1 = { 
 monarch = { 
      name = "Dezco" 
      dynasty = "Dawnchaser" 

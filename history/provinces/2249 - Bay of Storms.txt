@@ -15,7 +15,7 @@ religion = religion_fel
 hre = no
 trade_goods = grain
 
-618.1.1 = {
+906.1.1 = {
   owner = P05
   add_core = P05
   remove_core = G39

@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = lumber
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 religion = religion_fel
 }
 

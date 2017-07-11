@@ -7,7 +7,7 @@ capital 			= 883
 
 primary_culture = culture_nazja
 
-622.1.1 = { 
+926.1.1 = { 
 
 	monarch =
 	{ 

@@ -6,7 +6,7 @@ religion			= religion_water
 primary_culture 	= culture_nerglish
 capital = 1
 
-646.1.1 = { 
+1046.1.1 = { 
 	monarch =
 	{ 
 		name = "Chum"  
@@ -17,7 +17,7 @@ capital = 1
 	}
 } 
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch =
 	{ 
 		name = "Puddlelord"  
@@ -29,7 +29,7 @@ capital = 1
 } 
 
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch =
 	{ 
 		name = "Deeb"  

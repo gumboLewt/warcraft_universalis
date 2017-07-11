@@ -6,11 +6,11 @@ religion			= religion_titan
 primary_culture 	= culture_winterskorn
 capital 		= 734
 
-615.1.1 = {
+891.1.1 = {
 religion = religion_the_damned
 }
 
-626.1.1 = { 
+946.1.1 = { 
 monarch = { 
      name = "Bjorn" 
 	dynasty = "Halgurdsson"

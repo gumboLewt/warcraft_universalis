@@ -15,7 +15,7 @@ religion = religion_earth
 trade_goods = fel
 hre = no
 
-601.1.1 = {
+821.1.1 = {
 	owner = B89
 	controller = B89
 	add_core =  B89
@@ -25,7 +25,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
     is_city = no
 	owner = XXX
 	controller = XXX

@@ -15,7 +15,7 @@ religion = religion_fire
 trade_goods = oil
 hre = no
 
-632.1.1 = {
+976.1.1 = {
 owner = P34
 controller = P34
 add_core = P34

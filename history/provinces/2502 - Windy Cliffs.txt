@@ -15,7 +15,7 @@ religion = religion_old_gods
 trade_goods = saronite
 hre = no
 
-631.1.1 = {
+971.1.1 = {
     owner = B86
     controller = B86
     add_core = B86

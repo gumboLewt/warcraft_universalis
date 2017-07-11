@@ -18,7 +18,7 @@ capital 			= 642
 	} 
 } 
 
-592.1.1 = { 
+776.1.1 = { 
     monarch = { 
         name = "Marcus" 
         dynasty = "Valdelmar" 
@@ -28,7 +28,7 @@ capital 			= 642
     } 
 }  
 
-618.1.1 = {
+906.1.1 = {
     add_country_modifier = {
         name = alliance_member
         duration = -1

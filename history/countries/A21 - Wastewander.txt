@@ -6,7 +6,7 @@ religion			= religion_void
 primary_culture 	= culture_kul_tiran
 capital 			= 2325
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch = { 
 		name = "Hamed" 
 		dynasty = "Scorpidsting" 

@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = fur
 hre = no
 
-631.1.1 = {
+971.1.1 = {
     owner = G06
     controller = G06
     add_core = G06
@@ -29,7 +29,7 @@ hre = no
 }
 
 # Fort Triumph Wrecked, Razormane are still in this general region
-632.1.1 = { 
+976.1.1 = { 
     capital = "Mangletooth's Camp"
     owner = B68
     controller = B68

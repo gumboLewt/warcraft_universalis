@@ -16,12 +16,12 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no
 
-617.1.1 = { 
+901.1.1 = { 
 	add_core = P52
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	owner = P52
 	controller = P52
 	culture = culture_scourge

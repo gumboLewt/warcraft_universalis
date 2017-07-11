@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = fur
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 	owner = F24
 	controller = F24
 	add_core = F24

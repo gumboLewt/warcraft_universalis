@@ -16,11 +16,11 @@ monarch = {
  	} 
  } 
 
-618.1.1 = { 
+906.1.1 = { 
 	capital = 845
 }
 
-622.1.1 = { 
+926.1.1 = { 
 	monarch = {
 		name = "Ro'Bark" 
 		dynasty = "Mudsnout" 	

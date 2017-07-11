@@ -6,12 +6,12 @@ war_goal = {
 	province = 982 
 }
 
-626.1.1 = {
+946.1.1 = {
 	add_attacker = P11
     add_defender = B03
 }
 
-631.1.1 = {
+971.1.1 = {
 	rem_attacker = P11
     rem_defender = B03
 }

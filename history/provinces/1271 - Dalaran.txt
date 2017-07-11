@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = arcane
 hre = no
 
-626.1.1 = {
+946.1.1 = {
 	base_tax = 4
 	base_manpower = 4
 	base_production = 4

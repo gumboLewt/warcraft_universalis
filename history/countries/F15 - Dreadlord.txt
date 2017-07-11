@@ -7,7 +7,7 @@ religion			= religion_fel
 primary_culture 	= culture_scourge
 capital = 962
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch =
 	{ 
 		name = "Balnazzar" 
@@ -20,7 +20,7 @@ capital = 962
     add_ruler_personality = immortal_personality
 } 
 
-627.1.1 = {
+951.1.1 = {
 	technology_group = tech_undead
 	primary_culture = culture_forsaken
 }

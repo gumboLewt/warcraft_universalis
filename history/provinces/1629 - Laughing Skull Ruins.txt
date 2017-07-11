@@ -15,13 +15,13 @@ religion = religion_ancestral
 trade_goods = artifacts
 hre = no
 
-601.1.1 = {
+821.1.1 = {
 owner = F72
 controller = F72
 add_core = F72
 }
 
-622.1.1 = { 
+926.1.1 = { 
 owner = F83
 controller = F83
 add_core = F83

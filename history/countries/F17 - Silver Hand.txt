@@ -7,7 +7,7 @@ religion			= religion_church_of_the_light
 primary_culture 	= culture_lordaeron
 capital 			= 1
 
-598.1.1 = { 
+806.1.1 = { 
 
 monarch = { 
      name = "Uther" 
@@ -23,7 +23,7 @@ add_country_modifier = {
 } 
 
 
-618.1.1 = { 
+906.1.1 = { 
 
 monarch = { 
      name = "Alexandros" 
@@ -34,7 +34,7 @@ monarch = {
  	} 
  } 
 
-622.1.1 = {
+926.1.1 = {
 remove_country_modifier = alliance_member
 }
 

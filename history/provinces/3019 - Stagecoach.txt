@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = fur
 hre = no
 
-598.1.1 = { 
+806.1.1 = { 
 	owner = P50
 	controller = P50
 	add_core = P50
@@ -27,7 +27,7 @@ hre = no
 }
 
 # The Frozen Throne	
-618.1.1 = { 
+906.1.1 = { 
 	owner = F60
 	controller = F60
 	add_core = F60

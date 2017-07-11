@@ -15,7 +15,7 @@ religion = religion_titan_corrupt
 trade_goods = fish
 hre = yes
 
-632.1.1 = { 
+976.1.1 = { 
     owner = A88
     controller = A88
     add_core = A88

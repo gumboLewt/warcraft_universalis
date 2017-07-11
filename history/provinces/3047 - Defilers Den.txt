@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = fur
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 	owner = P14
 	controller = P14
 	add_core = P14

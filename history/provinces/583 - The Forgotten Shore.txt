@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = naval_supplies
 hre = no
 
-605.1.1 = { 
+841.1.1 = { 
 owner = P11
 controller = P11
 add_core = P11
@@ -25,7 +25,7 @@ religion = religion_the_damned
 }
 
 # The Third War
-617.1.1 = { 
+901.1.1 = { 
 owner = F38
 controller = F38
 add_core = F38
@@ -34,7 +34,7 @@ religion = religion_church_of_the_light
 capital = "Expedition Landing" 
 }
 
-618.1.1 = { owner = P11
+906.1.1 = { owner = P11
 controller = P11
 add_core = P11
 culture = culture_scourge

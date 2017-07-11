@@ -16,19 +16,19 @@ religion = religion_old_gods
 trade_goods = fur
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 owner = B45
 controller = B45
 culture = culture_frostpaw
 }
 
-626.1.1 = {
+946.1.1 = {
 owner = B46
 controller = B46
 culture = culture_redfang
 }
 
-631.1.1 = {
+971.1.1 = {
 owner = B45
 controller = B45
 culture = culture_frostpaw

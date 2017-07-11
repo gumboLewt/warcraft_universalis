@@ -15,7 +15,7 @@ religion = religion_old_gods
 trade_goods = fish
 hre = no
 
-600.1.1 = { 
+816.1.1 = { 
     owner = F57
     controller = F57
     add_core = F57
@@ -27,12 +27,12 @@ hre = no
     capital = "Stonemaul Village"
 }
 
-618.1.1 = {
+906.1.1 = {
     religion = religion_ancestral
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
     owner = A99
     controller = A99
     add_core = A99
@@ -41,7 +41,7 @@ hre = no
     capital = "Den of Flames"
 }
 
-632.1.1 = {
+976.1.1 = {
     is_city = no
     owner = XXX
     controller = XXX

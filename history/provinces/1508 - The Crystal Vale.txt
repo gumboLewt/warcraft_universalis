@@ -15,7 +15,7 @@ religion = religion_old_gods
 trade_goods = grain
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	owner = A43
 	controller = A43
 	add_core = A43
@@ -28,7 +28,7 @@ hre = no
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	controller = P27
 	owner = P27
 	add_core = P27

@@ -9,7 +9,7 @@ add_accepted_culture = culture_mecha_gnome
 add_accepted_culture = culture_ooze
 capital 			= 778
 
-626.1.1 = {
+946.1.1 = {
 monarch = {
     name = "Sara" 
     dynasty = "the Avatar" 

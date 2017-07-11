@@ -9,7 +9,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		is_year = 600
+		is_year = 816
 		tag = A12 #Country is Gilneas
 		owns = 914
 		exists = A08 #Lordaeron exists

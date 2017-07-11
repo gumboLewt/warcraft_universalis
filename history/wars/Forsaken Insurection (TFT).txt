@@ -5,14 +5,14 @@ war_goal = {
 	province = 560 # Agamand Mills
 }
 
-618.1.1 = {
+906.1.1 = {
 	add_attacker = P14
 	add_defender = P52
 	add_defender = P12
 	add_defender = P11
 }
 
-619.1.1 = {
+911.1.1 = {
 	add_attacker = B19
     add_attacker = B25
 	add_attacker = P50
@@ -20,7 +20,7 @@ war_goal = {
 	add_attacker = F16
 }
 
-622.1.1 = {
+926.1.1 = {
 	rem_attacker = P14
 	rem_attacker = B19
     rem_attacker = B25

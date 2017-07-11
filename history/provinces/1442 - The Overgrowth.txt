@@ -15,7 +15,7 @@ religion = religion_druidic
 hre = no
 trade_goods = fur
 
-592.1.1 = {
+776.1.1 = {
     add_core = B24
     owner = B24
     controller = B24
@@ -25,14 +25,14 @@ trade_goods = fur
     religion = religion_geomancy
 }
 
-617.1.1 = {
+901.1.1 = {
     add_core = H04
     owner = H04
     controller = H04
     remove_core = B24
 }
 
-618.1.1 = {
+906.1.1 = {
     owner = B68
     controller = B68
     add_core = B68
@@ -40,7 +40,7 @@ trade_goods = fur
     religion = religion_geomancy
 }
 
-631.1.1 = {
+971.1.1 = {
     owner = F88
     controller = F88
     add_core = F88

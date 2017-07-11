@@ -15,7 +15,7 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	owner = F36
 	controller = F36
 	add_core = F36
@@ -23,6 +23,6 @@ hre = no
 	culture = culture_nazja
 }
 
-631.1.1 = { 
+971.1.1 = { 
 	religion = religion_old_gods
 }

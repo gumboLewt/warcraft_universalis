@@ -21,7 +21,7 @@ government_rank = 1
 }
 
 
-622.1.1 = { 
+926.1.1 = { 
 
 	monarch =
 	{ 

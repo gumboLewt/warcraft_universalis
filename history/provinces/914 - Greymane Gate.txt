@@ -15,27 +15,27 @@ religion = religion_church_of_the_light
 trade_goods = army_supplies
 hre = no 
 
-617.1.1 = {
+901.1.1 = {
 	add_building = wow_fort_4
 }
 
 # The Frozen Throne
-618.1.1 = {
+906.1.1 = {
 controller = REB 
 }
 
 # Rise of the Qiraji
-622.1.1 = {
+926.1.1 = {
 controller = A12
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 culture = culture_gilnean_worgen
 controller = P14
 }
 
 # Mists of Pandaria
-632.1.1 = { 
+976.1.1 = { 
 controller = A12
 }

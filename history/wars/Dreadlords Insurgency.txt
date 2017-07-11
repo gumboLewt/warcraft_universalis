@@ -5,14 +5,14 @@ war_goal = {
 	province = 642 # Stratholme
 }
 
-618.1.1 = {
+906.1.1 = {
 	add_attacker = F15
 	add_defender = P52
 	add_defender = P12
 	add_defender = P11
 }
 
-622.1.1 = {
+926.1.1 = {
 	rem_attacker = F15
 	rem_defender = P52
 	rem_defender = P12

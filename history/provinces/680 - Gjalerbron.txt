@@ -15,7 +15,7 @@ religion = religion_geomancy
 trade_goods = crypts
 hre = no
 
-626.1.1 = { 
+946.1.1 = { 
 owner = B08
 controller = B08
 add_core = B08

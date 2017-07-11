@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = army_supplies
 hre = no 
 
-618.1.1 = { 
+906.1.1 = { 
 add_core = F15
 add_core = P52
 owner = F15
@@ -26,12 +26,12 @@ remove_core = A08
 }
 
 # War of Lordaeron (TFT)
-620.3.1 = { 
+916.3.1 = { 
 controller = P14
 }
 
 # War of Lordaeron (TFT)
-620.5.1 = { 
+916.5.1 = { 
 add_core = P14
 owner = P14
 controller = P14

@@ -15,7 +15,7 @@ religion = religion_elune
 trade_goods = fossils
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 owner = A43
 controller = A43
 add_core = A43

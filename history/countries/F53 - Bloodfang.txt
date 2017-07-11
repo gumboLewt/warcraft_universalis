@@ -8,7 +8,7 @@ primary_culture		= culture_gilnean_worgen
 
 capital             = 2963
 
-631.1.1 = { 
+971.1.1 = { 
 	monarch =
 	{
 		name = "Ivar" 			 
@@ -34,6 +34,6 @@ capital             = 2963
 	}
 }
 
-632.1.1 = { 
+976.1.1 = { 
 	capital = 686
 }

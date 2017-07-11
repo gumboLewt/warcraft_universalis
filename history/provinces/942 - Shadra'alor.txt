@@ -15,7 +15,7 @@ religion = religion_voodoo
 trade_goods = silk
 hre = no 
 
-631.1.1 = {
+971.1.1 = {
 owner = A60
 controller = A60 
 add_core = A60 

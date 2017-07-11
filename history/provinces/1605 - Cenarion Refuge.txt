@@ -15,7 +15,7 @@ religion = religion_light_of_the_naaru
 trade_goods = glowcap
 hre = no
 
-601.1.1 = {
+821.1.1 = {
     owner = F51
     controller = F51
     add_core =  F51
@@ -24,7 +24,7 @@ hre = no
     culture = culture_fungal_giant
 }
 
-625.1.1 = {
+941.1.1 = {
     owner = F64
     controller = F64
     add_core = F64

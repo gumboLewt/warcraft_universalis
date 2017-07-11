@@ -6,7 +6,7 @@ religion			= religion_arcane
 primary_culture 	= culture_blood_elf
 capital 			= 660
 
-618.1.1 = {
+906.1.1 = {
 	monarch = {
 		name = "Kael'thas"
 		dynasty = "Sunstrider"
@@ -20,7 +20,7 @@ capital 			= 660
     }
 }
 
-625.1.1 = {
+941.1.1 = {
 	monarch = {
 		name = "Lor'themar"
 		dynasty = "Theron"
@@ -35,6 +35,6 @@ capital 			= 660
     }
 }
 
-626.1.1 = {
+946.1.1 = {
     secondary_religion = religion_light_of_the_sunwell
 }

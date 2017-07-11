@@ -9,5 +9,5 @@ A41 = {
 }
 
 A08 = {
-    NOT = { is_year = 600 }
+    NOT = { is_year = 816 }
 }

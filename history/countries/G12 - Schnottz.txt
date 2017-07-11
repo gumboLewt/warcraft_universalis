@@ -7,7 +7,7 @@ religion			= religion_old_gods
 primary_culture 	= culture_kul_tiran
 capital 			= 1567
 
-631.1.1 = { 
+971.1.1 = { 
 	monarch =
 	{ 
 		name = "" 

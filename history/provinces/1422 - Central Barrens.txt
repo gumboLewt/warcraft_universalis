@@ -15,7 +15,7 @@ religion = religion_ancestral
 trade_goods = fur
 hre = no
 
-597.1.1 = {
+801.1.1 = {
 owner = B24
 add_core = B24
 controller = B24
@@ -25,7 +25,7 @@ culture = culture_kolkar
 religion = religion_geomancy
 }
 
-605.1.1 = {
+841.1.1 = {
 owner = A84
 controller = A84
 add_core = A84
@@ -35,7 +35,7 @@ culture = culture_bloodhoof
 religion = religion_ancestral
 }
 
-617.1.1 = {
+901.1.1 = {
 owner =  H04
 controller = H04
 add_core = H04
@@ -43,7 +43,7 @@ culture = culture_kolkar
 religion = religion_geomancy
 }
 
-631.1.1 = {
+971.1.1 = {
 owner = G06
 controller = G06
 add_core = G06

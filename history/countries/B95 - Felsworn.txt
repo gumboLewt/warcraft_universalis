@@ -9,7 +9,7 @@ primary_culture = culture_doomguard
 add_accepted_culture = culture_dreadlord
 add_accepted_culture = culture_moarg
 
-618.1.1 = { 
+906.1.1 = { 
 	monarch =
 	{ 
 		name = "Kazzak" 
@@ -22,7 +22,7 @@ add_accepted_culture = culture_moarg
     add_ruler_personality = immortal_personality
 } 
 
-625.1.1 = { 
+941.1.1 = { 
 	monarch =
 	{ 
 		name = "Razelikh" 

@@ -8,7 +8,7 @@ bookmark =
 {
 	name = "THE_FROZEN_THRONE_NAME"
 	desc = "THE_FROZEN_THRONE_DESC"
-	date = 618.1.1
+	date = 906.1.1
     
     country = A01
     country = P11

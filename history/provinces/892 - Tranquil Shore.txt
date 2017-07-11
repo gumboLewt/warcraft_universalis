@@ -15,7 +15,7 @@ religion = religion_arcane
 trade_goods = fish
 hre = no
 
-618.1.1 = {
+906.1.1 = {
 owner = B27
 controller = B27
 culture = culture_nerglish

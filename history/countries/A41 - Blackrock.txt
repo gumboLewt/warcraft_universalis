@@ -19,7 +19,7 @@ capital 			= 1697
 	} 
 }
 
-592.1.1 = {
+776.1.1 = {
         heir = { 
 		name = "Rend" 
 		dynasty = "Blackhand" 
@@ -33,7 +33,7 @@ capital 			= 1697
 	historical_friend = B88
 }
 
-597.1.1 = { 
+801.1.1 = { 
 	monarch = { 
 		name = "Orgrim" 
 		dynasty = "Doomhammer" 
@@ -45,7 +45,7 @@ capital 			= 1697
     capital = 1984
 }
 
-600.1.1 = { 
+816.1.1 = { 
 	monarch = { 
 		name = "Rend" 
 		dynasty = "Blackhand" 

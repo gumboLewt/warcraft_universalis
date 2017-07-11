@@ -15,7 +15,7 @@ religion = religion_church_of_the_light
 trade_goods = wine
 hre = no 
 
-600.1.1 = { 
+816.1.1 = { 
 	owner = A26
 	controller = A26
 	add_core = A26
@@ -24,6 +24,6 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	remove_core = H08
 }

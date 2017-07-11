@@ -17,7 +17,7 @@ religion = religion_geomancy
 trade_goods = grain
 hre = no 
 
-592.1.1 = { 
+776.1.1 = { 
 	remove_core = B14
 	owner = A08
 	controller = A08
@@ -26,7 +26,7 @@ hre = no
 }
 
 # The Third War
-617.1.1 = { 
+901.1.1 = { 
 	add_core = P52
 	owner = P52
 	controller = P52
@@ -35,7 +35,7 @@ hre = no
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	add_core = F15
 	owner = F15
 	controller = F15
@@ -45,12 +45,12 @@ hre = no
 }
 
 # War of Lordaeron (TFT)
-620.7.1 = { 
+916.7.1 = { 
 	controller = P52
 }
 
 # Rise of the Qiraji
-622.1.1 = { 
+926.1.1 = { 
 	remove_core = F15
 	owner = P52
 	controller = P52
@@ -58,7 +58,7 @@ hre = no
 }
 
 # Cataclysm
-631.1.1 = { 
+971.1.1 = { 
 	add_core = P12
 	remove_core = P52
 	owner = P12 

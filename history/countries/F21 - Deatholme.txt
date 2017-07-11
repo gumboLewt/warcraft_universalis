@@ -8,7 +8,7 @@ add_accepted_culture = culture_cultist
 add_accepted_culture = culture_crypt_fiend
 capital 			= 1039
 
-618.1.1 = {
+906.1.1 = {
 	monarch = {
 		name = "Dar'Khan"
 		dynasty = "Drathir"
@@ -20,7 +20,7 @@ capital 			= 1039
     add_ruler_personality = immortal_personality
 }
 
-627.1.1 = {
+951.1.1 = {
 	monarch = {
 		name = "Masophet"
 		dynasty = "the Black"

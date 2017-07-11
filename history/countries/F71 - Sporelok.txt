@@ -6,7 +6,7 @@ religion			= religion_zangar
 primary_culture 	= culture_sporeling
 capital 			= 1606
 
-600.1.1 = { 
+816.1.1 = { 
 monarch = { 
      name = "Amob'fn" 
      dynasty = "Sporelok" 

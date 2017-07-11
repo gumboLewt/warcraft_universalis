@@ -12,7 +12,7 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-618.1.1 = { 
+906.1.1 = { 
 	controller = A23
 	owner = A23
 	add_core = A23
@@ -28,7 +28,7 @@ hre = no
 }
 
 # Mists of Pandaria
-632.1.1 = { 
+976.1.1 = { 
     is_city = no
 	owner = XXX
 	controller = XXX

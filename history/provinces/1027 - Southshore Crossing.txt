@@ -15,20 +15,20 @@ religion = religion_church_of_the_light
 trade_goods = cloth
 hre = no 
 
-592.1.1 = { 
+776.1.1 = { 
 	base_tax = 2
 	base_production = 3
 }
 
 # Beyond the Dark Portal
-600.1.1 = { 
+816.1.1 = { 
 	add_core = A08
 	owner = A08
 	controller = A08
 }
 
 # The Frozen Throne
-618.1.1 = { 
+906.1.1 = { 
 	owner = P52
 	controller = P52
 	add_core = P52
@@ -39,12 +39,12 @@ hre = no
 }
 
 # Defence of Thoradin Wall (TFT)
-620.7.1 = { 
+916.7.1 = { 
 	controller = A11
 }
 
 # Rise of the Qiraji (Southshore vs Tarren Mill?) Forsaken patrolling roads
-622.1.1 = { 
+926.1.1 = { 
 	owner = P14
 	controller = P14
 	add_core = P14

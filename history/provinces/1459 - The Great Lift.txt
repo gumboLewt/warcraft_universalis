@@ -15,14 +15,14 @@ religion = religion_ancestral
 trade_goods = smugglers
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 culture = culture_bloodhoof
 add_core = F88
 controller = F88
 owner = F88
 }
 
-631.1.1 = {
+971.1.1 = {
 culture = culture_razorfen
 religion = religion_geomancy
 add_core = B70

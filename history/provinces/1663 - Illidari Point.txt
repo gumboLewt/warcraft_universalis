@@ -24,12 +24,12 @@ hre = no
     religion = religion_ancestral
 }
 
-592.1.1 = {
+776.1.1 = {
     religion = religion_fel
 }
 
 # Fel Horde
-601.1.1 = {
+821.1.1 = {
     remove_core = A34
         
 	owner = B89
@@ -38,7 +38,7 @@ hre = no
 }
 
 # The Burning Legion
-622.1.1 = {
+926.1.1 = {
     culture = culture_illidari
         
 	remove_core = B89  

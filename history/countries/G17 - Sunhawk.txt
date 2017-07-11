@@ -6,7 +6,7 @@ religion			= religion_fel
 primary_culture 	= culture_blood_elf
 capital 			= 1080
 
-625.1.1 = {
+941.1.1 = {
 	monarch = {
 		name = "Sironas"
 		dynasty = "the Cruel"

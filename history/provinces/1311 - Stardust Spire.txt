@@ -15,7 +15,7 @@ religion = religion_elune
 trade_goods = artifacts
 hre = no
 
-622.1.1 = {
+926.1.1 = {
 	owner = A94
 	controller = A94
         add_core = A94
