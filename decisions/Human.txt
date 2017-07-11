@@ -184,4 +184,59 @@ country_decisions = {
             }
 		}
     }
+    
+    form_stormwind = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = A01 } 
+			culture_group = culture_group_human
+            capital_scope = {
+                continent = continent_eastern_kingdoms
+            }
+			is_colonial_nation = no
+		}
+		
+		allow = {
+            region_elwynn_forest = {
+                owns_core_province = ROOT
+            }
+			is_at_war = no
+		}
+		
+		effect = {
+			add_prestige = 25
+			change_tag = A01
+            
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    # Darkshire
+    
+    # Westfall
+    
+    # Stormwind
+    
+    # Kul Tiras
+    
+    # Gilneas
+    
+    # Alterac
+    
+    # Raveholdt
 }
