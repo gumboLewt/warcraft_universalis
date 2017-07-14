@@ -1,0 +1,107 @@
+monarch_power = ADM
+
+technology = {
+	year = 545
+	
+}
+
+technology = {
+	year = 10000
+	
+    max_states = 5
+}
+technology = {
+	year = 10001
+	
+    administrative_efficiency = 0.1
+}
+technology = {
+	year = 10002
+    
+	max_states = 5
+}
+technology = {
+	year = 10003
+	
+    administrative_efficiency = 0.1
+}
+technology = {
+	year = 10004
+	
+    max_states = 5
+}
+technology = {
+	year = 10005
+	
+    administrative_efficiency = 0.1
+}
+technology = {
+	year = 10006
+	
+    max_states = 5
+}
+technology = {
+	year = 10007
+	
+    administrative_efficiency = 0.1
+}
+technology = {
+	year = 10008
+	
+    max_states = 5
+}
+technology = {
+	year = 10009
+	
+    administrative_efficiency = 0.1
+}
+technology = {
+	year = 10010
+	
+    max_states = 10
+}
+technology = {
+	year = 10011
+	
+    administrative_efficiency = 0.1
+}
+technology = {
+	year = 10012
+	
+    max_states = 10
+}
+technology = {
+	year = 10013
+	
+    administrative_efficiency = 0.1
+}
+technology = {
+	year = 10014
+	
+    max_states = 15
+}
+technology = {
+	year = 10015
+	
+    administrative_efficiency = 0.1
+}
+technology = {
+	year = 10016
+	
+    max_states = 20
+}
+technology = {
+	year = 10017
+	
+    administrative_efficiency = 0.1
+}
+technology = {
+	year = 10018
+	
+    max_states = 25
+}
+technology = {
+	year = 10019
+	
+    administrative_efficiency = 0.1
+}

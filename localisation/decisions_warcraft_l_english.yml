@@ -319,6 +319,17 @@
  form_stormwind_title: "Form Stormwind"
  form_stormwind_desc: "Stormwind had fell to the unwashed hordes of Azeroth, but with our efforts we have restored the lands they once controlled and may lay claim to the title of Stormwind as our own."
  
+ pass_purge_act_title: "Pass the Purge Act"
+ pass_purge_act_desc: "All those that do not assimilate must be purged!"
+ 
+ pass_worgen_elimination_act_title: "Pass the Worgen Elimination Act"
+ pass_worgen_elimination_act_desc: "These filthy beasts must be ousted from our lands. Once removed, our military will be at ease."
+ 
+ call_for_isolationism_title: "Call for Isolationism"
+ call_for_isolationism_desc: "By withdrawing from diplomatic matters, we can better control our own people."
+ 
+ hire_the_veiled_blade_title: "Hire the Veiled Blade"
+ hire_the_veiled_blade_desc: "The Veiled Blade will be in our employ, strengthening our forces."
  
  
  

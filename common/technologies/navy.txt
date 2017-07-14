@@ -1,0 +1,67 @@
+monarch_power = DIP
+
+technology = {
+	year = 545
+	
+    naval_morale = 2.0
+}
+
+technology = {
+	year = 10001
+    
+    naval_morale = 0.25
+}
+
+technology = {
+	year = 10003
+    
+    naval_morale = 0.25
+}
+
+technology = {
+	year = 10005
+    
+    naval_morale = 0.25
+}
+
+technology = {
+	year = 10007
+    
+    naval_morale = 0.25
+}
+
+technology = {
+	year = 10009
+    
+    naval_morale = 0.25
+}
+
+technology = {
+	year = 10011
+    
+    naval_morale = 0.25
+}
+
+technology = {
+	year = 10013
+    
+    naval_morale = 0.25
+}
+
+technology = {
+	year = 10015
+    
+    naval_morale = 0.25
+}
+
+technology = {
+	year = 10017
+    
+    naval_morale = 0.5
+}
+
+technology = {
+	year = 10019
+    
+    naval_morale = 0.5
+}

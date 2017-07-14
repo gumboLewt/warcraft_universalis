@@ -254,3 +254,43 @@
  
  the_three_gates: "The Three Gates"
  desc_the_three_gates: "The scum beyond our lands shall be held back by the creation of three gates."
+ 
+ #------------------------------------------------
+ # Human
+ #------------------------------------------------
+ purge_act: "Purge Act"
+ desc_purge_act: "All those that do not assimilate must be purged!"
+ 
+ worgen_elimination_act: "Worgen Elimination Act"
+ desc_worgen_elimination_act: "These filthy beasts must be ousted from our lands. Once removed, our military will be at ease."
+ 
+ withdrawn_in_isolation: "Withdrawn in Isolation"
+ desc_withdrawn_in_isolation: "By withdrawing from diplomatic matters, we can better control our own people."
+ 
+ veiled_blade: "Veiled Blade"
+ desc_veiled_blade: "The Veiled Blade are in our employ."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

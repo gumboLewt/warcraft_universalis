@@ -1311,11 +1311,11 @@ harpy_ideas = {
 dwarven_ideas = {
 	start = {
 		defensiveness = 0.33
-        siege_ability = 0.1
+        fort_inf_tech_cost_modifier = -0.25
 	}
 
 	bonus = {
-		prestige_from_land = 1.0
+        siege_ability = 0.1
 	}
 	
 	trigger = {

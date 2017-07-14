@@ -227,6 +227,115 @@ country_decisions = {
 	}
     
     # Darkshire
+    pass_purge_act = {
+		potential = {
+			tag = A03
+            NOT = { has_country_modifier = purge_act }
+		}
+		
+		allow = {
+            adm_power = 100
+            NOT = { has_country_modifier = purge_act }
+		}
+		
+		effect = {
+            add_adm_power = -100
+            
+			add_country_modifier = {
+				name = "purge_act"
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    pass_worgen_elimination_act = {
+		potential = {
+			tag = A03
+            NOT = { has_country_modifier = worgen_elimination_act }
+		}
+		
+		allow = {
+            adm_power = 100
+            any_owned_province = {
+                culture_group = culture_group_worgen
+            }
+            NOT = { has_country_modifier = worgen_elimination_act }
+		}
+		
+		effect = {
+            add_adm_power = -100
+            
+			add_country_modifier = {
+				name = "worgen_elimination_act"
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    call_for_isolationism = {
+		potential = {
+			tag = A03
+            NOT = { has_country_modifier = withdrawn_in_isolation }
+		}
+		
+		allow = {
+            adm_power = 100
+            NOT = { has_country_modifier = withdrawn_in_isolation }
+		}
+		
+		effect = {
+            add_adm_power = -100
+            
+            every_neighbor_country = {
+                add_opinion = {
+                    who = ROOT
+                    modifier = isolationist
+                }
+            }
+            
+			add_country_modifier = {
+				name = "withdrawn_in_isolation"
+				duration = 7200
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    hire_the_veiled_blade = {
+		potential = {
+			tag = A03
+            NOT = { has_country_modifier = veiled_blade }
+		}
+		
+		allow = {
+            treasury = 500
+            NOT = { has_country_modifier = veiled_blade }
+		}
+		
+		effect = {
+            add_treasury = -500
+            
+			add_country_modifier = {
+				name = "veiled_blade"
+				duration = 7200
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
     
     # Westfall
     

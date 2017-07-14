@@ -1,5 +1,14 @@
 spriteTypes = {
     #----------------------------------------------
+    # Technology Tab
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_technology_view_research_thin"
+		texturefile = "gfx//interface//country_technology_researchbutton_thin.dds"
+		loadType = "INGAME"
+	}
+    
+    #----------------------------------------------
     # UI
     #----------------------------------------------
     spriteType = {

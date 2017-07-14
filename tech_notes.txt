@@ -1,11 +1,155 @@
-monarch_power = MIL
+# ADM
+Government Administrative
+    administrative_kingdom = yes
+    administrative_republic = yes
+    administrative_theocracy = yes
+    administrative_order = yes
+    religious_tribe = yes
+    
+Government Trade
+    mercantile_kingdom = yes
+    mercantile_republic = yes
+    mercantile_theocracy = yes
+    mercantile_order = yes
+    mercantile_tribe = yes
+     
+Government Military
+    militaristic_kingdom = yes
+    militaristic_republic = yes
+    militaristic_theocracy = yes
+    militaristic_order = yes
+    war_tribe = yes
+    
+Abilities
+    may_support_rebels = yes
+    may_force_march = yes
+    
+Industry
+    production_efficiency 	=	0.025
+    development_efficiency = 0.05
+    
+Administration
+    administrative_efficiency = 0.05
+    max_states = 5
+    
+Innovation
+    allowed_idea_groups = 1
+    
+Infrastructure
+    wow_farm = yes
+    wow_lumbermill = yes
+    wow_mine = yes
+    wow_temple = yes
+    wow_town_hall = yes
+    wow_court = yes
+    wow_large_farm = yes
+    wow_large_lumbermill = yes
+    wow_large_mine = yes
+    wow_grand_temple = yes
+    wow_grand_town_hall = yes
+    wow_regional_court = yes
+   
+    wow_dock = yes
+    wow_market = yes
+    wow_shipyard = yes
+    wow_tavern = yes
+    wow_workshop = yes
+    wow_drydock = yes
+    wow_grand_market = yes
+    wow_grand_shipyard = yes
+    wow_well_kept_tavern = yes
+    wow_grand_workshop = yes
+    
+    wow_barracks = yes
+    wow_training_grounds = yes
+    wow_supply_depot = yes
+    wow_grand_barracks = yes
+    wow_grand_training_grounds = yes
+    wow_well_stocked_supply_depot = yes
+    
+Monuments
+    wow_unique_grand_forge = yes
+    wow_unique_palace = yes
+    wow_unique_magic_tower = yes
+    wow_tomb_of_riches = yes
+    wow_naval_academy = yes
+    wow_grand_monument = yes
+    wow_military_academy = yes
+    
+    wow_unique_altar_of_power = yes
+    
+# DIP
+Cultural Acceptance
+    num_accepted_cultures = 1
 
-# 0
-technology = {
-	year = 545
-	
+Abilities
+    merchants = yes
+    may_fabricate_claims = yes
+    may_steal_maps = yes
+    may_slander_merchants = yes
+    may_study_technology = yes
+    may_sabotage_recruitment = yes
+    may_corrupt_officials = yes
+    may_agitate_for_liberty = yes
+    may_infiltrate_administration = yes
+    may_sabotage_reputation = yes
+    may_sow_discontent = yes
+    reduced_naval_attrition = yes
+    allow_client_states = yes
+    
+Colonisation
+    range					=	200
+    global_colonial_growth	= 	25
+    
+Trade
+    trade_range				=	250
+    trade_efficiency = 0.05
+    
+Navy
+    naval_morale			=	2.0
+    naval_maintenance		= 	-0.05
+    
+Units
+    enable = w_cog
+	enable = w_galley
+	enable = w_barque
+	enable = w_carrack
+     
+
+# MIL
+Internal
     sprite_level = 1
-	
+    
+Logistics
+   land_morale 		= 2.0 
+   supply_limit = 0.25
+   
+Tactics
+   military_tactics = 1
+   combat_width = 5
+   
+Infantry
+    infantry_shock = 0.2 # 2
+    infantry_fire = 0.25 # 3
+    
+Cavalry
+    cavalry_shock = 1  # 5
+    cavalry_fire = 0.1 # 1
+    maneuver_value = 0.1 # 100
+    
+Siege
+    artillery_fire = 1 # 5
+    artillery_shock = 0.1 # 1
+   
+Fortification
+    wow_fort_1 = yes
+    wow_fort_2 = yes
+    wow_fort_3 = yes
+    wow_fort_4 = yes
+    wow_unique_fortress = yes
+    
+Units
+    # 1
     enable = trebuchet
     # tech_troll
 	enable = troll_tribal                        #lvl1 infantry a,
@@ -208,11 +352,8 @@ technology = {
     
     enable = magnataur_stampers
     enable = magnataur_ironbellies
-}
-
-technology = {
-	year = 10000
-	
+    
+    # 2
     # tech_thalassian
 	enable = bloodelf_ranger_cav
 	enable = bloodelf_flanker_cav
@@ -429,11 +570,8 @@ technology = {
     
     enable = magnataur_chargers
     enable = magnataur_steelbellies
-}
-
-technology = {
-	year = 10001
-	
+    
+    # 3
     # tech_troll
 	enable = troll_berserker                     #lvl3 infantry a,
 	enable = troll_warmonger                     #lvl3 infantry b,
@@ -650,4 +788,3 @@ technology = {
     
     enable = magnataur_champions
     enable = magnataur_rune_wielders
-}

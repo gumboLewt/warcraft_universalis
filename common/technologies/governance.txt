@@ -1,0 +1,29 @@
+monarch_power = ADM
+
+technology = {
+	year = 545
+	
+}
+
+technology = {
+	year = 10000
+	
+    administrative_kingdom = yes
+    administrative_republic = yes
+    administrative_theocracy = yes
+    administrative_order = yes
+    religious_tribe = yes
+        
+    mercantile_kingdom = yes
+    mercantile_republic = yes
+    mercantile_theocracy = yes
+    mercantile_order = yes
+    mercantile_tribe = yes
+        
+    militaristic_kingdom = yes
+    militaristic_republic = yes
+    militaristic_theocracy = yes
+    militaristic_order = yes
+    war_tribe = yes
+}
+

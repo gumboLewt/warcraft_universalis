@@ -1,0 +1,373 @@
+Administrative Governance
+    0:  
+    1:
+        administrative_kingdom = yes
+        administrative_republic = yes
+        administrative_theocracy = yes
+        administrative_order = yes
+        religious_tribe = yes
+        
+Mercantile Governance
+    0:
+    1:  
+        mercantile_kingdom = yes
+        mercantile_republic = yes
+        mercantile_theocracy = yes
+        mercantile_order = yes
+        mercantile_tribe = yes
+    
+Militaristic Governance
+    0:
+    1: 
+        militaristic_kingdom = yes
+        militaristic_republic = yes
+        militaristic_theocracy = yes
+        militaristic_order = yes
+        war_tribe = yes
+        
+Innovation:
+    0: 
+    1: allowed_idea_groups = 1
+    2: allowed_idea_groups = 2
+    3: allowed_idea_groups = 3
+    4: allowed_idea_groups = 4
+    5: allowed_idea_groups = 5
+    6: allowed_idea_groups = 6
+    7: allowed_idea_groups = 7
+    8: allowed_idea_groups = 8
+    
+Administration:
+    0:
+    1: max_states = 5
+    2: administrative_efficiency = 0.1
+    3: max_states = 5
+    4: administrative_efficiency = 0.1
+    5: max_states = 5
+    6: administrative_efficiency = 0.1
+    7: max_states = 5
+    8: administrative_efficiency = 0.1
+    9: max_states = 5
+    10: administrative_efficiency = 0.1
+    11: max_states = 10
+    12: administrative_efficiency = 0.1
+    13: max_states = 10
+    14: administrative_efficiency = 0.1
+    15: max_states = 15
+    16: administrative_efficiency = 0.1
+    17: max_states = 20
+    18: administrative_efficiency = 0.1
+    19: max_states = 25
+    20: administrative_efficiency = 0.1
+        
+Industry:
+    0: 
+    1: production_efficiency 	=	0.1
+    2: development_efficiency = 0.1
+    3: production_efficiency 	=	0.1
+    4: development_efficiency = 0.1
+    5: production_efficiency 	=	0.1
+    6: development_efficiency = 0.1
+    7: production_efficiency 	=	0.1
+    8: development_efficiency = 0.1
+    9: production_efficiency 	=	0.1
+    10: development_efficiency = 0.1
+    11: production_efficiency 	=	0.1
+    12: development_efficiency = 0.1
+    13: production_efficiency 	=	0.1
+    14: development_efficiency = 0.1
+    15: production_efficiency 	=	0.1
+    16: development_efficiency = 0.1
+    17: production_efficiency 	=	0.1
+    18: development_efficiency = 0.1
+    19: production_efficiency 	=	0.1
+    20: development_efficiency = 0.1
+
+Colonisation:
+    0:  range = 200 
+        global_colonial_growth = 10
+    1:  range = 50 
+        global_colonial_growth = 5
+    2:  range = 50 
+        global_colonial_growth = 5
+    3:  range = 50 
+        global_colonial_growth = 5
+    4:  range = 50 
+        global_colonial_growth = 5
+    5:  range = 50 
+        global_colonial_growth = 5
+    6:  range = 50 
+        global_colonial_growth = 5
+    7:  range = 50 
+        global_colonial_growth = 5
+    8:  range = 50 
+        global_colonial_growth = 5
+    9:  range = 50 
+        global_colonial_growth = 5
+    10: range = 50 
+        global_colonial_growth = 5
+    11: range = 50 
+        global_colonial_growth = 5
+    12: range = 50 
+        global_colonial_growth = 5
+    13: range = 50 
+        global_colonial_growth = 10
+    14: range = 50 
+        global_colonial_growth = 10
+    15: range = 50 
+        global_colonial_growth = 10
+    16: range = 50 
+        global_colonial_growth = 10
+
+Trade:
+    0:  trade_range = 250
+    1:  trade_efficiency = 0.1 
+    2:  trade_range = 250
+    3:  trade_efficiency = 0.1 
+    4:  trade_range = 250
+    5:  trade_efficiency = 0.1 
+    6:  trade_range = 250
+    7:  trade_efficiency = 0.1 
+    8:  trade_range = 250
+    9:  trade_efficiency = 0.1 
+    10:  trade_range = 250
+    11:  trade_efficiency = 0.1 
+    12:  trade_range = 250
+    13:  trade_efficiency = 0.1 
+    14:  trade_range = 250
+    15:  trade_efficiency = 0.1 
+    16:  trade_range = 250
+    17:  trade_efficiency = 0.1 
+    18:  trade_range = 250
+    19:  trade_efficiency = 0.1 
+    20:  trade_range = 500 
+  
+Naval Logistics:
+    0: naval_morale = 2.0
+    1: naval_maintenance = -0.05
+    2: naval_morale = 0.25
+    3: naval_maintenance = -0.05
+    4: naval_morale = 0.25
+    5: naval_maintenance = -0.05
+    6: naval_morale = 0.25
+    7: naval_maintenance = -0.05
+    8: naval_morale = 0.25
+    9: naval_maintenance = -0.05
+    10: naval_morale = 0.25
+    11: naval_maintenance = -0.05
+    12: naval_morale = 0.25
+    13: naval_maintenance = -0.05
+    14: naval_morale = 0.25
+    15: naval_maintenance = -0.05
+    16: naval_morale = 0.25
+    17: naval_maintenance = -0.05
+    18: naval_morale = 0.5
+    19: naval_maintenance = -0.05
+    20: naval_morale = 0.5
+  
+Army Logistics:
+    0: land_morale = 2.0
+    1: supply_limit = 0.1
+    2: land_morale = 0.25
+    3: supply_limit = 0.1
+    4: land_morale = 0.25
+    5: supply_limit = 0.1
+    6: land_morale = 0.25
+    7: supply_limit = 0.1
+    8: land_morale = 0.25
+    9: supply_limit = 0.1
+    10: land_morale = 0.25
+    11: supply_limit = 0.1
+    12: land_morale = 0.25
+    13: supply_limit = 0.1
+    14: land_morale = 0.25
+    15: supply_limit = 0.1
+    16: land_morale = 0.25
+    17: supply_limit = 0.1
+    18: land_morale = 0.5
+    19: supply_limit = 0.1
+    20: land_morale = 0.5
+    
+Army Tactics:
+    0: 
+    1: combat_width = 2
+    2: combat_width = 2
+    3: combat_width = 2
+    4: combat_width = 2
+    5: military_tactics = 0.5
+    6: combat_width = 2
+    7: combat_width = 2
+    8: combat_width = 2
+    9: combat_width = 2
+    10: military_tactics = 0.5
+    11: combat_width = 2
+    12: combat_width = 2
+    13: combat_width = 2
+    14: combat_width = 2
+    15: military_tactics = 0.5
+    16: combat_width = 2
+    17: combat_width = 2
+    18: combat_width = 2
+    19: military_tactics = 0.5
+    20: military_tactics = 1
+    
+Infantry:
+    0: 
+    1: infantry_fire = 0.2
+    2: infantry_shock = 0.2
+    3: infantry_fire = 0.2
+    4: infantry_shock = 0.2
+    5: infantry_fire = 0.2
+    6: infantry_shock = 0.2
+    7: infantry_fire = 0.2
+    8: infantry_shock = 0.2
+    9: infantry_fire = 0.2
+    10: infantry_shock = 0.2
+    11: infantry_fire = 0.4
+    12: infantry_shock = 0.2
+    13: infantry_fire = 0.4
+    14: infantry_shock = 0.2
+    15: infantry_fire = 0.4
+    16: infantry_shock = 0.2
+    17: infantry_fire = 0.4
+    18: infantry_shock = 0.2
+    19: infantry_fire = 0.4
+    20: infantry_shock = 0.2
+    
+Cavalry:
+    0: 
+    1: cavalry_shock = 0.25
+    2: cavalry_fire = 0.1
+    3: cavalry_shock = 0.25
+    4: cavalry_fire = 0.1
+    5: maneuver_value = 0.25
+    6: cavalry_shock = 0.5
+    7: cavalry_fire = 0.1
+    8: cavalry_shock = 0.5
+    9: cavalry_fire = 0.1
+    10: maneuver_value = 0.25
+    11: cavalry_shock = 0.5
+    12: cavalry_fire = 0.1
+    13: cavalry_shock = 1
+    14: cavalry_fire = 0.1
+    15: maneuver_value = 0.25
+    16: cavalry_shock = 1
+    17: cavalry_fire = 0.2
+    18: cavalry_shock = 1
+    19: cavalry_fire = 0.2
+    20: maneuver_value = 0.25
+    
+Siege Weaponry:
+    0: 
+    1: artillery_fire = 0.5
+    2: artillery_shock = 0.1
+    3: artillery_fire = 0.5
+    4: artillery_shock = 0.1
+    5: artillery_fire = 0.5
+    6: artillery_shock = 0.1
+    7: artillery_fire = 0.5
+    8: artillery_shock = 0.1
+    9: artillery_fire = 0.5
+    10: artillery_shock = 0.1
+    11: artillery_fire = 0.5
+    12: artillery_shock = 0.1
+    13: artillery_fire = 0.5
+    14: artillery_shock = 0.1
+    15: artillery_fire = 0.5
+    16: artillery_shock = 0.1
+    17: artillery_fire = 0.5
+    18: artillery_shock = 0.1
+    19: artillery_fire = 0.5
+    20: artillery_shock = 0.1
+    
+Civic Infrastructure
+    0: 
+    1: wow_temple = yes
+    2: wow_market = yes
+    3: wow_town_hall = yes
+    4: wow_tavern = yes
+    5: wow_court = yes
+    6: wow_grand_market = yes
+    7: wow_grand_temple = yes
+    8: wow_well_kept_tavern = yes
+    9: wow_grand_town_hall = yes
+    10: wow_regional_court = yes
+    
+Industrial Infrastructure
+    0: 
+    1: wow_farm = yes
+    2: wow_dock = yes
+    3: wow_lumbermill = yes
+    4: wow_shipyard = yes
+    5: wow_mine = yes
+    6: wow_workshop = yes
+    7: wow_large_farm = yes
+    8: wow_drydock = yes
+    9: wow_large_lumbermill = yes
+    10: wow_grand_shipyard = yes
+    11: wow_large_mine = yes
+    12: wow_grand_workshop = yes
+    
+Military Infrastructure
+    0: 
+    1: wow_barracks = yes
+    2: wow_training_grounds = yes
+    3: wow_supply_depot = yes
+    4: wow_grand_barracks = yes
+    5: wow_grand_training_grounds = yes
+    6: wow_well_stocked_supply_depot = yes
+    
+Monuments:
+   0:
+   1: wow_unique_palace = yes
+   2: wow_naval_academy = yes
+   3: wow_military_academy = yes
+   4: wow_unique_grand_forge = yes
+   5: wow_unique_magic_tower = yes
+   6: wow_grand_monument = yes
+   7: wow_tomb_of_riches = yes
+   8: wow_unique_altar_of_power = yes
+   
+Fortification:
+    0: wow_fort_1 = yes
+    1: wow_fort_2 = yes
+    2: wow_fort_3 = yes
+    3: wow_fort_4 = yes
+    4: wow_unique_fortress = yes
+     
+Logistical Skills:
+    0: may_support_rebels = yes
+    1: may_force_march = yes
+   
+Trade Skills:
+    0: merchants = yes / allow_client_states = yes
+    1: may_slander_merchants = yes
+    2: reduced_naval_attrition = yes
+    3: may_steal_maps = yes
+    
+Espionage Skills:
+    0: may_fabricate_claims = yes
+    1: may_corrupt_officials = yes
+    2: may_study_technology = yes
+    3: may_sabotage_recruitment = yes
+    4: may_agitate_for_liberty = yes
+    5: may_infiltrate_administration = yes
+    6: may_sabotage_reputation = yes
+    7: may_sow_discontent = yes
+    
+Naval Units:
+    0: 
+        enable = w_cog
+        enable = w_galley
+        enable = w_barque
+        enable = w_carrack
+        
+Military Units:
+    0:  sprite_level = 1
+    # 1
+    
+    
+    # 2
+    
+    
+    # 3
+    

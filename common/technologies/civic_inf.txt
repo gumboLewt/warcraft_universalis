@@ -1,0 +1,58 @@
+monarch_power = ADM
+
+technology = {
+	year = 545
+	
+    
+}
+
+technology = {
+	year = 10000
+    
+    wow_temple = yes
+}
+technology = {
+	year = 10001
+    
+    wow_market = yes
+}
+technology = {
+	year = 10002
+    
+    wow_town_hall = yes
+}
+technology = {
+	year = 10003
+    
+    wow_tavern = yes
+}
+technology = {
+	year = 10004
+    
+    wow_court = yes
+}
+technology = {
+	year = 10005
+    
+    wow_grand_market = yes
+}
+technology = {
+	year = 10006
+    
+    wow_grand_temple = yes
+}
+technology = {
+	year = 10007
+    
+    wow_well_kept_tavern = yes
+}
+technology = {
+	year = 10008
+    
+    wow_grand_town_hall = yes
+}
+technology = {
+	year = 10009
+    
+    wow_regional_court = yes
+}

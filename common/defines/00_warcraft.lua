@@ -6,9 +6,14 @@ NDefines.NGame.START_DATE = "546.1.1"
 NDefines.NGame.END_DATE = "100000.1.1"
 NDefines.NGame.MAX_RANDOM_NEW_WORLD = "1000.1.1"
 
-NDefines.NCountry.PS_ADVANCE_TECH = 250
+NDefines.NCountry.PS_ADVANCE_TECH = 750
 NDefines.NCountry.PS_BUY_IDEA = 100
 
+NDefines.NCountry.IDEA_TO_TECH = 0 -- Tech overhaul
+NDefines.NCountry.TECH_TIME_COST = 0 -- Tech overhaul
+NDefines.NCountry.TECH_AHEAD_OF_TIME = 0 -- Tech overhaul
+NDefines.NCountry.POWER_MAX = 10000
+    
 NDefines.NDiplomacy.NUM_OF_GREAT_POWERS = 0
 
 NDefines.NReligion.ASPECT_ADD_COST = 100

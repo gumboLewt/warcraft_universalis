@@ -1,0 +1,108 @@
+monarch_power = MIL
+
+technology = {
+	year = 545
+	
+    land_morale = 2.0
+}
+
+technology = {
+	year = 10000
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10001
+    
+    land_morale = 0.25
+}
+technology = {
+	year = 10002
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10003
+    
+    land_morale = 0.25
+}
+technology = {
+	year = 10004
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10005
+    
+    land_morale = 0.25
+}
+technology = {
+	year = 10006
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10007
+    
+    land_morale = 0.25
+}
+technology = {
+	year = 10008
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10009
+    
+    land_morale = 0.25
+}
+technology = {
+	year = 10010
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10011
+    
+    land_morale = 0.25
+}
+technology = {
+	year = 10012
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10013
+    
+    land_morale = 0.25
+}
+technology = {
+	year = 10014
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10015
+    
+    land_morale = 0.25
+}
+technology = {
+	year = 10016
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10017
+    
+    land_morale = 0.5
+}
+technology = {
+	year = 10018
+    
+    supply_limit = 0.1
+}
+technology = {
+	year = 10019
+    
+    land_morale = 0.5
+}

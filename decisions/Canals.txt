@@ -15,12 +15,12 @@ country_decisions = {
 				NOT = { has_great_project = ula_tek_canal }
 				NOT = { has_construction = canal }
 			}
-			adm_tech = 2
+			civic_inf_tech = 1
 		}
 		allow = {
 			owns_or_vassal_of = 2214
 			is_subject = no			
-			adm_tech = 2
+			civic_inf_tech = 1
 			treasury = 5000
             2214 = { NOT = { has_province_flag = has_ula_tek_construction } }
 		}

@@ -1,0 +1,39 @@
+monarch_power = MIL
+
+technology = {
+	year = 545
+	
+    
+}
+
+technology = {
+	year = 10000
+    
+    wow_barracks = yes
+}
+technology = {
+	year = 10001
+    
+    wow_training_grounds = yes
+}
+technology = {
+	year = 10002
+    
+    wow_supply_depot = yes
+}
+technology = {
+	year = 10003
+    
+    wow_grand_barracks = yes
+}
+technology = {
+	year = 10004
+    
+    wow_grand_training_grounds = yes
+}
+technology = {
+	year = 10005
+    
+    wow_well_stocked_supply_depot = yes
+}
+

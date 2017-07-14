@@ -1,0 +1,108 @@
+monarch_power = MIL
+
+technology = {
+	year = 545
+	
+    
+}
+
+technology = {
+	year = 10000
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10001
+    
+    artillery_shock = 0.1
+}
+technology = {
+	year = 10002
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10003
+    
+    artillery_shock = 0.1
+}
+technology = {
+	year = 10004
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10005
+    
+    artillery_shock = 0.1
+}
+technology = {
+	year = 10006
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10007
+    
+    artillery_shock = 0.1
+}
+technology = {
+	year = 10008
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10009
+    
+    artillery_shock = 0.1
+}
+technology = {
+	year = 10010
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10011
+    
+    artillery_shock = 0.1
+}
+technology = {
+	year = 10012
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10013
+    
+    artillery_shock = 0.1
+}
+technology = {
+	year = 10014
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10015
+    
+    artillery_shock = 0.1
+}
+technology = {
+	year = 10016
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10017
+    
+    artillery_shock = 0.1
+}
+technology = {
+	year = 10018
+    
+    artillery_fire = 0.5
+}
+technology = {
+	year = 10019
+    
+    artillery_shock = 0.1
+}

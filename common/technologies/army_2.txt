@@ -1,0 +1,107 @@
+monarch_power = MIL
+
+technology = {
+	year = 545
+
+}
+
+technology = {
+	year = 10000
+    
+    combat_width = 3
+}
+technology = {
+	year = 10001
+    
+    military_tactics = 0.2
+}
+technology = {
+	year = 10002
+    
+    combat_width = 3
+}
+technology = {
+	year = 10003
+    
+    military_tactics = 0.2
+}
+technology = {
+	year = 10004
+    
+    combat_width = 3
+}
+technology = {
+	year = 10005
+    
+    military_tactics = 0.2
+}
+technology = {
+	year = 10006
+    
+    combat_width = 3
+}
+technology = {
+	year = 10007
+    
+    military_tactics = 0.2
+}
+technology = {
+	year = 10008
+    
+    combat_width = 3
+}
+technology = {
+	year = 10009
+    
+    military_tactics = 0.5
+}
+technology = {
+	year = 10010
+    
+    combat_width = 3
+}
+technology = {
+	year = 10011
+    
+    military_tactics = 0.2
+}
+technology = {
+	year = 10012
+    
+    combat_width = 3
+}
+technology = {
+	year = 10013
+    
+    military_tactics = 0.2
+}
+technology = {
+	year = 10014
+    
+    combat_width = 3
+}
+technology = {
+	year = 10015
+    
+    military_tactics = 0.2
+}
+technology = {
+	year = 10016
+    
+    combat_width = 3
+}
+technology = {
+	year = 10017
+    
+    military_tactics = 0.2
+}
+technology = {
+	year = 10018
+    
+    combat_width = 3
+}
+technology = {
+	year = 10019
+    
+    military_tactics = 0.2
+}

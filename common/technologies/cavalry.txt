@@ -1,0 +1,108 @@
+monarch_power = MIL
+
+technology = {
+	year = 545
+	
+    
+}
+
+technology = {
+	year = 10000
+    
+    cavalry_shock = 0.25
+}
+technology = {
+	year = 10001
+    
+    cavalry_fire = 0.1
+}
+technology = {
+	year = 10002
+    
+    cavalry_shock = 0.25
+}
+technology = {
+	year = 10003
+    
+    cavalry_fire = 0.1
+}
+technology = {
+	year = 10004
+    
+    maneuver_value = 0.25
+}
+technology = {
+	year = 10005
+    
+    cavalry_shock = 0.5
+}
+technology = {
+	year = 10006
+    
+    cavalry_fire = 0.1
+}
+technology = {
+	year = 10007
+    
+    cavalry_shock = 0.5
+}
+technology = {
+	year = 10008
+    
+    cavalry_fire = 0.1
+}
+technology = {
+	year = 10009
+    
+    maneuver_value = 0.25
+}
+technology = {
+	year = 10010
+    
+    cavalry_shock = 0.5
+}
+technology = {
+	year = 10011
+    
+    cavalry_fire = 0.1
+}
+technology = {
+	year = 10012
+    
+    cavalry_shock = 1
+}
+technology = {
+	year = 10013
+    
+    cavalry_fire = 0.1
+}
+technology = {
+	year = 10014
+    
+    maneuver_value = 0.25
+}
+technology = {
+	year = 10015
+    
+    cavalry_shock = 1
+}
+technology = {
+	year = 10016
+    
+    cavalry_fire = 0.2
+}
+technology = {
+	year = 10017
+    
+    cavalry_shock = 1
+}
+technology = {
+	year = 10018
+    
+    cavalry_fire = 0.2
+}
+technology = {
+	year = 10019
+    
+    maneuver_value = 0.25
+}

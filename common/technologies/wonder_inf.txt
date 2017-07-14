@@ -1,49 +1,55 @@
 monarch_power = ADM
 
-# 0
 technology = {
 	year = 545
 	
-    
 }
 
 technology = {
 	year = 10000
 	
-    allowed_idea_groups = 1
+    wow_unique_palace = yes
 }
+
 technology = {
 	year = 10001
 	
-    allowed_idea_groups = 2
+    wow_naval_academy = yes
 }
+
 technology = {
 	year = 10002
 	
-    allowed_idea_groups = 3
+    wow_military_academy = yes
 }
+
 technology = {
 	year = 10003
 	
-    allowed_idea_groups = 4
+    wow_unique_grand_forge = yes
 }
+
 technology = {
 	year = 10004
 	
-    allowed_idea_groups = 5
+    wow_unique_magic_tower = yes
 }
+
 technology = {
 	year = 10005
 	
-    allowed_idea_groups = 6
+    wow_grand_monument = yes
 }
+
 technology = {
 	year = 10006
 	
-    allowed_idea_groups = 7
+    wow_tomb_of_riches = yes
 }
+
 technology = {
 	year = 10007
 	
-    allowed_idea_groups = 8
+    wow_unique_altar_of_power = yes
 }
+

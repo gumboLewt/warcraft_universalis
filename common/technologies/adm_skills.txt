@@ -1,0 +1,14 @@
+monarch_power = ADM
+
+technology = {
+	year = 545
+	
+    may_support_rebels = yes
+}
+
+technology = {
+	year = 10000
+	
+    may_force_march = yes
+}
+
