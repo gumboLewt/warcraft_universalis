@@ -1311,7 +1311,7 @@ harpy_ideas = {
 dwarven_ideas = {
 	start = {
 		defensiveness = 0.33
-        fort_inf_tech_cost_modifier = -0.25
+        mil_tech_cost_modifier = -0.1
 	}
 
 	bonus = {

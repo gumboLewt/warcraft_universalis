@@ -283,49 +283,7 @@ groups = {
 }
 
 tables = {
-	adm_tech = "technologies/adm.txt" # Innovation
-    governance_tech = "technologies/governance.txt"
-    administration_tech = "technologies/administration.txt"
-    industry_tech = "technologies/industry.txt"
-    civic_inf_tech = "technologies/civic_inf.txt"
-    industrial_inf_tech = "technologies/industrial_inf.txt"
-    wonder_inf_tech = "technologies/wonder_inf.txt"
-    adm_skills_tech = "technologies/adm_skills.txt"
-    
-	dip_tech = "technologies/dip.txt" # Naval Units
-    colonisation_tech = "technologies/colonisation.txt"
-    trade_tech = "technologies/trade.txt"
-    navy_tech = "technologies/navy.txt"
-    dip_skills_tech = "technologies/dip_skills.txt"
-    spy_skills_tech = "technologies/spy_skills.txt" 
-    
-	mil_tech = "technologies/mil.txt" # Army Units
-    army_1_tech = "technologies/army_1.txt"
-    army_2_tech = "technologies/army_2.txt"
-    infantry_tech = "technologies/infantry.txt"
-    cavalry_tech = "technologies/cavalry.txt"
-    artillery_tech = "technologies/artillery.txt"
-    fort_inf_tech = "technologies/fort_inf.txt"
-    military_inf_tech = "technologies/military_inf.txt"
-    
-    # Generated modifiers:
-    # governance_tech_cost_modifier
-    # administration_tech_cost_modifier
-    # industry_tech_cost_modifier
-    # civic_inf_tech_cost_modifier
-    # industrial_inf_tech_cost_modifier
-    # wonder_inf_tech_cost_modifier
-    # adm_skills_tech_cost_modifier
-    # colonisation_tech_cost_modifier
-    # trade_tech_cost_modifier
-    # navy_tech_cost_modifier
-    # dip_skills_tech_cost_modifier
-    # spy_skills_tech_cost_modifier
-    # army_1_tech_cost_modifier
-    # army_2_tech_cost_modifier
-    # infantry_tech_cost_modifier
-    # cavalry_tech_cost_modifier
-    # artillery_tech_cost_modifier
-    # fort_inf_tech_cost_modifier
-    # military_inf_tech_cost_modifier
+	adm_tech = "technologies/adm.txt"
+	dip_tech = "technologies/dip.txt"
+	mil_tech = "technologies/mil.txt"
 }

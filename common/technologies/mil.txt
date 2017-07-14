@@ -1,11 +1,17 @@
 monarch_power = MIL
 
+ahead_of_time = {
+	army_tradition = 1
+}
+
 # 0
 technology = {
 	year = 545
 	
     sprite_level = 1
 	
+	land_morale 		= 2.0
+    
     enable = trebuchet
     # tech_troll
 	enable = troll_tribal                        #lvl1 infantry a,
@@ -209,10 +215,164 @@ technology = {
     enable = magnataur_stampers
     enable = magnataur_ironbellies
 }
-
+# 1
 technology = {
-	year = 10000
+	year = 555
+
+    wow_fort_1 = yes
+}
+# 2
+technology = {
+	year = 565
 	
+    land_morale 		= 0.5
+}
+# 3
+technology = {
+	year = 575
+	
+    infantry_fire = 0.25
+}
+# 4
+technology = {
+	year = 585
+	
+    wow_barracks = yes
+}
+# 5
+technology = {
+	year = 595
+	
+    cavalry_shock = 1
+    maneuver_value = 0.1
+}
+# 6
+technology = {
+	year = 605
+	
+    land_morale 		= 0.5
+}
+# 7
+technology = {
+	year = 615
+	
+    infantry_shock = 0.2
+}
+# 8
+technology = {
+	year = 625
+	
+    wow_training_grounds = yes
+    supply_limit = 0.25
+}
+# 9
+technology = {
+	year = 635
+	
+    wow_supply_depot = yes
+}
+# 10
+technology = {
+	year = 645
+	
+    artillery_fire = 1
+}
+# 11
+technology = {
+	year = 655
+	
+    artillery_shock = 0.1
+}
+# 12
+technology = {
+	year = 665
+	
+    wow_grand_barracks = yes
+}
+# 13
+technology = {
+	year = 675
+	
+    infantry_fire = 0.25
+}
+# 14
+technology = {
+	year = 685
+	
+    cavalry_fire = 0.1
+}
+# 15
+technology = {
+	year = 695
+	
+    cavalry_shock = 0.5
+    maneuver_value = 0.1
+}
+# 16
+technology = {
+	year = 705
+	
+    land_morale 		= 1
+    supply_limit = 0.25
+}
+# 17
+technology = {
+	year = 715
+	
+    infantry_shock = 0.2
+}
+# 18
+technology = {
+	year = 725
+	
+    wow_fort_2 = yes
+}
+# 19
+technology = {
+	year = 735
+	
+    wow_grand_training_grounds = yes
+}
+# 20
+technology = {
+	year = 745
+	
+    military_tactics = 1
+    artillery_fire = 0.5
+}
+# 21
+technology = {
+	year = 755
+	
+    artillery_shock = 0.1
+}
+# 22
+technology = {
+	year = 765
+	
+    land_morale 		= 0.5
+}
+# 23
+technology = {
+	year = 775
+	
+    infantry_fire = 0.25
+}
+# 24
+technology = {
+	year = 785
+	
+    cavalry_fire = 0.1
+    supply_limit = 0.25
+}
+# 25
+technology = {
+	year = 795
+	
+    military_tactics = 0.5
+    cavalry_shock = 0.5
+    maneuver_value = 0.1
+    
     # tech_thalassian
 	enable = bloodelf_ranger_cav
 	enable = bloodelf_flanker_cav
@@ -430,10 +590,166 @@ technology = {
     enable = magnataur_chargers
     enable = magnataur_steelbellies
 }
-
+# 26
 technology = {
-	year = 10001
+	year = 805
 	
+    wow_well_stocked_supply_depot = yes
+}
+# 27
+technology = {
+	year = 815
+	
+    infantry_shock = 0.2
+}
+# 28
+technology = {
+	year = 825
+	
+    wow_military_academy = yes
+}
+# 29
+technology = {
+	year = 835
+	
+    wow_fort_3 = yes
+}
+# 30
+technology = {
+	year = 845
+	
+    military_tactics = 0.5
+    artillery_fire = 0.5
+    supply_limit = 0.25
+    
+}
+# 31
+technology = {
+	year = 855
+	
+    combat_width = 5
+}
+# 32
+technology = {
+	year = 865
+	
+    wow_unique_fortress = yes
+}
+# 33
+technology = {
+	year = 875
+	
+    infantry_fire = 0.25
+}
+# 34
+technology = {
+	year = 885
+	
+    cavalry_fire = 0.2
+}
+# 35
+technology = {
+	year = 895
+	
+    cavalry_shock = 0.5
+    maneuver_value = 0.1
+}
+# 36
+technology = {
+	year = 905
+	
+    land_morale 		= 1
+    supply_limit = 0.25
+}
+# 37
+technology = {
+	year = 915
+	
+    infantry_shock = 0.2
+}
+# 38
+technology = {
+	year = 925
+	
+    wow_unique_altar_of_power = yes
+}
+# 39
+technology = {
+	year = 935
+	
+    wow_fort_4 = yes
+}
+# 40
+technology = {
+	year = 945
+	
+    artillery_fire = 1
+    
+    combat_width = 5
+}
+# 41
+technology = {
+	year = 955
+	
+    artillery_shock = 0.1
+}
+# 42
+technology = {
+	year = 965
+	
+    land_morale 		= 0.5
+    supply_limit = 0.25
+}
+# 43
+technology = {
+	year = 975
+	
+    infantry_fire = 0.5
+}
+# 44
+technology = {
+	year = 985
+	
+    cavalry_fire = 0.2
+}
+# 45
+technology = {
+	year = 995
+	
+    cavalry_shock = 0.5
+    maneuver_value = 0.1
+}
+# 46
+technology = {
+	year = 1005
+	
+    military_tactics = 0.25
+}
+# 47
+technology = {
+	year = 1015
+	
+    infantry_shock = 0.2
+}
+# 48
+technology = {
+	year = 1025
+	
+    military_tactics = 0.25
+    supply_limit = 0.25
+}
+# 49
+technology = {
+	year = 1035
+	
+    maneuver_value = 0.1
+}
+# 50
+technology = {
+	year = 1045
+	
+    artillery_fire = 1
+    
     # tech_troll
 	enable = troll_berserker                     #lvl3 infantry a,
 	enable = troll_warmonger                     #lvl3 infantry b,
@@ -650,4 +966,305 @@ technology = {
     
     enable = magnataur_champions
     enable = magnataur_rune_wielders
+}
+# 51
+technology = {
+	year = 1055
+	
+    artillery_shock = 0.1
+}
+# 52
+technology = {
+	year = 1065
+	
+    military_tactics = 0.25
+}
+# 53
+technology = {
+	year = 1075
+	
+    infantry_fire = 0.5
+}
+# 54
+technology = {
+	year = 1085
+	
+    cavalry_fire = 0.2
+    supply_limit = 0.25
+}
+# 55
+technology = {
+	year = 1095
+	
+    cavalry_shock = 1
+}
+# 56
+technology = {
+	year = 1105
+	
+    land_morale 		= 1
+}
+# 57
+technology = {
+	year = 1115
+	
+    infantry_shock = 0.5
+}
+# 58
+technology = {
+	year = 1125
+	
+    military_tactics = 0.25
+    supply_limit = 0.25
+}
+# 59
+technology = {
+	year = 1135
+	
+    maneuver_value = 0.1
+}
+# 60
+technology = {
+	year = 1145
+	
+    artillery_fire = 1
+    combat_width = 5
+}
+# 61
+technology = {
+	year = 1155
+	
+    artillery_shock = 0.1
+}
+# 62
+technology = {
+	year = 1165
+	
+    land_morale 		= 0.5
+}
+# 63
+technology = {
+	year = 1175
+	
+    infantry_fire = 1
+}
+# 64
+technology = {
+	year = 1185
+	
+    cavalry_fire = 0.2
+    supply_limit = 0.25
+}
+# 65
+technology = {
+	year = 1195
+	
+    cavalry_shock = 1
+}
+# 66
+technology = {
+	year = 1205
+	
+    military_tactics = 0.25
+}
+# 67
+technology = {
+	year = 1215
+	
+    infantry_shock = 0.5
+}
+# 68
+technology = {
+	year = 1225
+	
+    maneuver_value = 0.1
+}
+# 69
+technology = {
+	year = 1235
+	
+    military_tactics = 0.25
+}
+# 70
+technology = {
+	year = 1245
+	
+    supply_limit = 0.25
+    combat_width = 5
+}
+# 71
+technology = {
+	year = 1255
+	
+}
+# 72
+technology = {
+	year = 1265
+	
+    military_tactics = 0.25
+}
+# 73
+technology = {
+	year = 1275
+	
+    maneuver_value = 0.05
+}
+# 74
+technology = {
+	year = 1285
+	
+    supply_limit = 0.25
+}
+# 75
+technology = {
+	year = 1295
+	
+    military_tactics = 0.25
+}
+# 76
+technology = {
+	year = 1305
+	
+    land_morale 		= 1
+}
+# 77
+technology = {
+	year = 1315
+	
+    maneuver_value = 0.05
+}
+# 78
+technology = {
+	year = 1325
+	
+    supply_limit = 0.25
+}
+# 79
+technology = {
+	year = 1335
+	
+}
+# 80
+technology = {
+	year = 1345
+	
+    military_tactics = 1
+    combat_width = 5
+}
+# 81
+technology = {
+	year = 1355
+	
+    supply_limit = 0.25
+}
+# 82
+technology = {
+	year = 1365
+	
+    land_morale 		= 0.5
+}
+# 83
+technology = {
+	year = 1375
+	
+    maneuver_value = 0.05
+}
+# 84
+technology = {
+	year = 1385
+	
+    supply_limit = 0.25
+}
+# 85
+technology = {
+	year = 1395
+	
+    military_tactics = 0.5
+}
+# 86
+technology = {
+	year = 1405
+	
+    supply_limit = 0.25
+}
+# 87
+technology = {
+	year = 1415
+	
+    maneuver_value = 0.05
+}
+# 88
+technology = {
+	year = 1425
+	
+    supply_limit = 0.25
+}
+# 89
+technology = {
+	year = 1435
+	
+    supply_limit = 0.25
+}
+# 90
+technology = {
+	year = 1445
+	
+    military_tactics = 0.5
+    combat_width = 5
+}
+# 91
+technology = {
+	year = 1455
+	
+    supply_limit = 0.25
+}
+# 92
+technology = {
+	year = 1465
+	
+    supply_limit = 0.25
+}
+# 93
+technology = {
+	year = 1475
+	
+    supply_limit = 0.25
+}
+# 94
+technology = {
+	year = 1485
+	
+    supply_limit = 0.25
+}
+# 95
+technology = {
+	year = 1495
+	
+    military_tactics = 0.5
+    combat_width = 10
+}
+# 96
+technology = {
+	year = 1505
+	
+    land_morale 		= 1
+}
+# 97
+technology = {
+	year = 1515
+	
+    supply_limit = 0.25
+}
+# 98
+technology = {
+	year = 1525
+	
+    supply_limit = 0.25
+}
+# 99
+technology = {
+	year = 1535
+	
+    military_tactics = 1
+    combat_width = 10
 }

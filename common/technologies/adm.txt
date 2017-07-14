@@ -1,49 +1,645 @@
 monarch_power = ADM
 
+ahead_of_time = {
+	production_efficiency 	=	0.2
+    yearly_corruption       = -0.05
+}
+
 # 0
 technology = {
 	year = 545
 	
-    
+    may_support_rebels = yes
 }
-
+# 1
 technology = {
-	year = 10000
+	year = 555
 	
+    religious_tribe = yes
+}
+# 2
+technology = {
+	year = 565
+	
+    administrative_kingdom = yes
+    administrative_republic = yes
+    
+    wow_farm = yes
+}
+# 3
+technology = {
+	year = 575
+	
+    administrative_theocracy = yes
+    administrative_order = yes
+    
     allowed_idea_groups = 1
 }
+# 4
 technology = {
-	year = 10001
+	year = 585
+	
+    mercantile_kingdom = yes
+    mercantile_republic = yes
+    
+    production_efficiency 	=	0.025
+}
+# 5
+technology = {
+	year = 595
+	
+    mercantile_theocracy = yes
+    mercantile_order = yes
+    
+    wow_lumbermill = yes
+}
+# 6
+technology = {
+	year = 605
 	
     allowed_idea_groups = 2
+    mercantile_tribe = yes
 }
+# 7
 technology = {
-	year = 10002
+	year = 615
+	
+    militaristic_kingdom = yes
+    militaristic_republic = yes
+    
+    production_efficiency 	=	0.025
+}
+# 8
+technology = {
+	year = 625
+	
+    militaristic_theocracy = yes
+    militaristic_order = yes
+
+    wow_mine = yes
+}
+# 9
+technology = {
+	year = 635
 	
     allowed_idea_groups = 3
+    war_tribe = yes
 }
+# 10
 technology = {
-	year = 10003
+	year = 645
+	
+    max_states = 5
+}
+# 11
+technology = {
+	year = 655
+	
+    wow_temple = yes
+    production_efficiency 	=	0.025
+}
+# 12
+technology = {
+	year = 665
 	
     allowed_idea_groups = 4
+    production_efficiency 	=	0.025
 }
+# 13
 technology = {
-	year = 10004
+	year = 675
+	
+    production_efficiency 	=	0.025
+}
+# 14
+technology = {
+	year = 685
+	
+    wow_town_hall = yes
+    
+}
+# 15
+technology = {
+	year = 695
+	
+    max_states = 5
+}
+# 16
+technology = {
+	year = 705
+	
+    wow_large_farm = yes
+    production_efficiency 	=	0.025
+}
+# 17
+technology = {
+	year = 715
+	
+    wow_court = yes
+}
+# 18
+technology = {
+	year = 725
+	
+    may_force_march = yes
+    production_efficiency 	=	0.025
+}
+# 19
+technology = {
+	year = 735
+	
+    wow_large_lumbermill = yes
+    production_efficiency 	=	0.025
+}
+# 20
+technology = {
+	year = 745
 	
     allowed_idea_groups = 5
+    max_states = 5
+    wow_unique_magic_tower = yes
 }
+# 21
 technology = {
-	year = 10005
+	year = 755
+	
+    production_efficiency 	=	0.025
+}
+# 22
+technology = {
+	year = 765
+	
+    wow_large_mine = yes
+    production_efficiency 	=	0.025
+}
+# 23
+technology = {
+	year = 775
+	
+    production_efficiency 	=	0.025
+}
+# 24
+technology = {
+	year = 785
+	
+    production_efficiency 	=	0.025
+}
+# 25
+technology = {
+	year = 795
 	
     allowed_idea_groups = 6
+    max_states = 5
 }
+# 26
 technology = {
-	year = 10006
+	year = 805
+	
+    wow_grand_temple = yes
+    production_efficiency 	=	0.025
+}
+# 27
+technology = {
+	year = 815
+	
+    wow_grand_town_hall = yes
+    production_efficiency 	=	0.025
+}
+# 28
+technology = {
+	year = 825
+	
+    wow_regional_court = yes
+    production_efficiency 	=	0.025
+}
+# 29
+technology = {
+	year = 835
+
+    production_efficiency 	=	0.025
+}
+# 30
+technology = {
+	year = 845
 	
     allowed_idea_groups = 7
+    max_states = 5
+    wow_unique_grand_forge = yes
 }
+# 31
 technology = {
-	year = 10007
+	year = 855
+	
+    
+    production_efficiency 	=	0.025
+}
+# 32
+technology = {
+	year = 865
+	
+    production_efficiency 	=	0.025
+}
+# 33
+technology = {
+	year = 875
+
+	production_efficiency 	=	0.025
+}
+# 34
+technology = {
+	year = 885
+	
+    production_efficiency 	=	0.025
+}
+# 35
+technology = {
+	year = 895
+	
+    wow_unique_palace = yes
+    max_states = 5
+}
+# 36
+technology = {
+	year = 905
+	
+    production_efficiency 	=	0.025
+}
+# 37
+technology = {
+	year = 915
+	
+    production_efficiency 	=	0.025
+}
+# 38
+technology = {
+	year = 925
+	
+    production_efficiency 	=	0.025
+}
+# 39
+technology = {
+	year = 935
+	
+    production_efficiency 	=	0.025
+}
+# 40
+technology = {
+	year = 945
 	
     allowed_idea_groups = 8
+    max_states = 5
+}
+# 41
+technology = {
+	year = 955
+	
+    production_efficiency 	=	0.05
+}
+# 42
+technology = {
+	year = 965
+	
+    production_efficiency 	=	0.05
+}
+# 43
+technology = {
+	year = 975
+	
+    production_efficiency 	=	0.05
+}
+# 44
+technology = {
+	year = 985
+	
+    production_efficiency 	=	0.05
+}
+# 45
+technology = {
+	year = 995
+	
+    max_states = 5
+}
+# 46
+technology = {
+	year = 1005
+	
+    production_efficiency 	=	0.05
+}
+# 47
+technology = {
+	year = 1015
+	
+    production_efficiency 	=	0.05
+}
+# 48
+technology = {
+	year = 1025
+	
+    production_efficiency 	=	0.05
+}
+# 49
+technology = {
+	year = 1035
+	
+    production_efficiency 	=	0.05
+}
+# 50
+technology = {
+	year = 1045
+	
+    max_states = 5
+}
+# 51
+technology = {
+	year = 1055
+	
+    administrative_efficiency = 0.05
+}
+# 52
+technology = {
+	year = 1065
+	
+    development_efficiency = 0.05
+}
+# 53
+technology = {
+	year = 1075
+	
+    administrative_efficiency = 0.05
+}
+# 54
+technology = {
+	year = 1085
+	
+    development_efficiency = 0.05
+}
+# 55
+technology = {
+	year = 1095
+	
+    max_states = 5
+}
+# 56
+technology = {
+	year = 1105
+	
+    administrative_efficiency = 0.05
+}
+# 57
+technology = {
+	year = 1115
+	
+    development_efficiency = 0.05
+}
+# 58
+technology = {
+	year = 1125
+	
+    administrative_efficiency = 0.05
+}
+# 59
+technology = {
+	year = 1135
+	
+    development_efficiency = 0.05
+}
+# 60
+technology = {
+	year = 1145
+	
+    max_states = 5
+}
+# 61
+technology = {
+	year = 1155
+	
+    administrative_efficiency = 0.05
+}
+# 62
+technology = {
+	year = 1165
+	
+    development_efficiency = 0.05
+}
+# 63
+technology = {
+	year = 1175
+	
+    administrative_efficiency = 0.05
+}
+# 64
+technology = {
+	year = 1185
+	
+    development_efficiency = 0.05
+}
+# 65
+technology = {
+	year = 1195
+	
+    max_states = 5
+}
+# 66
+technology = {
+	year = 1205
+	
+    administrative_efficiency = 0.05
+}
+# 67
+technology = {
+	year = 1215
+	
+    development_efficiency = 0.05
+}
+# 68
+technology = {
+	year = 1225
+	
+    administrative_efficiency = 0.05
+}
+# 69
+technology = {
+	year = 1235
+	
+    development_efficiency = 0.05
+}
+# 70
+technology = {
+	year = 1245
+	
+    max_states = 5
+}
+# 71
+technology = {
+	year = 1255
+	
+    administrative_efficiency = 0.05
+}
+# 72
+technology = {
+	year = 1265
+	
+    development_efficiency = 0.05
+}
+# 73
+technology = {
+	year = 1275
+	
+    administrative_efficiency = 0.05
+}
+# 74
+technology = {
+	year = 1285
+	
+    development_efficiency = 0.05
+}
+# 75
+technology = {
+	year = 1295
+	
+    max_states = 5
+}
+# 76
+technology = {
+	year = 1305
+	
+    administrative_efficiency = 0.05
+}
+# 77
+technology = {
+	year = 1315
+	
+    development_efficiency = 0.05
+}
+# 78
+technology = {
+	year = 1325
+	
+    administrative_efficiency = 0.05
+}
+# 79
+technology = {
+	year = 1335
+	
+    development_efficiency = 0.05
+}
+# 80
+technology = {
+	year = 1345
+	
+    max_states = 5
+}
+# 81
+technology = {
+	year = 1355
+	
+    administrative_efficiency = 0.05
+}
+# 82
+technology = {
+	year = 1365
+	
+    development_efficiency = 0.05
+}
+# 83
+technology = {
+	year = 1375
+	
+    administrative_efficiency = 0.05
+}
+# 84
+technology = {
+	year = 1385
+	
+    development_efficiency = 0.05
+}
+# 85
+technology = {
+	year = 1395
+	
+    max_states = 5
+}
+# 86
+technology = {
+	year = 1405
+	
+    administrative_efficiency = 0.05
+}
+# 87
+technology = {
+	year = 1415
+	
+    development_efficiency = 0.05
+}
+# 88
+technology = {
+	year = 1425
+	
+    administrative_efficiency = 0.05
+}
+# 89
+technology = {
+	year = 1435
+	
+    development_efficiency = 0.05
+}
+# 90
+technology = {
+	year = 1445
+	
+    max_states = 5
+}
+# 91
+technology = {
+	year = 1455
+	
+    administrative_efficiency = 0.05
+    development_efficiency = 0.05
+}
+# 92
+technology = {
+	year = 1465
+	administrative_efficiency = 0.05
+}
+# 93
+technology = {
+	year = 1475
+	
+    administrative_efficiency = 0.05
+    development_efficiency = 0.05
+}
+# 94
+technology = {
+	year = 1485
+	administrative_efficiency = 0.05
+}
+# 95
+technology = {
+	year = 1495
+	
+    max_states = 5
+}
+# 96
+technology = {
+	year = 1505
+	
+    development_efficiency = 0.05
+}
+# 97
+technology = {
+	year = 1515
+	
+    development_efficiency = 0.05
+}
+# 98
+technology = {
+	year = 1525
+	
+    max_states = 5
+}
+# 99
+technology = {
+	year = 1535
+	
+    max_states = 5
 }

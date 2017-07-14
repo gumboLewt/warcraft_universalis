@@ -2,10 +2,10 @@
  #-----------------------------------
  # Missions
  #-----------------------------------
- triple_alliance_title: "Allegiances"
+ triple_alliance_title: "Form New Allegiances"
  triple_alliance_desc: "The list of our allies grows short. Without probing some of our potential allies, we may find ourselves with no what so ever."
  
- win_the_affections_of_the_people_title: "Devotion of the People"
+ win_the_affections_of_the_people_title: "Win the affections of the People"
  win_the_affections_of_the_people_desc: "Our people are cautious folk, and many have distanced themselves from the [Root.Monarch.GetTitle] over the years. Let us bring these folk back into the fold, and win their favour."
  
  remove_unrest_title: "Reduce Unrest"
@@ -59,7 +59,7 @@
  conquer_kul_tiras_title: "Conquer Kul Tiras"
  conquer_kul_tiras_desc: "The inhabitants of Kul Tiras are opposed to us in every way. Let us teach them what it means to be a conqueror!"
  
- conquer_zul_dare_title: ""
+ conquer_zul_dare_title: "Conquer Zul'Dare"
  conquer_zul_dare_desc: "The inhabitants of the Burning Steppes are opposed to us in every way. Let us teach them what it means to be a conqueror!"
  
  conquer_tol_barad_title: "Conquer Tol Barad"
