@@ -1,89 +1,3 @@
-Alright. I've been working since I woke up a few hours ago on my first draft of base ideas that can be added. Noting too difficult, just a series of decisions for the Eastern Kingdoms. With something this big, and with this many different nations, you're going to need to handle it one Continent at a time. I decided to go for the Eastern Kingdom, because of how fractured it is, and also contains the largest amount of Humans, which would have the most decisions.
-
-What I did is separate each of the kingdoms into their race, then build off each race with default decisions, and then added special ones to specific groups.
-
-Eastern Kingdom Decisions
-
-NOTICE: All Tagswitches will, of course, require specific cored lands, OR a base amount of development controlled by the nation, maybe BOTH, depending on the nation. Also, Technology restrictions are entirely up to the devs, so I did not include tech level requirement in them. ALSO. I ONLY go off the base bookmark. I know there are more tags on other bookmarks, but honestly, I think that one bookmark should be focused on before more are created. For me, I want the full campaign.
-
-First off is the hardest and most populated of all the races at the original bookmark. Trolls.
-(Jellyneck, Revantusk, Firetree, Smolderthorn, Vilebranch, Witherbark, Shadowglen, Mossflayer, Amani, Shadowpine, Atal'ai, Shatterspear, Bloodscalp, Skullsplitter, Winterax, Frostmane, Hakkari)
-
-    Troll Base Decisions
-    Initiate Geurilla Warfare (100 Mil Cost, +5% Army Morale, +5% Infantry Combat)
-    Enforce Loa Worship (+1% Missionary Strength)
-    Summon the Loa (Summons a 6/6/6/4 General, Costs Admin and Mil)
-    War on the Old Gods (Permanent Relations debuff with Old God following countries, -1 Unrest)
-
-    Amani Trolls (Jellyneck, Revantusk, Firetree, Smolderthorn, Vilebranch, Witherbark, Shadowglen, Mossflayer, Amani, Shadowpine)
-    Reform the Amani Empire (Empire Rank Amani Empire Tagswitch)
-
-    Gurubashi Trolls (Atal'ai, Shatterspear, Bloodscalp, Skullsplitter)
-    Reunite the Gurubashi Empire (Empire Rank Gurubashi Empire Tagswitch)
-
-    Drakkari Trolls (Winterax, Frostmane)
-    Remake the Drakkari Empire (Empire Rank Drakkari Empire Tagswitch)
-
-    Rebel Trolls (Hakkari)
-    Form the Empire of Hakkar (Empire Rank Empire of Hakkar Tagswitch)
-    Summon the Blood God (Requires Zul'Gurub, Summons a 6/6/6/4 General)
-    Alliance with the Old Gods (Switches Religion to Old Gods, +10% Tax Modifier)
-    Blood Worship (+3% Missionary Strength)
-    Sacrifice Prisoners (+5% Infantry Combat Ability, -5% Army Morale)
-
-
-With the Trolls (The most numerous Eastern Kingdom Race) out of the way, we then go to the Murlocs.
-(Saltscale, Redgill, Murkgill, Marshfin, Bluegill, Torn Fin, Vile Fin)
-
-    Murloc Base Decisions
-    Form the Murloc Union (Empire Rank Murloc Union Tagswitch)
-    Embrace Shamanism (Changes Religion to Shamanism)
-    Embrace Magic (50 Admin Cost, +5% Infantry Combat Ability)
-    Gather Treasure (Permanent +0.5 Tax Income)
-    Organize Murloc Forces (50 Mil and 50 Admin Cost, +10% Manpower Modifier)
-    Call a Gmmmlmmmrrmrmrmgrg! (100 Mil Cost, +5% Army Morale)
-
-
-Murlocs are simple, since they don't have much beyond their basics. Next are the Gnolls.
-(Riverpaw, Redridge Gnolls, Shadowhide, Mosshide, Woodpaw, Wildpaw, Mudsnout, Blackpaw)
-
-    Gnoll Base Decisions
-    Form the Grand Pack (Empire Rank Grand Pack Tagswitch)
-    Curb Infighting (150 Admin Cost, +5% Army Morale, +2.5% Discipline)
-    Study Magic (100 Dip Cost, +5% Army Morale)
-    Trade for Weapons (100 Dip Cost, +2.5% Infantry Combat Ability)
-    Call for an Alpha Trial (Permanent +1 General Shock Pip)
-
-
-Next up are everyone's favorite little candle-loving maniacs, the lovely little Kobolds. Didn't have too many ideas for them, but at least had a few.
-(Goldtooth, Tunnel Rat, Whitewhisker)
-
-    Kobold Base Decisions
-    Unite the Candles! (Empire Rank Candleborn Tagswitch)
-    Collect Shinies! (Permanent +0.5 Tax Income)
-    Protect Candle Devotion (+2% Missionary Strength)
-
-
-Next are the Elves. There's only one group of elves in the Eastern Kingdoms, so I just will call them "High Elf Decisions".
-(Quel-Thelas)
-
-    High Elf Base Decisions
-    Reunite the Elves! (Requires Night Elf lands, Empire Rank Highborn Empire Tagswitch)
-    Drink from the Sunwell (50 Admin Cost, +1/1/1 stats to leader)
-    Forest Protection Act (+10% Army Movement Speed)
-    Create the Three Gates (+25% Land Defensiveness)
-
-
-Next are the most difficult ones, Humans. It took me a while, considering each human group is so fundamentally different, but I managed to figure out good decisions in the end.
-(Darkshire, Westfall, Stormwind, Redridge, Kul Tiras, Stromgarde, Gilneas, Lordaeron, Alterac, Ravenholdt)
-
-    Darkshire Decisions
-    Form Stormwind (Only if Stormwind is destroyed, tagswitches to Stormwind)
-    Purge Act (50 Admin Cost, -10% Culture Change Cost)
-    Worgen Elimination Act (50 Admin Cost, +5% Army Morale)
-    Call for Isolationism (100 Admin Cost, Relations penalty to all bordering nations, +1.0 Tax Income)
-    Hire the Veiled Blade (-500 ducats, +5% Discipline)
-
     Westfall Decisions
     Form Stormwind (Only if Stormwind is destroyed, tagswitches to Stormwind)
     Enact Production Quotas (+10% Production Efficiency)
@@ -100,6 +14,7 @@ Next are the most difficult ones, Humans. It took me a while, considering each h
     Form the House of Nobles (50 Admin Cost, -10% Development Cost)
     Purge Gnoll Bandits (-1 Unrest)
     Create the Stormwind Fleet (+10% Sea Morale)
+    
     Redridge Decisions
     Form Stormwind (Only if Stormwind is destroyed, tagswitches to Stormwind)
     Enact Fishing Regulations (+10% Production Efficiency)
@@ -112,6 +27,7 @@ Next are the most difficult ones, Humans. It took me a while, considering each h
     Pledge Maritime Control (100 Mil Cost, +10% Sea Force Limit)
     Purge Piracy (50 Mil Cost, +5% Production Efficiency)
     Rule of the Seas (50 Mil Cost, +5% GLobal Trade Power)
+    
     Stromgarde Decisions
     Reform Arathor (Empire Rank Arathor Tagswitch, requires owning Stormwind, Capital City, and Stromgarde)
     The Strength of Strom (100 Admin Cost, Creates 4 units of infantry and 1 unit of Cavalry at Stromgarde)
@@ -124,6 +40,7 @@ Next are the most difficult ones, Humans. It took me a while, considering each h
     Purge Worgen (-1 Unrest, +5% Infantry Combat Ability)
     Embrace Druidism (Changes religion to Druidism, +2% Missionary Strength)
     Build the Great Wall (+50% Land Defensiveness)
+    
     Lordaeron Decisions
     Reform Arathor (Empire Rank Arathor Tagswitch, requires owning Stormwind, Capital City, and Stromgarde)
     Create the Undercity (200 Ducat Cost, +2 to every Development type in Capital)
@@ -133,8 +50,8 @@ Next are the most difficult ones, Humans. It took me a while, considering each h
     Alterac Decisions
     Reform Arathor (Empire Rank Arathor Tagswitch, requires owning Stormwind, Capital City, and Stromgarde)
     Form the Syndicate (Kingdom Rank Syndicate Tagswitch)
-    Play the Political Climate (Relations penalty with all allies, +5% Production Efficiency)
-
+    Conduct Alpine Training
+    
     Raveholdt Decisions
     Form the Syndicate (Kingdom Rank Syndicate Tagswitch)
     Blood and Dagger Edict (+1 Unrest, +5% Inantry combat Ability, +5% Cavalry Combat Ability)
@@ -152,6 +69,7 @@ Whew, that was nuts, wasn't it? All those human kingdoms, each having their own 
     Medivh's Collection (Magic) (-2 Unrest, +15% Production Efficiency, +0.10 Goods Produced, +10% Trade Efficiency)
     Summon Medivh (Replaces ruler with a 6/6/6 Medivh with Craven, Conqueror, and Indulgent Traits)
     Create the Runic Golems (90 Ducat Cost, Creates 3 Infantry at Kharazan without the cost of manpower, repeatable)
+    
     Dalaran Decisions
     Create the Kirin Tor (-1 Unrest)
     Create the Tirisgarde (+10% Infantry Combat Ability)
