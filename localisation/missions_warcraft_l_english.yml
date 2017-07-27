@@ -9,7 +9,7 @@
  win_the_affections_of_the_people_desc: "Our people are cautious folk, and many have distanced themselves from the [Root.Monarch.GetTitle] over the years. Let us bring these folk back into the fold, and win their favour."
  
  remove_unrest_title: "Reduce Unrest"
- remove_unrest_desc: "Our people are restless, and they ache for conflict. Let us persuade them otherwise, and reap the stability that enshews."
+ remove_unrest_desc: "Our people are restless, and they ache for conflict. Let us persuade them otherwise, and reap the stability that eschews."
  
  unified_religion_title: "Unify Worship"
  unified_religion_desc: "Many of our provinces worship heretical or heathen pantheons, many directly opposing the teachings of our own. Let us 'assimilate' these worshippers, unifying worship across [Root.GetName]."
@@ -106,7 +106,7 @@
  desc_the_peoples_favour: "We have won over our people, and they serve us without question."
  
  peaceful_folk: "Peaceful Folk"
- desc_peaceful_folk: "Our people are restful, and scarce think of rebellion in such a peaceful state."
+ desc_peaceful_folk: "Our people are restful and scarce think of rebellion in such a peaceful state."
  
  the_right_worship: "Worshipping our Way"
  desc_the_right_worship: "The inhabitants of this province have been convinced of the validity of $COUNTRY_RELIGION$."

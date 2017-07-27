@@ -6,10 +6,10 @@
  desc_artifact_system_active: "We are currently seeking an artifact."
  
  stromkar_the_warbreaker: "Strom'kar, the Warbreaker"
- desc_stromkar_the_warbreaker: "We possess this artifact."
+ desc_stromkar_the_warbreaker: "We possess this artefact."
  
  restored_stromgarde: "Stromgarde Restored!"
- desc_restored_stromgarde: "We have restored Stromgarde to it's former glory."
+ desc_restored_stromgarde: "We have restored Stromgarde to its former glory."
  
  blood_of_mannaroth_event: ""
  desc_blood_of_mannaroth_event: ""
@@ -88,7 +88,7 @@
  desc_gift_of_fate: "Our nation is fated to be powerful and strong."
  
  wrath_of_fate: "Wrath of Fate"
- desc_wrath_of_fate: "Our nation is in decline, and without major changes we will stay on the path to failure."
+ desc_wrath_of_fate: "Our nation is in decline, and without major changes, we will stay on the path to failure."
  
  unleashed_the_power_of_the_dragonflight: "Unleash the Power of the Dragonflight"
  desc_unleashed_the_power_of_the_dragonflight: "We have roused the guardians of our various provinces, and they have dealt with the assailants."
@@ -121,7 +121,7 @@
  desc_kings_grasp: "Our grip over our subjects is unbreakable!"
  
  roaming_orcs: "Roaming Orcs"
- desc_roaming_orcs: "A contigent of orcs are roaming the lands in this province."
+ desc_roaming_orcs: "A contingent of orcs are roaming the lands in this province."
  
  #------------------------------------------------
  # Province
@@ -145,10 +145,10 @@
  desc_kaja_mite: "The mineral that bestowed intelligence upon the goblins."
  
  aggressive_marketing: "Aggressive Marketing"
- desc_aggressive_marketing: "We are collaborating with other goblin leaders to push our competitiors out of the market."
+ desc_aggressive_marketing: "We are collaborating with other goblin leaders to push our competitors out of the market."
  
  illicit_connections: "Illicit Connections"
- desc_illicit_connections: "The black market is a haven for cheap goods. Their origins are not questioned however."
+ desc_illicit_connections: "The black market is a haven for cheap goods. Their origins are not questioned, however."
  
  blackmailed_labourers: "Blackmailed Labourers"
  desc_blackmailed_labourers: "A labourer once threatened works far more effectively."
@@ -199,7 +199,7 @@
  desc_conducting_blood_worship: "Let us worship Hakkar, the Blood God, and offer him the blood sacrifices he desires."
  
  sacrificed_prisoners: "Sacrificed Prisoners"
- desc_sacrificed_prisoners: "We have sacrificed our prisoners of war to strength our own warriors."
+ desc_sacrificed_prisoners: "We have sacrificed our prisoners of war to strengthen our own warriors."
  
  #------------------------------------------------
  # Murloc

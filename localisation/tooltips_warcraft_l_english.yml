@@ -15,11 +15,11 @@
  
  AZEROTHIAN_ALLIANCE_FALTERS: "The Azerothian alliance falters..."
  AZEROTHIAN_ALLIANCE_RALLIES: "The Azerothian alliance rallies!"
- STORMWIND_IS_OVERRUN: "Stormwind is overrun, and it's people scattered to the north."
+ STORMWIND_IS_OVERRUN: "Stormwind is overrun, and its people scattered to the north."
  DARK_PORTAL_IS_CLOSED: "The Dark Portal is closed, and the orcish hordes trapped on Azeroth."
  
- WOW_TROLL_CONDEMNED_THE_OLD_GODS: "We have condemned the Olds Gods, and as such we many not interact with [From.GetName] in this way."
- WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS: "We have been condemned by [From.GetName], and as such we many not interact with [From.Root] in this way."
+ WOW_TROLL_CONDEMNED_THE_OLD_GODS: "We have condemned the Olds Gods, and as such we may not interact with [From.GetName] in this way."
+ WOW_OLD_GOD_CONDEMNED_THE_OLD_GODS: "We have been condemned by [From.GetName], and as such we may not interact with [From.Root] in this way."
  
  OLD_GOD_INTERACTION_RESTRICTED: "Our interactions with nations who worship the Old Gods will be restricted."
  

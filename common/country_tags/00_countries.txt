@@ -3,6 +3,8 @@ REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
+# Do not use the following prefixs: C, E, D, K, O
+
 # Human
 A01 = "countries/Stormwind.txt"			
 A02 = "countries/Westfall.txt"
@@ -239,17 +241,29 @@ A98 = "countries/Silithid.txt"
 P74 = "countries/AzjolNerub.txt"
 
 # Dragonkin
-A99 = "countries/Black Dragonflight.txt"
-B01 = "countries/Blue Dragonflight.txt"
 B02 = "countries/Bronze Dragonflight.txt"
-B03 = "countries/Red Dragonflight.txt"
-B04 = "countries/Green Dragonflight.txt"
 B05 = "countries/Netherwing Dragonflight.txt"   # Missing flag
 B06 = "countries/Twilight Dragonflight.txt"     # Missing flag
 B07 = "countries/Infinite Dragonflight.txt"     # Missing flag
 F78 = "countries/Wyrmcult.txt"                  # Missing flag
 
-V01 = "countries/Red Dragonflight.txt" # Eastern Kingdoms
+# Red Dragonflight
+J01 = "countries/Red Dragonflight.txt" # Wyrmrest Temple
+B03 = "countries/Red Dragonflight.txt" # Grim Batol
+
+# Green Dragonflight
+B04 = "countries/Green Dragonflight.txt" # Twilight Grove
+J02 = "countries/Green Dragonflight.txt" # Splinterspear Grove
+J03 = "countries/Green Dragonflight.txt" # Seradane
+# Emerald Dragonshrine
+# Dream Bough
+
+# Black Dragonflight
+A99 = "countries/Black Dragonflight.txt"
+
+# Blue Dragonflight
+B01 = "countries/Blue Dragonflight.txt" # The Nexus
+# Azure Dragonshrine
 
 # Vrykul
 B08 = "countries/Dragonflayer.txt"
@@ -387,7 +401,8 @@ F79 = "countries/Grishna.txt"
 B85 = "countries/Dark Conclave.txt" #culture_ghost tech_arrakoa (Draenor Old God Cultist Ghosts)
 
 # Tuskarr
-B81 = "countries/Kaluak.txt"
+B81 = "countries/Kaluak.txt" # Kamagua
+# Kaskala 
 B82 = "countries/Moaki.txt" # Could be merged with Kaluak, but should at least be vassal.
 
 # Old God
@@ -579,7 +594,6 @@ U07 = "countries/Murloc Horde.txt"
 U08 = "countries/The Grand Pack.txt"
 U09 = "countries/Candleborn.txt"
 U10 = "countries/Highborne Empire.txt"
-
 
 # Cultural Formables
 #Amani Empire (FOREST TROLL)

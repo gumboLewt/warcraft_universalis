@@ -10,9 +10,9 @@
  war_dynamism.2.option.c: "Burn [From.GetName] down!"
  
  war_dynamism.11.title: "Claim over [From.GetName]"
- war_dynamism.11.desc: "We have siezed the administative quarters of [From.GetName] and are poised to claim this land as our own."
+ war_dynamism.11.desc: "We have seized the administrative quarters of [From.GetName] and are poised to claim this land as our own."
  war_dynamism.11.option.a: "Handle it with a peace treaty"
- war_dynamism.11.option.b: "Sieze it immediately"
+ war_dynamism.11.option.b: "Seize it immediately"
  
  war_dynamism.3.title: ""
  war_dynamism.3.desc: ""

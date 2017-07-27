@@ -13,11 +13,11 @@
  rise_of_the_horde.2.option.b: "Reject his guidance"
  
  rise_of_the_horde.3.title: "Doubts of Ner'zhul"
- rise_of_the_horde.3.desc: "Doubts have crept into Ner'zhul's mind. His vision of Rulkan is wrong, and he can no longer trust her spirit without question.\n\nAnd so, Ner'zhul journied to Oshu'gun, where he discovered the true spirit of Rulkan and realised the deception pulled on him.\n\nGul'dan in turn has been aiding Kil'jaeden, and has turned the shaman Teron'gor against the elements. With an apprentice of his own, Teron'gor will lead the Shadowmoon clan were Ner'zhul failed."
+ rise_of_the_horde.3.desc: "Doubts have crept into Ner'zhul's mind. His vision of Rulkan is wrong, and he can no longer trust her spirit without question.\n\nAnd so, Ner'zhul journeyed to Oshu'gun, where he discovered the true spirit of Rulkan and realised the deception pulled on him.\n\nGul'dan, in turn, has been aiding Kil'jaeden, and has turned the shaman Teron'gor against the elements. With an apprentice of his own, Teron'gor will lead the Shadowmoon clan where Ner'zhul failed."
  rise_of_the_horde.3.option.a: "Arise Teron'gor"
  
  rise_of_the_horde.4.title: "The First Warlocks"
- rise_of_the_horde.4.desc: "Eager to prove himself to Kil'jaeden, Gul'dan has named Blackhand as warcheif of the Orcish Horde, and has begun corrupting the shamanistic practices of the orcs, teaching them to forbidden arts of necromancy and demonology."
+ rise_of_the_horde.4.desc: "Eager to prove himself to Kil'jaeden, Gul'dan has named Blackhand as war chief of the Orcish Horde, and has begun corrupting the shamanistic practices of the orcs, teaching them to forbidden arts of necromancy and demonology."
  rise_of_the_horde.4.option.a: "Accept Gul'dan's teachings"
  rise_of_the_horde.4.option.b: "Reject Gul'dan's teachings"
  
@@ -26,7 +26,7 @@
  rise_of_the_horde.5.option.a: "Mwuhahaha!"
  
  rise_of_the_horde.6.title: "The Assault on Shattrath"
- rise_of_the_horde.6.desc: "The orc clans have destroyed our cities, and they have finalled reached the jewel of the Draenei civilisation. The city will hold for now, but the power of Gul'dan cannot be underestimated."
+ rise_of_the_horde.6.desc: "The orc clans have destroyed our cities, and they have finally reached the jewel of the Draenei civilisation. The city will hold for now, but the power of Gul'dan cannot be underestimated."
  rise_of_the_horde.6.option.a: "Krona ki cristorr!"
     
  rise_of_the_horde.7.title: "The Blood of Mannoroth"
@@ -35,12 +35,12 @@
  rise_of_the_horde.7.option.b: "Reject the demonsblood"
  
  rise_of_the_horde.8.title: "The Dying Time"
- rise_of_the_horde.8.desc: "Gul'dan has been abandoned by his master Kil'jaeden. Without direction, our clan members become listless, and ache for war. Infighting will occur until Gul'dan restores order."
+ rise_of_the_horde.8.desc: "Gul'dan has been abandoned by his master Kil'jaeden. Without direction, our clan members become listless and ache for war. Infighting will occur until Gul'dan restores order."
  rise_of_the_horde.8.option.a: "War!"
  
  rise_of_the_horde.9.title: "Contact with Medivh"
  rise_of_the_horde.9.desc: "Medivh, possessed by the corrupted titan Sargeras, has contacted Gul'dan, promising the orc clans power and glory in the lands of Azeroth. He has suggested that the Shadow Council should work on constructing a Dark Portal to teleport the Orcish Horde from Draenor to Azeroth."
- rise_of_the_horde.9.option.a: "Begin construction posthaste!"
+ rise_of_the_horde.9.option.a: "Begin construction post haste!"
  rise_of_the_horde.9.option.b: "Begin construction!"
  
  rise_of_the_horde.10.title: "Passage through the Dark Portal"
@@ -48,7 +48,7 @@
  rise_of_the_horde.10.option.a: "March onwards!"
  
  rise_of_the_horde.11.title: "Passage through the Dark Portal"
- rise_of_the_horde.11.desc: "Although Gul'dan had promised us glory if we pass through the Dark Portal, the fall of the Shadowmoon clan slowed progress considerable. Have, those whom learnt under him have continued work on the Dark Portal. Let us conquer the lands on the other side and be one of the first clans to set foot on Azeroth."
+ rise_of_the_horde.11.desc: "Although Gul'dan had promised us glory if we pass through the Dark Portal, the fall of the Shadowmoon clan slowed progress considerably. Have, those who learnt under him have continued work on the Dark Portal. Let us conquer the lands on the other side and be one of the first clans to set foot on Azeroth."
  rise_of_the_horde.11.option.a: "March onwards!"
  
  #-----------------------------------------------
@@ -82,7 +82,7 @@
  # Artifacts
  #-----------------------------------------------
  wow_artifacts.1.title: "The Sword of Kings"
- wow_artifacts.1.desc: "Our ruler, [Root.Monarch.GetTitle] [Root.Monarch.GetName] has set off to seek the legendary artifact known as Strom'kar, the Warbreaker. Their trip will take them to Tirisfal Glade, where they will search the Tomb of Tyr for the artifact. Whether they are successful or not is yet to be seen."
+ wow_artifacts.1.desc: "Our ruler, [Root.Monarch.GetTitle] [Root.Monarch.GetName] has set off to seek the legendary artefact known as Strom'kar, the Warbreaker. Their trip will take them to Tirisfal Glade, where they will search the Tomb of Tyr for the artefact. Whether they are successful or not is yet to be seen."
  wow_artifacts.1.option.a: "Our people wait..."
 
  wow_artifacts.2.title: "Strom'kar, the Warbreaker!"
@@ -141,17 +141,17 @@
  # Outland
  #-----------------------------------------------
  wow_outland.1.title: "Dubious Dealings with Coilscar"
- wow_outland.1.desc: "Our foes gather there strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause, if only for their own gain, to better ourselves and our situation."
+ wow_outland.1.desc: "Our foes gather their strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause if only for their own gain, to better ourselves and our situation."
  wow_outland.1.option.a: "Make a pact"
  wow_outland.1.option.b: "Remain alone"
  
  wow_outland.2.title: "Dubious Dealings with Sunfury"
- wow_outland.2.desc: "Our foes gather there strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause, if only for their own gain, to better ourselves and our situation."
+ wow_outland.2.desc: "Our foes gather their strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause if only for their own gain, to better ourselves and our situation."
  wow_outland.2.option.a: "Make a pact"
  wow_outland.2.option.b: "Remain alone"
  
  wow_outland.3.title: "Dubious Dealings with Illidari"
- wow_outland.3.desc: "Our foes gather there strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause, if only for their own gain, to better ourselves and our situation."
+ wow_outland.3.desc: "Our foes gather their strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause if only for their own gain, to better ourselves and our situation."
  wow_outland.3.option.a: "Make a pact"
  wow_outland.3.option.b: "Remain alone"
  
@@ -179,13 +179,13 @@
  building_events.3.option.b: "Invest in other projects"
  
  building_events.4.title: "Rich Veins found in [Root.GetName]"
- building_events.4.desc: "Miners in [Root.GetName] are reporting the discovery of rich veins of ore in their province. It would be wise to take advantage of this, before others do so."
+ building_events.4.desc: "Miners in [Root.GetName] are reporting the discovery of rich veins of ore in their province. It would be wise to take advantage of this before others do so."
  building_events.4.option.a: "Build a mine"
  building_events.4.option.b: "Encourage productivity in other areas"
  
  building_events.5.title: "Excellent trees in [Root.GetName]"
- building_events.5.desc: "The peasants of [Root.GetName] have fully explored their local forests, and have found that many parts of the forest are home to excellent quality lumber. It would be wise to take advantage of this, before others do so."
- building_events.5.option.a: "Build a lumbermill"
+ building_events.5.desc: "The peasants of [Root.GetName] have fully explored their local forests, and have found that many parts of the forest are home to excellent quality lumber. It would be wise to take advantage of this before others do so."
+ building_events.5.option.a: "Build a lumber mill"
  building_events.5.option.b: "Encourage productivity in other areas"
  
  building_events.6.title: "Verdant farmland in [Root.GetName]"
@@ -303,7 +303,7 @@
  story.2.option.a: "They will be purged!"
  
  story.3.title: "The True Horde Rises"
- story.3.desc: "The Horde has finally settled their debts and calmed their greviences. Let the True Horde arise!"
+ story.3.desc: "The Horde has finally settled their debts and calmed their grievances. Let the True Horde arise!"
  story.3.option.a: "Arise!"
 
  #-----------------------------------------------
@@ -353,7 +353,7 @@
  wow_overextension.3.option.a: "They are overreacting as always!"
  
  wow_overextension.4.title: "Inflation"
- wow_overextension.4.desc: "The state of constant war has eroded our economy and now inflation is spiraling out of control!"
+ wow_overextension.4.desc: "The state of constant war has eroded our economy and now inflation is spiralling out of control!"
  wow_overextension.4.option.a: "Try minting more coins!"
  
  wow_overextension.5.title: "Commanders Deserting"
@@ -377,7 +377,7 @@
  wow_overextension.9.option.a: "I can do whatever they did myself!"
  
  wow_overextension.10.title: "Advisor Resigns"
- wow_overextension.10.desc: "Horrified by our ceaseless conquest, a notable court adviser has retried, citing that he tires of war."
+ wow_overextension.10.desc: "Horrified by our ceaseless conquest, a notable court adviser has retired, citing that he tires of war."
  wow_overextension.10.option.a: "Typical naysayer... Good riddance!"
  
  #-----------------------------------------------
@@ -394,7 +394,7 @@
  #-----------------------------------------------
  # Disasters
  #-----------------------------------------------
- clergy_estate_disasters.1.t:0 "A Soverign Clergy"
+ clergy_estate_disasters.1.t:0 "A Sovereign Clergy"
  clergy_estate_disasters.1.d:0 "After a long period of increasing power in [Root.GetName] the clergy has completely seized control of the government.  The state has been fundamentally altered; now it must reign in a nation plunging into chaos."
  clergy_estate_disasters.1.a:0 "Our faith will preserve us"
  
@@ -407,7 +407,7 @@
  clergy_estate_disasters.3.a:0 "May our theocracy never fall!"
  
  commoners_estate_disasters.1.t:0 "Populist Revolution"
- commoners_estate_disasters.1.d:0 "Populists and demagogues have finally succeed in turning [Root.GetName] towards a more traditional form of government.  This was not accomplished easily, however, and now strife and unrest spread throughout our country."
+ commoners_estate_disasters.1.d:0 "Populists and demagogues have finally succeeded in turning [Root.GetName] towards a more traditional form of government.  This was not accomplished easily, however, and now strife and unrest spread throughout our country."
  commoners_estate_disasters.1.a:0 "They will serve the state ... or be crushed beneath it!"
  
  commoners_estate_disasters.2.t:0 "Sedition and Strife"
@@ -419,11 +419,11 @@
  commoners_estate_disasters.3.a:0 "Wonderful!  Perhaps it's time for a foreign venture?"
  
  merchants_estate_disasters.1.t:0 "Traders and Traitors"
- merchants_estate_disasters.1.d:0 "Money is power in [Root.GetName] and our merchants have taken advantage of this.  Having already assumed almost ever position of governance the merchant classes have institued a republic.  Not everyone in our country approves"
+ merchants_estate_disasters.1.d:0 "Money is power in [Root.GetName] and our merchants have taken advantage of this.  Having already assumed almost every position of governance the merchant classes have instituted a republic.  Not everyone in our country approves"
  merchants_estate_disasters.1.a:0 "Perhaps we can buy the dissenters off?"
  
  merchants_estate_disasters.2.t:0 "Merchant Mutiny"
- merchants_estate_disasters.2.d:0 "Money is power in [Root.GetName] and many merchants are using their power to take the our money.  If our nation is to survive we'll need to regain control of the national purse."
+ merchants_estate_disasters.2.d:0 "Money is power in [Root.GetName] and many merchants are using their power to take our money.  If our nation is to survive we'll need to regain control of the national purse."
  merchants_estate_disasters.2.a:0 "A fine Undermine drama"
  
  merchants_estate_disasters.3.t:0 "Profitable Peace"
@@ -431,7 +431,7 @@
  merchants_estate_disasters.3.a:0 "Let's celebrate and buy something nice"
  
  nobility_estate_disasters.1.t:0 "The Nobility Seize Power"
- nobility_estate_disasters.1.d:0 "It is no secret that the nobility of [Root.GetName] prefer a monarchy, and after some time they have succeed in creating one. The opposition is up in arms"
+ nobility_estate_disasters.1.d:0 "It is no secret that the nobility of [Root.GetName] prefer a monarchy, and after some time they have succeeded in creating one. The opposition is up in arms"
  nobility_estate_disasters.1.a:0 "Long live the $MONARCHTITLE$!"
  
  nobility_estate_disasters.2.t:0 "The Nobility Disrespect Power"
@@ -479,7 +479,7 @@
  WOW_COUNCIL.1.option.b:0 "I will ensure our realm's prosperity"
  WOW_COUNCIL.1.option.c:0 "I will protect a neighbouring realm"
  WOW_COUNCIL.1.option.d:0 "I will forge an alliance with a neighbouring realm"
- WOW_COUNCIL.1.option.e:0 "I will support an royal marriage with a neighbouring realm"
+ WOW_COUNCIL.1.option.e:0 "I will support a royal marriage with a neighbouring realm"
  WOW_COUNCIL.1.option.g:0 "I will ignore their requests"
  
  WOW_COUNCIL.2.title:0 "Failure!"
@@ -577,7 +577,7 @@
  pandaren_empire.11.option.a: "Good!"
  
  pandaren_empire.12.title: "In Defense of the Empire!"
- pandaren_empire.12.desc: "The Emperor has rushed to the defense of $FROMCOUNTRY$ against foreign aggression!"
+ pandaren_empire.12.desc: "The Emperor has rushed to the defence of $FROMCOUNTRY$ against foreign aggression!"
  pandaren_empire.12.option.a: "Naturally!"
  
  pandaren_empire.14.title: "Dishonorable Emperor"
@@ -590,28 +590,28 @@
  
  # Reforms
  repair_and_restore_pandaria_title: "Repair and Restore Pandaria"
- repair_and_restore_pandaria_desc: "After the Pandaren campagin the land of Pandaria has suffered greatly. We must aim to rebuild and recover the land as it once was before the foreigners invaded and invoked the Sha to attack our land."
+ repair_and_restore_pandaria_desc: "After the Pandaren campaign the land of Pandaria has suffered greatly. We must aim to rebuild and recover the land as it once was before the foreigners invaded and invoked the Sha to attack our land."
  
  establish_embassies_of_the_empire_title: "Establish Embassies of the Empire"
- establish_embassies_of_the_empire_desc: "As protectors of the Pandaren Empire, we should seek to negotiate with the rest of the world on the behalf of all its members. This will increase our world influence while preventing panic due to news of forigen troubles in the members states."
+ establish_embassies_of_the_empire_desc: "As protectors of the Pandaren Empire, we should seek to negotiate with the rest of the world on the behalf of all its members. This will increase our world influence while preventing panic due to news of foreign troubles in the member states."
  
  honour_the_legacy_of_shaohao_title: "Honour the Legacy of Shaohao"
- honour_the_legacy_of_shaohao_desc: "We should remember the time when Shaohao ruled and brought Pandaria into its most proporous era. We should honour him, as he has honoured us with allowing us to rule ourselves freely and seek to reclaim the Pandaren land as it was in his lifetime."
+ honour_the_legacy_of_shaohao_desc: "We should remember the time when Shaohao ruled and brought Pandaria into its most prosperous era. We should honour him, as he has honoured us with allowing us to rule ourselves freely and seek to reclaim the Pandaren land as it was in his lifetime."
  
  respect_the_legacy_of_eternal_peace_title: "Respect the Legacy of Eternal Peace"
- respect_the_legacy_of_eternal_peace_desc: "Since the first sundering the Pandaren Empire remained at peace for millenia until the mists parted. We should seek to return to those peaceful times."
+ respect_the_legacy_of_eternal_peace_desc: "Since the first sundering the Pandaren Empire remained at peace for millennia until the mists parted. We should seek to return to those peaceful times."
  
  proclaim_the_last_protector_of_pandaria_title: "Proclaim the Last Protector of Pandaria"
- proclaim_the_last_protector_of_pandaria_desc: "As Shaohao became one with Pandaria to become the last emperor, we must seek to become the last protectors, so that there may be no protector of Pandaria after us. This will surly only bring peace and prosperity to the land as it did when Shaohao merged with Pandaria."
+ proclaim_the_last_protector_of_pandaria_desc: "As Shaohao became one with Pandaria to become the last emperor, we must seek to become the last protectors, so that there may be no protector of Pandaria after us. This will surely only bring peace and prosperity to the land as it did when Shaohao merged with Pandaria."
  
  end_leaderless_rule_title: "End Leaderless Rule"
- end_leaderless_rule_desc: "We should proclaim ourselves as not only protectors but leaders of Pandaria. This will allow us to enact a more efficient protective rule that is more benefical to the people of Pandaria, allowing us to deal quickly and swiftly with outside threats towards the Pandaren Empire."
+ end_leaderless_rule_desc: "We should proclaim ourselves as not only protectors but leaders of Pandaria. This will allow us to enact a more efficient protective rule that is more beneficial to the people of Pandaria, allowing us to deal quickly and swiftly with outside threats towards the Pandaren Empire."
  
  restore_the_pandaren_empire_title: "Restore the Pandaren Empire"
- restore_the_pandaren_empire_desc: "Times have changed since the mist parted, we must change with it. While Shaohao was the last emperor after the mists formed we must declare a new one now they have parted. This will benefit all members of the empire now that we are united under a new authority allowing us to deal with the uncertainity of the outside world beyond our lands more quickly and safely than before."
+ restore_the_pandaren_empire_desc: "Times have changed since the mist parted, we must change with it. While Shaohao was the last emperor after the mists formed we must declare a new one now they have parted. This will benefit all members of the empire now that we are united under a new authority allowing us to deal with the uncertainty of the outside world beyond our lands more quickly and safely than before."
  
  free_core.1.title: "Expeditionary Force"
- free_core.1.desc: "Our expeditionary force in a distant land has finally seized land from the natives. As hardy men an women, they'll be able to act as a hub for our communications immediately."
+ free_core.1.desc: "Our expeditionary force in a distant land has finally seized land from the natives. As hardy men and women, they'll be able to act as a hub for our communications immediately."
  free_core.1.option.a: "Great!"
  
  #-----------------------------------------------

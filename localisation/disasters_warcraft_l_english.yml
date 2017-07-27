@@ -3,10 +3,10 @@
  # Disasters
  #-----------------------------------
  estate_major_clergy_disaster: "Clergy Coup"
- estate_major_clergy_disaster_desc: "The clergy of our nation have grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to institue destabilizing, theocratic reforms."
+ estate_major_clergy_disaster_desc: "The clergy of our nation has grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to institute destabilizing, theocratic reforms."
 
  estate_minor_clergy_disaster: "Independent Clergy"
- estate_minor_clergy_disaster_desc: "The clergy of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
+ estate_minor_clergy_disaster_desc: "The clergy of our nation has grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
 
  estate_major_commoners_disaster: "Populist Coup"
  estate_major_commoners_disaster_desc: "Populists and demagogues have grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to force our nation back to its traditional governing structure."
@@ -15,18 +15,18 @@
  estate_minor_commoners_disaster_desc: "The common classes of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
 
  estate_major_merchants_disaster: "Merchant Coup"
- estate_major_merchants_disaster_desc: "The merchants of our nation have grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to institue destabilizing, republican reforms."
+ estate_major_merchants_disaster_desc: "The merchants of our nation have grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to institute destabilizing, republican reforms."
 
  estate_minor_merchants_disaster: "Independent Merchants"
  estate_minor_merchants_disaster_desc: "The merchants of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
 
  estate_major_nobility_disaster: "Noble Coup"
- estate_major_nobility_disaster_desc: "The nobility of our nation have grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to institue destabilizing, monarchical reforms."
+ estate_major_nobility_disaster_desc: "The nobility of our nation has grown so powerful as to assume de facto control over our country. Rumor spreads that they plan to institute destabilizing, monarchical reforms."
 
  estate_minor_nobility_disaster: "Independent Nobility"
- estate_minor_nobility_disaster_desc: "The nobility of our nation have grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
+ estate_minor_nobility_disaster_desc: "The nobility of our nation has grown so powerful as to assume de facto control over our country. They now ignore the government's rule."
 
- estate_major_tribes_disaster: "Tribal Desertment"
+ estate_major_tribes_disaster: "Tribal Department"
  estate_major_tribes_disaster_desc: "Various tribal elements of our nation have grown so powerful as to ignore our government's rule.  Rumor spreads they plan on leaving our country entirely."
 
  estate_major_the_legion_disaster: "Demonic Corruption"

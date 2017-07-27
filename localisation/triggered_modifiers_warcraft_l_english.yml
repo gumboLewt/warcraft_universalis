@@ -17,7 +17,7 @@
  argent_crusade_weakness: "Argent Crusade Weakness"
  desc_argent_crusade_weakness: "The citizens of our realm are far and few between. We will struggle to fill our manpower pool and will most likely have to resort to mercenaries."
  
- military_dictat_weakness: "Military Dictatiorship Weakness"
+ military_dictat_weakness: "Military Dictatorship Weakness"
  desc_military_dictat_weakness: "The citizens of our realm are far and few between. We will struggle to fill our manpower pool and will most likely have to resort to mercenaries."
  
  scarlet_crusade_weakness: "Scarlet Crusade Weakness"
@@ -30,10 +30,10 @@
  desc_power_of_the_sunwell: "A source of unimaginable arcane energies, the Sunwell bestows our people with unfathomable power, as well as sating their arcane desires."
  
  loss_of_the_sunwell: "Loss of the Sunwell"
- desc_loss_of_the_sunwell: "A source of unimaginable arcane energies, the Sunwell granted our people with unfathomable power and satifised their arcane desires. Without it, we are weakened, and our people lethargic."
+ desc_loss_of_the_sunwell: "A source of unimaginable arcane energies, the Sunwell granted our people with unfathomable power and satisfied their arcane desires. Without it, we are weakened, and our people lethargic."
  
  power_of_the_dragons: "Power of the Dragons"
- desc_power_of_the_dragons: "The dragonflights are powerful entities on Azeroth, and others know to fear thier presence."
+ desc_power_of_the_dragons: "The dragonflights are powerful entities on Azeroth, and others know to fear their presence."
  
  fear_of_stromkar: "Fear of Strom'kar"
  fear_of_stromkar_desc: "Trolls fear Strom'kar, and will flee whenever it is sighted."

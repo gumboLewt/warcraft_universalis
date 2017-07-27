@@ -38,16 +38,16 @@
  desc_battles_leave_alone: "We are automatically leaving the land we conquer alone."
  
  battles_direct_control_unrest: "Disorder"
- desc_battles_direct_control_unrest: "By taking direct control of this province, it's inhabitants have become angered and resist our dominion over them."
+ desc_battles_direct_control_unrest: "By taking direct control of this province, its inhabitants have become angered and resist our dominion over them."
  
  battles_slash_and_burn_unrest: "Disorder"
- desc_battles_slash_and_burn_unrest: "By slashing and burning this province, it's inhabitants have become angered and resist our dominion over them."
+ desc_battles_slash_and_burn_unrest: "By slashing and burning this province, its inhabitants have become angered and resist our dominion over them."
  
  battles_raise_the_dead_unrest: "Disorder"
- desc_battles_raise_the_dead_unrest_unrest: "By taking raising the dead in this province, it's inhabitants have become angered and resist our dominion over them."
+ desc_battles_raise_the_dead_unrest_unrest: "By taking raising the dead in this province, its inhabitants have become angered and resist our dominion over them."
  
  battles_reclaimed: "Reclaimed"
- desc_battles_reclaimed: "We have reclaimed our province from an savage enemy."
+ desc_battles_reclaimed: "We have reclaimed our province from a savage enemy."
  
  battles_capital_control: "Capital Control"
  desc_battles_capital_control: "We control our enemies capital. They will capitulate to almost any demand."
