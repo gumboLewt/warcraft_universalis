@@ -1,16 +1,16 @@
 # 1455 - Mudsprocket.txt
 is_city = yes
 
-owner = A99
-controller = A99
-add_core = A99
+owner = A85
+controller = A85
+add_core = A85
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_black
-religion = religion_old_gods
+culture = culture_grimtotem
+religion = religion_ancestral
 
 trade_goods = fish
 hre = no

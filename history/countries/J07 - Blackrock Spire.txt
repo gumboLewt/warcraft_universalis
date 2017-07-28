@@ -1,0 +1,17 @@
+# Black Dragonflight
+government 			= dragonflight_gov
+mercantilism 		= 10
+technology_group 	= tech_dragonkin
+religion			= religion_sect_of_dragons
+primary_culture 	= culture_black
+capital 			= 3057
+
+546.1.1 = {
+    monarch = {
+    name = "Victor"
+    dynasty = "Nefarius"
+		adm = 6
+		dip = 6
+		mil = 6
+ 	}
+}

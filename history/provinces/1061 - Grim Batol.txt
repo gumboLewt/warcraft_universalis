@@ -1,9 +1,8 @@
 # 1061 - Grim Batol.txt
 is_city = yes
-
-owner = B03
-controller = B03
-add_core = B03
+owner = J01
+controller = J01
+add_core = J01
 
 base_tax = 6
 base_production = 6

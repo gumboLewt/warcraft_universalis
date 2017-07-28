@@ -1,16 +1,16 @@
 # 1454 - The Wyrmbog.txt
 is_city = yes
 
-owner = A99
-controller = A99
-add_core = A99
+owner = J08
+controller = J08
+add_core = J08
 
-base_tax = 3
-base_production = 3
-base_manpower = 4
+base_tax = 5
+base_production = 5
+base_manpower = 5
 
 culture = culture_black
-religion = religion_old_gods
+religion = religion_sect_of_dragons
 
 trade_goods = flying_mounts
 hre = no
@@ -19,5 +19,5 @@ hre = no
     is_city = no
     owner = XXX
     controller = XXX
-    remove_core = A99
+    remove_core = J08
 }

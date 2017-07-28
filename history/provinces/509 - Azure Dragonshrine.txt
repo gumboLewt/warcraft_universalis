@@ -1,9 +1,9 @@
 # 509 - Azure Dragonshrine.txt
 is_city = yes
 
-owner = B01
-controller = B01
-add_core = B01
+owner = J06
+controller = J06
+add_core = J06
 
 base_tax = 4
 base_production = 4

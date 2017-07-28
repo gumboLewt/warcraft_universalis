@@ -1,24 +1,16 @@
 # 1976 - Lethlor Ravine.txt
-is_city = yes
+is_city = no
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
-owner = A99
-controller = A99
-add_core = A99
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
-
-culture = culture_black
-religion = religion_old_gods
+culture = culture_trogg
+religion = religion_geomancy
 
 trade_goods = flying_mounts
 hre = no
 
-976.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    culture = culture_trogg
-    religion = religion_geomancy
-}

@@ -1,16 +1,15 @@
 # 545 - Obsidian Dragonshrine.txt
 is_city = yes
+owner = J09
+controller = J09
+add_core = J09
 
-owner = A99
-controller = A99
-add_core = A99
-
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 culture = culture_black
-religion = religion_old_gods
+religion = religion_sect_of_dragons
 
 trade_goods = flying_mounts
 hre = no

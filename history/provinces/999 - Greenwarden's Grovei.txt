@@ -1,16 +1,16 @@
 # 999 - Greenwarden's Grovei.txt
 is_city = yes
 
-owner = A99
-controller = A99
-add_core = A99
+owner = J10
+controller = J10
+add_core = J10
 
 base_tax = 3
 base_production = 3
-base_manpower = 3
+base_manpower = 4
 
 culture = culture_black
-religion = religion_old_gods
+religion = religion_sect_of_dragons
 
 trade_goods = lumber
 hre = no

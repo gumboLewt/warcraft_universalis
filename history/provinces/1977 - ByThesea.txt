@@ -1,6 +1,8 @@
 # 1977 - ByThesea.txt
-is_city = yes
-
+is_city = no
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 base_tax = 4
 base_production = 4
@@ -13,10 +15,10 @@ trade_goods = naval_supplies
 hre = no
 
 971.1.1 = {
-owner = A80
-controller = A80
-add_core = A80
-culture = culture_steamwheedle
-religion = religion_tech
+    owner = A80
+    controller = A80
+    add_core = A80
+    culture = culture_steamwheedle
+    religion = religion_tech
 }
 

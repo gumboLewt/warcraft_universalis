@@ -1,19 +1,26 @@
 # 982 - Wyrmrest Temple.txt
-is_city = yes
+is_city = no
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
-owner = B03
-controller = B03
-add_core = B03
-
-base_tax = 5
-base_production = 5
-base_manpower = 5
+base_tax = 6
+base_production = 6
+base_manpower = 6
 
 culture = culture_red
 religion = religion_sect_of_dragons
 
 trade_goods = flying_mounts
 hre = no
+
+946.1.1 = {
+    culture = culture_red
+    religion = religion_sect_of_dragons
+    owner = B03
+    controller = B03
+    add_core = B03
+}
 
 971.1.1 = {
     culture = culture_red
@@ -29,9 +36,6 @@ hre = no
     owner = B03
     controller = B03
     add_core = B03
-    base_tax = 3
-    base_manpower = 3
-    base_production = 3
 }
 
 

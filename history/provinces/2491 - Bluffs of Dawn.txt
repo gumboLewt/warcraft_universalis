@@ -1,9 +1,8 @@
 # 2491 - Bluffs of Dawn.txt
-is_city = yes
-
-owner = A77
-controller = A77
-add_core = A77
+is_city = no
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 base_tax = 1
 base_production = 1

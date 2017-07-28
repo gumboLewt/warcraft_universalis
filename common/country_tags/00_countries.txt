@@ -248,22 +248,26 @@ B07 = "countries/Infinite Dragonflight.txt"     # Missing flag
 F78 = "countries/Wyrmcult.txt"                  # Missing flag
 
 # Red Dragonflight
-J01 = "countries/Red Dragonflight.txt" # Wyrmrest Temple
-B03 = "countries/Red Dragonflight.txt" # Grim Batol
+B03 = "countries/Wyrmrest Temple.txt"
+J01 = "countries/Grim Batol.txt"
 
 # Green Dragonflight
-B04 = "countries/Green Dragonflight.txt" # Twilight Grove
-J02 = "countries/Green Dragonflight.txt" # Splinterspear Grove
-J03 = "countries/Green Dragonflight.txt" # Seradane
-# Emerald Dragonshrine
-# Dream Bough
+J04 = "countries/Twilight Grove.txt"
+J02 = "countries/Sorrowful Grove.txt"
+J03 = "countries/Seradane.txt"
+B04 = "countries/Emerald Dragonshrine.txt"
+J05 = "countries/Dream Bough.txt"
 
 # Black Dragonflight
-A99 = "countries/Black Dragonflight.txt"
+A99 = "countries/Black Dragonflight.txt" # Deathwing, use for the Cataclysm stuff
+J07 = "countries/Blackrock Spire.txt"       # Blackrock Spire - 
+J08 = "countries/Wyrmbog.txt"               # Onyxia's Lair -
+J09 = "countries/Obsidian Dragonshrine.txt" 
+J10 = "countries/Blackmurk.txt"  
 
 # Blue Dragonflight
-B01 = "countries/Blue Dragonflight.txt" # The Nexus
-# Azure Dragonshrine
+B01 = "countries/The Nexus.txt"
+J06 = "countries/Azure Dragonshrine.txt"
 
 # Vrykul
 B08 = "countries/Dragonflayer.txt"
@@ -401,9 +405,7 @@ F79 = "countries/Grishna.txt"
 B85 = "countries/Dark Conclave.txt" #culture_ghost tech_arrakoa (Draenor Old God Cultist Ghosts)
 
 # Tuskarr
-B81 = "countries/Kaluak.txt" # Kamagua
-# Kaskala 
-B82 = "countries/Moaki.txt" # Could be merged with Kaluak, but should at least be vassal.
+B81 = "countries/Kaluak.txt"
 
 # Old God
 B83 = "countries/Faceless.txt" # tech_old_god Nzoth's Forces

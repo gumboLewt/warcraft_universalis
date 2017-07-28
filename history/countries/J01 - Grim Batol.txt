@@ -1,0 +1,23 @@
+# Red Dragonflight
+government 			= dragonflight_gov
+mercantilism 		= 10
+technology_group 	= tech_dragonkin
+religion			= religion_sect_of_dragons
+primary_culture 	= culture_red
+capital 			= 1061
+
+546.1.1 = {
+  monarch = {
+    name = "Acridostrasz"
+    adm = 2
+    dip = 4
+    mil = 3
+  }
+}
+
+901.1.1 = {
+  add_country_modifier = {
+    name = neutral_member
+    duration = -1
+  }
+}

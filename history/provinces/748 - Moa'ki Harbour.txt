@@ -1,9 +1,9 @@
 # 748 - Moa'ki Harbour.txt
 is_city = yes
 
-owner = B82
-controller = B82
-add_core = B82
+owner = B81
+controller = B81
+add_core = B81
 
 base_tax = 4
 base_production = 4

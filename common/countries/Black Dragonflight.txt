@@ -1,6 +1,6 @@
 # Black Dragonflight
 
-graphical_culture = westerngfx
+graphical_culture = dragonkingfx
 
 color = { 55 71 97 }
 
