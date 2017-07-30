@@ -1,0 +1,8 @@
+dependency = {
+	subject_type = "warcraft_subject" # Type from warcraft_subject_types.txt
+	first = A01 # Stormwind
+	second = R01 # Goldshire
+	start_date = 546.1.1
+	end_date = 9999.1.1
+}
+
