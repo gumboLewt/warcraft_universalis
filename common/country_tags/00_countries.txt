@@ -62,6 +62,7 @@ G12 = "countries/Schnottz.txt"              # Missing flag
 H08 = "countries/Strahnbrad.txt"
 H09 = "countries/Ambermill.txt"
 P32 = "countries/White Pine.txt"
+R01 = "countries/Goldshire.txt"
 
 # Dwarven
 A28 = "countries/Wildhammer.txt"

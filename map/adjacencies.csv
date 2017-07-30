@@ -87,8 +87,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 580;3023;;;-1;-1;-1;-1;Swiftgear Station to Black Channel Marsh (Wetlands)
 3023;788;;;-1;-1;-1;-1;Black Channel Marsh to Ironbeard's Tomb (Wetlands)
 3023;3027;;;-1;-1;-1;-1;Black Channel Marsh to Garmason's Camp (Wetlands)
-1933;874;;;-1;-1;-1;-1;Thandol Span to Dun Modr (Arathi Highlands to Wetlands)
-1933;3027;;;-1;-1;-1;-1;Thandol Span to Garmason's Camp (Arathi Highlands to Wetlands)
+1933;874;sea;;-1;-1;-1;-1;Thandol Span to Dun Modr (Arathi Highlands to Wetlands)
+1933;3027;sea;;-1;-1;-1;-1;Thandol Span to Garmason's Camp (Arathi Highlands to Wetlands)
 787;610;;;-1;-1;-1;-1;Thundermar to Bloodgulch
 1016;610;;;-1;-1;-1;-1;The Black Breach to Bloodgulch
 2568;739;sea;314;-1;-1;-1;-1;Kirkhaven Crag to The Krazzworks
