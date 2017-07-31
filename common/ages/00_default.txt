@@ -52,7 +52,7 @@ rise_of_the_horde = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
@@ -235,7 +235,7 @@ the_first_war = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
@@ -418,7 +418,7 @@ the_second_war = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
@@ -601,7 +601,7 @@ the_third_war = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
@@ -784,7 +784,7 @@ the_frozen_throne = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
@@ -967,7 +967,7 @@ rise_of_the_qiraji = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
@@ -1150,7 +1150,7 @@ the_burning_crusade = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
@@ -1333,7 +1333,7 @@ wrath_of_the_lich_king = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
@@ -1516,7 +1516,7 @@ the_shattering = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
@@ -1699,7 +1699,7 @@ mists_of_pandaria = {
             }
         }
         obj_noble_connections = {
-            num_of_royal_marriages = 5
+            num_of_royal_marriages = 3
         }
 	}		
 
