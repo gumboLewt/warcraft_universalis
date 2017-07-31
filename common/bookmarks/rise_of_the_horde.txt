@@ -15,4 +15,5 @@ bookmark =
     country = A34
 	country = A08
 	country = A01
+	country = A12
 }

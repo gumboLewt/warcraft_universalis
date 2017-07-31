@@ -1,7 +1,7 @@
 
 graphical_culture = westerngfx
 
-color = { 175 85 7 }
+color = { 191 99 19 }
 
 monarch_names = {
   "Maulgar" = 20
