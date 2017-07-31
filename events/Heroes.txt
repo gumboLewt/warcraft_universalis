@@ -1,0 +1,194 @@
+namespace = wow_heroes
+
+#------------------------------------
+# Generation
+#------------------------------------
+# A Hero Emerges!
+country_event = {
+	id = wow_heroes.1
+	title = wow_heroes.1.title
+	desc = wow_heroes.1.desc
+	picture = BRAWL_eventPicture
+	
+	is_triggered_only = yes
+    
+    trigger = {
+        has_global_flag = enable_hero_system
+    }
+    
+    option = {
+		name = wow_heroes.1.option.a
+
+        add_heroes_1 = yes
+	}
+}
+
+# Heroics Prevail!
+country_event = {
+	id = wow_heroes.2
+	title = wow_heroes.2.title
+	desc = wow_heroes.2.desc
+	picture = BRAWL_eventPicture
+	
+	is_triggered_only = yes
+    
+    trigger = {
+        has_global_flag = enable_hero_system
+    }
+    
+    option = {
+		name = wow_heroes.2.option.a
+
+        add_heroes_10 = yes
+	}
+}
+    
+#------------------------------------
+# Raid rewards
+#------------------------------------
+# Blackwing Lair Cleared!
+country_event = {
+	id = wow_heroes.10
+	title = wow_heroes.10.title
+	desc = wow_heroes.10.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    # Bloodfang Hood
+    option = {
+		name = wow_heroes.10.option.a
+
+        trigger = { NOT = { has_country_modifier = bloodfang_hood } }
+        
+        add_country_modifier = {
+            name = bloodfang_hood
+            duration = -1
+        }    
+	}
+    
+    # Dragonstalker Helm
+    option = {
+		name = wow_heroes.10.option.b
+
+        trigger = { NOT = { has_country_modifier = dragonstalker_helm } }
+        
+        add_country_modifier = {
+            name = dragonstalker_helm
+            duration = -1
+        }
+	}
+    
+    # Halo of Transcendance
+    option = {
+		name = wow_heroes.10.option.c
+
+        trigger = { NOT = { has_country_modifier = halo_of_transcendance } }
+        
+        add_country_modifier = {
+            name = halo_of_transcendance
+            duration = -1
+        }
+	}
+    
+    # Helmet of Ten Storms
+    option = {
+		name = wow_heroes.10.option.d
+
+        trigger = { NOT = { has_country_modifier = helmet_of_ten_storms } }
+        
+        add_country_modifier = {
+            name = helmet_of_ten_storms
+            duration = -1
+        }
+	}
+    
+    # Helm of Wrath
+    option = {
+		name = wow_heroes.10.option.e
+
+        trigger = { NOT = { has_country_modifier = helm_of_wrath } }
+        
+        add_country_modifier = {
+            name = helm_of_wrath
+            duration = -1
+        }
+	}
+    
+    # Judgement Crown
+    option = {
+		name = wow_heroes.10.option.f
+
+        trigger = { NOT = { has_country_modifier = judgement_crown } }
+        
+        add_country_modifier = {
+            name = judgement_crown
+            duration = -1
+        }
+	}
+    
+    # Nemisis Skullcap
+    option = {
+		name = wow_heroes.10.option.g
+
+        trigger = { NOT = { has_country_modifier = nemisis_skullcap } }
+        
+        add_country_modifier = {
+            name = nemisis_skullcap
+            duration = -1
+        }
+	}
+    
+    # Netherwind Crown
+    option = {
+		name = wow_heroes.10.option.h
+
+        trigger = { NOT = { has_country_modifier = netherwind_crown } }
+        
+        add_country_modifier = {
+            name = netherwind_crown
+            duration = -1
+        }
+	}
+    
+    # Stormrage Cover
+    option = {
+		name = wow_heroes.10.option.j
+
+        trigger = { NOT = { has_country_modifier = stormrage_cover } }
+        
+        add_country_modifier = {
+            name = stormrage_cover
+            duration = -1
+        }
+	}
+    
+    # Gold
+    option = {
+		name = wow_heroes.10.option.z
+
+        trigger = {
+            has_country_modifier = bloodfang_hood
+            has_country_modifier = dragonstalker_helm
+            has_country_modifier = halo_of_transcendance
+            has_country_modifier = helmet_of_ten_storms
+            has_country_modifier = helm_of_wrath
+            has_country_modifier = judgement_crown
+            has_country_modifier = nemisis_skullcap
+            has_country_modifier = netherwind_crown
+            has_country_modifier = stormrage_cover
+        }
+        
+        add_treasury = 1000
+	}
+}
+

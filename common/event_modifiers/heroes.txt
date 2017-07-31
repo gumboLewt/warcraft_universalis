@@ -1,0 +1,162 @@
+ousted_bandits = {
+    global_unrest = -2
+}
+
+lack_of_local_talent = {
+    prestige = -1
+}
+
+searched_for_heroes = { }
+
+#-----------------------------------
+# Eastern Kingdoms
+#-----------------------------------
+# Molten Core
+
+# Naxxramas
+
+# Sunwell Plateau
+
+# Karazhan
+
+# Zul'Aman
+
+# Zul'Gurub
+
+# Blackwing Lair
+bloodfang_hood = {
+    infantry_power = 0.025
+}
+
+dragonstalker_helm = {
+    cavalry_power = 0.025
+}
+
+halo_of_transcendance = {
+    land_morale = 0.025
+}
+
+helmet_of_ten_storms = {
+    fire_damage = 0.025
+}
+
+helm_of_wrath = {
+    siege_ability = 0.025
+}
+
+judgement_crown = {
+    shock_damage = 0.025
+}
+
+nemisis_skullcap = {
+    global_manpower_modifier = 0.05
+}
+
+netherwind_crown = {
+    discipline = 0.025
+}
+
+stormrage_cover = {
+    defensiveness = 0.25
+}
+
+#-----------------------------------
+# Kalimdor
+#-----------------------------------
+# Onxiya's Lair
+
+# Ruins of Ahn'Qiraji
+
+# Temple of Ahn'Qiraji
+
+#-----------------------------------
+# Outlands
+#-----------------------------------
+# Gruul's Lair
+
+# Magtheridon's Lair
+
+# Serpentshrine Cavern
+
+# The Eye
+
+# Black Temple
+
+#-----------------------------------
+# Northrend
+#-----------------------------------
+# Vault of Archavon
+
+# The Eye of Eternity
+
+# Obsidian Sanctum
+
+# Ruby Sanctum
+
+# Ulduar
+
+# Trial of the Grand Crusader
+
+# Icecrown Citadel
+
+#-----------------------------------
+# Cata
+#-----------------------------------
+# Firelands
+
+# Throne of the Four Winds
+
+# Blackwing Descent
+
+# Bastion of Twilight
+
+#-----------------------------------
+# Pandaria
+#-----------------------------------
+# Mogu'shan Vaults
+
+# Heart of Fear
+
+# Terrace of the Endless Spring
+
+# Throne of Thunder
+
+# Siege of Orgrimmar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

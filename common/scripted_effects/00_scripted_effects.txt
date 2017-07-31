@@ -1,18 +1,520 @@
-#	Example:
-# 
-#	example_effect = {
-#		treasury = 100
-#		add_adm_power = 50
-#	}
-#
-#
-#	In a script file:
-#
-#	effect = {
-#		example_effect = yes
-#	}
-#
+#---------------------------------------------------------------------
+# Heroes
+#---------------------------------------------------------------------
+# subtract_heroes_1
+# add_heroes_1
+subtract_heroes_1 = {
+    custom_tooltip = subtract_heroes_1_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 1
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 1
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
 
+subtract_heroes_2 = {
+    custom_tooltip = subtract_heroes_2_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 2
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 2
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_3 = {
+    custom_tooltip = subtract_heroes_3_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 3
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 3
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_4 = {
+    custom_tooltip = subtract_heroes_4_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 4
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 4
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_5 = {
+    custom_tooltip = subtract_heroes_5_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 5
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 5
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_6 = {
+    custom_tooltip = subtract_heroes_6_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 6
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 6
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_7 = {
+    custom_tooltip = subtract_heroes_7_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 7
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 7
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_8 = {
+    custom_tooltip = subtract_heroes_8_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 8
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 8
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_9 = {
+    custom_tooltip = subtract_heroes_9_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 9
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 9
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_10 = {
+    custom_tooltip = subtract_heroes_10_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 10
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 10
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_15 = {
+    custom_tooltip = subtract_heroes_15_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 15
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 15
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_20 = {
+    custom_tooltip = subtract_heroes_20_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 20
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 20
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_25 = {
+    custom_tooltip = subtract_heroes_25_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 25
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 25
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_30 = {
+    custom_tooltip = subtract_heroes_30_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 30
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 30
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_35 = {
+    custom_tooltip = subtract_heroes_35_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 35
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 35
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+subtract_heroes_40 = {
+    custom_tooltip = subtract_heroes_40_tt
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = hero_count
+                    value = 40
+                }
+            }
+            subtract_variable = {
+                which = hero_count
+                value = 40
+            }
+            else = {
+                set_variable = {
+                    which = hero_count
+                    value = 0
+                }
+            }
+        }
+    }
+}
+
+add_heroes_1 = {
+    custom_tooltip = add_heroes_1_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 1
+        }
+    }
+}
+
+add_heroes_2 = {
+    custom_tooltip = add_heroes_2_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 2
+        }
+    }
+}
+
+add_heroes_3 = {
+    custom_tooltip = add_heroes_3_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 3
+        }
+    }
+}
+
+add_heroes_4 = {
+    custom_tooltip = add_heroes_4_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 4
+        }
+    }
+}
+
+add_heroes_5 = {
+    custom_tooltip = add_heroes_5_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 5
+        }
+    }
+}
+
+add_heroes_6 = {
+    custom_tooltip = add_heroes_6_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 6
+        }
+    }
+}
+
+add_heroes_7 = {
+    custom_tooltip = add_heroes_7_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 7
+        }
+    }
+}
+
+add_heroes_8 = {
+    custom_tooltip = add_heroes_8_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 8
+        }
+    }
+}
+
+add_heroes_9 = {
+    custom_tooltip = add_heroes_9_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 9
+        }
+    }
+}
+
+add_heroes_10 = {
+    custom_tooltip = add_heroes_10_tt
+    
+    hidden_effect = {
+        change_variable = {
+            which = hero_count
+            value = 10
+        }
+    }
+}
+#---------------------------------------------------------------------
+# Vanilla
+#---------------------------------------------------------------------
 divorce_consort_effect = {
 	#Foreign consort family expresses anger
 	if = {

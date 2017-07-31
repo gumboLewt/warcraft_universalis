@@ -70,6 +70,12 @@ on_war_lost = {
 # root = winning country, from = loser country
 on_battle_won_country = {
     if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - winner : [Root.GetName] - loser : [From.GetName] - on_battle_won_country" }
+    
+    random_events = {
+        1000 = 0
+        100 = wow_heroes.1 # A Hero Emerges!
+        100 = wow_heroes.2 # Heroics Prevail!
+    }
 }
 
 # country

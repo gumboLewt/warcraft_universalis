@@ -1,0 +1,126 @@
+﻿l_english:
+ #---------------------------------
+ # Variables
+ #---------------------------------
+ hero_count: "Heroes"
+ raids_cleared: "Raids Cleared"
+ 
+ #---------------------------------
+ # Tooltips
+ #---------------------------------
+ hero_generation_tt: "\n§YCollection§!\nHeroes are occasionally created in successful battles won by your armies. They may also be acquired through special events and decisions."
+ hero_usage_tt: "\n§YUsage§!\nOnce you have acquired a number of heroes, you may use them to commit several unique actions, such as clearing raids. These actions will often kill your heroes, but in return grant you great benefits if they're successful."
+ 
+ subtract_heroes_1_tt: "You lose §R1§! Hero."
+ subtract_heroes_2_tt: "You lose §R2§! Heroes."
+ subtract_heroes_3_tt: "You lose §R3§! Heroes."
+ subtract_heroes_4_tt: "You lose §R4§! Heroes."
+ subtract_heroes_5_tt: "You lose §R5§! Heroes."
+ subtract_heroes_6_tt: "You lose §R6§! Heroes."
+ subtract_heroes_7_tt: "You lose §R7§! Heroes."
+ subtract_heroes_8_tt: "You lose §R8§! Heroes."
+ subtract_heroes_9_tt: "You lose §R9§! Heroes."
+ subtract_heroes_10_tt: "You lose §R10§! Heroes."
+ subtract_heroes_15_tt: "You lose §R15§! Heroes."
+ subtract_heroes_20_tt: "You lose §R20§! Heroes."
+ subtract_heroes_25_tt: "You lose §R25§! Heroes."
+ subtract_heroes_30_tt: "You lose §R30§! Heroes."
+ subtract_heroes_35_tt: "You lose §R35§! Heroes."
+ subtract_heroes_40_tt: "You lose §R40§! Heroes."
+ 
+ add_heroes_1_tt: "You gain §G1§! Hero."
+ add_heroes_2_tt: "You gain §G2§! Heroes."
+ add_heroes_3_tt: "You gain §G3§! Heroes."
+ add_heroes_4_tt: "You gain §G4§! Heroes."
+ add_heroes_5_tt: "You gain §G5§! Heroes."
+ add_heroes_6_tt: "You gain §G6§! Heroes."
+ add_heroes_7_tt: "You gain §G7§! Heroes."
+ add_heroes_8_tt: "You gain §G8§! Heroes."
+ add_heroes_9_tt: "You gain §G9§! Heroes."
+ add_heroes_10_tt: "You gain §G10§! Heroes."
+ 
+ HEROES_CHECK: "You currently own §Y[Root.hero_count.GetValue]§! Heroes."
+ 
+ #---------------------------------
+ # Opinion Modifiers
+ #---------------------------------
+ 
+ #---------------------------------
+ # Modifiers
+ #---------------------------------
+ ousted_bandits: "Ousted Bandits"
+ desc_ousted_bandits: "Our heroes have ousted bandits from our realm, for now atleast."
+ 
+ lack_of_local_talent: "Lack of Local Talent"
+ desc_lack_of_local_talent: "Our realm is seemingly devoid of any heroes."
+ 
+ searched_for_heroes: "Searched for Heroes"
+ desc_searched_for_heroes: ""
+ 
+ bloodfang_hood: "Bloodfang Hood"
+ desc_bloodfang_hood: "Loot from Neferian gathered by our heroes."
+ 
+ dragonstalker_helm: "Dragonstalker Helm"
+ desc_dragonstalker_helm: "Loot from Neferian gathered by our heroes."
+ 
+ halo_of_transcendance: "Halo of Transcendance"
+ desc_halo_of_transcendance: "Loot from Neferian gathered by our heroes."
+ 
+ helmet_of_ten_storms: "Helmet of Ten Storms"
+ desc_helmet_of_ten_storms: "Loot from Neferian gathered by our heroes."
+ 
+ helm_of_wrath: "Helm of Wrath"
+ desc_helm_of_wrath: "Loot from Neferian gathered by our heroes."
+ 
+ judgement_crown: "Judgement Crown"
+ desc_judgement_crown: "Loot from Neferian gathered by our heroes."
+ 
+ nemisis_skullcap: "Nemisis Skullcap"
+ desc_nemisis_skullcap: "Loot from Neferian gathered by our heroes."
+ 
+ netherwind_crown: "Netherwind Crown"
+ desc_netherwind_crown: "Loot from Neferian gathered by our heroes."
+ 
+ stormrage_cover: "Stormrage Cover"
+ desc_stormrage_cover: "Loot from Neferian gathered by our heroes."
+
+ #---------------------------------
+ # Decisions
+ #---------------------------------
+ hero_check_title: "Hero's Council"
+ hero_check_desc: "Hover to check hero count, as well as an explaination of how the system works."
+ 
+ oust_bandits_title: "Oust Bandits"
+ oust_bandits_desc: "Our heroes will oust local bandit throughout our realm. We may lose some in the process."
+ 
+ search_for_heroes_title: "Search for Heroes"
+ search_for_heroes_desc: "Let us seek heroes within our own realm."
+ 
+ raid_blackwing_lair_title: "Raid Blackwing Lair"
+ raid_blackwing_lair_desc: "Let our heroes venture deep into Blackrock Mountain and face the dreadful Neferian and his minions."
+ 
+ #---------------------------------
+ # Events
+ #---------------------------------
+ wow_heroes.1.title: "A Hero Emerges!"
+ wow_heroes.1.desc: "A hero has emerged from a recent battle. Their valor and bravery were unmatched, and thier determination endless. Let us proclaim them our hero, and send them forth!"
+ wow_heroes.1.option.a: "Hurrah!"
+ 
+ wow_heroes.2.title: "Heroics Prevail!"
+ wow_heroes.2.desc: "A band of heroes have emerged from a recent battle. Their valor and bravery were unmatched, and thier determination endless. Let us proclaim them our hero, and send them forth!"
+ wow_heroes.2.option.a: "Hurrah!"
+ 
+ wow_heroes.10.title: "Blackwing Lair Cleared!"
+ wow_heroes.10.desc: "With Neferian dead, our heroes were free to loot his corpse for any goodies they could fine. For their efforts, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.10.option.a: "Bloodfang Hood"
+ wow_heroes.10.option.b: "Dragonstalker Helm"
+ wow_heroes.10.option.c: "Halo of Transcendance"
+ wow_heroes.10.option.d: "Helmet of Ten Storms"
+ wow_heroes.10.option.e: "Helm of Wrath"
+ wow_heroes.10.option.f: "Judgement Crown"
+ wow_heroes.10.option.g: "Nemisis Skullcap"
+ wow_heroes.10.option.h: "Netherwind Crown"
+ wow_heroes.10.option.j: "Stormrage Cover"
+ wow_heroes.10.option.z: "Gold! Mountains of Gold!"
+ 
+ 
