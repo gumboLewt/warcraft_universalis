@@ -127,15 +127,25 @@ rise_of_the_horde = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
@@ -189,7 +199,7 @@ the_first_war = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -215,7 +225,7 @@ the_first_war = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100
@@ -300,15 +310,25 @@ the_first_war = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
@@ -362,7 +382,7 @@ the_second_war = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -388,7 +408,7 @@ the_second_war = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100
@@ -473,15 +493,25 @@ the_second_war = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
@@ -535,7 +565,7 @@ the_third_war = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -561,7 +591,7 @@ the_third_war = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100
@@ -646,15 +676,25 @@ the_third_war = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
@@ -708,7 +748,7 @@ the_frozen_throne = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -734,7 +774,7 @@ the_frozen_throne = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100
@@ -819,15 +859,25 @@ the_frozen_throne = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
@@ -881,7 +931,7 @@ rise_of_the_qiraji = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -907,7 +957,7 @@ rise_of_the_qiraji = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100
@@ -992,15 +1042,25 @@ rise_of_the_qiraji = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
@@ -1054,7 +1114,7 @@ the_burning_crusade = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -1080,7 +1140,7 @@ the_burning_crusade = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100
@@ -1165,15 +1225,25 @@ the_burning_crusade = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
@@ -1227,7 +1297,7 @@ wrath_of_the_lich_king = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -1253,7 +1323,7 @@ wrath_of_the_lich_king = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100
@@ -1338,15 +1408,25 @@ wrath_of_the_lich_king = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
@@ -1400,7 +1480,7 @@ the_shattering = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -1426,7 +1506,7 @@ the_shattering = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100
@@ -1511,15 +1591,25 @@ the_shattering = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
@@ -1573,7 +1663,7 @@ mists_of_pandaria = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -1599,7 +1689,7 @@ mists_of_pandaria = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100
@@ -1684,15 +1774,25 @@ mists_of_pandaria = {
 			}
 		}
         
-        # Wheel and Deal
-        ab_wheel_and_deal = {
+        # Cultural Hegemony
+        ab_cultural_hegemony = {
 			modifier = {
-				global_own_trade_power = 0.2
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
+        
+        # Wheel and Deal
+        #ab_wheel_and_deal = {
+		#	modifier = {
+		#		global_own_trade_power = 0.2
+		#	}
+		#	ai_will_do = {
+		#		factor = 10
+		#	}
+		#}
         
         # Hostile Occupation
         ab_hostile_occupation = {
