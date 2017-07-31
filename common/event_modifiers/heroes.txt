@@ -2,6 +2,10 @@ ousted_bandits = {
     global_unrest = -2
 }
 
+trained_locals = {
+    land_maintenance_modifier = -0.1
+}
+
 lack_of_local_talent = {
     prestige = -1
 }

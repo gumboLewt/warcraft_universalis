@@ -509,4 +509,53 @@ estate_commoners =
 			}
 		}
 	}
+    
+    # Force Conversion
+	# 10 influence
+	#	Random non-owner culture is converted to owner culture
+	interaction = {
+		name = "FORCE_CONVERSION"
+		icon = 79
+		
+		years_between_use = 25
+		
+		trigger = {		
+			estate_influence = {
+				estate = estate_commoners
+				influence = 20
+			}
+			any_owned_province = {
+				NOT = { culture = owner }
+			}
+		}
+		
+		effect = {
+			random_owned_province = {
+				limit = {
+					NOT = { culture = owner }
+				}
+				change_culture = ROOT
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_commoners
+				desc = EST_VAL_FORCED_CONVERSION
+				influence = 10
+				duration = 1825
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				
+				estate_influence = {
+					estate = estate_commoners
+					influence = 70
+				}
+			}
+		}
+	}
 }
