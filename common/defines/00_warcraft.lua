@@ -74,8 +74,8 @@ NDefines.NFrontend.CAMERA_LOOKAT_X = 4000.0
 
 NDefines.NCountry.MAX_CROWN_COLONIES = 9999
 
-NDefines.NDiplomacy.TRUCE_YEARS = 2     -- Flat 2 years
-NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 0
+-- NDefines.NDiplomacy.TRUCE_YEARS = 2     -- Flat 2 years
+-- NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 0
 NDefines.NDiplomacy.DAYS_TO_DECLARE_WAR = 0
 -- NDefines.NCountry.OVEREXTENSION_FACTOR = 0.1 -- 
 

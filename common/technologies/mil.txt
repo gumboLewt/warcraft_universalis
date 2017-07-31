@@ -11,6 +11,9 @@ technology = {
     sprite_level = 1
 	
 	land_morale 		= 2.0
+    infantry_fire		= 0.25
+	infantry_shock 		= 0.20	
+	cavalry_shock  		= 0.8
     
     enable = trebuchet
     # tech_troll

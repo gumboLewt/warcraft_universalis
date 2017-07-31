@@ -4431,7 +4431,7 @@ guiTypes = {
 	}
 
 
-
+    # Building icon
 	windowType = 
 	{
 		name = "possible_building_entry"
