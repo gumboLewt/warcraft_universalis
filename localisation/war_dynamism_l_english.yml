@@ -40,7 +40,7 @@
  ownership_settings_desc: "Settings for the Claim mechanic."
  
  war_dynamism.100.title: "Looting Settings"
- war_dynamism.100.desc: "The message settings for Looting events."
+ war_dynamism.100.desc: "The automatic pick settings for Looting events. The selected option will be picked for you when a Looting event occurs for a province you've sieged.\n\nPass Over - reduces local Core Creation cost by 5%.\nLoot - grants you ducats in exchange for 1 development of each type.\nScorched Earth - grants you ducats in exchange for 2 development of each type."
  war_dynamism.100.option.a: "Always pick: Pass Over"
  war_dynamism.100.option.b: "Always pick: Loot"
  war_dynamism.100.option.c: "Always pick: Scorched Earth"
@@ -48,7 +48,7 @@
  war_dynamism.100.option.e: "Exit"
  
  war_dynamism.101.title: "Claim Settings"
- war_dynamism.101.desc: "The message settings for Claim events."
+ war_dynamism.101.desc: "The automatic pick settings for Claim events. The selected option will be picked for you when a Claim event occurs for a province you've sieged.\n\nPeace Treaty - do nothing\nSeize - take the province immediately, with unrest if you don't have a valid claim"
  war_dynamism.101.option.a: "Always pick: Peace Treaty"
  war_dynamism.101.option.b: "Always pick: Seize"
  war_dynamism.101.option.c: "Clear automatic picking"
