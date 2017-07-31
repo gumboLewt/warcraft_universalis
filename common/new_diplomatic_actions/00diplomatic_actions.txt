@@ -167,3 +167,96 @@ cancel_dummy =  {
 		always = no
 	}
 }
+
+#---------------------------------------------------------
+# Warcraft
+#---------------------------------------------------------
+demand_dummy = {
+	category = influence
+	
+	alert_index = 40
+	alert_tooltip = demand_dummy_alert_tooltip
+	
+	require_acceptance = yes # Whether the recipient gets an option to decline
+	
+	is_visible = {
+		always = no ############################ Remove this line to unleash the magic ########################################
+		religion_group = christian
+		is_subject = no
+		FROM = {
+			is_subject = no
+		}
+	}
+	is_allowed = {
+		variable_arithmetic_trigger = {
+			custom_tooltip = HAS_MORE_MANPOWER
+			export_to_variable = {
+				variable_name = my_manpower
+				value = manpower
+			}
+			export_to_variable = {
+				variable_name = their_manpower
+				value = manpower
+				who = FROM
+			}
+			subtract_variable = {
+				which = my_manpower
+				which = their_manpower
+			}
+			check_variable = {
+				which = my_manpower
+				value = 0
+			}
+		}
+		religion = catholic
+	}
+	on_accept = {
+		add_trust = {
+			who = FROM
+			value = 20
+			mutual = yes
+		}
+		create_subject = {
+			subject_type = dummy
+			subject = FROM
+		}
+	}
+	on_decline =
+	{
+		add_trust = {
+			who = FROM
+			value = -100
+			mutual = no
+		}
+	}
+	
+	ai_acceptance = {
+		add_entry = {
+			name = TRUST
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = THIS
+			}
+			subtract_variable = { which = ai_value value = 50 }
+			multiply_variable = { which = ai_value value = 2 }
+		}
+		add_entry = {
+			name = OPINION
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = THIS
+			}
+			divide_variable = { which = ai_value value = 4 }
+		}
+	}
+	ai_will_do = { # this is a trigger
+		has_opinion_modifier = {
+			modifier = insulted
+			who = FROM
+		}
+	}
+}

@@ -16,7 +16,7 @@ rise_of_the_horde = {
                 development = 50
                 religion = ROOT
                 culture = ROOT
-                NOT = { devastation = 0 }
+                NOT = { devastation = 5 }
             }
         }
         # Wise Ruler
@@ -42,7 +42,7 @@ rise_of_the_horde = {
         }
         obj_realm_of_virtues = {
             prestige = 100
-            NOT = { corruption = 0 }
+            NOT = { corruption = 5 }
             OR = {
                 legitimacy = 100
                 horde_unity = 100

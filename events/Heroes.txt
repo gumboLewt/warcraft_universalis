@@ -44,9 +44,9 @@ country_event = {
 }
     
 #------------------------------------
-# Raid rewards
+# Blackwing Lair
 #------------------------------------
-# Blackwing Lair Cleared!
+# Cleared
 country_event = {
 	id = wow_heroes.10
 	title = wow_heroes.10.title
@@ -74,6 +74,10 @@ country_event = {
             name = bloodfang_hood
             duration = -1
         }    
+        
+        ai_chance = {
+            factor = 20
+        }
 	}
     
     # Dragonstalker Helm
@@ -85,6 +89,10 @@ country_event = {
         add_country_modifier = {
             name = dragonstalker_helm
             duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
         }
 	}
     
@@ -98,47 +106,15 @@ country_event = {
             name = halo_of_transcendance
             duration = -1
         }
-	}
-    
-    # Helmet of Ten Storms
-    option = {
-		name = wow_heroes.10.option.d
-
-        trigger = { NOT = { has_country_modifier = helmet_of_ten_storms } }
         
-        add_country_modifier = {
-            name = helmet_of_ten_storms
-            duration = -1
-        }
-	}
-    
-    # Helm of Wrath
-    option = {
-		name = wow_heroes.10.option.e
-
-        trigger = { NOT = { has_country_modifier = helm_of_wrath } }
-        
-        add_country_modifier = {
-            name = helm_of_wrath
-            duration = -1
-        }
-	}
-    
-    # Judgement Crown
-    option = {
-		name = wow_heroes.10.option.f
-
-        trigger = { NOT = { has_country_modifier = judgement_crown } }
-        
-        add_country_modifier = {
-            name = judgement_crown
-            duration = -1
+        ai_chance = {
+            factor = 20
         }
 	}
     
     # Nemisis Skullcap
     option = {
-		name = wow_heroes.10.option.g
+		name = wow_heroes.10.option.d
 
         trigger = { NOT = { has_country_modifier = nemisis_skullcap } }
         
@@ -146,11 +122,15 @@ country_event = {
             name = nemisis_skullcap
             duration = -1
         }
+        
+        ai_chance = {
+            factor = 20
+        }
 	}
     
     # Netherwind Crown
     option = {
-		name = wow_heroes.10.option.h
+		name = wow_heroes.10.option.e
 
         trigger = { NOT = { has_country_modifier = netherwind_crown } }
         
@@ -158,37 +138,1423 @@ country_event = {
             name = netherwind_crown
             duration = -1
         }
-	}
-    
-    # Stormrage Cover
-    option = {
-		name = wow_heroes.10.option.j
-
-        trigger = { NOT = { has_country_modifier = stormrage_cover } }
         
-        add_country_modifier = {
-            name = stormrage_cover
-            duration = -1
+        ai_chance = {
+            factor = 20
         }
 	}
-    
+
     # Gold
     option = {
-		name = wow_heroes.10.option.z
+		name = wow_heroes.10.option.gold
 
-        trigger = {
-            has_country_modifier = bloodfang_hood
-            has_country_modifier = dragonstalker_helm
-            has_country_modifier = halo_of_transcendance
-            has_country_modifier = helmet_of_ten_storms
-            has_country_modifier = helm_of_wrath
-            has_country_modifier = judgement_crown
-            has_country_modifier = nemisis_skullcap
-            has_country_modifier = netherwind_crown
-            has_country_modifier = stormrage_cover
-        }
-        
         add_treasury = 1000
+        
+        ai_chance = {
+            factor = 1
+        }
 	}
 }
 
+# Survived
+country_event = {
+	id = wow_heroes.11
+	title = wow_heroes.11.title
+	desc = wow_heroes.11.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    # Bloodfang Hood
+    option = {
+		name = wow_heroes.11.option.a
+
+        trigger = { NOT = { has_country_modifier = bloodfang_hood } }
+        
+        add_country_modifier = {
+            name = bloodfang_hood
+            duration = 3650
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    # Dragonstalker Helm
+    option = {
+		name = wow_heroes.11.option.b
+
+        trigger = { NOT = { has_country_modifier = dragonstalker_helm } }
+        
+        add_country_modifier = {
+            name = dragonstalker_helm
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    # Halo of Transcendance
+    option = {
+		name = wow_heroes.11.option.c
+
+        trigger = { NOT = { has_country_modifier = halo_of_transcendance } }
+        
+        add_country_modifier = {
+            name = halo_of_transcendance
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    # Nemisis Skullcap
+    option = {
+		name = wow_heroes.11.option.d
+
+        trigger = { NOT = { has_country_modifier = nemisis_skullcap } }
+        
+        add_country_modifier = {
+            name = nemisis_skullcap
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    # Netherwind Crown
+    option = {
+		name = wow_heroes.11.option.e
+
+        trigger = { NOT = { has_country_modifier = netherwind_crown } }
+        
+        add_country_modifier = {
+            name = netherwind_crown
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.11.option.gold
+
+        add_treasury = 250
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+#------------------------------------
+# Molten Core
+#------------------------------------
+# Cleared
+country_event = {
+	id = wow_heroes.12
+	title = wow_heroes.12.title
+	desc = wow_heroes.12.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.12.option.a
+
+        trigger = { NOT = { has_country_modifier = eye_of_sulfuras } }
+        
+        add_country_modifier = {
+            name = eye_of_sulfuras
+            duration = -1
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.12.option.b
+
+        trigger = { NOT = { has_country_modifier = choker_of_the_fire_lord } }
+        
+        add_country_modifier = {
+            name = choker_of_the_fire_lord
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    option = {
+		name = wow_heroes.12.option.c
+
+        trigger = { NOT = { has_country_modifier = crown_of_destruction } }
+        
+        add_country_modifier = {
+            name = crown_of_destruction
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.12.option.d
+
+        trigger = { NOT = { has_country_modifier = essence_of_the_firelord } }
+        
+        add_country_modifier = {
+            name = essence_of_the_firelord
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.12.option.e
+
+        trigger = { NOT = { has_country_modifier = dragons_blood_cape } }
+        
+        add_country_modifier = {
+            name = dragons_blood_cape
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.12.option.gold
+
+        add_treasury = 1000
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+# Survived
+country_event = {
+	id = wow_heroes.13
+	title = wow_heroes.13.title
+	desc = wow_heroes.13.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.13.option.a
+
+        trigger = { NOT = { has_country_modifier = eye_of_sulfuras } }
+        
+        add_country_modifier = {
+            name = eye_of_sulfuras
+            duration = 3650
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.13.option.b
+
+        trigger = { NOT = { has_country_modifier = choker_of_the_fire_lord } }
+        
+        add_country_modifier = {
+            name = choker_of_the_fire_lord
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.13.option.c
+
+        trigger = { NOT = { has_country_modifier = crown_of_destruction } }
+        
+        add_country_modifier = {
+            name = crown_of_destruction
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.13.option.d
+
+        trigger = { NOT = { has_country_modifier = essence_of_the_firelord } }
+        
+        add_country_modifier = {
+            name = essence_of_the_firelord
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.13.option.e
+
+        trigger = { NOT = { has_country_modifier = dragons_blood_cape } }
+        
+        add_country_modifier = {
+            name = dragons_blood_cape
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.13.option.gold
+
+        add_treasury = 250
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+#------------------------------------
+# Naxxramas
+#------------------------------------
+# Cleared
+country_event = {
+	id = wow_heroes.14
+	title = wow_heroes.14.title
+	desc = wow_heroes.14.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.14.option.a
+
+        trigger = { NOT = { has_country_modifier = kingsfall } }
+        
+        add_country_modifier = {
+            name = kingsfall
+            duration = -1
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.14.option.b
+
+        trigger = { NOT = { has_country_modifier = might_of_menethil } }
+        
+        add_country_modifier = {
+            name = might_of_menethil
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    option = {
+		name = wow_heroes.14.option.c
+
+        trigger = { NOT = { has_country_modifier = doomfinger } }
+        
+        add_country_modifier = {
+            name = doomfinger
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.14.option.d
+
+        trigger = { NOT = { has_country_modifier = the_hungering_cold } }
+        
+        add_country_modifier = {
+            name = the_hungering_cold
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.14.option.e
+
+        trigger = { NOT = { has_country_modifier = soulseeker } }
+        
+        add_country_modifier = {
+            name = soulseeker
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.14.option.gold
+
+        add_treasury = 1000
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+# Survived
+country_event = {
+	id = wow_heroes.15
+	title = wow_heroes.15.title
+	desc = wow_heroes.15.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.15.option.a
+
+        trigger = { NOT = { has_country_modifier = kingsfall } }
+        
+        add_country_modifier = {
+            name = kingsfall
+            duration = 3650
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.15.option.b
+
+        trigger = { NOT = { has_country_modifier = might_of_menethil } }
+        
+        add_country_modifier = {
+            name = might_of_menethil
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.15.option.c
+
+        trigger = { NOT = { has_country_modifier = doomfinger } }
+        
+        add_country_modifier = {
+            name = doomfinger
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.15.option.d
+
+        trigger = { NOT = { has_country_modifier = the_hungering_cold } }
+        
+        add_country_modifier = {
+            name = the_hungering_cold
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.15.option.e
+
+        trigger = { NOT = { has_country_modifier = soulseeker } }
+        
+        add_country_modifier = {
+            name = soulseeker
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.15.option.gold
+
+        add_treasury = 250
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+#------------------------------------
+# Sunwell Plateau
+#------------------------------------
+# Cleared
+country_event = {
+	id = wow_heroes.16
+	title = wow_heroes.16.title
+	desc = wow_heroes.16.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.16.option.legendary
+
+        trigger = { NOT = { has_country_modifier = thoridal_the_stars_fury } }
+        
+        add_country_modifier = {
+            name = thoridal_the_stars_fury
+            duration = -1
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.16.option.a
+
+        trigger = { NOT = { has_country_modifier = apolyon_the_soul_render } }
+        
+        add_country_modifier = {
+            name = apolyon_the_soul_render
+            duration = -1
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.16.option.b
+
+        trigger = { NOT = { has_country_modifier = hammer_of_santification } }
+        
+        add_country_modifier = {
+            name = hammer_of_santification
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    option = {
+		name = wow_heroes.16.option.c
+
+        trigger = { NOT = { has_country_modifier = sunflare } }
+        
+        add_country_modifier = {
+            name = sunflare
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.16.option.d
+
+        trigger = { NOT = { has_country_modifier = hand_of_the_deceiver } }
+        
+        add_country_modifier = {
+            name = hand_of_the_deceiver
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.16.option.e
+
+        trigger = { NOT = { has_country_modifier = crux_of_the_apocalypse } }
+        
+        add_country_modifier = {
+            name = crux_of_the_apocalypse
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.16.option.gold
+
+        add_treasury = 1000
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+# Survived
+country_event = {
+	id = wow_heroes.17
+	title = wow_heroes.17.title
+	desc = wow_heroes.17.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.17.option.a
+
+        trigger = { NOT = { has_country_modifier = apolyon_the_soul_render } }
+        
+        add_country_modifier = {
+            name = apolyon_the_soul_render
+            duration = 3650
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.17.option.b
+
+        trigger = { NOT = { has_country_modifier = hammer_of_santification } }
+        
+        add_country_modifier = {
+            name = hammer_of_santification
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.17.option.c
+
+        trigger = { NOT = { has_country_modifier = sunflare } }
+        
+        add_country_modifier = {
+            name = sunflare
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.17.option.d
+
+        trigger = { NOT = { has_country_modifier = hand_of_the_deceiver } }
+        
+        add_country_modifier = {
+            name = hand_of_the_deceiver
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.17.option.e
+
+        trigger = { NOT = { has_country_modifier = crux_of_the_apocalypse } }
+        
+        add_country_modifier = {
+            name = crux_of_the_apocalypse
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.17.option.gold
+
+        add_treasury = 250
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+#------------------------------------
+# Karazhan
+#------------------------------------
+# Cleared
+country_event = {
+	id = wow_heroes.18
+	title = wow_heroes.18.title
+	desc = wow_heroes.18.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.18.option.a
+
+        trigger = { NOT = { has_country_modifier = gorehowl } }
+        
+        add_country_modifier = {
+            name = gorehowl
+            duration = -1
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.18.option.b
+
+        trigger = { NOT = { has_country_modifier = lights_justice } }
+        
+        add_country_modifier = {
+            name = lights_justice
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    option = {
+		name = wow_heroes.18.option.c
+
+        trigger = { NOT = { has_country_modifier = malchazeen } }
+        
+        add_country_modifier = {
+            name = malchazeen
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.18.option.d
+
+        trigger = { NOT = { has_country_modifier = talisman_of_nightbane } }
+        
+        add_country_modifier = {
+            name = talisman_of_nightbane
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.18.option.e
+
+        trigger = { NOT = { has_country_modifier = girdle_of_truth } }
+        
+        add_country_modifier = {
+            name = girdle_of_truth
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.18.option.gold
+
+        add_treasury = 1000
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+# Survived
+country_event = {
+	id = wow_heroes.19
+	title = wow_heroes.19.title
+	desc = wow_heroes.19.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.19.option.a
+
+        trigger = { NOT = { has_country_modifier = gorehowl } }
+        
+        add_country_modifier = {
+            name = gorehowl
+            duration = 3650
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.19.option.b
+
+        trigger = { NOT = { has_country_modifier = lights_justice } }
+        
+        add_country_modifier = {
+            name = lights_justice
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.19.option.c
+
+        trigger = { NOT = { has_country_modifier = malchazeen } }
+        
+        add_country_modifier = {
+            name = malchazeen
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.19.option.d
+
+        trigger = { NOT = { has_country_modifier = talisman_of_nightbane } }
+        
+        add_country_modifier = {
+            name = talisman_of_nightbane
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.19.option.e
+
+        trigger = { NOT = { has_country_modifier = girdle_of_truth } }
+        
+        add_country_modifier = {
+            name = girdle_of_truth
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.19.option.gold
+
+        add_treasury = 250
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+#------------------------------------
+# Zul'Aman
+#------------------------------------
+# Cleared
+country_event = {
+	id = wow_heroes.20
+	title = wow_heroes.20.title
+	desc = wow_heroes.20.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.20.option.a
+
+        trigger = { NOT = { has_country_modifier = ancient_amani_longbow } }
+        
+        add_country_modifier = {
+            name = ancient_amani_longbow
+            duration = -1
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.20.option.b
+
+        trigger = { NOT = { has_country_modifier = grimgrin_faceguard } }
+        
+        add_country_modifier = {
+            name = grimgrin_faceguard
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    option = {
+		name = wow_heroes.20.option.c
+
+        trigger = { NOT = { has_country_modifier = cleaver_of_the_unforgiving } }
+        
+        add_country_modifier = {
+            name = cleaver_of_the_unforgiving
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.20.option.d
+
+        trigger = { NOT = { has_country_modifier = blade_of_twisted_visions } }
+        
+        add_country_modifier = {
+            name = blade_of_twisted_visions
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.20.option.e
+
+        trigger = { NOT = { has_country_modifier = dark_blessing } }
+        
+        add_country_modifier = {
+            name = dark_blessing
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.20.option.gold
+
+        add_treasury = 1000
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+# Survived
+country_event = {
+	id = wow_heroes.21
+	title = wow_heroes.21.title
+	desc = wow_heroes.21.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.21.option.a
+
+        trigger = { NOT = { has_country_modifier = ancient_amani_longbow } }
+        
+        add_country_modifier = {
+            name = ancient_amani_longbow
+            duration = 3650
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.21.option.b
+
+        trigger = { NOT = { has_country_modifier = grimgrin_faceguard } }
+        
+        add_country_modifier = {
+            name = grimgrin_faceguard
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.21.option.c
+
+        trigger = { NOT = { has_country_modifier = cleaver_of_the_unforgiving } }
+        
+        add_country_modifier = {
+            name = cleaver_of_the_unforgiving
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.21.option.d
+
+        trigger = { NOT = { has_country_modifier = blade_of_twisted_visions } }
+        
+        add_country_modifier = {
+            name = blade_of_twisted_visions
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.21.option.e
+
+        trigger = { NOT = { has_country_modifier = dark_blessing } }
+        
+        add_country_modifier = {
+            name = dark_blessing
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.21.option.gold
+
+        add_treasury = 250
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+#------------------------------------
+# Zul'Gurub
+#------------------------------------
+# Cleared
+country_event = {
+	id = wow_heroes.22
+	title = wow_heroes.22.title
+	desc = wow_heroes.22.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.22.option.a
+
+        trigger = { NOT = { has_country_modifier = aegis_of_the_blood_god } }
+        
+        add_country_modifier = {
+            name = aegis_of_the_blood_god
+            duration = -1
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.22.option.b
+
+        trigger = { NOT = { has_country_modifier = touch_of_chaos } }
+        
+        add_country_modifier = {
+            name = touch_of_chaos
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    option = {
+		name = wow_heroes.22.option.c
+
+        trigger = { NOT = { has_country_modifier = heart_of_hakkar } }
+        
+        add_country_modifier = {
+            name = heart_of_hakkar
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.22.option.d
+
+        trigger = { NOT = { has_country_modifier = zin_rohk_destroyer_of_worlds } }
+        
+        add_country_modifier = {
+            name = zin_rohk_destroyer_of_worlds
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.22.option.e
+
+        trigger = { NOT = { has_country_modifier = warblade_of_the_hakkari } }
+        
+        add_country_modifier = {
+            name = warblade_of_the_hakkari
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.22.option.gold
+
+        add_treasury = 1000
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+# Survived
+country_event = {
+	id = wow_heroes.23
+	title = wow_heroes.23.title
+	desc = wow_heroes.23.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = {
+                which = raids_cleared
+                value = 1
+            }
+        }
+    }
+    
+    option = {
+		name = wow_heroes.23.option.a
+
+        trigger = { NOT = { has_country_modifier = aegis_of_the_blood_god } }
+        
+        add_country_modifier = {
+            name = aegis_of_the_blood_god
+            duration = 3650
+        }    
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.23.option.b
+
+        trigger = { NOT = { has_country_modifier = touch_of_chaos } }
+        
+        add_country_modifier = {
+            name = touch_of_chaos
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.23.option.c
+
+        trigger = { NOT = { has_country_modifier = heart_of_hakkar } }
+        
+        add_country_modifier = {
+            name = heart_of_hakkar
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.23.option.d
+
+        trigger = { NOT = { has_country_modifier = zin_rohk_destroyer_of_worlds } }
+        
+        add_country_modifier = {
+            name = zin_rohk_destroyer_of_worlds
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+    
+    option = {
+		name = wow_heroes.23.option.e
+
+        trigger = { NOT = { has_country_modifier = warblade_of_the_hakkari } }
+        
+        add_country_modifier = {
+            name = warblade_of_the_hakkari
+            duration = 3650
+        }
+        
+        ai_chance = {
+            factor = 20
+        }
+	}
+
+    # Gold
+    option = {
+		name = wow_heroes.23.option.gold
+
+        add_treasury = 250
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}

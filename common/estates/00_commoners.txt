@@ -558,4 +558,15 @@ estate_commoners =
 			}
 		}
 	}
+    
+    # Military Propaganda
+    #   -20 Loyalty
+    #   +manpower
+    
+    # Encourage Development
+    #   -10 Loyalty
+    #   +1/1/1 dev
+    
+    
+    
 }

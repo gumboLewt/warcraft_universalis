@@ -51,12 +51,16 @@
  ousted_bandits: "Ousted Bandits"
  desc_ousted_bandits: "Our heroes have ousted bandits from our realm, for now atleast."
  
+ garrisoned_outposts: "Garrisoned Outposts"
+ desc_garrisoned_outposts: "Our heroes have been garrisoned in our outposts."
+ 
  lack_of_local_talent: "Lack of Local Talent"
  desc_lack_of_local_talent: "Our realm is seemingly devoid of any heroes."
  
  searched_for_heroes: "Searched for Heroes"
  desc_searched_for_heroes: ""
  
+ # Blackwing Lair
  bloodfang_hood: "Bloodfang Hood"
  desc_bloodfang_hood: "Loot from Neferian gathered by our heroes."
  
@@ -66,24 +70,111 @@
  halo_of_transcendance: "Halo of Transcendance"
  desc_halo_of_transcendance: "Loot from Neferian gathered by our heroes."
  
- helmet_of_ten_storms: "Helmet of Ten Storms"
- desc_helmet_of_ten_storms: "Loot from Neferian gathered by our heroes."
- 
- helm_of_wrath: "Helm of Wrath"
- desc_helm_of_wrath: "Loot from Neferian gathered by our heroes."
- 
- judgement_crown: "Judgement Crown"
- desc_judgement_crown: "Loot from Neferian gathered by our heroes."
- 
  nemisis_skullcap: "Nemisis Skullcap"
  desc_nemisis_skullcap: "Loot from Neferian gathered by our heroes."
  
  netherwind_crown: "Netherwind Crown"
  desc_netherwind_crown: "Loot from Neferian gathered by our heroes."
  
- stormrage_cover: "Stormrage Cover"
- desc_stormrage_cover: "Loot from Neferian gathered by our heroes."
+ # Molten Core
+ eye_of_sulfuras: "Eye of Sulfuras"
+ desc_eye_of_sulfuras: "Loot from Ragnaros gathered by our heroes."
 
+ choker_of_the_fire_lord: "Choker of the Fire Lord"
+ desc_choker_of_the_fire_lord: "Loot from Ragnaros gathered by our heroes."
+ 
+ crown_of_destruction: "Crown of Destruction"
+ desc_crown_of_destruction: "Loot from Ragnaros gathered by our heroes."
+ 
+ essence_of_the_firelord: "Essence of the Firelord"
+ desc_essence_of_the_firelord: "Loot from Ragnaros gathered by our heroes."
+ 
+ dragons_blood_cape: "Dragon's Blood Cape"
+ desc_dragons_blood_cape: "Loot from Ragnaros gathered by our heroes."
+ 
+ # Naxxramas
+ kingsfall: "Kingsfall"
+ desc_kingsfall: "Loot from Kel'Thuzad gathered by our heroes."
+ 
+ might_of_menethil: "Might of Menethil"
+ desc_might_of_menethil: "Loot from Kel'Thuzad gathered by our heroes."
+ 
+ doomfinger: "Doomfinger"
+ desc_doomfinger: "Loot from Kel'Thuzad gathered by our heroes."
+ 
+ the_hungering_cold: "The Hungering Cold"
+ desc_the_hungering_cold: "Loot from Kel'Thuzad gathered by our heroes."
+ 
+ soulseeker: "Soulseeker"
+ desc_soulseeker: "Loot from Kel'Thuzad gathered by our heroes."
+ 
+ # Sunwell Plateau
+ thoridal_the_stars_fury: "Thoridal, the Star's Fury"
+ desc_thoridal_the_stars_fury: "Loot from Kil'jaeden gathered by our heroes."
+ 
+ apolyon_the_soul_render: "Apolyon the Soul Render"
+ desc_apolyon_the_soul_render: "Loot from Kil'jaeden gathered by our heroes."
+ 
+ hammer_of_santification: "Hammer of Santification"
+ desc_hammer_of_santification: "Loot from Kil'jaeden gathered by our heroes."
+ 
+ sunflare: "Sunflare"
+ desc_sunflare: "Loot from Kil'jaeden gathered by our heroes."
+ 
+ hand_of_the_deceiver: "Hand of the Deceiver"
+ desc_hand_of_the_deceiver: "Loot from Kil'jaeden gathered by our heroes."
+ 
+ crux_of_the_apocalypse: "Crux of the Apocalypse"
+ desc_crux_of_the_apocalypse: "Loot from Kil'jaeden gathered by our heroes."
+ 
+ # Karazhan
+ gorehowl: "Gorehowl"
+ desc_gorehowl: "Loot from Prince Malchezaar gathered by our heroes."
+ 
+ lights_justice: "Light's Justice"
+ desc_lights_justice: "Loot from Prince Malchezaar gathered by our heroes."
+ 
+ malchazeen: "Malchazeen"
+ desc_malchazeen: "Loot from Prince Malchezaar gathered by our heroes."
+ 
+ talisman_of_nightbane: "Talisman of Nightbane"
+ desc_talisman_of_nightbane: "Loot from Prince Malchezaar gathered by our heroes."
+ 
+ girdle_of_truth: "Girdle of Truth"
+ desc_girdle_of_truth: "Loot from Prince Malchezaar gathered by our heroes."
+ 
+ # Zul'Aman
+ ancient_amani_longbow: "Ancient Amani Longbow"
+ desc_ancient_amani_longbow: "Loot from Zul'jin gathered by our heroes."
+ 
+ grimgrin_faceguard: "Grimgrin Faceguard"
+ desc_grimgrin_faceguard: "Loot from Zul'jin gathered by our heroes."
+ 
+ cleaver_of_the_unforgiving: "Cleaver of the Unforgiving"
+ desc_cleaver_of_the_unforgiving: "Loot from Zul'jin gathered by our heroes."
+ 
+ blade_of_twisted_visions: "Blade of Twisted Visions"
+ desc_blade_of_twisted_visions: "Loot from Zul'jin gathered by our heroes."
+ 
+ dark_blessing: "Dark Blessing"
+ desc_dark_blessing: "Loot from Zul'jin gathered by our heroes."
+ 
+ # Zul'Gurub
+ aegis_of_the_blood_god: "Aegis of the Blood God"
+ desc_aegis_of_the_blood_god: "Loot from Hakkar the Soulflayer gathered by our heroes."
+ 
+ touch_of_chaos: "Touch of Chaos"
+ desc_touch_of_chaos: "Loot from Hakkar the Soulflayer gathered by our heroes."
+ 
+ heart_of_hakkar: "Heart of Hakkar"
+ desc_heart_of_hakkar: "Loot from Hakkar the Soulflayer gathered by our heroes."
+ 
+ zin_rohk_destroyer_of_worlds: "Zin'rohk, Destroyer of Worlds"
+ desc_zin_rohk_destroyer_of_worlds: "Loot from Hakkar the Soulflayer gathered by our heroes."
+ 
+ warblade_of_the_hakkari: "Warblade of the Hakkari"
+ desc_warblade_of_the_hakkari: "Loot from Hakkar the Soulflayer gathered by our heroes."
+ 
  #---------------------------------
  # Decisions
  #---------------------------------
@@ -96,8 +187,45 @@
  search_for_heroes_title: "Search for Heroes"
  search_for_heroes_desc: "Let us seek heroes within our own realm."
  
+ train_general_title: "Recruit General"
+ train_general_desc: "Let us put a group of our heroes through some tests and see who qualifies as a general."
+ 
+ train_admiral_title: "Recruit Admiral"
+ train_admiral_desc: "Let us put a group of our heroes through some tests and see who qualifies as a admiral."
+ 
+ train_heir_title: "Train [Root.Heir.GetName]"
+ train_heir_desc: "[Root.Heir.GetName] is a poor sucessor, and could do with some training from our valiant heroes. Unfortunately after prolonged contact with [Root.Heir.GetName], our heroes won't be available for our services anymore."
+ 
+ recruit_masterful_tactician_title: "Recruit Masterful Tactician"
+ recruit_masterful_tactician_desc: "Let us put a group of our heroes through some tests and see who qualifies as a masterful general or admiral."
+ 
+ garrison_outposts_title: "Garrison Outposts"
+ garrison_outposts_desc: "Let us garrison our outposts with heroes, greatly increasing defence across our realm."
+ 
+ train_local_men_title: "Train Local Men"
+ train_local_men_desc: "Let our heroes train locals in our villages and towns. This will greatly improve the numbers for recruitment this year."
+ 
+ # Raids
  raid_blackwing_lair_title: "Raid Blackwing Lair"
  raid_blackwing_lair_desc: "Let our heroes venture deep into Blackrock Mountain and face the dreadful Neferian and his minions."
+ 
+ raid_molten_core_title: "Raid Molten Core"
+ raid_molten_core_desc: "Let our heroes venture deep into the depths of Blackrock Mountain and face the dreadful Ragnaros and his minions."
+ 
+ raid_naxxramas_title: "Raid Naxxramas"
+ raid_naxxramas_desc: "Let our heroes venture deep into floating necropolis and face the dreadful Kel'Thuzad and his minions."
+ 
+ raid_sunwell_plateau_title: "Raid Sunwell Plateau"
+ raid_sunwell_plateau_desc: "Let our heroes venture deep into Sunwell Plateau and face the demonic Kil'jaeden and his minions."
+ 
+ raid_karazhan_title: "Raid Karazhan"
+ raid_karazhan_desc: "Let our heroes venture deep into Karazhan and face the demonic Prince Malchezaar and his ghostly minions."
+ 
+ raid_zul_aman_title: "Raid Zul'Aman"
+ raid_zul_aman_desc: "Let our heroes venture deep into Amani lands and face the witch doctor Zul'jin and his minions."
+ 
+ raid_zul_gurub_title: "Raid Zul'Gurub"
+ raid_zul_gurub_desc: "Let our heroes venture deep into Gurubashi lands and face the blood god Hakkar and his minions."
  
  #---------------------------------
  # Events
@@ -111,16 +239,131 @@
  wow_heroes.2.option.a: "Hurrah!"
  
  wow_heroes.10.title: "Blackwing Lair Cleared!"
- wow_heroes.10.desc: "With Neferian dead, our heroes were free to loot his corpse for any goodies they could fine. For their efforts, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.10.desc: "With Neferian dead, our heroes were free to loot his corpse for any goodies they could find. For their efforts, you've allowed them to keep most of the loot, but you wanted the following..."
  wow_heroes.10.option.a: "Bloodfang Hood"
  wow_heroes.10.option.b: "Dragonstalker Helm"
  wow_heroes.10.option.c: "Halo of Transcendance"
- wow_heroes.10.option.d: "Helmet of Ten Storms"
- wow_heroes.10.option.e: "Helm of Wrath"
- wow_heroes.10.option.f: "Judgement Crown"
- wow_heroes.10.option.g: "Nemisis Skullcap"
- wow_heroes.10.option.h: "Netherwind Crown"
- wow_heroes.10.option.j: "Stormrage Cover"
- wow_heroes.10.option.z: "Gold! Mountains of Gold!"
+ wow_heroes.10.option.d: "Nemisis Skullcap"
+ wow_heroes.10.option.e: "Netherwind Crown"
+ wow_heroes.10.option.gold: "Gold"
+ 
+ wow_heroes.11.title: "Blackwing Lair Survived!"
+ wow_heroes.11.desc: "With Neferian dead, our heroes were free to loot his corpse for any goodies they could find. Due to their poor efforts, none of the loot is of particularly high quality, and will crumble away in time. Alas, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.11.option.a: "Bloodfang Hood"
+ wow_heroes.11.option.b: "Dragonstalker Helm"
+ wow_heroes.11.option.c: "Halo of Transcendance"
+ wow_heroes.11.option.d: "Nemisis Skullcap"
+ wow_heroes.11.option.e: "Netherwind Crown"
+ wow_heroes.11.option.gold: "Gold"
+ 
+  wow_heroes.12.title: "Molten Core Cleared!"
+ wow_heroes.12.desc: "With Ragnaros dead, our heroes were free to loot his corpse for any goodies they could find. For their efforts, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.12.option.a: "Eye of Sulfuras"
+ wow_heroes.12.option.b: "Choker of the Fire Lord"
+ wow_heroes.12.option.c: "Crown of Destruction"
+ wow_heroes.12.option.d: "Essence of the Firelord"
+ wow_heroes.12.option.e: "Dragon's Blood Cape"
+ wow_heroes.12.option.gold: "Gold"
+ 
+ wow_heroes.13.title: "Molten Core Survived!"
+ wow_heroes.13.desc: "With Ragnaros dead, our heroes were free to loot his corpse for any goodies they could find. Due to their poor efforts, none of the loot is of particularly high quality, and will crumble away in time. Alas, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.13.option.a: "Eye of Sulfuras"
+ wow_heroes.13.option.b: "Choker of the Fire Lord"
+ wow_heroes.13.option.c: "Crown of Destruction"
+ wow_heroes.13.option.d: "Essence of the Firelord"
+ wow_heroes.13.option.e: "Dragon's Blood Cape"
+ wow_heroes.13.option.gold: "Gold"
+ 
+ wow_heroes.14.title: "Naxxramas Cleared!"
+ wow_heroes.14.desc: "With Kel'Thuzad 'dead', our heroes were free to loot his corpse for any goodies they could find. For their efforts, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.14.option.a: "Kingsfall"
+ wow_heroes.14.option.b: "Might of Menethil"
+ wow_heroes.14.option.c: "Doomfinger"
+ wow_heroes.14.option.d: "The Hungering Cold"
+ wow_heroes.14.option.e: "Soulseeker"
+ wow_heroes.14.option.gold: "Gold"
+ 
+ wow_heroes.15.title: "Naxxramas Survived!"
+ wow_heroes.15.desc: "With Kel'Thuzad 'dead', our heroes were free to loot his corpse for any goodies they could find. Due to their poor efforts, none of the loot is of particularly high quality, and will crumble away in time. Alas, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.15.option.a: "Kingsfall"
+ wow_heroes.15.option.b: "Might of Menethil"
+ wow_heroes.15.option.c: "Doomfinger"
+ wow_heroes.15.option.d: "The Hungering Cold"
+ wow_heroes.15.option.e: "Soulseeker"
+ wow_heroes.15.option.gold: "Gold"
+ 
+ wow_heroes.16.title: "Sunwell Plateau Cleared!"
+ wow_heroes.16.desc: "With Kil'jaeden 'dead', our heroes were free to loot his corpse for any goodies they could find. For their efforts, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.16.option.legendary: "Thoridal, the Star's Fury"
+ wow_heroes.16.option.a: "Apolyon the Soul Render"
+ wow_heroes.16.option.b: "Hammer of Santification"
+ wow_heroes.16.option.c: "Sunflare"
+ wow_heroes.16.option.d: "Hand of the Deceiver"
+ wow_heroes.16.option.e: "Crux of the Apocalypse"
+ wow_heroes.16.option.gold: "Gold"
+ 
+ wow_heroes.17.title: "Sunwell Plateau Survived!"
+ wow_heroes.17.desc: "With Kil'jaeden 'dead', our heroes were free to loot his corpse for any goodies they could find. Due to their poor efforts, none of the loot is of particularly high quality, and will crumble away in time. Alas, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.17.option.a: "Apolyon the Soul Render"
+ wow_heroes.17.option.b: "Hammer of Santification"
+ wow_heroes.17.option.c: "Sunflare"
+ wow_heroes.17.option.d: "Hand of the Deceiver"
+ wow_heroes.17.option.e: "Crux of the Apocalypse"
+ wow_heroes.17.option.gold: "Gold"
+ 
+ wow_heroes.18.title: "Karazhan Cleared!"
+ wow_heroes.18.desc: "With Prince Malchezaar dead, our heroes were free to loot his corpse for any goodies they could find. For their efforts, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.18.option.a: "Gorehowl"
+ wow_heroes.18.option.b: "Light's Justice"
+ wow_heroes.18.option.c: "Malchazeen"
+ wow_heroes.18.option.d: "Talisman of Nightbane"
+ wow_heroes.18.option.e: "Girdle of Truth"
+ wow_heroes.18.option.gold: "Gold"
+ 
+ wow_heroes.19.title: "Karazhan Survived!"
+ wow_heroes.19.desc: "With Prince Malchezaar dead, our heroes were free to loot his corpse for any goodies they could find. Due to their poor efforts, none of the loot is of particularly high quality, and will crumble away in time. Alas, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.19.option.a: "Gorehowl"
+ wow_heroes.19.option.b: "Light's Justice"
+ wow_heroes.19.option.c: "Malchazeen"
+ wow_heroes.19.option.d: "Talisman of Nightbane"
+ wow_heroes.19.option.e: "Girdle of Truth"
+ wow_heroes.19.option.gold: "Gold"
+ 
+ wow_heroes.20.title: "Zul'Aman Cleared!"
+ wow_heroes.20.desc: "With Zul'jin dead, our heroes were free to loot his corpse for any goodies they could find. For their efforts, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.20.option.a: "Ancient Amani Longbow"
+ wow_heroes.20.option.b: "Grimgrin Faceguard"
+ wow_heroes.20.option.c: "Cleaver of the Unforgiving"
+ wow_heroes.20.option.d: "Blade of Twisted Visions"
+ wow_heroes.20.option.e: "Dark Blessing"
+ wow_heroes.20.option.gold: "Gold"
+ 
+ wow_heroes.21.title: "Zul'Aman Survived!"
+ wow_heroes.21.desc: "With Zul'jin dead, our heroes were free to loot his corpse for any goodies they could find. Due to their poor efforts, none of the loot is of particularly high quality, and will crumble away in time. Alas, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.21.option.a: "Ancient Amani Longbow"
+ wow_heroes.21.option.b: "Grimgrin Faceguard"
+ wow_heroes.21.option.c: "Cleaver of the Unforgiving"
+ wow_heroes.21.option.d: "Blade of Twisted Visions"
+ wow_heroes.21.option.e: "Dark Blessing"
+ wow_heroes.21.option.gold: "Gold"
+ 
+ wow_heroes.22.title: "Zul'Gurub Cleared!"
+ wow_heroes.22.desc: "With Hakkar the Soulflayer 'dead', our heroes were free to loot his corpse for any goodies they could find. For their efforts, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.22.option.a: "Aegis of the Blood God"
+ wow_heroes.22.option.b: "Touch of Chaos"
+ wow_heroes.22.option.c: "Heart of Hakkar"
+ wow_heroes.22.option.d: "Zin'rohk, Destroyer of Worlds"
+ wow_heroes.22.option.e: "Warblade of the Hakkari"
+ wow_heroes.22.option.gold: "Gold"
+ 
+ wow_heroes.23.title: "Zul'Gurub Survived!"
+ wow_heroes.23.desc: "With Hakkar the Soulflayer 'dead', our heroes were free to loot his corpse for any goodies they could find. Due to their poor efforts, none of the loot is of particularly high quality, and will crumble away in time. Alas, you've allowed them to keep most of the loot, but you wanted the following..."
+ wow_heroes.23.option.a: "Aegis of the Blood God"
+ wow_heroes.23.option.b: "Touch of Chaos"
+ wow_heroes.23.option.c: "Heart of Hakkar"
+ wow_heroes.23.option.d: "Zin'rohk, Destroyer of Worlds"
+ wow_heroes.23.option.e: "Warblade of the Hakkari"
+ wow_heroes.23.option.gold: "Gold"
+ 
  
  
