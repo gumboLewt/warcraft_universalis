@@ -1,9 +1,9 @@
 # 685 - The Forsaken Front.txt
 is_city = yes
 
-owner = A12
-controller = A12
-add_core = A12
+owner = F52
+controller = F52
+add_core = F52
 
 base_tax = 1
 base_production = 1

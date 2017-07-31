@@ -1,9 +1,9 @@
 # 1929 - Circle of West Binding.txt
 is_city = yes
 
-owner = A16
-controller = A16
-add_core = A16
+owner = R14
+controller = R14
+add_core = R14
 
 base_tax = 1
 base_production = 1

@@ -1,9 +1,9 @@
 # 2955 - Agamand's Crossing.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = R12
+controller = R12
+add_core = R12
 
 base_tax = 1
 base_production = 1

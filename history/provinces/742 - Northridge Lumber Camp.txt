@@ -1,9 +1,9 @@
 # 742 - Northridge Lumber Camp.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = R02
+controller = R02
+add_core = R02
 add_core = A09
 
 base_tax = 3

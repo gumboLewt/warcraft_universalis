@@ -1,9 +1,9 @@
 # 1988 - Dreadmaul Rock.txt
 is_city = yes
 
-owner = P56
-controller = P56
-add_core = P56
+owner = R18
+controller = R18
+add_core = R18
 
 base_tax = 4
 base_production = 4

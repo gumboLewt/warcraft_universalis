@@ -1,9 +1,9 @@
 # 3047 - Defilers Den.txt
 is_city = yes
 
-owner = A16
-controller = A16
-add_core = A16
+owner = R13
+controller = R13
+add_core = R13
 
 base_tax = 4
 base_production = 4

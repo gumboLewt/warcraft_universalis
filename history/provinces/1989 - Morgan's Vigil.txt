@@ -1,9 +1,9 @@
 # 1989 - Morgan's Vigil.txt
 is_city = yes
 
-owner = P56
-controller = P56
-add_core = P56
+owner = R15
+controller = R15
+add_core = R15
 
 base_tax = 4
 base_production = 4

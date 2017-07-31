@@ -1,9 +1,9 @@
 # 606 - Hammerfall.txt
 is_city = yes
 
-owner = A16
-controller = A16
-add_core = A16
+owner = R13
+controller = R13
+add_core = R13
 
 base_tax = 3
 base_production = 3

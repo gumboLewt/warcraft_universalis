@@ -1,9 +1,9 @@
 # 2991 - Sunwell.txt
 is_city = yes
 
-owner = A90
-controller = A90
-add_core = A90
+owner = R20
+controller = R20
+add_core = R20
 
 base_tax = 8
 base_production = 8

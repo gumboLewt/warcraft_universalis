@@ -63,6 +63,20 @@ H08 = "countries/Strahnbrad.txt"
 H09 = "countries/Ambermill.txt"
 P32 = "countries/White Pine.txt"
 R01 = "countries/Goldshire.txt"
+R02 = "countries/Hearthglen.txt"
+R03 = "countries/Blackwood.txt"
+R04 = "countries/Darrowshire.txt"
+R05 = "countries/Light's Hope.txt"
+R06 = "countries/Havenshire.txt"
+R07 = "countries/Scholomance.txt"
+R08 = "countries/Balnir.txt"
+R09 = "countries/Scarlet Zealots.txt"
+R10 = "countries/Brill.txt"
+R11 = "countries/Vandermar.txt"
+R12 = "countries/Agamand.txt"
+R13 = "countries/Hammerfall.txt"
+R14 = "countries/Northfold.txt"
+R15 = "countries/Morgan's Militia.txt"
 
 # Dwarven
 A28 = "countries/Wildhammer.txt"
@@ -76,11 +90,13 @@ F29 = "countries/Nesingwary.txt"            # Missing flag
 F59 = "countries/Bael Modan.txt"
 P22 = "countries/Aerie Peak.txt"
 H11 = "countries/Stormpike.txt"             # Missing flag
+R16 = "countries/Loch Modan.txt"
 
 # Gnomish
 A32 = "countries/Gnomeregan.txt"
 A33 = "countries/Thermaplugg Exiles.txt"
 G13 = "countries/Gnomish Expedition.txt"    # Missing flag
+R17 = "countries/Swiftgear.txt"
 
 # Orc
 A34 = "countries/Shadowmoon.txt"
@@ -131,6 +147,7 @@ F77 = "countries/Gronn.txt"                 # Missing flag
 F83 = "countries/Warmaul.txt"
 G20 = "countries/Spirestone.txt"            # Missing flag
 G30 = "countries/Icemaul.txt"               # Missing flag
+R18 = "countries/Firegut.txt"
 
 # Draenei
 A54 = "countries/Shattrath.txt"
@@ -198,6 +215,7 @@ A83 = "countries/Blackwater.txt"
 F81 = "countries/BOOM.txt"                  # Missing flag
 G34 = "countries/Tinkers Union.txt"         # Missing flag
 
+
 # Tauren
 A84 = "countries/Bloodhoof.txt" 
 A85 = "countries/Grimtotem.txt"             # Missing flag
@@ -219,6 +237,8 @@ F56 = "countries/Southvale.txt"
 B94 = "countries/Wretched.txt"              # Missing flag
 G16 = "countries/Silver Covenant.txt"       # Missing flag
 G43 = "countries/Shen'dralar.txt"           # Missing flag
+R20 = "countries/Sunwell Guard.txt"  
+R21 = "countries/Rangers.txt"  
 
 # Blood Elf
 A91 = "countries/Silvermoon.txt"

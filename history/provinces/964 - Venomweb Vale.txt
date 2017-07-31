@@ -1,9 +1,9 @@
 # 964 - Venomweb Vale.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = R09
+controller = R09
+add_core = R09
 
 base_tax = 2
 base_production = 2

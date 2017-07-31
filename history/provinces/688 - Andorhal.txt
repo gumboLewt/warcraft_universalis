@@ -1,9 +1,8 @@
 # 688 - Andorhal.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = A09
+controller = A09
 add_core = A09
 
 base_tax = 5

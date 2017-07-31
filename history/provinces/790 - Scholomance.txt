@@ -1,12 +1,12 @@
 # 790 - Scholomance.txt
 is_city = yes
 
-owner = A17
-controller = A17
-add_core = A17
+owner = R07
+controller = R07
+add_core = R07
 
-base_tax = 2
-base_production = 1
+base_tax = 4
+base_production = 2
 base_manpower = 3
 
 culture = culture_alterac

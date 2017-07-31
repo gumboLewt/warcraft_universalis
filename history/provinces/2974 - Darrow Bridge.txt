@@ -1,10 +1,9 @@
 # 2974 - Darrow Bridge.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
-add_core = P62
+owner = R05
+controller = R05
+add_core = R05
 
 base_tax = 1
 base_production = 1

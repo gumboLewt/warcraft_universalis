@@ -1,9 +1,8 @@
 # 2009 - Tol Barad Approach.txt
 is_city = yes
 
-owner = A16
-controller = A16
-add_core = A16
+owner = F04
+controller = F04
 add_core = F04
 
 base_tax = 1

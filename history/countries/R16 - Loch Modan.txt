@@ -1,0 +1,6 @@
+government 			= administrative_kingdom
+mercantilism 		= 10
+technology_group 	= tech_dwarven
+religion			= religion_church_of_the_light
+primary_culture 	= culture_ironforge
+capital 			= 1942

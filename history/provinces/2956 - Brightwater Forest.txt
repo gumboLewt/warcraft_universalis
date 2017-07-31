@@ -1,9 +1,9 @@
 # 2956 - Brightwater Forest.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = R10
+controller = R10
+add_core = R10
 
 base_tax = 2
 base_production = 1

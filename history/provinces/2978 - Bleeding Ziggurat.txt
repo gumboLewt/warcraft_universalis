@@ -1,9 +1,9 @@
 # 2978 - Bleeding Ziggurat.txt
 is_city = yes
 
-owner = A90
-controller = A90
-add_core = A90
+owner = R21
+controller = R21
+add_core = R21
 
 base_tax = 3
 base_production = 3

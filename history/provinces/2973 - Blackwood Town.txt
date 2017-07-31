@@ -1,12 +1,11 @@
 # 2973 - Blackwood Town.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
-add_core = A10
+owner = R03
+controller = R03
+add_core = R03
 
-base_tax = 1
+base_tax = 2
 base_production = 1
 base_manpower = 1
 

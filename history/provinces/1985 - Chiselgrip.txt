@@ -1,9 +1,9 @@
 # 1985 - Chiselgrip.txt
 is_city = yes
 
-owner = P56
-controller = P56
-add_core = P56
+owner = R18
+controller = R18
+add_core = R18
 
 base_tax = 3
 base_production = 3
