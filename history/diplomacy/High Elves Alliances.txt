@@ -27,3 +27,19 @@ march = {
 	start_date = 816.1.1
 	end_date = 906.1.1
 }
+
+# Quel-Thelas-Rangers
+alliance = {
+	first = A90
+	second = R21
+	start_date = 546.1.1
+	end_date = 1016.1.1
+}
+
+# Quel-Thelas-Sunwell Guard
+alliance = {
+	first = A90
+	second = R20
+	start_date = 546.1.1
+	end_date = 1016.1.1
+}
