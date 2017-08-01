@@ -15,6 +15,7 @@ lack_of_local_talent = {
 }
 
 searched_for_heroes = { }
+heir_training = { }
 
 #-----------------------------------
 # Eastern Kingdoms
