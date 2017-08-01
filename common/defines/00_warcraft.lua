@@ -79,11 +79,6 @@ NDefines.NCountry.MAX_CROWN_COLONIES = 9999
 NDefines.NDiplomacy.DAYS_TO_DECLARE_WAR = 0
 -- NDefines.NCountry.OVEREXTENSION_FACTOR = 0.1 -- 
 
-NDefines.NCountry.PS_MAKE_PROVINCE_CORE = 8     -- 80% of normal
-NDefines.NCountry.PS_CHANGE_CULTURE = 8
-NDefines.NCountry.MONTHS_TO_CORE = 12							-- How many months it will take to core a province.
-NDefines.NCountry.MONTHS_TO_CHANGE_CULTURE = 12					-- How many months it will take to change culture in a province, per development.
-
 NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.15		-- Multiplied with the province's development
 NDefines.NCountry.REVOLT_SIZE_BASE = 4
 
