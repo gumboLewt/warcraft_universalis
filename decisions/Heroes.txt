@@ -272,20 +272,14 @@ country_decisions = {
 		}
 		effect = {
             random_list = {
-                20 = {
-                    subtract_heroes_1 = yes
-                }
-                20 = {
-                    subtract_heroes_2 = yes
-                }
-                20 = {
+                10 = {
                     subtract_heroes_3 = yes
                 }
-                20 = {
-                    subtract_heroes_4 = yes
-                }
-                20 = {
+                80 = {
                     subtract_heroes_5 = yes
+                }
+                10 = {
+                    subtract_heroes_10 = yes
                 }
             }
           
