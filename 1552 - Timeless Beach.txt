@@ -1,0 +1,24 @@
+# 1552 - Timeless Beach.txt
+is_city = yes
+
+owner = A73
+controller = A73
+add_core = A73
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+culture = culture_sandfury
+religion = religion_voodoo
+
+trade_goods = naval_supplies
+hre = no
+
+906.1.1 = {
+owner = A19
+controller = A19
+add_core = A19
+religion = religion_church_of_the_light
+culture = culture_tirasian
+}
