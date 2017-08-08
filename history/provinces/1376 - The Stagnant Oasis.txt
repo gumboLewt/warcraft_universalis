@@ -54,7 +54,7 @@ hre = no
     controller = A19
     add_core = A19
     religion = religion_church_of_the_light
-    culture = culture_kul_tiran
+    culture = culture_tirasian
     capital = "Pirate Camps"
 }
 

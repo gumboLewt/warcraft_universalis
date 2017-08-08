@@ -104,7 +104,7 @@ gov_kingdom_kul_tiras = {
 			government = mercantile_kingdom
 			government = militaristic_kingdom
 		}
-		primary_culture = culture_kul_tiran
+		primary_culture = culture_tirasian
 	}
 }
 

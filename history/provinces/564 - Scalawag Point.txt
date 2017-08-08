@@ -28,6 +28,6 @@ hre = no
     controller = A20
     add_core = A20
     religion = religion_church_of_the_light
-    culture = culture_kul_tiran
+    culture = culture_tirasian
     trade_goods = pirates
 }

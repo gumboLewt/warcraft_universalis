@@ -10,7 +10,7 @@ base_tax = 2
 base_production = 3
 base_manpower = 3
 
-culture = culture_kul_tiran
+culture = culture_tirasian
 religion = religion_church_of_the_light
 
 trade_goods = naval_supplies

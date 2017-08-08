@@ -3,7 +3,7 @@ government 			= criminal_organisation
 mercantilism 		= 10
 technology_group 	= tech_human
 religion			= religion_shadow
-primary_culture 	= culture_kul_tiran
+primary_culture 	= culture_tirasian
 capital 			= 2472
 
 906.1.1 = {  

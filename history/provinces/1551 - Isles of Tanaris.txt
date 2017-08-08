@@ -21,7 +21,7 @@ controller = A21
 add_core = A21
 add_core = A80
 religion = religion_void
-culture = culture_kul_tiran
+culture = culture_tirasian
 capital = "Gadgetzan Water Co. Wells"
 }
 

@@ -5,7 +5,7 @@ mercantilism 		= 15 # Trader of Humanity on the West
 technology_group 	= tech_human
 religion			= religion_church_of_the_light
 primary_culture 	= culture_lordaeron
-add_accepted_culture = culture_kul_tiran
+add_accepted_culture = culture_tirasian
 add_accepted_culture = culture_high_elf
 capital 			 = 1456
 

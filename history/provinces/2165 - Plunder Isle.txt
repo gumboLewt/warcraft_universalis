@@ -20,5 +20,5 @@ hre = no
     controller = A15
     add_core = A15
     religion = religion_shadow
-    culture = culture_kul_tiran
+    culture = culture_tirasian
 }

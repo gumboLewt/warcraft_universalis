@@ -9,7 +9,7 @@ base_tax = 8
 base_production = 8
 base_manpower = 8
 
-culture = culture_kul_tiran
+culture = culture_tirasian
 religion = religion_shadow
 
 trade_goods = gold

@@ -35,7 +35,7 @@ capital 			= 2010
 		dip = 3
 		mil = 3 
  	} 
-	add_accepted_culture = culture_kul_tiran
+	add_accepted_culture = culture_tirasian
 }
  
 971.1.1 = { 

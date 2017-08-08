@@ -10,7 +10,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 3
 
-culture = culture_kul_tiran
+culture = culture_tirasian
 religion = religion_church_of_the_light
 
 trade_goods = lumber
@@ -27,7 +27,7 @@ hre = no
 816.1.1 = { 
 	owner = A14
 	controller = A14
-	# culture = culture_kul_tiran              # only occupied by Kul Tiras
+	# culture = culture_tirasian              # only occupied by Kul Tiras
 	# religion = religion_church_of_the_light  # too short time to convert
 }
 

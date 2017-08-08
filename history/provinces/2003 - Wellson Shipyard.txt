@@ -31,7 +31,7 @@ add_core = A14
 add_core = F04
 remove_core = A63
 remove_core = A16
-culture = culture_kul_tiran
+culture = culture_tirasian
 religion = religion_church_of_the_light 
 }
 

@@ -16,7 +16,7 @@ hre = no
 	controller = A23
 	owner = A23
 	add_core = A23
-	culture = culture_kul_tiran
+	culture = culture_tirasian
 	religion = religion_church_of_the_light
 
 	base_tax = 2

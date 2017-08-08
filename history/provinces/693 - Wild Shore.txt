@@ -19,6 +19,6 @@ hre = no
     owner = A15
     controller = A15
     add_core = A15
-    culture = culture_kul_tiran
+    culture = culture_tirasian
     religion = religion_shadow
 }
