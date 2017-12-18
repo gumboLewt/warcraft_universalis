@@ -39,9 +39,9 @@ NDefines.NReligion.CHANGE_SECONDARY_PRESTIGE_HIT = -50
 NDefines.NCountry.MONARCH_DEATH = 2
 
 
-NDefines.NCountry.ALLOW_FEMALE_GENERALS = 1 
-NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 0 -- Supporting female portraits is too much
-    
+NDefines.NCountry.ALLOW_FEMALE_GENERALS = 1
+NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 50
+
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_1 = 291
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_2 = 406
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_3 = 1
