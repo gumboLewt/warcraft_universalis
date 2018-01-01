@@ -198,4 +198,69 @@ diety_storm_magic = {
 	}	
 }
 
+#---------------------------------------------
+# Ancestral
+#---------------------------------------------
+diety_air = {
+	leader_land_fire = 1
+	diplomatic_reputation = 1
 
+	allow = { religion = religion_ancestral }
+	sprite = 3
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_air
+		}
+	}
+}
+
+diety_earth = {
+	siege_ability = 0.15
+	build_cost = -0.10
+
+	allow = { religion = religion_ancestral }
+	sprite = 2
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_earth
+	}
+}
+		}
+
+diety_fire = {
+	discipline = 0.05
+	global_tax_modifier = 0.15
+
+	allow = { religion = religion_ancestral }
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_fire
+		}
+	}
+}
+
+diety_water = {
+	global_sailors_modifier = 0.15
+	trade_efficiency = 0.15
+
+	allow = { religion = religion_ancestral }
+	sprite = 4
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			primary_culture = culture_water
+		}
+	}
+}
