@@ -1,7 +1,5 @@
 namespace = random_savage
 
-# is_savage
-
 # Warlust
 # Our citizens ache for war, and we must deliver it to them, lest they turn on their leaders. Denying them this right will result in massive unrest.
 # Attack!
@@ -15,10 +13,7 @@ country_event = {
     is_triggered_only = yes
 
 	trigger = {
-        OR = {
-            is_savage = yes
-            is_bug = yes
-        }
+        government = warband_gov
         is_at_war = no
         is_subject = no
         any_country = {
