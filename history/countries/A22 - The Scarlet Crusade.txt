@@ -24,7 +24,7 @@ capital 			= 979
 		dip = 3
 		mil = 5
 		female = yes
-		birth_date = 811.12.11
+		birth_date = 903.12.11
  	} 
 } 
 
@@ -37,7 +37,7 @@ capital 			= 979
 		dip = 3
 		mil = 3
         female = yes
-        birth_date = 836.8.11
+        birth_date = 924.8.11
  	} 
 }
 
@@ -51,6 +51,6 @@ capital 			= 979
 		dip = 1
 		mil = 4
         female = yes
-        birth_date = 796.8.11
+        birth_date = 952.8.11
  	} 
 }

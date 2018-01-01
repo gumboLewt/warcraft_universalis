@@ -15,7 +15,7 @@ capital 			= 935
 		dip = 3
 		mil = 5
 		female = yes
-		birth_date = 811.12.11
+		birth_date = 915.12.11
  	}
 capital 			= 539 
 } 

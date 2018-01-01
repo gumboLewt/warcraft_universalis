@@ -36,7 +36,7 @@ name = "Vosh'gajin"
 		dip = 4
 		mil = 3
            female = yes
-           birth_date = 811.12.11
+           birth_date = 903.12.11
  	} 
 } 
 
