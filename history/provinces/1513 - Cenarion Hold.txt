@@ -14,4 +14,3 @@ religion = religion_druidic
 
 trade_goods = army_supplies
 hre = no
-

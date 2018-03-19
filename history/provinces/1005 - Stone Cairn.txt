@@ -1,49 +1,33 @@
 # 1005 - Stone Cairn.txt
 is_city = yes
 
-owner = B15
-controller = B15
-add_core = B15
-add_core = A01
+owner = F11
+controller = F11
+add_core = F11
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_riverpaw
-religion = religion_geomancy
+culture = culture_nerglish
+religion = religion_water
 
 trade_goods = fish
 hre = no
 
-816.1.1 = {
-    is_city = no
-	owner = XXX
-	controller = XXX 
-}
-
-# The Third War
-901.1.1 = {
-    is_city = yes
-	owner = F11
-	controller = F11
-	add_core = F11
-	remove_core = B15
-	culture = culture_nerglish
-	religion = religion_water
-}
-
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	owner = A07
-	controller = A07 
+	controller = A07
 	add_core = A07
+  remove_core = F11
+
 	religion = religion_shadow
-	culture = culture_azerothian 
+	culture = culture_azerothian
 }
 
 # The Burning Crusade
-941.1.1 = { 
+941.1.1 = {
 	owner = F27
 	controller = F27
 	add_core = F27

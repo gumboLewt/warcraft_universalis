@@ -13,22 +13,24 @@ culture = culture_arathi
 religion = religion_church_of_the_light
 
 trade_goods = naval_supplies
-hre = no 
+hre = no
 
-906.1.1 = { 
+906.1.1 = {
 	owner = P09
 	controller = P09
-	add_core = P09 
-	# culture = culture_vashjari   # Occupation
-	# religion = religion_old_gods #
+	add_core = P09
+  remove_core = A16
+	culture = culture_vashjari
+	religion = religion_old_gods
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	owner = A83
 	controller = A83
 	add_core = A83
-	remove_core = P09 
+	remove_core = P09
+  culture = culture_blackwater
 	religion = religion_tech
 	trade_goods = pirates
 }

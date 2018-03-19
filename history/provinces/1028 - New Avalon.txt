@@ -13,22 +13,23 @@ culture = culture_lordaeron
 religion = religion_church_of_the_light
 
 trade_goods = grain_silo
-hre = no 
+hre = no
 
-906.1.1 = { 
-	add_core = P62
-	remove_core = A08
+906.1.1 = {
 	owner = P62
 	controller = P62
+	add_core = P62
+  remove_core = R06
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-	add_core = A22
-	remove_core = P62
+926.1.1 = {
 	owner = A22
 	controller = A22
-	religion = religion_scarlet_light 
+	add_core = A22
+	remove_core = P62
+
+	religion = religion_scarlet_light
 }
 
 # Wrath of the Lich King
@@ -36,11 +37,12 @@ hre = no
 	owner = P13
 	controller = P13
 	add_core = P13
-	remove_core = A08
-	remove_core = P62
-	culture = culture_death_knight
-	religion = religion_forgotten_shadow
+	remove_core = A22
+
 	base_tax = 1
 	base_manpower = 1
 	base_production = 1
+
+	culture = culture_death_knight
+	religion = religion_forgotten_shadow
 }

@@ -19,4 +19,5 @@ hre = no
 	owner = B87
 	controller = B87
 	add_core = B87
+  remove_core = F74
 }

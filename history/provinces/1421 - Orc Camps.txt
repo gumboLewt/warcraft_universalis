@@ -15,23 +15,30 @@ religion = religion_earth
 trade_goods = fur
 hre = no
 
-906.1.1 = { 
-	owner = B69
-	controller = B69
-	add_core = B69
+906.1.1 = {
+  owner = B69
+  controller = B69
+  add_core = B69
+  remove_core = B21
+
+  culture = culture_razormane
   religion = religion_geomancy
-capital = "Razormane Outpost"
+  capital = "Razormane Outpost"
 }
 
-926.1.1 = { 
-owner = A48
-controller = A48
-add_core = A48 
-culture = culture_horde
-religion = religion_ancestral
-base_tax = 2
-base_manpower = 2
-base_production = 2
-capital = "Grol'dom Farm"
-trade_goods = grain
+926.1.1 = {
+  owner = A48
+  controller = A48
+  add_core = A48
+  remove_core = B69
+
+  base_tax = 2
+  base_production = 2
+  base_manpower = 2
+
+  culture = culture_horde
+  religion = religion_ancestral
+  capital = "Grol'dom Farm"
+
+  trade_goods = grain
 }

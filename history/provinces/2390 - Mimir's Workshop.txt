@@ -17,5 +17,4 @@ hre = no
 
 971.1.1 = {
 	religion = religion_titan
-	culture = culture_mecha_gnome
 }

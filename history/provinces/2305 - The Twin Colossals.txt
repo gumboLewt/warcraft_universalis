@@ -1,5 +1,6 @@
 # 2305 - The Twin Colossals.txt
 is_city = yes
+
 owner = A86
 controller = A86
 add_core = A86

@@ -14,4 +14,3 @@ religion = religion_voodoo
 
 trade_goods = fur
 hre = yes
-

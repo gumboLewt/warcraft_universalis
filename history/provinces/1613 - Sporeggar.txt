@@ -14,11 +14,3 @@ religion = religion_zangar
 
 trade_goods = glowcap
 hre = no
-
-821.1.1 = {
-
-}
-
-
-
-

@@ -13,14 +13,14 @@ culture = culture_lordaeron
 religion = religion_church_of_the_light
 
 trade_goods = smugglers
-hre = no 
+hre = no
 
-906.1.1 = { 
-	add_core = P14
-	add_core = P52
-	remove_core = A08
+906.1.1 = {
 	owner = P14
 	controller = P14
+  add_core = P14
+  remove_core = R11
+
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 }

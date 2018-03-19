@@ -1,6 +1,9 @@
 # 1065 - Rutheran Village.txt
 is_city = no
 
+owner = XXX
+controller = XXX
+
 native_size = 10
 native_ferocity = 10
 native_hostileness = 10
@@ -16,12 +19,13 @@ trade_goods = naval_supplies
 hre = no
 
 926.1.1 = {
+	is_city = yes
+
 	owner = A94
 	controller = A94
 	add_core = A94
-	is_city = yes
-    
-    base_tax = 3
-    base_manpower = 3
-    base_production = 3
+
+  base_tax = 3
+  base_manpower = 3
+  base_production = 3
 }

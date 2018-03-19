@@ -15,22 +15,26 @@ religion = religion_geomancy
 trade_goods = grain
 hre = no
 
-906.1.1 = { 
+906.1.1 = {
 	owner = A48
 	controller = A48
-	add_core = A48 
+	add_core = A48
+  remove_core = B69
+
 	culture = culture_horde
 	religion = religion_ancestral
 }
 
-976.6.1 = { 
+976.6.1 = {
 	owner = A70
 	controller = A70
-	add_core = A70 
+	add_core = A70
+  remove_core = A48
 }
 
-981.1.1 = { 
+981.1.1 = {
 	owner = A48
 	controller = A48
-	remove_core = A70 
+  add_core = A48
+	remove_core = A70
 }

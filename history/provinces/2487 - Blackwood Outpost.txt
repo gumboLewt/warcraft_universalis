@@ -16,9 +16,11 @@ trade_goods = fur
 hre = no
 
 946.1.1 = {
-owner = H06
-controller = H06
-add_core = H06
-culture = culture_azerothian
-religion = religion_church_of_the_light
+  owner = H06
+  controller = H06
+  add_core = H06
+  remove_core = B46
+
+  culture = culture_azerothian
+  religion = religion_church_of_the_light
 }

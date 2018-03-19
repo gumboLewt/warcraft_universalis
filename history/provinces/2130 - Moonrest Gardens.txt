@@ -16,15 +16,13 @@ trade_goods = arcane
 hre = no
 
 946.1.1 = {
-owner = B01
-controller = B01
-add_core = B01
-culture = culture_dalaran
-religion = religion_arcane
-base_manpower = 2
+  owner = B01
+  controller = B01
+  add_core = B01
+  remove_core = P73
+
+  base_manpower = 2
+
+  culture = culture_dalaran
+  religion = religion_arcane
 }
-
-
-
-
-

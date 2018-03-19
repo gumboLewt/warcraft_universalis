@@ -10,28 +10,28 @@ base_production = 3
 base_manpower = 3
 
 culture = culture_shattered_hand
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = stone
 hre = no
 
-776.1.1 = {
-	religion = religion_fel
-}
-
 # The Frozen Throne
-906.1.1 = { 
+906.1.1 = {
 	owner = A93
 	controller = A93
 	add_core = A93
-	culture = culture_blood_elf # Maybe they was part of High Elven Expedition in 601 ?
+  remove_core = A36
+
+	culture = culture_blood_elf
 	religion = religion_arcane
+
 	trade_goods = arcane
 }
 
-# The Burning Crusade	
+# The Burning Crusade
 941.1.1 = {
 	owner = A91
 	controller = A91
 	add_core = A91
+  remove_core = A93
 }

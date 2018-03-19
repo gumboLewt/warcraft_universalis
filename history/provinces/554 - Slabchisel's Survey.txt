@@ -15,28 +15,13 @@ religion = religion_geomancy
 trade_goods = fossils
 hre = no
 
-806.1.1 = { 
-owner = A40
-controller = A40
-add_core = A40
-culture = culture_bleeding_hollow 
-religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = { 
-owner = B13
-controller = B13
-remove_core = A40
-culture = culture_mosshide
-religion = religion_geomancy
-}
-
 # Cataclysm
-971.1.1 = { 
-owner = A29
-controller = A29
-add_core = A29
-culture = culture_ironforge
-religion = religion_mystery_of_the_makers 
+971.1.1 = {
+  owner = A29
+  controller = A29
+  add_core = A29
+  remove_core = B13
+
+  culture = culture_ironforge
+  religion = religion_mystery_of_the_makers
 }

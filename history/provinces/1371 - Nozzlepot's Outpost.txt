@@ -1,44 +1,37 @@
 # 1371 - Nozzlepot's Outpost.txt
 is_city = yes
 
-owner = A84
-controller = A84
-add_core = A84
+owner = B21
+controller = B21
+add_core = B21
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_bloodhoof
-religion = religion_ancestral
+culture = culture_gelkis
+religion = religion_earth
 
 trade_goods = oil
 hre = no
-
-806.1.1 = {
-  owner = B21
-  controller = B21
-  add_core = B21
-  remove_core = A84
-
-  culture = culture_gelkis
-  religion = religion_earth
-}
 
 926.1.1 = {
   owner = A81
   controller = A81
   add_core = A81
   remove_core = B21
+
   culture = culture_venture
   religion = religion_greed
 }
 
 971.1.1 = {
-owner = A79
-controller = A79
-add_core = A79
-culture = culture_bilgewater
-capital = "Nozzlepot's Outpost"
-religion = religion_tech
+  owner = A79
+  controller = A79
+  add_core = A79
+  remove_core = A81
+
+  culture = culture_bilgewater
+  religion = religion_tech
+  capital = "Nozzlepot's Outpost"
 }

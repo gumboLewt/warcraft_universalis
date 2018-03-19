@@ -16,10 +16,16 @@ trade_goods = oil
 hre = no
 
 976.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    culture = culture_bog_beast
-    religion = religion_shadow
-}
+  is_city = no
 
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
+  owner = XXX
+  controller = XXX
+  remove_core = P89
+
+  culture = culture_bog_beast
+  religion = religion_shadow
+}

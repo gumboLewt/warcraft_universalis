@@ -14,4 +14,3 @@ religion = religion_earth
 
 trade_goods = fossils
 hre = no
-

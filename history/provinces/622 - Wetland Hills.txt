@@ -14,4 +14,3 @@ religion = religion_water
 
 trade_goods = fur
 hre = no
-

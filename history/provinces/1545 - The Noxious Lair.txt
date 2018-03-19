@@ -15,10 +15,12 @@ religion = religion_voodoo
 trade_goods = fossils
 hre = no
 
-926.1.1 = { 
+926.1.1 = {
 	owner = A98
 	controller = A98
 	add_core = A98
+  remove_core = A73
+
 	culture = culture_silithid
 	religion = religion_old_gods
 }

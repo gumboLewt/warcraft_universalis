@@ -15,10 +15,12 @@ religion = religion_ancestral
 trade_goods = fish
 hre = no
 
-941.1.1 = { 
+941.1.1 = {
 	owner = A56
 	controller = A56
-	add_core = A56 
+	add_core = A56
+  remove_core = B43
+
 	culture = culture_karaborian
 	religion = religion_light_of_the_naaru
 }

@@ -9,19 +9,17 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 
-culture = culture_bleeding_hollow 
-religion = religion_ancestral
+culture = culture_bleeding_hollow
+religion = religion_fel
 
 trade_goods = fel
 hre = no
 
-776.1.1 = {
-	religion = religion_fel
-}
-
-941.1.1 = { 
+941.1.1 = {
 	owner = A93
 	controller = A93
 	add_core = A93
+  remove_core = A40
+
 	culture = culture_felblood_elf
 }

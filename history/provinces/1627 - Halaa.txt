@@ -16,9 +16,11 @@ hre = no
 trade_goods = artifacts
 
 926.1.1 = {
-    add_core = F83
-    owner = F83
-    controller = F83
-    culture = culture_warmaul
-    religion = religion_earth
+  owner = F83
+  controller = F83
+  add_core = F83
+  remove_core = A46
+
+  culture = culture_warmaul
+  religion = religion_earth
 }

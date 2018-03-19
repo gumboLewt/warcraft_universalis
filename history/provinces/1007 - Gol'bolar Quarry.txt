@@ -19,7 +19,7 @@ hre = no
 	owner = F24
 	controller = F24
 	add_core = F24
+
 	culture = culture_trogg
 	religion = religion_geomancy
 }
-

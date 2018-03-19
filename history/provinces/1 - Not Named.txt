@@ -1,8 +1,8 @@
 # 1 - Not Named.txt
 is_city = no
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
@@ -13,4 +13,3 @@ religion = religion_ancestral
 
 trade_goods = unknown
 hre = no
-

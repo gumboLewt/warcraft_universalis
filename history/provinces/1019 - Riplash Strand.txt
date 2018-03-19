@@ -15,9 +15,12 @@ religion = religion_old_gods
 trade_goods = fish
 hre = no
 
-946.1.1 = { 
-owner = B10
-controller = B10
-add_core = B10
-culture = culture_skadir
-religion = religion_water }
+946.1.1 = {
+  owner = B10
+  controller = B10
+  add_core = B10
+  remove_core = P08
+
+  culture = culture_skadir
+  religion = religion_water
+}

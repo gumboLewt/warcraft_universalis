@@ -1,29 +1,19 @@
 # 1940 - Raptor Ridge.txt
-is_city = yes
+is_city = no
 
-owner = J10
-controller = J10
-add_core = J10
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_black
-religion = religion_sect_of_dragons
+culture = culture_bog_best
+religion = religion_druidic
 
 trade_goods = mounts
 hre = no
-
-816.1.1 = { 
-    is_city = no
-    owner = XXX
-    controller = XXX
-    remove_core = A43
-    culture = culture_bog_beast 
-    religion = religion_druidic
-}
-
-976.1.1 = {
-    remove_core = A99
-}

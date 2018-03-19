@@ -15,11 +15,13 @@ religion = religion_ancestral
 trade_goods = fur
 hre = no
 
-906.1.1 = { 
+906.1.1 = {
+	owner = A23
+	controller = A23
+	add_core = A23
+  remove_core = A85
+
 	culture = culture_lordaeron
 	religion = religion_church_of_the_light
-	controller = A23
-	owner = A23
-	add_core = A23
 	capital = "Swamplight Manor"
 }

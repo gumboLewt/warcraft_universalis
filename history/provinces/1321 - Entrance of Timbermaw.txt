@@ -16,13 +16,16 @@ trade_goods = lumber
 hre = no
 
 926.1.1 = {
-owner = B40
-controller = B40
-add_core = B40
-base_tax = 3
-base_manpower = 3
-base_production = 3
-culture = culture_deadwood
-religion = religion_fel
-capital = "Felpaw village"
+  owner = B40
+  controller = B40
+  add_core = B40
+  remove_core = B42
+
+  base_tax = 3
+  base_production = 3
+  base_manpower = 3
+
+  culture = culture_deadwood
+  religion = religion_fel
+  capital = "Felpaw village"
 }

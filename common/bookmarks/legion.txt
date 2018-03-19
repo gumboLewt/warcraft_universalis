@@ -6,14 +6,11 @@
 
 bookmark =
 {
-	name = "SECOND_WAR_NAME"
-	desc = "SECOND_WAR_DESC"
-	date = 806.1.1
-    
-    country = A01
-    country = A41
-    country = A90
-    country = A08
-    country = A16
-    country = A18
+	name = "LEGION_NAME"
+	desc = "LEGION_DESC"
+	date = 987.1.1
+
+  country = B92
+  country = P14
+  country = A12
 }

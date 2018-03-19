@@ -15,20 +15,20 @@ religion = religion_arcane
 trade_goods = arcane
 hre = no
 
-946.1.1 = { owner = A92
-controller = A92
-add_core = A92
-culture = culture_blood_elf
+946.1.1 = {
+  owner = A92
+  controller = A92
+  add_core = A92
+  remove_core = P77
+
+  culture = culture_blood_elf
 }
 
-976.1.1 = { owner = G16
-controller = G16
-add_core = G16
-remove_core = A92
-culture = culture_high_elf
+976.1.1 = {
+  owner = G16
+  controller = G16
+  add_core = G16
+  remove_core = A92
+
+  culture = culture_high_elf
 }
-
-
-
-
-

@@ -1,39 +1,27 @@
 # 2963 - Olsen's Farthing.txt
-is_city = yes 
+is_city = yes
 
-owner = F52
-controller = F52
-add_core = F52
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 2
 base_production = 3
 base_manpower = 1
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = grain
-hre = no 
-
-901.1.1 = {
-	owner = P52 
-	controller = P52
-	add_core = P52
-	religion = religion_the_damned
-	culture = culture_scourge
-	remove_core = A12
-}
-
-# The Frozen Throne
-906.1.1 = {
-	remove_core = A08
-}
+hre = no
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
 	owner = F53
 	controller = F53
 	add_core = F53
-	religion = religion_church_of_the_light
+  remove_core = P52
+
 	culture = culture_gilnean_worgen
+	religion = religion_church_of_the_light
 }

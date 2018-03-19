@@ -1,34 +1,27 @@
 # 1938 - Shaol'watha.txt
-is_city = yes 
+is_city = yes
 
-owner = A61
-controller = A61
-add_core = A61
+owner = A60
+controller = A60
+add_core = A60
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_revantusk
+culture = culture_vilebranch
 religion = religion_voodoo
 
 trade_goods = lumber
-hre = no 
-
-901.1.1 = { 
-add_core = A60 
-owner = A60 
-controller = A60 
-culture = culture_vilebranch
- } 
-
+hre = no
 
 # Cataclysm
 971.1.1 = {
-owner = A61 
-controller = A61 
-culture = culture_revantusk 
-religion = religion_loa
+  owner = A61
+  controller = A61
+  add_core = A60
+  remove_core = A61
+
+  culture = culture_revantusk
+  religion = religion_loa
 }
-
-

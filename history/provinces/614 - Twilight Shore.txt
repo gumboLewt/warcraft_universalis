@@ -15,19 +15,22 @@ religion = religion_ancestral
 trade_goods = fish
 hre = no
 
-971.1.1 = { 
-owner = A48
-controller = A48
-add_core = A48
-culture = culture_horde
-religion = religion_ancestral
+971.1.1 = {
+  owner = A48
+  controller = A48
+  add_core = A48
+  remove_core = A28
+
+  culture = culture_horde
+  religion = religion_ancestral
 }
 
-976.1.1 = { 
-owner = A01
-controller = A01
-add_core = A01
-remove_core = A48
-religion = religion_church_of_the_light
-culture = culture_azerothian
+976.1.1 = {
+  owner = A01
+  controller = A01
+  add_core = A01
+  remove_core = A48
+
+  religion = religion_church_of_the_light
+  culture = culture_azerothian
 }

@@ -1,43 +1,36 @@
 # 1690 - Death's Door.txt
 is_city = yes
 
-owner = A37
-controller = A37
-add_core = A37
+owner = B89
+controller = B89
+add_core = B89
 
 base_tax = 3
 base_production = 3
 base_manpower = 4
 
-culture = culture_thunderlord
-religion = religion_ancestral
+culture = culture_fel_orc
+religion = religion_fel
 
 trade_goods = fel
 hre = no
 
-776.1.1 = {
-    religion = religion_fel
-}
+906.1.1 = {
+  is_city = no
 
-#Outland
-821.1.1 = {
-    owner = B89
-    controller = B89
-    add_core = B89
-    culture = culture_fel_orc
-    remove_core = A37
-}
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
 
-906.1.1 = { 
-    is_city = no
-    owner = XXX
-    controller = XXX
-    remove_core = B89
+  owner = XXX
+  controller = XXX
+  remove_core = B89
 }
 
 941.1.1 = {
-    is_city = yes
-    owner = B92
-    controller = B92
-    add_core = B92
+  is_city = yes
+
+  owner = B92
+  controller = B92
+  add_core = B92
 }

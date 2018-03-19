@@ -1,42 +1,30 @@
 # 1709 - Manaforge Duro.txt
-is_city = yes
+is_city = no
 
-owner = A54
-controller = A54
-add_core = A54
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 3
 base_production = 4
 base_manpower = 2
 
-culture = culture_shattrathi
-religion = religion_light_of_the_naaru
+culture = culture_twilights_hammer
+religion = religion_fel
 
 trade_goods = arcane
 hre = no
 
-776.1.1 = {
-	add_core = A43
-	owner = A43
-	controller = A43
-	remove_core = A54
-	religion = religion_fel
-	culture = culture_twilights_hammer
-}
-
-901.1.1 = {
-    is_city = no
-	remove_core = A43
-	owner = XXX
-	controller = XXX
-}
-
 926.1.1 = {
-    is_city = yes
+  is_city = yes
+
 	owner = A93
 	controller = A93
 	add_core =  A93
-	remove_core = A43
+
 	culture = culture_blood_elf
 	religion = religion_fel
 }

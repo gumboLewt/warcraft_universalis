@@ -16,9 +16,11 @@ trade_goods = army_supplies
 hre = no
 
 926.1.1 = {
-    owner = A33
-    controller = A33
-    add_core = A33
-    culture = culture_leper_gnome
-    religion = religion_greed
+  owner = A33
+  controller = A33
+  add_core = A33
+  remove_core = A32
+
+  culture = culture_leper_gnome
+  religion = religion_greed
 }

@@ -15,10 +15,12 @@ religion = religion_old_gods
 trade_goods = fur
 hre = no
 
-941.1.1 = { 
-owner = P30
-controller = P30
-add_core = P30
-culture = culture_lordaeron_worgen
-religion = religion_shadow }
+941.1.1 = {
+  owner = P30
+  controller = P30
+  add_core = P30
+  remove_core = B46
 
+  culture = culture_lordaeron_worgen
+  religion = religion_shadow
+}

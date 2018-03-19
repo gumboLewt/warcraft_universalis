@@ -1,25 +1,16 @@
 # 1669 - The Hand of Gul'dan.txt
 is_city = yes
 
-owner = A55
-controller = A55
-add_core = A55
+owner = A34
+controller = A34
+add_core = A34
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_karaborian
-religion = religion_light_of_the_naaru
+culture = culture_shadowmoon
+religion = religion_ancestral
 
 trade_goods = fel_iron
 hre = no
-
-776.1.1 = {
-   owner = A34
-    controller = A34
-    add_core = A34
-    remove_core = A55
-    culture = culture_shadowmoon
-    religion = religion_ancestral
-}

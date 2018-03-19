@@ -14,4 +14,3 @@ religion = religion_titan
 
 trade_goods = warbeasts
 hre = no
-

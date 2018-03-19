@@ -15,23 +15,26 @@ religion = religion_ancestral
 trade_goods = fur
 hre = no
 
-926.1.1 = { 
+926.1.1 = {
 	controller = F59
 	owner = F59
 	add_core = F59
+  remove_core = F01
+
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+
 	culture = culture_ironforge
 	religion = religion_mystery_of_the_makers
 	capital = "Bael'dun Keep"
-	base_tax = 5
-	base_manpower = 5
-	base_production = 5
-        trade_goods = artifacts
-	is_city = yes
+
+  trade_goods = artifacts
 }
 
 # Damaged after being partly blown up
-976.1.1 = { 
+976.1.1 = {
 	base_tax = 3
+	base_production = 3
 	base_manpower = 3
-	base_production = 4
 }

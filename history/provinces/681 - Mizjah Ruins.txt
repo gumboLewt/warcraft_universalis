@@ -16,16 +16,24 @@ trade_goods = artifacts
 hre = no
 
 926.1.1 = {
-    owner = F31
-    controller = F31
-    add_core = F31
-    religion = religion_geomancy
-    culture = culture_moshogg
+  owner = F31
+  controller = F31
+  add_core = F31
+  remove_core = A67
+
+  religion = religion_geomancy
+  culture = culture_moshogg
 }
 
-976.1.1 = { 
-    is_city = no
-    owner = XXX
-    controller = XXX 
+976.1.1 = {
+  is_city = no
+
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
+  owner = XXX
+  controller = XXX
+  remove_core = F31
 }
 

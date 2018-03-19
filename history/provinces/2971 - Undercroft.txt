@@ -1,47 +1,38 @@
 # 2971 - Undercroft.txt
 is_city = yes
 
-owner = P55
-controller = P55
-add_core = P55
-add_core = P62
+owner = A08
+controller = A08
 add_core = A08
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_shadowglen
-religion = religion_voodoo
+culture = culture_lordaeron
+religion = religion_church_of_the_light
 
 trade_goods = crypts
 hre = no
 
-776.1.1 = { 
-	remove_core = P55
-	owner = A08
-	controller = A08
-	culture = culture_lordaeron
-	religion = religion_church_of_the_light 
-}
-
 # The Frozen Throne
-906.1.1 = { 
-	add_core = A62
-	add_core = P52
+906.1.1 = {
 	owner = A62
 	controller = A62
-	religion = religion_voodoo
+	add_core = A62
+	remove_core = A08
+
 	culture = culture_mossflayer
-	remove_core = A08 
-	remove_core = P62
+	religion = religion_voodoo
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-	remove_core = A62
+926.1.1 = {
 	owner = P52
 	controller = P52
+  add_core = P52
+	remove_core = A62
+
+	culture = culture_undead_troll
 	religion = religion_the_damned
-	culture = culture_undead_troll 
 }

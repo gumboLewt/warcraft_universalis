@@ -1,5 +1,5 @@
 # 537 - Lower Jintha'alor.txt
-is_city = yes 
+is_city = yes
 
 owner = A60
 controller = A60
@@ -13,21 +13,18 @@ culture = culture_vilebranch
 religion = religion_voodoo
 
 trade_goods = iron
-hre = no 
+hre = no
 
-926.1.1 = { 
-	religion = religion_hakkari 
-}
-
-# Cataclysm
-971.1.1 = { 
-	add_core = A61 
+926.1.1 = {
+	religion = religion_hakkari
 }
 
 # Mists of Pandaria
-976.1.1 = { 
+976.1.1 = {
 	owner = A61
 	controller = A61
+	add_core = A61
+
 	culture = culture_revantusk
 	religion = religion_loa
 }

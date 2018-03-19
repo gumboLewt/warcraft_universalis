@@ -15,11 +15,12 @@ religion = religion_voodoo
 trade_goods = army_supplies
 hre = yes
 
-976.1.1 = { 
-    owner = A48
-    controller = A48
-    add_core = A48
-    culture = culture_horde
-    religion = religion_ancestral
-}
+976.1.1 = {
+  owner = A48
+  controller = A48
+  add_core = A48
+  remove_core = P83
 
+  culture = culture_horde
+  religion = religion_ancestral
+}

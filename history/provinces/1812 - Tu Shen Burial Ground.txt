@@ -15,13 +15,12 @@ religion = religion_celestial
 trade_goods = crypts
 hre = yes
 
-976.1.1 = { 
-    owner = P42
-    controller = P42
-    add_core = P42
-    culture = culture_shao_tien
-    religion = religion_titan_corrupt
+976.1.1 = {
+  owner = P42
+  controller = P42
+  add_core = P42
+  remove_core = F02
+
+  culture = culture_shao_tien
+  religion = religion_titan_corrupt
 }
-
-
-

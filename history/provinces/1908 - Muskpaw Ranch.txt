@@ -16,11 +16,11 @@ trade_goods = mounts
 hre = yes
 
 976.1.1 = {
-    owner = P47
-    controller = P47
-    add_core = P47
-    culture = culture_burilgi
-    religion = religion_fire
+  owner = P47
+  controller = P47
+  add_core = P47
+  remove_core = P66
+
+  culture = culture_burilgi
+  religion = religion_fire
 }
-
-

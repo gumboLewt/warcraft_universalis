@@ -15,13 +15,16 @@ religion = religion_air
 trade_goods = iron
 hre = no
 
-926.1.1 = { 
-culture = culture_venture
-religion = religion_greed
-base_tax = 4
-base_manpower = 3
-base_production = 4
-owner = A81
-controller = A81
-add_core = A81
+926.1.1 = {
+  owner = A81
+  controller = A81
+  add_core = A81
+  remove_core = G05
+
+  base_tax = 4
+  base_production = 4
+  base_manpower = 3
+
+  culture = culture_venture
+  religion = religion_greed
 }

@@ -1,8 +1,12 @@
 # 2132 - Fordragon Hold.txt
 is_city = no
+
 native_size = 10
 native_ferocity = 10
 native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
@@ -15,22 +19,17 @@ trade_goods = unknown
 hre = no
 
 946.1.1 = {
-    owner = H06
-    controller = H06
-    add_core = H06
-    
-    base_tax = 4
-    base_production = 4
-    base_manpower = 4
+  owner = H06
+  controller = H06
+  add_core = H06
 
-    culture = culture_azerothian
-    religion = religion_church_of_the_light
-    trade_goods = army_supplies
-    
-    capital = "Fordragon Hold"
+  base_tax = 4
+  base_production = 4
+  base_manpower = 4
+
+  culture = culture_azerothian
+  religion = religion_church_of_the_light
+  capital = "Fordragon Hold"
+
+  trade_goods = army_supplies
 }
-
-
-
-
-

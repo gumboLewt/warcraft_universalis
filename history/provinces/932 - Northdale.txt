@@ -1,56 +1,36 @@
 # 932 - Northdale.txt
 is_city = yes
 
-owner = A62
-controller = A62
-add_core = A62
-add_core = A10
-add_core = A08
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_mossflayer 
-religion = religion_voodoo
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = grain
-hre = no 
-
-801.1.1 = { 
-	owner = A08
-	controller = A08
-	add_core = A08
-	add_core = A10
-	religion = religion_church_of_the_light
-	culture = culture_lordaeron 
-}
-
-# The Third War
-901.1.1 = { 
-	add_core = P52
-	owner = P52
-	controller = P52
-	culture = culture_scourge
-	religion = religion_the_damned 
-}
+hre = no
 
 # The Frozen Throne
-906.1.1 = { 
-	add_core = A62
+906.1.1 = {
 	owner = A62
 	controller = A62
-	religion = religion_voodoo
+	add_core = A62
+
 	culture = culture_mossflayer
-	remove_core = A08
-	remove_core = A10
+	religion = religion_voodoo
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-	remove_core = A62
+926.1.1 = {
 	owner = P52
 	controller = P52
+	remove_core = A62
+
+	culture = culture_undead_troll
 	religion = religion_the_damned
-	culture = culture_undead_troll 
 }

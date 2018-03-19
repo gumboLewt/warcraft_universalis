@@ -1,6 +1,12 @@
 # 2128 - Winter's Edge Tower.txt
 is_city = yes
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
@@ -11,4 +17,3 @@ religion = religion_air
 
 trade_goods = grain
 hre = no
-

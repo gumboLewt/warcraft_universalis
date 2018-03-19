@@ -13,5 +13,4 @@ culture = culture_arathi
 religion = religion_church_of_the_light
 
 trade_goods = cloth
-hre = no 
-
+hre = no

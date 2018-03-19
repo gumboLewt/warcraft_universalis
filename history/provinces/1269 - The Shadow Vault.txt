@@ -1,48 +1,34 @@
 # 1269 - The Shadow Vault.txt
 is_city = yes
 
-owner = P17
-controller = P17
-add_core = P17
+owner = P11
+controller = P11
+add_core = P11
 
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 4
 
-culture = culture_mjordin
-religion = religion_titan
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = artifacts
 hre = no
 
-866.1.1 = { 
-	add_core = P11
-	owner = P11
-    controller = P11
-	culture = culture_scourge
-	religion = religion_the_damned
-	base_tax = 3
-	base_manpower = 4
-	base_production = 3
-}
-
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	base_tax = 5
-	base_manpower = 6
 	base_production = 5
+	base_manpower = 6
 }
 
 # Wrath of the Lich King
-946.1.1 = { 
+946.1.1 = {
 	owner = P13
 	controller = P13
 	add_core = P13
-	religion = religion_forgotten_shadow
-	culture = culture_death_knight 
-}
-
-# Cataclysm
-971.1.1 = {
 	remove_core = P11
+
+	religion = religion_forgotten_shadow
+	culture = culture_death_knight
 }

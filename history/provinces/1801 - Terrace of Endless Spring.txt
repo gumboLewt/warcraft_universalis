@@ -16,18 +16,23 @@ trade_goods = artifacts
 hre = yes
 
 976.1.1 = {
-    owner = B84
-    controller = B84
-    add_core = B84
-    religion = religion_old_gods
+  owner = B84
+  controller = B84
+  add_core = B84
+
+  religion = religion_old_gods
 }
 
 # Warlords of Draenor
-981.1.1 = { 
-    is_city = no
-    owner = XXX
-    controller = XXX
-    remove_core = B84
-    remove_core = P37
-}
+981.1.1 = {
+  is_city = no
 
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
+  owner = XXX
+  controller = XXX
+  remove_core = B84
+  remove_core = P37
+}

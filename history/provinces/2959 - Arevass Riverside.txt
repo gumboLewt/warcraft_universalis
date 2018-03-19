@@ -1,51 +1,27 @@
 # 2959 - Arevass Riverside.txt
-is_city = yes 
+is_city = yes
 
-owner = H09
-controller = H09
-add_core = H09
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = fish
-hre = no 
-
-901.1.1 = {
-	owner = A08
-	controller = P52
-	remove_core = A12
-	base_manpower = 2
-}
-
-# The Frozen Throne
-906.1.1 = {
-	owner = A25
-	controller = A25
-	add_core = A25
-	add_core = P52
-	remove_core = A08
-}
-
-# Reconquest of Lordaeron (TFT)
-916.7.1 = { 
-	controller = P52
-}
-
-# War of Lordaeron (TFT)
-916.9.1 = {
-	controller = P14
-}
+hre = no
 
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	owner = P14
+  controller = P14
 	add_core = P14
-	remove_core = A25
+	remove_core = P52
+
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 }

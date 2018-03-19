@@ -1,44 +1,32 @@
 # 999 - Greenwarden's Grovei.txt
-is_city = yes
+is_city = no
 
-owner = J10
-controller = J10
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 add_core = J10
 
 base_tax = 3
 base_production = 3
 base_manpower = 4
 
-culture = culture_black
-religion = religion_sect_of_dragons
+culture = culture_bog_beast
+religion = religion_druidic
 
 trade_goods = lumber
 hre = no
 
-806.1.1 = { 
-    owner = A43
-    controller = A43
-    add_core = A43
-    culture = culture_twilights_hammer
-    religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = { 
-    owner = XXX
-    controller = XXX
-    is_city = no
-    remove_core = A43
-    culture = culture_bog_beast 
-    religion = religion_druidic
-}
-
 # Cataclysm
-971.1.1 = { 
-    is_city = yes
-    owner = A94
-    controller = A94
-    add_core = A94
-    culture = culture_cenarion
-    religion = religion_druidic 
+971.1.1 = {
+  is_city = yes
+
+  owner = A94
+  controller = A94
+  add_core = A94
+
+  culture = culture_cenarion
+  religion = religion_druidic
 }

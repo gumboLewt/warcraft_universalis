@@ -1,6 +1,9 @@
 # 1456 - Theramore Isle.txt
 is_city = no
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 base_tax = 1
 base_production = 1
@@ -12,32 +15,40 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-906.1.1 = { 
-	controller = A23
+906.1.1 = {
+	is_city = yes
+
 	owner = A23
+	controller = A23
 	add_core = A23
+
+	base_tax = 5
+	base_production = 5
+	base_manpower = 6
+
 	culture = culture_lordaeron
 	religion = religion_church_of_the_light
-	
-	base_tax = 5
-	base_manpower = 6
-	base_production = 5
-	
+
 	trade_goods = naval_supplies
-	is_city = yes
 }
 
 # Mists of Pandaria
 976.1.1 = { 
-    is_city = no
+  is_city = no
+
+  native_size = 1
+  native_ferocity = 1
+  native_hostileness = 1
+
 	owner = XXX
 	controller = XXX
+  remove_core = A23
 
 	base_tax = 1
 	base_manpower = 1
 	base_production = 1
 
 	capital = "Ruins of Theramore"
+
 	trade_goods = arcane
-    remove_core = A23
 }

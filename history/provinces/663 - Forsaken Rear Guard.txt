@@ -1,5 +1,5 @@
 # 663 - Forsaken Rear Guard.txt
-is_city = yes 
+is_city = yes
 
 owner = B25
 controller = B25
@@ -13,35 +13,38 @@ culture = culture_nerglish
 religion = religion_water
 
 trade_goods = grain
-hre = no 
+hre = no
 
-906.1.1 = { 
-	owner = P52 
+906.1.1 = {
+	owner = P52
 	controller = P52
 	add_core = P52
+  remove_core = B25
+
 	religion = religion_the_damned
-	culture = culture_scourge 
-	remove_core = A08
+	culture = culture_scourge
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	owner = B19
 	controller = B19
 	add_core = B19
-	remove_core = B25
+	remove_core = P52
+
 	culture = culture_rothide
 	religion = religion_the_damned
 	capital = "The Dead Field" 
 }
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
 	owner = P14
 	controller = P14
 	add_core = P14
 	remove_core = B19
+
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
-	capital = "Forsaken Rear Guard" 
+	capital = "Forsaken Rear Guard"
 }

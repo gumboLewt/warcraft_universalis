@@ -1,9 +1,8 @@
 # 1013 - Suncrown Village.txt
-is_city = yes 
+is_city = yes
 
 owner = A90
 controller = A90
-add_core = A59
 add_core = A90
 
 base_tax = 3
@@ -14,13 +13,14 @@ culture = culture_high_elf
 religion = religion_arcane
 
 trade_goods = grain
-hre = no 
+hre = no
 
 906.1.1 = {
 	owner = F21
 	controller = F21
 	add_core = F21
+	remove_core = A90
+
 	culture = culture_crypt_fiend
 	religion = religion_the_damned
-	remove_core = A90 
 }

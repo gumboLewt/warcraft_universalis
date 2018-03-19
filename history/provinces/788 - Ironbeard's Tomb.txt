@@ -1,34 +1,19 @@
 # 788 - Ironbeard's Tomb.txt
-is_city = yes
+is_city = no
 
-owner = J10
-controller = J10
-add_core = J10
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_black
-religion = religion_sect_of_dragons
+culture = culture_ooze
+religion = religion_druidic
 
 trade_goods = crypts
 hre = no
-
-806.1.1 = {
-    owner = A43
-    controller = A43
-    add_core = A43
-    culture = culture_twilights_hammer
-    religion = religion_fel
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    remove_core = A43
-    culture = culture_ooze
-    religion = religion_druidic
-}

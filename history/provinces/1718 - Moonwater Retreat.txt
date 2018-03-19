@@ -15,9 +15,14 @@ religion = religion_celestial
 trade_goods = fish
 hre = yes
 
-976.1.1 = { 
-    is_city = no
-    owner = XXX
-    controller = XXX 
-}
+976.1.1 = {
+  is_city = no
 
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
+  owner = XXX
+  controller = XXX
+  remove_core = P70
+}

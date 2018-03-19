@@ -15,11 +15,11 @@ religion = religion_celestial
 trade_goods = artifacts
 hre = yes
 
-976.1.1 = { 
-    owner = P36
-    controller = P36
-    add_core = P36
-    remove_core = F02
-    culture = culture_tuskui 
-}
+976.1.1 = {
+  owner = P36
+  controller = P36
+  add_core = P36
+  remove_core = F02
 
+  culture = culture_tuskui
+}

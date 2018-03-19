@@ -1,24 +1,16 @@
 # 1650 - Bleeding Hollow Ruins.txt
 is_city = yes
 
-owner = B78
-controller = B78
-add_core = B78
+owner = F50
+controller = F50
+add_core = F50
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_sethekk
-religion = religion_terokk
+culture = culture_boulderfist
+religion = religion_geomancy
 
 trade_goods = artifacts
 hre = no
-
-821.1.1 = {
-	owner = F50
-	controller = F50
-	add_core =  F50
-	culture = culture_boulderfist
-	religion = religion_geomancy
-}

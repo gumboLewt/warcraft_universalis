@@ -15,10 +15,12 @@ religion = religion_druidic
 trade_goods = grain
 hre = no
 
-946.1.1 = { 
-owner = G29
-controller = G29
-add_core = G29
-culture = culture_bog_beast
-religion = religion_old_gods
+946.1.1 = {
+  owner = G29
+  controller = G29
+  add_core = G29
+  remove_core = P79
+
+  culture = culture_bog_beast
+  religion = religion_old_gods
 }

@@ -1,24 +1,16 @@
 # 1691 - Vekhaar Stand.txt
 is_city = yes
 
-owner = A47
-controller = A47
-add_core = A47
+owner = F79
+controller = F79
+add_core = F79
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_mok_nathal
-religion = religion_ancestral
+culture = culture_sethekk
+religion = religion_terokk
 
 trade_goods = apexis
 hre = no
-
-821.1.1 = {
-owner = F79
-controller = F79
-add_core = F79
-culture = culture_sethekk
-religion = religion_terokk
-}

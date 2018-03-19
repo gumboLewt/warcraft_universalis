@@ -16,18 +16,20 @@ trade_goods = workshops
 hre = no
 
 926.1.1 = {
-owner = A33
-controller = A33
-add_core = A33
-add_core = F24
-culture = culture_leper_gnome
-religion = religion_greed
+  owner = A33
+  controller = A33
+  add_core = A33
+
+  culture = culture_leper_gnome
+  religion = religion_greed
 }
 
 # Cataclysm
 971.1.1 = {
-owner = A32
-controller = A32
-culture = culture_gnome
-religion = religion_tech
+  owner = A32
+  controller = A32
+  remove_core = A33
+
+  culture = culture_gnome
+  religion = religion_tech
 }

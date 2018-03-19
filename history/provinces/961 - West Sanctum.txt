@@ -16,19 +16,26 @@ trade_goods = arcane
 hre = no
 
 906.1.1 = {
-    owner = F54
-    controller = F54
-    add_core = F54
-    religion = religion_church_of_the_light
-    remove_core = A90
+  owner = F54
+  controller = F54
+  add_core = F54
+  remove_core = A90
+
+  religion = religion_church_of_the_light
 }
 
 # The Burning Crusade
-941.1.1 = { 
-    is_city = no
-    owner = XXX
-    controller = XXX
-    culture = culture_ghost
-    religion = religion_arcane
-    remove_core = F54
+941.1.1 = {
+  is_city = no
+
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
+  owner = XXX
+  controller = XXX
+  remove_core = F54
+
+  culture = culture_ghost
+  religion = religion_arcane
 }

@@ -13,4 +13,3 @@ religion = religion_voodoo
 
 trade_goods = arcane
 hre = no
-

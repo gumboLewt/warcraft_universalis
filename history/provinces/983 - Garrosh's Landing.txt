@@ -15,14 +15,12 @@ religion = religion_geomancy
 trade_goods = fish
 hre = no
 
-946.1.1 = { 
-owner = B10
-controller = B10
-add_core = B10
-add_core = H07
-culture = culture_horde
-religion = religion_ancestral
-base_tax = 2
-base_manpower = 2
-base_production = 2 
+946.1.1 = {
+  owner = B10
+  controller = B10
+  add_core = B10
+  add_core = H07
+
+  culture = culture_skadir
+  religion = religion_water
 }

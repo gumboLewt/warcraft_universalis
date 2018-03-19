@@ -16,10 +16,11 @@ trade_goods = grain
 hre = no
 
 946.1.1 = {
-remove_core = B60
-owner = B10
-controller = B10
-add_core = B10
-culture = culture_skadir
-religion = religion_water
+  owner = B10
+  controller = B10
+  add_core = B10
+  remove_core = B60
+
+  culture = culture_skadir
+  religion = religion_water
 }

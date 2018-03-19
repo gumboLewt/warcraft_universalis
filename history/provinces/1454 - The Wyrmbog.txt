@@ -16,8 +16,13 @@ trade_goods = flying_mounts
 hre = no
 
 976.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    remove_core = J08
+  is_city = no
+
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
+  owner = XXX
+  controller = XXX
+  remove_core = J08
 }

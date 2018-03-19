@@ -27,8 +27,8 @@ monarch = {
 }
 
 906.1.1 = {
-religion = religion_fel
-government = war_tribe
+  government = war_tribe
+  religion = religion_fel
 }
 
 971.1.1 = { 

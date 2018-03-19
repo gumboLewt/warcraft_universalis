@@ -16,5 +16,5 @@ trade_goods = naval_supplies
 hre = no
 
 971.1.1 = {
-religion = religion_air
+  religion = religion_air
 }

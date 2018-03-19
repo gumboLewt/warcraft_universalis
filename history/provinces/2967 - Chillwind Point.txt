@@ -15,17 +15,24 @@ religion = religion_voodoo
 trade_goods = grain
 hre = no
 
-906.1.1 = { 
+906.1.1 = {
 	owner = P52
 	controller = P52
 	add_core = P52
+  remove_core = A63
+
 	culture = culture_scourge
 	religion = religion_the_damned
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-    is_city = no
+926.1.1 = {
+  is_city = no
+
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
 	owner = XXX
 	controller = XXX
 	remove_core = P52

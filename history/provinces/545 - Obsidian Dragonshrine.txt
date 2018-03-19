@@ -1,5 +1,6 @@
 # 545 - Obsidian Dragonshrine.txt
 is_city = yes
+
 owner = J09
 controller = J09
 add_core = J09
@@ -16,12 +17,12 @@ hre = no
 
 976.1.1 = {
     is_city = no
+
+    native_size = 10
+    native_ferocity = 10
+    native_hostileness = 10
+
     owner = XXX
     controller = XXX
-    remove_core = A99
+    remove_core = J09
 }
-
-
-
-
-

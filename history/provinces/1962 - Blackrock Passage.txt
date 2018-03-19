@@ -15,26 +15,9 @@ religion = religion_fire
 trade_goods = workshops
 hre = no
 
-806.1.1 = { 
-    owner = A41
-    controller = A41
-    add_core = A41
-    culture = culture_blackrock
-    religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = { 
-    owner = A30
-    controller = A30
-    add_core = A30
-    remove_core = A41
-    culture = culture_dark_iron
-    religion = religion_fire 
-}
-
 # Cataclysm
-971.1.1 = { 
-    add_core = A43
-    religion = religion_arcane 
+971.1.1 = {
+  add_core = A43
+
+  religion = religion_arcane
 }

@@ -14,4 +14,3 @@ religion = religion_church_of_the_light
 
 trade_goods = smugglers
 hre = no
-

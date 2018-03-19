@@ -15,10 +15,12 @@ religion = religion_church_of_the_light
 trade_goods = fish
 hre = no
 
-976.1.1 = { 
+976.1.1 = {
 	owner = H12
 	controller = H12
 	add_core = H12
+  remove_core = R14
+
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow
 }

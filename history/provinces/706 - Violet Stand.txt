@@ -1,34 +1,27 @@
 # 706 - Violet Stand.txt
 is_city = yes
 
-owner = P74
-controller = P74
-add_core = P74
+owner = P11
+controller = P11
+add_core = P11
 
 base_tax = 2
 base_production = 2
 base_manpower = 3
 
-culture = culture_nerubian
-religion = religion_arcane
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = artifacts
 hre = no
 
-901.1.1 = {
-  owner = P11
-  controller = P11
-  add_core = P11
-  remove_core = P72
-  culture = culture_scourge
-  religion = religion_the_damned
-}
-
 946.1.1 = {
-	capital = "Violet Stand" 
 	owner = A18
 	controller = A18
 	add_core = A18
+  remove_core = P11
+
 	culture = culture_dalaran
 	religion = religion_arcane
+	capital = "Violet Stand"
 }

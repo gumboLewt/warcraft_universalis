@@ -16,15 +16,16 @@ trade_goods = arcane
 hre = no
 
 946.1.1 = {
-	base_tax = 4
-	base_manpower = 4
-	base_production = 4
-	capital = "Dalaran" 
 	owner = A18
 	controller = A18
 	add_core = A18
 	remove_core = P77
+
+	base_tax = 4
+	base_manpower = 4
+	base_production = 4
+
 	culture = culture_dalaran
 	religion = religion_arcane
-
+	capital = "Dalaran"
 }

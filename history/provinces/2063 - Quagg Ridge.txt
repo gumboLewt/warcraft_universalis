@@ -1,9 +1,9 @@
 # 2063 - Quagg Ridge.txt
 is_city = yes
 
-owner = F62
-controller = F62
-add_core = F62
+owner = F51
+controller = F51
+add_core = F51
 
 base_tax = 3
 base_production = 3
@@ -14,9 +14,3 @@ religion = religion_zangar
 
 trade_goods = glowcap
 hre = no
-
-821.1.1 = {
-owner = F51
-controller = F51
-add_core =  F51
-}

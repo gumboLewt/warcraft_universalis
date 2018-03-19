@@ -1,29 +1,16 @@
 # 602 - Vul'gol Ogre Mound.txt
 is_city = yes
 
-owner = A03
-controller = A03
-add_core = A03
+owner = P97
+controller = P97
+add_core = P97
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_azerothian
-religion = religion_church_of_the_light
+culture = culture_splinterfist
+religion = religion_geomancy
 
 trade_goods = runecloth
 hre = no
-
-801.1.1 = { owner = A43
-controller = A43
-add_core = A43
-add_core = P97
-culture = culture_splinterfist
-religion = religion_geomancy }
-
-# Beyond the Dark Portal
-816.1.1 = { owner = P97
-controller = P97
-remove_core = A43 }
-            

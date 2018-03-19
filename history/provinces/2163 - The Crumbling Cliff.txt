@@ -4,7 +4,6 @@ is_city = yes
 owner = B16
 controller = B16
 add_core = B16
-add_core = A04
 
 base_tax = 1
 base_production = 1
@@ -15,7 +14,3 @@ religion = religion_geomancy
 
 trade_goods = copper
 hre = no
-
-816.1.1 = { 
-	add_core = A04
-}

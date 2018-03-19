@@ -16,13 +16,16 @@ trade_goods = mounts
 hre = yes
 
 976.1.1 = {
-    owner = P43
-    controller = P43
-    add_core = P43
-    base_manpower = 3
-    culture = culture_bataari
-    religion = religion_fire
-    trade_goods = oil
-    capital = "Fire Camp Bataar"
-}
+  owner = P43
+  controller = P43
+  add_core = P43
+  remove_core = P41
 
+  base_manpower = 3
+
+  culture = culture_bataari
+  religion = religion_fire
+  capital = "Fire Camp Bataar"
+
+  trade_goods = oil
+}

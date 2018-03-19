@@ -1,33 +1,30 @@
 # 763 - Quel'danil Lodge.txt
-is_city = yes
+is_city = no
 
-owner = A60 
-controller = A60
-add_core = A60
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_vilebranch
+culture = culture_ooze
 religion = religion_voodoo
 
 trade_goods = fish
-hre = no 
-
-816.1.1 = { 
-    is_city = no
-	remove_core = A60 
-	owner = XXX
-	controller = XXX
-	culture = culture_ooze 
-}
+hre = no
 
 # Cataclysm
 971.1.1 = {
-    is_city = yes
-	add_core = A60
+  is_city = yes
+
 	owner = A60
 	controller = A60
-	culture = culture_vilebranch 
+	add_core = A60
+
+	culture = culture_vilebranch
 }

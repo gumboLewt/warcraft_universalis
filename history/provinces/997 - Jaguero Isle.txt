@@ -13,4 +13,3 @@ religion = religion_loa
 
 trade_goods = fur
 hre = no
-

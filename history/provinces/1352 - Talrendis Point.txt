@@ -16,29 +16,30 @@ trade_goods = fur
 hre = no
 
 906.1.1 = {
-culture = culture_sentinel
-religion = religion_elune
-is_city = yes
-owner = H01
-controller = H01
-add_core = H01
-add_claim = A35
+  owner = H01
+  controller = H01
+  add_core = H01
+  add_claim = A35
+  remove_core = G21
+
+  culture = culture_sentinel
+  religion = religion_elune
 }
 
 926.1.1 = {
-is_city = yes
-owner = A94
-controller = A94
-add_core = A94
-remove_core = H01
+  owner = A94
+  controller = A94
+  add_core = A94
+
+  remove_core = H01
 }
 
 971.1.1 = {
-base_tax = 2
-base_manpower = 2
-base_production = 2
+  base_tax = 2
+  base_production = 2
+  base_manpower = 2
 }
 
 981.1.1 = {
-remove_claim = A35
+  remove_claim = A35
 }

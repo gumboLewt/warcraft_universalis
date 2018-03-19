@@ -15,23 +15,6 @@ religion = religion_church_of_the_light
 trade_goods = fish
 hre = no
 
-801.1.1 = { 
-	owner = A41
-	controller = A41
-	add_core = A41
-	culture = culture_blackrock
-	religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-	owner = A01
-	controller = A01
-	remove_core = A41
-	culture = culture_azerothian
-	religion = religion_church_of_the_light 
-}
-
 # Mists of Pandaria
 976.1.1 = {
 	base_production = 3

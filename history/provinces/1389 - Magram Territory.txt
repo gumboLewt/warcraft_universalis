@@ -15,9 +15,11 @@ religion = religion_geomancy
 trade_goods = army_supplies
 hre = no
 
-971.1.1 = { 
+971.1.1 = {
 	owner = B22
 	controller = B22
 	add_core = B22
+  remove_core = B24
+
 	culture = culture_magram
 }

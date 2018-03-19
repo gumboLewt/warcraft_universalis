@@ -16,17 +16,20 @@ trade_goods = grain
 hre = no
 
 946.1.1 = {
-owner = A78
-controller = A78
-add_core = A78
-culture = culture_zandalari
-religion = religion_loa
-base_tax = 2
-base_manpower = 2
-base_production = 2
+  owner = A78
+  controller = A78
+  add_core = A78
+
+  base_tax = 2
+  base_manpower = 2
+  base_production = 2
+
+  culture = culture_zandalari
+  religion = religion_loa
 }
 
 971.1.1 = {
-religion = religion_voodoo
-remove_core = A74
+  remove_core = A74
+
+  religion = religion_voodoo
 }

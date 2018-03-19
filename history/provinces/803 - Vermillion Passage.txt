@@ -14,19 +14,24 @@ religion = religion_sect_of_dragons
 trade_goods = flying_mounts
 hre = no
 
-971.1.1 = { 
-    owner = B06
-    controller = B06
-    add_core = B06
-    remove_core = B03
-    religion = religion_old_gods
-    culture = culture_red
+971.1.1 = {
+  owner = B06
+  controller = B06
+  add_core = B06
+  remove_core = J01
+
+  culture = culture_twilight_dragon
+  religion = religion_old_gods
 }
 
-976.1.1 = { 
-    is_city = no
-    owner = XXX
-    controller = XXX
-    remove_core = B06
-}
+976.1.1 = {
+  is_city = no
 
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
+  owner = XXX
+  controller = XXX
+  remove_core = B06
+}

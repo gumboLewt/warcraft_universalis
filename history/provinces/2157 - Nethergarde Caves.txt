@@ -14,4 +14,3 @@ religion = religion_hakkari
 
 trade_goods = flying_mounts
 hre = no
-

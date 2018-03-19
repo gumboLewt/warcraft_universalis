@@ -12,4 +12,3 @@ religion = religion_sect_of_dragons
 
 trade_goods = lumber
 hre = no
-

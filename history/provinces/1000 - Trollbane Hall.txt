@@ -13,8 +13,8 @@ culture = culture_arathi
 religion = religion_church_of_the_light
 
 trade_goods = fur
-hre = no 
+hre = no
 
-976.1.1 = { 
+976.1.1 = {
 	base_manpower = 5     #Refuges from fallen Stromgarde city
 }

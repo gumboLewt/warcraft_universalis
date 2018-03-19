@@ -19,6 +19,8 @@ hre = no
   owner = B11
   controller = B11
   add_core = B11
+  remove_core = B81
+
   culture = culture_kvaldir
   religion = religion_water
 }

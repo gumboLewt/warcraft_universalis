@@ -1,31 +1,22 @@
 # 518 - Corrahn's Dagger.txt
 is_city = yes
 
-owner = A17
-controller = A17
-add_core = A17
+owner = A41
+controller = A41
+add_core = A41
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_alterac
-religion = religion_church_of_the_light
+culture = culture_blackrock
+religion = religion_fel
 
 trade_goods = fur
-hre = no 
-
-816.1.1 = { 
-	owner = A41
-	controller = A41
-	add_core = A41
-	add_core = A26
-	culture = culture_blackrock
-	religion = religion_fel
-}
+hre = no
 
 # The Frozen Throne
-906.1.1 = { 
+906.1.1 = {
 	owner = P52
 	controller = P52
 	add_core = P52
@@ -35,16 +26,17 @@ hre = no
 }
 
 # War of Lordaeron (TFT)
-916.8.1 = { 
+916.8.1 = {
+  owner = P14
 	controller = P14
+  add_core = P14
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	owner = A26
 	controller = A26
 	add_core = A26
-	add_core = P14
 	remove_core = P52
 	culture = culture_alterac
 	religion = religion_shadow
@@ -52,18 +44,22 @@ hre = no
 }
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
 	owner = H11
 	controller = H11
 	add_core = H11
+  remove_core = A26
 	culture = culture_ironforge
-	religion = religion_mystery_of_the_makers 
-	capital = "Stormpike Camp" 
+	religion = religion_mystery_of_the_makers
+	capital = "Stormpike Camp"
 }
 
 # Mists of Pandaria
-976.1.1 = { 
-	base_tax = 1          # Forsaken bomb attack
+976.1.1 = { # Forsaken bomb attack
+  owner = XXX
+  controller = XXX
+  remove_core = H11
+	base_tax = 1
 	base_manpower = 1
 	base_production = 1
 }

@@ -1,33 +1,26 @@
 # 1610 - Twin Spire Ruins.txt
 is_city = yes
 
-owner = F62
-controller = F62
-add_core = F62
+owner = F84
+controller = F84
+add_core = F84
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_sporeling
-religion = religion_zangar
+culture = culture_broken
+religion = religion_ancestral
 
 trade_goods = artifacts
 hre = no
 
-816.1.1 = {
-    owner = F84
-    controller = F84
-    add_core = F84
-    culture = culture_broken
-    religion = religion_ancestral
-}
-
 941.1.1 = {
-    owner = B38
-    controller = B38
-    add_core = B38
-    remove_core = F84
-    culture = culture_bogstrok
-    religion = religion_water
+  owner = B38
+  controller = B38
+  add_core = B38
+  remove_core = F84
+
+  culture = culture_bogstrok
+  religion = religion_water
 }

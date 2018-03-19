@@ -16,12 +16,11 @@ trade_goods = fur
 hre = no
 
 971.1.1 = {
-owner = F57
-controller = F57
-add_core = F57
-add_core = A94
-add_core = F89
-culture = culture_stonemaul
-capital = "Stonemaul Hold"
-}
+  owner = F57
+  controller = F57
+  add_core = F57
+  remove_core = A85
 
+  culture = culture_stonemaul
+  capital = "Stonemaul Hold"
+}

@@ -15,23 +15,6 @@ religion = religion_light_of_the_naaru
 trade_goods = crypts
 hre = no
 
-776.1.1 = {
-    owner = A39
-    controller = A39
-    add_core = A39
-    remove_core = F49
-    religion = religion_fel
-    culture = culture_bonechewer
-}
-
-821.1.1 = {
-	owner = F49
-	controller = F49
-	add_core = F49
-	culture = culture_shattrathi
-	religion = religion_light_of_the_naaru
-}
-
 # The Burning Crusade
 941.1.1 = {
 	religion = religion_void

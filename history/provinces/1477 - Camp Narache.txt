@@ -20,6 +20,7 @@ hre = no
 	controller = F88
 	add_core = F88
   remove_core = B20
+
 	culture = culture_dawnstrider
 	religion = religion_ancestral
 }

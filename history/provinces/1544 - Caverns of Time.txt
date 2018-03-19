@@ -14,4 +14,3 @@ religion = religion_sect_of_dragons
 
 trade_goods = artifacts
 hre = no
-

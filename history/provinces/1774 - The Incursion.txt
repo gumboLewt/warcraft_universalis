@@ -15,11 +15,13 @@ religion = religion_titan_corrupt
 trade_goods = arcane
 hre = yes
 
-976.1.1 = { 
-    owner = A94
-    controller = A94
-    add_core = A94
-    culture = culture_highbourne
-    religion = religion_arcane
+976.1.1 = {
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = P81
+
+  culture = culture_highbourne
+  religion = religion_arcane
 }
 

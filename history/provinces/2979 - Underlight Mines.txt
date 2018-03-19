@@ -19,7 +19,8 @@ hre = no
 	owner = B12
 	controller = B12
 	add_core = B12
+	remove_core = R21
+
 	culture = culture_blackpaw
 	religion = religion_geomancy
-	remove_core = A90
 }

@@ -16,21 +16,20 @@ trade_goods = fish
 hre = yes
 
 976.1.1 = {
-    owner = B84
-    controller = B84
-    add_core = B84
-    culture = culture_sha
-    religion = religion_old_gods
+  owner = B84
+  controller = B84
+  add_core = B84
+
+  culture = culture_sha
+  religion = religion_old_gods
 }
 
 # Warlords of Draenor
-981.1.1 = { 
-    owner = P63
-    controller = P63
-    add_core = P63
-    remove_core = B84
-    culture = culture_jade_serpent
-    religion = religion_celestial
+981.1.1 = {
+  owner = P63
+  controller = P63
+  remove_core = B84
+
+  culture = culture_jade_serpent
+  religion = religion_celestial
 }
-
-

@@ -1,47 +1,26 @@
 # 3056 - Slither Rock.txt
 is_city = yes
 
-owner = R18
-controller = R18
-add_core = R18
+owner = J07
+controller = J07
+add_core = J07
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_dark_iron
-religion = religion_arcane
+culture = culture_black
+religion = religion_old_gods
 
 trade_goods = army_supplies
 hre = no
 
-801.1.1 = {
-	owner = P98
-	controller = P98
-	add_core = P98
-	culture = culture_blackrock
-	religion = religion_fel
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-	owner = XXX
-	controller = XXX
-}
-
-# The Third War
-901.1.1 = {
-    is_city = yes
+976.1.1 = {
 	owner = A41
 	controller = A41
 	add_core = A41
-	add_core = A99
-	culture = culture_black
-	religion = religion_old_gods
-}
+  remove_core = J07
 
-976.1.1 = {
-    culture = culture_blackrock
-    remove_core = A99
+  culture = culture_blackrock
+  religion = religion_fel
 }

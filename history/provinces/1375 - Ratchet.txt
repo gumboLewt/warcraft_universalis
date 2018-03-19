@@ -16,18 +16,18 @@ trade_goods = fish
 hre = no
 
 926.1.1 = {
-base_tax = 4
-base_manpower = 4
-base_production = 4
-add_core = A80
-owner = A80
-controller = A80
-capital = "Ratchet"
-culture = culture_steamwheedle
-religion = religion_tech
-trade_goods = naval_supplies
+  owner = A80
+  controller = A80
+  add_core = A80
+  remove_core = B69
+
+  base_tax = 4
+  base_production = 4
+  base_manpower = 4
+
+  culture = culture_steamwheedle
+  religion = religion_tech
+  capital = "Ratchet"
+
+  trade_goods = naval_supplies
 }
-
-
-
-

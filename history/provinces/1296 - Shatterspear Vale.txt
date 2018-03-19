@@ -19,10 +19,12 @@ hre = no
 	owner = A68
 	controller = A68
 	add_core = A68
-	religion = religion_loa
-	culture = culture_shatterspear
-	
+  remove_core = B30
+
 	base_tax = 4
-	base_manpower = 4
 	base_production = 4
+	base_manpower = 4
+
+	culture = culture_shatterspear
+	religion = religion_loa
 }

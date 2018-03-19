@@ -1,5 +1,6 @@
 # 2304 - Oneiros.txt
 is_city = yes
+
 owner = J05
 controller = J05
 add_core = J05
@@ -13,4 +14,3 @@ religion = religion_sect_of_dragons
 
 trade_goods = grain
 hre = no
-

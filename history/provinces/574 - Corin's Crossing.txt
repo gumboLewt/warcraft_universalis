@@ -13,26 +13,22 @@ culture = culture_lordaeron
 religion = religion_church_of_the_light
 
 trade_goods = cloth
-hre = no 
-
-901.1.1 = { 
-	controller = P52
-}
+hre = no
 
 # The Frozen Throne
-906.1.1 = { 
-	add_core = P52
+906.1.1 = {
 	owner = P52
+  controller = P52
+	add_core = P52
+	remove_core = R04
 	culture = culture_scourge
 	religion = religion_the_damned
-	remove_core = A08 
-	remove_core = P62
 }
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
+	owner = P12
+	controller = P12
 	add_core = P12
 	remove_core = P52
-	owner = P12 
-	controller = P12
 }

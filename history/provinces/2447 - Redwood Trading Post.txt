@@ -16,15 +16,16 @@ trade_goods = grain
 hre = no
 
 926.1.1 = {
-owner = P30
-controller = P30
-add_core = P30
-remove_core = B45
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+  owner = P30
+  controller = P30
+  add_core = P30
+  remove_core = B46
+
+  culture = culture_lordaeron
+  religion = religion_church_of_the_light
 }
 
 941.1.1 = {
-culture = culture_lordaeron_worgen
-religion = religion_shadow
+  culture = culture_lordaeron_worgen
+  religion = religion_shadow
 }

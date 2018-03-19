@@ -16,11 +16,11 @@ trade_goods = fur
 hre = no
 
 926.1.1 = {
-owner = F29
-controller = F29
-add_core = F29
-religion = religion_church_of_the_light
-culture = culture_ironforge
+  owner = F29
+  controller = F29
+  add_core = F29
+  remove_core = A67
+
+  religion = religion_church_of_the_light
+  culture = culture_ironforge
 }
-
-

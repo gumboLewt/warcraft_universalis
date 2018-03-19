@@ -16,11 +16,8 @@ trade_goods = moonwell
 hre = no
 
 946.1.1 = {
-owner = H06
-controller = H06
-add_core = H06
-remove_core = P79
+  owner = H06
+  controller = H06
+  add_core = H06
+  remove_core = P79
 }
-
-
-

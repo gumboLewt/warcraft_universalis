@@ -14,4 +14,3 @@ religion = religion_primitive
 
 trade_goods = fur
 hre = no
-

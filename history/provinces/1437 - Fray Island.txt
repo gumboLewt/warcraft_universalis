@@ -1,6 +1,12 @@
 # 1437 - Fray Island.txt
-is_city = yes
+is_city = no
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
@@ -13,35 +19,45 @@ trade_goods = fish
 hre = no
 
 926.1.1 = {
-culture = culture_arathi
-religion = religion_church_of_the_light
-owner = P19
-controller = P19
-add_core = P19
-trade_goods = army_supplies
+  is_city = yes
+
+  owner = P19
+  controller = P19
+  add_core = P19
+
+  culture = culture_arathi
+  religion = religion_church_of_the_light
+
+  trade_goods = army_supplies
 }
 
 971.1.1 = {
-culture = culture_tirasian
-owner = A19
-controller = A19
-add_core = A19
-trade_goods = pirates
-base_tax = 3
-base_manpower = 3
-base_production = 3
+  owner = A19
+  controller = A19
+  add_core = A19
+  remove_core = P19
+
+  base_tax = 3
+  base_production = 3
+  base_manpower = 3
+
+  culture = culture_tirasian
+  trade_goods = pirates
 }
 
-# Jaina Kills pirates in a novel apparently, will put a northwatch base here to throw them a bone after Theramore blows up
+# Jaina Kills pirates in novel
 976.1.1 = {
-owner = G06
-controller = G06
-add_core = G06
-base_tax = 1
-base_manpower = 2
-base_production = 1
-culture = culture_lordaeron
-trade_goods = naval_supplies
+  is_city = no
+
+  native_size = 1
+  native_ferocity = 1
+  native_hostileness = 1
+
+  owner = XXX
+  controller = XXX
+  remove_core = A19
+
+  base_tax = 1
+  base_manpower = 1
+  base_production = 1
 }
-
-

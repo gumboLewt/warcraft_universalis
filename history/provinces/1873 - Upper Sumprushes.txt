@@ -16,11 +16,10 @@ trade_goods = oil
 hre = no
 
 976.1.1 = {
-owner = P45
-controller = P45
-add_core = P45
-remove_core = P44
-culture = culture_osul
+  owner = P45
+  controller = P45
+  add_core = P45
+  remove_core = P44
+
+  culture = culture_osul
 }
-
-

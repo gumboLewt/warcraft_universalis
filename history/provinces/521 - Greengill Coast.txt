@@ -16,10 +16,11 @@ trade_goods = fish
 hre = no
 
 906.1.1 = {
-owner = F22
-controller = F22
-add_core = F22
-culture = culture_nerglish
-religion = religion_water
-remove_core = A90
+  owner = F22
+  controller = F22
+  add_core = F22
+  remove_core = R20
+
+  culture = culture_nerglish
+  religion = religion_water
 }

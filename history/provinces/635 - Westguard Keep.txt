@@ -1,43 +1,16 @@
 # 635 - Westguard Keep.txt
 is_city = yes
 
-owner = P32
-controller = P32
-add_core = P32
-
-base_tax = 3
-base_production = 3
-base_manpower = 3
-
-culture = culture_lordaeron
-religion = religion_church_of_the_light
-
-trade_goods = fur
-hre = no
-
-841.1.1 = {
-remove_core = P32
-owner = P11
-controller = P11
-add_core = P11
-culture = culture_scourge
-religion = religion_the_damned
-}
-
-
-# The Third War
-901.1.1 = { 
 owner = F38
 controller = F38
 add_core = F38
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
 culture = culture_lordaeron
 religion = religion_church_of_the_light
-base_tax = 4
-base_manpower = 4
-base_production = 4
-trade_goods = naval_supplies
-}
 
-906.1.1 = {
-remove_core = P11
-}
+trade_goods = naval_supplies
+hre = no

@@ -14,4 +14,3 @@ religion = religion_shadow
 
 trade_goods = gold
 hre = no
-

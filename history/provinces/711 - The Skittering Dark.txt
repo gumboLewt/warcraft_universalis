@@ -13,28 +13,24 @@ culture = culture_nerglish
 religion = religion_water
 
 trade_goods = warbeasts
-hre = no 
+hre = no
 
-906.1.1 = { 
+906.1.1 = {
 	owner = A13
 	controller = A13
 	add_core = A13
+  remove_core = B25
+
 	culture = culture_lordaeron_worgen
 	religion = religion_shadow
 }
 
-# Rise of the Qiraji
-926.1.1 = { 
-	remove_core = A25
-	remove_core = B25
-}
- 
 # Cataclysm
-971.1.1 = { 	
+971.1.1 = {
 	owner = F53
 	controller = F53
 	add_core = F53
-	add_core = P14
 	remove_core = A13
+
 	religion = religion_church_of_the_light
 }

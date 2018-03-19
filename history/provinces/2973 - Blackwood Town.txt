@@ -15,19 +15,20 @@ religion = religion_church_of_the_light
 trade_goods = grain
 hre = no
 
-906.1.1 = { 
-	add_core = A10
+906.1.1 = {
 	owner = A10
 	controller = A10
+	add_core = A10
+	remove_core = R03
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-	add_core = P52
-	remove_core = A08
-	remove_core = A10
+926.1.1 = {
 	owner = P52
 	controller = P52
+	add_core = P52
+	remove_core = A10
+
 	culture = culture_scourge
 	religion = religion_the_damned
 }

@@ -15,11 +15,13 @@ religion = religion_air
 trade_goods = grain
 hre = no
 
-906.1.1 = { 
+906.1.1 = {
 	owner = A48
 	controller = A48
-	add_core = A48 
-	capital = "Orgrimmar Approach"
+	add_core = A48
+  remove_core = B66
+
 	culture = culture_horde
 	religion = religion_ancestral
+	capital = "Orgrimmar Approach"
 }

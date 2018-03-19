@@ -16,9 +16,11 @@ trade_goods = crypts
 hre = no
 
 976.1.1 = {
-owner = P92
-controller = P92
-add_core = P92
-religion = religion_titan_corrupt
-culture = culture_shan_ze
+  owner = P92
+  controller = P92
+  add_core = P92
+  remove_core = F03
+
+  religion = religion_titan_corrupt
+  culture = culture_shan_ze
 }

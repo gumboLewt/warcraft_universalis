@@ -16,9 +16,8 @@ trade_goods = grain
 hre = yes
 
 976.1.1 = {
-    owner = P36
-    controller = P36
-    add_core = P36
-    remove_core = P66
+  owner = P36
+  controller = P36
+  add_core = P36
+  remove_core = P66
 }
-

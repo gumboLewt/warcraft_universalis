@@ -1,34 +1,16 @@
 # 3055 - Black Tooth Watch.txt
 is_city = yes
 
-owner = A30
-controller = A30
-add_core = A30
+owner = A41
+controller = A41
+add_core = A41
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_dark_iron
-religion = religion_fire
+culture = culture_blackrock
+religion = religion_fel
 
 trade_goods = army_supplies
 hre = no
-
-801.1.1 = {
-owner = P98
-controller = P98
-add_core = P98
-culture = culture_blackrock
-religion = religion_fel
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-owner = A41
-controller = A41
-add_core = A65
-add_core = A41
-add_core = G20
-remove_core = P98
-}

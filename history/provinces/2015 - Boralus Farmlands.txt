@@ -13,12 +13,14 @@ culture = culture_tirasian
 religion = religion_church_of_the_light
 
 trade_goods = grain
-hre = no 
+hre = no
 
-926.1.1 = { 
-owner = P51
-controller = P51
-add_core = P51
-culture = culture_nerglish
-religion = religion_water
+926.1.1 = {
+  owner = P51
+  controller = P51
+  add_core = P51
+  remove_core = A14
+
+  culture = culture_nerglish
+  religion = religion_water
 }

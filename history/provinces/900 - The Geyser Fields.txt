@@ -16,13 +16,17 @@ trade_goods = fur
 hre = no
 
 946.1.1 = {
-owner = G35
-controller = G35
-add_core = G35
-culture = culture_mecha_gnome
-religion = religion_old_gods
-trade_goods = workshops
-base_tax = 3
-base_manpower = 3
-base_production = 3
+  owner = G35
+  controller = G35
+  add_core = G35
+  remove_core = B61
+
+  base_tax = 3
+  base_manpower = 3
+  base_production = 3
+
+  culture = culture_mecha_gnome
+  religion = religion_old_gods
+
+  trade_goods = workshops
 }

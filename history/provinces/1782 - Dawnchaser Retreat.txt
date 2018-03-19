@@ -14,11 +14,3 @@ religion = religion_voodoo
 
 trade_goods = fish
 hre = yes
-
-976.1.1 = { 
-    owner = P83
-    controller = P83
-    add_core = P83
-    culture = culture_riverblade
-    religion = religion_voodoo
-}

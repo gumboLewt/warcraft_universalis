@@ -16,10 +16,11 @@ trade_goods = fish
 hre = yes
 
 976.1.1 = {
-    owner = P91
-    controller = P91
-    add_core = P91
-    remove_core = P81
-    culture = culture_red_crane
-    religion = religion_celestial
+  owner = P91
+  controller = P91
+  add_core = P91
+  remove_core = P81
+
+  culture = culture_red_crane
+  religion = religion_celestial
 }

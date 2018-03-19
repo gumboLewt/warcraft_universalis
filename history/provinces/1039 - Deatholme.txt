@@ -1,5 +1,5 @@
 # 1039 - Deatholme.txt
-is_city = yes 
+is_city = yes
 
 owner = R21
 controller = R21
@@ -13,16 +13,18 @@ culture = culture_high_elf
 religion = religion_arcane
 
 trade_goods = arcane
-hre = no 
+hre = no
 
 906.1.1 = {
-owner = F21
-controller = F21
-add_core = F21
-culture = culture_scourge
-religion = religion_the_damned
-base_tax = 6
-base_manpower = 6
-base_production = 6
-remove_core = A90
+  owner = F21
+  controller = F21
+  add_core = F21
+  remove_core = R21
+
+  base_tax = 6
+  base_manpower = 6
+  base_production = 6
+
+  culture = culture_scourge
+  religion = religion_the_damned
 }

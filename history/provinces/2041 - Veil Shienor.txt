@@ -14,9 +14,3 @@ religion = religion_terokk
 
 trade_goods = artifacts
 hre = no
-
-821.1.1 = {
-owner = B77
-controller = B77
-add_core =  B77
-}

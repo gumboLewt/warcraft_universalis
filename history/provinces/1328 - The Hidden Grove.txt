@@ -16,6 +16,5 @@ trade_goods = fur
 hre = no
 
 906.1.1 = {
-religion = religion_fel
+  religion = religion_fel
 }
-

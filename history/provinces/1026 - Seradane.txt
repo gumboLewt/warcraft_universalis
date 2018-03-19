@@ -1,5 +1,5 @@
 # 1026 - Seradane.txt
-is_city = yes 
+is_city = yes
 
 owner = J03
 controller = J03
@@ -13,11 +13,16 @@ culture = culture_green
 religion = religion_sect_of_dragons
 
 trade_goods = lumber
-hre = no 
+hre = no
 
 971.1.1 = {
-    is_city = no
-    controller = XXX
-    owner = XXX
-    remove_core = B04
+  is_city = no
+  controller = XXX
+  owner = XXX
+
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
+  remove_core = B04
 }

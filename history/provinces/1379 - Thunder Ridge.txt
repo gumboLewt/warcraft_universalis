@@ -15,10 +15,12 @@ religion = religion_air
 trade_goods = fur
 hre = no
 
-926.1.1 = { 
+926.1.1 = {
 	owner = B90
 	controller = B90
 	add_core = B90
+  remove_core = B66
+
 	culture = culture_burning_blade
 	religion = religion_fel
 }

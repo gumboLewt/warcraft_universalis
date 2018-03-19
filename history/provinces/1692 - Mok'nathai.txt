@@ -14,11 +14,3 @@ religion = religion_ancestral
 
 trade_goods = warbeasts
 hre = no
-
-821.1.1 = {
-owner = A47
-controller = A47
-add_core = A47
-}
-
-

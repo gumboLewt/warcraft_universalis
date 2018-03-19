@@ -1,42 +1,32 @@
 # 836 - The Tainted Forest.txt
-is_city = yes
+is_city = no
 
-owner = P60
-controller = P60
-add_core = P60
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
+
+culture = culture_bleeding_hollow
+religion = religion_fel
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_nerglish
-religion = religion_water
 
 trade_goods = tropical_wood
 hre = no
 
-776.1.1 = { 
-    owner = A40
-    controller = A40
-    add_core = A40
-    culture = culture_bleeding_hollow 
-    religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    remove_core = A40
-}
-
 # Rise of the Qiraji
-926.1.1 = { 
-    is_city = yes
-    owner = B95
-    controller = B95
-    add_core = B95
-    culture = culture_dreadlord
-    religion = religion_fel
+926.1.1 = {
+  is_city = yes
+
+  owner = B95
+  controller = B95
+  add_core = B95
+
+  culture = culture_dreadlord
+  religion = religion_fel
 }

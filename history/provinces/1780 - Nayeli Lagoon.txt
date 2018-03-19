@@ -16,10 +16,12 @@ trade_goods = fish
 hre = yes
 
 976.1.1 = {
-    owner = P69
-    controller = P69
-    add_core = P69
-    culture = culture_forest_hozen
-    trade_goods = pirates
-}
+  owner = P69
+  controller = P69
+  add_core = P69
+  remove_core = P65
 
+  culture = culture_forest_hozen
+
+  trade_goods = pirates
+}

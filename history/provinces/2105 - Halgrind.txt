@@ -10,22 +10,21 @@ base_production = 2
 base_manpower = 2
 
 culture = culture_dragonflayer
-religion = religion_titan
+religion = religion_the_damned
 
 trade_goods = fish
 hre = no
 
-891.1.1 = {
-religion = religion_the_damned
-}
-
 946.6.1 = {
-owner = A96
-controller = A96
-add_core = A96
-culture = culture_forsaken
-religion = religion_forgotten_shadow
-base_tax = 1
-base_manpower = 1
-base_production = 1
+  owner = A96
+  controller = A96
+  add_core = A96
+  remove_core = B08
+
+  base_tax = 1
+  base_manpower = 1
+  base_production = 1
+
+  culture = culture_forsaken
+  religion = religion_forgotten_shadow
 }

@@ -14,12 +14,3 @@ religion = religion_voodoo
 
 trade_goods = fur
 hre = no
-
-926.1.1 = {
-#	add_core = A29
-#	owner = A29
-#	controller = A29
-#	culture = culture_ironforge
-#	religion = religion_church_of_the_light
-#        is_city = yes
-}

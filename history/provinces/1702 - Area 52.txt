@@ -10,20 +10,19 @@ base_production = 4
 base_manpower = 4
 
 culture = culture_laughing_skull
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = adamantite
 hre = no
 
-776.1.1 = {
-religion = religion_fel
-}
-
 941.1.1 = {
-owner = F81
-controller = F81
-add_core =  F81
-culture = culture_kezani
-religion = religion_tech
-trade_goods = workshops
+  owner = F81
+  controller = F81
+  add_core =  F81
+  remove_core = A38
+
+  culture = culture_kezani
+  religion = religion_tech
+
+  trade_goods = workshops
 }

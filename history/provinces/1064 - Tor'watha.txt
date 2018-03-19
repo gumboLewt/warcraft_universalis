@@ -1,5 +1,5 @@
 # 1064 - Tor'watha.txt
-is_city = yes 
+is_city = yes
 
 owner = A58
 controller = A58
@@ -13,5 +13,4 @@ culture = culture_amani
 religion = religion_voodoo
 
 trade_goods = artifacts
-hre = no 
-
+hre = no

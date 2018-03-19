@@ -1,32 +1,16 @@
 # 1697 - The Crystal Spine.txt
 is_city = yes
 
-owner = A41
-controller = A41
-add_core = A41
+owner = B05
+controller = B05
+add_core = B05
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_blackrock
-religion = religion_ancestral
+culture = culture_netherwing
+religion = religion_arcane
 
 trade_goods = apexis
 hre = no
-
-776.1.1 = {
-religion = religion_fel
-}
-
-#Outland
-821.1.1 = {
-owner = B05
-controller = B05
-add_core = B05
-remove_core = B05
-religion = religion_arcane
-culture = culture_netherwing
-}
-
-

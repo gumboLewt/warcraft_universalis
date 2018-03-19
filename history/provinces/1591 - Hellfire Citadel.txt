@@ -1,27 +1,16 @@
 # 1591 - Hellfire Citadel.txt
 is_city = yes
 
-owner = A36
-controller = A36
-add_core = A36
+owner = B89
+controller = B89
+add_core = B89
 
 base_tax = 7
 base_production = 7
 base_manpower = 7
 
 culture = culture_shattered_hand
-religion = religion_ancestral
+religion = religion_fel
 
-trade_goods = army_supplies
+trade_goods = fel
 hre = no
-
-776.1.1 = {
-	religion = religion_fel
-}
-
-926.1.1 = { 
-	owner = B89
-	controller = B89
-	add_core = B89
-	trade_goods = fel
-}

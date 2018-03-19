@@ -14,4 +14,3 @@ religion = religion_old_gods
 
 trade_goods = warbeasts
 hre = no
-

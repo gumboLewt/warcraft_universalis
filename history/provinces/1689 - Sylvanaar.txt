@@ -1,37 +1,28 @@
 # 1689 - Sylvanaar.txt
 is_city = yes
 
-owner = A41
-controller = A41
-add_core = A41
+owner = F77
+controller = F77
+add_core = F77
 
 base_tax = 3
 base_production = 4
 base_manpower = 3
 
-culture = culture_blackrock
-religion = religion_ancestral
+culture = culture_bloodmaul
+religion = religion_geomancy
 
 trade_goods = lumber
 hre = no
 
-776.1.1 = {
-religion = religion_fel
-}
-
-841.1.1 = {
-owner = F77
-controller = F77
-add_core = F77
-culture = culture_bloodmaul
-religion = religion_geomancy
-}
-
 941.1.1 = {
-owner = A94
-controller = A94
-add_core = A94
-culture = culture_sentinel
-religion = religion_elune
-trade_goods = moonwell
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = F77
+
+  culture = culture_sentinel
+  religion = religion_elune
+
+  trade_goods = moonwell
 }

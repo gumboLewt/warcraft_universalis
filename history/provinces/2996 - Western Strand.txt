@@ -1,39 +1,22 @@
 # 2996 - Western Strand.txt
 is_city = yes
 
-owner = P51
-controller = P51
-add_core = P51
+owner = A08
+controller = A08
+add_core = A08
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_nerglish
-religion = religion_water
+culture = culture_lordaeron
+religion = religion_chruch_of_the_light
 
 trade_goods = fish
 hre = no
 
-801.1.1 = { 
-	owner = A01
-	controller = A01
-	add_core = A01
-	add_core = A08
-	culture = culture_azerothian
-	religion = religion_church_of_the_light
-}
-
-# Beyond the Dark Portal
-816.1.1 = { 
-	owner = A08
-	controller = A08
-	remove_core = A01
-	culture = culture_lordaeron 
-}
-
 # The Frozen Throne
-906.1.1 = { 
+906.1.1 = {
 	owner = A11
 	controller = A11
 	add_core = A11
@@ -41,11 +24,14 @@ hre = no
 }
 
 # Rise of the Qiraj
-926.1.1 = { 
+926.1.1 = {
 	owner = P51
 	controller = P51
 	add_core = P51
+  remove_core = A11
+
+	base_manpower = 2
+
 	culture = culture_nerglish
 	religion = religion_water
-	base_manpower = 2
 }

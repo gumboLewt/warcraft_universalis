@@ -15,10 +15,12 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-971.1.1 = { 
-    owner = A79
-    controller = A79
-    add_core = A79
-    culture = culture_bilgewater
-    religion = religion_tech
+971.1.1 = {
+  owner = A79
+  controller = A79
+  add_core = A79
+  remove_core = B28
+
+  culture = culture_bilgewater
+  religion = religion_tech
 }

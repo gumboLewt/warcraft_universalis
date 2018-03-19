@@ -1,5 +1,5 @@
 # 1921 - South Thalassian Pass.txt
-is_city = yes 
+is_city = yes
 
 owner = R21
 controller = R21
@@ -13,28 +13,28 @@ culture = culture_high_elf
 religion = religion_arcane
 
 trade_goods = runecloth
-hre = no 
-
-776.1.1 = { 
-	remove_core = A10
-	remove_core = A62
-}
+hre = no
 
 # The Frozen Throne (Ghostlands entrance blocked by High elves)
-906.1.1 = { 
+906.1.1 = {
 	owner = F54
 	controller = F54
 	add_core = F54
+	remove_core = R21
+
 	religion = religion_church_of_the_light
-	remove_core = A90 
 }
 
 # The Burning Crusade (Blood Elves dont like High Elves and removed blocade)
-941.1.1 = { 
-    is_city = no
+941.1.1 = {
+  is_city = no
+
+  native_size = 1
+  native_ferocity = 1
+  native_hostileness = 1
+
 	owner = XXX
 	controller = XXX
-	add_core = F20 
 	remove_core = F54
 }
 

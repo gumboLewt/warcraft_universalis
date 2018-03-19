@@ -9,18 +9,8 @@ base_tax = 3
 base_production = 3
 base_manpower = 4
 
-culture = culture_bleeding_hollow 
-religion = religion_ancestral
+culture = culture_bleeding_hollow
+religion = religion_fel
 
 trade_goods = artifacts
 hre = no
-
-776.1.1 = {	
-	religion = religion_fel
-}
-
-
-
-
-
-

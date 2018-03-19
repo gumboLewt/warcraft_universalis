@@ -15,37 +15,13 @@ religion = religion_church_of_the_light
 trade_goods = artifacts
 hre = no
 
-801.1.1 = { 
-    owner = A40
-    controller = A40
-    add_core = A40
-    culture = culture_bleeding_hollow 
-    religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    culture = culture_azerothian
-    religion = religion_church_of_the_light 
-}
-
-
-# The Third War
-901.1.1 = { 
-    is_city = yes
-    owner = A03
-    controller = A03
-    remove_core = A40 
-}
-
 # Rise of the Qiraji
-926.1.1 = { 
-    owner = F12
-    controller = F12
-    add_core = F12
-    culture = culture_forsaken
-    religion = religion_shadow 
+926.1.1 = {
+  owner = F12
+  controller = F12
+  add_core = F12
+  remove_core = A03
+
+  culture = culture_forsaken
+  religion = religion_shadow
 }

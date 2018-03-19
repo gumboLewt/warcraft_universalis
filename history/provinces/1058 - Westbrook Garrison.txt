@@ -1,43 +1,16 @@
 # 1058 - Westbrook Garrison.txt
 is_city = yes
 
-owner = B15
-controller = B15
-add_core = B15
+owner = A01
+controller = A01
+add_core = A01
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_riverpaw
-religion = religion_geomancy
+culture = culture_azerothian
+religion = religion_church_of_the_light
 
 trade_goods = army_supplies
 hre = no
-
-801.1.1 = {
-	owner = A41
-	controller = A41
-	add_core = A41
-	culture = culture_blackrock
-	religion = religion_fel
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-	owner = XXX
-	controller = XXX
-	culture = culture_azerothian
-	religion = religion_church_of_the_light
-}
-
-# The Third War
-901.1.1 = {
-    is_city = yes
-	owner = A01
-	controller = A01
-	add_core = A01
-	remove_core = A41
-	remove_core = B15
-}

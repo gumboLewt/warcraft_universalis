@@ -1,5 +1,5 @@
 # 942 - Shadra'alor.txt
-is_city = yes 
+is_city = yes
 
 owner = A64
 controller = A64
@@ -13,11 +13,13 @@ culture = culture_witherbark
 religion = religion_voodoo
 
 trade_goods = silk
-hre = no 
+hre = no
 
 971.1.1 = {
-owner = A60
-controller = A60 
-add_core = A60 
-culture = culture_vilebranch
+  owner = A60
+  controller = A60
+  add_core = A60
+  remove_core = A64
+
+  culture = culture_vilebranch
 }

@@ -15,14 +15,16 @@ religion = religion_old_gods
 trade_goods = fish
 hre = no
 
-946.1.1 = { 
-add_core = A96
-owner = A96
-controller = A96
-remove_core = B76
-culture = culture_forsaken
-religion = religion_forgotten_shadow 
-base_tax = 3
-base_manpower = 3
-base_production = 3
+946.1.1 = {
+  owner = A96
+  controller = A96
+  add_core = A96
+  remove_core = B76
+
+  base_tax = 3
+  base_manpower = 3
+  base_production = 3
+
+  culture = culture_forsaken
+  religion = religion_forgotten_shadow
 }

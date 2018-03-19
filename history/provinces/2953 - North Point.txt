@@ -15,14 +15,18 @@ religion = religion_ancestral
 trade_goods = iron
 hre = no
 
-906.1.1 = { 
-	culture = culture_high_elf
-	religion = religion_church_of_the_light
-	base_tax = 3
-	base_manpower = 4
-	base_production = 3
+906.1.1 = {
 	controller = A23
 	owner = A23
 	add_core = A23
+  remove_core = A85
+
+	base_tax = 3
+	base_manpower = 4
+	base_production = 3
+
+	culture = culture_high_elf
+	religion = religion_church_of_the_light
+
 	trade_goods = army_supplies
 }

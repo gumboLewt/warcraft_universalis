@@ -15,11 +15,13 @@ religion = religion_voodoo
 trade_goods = army_supplies
 hre = no
 
-971.1.1 = { 
-owner = A01
-controller = A01
-add_core = A01
-culture = culture_azerothian
-religion = religion_church_of_the_light 
+971.1.1 = {
+  owner = A01
+  controller = A01
+  add_core = A01
+  remove_core = A69
+
+  culture = culture_azerothian
+  religion = religion_church_of_the_light
 }
 

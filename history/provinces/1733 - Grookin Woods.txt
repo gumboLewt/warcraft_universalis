@@ -16,11 +16,11 @@ trade_goods = ale
 hre = yes
 
 976.1.1 = {
-    owner = F45
-    controller = F45
-    add_core = F45
-    culture = culture_construct
-    religion = religion_arcane
+  owner = F45
+  controller = F45
+  add_core = F45
+  remove_core = P63
+
+  culture = culture_construct
+  religion = religion_arcane
 }
-
-

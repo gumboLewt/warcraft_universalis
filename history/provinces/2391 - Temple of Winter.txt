@@ -1,6 +1,12 @@
 # 2391 - Temple of Winter.txt
 is_city = yes
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
@@ -13,9 +19,10 @@ trade_goods = grain
 hre = no
 
 971.1.1 = {
-owner = B73
-controller = B73
-add_core = B73
-culture = culture_iron
-religion = religion_titan
+  owner = B73
+  controller = B73
+  add_core = B73
+
+  culture = culture_iron
+  religion = religion_titan
 }

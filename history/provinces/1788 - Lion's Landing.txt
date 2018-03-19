@@ -15,13 +15,12 @@ religion = religion_titan_corrupt
 trade_goods = army_supplies
 hre = yes
 
-976.1.1 = { 
-    owner = A01
-    controller = A01
-    add_core = A01
-    add_core = A79
-    culture = culture_azerothian
-    religion = religion_church_of_the_light
+976.1.1 = {
+  owner = A01
+  controller = A01
+  add_core = A01
+  remove_core = P81
+
+  culture = culture_azerothian
+  religion = religion_church_of_the_light
 }
-
-

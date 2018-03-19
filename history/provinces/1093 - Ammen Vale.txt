@@ -15,13 +15,16 @@ religion = religion_ancestral
 trade_goods = fur
 hre = no
 
-941.1.1 = { 
-owner = A56
-controller = A56
-add_core = A56 
-culture = culture_karaborian
-religion = religion_light_of_the_naaru
-base_tax = 3
-base_manpower = 3
-base_production = 3
+941.1.1 = {
+  owner = A56
+  controller = A56
+  add_core = A56
+  remove_core = B43
+
+  base_tax = 3
+  base_manpower = 3
+  base_production = 3
+
+  culture = culture_karaborian
+  religion = religion_light_of_the_naaru
 }

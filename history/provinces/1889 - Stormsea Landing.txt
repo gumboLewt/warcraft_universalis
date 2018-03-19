@@ -16,10 +16,11 @@ trade_goods = naval_supplies
 hre = no
 
 976.1.1 = {
-owner = A78
-controller = A78
-add_core = A78
-religion = religion_voodoo
-culture = culture_zandalari
-}
+  owner = A78
+  controller = A78
+  add_core = A78
+  remove_core = P92
 
+  culture = culture_zandalari
+  religion = religion_voodoo
+}

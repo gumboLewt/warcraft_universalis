@@ -1,43 +1,16 @@
 # 2151 - Withered Remains.txt
 is_city = yes
 
-owner = F30
-controller = F30
-add_core = F30
+owner = F12
+controller = F12
+add_core = F12
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_nerglish
-religion = religion_water
+culture = culture_azerothian
+religion = religion_shadow
 
 trade_goods = grain
 hre = no
-
-801.1.1 = { 
-    owner = A44
-    controller = A44
-    add_core = A44
-    culture = culture_burning_blade
-    religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    culture = culture_azerothian
-    religion = religion_church_of_the_light 
-}
-
-# The Third War
-901.1.1 = { 
-    is_city = yes
-    owner = F12
-    controller = F12
-    add_core = F12
-    remove_core = A44
-    religion = religion_shadow
-}

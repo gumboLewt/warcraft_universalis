@@ -15,11 +15,12 @@ religion = religion_hakkari
 trade_goods = fish
 hre = no
 
-971.1.1 = { 
+971.1.1 = {
 	owner = A80
 	controller = A80
 	add_core = A80
-	remove_core = B29
+	remove_core = A72
+
 	culture = culture_steamwheedle
 	religion = religion_tech
 }

@@ -1,30 +1,16 @@
 # 2059 - Ethereum Staging Grounds.txt
 is_city = yes
 
-owner = A38
-controller = A38
-add_core = A38
+owner = F80
+controller = F80
+add_core = F80
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_laughing_skull
-religion = religion_ancestral
+culture = culture_kareshi
+religion = religion_void
 
 trade_goods = army_supplies
 hre = no
-
-776.1.1 = {
-religion = religion_fel
-}
-
-#Outland
-821.1.1 = {
-owner = F80
-controller = F80
-add_core = F80
-culture = culture_kareshi
-religion = religion_void
-}
-

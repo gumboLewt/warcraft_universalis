@@ -16,32 +16,35 @@ trade_goods = fish
 hre = no
 
 926.1.1 = {
-    add_core = A70
-    owner = A70
-    controller = A70
-    capital = "Zoram'gar Outpost"
-    culture = culture_darkspear
-    religion = religion_loa
+  owner = A70
+  controller = A70
+  add_core = A70
+  remove_core = B30
+
+  culture = culture_darkspear
+  religion = religion_loa
+  capital = "Zoram'gar Outpost"
 }
 
 971.1.1 = {
-    base_tax = 3
-    base_manpower = 3
-    base_production = 3
-    trade_goods = naval_supplies
+  base_tax = 3
+  base_production = 3
+  base_manpower = 3
+
+  trade_goods = naval_supplies
 }
 
 981.1.1 = {
-    base_tax = 2
-    base_manpower = 2
-    base_production = 2
-    owner = A94
-    controller = A94
-    add_core = A94
-    capital = "Zoram Outpost"
-    culture = culture_sentinel
-    religion = religion_elune
-    remove_core = A70
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = A70
+
+  base_tax = 2
+  base_manpower = 2
+  base_production = 2
+
+  culture = culture_sentinel
+  religion = religion_elune
+  capital = "Zoram Outpost"
 }
-
-

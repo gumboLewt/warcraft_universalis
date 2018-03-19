@@ -13,33 +13,31 @@ culture = culture_lordaeron
 religion = religion_church_of_the_light
 
 trade_goods = stone
-hre = no 
+hre = no
 
-906.1.1 = { 
-	add_core = A09
-	remove_core = A08
+906.1.1 = {
 	owner = A09
-	controller = F15
-}
-
-# War of Lordaeron (TFT)
-916.9.1 = { 
 	controller = A09
+	add_core = A09
+	remove_core = R02
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	owner = A22
 	controller = A22
 	add_core = A22
 	remove_core = A09
-	religion = religion_scarlet_light 
+
+	religion = religion_scarlet_light
 }
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
 	owner = F19
 	controller = F19
 	add_core = F19
+  remove_core = A22
+
 	religion = religion_argent_light
 }

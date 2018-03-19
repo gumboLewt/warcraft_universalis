@@ -14,4 +14,3 @@ religion = religion_light_of_the_naaru
 
 trade_goods = glowcap
 hre = no
-

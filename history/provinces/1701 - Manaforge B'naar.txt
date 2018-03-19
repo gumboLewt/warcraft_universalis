@@ -10,19 +10,17 @@ base_production = 4
 base_manpower = 3
 
 culture = culture_laughing_skull
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = arcane
 hre = no
 
-776.1.1 = {
-religion = religion_fel
-}
-
 926.1.1 = {
-owner = A93
-controller = A93
-add_core =  A93
-culture = culture_blood_elf
-religion = religion_fel
+  owner = A93
+  controller = A93
+  add_core =  A93
+  remove_core = A38
+
+  culture = culture_blood_elf
+  religion = religion_fel
 }

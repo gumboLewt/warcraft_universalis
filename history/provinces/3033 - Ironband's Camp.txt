@@ -1,34 +1,16 @@
 # 3033 - Ironband's Camp.txt
 is_city = yes
 
-owner = P54
-controller = P54
-add_core = P54
+owner = A29
+controller = A29
+add_core = A29
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_trogg
-religion = religion_geomancy
+culture = culture_ironforge
+religion = religion_church_of_the_light
 
 trade_goods = fossils
 hre = no
-
-806.1.1 = { 
-    owner = A40
-    controller = A40
-    add_core = A40
-    culture = culture_bleeding_hollow 
-    religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    owner = A29
-    controller = A29
-    add_core = A29
-    remove_core = A40
-    culture = culture_ironforge 
-    religion = religion_church_of_the_light
-}

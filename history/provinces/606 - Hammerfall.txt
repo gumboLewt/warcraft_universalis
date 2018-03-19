@@ -1,47 +1,30 @@
 # 606 - Hammerfall.txt
-is_city = yes
+is_city = no
 
-owner = R13
-controller = R13
-add_core = R13
+owner = XXX
+controller = XXX
+add_core = A48
+
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_arathi
-religion = religion_church_of_the_light
+culture = culture_horde
+religion = religion_ancestral
+capital = "Eastgarde Internment Camp"
 
 trade_goods = mithril
-hre = no 
-
-816.1.1 = { 
-    culture = culture_horde
-    religion = religion_fel
-    capital = "Eastgarde Internment Camp"
-    add_core = A48 
-}
-
-# The Third War
-901.1.1 = { 
-    is_city = no
-    owner = XXX
-    controller = XXX
-    remove_core = A48
-    religion = religion_ancestral 
-}
+hre = no
 
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
     is_city = yes
+
     owner = A48
     controller = A48
-    add_core = A48
-    capital = "Hammerfall" 
+    capital = "Hammerfall"
 }
-
-
-
-
-
-

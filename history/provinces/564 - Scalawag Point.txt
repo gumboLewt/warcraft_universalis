@@ -15,19 +15,15 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-906.1.1 = { 
-    is_city = no
-    owner = XXX
-    controller = XXX
-}
-
 # The Burning Crusade
-941.1.1 = { 
-    is_city = yes
+941.1.1 = {
     owner = A20
     controller = A20
     add_core = A20
+    remove_core = B34
+
     religion = religion_church_of_the_light
     culture = culture_tirasian
+
     trade_goods = pirates
 }

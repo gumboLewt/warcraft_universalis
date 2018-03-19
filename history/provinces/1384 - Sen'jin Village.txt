@@ -15,13 +15,16 @@ religion = religion_geomancy
 trade_goods = fish
 hre = no
 
-906.1.1 = { 
-owner = A70
-controller = A70
-add_core = A70
-culture = culture_darkspear
-religion = religion_loa 
-base_tax = 3
-base_manpower = 3
-base_production = 3
+906.1.1 = {
+  owner = A70
+  controller = A70
+  add_core = A70
+  remove_core = B69
+
+  base_tax = 3
+  base_manpower = 3
+  base_production = 3
+
+  culture = culture_darkspear
+  religion = religion_loa
 }

@@ -15,20 +15,20 @@ religion = religion_church_of_the_light
 trade_goods = fur
 hre = no
 
-926.1.1 = { 
-owner = P30
-controller = P30
-add_core = P30
-culture = culture_lordaeron
-religion = religion_church_of_the_light
-capital = "Amberpine Lodge"
+926.1.1 = {
+  owner = P30
+  controller = P30
+  add_core = P30
+  remove_core = P32
+
+  capital = "Amberpine Lodge"
 }
 
 
 # The Burning Crusade
-941.1.1 = { 
-owner = P32
-controller = P32
-add_core = P32
+941.1.1 = {
+  owner = P32
+  controller = P32
+  add_core = P32
 }
 

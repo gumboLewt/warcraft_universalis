@@ -9,11 +9,8 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 
-religion = religion_ancestral
+culture = culture_shattered_hand
+religion = religion_fel
 
 trade_goods = fel_iron
 hre = no
-
-776.1.1 = {
-	religion = religion_fel
-}

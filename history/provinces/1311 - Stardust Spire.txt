@@ -16,8 +16,8 @@ trade_goods = artifacts
 hre = no
 
 926.1.1 = {
-	owner = A94
-	controller = A94
-        add_core = A94
-        remove_core = H01
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = H01
 }

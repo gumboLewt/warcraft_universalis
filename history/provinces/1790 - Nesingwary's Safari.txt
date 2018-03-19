@@ -16,11 +16,11 @@ trade_goods = fur
 hre = yes
 
 976.1.1 = {
-    owner = F29
-    controller = F29
-    add_core = F29
-    culture = culture_ironforge
-    religion = religion_church_of_the_light
+  owner = F29
+  controller = F29
+  add_core = F29
+  remove_core = P82
+
+  culture = culture_ironforge
+  religion = religion_church_of_the_light
 }
-
-

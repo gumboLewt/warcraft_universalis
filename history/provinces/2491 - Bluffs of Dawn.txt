@@ -1,8 +1,12 @@
 # 2491 - Bluffs of Dawn.txt
 is_city = no
+
 native_size = 10
 native_ferocity = 10
 native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
@@ -14,21 +18,21 @@ religion = religion_voodoo
 trade_goods = fur
 hre = no
 
-906.1.1 = { 
-    owner = P11
-    controller = P11
-    add_core = P11
-    culture = culture_undead_troll
-    religion = religion_the_damned
-    remove_core = A77
+906.1.1 = {
+  owner = P11
+  controller = P11
+  add_core = P11
+
+  culture = culture_undead_troll
+  religion = religion_the_damned
 }
 
-946.1.1 = { 
-    add_core = A96
-    owner = A96
-    controller = A96
-    culture = culture_forsaken
-    religion = religion_forgotten_shadow 
+946.1.1 = {
+  owner = A96
+  controller = A96
+  add_core = A96
+  remove_core = P11
+
+  culture = culture_forsaken
+  religion = religion_forgotten_shadow
 }
-
-

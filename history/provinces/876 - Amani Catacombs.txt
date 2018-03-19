@@ -1,5 +1,5 @@
 # 876 - Amani Catacombs.txt
-is_city = yes 
+is_city = yes
 
 owner = A59
 controller = A59
@@ -13,8 +13,8 @@ culture = culture_shadowpine
 religion = religion_voodoo
 
 trade_goods = crypts
-hre = no 
+hre = no
 
 906.1.1 = {
-culture = culture_undead_troll
+  culture = culture_undead_troll
 }

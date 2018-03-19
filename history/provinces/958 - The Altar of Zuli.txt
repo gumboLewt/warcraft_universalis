@@ -1,7 +1,7 @@
 # 958 - The Altar of Zuli.txt
-is_city = yes 
+is_city = yes
 
-owner = A60 
+owner = A60
 controller = A60
 add_core = A60
 
@@ -13,8 +13,8 @@ culture = culture_vilebranch
 religion = religion_voodoo
 
 trade_goods = artifacts
-hre = no 
+hre = no
 
-926.1.1 = { 
-religion = religion_hakkari 
+926.1.1 = {
+  religion = religion_hakkari
 }

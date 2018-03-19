@@ -13,4 +13,3 @@ religion = religion_air
 
 trade_goods = lumber
 hre = no
-

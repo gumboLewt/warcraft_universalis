@@ -1,26 +1,16 @@
 # 1643 - Tuurem.txt
 is_city = yes
 
-owner = B77
-controller = B77
-add_core = B77
+owner = F75
+controller = F75
+add_core = F75
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_sethekk
-religion = religion_terokk
+culture = culture_broken
+religion = religion_shadow
 
 trade_goods = artifacts
 hre = no
-
-821.1.1 = {
-owner = F75
-controller = F75
-add_core =  F75
-culture = culture_broken
-religion = religion_shadow
-}
-
-

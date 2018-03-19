@@ -13,36 +13,33 @@ culture = culture_lordaeron
 religion = religion_church_of_the_light
 
 trade_goods = grain_silo
-hre = no 
-
-901.1.1 = { 
-	add_claim = P52
-}
+hre = no
 
 # The Frozen Throne
-906.1.1 = { 
-	add_core = P62
-	remove_core = A08
+906.1.1 = {
 	owner = P62
 	controller = P62
+	add_core = P62
+	remove_core = R06
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-	add_core = A22
-	remove_core = P62
+926.1.1 = {
 	owner = A22
 	controller = A22
-	religion = religion_scarlet_light 
+	add_core = A22
+	remove_core = P62
+
+	religion = religion_scarlet_light
 }
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
 	owner = X01
 	controller = X01
 	add_core = X01
-	remove_core = A08
-	remove_core = P62
+	remove_core = A22
+
 	religion = religion_fel
 	culture = culture_forsaken
 }

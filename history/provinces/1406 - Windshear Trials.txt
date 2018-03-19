@@ -14,4 +14,3 @@ religion = religion_geomancy
 
 trade_goods = fish
 hre = no
-

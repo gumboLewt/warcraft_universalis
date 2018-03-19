@@ -10,20 +10,16 @@ base_production = 3
 base_manpower = 3
 
 culture = culture_laughing_skull
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = artifacts
 hre = no
 
-776.1.1 = {
-religion = religion_fel
-}
-
 941.1.1 = {
-owner = B92
-controller = B92
-add_core =  B92
-culture = culture_doomguard
+  owner = B92
+  controller = B92
+  add_core =  B92
+  remove_core = A38
+
+  culture = culture_doomguard
 }
-
-

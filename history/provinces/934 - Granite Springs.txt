@@ -15,33 +15,38 @@ religion = religion_old_gods
 trade_goods = fur
 hre = no
 
-926.1.1 = { 
-owner = P30
-controller = P30
-add_core = P30
-culture = culture_lordaeron
-religion = religion_church_of_the_light 
+926.1.1 = {
+  owner = P30
+  controller = P30
+  add_core = P30
+  remove_core = B45
+
+  culture = culture_lordaeron
+  religion = religion_church_of_the_light
 }
 
 # The Burning Crusade
-941.1.1 = { 
-culture = culture_lordaeron_worgen
-religion = religion_shadow
+941.1.1 = {
+  culture = culture_lordaeron_worgen
+  religion = religion_shadow
 }
 
 946.1.1 = {
-culture = culture_lordaeron
-religion = religion_church_of_the_light
-owner = F39
-controller = F39
-add_core = F39
+  owner = F39
+  controller = F39
+  add_core = F39
+  remove_core = P30
+
+  culture = culture_lordaeron
+  religion = religion_church_of_the_light
 }
 
 971.1.1 = {
-owner = B86
-controller = B86
-add_core = B86
-remove_core = F39
-culture = culture_ooze
-religion = religion_old_gods
+  owner = B86
+  controller = B86
+  add_core = B86
+  remove_core = F39
+
+  culture = culture_ooze
+  religion = religion_old_gods
 }

@@ -1,42 +1,31 @@
 # 1549 - Land's End Beach.txt
-is_city = yes
+is_city = no
 
-owner = A73
-controller = A73
-add_core = A73
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_sandfury
-religion = religion_voodoo
+culture = culture_dunemaul
+religion = religion_geomancy
 
 trade_goods = fish
 hre = no
 
-816.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    culture = culture_dunemaul
-    religion = religion_geomancy
-}
-
-966.11.11 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    culture = culture_dunemaul
-    religion = religion_geomancy
-}
-
 971.1.1 = {
-    is_city = yes
-    add_core = A32
-    owner = A32
-    controller = A32
-    culture = culture_gnome
-    religion = religion_tech
-    capital = "Steelspark station"
+  is_city = yes
+
+  owner = A32
+  controller = A32
+  add_core = A32
+
+  culture = culture_gnome
+  religion = religion_tech
+  capital = "Steelspark station"
 }

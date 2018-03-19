@@ -1,34 +1,27 @@
 # 931 - Brill.txt
 is_city = yes
 
-owner = R10
-controller = R10
-add_core = R10
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = grain
-hre = no 
-
-901.1.1 = {
-add_core = P52
-owner = P52
-controller = P52
-culture = culture_scourge
-religion = religion_the_damned 
-}
+hre = no
 
 # The Frozen Throne
-906.1.1 = { 
-add_core = P14
-owner = P14
-controller = P14
-culture = culture_forsaken
-religion = religion_forgotten_shadow
-remove_core = A08
+906.1.1 = {
+  add_core = P14
+  owner = P14
+  controller = P14
+  remove_core = P52
+
+  culture = culture_forsaken
+  religion = religion_forgotten_shadow
 }

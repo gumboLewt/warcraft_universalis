@@ -15,10 +15,12 @@ religion = religion_voodoo
 trade_goods = army_supplies
 hre = no
 
-946.1.1 = { 
-owner = P13
-controller = P13
-add_core = P13
-religion = religion_forgotten_shadow
-culture = culture_death_knight 
+946.1.1 = {
+  owner = P13
+  controller = P13
+  add_core = P13
+  remove_core = A74
+
+  culture = culture_death_knight
+  religion = religion_forgotten_shadow
 }

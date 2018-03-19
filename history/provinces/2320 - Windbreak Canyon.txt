@@ -16,9 +16,11 @@ trade_goods = grain
 hre = no
 
 926.1.1 = {
-  add_core = B57
   owner = B57
   controller = B57
+  add_core = B57
+  remove_core = P23
+
   culture = culture_gravelsnout
   religion = religion_geomancy
 }

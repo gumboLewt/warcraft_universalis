@@ -15,13 +15,16 @@ religion = religion_air
 trade_goods = mounts
 hre = no
 
-906.1.1 = { 
-owner = F88
-controller = F88
-add_core = F88
-culture = culture_bloodhoof
-religion = religion_ancestral
-base_tax = 3
-base_manpower = 3
-base_production = 3
+906.1.1 = {
+  owner = F88
+  controller = F88
+  add_core = F88
+  remove_core = B20
+
+  base_tax = 3
+  base_production = 3
+  base_manpower = 3
+
+  culture = culture_bloodhoof
+  religion = religion_ancestral
 }

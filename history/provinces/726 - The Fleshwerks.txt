@@ -1,26 +1,16 @@
 # 726 - The Fleshwerks.txt
 is_city = yes
 
-owner = P74
-controller = P74
-add_core = P74
+owner = P11
+controller = P11
+add_core = P11
 
 base_tax = 2
 base_production = 2
-base_manpower = 2
+base_manpower = 3
 
-culture = culture_nerubian
-religion = religion_arcane
-
-trade_goods = grain
-hre = no
-
-866.1.1 = { 
-add_core = P11
-controller = P11
-owner = P11
 culture = culture_scourge
 religion = religion_the_damned
+
 trade_goods = crypts
-base_manpower = 3
-}
+hre = no

@@ -1,37 +1,30 @@
 # 953 - Karazhan.txt
-is_city = yes
+is_city = no
 
-owner = P59
-controller = P59
-add_core = P59
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 7
 base_production = 7
 base_manpower = 7
 
 culture = culture_azerothian
-religion = religion_arcane
+religion = religion_fel
 
 trade_goods = arcane
 hre = no
 
-776.1.1 = { 
-	religion = religion_fel
-}
-
-# Fall of Stormwind
-801.1.1 = { 
-    is_city = no
-	owner = XXX
-	controller = XXX 
-    remove_core = P59
-}
-
 # The Burning Crusade
-941.1.1 = { 
-    is_city = yes
+941.1.1 = {
+  is_city = yes
+
 	owner = P59
 	controller = P59
 	add_core = P59
+
 	culture = culture_forsaken
 }

@@ -10,12 +10,7 @@ base_production = 4
 base_manpower = 4
 
 culture = culture_revantusk
-religion = religion_voodoo
+religion = religion_loa
 
 trade_goods = fish
-hre = no 
-
-901.1.1 = {
-religion = religion_loa
-}
-
+hre = no

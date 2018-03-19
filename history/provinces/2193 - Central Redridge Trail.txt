@@ -15,10 +15,12 @@ religion = religion_geomancy
 trade_goods = stone
 hre = no
 
-971.1.1 = { 
+971.1.1 = {
 	owner = A80
 	controller = A80
 	add_core = A80
+  remove_core = B16
+
 	culture = culture_steamwheedle
 	religion = religion_tech
 }

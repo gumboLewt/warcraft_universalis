@@ -15,17 +15,16 @@ religion = religion_air
 trade_goods = fossils
 hre = no
 
-926.1.1 = { 
+926.1.1 = {
 	controller = F59
 	owner = F59
 	add_core = F59
+  remove_core = G05
+
+	base_tax = 2
+	base_production = 3
+	base_manpower = 2
+
 	culture = culture_ironforge
 	religion = religion_mystery_of_the_makers
-	
-	base_tax = 2
-	base_manpower = 2
-	base_production = 3
-
-	is_city = yes
 }
-

@@ -1,8 +1,12 @@
 # 2418 - Windswept Rise.txt
 is_city = no
+
 native_size = 10
 native_ferocity = 10
 native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
@@ -14,11 +18,13 @@ religion = religion_sect_of_dragons
 trade_goods = grain
 hre = no
 
-946.1.1 = { 
-    is_city = yes
-    add_core = P11
-    owner = P11
-    controller = P11
-    culture = culture_scourge
-    religion = religion_the_damned 
+946.1.1 = {
+  is_city = yes
+
+  owner = P11
+  controller = P11
+  add_core = P11
+
+  culture = culture_scourge
+  religion = religion_the_damned
 }

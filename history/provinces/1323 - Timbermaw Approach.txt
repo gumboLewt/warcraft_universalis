@@ -16,9 +16,11 @@ trade_goods = fur
 hre = no
 
 926.1.1 = {
-owner = B44
-controller = B44
-add_core = B44
-culture = culture_winterfall
-religion = religion_fel
+  owner = B44
+  controller = B44
+  add_core = B44
+  remove_core = B42
+
+  culture = culture_winterfall
+  religion = religion_fel
 }

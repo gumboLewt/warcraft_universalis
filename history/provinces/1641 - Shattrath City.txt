@@ -1,38 +1,31 @@
 # 1641 - Shattrath City.txt
 is_city = yes
 
-owner = A54
-controller = A54
-add_core = A54
+owner = A34
+controller = A34
+add_core = A34
+add_core =  A54
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_shattrathi
-religion = religion_light_of_the_naaru
+culture = culture_shadowmoon
+religion = religion_fel
 
 trade_goods = artifacts
 hre = no
 
-776.1.1 = {
-    owner = A34
-    controller = A34
-    add_core = A34
-    remove_core = A54
-    religion = religion_fel
-    culture = culture_shadowmoon
-}
-
 # Rise of the Qiraji
 926.1.1 = {
-    owner = A54
-    controller = A54
-    add_core =  A54
-    culture = culture_shattrathi
-    religion = religion_light_of_the_naaru
-    base_tax = 8
-    base_manpower = 8
-    base_production = 8
-}
+  owner = A54
+  controller = A54
+  remove_core = A34
 
+  base_tax = 8
+  base_manpower = 8
+  base_production = 8
+
+  culture = culture_shattrathi
+  religion = religion_light_of_the_naaru
+}

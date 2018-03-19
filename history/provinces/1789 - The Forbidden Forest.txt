@@ -15,13 +15,13 @@ religion = religion_voodoo
 trade_goods = tropical_wood
 hre = yes
 
-976.1.1 = { 
-    owner = A94
-    controller = A94
-    add_core = A94
-    culture = culture_sentinel
-    religion = religion_elune
-    capital = "Sentinel Basecamp"
+976.1.1 = {
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = P83
+
+  culture = culture_sentinel
+  religion = religion_elune
+  capital = "Sentinel Basecamp"
 }
-
-

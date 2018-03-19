@@ -1,26 +1,16 @@
 # 2065 - Daggerfen Village.txt
 is_city = yes
 
-owner = F69
-controller = F69
-add_core = F69
+owner = F67
+controller = F67
+add_core = F67
 
 base_tax = 3
 base_production = 3
-base_manpower = 3
+base_manpower = 4
 
-culture = culture_ango_rosh
-religion = religion_geomancy
+culture = culture_lost_one
+religion = religion_shadow
 
 trade_goods = fish
 hre = no
-
-821.1.1 = {
-	owner = F67
-	controller = F67
-	add_core =  F67
-	base_manpower = 4
-	culture = culture_lost_one
-	religion = religion_shadow
-}
-

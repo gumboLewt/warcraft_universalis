@@ -16,9 +16,10 @@ trade_goods = oil
 hre = no
 
 926.1.1 = {
-religion = religion_the_damned
-remove_core = B70
-owner = B71
-controller = B71
-add_core = B71
+  owner = B71
+  controller = B71
+  add_core = B71
+  remove_core = B70
+
+  religion = religion_the_damned
 }

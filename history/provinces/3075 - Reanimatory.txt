@@ -1,51 +1,35 @@
 # 3075 - Reanimatory.txt
 is_city = yes
 
-owner = A62
-controller = A62
-add_core = A62
-add_core = A10
+owner = A08
+controller = A08
 add_core = A08
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_mossflayer 
-religion = religion_voodoo
+culture = culture_lordaeron
+religion = religion_church_of_the_light
 
 trade_goods = grain
-hre = no 
-
-801.1.1 = { 
-	owner = A08
-	controller = A08
-	add_core = A08
-	add_core = A10
-	remove_core = A62
-	religion = religion_church_of_the_light
-	culture = culture_lordaeron 
-}
-
-# The Third War
-906.1.1 = { 
-	add_core = P52
-}
+hre = no
 
 # The Frozen Throne
-906.1.1 = { 
-	add_core = A10
+906.1.1 = {
 	owner = A10
 	controller = A10
+	add_core = A10
+  remove_core = A08
 }
 
 # Rise of the Qiraji
 926.1.1 = {
-	add_core = P12
-	remove_core = A08
-	remove_core = A10
 	owner = P12
 	controller = P12
+	add_core = P12
+	remove_core = A10
+
 	culture = culture_scourge
 	religion = religion_the_damned
 }

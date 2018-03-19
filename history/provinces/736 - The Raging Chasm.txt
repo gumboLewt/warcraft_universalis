@@ -1,9 +1,12 @@
 # 736 - The Raging Chasm.txt
-is_city = yes
+is_city = no
 
-owner = A02
-controller = A02
-add_core = A02
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 2
 base_production = 2
@@ -15,32 +18,14 @@ religion = religion_church_of_the_light
 trade_goods = stone
 hre = no
 
-801.1.1 = { 
-    owner = A42
-    controller = A42
-    add_core = A42
-    culture = culture_stormreaver
-    religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    remove_core = A42
-    culture = culture_azerothian
-    religion = religion_church_of_the_light
-}
-
 # Rise of the Qiraji
 926.1.1 = {
-    is_city = yes
-    owner = B15
-    controller = B15
-    add_core = B15
-    culture = culture_riverpaw
-    religion = religion_geomancy
+  is_city = yes
+
+  owner = B15
+  controller = B15
+  add_core = B15
+
+  culture = culture_riverpaw
+  religion = religion_geomancy
 }
-
-

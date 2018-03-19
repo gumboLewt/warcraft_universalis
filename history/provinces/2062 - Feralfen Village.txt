@@ -1,34 +1,16 @@
 # 2062 - Feralfen Village.txt
 is_city = yes
 
-owner = F62
-controller = F62
-add_core = F62
+owner = F66
+controller = F66
+add_core = F66
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_sporeling
-religion = religion_zangar
+culture = culture_broken
+religion = religion_ancestral
 
 trade_goods = fish
 hre = no
-
-816.1.1 = {
-    owner = F84
-    controller = F84
-    add_core = F84
-    culture = culture_broken
-    religion = religion_ancestral
-}
-
-821.1.1 = {
-    owner = F66
-    controller = F66
-    add_core =  F66
-}
-
-
-
-

@@ -9,21 +9,18 @@ base_tax = 5
 base_production = 5
 base_manpower = 5
 
-culture = culture_bleeding_hollow 
-religion = religion_ancestral
+culture = culture_bleeding_hollow
+religion = religion_fel
 
 trade_goods = khorium
 hre = no
 
-776.1.1 = { 
-	religion = religion_fel
-}
-
-941.1.1 = { 
+941.1.1 = {
 	owner = A50
 	controller = A50
 	add_core = A50
-	
+  remove_core = A40
+
 	culture = culture_horde
 	religion = religion_ancestral
 }

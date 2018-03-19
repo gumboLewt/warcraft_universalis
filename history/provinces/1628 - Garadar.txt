@@ -1,22 +1,16 @@
 # 1628 - Garadar.txt
 is_city = yes
 
-owner = A46
-controller = A46
-add_core = A46
+owner = F72
+controller = F72
+add_core = F72
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_frostwolf
+culture = culture_mag_har
 religion = religion_ancestral
 
 trade_goods = fish
 hre = no
-
-821.1.1 = {
-owner = F72
-controller = F72
-add_core = F72
-}

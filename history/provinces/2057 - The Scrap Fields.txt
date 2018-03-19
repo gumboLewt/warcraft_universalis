@@ -1,44 +1,28 @@
 # 2057 - The Scrap Fields.txt
 is_city = yes
 
-owner = A54
-controller = A54
-add_core = A54
+owner = F80
+controller = F80
+add_core = F80
 
 base_tax = 3
 base_production = 3
 base_manpower = 2
 
-culture = culture_shattrathi
-religion = religion_light_of_the_naaru
+culture = culture_kareshi
+religion = religion_void
 
 trade_goods = adamantite
 hre = no
 
-776.1.1 = {
-    add_core = A43
-    controller = A43
-    owner = A43
-    remove_core = A54
-    culture = culture_twilights_hammer
-    religion = religion_fel
-}
-
-#Outland
-821.1.1 = {
-    owner = F80
-    controller = F80
-    add_core = F80
-    remove_core = A43
-    culture = culture_kareshi
-    religion = religion_void
-}
-
 941.1.1 = {
-    trade_goods = fel_iron
-    owner = B92
-    controller = B92
-    add_core =  B92
-    religion = religion_fel
-    culture = culture_moarg
+  owner = B92
+  controller = B92
+  add_core =  B92
+  remove_core = F80
+
+  culture = culture_moarg
+  religion = religion_fel
+
+  trade_goods = fel_iron
 }

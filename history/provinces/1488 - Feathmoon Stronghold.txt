@@ -16,12 +16,13 @@ trade_goods = fish
 hre = no
 
 971.1.1 = {
-add_core = A94
-owner = A94
-controller = A94
-is_city = yes
-culture = culture_sentinel
-religion = religion_elune
-trade_goods = moonwell
-capital = "Feathermoon Stronghold"
+  owner = A94
+  controller = A94
+  add_core = A94
+
+  culture = culture_sentinel
+  religion = religion_elune
+  capital = "Feathermoon Stronghold"
+
+  trade_goods = moonwell
 }

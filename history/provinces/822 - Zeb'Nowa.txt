@@ -1,5 +1,5 @@
 # 822 - Zeb'Nowa.txt
-is_city = yes 
+is_city = yes
 
 owner = A59
 controller = A59
@@ -13,5 +13,4 @@ culture = culture_shadowpine
 religion = religion_voodoo
 
 trade_goods = fur
-hre = no 
-
+hre = no

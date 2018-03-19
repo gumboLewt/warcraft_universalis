@@ -15,12 +15,14 @@ religion = religion_ancestral
 trade_goods = fur
 hre = no
 
-946.1.1 = { 
-owner = F38
-controller = F38
-add_core = F38
-remove_core = B46
-culture = culture_lordaeron
-religion = religion_church_of_the_light 
-base_manpower = 3
+946.1.1 = {
+  owner = F38
+  controller = F38
+  add_core = F38
+  remove_core = P73
+
+  base_manpower = 3
+
+  culture = culture_lordaeron
+  religion = religion_church_of_the_light
 }

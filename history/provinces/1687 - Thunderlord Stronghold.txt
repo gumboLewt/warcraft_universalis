@@ -10,29 +10,27 @@ base_production = 4
 base_manpower = 4
 
 culture = culture_thunderlord
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = artifacts
 hre = no
 
-776.1.1 = {
-religion = religion_fel
-}
-
 926.1.1 = {
-owner = F77
-controller = F77
-add_core = F77
-add_core = A49
-remove_core = A37
-culture = culture_bladespire
-religion = religion_geomancy
+  owner = F77
+  controller = F77
+  add_core = F77
+  remove_core = A37
+
+  culture = culture_bladespire
+  religion = religion_geomancy
 }
 
 941.1.1 = {
-owner = A50
-controller = A50
-add_core = A50
-culture = culture_horde
-religion = religion_ancestral
+  owner = A50
+  controller = A50
+  add_core = A50
+  remove_core = F77
+
+  culture = culture_horde
+  religion = religion_ancestral
 }

@@ -1,6 +1,12 @@
 # 877 - River's Heart.txt
-is_city = yes
+is_city = no
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 2
@@ -13,8 +19,10 @@ trade_goods = fish
 hre = no
 
 946.1.1 = {
-owner = F29
-add_core = F29
-religion = religion_church_of_the_light
-culture = culture_ironforge
+  owner = F29
+  controller = F29
+  add_core = F29
+
+  religion = religion_church_of_the_light
+  culture = culture_ironforge
 }

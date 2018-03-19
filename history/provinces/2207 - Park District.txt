@@ -15,33 +15,16 @@ religion = religion_church_of_the_light
 trade_goods = ale
 hre = no
 
-801.1.1 = {
-	owner = A41
-	controller = A41
-	add_core = A41
-	culture = culture_blackrock
-	religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-	owner = A01
-	controller = A01
-	remove_core = A41
-	culture = culture_azerothian
-	religion = religion_church_of_the_light 
-}
-
 # Cataclysm
 971.1.1 = {
 	base_tax = 1
-	base_manpower = 1
 	base_production = 1
+	base_manpower = 1
 }
 
 # Legion
 991.1.1 = {
 	base_tax = 3
-	base_manpower = 2
 	base_production = 2
+	base_manpower = 2
 }

@@ -20,17 +20,20 @@ hre = no
 	controller = B18
 	add_core = B18
   remove_core = B20
+
 	culture = culture_palemane
   religion = religion_geomancy
 }
 
 971.1.1 = {
-owner = B68
-controller = B68
-add_core = B68
-remove_core = H04
-culture = culture_bristleback
-base_tax = 3
-base_manpower = 4
-base_production = 3
+  owner = B68
+  controller = B68
+  add_core = B68
+  remove_core = B18
+
+  base_tax = 3
+  base_production = 3
+  base_manpower = 4
+
+  culture = culture_bristleback
 }

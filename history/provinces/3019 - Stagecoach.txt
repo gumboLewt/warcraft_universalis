@@ -1,34 +1,24 @@
 # 3019 - Stagecoach.txt
 is_city = yes
 
-owner = A12
-controller = A12
-add_core = A12
+owner = P50
+controller = P50
+add_core = P50
 
 base_tax = 2
-base_production = 1
-base_manpower = 2
+base_production = 2
+base_manpower = 3
 
-culture = culture_gilnean
-religion = religion_church_of_the_light
+culture = culture_crushridge
+religion = religion_geomancy
 
 trade_goods = fur
 hre = no
 
-806.1.1 = { 
-	owner = P50
-	controller = P50
-	add_core = P50
-	culture = culture_crushridge
-	religion = religion_geomancy 
-
-	base_manpower = 3
-	base_production = 2
-}
-
-# The Frozen Throne	
-906.1.1 = { 
+# The Frozen Throne
+906.1.1 = {
 	owner = F60
 	controller = F60
 	add_core = F60
+  remove_core = P50
 }

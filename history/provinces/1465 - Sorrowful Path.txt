@@ -1,40 +1,31 @@
 # 1465 - Sorrowful Path.txt
 is_city = yes
 
-owner = B68
-controller = B68
-add_core = B68
+owner = F57
+controller = F57
+add_core = F57
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 2
+base_manpower = 2
 
-culture = culture_bristleback
+culture = culture_stonemaul
 religion = religion_geomancy
+capital = "Bluefen Village"
 
 trade_goods = fish
 hre = no
 
-816.1.1 = { 
-owner = F57
-controller = F57
-add_core = F57
-culture = culture_stonemaul
-religion = religion_geomancy 
-base_tax = 3
-base_manpower = 2
-base_production = 2
-capital = "Bluefen Village"
-}
-
 # The Frozen Throne
-906.1.1 = { 
-controller = A23
-owner = A23
-add_core = A23
-culture = culture_lordaeron
-religion = religion_church_of_the_light
-capital = "Shady Rest"
-trade_goods = ale
-}
+906.1.1 = {
+  controller = A23
+  owner = A23
+  add_core = A23
+  remove_core = F57
 
+  culture = culture_lordaeron
+  religion = religion_church_of_the_light
+  capital = "Shady Rest"
+
+  trade_goods = ale
+}

@@ -15,14 +15,13 @@ trade_goods = artifacts
 hre = no
 
 971.1.1 = {
-    owner = A94
-    controller = A94
-    add_core = A94
-    remove_core = B04
-    culture = culture_cenarion
-    religion = religion_druidic
-    base_manpower = 2
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = J05
+
+  base_manpower = 2
+
+  culture = culture_cenarion
+  religion = religion_druidic
 }
-
-
-

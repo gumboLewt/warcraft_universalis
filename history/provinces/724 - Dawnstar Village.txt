@@ -16,33 +16,40 @@ trade_goods = grain
 hre = no
 
 906.1.1 = {
-    is_city = no
-    owner = XXX
-    controller = XXX
-    culture = culture_ghost
-    remove_core = A90
+  is_city = no
+
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
+  owner = XXX
+  controller = XXX
+  remove_core = R20
+
+  culture = culture_ghost
 }
 
-926.1.1 = { 
-    owner = A91
-    controller = A91
-    add_core = A91
-    culture = culture_blood_elf
-    religion = religion_arcane
+926.1.1 = {
+  owner = A91
+  controller = A91
+  add_core = A91
+
+  culture = culture_blood_elf
+  religion = religion_arcane
 }
 
-941.1.1 = { 
-    owner = G18
-    controller = G18
-    add_core = G18
-    religion = religion_fel
+941.1.1 = {
+  owner = G18
+  controller = G18
+  add_core = G18
+
+  religion = religion_fel
 }
 
-946.1.1 = { 
-    owner = A91
-    controller = A91
-    add_core = A91
-    remove_core = G18
-    culture = culture_blood_elf
-    religion = religion_light_of_the_sunwell
+946.1.1 = {
+  owner = A91
+  controller = A91
+  remove_core = G18
+
+  religion = religion_light_of_the_sunwell
 }

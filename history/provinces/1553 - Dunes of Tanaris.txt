@@ -16,9 +16,11 @@ trade_goods = fossils
 hre = no
 
 906.1.1 = {
-owner = A21
-controller = A21
-add_core = A21
-religion = religion_void
-culture = culture_tirasian
+  owner = A21
+  controller = A21
+  add_core = A21
+  remove_core = A73
+
+  culture = culture_tirasian
+  religion = religion_void
 }

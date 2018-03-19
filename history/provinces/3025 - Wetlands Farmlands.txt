@@ -19,7 +19,8 @@ hre = no
 	owner = A06
 	controller = A06
 	add_core = A06
-	remove_core = A29
+	remove_core = B26
+
 	culture = culture_ironforge
 	religion = religion_church_of_the_light
 }

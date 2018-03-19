@@ -15,24 +15,26 @@ religion = religion_old_gods
 trade_goods = grain
 hre = no
 
-906.1.1 = { 
+906.1.1 = {
 	owner = A43
 	controller = A43
 	add_core = A43
 	remove_core = A98
-	culture = culture_twilights_hammer
-	
+
 	base_tax = 3
-	base_manpower = 3
 	base_production = 3
+	base_manpower = 3
+
+	culture = culture_twilights_hammer
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-	controller = P27
+926.1.1 = {
 	owner = P27
+	controller = P27
 	add_core = P27
-	add_core = A98
+	remove_core = A43
+
 	culture = culture_earth
 	religion = religion_earth
 }

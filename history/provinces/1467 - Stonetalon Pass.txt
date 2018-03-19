@@ -16,9 +16,11 @@ trade_goods = fur
 hre = no
 
 971.1.1  = {
-owner = A85
-controller = A85
-add_core = A85
-culture = culture_grimtotem
-religion = religion_ancestral
+  owner = A85
+  controller = A85
+  add_core = A85
+  remove_core = G05
+
+  culture = culture_grimtotem
+  religion = religion_ancestral
 }

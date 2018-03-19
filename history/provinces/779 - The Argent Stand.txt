@@ -15,9 +15,14 @@ religion = religion_voodoo
 trade_goods = grain
 hre = no
 
-946.1.1 = { add_core = F19
-controller = F19
-owner = F19
-culture = culture_lordaeron
-religion = religion_argent_light
-trade_goods = army_supplies }
+946.1.1 = {
+  owner = F19
+  controller = F19
+  add_core = F19
+  remove_core = A74
+
+  culture = culture_lordaeron
+  religion = religion_argent_light
+
+  trade_goods = army_supplies
+}

@@ -16,12 +16,13 @@ trade_goods = fur
 hre = yes
 
 976.1.1 = {
-    owner = P44
-    controller = P44
-    add_core = P44
-    culture = culture_ordo
-    religion = religion_fire
-    trade_goods = oil
+  owner = P44
+  controller = P44
+  add_core = P44
+  remove_core = P41
+
+  culture = culture_ordo
+  religion = religion_fire
+
+  trade_goods = oil
 }
-
-

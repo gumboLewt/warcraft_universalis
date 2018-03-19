@@ -15,13 +15,16 @@ religion = religion_ancestral
 trade_goods = naval_supplies
 hre = no
 
-971.1.1 = { 
-owner = A01
-controller = A01
-add_core = A01
-religion = religion_church_of_the_light
-culture = culture_azerothian
-base_tax = 4
-base_manpower = 4
-base_production = 4
+971.1.1 = {
+  owner = A01
+  controller = A01
+  add_core = A01
+  remove_core = A28
+
+  base_tax = 4
+  base_manpower = 4
+  base_production = 4
+
+  religion = religion_church_of_the_light
+  culture = culture_azerothian
 }

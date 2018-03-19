@@ -15,18 +15,16 @@ religion = religion_earth
 trade_goods = fish
 hre = no
 
-926.1.1 = { 
-owner = P20
-controller = P20
-add_core = P20
-base_tax = 3
-base_manpower = 3
-base_production = 3
-culture = culture_cenarion
-religion = religion_old_gods
+926.1.1 = {
+  owner = P20
+  controller = P20
+  add_core = P20
+  remove_core = B21
+
+  base_tax = 3
+  base_production = 3
+  base_manpower = 3
+
+  culture = culture_cenarion
+  religion = religion_old_gods
 }
-
-
-
-
-

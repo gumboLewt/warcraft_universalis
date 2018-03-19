@@ -16,19 +16,19 @@ trade_goods = arcane
 hre = no
 
 946.1.1 = {
-owner = B01
-controller = B01
-add_core = B01
-culture = culture_blue
-religion = religion_sect_of_dragons
+  owner = B01
+  controller = B01
+  add_core = B01
+
+  culture = culture_blue
+  religion = religion_sect_of_dragons
 }
 
 971.1.1 = {
-owner = P77
-controller = P77
-culture = culture_crystal_nymph
-religion = religion_arcane
-remove_core = B01
+  owner = P77
+  controller = P77
+  remove_core = B01
+
+  culture = culture_crystal_nymph
+  religion = religion_arcane
 }
-
-

@@ -1,46 +1,42 @@
 # 2974 - Darrow Bridge.txt
 is_city = yes
 
-owner = R05
-controller = R05
-add_core = R05
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = grain
 hre = no
 
-901.1.1 = { 
-	add_core = P52
-	owner = P52
-	controller = P52
-	culture = culture_scourge
-	religion = religion_the_damned 
-}
-
-906.1.1 = {
-	remove_core = A08
-	remove_core = P62
-}
 
 # Cataclysm
-971.1.1 = { 
-    is_city = no
+971.1.1 = {
+  is_city = no
+
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
 	owner = XXX
 	controller = XXX
+  remove_core = P52
 }
 
 # Mists of Pandaria
-976.1.1 = { 
-    is_city = yes
+976.1.1 = {
+  is_city = yes
+
 	owner = F19
 	controller = F19
 	add_core = F19
+
 	culture = culture_lordaeron
 	religion = religion_church_of_the_light
 }

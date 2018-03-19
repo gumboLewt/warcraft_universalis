@@ -14,4 +14,3 @@ religion = religion_titan_corrupt
 
 trade_goods = fish
 hre = yes
-

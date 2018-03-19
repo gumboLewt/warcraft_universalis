@@ -1,9 +1,9 @@
 # 2350 - The Bones of Nozronn.txt
 is_city = yes
 
-owner = B55
-controller = B55
-add_core = B55
+owner = G36
+controller = G36
+add_core = G36
 
 base_tax = 3
 base_production = 3
@@ -15,17 +15,12 @@ religion = religion_titan
 trade_goods = fur
 hre = no
 
-891.1.1 = {
-    owner = G36
-    controller = G36
-    add_core = G36
-}
-
 946.1.1 = {
-    owner = B48
-    controller = B48
-    remove_core = G36
-    remove_core = B55
-    culture = culture_frenzyheart
-    religion = religion_primitive
+  owner = B48
+  controller = B48
+  add_core = B48
+  remove_core = G36
+
+  culture = culture_frenzyheart
+  religion = religion_primitive
 }

@@ -16,9 +16,11 @@ trade_goods = lumber
 hre = no
 
 926.1.1 = {
-owner = H02
-controller = H02
-add_core = H02
-culture = culture_cenarion
-religion = religion_druidic
+  owner = H02
+  controller = H02
+  add_core = H02
+  remove_core = B96
+
+  culture = culture_cenarion
+  religion = religion_druidic
 }

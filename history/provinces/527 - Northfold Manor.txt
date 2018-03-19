@@ -13,11 +13,12 @@ culture = culture_arathi
 religion = religion_church_of_the_light
 
 trade_goods = grain
-hre = no 
+hre = no
 
 926.1.1 = {
 	owner = A26
 	controller = A26
 	add_core = A26
+  remove_core = R14
 	religion = religion_shadow
 }

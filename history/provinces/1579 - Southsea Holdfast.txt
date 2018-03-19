@@ -15,10 +15,13 @@ religion = religion_geomancy
 trade_goods = gold
 hre = no
 
-971.1.1 = { owner = A19
-controller = A19
-add_core = A19
-religion = religion_church_of_the_light
-culture = culture_tirasian
-capital = "The Admiral's Den"
+971.1.1 = {
+  owner = A19
+  controller = A19
+  add_core = A19
+  remove_core = B57
+
+  culture = culture_tirasian
+  religion = religion_church_of_the_light
+  capital = "The Admiral's Den"
 }

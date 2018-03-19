@@ -16,19 +16,21 @@ trade_goods = army_supplies
 hre = no
 
 971.1.1 = {
-owner = A78
-controller = A78
-add_core = A78
-remove_core = F03
-culture = culture_zandalari
+  owner = A78
+  controller = A78
+  add_core = A78
+  remove_core = F03
+
+  culture = culture_zandalari
 }
 
 # Warlords of Draenor
 981.1.1 = {
-owner = A91
-controller = A91
-add_core = A91
-religion = religion_light_of_the_sunwell
-culture = culture_blood_elf
-}
+  owner = A91
+  controller = A91
+  add_core = A91
+  remove_core = A78
 
+  religion = religion_light_of_the_sunwell
+  culture = culture_blood_elf
+}

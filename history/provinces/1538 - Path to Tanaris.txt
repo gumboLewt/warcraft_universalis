@@ -15,18 +15,26 @@ religion = religion_voodoo
 trade_goods = stone
 hre = no
 
-926.1.1 = { 
-    is_city = no
+926.1.1 = {
+  is_city = no
+
+  native_size = 10
+  native_ferocity = 10
+  native_hostileness = 10
+
 	owner = XXX
 	controller = XXX
+  remove_core = A73
+
 	culture = culture_silithid
 	religion = religion_old_gods
 }
 
 971.1.1 = {
-    culture = culture_lordaeron
-    religion = religion_church_of_the_light
-    owner = F39
-    controller = F39
-    add_core = F39
+  owner = F39
+  controller = F39
+  add_core = F39
+
+  culture = culture_lordaeron
+  religion = religion_church_of_the_light
 }

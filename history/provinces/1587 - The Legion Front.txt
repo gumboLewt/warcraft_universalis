@@ -1,42 +1,33 @@
 # 1587 - The Legion Front.txt
 is_city = yes
 
-owner = A40
-controller = A40
-add_core = A40
+owner = B89
+controller = B89
+add_core = B89
 
 base_tax = 3
 base_production = 3
 base_manpower = 4
 
-culture = culture_bleeding_hollow 
-religion = religion_ancestral
+culture = culture_bleeding_hollow
+religion = religion_fel
 
 trade_goods = army_supplies
 hre = no
 
-776.1.1 = {
-    religion = religion_fel
-}
 
-#Outland
-821.1.1 = { 
-	owner = B89
-	controller = B89
-	add_core = B89
-}
+906.1.1 = {
+  is_city = no
 
-906.1.1 = { 
-    is_city = no
 	owner = XXX
 	controller = XXX
-	religion = religion_fel
+  remove_core = B89
 }
 
 941.1.1 = {
-    is_city = yes
+  is_city = yes
+
 	owner = B92
 	controller = B92
 	add_core = B92
-	remove_core = B89
 }

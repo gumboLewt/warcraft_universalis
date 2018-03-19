@@ -1,43 +1,38 @@
 # 808 - Sanctum of the Sun.txt
-is_city = yes 
+is_city = yes
 
-owner = A59
-controller = A59
-add_core = A59
+owner = A90
+controller = A90
+add_core = A90
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_shadowpine
-religion = religion_voodoo
+culture = culture_high_elf
+religion = religion_arcane
 
 trade_goods = arcane
-hre = no 
-
-801.1.1 = {
-	add_core = A90
-	owner = A90
-	controller = A90
-	culture = culture_high_elf
-	religion = religion_arcane
-}
+hre = no
 
 # The Frozen Throne
 906.1.1 = {
 	owner = F21
 	controller = F21
 	add_core = F21
+	remove_core = A90
+
 	culture = culture_ghost
 	religion = religion_the_damned
-	remove_core = A90 
 }
 
 # The Burning Crusade
-941.1.1 = { 
+941.1.1 = {
 	owner = A91
 	controller = A91
 	add_core = A91
+  remove_core = F21
+
 	culture = culture_blood_elf
 	religion = religion_arcane
 }

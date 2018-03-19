@@ -16,19 +16,21 @@ trade_goods = naval_supplies
 hre = no
 
 906.1.1 = {
-owner = F54
-controller = F54
-add_core = F54
-religion = religion_church_of_the_light
-remove_core = A90
+  owner = F54
+  controller = F54
+  add_core = F54
+  remove_core = A90
+
+  religion = religion_church_of_the_light
 }
 
 # The Burning Crusade
-941.1.1 = { 
-owner = B94
-controller = B94
-add_core = B94
-remove_core = F54
-culture = culture_wretched
-religion = religion_shadow
+941.1.1 = {
+  owner = B94
+  controller = B94
+  add_core = B94
+  remove_core = F54
+
+  culture = culture_wretched
+  religion = religion_shadow
 }

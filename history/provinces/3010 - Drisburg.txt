@@ -15,21 +15,25 @@ religion = religion_church_of_the_light
 trade_goods = fish
 hre = no
 
-926.1.1 = { 
+926.1.1 = {
 	owner = P52
 	controller = P52
 	add_core = P52
+  remove_core = A14
+
 	culture = culture_scourge
 	religion = religion_the_damned
 }
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
 	owner = A15
 	controller = A15
 	add_core = A15
 	remove_core = P52
+
 	culture = culture_tirasian
 	religion = religion_shadow
+
 	trade_goods = pirates
 }

@@ -15,10 +15,12 @@ religion = religion_geomancy
 trade_goods = crypts
 hre = no
 
-946.1.1 = { 
-owner = B08
-controller = B08
-add_core = B08
-culture = culture_dragonflayer
-religion = religion_the_damned 
+946.1.1 = {
+  owner = B08
+  controller = B08
+  add_core = B08
+  remove_core = B62
+
+  culture = culture_dragonflayer
+  religion = religion_the_damned
 }

@@ -15,9 +15,12 @@ religion = religion_geomancy
 trade_goods = fur
 hre = no
 
-946.1.1 = { 
+946.1.1 = {
 	owner = H07
+  controller = H07
 	add_core = H07
+  remove_core = B61
+
 	culture = culture_horde
-	religion = religion_ancestral 
+	religion = religion_ancestral
 }

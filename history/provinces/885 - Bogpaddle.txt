@@ -15,14 +15,18 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-971.1.1 = { 
+971.1.1 = {
 	owner = A80
 	controller = A80
 	add_core = A80
-	culture = culture_steamwheedle
-	religion = religion_tech
-	trade_goods = workshops
+  remove_core = B29
+
 	base_tax = 4
 	base_manpower = 4
 	base_production = 4
+
+	culture = culture_steamwheedle
+	religion = religion_tech
+
+	trade_goods = workshops
 }

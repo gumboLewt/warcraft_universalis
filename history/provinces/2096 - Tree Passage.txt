@@ -1,5 +1,5 @@
 # 2096 - Tree Passage.txt
-is_city = yes
+is_city = no
 
 native_size = 10
 native_ferocity = 10
@@ -16,8 +16,9 @@ trade_goods = ashenvale_lumber
 hre = no
 
 926.1.1 = {
+	is_city = yes
+
 	owner = A94
 	controller = A94
 	add_core = A94
-	is_city = yes
 }

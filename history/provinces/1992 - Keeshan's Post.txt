@@ -1,50 +1,41 @@
 # 1992 - Keeshan's Post.txt
-is_city = yes
+is_city = no
 
-owner = B17
-controller = B17
-add_core = B17
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_redridge
-religion = religion_geomancy
+culture = culture_blackrock
+religion = religion_fel
 
 trade_goods = army_supplies
 hre = no
 
-801.1.1 = { 
-	owner = P98
-	controller = P98
-	add_core = P98
-	culture = culture_blackrock
-	religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = { 
-    is_city = no
-	owner = XXX
-	controller = XXX
-	remove_core = P98 
-}
-
 # Rise of the Qiraji
-926.1.1 = { 
-    is_city = yes
+926.1.1 = {
+  is_city = yes
+
 	owner = A41
-	controller = A41 
-	add_core = A41 
+	controller = A41
+	add_core = A41
+
 	base_manpower = 2
 }
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
 	owner = A04
 	controller = A04
 	add_core = A04
+  remove_core = A41
+
 	culture = culture_azerothian
 	religion = religion_church_of_the_light
 }

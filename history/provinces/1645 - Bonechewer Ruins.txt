@@ -10,11 +10,7 @@ base_production = 4
 base_manpower = 4
 
 culture = culture_bonechewer
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = artifacts
 hre = no
-
-776.1.1 = {
-	religion = religion_fel
-}

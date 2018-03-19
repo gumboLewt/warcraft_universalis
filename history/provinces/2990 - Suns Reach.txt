@@ -16,42 +16,41 @@ trade_goods = naval_supplies
 hre = no
 
 906.1.1 = {
-owner = F54
-controller = F54
-add_core = F54
-religion = religion_church_of_the_light
-remove_core = A90
-add_claim = A58
+  owner = F54
+  controller = F54
+  add_core = F54
+  remove_core = R20
+
+  religion = religion_church_of_the_light
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-owner = G18
-controller = G18
-add_core = G18
-culture = culture_blood_elf
-religion = religion_arcane
-remove_core = F54
-remove_claim = A58
+926.1.1 = {
+  owner = G18
+  controller = G18
+  add_core = G18
+  remove_core = F54
+
+  culture = culture_blood_elf
+  religion = religion_arcane
 }
 
 # The Burning Crusade
-941.1.1 = { 
-owner = G19
-controller = G19
-add_core = G19
-religion = religion_light_of_the_naaru
-}
+941.1.1 = {
+  owner = G19
+  controller = G19
+  add_core = G19
+  remove_core = G18
 
-946.1.1 = {
-remove_core = G18
+  religion = religion_light_of_the_naaru
 }
 
 # Cataclysm
-971.1.1 = { 
-owner = A91
-controller = A91
-add_core = A91
-remove_core = G19
-religion = religion_arcane
+971.1.1 = {
+  owner = A91
+  controller = A91
+  add_core = A91
+  remove_core = G19
+
+  religion = religion_arcane
 }

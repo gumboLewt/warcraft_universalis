@@ -1,5 +1,5 @@
 # 889 - Aerie Peak.txt
-is_city = yes 
+is_city = yes
 
 owner = P22
 controller = P22
@@ -13,5 +13,4 @@ culture = culture_wildhammer
 religion = religion_ancestral
 
 trade_goods = flying_mounts
-hre = no 
-
+hre = no

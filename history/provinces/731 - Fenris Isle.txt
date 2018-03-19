@@ -1,5 +1,5 @@
 # 731 - Fenris Isle.txt
-is_city = yes 
+is_city = yes
 
 owner = B25
 controller = B25
@@ -13,45 +13,47 @@ culture = culture_nerglish
 religion = religion_water
 
 trade_goods = army_supplies
-hre = no 
+hre = no
 
-906.1.1 = { 
+906.1.1 = {
 	owner = A25
 	controller = A25
 	add_core = A25
-	add_core = A91
 	remove_core = B25
-	remove_claim = A08
-	remove_claim = A12
-	remove_claim = A17
-	remove_claim = A18
+
 	culture = culture_blood_elf # Price Kael'thas here
 	religion = religion_arcane  # as "not needed" part of New Alliance
 }
 
 # Reconquest of Lordaeron (TFT)
-916.8.1 = { 
+916.8.1 = {
+  owner = P52
 	controller = P52
+  add_core = P52
+  remove_core = A25
+
+  culture = culture_scourge
+  relition = religion_the_damned
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	owner = B19
 	controller = B19
 	add_core = B19
-	add_core = P52
-	remove_core = A91
-	remove_core = A25
+	remove_core = P52
+
 	culture = culture_rothide
-	religion = religion_the_damned 
+	religion = religion_the_damned
 }
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
 	owner = A11
 	controller = A11
 	add_core = A11
 	remove_core = B19
+
 	culture = culture_lordaeron_worgen
-	religion = religion_church_of_the_light 
+	religion = religion_church_of_the_light
 }

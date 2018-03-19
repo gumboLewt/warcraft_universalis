@@ -1,23 +1,16 @@
 # 920 - Ruins of Jubuwal.txt
 is_city = yes
 
-owner = A68
-controller = A68
-add_core = A68 
+owner = P58
+controller = P58
+add_core = P58
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
 culture = culture_shatterspear
-religion = religion_loa
+religion = religion_voodoo
 
 trade_goods = artifacts
 hre = no
-
-901.1.1 = { 
-    owner = P58
-    controller = P58
-    add_core = P58 
-    religion = religion_voodoo
-}

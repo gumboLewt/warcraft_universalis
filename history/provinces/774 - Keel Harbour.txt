@@ -13,5 +13,4 @@ culture = culture_gilnean
 religion = religion_church_of_the_light
 
 trade_goods = naval_supplies
-hre = no 
-
+hre = no

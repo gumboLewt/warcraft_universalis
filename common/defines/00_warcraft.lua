@@ -2,23 +2,9 @@
 --
 -- NDefines.NDiplomacy.MAX_CLIENT_STATES = 20
 
-NDefines.NGame.START_DATE = "546.1.1"
+NDefines.NGame.START_DATE = "901.1.1"
 NDefines.NGame.END_DATE = "100000.1.1"
 NDefines.NGame.MAX_RANDOM_NEW_WORLD = "1000.1.1"
-
--- NDefines.NCountry.PS_ADVANCE_TECH = 750
--- NDefines.NCountry.PS_BUY_IDEA = 100
--- NDefines.NCountry.IDEA_TO_TECH = 0 -- Tech overhaul
--- NDefines.NCountry.TECH_TIME_COST = 0 -- Tech overhaul
--- NDefines.NCountry.TECH_AHEAD_OF_TIME = 0 -- Tech overhaul
--- NDefines.NCountry.POWER_MAX = 10000
-    
-NDefines.NDiplomacy.NUM_OF_GREAT_POWERS = 0
-
-NDefines.NReligion.ASPECT_ADD_COST = 100
-NDefines.NReligion.ASPECT_REMOVE_COST = 0
-NDefines.NReligion.MAX_UNLOCKED_ASPECTS = 3
-NDefines.NReligion.CHURCH_POWER_RATE_SCALE = 0.1
 
 NDefines.NReligion.KARMA_FOR_OFFENSIVE_WAR = 10
 NDefines.NReligion.KARMA_FOR_DEFENSIVE_WAR = -10
@@ -31,13 +17,10 @@ NDefines.NReligion.KARMA_JUST_RIGHT_HIGH = 25
 NDefines.NReligion.KARMA_JUST_RIGHT_LOW = -25
 NDefines.NReligion.KARMA_RESTORE_ON_RULER_DEATH = 0
 
-NDefines.NReligion.CHANGE_SECONDARY_PRESTIGE_HIT = -50
-
 -- Handle monarch death via event, for more control
 -- Use the immortal personality flag
 -- Halved from the normal value so Humans live longer
 NDefines.NCountry.MONARCH_DEATH = 2
-
 
 NDefines.NCountry.ALLOW_FEMALE_GENERALS = 1
 NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 50
@@ -52,9 +35,9 @@ NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_6 = 317
 -- Reduce liberty desire increase for relative power
 NDefines.NCountry.LIBERTY_DESIRE_RELATIVE_POWER = 25
 
-NDefines.NCountry.HRE_RANK = 2							
-NDefines.NCountry.HRE_MAX_RANK = 3							
-NDefines.NCountry.HRE_MAX_RANK_ELECTOR = 3				
+NDefines.NCountry.HRE_RANK = 2
+NDefines.NCountry.HRE_MAX_RANK = 3
+NDefines.NCountry.HRE_MAX_RANK_ELECTOR = 3
 NDefines.NCountry.SUBJECT_MAX_RANK = 2
 NDefines.NDiplomacy.HRE_PRINCE_AUTHORITY_THRESHOLD = 20
 NDefines.NDiplomacy.HRE_HERETIC_PENALTY = 0
@@ -74,14 +57,6 @@ NDefines.NFrontend.CAMERA_LOOKAT_X = 4000.0
 
 NDefines.NCountry.MAX_CROWN_COLONIES = 9999
 
--- NDefines.NDiplomacy.TRUCE_YEARS = 2     -- Flat 2 years
--- NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 0
-NDefines.NDiplomacy.DAYS_TO_DECLARE_WAR = 0
--- NDefines.NCountry.OVEREXTENSION_FACTOR = 0.1 -- 
-
-NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.15		-- Multiplied with the province's development
-NDefines.NCountry.REVOLT_SIZE_BASE = 4
-
 NDefines.NMilitary.INFANTRY_SPEED = 2.0 
 NDefines.NMilitary.CAVALRY_SPEED = 2.0 
 NDefines.NMilitary.ARTILLERY_SPEED = 2.0 
@@ -94,7 +69,7 @@ NDefines.NMilitary.WAR_ENTHUSIASM_HIGH_THRESHOLD = 0			-- desire for peace must 
 NDefines.NMilitary.WAR_ENTHUSIASM_LOW_THRESHOLD = -25				-- desire for peace must be more than this for low war enthusiasm
 
 NDefines.NAI.AGGRESSIVENESS = 2000 -- Base chance (out of 10000) of AI being willing to start a war each diplomatic tick (~1.5 times a month)
-NDefines.NAI.AGGRESSIVENESS_BONUS_EASY_WAR = 1500 -- Added to aggressiveness if the war is against a weak or particularily hated enemy
+NDefines.NAI.AGGRESSIVENESS_BONUS_EASY_WAR = 2000 -- Added to aggressiveness if the war is against a weak or particularily hated enemy
 
 NDefines.NAI.PEACE_WAR_DIRECTION_WINNING_MULT = 100.0 -- Multiplies AI emphasis on war direction if it's the one making gains
 NDefines.NAI.PEACE_FORCE_BALANCE_FACTOR = 0.01 -- AI willingness to peace based on strength estimation of both sides

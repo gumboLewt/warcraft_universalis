@@ -16,28 +16,33 @@ trade_goods = ashenvale_lumber
 hre = no
 
 906.1.1 = {
-culture = culture_warsong
-religion = religion_ancestral
-owner = A35
-controller = A35
-add_core = A35
-capital = "Splintertree Post"
+  owner = A35
+  controller = A35
+  add_core = A35
+  remove_core = F95
+
+  culture = culture_warsong
+  religion = religion_ancestral
+  capital = "Splintertree Post"
 }
 
 926.1.1 = {
-base_tax = 3
-base_manpower = 3
-base_production = 3
+  base_tax = 3
+  base_production = 3
+  base_manpower = 3
 }
 
 981.1.1 = {
-culture = culture_foulweald
-religion = religion_fel
-owner = F95
-controller = F95
-remove_core = A35
-base_tax = 2
-base_manpower = 2
-base_production = 2
-capital = "Greenpaw Village"
+  owner = F95
+  controller = F95
+  add_core = F95
+  remove_core = A35
+
+  base_tax = 2
+  base_production = 2
+  base_manpower = 2
+
+  culture = culture_foulweald
+  religion = religion_fel
+  capital = "Greenpaw Village"
 }

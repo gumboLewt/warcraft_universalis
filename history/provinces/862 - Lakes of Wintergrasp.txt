@@ -1,14 +1,15 @@
 # 862 - Lakes of Wintergrasp.txt
-is_city = yes
+is_city = no
 
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_water
-religion = religion_water
+culture = culture_azerothian # Dummy
+religion = religion_ancestral # Dummy
 
 trade_goods = grain
 hre = no
-

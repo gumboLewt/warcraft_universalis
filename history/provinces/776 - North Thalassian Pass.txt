@@ -1,5 +1,5 @@
 # 776 - North Thalassian Pass.txt
-is_city = yes 
+is_city = yes
 
 owner = R21
 controller = R21
@@ -13,18 +13,15 @@ culture = culture_high_elf
 religion = religion_arcane
 
 trade_goods = runecloth
-hre = no 
-
-776.1.1 = { 
-	remove_core = A58
-}
+hre = no
 
 # The Frozen Throne
 906.1.1 = {
 	owner = F21
 	controller = F21
 	add_core = F21
+	remove_core = R21
+
 	culture = culture_scourge
 	religion = religion_the_damned
-	remove_core = A90 
 }

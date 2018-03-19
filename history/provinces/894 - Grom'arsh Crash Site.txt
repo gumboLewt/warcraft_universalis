@@ -15,15 +15,22 @@ religion = religion_old_gods
 trade_goods = artifacts
 hre = no
 
-971.1.1 = {
-owner = B86
-controller = B86
-add_core = B86
+946.1.1 = {
+  owner = H07
+  controller = H07
+  add_core = H07
+  remove_core = B73
+
+  culture = culture_horde
+  religion = religion_ancestral
 }
 
-#946.1.1 = { 
-#owner = H07
-#controller = H07
-#add_core = H07
-#culture = culture_horde
-#religion = religion_ancestral }
+971.1.1 = {
+  owner = B86
+  controller = B86
+  add_core = B86
+  remove_core = H07
+
+  culture = culture_mecha_gnome
+  religion = religion_old_gods
+}

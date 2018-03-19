@@ -1,24 +1,16 @@
 # 1494 - Gordunni Outpost.txt
 is_city = yes
 
-owner = B70
-controller = B70
-add_core = B70
+owner = A52
+controller = A52
+add_core = A52
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_razorfen
+culture = culture_gordunni
 religion = religion_geomancy
 
 trade_goods = artifacts
 hre = no
-
-816.1.1 = {
-add_core = A52
-owner = A52
-controller = A52
-culture = culture_gordunni
-religion = religion_geomancy
-}

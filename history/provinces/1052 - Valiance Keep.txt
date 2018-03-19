@@ -1,10 +1,16 @@
 # 1052 - Valiance Keep.txt
-is_city = yes
+is_city = no
 
+native_size = 5
+native_ferocity = 3
+native_hostileness = 1
 
-base_tax = 3
-base_production = 3
-base_manpower = 2
+owner = XXX
+controller = XXX
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_kalu_ak
 religion = religion_primitive
@@ -12,12 +18,15 @@ religion = religion_primitive
 trade_goods = fish
 hre = no
 
-946.1.1 = { 
-owner = H06
-add_core = H06
-culture = culture_azerothian
-religion = religion_church_of_the_light 
-base_tax = 5
-base_manpower = 5
-base_production = 5
+946.1.1 = {
+  owner = H06
+  controller = H06
+  add_core = H06
+
+  base_tax = 5
+  base_manpower = 5
+  base_production = 5
+
+  culture = culture_azerothian
+  religion = religion_church_of_the_light
 }

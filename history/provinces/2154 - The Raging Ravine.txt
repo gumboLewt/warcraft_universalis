@@ -1,60 +1,37 @@
 # 2154 - The Raging Ravine.txt
 is_city = yes
 
-owner = F11
-controller = F11
-add_core = F11
+owner = A02
+controller = A02
+add_core = A02
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_nerglish
-religion = religion_water
+culture = culture_azerothian
+religion = religion_church_of_the_light
 
 trade_goods = gold
 hre = no
 
-801.1.1 = { 
-owner = A42
-controller = A42
-add_core = A42
-culture = culture_stormreaver
-religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-owner = F11
-controller = F11
-add_core = F11
-remove_core = A42
-culture = culture_nerglish
-religion = religion_water
-}
-
-# The Third War
-901.1.1 = { owner = A02
-controller = A02
-remove_core = F11
-culture = culture_azerothian
-religion = religion_church_of_the_light
-}
-
 # The Frozen Throne
-906.1.1 = { 
-owner = A07
-controller = A07 
-add_core = A07
-religion = religion_shadow
+906.1.1 = {
+  owner = A07
+  controller = A07
+  add_core = A07
+  remove_core = A02
+
+  religion = religion_shadow
 }
 
 # The Burning Crusade
-941.1.1 = { 
-owner = B58
-controller = B58 
-add_core = B58
-remove_core = A07
-culture = culture_goldtooth
-religion = religion_geomancy
+941.1.1 = {
+  owner = B58
+  controller = B58
+  add_core = B58
+  remove_core = A07
+
+  culture = culture_goldtooth
+  religion = religion_geomancy
 }

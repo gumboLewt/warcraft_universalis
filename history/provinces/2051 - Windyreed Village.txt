@@ -1,29 +1,16 @@
 # 2051 - Windyreed Village.txt
 is_city = yes
 
-owner = A44
-controller = A44
-add_core = A44
+owner = F86
+controller = F86
+add_core = F86
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_burning_blade
-religion = religion_ancestral
+culture = culture_lost_one
+religion = religion_geomancy
 
 trade_goods = fish
 hre = no
-
-776.1.1 = {
-religion = religion_fel
-}
-
-#Outland
-821.1.1 = {
-	owner = F86
-	controller = F86
-	add_core = F86
-	culture = culture_lost_one
-  religion = religion_geomancy
-}

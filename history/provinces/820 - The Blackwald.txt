@@ -13,21 +13,22 @@ culture = culture_gilnean
 religion = religion_church_of_the_light
 
 trade_goods = fur
-hre = no 
+hre = no
 
-906.1.1 = { 
-owner = P29
-controller = P29
-add_core = P29
-culture = culture_wolfcult
-religion = religion_shadow
+906.1.1 = {
+  owner = P29
+  controller = P29
+  add_core = P29
+
+  culture = culture_wolfcult
+  religion = religion_shadow
 }
 
 # Mists of Pandaria
-976.1.1 = { 
-owner = A12
-controller = A12
-remove_core = P29
-culture = culture_gilnean_worgen
-religion = religion_church_of_the_light
+976.1.1 = {
+  owner = A12
+  controller = A12
+
+  culture = culture_gilnean_worgen
+  religion = religion_church_of_the_light
 }

@@ -10,12 +10,7 @@ base_production = 3
 base_manpower = 3
 
 culture = culture_laughing_skull
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = artifacts
 hre = no
-
-776.1.1 = {
-religion = religion_fel
-}
-

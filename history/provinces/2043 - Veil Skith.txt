@@ -1,9 +1,9 @@
 # 2043 - Veil Skith.txt
 is_city = yes
 
-owner = B78
-controller = B78
-add_core = B78
+owner = B77
+controller = B77
+add_core = B77
 
 base_tax = 3
 base_production = 3
@@ -14,10 +14,3 @@ religion = religion_terokk
 
 trade_goods = artifacts
 hre = no
-
-821.1.1 = {
-owner = B77
-controller = B77
-add_core =  B77
-}
-

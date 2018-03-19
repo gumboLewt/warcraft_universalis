@@ -15,20 +15,22 @@ religion = religion_celestial
 trade_goods = artifacts
 hre = yes
 
-976.1.1 = { 
-    owner = P35
-    controller = P35
-    add_core = P35
-    remove_core = F02
-    culture = culture_huojin 
+976.1.1 = {
+  owner = P35
+  controller = P35
+  add_core = P35
+  remove_core = F02
+
+  culture = culture_huojin
 }
 
 # Warlords of Draenor
-981.1.1 = { 
-    owner = A88
-    controller = A88
-    add_core = A88
-    remove_core = P35
-    culture = culture_dawnstrider
-    religion = religion_ancestral
+981.1.1 = {
+  owner = A88
+  controller = A88
+  add_core = A88
+  remove_core = P35
+
+  culture = culture_dawnstrider
+  religion = religion_ancestral
 }

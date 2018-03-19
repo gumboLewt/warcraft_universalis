@@ -13,7 +13,7 @@ culture = culture_gilnean
 religion = religion_church_of_the_light
 
 trade_goods = grain
-hre = no 
+hre = no
 
 971.1.1 = {
 	revolt = {
@@ -28,10 +28,6 @@ hre = no
 
 # Mists of Pandaria
 976.1.1 = {
-	revolt = {
-		type = pretender_rebels
-		size = 0
-	}
 	controller = A12
 	unrest = 0
 }

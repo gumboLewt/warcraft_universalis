@@ -15,20 +15,23 @@ religion = religion_church_of_the_light
 trade_goods = artifacts
 hre = no
 
-906.1.1 = { 
-owner = P29
-controller = P29
-add_core = P29
-culture = culture_wolfcult
-religion = religion_shadow
+906.1.1 = {
+  owner = P29
+  controller = P29
+  add_core = P29
+  remove_core = A12
+
+  culture = culture_wolfcult
+  religion = religion_shadow
 }
 
 # Mists of Pandaria
-976.1.1 = { 
-owner = A94
-controller = A94
-remove_core = P29
-add_core = A94
-culture = culture_sentinel
-religion = religion_elune
+976.1.1 = {
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = P29
+
+  culture = culture_sentinel
+  religion = religion_elune
 }

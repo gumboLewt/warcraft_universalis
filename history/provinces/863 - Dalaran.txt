@@ -13,27 +13,27 @@ culture = culture_dalaran
 religion = religion_arcane
 
 trade_goods = arcane
-hre = no 
+hre = no
 
-906.1.1 = { 
-	base_tax = 5
-	base_manpower = 4
-	base_production = 4 
-	capital = "Dalaran Ruins"
+906.1.1 = {
 	owner = A25
 	controller = A25
 	add_core = A25
-	add_core = P52
+
+	base_tax = 5
+	base_manpower = 4
+	base_production = 4
+
+	capital = "Dalaran Ruins"
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	owner = A18
 	controller = A18
-	remove_core = P52
-	remove_core = A25
+  remove_core = A25
 }
 
-946.1.1 = { 
-	capital = "Dalaran Crater" 
+946.1.1 = {
+	capital = "Dalaran Crater"
 }

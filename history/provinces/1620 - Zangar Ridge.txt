@@ -16,11 +16,11 @@ trade_goods = glowcap
 hre = no
 
 941.1.1 = {
-owner = F64
-controller = F64
-add_core = F64
-religion = religion_druidic
-culture = culture_cenarion
+  owner = F64
+  controller = F64
+  add_core = F64
+  remove_core = F62
+
+  culture = culture_cenarion
+  religion = religion_druidic
 }
-
-

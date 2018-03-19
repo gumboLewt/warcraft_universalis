@@ -1,14 +1,19 @@
 # 1102 - Wild Overlook.txt
 is_city = yes
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_steamwheedle
-religion = religion_tech
+culture = culture_island_pygmy
+religion = religion_voodoo
 
 trade_goods = grain
 hre = no
-

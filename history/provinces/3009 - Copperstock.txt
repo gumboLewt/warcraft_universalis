@@ -15,10 +15,12 @@ religion = religion_church_of_the_light
 trade_goods = naval_supplies
 hre = no
 
-926.1.1 = { 
-owner = P09
-controller = P09
-add_core = P09
-culture = culture_vashjari
-religion = religion_old_gods
+926.1.1 = {
+  owner = P09
+  controller = P09
+  add_core = P09
+  remove_core = A14
+
+  culture = culture_vashjari
+  religion = religion_old_gods
 }

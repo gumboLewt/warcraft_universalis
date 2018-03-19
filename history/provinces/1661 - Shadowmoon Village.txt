@@ -14,22 +14,3 @@ religion = religion_ancestral
 
 trade_goods = flying_mounts
 hre = no
-
-546.1.1 = {
-    owner = A34
-    controller = A34
-    add_core =  A34
-
-    culture = culture_shadowmoon
-    religion = religion_ancestral
-}
-
-776.1.1 = {
-    religion = religion_fel
-}
-
-# Outland
-901.1.1 = {
-    religion = religion_ancestral
-}
-

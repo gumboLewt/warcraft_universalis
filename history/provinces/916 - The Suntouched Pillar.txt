@@ -1,9 +1,9 @@
 # 916 - The Suntouched Pillar.txt
 is_city = yes
 
-owner = B53
-controller = B53
-add_core = B53
+owner = G36
+controller = G36
+add_core = G36
 
 base_tax = 4
 base_production = 4
@@ -15,16 +15,12 @@ religion = religion_titan
 trade_goods = gemstones
 hre = no
 
-891.1.1 = {
-    owner = G36
-    controller = G36
-    add_core = G36
-}
-
 946.1.1 = {
-    culture = culture_venture
-    religion = religion_greed
-    owner = A81
-    controller = A81
-    add_core = A81
+  owner = A81
+  controller = A81
+  add_core = A81
+  remove_core = G36
+
+  culture = culture_venture
+  religion = religion_greed
 }

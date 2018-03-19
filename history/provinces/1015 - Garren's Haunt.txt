@@ -13,35 +13,40 @@ culture = culture_lordaeron
 religion = religion_church_of_the_light
 
 trade_goods = grain
-hre = no 
+hre = no
 
 906.1.1 = {
-	add_core = B19
-	add_core = P52
 	owner = B19
 	controller = B19
+	add_core = B19
+	remove_core = R10
+
 	culture = culture_rothide
 	religion = religion_geomancy
-	remove_core = A08
 }
 
 # War of Lordaeron (TFT)
 911.12.1 = {
+  owner = P52
 	controller = P52
+	add_core = P52
+
+	religion = religion_the_damned
 }
 
 # Rise of the Qiraji
 926.1.1 = {
-	religion = religion_the_damned
 	controller = B19
 }
 
 # Cataclysm
 971.1.1 = {
-	religion = religion_forgotten_shadow
-	culture = culture_forsaken
-	remove_core = B19
-	add_core = P14
 	owner = P14
 	controller = P14
+	add_core = P14
+	remove_core = B19
+  remove_core = P52
+
+	religion = religion_forgotten_shadow
+	culture = culture_forsaken
 }

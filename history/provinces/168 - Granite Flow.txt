@@ -1,6 +1,15 @@
 # 168 - Granite Flow.txt
+is_city = no
 
+owner = XXX
+controller = XXX
 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
+culture = culture_azerothian # Dummy
+relition = religion_ancestral # Dummy
 
-
+trade_good = grain
+hre = no

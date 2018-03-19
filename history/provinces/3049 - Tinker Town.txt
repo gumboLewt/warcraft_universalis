@@ -16,16 +16,17 @@ trade_goods = army_supplies
 hre = no
 
 926.1.1 = {
-	add_core = A32
-	remove_core = A29
 	owner = A32
 	controller = A32
+	add_core = A32
+	remove_core = A29
+
+	base_tax = 6
+	base_production = 6
+	base_manpower = 7
+
 	culture = culture_gnome
 	religion = religion_tech
-	
-	base_tax = 6
-	base_manpower = 7
-	base_production = 6
-	
+
 	trade_goods = workshops
 }

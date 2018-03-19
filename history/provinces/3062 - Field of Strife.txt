@@ -1,14 +1,19 @@
 # 3062 - Field of Strife.txt
-is_city = yes
+is_city = no
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
-base_manpower = 2
+base_manpower = 1
 
 culture = culture_revenant
 religion = religion_air
 
 trade_goods = lumber
-hre = no 
-
+hre = no

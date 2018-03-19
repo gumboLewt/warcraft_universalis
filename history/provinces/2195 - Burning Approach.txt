@@ -1,50 +1,27 @@
 # 2195 - Burning Approach.txt
 is_city = yes
 
-owner = B17
-controller = B17
-add_core = B17
+owner = A04
+controller = A04
+add_core = A04
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_redridge
-religion = religion_geomancy
+culture = culture_azerothian
+religion = religion_church_of_the_light
 
 trade_goods = lumber
 hre = no
 
-801.1.1 = { 
-	owner = P98
-	controller = P98
-	add_core = P98
-	culture = culture_blackrock
-	religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-	owner = XXX
-	controller = XXX
-}
-
-# The Third War
-901.1.1 = { 
-    is_city = yes
-	owner = A04
-	controller = A04
-	remove_core = P98
-	culture = culture_azerothian
-	religion = religion_church_of_the_light
-}
-
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	owner = A41
 	controller = A41
 	add_core = A41
+  remove_core = A04
+
 	culture = culture_blackrock
-	religion = religion_fel 
+	religion = religion_fel
 }

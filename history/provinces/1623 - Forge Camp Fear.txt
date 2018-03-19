@@ -1,37 +1,25 @@
 # 1623 - Forge Camp Fear.txt
 is_city = yes
 
-owner = A35
-controller = A35
-add_core = A35
+owner = B89
+controller = B89
+add_core = B89
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_warsong
-religion = religion_ancestral
+culture = culture_fel_orc
+religion = religion_fel
 
 trade_goods = fel
 hre = no
 
-776.1.1 = {
-    religion = religion_fel
-}
-
-821.1.1 = {
-    owner = B89
-    controller = B89
-    add_core = B89
-    remove_core = A35
-    culture = culture_fel_orc
-}
-
 941.1.1 = {
-    owner = B92
-    controller = B92
-    add_core =  B92
-    remove_core = B89
-    culture = culture_pit_lord
-}
+  owner = B92
+  controller = B92
+  add_core =  B92
+  remove_core = B89
 
+  culture = culture_pit_lord
+}

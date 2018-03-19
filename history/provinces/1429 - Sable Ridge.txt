@@ -14,4 +14,3 @@ religion = religion_fel
 
 trade_goods = stone
 hre = no
-

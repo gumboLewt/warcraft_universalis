@@ -20,6 +20,7 @@ hre = no
   controller = B68
   add_core = B68
   remove_core = G05
+
   culture = culture_bristleback
   religion = religion_geomancy
 }
@@ -28,6 +29,8 @@ hre = no
   owner = F88
   controller = F88
   add_core = F88
+  remove_core = B68
+
   culture = culture_mistrunner
   religion = religion_druidic
 }

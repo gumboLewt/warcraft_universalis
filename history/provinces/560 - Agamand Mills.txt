@@ -13,13 +13,14 @@ culture = culture_lordaeron
 religion = religion_church_of_the_light
 
 trade_goods = grain
-hre = no 
+hre = no
 
-906.1.1 = { 
+906.1.1 = {
 	add_core = P52
 	owner = P52
 	controller = P52
+	remove_core = R12
+
 	culture = culture_scourge
 	religion = religion_the_damned
-	remove_core = A08 
-} 
+}

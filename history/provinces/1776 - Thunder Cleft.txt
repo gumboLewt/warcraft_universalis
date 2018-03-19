@@ -15,13 +15,12 @@ religion = religion_titan_corrupt
 trade_goods = fish
 hre = yes
 
-976.1.1 = { 
-    owner = A88
-    controller = A88
-    add_core = A88
-    culture = culture_dawnstrider
-    religion = religion_ancestral
+976.1.1 = {
+  owner = A88
+  controller = A88
+  add_core = A88
+  remove_core = P81
+
+  culture = culture_dawnstrider
+  religion = religion_ancestral
 }
-
-
-

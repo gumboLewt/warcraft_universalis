@@ -1,14 +1,15 @@
 # 2099 - The Lost Passage.txt
-is_city = yes
+is_city = no
 
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_construct
-religion = religion_titan
+culture = culture_azerothian # Dummy
+religion = religion_ancestral # Dummy
 
-trade_goods = fur
+trade_goods = grain
 hre = no
-

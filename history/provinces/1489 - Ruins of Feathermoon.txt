@@ -16,17 +16,21 @@ trade_goods = naval_supplies
 hre = no
 
 926.1.1 = {
-    remove_core = H01
-    owner = A94
-    controller = A94
-    add_core = A94
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = H01
 }
 
 971.1.1 = {
-    owner = P06
-    controller = P06
-    religion = religion_old_gods
-    culture = culture_zoram
-    trade_goods = artifacts
-    capital = "Ruins of Feathermoon"
+  owner = P06
+  controller = P06
+  add_core = P06
+  remove_core = A94
+
+  culture = culture_zoram
+  religion = religion_old_gods
+  capital = "Ruins of Feathermoon"
+
+  trade_goods = artifacts
 }

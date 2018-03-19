@@ -1,9 +1,9 @@
 # 2064 - Hewn Bog.txt
 is_city = yes
 
-owner = F62
-controller = F62
-add_core = F62
+owner = F51
+controller = F51
+add_core = F51
 
 base_tax = 3
 base_production = 3
@@ -15,16 +15,12 @@ religion = religion_zangar
 trade_goods = glowcap
 hre = no
 
-821.1.1 = {
-owner = F51
-controller = F51
-add_core =  F51
-}
-
 941.1.1 = {
-owner = F69
-controller = F69
-add_core = F69
-culture = culture_ango_rosh
-religion = religion_geomancy
+  owner = F69
+  controller = F69
+  add_core = F69
+  remove_core = F51
+
+  culture = culture_ango_rosh
+  religion = religion_geomancy
 }

@@ -1,42 +1,32 @@
 # 3061 - Frostwolf Keep.txt
 is_city = yes
 
-owner = G25
-controller = G25
-add_core = G25
+owner = A46
+controller = A46
+add_core = A46
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_wildpaw
-religion = religion_geomancy
+culture = culture_frostwolf
+religion = religion_ancestral
 
-trade_goods = fur
-hre = no 
-
-776.1.1 = { 
-	owner = A46
-	controller = A46
-	add_core = A46
-	culture = culture_frostwolf
-	religion = religion_ancestral
-	trade_goods = army_supplies
-}
+trade_goods = army_supplies
+hre = no
 
 # The Frozen Throne
-906.1.1 = { 
+906.1.1 = {
 	base_tax = 3
-	base_manpower = 3
 	base_production = 3
+	base_manpower = 3
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
+926.1.1 = {
 	base_tax = 4
-	base_manpower = 4
 	base_production = 4
-    add_core = G25
+	base_manpower = 4
 }
 
 # Cataclysm

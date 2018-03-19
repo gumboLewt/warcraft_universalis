@@ -16,12 +16,9 @@ trade_goods = artifacts
 hre = no
 
 971.1.1 = {
-religion = religion_air
-base_tax = 6
-base_manpower = 6
-base_production = 6
+  base_tax = 6
+  base_manpower = 6
+  base_production = 6
+
+  religion = religion_air
 }
-
-
-
-

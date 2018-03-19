@@ -1,36 +1,19 @@
 # 2176 - Stormy Pass.txt
-is_city = yes
+is_city = no
 
-owner = P59
-controller = P59
-add_core = P59
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_azerothian
-religion = religion_arcane
+culture = culture_deadwind
+religion = religion_geomancy
 
 trade_goods = smugglers
 hre = no
-
-776.1.1 = {
-	owner = A40
-	controller = A40
-	add_core = A40
-	remove_core = P59
-	
-	culture = culture_bleeding_hollow 
-	religion = religion_fel
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-	owner = XXX
-	controller = XXX
-	remove_core = A40
-	culture = culture_deadwind
-	religion = religion_geomancy
-}

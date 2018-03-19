@@ -16,10 +16,11 @@ trade_goods = grain
 hre = yes
 
 976.1.1 = {
-    owner = P75
-    controller = P75
-    add_core = P75
-    culture = culture_springtail
-    religion = religion_geomancy
-}
+  owner = P75
+  controller = P75
+  add_core = P75
+  remove_core = P84
 
+  culture = culture_springtail
+  religion = religion_geomancy
+}

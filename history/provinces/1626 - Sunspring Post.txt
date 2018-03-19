@@ -15,15 +15,11 @@ religion = religion_ancestral
 trade_goods = fish
 hre = no
 
-821.1.1 = { 
-owner = F72
-controller = F72
-add_core = F72
-}
+941.1.1 = {
+  owner = F84
+  controller = F84
+  add_core = F84
+  remove_core = F72
 
-941.1.1 = { 
-owner = F84
-controller = F84
-add_core = F84
-culture = culture_broken
+  culture = culture_broken
 }

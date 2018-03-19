@@ -19,25 +19,29 @@ hre = no
 	owner = F54
 	controller = F54
 	add_core = F54
+	remove_core = R20
+
 	religion = religion_church_of_the_light
-	remove_core = A90
 }
 
 # The Burning Crusade
-941.1.1 = { 
+941.1.1 = {
 	owner = G18
 	controller = G18
 	add_core = G18
-	add_core = A91
+  add_core = A91
+  remove_core = F54
+
 	culture = culture_felblood_elf
 	religion = religion_fel
 }
 
 # Wrath of the Lich King
-946.1.1 = { 
+946.1.1 = {
 	owner = A91
 	controller = A91
 	remove_core = G18
+
 	culture = culture_blood_elf
 	religion = religion_arcane
 }

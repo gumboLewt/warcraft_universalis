@@ -16,9 +16,11 @@ trade_goods = naval_supplies
 hre = no
 
 906.1.1 = {
-owner = A19
-controller = A19
-add_core = A19
-religion = religion_church_of_the_light
-culture = culture_tirasian
+  owner = A19
+  controller = A19
+  add_core = A19
+  remove_core = A73
+
+  culture = culture_tirasian
+  religion = religion_church_of_the_light
 }

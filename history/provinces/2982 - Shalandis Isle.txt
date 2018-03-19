@@ -16,20 +16,24 @@ trade_goods = fish
 hre = no
 
 906.1.1 = {
-owner = F21
-controller = F21
-add_core = F21
-culture = culture_scourge
-religion = religion_the_damned
-remove_core = A90 
+  owner = F21
+  controller = F21
+  add_core = F21
+  remove_core = R21
+
+  culture = culture_scourge
+  religion = religion_the_damned
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-owner = A94
-controller = A94
-add_core = A94
-culture = culture_sentinel
-religion = religion_elune
-trade_goods = moonwell
+926.1.1 = {
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = F21
+
+  culture = culture_sentinel
+  religion = religion_elune
+
+  trade_goods = moonwell
 }

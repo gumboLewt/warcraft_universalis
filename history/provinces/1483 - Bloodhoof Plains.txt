@@ -15,15 +15,17 @@ religion = religion_air
 trade_goods = fur
 hre = no
 
-906.1.1 = { 
-owner = B18
-controller = B18
-add_core = B18
-remove_core = A84
-culture = culture_palemane
-religion = religion_geomancy
-capital = "Palemane Rock"
-base_tax = 3
-base_manpower = 3
-base_production = 3
+906.1.1 = {
+  owner = B18
+  controller = B18
+  add_core = B18
+  remove_core = G05
+
+  base_tax = 3
+  base_production = 3
+  base_manpower = 3
+
+  culture = culture_palemane
+  religion = religion_geomancy
+  capital = "Palemane Rock"
 }

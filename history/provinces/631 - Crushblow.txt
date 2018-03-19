@@ -14,4 +14,3 @@ religion = religion_loa
 
 trade_goods = flying_mounts
 hre = no
-

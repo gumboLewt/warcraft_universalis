@@ -13,20 +13,21 @@ culture = culture_lordaeron
 religion = religion_church_of_the_light
 
 trade_goods = grain
-hre = no 
+hre = no
 
-906.1.1 = { 
-add_core = F17
-owner = F17
-controller = F17 
-remove_core = A08
+906.1.1 = {
+  owner = F17
+  controller = F17
+  add_core = F17
+  remove_core = R12
 }
 
 # Rise of the Qiraji
-926.1.1 = { 
-add_core = A22
-remove_core = F17
-religion = religion_scarlet_light
-owner = A22 
-controller = A22
+926.1.1 = {
+  owner = A22
+  controller = A22
+  add_core = A22
+  remove_core = F17
+
+  religion = religion_scarlet_light
 }

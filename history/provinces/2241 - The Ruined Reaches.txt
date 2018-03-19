@@ -17,10 +17,10 @@ trade_goods = grain
 
 906.1.1 = {
   owner = P05
+  controller = P05
   add_core = P05
   remove_core = G39
-  controller = P05
+
   culture = culture_nazja
   religion = religion_old_gods
 }
-

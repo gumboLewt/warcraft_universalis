@@ -1,35 +1,27 @@
 # 2044 - Tomb of Light.txt
 is_city = yes
 
-owner = F49
-controller = F49
-add_core = F49
+owner = A39
+controller = A39
+add_core = A39
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_shattrathi
-religion = religion_light_of_the_naaru
+culture = culture_bonechewer
+religion = religion_fel
 
 trade_goods = crypts
 hre = no
-
-776.1.1 = {
-    owner = A39
-    controller = A39
-    add_core = A39
-    remove_core = F49
-    religion = religion_fel
-    culture = culture_bonechewer
-}
 
 #Outland
 821.1.1 = {
 	owner = P21
 	controller = P21
 	add_core =  P21
+  remove_core = A39
+
 	culture = culture_kareshi
 	religion = religion_void
 }
-

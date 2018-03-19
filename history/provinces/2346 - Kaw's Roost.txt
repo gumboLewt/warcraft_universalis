@@ -19,7 +19,8 @@ hre = no
   owner = B01
   controller = B01
   add_core = B01
-  remove_core = B81
+  remove_core = B61
+
   culture = culture_blue
   religion = religion_sect_of_dragons
 }

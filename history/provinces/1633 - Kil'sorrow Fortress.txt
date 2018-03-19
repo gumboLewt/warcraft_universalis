@@ -1,24 +1,16 @@
 # 1633 - Kil'sorrow Fortress.txt
 is_city = yes
 
-owner = A51
-controller = A51
-add_core = A51
+owner = A34
+controller = A34
+add_core = A34
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_boulderfist
-religion = religion_geomancy
+culture = culture_shadowmoon
+religion = religion_fel
 
 trade_goods = army_supplies
 hre = no
-
-821.1.1 = { 
-	owner = A34
-    controller = A34
-    add_core = A34
-    culture = culture_shadowmoon
-    religion = religion_fel
-}

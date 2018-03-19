@@ -15,11 +15,12 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-906.1.1 = { 
-owner = P09
-controller = P09
-add_core = P09
-culture = culture_vashjari
-religion = religion_old_gods
-remove_core = A08
+906.1.1 = {
+  owner = P09
+  controller = P09
+  add_core = P09
+  remove_core = P51
+
+  culture = culture_vashjari
+  religion = religion_old_gods
 }

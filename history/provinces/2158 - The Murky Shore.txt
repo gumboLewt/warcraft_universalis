@@ -15,10 +15,11 @@ religion = religion_water
 trade_goods = fish
 hre = no
 
-971.1.1 = { 
-owner = A82
-controller = A82
-add_core = A82
-culture = culture_gilblin
-}
+971.1.1 = {
+  owner = A82
+  controller = A82
+  add_core = A82
+  remove_core = B29
 
+  culture = culture_gilblin
+}

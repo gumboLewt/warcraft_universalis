@@ -6,12 +6,11 @@ controller = A63
 add_core = A63
 
 base_tax = 4
-base_production = 4 
+base_production = 4
 base_manpower = 4
 
 culture = culture_firetree
 religion = religion_voodoo
 
 trade_goods = pirates
-hre = no 
-
+hre = no

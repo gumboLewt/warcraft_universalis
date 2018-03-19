@@ -1,6 +1,12 @@
 # 708 - Keeps of Wintergrasp.txt
-is_city = yes
+is_city = no
 
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
@@ -12,9 +18,11 @@ religion = religion_water
 trade_goods = grain
 hre = no
 
-946.1.1 = { 
-owner = H06
-add_core = H06
-culture = culture_azerothian
-religion = religion_church_of_the_light 
+946.1.1 = {
+  owner = H06
+  controller = H06
+  add_core = H06
+
+  culture = culture_azerothian
+  religion = religion_church_of_the_light
 }

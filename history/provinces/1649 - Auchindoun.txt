@@ -1,26 +1,16 @@
 # 1649 - Auchindoun.txt
 is_city = yes
 
-owner = F49
-controller = F49
-add_core = F49
+owner = A34
+controller = A34
+add_core = A34
 
 base_tax = 5
 base_production = 5
 base_manpower = 5
 
-culture = culture_shattrathi
-religion = religion_light_of_the_naaru
+culture = culture_shadowmoon
+religion = religion_fel
 
 trade_goods = crypts
 hre = no
-
-776.1.1 = {
-    owner = A34
-    controller = A34
-    add_core = A34
-    remove_core = F49
-    religion = religion_fel
-    culture = culture_shadowmoon
-}
-

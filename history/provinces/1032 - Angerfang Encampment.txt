@@ -1,43 +1,27 @@
 # 1032 - Angerfang Encampment.txt
 is_city = yes
 
-owner = B13
-controller = B13
-add_core = B13
+owner = A29
+controller = A29
+add_core = A29
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_mosshide
-religion = religion_geomancy
+culture = culture_ironforge
+religion = religion_church_of_the_light
 
 trade_goods = army_supplies
 hre = no
 
-806.1.1 = { 
-    owner = A43
-    controller = A43
-    add_core = A43
-    culture = culture_twilights_hammer
-    religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = { 
-    owner = A29
-    controller = A29
-    add_core = A29
-    remove_core = A43
-    culture = culture_ironforge 
-    religion = religion_church_of_the_light
-}
-
 # Rise of the Qiraji
-926.1.1 = { 
-    owner = A45
-    controller = A45
-    add_core = A45
-    culture = culture_dragonmaw
-    religion = religion_fel 
+926.1.1 = {
+  owner = A45
+  controller = A45
+  add_core = A45
+  remove_core = A29
+
+  culture = culture_dragonmaw
+  religion = religion_fel
 }

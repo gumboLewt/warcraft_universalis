@@ -16,24 +16,29 @@ trade_goods = lumber
 hre = no
 
 906.1.1 = {
-religion = religion_fel
-trade_goods = fel
+  religion = religion_fel
+
+  trade_goods = fel
 }
 
 926.1.1 = {
-owner = A94
-controller = A94
-add_core = A94
-remove_core = B40
-culture = culture_sentinel
-religion = religion_elune
+  owner = A94
+  controller = A94
+  add_core = A94
+  remove_core = B40
+
+  culture = culture_sentinel
+  religion = religion_elune
 }
 
 971.1.1 = {
-owner = A12
-controller = A12
-add_core = A12
-remove_core = A94
-culture = culture_gilnean_worgen
-religion = religion_druidic
+  owner = A12
+  controller = A12
+  add_core = A12
+  remove_core = A94
+
+  culture = culture_gilnean_worgen
+  religion = religion_druidic
+
+  trade_goods = lumber
 }

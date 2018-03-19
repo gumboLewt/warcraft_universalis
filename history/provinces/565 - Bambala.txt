@@ -16,15 +16,17 @@ trade_goods = army_supplies
 hre = no
 
 926.1.1 = {
-religion = religion_hakkari
+  religion = religion_hakkari
 }
 
 # Cataclysm
-971.1.1 = { 
-owner = A70
-controller = A70
-add_core = A70
-culture = culture_darkspear
-religion = religion_loa
+971.1.1 = {
+  owner = A70
+  controller = A70
+  add_core = A70
+  remove_core = A66
+
+  culture = culture_darkspear
+  religion = religion_loa
 }
 

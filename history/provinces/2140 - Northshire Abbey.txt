@@ -1,9 +1,12 @@
 # 2140 - Northshire Abbey.txt
-is_city = yes
+is_city = no
 
-owner = A05
-controller = A05
-add_core = A05
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 3
 base_production = 3
@@ -15,47 +18,35 @@ religion = religion_church_of_the_light
 trade_goods = wine
 hre = no
 
-801.1.1 = { 
-	owner = A44
-	controller = A44
-	add_core = A44
-	culture = culture_burning_blade
-	religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-    is_city = no
-	owner = XXX
-	controller = XXX
-	add_core = A01
-	remove_core = A44
-	culture = culture_azerothian
-	religion = religion_church_of_the_light 
-}
-
 # Rise of the Qiraji
-926.1.1 = { 
-    is_city = yes
+926.1.1 = {
+  is_city = yes
+
 	owner = A07
-	controller = A07 
-	add_core = A07 
+	controller = A07
+	add_core = A07
+
+  religion = religion_shadow
 }
 
 # The Burning Crusade
-941.1.1 = { 
+941.1.1 = {
 	owner = A01
 	controller = A01
-	remove_core = A07 
+  add_core = A01
+	remove_core = A07
+
+  religion = religion_church_of_the_light
 }
 
 # Cataclysm
-971.1.1 = { 
+971.1.1 = {
 	owner = A41
 	controller = A41
 	add_core = A41
-	religion = religion_fel
+
 	culture = culture_blackrock
+	religion = religion_fel
 }
 
 # Mists of Pandaria
@@ -63,6 +54,7 @@ hre = no
 	owner = A01
 	controller = A01
 	remove_core = A41
+
 	culture = culture_azerothian
-	religion = religion_church_of_the_light 
+	religion = religion_church_of_the_light
 }

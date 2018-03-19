@@ -1,31 +1,23 @@
 # 1229 - Snowdrift Cliffs.txt
 is_city = yes
 
-owner = P74
-controller = P74
-add_core = P74
+owner = B73
+controller = B73
+add_core = B73
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_nerubian
-religion = religion_arcane
+culture = culture_iron
+religion = religion_old_gods
 
 trade_goods = grain
 hre = no
 
-841.1.1 = {
-owner = B73
-controller = B73
-add_core = B73
-remove_core = P74
-culture = culture_iron
-religion = religion_old_gods
-}
-
 971.1.1 = {
-owner = B86
-controller = B86
-add_core = B86
+  owner = B86
+  controller = B86
+  add_core = B86
+  remove_core = B73
 }

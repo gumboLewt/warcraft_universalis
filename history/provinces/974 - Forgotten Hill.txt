@@ -13,37 +13,20 @@ culture = culture_arathi
 religion = religion_church_of_the_light
 
 trade_goods = crypts
-hre = no 
-
-806.1.1 = { 
-owner = A41
-controller = A41
-add_core = A41
-culture = culture_blackrock
-religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-owner = F04
-controller = F04
-add_core = F04
-remove_core = A41
-remove_core = A16
-culture = culture_arathi
-religion = religion_church_of_the_light 
-}
+hre = no
 
 # Much of the Stromic population on this island leave to help mainland Stromgarde
 926.1.1 = {
-base_manpower = 1
+  base_manpower = 1
 }
 
 # Cataclysm
-971.1.1 = { 
-owner = F37
-controller = F37
-add_core = F37
-culture = culture_forsaken
-religion = religion_shadow
+971.1.1 = {
+  owner = F37
+  controller = F37
+  add_core = F37
+  remove_core = F04
+
+  culture = culture_forsaken
+  religion = religion_shadow
 }

@@ -16,10 +16,10 @@ trade_goods = workshops
 hre = no
 
 926.1.1 = {
-owner = A33
-controller = A33
-add_core = A33
-add_core = F24
-culture = culture_leper_gnome
-religion = religion_greed
+  owner = A33
+  controller = A33
+  add_core = A33
+
+  culture = culture_leper_gnome
+  religion = religion_greed
 }

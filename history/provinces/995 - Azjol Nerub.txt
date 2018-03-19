@@ -1,23 +1,16 @@
 # 995 - Azjol Nerub.txt
 is_city = yes
 
-owner = P74
-controller = P74
-add_core = P74
+owner = P11
+controller = P11
+add_core = P11
 
 base_tax = 10
 base_production = 10
 base_manpower = 10
 
-culture = culture_nerubian
-religion = religion_arcane
+culture = culture_crypt_fiend
+religion = religion_the_damned
 
 trade_goods = silk
 hre = no
-
-891.1.1 = {
-  owner = P11
-  controller = P11
-  add_core = P11
-  religion = religion_the_damned
-}

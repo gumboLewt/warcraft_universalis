@@ -21,4 +21,3 @@ trade_goods = grain
   add_core = A94
   remove_core = H01
 }
-

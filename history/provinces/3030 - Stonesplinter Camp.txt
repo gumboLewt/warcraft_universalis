@@ -14,21 +14,3 @@ religion = religion_geomancy
 
 trade_goods = grain
 hre = no
-
-806.1.1 = { 
-owner = A40
-controller = A40
-add_core = A40
-culture = culture_bleeding_hollow 
-religion = religion_fel 
-}
-
-# Beyond the Dark Portal
-816.1.1 = {
-owner = P54
-controller = P54
-add_core = P54
-remove_core = A40
-culture = culture_trogg 
-religion = religion_geomancy
-}

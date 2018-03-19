@@ -1,40 +1,16 @@
 # 1672 - Dragonmaw Fortress.txt
 is_city = yes
 
-owner = A45
-controller = A45
-add_core = A45
+owner = F48
+controller = F48
+add_core = F48
 
 base_tax = 4
 base_production = 4
-base_manpower = 4
+base_manpower = 5
 
-culture = culture_dragonmaw
-religion = religion_ancestral
+culture = culture_fel_orc
+religion = religion_fel
 
 trade_goods = flying_mounts
 hre = no
-
-546.1.1 = {
-    owner = A45
-    controller = A45
-    add_core = A45
-
-    culture = culture_dragonmaw
-    religion = religion_ancestral
-}
-
-776.1.1 = {
-    religion = religion_fel
-}
-
-#Outland
-821.1.1 = {
-	owner = F48
-	controller = F48
-	add_core =  F48
-    remove_core = A45
-    
-	culture = culture_fel_orc
-	base_manpower = 5
-}

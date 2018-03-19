@@ -1,9 +1,9 @@
 # 2042 - Grangol'var Village.txt
 is_city = yes
 
-owner = B78
-controller = B78
-add_core = B78
+owner = A39
+controller = A39
+add_core = A39
 
 base_tax = 4
 base_production = 4
@@ -14,10 +14,3 @@ religion = religion_terokk
 
 trade_goods = artifacts
 hre = no
-
-776.1.1 = {
-    owner = A39
-    controller = A39
-    add_core = A39
-    remove_core = F49
-}

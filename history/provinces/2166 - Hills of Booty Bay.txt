@@ -13,4 +13,3 @@ religion = religion_tech
 
 trade_goods = pirates
 hre = no
-
