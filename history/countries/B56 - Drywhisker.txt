@@ -1,7 +1,0 @@
-# Drywhisker
-government 			= war_tribe
-mercantilism 		= 10
-technology_group 	= tech_kobold
-religion			= religion_geomancy
-primary_culture 	= culture_drywhisker
-capital 			= 1

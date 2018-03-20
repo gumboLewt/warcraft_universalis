@@ -1,7 +1,0 @@
-# Mirefin
-government 			= war_tribe
-mercantilism 		= 10
-technology_group 	= tech_depths
-religion			= religion_water
-primary_culture 	= culture_nerglish
-capital 			= 1

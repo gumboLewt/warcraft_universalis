@@ -1,7 +1,0 @@
-# Bloodmaul OGRILA
-government 			= warband_gov
-mercantilism 		= 10
-technology_group 	= tech_ogre
-religion			= religion_geomancy
-primary_culture 	= culture_bloodmaul
-capital 			= 1

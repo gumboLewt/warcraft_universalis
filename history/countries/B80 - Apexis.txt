@@ -1,7 +1,0 @@
-# Apexis
-government 			= administrative_kingdom
-mercantilism 		= 10
-technology_group 	= tech_arrakoa
-religion			= religion_terokk
-primary_culture 	= culture_apexis
-capital 			= 1
