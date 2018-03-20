@@ -1,9 +1,9 @@
 # 720 - Ambermill.txt
 is_city = yes
 
-owner = A18
-controller = A18
-add_core = A18
+owner = H09
+controller = H09
+add_core = H09
 
 base_tax = 4
 base_production = 4
@@ -14,22 +14,6 @@ religion = religion_arcane
 
 trade_goods = lumber
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = A25
-	controller = A25
-	add_core = A25
-  remove_core = A18
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = H09
-	controller = H09
-	add_core = H09
-	remove_core = A25
-}
 
 # The Burning Crusade
 941.1.1 = {
@@ -44,8 +28,8 @@ hre = no
   remove_core = H09
 
 	base_tax = 2
-	base_manpower = 2
 	base_production = 2
+	base_manpower = 2
 
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow

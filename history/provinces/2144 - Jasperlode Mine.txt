@@ -1,27 +1,16 @@
 # 2144 - Jasperlode Mine.txt
 is_city = yes
 
-owner = A01
-controller = A01
-add_core = A01
+owner = B58
+controller = B58
+add_core = B58
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_azerothian
-religion = religion_church_of_the_light
+culture = culture_goldtooth
+religion = religion_geomancy
 
 trade_goods = copper
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = B58
-	controller = B58
-	add_core = B58
-  remove_core = A01
-
-	culture = culture_goldtooth
-	religion = religion_geomancy
-}

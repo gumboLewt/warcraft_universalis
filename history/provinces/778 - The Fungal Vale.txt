@@ -5,29 +5,15 @@ owner = P12
 controller = P12
 add_core = P12
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_cultist
 religion = religion_the_damned
 
 trade_goods = lumber
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	base_tax = 2
-	base_manpower = 2
-	base_production = 2
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	base_tax = 3
-	base_manpower = 3
-	base_production = 3
-}
 
 # Cataclysm
 971.1.1 = {

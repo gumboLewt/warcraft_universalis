@@ -10,12 +10,7 @@ base_production = 4
 base_manpower = 4
 
 culture = culture_high_elf
-religion = religion_arcane
+religion = religion_church_of_the_light
 
 trade_goods = arcane
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	religion = religion_church_of_the_light
-}

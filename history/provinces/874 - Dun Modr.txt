@@ -1,30 +1,19 @@
 # 874 - Dun Modr.txt
 is_city = yes
 
-owner = A29
-controller = A29
-add_core = A29
+owner = A30
+controller = A30
+add_core = A30
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_ironforge
-religion = religion_church_of_the_light
+culture = culture_dark_iron
+religion = religion_fire
 
 trade_goods = army_supplies
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-  owner = A30
-  controller = A30
-  add_core = A30
-  remove_core = A29
-
-  culture = culture_dark_iron
-  religion = religion_fire
-}
 
 # Cataclysm
 971.1.1 = {

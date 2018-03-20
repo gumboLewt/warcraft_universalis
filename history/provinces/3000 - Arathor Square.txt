@@ -1,29 +1,19 @@
 # 3000 - Arathor Square.txt
 is_city = yes
 
-owner = A16
-controller = A16
-add_core = A16
+owner = A51
+controller = A51
+add_core = A51
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_arathi
-religion = religion_church_of_the_light
+culture = culture_boulderfist
+religion = religion_geomancy
 
 trade_goods = arcane
 hre = no
-
-926.1.1 = {
-	owner = A51
-	controller = A51
-	add_core = A51
-  remove_core = A16
-
-  culture = culture_boulderfist
-  religion = religion_geomancy
-}
 
 # Legion
 991.1.1 = {

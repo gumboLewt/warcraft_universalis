@@ -1,31 +1,16 @@
 # 1937 - Circle of Outer Binding.txt
-is_city = no
+is_city = yes
 
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
-
-owner = XXX
-controller = XXX
+owner = P28
+controller = P28
+add_core = P28
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_arathi
-religion = religion_church_of_the_light
+culture = culture_air
+religion = religion_air
 
 trade_goods = artifacts
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-  is_city = yes
-
-	owner = P28
-	controller = P28
-	add_core = P28
-
-	culture = culture_air
-	religion = religion_air
-}

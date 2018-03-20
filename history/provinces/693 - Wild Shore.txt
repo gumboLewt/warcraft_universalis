@@ -1,26 +1,16 @@
 # 693 - Wild Shore.txt
 is_city = yes
 
-owner = A83
-controller = A83
-add_core = A83
+owner = A15
+controller = A15
+add_core = A15
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_blackwater
-religion = religion_loa
+culture = culture_tirasian
+religion = religion_shadow
 
 trade_goods = pirates
 hre = no
-
-906.1.1 = {
-  owner = A15
-  controller = A15
-  add_core = A15
-  remove_core = A83
-
-  culture = culture_tirasian
-  religion = religion_shadow
-}

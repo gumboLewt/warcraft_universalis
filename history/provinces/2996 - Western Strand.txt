@@ -1,37 +1,16 @@
 # 2996 - Western Strand.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = P51
+controller = P51
+add_core = P51
 
 base_tax = 1
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 
-culture = culture_lordaeron
-religion = religion_chruch_of_the_light
+culture = culture_nerglish
+religion = religion_water
 
 trade_goods = fish
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = A11
-	controller = A11
-	add_core = A11
-	remove_core = A08
-}
-
-# Rise of the Qiraj
-926.1.1 = {
-	owner = P51
-	controller = P51
-	add_core = P51
-  remove_core = A11
-
-	base_manpower = 2
-
-	culture = culture_nerglish
-	religion = religion_water
-}

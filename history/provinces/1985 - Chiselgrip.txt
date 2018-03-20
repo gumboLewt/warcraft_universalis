@@ -1,27 +1,19 @@
 # 1985 - Chiselgrip.txt
 is_city = yes
 
-owner = P98
-controller = P98
-add_core = P98
+owner = A41
+controller = A41
+add_core = A41
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
 culture = culture_blackrock
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = dark_iron
 hre = no
-
-926.1.1 = {
-	owner = A41
-	controller = A41
-  add_core = A41
-	remove_core = P98
-	religion = religion_fel
-}
 
 # Cataclysm
 971.1.1 = {

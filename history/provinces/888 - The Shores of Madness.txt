@@ -1,49 +1,37 @@
 # 888 - The Shores of Madness.txt
-is_city = yes
+is_city = no
 
-owner = F10
-controller = F10
-add_core = F10
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_woodpaw
-religion = religion_geomancy
+culture = culture_twilights_hammer
+religion = religion_old_gods
 
 trade_goods = fish
 hre = no
 
-906.1.1 = {
-  is_city = no
-
-  native_size = 10
-  native_ferocity = 10
-  native_hostileness = 10
-
-  owner = XXX
-  controller = XXX
-  remove_core = F10
-
-  culture = culture_twilights_hammer
-  religion = religion_old_gods
-}
-
 # Cataclysm
 971.1.1 = {
-    is_city = yes
+  is_city = yes
 
-    owner = A43
-    controller = A43
-    add_core = A43
+  owner = A43
+  controller = A43
+  add_core = A43
 }
 
 976.1.1 = {
-    owner = B83
-    controller = B83
-    add_core = B83
-    remove_core = A43
+  owner = B83
+  controller = B83
+  add_core = B83
+  remove_core = A43
 
   culture = culture_cultist
 }

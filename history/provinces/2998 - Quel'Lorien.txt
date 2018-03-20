@@ -5,8 +5,8 @@ owner = P49
 controller = P49
 add_core = P49
 
-base_tax = 3
-base_production = 3
+base_tax = 4
+base_production = 4
 base_manpower = 3
 
 culture = culture_high_elf
@@ -15,12 +15,6 @@ capital = "Quel'Danil Lodge"
 
 trade_goods = fur
 hre = no
-
-# The Frozen Throne - Independance and influx of high elven refugees
-906.1.1 = {
-  base_tax = 4
-  base_production = 4
-}
 
 # War in the Hinterlands
 971.1.1 = {

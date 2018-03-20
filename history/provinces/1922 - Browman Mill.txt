@@ -1,30 +1,19 @@
 # 1922 - Browman Mill.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 1
 base_production = 2
 base_manpower = 2
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = lumber
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = P52
-	controller = P52
-	add_core = P52
-	remove_core = A08
-
-	culture = culture_scourge
-	religion = religion_the_damned
-}
 
 # Cataclysm
 971.1.1 = {

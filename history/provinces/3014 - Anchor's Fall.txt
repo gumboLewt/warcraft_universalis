@@ -7,14 +7,10 @@ add_core = A14
 
 base_tax = 3
 base_production = 3
-base_manpower = 3
+base_manpower = 4
 
 culture = culture_tirasian
 religion = religion_church_of_the_light
 
 trade_goods = naval_supplies
 hre = no
-
-926.1.1 = {
-	base_manpower = 4
-}

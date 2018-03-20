@@ -4,6 +4,9 @@ is_city = yes
 owner = A16
 controller = A16
 add_core = A16
+add_claim = A26
+add_claim = A64
+add_claim = A51
 
 base_tax = 3
 base_production = 3
@@ -14,12 +17,6 @@ religion = religion_church_of_the_light
 
 trade_goods = crypts
 hre = no
-
-926.1.1 = {
-	add_claim = A26
-	add_claim = A64
-	add_claim = A51
-}
 
 # The Burning Crusade
 941.1.1 = {

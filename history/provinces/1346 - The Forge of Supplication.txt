@@ -1,28 +1,16 @@
 # 1346 - The Forge of Supplication.txt
 is_city = yes
 
-owner = H01
-controller = H01
-add_core = H01
+owner = G02
+controller = G02
+add_core = G02
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_sentinel
-religion = religion_elune
+culture = culture_moarg
+religion = religion_fel
 
-trade_goods = ashenvale_lumber
+trade_goods = fel
 hre = no
-
-906.1.1 = {
-  owner = G02
-  controller = G02
-  add_core = G02
-  remove_core = H01
-
-  culture = culture_moarg
-  religion = religion_fel
-
-  trade_goods = fel
-}

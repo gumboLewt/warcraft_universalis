@@ -1,44 +1,25 @@
 # 1476 - Winterhoof Water Well.txt
 is_city = yes
 
-owner = B20
-controller = B20
-add_core = B20
+owner = A81
+controller = A81
+add_core = A81
+add_core = F88
 
 base_tax = 2
 base_production = 3
 base_manpower = 2
 
-culture = culture_galak
-religion = religion_air
+culture = culture_venture
+religion = religion_greed
 
 trade_goods = grain
 hre = no
-
-906.1.1 = {
-	owner = F88
-	controller = F88
-	add_core = F88
-  remove_core = B20
-
-	culture = culture_winterhoof
-	religion = religion_ancestral
-}
-
-926.1.1 = {
-  owner = A81
-  controller = A81
-  add_core = A81
-
-  culture = culture_venture
-  religion = religion_greed
-}
 
 971.1.1 = {
   owner = A85
   controller = A85
   add_core = A85
-  remove_core = A81
 
   culture = culture_grimtotem
   religion = religion_ancestral

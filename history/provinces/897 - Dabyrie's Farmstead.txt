@@ -7,17 +7,13 @@ add_core = A16
 
 base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 
 culture = culture_arathi
 religion = religion_church_of_the_light
 
 trade_goods = grain
 hre = no
-
-926.1.1 = {
-	base_manpower = 3
-}
 
 # Wrath of the Lich King
 946.1.1 = {

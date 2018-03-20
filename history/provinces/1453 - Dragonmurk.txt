@@ -1,36 +1,20 @@
 # 1453 - Stonemaul Ruins.txt
 is_city = yes
 
-owner = F57
-controller = F57
-add_core = F57
+owner = J08
+controller = J08
+add_core = J08
 
 base_tax = 3
 base_production = 3
 base_manpower = 4
 
-culture = culture_stonemaul
-religion = religion_geomancy
-capital = "Stonemaul Village"
+culture = culture_black
+religion = religion_old_gods
+capital = "Den of Flames"
 
 trade_goods = fish
 hre = no
-
-906.1.1 = {
-    religion = religion_ancestral
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-  owner = A99
-  controller = A99
-  add_core = A99
-  remove_core = F57
-
-  culture = culture_black
-  religion = religion_old_gods
-  capital = "Den of Flames"
-}
 
 976.1.1 = {
   is_city = no

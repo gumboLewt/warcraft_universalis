@@ -5,18 +5,12 @@ owner = A85
 controller = A85
 add_core = A85
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_grimtotem
 religion = religion_ancestral
 
 trade_goods = artifacts
 hre = no
-
-926.1.1 = {
-  base_tax = 3
-  base_production = 3
-  base_manpower = 3
-}

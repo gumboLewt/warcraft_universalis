@@ -1,33 +1,19 @@
 # 2171 - Tainted Hills.txt
-is_city = no
+is_city = yes
 
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
-
-owner = XXX
-controller = XXX
+owner = B95
+controller = B95
+add_core = B95
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_bleeding_hollow
+culture = culture_moarg
 religion = religion_fel
 
 trade_goods = tropical_wood
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-  is_city = yes
-
-	owner = B95
-	controller = B95
-	add_core = B95
-
-	culture = culture_moarg
-}
 
 # Cataclysm
 971.1.1 = {

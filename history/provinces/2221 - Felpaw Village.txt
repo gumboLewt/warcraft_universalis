@@ -10,11 +10,7 @@ base_production = 1
 base_manpower = 1
 
 culture = culture_deadwood
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = grain
 hre = no
-
-906.1.1 = {
-  religion = religion_fel
-}

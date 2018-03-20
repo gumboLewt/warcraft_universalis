@@ -1,9 +1,9 @@
 # 1674 - Shadowed Wastes.txt
 is_city = yes
 
-owner = B89
-controller = B89
-add_core = B89
+owner = B92
+controller = B92
+add_core = B92
 
 base_tax = 3
 base_production = 3
@@ -14,11 +14,3 @@ religion = religion_fel
 
 trade_goods = fel
 hre = no
-
-# The Burning Legion
-926.1.1 = {
-	owner = B92
-	controller = B92
-	add_core =  B92
-	remove_core = B89
-}

@@ -1,27 +1,17 @@
 # 2952 - Swamplight.txt
 is_city = yes
 
-owner = A85
-controller = A85
-add_core = A85
+owner = A23
+controller = A23
+add_core = A23
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_grimtotem
-religion = religion_ancestral
+culture = culture_lordaeron
+religion = religion_church_of_the_light
+capital = "Swamplight Manor"
 
 trade_goods = fur
 hre = no
-
-906.1.1 = {
-	owner = A23
-	controller = A23
-	add_core = A23
-  remove_core = A85
-
-	culture = culture_lordaeron
-	religion = religion_church_of_the_light
-	capital = "Swamplight Manor"
-}

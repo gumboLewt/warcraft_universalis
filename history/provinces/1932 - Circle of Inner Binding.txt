@@ -1,25 +1,16 @@
 # 1932 - Circle of Inner Binding.txt
-is_city = yes 
+is_city = yes
 
-owner = A16
-controller = A16
-add_core = A16
+owner = P27
+controller = P27
+add_core = P27
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_arathi
-religion = religion_church_of_the_light
-
-trade_goods = artifacts
-hre = no 
-
-906.1.1 = { 
-add_core = P27
-owner = P27
-controller = P27
 culture = culture_earth
 religion = religion_earth
-}
 
+trade_goods = artifacts
+hre = no

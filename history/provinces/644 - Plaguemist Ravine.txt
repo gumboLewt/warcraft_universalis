@@ -1,33 +1,19 @@
 # 644 - Plaguemist Ravine.txt
-is_city = yes
+is_city = no
 
-owner = P22
-controller = P22
-add_core = P22
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_wildhammer
-religion = religion_ancestral
+culture = culture_scourge
+religion = religion_the_damned
 
-trade_goods = smugglers
+trade_goods = warbeasts
 hre = no
-
-906.1.1 = {
-  is_city = no
-
-  native_size = 10
-  native_ferocity = 10
-  native_hostileness = 10
-
-  owner = XXX
-  controller = XXX
-  remove_core = P22
-
-  culture = culture_scourge
-  religion = religion_the_damned
-
-  trade_goods = warbeasts
-}

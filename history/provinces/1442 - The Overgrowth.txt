@@ -1,29 +1,19 @@
 # 1442 - The Overgrowth.txt
 is_city = yes
 
-owner = H04
-controller = H04
-add_core = H04
+owner = B68
+controller = B68
+add_core = B68
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_kolkar
+culture = culture_bristleback
 religion = religion_geomancy
 
 hre = no
 trade_goods = fur
-
-906.1.1 = {
-  owner = B68
-  controller = B68
-  add_core = B68
-  remove_core = H04
-
-  culture = culture_bristleback
-  religion = religion_geomancy
-}
 
 971.1.1 = {
   owner = F88

@@ -1,32 +1,16 @@
 # 1387 - Nijel's Point.txt
 is_city = yes
 
-owner = B24
-controller = B24
-add_core = B24
+owner = A94
+controller = A94
+add_core = A94
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
-culture = culture_kolkar
-religion = religion_geomancy
+culture = culture_sentinel
+religion = religion_elune
 
-trade_goods = artifacts
+trade_goods = moonwell
 hre = no
-
-926.1.1 = {
-  owner = A94
-  controller = A94
-  add_core = A94
-  remove_core = B24
-
-  base_tax = 2
-  base_production = 2
-  base_manpower = 2
-
-  culture = culture_sentinel
-  religion = religion_elune
-
-  trade_goods = moonwell
-}

@@ -1,5 +1,5 @@
 # 926 - Hiri'watha Research Station.txt
-is_city = yes 
+is_city = yes
 
 owner = A64
 controller = A64
@@ -13,12 +13,14 @@ culture = culture_witherbark
 religion = religion_voodoo
 
 trade_goods = fur
-hre = no 
+hre = no
 
 971.1.1 = {
-owner = P14 
-controller = P14 
-add_core = P14
-culture = culture_forsaken 
-religion = religion_forgotten_shadow
+  owner = P14
+  controller = P14
+  add_core = P14
+  remove_core = A64
+
+  culture = culture_forsaken
+  religion = religion_forgotten_shadow
 }

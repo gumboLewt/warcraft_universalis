@@ -1,24 +1,16 @@
 # 527 - Northfold Manor.txt
 is_city = yes
 
-owner = R14
-controller = R14
-add_core = R14
+owner = A26
+controller = A26
+add_core = A26
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
 culture = culture_arathi
-religion = religion_church_of_the_light
+religion = religion_shadow
 
 trade_goods = grain
 hre = no
-
-926.1.1 = {
-	owner = A26
-	controller = A26
-	add_core = A26
-  remove_core = R14
-	religion = religion_shadow
-}

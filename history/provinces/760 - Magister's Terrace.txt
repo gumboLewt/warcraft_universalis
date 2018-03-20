@@ -1,28 +1,19 @@
 # 760 - Magister's Terrace.txt
 is_city = yes
 
-owner = R20
-controller = R20
-add_core = R20
+owner = F54
+controller = F54
+add_core = F54
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
 culture = culture_high_elf
-religion = religion_arcane
+religion = religion_church_of_the_light
 
 trade_goods = arcane
 hre = no
-
-906.1.1 = {
-	owner = F54
-	controller = F54
-	add_core = F54
-	remove_core = R20
-
-	religion = religion_church_of_the_light
-}
 
 # The Burning Crusade
 941.1.1 = {

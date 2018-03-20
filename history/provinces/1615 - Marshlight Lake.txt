@@ -1,45 +1,19 @@
 # 1615 - Marshlight Lake.txt
 is_city = yes
 
-owner = B89
-controller = B89
-add_core = B89
+owner = B38
+controller = B38
+add_core = B38
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_fel_orc
-religion = religion_fel
+culture = culture_bogstrok
+religion = religion_water
 
-trade_goods = fel
+trade_goods = fish
 hre = no
-
-906.1.1 = {
-  is_city = no
-
-  native_size = 10
-  native_ferocity = 10
-  native_hostileness = 10
-
-  owner = XXX
-  controller = XXX
-  remove_core = B89
-}
-
-926.1.1 = {
-  is_city = yes
-
-  owner = B38
-  controller = B38
-  add_core = B38
-  remove_core = B89
-
-  culture = culture_bogstrok
-  religion = religion_water
-
-  trade_goods = fish
-}
 
 941.1.1 = {
   owner = P02

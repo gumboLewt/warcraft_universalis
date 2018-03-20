@@ -1,27 +1,17 @@
 # 583 - The Forgotten Shore.txt
 is_city = yes
 
-owner = F38
-controller = F38
-add_core = F38
+owner = P11
+controller = P11
+add_core = P11
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
-capital = "Expedition Landing" 
+culture = culture_scourge
+religion = religion_the_damned
+capital = "Expedition Landing"
 
 trade_goods = naval_supplies
 hre = no
-
-906.1.1 = {
-  owner = P11
-  controller = P11
-  add_core = P11
-  remove_core = F38
-
-  culture = culture_scourge
-  religion = religion_the_damned
-}

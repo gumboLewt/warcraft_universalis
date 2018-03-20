@@ -15,21 +15,6 @@ religion = religion_church_of_the_light
 trade_goods = fish
 hre = no
 
-906.1.1 = {
-	revolt = {
-		type = pretender_rebels
-		size = 0
-	}
-	unrest = 2
-	controller = REB
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	unrest = 0
-	controller = A12
-}
-
 # Cataclysm
 971.1.1 = {
 	culture = culture_gilnean_worgen

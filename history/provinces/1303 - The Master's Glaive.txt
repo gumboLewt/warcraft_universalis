@@ -1,26 +1,16 @@
 # 1303 - The Master's Glaive.txt
 is_city = yes
 
-owner = H01
-controller = H01
-add_core = H01
+owner = A43
+controller = A43
+add_core = A43
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_sentinel
-religion = religion_elune
+culture = culture_twilights_hammer
+religion = religion_old_gods
 
 trade_goods = fossils
 hre = no
-
-926.1.1 = {
-  owner = A43
-  controller = A43
-  add_core = A43
-  remove_core = H01
-
-  culture = culture_twilights_hammer
-  religion = religion_old_gods
-}

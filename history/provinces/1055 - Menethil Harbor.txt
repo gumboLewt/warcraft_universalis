@@ -1,9 +1,9 @@
 # 1055 - Menethil Harbor.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = A06
+controller = A06
+add_core = A06
 
 base_tax = 4
 base_production = 4
@@ -14,11 +14,3 @@ religion = religion_church_of_the_light
 
 trade_goods = naval_supplies
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-  owner = A06
-  controller = A06
-  add_core = A06
-  remove_core = A08
-}

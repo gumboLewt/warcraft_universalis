@@ -1,46 +1,19 @@
 # 688 - Andorhal.txt
 is_city = yes
 
-owner = P12
-controller = P12
-add_core = P12
-add_core = A09
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 5
 base_production = 5
 base_manpower = 5
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = grain_silo
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = F15
-	controller = F15
-	add_core = F15
-	remove_core = P12
-	remove_core = A09
-
-	culture = culture_scourge
-	religion = religion_fel
-}
-
-# War of Lordaeron (TFT)
-916.9.1 = {
-	owner = P52
-	controller = P52
-  add_core = P52
-
-	religion = religion_the_damned
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	remove_core = F15
-}
 
 # Cataclysm
 971.1.1 = {

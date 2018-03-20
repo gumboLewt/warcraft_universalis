@@ -1,38 +1,16 @@
 # 556 - Strahnbrad.txt
 is_city = yes
 
-owner = H08
-controller = H08
-add_core = H08
+owner = A26
+controller = A26
+add_core = A26
 
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = culture_alterac
-religion = religion_church_of_the_light
+religion = religion_shadow
 
 trade_goods = gold
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = F40
-	controller = F40
-	add_core = F40
-	remove_core = H08
-
-	base_tax = 3
-	base_manpower = 3
-	base_production = 3
-
-  religion = religion_shadow
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = A26
-	controller = A26
-	add_core = A26
-	remove_core = F40
-}

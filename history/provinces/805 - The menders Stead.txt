@@ -15,24 +15,6 @@ religion = religion_the_damned
 trade_goods = grain
 hre = no
 
-# The Frozen Throne
-906.1.1 = {
-	owner = F15
-	controller = F15
-	add_core = F15
-
-	religion = religion_fel
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = P52
-	controller = P52
-	remove_core = F15
-
-	religion = religion_the_damned
-}
-
 # Cataclysm
 971.1.1 = {
 	owner = F19

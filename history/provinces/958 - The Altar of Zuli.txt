@@ -10,11 +10,7 @@ base_production = 3
 base_manpower = 3
 
 culture = culture_vilebranch
-religion = religion_voodoo
+religion = religion_hakkari
 
 trade_goods = artifacts
 hre = no
-
-926.1.1 = {
-  religion = religion_hakkari
-}

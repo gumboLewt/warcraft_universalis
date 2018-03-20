@@ -2,7 +2,7 @@
 government 			= dragonflight_gov
 mercantilism 		= 10
 technology_group 	= tech_dragonkin
-religion			= religion_sect_of_dragons
+religion			= religion_old_gods
 primary_culture 	= culture_black
 capital 			= 1454
 

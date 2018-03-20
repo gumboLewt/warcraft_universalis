@@ -1,30 +1,16 @@
 # 1470 - Red Rocks.txt
 is_city = yes
 
-owner = G05
-controller = G05
-add_core = G05
+owner = B68
+controller = B68
+add_core = B68
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 3
 
-culture = culture_windfury
-religion = religion_air
+culture = culture_bristleback
+religion = religion_geomancy
 
 trade_goods = crypts
 hre = no
-
-906.1.1 = {
-	owner = B68
-	controller = B68
-	add_core = B68
-  remove_core = G05
-
-	base_tax = 2
-	base_production = 2
-	base_manpower = 3
-
-	culture = culture_bristleback
-	religion = religion_geomancy
-}

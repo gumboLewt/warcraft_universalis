@@ -1,36 +1,21 @@
 # 1448 - Bael Modan.txt
 is_city = yes
 
-owner = F01
-controller = F01
+owner = F59
+controller = F59
+add_core = F59
 add_core = F01
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 5
+base_production = 5
+base_manpower = 5
 
-culture = culture_stonespire
-religion = religion_ancestral
+culture = culture_ironforge
+religion = religion_mystery_of_the_makers
+capital = "Bael'dun Keep"
 
-trade_goods = fur
+trade_goods = artifacts
 hre = no
-
-926.1.1 = {
-	controller = F59
-	owner = F59
-	add_core = F59
-  remove_core = F01
-
-	base_tax = 5
-	base_production = 5
-	base_manpower = 5
-
-	culture = culture_ironforge
-	religion = religion_mystery_of_the_makers
-	capital = "Bael'dun Keep"
-
-  trade_goods = artifacts
-}
 
 # Damaged after being partly blown up
 976.1.1 = {

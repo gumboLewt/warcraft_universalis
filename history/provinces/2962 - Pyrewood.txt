@@ -1,37 +1,19 @@
 # 2962 - Pyrewood.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = F52
+controller = F52
+add_core = F52
 
 base_tax = 2
 base_production = 3
 base_manpower = 2
 
-culture = culture_gilnean
+culture = culture_gilnean_worgen
 religion = religion_church_of_the_light
 
 trade_goods = cloth
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-  owner = A25
-  controller = A25
-  add_core = A25
-  remove_core = A08
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = F52
-	controller = F52
-	add_core = F52
-	remove_core = A25
-
-	culture = culture_gilnean_worgen
-}
 
 # Cataclysm
 971.1.1 = {

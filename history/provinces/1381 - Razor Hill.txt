@@ -1,29 +1,19 @@
 # 1381 - Razor Hill.txt
 is_city = yes
 
-owner = B69
-controller = B69
-add_core = B69
+owner = A48
+controller = A48
+add_core = A48
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_razormane
-religion = religion_geomancy
+culture = culture_horde
+religion = religion_ancestral
 
 trade_goods = grain
 hre = no
-
-906.1.1 = {
-	owner = A48
-	controller = A48
-	add_core = A48
-  remove_core = B69
-
-	culture = culture_horde
-	religion = religion_ancestral
-}
 
 976.6.1 = {
 	owner = A70

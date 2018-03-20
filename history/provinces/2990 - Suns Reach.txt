@@ -1,39 +1,19 @@
 # 2990 - Suns Reach.txt
 is_city = yes
 
-owner = R20
-controller = R20
-add_core = R20
+owner = G18
+controller = G18
+add_core = G18
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_high_elf
+culture = culture_blood_elf
 religion = religion_arcane
 
 trade_goods = naval_supplies
 hre = no
-
-906.1.1 = {
-  owner = F54
-  controller = F54
-  add_core = F54
-  remove_core = R20
-
-  religion = religion_church_of_the_light
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-  owner = G18
-  controller = G18
-  add_core = G18
-  remove_core = F54
-
-  culture = culture_blood_elf
-  religion = religion_arcane
-}
 
 # The Burning Crusade
 941.1.1 = {

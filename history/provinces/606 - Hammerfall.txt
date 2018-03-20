@@ -1,8 +1,8 @@
 # 606 - Hammerfall.txt
-is_city = no
+is_city = yes
 
-owner = XXX
-controller = XXX
+owner = A48
+controller = A48
 add_core = A48
 
 native_size = 10
@@ -15,16 +15,7 @@ base_manpower = 3
 
 culture = culture_horde
 religion = religion_ancestral
-capital = "Eastgarde Internment Camp"
+capital = "Hammerfall"
 
 trade_goods = mithril
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-    is_city = yes
-
-    owner = A48
-    controller = A48
-    capital = "Hammerfall"
-}

@@ -1,47 +1,19 @@
 # 607 - Uther's tomb.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 2
 base_production = 2
 base_manpower = 3
 
-culture = culture_alterac
-religion = religion_church_of_the_light
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = crypts
 hre = no
-
-# The Third War
-901.5.1 = {
-	owner = F17
-	controller = F17
-	add_core = F17
-	add_core = P52
-}
-
-# The Frozen Throne
-906.1.1 = {
-	owner = F15
-	controller = F15
-	add_core = F15
-	remove_core = F17
-
-	culture = culture_scourge
-	religion = religion_fel
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-  owner = P52
-	controller = P52
-	remove_core = F15
-
-	religion = religion_the_damned
-}
 
 # Cataclysm
 971.1.1 = {

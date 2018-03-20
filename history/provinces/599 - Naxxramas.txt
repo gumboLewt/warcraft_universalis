@@ -11,14 +11,10 @@ base_production = 5
 
 culture = culture_scourge
 religion = religion_the_damned
-capital = "Naxxramas"
+capital = "Wintergarde Ruins"
 
 trade_goods = fish
 hre = no
-
-926.1.1 = {
-  capital = "Wintergarde Ruins"
-}
 
 946.1.1 = {
   capital = "Naxxramas"

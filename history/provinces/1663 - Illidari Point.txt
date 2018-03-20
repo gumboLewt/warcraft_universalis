@@ -1,26 +1,16 @@
 # 1663 - Illidari Point.txt
 is_city = yes
 
-owner = B89
-controller = B89
-add_core = B89
+owner = B87
+controller = B87
+add_core = B87
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_shadowmoon
+culture = culture_illidari
 religion = religion_fel
 
 trade_goods = artifacts
 hre = no
-
-# The Burning Legion
-926.1.1 = {
-	owner = B87
-	controller = B87
-	add_core =  B87
-	remove_core = B89
-
-  culture = culture_illidari
-}

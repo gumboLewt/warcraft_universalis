@@ -1,26 +1,16 @@
 # 883 - Nek'mani Wellspring.txt
 is_city = yes
 
-owner = A68
-controller = A68
-add_core = A68
+owner = F32
+controller = F32
+add_core = F32
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_shatterspear
-religion = religion_loa
+culture = culture_nazja
+religion = religion_old_gods
 
 trade_goods = artifacts
 hre = no
-
-906.1.1 = {
-	owner = F32
-	controller = F32
-	add_core = F32
-  remove_core = A68
-
-	culture = culture_nazja
-	religion = religion_old_gods
-}

@@ -1,27 +1,16 @@
 # 1668 - Coilskar Point.txt
 is_city = yes
 
-owner = A34
-controller = A34
-add_core = A34
+owner = P02
+controller = P02
+add_core =  P02
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_shadowmoon
-religion = religion_ancestral
+culture = culture_vashjari
+religion = religion_old_gods
 
 trade_goods = fish
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-  owner = P02
-  controller = P02
-  add_core =  P02
-  remove_core = A34
-
-  culture = culture_vashjari
-  religion = religion_old_gods
-}

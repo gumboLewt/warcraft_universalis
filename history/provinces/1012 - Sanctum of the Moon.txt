@@ -1,28 +1,19 @@
 # 1012 - Sanctum of the Moon.txt
 is_city = yes
 
-owner = R21
-controller = R21
-add_core = R21
+owner = F54
+controller = F54
+add_core = F54
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
 culture = culture_high_elf
-religion = religion_arcane
+religion = religion_church_of_the_light
 
 trade_goods = arcane
 hre = no
-
-906.1.1 = {
-	owner = F54
-	controller = F54
-	add_core = F54
-	remove_core = R21
-
-	religion = religion_church_of_the_light
-}
 
 # The Burning Crusade
 941.1.1 = {

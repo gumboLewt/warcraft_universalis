@@ -5,19 +5,12 @@ owner = P11
 controller = P11
 add_core = P11
 
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 4
 
 culture = culture_scourge
 religion = religion_the_damned
 
 trade_goods = saronite
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-	base_tax = 3
-	base_manpower = 4
-	base_production = 3
-}

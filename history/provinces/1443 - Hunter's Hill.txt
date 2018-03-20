@@ -1,34 +1,22 @@
 # 1443 - Hunter's Hill.txt
-is_city = yes
+is_city = no
 
-owner = B21
-controller = B21
-add_core = B21
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_gelkis
-religion = religion_earth
+culture = culture_bristleback
+religion = religion_geomancy
 
 trade_goods = fur
 hre = no
-
-906.1.1 = {
-	is_city = no
-
-  native_size = 10
-  native_ferocity = 10
-  native_hostileness = 10
-
-	owner = XXX
-	controller = XXX
-	remove_core = B21
-
-  culture = culture_bristleback
-  religion = religion_geomancy
-}
 
 971.1.1 = {
   is_city = yes

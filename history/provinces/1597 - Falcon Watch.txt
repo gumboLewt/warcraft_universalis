@@ -1,32 +1,19 @@
 # 1597 - Falcon Watch.txt
 is_city = yes
 
-owner = A36
-controller = A36
-add_core = A36
+owner = A93
+controller = A93
+add_core = A93
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_shattered_hand
-religion = religion_fel
+culture = culture_blood_elf
+religion = religion_arcane
 
-trade_goods = stone
+trade_goods = arcane
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = A93
-	controller = A93
-	add_core = A93
-  remove_core = A36
-
-	culture = culture_blood_elf
-	religion = religion_arcane
-
-	trade_goods = arcane
-}
 
 # The Burning Crusade
 941.1.1 = {

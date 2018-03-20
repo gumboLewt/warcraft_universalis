@@ -1,30 +1,19 @@
 # 944 - Farstrider Retreat.txt
 is_city = yes
 
-owner = A90
-controller = A90
-add_core = A90
+owner = A58
+controller = A58
+add_core = A58
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_high_elf
-religion = religion_arcane
+culture = culture_amani
+religion = religion_voodoo
 
 trade_goods = army_supplies
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-  owner = A58
-  controller = A58
-  add_core = A58
-  remove_core = A90
-
-  culture = culture_amani
-  religion = religion_voodoo
-}
 
 # Rise of the Qiraji
 941.1.1 = {

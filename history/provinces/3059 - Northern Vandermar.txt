@@ -1,50 +1,26 @@
 # 3059 - Northern Vandermar.txt
 is_city = yes
 
-owner = R11
-controller = R11
-add_core = R11
+owner = P52
+controller = P52
+add_core = P52
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
-culture = culture_lordaeron
+culture = culture_scourge
 religion = religion_the_damned
 
 trade_goods = grain
 hre = no
 
-# The Frozen Throne
-906.1.1 = {
-	owner = P14
-	controller = P14
-	add_core = P14
-	add_core = P52
-	remove_core = R11
-
-	base_tax = 2
-	base_production = 2
-	base_manpower = 2
-
-	culture = culture_forsaken
-	religion = religion_forgotten_shadow
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = P52
-	controller = P52
-
-	culture = culture_scourge
-	religion = religion_the_damned
-}
-
 # Cataclysm
 971.1.1 = {
 	owner = P14
 	controller = P14
-  remove_core = P14
+  add_core = P14
+  remove_core = P52
 
 	culture = culture_forsaken
 	religion = religion_forgotten_shadow

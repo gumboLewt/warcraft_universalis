@@ -1,9 +1,12 @@
 # 1624 - Twilight Ridge.txt
-is_city = yes
+is_city = no
 
-owner = B89
-controller = B89
-add_core = B89
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 3
 base_production = 3
@@ -14,18 +17,3 @@ religion = religion_fel
 
 trade_goods = fel
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-  is_city = no
-
-  native_size = 10
-  native_ferocity = 10
-  native_hostileness = 10
-
-  owner = XXX
-  controller = XXX
-  remove_core =  B89
-
-  religion = religion_fel
-}

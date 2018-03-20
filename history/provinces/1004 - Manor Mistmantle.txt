@@ -1,27 +1,16 @@
 # 1004 - Manor Mistmantle.txt
 is_city = yes
 
-owner = A03
-controller = A03
-add_core = A03
+owner = F12
+controller = F12
+add_core = F12
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_azerothian
-religion = religion_church_of_the_light
+culture = culture_forsaken
+religion = religion_shadow
 
 trade_goods = grain
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-  owner = F12
-  controller = F12
-  add_core = F12
-  remove_core = A03
-
-  culture = culture_forsaken
-  religion = religion_shadow
-}

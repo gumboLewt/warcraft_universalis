@@ -1,27 +1,16 @@
 # 683 - Lakeridge Highway.txt
 is_city = yes
 
-owner = A04
-controller = A04
-add_core = A04
+owner = B17
+controller = B17
+add_core = B17
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_azerothian
-religion = religion_church_of_the_light
+culture = culture_redridge
+religion = religion_geomancy
 
 trade_goods = cloth
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-  owner = B17
-  controller = B17
-  add_core = B17
-  remove_core = A04
-
-  culture = culture_redridge
-  religion = religion_geomancy
-}

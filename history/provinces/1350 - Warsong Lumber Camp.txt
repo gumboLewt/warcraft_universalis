@@ -1,37 +1,20 @@
 # 1350 - Warsong Lumber Camp.txt
 is_city = yes
 
-owner = F97
-controller = F97
-add_core = F97
+owner = A35
+controller = A35
+add_core = A35
 
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 3
+base_production = 4
+base_manpower = 3
 
-culture = culture_xavian
-religion = religion_fel
+culture = culture_warsong
+religion = religion_ancestral
+capital = "Warsong Lumber Camp"
 
 trade_goods = ashenvale_lumber
 hre = no
-
-906.1.1 = {
-  owner = A35
-  controller = A35
-  add_core = A35
-  remove_core = F97
-
-  culture = culture_warsong
-  religion = religion_ancestral
-
-  capital = "Warsong Lumber Camp"
-}
-
-926.1.1 = {
-  base_tax = 3
-  base_production = 4
-  base_manpower = 3
-}
 
 981.1.1 = {
   owner = F96

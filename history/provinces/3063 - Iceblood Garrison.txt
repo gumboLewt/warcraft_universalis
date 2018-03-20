@@ -1,36 +1,16 @@
 # 3063 - Iceblood Garrison.txt
 is_city = yes
 
-owner = B59
-controller = B59
-add_core = B59
+owner = A46
+controller = A46
+add_core = A46
 
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 4
 
-culture = culture_whitewhisker
-religion = religion_geomancy
+culture = culture_frostwolf
+religion = religion_ancestral
 
-trade_goods = iron
+trade_goods = mounts
 hre = no
-
-906.1.1 = {
-  owner = A46
-  controller = A46
-  add_core = A46
-  remove_core = B59
-
-  base_production = 3
-
-  culture = culture_frostwolf
-  religion = religion_ancestral
-
-  trade_goods = mounts
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	base_tax = 3
-	base_manpower = 4
-}

@@ -1,27 +1,16 @@
 # 1665 - Eclipse Point.txt
 is_city = yes
 
-owner = B89
-controller = B89
-add_core = B89
+owner = B87
+controller = B87
+add_core = B87
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_dragonmaw
+culture = culture_blood_elf
 religion = religion_fel
 
 trade_goods = artifacts
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-  owner = B87
-  controller = B87
-  add_core =  B87
-  remove_core = B89
-
-  culture = culture_blood_elf
-  religion = religion_fel
-}

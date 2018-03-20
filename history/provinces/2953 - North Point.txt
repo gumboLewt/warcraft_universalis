@@ -1,32 +1,16 @@
 # 2953 - North Point.txt
 is_city = yes
 
-owner = A85
-controller = A85
-add_core = A85
+controller = A23
+owner = A23
+add_core = A23
 
-base_tax = 2
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 4
 
-culture = culture_grimtotem
-religion = religion_ancestral
+culture = culture_high_elf
+religion = religion_church_of_the_light
 
-trade_goods = iron
+trade_goods = army_supplies
 hre = no
-
-906.1.1 = {
-	controller = A23
-	owner = A23
-	add_core = A23
-  remove_core = A85
-
-	base_tax = 3
-	base_manpower = 4
-	base_production = 3
-
-	culture = culture_high_elf
-	religion = religion_church_of_the_light
-
-	trade_goods = army_supplies
-}

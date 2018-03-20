@@ -1,31 +1,19 @@
 # 991 - Ruins of Southshore.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = A11
+controller = A11
+add_core = A11
 
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 5
+base_production = 5
+base_manpower = 5
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
 
 trade_goods = naval_supplies
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-  owner = A11
-  controller = A11
-  add_core = A11
-  remove_core = A08
-
-  base_tax = 5
-  base_manpower = 5
-  base_production = 5
-}
 
 # Cataclysm
 971.1.1 = {

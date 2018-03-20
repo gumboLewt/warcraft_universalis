@@ -1,42 +1,20 @@
 # 1376 - The Stagnant Oasis.txt
 is_city = yes
 
-owner = A70
-controller = A70
-add_core = A70
+owner = A19
+controller = A19
+add_core = A19
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_darkspear
-religion = religion_loa
-capital = "Darkspear Landing"
+culture = culture_tirasian
+religion = religion_church_of_the_light
+capital = "Pirate Camps"
 
 trade_goods = fish
 hre = no
-
-906.1.1 = {
-  owner = B18
-  controller = B18
-  add_core = B18
-  remove_core = A70
-
-  culture = culture_palemane
-  religion = religion_geomancy
-  capital = "Palemane Landing"
-}
-
-926.1.1 = {
-  owner = A19
-  controller = A19
-  add_core = A19
-  remove_core = B18
-
-  culture = culture_tirasian
-  religion = religion_church_of_the_light
-  capital = "Pirate Camps"
-}
 
 971.1.1 = {
   owner = G06

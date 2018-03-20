@@ -1,9 +1,9 @@
 # 2277 - Stonetalon Pass.txt
 is_city = yes
 
-owner = H01
-controller = H01
-add_core = H01
+owner = A94
+controller = A94
+add_core = A94
 
 base_tax = 1
 base_production = 1
@@ -14,11 +14,3 @@ religion = religion_elune
 
 hre = no
 trade_goods = grain
-
-
-926.1.1 = {
-  owner = A94
-  controller = A94
-  add_core = A94
-  remove_core = H01
-}

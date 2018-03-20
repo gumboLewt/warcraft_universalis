@@ -1,9 +1,9 @@
 # 880 - Amberpine Lodge.txt
 is_city = yes
 
-owner = P32
-controller = P32
-add_core = P32
+owner = P30
+controller = P30
+add_core = P30
 
 base_tax = 3
 base_production = 3
@@ -11,24 +11,15 @@ base_manpower = 3
 
 culture = culture_lordaeron
 religion = religion_church_of_the_light
+capital = "Amberpine Lodge"
 
 trade_goods = fur
 hre = no
-
-926.1.1 = {
-  owner = P30
-  controller = P30
-  add_core = P30
-  remove_core = P32
-
-  capital = "Amberpine Lodge"
-}
-
 
 # The Burning Crusade
 941.1.1 = {
   owner = P32
   controller = P32
   add_core = P32
+  remove_core = P32
 }
-

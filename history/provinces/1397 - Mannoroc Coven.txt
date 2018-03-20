@@ -1,28 +1,16 @@
 # 1397 - Mannoroc Coven.txt
 is_city = yes
 
-owner = B21
-controller = B21
-add_core = B21
+owner = B90
+controller = B90
+add_core = B90
 
 base_tax = 2
 base_production = 2
-base_manpower = 2
+base_manpower = 3
 
-culture = culture_gelkis
-religion = religion_earth
+culture = culture_moarg
+religion = religion_fel
 
 trade_goods = fossils
 hre = no
-
-926.1.1 = {
-  owner = B90
-  controller = B90
-  add_core = B90
-  remove_core = B21
-
-  base_manpower = 3
-
-  culture = culture_moarg
-  religion = religion_fel
-}

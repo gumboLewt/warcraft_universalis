@@ -1,36 +1,19 @@
 # 648 - Forsaken High Command.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 2
 base_production = 3
 base_manpower = 2
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+culture = culture_scourge
+religion = religion_the_damned
 
 trade_goods = grain
 hre = no
-
-906.1.1 = {
-	owner = A25
-	controller = A25
-	add_core = A25
-}
-
-# Rise of the Qiraji
-916.1.1 = {
-	owner = P52
-	controller = P52
-  add_core = P52
-  remove_core = A25
-
-	culture = culture_scourge
-	religion = religion_the_damned
-}
 
 # Cataclysm
 971.1.1 = {

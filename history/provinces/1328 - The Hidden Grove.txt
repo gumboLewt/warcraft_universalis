@@ -10,11 +10,7 @@ base_production = 3
 base_manpower = 4
 
 culture = culture_winterfall
-religion = religion_ancestral
+religion = religion_fel
 
 trade_goods = fur
 hre = no
-
-906.1.1 = {
-  religion = religion_fel
-}

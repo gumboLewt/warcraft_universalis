@@ -5,22 +5,15 @@ owner = P11
 controller = P11
 add_core = P11
 
-base_tax = 5
-base_production = 5
-base_manpower = 5
+base_tax = 7
+base_production = 7
+base_manpower = 7
 
 culture = culture_scourge
 religion = religion_the_damned
 
 trade_goods = saronite
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	base_tax = 7
-	base_manpower = 7     #First fortifications
-	base_production = 7
-}
 
 # The Burning Crusade
 941.1.1 = {

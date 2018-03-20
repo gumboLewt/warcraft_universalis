@@ -1,32 +1,17 @@
 # 1420 - Northern Barrens.txt
 is_city = yes
 
-owner = A35
-controller = A35
-add_core = A35
+owner = B69
+controller = B69
+add_core = B69
 
-base_tax = 3
-base_production = 3
+base_tax = 2
+base_production = 2
 base_manpower = 3
 
-culture = culture_warsong
-religion = religion_ancestral
-capital = "Warsong Base"
+culture = culture_razormane
+religion = religion_geomancy
+capital = "Thorn Hill"
 
 trade_goods = fur
 hre = no
-
-906.1.1 = {
-  owner = B69
-  controller = B69
-  add_core = B69
-  remove_core = A35
-
-  base_tax = 2
-  base_manpower = 3
-  base_production = 2
-
-  culture = culture_razormane
-  religion = religion_geomancy
-  capital = "Thorn Hill"
-}

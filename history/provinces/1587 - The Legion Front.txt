@@ -1,9 +1,12 @@
 # 1587 - The Legion Front.txt
-is_city = yes
+is_city = no
 
-owner = B89
-controller = B89
-add_core = B89
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+owner = XXX
+controller = XXX
 
 base_tax = 3
 base_production = 3
@@ -14,15 +17,6 @@ religion = religion_fel
 
 trade_goods = army_supplies
 hre = no
-
-
-906.1.1 = {
-  is_city = no
-
-	owner = XXX
-	controller = XXX
-  remove_core = B89
-}
 
 941.1.1 = {
   is_city = yes

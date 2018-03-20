@@ -1,29 +1,19 @@
 # 679 - Venomspite.txt
 is_city = yes
 
-owner = A77
-controller = A77
-add_core = A77
+owner = P11
+controller = P11
+add_core = P11
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_winterfang
-religion = religion_voodoo
+culture = culture_undead_troll
+religion = religion_the_damned
 
 trade_goods = fur
 hre = no
-
-906.1.1 = {
-  owner = P11
-  controller = P11
-  add_core = P11
-  remove_core = A77
-
-  culture = culture_undead_troll
-  religion = religion_the_damned
-}
 
 946.1.1 = {
   owner = A96

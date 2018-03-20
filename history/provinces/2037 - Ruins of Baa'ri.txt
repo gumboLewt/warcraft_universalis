@@ -1,28 +1,16 @@
 # 2037 - Ruins of Baa'ri.txt
 is_city = yes
 
-owner = B89
-controller = B89
-add_core = B98
+owner = A57
+controller = A57
+add_core =  A57
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_fel_orc
-religion = religion_fel
+culture = culture_broken
+religion = religion_ancestral
 
 trade_goods = artifacts
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-  owner = A57
-  controller = A57
-  add_core =  A57
-  remove_core = B89
-
-  culture = culture_broken
-  religion = religion_ancestral
-}
-

@@ -1,27 +1,16 @@
 # 2949 - Northwatch Port.txt
 is_city = yes
 
-owner = A46
-controller = A46
-add_core = A46
+owner = G06
+controller = G06
+add_core = G06
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_horde
-religion = religion_ancestral
+culture = culture_lordaeron
+religion = religion_church_of_the_light
 
 trade_goods = fish
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = G06
-	controller = G06
-	add_core = G06
-	remove_core = A46
-
-	culture = culture_lordaeron
-	religion = religion_church_of_the_light
-}

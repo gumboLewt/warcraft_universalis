@@ -1,38 +1,16 @@
 # 2965 - Guard of Alterac.txt
 is_city = yes
 
-owner = A41
-controller = A41
-add_core = A41
+owner = P50
+controller = P50
+add_core = P50
 
 base_tax = 3
 base_production = 3
 base_manpower = 4
 
-culture = culture_blackrock
-religion = religion_fel
+culture = culture_crushridge
+religion = religion_geomancy
 
 trade_goods = army_supplies
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = P52
-	controller = P52
-	add_core = P52
-	remove_core = A41
-
-	culture = culture_scourge
-	religion = religion_the_damned
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = P50
-	controller = P50
-	add_core = P50
-	remove_core = P52
-
-	culture = culture_crushridge
-	religion = religion_geomancy
-}

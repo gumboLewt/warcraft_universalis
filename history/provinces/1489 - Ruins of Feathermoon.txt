@@ -1,9 +1,9 @@
 # 1489 - Ruins of Feathermoon.txt
 is_city = yes
 
-owner = H01
-controller = H01
-add_core = H01
+owner = A94
+controller = A94
+add_core = A94
 
 base_tax = 4
 base_production = 4
@@ -14,13 +14,6 @@ religion = religion_elune
 
 trade_goods = naval_supplies
 hre = no
-
-926.1.1 = {
-  owner = A94
-  controller = A94
-  add_core = A94
-  remove_core = H01
-}
 
 971.1.1 = {
   owner = P06

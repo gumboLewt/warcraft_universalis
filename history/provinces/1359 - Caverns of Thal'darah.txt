@@ -1,9 +1,9 @@
 # 1359 - Caverns of Thal'darah.txt
 is_city = yes
 
-owner = H02
-controller = H02
-add_core = H02
+owner = A94
+controller = A94
+add_core = A94
 
 base_tax = 3
 base_production = 3
@@ -14,10 +14,3 @@ religion = religion_druidic
 
 trade_goods = artifacts
 hre = no
-
-926.1.1 = {
-  owner = A94
-  controller = A94
-  add_core = A94
-  remove_core = H02
-}

@@ -1,22 +1,16 @@
 # 3028 - Green Caravan.txt
 is_city = yes
 
-owner = J10
-controller = J10
-add_core = J10
+owner = A45
+controller = A45
+add_core = A45
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
 culture = culture_black
-religion = religion_sect_of_dragons
+religion = religion_fel
 
 trade_goods = flying_mounts
 hre = no
-
-926.1.1 = {
-	owner = A45
-	controller = A45
-	add_core = A45
-}

@@ -1,33 +1,19 @@
 # 1318 - Bloodvenom Post.txt
 is_city = yes
 
-owner = B96
-controller = B96
-add_core = B96
+owner = F91
+controller = F91
+add_core = F91
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_jadefire
-religion = religion_fel
+culture = culture_thunderhorn
+religion = religion_ancestral
 
-trade_goods = fish
+trade_goods = fel
 hre = no
-
-906.1.1 = {
-  trade_goods = fel
-}
-
-926.1.1 = {
-  owner = F91
-  controller = F91
-  add_core = F91
-  remove_core = B96
-
-  culture = culture_thunderhorn
-  religion = religion_ancestral
-}
 
 971.1.1 = {
   owner = G04

@@ -4,40 +4,17 @@ is_city = yes
 owner = G37
 controller = G37
 add_core = G37
+add_core = A70
 
-base_tax = 3
-base_production = 3
-base_manpower = 2
+base_tax = 6
+base_production = 6
+base_manpower = 6
 
-culture = culture_sea_giant
-religion = religion_titan
+culture = culture_darkspear
+religion = religion_voodoo
 
-trade_goods = fish
+trade_goods = mounts
 hre = no
-
-906.1.1 = {
-	owner = A70
-	controller = A70
-	add_core = A70
-  remove_core = G37
-
-	base_tax = 6
-	base_manpower = 6
-	base_production = 6
-
-	culture = culture_darkspear
-	religion = religion_loa
-
-  trade_goods = mounts
-}
-
-926.1.1 = {
-  owner = G37
-  controller = G37
-  add_core = G37
-
-  religion = religion_voodoo
-}
 
 971.1.1 = {
   owner = A70

@@ -1,51 +1,20 @@
 # 746 - The Decrepit Fields.txt
 is_city = yes
 
-owner = P52
-controller = P52
-add_core = P52
+owner = B19
+controller = B19
+add_core = B19
 
-base_tax = 1
+base_tax = 2
 base_production = 3
 base_manpower = 2
 
 culture = culture_rothide
 religion = religion_the_damned
+capital = "The Decrepit Fields"
 
 trade_goods = grain
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = A25
-	controller = A25
-	add_core = A25
-
-	base_tax = 2
-
-  culture = culture_lordaeron
-  religion = religion_church_of_the_light
-}
-
-# Reconquest of Lordaeron (TFT)
-916.8.1 = {
-  owner = P52
-	controller = P52
-
-	culture = culture_rothide
-	religion = religion_the_damned
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = B19
-	controller = B19
-	add_core = B19
-	remove_core = A25
-  remove_core = P52
-
-	capital = "The Decrepit Fields"
-}
 
 # Cataclysm
 971.1.1 = {

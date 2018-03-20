@@ -1,33 +1,17 @@
 # 1361 - Sludgewerks.txt
 is_city = yes
 
-owner = G28
-controller = G28
-add_core = G28
+owner = A81
+controller = A81
+add_core = A81
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 2
 
-culture = culture_windshear
-religion = religion_geomancy
+culture = culture_venture
+religion = religion_greed
+capital = "Venture Co. Water Wheel"
 
-trade_goods = flying_mounts
+trade_goods = lumber
 hre = no
-
-926.1.1 = {
-  owner = A81
-  controller = A81
-  add_core = A81
-  remove_core = G28
-
-  base_tax = 3
-  base_production = 3
-  base_manpower = 2
-
-  culture = culture_venture
-  religion = religion_greed
-  capital = "Venture Co. Water Wheel"
-
-  trade_goods = lumber
-}

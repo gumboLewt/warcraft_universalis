@@ -1,37 +1,19 @@
 # 539 - Tyrs Hand.txt
 is_city = yes
 
-owner = R06
-controller = R06
-add_core = R06
+owner = A22
+controller = A22
+add_core = 22
 
 base_tax = 5
 base_production = 5
 base_manpower = 5
 
 culture = culture_lordaeron
-religion = religion_church_of_the_light
+religion = religion_scarlet_light
 
 trade_goods = grain_silo
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = P62
-	controller = P62
-	add_core = P62
-	remove_core = R06
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = A22
-	controller = A22
-	add_core = A22
-	remove_core = P62
-
-	religion = religion_scarlet_light
-}
 
 # Cataclysm
 971.1.1 = {
@@ -40,6 +22,6 @@ hre = no
 	add_core = X01
 	remove_core = A22
 
-	religion = religion_fel
 	culture = culture_forsaken
+	religion = religion_fel
 }

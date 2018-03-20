@@ -1,32 +1,17 @@
 # 845 - Nethander Stead.txt
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = B14
+controller = B14
+add_core = B14
+add_core = P09
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_lordaeron
-religion = religion_church_of_the_light
+culture = culture_mudsnout
+religion = religion_geomancy
 
 trade_goods = grain
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = B14
-	controller = B14
-	add_core = B14
-	remove_core = A08
-
-	culture = culture_mudsnout
-	religion = religion_geomancy
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	add_core = P09
-}

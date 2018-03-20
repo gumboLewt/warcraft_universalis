@@ -1,39 +1,22 @@
 # 1456 - Theramore Isle.txt
-is_city = no
+is_city = yes
 
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
+owner = A23
+controller = A23
+add_core = A23
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 5
+base_production = 5
+base_manpower = 6
 
-culture = culture_makrura
-religion = religion_water
+culture = culture_lordaeron
+religion = religion_church_of_the_light
 
-trade_goods = fish
+trade_goods = naval_supplies
 hre = no
 
-906.1.1 = {
-	is_city = yes
-
-	owner = A23
-	controller = A23
-	add_core = A23
-
-	base_tax = 5
-	base_production = 5
-	base_manpower = 6
-
-	culture = culture_lordaeron
-	religion = religion_church_of_the_light
-
-	trade_goods = naval_supplies
-}
-
 # Mists of Pandaria
-976.1.1 = { 
+976.1.1 = {
   is_city = no
 
   native_size = 1

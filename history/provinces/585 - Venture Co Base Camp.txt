@@ -1,28 +1,16 @@
 # 585 - Venture Co Base Camp.txt
 is_city = yes
 
-owner = A01
-controller = A01
-add_core = A01
+owner = A81
+controller = A81
+add_core = A81
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_azerothian
-religion = religion_church_of_the_light
+culture = culture_venture
+religion = religion_greed
 
-trade_goods = fish
+trade_goods = workshops
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = A81
-	controller = A81
-	add_core = A81
-
-	culture = culture_venture
-	religion = religion_greed
-
-	trade_goods = workshops
-}

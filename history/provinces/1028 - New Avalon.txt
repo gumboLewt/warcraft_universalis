@@ -1,36 +1,19 @@
 # 1028 - New Avalon.txt
 is_city = yes
 
-owner = R06
-controller = R06
-add_core = R06
+owner = A22
+controller = A22
+add_core = A22
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
 culture = culture_lordaeron
-religion = religion_church_of_the_light
+religion = religion_scarlet_light
 
 trade_goods = grain_silo
 hre = no
-
-906.1.1 = {
-	owner = P62
-	controller = P62
-	add_core = P62
-  remove_core = R06
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = A22
-	controller = A22
-	add_core = A22
-	remove_core = P62
-
-	religion = religion_scarlet_light
-}
 
 # Wrath of the Lich King
 946.1.1 = {

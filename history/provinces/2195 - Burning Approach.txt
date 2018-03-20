@@ -1,27 +1,16 @@
 # 2195 - Burning Approach.txt
 is_city = yes
 
-owner = A04
-controller = A04
-add_core = A04
+owner = A41
+controller = A41
+add_core = A41
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_azerothian
-religion = religion_church_of_the_light
+culture = culture_blackrock
+religion = religion_fel
 
 trade_goods = lumber
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = A41
-	controller = A41
-	add_core = A41
-  remove_core = A04
-
-	culture = culture_blackrock
-	religion = religion_fel
-}

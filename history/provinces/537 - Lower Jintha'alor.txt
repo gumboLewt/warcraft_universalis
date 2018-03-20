@@ -10,20 +10,17 @@ base_production = 4
 base_manpower = 4
 
 culture = culture_vilebranch
-religion = religion_voodoo
+religion = religion_hakkari
 
 trade_goods = iron
 hre = no
-
-926.1.1 = {
-	religion = religion_hakkari
-}
 
 # Mists of Pandaria
 976.1.1 = {
 	owner = A61
 	controller = A61
 	add_core = A61
+  remove_core = A60
 
 	culture = culture_revantusk
 	religion = religion_loa

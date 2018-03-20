@@ -1,36 +1,16 @@
 # 1469 - Camp Sungraze.txt
 is_city = yes
 
-owner = G05
-controller = G05
-add_core = G05
+owner = F88
+controller = F88
+add_core = F88
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_windfury
-religion = religion_air
+culture = culture_mistrunner
+religion = religion_druidic
 
 trade_goods = fur
 hre = no
-
-906.1.1 = {
-  owner = B68
-  controller = B68
-  add_core = B68
-  remove_core = G05
-
-  culture = culture_bristleback
-  religion = religion_geomancy
-}
-
-926.1.1 = {
-  owner = F88
-  controller = F88
-  add_core = F88
-  remove_core = B68
-
-  culture = culture_mistrunner
-  religion = religion_druidic
-}

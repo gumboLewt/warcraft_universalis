@@ -1,26 +1,16 @@
 # 3058 - Night Web Hollow.txt
 is_city = yes
 
-owner = R11
-controller = R11
-add_core = R11
+owner = P52
+controller = P52
+add_core = P52
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_lordaeron
+culture = culture_scourge
 religion = religion_the_damned
 
 trade_goods = copper
 hre = no
-
-# The Frozen Throne
-906.1.1 = {
-	owner = P52
-	controller = P52
-	add_core = P52
-  remove_core = R11
-
-	culture = culture_scourge
-}

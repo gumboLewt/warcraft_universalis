@@ -15,26 +15,6 @@ religion = religion_the_damned
 trade_goods = army_supplies
 hre = no
 
-# The Frozen Throne
-906.1.1 = {
-	owner = A62
-	controller = A62
-	add_core = A62
-
-	culture = culture_mossflayer
-	religion = religion_voodoo
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-	owner = P52
-	controller = P52
-	remove_core = A62
-
-	culture = culture_scourge
-	religion = religion_the_damned
-}
-
 # Cataclysm
 971.1.1 = {
 	owner = F19

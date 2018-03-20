@@ -1,33 +1,16 @@
 # 646 - Solliden Farmstead.txt
 is_city = yes
 
-owner = R12
-controller = R12
-add_core = R12
+owner = A22
+controller = A22
+add_core = A22
 
 base_tax = 2
 base_production = 3
 base_manpower = 3
 
 culture = culture_lordaeron
-religion = religion_church_of_the_light
+religion = religion_scarlet_light
 
 trade_goods = grain
 hre = no
-
-906.1.1 = {
-  owner = F17
-  controller = F17
-  add_core = F17
-  remove_core = R12
-}
-
-# Rise of the Qiraji
-926.1.1 = {
-  owner = A22
-  controller = A22
-  add_core = A22
-  remove_core = F17
-
-  religion = religion_scarlet_light
-}

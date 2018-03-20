@@ -1,30 +1,19 @@
 # 1942 - Loch Modan.txt
 is_city = yes
 
-owner = A29
-controller = A29
-add_core = A29
+owner = P54
+controller = P54
+add_core = P54
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_ironforge
-religion = religion_church_of_the_light
+culture = culture_trogg
+religion = religion_geomancy
 
 trade_goods = fish
 hre = no
-
-# Rise of the Qiraji
-926.1.1 = {
-  owner = P54
-  controller = P54
-  add_core = P54
-  remove_core = A29
-
-  culture = culture_trogg
-  religion = religion_geomancy
-}
 
 # Cataclysm
 971.1.1 = {

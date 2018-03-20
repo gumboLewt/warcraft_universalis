@@ -1,26 +1,16 @@
 # 1493 - Camp Mojache.txt
-is_city = no
+is_city = yes
 
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
+owner = A86
+controller = A86
+add_core = A86
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_grimtotem
+culture = culture_runetotem
 religion = religion_ancestral
 
 trade_goods = fur
 hre = no
-
-926.1.1 = {
-  is_city = yes
-
-  owner = A86
-  controller = A86
-  add_core = A86
-
-  culture = culture_runetotem
-}
