@@ -5,11 +5,3 @@ union = {
 	start_date = 971.1.1
 	end_date = 2811.1.1
 }
-
-# Leader over splinters
-union = {
-	first = B03
-	second = V01
-	start_date = -1684.1.1
-	end_date = 92811.1.1
-}

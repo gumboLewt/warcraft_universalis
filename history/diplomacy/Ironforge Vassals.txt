@@ -5,7 +5,7 @@
 vassal = {
 	first = A29
 	second = A06
-	start_date = 906.1.1
+	start_date = 926.1.1
 	end_date = 1066.1.1
 }
 
@@ -15,12 +15,4 @@ union = {
 	second = A30
 	start_date = 976.1.1
 	end_date = 1066.1.1
-}
-
-# Ironforge - Southvale
-vassal = {
-	first = A29
-	second = F56
-	start_date = 906.1.1
-	end_date = 926.1.1
 }

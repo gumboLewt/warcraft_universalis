@@ -1,23 +1,15 @@
-# Sentinels (Nordrassil) under Darnassus
-vassal = {
-	first = A94
-	second = H01
-	start_date = 926.1.1
-	end_date = 47811.1.1
-}
-
 #Cenarion Alliances
 alliance = {
   first = H02
   second = A95
-  start_date = 546.1.1
+  start_date = 926.1.1
   end_date = 47811.1.1
 }
 
 alliance = {
   first = H02
   second = H03
-  start_date = 546.1.1
+  start_date = 926.1.1
   end_date = 47811.1.1
 }
 

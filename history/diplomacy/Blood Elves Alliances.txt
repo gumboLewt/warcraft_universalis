@@ -33,11 +33,3 @@ union = {
 	start_date = 926.1.1
 	end_date = 1016.1.1
 }
-
-# Sunfury-Sunhawk
-march = {
-	first = A93
-	second = G17
-	start_date = 941.1.1
-	end_date = 1016.1.1
-}

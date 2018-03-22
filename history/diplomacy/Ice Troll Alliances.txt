@@ -1,8 +1,0 @@
-# Arthas's Troll and Ogre Mercenaries
-# Winterfang - Icemaul
-alliance = {
-	first = A77
-	second = G30
-	start_date = 841.1.1
-	end_date = 906.1.1
-}

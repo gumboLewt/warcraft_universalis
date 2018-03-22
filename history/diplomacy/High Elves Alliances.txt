@@ -6,40 +6,6 @@
 alliance = {
 	first = P49
 	second = P22
-	start_date = 906.1.1
-	end_date = 1016.1.1
-}
-
-### Ranger Lodges
-
-# Quel'Thalas-Highvale
-march = {
-	first = A90
-	second = P49
-	start_date = 816.1.1
-	end_date = 906.1.1
-}
-
-# Quel'Thalas-Southvale
-march = {
-	first = A90
-	second = F56
-	start_date = 816.1.1
-	end_date = 906.1.1
-}
-
-# Quel-Thelas-Rangers
-alliance = {
-	first = A90
-	second = R21
-	start_date = 546.1.1
-	end_date = 1016.1.1
-}
-
-# Quel-Thelas-Sunwell Guard
-alliance = {
-	first = A90
-	second = R20
-	start_date = 546.1.1
+	start_date = 926.1.1
 	end_date = 1016.1.1
 }

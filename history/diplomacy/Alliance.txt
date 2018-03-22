@@ -62,7 +62,7 @@ alliance = {
 alliance = {
 	first = H11
 	second = A29
-	start_date = 816.1.1
+	start_date = 926.1.1
 	end_date = 1066.1.1
 }
 

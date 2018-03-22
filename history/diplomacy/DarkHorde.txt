@@ -5,7 +5,7 @@
 march = {
 	first = A41
 	second = A65
-	start_date = 816.1.1
+	start_date = 926.1.1
 	end_date = 1066.1.1
 }
 
@@ -21,7 +21,7 @@ march = {
 march = {
 	first = A41
 	second = G20
-	start_date = 816.1.1
+	start_date = 926.1.1
 	end_date = 1066.1.1
 }
 
@@ -29,7 +29,7 @@ march = {
 alliance = {
 	first = A41
 	second = A45
-	start_date = 816.1.1
+	start_date = 926.1.1
 	end_date = 971.1.1
 }
 
@@ -41,7 +41,7 @@ alliance = {
 alliance = {
 	first = A99
 	second = A41
-	start_date = 901.1.1
+	start_date = 926.1.1
 	end_date = 976.1.1
 }
 
@@ -65,7 +65,7 @@ alliance = {
 alliance = {
 	first = B17
 	second = B16
-	start_date = 546.1.1
+	start_date = 926.1.1
 	end_date = 1066.1.1
 }
 

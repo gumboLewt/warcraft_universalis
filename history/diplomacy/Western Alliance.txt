@@ -13,16 +13,8 @@ alliance = {
 alliance = {
 	first = A23
 	second = F59
-	start_date = 906.1.1
+	start_date = 926.1.1
 	end_date = 1066.1.1
-}
-
-# Theramore - Kul Tiras
-alliance = {
-	first = A23
-	second = A14
-	start_date = 906.1.1
-	end_date = 926.1.1
 }
 
 ### Grimtotem Alliance
@@ -65,7 +57,7 @@ alliance = {
 march = {
 	first = A23
 	second = G06
-	start_date = 901.1.1
+	start_date = 921.1.1
 	end_date = 976.1.1
 }
 
@@ -81,6 +73,6 @@ alliance = {
 alliance = {
 	first = G06
 	second = F59
-	start_date = 906.1.1
+	start_date = 926.1.1
 	end_date = 1066.1.1
 }

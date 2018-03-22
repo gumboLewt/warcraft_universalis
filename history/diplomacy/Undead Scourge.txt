@@ -1,14 +1,14 @@
 ###################
 ### The Scourge ###
 ###################
-## End date should be 631 for all these - with Bolvar's ascension to the Frozen Throne, the Scourge no longer commands the other branches
-## In year 631 - Darkmaster Gandling is the most powerfull necromancer of the Scourge in Lordaeron so he commands (idk if Blizzard will kill him in lore so)
+## End date should be 971 for all these - with Bolvar's ascension to the Frozen Throne, the Scourge no longer commands the other branches
+## In year 971 - Darkmaster Gandling is the most powerfull necromancer of the Scourge in Lordaeron so he commands (idk if Blizzard will kill him in lore so)
 ## No information found about Gandlings influences in Deatholme (maybe add 'Cult of the Damned - Deatholme'?)
 # Scourge - Cult of the Damned
 vassal = {
 	first = P11
 	second = P12
-	start_date = 901.1.1
+	start_date = 926.1.1
 	end_date = 971.1.1
 }
 
@@ -16,7 +16,7 @@ vassal = {
 vassal = {
 	first = P11
 	second = P52
-	start_date = 901.1.1
+	start_date = 926.1.1
 	end_date = 971.1.1
 }
 
@@ -24,7 +24,7 @@ vassal = {
 vassal = {
 	first = P11
 	second = F21
-	start_date = 906.1.1
+	start_date = 926.1.1
 	end_date = 971.1.1
 }
 

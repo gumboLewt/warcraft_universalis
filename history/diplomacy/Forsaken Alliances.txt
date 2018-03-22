@@ -7,16 +7,8 @@
 # Dreadlord Insurgents and created some sort of	    #
 # alliance with him to get back Lordaeron City.	    #
 # After battle of Lordaeron Forsaken killed Garithos#
-# and destroyed Lordaeron Remnants	            #	
+# and destroyed Lordaeron Remnants	                #
 #####################################################
-# Forsaken - New Alliance
-alliance = {
-	first = P14
-	second = A25
-	start_date = 916.1.1
-	end_date = 916.5.1
-}
-
 # Forsaken - Frostwolf
 alliance = {
 	first = P14
