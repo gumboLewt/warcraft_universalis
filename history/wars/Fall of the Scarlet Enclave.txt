@@ -7,14 +7,16 @@ war_goal = {
 
 941.1.1 = {
 	add_attacker = P13
-        add_attacker = P52
+  add_attacker = P52
+
 	add_defender = F18
-        add_defender = A22
+  add_defender = A22
 }
 
 946.1.1 = {
 	rem_attacker = P13
-        rem_attacker = P52
+  rem_attacker = P52
+
 	rem_defender = F18
-        rem_defender = A22
+  rem_defender = A22
 }

@@ -8,14 +8,16 @@ war_goal = {
 
 971.1.1 = {
 	add_attacker = A43
+
 	add_defender = A29
 	add_defender = A06
-        add_defender = A16
+  add_defender = A16
 }
 
 976.1.1 = {
 	rem_attacker = A43
+
 	rem_defender = A29
 	rem_defender = A06
-        rem_defender = A16
-} 
+  rem_defender = A16
+}
