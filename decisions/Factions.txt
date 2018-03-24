@@ -1,155 +1,154 @@
 # Made by Blanchard33
 country_decisions = {
-    #----------------------------
-    # Joining
-    #----------------------------
-    join_the_alliance = {
-        major = yes
-        
-        potential = {
-            NOT = { has_country_modifier = horde_member }
-            NOT = { has_country_modifier = alliance_member }
-            NOT = { has_country_modifier = neutral_member }
-            NOT = { has_country_modifier = alliance_enemy }
-            is_good = yes
-            is_subject = no
-        }
-        allow = {
-            NOT = { has_country_modifier = horde_member }
-            NOT = { has_country_modifier = alliance_member }
-            NOT = { has_country_modifier = neutral_member }
-            NOT = { has_country_modifier = alliance_enemy }
-            
-            # Alliance member likes you
-            any_country = {
-                has_opinion = { who = ROOT value = 150 }
-                has_country_modifier = alliance_member
-            }
-        }
-        effect = {
-            add_country_modifier = {
-                name = alliance_member
-                duration = -1
-            }
-            opinions_joined_alliance = yes
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
+  #----------------------------
+  # Joining
+  #----------------------------
+  join_the_alliance = {
+    major = yes
 
-    join_the_horde = {
-        major = yes
-        
-        potential = {
-            NOT = { has_country_modifier = horde_member }
-            NOT = { has_country_modifier = alliance_member }
-            NOT = { has_country_modifier = neutral_member }
-            NOT = { has_country_modifier = horde_enemy }
-            is_good = yes
-            is_subject = no
-        }
-        allow = {
-            NOT = { has_country_modifier = horde_member }
-            NOT = { has_country_modifier = alliance_member }
-            NOT = { has_country_modifier = neutral_member }
-            NOT = { has_country_modifier = horde_enemy }
-            any_country = {
-                has_opinion = { who = ROOT value = 150 }
-                has_country_modifier = horde_member
-            }
-        }
-        effect = {
-            add_country_modifier = {
-                name = horde_member
-                duration = -1
-            }
-            
-            opinions_joined_horde = yes
-        }
-        ai_will_do = {
-            factor = 1
-        }
+    potential = {
+      NOT = { has_country_modifier = horde_member }
+      NOT = { has_country_modifier = alliance_member }
+      NOT = { has_country_modifier = neutral_member }
+      NOT = { has_country_modifier = alliance_enemy }
+      is_good = yes
+      is_subject = no
     }
+    allow = {
+      NOT = { has_country_modifier = horde_member }
+      NOT = { has_country_modifier = alliance_member }
+      NOT = { has_country_modifier = neutral_member }
+      NOT = { has_country_modifier = alliance_enemy }
 
-    #----------------------------
-    # Leaving
-    #----------------------------
-    leave_the_alliance = {
-        potential = {
-            has_country_modifier = alliance_member
-        }
-        allow = {
-            has_country_modifier = alliance_member
-        }
-        effect = {
-            remove_country_modifier = alliance_member
-            
-            opinions_left_alliance = yes
-        }
-        ai_will_do = {
-            factor = 0
-        }
+      # Alliance member likes you
+      any_country = {
+          has_opinion = { who = ROOT value = 150 }
+          has_country_modifier = alliance_member
+      }
     }
-
-    leave_the_horde = {
-        potential = {
-            has_country_modifier = horde_member
-        }
-        allow = {
-            has_country_modifier = horde_member
-        }
-        effect = {
-            remove_country_modifier = horde_member
-            
-            opinions_left_horde = yes
-        }
-        ai_will_do = {
-            factor = 0
-        }
+    effect = {
+      add_country_modifier = {
+          name = alliance_member
+          duration = -1
+      }
+      opinions_joined_alliance = yes
     }
-
-    #----------------------------
-    # Membership
-    #----------------------------
-    horde_info = {
-        potential = {
-            ai = no
-        }
-        allow = {
-            always = no
-        }
-        effect = {
-            every_known_country = {
-                limit = { has_country_modifier = horde_member }
-                
-            }
-        }
-        ai_will_do = {
-            factor = 0
-        }
+    ai_will_do = {
+        factor = 1
     }
+  }
 
-    alliance_info = {
-        potential = {
-            ai = no
-        }
-        allow = {
-            always = no
-        }
-        effect = {
-            every_known_country = {
-                limit = { has_country_modifier = alliance_member }
-                
-            }
-        }
-        ai_will_do = {
-            factor = 0
-        }
+  join_the_horde = {
+    major = yes
+
+    potential = {
+      NOT = { has_country_modifier = horde_member }
+      NOT = { has_country_modifier = alliance_member }
+      NOT = { has_country_modifier = neutral_member }
+      NOT = { has_country_modifier = horde_enemy }
+      is_good = yes
+      is_subject = no
     }
+    allow = {
+      NOT = { has_country_modifier = horde_member }
+      NOT = { has_country_modifier = alliance_member }
+      NOT = { has_country_modifier = neutral_member }
+      NOT = { has_country_modifier = horde_enemy }
+      any_country = {
+          has_opinion = { who = ROOT value = 150 }
+          has_country_modifier = horde_member
+      }
+    }
+    effect = {
+      add_country_modifier = {
+          name = horde_member
+          duration = -1
+      }
 
-    
-    # Force Alliances
+      opinions_joined_horde = yes
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+
+  #----------------------------
+  # Leaving
+  #----------------------------
+  leave_the_alliance = {
+    potential = {
+        has_country_modifier = alliance_member
+    }
+    allow = {
+        has_country_modifier = alliance_member
+    }
+    effect = {
+      remove_country_modifier = alliance_member
+
+      opinions_left_alliance = yes
+    }
+    ai_will_do = {
+        factor = 0
+    }
+  }
+
+  leave_the_horde = {
+    potential = {
+      has_country_modifier = horde_member
+    }
+    allow = {
+      has_country_modifier = horde_member
+    }
+    effect = {
+      remove_country_modifier = horde_member
+
+      opinions_left_horde = yes
+    }
+    ai_will_do = {
+      factor = 0
+    }
+  }
+
+  #----------------------------
+  # Membership
+  #----------------------------
+  horde_info = {
+      potential = {
+          ai = no
+      }
+      allow = {
+          always = no
+      }
+      effect = {
+        every_known_country = {
+          limit = { has_country_modifier = horde_member }
+        }
+      }
+      ai_will_do = {
+          factor = 0
+      }
+  }
+
+  alliance_info = {
+      potential = {
+          ai = no
+      }
+      allow = {
+          always = no
+      }
+      effect = {
+        every_known_country = {
+          limit = { has_country_modifier = alliance_member }
+        }
+      }
+      ai_will_do = {
+          factor = 0
+      }
+  }
+
+  #----------------------------
+  # Force Alliances
+  #----------------------------
   lordaeron_alliance = {
     major = yes
     potential = {
@@ -579,7 +578,7 @@ country_decisions = {
       factor = 1
     }
   }
-  
+
   lordaeron_horde = {
     major = yes
     potential = {

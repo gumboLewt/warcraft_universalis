@@ -1,240 +1,206 @@
 country_decisions = {
+  initiate_guerilla_warfare = {
+    potential = {
+      technology_group = tech_troll
+      NOT = { has_country_modifier = initiate_guerilla_warfare }
+    }
+    allow = {
+      mil_power = 100
+      NOT = { has_country_modifier = initiate_guerilla_warfare }
+    }
+    effect = {
+      add_mil_power = -100
+      add_country_modifier = {
+        name = initiate_guerilla_warfare
+        duration = -1
+      }
+    }
+    ai_will_do = {
+      factor = 1
+    }
+  }
 
-	initiate_guerilla_warfare = {
-		potential = {
-			technology_group = tech_troll
-            NOT = { has_country_modifier = initiate_guerilla_warfare }
-		}
-		
-		allow = {
-			mil_power = 100
-            NOT = { has_country_modifier = initiate_guerilla_warfare }
-		}
-		
-		effect = {
-			add_mil_power = -100
-            add_country_modifier = {
-                name = initiate_guerilla_warfare
-                duration = -1
-            }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-    enforce_loa_worship = {
-		potential = {
-			technology_group = tech_troll
-            NOT = { has_country_modifier = enforcing_loa_worship }
-            religion = religion_loa
-		}
-		
-		allow = {
-            prestige = 50
-            NOT = { has_country_modifier = enforcing_loa_worship }
-		}
-		
-		effect = {
-            add_country_modifier = {
-                name = enforcing_loa_worship
-                duration = -1
-            }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-    summon_loa_spirit = {
-		potential = {
-			technology_group = tech_troll
-            NOT = { has_country_modifier = summoned_loa_spirit }
-            religion = religion_loa
-		}
-		
-		allow = {
-            adm_power = 250
-            dip_power = 250
-            mil_power = 250
-            NOT = { has_country_modifier = summoned_loa_spirit }
-		}
-		
-		effect = {
-            add_adm_power = -250
-            add_dip_power = -250
-            add_mil_power = -250
-            add_country_modifier = {
-                name = summoned_loa_spirit
-                duration = 15325
-            }
-            
-            define_general = {
-                name = "Loa"
-                fire = 6
-                shock = 6
-                manuever = 6
-                siege = 4
-            }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-    condemn_the_old_gods = {
-		potential = {
-			technology_group = tech_troll
-            NOT = { has_country_modifier = condemned_the_old_gods }
-            NOT = { religion = religion_old_gods }
-		}
-		
-		allow = {
-            mil_power = 100
-            any_known_country = {
-                religion = religion_old_gods
-            }
-            NOT = { has_country_modifier = condemned_the_old_gods }
-		}
-		
-		effect = {
-            add_mil_power = -100
-            
-            # Add diplomatic_action check that prevents friendly interaction with Old God tech nations
-            add_country_modifier = {
-                name = condemned_the_old_gods
-                duration = -1
-            }
-            
-            custom_tooltip = OLD_GOD_INTERACTION_RESTRICTED
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-    
-    # Hakkari
-    summon_the_blood_god = {
-		potential = {
-			technology_group = tech_troll
-            religion = religion_hakkari
-            NOT = { has_country_modifier = summoned_blood_god }
-		}
-		
-		allow = {
-            NOT = { has_country_modifier = summoned_blood_god }
-            owns_core_province = 783
-            mil_power = 100
-		}
-		
-		effect = {
-            add_mil_power = -100
-            
-            add_country_modifier = {
-                name = summoned_blood_god
-                duration = -1
-            }
-            
-            define_general = {
-                name = "Blood God"
-                fire = 6
-                shock = 6
-                manuever = 6
-                siege = 4
-            }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-    listen_to_the_old_gods = {
-		potential = {
-			technology_group = tech_troll
-            religion = religion_hakkari
-            NOT = { religion = religion_old_gods }
-		}
-		
-		allow = {
-            NOT = { religion = religion_old_gods }
-            any_known_country = {
-                religion = religion_old_gods
-            }
-            adm_power = 100
-		}
-		
-		effect = {
-            add_adm_power = -100
+  enforce_loa_worship = {
+    potential = {
+      technology_group = tech_troll
+      NOT = { has_country_modifier = enforcing_loa_worship }
+      religion = religion_loa
+    }
+    allow = {
+      prestige = 50
+      NOT = { has_country_modifier = enforcing_loa_worship }
+    }
+    effect = {
+      add_country_modifier = {
+        name = enforcing_loa_worship
+        duration = -1
+      }
+    }
+    ai_will_do = {
+      factor = 1
+    }
+  }
 
-            every_owned_province = {
-                limit = { religion = ROOT }
-                change_religion = religion_old_gods
-            }
-            
-            change_religion = religion_old_gods
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-    
-    conduct_blood_sacrifice = {
-		potential = {
-			technology_group = tech_troll
-            religion = religion_hakkari
-            NOT = { has_country_modifier = summoned_blood_god }
-		}
-		
-		allow = {
-            NOT = { has_country_modifier = summoned_blood_god }
-            mil_power = 100
-		}
-		
-		effect = {
-            add_mil_power = -100
+  summon_loa_spirit = {
+    potential = {
+      technology_group = tech_troll
+      NOT = { has_country_modifier = summoned_loa_spirit }
+      religion = religion_loa
+    }
+    allow = {
+      adm_power = 250
+      dip_power = 250
+      mil_power = 250
+      NOT = { has_country_modifier = summoned_loa_spirit }
+    }
+    effect = {
+      add_adm_power = -250
+      add_dip_power = -250
+      add_mil_power = -250
+      add_country_modifier = {
+        name = summoned_loa_spirit
+        duration = 15325
+      }
+      define_general = {
+        name = "Loa"
+        fire = 6
+        shock = 6
+        manuever = 6
+        siege = 4
+      }
+    }
+    ai_will_do = {
+      factor = 1
+    }
+  }
 
-            add_country_modifier = {
-                name = conducting_blood_worship
-                duration = -1
-            }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-    
-    sacrifice_prisoners = {
-		potential = {
-			technology_group = tech_troll
-            religion = religion_hakkari
-            NOT = { has_country_modifier = sacrificed_prisoners }
-            is_at_war = yes
-		}
-		
-		allow = {
-            NOT = { has_country_modifier = sacrificed_prisoners }
-            mil_power = 100
-            is_at_war = yes
-		}
-		
-		effect = {
-            add_mil_power = -100
+  condemn_the_old_gods = {
+    potential = {
+      technology_group = tech_troll
+      NOT = { has_country_modifier = condemned_the_old_gods }
+      NOT = { religion = religion_old_gods }
+    }
+    allow = {
+      mil_power = 100
+      any_known_country = {
+        religion = religion_old_gods
+      }
+      NOT = { has_country_modifier = condemned_the_old_gods }
+    }
+    effect = {
+      add_mil_power = -100
+      # Add diplomatic_action check that prevents friendly interaction with Old God tech nations
+      add_country_modifier = {
+        name = condemned_the_old_gods
+        duration = -1
+      }
+      custom_tooltip = OLD_GOD_INTERACTION_RESTRICTED
+    }
+    ai_will_do = {
+      factor = 0
+    }
+  }
 
-            add_country_modifier = {
-                name = sacrificed_prisoners
-                duration = 1825
-            }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
+  # Hakkari
+  summon_the_blood_god = {
+    potential = {
+      technology_group = tech_troll
+      religion = religion_hakkari
+      NOT = { has_country_modifier = summoned_blood_god }
+    }
+    allow = {
+      NOT = { has_country_modifier = summoned_blood_god }
+      owns_core_province = 783
+      mil_power = 100
+    }
+    effect = {
+      add_mil_power = -100
+      add_country_modifier = {
+        name = summoned_blood_god
+        duration = -1
+      }
+      define_general = {
+        name = "Blood God"
+        fire = 6
+        shock = 6
+        manuever = 6
+        siege = 4
+      }
+    }
+    ai_will_do = {
+      factor = 1
+    }
+  }
+
+  listen_to_the_old_gods = {
+    potential = {
+      technology_group = tech_troll
+      religion = religion_hakkari
+      NOT = { religion = religion_old_gods }
+    }
+    allow = {
+      NOT = { religion = religion_old_gods }
+      any_known_country = {
+        religion = religion_old_gods
+      }
+      adm_power = 100
+    }
+    effect = {
+      add_adm_power = -100
+      every_owned_province = {
+        limit = { religion = ROOT }
+        change_religion = religion_old_gods
+      }
+      change_religion = religion_old_gods
+    }
+    ai_will_do = {
+      factor = 0
+    }
+  }
+
+  conduct_blood_sacrifice = {
+    potential = {
+      technology_group = tech_troll
+      religion = religion_hakkari
+      NOT = { has_country_modifier = summoned_blood_god }
+    }
+    allow = {
+      NOT = { has_country_modifier = summoned_blood_god }
+      mil_power = 100
+    }
+    effect = {
+      add_mil_power = -100
+      add_country_modifier = {
+        name = conducting_blood_worship
+        duration = -1
+      }
+    }
+    ai_will_do = {
+      factor = 0
+    }
+  }
+
+  sacrifice_prisoners = {
+    potential = {
+      technology_group = tech_troll
+      religion = religion_hakkari
+      NOT = { has_country_modifier = sacrificed_prisoners }
+      is_at_war = yes
+    }
+    allow = {
+      NOT = { has_country_modifier = sacrificed_prisoners }
+      mil_power = 100
+      is_at_war = yes
+    }
+    effect = {
+      add_mil_power = -100
+      add_country_modifier = {
+        name = sacrificed_prisoners
+        duration = 1825
+      }
+    }
+    ai_will_do = {
+      factor = 0
+    }
+  }
 }

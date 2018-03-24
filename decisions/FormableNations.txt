@@ -8,9 +8,9 @@ country_decisions = {
 			capital_scope = { region = region_dustwallow_marsh }
 		}
 		allow = {
-		    owns_core_province = 1456 #Theramore Isle
+      owns_core_province = 1456 #Theramore Isle
 			NOT = { exists = A23}
-			is_at_war = no		
+			is_at_war = no
 		}
 		effect = {
 			add_prestige = 25
@@ -19,11 +19,10 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-            1461 = { add_permanent_claim = A23 }
-            1462 = { add_permanent_claim = A23 }
-            1463 = { add_permanent_claim = A23 }
-            1465 = { add_permanent_claim = A23 }
-            
+      1461 = { add_permanent_claim = A23 }
+      1462 = { add_permanent_claim = A23 }
+      1463 = { add_permanent_claim = A23 }
+      1465 = { add_permanent_claim = A23 }
 			change_government = administrative_kingdom
 			set_capital = 1456
 			swap_free_idea_group = yes
@@ -39,7 +38,6 @@ country_decisions = {
 			NOT = { exists = A48 }
 			culture_group = culture_group_orc
 			is_colonial_nation = no
-			capital_scope = { continent = continent_kalimdor }
 			is_good = yes
 		}
 		allow = {
@@ -55,24 +53,6 @@ country_decisions = {
 				set_government_rank = 3
 			}
 			1377 = {
-				while = {
-					limit = {
-						NOT = { base_tax = 8 }
-					}
-					add_base_tax = 1
-				}
-				while = {
-					limit = {
-						NOT = { base_manpower = 8 }
-					}
-					add_base_manpower = 1
-				}
-				while = {
-					limit = {
-						NOT = { base_production = 8 }
-					}
-					add_base_production = 1
-				}
 				if = {
 					limit = { NOT = { culture = culture_horde } }
 					change_culture = culture_horde
@@ -82,12 +62,10 @@ country_decisions = {
 					change_religion = religion_ancestral
 				}
 			}
-			
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			
 			add_prestige = 25
 			change_primary_culture = culture_horde
 		}
@@ -102,7 +80,6 @@ country_decisions = {
 			NOT = { exists = F88 }
 			culture_group = culture_group_tauren
 			is_colonial_nation = no
-			capital_scope = { continent = continent_kalimdor }
 			is_good = yes
 		}
 		allow = {
@@ -117,41 +94,20 @@ country_decisions = {
 				limit = { NOT = { government_rank = 3 } }
 				set_government_rank = 3
 			}
-			
 			1473 = {
-				while = {
-					limit = {
-						NOT = { base_tax = 6 }
-					}
-					add_base_tax = 1
-				}
-				while = {
-					limit = {
-						NOT = { base_manpower = 6 }
-					}
-					add_base_manpower = 1
-				}
-				while = {
-					limit = {
-						NOT = { base_production = 6 }
-					}
-					add_base_production = 1
-				}
 				if = {
 					limit = { NOT = { religion = religion_ancestral } }
 					change_religion = religion_ancestral
 				}
-                if = {
+        if = {
 					limit = { NOT = { culture = ROOT } }
 					change_culture = ROOT
-                }
+        }
 			}
-			
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			
 			add_prestige = 25
 		}
 		ai_will_do = {
@@ -159,31 +115,72 @@ country_decisions = {
 		}
 	}
 
+  establish_the_empire_of_the_shifting_sands = {
+		major = yes
+		potential = {
+			NOT = { exists = U02 }
+			culture_group = culture_group_aqir
+			is_colonial_nation = no
+		}
+		allow = {
+      region_silithus = {
+        owned_by = ROOT
+        type = all
+      }
+      region_ungoro_crater = {
+        owned_by = ROOT
+        type = all
+      }
+      region_tanaris = {
+        owned_by = ROOT
+        type = all
+      }
+      region_uldum = {
+        owned_by = ROOT
+        type = all
+      }
+			is_at_war = no
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = U02
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+  # Troll
 	form_the_frostmane_empire = {
 		major = yes
-		
 		potential = {
 			NOT = { exists = U01 } # Frostmane Empire
 			primary_culture = culture_frostmane
 			is_colonial_nation = no
-			
-			capital_scope = { 
-				region = region_dun_morogh 
+			capital_scope = {
+				region = region_dun_morogh
 			}
 		}
-		
 		allow = {
-            region_dun_morogh = {
-                owned_by = ROOT
-                type = all
-            }
-			is_at_war = no		
+      region_dun_morogh = {
+        owned_by = ROOT
+        type = all
+      }
+			is_at_war = no
 		}
-		
 		effect = {
 			add_prestige = 25
 			change_tag = U01
-            
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -200,103 +197,40 @@ country_decisions = {
 				}
 				set_government_rank = 3
 			}
-
 			set_capital = 1951
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    establish_the_empire_of_the_shifting_sands = {
-		major = yes
-		
-		potential = {
-			NOT = { exists = U02 } 
-			culture_group = culture_group_aqir
-			is_colonial_nation = no
-		}
-		
-		allow = {
-            region_silithus = {
-                owned_by = ROOT
-                type = all
-            }
-            
-            region_ungoro_crater = {
-                owned_by = ROOT
-                type = all
-            }
-            
-            region_tanaris = {
-                owned_by = ROOT
-                type = all
-            }
-            
-            region_uldum = {
-                owned_by = ROOT
-                type = all
-            }
-            
-			is_at_war = no		
-		}
-		
-		effect = {
-			add_prestige = 25
-			change_tag = U02
-            
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
 
-			if = {
-				limit = {
-					NOT = { government_rank = 3 }
-				}
-				set_government_rank = 3
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-    # Troll
-    reform_the_amani_empire = {
+  reform_the_amani_empire = {
 		major = yes
-		
 		potential = {
-			NOT = { exists = U03 } 
+			NOT = { exists = U03 }
 			culture_group = culture_group_forest_troll
 			is_colonial_nation = no
 		}
-		
 		allow = {
-            num_of_cities = 30
-            total_development = 250
+      num_of_cities = 30
+      total_development = 250
 			is_at_war = no
-            area_zul_aman = {
-                owned_by = ROOT
-                is_core = ROOT
-            }
-            area_zul_aman_interior = {
-                owned_by = ROOT
-                is_core = ROOT
-            }
+      area_zul_aman = {
+        owned_by = ROOT
+        is_core = ROOT
+      }
+      area_zul_aman_interior = {
+        owned_by = ROOT
+        is_core = ROOT
+      }
 		}
-		
 		effect = {
 			add_prestige = 25
 			change_tag = U03
-            
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-
 			if = {
 				limit = {
 					NOT = { government_rank = 3 }
@@ -304,36 +238,31 @@ country_decisions = {
 				set_government_rank = 3
 			}
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    reform_the_gurubashi_empire = {
+
+  reform_the_gurubashi_empire = {
 		major = yes
-		
 		potential = {
-			NOT = { exists = U04 } 
+			NOT = { exists = U04 }
 			culture_group = culture_group_jungle_troll
-            NOT = { religion = religion_hakkari }
+      NOT = { religion = religion_hakkari }
 			is_colonial_nation = no
 		}
-		
 		allow = {
-            num_of_cities = 30
-            total_development = 250
-			is_at_war = no	
-            area_zul_gurub = {
-                owned_by = ROOT
-                is_core = ROOT
-            }
+      num_of_cities = 30
+      total_development = 250
+			is_at_war = no
+      area_zul_gurub = {
+        owned_by = ROOT
+        is_core = ROOT
+      }
 		}
-		
 		effect = {
 			add_prestige = 25
 			change_tag = U04
-            
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -346,41 +275,35 @@ country_decisions = {
 				set_government_rank = 3
 			}
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    reform_the_drakkari_empire = {
+
+  reform_the_drakkari_empire = {
 		major = yes
-		
 		potential = {
-			NOT = { exists = U05 } 
+			NOT = { exists = U05 }
 			culture_group = culture_group_ice_troll
-            NOT = { primary_culture = culture_frostmane }
+      NOT = { primary_culture = culture_frostmane }
 			is_colonial_nation = no
 		}
-		
 		allow = {
-            num_of_cities = 50
-            total_development = 500
-			is_at_war = no		
-            region_zuldrak = {
-                owned_by = ROOT
-                is_core = ROOT
-            }
+      num_of_cities = 50
+      total_development = 500
+			is_at_war = no
+      region_zuldrak = {
+        owned_by = ROOT
+        is_core = ROOT
+      }
 		}
-		
 		effect = {
 			add_prestige = 25
 			change_tag = U05
-            
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-
 			if = {
 				limit = {
 					NOT = { government_rank = 3 }
@@ -388,44 +311,38 @@ country_decisions = {
 				set_government_rank = 3
 			}
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    form_the_empire_of_hakkar = {
+
+  form_the_empire_of_hakkar = {
 		major = yes
-		
 		potential = {
-			NOT = { exists = U06 } 
+			NOT = { exists = U06 }
 			religion = religion_hakkari
 			is_colonial_nation = no
 		}
-		
 		allow = {
-            num_of_cities = 30
-            total_development = 250
-			is_at_war = no		
-            region_swamp_of_sorrows = {
-                owned_by = ROOT
-                is_core = ROOT
-            }
-            area_zul_gurub = {
-                owned_by = ROOT
-                is_core = ROOT
-            }
+      num_of_cities = 30
+      total_development = 250
+			is_at_war = no
+      region_swamp_of_sorrows = {
+        owned_by = ROOT
+        is_core = ROOT
+      }
+      area_zul_gurub = {
+        owned_by = ROOT
+        is_core = ROOT
+      }
 		}
-		
 		effect = {
 			add_prestige = 25
 			change_tag = U06
-            
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-
 			if = {
 				limit = {
 					NOT = { government_rank = 3 }
@@ -433,38 +350,31 @@ country_decisions = {
 				set_government_rank = 3
 			}
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    form_the_murloc_horde = {
+
+  form_the_murloc_horde = {
 		major = yes
-		
 		potential = {
-			NOT = { exists = U07 } 
+			NOT = { exists = U07 }
 			culture_group = culture_group_murloc
 			is_colonial_nation = no
 		}
-		
 		allow = {
-            num_of_cities = 30
-            total_development = 250
+      num_of_cities = 30
+      total_development = 250
 			is_at_war = no
 		}
-		
 		effect = {
 			add_prestige = 25
 			change_tag = U07
-            
-            change_government = warband_gov
-            
+      change_government = warband_gov
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-
 			if = {
 				limit = {
 					NOT = { government_rank = 3 }
@@ -472,38 +382,31 @@ country_decisions = {
 				set_government_rank = 3
 			}
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    form_the_grand_pack = {
+
+  form_the_grand_pack = {
 		major = yes
-		
 		potential = {
-			NOT = { exists = U08 } 
+			NOT = { exists = U08 }
 			culture_group = culture_group_gnoll
 			is_colonial_nation = no
 		}
-		
 		allow = {
-            num_of_cities = 30
-            total_development = 250
+      num_of_cities = 30
+      total_development = 250
 			is_at_war = no
 		}
-		
 		effect = {
 			add_prestige = 25
 			change_tag = U08
-            
-            change_government = warband_gov
-            
+      change_government = warband_gov
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-
 			if = {
 				limit = {
 					NOT = { government_rank = 3 }
@@ -511,33 +414,27 @@ country_decisions = {
 				set_government_rank = 3
 			}
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    form_the_candleborn = {
+
+  form_the_candleborn = {
 		major = yes
-		
 		potential = {
-			NOT = { exists = U09 } 
+			NOT = { exists = U09 }
 			culture_group = culture_group_kobold
 			is_colonial_nation = no
 		}
-		
 		allow = {
-            num_of_cities = 30
-            total_development = 250
+      num_of_cities = 30
+      total_development = 250
 			is_at_war = no
 		}
-		
 		effect = {
 			add_prestige = 25
 			change_tag = U09
-            
-            change_government = warband_gov
-            
+      change_government = warband_gov
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -550,47 +447,6 @@ country_decisions = {
 				set_government_rank = 3
 			}
 		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-    form_the_highborne_empire = {
-		major = yes
-		
-		potential = {
-			NOT = { exists = U19 } 
-			culture_group = culture_group_thalassian
-            capital_scope = {
-                continent = continent_eastern_kingdoms
-            }
-			is_colonial_nation = no
-		}
-		
-		allow = {
-            num_of_cities = 50
-            total_development = 500
-			is_at_war = no
-		}
-		
-		effect = {
-			add_prestige = 25
-			change_tag = U10
-            
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-
-			if = {
-				limit = {
-					NOT = { government_rank = 3 }
-				}
-				set_government_rank = 3
-			}
-		}
-		
 		ai_will_do = {
 			factor = 1
 		}

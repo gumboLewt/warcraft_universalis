@@ -1,738 +1,690 @@
 country_decisions = {
-    hero_check = {
-		major = yes
+  hero_check = {
+    major = yes
+    potential = {
+      has_global_flag = enable_hero_system
+      ai = no
+    }
+    allow = {
+      hidden_trigger = {
+          always = no
+      }
+      custom_trigger_tooltip = {
+        tooltip = HEROES_CHECK
+        check_variable = {
+          which = hero_count
+          value = 0
+        }
+      }
+    }
+    effect = {
+      custom_tooltip = hero_generation_tt
+      custom_tooltip = hero_usage_tt
+    }
+    ai_will_do = {
+      factor = 0
+    }
+  }
+
+  search_for_heroes = {
 		potential = {
-            has_global_flag = enable_hero_system
-			ai = no
-		}
-		allow = {
-            hidden_trigger = {
-                always = no
-            }
-            
-            custom_trigger_tooltip = {
-                tooltip = HEROES_CHECK
-  
-                check_variable = {
-                    which = hero_count
-                    value = 0
-                }
-            }
-		}
-		effect = {
-            custom_tooltip = hero_generation_tt
-            custom_tooltip = hero_usage_tt
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-    
-    # Generation
-    search_for_heroes = {
-		potential = {
-            has_global_flag = enable_hero_system
+      has_global_flag = enable_hero_system
 			NOT = { has_country_modifier = lack_of_local_talent }
-            NOT = { has_country_modifier = searched_for_heroes }
+      NOT = { has_country_modifier = searched_for_heroes }
 		}
 		allow = {
-            adm_power = 100
+      adm_power = 100
 		}
 		effect = {
-            hidden_effect = {
-                add_country_modifier = {
-                    name = searched_for_heroes
-                    duration = 3650
-                    hidden = yes
-                }
-            }
-        
-            add_adm_power = -100
-            
-            random_list = {
-                20 = {
-                    add_heroes_1 = yes
-                }
-                20 = {
-                    add_heroes_5 = yes
-                }
-                20 = {
-                    add_heroes_10 = yes
-                }
-                40 = {
-                    add_country_modifier = {
-                        name = lack_of_local_talent
-                        duration = 3650
-                    }
-                }
-            }
+      hidden_effect = {
+        add_country_modifier = {
+            name = searched_for_heroes
+            duration = 3650
+            hidden = yes
+        }
+      }
+      add_adm_power = -100
+      random_list = {
+        20 = {
+          add_heroes_1 = yes
+        }
+        20 = {
+            add_heroes_5 = yes
+        }
+        20 = {
+            add_heroes_10 = yes
+        }
+        40 = {
+          add_country_modifier = {
+            name = lack_of_local_talent
+            duration = 3650
+          }
+        }
+      }
 		}
-		
 		ai_will_do = {
 			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                check_variable = {
-                    which = hero_count
-                    value = 50
-                }
-            }
+      modifier = {
+        factor = 0
+        check_variable = {
+          which = hero_count
+          value = 50
+        }
+      }
 		}
 	}
-    
-    # Actions
-    oust_bandits = {
+
+  # Actions
+  oust_bandits = {
 		potential = {
-            has_global_flag = enable_hero_system
+      has_global_flag = enable_hero_system
 			NOT = { has_country_modifier = ousted_bandits }
 		}
 		allow = {
-            check_variable = {
-                which = hero_count
-                value = 2
-            }
+      check_variable = {
+        which = hero_count
+        value = 2
+      }
 		}
 		effect = {
-            random = {
-                chance = 50
-                subtract_heroes_1 = yes
-            }
-            
-            add_country_modifier = {
-                name = ousted_bandits
-                duration = 3650
-            }
+      random = {
+        chance = 50
+        subtract_heroes_1 = yes
+      }
+      add_country_modifier = {
+        name = ousted_bandits
+        duration = 3650
+      }
 		}
-		
 		ai_will_do = {
 			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                NOT = { average_unrest = 4 }
-            }
+      modifier = {
+        factor = 0
+        NOT = { average_unrest = 4 }
+      }
 		}
 	}
-    
-    recruit_masterful_tactician = {
-        potential = {
-            has_global_flag = enable_hero_system
+
+  recruit_masterful_tactician = {
+    potential = {
+      has_global_flag = enable_hero_system
 		}
 		allow = {
-            check_variable = {
-                which = hero_count
-                value = 20
-            }
+      check_variable = {
+        which = hero_count
+        value = 20
+      }
 		}
-		effect = {
-            random_list = {
-                25 = {
-                    subtract_heroes_1 = yes
-                }
-                25 = {
-                    subtract_heroes_5 = yes
-                }
-                25 = {
-                    subtract_heroes_10 = yes
-                }
-                25 = {
-                    subtract_heroes_20 = yes
-                }
-            }
-          
-            random_list = {
-                50 = {
-                    create_general = 100
-                }
-                50 = {
-                    create_admiral = 100
-                }
-            }
-		}
-		
-		ai_will_do = {
-			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                NOT = {
-                    check_variable = {
-                        which = hero_count
-                        value = 80
-                    }
-                }
-            }
-		}
+    effect = {
+      random_list = {
+        25 = {
+            subtract_heroes_1 = yes
+        }
+        25 = {
+            subtract_heroes_5 = yes
+        }
+        25 = {
+            subtract_heroes_10 = yes
+        }
+        25 = {
+            subtract_heroes_20 = yes
+        }
+      }
+      random_list = {
+        50 = {
+            create_general = 100
+        }
+        50 = {
+            create_admiral = 100
+        }
+      }
     }
-    
-    train_general = {
-        potential = {
-            has_global_flag = enable_hero_system
-		}
-		allow = {
-            check_variable = {
-                which = hero_count
-                value = 20
-            }
-		}
-		effect = {
-            random_list = {
-                20 = {
-                    subtract_heroes_1 = yes
-                }
-                20 = {
-                    subtract_heroes_2 = yes
-                }
-                20 = {
-                    subtract_heroes_3 = yes
-                }
-                20 = {
-                    subtract_heroes_4 = yes
-                }
-                20 = {
-                    subtract_heroes_5 = yes
-                }
-            }
-          
-            create_general = 25
-		}
-		
 		ai_will_do = {
 			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                num_of_generals = 2
-            }
+      modifier = {
+        factor = 0
+        NOT = {
+          check_variable = {
+            which = hero_count
+            value = 80
+          }
+        }
+      }
 		}
+  }
+
+  train_general = {
+    potential = {
+      has_global_flag = enable_hero_system
     }
-    
-    train_admiral = {
-        potential = {
-            has_global_flag = enable_hero_system
-            any_owned_province = {
-                has_port = yes
-            }
-		}
-		allow = {
-            check_variable = {
-                which = hero_count
-                value = 5
-            }
-		}
-		effect = {
-            random_list = {
-                20 = {
-                    subtract_heroes_1 = yes
-                }
-                20 = {
-                    subtract_heroes_2 = yes
-                }
-                20 = {
-                    subtract_heroes_3 = yes
-                }
-                20 = {
-                    subtract_heroes_4 = yes
-                }
-                20 = {
-                    subtract_heroes_5 = yes
-                }
-            }
-          
-            create_admiral = 25
-		}
-		
-		ai_will_do = {
-			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                num_of_admirals = 2
-            }
-		}
+    allow = {
+      check_variable = {
+        which = hero_count
+        value = 20
+      }
     }
-    
-    train_heir = {
-        potential = {
-            has_global_flag = enable_hero_system
-            NOT = { has_country_modifier = heir_training }
-            has_heir = yes
-		}
-		allow = {
-            check_variable = {
-                which = hero_count
-                value = 10
-            }
-		}
-		effect = {
-            hidden_effect = {
-                add_country_modifier = {
-                    name = heir_training
-                    duration = 3650
-                    hidden = yes
-                }
-            }
-            
-            random_list = {
-                10 = {
-                    subtract_heroes_3 = yes
-                }
-                80 = {
-                    subtract_heroes_5 = yes
-                }
-                10 = {
-                    subtract_heroes_10 = yes
-                }
-            }
-          
-            random_list = {
-                33 = {
-                    change_heir_adm = 1
-                }
-                33 = {
-                    change_heir_dip = 1
-                }
-                33 = {
-                    change_heir_mil = 1
-                }
-            }
-		}
-		
-		ai_will_do = {
-			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                OR = {
-                    heir_adm = 3
-                    heir_dip = 3
-                    heir_mil = 3
-                }
-            }
-		}
+    effect = {
+      random_list = {
+        20 = {
+          subtract_heroes_1 = yes
+        }
+        20 = {
+          subtract_heroes_2 = yes
+        }
+        20 = {
+          subtract_heroes_3 = yes
+        }
+        20 = {
+          subtract_heroes_4 = yes
+        }
+        20 = {
+          subtract_heroes_5 = yes
+        }
+      }
+      create_general = 25
     }
-    
-    garrison_outposts = {
-        potential = {
-            has_global_flag = enable_hero_system
-            NOT = { has_country_modifier = garrisoned_outposts }
-		}
-		allow = {
-            check_variable = {
-                which = hero_count
-                value = 5
-            }
-		}
-		effect = {
-            random_list = {
-                20 = {
-                    subtract_heroes_1 = yes
-                }
-                20 = {
-                    subtract_heroes_2 = yes
-                }
-                20 = {
-                    subtract_heroes_3 = yes
-                }
-                20 = {
-                    subtract_heroes_4 = yes
-                }
-                20 = {
-                    subtract_heroes_5 = yes
-                }
-            }
-          
-            add_country_modifier = {
-                name = garrisoned_outposts
-                duration = 3650
-            }
-		}
-		
-		ai_will_do = {
-			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                NOT = { is_at_war = yes }
-            }
-		}
+    ai_will_do = {
+      factor = 1
+      modifier = {
+        factor = 0
+        num_of_generals = 2
+      }
     }
-    
-    train_local_men = {
-        potential = {
-            has_global_flag = enable_hero_system
-		}
-		allow = {
-            check_variable = {
-                which = hero_count
-                value = 5
-            }
-		}
-		effect = {
-            random_list = {
-                20 = {
-                    subtract_heroes_1 = yes
-                }
-                20 = {
-                    subtract_heroes_2 = yes
-                }
-                20 = {
-                    subtract_heroes_3 = yes
-                }
-                20 = {
-                    subtract_heroes_4 = yes
-                }
-                20 = {
-                    subtract_heroes_5 = yes
-                }
-            }
-          
-            add_yearly_manpower = 1
-		}
-		
-		ai_will_do = {
-			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                manpower_percentage = 0.5
-            }
-		}
+  }
+
+  train_admiral = {
+    potential = {
+      has_global_flag = enable_hero_system
+      any_owned_province = {
+        has_port = yes
+      }
     }
-    
-    #--------------------------
-    # Raids
-    #--------------------------
-    raid_blackwing_lair = {
-		major = yes
-		potential = {
-            has_global_flag = enable_hero_system
-			any_owned_province = {
-                region = region_burning_steppes
-            }
-		}
 		allow = {
-            #owns = 3057 # Blackrock Spire
-            check_variable = {
-                which = hero_count
-                value = 40
-            }
+      check_variable = {
+        which = hero_count
+        value = 5
+      }
 		}
 		effect = {
-            random_list = {
-                10 = {
-                    subtract_heroes_40 = yes
-                }
-                15 = {
-                    subtract_heroes_30 = yes
-                }
-                20 = {
-                    subtract_heroes_20 = yes
-                }
-                15 = {
-                    subtract_heroes_10 = yes
-                }
-                35 = {
-                    country_event = {
-                        id = wow_heroes.11
-                    }
-                }
-                5 = {
-                    country_event = {
-                        id = wow_heroes.10
-                    }
-                }
-            }
+      random_list = {
+        20 = {
+          subtract_heroes_1 = yes
+        }
+        20 = {
+          subtract_heroes_2 = yes
+        }
+        20 = {
+          subtract_heroes_3 = yes
+        }
+        20 = {
+          subtract_heroes_4 = yes
+        }
+        20 = {
+          subtract_heroes_5 = yes
+        }
+      }
+      create_admiral = 25
 		}
-		
+		ai_will_do = {
+			factor = 1
+        modifier = {
+        factor = 0
+          num_of_admirals = 2
+        }
+		}
+  }
+
+  train_heir = {
+    potential = {
+      has_global_flag = enable_hero_system
+      NOT = { has_country_modifier = heir_training }
+      has_heir = yes
+    }
+    allow = {
+      check_variable = {
+        which = hero_count
+        value = 10
+      }
+    }
+    effect = {
+      hidden_effect = {
+        add_country_modifier = {
+          name = heir_training
+          duration = 3650
+          hidden = yes
+        }
+      }
+      random_list = {
+        10 = {
+          subtract_heroes_3 = yes
+        }
+        80 = {
+          subtract_heroes_5 = yes
+        }
+        10 = {
+          subtract_heroes_10 = yes
+        }
+      }
+      random_list = {
+        33 = {
+          change_heir_adm = 1
+        }
+        33 = {
+          change_heir_dip = 1
+        }
+        33 = {
+          change_heir_mil = 1
+        }
+      }
+    }
+    ai_will_do = {
+      factor = 1
+      modifier = {
+        factor = 0
+        OR = {
+          heir_adm = 3
+          heir_dip = 3
+          heir_mil = 3
+        }
+      }
+    }
+  }
+  garrison_outposts = {
+    potential = {
+      has_global_flag = enable_hero_system
+      NOT = { has_country_modifier = garrisoned_outposts }
+    }
+    allow = {
+      check_variable = {
+        which = hero_count
+        value = 5
+      }
+    }
+    effect = {
+      random_list = {
+        20 = {
+          subtract_heroes_1 = yes
+        }
+        20 = {
+          subtract_heroes_2 = yes
+        }
+        20 = {
+          subtract_heroes_3 = yes
+        }
+        20 = {
+          subtract_heroes_4 = yes
+        }
+        20 = {
+          subtract_heroes_5 = yes
+        }
+      }
+      add_country_modifier = {
+        name = garrisoned_outposts
+        duration = 3650
+      }
+    }
+    ai_will_do = {
+      factor = 1
+      modifier = {
+        factor = 0
+        NOT = { is_at_war = yes }
+      }
+    }
+  }
+
+  train_local_men = {
+    potential = {
+      has_global_flag = enable_hero_system
+		}
+		allow = {
+      check_variable = {
+        which = hero_count
+        value = 5
+      }
+		}
+		effect = {
+      random_list = {
+        20 = {
+          subtract_heroes_1 = yes
+        }
+        20 = {
+          subtract_heroes_2 = yes
+        }
+        20 = {
+          subtract_heroes_3 = yes
+        }
+        20 = {
+          subtract_heroes_4 = yes
+        }
+        20 = {
+          subtract_heroes_5 = yes
+        }
+      }
+      add_yearly_manpower = 1
+		}
+		ai_will_do = {
+			factor = 1
+      modifier = {
+        factor = 0
+        manpower_percentage = 0.5
+      }
+		}
+  }
+
+  #--------------------------
+  # Raids
+  #--------------------------
+  raid_blackwing_lair = {
+		major = yes
+		potential = {
+      has_global_flag = enable_hero_system
+			any_owned_province = {
+        region = region_burning_steppes
+      }
+		}
+		allow = {
+      #owns = 3057 # Blackrock Spire
+      check_variable = {
+          which = hero_count
+          value = 40
+      }
+		}
+		effect = {
+      random_list = {
+        10 = {
+          subtract_heroes_40 = yes
+        }
+        15 = {
+          subtract_heroes_30 = yes
+        }
+        20 = {
+          subtract_heroes_20 = yes
+        }
+        15 = {
+          subtract_heroes_10 = yes
+        }
+        35 = {
+          country_event = {
+            id = wow_heroes.11
+          }
+        }
+        5 = {
+          country_event = {
+            id = wow_heroes.10
+          }
+        }
+      }
+		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    raid_molten_core = {
+
+  raid_molten_core = {
 		major = yes
 		potential = {
-            has_global_flag = enable_hero_system
+      has_global_flag = enable_hero_system
 			any_owned_province = {
-                region = region_burning_steppes
-            }
+        region = region_burning_steppes
+      }
 		}
 		allow = {
-            check_variable = {
-                which = hero_count
-                value = 40
-            }
+      check_variable = {
+        which = hero_count
+        value = 40
+      }
 		}
-		effect = {
-            random_list = {
-                10 = {
-                    subtract_heroes_40 = yes
-                }
-                15 = {
-                    subtract_heroes_30 = yes
-                }
-                20 = {
-                    subtract_heroes_20 = yes
-                }
-                15 = {
-                    subtract_heroes_10 = yes
-                }
-                35 = {
-                    country_event = {
-                        id = wow_heroes.13
-                    }
-                }
-                5 = {
-                    country_event = {
-                        id = wow_heroes.12
-                    }
-                }
-            }
-		}
-		
+    effect = {
+      random_list = {
+        10 = {
+          subtract_heroes_40 = yes
+        }
+        15 = {
+          subtract_heroes_30 = yes
+        }
+        20 = {
+          subtract_heroes_20 = yes
+        }
+        15 = {
+          subtract_heroes_10 = yes
+        }
+        35 = {
+          country_event = {
+            id = wow_heroes.13
+          }
+        }
+        5 = {
+          country_event = {
+            id = wow_heroes.12
+          }
+        }
+      }
+    }
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    raid_naxxramas = {
+
+  raid_naxxramas = {
 		major = yes
 		potential = {
-            has_global_flag = enable_hero_system
+      has_global_flag = enable_hero_system
 			any_owned_province = {
-                region = region_eastern_plaguelands
-            }
+        region = region_eastern_plaguelands
+      }
 		}
 		allow = {
-            check_variable = {
-                which = hero_count
-                value = 40
-            }
+      check_variable = {
+        which = hero_count
+        value = 40
+      }
 		}
 		effect = {
-            random_list = {
-                10 = {
-                    subtract_heroes_40 = yes
-                }
-                15 = {
-                    subtract_heroes_30 = yes
-                }
-                20 = {
-                    subtract_heroes_20 = yes
-                }
-                15 = {
-                    subtract_heroes_10 = yes
-                }
-                35 = {
-                    country_event = {
-                        id = wow_heroes.15
-                    }
-                }
-                5 = {
-                    country_event = {
-                        id = wow_heroes.14
-                    }
-                }
-            }
+      random_list = {
+        10 = {
+          subtract_heroes_40 = yes
+        }
+        15 = {
+          subtract_heroes_30 = yes
+        }
+        20 = {
+          subtract_heroes_20 = yes
+        }
+        15 = {
+          subtract_heroes_10 = yes
+        }
+        35 = {
+          country_event = {
+            id = wow_heroes.15
+          }
+        }
+        5 = {
+          country_event = {
+            id = wow_heroes.14
+          }
+        }
+      }
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    raid_sunwell_plateau = {
+
+  raid_sunwell_plateau = {
 		major = yes
 		potential = {
-            has_global_flag = enable_hero_system
-            #has_global_flag = the_burning_crusade
+      has_global_flag = enable_hero_system
 			any_owned_province = {
-                region = region_isle_of_quel_danas
-            }
+        region = region_isle_of_quel_danas
+      }
 		}
 		allow = {
-            check_variable = {
-                which = hero_count
-                value = 40
-            }
+      check_variable = {
+        which = hero_count
+        value = 40
+      }
 		}
 		effect = {
-            random_list = {
-                10 = {
-                    subtract_heroes_40 = yes
-                }
-                15 = {
-                    subtract_heroes_30 = yes
-                }
-                20 = {
-                    subtract_heroes_20 = yes
-                }
-                15 = {
-                    subtract_heroes_10 = yes
-                }
-                35 = {
-                    country_event = {
-                        id = wow_heroes.17
-                    }
-                }
-                5 = {
-                    country_event = {
-                        id = wow_heroes.16
-                    }
-                }
-            }
+      random_list = {
+        10 = {
+          subtract_heroes_40 = yes
+        }
+        15 = {
+          subtract_heroes_30 = yes
+        }
+        20 = {
+          subtract_heroes_20 = yes
+        }
+        15 = {
+          subtract_heroes_10 = yes
+        }
+        35 = {
+          country_event = {
+            id = wow_heroes.17
+          }
+        }
+        5 = {
+          country_event = {
+            id = wow_heroes.16
+          }
+        }
+      }
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    raid_karazhan = {
+
+  raid_karazhan = {
 		major = yes
 		potential = {
-            has_global_flag = enable_hero_system
-            #has_global_flag = the_burning_crusade
+      has_global_flag = enable_hero_system
 			any_owned_province = {
-                region = region_isle_of_quel_danas
-            }
+        region = region_isle_of_quel_danas
+      }
 		}
 		allow = {
-            check_variable = {
-                which = hero_count
-                value = 40
-            }
+      check_variable = {
+        which = hero_count
+        value = 40
+      }
 		}
 		effect = {
-            random_list = {
-                10 = {
-                    subtract_heroes_40 = yes
-                }
-                15 = {
-                    subtract_heroes_30 = yes
-                }
-                20 = {
-                    subtract_heroes_20 = yes
-                }
-                15 = {
-                    subtract_heroes_10 = yes
-                }
-                35 = {
-                    country_event = {
-                        id = wow_heroes.19
-                    }
-                }
-                5 = {
-                    country_event = {
-                        id = wow_heroes.18
-                    }
-                }
-            }
+      random_list = {
+        10 = {
+          subtract_heroes_40 = yes
+        }
+        15 = {
+          subtract_heroes_30 = yes
+        }
+        20 = {
+          subtract_heroes_20 = yes
+        }
+        15 = {
+          subtract_heroes_10 = yes
+        }
+        35 = {
+          country_event = {
+            id = wow_heroes.19
+          }
+        }
+        5 = {
+          country_event = {
+            id = wow_heroes.18
+          }
+        }
+      }
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    raid_zul_aman = {
+
+  raid_zul_aman = {
 		major = yes
 		potential = {
-            has_global_flag = enable_hero_system
+      has_global_flag = enable_hero_system
 			any_owned_province = {
-                region = region_ghostlands
-            }
+        region = region_ghostlands
+      }
 		}
 		allow = {
-            check_variable = {
-                which = hero_count
-                value = 40
-            }
+      check_variable = {
+        which = hero_count
+        value = 40
+      }
 		}
-		effect = {
-            random_list = {
-                10 = {
-                    subtract_heroes_40 = yes
-                }
-                15 = {
-                    subtract_heroes_30 = yes
-                }
-                20 = {
-                    subtract_heroes_20 = yes
-                }
-                15 = {
-                    subtract_heroes_10 = yes
-                }
-                35 = {
-                    country_event = {
-                        id = wow_heroes.21
-                    }
-                }
-                5 = {
-                    country_event = {
-                        id = wow_heroes.20
-                    }
-                }
-            }
-		}
-		
+    effect = {
+      random_list = {
+        10 = {
+          subtract_heroes_40 = yes
+        }
+        15 = {
+          subtract_heroes_30 = yes
+        }
+        20 = {
+          subtract_heroes_20 = yes
+        }
+        15 = {
+          subtract_heroes_10 = yes
+        }
+        35 = {
+          country_event = {
+            id = wow_heroes.21
+          }
+        }
+        5 = {
+          country_event = {
+            id = wow_heroes.20
+          }
+        }
+      }
+    }
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    raid_zul_gurub = {
+
+  raid_zul_gurub = {
 		major = yes
 		potential = {
-            has_global_flag = enable_hero_system
+      has_global_flag = enable_hero_system
 			any_owned_province = {
-                region = region_stranglethorn_vale
-            }
+        region = region_stranglethorn_vale
+      }
 		}
 		allow = {
-            check_variable = {
-                which = hero_count
-                value = 40
-            }
+      check_variable = {
+        which = hero_count
+        value = 40
+      }
 		}
-		effect = {
-            random_list = {
-                10 = {
-                    subtract_heroes_40 = yes
-                }
-                15 = {
-                    subtract_heroes_30 = yes
-                }
-                20 = {
-                    subtract_heroes_20 = yes
-                }
-                15 = {
-                    subtract_heroes_10 = yes
-                }
-                35 = {
-                    country_event = {
-                        id = wow_heroes.23
-                    }
-                }
-                5 = {
-                    country_event = {
-                        id = wow_heroes.22
-                    }
-                }
-            }
-		}
-		
+    effect = {
+      random_list = {
+        10 = {
+          subtract_heroes_40 = yes
+        }
+        15 = {
+          subtract_heroes_30 = yes
+        }
+        20 = {
+          subtract_heroes_20 = yes
+        }
+        15 = {
+          subtract_heroes_10 = yes
+        }
+        35 = {
+          country_event = {
+            id = wow_heroes.23
+          }
+        }
+        5 = {
+          country_event = {
+            id = wow_heroes.22
+          }
+        }
+      }
+    }
 		ai_will_do = {
 			factor = 1
 		}

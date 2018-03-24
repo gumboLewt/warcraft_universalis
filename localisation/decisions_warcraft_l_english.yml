@@ -173,12 +173,6 @@
  conjure_diplomatic_desc: "We choose a diplomatic way of problem-solving. It is truly glorious, but better be sure if you still can contain your arcane might in check"
  
  #-----------------------------------------------
- # Fate
- #-----------------------------------------------
- remove_wrath_of_fate_title: "Divert Destiny"
- remove_wrath_of_fate_desc: "As a player, we can change the fated destiny of our nation."
- 
- #-----------------------------------------------
  # Stromgarde
  #-----------------------------------------------
  danaths_return_title: "Danath's Return"

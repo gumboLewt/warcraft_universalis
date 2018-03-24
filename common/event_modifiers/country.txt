@@ -1,24 +1,3 @@
-# Strength those that should survive - Applied to small nations that should be powerful
-gift_of_fate = {
-    army_tradition = 1
-    global_manpower_modifier = 0.25
-    global_regiment_cost = -0.25
-    land_forcelimit_modifier = 0.25
-    land_maintenance_modifier = -0.25
-    recover_army_morale_speed = 0.1
-    global_tax_income = 120
-}
-
-# Weaken those that should fall - Applied to empires after they should be weakened
-wrath_of_fate = {
-    army_tradition = -1
-    global_manpower_modifier = -0.25
-    global_regiment_cost = 0.25
-    land_forcelimit_modifier = -0.25
-    land_maintenance_modifier = 0.25
-    recover_army_morale_speed = -0.1
-}
-
 inspire_righteousness_modifier = {
     global_missionary_strength = 0.02
     global_unrest = 1

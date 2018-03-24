@@ -1,96 +1,82 @@
 country_decisions = {
-
 	curb_infighting = {
 		potential = {
 			culture_group = culture_group_gnoll
-            NOT = { has_country_modifier = curbed_infighting }
+      NOT = { has_country_modifier = curbed_infighting }
 		}
-		
 		allow = {
 			adm_power = 250
-            NOT = { has_country_modifier = curbed_infighting }
+      NOT = { has_country_modifier = curbed_infighting }
 		}
-		
 		effect = {
 			add_adm_power = -250
-            add_country_modifier = {
-                name = curbed_infighting
-                duration = -1
-            }
+      add_country_modifier = {
+          name = curbed_infighting
+          duration = -1
+      }
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    divine_magic = {
+  divine_magic = {
 		potential = {
 			culture_group = culture_group_gnoll
-            NOT = { has_country_modifier = divined_magic }
+      NOT = { has_country_modifier = divined_magic }
 		}
-		
 		allow = {
 			dip_power = 250
-            NOT = { has_country_modifier = divined_magic }
+      NOT = { has_country_modifier = divined_magic }
 		}
-		
 		effect = {
 			add_dip_power = -250
-            add_country_modifier = {
-                name = divined_magic
-                duration = -1
-            }
+      add_country_modifier = {
+        name = divined_magic
+        duration = -1
+      }
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    initiate_weapons_trade = {
+
+  initiate_weapons_trade = {
 		potential = {
 			culture_group = culture_group_gnoll
-            NOT = { has_country_modifier = weapons_trade }
+      NOT = { has_country_modifier = weapons_trade }
 		}
-		
 		allow = {
 			dip_power = 100
-            NOT = { has_country_modifier = weapons_trade }
+      NOT = { has_country_modifier = weapons_trade }
 		}
-		
 		effect = {
 			add_dip_power = -100
-            add_country_modifier = {
-                name = weapons_trade
-                duration = -1
-            }
+      add_country_modifier = {
+        name = weapons_trade
+        duration = -1
+      }
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    
-    challenge_alpha = {
+
+  challenge_alpha = {
 		potential = {
 			culture_group = culture_group_gnoll
-            NOT = { has_country_modifier = challenged_alpha }
+      NOT = { has_country_modifier = challenged_alpha }
 		}
-		
 		allow = {
 			mil_power = 100
-            NOT = { has_country_modifier = challenged_alpha }
+      NOT = { has_country_modifier = challenged_alpha }
 		}
-		
 		effect = {
 			add_mil_power = -100
-            add_country_modifier = {
-                name = challenged_alpha
-                duration = -1
-            }
+      add_country_modifier = {
+        name = challenged_alpha
+        duration = -1
+      }
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
