@@ -1,201 +1,138 @@
 namespace = setup
 
-# if = { limit = { has_global_flag = enable_event_logging } log = \1 }
-
 country_event = {
-	id = setup.1
-	title = setup.1.title
-	desc = setup.1.desc
-	picture = ASSASSINATION_eventPicture
-	
-    hidden = yes
-    is_triggered_only = yes
+  id = setup.1
+  title = setup.1.title
+  desc = setup.1.desc
+  picture = ASSASSINATION_eventPicture
 
-    trigger = {
-        NOT = { has_global_flag = completed_setup }
+  hidden = yes
+  is_triggered_only = yes
+
+  trigger = {
+    NOT = { has_global_flag = completed_setup }
+  }
+
+  immediate = {
+    set_global_flag = completed_setup
+  }
+
+  option = {
+    name = setup.1.option.a
+
+    set_global_flag = enable_hero_system
+
+    # Configure HRE
+    hre_inheritable = yes
+
+    # Game flags
+    # Used to detect which bookmark the flag starts in, accounting for time adjustments
+    set_global_flag = dark_portal_built
+
+    # The Rise of the Qiraji
+    if = {
+      limit = {
+        NOT = { is_year = 941 }
+      }
+      set_global_flag = rise_of_the_qiraji
     }
 
-    immediate = {
-        set_global_flag = completed_setup
+    # The Burning Crusade
+    if = {
+      limit = {
+        is_year = 941
+        NOT = { is_year = 946 }
+      }
+      set_global_flag = the_burning_crusade
     }
 
-    option = {
-        name = setup.1.option.a
-        
-        # --- Logging flags
-        #   Comment these for release builds
-        #   Enabling these will spam the game.log
-        set_global_flag = enable_onaction_logging
-        set_global_flag = enable_event_logging
+    # Wrath of the Lich King
+    if = {
+      limit = {
+        is_year = 946
+        NOT = { is_year = 971 }
+      }
+      set_global_flag = wrath_of_the_lich_king
+    }
 
-        set_global_flag = enable_hero_system
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - Global Setup" }
+    # Cataclysm
+    if = {
+      limit = {
+        is_year = 971
+        NOT = { is_year = 976 }
+      }
+      set_global_flag = cataclysm
+    }
 
-        # Configure HRE
-        hre_inheritable = yes
-    
-        # Game flags
-        #   Used to detect which bookmark the flag starts in, accounting for time adjustments
-        if = {
-            limit = {
-                is_year = 776
-            }
-            set_global_flag = dark_portal_built
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: dark_portal_built" }
-        }
-        
-        # Rise of the Horde
-        if = { 
-            limit = {
-                is_year = 546
-                NOT = { is_year = 776 }
-            }
-            set_global_flag = rise_of_the_horde
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: rise_of_the_horde" }
-        }
+    # Mists of Pandaria
+    if = {
+      limit = {
+        is_year = 976
+        NOT = { is_year = 987 }
+      }
+      set_global_flag = mists_of_pandaria
+    }
 
-        # The First War
-        if = { 
-            limit = {
-                is_year = 776
-                NOT = { is_year = 806 }
-            }
-            set_global_flag = the_first_war
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_first_war" }
-        }
-
-        # The Second War
-        if = { 
-            limit = {
-                is_year = 806
-                NOT = { is_year = 901 }
-            }
-            set_global_flag = the_second_war
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_second_war" }
-        }
-
-        # The Third War
-        if = { 
-            limit = {
-                is_year = 901
-                NOT = { is_year = 906 }
-            }
-            set_global_flag = the_third_war 
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_third_war" }
-        }
-
-        # The Frozen Throne
-        if = { 
-            limit = {
-                is_year = 906
-                NOT = { is_year = 926 }
-            }
-            set_global_flag = the_frozen_throne
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_frozen_throne" }
-        }
-
-        # The Rise of the Qiraji
-        if = { 
-            limit = {
-                is_year = 926
-                NOT = { is_year = 941 }
-            }
-            set_global_flag = rise_of_the_qiraji
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: rise_of_the_qiraji" }
-        }
-
-        # The Burning Crusade
-        if = { 
-            limit = {
-                is_year = 941
-                NOT = { is_year = 946 }
-            }
-            set_global_flag = the_burning_crusade
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: the_burning_crusade" }
-        }
-
-        # Wrath of the Lich King
-        if = { 
-            limit = {
-                is_year = 946
-                NOT = { is_year = 971 }
-            }
-            set_global_flag = wrath_of_the_lich_king
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: wrath_of_the_lich_king" }
-        }
-
-        # Cataclysm
-        if = { 
-            limit = {
-                is_year = 971
-                NOT = { is_year = 976 }
-            }
-            set_global_flag = cataclysm
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: cataclysm" }
-        }
-
-        # Mists of Pandaria
-        if = { 
-            limit = {
-                is_year = 976
-            }
-            set_global_flag = mists_of_pandaria
-            if = { limit = { has_global_flag = enable_event_logging } log = "Game flag: mists_of_pandaria" }
-        }
-    }  
+    # Legion
+    if = {
+      limit = {
+        is_year = 987
+      }
+    }
+    set_global_flag = legion
+  }
 }
 
 country_event = {
-	id = setup.2
-	title = setup.1.title
-	desc = setup.1.desc
-	picture = ASSASSINATION_eventPicture
-	
-    hidden = yes
-    is_triggered_only = yes
+  id = setup.2
+  title = setup.1.title
+  desc = setup.1.desc
+  picture = ASSASSINATION_eventPicture
 
-    trigger = {
-        NOT = { has_country_flag = completed_country_setup }
+  hidden = yes
+  is_triggered_only = yes
+
+  trigger = {
+    NOT = { has_country_flag = completed_country_setup }
+  }
+
+  immediate = {
+    set_country_flag = completed_country_setup
+  }
+
+  option = {
+    name = setup.1.option.a
+
+    # Heroes
+    if = {
+      limit = {
+        has_global_flag = enable_hero_system
+      }
+
+      set_variable = {
+        which = hero_count
+        value = 0
+      }
+
+      set_variable = {
+        which = raids_cleared
+        value = 0
+      }
     }
 
-    immediate = {
-        set_country_flag = completed_country_setup
+    if = {
+      limit = {
+        has_country_modifier = alliance_member
+      }
+
+      opinions_joined_alliance = yes
     }
 
-    option = {
-        name = setup.1.option.a
-
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - Start Setup" }
-
-        # Heroes
-        if = {
-            limit = {
-                has_global_flag = enable_hero_system
-            }
-        
-            set_variable = {
-                which = hero_count
-                value = 0
-            }
-            
-            set_variable = {
-                which = raids_cleared
-                value = 0
-            }
-        }
-        
-        if = {
-            limit = {
-                has_country_modifier = alliance_member
-            }
-            opinions_joined_alliance = yes
-        }
-        if = {
-            limit = {
-                has_country_modifier = horde_member
-            }
-            opinions_joined_horde = yes
-        }
-    }  
+    if = {
+      limit = {
+        has_country_modifier = horde_member
+      }
+      opinions_joined_horde = yes
+    }
+  }
 }

@@ -8,9 +8,9 @@ country_event = {
 	title = story.1.title
 	desc = story.1.desc
 	picture = NATHREZIM_eventPicture
-	
+
 	major = yes
-	
+
 	trigger = {
 		tag = A22 # Scarlet Crusade
 		OR = {
@@ -18,15 +18,13 @@ country_event = {
 			dominant_culture = culture_forsaken
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	option = {
 		name = story.1.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - story.1.option.a" }
 
 		change_tag = X01 # The Risen
 		change_government = scourge_gov
@@ -37,55 +35,10 @@ country_event = {
 			change_religion = religion_fel
 		}
 		add_stability = 6
-		
-		if = {
-			limit = {	
-				1011 = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-			1011 = {
-				cede_province = ROOT
-			}
-		}
-		
-		if = {
-			limit = {	
-				1028 = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-			1028 = {
-				cede_province = ROOT
-			}
-		}
-		
-		
-		if = {
-			limit = {	
-				519 = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-			519 = {
-				cede_province = ROOT
-			}
-		}
-		
-		if = {
-			limit = {	
-				539 = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-			539 = {
-				cede_province = ROOT
-			}
-		}
-		
+
 		define_ruler = {
 			name = "Balnazzar"
-			dynasty = ""
+			dynasty = "Dreadlord"
 			ADM = 3
 			DIP = 1
 			MIL = 6
@@ -94,156 +47,152 @@ country_event = {
 	}
 }
 
-# Insidious Happenings 
+# Insidious Happenings
 country_event = {
-	id = story.2
-	title = story.2.title
-	desc = story.2.desc
-	picture = FORSAKEN_eventPicture
-	
-	trigger = {
-		tag = A22 # Scarlet Crusade
-		NOT = { stability = 0 }
-		any_owned_province = {
-			is_capital = no
-			NOT = { culture = culture_forsaken }
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-	}
-	
-	option = {
-		name = story.2.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - story.2.option.a" }
+  id = story.2
+  title = story.2.title
+  desc = story.2.desc
+  picture = FORSAKEN_eventPicture
 
-		random_owned_province = {
-			limit = { is_capital = no }
-		
-			change_culture = culture_forsaken
-		}
-	}
+  trigger = {
+    tag = A22 # Scarlet Crusade
+    NOT = { stability = 0 }
+    any_owned_province = {
+      is_capital = no
+      NOT = { culture = culture_forsaken }
+    }
+  }
+
+  mean_time_to_happen = {
+    months = 120
+  }
+
+  option = {
+    name = story.2.option.a
+
+    random_owned_province = {
+      limit = { is_capital = no }
+
+      change_culture = culture_forsaken
+    }
+  }
 }
 
 # The True Horde Rises
 country_event = {
-	id = story.3
-	title = story.3.title
-	desc = story.3.desc
-	picture = ELECTION_REPUBLICAN_eventPicture
-	
-	is_triggered_only = yes
-    
-	trigger = {
-		tag = A48
-		region_durotar = {
-			owned_by = ROOT
-		}
-		1456 = {
-			owned_by = ROOT
-		}
-		NOT = { 
-			has_opinion = {
-				who = A70 # Darkspear
-				value = 0
-			}
-		}
-		NOT = { 
-			has_opinion = {
-				who = P14 # The Forsaken
-				value = 0
-			}
-		}
-		NOT = { 
-			has_opinion = {
-				who = A91 # The Forsaken
-				value = 0
-			}
-		}
-		# Add Thunderbluff
-	}
-	
-	option = {
-		name = story.3.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - story.3.option.a" }
+  id = story.3
+  title = story.3.title
+  desc = story.3.desc
+  picture = ELECTION_REPUBLICAN_eventPicture
 
-		set_country_flag = true_horde
-		
-		every_subject_country = {
-			ROOT = {
-				inherit = PREV
-			}
-		}
-		
-		add_adm_power = 500
-		add_dip_power = 500
-		add_mil_power = 500
-		
-		capital_scope = {
-			ROOT = {
-				infantry = PREV
-				infantry = PREV
-				infantry = PREV
-				infantry = PREV
-				infantry = PREV
-				infantry = PREV
-				infantry = PREV
-				infantry = PREV
-				infantry = PREV
-				infantry = PREV
-				cavalry = PREV
-				cavalry = PREV
-				cavalry = PREV
-				cavalry = PREV
-				cavalry = PREV
-				artillery = PREV
-				artillery = PREV
-				artillery = PREV
-				artillery = PREV
-				artillery = PREV
-			}
-		}
-		
-		random_owned_province = {
-			limit = { has_port = yes }
-		
-			ROOT = {
-				transport = PREV
-				transport = PREV
-				transport = PREV
-				transport = PREV
-				transport = PREV
-				transport = PREV
-				transport = PREV
-				transport = PREV
-				transport = PREV
-				transport = PREV
-				heavy_ship = PREV
-				heavy_ship = PREV
-				heavy_ship = PREV
-				heavy_ship = PREV
-				heavy_ship = PREV
-				heavy_ship = PREV
-				heavy_ship = PREV
-				heavy_ship = PREV
-				heavy_ship = PREV
-				light_ship = PREV
-				light_ship = PREV
-				light_ship = PREV
-				light_ship = PREV
-				light_ship = PREV
-				light_ship = PREV
-				light_ship = PREV
-				light_ship = PREV
-				light_ship = PREV
-				light_ship = PREV
-				
-			}
-		}
-		
-		add_stability = 6
-	}
+  is_triggered_only = yes
+
+  trigger = {
+    tag = A48
+    has_country_flag = horde_head
+    NOT = {
+      has_opinion = {
+        who = A70 # Darkspear
+        value = 0
+      }
+    }
+    NOT = {
+      has_opinion = {
+        who = P14 # The Forsaken
+        value = 0
+      }
+    }
+    NOT = {
+      has_opinion = {
+        who = A91 # Silvermoon
+        value = 0
+      }
+    }
+    NOT = {
+      has_opinion = {
+        who = F88 # Thunderbluff
+        value = 0
+      }
+    }
+  }
+
+  option = {
+    name = story.3.option.a
+
+    set_country_flag = true_horde
+
+    every_subject_country = {
+      ROOT = {
+        inherit = PREV
+      }
+    }
+
+    add_adm_power = 500
+    add_dip_power = 500
+    add_mil_power = 500
+
+    capital_scope = {
+      ROOT = {
+        infantry = PREV
+        infantry = PREV
+        infantry = PREV
+        infantry = PREV
+        infantry = PREV
+        infantry = PREV
+        infantry = PREV
+        infantry = PREV
+        infantry = PREV
+        infantry = PREV
+        cavalry = PREV
+        cavalry = PREV
+        cavalry = PREV
+        cavalry = PREV
+        cavalry = PREV
+        artillery = PREV
+        artillery = PREV
+        artillery = PREV
+        artillery = PREV
+        artillery = PREV
+      }
+    }
+
+    random_owned_province = {
+      limit = { has_port = yes }
+
+      ROOT = {
+        transport = PREV
+        transport = PREV
+        transport = PREV
+        transport = PREV
+        transport = PREV
+        transport = PREV
+        transport = PREV
+        transport = PREV
+        transport = PREV
+        transport = PREV
+        heavy_ship = PREV
+        heavy_ship = PREV
+        heavy_ship = PREV
+        heavy_ship = PREV
+        heavy_ship = PREV
+        heavy_ship = PREV
+        heavy_ship = PREV
+        heavy_ship = PREV
+        heavy_ship = PREV
+        light_ship = PREV
+        light_ship = PREV
+        light_ship = PREV
+        light_ship = PREV
+        light_ship = PREV
+        light_ship = PREV
+        light_ship = PREV
+        light_ship = PREV
+        light_ship = PREV
+        light_ship = PREV
+
+      }
+    }
+
+    add_stability = 6
+  }
 }

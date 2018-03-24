@@ -9,71 +9,56 @@ namespace = building_events
 # Build the town hall
 # Invest in other projects
 province_event = {
-	id = building_events.1
-	title = building_events.1.title
-	desc = building_events.1.desc
-	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  id = building_events.1
+  title = building_events.1.title
+  desc = building_events.1.desc
+  picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_town_hall }
-        num_free_building_slots = 1
-        controlled_by = owner
-        
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-        
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_town_hall }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.1.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.1.option.a" }
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        add_building = wow_town_hall
-	}
-    
-    option = {
-		name = building_events.1.option.b
+  option = {
+    name = building_events.1.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.1.option.b" }
-        add_base_tax = 1
-	}
+    add_building = wow_town_hall
+  }
+
+  option = {
+    name = building_events.1.option.b
+
+    add_base_tax = 1
+  }
 }
 
 # Prosperous Locals in [Root.GetName]
@@ -81,70 +66,56 @@ province_event = {
 # Build the court
 # Invest in other projects
 province_event = {
-	id = building_events.2
-	title = building_events.2.title
-	desc = building_events.2.desc
-	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  id = building_events.2
+  title = building_events.2.title
+  desc = building_events.2.desc
+  picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_court }
-        num_free_building_slots = 1
-        controlled_by = owner
-        
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-        
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_court }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.2.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.2.option.a" }
-        add_building = wow_court
-	}
-    
-    option = {
-		name = building_events.2.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.2.option.b" }
-        add_base_tax = 1
-	}
+  option = {
+    name = building_events.2.option.a
+
+    add_building = wow_court
+  }
+
+  option = {
+    name = building_events.2.option.b
+
+    add_base_tax = 1
+  }
 }
 
 # Prosperous Locals in [Root.GetName]
@@ -152,70 +123,56 @@ province_event = {
 # Build the temple
 # Invest in other projects
 province_event = {
-	id = building_events.3
-	title = building_events.3.title
-	desc = building_events.3.desc
-	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  id = building_events.3
+  title = building_events.3.title
+  desc = building_events.3.desc
+  picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_temple }
-        num_free_building_slots = 1
-        controlled_by = owner
-        
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-        
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_temple }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.3.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.3.option.a" }
-        add_building = wow_temple
-	}
-    
-    option = {
-		name = building_events.3.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.3.option.b" }
-        add_base_tax = 1
-	}
+  option = {
+    name = building_events.3.option.a
+
+    add_building = wow_temple
+  }
+
+  option = {
+    name = building_events.3.option.b
+
+    add_base_tax = 1
+  }
 }
 
 #-------------------------------------------------------
@@ -226,89 +183,73 @@ province_event = {
 # Build a mine
 # Encourage productivity in other areas
 province_event = {
-	id = building_events.4
-	title = building_events.4.title
-	desc = building_events.4.desc
-	picture = CITY_DEVELOPMENT_eventPicture # Placeholder
+  id = building_events.4
+  title = building_events.4.title
+  desc = building_events.4.desc
+  picture = CITY_DEVELOPMENT_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_mine }
-        num_free_building_slots = 1
-        controlled_by = owner
-        
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-        
-        modifier = {
-            factor = 0.5
-            
-            OR = {
-                trade_goods = dark_iron
-                trade_goods = kypari
-                trade_goods = saronite
-                trade_goods = mithril
-                trade_goods = thorium
-                trade_goods = fel_iron
-                trade_goods = khorium
-                trade_goods = adamantite
-                trade_goods = titanium
-                trade_goods = elementium
-                trade_goods = ghost_iron
-                trade_goods = gemstones    
-            }
-        }
-        
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_mine }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.4.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.4.option.a" }
-        add_building = wow_mine
-	}
-    
-    option = {
-		name = building_events.4.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 0.5
+      OR = {
+        trade_goods = dark_iron
+        trade_goods = kypari
+        trade_goods = saronite
+        trade_goods = mithril
+        trade_goods = thorium
+        trade_goods = fel_iron
+        trade_goods = khorium
+        trade_goods = adamantite
+        trade_goods = titanium
+        trade_goods = elementium
+        trade_goods = ghost_iron
+        trade_goods = gemstones
+      }
+    }
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.4.option.b" }
-        add_base_production = 1
-	}
+  option = {
+    name = building_events.4.option.a
+
+    add_building = wow_mine
+  }
+
+  option = {
+    name = building_events.4.option.b
+
+    add_base_production = 1
+  }
 }
 
 # Excellent trees in [Root.GetName]
@@ -316,84 +257,67 @@ province_event = {
 # Build a lumbermill
 # Encourage productivity in other areas
 province_event = {
-	id = building_events.5
-	title = building_events.5.title
-	desc = building_events.5.desc
-	picture = CITY_DEVELOPMENT_eventPicture # Placeholder
+  id = building_events.5
+  title = building_events.5.title
+  desc = building_events.5.desc
+  picture = CITY_DEVELOPMENT_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_lumbermill }
-        num_free_building_slots = 1
-        controlled_by = owner
-        
-        owner = {
-            is_at_war = no
-        }
-        
-        OR = {
-            has_terrain = forest
-            has_terrain = woods
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-        
-        modifier = {
-            factor = 0.5
-            
-            OR = {
-                trade_goods = lumber
-                trade_goods = ashenvale_lumber  
-            }
-        }
-        
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_lumbermill }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.5.option.a
+    OR = {
+      has_terrain = forest
+      has_terrain = woods
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.5.option.a" }
-        add_building = wow_lumbermill
-	}
-    
-    option = {
-		name = building_events.5.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 0.5
+      OR = {
+        trade_goods = lumber
+        trade_goods = ashenvale_lumber
+      }
+    }
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.5.option.b" }
-        add_base_production = 1
-	}
+  option = {
+    name = building_events.5.option.a
+
+    add_building = wow_lumbermill
+  }
+
+  option = {
+    name = building_events.5.option.b
+
+    add_base_production = 1
+  }
 }
 
 # Verdant farmland in [Root.GetName]
@@ -401,84 +325,67 @@ province_event = {
 # Build a farm
 # Encourage productivity in other areas
 province_event = {
-	id = building_events.6
-	title = building_events.6.title
-	desc = building_events.6.desc
-	picture = FARMING_eventPicture # Placeholder
+  id = building_events.6
+  title = building_events.6.title
+  desc = building_events.6.desc
+  picture = FARMING_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_farm }
-        num_free_building_slots = 1
-        controlled_by = owner
-        
-        owner = {
-            is_at_war = no
-        }
-        
-        OR = {
-            has_terrain = grasslands
-            has_terrain = farmlands
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-        
-        modifier = {
-            factor = 0.5
-            
-            OR = {
-                trade_goods = lumber
-                trade_goods = ashenvale_lumber  
-            }
-        }
-        
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_farm }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.6.option.a
+    OR = {
+      has_terrain = grasslands
+      has_terrain = farmlands
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.6.option.a" }
-        add_building = wow_farm
-	}
-    
-    option = {
-		name = building_events.6.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 0.5
+      OR = {
+        trade_goods = lumber
+        trade_goods = ashenvale_lumber
+      }
+    }
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.6.option.b" }
-        add_base_production = 1
-	}
+  option = {
+    name = building_events.6.option.a
+
+    add_building = wow_farm
+  }
+
+  option = {
+    name = building_events.6.option.b
+
+    add_base_production = 1
+  }
 }
 
 #-------------------------------------------------------
@@ -489,70 +396,56 @@ province_event = {
 # Build a barracks
 # Draft more locals instead
 province_event = {
-	id = building_events.7
-	title = building_events.7.title
-	desc = building_events.7.desc
-	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  id = building_events.7
+  title = building_events.7.title
+  desc = building_events.7.desc
+  picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_barracks }
-        num_free_building_slots = 1
-        controlled_by = owner
-        
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_barracks }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.7.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.7.option.a" }
-        add_building = wow_barracks
-	}
-    
-    option = {
-		name = building_events.7.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.7.option.b" }
-        add_base_manpower = 1
-	}
+  option = {
+    name = building_events.7.option.a
+
+    add_building = wow_barracks
+  }
+
+  option = {
+    name = building_events.7.option.b
+
+    add_base_manpower = 1
+  }
 }
 
 # Strategic Report for [Root.GetName]
@@ -560,70 +453,56 @@ province_event = {
 # Build training grounds
 # Draft more locals instead
 province_event = {
-	id = building_events.8
-	title = building_events.8.title
-	desc = building_events.8.desc
-	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  id = building_events.8
+  title = building_events.8.title
+  desc = building_events.8.desc
+  picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_training_grounds }
-        num_free_building_slots = 1
-        controlled_by = owner
-        
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_training_grounds }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.8.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.8.option.a" }
-        add_building = wow_training_grounds
-	}
-    
-    option = {
-		name = building_events.8.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.8.option.b" }
-        add_base_manpower = 1
-	}
+  option = {
+    name = building_events.8.option.a
+
+    add_building = wow_training_grounds
+  }
+
+  option = {
+    name = building_events.8.option.b
+
+    add_base_manpower = 1
+  }
 }
 
 # Strategic Report for [Root.GetName]
@@ -631,70 +510,56 @@ province_event = {
 # Build a supply depot
 # Draft more locals instead
 province_event = {
-	id = building_events.9
-	title = building_events.9.title
-	desc = building_events.9.desc
-	picture = TRADEGOODS_eventPicture # Placeholder
+  id = building_events.9
+  title = building_events.9.title
+  desc = building_events.9.desc
+  picture = TRADEGOODS_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_supply_depot }
-        num_free_building_slots = 1
-        controlled_by = owner
-        
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_supply_depot }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.9.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.9.option.a" }
-        add_building = wow_supply_depot
-	}
-    
-    option = {
-		name = building_events.9.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.9.option.b" }
-        add_base_manpower = 1
-	}
+  option = {
+    name = building_events.9.option.a
+
+    add_building = wow_supply_depot
+  }
+
+  option = {
+    name = building_events.9.option.b
+
+    add_base_manpower = 1
+  }
 }
 
 #-------------------------------------------------------
@@ -705,71 +570,57 @@ province_event = {
 # Build a shipyard
 # Draft more locals instead
 province_event = {
-	id = building_events.10
-	title = building_events.10.title
-	desc = building_events.10.desc
-	picture = NAVAL_MILITARY_eventPicture # Placeholder
+  id = building_events.10
+  title = building_events.10.title
+  desc = building_events.10.desc
+  picture = NAVAL_MILITARY_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_shipyard }
-        num_free_building_slots = 1
-        controlled_by = owner
-        has_port = yes
-        
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_shipyard }
+    num_free_building_slots = 1
+    controlled_by = owner
+    has_port = yes
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.10.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.10.option.a" }
-        add_building = wow_shipyard
-	}
-    
-    option = {
-		name = building_events.10.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.10.option.b" }
-        add_base_manpower = 1
-	}
+  option = {
+    name = building_events.10.option.a
+
+    add_building = wow_shipyard
+  }
+
+  option = {
+    name = building_events.10.option.b
+
+    add_base_manpower = 1
+  }
 }
 
 # Strategic Report for [Root.GetName]
@@ -777,71 +628,56 @@ province_event = {
 # Build a dock
 # Draft more locals instead
 province_event = {
-	id = building_events.11
-	title = building_events.11.title
-	desc = building_events.11.desc
-	picture = HARBOUR_eventPicture # Placeholder
+  id = building_events.11
+  title = building_events.11.title
+  desc = building_events.11.desc
+  picture = HARBOUR_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_dock }
-        num_free_building_slots = 1
-        controlled_by = owner
-        has_port = yes
-        
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_dock }
+    num_free_building_slots = 1
+    controlled_by = owner
+    has_port = yes
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.11.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.11.option.a" }
-        add_building = wow_dock
-	}
-    
-    option = {
-		name = building_events.11.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.11.option.b" }
-        add_base_manpower = 1
-	}
+  option = {
+    name = building_events.11.option.a
+
+    add_building = wow_dock
+  }
+  option = {
+    name = building_events.11.option.b
+
+    add_base_manpower = 1
+  }
 }
 
 #-------------------------------------------------------
@@ -852,70 +688,55 @@ province_event = {
 # Build a market
 # Encourage manufacturing instead
 province_event = {
-	id = building_events.12
-	title = building_events.12.title
-	desc = building_events.12.desc
-	picture = CORRUPTION_eventPicture # Placeholder
+  id = building_events.12
+  title = building_events.12.title
+  desc = building_events.12.desc
+  picture = CORRUPTION_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_market }
-        num_free_building_slots = 1
-        controlled_by = owner
-
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_market }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.12.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.12.option.a" }
-        add_building = wow_market
-	}
-    
-    option = {
-		name = building_events.12.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.12.option.b" }
-        add_base_production = 1
-	}
+  option = {
+    name = building_events.12.option.a
+
+    add_building = wow_market
+  }
+  option = {
+    name = building_events.12.option.b
+
+    add_base_production = 1
+  }
 }
 
 # [Root.GetName]'s Watering Hole
@@ -923,70 +744,56 @@ province_event = {
 # Restore the tavern
 # Provide other avenues for respite instead
 province_event = {
-	id = building_events.13
-	title = building_events.13.title
-	desc = building_events.13.desc
-	picture = TAVERN_eventPicture
+  id = building_events.13
+  title = building_events.13.title
+  desc = building_events.13.desc
+  picture = TAVERN_eventPicture
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_tavern }
-        num_free_building_slots = 1
-        controlled_by = owner
-
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_tavern }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.13.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.13.option.a" }
-        add_building = wow_tavern
-	}
-    
-    option = {
-		name = building_events.13.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.13.option.b" }
-        add_base_production = 1
-	}
+  option = {
+    name = building_events.13.option.a
+
+    add_building = wow_tavern
+  }
+
+  option = {
+    name = building_events.13.option.b
+
+    add_base_production = 1
+  }
 }
 
 # Strategic Report for [Root.GetName]
@@ -994,70 +801,55 @@ province_event = {
 # Build a workshop
 # Encourage other forms of manufacturing instead
 province_event = {
-	id = building_events.14
-	title = building_events.14.title
-	desc = building_events.14.desc
-	picture = CITY_DEVELOPMENT_eventPicture # Placeholder
+  id = building_events.14
+  title = building_events.14.title
+  desc = building_events.14.desc
+  picture = CITY_DEVELOPMENT_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_workshop }
-        num_free_building_slots = 1
-        controlled_by = owner
-
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_workshop }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.14.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.14.option.a" }
-        add_building = wow_workshop
-	}
-    
-    option = {
-		name = building_events.14.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.14.option.b" }
-        add_base_production = 1
-	}
+  option = {
+    name = building_events.14.option.a
+
+    add_building = wow_workshop
+  }
+  option = {
+    name = building_events.14.option.b
+
+    add_base_production = 1
+  }
 }
 
 #-------------------------------------------------------
@@ -1068,68 +860,53 @@ province_event = {
 # Construct fortifications
 # Save the gold instead
 province_event = {
-	id = building_events.15
-	title = building_events.15.title
-	desc = building_events.15.desc
-	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  id = building_events.15
+  title = building_events.15.title
+  desc = building_events.15.desc
+  picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
+  is_mtth_scaled_to_size = 1
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        NOT = { has_building = wow_fort_1 }
-        num_free_building_slots = 1
-        controlled_by = owner
-
-        owner = {
-            is_at_war = no
-        }
-	}
-
-    mean_time_to_happen = {
-        months = 600
-
-        modifier = {
-            factor = 2
-            
-            NOT = { development = 10 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 20 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 30 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 40 }
-        }
-        
-        modifier = {
-            factor = 0.9
-            
-            NOT = { development = 50 }
-        }
+  trigger = {
+    NOT = { has_building = wow_fort_1 }
+    num_free_building_slots = 1
+    controlled_by = owner
+    owner = {
+      is_at_war = no
     }
-    
-	option = {
-		name = building_events.15.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.15.option.a" }
-        add_building = wow_fort_1
-	}
-    
-    option = {
-		name = building_events.15.option.b
+  mean_time_to_happen = {
+    months = 600
+    modifier = {
+      factor = 2
+      NOT = { development = 10 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 20 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 30 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 40 }
+    }
+    modifier = {
+      factor = 0.9
+      NOT = { development = 50 }
+    }
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - building_events.15.option.b" }
-        owner = { add_treasury = 50 }
-	}
+  option = {
+    name = building_events.15.option.a
+
+    add_building = wow_fort_1
+  }
+  option = {
+    name = building_events.15.option.b
+
+    owner = { add_treasury = 50 }
+  }
 }

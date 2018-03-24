@@ -2,160 +2,139 @@ namespace = commoners_estate_disasters
 
 # Commoners have siezed control
 country_event = {
-	id = commoners_estate_disasters.1
-	title = commoners_estate_disasters.1.t
-	desc = commoners_estate_disasters.1.d
-	picture = BURNING_CASTLE_eventPicture
+  id = commoners_estate_disasters.1
+  title = commoners_estate_disasters.1.t
+  desc = commoners_estate_disasters.1.d
+  picture = BURNING_CASTLE_eventPicture
 
-	major = yes
-	is_triggered_only = yes
+  major = yes
+  is_triggered_only = yes
 
-	immediate = {
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - commoners_estate_disasters.1.a - immediate" }
+  immediate = {
+    add_stability = -5
+    if = {
+      limit = {
+        OR = {
+          technology_group = tech_human
+          technology_group = tech_darnassian
+          technology_group = tech_dwarven
+          technology_group = tech_worgen
+          technology_group = tech_thalassian
+          technology_group = tech_undead
+          technology_group = tech_aqir
+          technology_group = tech_naga
+          technology_group = tech_titan
+          technology_group = tech_elemental
+          technology_group = tech_mantid
+          technology_group = tech_ethereal
+        }
+      }
+      change_government = administrative_kingdom
+    }
+    if = {
+      limit = {
+        OR = {
+          technology_group = tech_gnome
+          technology_group = tech_goblin
+        }
+      }
+      change_government = mercantile_republic
+    }
+    if = {
+      limit = {
+        OR = {
+          technology_group = tech_draenei
+          technology_group = tech_old_god
+        }
+      }
+      change_government = militaristic_theocracy
+    }
+    if = {
+      limit = {
+        OR = {
+          technology_group = tech_orc
+          technology_group = tech_troll
+          technology_group = tech_ogre
+          technology_group = tech_demonic
+          technology_group = tech_satyr
+          technology_group = tech_centaur
+          technology_group = tech_mogu
+        }
+      }
+      change_government = warband_gov
+    }
+    if = {
+      limit = { technology_group = tech_scourge }
+      change_government = scourge_gov
+    }
+    if = {
+      limit = {
+        OR = {
+          technology_group = tech_tauren
+          technology_group = tech_pandaren
+          technology_group = tech_depths
+          technology_group = tech_gnoll
+          technology_group = tech_furbolg
+          technology_group = tech_wolfvar
+          technology_group = tech_gorloc
+          technology_group = tech_kobold
+          technology_group = tech_harpy
+          technology_group = tech_quillboar
+          technology_group = tech_arrakoa
+          technology_group = tech_tuskarr
+          technology_group = tech_yaungol
+          technology_group = tech_primitive
+          technology_group = tech_vrykul
+          technology_group = tech_magnataur
+        }
+      }
+      change_government = war_tribe
+    }
+    if = {
+      limit = { technology_group = tech_dragonkin }
+      change_government = dragonflight_gov
+    }
+  }
 
-		add_stability = -5
-		
-		if = {
-			limit = {
-				OR = {
-					technology_group = tech_human
-					technology_group = tech_darnassian
-					technology_group = tech_dwarven
-					technology_group = tech_worgen
-					technology_group = tech_thalassian
-					technology_group = tech_undead
-					technology_group = tech_aqir
-					technology_group = tech_naga
-					technology_group = tech_titan
-					technology_group = tech_elemental
-					technology_group = tech_mantid
-					technology_group = tech_ethereal
-				}
-			}
-			
-			change_government = administrative_kingdom
-		}
-		
-		if = {
-			limit = {
-				OR = {
-					technology_group = tech_gnome
-					technology_group = tech_goblin
-				}
-			}
-			
-			change_government = mercantile_republic
-		}
-		
-		if = {
-			limit = {
-				OR = {
-					technology_group = tech_draenei
-					technology_group = tech_old_god
-				}
-			}
-			
-			change_government = militaristic_theocracy
-		}
-		
-		if = {
-			limit = {
-				OR = {
-					technology_group = tech_orc
-					technology_group = tech_troll
-					technology_group = tech_ogre
-					technology_group = tech_demonic
-					technology_group = tech_satyr
-					technology_group = tech_centaur
-					technology_group = tech_mogu
-				}
-			}
-			
-			change_government = warband_gov
-		}
-		
-		if = {
-			limit = { technology_group = tech_scourge }
-			
-			change_government = scourge_gov
-		}
-		
-		if = {
-			limit = {
-				OR = {
-					technology_group = tech_tauren
-					technology_group = tech_pandaren
-					technology_group = tech_depths
-					technology_group = tech_gnoll
-					technology_group = tech_furbolg
-					technology_group = tech_wolfvar
-					technology_group = tech_gorloc
-					technology_group = tech_kobold
-					technology_group = tech_harpy
-					technology_group = tech_quillboar
-					technology_group = tech_arrakoa
-					technology_group = tech_tuskarr
-					technology_group = tech_yaungol
-					technology_group = tech_primitive
-					technology_group = tech_vrykul
-					technology_group = tech_magnataur
-				}
-			}
-			
-			change_government = war_tribe
-		}
-		
-		if = {
-			limit = { technology_group = tech_dragonkin }
-			change_government = dragonflight_gov
-		}
-	}
-	
-	option = {
-		name = commoners_estate_disasters.1.a
+  option = {
+    name = commoners_estate_disasters.1.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - commoners_estate_disasters.1.a" }
-
-		define_ruler = {
-			claim = 40
-		}
-	}
+    define_ruler = {
+      claim = 40
+    }
+  }
 }
 
 # Commoners are restless
 country_event = {
-    id = commoners_estate_disasters.2
-    title = commoners_estate_disasters.2.t
-    desc = commoners_estate_disasters.2.d
-    picture = ANGRY_MOB_eventPicture
+  id = commoners_estate_disasters.2
+  title = commoners_estate_disasters.2.t
+  desc = commoners_estate_disasters.2.d
+  picture = ANGRY_MOB_eventPicture
 
-    major = yes
-    is_triggered_only = yes
+  major = yes
+  is_triggered_only = yes
 
-    immediate = {
-        add_stability = -3
-    }
+  immediate = {
+    add_stability = -3
+  }
 
-    option = {
-        name = commoners_estate_disasters.2.a
-
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - commoners_estate_disasters.2.a" }
-    }
+  option = {
+    name = commoners_estate_disasters.2.a
+  }
 }
 
 # Commoners are loyal again
 country_event = {
-    id = commoners_estate_disasters.3
-    title = commoners_estate_disasters.3.t
-    desc = commoners_estate_disasters.3.d
-    picture = REFORM_eventPicture
+  id = commoners_estate_disasters.3
+  title = commoners_estate_disasters.3.t
+  desc = commoners_estate_disasters.3.d
+  picture = REFORM_eventPicture
 
-    major = yes
-    is_triggered_only = yes
+  major = yes
+  is_triggered_only = yes
 
-    option = {
-        name = commoners_estate_disasters.3.a
-
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - commoners_estate_disasters.3.a" }
-    }
+  option = {
+    name = commoners_estate_disasters.3.a
+  }
 }

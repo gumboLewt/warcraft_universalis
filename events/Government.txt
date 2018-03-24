@@ -8,17 +8,16 @@ country_event = {
 	title = wow_government.1.title
 	desc = wow_government.1.desc
 	picture = ANGRY_MOB_eventPicture # Placeholder
-    
-    is_triggered_only = yes
-    
+
+  is_triggered_only = yes
+
 	trigger = {
         is_civilized = yes
 	}
 
 	option = {
 		name = wow_government.1.option.a
-            
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.1.option.a" }
+
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -39,10 +38,8 @@ country_event = {
 				}
 			}
 		}
-		
 		if = {
 			limit = { has_estate = estate_commoners }
-				
 			add_estate_loyalty = {
 				estate = estate_commoners
 				loyalty = 5
@@ -52,8 +49,7 @@ country_event = {
 
 	option = {
 		name = wow_government.1.option.b
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.1.option.b" }
+
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -74,21 +70,17 @@ country_event = {
 				}
 			}
 		}
-		
 		if = {
 			limit = { has_estate = estate_merchants }
-				
 			add_estate_loyalty = {
 				estate = estate_merchants
 				loyalty = 5
 			}
 		}
 	}
-	
+
 	option = {
 		name = wow_government.1.option.c
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.1.option.c" }
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -109,10 +101,8 @@ country_event = {
 				}
 			}
 		}
-		
 		if = {
 			limit = { has_estate = estate_nobles }
-				
 			add_estate_loyalty = {
 				estate = estate_nobles
 				loyalty = 5
@@ -123,23 +113,22 @@ country_event = {
 
 # For savage races, i.e. Orcs
 # Ascension of [Root.Monarch.GetName]
-# As the cycle of life continues, [Root.Monarch.GetName] has arisen to the position of [Root.Monarch.GetTitle] in [Root.GetName]. 
+# As the cycle of life continues, [Root.Monarch.GetName] has arisen to the position of [Root.Monarch.GetTitle] in [Root.GetName].
 country_event = {
 	id = wow_government.2
 	title = wow_government.2.title
 	desc = wow_government.2.desc
 	picture = ANGRY_MOB_eventPicture # Placeholder
-    
-    is_triggered_only = yes
-    
+
+  is_triggered_only = yes
+
 	trigger = {
         NOT = { is_civilized = yes }
 	}
 
-    option = {
+  option = {
 		name = wow_government.2.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.2.option.a" }
+
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -160,10 +149,8 @@ country_event = {
 				}
 			}
 		}
-		
 		if = {
 			limit = { has_estate = estate_commoners }
-				
 			add_estate_loyalty = {
 				estate = estate_commoners
 				loyalty = 5
@@ -173,8 +160,7 @@ country_event = {
 
 	option = {
 		name = wow_government.2.option.b
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.2.option.b" }
+
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -195,21 +181,18 @@ country_event = {
 				}
 			}
 		}
-		
 		if = {
 			limit = { has_estate = estate_merchants }
-				
 			add_estate_loyalty = {
 				estate = estate_merchants
 				loyalty = 5
 			}
 		}
 	}
-	
+
 	option = {
 		name = wow_government.2.option.c
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_government.2.option.c" }
+
 		random_list = {
 			33 = {
 				add_ruler_modifier = {
@@ -230,10 +213,8 @@ country_event = {
 				}
 			}
 		}
-		
 		if = {
 			limit = { has_estate = estate_nobles }
-				
 			add_estate_loyalty = {
 				estate = estate_nobles
 				loyalty = 5

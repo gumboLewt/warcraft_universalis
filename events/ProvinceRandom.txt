@@ -11,66 +11,53 @@ province_event = {
 	desc = random_province.1.desc
 	picture = ANGRY_MOB_eventPicture # Placeholder
 
-    is_mtth_scaled_to_size = 1
-    
+  is_mtth_scaled_to_size = 1
+
 	trigger = {
         is_capital = no
         NOT = { is_core = owner }
         controlled_by = owner
 	}
 
-    mean_time_to_happen = {
-        months = 300
-        
-        modifier = {
-            factor = 2
-            
-            development = 5
-        }
-        
-        modifier = {
-            factor = 2
-            
-            development = 10
-        }
-        
-        modifier = {
-            factor = 2
-            
-            development = 15
-        }
+  mean_time_to_happen = {
+    months = 300
+    modifier = {
+      factor = 2
+      development = 5
     }
-    
+    modifier = {
+      factor = 2
+      development = 10
+    }
+    modifier = {
+      factor = 2
+      development = 15
+    }
+  }
+
 	option = {
 		name = random_province.1.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.1.option.a" }
-
-        set_local_autonomy = 75
+    set_local_autonomy = 75
 	}
-    
-    option = {
+
+  option = {
 		name = random_province.1.option.b
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.1.option.b" }
-
-        add_province_modifier = {
-            name = denied_autonomy
-            duration = 3650
-        }
+    add_province_modifier = {
+        name = denied_autonomy
+        duration = 3650
+    }
 	}
-    
-    option = {
+
+  option = {
 		name = random_province.1.option.c
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.1.option.c" }
-
-        add_province_modifier = {
-            name = incensed_people
-            duration = 3650
-        }
-        
-        add_scaled_local_mil_power = 10
+    add_province_modifier = {
+      name = incensed_people
+      duration = 3650
+    }
+    add_scaled_local_mil_power = 10
 	}
 }
 
@@ -85,47 +72,40 @@ province_event = {
 	desc = random_province.2.desc
 	picture = TAVERN_eventPicture
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        is_capital = no
-        controlled_by = owner
-        owner = {
-            is_civilized = yes
-        }
-	}
+  is_mtth_scaled_to_size = 1
 
-    mean_time_to_happen = {
-        months = 300
+  trigger = {
+    is_capital = no
+    controlled_by = owner
+    owner = {
+      is_civilized = yes
     }
-    
+  }
+
+  mean_time_to_happen = {
+    months = 300
+  }
+
 	option = {
 		name = random_province.2.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.2.option.a" }
-
-        add_base_tax = 2
+    add_base_tax = 2
 	}
-    
-    option = {
+
+  option = {
 		name = random_province.2.option.b
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.2.option.b" }
-
-        add_scaled_local_adm_power = 10
+    add_scaled_local_adm_power = 10
 	}
-    
-    option = {
+
+  option = {
 		name = random_province.2.option.c
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.2.option.c" }
-
-        add_province_modifier = {
-            name = sexually_frustrated
-            duration = 1825
-        }
-        
-        add_scaled_local_mil_power = 10
+    add_province_modifier = {
+      name = sexually_frustrated
+      duration = 1825
+    }
+    add_scaled_local_mil_power = 10
 	}
 }
 
@@ -135,46 +115,43 @@ province_event = {
 # Punish the soldiers
 # Punish the owners of the pit
 province_event = {
-	id = random_province.3
-	title = random_province.3.title
-	desc = random_province.3.desc
-	picture = BRAWL_eventPicture
+  id = random_province.3
+  title = random_province.3.title
+  desc = random_province.3.desc
+  picture = BRAWL_eventPicture
 
-    is_mtth_scaled_to_size = 1
-    
-	trigger = {
-        is_capital = no
-        controlled_by = owner
-        owner = {
-            OR = {
-                is_savage = yes
-                is_lesser = yes
-            }
-        }
-	}
+  is_mtth_scaled_to_size = 1
 
-    mean_time_to_happen = {
-        months = 300
+  trigger = {
+    is_capital = no
+    controlled_by = owner
+    owner = {
+      OR = {
+        is_savage = yes
+        is_lesser = yes
+      }
     }
-    
-	option = {
-		name = random_province.3.option.a
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.3.option.a" }
-        add_scaled_local_dip_power = 10
-	}
-    
-    option = {
-		name = random_province.3.option.b
+  mean_time_to_happen = {
+    months = 300
+  }
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.3.option.b" }
-        add_scaled_local_mil_power = 10
-	}
-    
-    option = {
-		name = random_province.3.option.c
+  option = {
+    name = random_province.3.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - random_province.3.option.c" }
-        add_scaled_local_adm_power = 10
-	}
+    add_scaled_local_dip_power = 10
+  }
+
+  option = {
+    name = random_province.3.option.b
+
+    add_scaled_local_mil_power = 10
+  }
+
+  option = {
+    name = random_province.3.option.c
+
+    add_scaled_local_adm_power = 10
+  }
 }

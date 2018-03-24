@@ -2,22 +2,20 @@ namespace = tribes_estate_disasters
 
 # The Tribes break free!
 country_event = {
-    id = tribes_estate_disasters.1
-    title = tribes_estate_disasters.1.t
-    desc = tribes_estate_disasters.1.d
-    picture = ANGRY_MOB_eventPicture
+  id = tribes_estate_disasters.1
+  title = tribes_estate_disasters.1.t
+  desc = tribes_estate_disasters.1.d
+  picture = ANGRY_MOB_eventPicture
 
-    major = yes
-    is_triggered_only = yes
+  major = yes
+  is_triggered_only = yes
 
-    immediate = {
-        add_stability = -3
-        create_independent_estate = estate_tribes
-    }
+  immediate = {
+    add_stability = -3
+    create_independent_estate = estate_tribes
+  }
 
-    option = {
-        name = tribes_estate_disasters.1.a
-
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - tribes_estate_disasters.1.a" }
-    }
+  option = {
+    name = tribes_estate_disasters.1.a
+  }
 }

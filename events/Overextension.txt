@@ -6,7 +6,7 @@ country_event = {
 	title = wow_overextension.1.title
 	desc = wow_overextension.1.desc
 	picture = MILITARY_CAMP_eventPicture
-	
+
 	trigger = {
 		is_at_war = yes
 	}
@@ -19,14 +19,10 @@ country_event = {
 	option = {
 		name = wow_overextension.1.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.1.option.a" }
-
 		add_war_exhaustion = 1
 		add_manpower = -0.05
-		
 		if = {
 			limit = { has_estate = estate_commoners }
-						
 			add_estate_loyalty = {
 				estate = estate_commoners
 				loyalty = -5
@@ -41,7 +37,7 @@ country_event = {
 	title = wow_overextension.2.title
 	desc = wow_overextension.2.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
-	
+
 	trigger = {
 		stability = -2
 	}
@@ -54,12 +50,9 @@ country_event = {
 	option = {
 		name = wow_overextension.2.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.2.option.a" }
 		add_stability = -1
-		
 		if = {
 			limit = { has_estate = estate_commoners }
-						
 			add_estate_loyalty = {
 				estate = estate_commoners
 				loyalty = -10
@@ -74,9 +67,9 @@ country_event = {
 	title = wow_overextension.3.title
 	desc = wow_overextension.3.desc
 	picture = DIPLOMACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		prestige = 0
 	}
@@ -88,13 +81,9 @@ country_event = {
 	option = {
 		name = wow_overextension.3.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.3.option.a" }
-
 		add_prestige = -25
-		
 		if = {
 			limit = { has_estate = estate_nobles }
-						
 			add_estate_loyalty = {
 				estate = estate_nobles
 				loyalty = -5
@@ -109,9 +98,9 @@ country_event = {
 	title = wow_overextension.4.title
 	desc = wow_overextension.4.desc
 	picture = DIPLOMACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { inflation = 50 }
 	}
@@ -123,13 +112,9 @@ country_event = {
 	option = {
 		name = wow_overextension.4.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.4.option.a" }
-
 		add_inflation = 1
-		
 		if = {
 			limit = { has_estate = estate_merchants }
-						
 			add_estate_loyalty = {
 				estate = estate_merchants
 				loyalty = -5
@@ -146,7 +131,7 @@ country_event = {
 	picture = LAND_MILITARY_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		army_tradition = 10
 	}
@@ -158,12 +143,9 @@ country_event = {
 	option = {
 		name = wow_overextension.5.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.5.option.a" }
 		add_army_tradition = -10
-		
 		if = {
 			limit = { has_estate = estate_nobles }
-						
 			add_estate_loyalty = {
 				estate = estate_nobles
 				loyalty = -5
@@ -180,19 +162,19 @@ country_event = {
 	picture = MERCHANTS_TALKING_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		num_of_merchants = 1
 		any_active_trade_node = {
-			NOT = { 
-				has_trade_modifier = {
-					who = ROOT
-					name = merchant_recalled
-				}
-			}	
+      NOT = {
+        has_trade_modifier = {
+          who = ROOT
+          name = merchant_recalled
+        }
+      }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -200,15 +182,14 @@ country_event = {
 	option = {
 		name = wow_overextension.6.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.6.option.a" }
 		random_active_trade_node = {
 			limit = {
-				NOT = { 
+				NOT = {
 					has_trade_modifier = {
 						who = ROOT
 						name = merchant_recalled
 					}
-				}				
+				}
 			}
 			if = {
 				limit = {
@@ -226,10 +207,8 @@ country_event = {
 				key = merchant_recalled
 			}
 		}
-		
 		if = {
 			limit = { has_estate = estate_merchants }
-						
 			add_estate_loyalty = {
 				estate = estate_merchants
 				loyalty = -5
@@ -246,19 +225,19 @@ country_event = {
 	picture = ASSASSINATION_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		num_of_merchants = 1
 		any_active_trade_node = {
-			NOT = { 
+			NOT = {
 				has_trade_modifier = {
 					who = ROOT
 					name = merchant_recalled
 				}
 			}
-		}	
+		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -266,27 +245,24 @@ country_event = {
 	option = {
 		name = wow_overextension.7.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.7.option.a" }
 		random_active_trade_node = {
 			limit = {
-				NOT = { 
+				NOT = {
 					has_trade_modifier = {
 						who = ROOT
 						name = merchant_recalled
 					}
-				}				
+				}
 			}
 			add_trade_modifier = {
 				who = root
 				duration = 3650
 				power = -10
 				key = merchant_recalled
-			}	
-		}	
-
+			}
+		}
 		if = {
 			limit = { has_estate = estate_merchants }
-						
 			add_estate_loyalty = {
 				estate = estate_merchants
 				loyalty = -5
@@ -301,9 +277,9 @@ country_event = {
 	title = wow_overextension.8.title
 	desc = wow_overextension.8.desc
 	picture = COURT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		legitimacy_or_horde_unity = 15
 		government = monarchy
@@ -313,11 +289,10 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = wow_overextension.8.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.8.option.a" }
 		if = {
 			limit = { NOT = { government = khas } }
 			add_legitimacy = -15
@@ -326,10 +301,8 @@ country_event = {
 			limit = { government = khas }
 			add_horde_unity = -15
 		}
-		
 		if = {
 			limit = { has_estate = estate_nobles }
-						
 			add_estate_loyalty = {
 				estate = estate_nobles
 				loyalty = -5
@@ -346,11 +319,11 @@ country_event = {
 	picture = DEBATE_REPUBLICAN_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		dip_power = 10
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -358,12 +331,9 @@ country_event = {
 	option = {
 		name = wow_overextension.9.option.a
 
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.9.option.a" }
 		add_dip_power = -50
-		
 		if = {
 			limit = { has_estate = estate_nobles }
-						
 			add_estate_loyalty = {
 				estate = estate_nobles
 				loyalty = -5
@@ -378,9 +348,9 @@ country_event = {
 	title = wow_overextension.10.title
 	desc = wow_overextension.10.desc
 	picture = wow_overextension_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		OR = {
 			advisor = philosopher
@@ -396,8 +366,6 @@ country_event = {
 
 	option = {
 		name = wow_overextension.10.option.a
-
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - wow_overextension.10.option.a" }
 
 		if = {
 			limit = {
@@ -423,10 +391,8 @@ country_event = {
 			}
 			remove_advisor = statesman
 		}
-		
 		if = {
 			limit = { has_estate = estate_nobles }
-						
 			add_estate_loyalty = {
 				estate = estate_nobles
 				loyalty = -5

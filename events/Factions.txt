@@ -6,8 +6,8 @@ country_event = {
 	title = factions.1.title
 	desc = factions.1.desc
 	picture = KAELTHAS_CLOSE_eventPicture
-
 	major = yes
+
 	trigger = {
 		is_evil = yes
 		has_country_modifier = alliance_member
@@ -21,9 +21,8 @@ country_event = {
 
 	option = {
 		name = factions.1.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - factions.1.option.a" }
-        opinions_left_alliance = yes
+
+    opinions_left_alliance = yes
 	}
 }
 
@@ -35,7 +34,7 @@ country_event = {
 	picture = LOTHAR_FIRE_eventPicture
 
 	major = yes
-    
+
 	trigger = {
 		is_subject = yes
 		has_country_modifier = alliance_member
@@ -51,9 +50,8 @@ country_event = {
 
 	option = {
 		name = factions.2.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - factions.2.option.a" }
-        opinions_left_alliance = yes
+
+    opinions_left_alliance = yes
 	}
 }
 
@@ -78,9 +76,8 @@ country_event = {
 
 	option = {
 		name = factions.3.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - factions.3.option.a" }
-        opinions_left_horde = yes
+
+    opinions_left_horde = yes
 	}
 }
 
@@ -107,9 +104,8 @@ country_event = {
 
 	option = {
 		name = factions.4.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - factions.4.option.a" }
-        opinions_left_horde = yes
+
+    opinions_left_horde = yes
 	}
 }
 
@@ -122,18 +118,16 @@ country_event = {
 	picture = BLIND_PALADIN_eventPicture
 
 	major = yes
-    is_triggered_only = yes
-    
+  is_triggered_only = yes
+
 	trigger = {
 		has_country_modifier = alliance_head
 	}
 
 	option = {
 		name = factions.5.option.a
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - factions.5.option.a" }
+
 		remove_country_modifier = alliance_head
-        
 		random_country = {
 			limit = { has_country_modifier = alliance_member }
 			add_country_modifier = {
@@ -152,21 +146,18 @@ country_event = {
 	picture = ORC_SHAMAN_eventPicture
 
 	major = yes
-    is_triggered_only = yes
-    
+  is_triggered_only = yes
+
 	trigger = {
 		has_country_modifier = horde_head
 	}
 
 	option = {
 		name = factions.6.option.a
-        
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - factions.6.option.a" }
-        remove_country_modifier = horde_head
-        
+
+    remove_country_modifier = horde_head
 		random_country = {
 			limit = { has_country_modifier = horde_member }
-            
 			add_country_modifier = {
 				name = horde_head
 				duration = -1

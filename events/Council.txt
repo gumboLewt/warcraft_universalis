@@ -8,82 +8,74 @@ namespace = WOW_COUNCIL
 # I will forge an alliance with a neighbouring realm
 # I will support an royal marriage with a neighbouring realm
 # I will go to war with a neighbour
-# I will ensure our realm's prosperity 
+# I will ensure our realm's prosperity
 country_event = {
 	id = WOW_COUNCIL.1
 	title = WOW_COUNCIL.1.title
 	desc = WOW_COUNCIL.1.desc
 	picture = DIET_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	# War with neighbour
 	option = {
 		name = WOW_COUNCIL.1.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.1.option.a" }
 
-		trigger = {
-			any_neighbor_country = {  
-				NOT = { is_rival = ROOT }
-				NOT = { war_with = ROOT }
-                OR = {
-                    AND = {
-                        ROOT = { is_civilized = yes }
-                        is_civilized = yes
-                    }
-                    AND = {
-                        ROOT = { is_savage = yes }
-                        is_savage = yes
-                    }
-                    AND = {
-                        ROOT = { is_lesser = yes }
-                        is_lesser = yes
-                    }
-                }
-			}
-		}
-		
+    trigger = {
+      any_neighbor_country = {
+        NOT = { is_rival = ROOT }
+        NOT = { war_with = ROOT }
+        OR = {
+          AND = {
+            ROOT = { is_civilized = yes }
+            is_civilized = yes
+          }
+          AND = {
+            ROOT = { is_savage = yes }
+            is_savage = yes
+          }
+          AND = {
+            ROOT = { is_lesser = yes }
+            is_lesser = yes
+          }
+        }
+      }
+    }
+
 		add_country_modifier = {
 			name = council_request_timer_001
 			duration = 3650
 		}
 		set_country_flag = assembled_council
-		
 		ai_chance = {
 			factor = 10
 		}
 	}
-	
+
 	# Stability = 3
 	option = {
 		name = WOW_COUNCIL.1.option.b
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.1.option.b" }
 
 		trigger = {
 			NOT = { stability = 3 }
 		}
-		
+
 		add_country_modifier = {
 			name = council_request_timer_002
 			duration = 3650
 		}
 		set_country_flag = assembled_council
-		
 		ai_chance = {
 			factor = 10
 		}
 	}
-	
+
 	# Guarantee neighbour
 	option = {
 		name = WOW_COUNCIL.1.option.c
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.1.option.c" }
 
 		trigger = {
-			any_neighbor_country = {  
+			any_neighbor_country = {
 				NOT = { is_rival = ROOT }
 				has_opinion = {
 					who = ROOT
@@ -94,7 +86,7 @@ country_event = {
 				}
 			}
 		}
-		
+
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -103,26 +95,23 @@ country_event = {
 				set_country_flag = temp_council_guarantee
 			}
 		}
-		
+
 		add_country_modifier = {
 			name = council_request_timer_003
 			duration = 3650
 		}
 		set_country_flag = assembled_council
-		
 		ai_chance = {
 			factor = 10
 		}
 	}
-	
+
 	# Ally neighbour
 	option = {
 		name = WOW_COUNCIL.1.option.d
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.1.option.d" }
 
 		trigger = {
-			any_neighbor_country = {  
+			any_neighbor_country = {
 				NOT = { is_rival = ROOT }
 				has_opinion = {
 					who = ROOT
@@ -133,7 +122,7 @@ country_event = {
 				}
 			}
 		}
-		
+
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -142,26 +131,22 @@ country_event = {
 				set_country_flag = temp_council_alliance
 			}
 		}
-		
 		add_country_modifier = {
 			name = council_request_timer_004
 			duration = 3650
 		}
 		set_country_flag = assembled_council
-		
 		ai_chance = {
 			factor = 10
 		}
 	}
-	
+
 	# Marry neighbour
 	option = {
 		name = WOW_COUNCIL.1.option.e
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.1.option.e" }
 
 		trigger = {
-			any_neighbor_country = {  
+			any_neighbor_country = {
 				NOT = { is_rival = ROOT }
 				has_opinion = {
 					who = ROOT
@@ -172,7 +157,7 @@ country_event = {
 				}
 			}
 		}
-		
+
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -181,29 +166,25 @@ country_event = {
 				set_country_flag = temp_council_marriage
 			}
 		}
-		
+
 		add_country_modifier = {
 			name = council_request_timer_005
 			duration = 3650
 		}
 		set_country_flag = assembled_council
-		
 		ai_chance = {
 			factor = 10
 		}
 	}
-	
+
 	# Ignore their requests
 	option = {
 		name = WOW_COUNCIL.1.option.g
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.1.option.g" }
 
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -25
 		}
-		
 		ai_chance = {
 			factor = 10
 		}
@@ -217,24 +198,21 @@ country_event = {
 	desc = WOW_COUNCIL.2.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 
-	trigger = {
-		has_country_flag = assembled_council
-        NOT = { has_country_modifier = council_request_timer_001 }
-        NOT = { has_country_modifier = council_request_timer_002 }
-        NOT = { has_country_modifier = council_request_timer_003 }
-        NOT = { has_country_modifier = council_request_timer_004 }
-        NOT = { has_country_modifier = council_request_timer_005 }
-	}
-	
+  trigger = {
+    has_country_flag = assembled_council
+    NOT = { has_country_modifier = council_request_timer_001 }
+    NOT = { has_country_modifier = council_request_timer_002 }
+    NOT = { has_country_modifier = council_request_timer_003 }
+    NOT = { has_country_modifier = council_request_timer_004 }
+    NOT = { has_country_modifier = council_request_timer_005 }
+  }
+
 	immediate = {
 		clr_country_flag = assembled_council
-		
 	}
-	
+
 	option = {
 		name = WOW_COUNCIL.2.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.2.option.a" }
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -25
@@ -251,20 +229,19 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = council_request_timer_001
-		any_neighbor_country = {  
+		any_neighbor_country = {
 			war_with = ROOT
 		}
 	}
-	
+
 	immediate = {
 		clr_country_flag = assembled_council
 		remove_country_modifier = council_request_timer_001
 	}
-	
+
 	option = {
 		name = WOW_COUNCIL.3.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.3.option.a" }
+
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25
@@ -281,28 +258,26 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = council_request_timer_003
-		any_neighbor_country = {  
+		any_neighbor_country = {
 			has_country_flag = temp_council_guarantee
 			guaranteed_by = ROOT
 		}
 	}
-	
+
 	immediate = {
 		clr_country_flag = assembled_council
 		remove_country_modifier = council_request_timer_003
-		
 		hidden_effect = {
-			every_country = {  
+			every_country = {
 				limit = { has_country_flag = temp_council_guarantee }
 				clr_country_flag = temp_council_guarantee
 			}
 		}
 	}
-	
+
 	option = {
 		name = WOW_COUNCIL.4.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.4.option.a" }
+
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25
@@ -319,28 +294,26 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = council_request_timer_004
-		any_neighbor_country = {  
+		any_neighbor_country = {
 			has_country_flag = temp_council_alliance
 			alliance_with = ROOT
 		}
 	}
-	
+
 	immediate = {
 		clr_country_flag = assembled_council
 		remove_country_modifier = council_request_timer_004
-		
 		hidden_effect = {
-			every_country = {  
+			every_country = {
 				limit = { has_country_flag = temp_council_alliance }
 				clr_country_flag = temp_council_alliance
 			}
 		}
 	}
-	
+
 	option = {
 		name = WOW_COUNCIL.5.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.5.option.a" }
+
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25
@@ -357,28 +330,26 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = council_request_timer_005
-		any_neighbor_country = {  
+		any_neighbor_country = {
 			has_country_flag = temp_council_marriage
 			marriage_with = ROOT
 		}
 	}
-	
+
 	immediate = {
 		clr_country_flag = assembled_council
 		remove_country_modifier = council_request_timer_005
-		
 		hidden_effect = {
-			every_country = {  
+			every_country = {
 				limit = { has_country_flag = temp_council_marriage }
 				clr_country_flag = temp_council_marriage
 			}
 		}
 	}
-	
+
 	option = {
 		name = WOW_COUNCIL.6.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.6.option.a" }
+
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25
@@ -397,16 +368,15 @@ country_event = {
 		has_country_modifier = council_request_timer_002
 		stability = 3
 	}
-	
+
 	immediate = {
 		clr_country_flag = assembled_council
 		remove_country_modifier = council_request_timer_002
 	}
-	
+
 	option = {
 		name = WOW_COUNCIL.7.option.a
-		
-        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - WOW_COUNCIL.7.option.a" }
+
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 25
