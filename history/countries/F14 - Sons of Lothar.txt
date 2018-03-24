@@ -12,32 +12,26 @@ add_accepted_culture = culture_arathi
 add_accepted_culture = culture_lordaeron
 capital 			= 1590
 
-816.1.1 = { 
-	monarch = { 
-		name = "Khadgar" 
-		dynasty = "of Kul Tiras" 
+816.1.1 = {
+	monarch = {
+		name = "Khadgar"
+		dynasty = "of Kul Tiras"
 		adm = 4
 		dip = 4
-		mil = 5 
+		mil = 5
  	}
-    add_country_modifier = {
-        name = alliance_member
-        duration = -1
-    } 
-    add_country_modifier = {
-        name = gift_of_fate
-        duration = 3650
-    }
-} 
+  add_country_modifier = {
+      name = alliance_member
+      duration = -1
+  }
+}
 
-971.1.1 = { 
-	monarch = { 
-		name = "Danath" 
-		dynasty = "Trollbane" 
+971.1.1 = {
+	monarch = {
+		name = "Danath"
+		dynasty = "Trollbane"
 		adm = 4
 		dip = 3
 		mil = 5
  	}
 }
-
-
