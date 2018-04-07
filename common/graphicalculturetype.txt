@@ -40,15 +40,12 @@ hozengfx
 saurokgfx
 taunkagfx
 icegiantgfx
-seagiantgfx
 mountaingiantgfx
 dryadgfx
 virmengfx
-voidgfx
 zangargfx
 pygmygfx
 cryptfiendgfx
-nerubiangfx
 brokengfx
 dwarvengfx
 darkirongfx
@@ -65,5 +62,4 @@ ghostgfx
 magnataurgfx
 trogggfx
 grummlegfx
-fallenarrakoagfx
 northrendtitangfx

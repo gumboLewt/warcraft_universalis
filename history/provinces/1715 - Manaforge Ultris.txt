@@ -26,7 +26,6 @@ hre = no
   controller = XXX
   remove_core = A93
 
-  culture = culture_voidwalker
   religion = religion_void
 
   trade_goods = adamantite

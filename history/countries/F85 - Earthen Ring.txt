@@ -1,50 +1,27 @@
 # Earthen Ring
-government 			= religious_tribe
-mercantilism 		= 10
-technology_group 	= tech_tauren
-religion			= religion_ancestral
-primary_culture 	= culture_skychaser
-capital 			= 1
-
-
-901.1.1 = { 
-	monarch = { 
-		name = "Muln" 
-		dynasty = "Earthfury" 
-		adm = 3
-		dip = 4
-		mil = 3  
-	} 
-}
-
-906.1.1 = {
-add_country_modifier = {
-    name = horde_member
-    duration = -1
-}
-}
-
-926.1.1 = {
-primary_culture 	= culture_horde
-add_accepted_culture 	= culture_skychaser
-add_accepted_culture 	= culture_darkspear
-technology_group 	= tech_orc
-}
+government = religious_tribe
+mercantilism = 10
+technology_group = tech_orc
+religion = religion_ancestral
+primary_culture = culture_horde
+add_accepted_culture = culture_bloodhoof
+add_accepted_culture = culture_darkspear
+capital = 1630
 
 941.1.1 = {
-add_country_modifier = {
+  add_country_modifier = {
     name = neutral_member
     duration = -1
+  }
+  add_accepted_culture = culture_broken
 }
-add_accepted_culture = culture_broken
-} 
 
-951.1.1 = { 
-	monarch = { 
-		name = "Thrall" 
-		dynasty = "Durotan" 
+951.1.1 = {
+	monarch = {
+		name = "Thrall"
+		dynasty = "Durotan"
 		adm = 4
 		dip = 5
-		mil = 3               
-	} 
+		mil = 3
+	}
 }

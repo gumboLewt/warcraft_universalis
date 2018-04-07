@@ -1,166 +1,53 @@
 cb_scourge = {
-	valid_for_subject = no
+  valid_for_subject = no
 
-	prerequisites = {
-		is_neighbor_of = FROM
-		FROM = {
-			NOT = { religion = religion_the_damned }
-		}
-		religion = religion_the_damned
-	}
-	
-	war_goal = superiority_horde
+  prerequisites = {
+    is_neighbor_of = FROM
+    FROM = {
+      NOT = { religion = religion_the_damned }
+    }
+    religion = religion_the_damned
+  }
+
+  war_goal = superiority_horde
 }
 
 cb_for_the_alliance = {
-	valid_for_subject = no
+  valid_for_subject = no
 
-	prerequisites = {
-		has_country_modifier = alliance_member
-		FROM = {
-			has_country_modifier = horde_member
-		}
-	}
-	
-	war_goal = superiority_insult_mutual
+  prerequisites = {
+    has_country_modifier = alliance_member
+    FROM = {
+      has_country_modifier = horde_member
+    }
+  }
+
+  war_goal = superiority_insult_mutual
 }
 
 cb_for_the_horde = {
-	valid_for_subject = no
+  valid_for_subject = no
 
-	prerequisites = {
-		has_country_modifier = horde_member
-		FROM = {
-			has_country_modifier = alliance_member
-		}
-	}
-	
-	war_goal = superiority_insult_mutual
+  prerequisites = {
+    has_country_modifier = horde_member
+    FROM = {
+      has_country_modifier = alliance_member
+    }
+  }
+
+  war_goal = superiority_insult_mutual
 }
 
 cb_petty_squabbles = {
-	valid_for_subject = no
+  valid_for_subject = no
 
-	prerequisites = {
-        is_neighbor_of = FROM
-		is_lesser = yes
-		FROM = {
-			is_lesser = yes
-		}
-	}
-	
-	war_goal = superiority_horde
-}
+  prerequisites = {
+    is_neighbor_of = FROM
+    is_lesser = yes
+    FROM = {
+      is_lesser = yes
+    }
+  }
 
-#cb_warband_raid = {
-#	valid_for_subject = no
-#
-#	prerequisites = {
-#        is_neighbor_of = FROM
-#		government = warband_gov
-#        FROM = {
-#            government = warband_gov
-#        }
-#	}
-#	
-#	war_goal = superiority_horde
-#}
-
-cb_silvermoon_land = {
-    valid_for_subject = yes
-    
-    prerequisites = {   
-        tag = A91
-		OR = {
-            region_isle_of_quel_danas = {
-                owned_by = FROM
-            }
-            region_eversong_woods = {
-                owned_by = FROM
-            }
-            region_ghostlands = {
-                owned_by = FROM
-            }
-            region_isle_of_quel_danas = {
-                owned_by = FROM
-            }
-        }
-	}	
-    
-    war_goal = superiority_horde
-}
-
-cb_draenei_scum = {
-	valid_for_subject = no
-
-	prerequisites = {
-		capital_scope = { continent = continent_outland }
-        culture_group = culture_group_orc
-        government = warband_gov
-        OR = {
-            has_country_flag = joined_nerzhul
-            has_country_flag = joined_guldan
-            has_country_flag = accepted_the_demonsblood
-        }
-		FROM = {
-			capital_scope = { continent = continent_outland }
-            culture_group = culture_group_draenei
-		}
-	}
-	
-	war_goal = superiority_horde
-}
-
-cb_orc_scum = {
-	valid_for_subject = no
-
-	prerequisites = {
-		capital_scope = { continent = continent_outland }
-        culture_group = culture_group_orc
-        government = warband_gov
-        has_country_flag = accepted_the_demonsblood
-		FROM = {
-			capital_scope = { continent = continent_outland }
-            culture_group = culture_group_orc
-            government = warband_gov
-            NOT = { has_country_flag = accepted_the_demonsblood }
-		}
-	}
-	
-	war_goal = superiority_horde
-}
-
-cb_the_dying_times = {
-	valid_for_subject = no
-
-	prerequisites = {
-		capital_scope = { continent = continent_outland }
-        culture_group = culture_group_orc
-        government = warband_gov
-		FROM = {
-			capital_scope = { continent = continent_outland }
-            culture_group = culture_group_orc
-            government = warband_gov
-		}
-        has_global_flag = the_dying_times
-	}
-	
-	war_goal = superiority_horde
-}
-
-cb_azeroth_assault = {
-	valid_for_subject = no
-
-	prerequisites = {
-        has_global_flag = the_first_war
-        
-        culture_group = culture_group_orc
-        government = warband_gov
-		FROM = {
-			capital_scope = { continent = continent_eastern_kingdoms }
-            NOT = { government = warband_gov }
-		}
-	}
-	
-	war_goal = superiority_horde
+  war_goal = superiority_horde
 }

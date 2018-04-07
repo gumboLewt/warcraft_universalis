@@ -1,21 +1,11 @@
 # Echo Isles
-government 			= militaristic_kingdom
+government 			= militaristic_theocracy
 mercantilism 		= 10
-technology_group 	= tech_titan
-religion			= religion_titan
-primary_culture 	= culture_sea_giant
+technology_group 	= tech_troll
+religion			= religion_voodoo
+primary_culture 	= culture_darkspear
 capital 			= 1384
 
-
-546.1.1 = {
-  monarch = {
-    name = "Moroc"
-    dynasty = "Sea King"
-    adm = 3
-    dip = 3
-    mil = 3
-  }
-}
 
 926.1.1 = {
   monarch = {
@@ -25,8 +15,4 @@ capital 			= 1384
     dip = 4
     mil = 3
   }
-  technology_group 	= tech_troll
-  government = militaristic_theocracy
-  primary_culture = culture_darkspear
-  religion = religion_voodoo
 }

@@ -15,7 +15,6 @@ azerothian_ideas = {
 	trigger = {
 		OR = {
 			primary_culture = culture_azerothian
-			primary_culture = culture_azerothian_worgen
 		}
 	}
 	free = yes		
@@ -141,7 +140,6 @@ arathi_ideas = {
 	trigger = {
 		OR = {
 			primary_culture = culture_arathi
-			primary_culture = culture_arathi_worgen
 		}
 	}
 	free = yes		
@@ -231,7 +229,6 @@ alterac_ideas = {
 	trigger = {
 		OR = {
 			primary_culture = culture_alterac
-			primary_culture = culture_alterac_worgen
 		}
 	}
 	free = yes		
@@ -272,7 +269,6 @@ dalaran_ideas = {
 	trigger = {
 		OR = {
 			primary_culture = culture_dalaran
-			primary_culture = culture_dalaran_worgen
 		}
 	}
 	free = yes		
@@ -313,7 +309,6 @@ tirasian_ideas = {
 	trigger = {
 		OR = {
 			primary_culture = culture_tirasian
-			primary_culture = culture_tirasian_worgen
 		}
 	}
 	free = yes		

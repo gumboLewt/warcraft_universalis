@@ -6,89 +6,20 @@ alliance_alliance = {
 	opinion = 50
 }
 
-alliance_neutral = {
-	opinion = 25
-}
-
 alliance_horde = {
 	opinion = -50
-}
-# Unaligned Countries will be referred to as "Creeps", like those hostile neutral units in Warcraft 3
-alliance_creep = {
-	opinion = -10
 }
 
 horde_horde = {
 	opinion = 50
 }
 
-horde_neutral = {
-	opinion = 25
-}
-
 horde_alliance = {
 	opinion = -50
 }
 
-horde_creep = {
-	opinion = -10
-}
-
-neutral_neutral = {
-	opinion = 25
-}
-
-neutral_alliance = {
-	opinion = 25
-}
-
-neutral_horde = {
-	opinion = 25
-}
-
-neutral_creep = {
-	opinion = -10
-}
-
-raided_by_orcs = {
-    opinion = -50
-    yearly_decay = 2
-    max_opinion = -200
-}
-
 dubious_dealings = {
     opinion = 50
-}
-
-# Rise of the Horde
-allies_of_nerzhul = {
-    opinion = 50
-    yearly_decay = -5
-}
-
-enemies_of_nerzhul = {
-    opinion = -50
-    yearly_decay = 5
-}
-
-allies_of_guldan = {
-    opinion = 100
-    yearly_decay = -5
-}
-
-enemies_of_guldan = {
-    opinion = -100
-    yearly_decay = 5
-}
-
-accepted_the_demonsblood = {
-    opinion = 200
-    yearly_decay = 5
-}
-
-rejected_the_demonsblood = {
-    opinion = -200
-    yearly_decay = 5
 }
 
 isolationist = {

@@ -21,6 +21,6 @@ hre = yes
   add_core = P75
   remove_core = P84
 
-  culture = culture_snagtooth
+  culture = culture_twitcheel
   religion = religion_geomancy
 }
