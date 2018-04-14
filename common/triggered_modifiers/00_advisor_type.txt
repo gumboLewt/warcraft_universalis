@@ -1,31 +1,61 @@
 matriarchal = {
-	potential = {
-        OR = {
-            culture_group = culture_group_naga
-            culture_group = culture_group_harpy
-            culture_group = culture_group_dryad
-        }
-	}
-	
-	trigger = {
-        OR = {
-            culture_group = culture_group_naga
-            culture_group = culture_group_harpy
-            culture_group = culture_group_dryad
-        }
-	}
-	
-	female_advisor_chance = 1.0
+  potential = {
+    OR = {
+      culture_group = culture_group_naga
+      culture_group = culture_group_harpy
+      culture_group = culture_group_dryad
+    }
+  }
+
+  trigger = {
+    OR = {
+      culture_group = culture_group_naga
+      culture_group = culture_group_harpy
+      culture_group = culture_group_dryad
+    }
+  }
+
+  female_advisor_chance = 1.0
+}
+
+patriarchal = {
+  potential = {
+    OR = {
+      culture_group = culture_group_ogre
+      culture_group = culture_group_grummle
+      culture_group = culture_group_mogu
+      culture_group = culture_group_pygmy
+    }
+  }
+
+  trigger = {
+    OR = {
+      culture_group = culture_group_ogre
+      culture_group = culture_group_grummle
+      culture_group = culture_group_mogu
+      culture_group = culture_group_pygmy
+    }
+  }
+
+  female_advisor_chance = 0.0
 }
 
 egalitarian = {
-    potential = {
-        always = no
-	}
-	
-	trigger = {
+  potential = {
+    always = yes
+  }
 
-	}
-	
-	female_advisor_chance = 0.5
+  trigger = {
+    NOT = {
+      culture_group = culture_group_naga
+      culture_group = culture_group_harpy
+      culture_group = culture_group_dryad
+      culture_group = culture_group_ogre
+      culture_group = culture_group_grummle
+      culture_group = culture_group_mogu
+      culture_group = culture_group_pygmy
+    }
+  }
+
+  female_advisor_chance = 0.5
 }

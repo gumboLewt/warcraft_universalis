@@ -2,7 +2,7 @@
 --
 -- NDefines.NDiplomacy.MAX_CLIENT_STATES = 20
 
-NDefines.NGame.START_DATE = "901.1.1"
+NDefines.NGame.START_DATE = "926.1.1"
 NDefines.NGame.END_DATE = "100000.1.1"
 NDefines.NGame.MAX_RANDOM_NEW_WORLD = "1000.1.1"
 
@@ -23,7 +23,7 @@ NDefines.NReligion.KARMA_RESTORE_ON_RULER_DEATH = 0
 NDefines.NCountry.MONARCH_DEATH = 2
 
 NDefines.NCountry.ALLOW_FEMALE_GENERALS = 1
-NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 50
+NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 0
 
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_1 = 291
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_2 = 406
