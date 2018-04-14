@@ -9,8 +9,13 @@ bookmark =
 	name = "MISTS_OF_PANDARIA_NAME"
 	desc = "MISTS_OF_PANDARIA_DESC"
 	date = 976.1.1
-    
-    country = P34
-    country = F02
-    country = P37
+
+  country = B84
+  country = P92
+  country = P34
+  country = F02
+  country = P37
+  country = P84
+  country = A48
+  country = A01
 }

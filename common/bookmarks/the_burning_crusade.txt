@@ -10,10 +10,11 @@ bookmark =
 	desc = "THE_BURNING_CRUSADE_DESC"
 	date = 941.1.1
 
-  country = A93
   country = B92
   country = B87
-  country =B89
+  country = A54
+  country = A50
+  country = F14
+  country = A91
+  country = A56
 }
-
-

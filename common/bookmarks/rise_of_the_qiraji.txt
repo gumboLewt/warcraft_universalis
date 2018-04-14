@@ -9,6 +9,13 @@ bookmark =
 	name = "RISE_OF_THE_QIRAJI_NAME"
 	desc = "RISE_OF_THE_QIRAJI_DESC"
 	date = 926.1.1
-    
-    country = A97
+
+  country = A97
+  country = H03
+  country = A48
+  country = A29
+  country = F88
+  country = A01
+  country = P14
+  country = A94
 }

@@ -9,8 +9,13 @@ bookmark =
 	name = "CATACLYSM_NAME"
 	desc = "CATACLYSM_DESC"
 	date = 971.1.1
-    
-    country = A99
-    
-}
 
+  country = A99
+  country = A43
+  country = P26
+  country = A78
+  country = A48
+  country = A01
+  country = A70
+  country = A32
+}
