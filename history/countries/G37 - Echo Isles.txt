@@ -4,7 +4,7 @@ mercantilism 		= 10
 technology_group 	= tech_troll
 religion			= religion_voodoo
 primary_culture 	= culture_darkspear
-capital 			= 1384
+capital 			= 1385
 
 
 926.1.1 = {

@@ -6,13 +6,13 @@ country_decisions = {
         }
         allow = {
             technology_group = tech_dragonkin
-            capital = {
+            capital_scope = {
                 has_siege = yes
             }
         }
         effect = {
-            capital = {
-                controller = ROOT
+            capital_scope = {
+                change_controller = owner
             }
         }
         ai_will_do = {

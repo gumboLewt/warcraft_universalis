@@ -1,7 +1,6 @@
 # country
 on_startup = {
     events = {
-        discovery.1  # Discovery
         setup.1 # Global
         setup.2 # Country specific
     }
@@ -81,10 +80,6 @@ on_battle_won_country = {
 # country
 # root = loser country, from = winner country
 on_battle_lost_country = {
-    if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - winner : [From.GetName] - loser : [Root.GetName] - on_battle_lost_country" }
-    events = {
-        rise_of_the_horde.6
-    }
 }
 
 # province

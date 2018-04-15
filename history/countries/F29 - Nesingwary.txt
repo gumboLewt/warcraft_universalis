@@ -4,7 +4,7 @@ mercantilism 		= 10
 technology_group 	= tech_dwarven
 religion			= religion_church_of_the_light
 primary_culture 	= culture_ironforge
-capital 			= 1
+capital 			= 636
 
 926.1.1 = { 
 monarch = { 

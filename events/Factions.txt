@@ -64,7 +64,7 @@ country_event = {
 
 	major = yes
 	trigger = {
-		is_evil = true
+		is_evil = yes
 		has_country_modifier = horde_member
 	}
 

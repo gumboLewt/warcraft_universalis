@@ -6,13 +6,13 @@ religion			= religion_old_gods
 primary_culture 	= culture_mantid
 capital 			= 1
 
-546.1.1 = { 
-	monarch = { 
-		name = "Zhek'zed " 
-		dynasty = "" 
+546.1.1 = {
+	monarch = {
+		name = "Zhek'zed "
+		dynasty = " "
 		adm = 3
 		dip = 3
 		mil = 3
-                female = yes
-	} 
+    female = yes
+	}
 }

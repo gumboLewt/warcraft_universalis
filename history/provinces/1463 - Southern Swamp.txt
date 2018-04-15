@@ -1,8 +1,8 @@
 # 1463 - Southern Swamp.txt
 is_city = yes
 
-controller = A23
 owner = A23
+controller = A23
 add_core = A23
 
 base_tax = 2

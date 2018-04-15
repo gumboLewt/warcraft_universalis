@@ -3,7 +3,7 @@ is_city = yes
 
 owner = P99
 controller = P99
-add_core = RP99
+add_core = P99
 
 base_tax = 4
 base_production = 4

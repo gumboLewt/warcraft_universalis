@@ -20,7 +20,6 @@ capital 			= 720
 		leader = {
 			name = "Ataeric of Dalaran"
 			type = general
-			rank = 0
 			fire = 3
 			shock = 5
 			manuever = 2

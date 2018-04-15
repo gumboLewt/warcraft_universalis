@@ -20,7 +20,6 @@ capital             = 2963
 		leader = {
 			name = "Ivar Bloodfang"	
 			type = general	
-			rank = 0	
 			fire = 3	
 			shock = 5	
 			manuever = 5	

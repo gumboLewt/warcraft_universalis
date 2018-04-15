@@ -104,16 +104,16 @@ allianceaction = {
             is_good = yes
         }
         allow = {
-            FROM = { is_good }
+            FROM = { is_good = yes }
         }
     }
     condition = {
         tooltip = WOW_ALIGNMENT_INCOMPATIBLE
         potential = {
-            is_evil = evil
+            is_evil = yes
         }
         allow = {
-            FROM = { is_evil }
+            FROM = { is_evil = yes }
         }
     }
 }

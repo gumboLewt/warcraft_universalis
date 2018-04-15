@@ -4,7 +4,7 @@ mercantilism 		= 10
 technology_group 	= tech_goblin
 religion			= religion_greed
 primary_culture 	= culture_venture
-capital 			= 1
+capital 			= 1106
 
 546.1.1 = { 
 monarch = { 

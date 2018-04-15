@@ -5,7 +5,8 @@ mercantilism 		= 10
 technology_group 	= tech_troll
 religion			= religion_loa
 primary_culture 	= culture_darkspear
-capital 			= 1385
+capital 			= 1384
+fixed_capital = 1385
 
 
 546.1.1 = {

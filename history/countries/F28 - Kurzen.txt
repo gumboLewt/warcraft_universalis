@@ -5,7 +5,7 @@ mercantilism 		= 10
 technology_group 	= tech_human
 religion			= religion_voodoo
 primary_culture 	= culture_azerothian
-capital 			= 1
+capital 			= 601
 
 926.1.1 = { 
 

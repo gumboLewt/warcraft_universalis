@@ -3,7 +3,7 @@ is_city = no
 
 native_size = 10
 native_ferocity = 10
-navite_hostileness = 10
+native_hostileness = 10
 
 owner = XXX
 controller = XXX

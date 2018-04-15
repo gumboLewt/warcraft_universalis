@@ -3,7 +3,7 @@ is_city = yes
 
 owner = A22
 controller = A22
-add_core = 22
+add_core = A22
 
 base_tax = 5
 base_production = 5

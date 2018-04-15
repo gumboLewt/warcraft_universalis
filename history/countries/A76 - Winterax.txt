@@ -5,7 +5,7 @@ mercantilism 		= 10
 technology_group 	= tech_troll
 religion			= religion_voodoo
 primary_culture 	= culture_winterax
-capital 			= 1941
+capital 			= 712
 
 546.1.1 = { 
 	monarch = { 

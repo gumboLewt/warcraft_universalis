@@ -12,5 +12,5 @@ base_manpower = 7
 culture = culture_gnome
 religion = religion_tech
 
-trade_goods = army_workshops
+trade_goods = workshops
 hre = no

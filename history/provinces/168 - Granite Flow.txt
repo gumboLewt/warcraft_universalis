@@ -9,7 +9,7 @@ base_production = 1
 base_manpower = 1
 
 culture = culture_azerothian # Dummy
-relition = religion_ancestral # Dummy
+religion = religion_ancestral # Dummy
 
-trade_good = grain
+trade_goods = grain
 hre = no

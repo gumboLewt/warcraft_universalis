@@ -4,7 +4,7 @@ government_rank 	= 1
 mercantilism 		= 10
 technology_group 	= tech_pandaren
 religion			= religion_celestial
-primary_culture 	= culture_tuskui
+primary_culture 	= culture_tushui
 capital 			= 1
 
 976.1.1 = { 

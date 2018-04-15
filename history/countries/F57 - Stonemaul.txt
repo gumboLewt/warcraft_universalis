@@ -3,8 +3,8 @@ government 			= warband_gov
 mercantilism 		= 10 
 technology_group 	= tech_ogre
 religion			= religion_geomancy
-primary_culture 	= culture_crushridge #They was part of Crushridges
-capital 			= 1453
+primary_culture 	= culture_crushridge #They were part of Crushridges
+capital 			= 1451
 
 816.1.1 = { 
 monarch = { 

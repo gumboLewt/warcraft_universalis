@@ -21,11 +21,14 @@ cb_restore_personal_union = {
 	months = 240
 
 	prerequisites = {
-		government = monarchy
+		OR = {
+			government = monarchy
+		}
 		is_revolution_target = no
-        FROM = {
-          is_subject = no
-        }
+		FROM = {
+			government = monarchy
+			is_subject = no
+		}
 	}
 
 	war_goal = take_capital_personal_union
@@ -189,8 +192,6 @@ cb_trade_league_conflict = {
 	valid_for_subject = no
 
 	prerequisites = {
-        is_civilized = yes
-        FROM = { is_civilized = yes }
 		is_trade_league_leader = yes
 		can_justify_trade_conflict = FROM
 	}
@@ -231,6 +232,28 @@ cb_change_government = {
 
 # AUTOMATIC - Constantly in effect while 'prerequisites' is true
 # --------------------------------------------------------------
+
+# One OPM can try to humiliate another OPM.
+cb_humiliate = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "Conquest of Paradise"
+		government = native_council
+		NOT = {
+			truce_with = FROM
+			num_of_cities = 2
+			FROM = {
+				num_of_cities = 2
+			}
+		}
+		is_neighbor_of = FROM
+		is_revolution_target = no
+	}
+
+	war_goal = humiliate
+}
+
 
 # Temporary claim CB (mostly used by missions)
 cb_conquest = {
@@ -353,12 +376,10 @@ cb_heretic = {
 cb_trade_war = {
 
 	prerequisites = {
-        trade_embargo_by = FROM
-        NOT = { FROM = { trade_embargo_by = ROOT } }
+    trade_embargo_by = FROM
+    NOT = { FROM = { trade_embargo_by = ROOT } }
 		is_revolution_target = no
-        is_civilized = yes
-        FROM = { is_civilized = yes }
-	}
+  }
 
 	war_goal = superiority_trade_mutual
 
@@ -410,9 +431,6 @@ cb_claim_throne = {
 cb_privateers = {
 
 	prerequisites = {
-        is_civilized = yes
-        FROM = { is_civilized = yes }
-        
 		FROM = {
 			has_privateers = yes
 		}
@@ -457,7 +475,6 @@ cb_support_rebels = {
 
 	war_goal = take_capital_support_rebels
 }
-
 
 # Rival Humiliate CB
 cb_humiliate_rotw = {

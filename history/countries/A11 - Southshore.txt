@@ -59,7 +59,6 @@ monarch = {
 		leader = {
 			name = "Henry Maleb"
 			type = general
-			rank = 0
 			fire = 2
 			shock = 2
 			manuever = 3

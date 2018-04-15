@@ -4,7 +4,7 @@ mercantilism 		= 10
 technology_group 	= tech_goblin
 religion			= religion_tech
 primary_culture 	= culture_steamwheedle
-capital 			= 1
+capital 			= 1109
 
 546.1.1 = { 
 monarch = { 

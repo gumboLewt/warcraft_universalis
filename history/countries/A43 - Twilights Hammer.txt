@@ -4,7 +4,7 @@ mercantilism 		= 10
 technology_group 	= tech_orc
 religion			= religion_fel
 primary_culture 	= culture_twilights_hammer
-capital 			= 1
+capital 			= 1515
 
 
 776.1.1 = { 
