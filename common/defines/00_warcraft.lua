@@ -17,10 +17,9 @@ NDefines.NReligion.KARMA_JUST_RIGHT_HIGH = 25
 NDefines.NReligion.KARMA_JUST_RIGHT_LOW = -25
 NDefines.NReligion.KARMA_RESTORE_ON_RULER_DEATH = 0
 
--- Handle monarch death via event, for more control
--- Use the immortal personality flag
--- Halved from the normal value so Humans live longer
-NDefines.NCountry.MONARCH_DEATH = 2
+-- Handle ruler death via event
+NDefines.NCountry.MONARCH_DEATH = 0
+NDefines.NCountry.HEIR_DEATH = 0
 
 NDefines.NCountry.ALLOW_FEMALE_GENERALS = 1
 NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 0
