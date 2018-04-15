@@ -23,5 +23,3 @@ denied_autonomy = {
 sexually_frustrated = {
     local_unrest = 2
 }
-
-roaming_orcs = { }

@@ -5,10 +5,6 @@
  ballistaDESCR: "The ballista is a missile weapon that launched a large projectile at a distant target."
  early_cannon: "Early Cannon"
  early_cannonDESCR: "A cannon is any piece of artillery that uses gunpowder or other usually explosive-based propellants to launch a projectile"
- 
- worker: "Worker"
- workerDESCR: "Used to select provinces for non-combat purposes."
- 
  w_cog: "Transport"
  w_cogDESCR: "A vessel designed to ferry ground troops across bodies of water."
  w_galley: "Keelboat"
@@ -17,7 +13,6 @@
  w_barqueDESCR: "A fast warship with armed with a half-dozen of heavy cannon."
  w_carrack: "Battleship"
  w_carrackDESCR: "A massive, heavy-duty warship, typically armed with 10 heavy cannons and a large bombard."
-
  troll_tribalDESCR: "Wearing no armor these trolls use throwing axes followed up with a spear charge."
  troll_headhuntersDESCR: "Known to take the heads of their fallen enemies, these soldiers are covered from head to toe in tribal paint. The ritualistic paint follows clans tradition and is worn with pride. Their equipment varies from bows, spears, axes, light leather armor."
  troll_blooddrinkerDESCR: "The troll origin of consuming your enemies blood dates back thousands of years. This sacred ritual has resurfaced as an initiation to unite one another in the newly formed professional troll army. While this is the first attempt to create a uniform army, disorganization still proves to be a major factor that limits the troll's full military potential."

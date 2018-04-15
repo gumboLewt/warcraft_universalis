@@ -35,10 +35,6 @@ nationalist_rebels = {
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 10
-        modifier = {
-			factor = 10
-			has_province_modifier = "roaming_orcs"
-		}
 		modifier = {
 			factor = 0.01
 			NOT = { nationalism = 1 }

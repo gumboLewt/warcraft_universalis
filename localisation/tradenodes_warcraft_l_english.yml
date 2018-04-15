@@ -32,7 +32,6 @@
  deadwind_pass_node: "Deadwind Pass"
  westfall_node: "Westfall"
  stranglethorn_vale_node: "Stranglethorn Vale"
- 
  teldrassil_node: "Teldrassil"
  exodar_node: "Exodar"
  winterspring_node: "Winterspring"
@@ -54,9 +53,7 @@
  tanaris_node: "Tanaris"
  uldum_node: "Uldum"
  durotar_node: "Durotar"
- 
  the_lost_isles_node: "The Lost Isles"
- 
  borean_tundra_node: "Borean Tundra"
  wintergrasp_node: "Wintergrasp"
  sholazar_basin_node: "Sholazar Basin"
@@ -67,7 +64,6 @@
  crystalsong_node: "Crystalsong"
  howling_fjord_node: "Howling Fjord"
  dragonblight_node: "Dragonblight"
- 
  hellfire_peninsula_node: "Hellfire Peninsula"
  zangermarsh_node: "Zangermarsh"
  terokkar_forest_node: "Terokkar Forest"
@@ -75,7 +71,6 @@
  blades_edge_mountains_node: "Blades Edge Mountains"
  netherstorm_node: "Netherstorm"
  shadowmoon_valley_node: "Shadowmoon Valley"
- 
  jade_forest_node: "Jade Forest"
  valley_of_the_four_winds_node: "Valley of the Four Winds"
  krasarang_wilds_node: "Krasarang Wilds"

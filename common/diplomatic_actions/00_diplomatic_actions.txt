@@ -626,16 +626,6 @@ declarewar = {
         }
     }
     condition = {
-        tooltip = WOW_WAR_ON_SHADOW_COUNCIL
-        potential = {
-            religion = religion_fel
-            FROM = { tag = B88 }
-        }
-        allow = {
-            always = no
-        }
-    }
-    condition = {
         tooltip = WOW_WAR_ON_NEUTRAL
         potential = {
             has_country_modifier = neutral_member

@@ -3,17 +3,17 @@
  string_earth: "Earth"
  string_water: "Water"
  string_air: "Air"
- 
+
  string_fire_cap: "Fire"
  string_earth_cap: "Earth"
  string_water_cap: "Water"
  string_air_cap: "Air"
- 
+
  string_fiery: "fiery"
  string_earthen: "earthen"
  string_watery: "watery"
  string_atomspheric: "airy"
- 
+
  string_fiery_cap: "Fiery"
  string_earthen_cap: "Earthen"
  string_watery_cap: "Watery"

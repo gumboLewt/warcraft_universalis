@@ -1,7 +1,4 @@
 ﻿l_english:
- #-----------------------------------------------
- # Graphical Cultures
- #-----------------------------------------------
  humangfx: "Human"
  darnassiangfx: "Darnassian"
  vrykulgfx: "Vrykul"
@@ -20,9 +17,9 @@
  dragonkingfx: "Dragonkin"
  undeadgfx: "Undead"
  gnollgfx: "Gnoll"
- centaurgfx: "Centaur" 
- furbolggfx: "Furbolg" 
- wolvargfx: "Wolvar" 
+ centaurgfx: "Centaur"
+ furbolggfx: "Furbolg"
+ wolvargfx: "Wolvar"
  gorlocgfx: "Gorloc"
  koboldgfx: "Kobold"
  harpygfx: "Harpy"

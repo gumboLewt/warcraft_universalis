@@ -46,43 +46,40 @@
  war_tribe_desc: "A tribe focused on the conquest of its neighbours."
  regency_gov: "Regency"
  regency_gov_desc: "A kingdom which is currently in a state of prolonged interregnum."
- 
- 
+
  # Kingdoms
  HOLDING: "Holding"
  KINGDOM: "Kingdom"
  EMPIRE: "Empire"
- 
+
  PETTY_MAGOCRACY: "Petty Magocracy"
  MAGOCRACY: "Magocracy"
  GRAND_MAGOCRACY: "Grand Magocracy"
- 
+
  PETTY_ADMIRALITY: "Petty Admiralty"
  ADMIRALITY: "Admiralty"
  GRAND_ADMIRALITY: "Grand Admiralty"
- 
+
  DRAGONFLIGHT: "Dragonflight"
- 
+
  # Republics
  COUNCIL: "Council"
  REPUBLIC: "Republic"
  GRAND_REPUBLIC: "Grand Republic"
- 
- TINKER_REPUBLIC: "Tinker Republic"
- 
+
  TRADE_COMPANY: "Trade Company"
  TRADE_CARTEL: "Trade Cartel"
  TRADE_CONSORTIUM: "Trade Consortium"
- 
+
  PETTY_DICTATORSHIP: "Petty Dictatorship"
  DICTATORSHIP: "Dictatorship"
  GRAND_DICTATORSHIP: "Grand Dictatorship"
- 
+
  # Religion
  PETTY_THEOCRACY: "Petty Theocracy"
  THEOCRACY: "Theocracy"
  GRAND_THEOCRACY: "Grand Theocracy"
- 
+
  PETTY_ORDER: "Petty Order"
  ORDER: "Order"
  GRAND_ORDER: "Grand Order"
@@ -230,4 +227,3 @@
  
  SPLINTER: "Splinter"
  OVERSEER: "Overseer"
- 

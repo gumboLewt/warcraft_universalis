@@ -1,19 +1,4 @@
 ﻿l_english:
- rise_of_the_horde_short: "Rise of the Horde"
- rise_of_the_horde: "Rise of the Horde"
- rise_of_the_horde_desc: ""
- the_first_war_short: "The First War"
- the_first_war: "The First War" 
- the_first_war_desc: ""
- the_second_war_short: "The Second War"
- the_second_war: "The Second War" 
- the_second_war_desc: ""
- the_third_war_short: "The Third War"
- the_third_war: "The Third War" 
- the_third_war_desc: ""
- the_fronze_throne_short: "The Frozen Throne"
- the_fronze_throne: "The Frozen Throne"
- the_fronze_throne_desc: ""
  rise_of_the_qiraji_short: "Rise of the Qiraji"
  rise_of_the_qiraji: "Rise of the Qiraji"
  rise_of_the_qiraji_desc: ""
@@ -29,7 +14,10 @@
  mists_of_pandaria_short: "Mists of Pandaria"
  mists_of_pandaria: "Mists of Pandaria"
  mists_of_pandaria_desc: ""
- 
+ legion_short: "Legion"
+ legion: "Legion"
+ legion_desc: ""
+
  obj_noble_connections: "§YNoble Connections§!"
  obj_noble_connections_desc: "Have 3 Royal Marriages at once."
  obj_realm_of_virtues: "§YRealm of Virtues§!"
@@ -44,7 +32,7 @@
  obj_wise_ruler_desc: "Have a ruler with either 6 Administrative Skill, 6 Diplomatic Skill or 6 Military Skill."
  obj_prestigious_capital: "§YPrestigious Capital§!"
  obj_prestigious_capital_desc: "Have a capital with your religion and culture with 50 development and less than five devastation."
- 
+
  ab_regimented_infantry: "Empowered Infantry"
  ab_regimented_cavalry: "Disciplined Cavalry"
  ab_regimented_siege_engines: "Reinforced Siege Engines"
