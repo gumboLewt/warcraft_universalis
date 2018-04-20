@@ -63,4 +63,4 @@ tags={
 	"Alternative History"
 }
 picture="photo.jpg"
-supported_version="1.22.*.*"
+supported_version="1.25.*.*"
